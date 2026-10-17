@@ -1,6 +1,8 @@
 # Dog Owners Pay $90 for This $15 Build I Can't Keep Them in Stock
 
 - Channel: Dale Oakfield's Workshop (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: PbK8YeMSqWM
 - URL: https://www.youtube.com/watch?v=PbK8YeMSqWM
 - Upload date: 2026-10-06 (11:00 -07:00)

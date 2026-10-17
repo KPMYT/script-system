@@ -1,6 +1,8 @@
 # This Simple Project Will Pay for Your NEXT Vacation
 
 - Channel: Hank Hardwood (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: F79FvsuExqk
 - URL: https://www.youtube.com/watch?v=F79FvsuExqk
 - Upload date: 2026-10-11 (11:00 -07:00)

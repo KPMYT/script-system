@@ -1,6 +1,8 @@
 # Make ONE for Yourself Then Sell 100 More
 
 - Channel: Hank Hardwood (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: 5wkjmXYGEZs
 - URL: https://www.youtube.com/watch?v=5wkjmXYGEZs
 - Upload date: 2026-10-08 (11:00 -07:00)

@@ -1,6 +1,8 @@
 # These $1 Halloween Decorations Sell for $20 EACH
 
 - Channel: Hank Hardwood (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: pkb2Ljhg-Mc
 - URL: https://www.youtube.com/watch?v=pkb2Ljhg-Mc
 - Upload date: 2026-10-12 (11:00 -07:00)

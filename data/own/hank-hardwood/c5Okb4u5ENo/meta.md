@@ -1,6 +1,8 @@
 # Two 2x4s Paid for EVERY Tool in My Shop And Then Some 1
 
 - Channel: Hank Hardwood (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: c5Okb4u5ENo
 - URL: https://www.youtube.com/watch?v=c5Okb4u5ENo
 - Upload date: 2026-10-06 (19:57 -07:00)

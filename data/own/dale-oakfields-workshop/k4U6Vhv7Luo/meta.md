@@ -1,6 +1,8 @@
 # 50 Woodworking Projects That SELL OUT Every Single Time
 
 - Channel: Dale Oakfield's Workshop (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: k4U6Vhv7Luo
 - URL: https://www.youtube.com/watch?v=k4U6Vhv7Luo
 - Upload date: 2026-09-26 (12:00 -07:00)

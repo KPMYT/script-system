@@ -1,6 +1,8 @@
 # The One Wood Gift That Sells to EVERYONE Even People Who Have Everything
 
 - Channel: Dale Oakfield's Workshop (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: Pdm4mNFDh8M
 - URL: https://www.youtube.com/watch?v=Pdm4mNFDh8M
 - Upload date: 2026-10-14 (11:00 -07:00)

@@ -1,6 +1,8 @@
 # I Made ONE for Myself Then Sold 200
 
 - Channel: Hank Hardwood (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: qnn7mRENJ5Q
 - URL: https://www.youtube.com/watch?v=qnn7mRENJ5Q
 - Upload date: 2026-10-10 (11:00 -07:00)

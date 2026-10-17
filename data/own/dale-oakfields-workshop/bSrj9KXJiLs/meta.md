@@ -1,6 +1,8 @@
 # The Lumber Yard Secret That Cuts My Wood Costs in Half Big Box HATES This
 
 - Channel: Dale Oakfield's Workshop (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: bSrj9KXJiLs
 - URL: https://www.youtube.com/watch?v=bSrj9KXJiLs
 - Upload date: 2026-10-04 (14:26 -07:00)

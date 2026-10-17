@@ -1,6 +1,8 @@
 # New 7 The EASIEST Wood Project to Sell And the Wood Is Almost FREE
 
 - Channel: Dale Oakfield's Workshop (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: jhWrUiGVLrk
 - URL: https://www.youtube.com/watch?v=jhWrUiGVLrk
 - Upload date: 2026-10-13 (11:00 -07:00)

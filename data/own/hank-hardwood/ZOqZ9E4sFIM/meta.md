@@ -1,6 +1,8 @@
 # No Saw. No Cuts. Just a Screwdriver And People Pay HOW MUCH!
 
 - Channel: Hank Hardwood (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: ZOqZ9E4sFIM
 - URL: https://www.youtube.com/watch?v=ZOqZ9E4sFIM
 - Upload date: 2026-10-14 (11:00 -07:00)

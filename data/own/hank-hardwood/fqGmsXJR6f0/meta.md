@@ -1,6 +1,8 @@
 # 12 Wood Projects That Will SELL OUT Before Halloween
 
 - Channel: Hank Hardwood (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: fqGmsXJR6f0
 - URL: https://www.youtube.com/watch?v=fqGmsXJR6f0
 - Upload date: 2026-10-09 (11:00 -07:00)

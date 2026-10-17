@@ -1,6 +1,8 @@
 # What 20 FREE Pallets Actually Produce and What It All Sold For
 
 - Channel: Dale Oakfield's Workshop (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: IrcJeDBBpUU
 - URL: https://www.youtube.com/watch?v=IrcJeDBBpUU
 - Upload date: 2026-10-12 (11:00 -07:00)

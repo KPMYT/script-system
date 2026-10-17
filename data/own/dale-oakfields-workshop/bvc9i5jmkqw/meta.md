@@ -1,6 +1,8 @@
 # The 15 Minute Product That Made Me $5,000 Last Year
 
 - Channel: Dale Oakfield's Workshop (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: bvc9i5jmkqw
 - URL: https://www.youtube.com/watch?v=bvc9i5jmkqw
 - Upload date: 2026-10-09 (11:00 -07:00)

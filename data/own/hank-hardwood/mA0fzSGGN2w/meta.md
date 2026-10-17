@@ -1,6 +1,8 @@
 # I STILL Can't Believe What People Pay for 2x4 Tote Racks
 
 - Channel: Hank Hardwood (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: mA0fzSGGN2w
 - URL: https://www.youtube.com/watch?v=mA0fzSGGN2w
 - Upload date: 2026-10-13 (11:00 -07:00)

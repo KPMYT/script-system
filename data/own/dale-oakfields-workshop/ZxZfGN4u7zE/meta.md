@@ -1,6 +1,8 @@
 # Make Old Furniture Sell Like NEW The $10 Flip I've Done for 40 Years
 
 - Channel: Dale Oakfield's Workshop (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: ZxZfGN4u7zE
 - URL: https://www.youtube.com/watch?v=ZxZfGN4u7zE
 - Upload date: 2026-10-08 (11:00 -07:00)

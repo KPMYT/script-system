@@ -1,6 +1,8 @@
 # Don't Buy Another Tool Until You've Sold THIS 2x4 Build
 
 - Channel: Hank Hardwood (own)
+- Format: FACE (AI-avatar talking head; per user, 2026-10-17)
+- Selection: 10 most recent long-form uploads
 - Video ID: ZJE8XMH3s3g
 - URL: https://www.youtube.com/watch?v=ZJE8XMH3s3g
 - Upload date: 2026-10-07 (11:00 -07:00)

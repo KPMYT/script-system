@@ -26,7 +26,7 @@ Method (both channels):
 - Normal: median of exact views of the channel's 15 most recent long-form uploads that were at least 7 days old on 2026-10-17 (same exclusions as below).
 - Collection was split across two parallel helper agents, one per channel. They briefly shared one scratch file outside the repo; both rebuilt their data from the raw NexLev responses, and I cross-checked all 20 meta.md files afterwards (correct channel, views match the channel lists).
 
-### Dale Oakfield's Workshop (UCfAbfnf_riu2GaZHsY_QVmQ) — 31 uploads, 10 collected
+### Dale Oakfield's Workshop (UCfAbfnf_riu2GaZHsY_QVmQ) — 10 collected (channel metadata says 31 uploads; see correction below)
 - Skipped (user instruction, repeated titles): `a2MSePy9VXw`, `P_iJd8eutB8` ("Do THIS Every Sunday…"); `eNCc5E40-EQ`, `97gygC6SkqU` ("25 'ILLEGAL' Woodworking Money Tricks…").
 - Skipped (under 3 minutes): `fRRiu2HMq3c` (0:28).
 - Collected: Pdm4mNFDh8M, jhWrUiGVLrk, IrcJeDBBpUU, bvc9i5jmkqw, ZxZfGN4u7zE, JGHTrw1EIW8, PbK8YeMSqWM, bSrj9KXJiLs, jLrejHeAEjM, k4U6Vhv7Luo.
@@ -35,8 +35,8 @@ Method (both channels):
 - Comments: 14 in total across the 10 videos; 4 videos returned 0 comments (jhWrUiGVLrk, IrcJeDBBpUU, bvc9i5jmkqw, bSrj9KXJiLs). On every video the newest set equals the top set. Target of ~50 top + ~25 newest not reachable. 0 spam skipped.
 - Pdm4mNFDh8M transcript re-fetched; identical to the Phase 1 file.
 
-### Hank Hardwood (UCSbHMOqtAX2DvSJl4djytsQ) — 31 uploads, 10 collected
-- Upload count: 31, all long-form (no Shorts tab), so the full 10 were available.
+### Hank Hardwood (UCSbHMOqtAX2DvSJl4djytsQ) — 10 most recent collected (+5 most-viewed, see below)
+- Upload count: NexLev channel metadata says 31; the 30 newest are all long-form, so the full 10 were available. (Corrected below: the true count is higher.)
 - Collected: z1xeeyXsWpU, ZOqZ9E4sFIM, mA0fzSGGN2w, pkb2Ljhg-Mc, F79FvsuExqk, qnn7mRENJ5Q, fqGmsXJR6f0, 5wkjmXYGEZs, ZJE8XMH3s3g, c5Okb4u5ENo.
 - Normal = 4305. Window views (sorted): 982 Ui7jSc6lc_I, 1043 ZJE8XMH3s3g, 1518 fqGmsXJR6f0, 1880 9TXV19M0Er8, 2335 c5Okb4u5ENo, 2377 4wJn7sfiAJ4, 2775 oXywmmTIIIU, **4305 8iiFFAL4bvk**, 4373 cGszUvYe1kY, 4440 5wkjmXYGEZs, 4633 G8ePsmj-8ec, 7066 3oUT0Na_X2g, 7376 b3t6MmqfI3c, 7397 se6nDVFmyHk, 7443 PFuT9MlnOSc.
 - Under 7 days old at collection: z1xeeyXsWpU, ZOqZ9E4sFIM, mA0fzSGGN2w, pkb2Ljhg-Mc, F79FvsuExqk.
