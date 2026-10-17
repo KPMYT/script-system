@@ -14,4 +14,4 @@
 - Age at collection: 97 days
 - Analysis status: included
 - Transcript: NexLev get_bulk_video_transcripts, 351 segments, 0:00–12:38
-- Comments: PENDING
+- Comments: NexLev youtube_video_comments, 15 top + 15 newest, 0 spam skipped (API commentsCount 24)

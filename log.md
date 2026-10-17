@@ -46,3 +46,23 @@ Method (both channels):
 ### Both channels
 - NexLev often returns a comment's like count as a blank string; recorded as 0 likes.
 - No comments flagged as from the channel owner.
+
+## 2026-10-17 — Phase 2 addendum (user request)
+
+- User: Dale and Hank are talking-head AI avatars → all 20 Phase 2 meta.md files tagged `Format: FACE (AI-avatar talking head)` plus `Selection: 10 most recent long-form uploads`.
+- User: also take Hank's top 5 most-viewed, which were a different format (classic faceless) → tagged `Format: FACELESS (classic faceless format)`.
+- **Correction:** NexLev `youtube_channel_videos` (sort popular) on Hank lists uploads from July–August 2026 that were not on the first page of the newest-sorted list. NexLev's "31 uploads" channel metadata is therefore wrong; the channel has more uploads. The same may apply to Dale (first page also ended with a continuation token). The 10-most-recent selections and the normals are unaffected (both use the newest-sorted order).
+- Note: dates on NexLev channel lists for older videos are approximate ("1 month ago" → 2026-09-17, "2 months ago" → 2026-08-17). meta.md always uses the exact date from `youtube_video_details`.
+- Top 5 most-viewed long-form (none overlap the 10 most recent; all ≥ 12 min):
+  - `KLit5xVATG4` "7 Tiny Wood Projects I CAN'T Make Fast Enough — They SELL OUT!" — 2026-07-14, 13:35, 87,929 views, 20.42× normal
+  - `zPS80HAofPs` "Stores THROW OUT Pallets — Here's How I Sell Them for THOUSANDS" — 2026-08-22, 15:30, 51,954 views, 12.07× normal
+  - `Hv7e4kwUNgk` "7 Ways to Turn FREE Pallet Wood Into Big Money" — 2026-07-18, 14:31, 46,354 views, 10.77× normal
+  - `DJGPsg-N670` "25 FREE Pallet Projects That Can Build You a REAL Business" — 2026-08-02, 14:04, 29,239 views, 6.79× normal
+  - `FBSLO4DO-bQ` "10 Woodworking Side Hustles That Can Make You $5,000 a Month" — 2026-07-12, 12:40, 28,669 views, 6.66× normal
+- Ratios use the same channel normal (4305), which is computed from the recent avatar-format uploads.
+- Transcripts: one bulk call, 5 of 5 succeeded (405 / 423 / 433 / 387 / 351 segments, each running to within ~3 s of the video's end).
+- Video descriptions on these five carry a "NEW BOOK" link (hankhardwood.com) and a long "Credits" list naming other channels (e.g. KLit5xVATG4's list includes BeardedVikingWoodWorks).
+- Comments (20 per NexLev page): kept top/newest = KLit5xVATG4 26/20 (API count 72), zPS80HAofPs 14/15 (24), Hv7e4kwUNgk 13/13 (16), DJGPsg-N670 6/6 (7), FBSLO4DO-bQ 15/15 (24). 0 spam skipped.
+  - Only KLit5xVATG4 returned continuation tokens, and paging was unreliable: top pages 2–4 added 3, 3 and 0 new comments; newest pages 2–3 repeated page 1. Stopped there. API counts likely include replies (excluded).
+  - The channel owner's pinned book-promo comment is kept with a `[channel owner]` prefix on KLit5xVATG4, Hv7e4kwUNgk, FBSLO4DO-bQ.
+  - Kept as not spam (judgement calls): a viewer linking their own YouTube Short (Hv7e4kwUNgk); an off-topic rant and a timestamped summary comment (FBSLO4DO-bQ); two near-identical comments with different IDs (Hv7e4kwUNgk).
