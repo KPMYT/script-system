@@ -55,7 +55,7 @@ Single build. About six minutes of reasons, money and shopping list come before 
 
 ## Standout lines
 - [1:33] "25 yeses, and you're on a beach somewhere."
-- [13:07] "The leg folds under the board, and somebody's uncle eats plywood."
+- [13:05] "The leg folds under the board, and somebody's uncle eats plywood."
 - [15:40] "A plain set is something they'll compare against the next listing. A set with their name on it doesn't have anything to compare to."
 
 ## Comments

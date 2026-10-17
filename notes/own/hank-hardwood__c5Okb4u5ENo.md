@@ -59,9 +59,9 @@ Single build framed by a tool-funding argument. Segments link with "So here's th
 - [20:12] Comment — "tell me down in the comments what a stand like this would sell for where you live"
 
 ## Standout lines
-- [6:15] "The most common pot in America and the most common board in America fit together like they planned it."
-- [10:07] "It's the one part of the saw that's thinking about your hands when you aren't."
-- [19:20] "I'll be honest with you though, that's sales, not profit."
+- [6:12] "The most common pot in America and the most common board in America fit together like they planned it."
+- [10:04] "It's the one part of the saw that's thinking about your hands when you aren't."
+- [19:18] "I'll be honest with you though, that's sales, not profit."
 
 ## Comments
 5 unique comment entries available (two carry identical text). "Sounds like AI"/fake: 4 — "your voice has changed! Has 11Labs discontinued the other voice you were using?"; one saying the video was generated "thru AI"; two copies of the "BOGUS channel… AI generated person and voice" comment. Complaints: 1 — the project shown does not match the description ("the boards look like 4x4s and not 2x4s", "The assembly steps described do not match what is shown"), ending "Unsubscribing now." Praise: 2 — "Thank you"; "This channel has given me some good ideas" (same comment as the voice remark).

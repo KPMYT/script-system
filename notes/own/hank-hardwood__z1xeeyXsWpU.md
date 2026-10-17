@@ -48,7 +48,7 @@ Items are joined by bridge sentences that link one item's location or buyer to t
 
 ## CTAs
 - [1:19] Watch to end — "stick around for number 12"
-- [6:13] Digital book via on-screen code/link — "Point your phone's camera at it… the first link under this video lands on the same page"
+- [6:28] Digital book via on-screen code/link — "Point your phone's camera at it… the first link under this video lands on the same page"
 - [14:48] Digital book again — "The scan code is back on your screen and the first link in the description does the same job"
 - [15:13] Subscribe — "subscribe to Hank Hardwood"
 - [15:15] Comment — "tell me in the comments which of the 12 you're hauling to the saw first"

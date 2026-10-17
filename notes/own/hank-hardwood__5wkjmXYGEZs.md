@@ -57,9 +57,9 @@ Single build in two passes: one riser, then a batch of 100. Three reasons are co
 - [19:23] Comment — "tell me in the comments which stain color your first riser is getting"
 
 ## Standout lines
-- [0:13] "Nobody walks into my kitchen and asks about the cabinets. They ask about the block."
+- [0:10] "Nobody walks into my kitchen and asks about the cabinets. They ask about the block."
 - [12:03] "Stain is color. Stain is not protection."
-- [18:32] "An empty shelf at the end of a fair day isn't luck, it's proof."
+- [18:29] "An empty shelf at the end of a fair day isn't luck, it's proof."
 
 ## Comments
 4 unique comments available (all appear in top and newest). Praise: 1 — "Nice build." Complaints: 2 — "Your pictures don't match what you are describing to build" (2 likes); "No body believes you." "Sounds like AI"/fake: 1 — the "BOGUS channel… AI generated person and voice… uses other creators clips" comment. No questions.

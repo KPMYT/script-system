@@ -48,14 +48,14 @@ Twelve numbered items, introduced with "Number X", "Okay, let's get into number 
 
 ## CTAs
 - [2:55] Keep watching — "Now hang on to this because it matters later."
-- [3:39] Digital book via QR code/link — "point your phone at it and tap the link that pops up… the link is right up top"
+- [3:36] Digital book via QR code/link — "point your phone at it and tap the link that pops up… the link is right up top"
 - [13:02] Digital book again — "The link is up top in the description below and the QR code is on screen"
 - [13:12] Subscribe — "subscribe to Hank Hardwood"
 - [13:14] Comment — "tell me in the comments which of these 12 you're cutting first"
 
 ## Standout lines
 - [0:09] "So, if your pieces aren't listed by the first week of October, you'll be decorating your own porch with them."
-- [6:13] "Now, you're not selling a sign, you're selling their sign."
+- [6:11] "Now, you're not selling a sign, you're selling their sign."
 - [7:08] "Selling out is the proof that this works. But you can't sell out of what you didn't build."
 
 ## Comments

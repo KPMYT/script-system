@@ -49,9 +49,9 @@ Eight numbered sections, each opened by "Number X" plus a label ("Number two, th
 - [12:58] Comment — "tell me in the comments what your garage is drawing in it"
 
 ## Standout lines
-- [1:30] "The rail is the slide. The lip is the runner."
-- [6:47] "This one gets price checked against your zip code and your zip code is a much friendlier room."
-- [8:11] "garage chaos is a renewable resource."
+- [1:27] "The rail is the slide. The lip is the runner."
+- [6:44] "This one gets price checked against your zip code and your zip code is a much friendlier room."
+- [8:08] "garage chaos is a renewable resource."
 
 ## Comments
 1 unique comment available (listed in both top and newest). "Sounds like AI"/fake: 1 — the "BOGUS channel… AI generated person and voice… uses other creators clips" comment, ending "I personally would NEVER click his QR code!" No questions, complaints about content, or praise.
