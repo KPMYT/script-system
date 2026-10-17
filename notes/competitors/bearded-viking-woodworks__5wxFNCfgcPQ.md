@@ -11,43 +11,38 @@
 
 ## Structure map
 - Hook: 76 words, 23 s (ends at [0:23] "I went up to Lowe's and I got this")
-- First real value: [0:23] "I went up to Lowe's and I got this Reliabilt panel. It's 3/4 in thick by 16 in wide and 4 ft long."
-- Segments (17 lines carry "[music]" tags):
+- First real value: [0:23] "Reliabilt panel. It's 3/4 in thick by 16 in wide and 4 ft long."
+- Segments:
   - [0:00] Hook: spring markets, "Okay, Daniel, but what am I going to build?" — 76 w
   - [0:23] Lowe's panel ($13, Quarter Pounder comparison); rip to 7 1/4 — 101 w
   - [1:00] Like request — 21 w
-  - [1:19] 10 in pieces; 50° bevel trick on the miter saw — 176 w
-  - [2:34] 1 in marks — 51 w
-  - [3:03] "Add it up a glue" chant; brads — 61 w
+  - [1:19]–[3:03] 10 in pieces, 50° bevel trick, 1 in marks, glue chant, brads — 51–176 w each
   - [3:34] Subscribe/hype request — 37 w
-  - [3:47] Roof piece cut long; scribe method; ~41° bevel — 213 w
-  - [5:06] Rip 1 1/2 in strips; scribe again — 152 w
-  - [6:14] Honey stain for contrast; sand to 150 — 85 w
-  - [6:50] Oak dowels from Lowe's cut to 4 in — 58 w
-  - [7:26] Dowel layout, punch, drill — 65 w
-  - [8:01] Assembly: glue, brads, roof, dowels; "Voilà" — 121 w
-  - [9:31] Mounting: suction cups or rope and eye hook; the algae aside — 147 w
+  - [3:47]–[5:06] Roof piece, scribe method, ~41° bevel; 1 1/2 in strips — 152–213 w each
+  - [6:14]–[7:26] Honey stain, sanding; oak dowels from Lowe's; dowel layout, drill — 58–85 w each
+  - [8:01] Assembly; "Voilà" — 121 w
+  - [9:31] Mounting: suction cups or rope and eye hook; algae aside — 147 w
   - [10:29] Etsy price, spar urethane, two per panel — 126 w
   - [10:59] Outro — 24 w
   - [11:09] Post-outro addendum: a 45° bevel throughout — 72 w
 
 ## Pacing
-Stages open with "Now we'll…", "Next, I'll…", "While I let those two pieces dry…", and "Follow me, crew" (3 lines). The product is first named "birdhouse or bird feeder" at [9:54]. Across the 11 build stages, the shortest is the 1 in marks (29 s, 51 w), the longest is the assembly (90 s, 121 w), and the typical stage runs about 37 s and 101 w.
+Transitions: "Next, I'll…", "Follow me, crew" (3). Product first named [9:54]. 11 build stages: shortest 29 s / 51 w; longest 90 s / 121 w; typical ~37 s / 101 w.
 
 ## Content habits
-- Prices/earnings: 5 lines. Examples are the panel at "$13 and some change," dowels "around two bucks," and "$45, $50 a piece… $100 out of that one panel."
-- Where to buy materials: yes. A Lowe's Reliabilt panel [0:23], a 1x8x8 as the alternative ("around $17") [0:50], and oak dowels "at Lowe's" [6:50].
-- Show and tell: 1 line, "And I've got an eye hook right here" [9:57] (low). Near match not counted: "a gray tab right back here" [1:45].
+- Prices/earnings: 5 lines; e.g. "$13 and some change," "$45, $50 a piece."
+- Where to buy materials: yes — Lowe's panel [0:23]; 1x8x8 alternative [0:50]; oak dowels, Lowe's [6:50].
+- Show and tell: 1 line (low), "eye hook right here" [9:57].
 
 ## Voice
-- Personal experience/stories: yes, about 3. "browsing the internet for the last couple of weeks" [0:08], the Lowe's trip [0:23], and hanging it under his porch [10:16].
-- Personality vs information: mostly instruction, with about 8 asides. Examples are a self-posed question ("Okay, Daniel, but what am I going to build?"), the "Add it up a glue" chant (5 times), "pop a brad in his ass" (3 times), and "Voilà."
+- Personal experience/stories: yes, ~3; e.g. hanging it under his porch [10:16].
+- Personality vs information: mostly instruction; ~8 asides ("Add it up a glue" ×5).
 - Adversary: none.
 
 ## CTAs
-- [1:02] Like — "Don't forget to smack that like button if you're enjoying the content and want to see more."
-- [3:34] Subscribe and hype — "head down below and hit that subscribe button and make sure that you're hyping this video. It really does help."
-- [10:59] Make sawdust — "rockstars, it is indeed your turn to get in your shop and make some sawdust."
+- [1:02] Like — "Don't forget to smack that like button"
+- [3:34] Subscribe and hype — "hit that subscribe button… hyping this video"
+- [10:59] Make sawdust — "get in your shop and make some sawdust"
 
 ## Standout lines
 - [0:31] "This thing cost me right around $13 and some change, which is about the same exact cost of a Quarter Pounder meal from McDonald's."
@@ -55,11 +50,9 @@ Stages open with "Now we'll…", "Next, I'll…", "While I let those two pieces 
 - [10:16] "Don't mind all the algae on my house. I have not pressure washed it yet."
 
 ## Comments
-56 unique comments were available (3 duplicates).
-- Praise: about 18, for example "Cute A frame feeder" and "useful info on scribing project angles."
-- Tips/suggestions: about 14. Examples are drainage (2), a sealer (4), two strings to stop spinning, and dropping the dowels because of predators.
-- The 41° angle: 4. Two explain the geometry (22 likes), and one is a Fahrenheit/Celsius joke (20 likes).
-- The glue jingle: 4, for example "Do you mind if i use that jingle in my videos?"
-- Complaints/hostility: about 10. Examples are a flag insult (13 likes), "Do people really pay $50 for that," and "I DON'T THINK YOU ARE HONEST ABOUT YOUR SALES."
-- Other: personal notes and anecdotes, about 7.
-- "Sounds like AI"/fake remarks: 0. One audio remark: "My man ADR'd 'to 4 inches' when he said 5" [7:06].
+57 unique (2 duplicates).
+- Praise: ~18 ("Cute A frame feeder").
+- Tips/suggestions: ~14 (sealer ×4, drainage).
+- Complaints/hostility: ~10 ("Do people really pay $50 for that").
+- Other: angle geometry/jokes 4; glue jingle 4; personal notes ~7.
+- "Sounds like AI"/fake: 0 (one ADR remark).
