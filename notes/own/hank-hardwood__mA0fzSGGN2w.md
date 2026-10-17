@@ -18,7 +18,7 @@
   - [0:46] #1 What the tote rack is — 247 w
   - [2:10] #2 The receipt — 255 w
   - [3:32] #3 What people pay — 193 w
-  - [4:43] "Why pay triple" tease — 61 w
+  - [4:43] Why-pay-triple tease — 61 w
   - [5:04] Mid-roll book promo — 175 w
   - [5:59]–[8:08] #4–#6 Reasons 1–3 — 176–196 w each
   - [9:08] #7 The build — 169 w
@@ -27,7 +27,7 @@
   - [12:27] Book promo + close — 116 w
 
 ## Pacing
-"Number X" + label ("Number two, the receipt"); bridges such as "Time to earn it, which means the saw". "Why pay triple" posed [4:49], held across promo, answered #4–#6. Sections: shortest 60 s / 176 w (#6); longest 101 s / 288 w (#7 with safety); median ~77 s / 222 w.
+"Number X" + label ("Number two, the receipt"); bridges such as "Time to earn it, which means the saw". Why-pay-triple question posed [4:49], held across promo, answered #4–#6. Sections: shortest 60 s / 176 w (#6); longest 101 s / 288 w (#7 with safety); median ~77 s / 222 w.
 
 ## Content habits
 - Prices/earnings: 17 lines (24 with bare numbers); "$4 a stick", "sells for 150 to 200".

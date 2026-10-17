@@ -26,7 +26,7 @@
   - [12:49] Book promo + close — 97 w
 
 ## Pacing
-"Number X", "Which brings me to number six". Fixed lines per item: "Material cost is about…", "Build time is about…", "They sell for…", "Your buyer is…" (11 each). [2:55] tease paid off at #12. Items: shortest 40 s / 110 w (#11); longest 91 s / 288 w (#1 with safety); median ~51 s / 151 w.
+"Number X". Fixed lines per item: "Material cost is about…", "Build time is about…", "They sell for…", "Your buyer is…" (11 each). [2:55] tease paid off at #12. Items: shortest 40 s / 110 w (#11); longest 91 s / 288 w (#1 with safety); median ~51 s / 151 w.
 
 ## Content habits
 - Prices/earnings: 26 lines; "$10 to $15", leaner "$45 to $65".
@@ -35,7 +35,7 @@
 
 ## Voice
 - Personal experience/stories: yes, 3 — e.g. "Biscuit has put tooth marks in two of mine and they sold anyway" ([2:43]).
-- Personality vs information: ~6 asides ("number three has whiskers"); rest template lines + safety notes.
+- Personality vs information: ~6 asides; rest template lines + safety notes.
 - Adversary: "The hardwood crowd will tell you pine is too soft for anything worth selling" ([2:38]).
 
 ## CTAs
@@ -51,4 +51,4 @@
 - [7:08] "Selling out is the proof that this works. But you can't sell out of what you didn't build."
 
 ## Comments
-2 unique. Questions: 1 — which website platform the channel uses (commenter sells e-books). "Sounds like AI"/fake: 1 — "AI generated person and voice". No complaints or praise.
+2 unique. Questions: 1 — website platform used (commenter sells e-books). "Sounds like AI"/fake: 1. No complaints or praise.

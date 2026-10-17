@@ -27,17 +27,17 @@
   - [18:57] Book promo + close — 115 w
 
 ## Pacing
-"The first reason", "The second reason"; steps "First up, lumber", "Next up, the sanding". Batch: "Day one is cutting… Day two is sanding". [4:22] tease paid off [12:01]. Steps: shortest 40 s / 138 w (tops); longest 101 s / 319 w (finish); median ~88 s / 273 w.
+Reasons counted ("The first reason"); steps "First up, lumber". Batch by day ("Day one is cutting…"). [4:22] tease paid off [12:01]. Steps: shortest 40 s / 138 w (tops); longest 101 s / 319 w (finish); median ~88 s / 273 w.
 
 ## Content habits
-- Prices/earnings: 14 lines; "$15 to $20 for a single", "Around $1,750 of profit." Captions render $6.50 as "650".
-- Where to buy materials: yes — "construction 2 by sixes from the box store" ([5:30]); legs "from the offcut pile" ([7:44]). Selling: craft fairs, Facebook Marketplace, Etsy ([17:01]–[17:50]).
+- Prices/earnings: 14 lines; "$15 to $20 for a single", "Around $1,750 of profit."
+- Where to buy materials: yes — "construction 2 by sixes from the box store" ([5:30]). Selling: craft fairs, Facebook Marketplace, Etsy ([17:01]–[17:50]).
 - Show and tell: 0 on-screen. None.
 
 ## Voice
 - Personal experience/stories: yes, 4 — e.g. "The first riser I ever put by my own sink rocked like an old porch chair" ([2:39]).
-- Personality vs information: ~6 asides ("Put on a podcast"); [5:24]–[15:57] mostly instruction.
-- Adversary: "Folks online will tell you to build some big impressive portfolio piece" ([3:49]).
+- Personality vs information: ~6 asides; [5:24]–[15:57] mostly instruction.
+- Adversary: "build some big impressive portfolio piece" ([3:49]).
 
 ## CTAs
 - [0:38] Keep watching — "Stick with me"

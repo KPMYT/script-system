@@ -27,17 +27,17 @@
   - [15:30] Book promo + close — 81 w
 
 ## Pacing
-To [8:37]: chronological story ("The first time I said yes", "Once the colors were sorted out"). Then batch process: "At the saw", "Last comes the stain." Batch stages: shortest 32 s / 110 w (drip plate); longest 61 s / 204 w (stain); median 53 s / 180 w.
+To [8:37]: chronological story ("The first time I said yes"). Then batch process: "At the saw", "Last comes the stain." Batch stages: shortest 32 s / 110 w (drip plate); longest 61 s / 204 w (stain); median 53 s / 180 w.
 
 ## Content habits
 - Prices/earnings: 22 lines; "$18 to $25 a piece", "about $3,600 before fees."
-- Where to buy materials: yes — 4x4 "at the box store" ([0:49]); pins "by the bag as candle spikes" ([1:04]); stain, paint aisle ([3:54]). No drip-plate source.
-- Show and tell: 2 — "Watch this edge when I turn it toward the window" ([1:51]), "look at that crooked corner" ([15:11]). Low.
+- Where to buy materials: yes — 4x4 "at the box store" ([0:49]); pins "by the bag as candle spikes" ([1:04]).
+- Show and tell: 2 — e.g. "look at that crooked corner" ([15:11]). Low.
 
 ## Voice
 - Personal experience/stories: yes, ~6 — e.g. visitors asking "Would you make me one?" ([2:51]).
 - Personality vs information: first-person narrative to [8:37]; then mostly instruction/safety.
-- Adversary: "Folks will tell you a candle block that sells for $20 ought to be cherry or walnut" ([6:09]).
+- Adversary: "a candle block that sells for $20 ought to be cherry or walnut" ([6:09]).
 
 ## CTAs
 - [4:24] Book via code/link — "point your phone's camera at the code"
@@ -52,4 +52,4 @@ To [8:37]: chronological story ("The first time I said yes", "Once the colors we
 - [15:04] "And it's not for sale, no matter how nicely anybody asks."
 
 ## Comments
-7 unique. Questions: 3 — pins, drip pan source. "Sounds like AI"/fake: 5 — e.g. "AI nonsense. Sold 200? Yeah right..". Complaints: 1 — "I've never got an answer to a question". Praise: 1 — "like your idea."
+7 unique. Questions: 3 (pins, drip pan source). "Sounds like AI"/fake: 5 — e.g. "AI nonsense. Sold 200? Yeah right..". Complaints: 1. Praise: 1 — "like your idea."

@@ -26,16 +26,16 @@
   - [19:39] Recap + book promo + close — 139 w
 
 ## Pacing
-Single build inside a tool-funding argument. Links: "So here's the build", "Okay, let's get into it. Cutting." [4:01] tease paid off [16:53]. Build stages: shortest 47 s / 143 w (finish); longest 176 s / 565 w (cutting); median ~78 s / 245 w.
+Single build inside a tool-funding argument. Link: "Okay, let's get into it. Cutting." [4:01] tease paid off [16:53]. Build stages: shortest 47 s / 143 w (finish); longest 176 s / 565 w (cutting); median ~78 s / 245 w.
 
 ## Content habits
 - Prices/earnings: 17 lines; "45 to $60", "about $40 of profit".
-- Where to buy materials: yes — "off the bottom rack at the box store" ([0:02]); "Check the tag on the bin" ([7:24]). Selling: marketplace, "local buy and sell groups", craft fair ([16:19]–[16:25]).
+- Where to buy materials: yes — "off the bottom rack at the box store" ([0:02]). Selling: marketplace, "local buy and sell groups", craft fair ([16:19]–[16:25]).
 - Show and tell: 0 on-screen. None.
 
 ## Voice
 - Personal experience/stories: light, no dated anecdote; e.g. "I've watched folks walk into it" ([0:51]).
-- Personality vs information: ~8 jokes/similes ("three fat piano keys"); [8:20]–[14:43] mostly instruction.
+- Personality vs information: ~8 jokes/similes; [8:20]–[14:43] mostly instruction.
 - Adversary: "I know what the hardwood crowd says about all this" ([7:54]).
 
 ## CTAs

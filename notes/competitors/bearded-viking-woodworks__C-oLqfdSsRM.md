@@ -10,7 +10,7 @@
 - Selection: 5 most-viewed long-form uploads, last 24 months (rank 7 in popular order)
 
 ## Structure map
-- Hook: 48 words, 16 s (ends at [0:16] "tools, and more. Up first, we've got")
+- Hook: 48 words, 16 s (ends at [0:16] "Up first, we've got")
 - First real value: [0:36] "measure out to 12 in and get this cut down."
 - Segments:
   - [0:00] Hook: "list of some of the coolest, most profitable, beginnerfriendly projects" — 48 w
@@ -27,16 +27,16 @@
   - [16:50] Outro — 42 w
 
 ## Pacing
-Intros: "Up first, we've got…" [0:16], "Our next project is…" [6:35]. 15 stages: shortest 12 s / 16 w; longest 100 s / 265 w; typical ~49 s / 109 w.
+Intros: "Up first, we've got…", "Our next project is…". 15 stages: shortest 12 s / 16 w; longest 100 s / 265 w; typical ~49 s / 109 w.
 
 ## Content habits
-- Prices/earnings: 10 lines; e.g. "$960," "13 bucks altogether."
-- Where to buy materials: yes — "Wormer" [6:26], "Walmart" [16:09], "the big box stores" [7:23]; Kreg link [11:01].
+- Prices/earnings: 10 lines; e.g. "$960."
+- Where to buy materials: yes — "Walmart" [16:09], "the big box stores" [7:23]; Kreg link [11:01].
 - Show and tell: 2 lines (low).
 
 ## Voice
 - Personal experience/stories: yes, ~3; e.g. wife's "veterary industry" work [6:10].
-- Personality vs information: ~12 asides ("Whoa, whoa, whoa," singing).
+- Personality vs information: ~12 asides (jokes, singing).
 - Adversary: the algorithm [4:31].
 
 ## CTAs
@@ -58,7 +58,7 @@ Intros: "Up first, we've got…" [0:16], "Our next project is…" [6:35]. 15 sta
 34 unique (6 duplicates).
 - Praise: ~12 ("subbed right away").
 - Pricing defenders: 3 ("That shop cost money").
-- Doubt/complaints: ~5 ("no one shows you a gold mine").
+- Doubt/complaints: ~5 ("gold mine that still has gold").
 - Questions: ~5 (laser machine).
-- Other: tips ~5; glue chant 2; misc 4.
+- Other: tips ~5; misc ~6.
 - "Sounds like AI"/fake: 0.
