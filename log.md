@@ -92,3 +92,15 @@ Method: same as Phase 2 (NexLev only). One helper agent per competitor, each wit
 
 ### Both competitors
 - Comment totals reached: well under the ~50 top target on every video (NexLev paging returns repeated pages). Newest ~20 per video (target ~25).
+
+## 2026-10-17 — Phase 4, notes
+
+- 45 notes written: notes/own/ 25 (Dale 10, Hank 10 recent + 5 most-viewed), notes/competitors/ 20 (BeardedVikingWoodWorks 10, WhosTheVoss 10). No PRE-PIVOT videos, so none excluded.
+- Method: five helper agents (one per group) working only from each video's data folder, using one shared spec (fixed rules for hook boundary, first real value, segment word counts, price-line count, show-and-tell phrase count, stories, adversary, CTAs, comment grouping) and one template with 8 headings.
+- First drafts ran 700–900 words. A second pass rewrote them in place to the user's ~250–350 target: every note is now 352–379 words, counted excluding the indented segment-list lines (the Basics block alone is ~100 words). No numbers or timestamps were changed in that pass; quotes were only shortened to exact excerpts; some secondary examples were dropped.
+- Facts corrected during the second pass: `5wxFNCfgcPQ` (BeardedVikingWoodWorks) unique comments 56 → 57 (2 duplicates, not 3). `mA0fzSGGN2w` (Hank): a paraphrase had been shown in quote marks; marks removed.
+- Checks: all 8 headings present in all 45 files; scan for judgment words outside quotes found none; quotes were checked against transcripts/comments by the agents.
+- Measurement notes recorded inside individual notes: where the hook boundary was not a "Number one"-style line, the boundary line used is quoted; show-and-tell counts use a fixed phrase list and are low/none for most videos; several BeardedVikingWoodWorks captions contain many "[Music]" lines (included in word counts).
+- Notes flagged inside individual files (descriptive): title numbers or claims not found in the transcript (e.g. Dale "40 Years", "HATES", "$5,000" stated as a hypothetical; WhosTheVoss "$45 each"); a Hank mid-roll CTA naming "Hand Crafted Wood" (`Hv7e4kwUNgk` 6:33).
+- notes/INDEX.md written from the meta.md files: 45 rows (group, channel, title, views/normal, link); all links resolve.
+- Stopped here as instructed. No trend summary or conclusions written.

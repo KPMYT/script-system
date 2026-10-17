@@ -26,16 +26,16 @@
   - [12:09] Outro — 38 w
 
 ## Pacing
-Transitions: "The next step is to work our 1x3," "Follow me, crew." Product not named until [9:01]. 10 build stages: shortest 15 s / 51 w; longest 157 s / 468 w; typical ~42 s / 127 w. Costs and pricing in one 136 s block.
+Transitions: "The next step is to work our 1x3," "Follow me, crew." Product not named until [9:01]. 10 build stages: shortest 15 s / 51 w; longest 157 s / 468 w; typical ~42 s / 127 w.
 
 ## Content habits
-- Prices/earnings: 15 lines; e.g. "$37.75" total cost, "7 * 37, that's $259."
+- Prices/earnings: 15 lines; e.g. "$37.75" total cost, "that's $259."
 - Where to buy materials: yes — "your nearest big box store" [0:07]; ornaments "from Target" [10:36]; drill press "from Lowe's" [12:01]; CA glue link [7:06].
 - Show and tell: 0 (none).
 
 ## Voice
 - Personal experience/stories: yes, ~4; e.g. "10 years ago, I would have brought my kids in" [9:38].
-- Personality vs information: mostly step instruction; ~8 asides ("Or you could just hold your breath"); voices a viewer ("Okay, Daniel. But what are we building?").
+- Personality vs information: mostly step instruction; ~8 asides ("Or you could just hold your breath").
 - Adversary: none.
 
 ## CTAs
