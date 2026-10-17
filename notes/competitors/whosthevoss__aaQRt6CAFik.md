@@ -27,23 +27,23 @@
   - [17:44] Thanks and outro gag — 67 w
 
 ## Pacing
-Builds are numbered aloud: "Our first build," "For project two," "Build number three follows those same handle instructions," "For build number 1 2 3, build number four," "Build number five," "Build number six, you're going to do those same steps." Later builds reference earlier steps ("cut it out, sand it, router it, sand it"). Across the six builds, the shortest is build 6 (79 s, 225 w), the longest is build 4 (172 s, 544 w), and the median is about 112 s and 374 w. All business talk comes after the last build.
+Numbered aloud: "Our first build," "Build number five." 6 builds: shortest build 6 (79 s, 225 w); longest build 4 (172 s, 544 w); median ~112 s, 374 w.
 
 ## Content habits
-- Prices/earnings: 20 lines. Examples: build prices "$4 … $5 … $6 … $10"; "$66 minus $5.82 $60.18 is your take home"; "We made over $7,000 just on this one product."
-- Where to buy materials: Yes. Earth magnets "on Amazon" ([3:38]); a 50-pack of hardware, "Link in the description" ([10:25]); scrap wood or "that 1 by 4 pine" ([15:11]).
-- Show and tell: 6 matched lines; medium (e.g. "look how close my fingers are," "look at how shiny and shimmery"; two matches are off-screen uses of "look"/"watching").
+- Prices/earnings: 20 lines; e.g. "We made over $7,000 just on this one product."
+- Where to buy materials: yes; magnets "on Amazon" [3:38], hardware link [10:25], scrap or 1x4 pine [15:11].
+- Show and tell: 6 lines; medium.
 
 ## Voice
-- Personal experience/stories: Yes, about 5: driving 20 mi for bottles that turned out to be twist-off ([3:43]); snapping screws in purpleheart ([11:05]); booth customers calling his prices overpriced ([12:44]); last year's Etsy sales ([16:08]); the 55 magnet openers he owns ([16:32]).
-- Personality vs information: Roughly 10 jokes or asides between instructions ("look how close my face is," the bucket "sixth sense," "Just a little bit" with laughter, "up your life insurance," "Must be done").
-- Adversary: "big corporations" and Amazon ([12:35]); booth customers who say "Amazon's got it cheaper" ([12:44]): "Go over to the 3D printed stuff. That's where you belong" ([13:09]).
+- Personal experience/stories: yes, ~5; e.g. twist-off bottles [3:43].
+- Personality vs information: ~10 jokes/asides (e.g. bucket "sixth sense").
+- Adversary: "big corporations" and Amazon [12:35]; "Amazon's got it cheaper" customers [12:44].
 
 ## CTAs
 - [10:25] Hardware link — "Link in the description."
-- [15:03] Itemized cost list — "Also in the description is an itemized list"
-- [17:19] Giveaway entry by comment — "This can all be yours. Drop a comment."
-- [17:47] Repeat of the comment ask — "if you want this to be yours, make a comment."
+- [15:03] Itemized cost list — "an itemized list"
+- [17:19] Giveaway by comment — "Drop a comment."
+- [17:47] Comment ask, repeated — "make a comment."
 
 ## Standout lines
 - [0:11] "Evergreen products from a seller's perspective means that the product will generate consistent sales over a long period of time, regardless of a particular season, trend, or holiday."
@@ -51,11 +51,9 @@ Builds are numbered aloud: "Our first build," "For project two," "Build number t
 - [11:58] "a 1/4 in drill bit, up your life insurance cuz you're going to be holding on to this."
 
 ## Comments
-40 unique comments (20 top + 20 newest, no duplicates).
-- Praise (~28): humor, free plans (incl. a low-vision veteran on a fixed income), beginner accessibility, building with kids.
-- Selling reports (~3): "I sell these little projects super well at my local craft fairs" (94 likes); planter boxes sold for $850.
-- Ideas (~2): heart-shaped purpleheart opener for Valentine's Day, Scout projects.
-- Questions (~2): reusing hardware from imported openers; requests for long-term tool reviews.
-- Giveaway entries (~3): "Any comment! Any comment!!"
-- Complaints (~1): realizing three builds in that all six were bottle openers.
-- "Sounds like AI"/fake remarks: 0.
+40 unique.
+- Questions ~2: hardware reuse; tool reviews.
+- Complaints ~1: all six being bottle openers.
+- Praise ~28: humor, free plans.
+- "Sounds like AI"/fake: 0.
+- Other: selling reports ~3; ideas ~2; giveaway entries ~3.

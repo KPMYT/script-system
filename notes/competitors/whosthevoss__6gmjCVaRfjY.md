@@ -26,20 +26,20 @@
   - [10:14] Outro: wife, truck burnout — 50 w
 
 ## Pacing
-Steps are announced as a recipe: "First ingredient you need," "Second ingredient you'll need," "Then we're going to crank up the heat," "Next, you're going to need some sort of a silicone mold," followed by "Which rolls me right into the next tidbit of information," "Speaking of fire starters, let's see these babies in action," "And now it's time to start selling these," and "So, what else could you do with your sawdust." Across the nine body stages, the shortest is mixing (30 s, 109 w), the longest is the other-uses list (103 s, 362 w), and the median is 56 s and 176 w. Items in that list (bedding, soil, mulch, crack filler, absorbent, icy driveways, a baked-goods joke) run about 7–16 s each.
+Recipe steps: "First ingredient you need," "Next, you're going to need some sort of a silicone mold." 9 body stages: shortest mixing (30 s, 109 w); longest other-uses list (103 s, 362 w); median 56 s, 176 w. List items ~7–16 s each.
 
 ## Content habits
-- Prices/earnings: 12 lines. Examples: "made me 48 bucks"; "$12.99, I'm getting 50 … only 25 cents"; "$6 each, two for $10"; "pure profit is $70.55 up to $87.55."
-- Where to buy materials: Yes. Sawdust from your own dust collector, miter saw or planer ([1:02]); crayons sold "in bulk without the wrapper" ([1:30]); used candles at "the thrift store" ([2:33]); molds "on clearance" ([3:51]) and from Amazon ([4:05]).
-- Show and tell: 1 matched line; low (and it is "watch the movie Wicked," not an on-screen reference).
+- Prices/earnings: 12 lines; e.g. "$6 each, two for $10," "pure profit is $70.55 up to $87.55."
+- Where to buy materials: yes; own dust collector/saws [1:02], bulk crayons [1:30], "the thrift store" [2:33], clearance molds [3:51], Amazon [4:05].
+- Show and tell: 1 line; low ("watch the movie Wicked," not on-screen).
 
 ## Voice
-- Personal experience/stories: Yes, about 5: selling a few at his craft booth ([0:07]); an oversized stump mold he never used ([3:34]); wives at the booth sniffing the pucks ([5:18]); a burn test in "20 mile an hour winds" ([6:15]); his wife asking if he is done recording ([10:14]).
-- Personality vs information: Roughly 12 jokes or asides ("going out to eat money," "That's jail time, by the way," "Paraffin wax, the miracle product," "Chicken, anything to add? He's got nothing," the rice crispy treats bit).
-- Adversary: none. He heads off price objections: "Nobody's going to buy them for that price. Just save you guys the comment" ([7:53]).
+- Personal experience/stories: yes, ~5; e.g. wives at the booth sniffing the pucks [5:18].
+- Personality vs information: ~12 jokes/asides (e.g. "Paraffin wax, the miracle product").
+- Adversary: none.
 
 ## CTAs
-- None in the transcript (no subscribe, like, comment, link or plans ask).
+- None in the transcript.
 
 ## Standout lines
 - [0:11] "What I was going to throw away made me 48 bucks."
@@ -47,10 +47,9 @@ Steps are announced as a recipe: "First ingredient you need," "Second ingredient
 - [7:53] "Nobody's going to buy them for that price. Just save you guys the comment."
 
 ## Comments
-44 unique comments (24 top + 20 newest, no duplicates).
-- Alternative methods (~13): a cheap thrift-store crock pot as a "dedicated wax pot" (913 likes), egg cartons (356 likes), Gulf Wax "around $5," beeswax, petroleum jelly, toilet-paper rolls.
-- Other sawdust uses and stories (~11): supermarket spill cleanup (340 likes), mushrooms (254 likes), selling bags to a mechanic "for $20 per bag" (86 likes), doll repair, horse stalls.
-- Safety and corrections (~5): a fire marshal on the flashpoint warning, walnut being toxic to horses, apples coated with carnauba not paraffin.
-- Look-alike jokes (~3): "Look at Ed Sheeran being all spirited and handy" (1K likes).
-- Praise (~9). Complaints (~2): "Looks like a waste of time to me." Questions (~1).
-- "Sounds like AI"/fake remarks: 0 (one comment calls YouTube "full of slop" while praising this channel).
+44 unique.
+- Questions ~1.
+- Complaints ~2: "Looks like a waste of time to me."
+- Praise ~9.
+- "Sounds like AI"/fake: 0.
+- Other: alternative methods ~13 (dedicated crock pot, 913 likes); other sawdust uses ~11 (mushrooms, mechanic sales); safety/corrections ~5; Ed Sheeran look-alike jokes ~3.

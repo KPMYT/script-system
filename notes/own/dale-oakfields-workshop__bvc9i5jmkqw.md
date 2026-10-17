@@ -13,44 +13,39 @@
 - Hook: 147 words, 48 s (ends at [0:48] "to the sale. The first thing on our list")
 - First real value: [0:24] "four coaster set that takes about 15 minutes of shop time and sells for around $30"
 - Segments:
-  - [0:00] Hook: scrap bin, coaster set, "number six" teaser, intro — 147 w
-  - [0:48] Item 1, the math ($5,100 gross, ~52 min/week) — 313 w
+  - [0:00] Hook, coaster set, item-six teaser — 147 w
+  - [0:48] Item 1, the math — 313 w
   - [2:44] Item 2, a product that sells itself — 209 w
-  - [4:01] Teaser recap (numbers three and six) — 37 w
-  - [4:16] Promo: digital book, QR code — 184 w
-  - [5:20] Item 3, crosscut sled with stop block — 301 w
-  - [7:04] Item 4, contrasting strip glue-up — 282 w
-  - [8:44] Item 5, sanding in a stack — 245 w
+  - [4:01] Teaser recap — 37 w
+  - [4:16] Promo, book, QR code — 184 w
+  - [5:20]–[8:44] Items 3–5, sled, glue-up, sanding — 245–301 w each
   - [10:09] Item 6, personalization (+$10-$15) — 225 w
-  - [11:31] Item 7, oil and wax finish, rag safety — 226 w
-  - [12:51] Item 8, cork/felt feet — 127 w
-  - [13:40] Item 9, price ladder (holder, resin inlay, seasonal shapes) — 250 w
-  - [15:06] Item 10, sell at market and online — 137 w
-  - [15:55] Bonus: wholesale to a gift shop — 181 w
+  - [11:31]–[15:06] Items 7–10, finish to selling — 127–250 w each
+  - [15:55] Bonus, wholesale to a gift shop — 181 w
   - [16:55] Book CTA — 76 w
   - [17:19] Subscribe/comment, sign-off — 41 w
 
 ## Pacing
-Ten numbered items plus a bonus, joined by "The first thing on our list", "Number two", "That brings us to the third item", "Number four", "The fifth item on our list", "Number six is the one I promised you at the top", "Number seven", "The eighth item", "Number nine", "That brings us to number 10", "And here's the bonus". The item-six teaser is placed at [0:28] and repeated at [4:07]. Items 1-10 run 49-116 s and 127-313 words; shortest are item 8, feet (49 s, 127 w) and item 10 (49 s, 137 w); longest item 1, the math (116 s, 313 w); median about 84 s and 236 words. The title's "Made Me $5,000" is presented in the transcript as a worked hypothetical: "Say you sell three or four sets a week" [1:15].
+Ordinals: "The first thing on our list", "Number six is the one I promised you at the top". Teaser at [0:28], repeated [4:07]. Items: shortest 49 s / 127 w (item 8); longest 116 s / 313 w (item 1); median ~84 s / 236 w. "$5,000" given as hypothetical: "Say you sell three or four sets a week" [1:15].
 
 ## Content habits
-- Prices/earnings: 17 lines. Examples: "170 sets at $30 is $5,100", materials "under $3 a set", wholesale "around $12 a set in your pocket".
-- Where to buy materials: no. Wood "comes out of the bin you already have" [1:53]; cork dots "cost pennies" [13:00]; no store or supplier named.
-- Show and tell: low (2). Both are "the QR code on the screen" [5:00], [17:16].
+- Prices/earnings: 17 lines; e.g. "170 sets at $30 is $5,100", "under $3 a set".
+- Where to buy materials: no; wood "comes out of the bin you already have" [1:53].
+- Show and tell: 2, low (QR code on screen).
 
 ## Voice
-- Personal experience/stories: yes, 2. Watching market shoppers pass furniture and buy coasters [3:45]; "I've seen more doors open from a shop owner feeling a finished piece in their hand" [16:38].
-- Personality vs information: Mostly procedure, dimensions, grits and arithmetic; short refrains close several items ("Math first, always", "Scrap in, product out", "20 for the price of one", "Two tables, one batch"). Caption shows one "[snorts]" at [1:36].
+- Personal experience/stories: yes, 2; market shoppers passing furniture, buying coasters [3:45].
+- Personality vs information: mostly procedure, dimensions, arithmetic; refrains ("Scrap in, product out").
 - Adversary: none.
 
 ## CTAs
-- [0:28] stay for item six — "stick around for number six"
-- [4:58] book via QR code — "Hold your phone up so it's camera can see the QR code on the screen"
-- [5:03] book via description — "the same link is the first line of the description below this video"
-- [16:57] book — "the ultimate DIY woodworking guide is the digital book I'd set right next to it"
-- [17:12] description/QR — "The link is at the top of the description"
+- [0:28] stay — "stick around for number six"
+- [4:58] book, QR — "it's camera can see the QR code"
+- [5:03] book, description — "the first line of the description"
+- [16:57] book — "the ultimate DIY woodworking guide is the digital book"
+- [17:12] description/QR — "at the top of the description"
 - [17:21] subscribe — "subscribe to Dale Oakfield's Workshop"
-- [17:24] comment — "tell me in the comments which design you're cutting first"
+- [17:24] comment — "which design you're cutting first"
 
 ## Standout lines
 - [2:56] "A coaster needs nothing."

@@ -13,45 +13,39 @@
 - Hook: 208 words, 62 s (ends at [1:02] "losing every weekend to it. Number one.")
 - First real value: [1:32] "The first pile is smalls, the things that sell for about $10 to $40."
 - Segments:
-  - [0:00] Hook: unsold cutting board scene, "number five" Etsy-fee teaser, intro — 208 w
-  - [1:02] Tip 1, sort pieces into three price piles — 210 w
+  - [0:00] Hook, unsold board scene, tip-five teaser — 208 w
+  - [1:02] Tip 1, three price piles — 210 w
   - [2:13] Tip 2, Etsy for reach — 182 w
-  - [3:09] Teaser recap (number five) — 16 w
-  - [3:13] Promo: digital book, QR code — 155 w
-  - [3:59] Tip 3, Etsy fees — 183 w
-  - [5:03] Tip 4, shipping and breakage — 172 w
-  - [5:58] Tip 5, offsite ads fee — 215 w
-  - [7:09] Tip 6, photos and search titles — 199 w
-  - [8:24] Tip 7, smalls at craft fairs and markets — 201 w
-  - [9:34] Tip 8, full cost of a market day — 214 w
-  - [10:49] Tip 9, furniture on Facebook Marketplace — 172 w
-  - [11:49] Tip 10, haggling and no-shows — 176 w
-  - [12:46] Bonus: run all three channels — 183 w
+  - [3:09] Teaser recap — 16 w
+  - [3:13] Promo, book, QR code — 155 w
+  - [3:59]–[7:09] Tips 3–6, Etsy fees, shipping, offsite ads, photos — 172–215 w each
+  - [8:24]–[11:49] Tips 7–10, fairs, market costs, Marketplace, haggling — 172–214 w each
+  - [12:46] Bonus, run all three channels — 183 w
   - [13:48] Book CTA — 62 w
   - [14:11] Subscribe/comment, sign-off — 42 w
 
 ## Pacing
-Ten numbered tips plus a bonus, joined by "Number one. The first tip on our list", "The second item is a short one", "On to tip number three", "The fourth item", "Number five, the one I promised you", "Moving to the sixth tip", "Number seven takes us off the computer and out to the fairground", "That leads straight into number eight", "The ninth item", "Number 10", "And now the bonus". Tips 3 and 4 refer back to a "scrap plywood" list from tip 1 ("Write that on the scrap plywood, too" [4:57]). Tips run 55-75 s and 172-215 words; shortest is tip 4, shipping (55 s, 172 w); longest tips 6 and 8 (75 s each, 199 and 214 w); median 67 s and 191 words.
+Ordinals: "On to tip number three", "Number five, the one I promised you"; callback "Write that on the scrap plywood, too" [4:57]. Tips: shortest 55 s / 172 w (tip 4); longest 75 s (tips 6, 8); median 67 s / 191 w.
 
 ## Content habits
-- Prices/earnings: 29 lines. Examples: Etsy fees "roughly $10" on "a $100 board", Etsy shop "$500 and $2,000 a month", market "gross $500 to $2,500", "Say you grossed $900 and paid $150 for the booth".
-- Where to buy materials: no. The sources named are selling venues (Etsy, craft fairs, farmers markets, Facebook Marketplace, local buy and sell groups).
-- Show and tell: low (2). Both are "the code on the screen" [3:46], [14:05].
+- Prices/earnings: 29 lines; e.g. Etsy shop "$500 and $2,000 a month", market "gross $500 to $2,500".
+- Where to buy materials: no; only selling venues named.
+- Show and tell: 2, low (code on screen).
 
 ## Voice
-- Personal experience/stories: yes, 3 observed events. A man hauling a dining bench to a craft fair [1:13]; folks shipping a coffee table and losing the profit [1:23]; a customer's photo of a board "with a corner knocked clean off" [5:15]. The title's "40 Years" does not appear in the transcript.
-- Personality vs information: Mostly fee percentages, price ranges, packing and photo instructions; short closing lines per tip ("Do that and a sale stays a sale", "Weight all four legs") and second-person scenes in the hook.
-- Adversary: none as an industry. The offsite ads fee is framed as something that "can't ambush your payout" once known [7:07]; "the hagglers and the flakes" appear as a cost [12:43].
+- Personal experience/stories: yes, 3 observed events; board "with a corner knocked clean off" [5:15]. "40 Years" not in transcript.
+- Personality vs information: mostly fees, prices, packing and photo instructions; one-line closers.
+- Adversary: none.
 
 ## CTAs
-- [0:36] stay for tip five — "Hang on for number five because it's the Etsy fee"
-- [3:07] teaser reminder — "I still owe you number five"
-- [3:42] book via QR code — "open the camera app on your phone and aim it at the code on the screen"
-- [3:48] book via description — "look at the top of the description under this video"
-- [13:48] book — "the ultimate DIY woodworking guide walks through complete furniture projects"
-- [14:05] description/code — "You'll find it at the top of the description, and the code is on the screen"
+- [0:36] stay — "Hang on for number five"
+- [3:07] teaser — "I still owe you number five"
+- [3:42] book, QR — "aim it at the code on the screen"
+- [3:48] book, description — "the top of the description under this video"
+- [13:48] book — "walks through complete furniture projects"
+- [14:05] description/code — "the code is on the screen"
 - [14:15] subscribe — "subscribe to Dale Oakfield's workshop"
-- [14:18] comment — "tell me in the comments which of the three sells best where you live"
+- [14:18] comment — "which of the three sells best"
 
 ## Standout lines
 - [5:52] "Pack it like it's going to get dropped."
@@ -59,6 +53,4 @@ Ten numbered tips plus a bonus, joined by "Number one. The first tip on our list
 - [14:20] "Build it well, price it honest, and let every piece find its lane."
 
 ## Comments
-1 unique comment available (appears in both lists).
-- Complaints/questions: 1. A buyer says the purchased book "has disappeared from my downloads", an emailed request got no response, and asks "Is this a scam?"
-- Praise, "sounds like AI": 0.
+1 unique. Complaints/questions 1: purchased book disappeared; "Is this a scam?" Praise, "sounds like AI": 0.

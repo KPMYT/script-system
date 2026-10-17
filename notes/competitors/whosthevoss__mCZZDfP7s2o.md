@@ -22,21 +22,21 @@
   - [4:11] Payoff: the governor-salary comparison — 75 w
 
 ## Pacing
-Auto-captions have no punctuation; steps run together joined by "first," "back at the miter saw," "now we can cut," "grab your drill." The object is presented as a phone holder at [3:02] ("makes a pretty cool little phone holder except that's not what it is") and named at [3:43] ("it's a phone speaker amplifier"). Across the five build stages, the shortest is drilling (30 s, 56 w), the longest is layout (79 s, 186 w), and the median is 38 s and 115 w. The hook's governor comparison returns at [4:11] ("and back to the governor thing"). A gap in captions at 4:00–4:11 matches the singing that commenters mention.
+Auto-captions unpunctuated; links "back at the miter saw," "grab your drill." Shown as phone holder [3:02], named "phone speaker amplifier" [3:43]. 5 build stages: shortest drilling (30 s, 56 w); longest layout (79 s, 186 w); median 38 s, 115 w.
 
 ## Content habits
-- Prices/earnings: 6 lines. Examples: "$3 construction grade," "$810," "a crisp $70,000 at the end of the year." The title's "$45 each" is not said in the transcript.
-- Where to buy materials: No source named.
-- Show and tell: 1 matched line ("look how cool these are"); low.
+- Prices/earnings: 6 lines; e.g. "$3 construction grade," "$810." Title's "$45 each" not spoken.
+- Where to buy materials: no source named.
+- Show and tell: 1 line; low.
 
 ## Voice
-- Personal experience/stories: Yes, about 2: "the younger me was quite dull and didn't leave 8 ft between the wall and my miter saw" ([1:01]); special-size holders for his "gigantic" phone ([3:52]).
-- Personality vs information: Roughly 6 jokes or asides (Festool "voice command options," "get your high school math teacher on the line," "she's deep," "you little entrepreneur"). Uses the phrase "easy breezy" ([2:28]).
-- Adversary: other woodworking videos: "I heavily dislike when videos Barely show you how to even build the project … and they skip over all nine of the jigs" ([0:36]); "woodworking on YouTube is definitely gone downhill" ([0:56]).
+- Personal experience/stories: yes, ~2; e.g. "the younger me" miter-saw spacing [1:01].
+- Personality vs information: ~6 jokes/asides (e.g. "get your high school math teacher on the line"); "easy breezy."
+- Adversary: other woodworking videos: "they skip over all nine of the jigs" [0:36].
 
 ## CTAs
-- [0:50] Free plans — "I include the plans with the project that we are building here today free of charge all of my plans are free"
-- [4:34] Build one — "you little entrepreneur you go bu go build one"
+- [0:50] Free plans — "all of my plans are free"
+- [4:34] Build one — "go build one"
 
 ## Standout lines
 - [0:04] "this accessory could make you more money than a US Governor Salary."
@@ -44,12 +44,9 @@ Auto-captions have no punctuation; steps run together joined by "first," "back a
 - [4:11] "sell four of these every day and you'll have a crisp $70,000 at the end of the year."
 
 ## Comments
-34 unique comments (20 top + 20 newest, 6 duplicates), including 1 from the channel owner linking a sales-proof post and the free plans.
-- Praise (~13): "the jokes, the looks, and the VOICE!?" (438 likes), plans "not … behind a pay wall" (213 likes), affordable tools (105 likes), "not another … $70,000 CNC machine video" (90 likes).
-- Singing remarks (~5): "did you expect to hear singing in a woodworking video?"
-- Price doubts (~2): "can you please show us where someone is actually selling these for $45?!?" (86 likes); "I could see MAYBE making $15."
-- Questions (~3): alternatives to a sliding miter saw, how to get the plans.
-- Ideas (~4): coffee mug, brass-horn version, story stick, engraved steel versions.
-- Built one (~3), including a veteran "making $$$" from these.
-- Other (~3): burnt toast, Menards, phone speaker position.
-- "Sounds like AI"/fake remarks: 0.
+34 unique (incl. 1 channel-owner reply).
+- Questions ~3: sliding-miter-saw alternatives, getting the plans.
+- Complaints/price doubts ~2: "actually selling these for $45?!?" (86 likes).
+- Praise ~13: plans "not … behind a pay wall" (213 likes).
+- "Sounds like AI"/fake: 0.
+- Other: singing ~5; ideas ~4; built one ~3; misc ~3.

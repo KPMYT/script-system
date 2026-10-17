@@ -25,23 +25,23 @@
   - [8:04] Sign-off — 8 w
 
 ## Pacing
-The scam story frames the build: it opens the video, returns mid-build ("The scammer, I mean, lady was fine with putting staples," [3:25]), and closes it. Spoken turns include "But let's say this post was legit," "The first step is to write up a quote," "For this build," "Assembly is very straightforward," "And finally, repeat," "So, what happened to that lady?" The hands-on build runs about 157 s (2:03–4:40) of the 8:07 transcript. Across the eight body units, the shortest is the reveal (23 s, 58 w), the longest is bottom assembly (91 s, 291 w), and the median is about 49 s and 143 w. He says he cut "8 minutes of rambling" on the quote from the video ([5:10]).
+Scam story opens, returns mid-build [3:25], closes. Turn: "So, what happened to that lady?" 8 body units: shortest reveal (23 s, 58 w); longest bottom assembly (91 s, 291 w); median ~49 s, 143 w.
 
 ## Content habits
-- Prices/earnings: 8 lines. Examples: "$670.50 is our labor charge"; "$210.24 is a tax"; "Grand total $1,207.44."
-- Where to buy materials: Yes, no specific store. "Cheap box store lumber" ([0:00]); luan "or utility board" named as cheaper than veneered plywood ([2:15]), with no store named.
-- Show and tell: 1 matched line; low.
+- Prices/earnings: 8 lines; e.g. "Grand total $1,207.44."
+- Where to buy materials: yes, no store named; "Cheap box store lumber" [0:00], luan [2:15].
+- Show and tell: 1 line; low.
 
 ## Voice
-- Personal experience/stories: Yes, about 3: the scam post in a 700-member woodworking group ([0:10]–[0:50]); slats that "don't line up" ([3:43]); recording an 8-minute quote walkthrough ([5:06]).
-- Personality vs information: Roughly 7 jokes or asides ("Suspicious," said twice; "So, good job"; the Uncle Sam skit; "She's in jail now. Just kidding"). Instruction lines are short and imperative.
-- Adversary: the poster ("The scammer, I mean, lady," [3:25]); online scammers ("how people be scammy on the internet," [7:09]); taxes ("Hi Uncle Sam," [6:02]); people who say "material times two is the price you should charge" ([5:27]).
+- Personal experience/stories: yes, ~3; e.g. the scam post [0:10].
+- Personality vs information: ~7 jokes/asides (e.g. Uncle Sam skit).
+- Adversary: "The scammer, I mean, lady" [3:25]; "how people be scammy on the internet" [7:09].
 
 ## CTAs
-- [1:52] Comment with a quote — "pop a comment down below while we build one together, telling me how much you would charge"
-- [4:54] Website pricing guide — "On my website is a helpful pricing guide"
-- [7:31] Plans plus pdfcandy.com — "If you do download those plans, head on over to pdfcandy.com"
-- [7:41] Free guide — "That free printable guide also includes information to calculate your electricity"
+- [1:52] Comment a quote — "how much you would charge"
+- [4:54] Website pricing guide — "a helpful pricing guide"
+- [7:31] Plans plus pdfcandy.com — "head on over to pdfcandy.com"
+- [7:41] Free guide — "That free printable guide"
 
 ## Standout lines
 - [0:07] "62% of Facebook users encounter fraud on a weekly basis."
@@ -49,11 +49,9 @@ The scam story frames the build: it opens the video, returns mid-build ("The sca
 - [7:14] "So, what happened to that lady? She's in jail now."
 
 ## Comments
-43 unique comments (27 top + 20 newest, 4 duplicates).
-- Quote answers to the comment prompt (~14): from "$10-15 each" to "$2,500.00 paid in full" (46 likes), "$5,957" and a joking "10,000."
-- Scam/payment advice (~6): take payment up front, the "stample" misspelling (two comments, 19 likes each), avoid Bitcoin (from a police officer), cash only.
-- Jig/batching suggestions (~4): "make a jig for it … 30 seconds per box."
-- Praise (~11), including a luan/utility-board story (27 likes).
-- Questions (~5): "I don't understand the scam," "20% tax?", what happens to the crates, his hourly rate.
-- Complaints (~2): "home depot have some just like that for 10$ CAD"; "10 minutes per is crazy talk."
-- "Sounds like AI"/fake remarks: 0 about the video. One comment says AI makes scams "easier to spot."
+43 unique.
+- Questions ~5: "I don't understand the scam," "20% tax?"
+- Complaints ~2: "10 minutes per is crazy talk."
+- Praise ~11.
+- "Sounds like AI"/fake: 0 (one says AI makes scams "easier to spot").
+- Other: quote answers ~14 ("$10-15 each" to "$2,500.00 paid in full"); scam/payment advice ~6; jig suggestions ~4.

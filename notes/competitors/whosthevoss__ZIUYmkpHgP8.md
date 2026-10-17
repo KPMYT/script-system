@@ -25,21 +25,21 @@
   - [12:26] Outro: celebrity look-alike remarks — 40 w
 
 ## Pacing
-The build itself (cut-free) ends by 3:16; the rest of the body is a decoration comparison. Options are introduced in order ("Let's go from the cheapest to the most expensive," "The second option is," "But, we still have one more option to try"), then revisited board by board ("This first one was," "This second one is acrylic paints," "This guy is just a Sharpie," "This one, spray paint and adhesive"). Across the seven body stages, the shortest is staining (41 s, 120 w), the longest is the side-by-side review (245 s, 783 w), and the median is 67 s and 208 w. The eight sample boards within that review run 6–90 s (19–276 w), with a median of about 20 s and 65 w.
+Build done by 3:16; rest is a decoration comparison. Link: "Let's go from the cheapest to the most expensive." 7 body stages: shortest staining (41 s, 120 w); longest side-by-side review (245 s, 783 w); median 67 s, 208 w. Sample boards 6–90 s (19–276 w), median ~20 s, 65 w.
 
 ## Content habits
-- Prices/earnings: 11 lines. Examples: lazy Susan "for like $9"; scorch paint "costs over $100 just to play with"; "$60 - $18.31 gets us $41.69," "$166.76" per hour.
-- Where to buy materials: Yes. "Lowe's, Home Depot, Menards" for panels ([0:51]); "a quick Google search" for stock ([1:11]); big box store for hardware ([2:05]); "a cheapy $30 one from Walmart" heat gun ([5:37]); scorch paint "through the links in the description" ([6:12]).
-- Show and tell: 4 matched lines; low.
+- Prices/earnings: 11 lines; e.g. lazy Susan "for like $9," "$166.76" per hour.
+- Where to buy materials: yes; "Lowe's, Home Depot, Menards" [0:51], Walmart heat gun [5:37], description links [6:12].
+- Show and tell: 4 lines; low.
 
 ## Voice
-- Personal experience/stories: Yes, about 4: the $9 lazy Susan purchase ([2:19]); the battery heat gun being slower ([5:28]); a pre-treatment he "thought … was a miracle product" ([6:17]); being told he looks like actors ("I get them all the time," [12:33]).
-- Personality vs information: Roughly 8 jokes or asides ("We ain't reading them," "Laziest Susan we've ever made," "I was just kidding about the middle," the chicken gag). A sponsor disclaimer: "They didn't pay me. I bought these" ([6:05]).
-- Adversary: online sellers of the same item: "They're just buying these, folks. Buying these and selling them for way higher" ([11:36]).
+- Personal experience/stories: yes, ~4; e.g. the $9 lazy Susan purchase [2:19].
+- Personality vs information: ~8 jokes/asides (e.g. "Laziest Susan we've ever made"); sponsor disclaimer [6:05].
+- Adversary: online resellers: "They're just buying these, folks" [11:36].
 
 ## CTAs
-- [6:10] Product links — "if you go and buy them through the links in the description"
-- [10:55] Cost list and free guide — "In the description is a fully itemized list … It also has a free printable guide"
+- [6:10] Product links — "buy them through the links in the description"
+- [10:55] Cost list and free guide — "In the description is a fully itemized list"
 
 ## Standout lines
 - [0:00] "Today's build takes less time than cooking a Jack's pizza."
@@ -47,11 +47,8 @@ The build itself (cut-free) ends by 3:16; the rest of the body is a decoration c
 - [12:18] "It's a pretty crazy product for not any work. Literally just screwed in four screws."
 
 ## Comments
-38 unique comments (20 top + 20 newest, 2 duplicates).
-- Price/market remarks (~4): "on my local facebook marketplace, I see a bunch of these between $8 and $20" (286 likes); a fair vendor at $100 (108 likes); "under $13 at Home Depot"; supply costs make "the first sale … a wash."
-- Technique tips (~9): makeup sponge, Cricut vinyl, Bestine solvent, homemade Mod Podge, Paso deglosser, 3D-printed stencils.
-- Jokes (~11): Ed Sheeran/Jesse look-alike (82 likes), the [1:16] dance, Jack's pizza, Minecraft acacia.
-- Praise (~7).
-- Questions (~4): missed sale price, where the plans are, food-safe finishes, "no plans."
-- Personal stories (~2).
-- "Sounds like AI"/fake remarks: 1, a joke ("fake ed sheeran"), about the look-alike, not the content.
+38 unique.
+- Questions ~4: where the plans are, food-safe finishes.
+- Praise ~7.
+- "Sounds like AI"/fake: 1, a joke ("fake ed sheeran") about the look-alike.
+- Other: technique tips ~9; jokes ~11; price/market remarks ~4 ("between $8 and $20," 286 likes); stories ~2.

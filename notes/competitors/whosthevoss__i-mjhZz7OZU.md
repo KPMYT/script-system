@@ -27,22 +27,22 @@
   - [8:07] Singing and T-shirt outro — 94 w
 
 ## Pacing
-Auto-captions have no punctuation. Stages are joined by "first stop on the list was Menards," "we still have another stop," "first thing we're going to do is grab that miter saw box," "now that we have our hole," "Pro tip," "now what was that mystery purchase from Walmart," "let's talk for a second about marketing." The product stays a "mystery" until [6:01] ("Post-it notes"). He says he will show "the first one maybe the second one and then you guys just copycat it" ([2:18]). Across the ten body stages, the shortest is the copycat remark (21 s, 55 w), the longest is the reveal (78 s, 235 w), and the median is 35 s and about 109 w. The four build stages run 35–63 s.
+Link: "first stop on the list was Menards." Product a "mystery" until [6:01]. 10 body stages: shortest copycat remark (21 s, 55 w); longest reveal (78 s, 235 w); median 35 s, ~109 w.
 
 ## Content habits
-- Prices/earnings: 15 lines. Examples: "I still pocket $100 off the first board … that number jumps to $160"; "$15.75" at Menards; "$10 a pop."
-- Where to buy materials: Yes. Menards for select pine, a handsaw and a miter box ([0:56]); Harbor Freight for the drill kit, glasses, sandpaper and bits ([1:26]); Walmart for Post-it notes ([2:06], [5:58]); scrap wood: "go find one in a ditch" ([5:09]).
-- Show and tell: 1 matched line; low (it refers to his shirt, not the build).
+- Prices/earnings: 15 lines; e.g. "$15.75" at Menards, "$10 a pop."
+- Where to buy materials: yes; Menards [0:56], Harbor Freight [1:26], Walmart [2:06], scrap "in a ditch" [5:09].
+- Show and tell: 1 line; low (his shirt).
 
 ## Voice
-- Personal experience/stories: Yes, about 5: the 45-minute drive and fries ([0:35]); passing on standard pine "chewed up by a dog" ([1:01]); Post-its found detached "this morning" ([6:45]); creators copying his projects ([7:46]); testing T-shirt printers ([8:17]).
-- Personality vs information: Roughly 10 jokes or asides ("selling for one Hamilton," "safety glasses obviously for safety," a heart-to-heart with the miter box, the "bank robbery" ink, "hey garbage person"), plus singing at [8:07].
-- Adversary: copycat creators: "countless creators have been mimicking my money- making woodworking projects" ([7:46]).
+- Personal experience/stories: yes, ~5; e.g. the 45-minute drive and fries [0:35].
+- Personality vs information: ~10 jokes/asides; singing [8:07].
+- Adversary: copycat creators [7:46].
 
 ## CTAs
 - [6:14] Plans — "the profit breakdowns are in the plans"
-- [7:47] Subscribe — "to see more original content before they make it their own hit the Subscribe button"
-- [7:55] Description — "copycat creators check out the description I've listed the full scripting for this video"
+- [7:47] Subscribe — "hit the Subscribe button"
+- [7:55] Description — "check out the description"
 - [8:26] Website (upcoming shirt) — "before I throw it on the website"
 
 ## Standout lines
@@ -51,13 +51,9 @@ Auto-captions have no punctuation. Stages are joined by "first stop on the list 
 - [7:46] "countless creators have been mimicking my money- making woodworking projects"
 
 ## Comments
-35 unique comments (20 top + 20 newest, 5 duplicates).
-- Praise/entertainment (~14): "Entertainment and information" (29 likes), "down to earth and generous."
-- Cheap-tool remarks (~4): "This is for the ones 'yea if I had all them expensive tools'" (196 likes), "99 cents for a handsaw is nuts," a secondhand circular saw idea.
-- Jokes (~5): the miter-saw heart-to-heart (110 likes), the battery-test drilling, "Todd from el camino," a Paddy Pimblett look-alike.
-- Singing (~3): "Bro can really sing I was not expecting that."
-- Fries (~3): the fries in the cost total, two health remarks.
-- Doubts (~2): "I'd really like some sort of proof that these are selling for this price."
-- Plans to build (~3); questions (~2): magnet name, replacing the pad.
-- Copycat "rant" (~1): "I thought it was classy."
-- "Sounds like AI"/fake remarks: 0.
+35 unique.
+- Questions ~2: magnet name, replacing the pad.
+- Complaints/doubts ~2: "proof that these are selling for this price."
+- Praise ~14: "Entertainment and information."
+- "Sounds like AI"/fake: 0.
+- Other: cheap-tool remarks ~4; jokes ~5; singing ~3; fries ~3; plans to build ~3; copycat-rant reaction ~1.
