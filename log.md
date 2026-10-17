@@ -104,3 +104,11 @@ Method: same as Phase 2 (NexLev only). One helper agent per competitor, each wit
 - Notes flagged inside individual files (descriptive): title numbers or claims not found in the transcript (e.g. Dale "40 Years", "HATES", "$5,000" stated as a hypothetical; WhosTheVoss "$45 each"); a Hank mid-roll CTA naming "Hand Crafted Wood" (`Hv7e4kwUNgk` 6:33).
 - notes/INDEX.md written from the meta.md files: 45 rows (group, channel, title, views/normal, link); all links resolve.
 - Stopped here as instructed. No trend summary or conclusions written.
+
+## 2026-10-17 — Combined transcripts (user request)
+
+- User asked for all transcripts in a form that can be pasted into a normal Claude chat.
+- Created `transcripts-combined/`: one file per channel plus `all-45-videos.txt`, each video preceded by a header block (title, channel, own/competitor, format, selection, upload date, duration, views, views/normal, URL, video ID). Transcript lines merged into paragraphs with a `[m:ss]` timestamp about every 30 s. Built with shell one-liners; no script files.
+- Verified: 115,003 transcript words in the per-video originals and in the combined file (none lost). Original per-video `transcript.txt` files unchanged.
+- Sizes: Dale ~40K tokens, Hank ~60K, BeardedVikingWoodWorks ~25K, WhosTheVoss ~31K, all-in-one ~156K.
+- Added the folder to the structure list in CLAUDE.md.

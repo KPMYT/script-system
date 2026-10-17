@@ -16,6 +16,7 @@ inputs/channels.md
 data/own/<channel-name>/<video-id>/          transcript.txt, comments.md, meta.md
 data/competitors/<channel-name>/<video-id>/  same files
 notes/own/  and  notes/competitors/          one notes file per video
+transcripts-combined/                        all transcripts merged per channel (and all-in-one), with header blocks, for pasting into a chat
 log.md                                       every action, every failure, every skipped video and why
 ```
 
