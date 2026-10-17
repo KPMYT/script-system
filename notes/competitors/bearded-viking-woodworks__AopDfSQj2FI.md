@@ -30,16 +30,16 @@
   - [10:23] Outro — 47 w
 
 ## Pacing
-Stages begin with "Now, I've got four workable pieces," "For our 2 by 4's," "Next, go ahead and…", "Our next step is…", "The other option is…", and "Now it's time to…". The product is first called "risers" at [8:11]. Across the 10 build stages, the shortest is the reveal (7 s, 17 w), the longest is the center-punch and drilling stage (59 s, 180 w), and the typical stage runs about 48 s and 141 w. Two short tip blocks are set apart from the build: "A quick tip" at [0:54] and [4:13].
+Stages begin with "Next, go ahead and…", "Our next step is…", "The other option is…", and "Now it's time to…". The product is first called "risers" at [8:11]. Across the 10 build stages, the shortest is the reveal (7 s, 17 w), the longest is the center-punch and drilling stage (59 s, 180 w), and the typical stage runs about 48 s and 141 w. Two short tip blocks are set apart from the build: "A quick tip" at [0:54] and [4:13].
 
 ## Content habits
 - Prices/earnings: 11 lines. Examples are "$14.12" for six, Etsy listings "over $100," "35 40 bucks," and "I made over $400 in 1 hour."
-- Where to buy materials: yes, partly. He mentions "big box store lumber" [3:26] and a center-punch link in the description [5:38]. Products named: deck screws, Boss Dog glue [6:34], Kreg Jig [7:24]. Etsy and Wayfair are cited as price references, not sources.
-- Show and tell: 1 line, "I want you to look at what these Etsy sellers are posting" [9:21] (low). Near matches not counted: "If you look here" [3:04] and "from looking like this to this" [7:59].
+- Where to buy materials: yes, partly. He mentions "big box store lumber" [3:26] and a center-punch link in the description [5:38]. Etsy and Wayfair are price references only.
+- Show and tell: 1 line, "I want you to look at what these Etsy sellers are posting" [9:21] (low).
 
 ## Voice
 - Personal experience/stories: yes, 2. Viewer questions about his 10-in blade on a 12-in saw [2:51]. He made six for his wife, she shared them on Facebook, "I started getting so many orders," and he built 12 more [9:54].
-- Personality vs information: mostly instruction. Asides include "Not even kidding," "let's trust the process," "That's what I'm talking about," and "pretty dagum cool." The captions record "[groaning]" and "[bell]," and he signs off "Skull."
+- Personality vs information: mostly instruction. Asides include "Not even kidding," "That's what I'm talking about," and "pretty dagum cool"; he signs off "Skull."
 - Adversary: none as a direct opponent. Two parties are named: woodworkers using twist bits, "always wondering why they get tear out" [5:44], and "don't forget the taxman. He's going to want to get his cut, too" [9:10].
 
 ## CTAs
@@ -55,8 +55,8 @@ Stages begin with "Now, I've got four workable pieces," "For our 2 by 4's," "Nex
 ## Comments
 38 unique comments were available (2 duplicates).
 - Praise: about 14, for example "Nicely done and simply explained sir."
-- Doubt and complaints: about 8, for example "There is no way people will pay over $100 for one of those," "So why aren't you a millionaire already," and a complaint about a 5-minute ad. One comment is a one-word slur.
-- What is it / what for: about 7. Guesses include a tea tray, Buddhist chairs, a bathroom stool, and prayer benches, and one asks "What are people using these risers for?"
-- Tips/reports: about 4. These are a Harbor Freight saw stand (19 likes), Kreg Jig, pallet coasters that "Paid for our Maui trip," and a "$37 at Lowes" materials cost.
+- Doubt and complaints: about 8, for example "There is no way people will pay over $100 for one of those" and "So why aren't you a millionaire already." One comment is a one-word slur.
+- What is it / what for: about 7. Guesses include a tea tray, Buddhist chairs, and prayer benches.
+- Tips/reports: about 4. These include a Harbor Freight saw stand (19 likes) and pallet coasters that "Paid for our Maui trip."
 - Questions: about 2 on board size. There is 1 answer to the channel owner's travel question (Thailand).
 - "Sounds like AI"/fake remarks: 0. One comment mentions his voice ("Kung Fu voice-over vibes"), but not as AI.

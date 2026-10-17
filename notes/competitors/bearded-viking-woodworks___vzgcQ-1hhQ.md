@@ -31,12 +31,12 @@
   - [10:47] Outro — 46 w
 
 ## Pacing
-Stages open with "Now, it's time to…", "Once you're done cutting those…", "Go ahead and…", "It's time to glue…", and "Now, follow me, crew." The product is first named at [8:24] ("burnt pumpkins"). Across the 11 build stages, the shortest is the half-cut (26 s, 57 w; 24 s for the cut summary), the longest is the square-piece glue-up (83 s, 248 w), and the typical stage runs about 43 s and 109 w. Three asides interrupt the build: the blade [2:32], the cup direction [3:33], and the pre-stain [7:52].
+Stages open with "Now, it's time to…", "Go ahead and…", and "Now, follow me, crew." The product is first named at [8:24] ("burnt pumpkins"). Across the 11 build stages, the shortest is the half-cut (26 s, 57 w), the longest is the square-piece glue-up (83 s, 248 w), and the typical stage runs about 43 s and 109 w. Three asides interrupt the build: the blade [2:32], the cup direction [3:33], and the pre-stain [7:52].
 
 ## Content habits
 - Prices/earnings: 12 lines. Examples are "$25 per pumpkin" online, "18 or 15 bucks per," and "over $700 out of that $57."
 - Where to buy materials: no store is named. There is a center-punch link in the description [7:05]. Brands named: Boss Dog glue [4:26], Minwax [8:28].
-- Show and tell: 0 (none). Near matches not counted: "Take a look around my shop, you'll see" [0:09] and "If you notice on your cut nails" [9:03].
+- Show and tell: 0 (none).
 
 ## Voice
 - Personal experience/stories: yes, about 4. He has earned "with tools that are hand-me-downs and decades old" [0:11], he picked a U-cupped 2x4 [3:37], the power goes out and he hits his shin [6:22], and after sharing the first set he was "getting a ton of orders coming in" [9:48].
@@ -58,8 +58,8 @@ Stages open with "Now, it's time to…", "Once you're done cutting those…", "G
 39 unique comments were available (1 duplicate).
 - Praise: about 16, for example "Straight to the work with no wasted time" and "that squeeze clamp + block is gold."
 - Jokes: about 5. These cover "old man noises" (3), the power cut ("shudda paid off muh electricity bill first," 86 likes), and a tool-commercial joke that ends "Thanks, Norm" (115 likes).
-- Complaints/doubt: about 6, for example "You made blocks of wood. Is that supposed to be impressive?" (19 likes), "You’re full of BS," and taxes left out.
+- Complaints/doubt: about 6, for example "You made blocks of wood. Is that supposed to be impressive?" (19 likes) and "You’re full of BS."
 - What is it / what for: 4, for example "What are they? Do they have a use?"
-- Tips/suggestions: about 5. These include a stop-block relief slot (28 likes), a tea candle, a roundover bit, and reclaimed scraps.
+- Tips/suggestions: about 5. These include a stop-block relief slot (28 likes) and a tea candle.
 - Other: a question about doing it without a Forstner bit (1), and a request to "send some" (1).
 - "Sounds like AI"/fake remarks: 0.

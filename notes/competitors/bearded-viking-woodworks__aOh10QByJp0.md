@@ -29,15 +29,15 @@
   - [9:22] Outro — 24 w
 
 ## Pacing
-Stages open with "First thing…", "Next, we're going to…", "The next step we'll take…", "Now that we've got…", and "Now, before we do anything else". Two stretches have only music tags: [3:37]–[4:00] and [8:01]–[8:28]. The product is first named "hat racks" at [8:30]. Across the 10 build stages, the shortest is the key slots (13 s, 29 w), the longest is the 45° layout (78 s, 168 w), and the typical stage runs about 45 s and 79 w.
+Stages open with "First thing…", "Next, we're going to…", "The next step we'll take…", and "Now that we've got…". Two stretches have only music tags: [3:37]–[4:00] and [8:01]–[8:28]. The product is first named "hat racks" at [8:30]. Across the 10 build stages, the shortest is the key slots (13 s, 29 w), the longest is the 45° layout (78 s, 168 w), and the typical stage runs about 45 s and 79 w.
 
 ## Content habits
 - Prices/earnings: 6 lines. Examples are a 1x4x8 "for around eight bucks," single racks "65 upwards of a hundred bucks," and "a quick 5,000 bucks in one month."
 - Where to buy materials: yes. "Slide up to Lowe's" [0:08], or a furring strip "like I typically do" [0:15]. A link for the mini square is mentioned [2:57].
-- Show and tell: 1 line, "I want y'all to take a look at what some of these hat racks go for" [8:28] (low). Near matches not counted: "Check this out" [8:33] and "just like so" [3:16].
+- Show and tell: 1 line, "I want y'all to take a look at what some of these hat racks go for" [8:28] (low).
 
 ## Voice
-- Personal experience/stories: no distinct anecdotes. He states habits: the furring strip "like I typically do" [0:17] and "I never go with that expensive ass pine select" [0:41]. He also says "I did a little bit of research" [9:11].
+- Personal experience/stories: no distinct anecdotes. He states habits: the furring strip "like I typically do" [0:17] and "I never go with that expensive ass pine select" [0:41].
 - Personality vs information: mostly short instructions, with long music-only passages. Asides include the McDonald's comparison, "expensive ass pine select," and "slap some finish on this bad boy" [7:42].
 - Adversary: none cast as an opponent. A McDonald's meal is called "that garbage" [0:28] as a price comparison.
 
@@ -55,10 +55,10 @@ Stages open with "First thing…", "Next, we're going to…", "The next step we'
 
 ## Comments
 38 unique comments were available (1 duplicate, 1 spam skipped at collection).
-- What is it / other uses: about 11, for example "I thought he was making a fishing pole rack" (85 likes). Guesses include a gun rack, a wine rack, and fishing rods, and one asks him to "Put some hats on one."
+- What is it / other uses: about 11, for example "I thought he was making a fishing pole rack" (85 likes). Other guesses: a gun rack, a wine rack.
 - Doubts about price/profit: about 7, for example "8$ wood and over a thousand dollars in tools to make 100$" (74 likes) and "5k a month 😂". Two report listing the rack with no buyers ("Not one offer").
-- Praise: about 12, for example "your pausing between points or sentences in how you speak" and "the business/money/cost angle."
+- Praise: about 12, for example "the business/money/cost angle."
 - Questions: about 3 (where/how to sell x2, overcutting the circle).
 - Lookalike remarks: 2 ("Mick Foley teaching us to build," 43 likes; a friend who "looks and acts just like you").
-- Other: the flag is displayed wrong (1), and McDonald's remarks (2).
+- Other: about 3 (flag display, McDonald's).
 - "Sounds like AI"/fake remarks: 0. One voice remark: "why do i keep hearing John C Riley."

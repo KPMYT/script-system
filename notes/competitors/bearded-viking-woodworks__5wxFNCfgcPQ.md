@@ -32,16 +32,16 @@
   - [11:09] Post-outro addendum: a 45° bevel throughout — 72 w
 
 ## Pacing
-Stages open with "After I get my piece ripped…", "Now we'll…", "Okay, so what I've done here…", "Next, I'll…", "While I let those two pieces dry…", and "Follow me, crew" (3 lines). The product is first named "birdhouse or bird feeder" at [9:54]. Across the 11 build stages, the shortest is the 1 in marks (29 s, 51 w), the longest is the assembly (90 s, 121 w; the roof-scribe stage has the most words at 213 w in 79 s), and the typical stage runs about 37 s and 101 w. Several stages end with music-only gaps.
+Stages open with "Now we'll…", "Next, I'll…", "While I let those two pieces dry…", and "Follow me, crew" (3 lines). The product is first named "birdhouse or bird feeder" at [9:54]. Across the 11 build stages, the shortest is the 1 in marks (29 s, 51 w), the longest is the assembly (90 s, 121 w), and the typical stage runs about 37 s and 101 w.
 
 ## Content habits
 - Prices/earnings: 5 lines. Examples are the panel at "$13 and some change," dowels "around two bucks," and "$45, $50 a piece… $100 out of that one panel."
-- Where to buy materials: yes. A Lowe's Reliabilt panel [0:23], a 1x8x8 as the alternative ("around $17") [0:50], and oak dowels "at Lowe's" [6:50]. He sells "on my Etsy" [10:32].
+- Where to buy materials: yes. A Lowe's Reliabilt panel [0:23], a 1x8x8 as the alternative ("around $17") [0:50], and oak dowels "at Lowe's" [6:50].
 - Show and tell: 1 line, "And I've got an eye hook right here" [9:57] (low). Near match not counted: "a gray tab right back here" [1:45].
 
 ## Voice
-- Personal experience/stories: yes, about 3. He has been "browsing the internet for the last couple of weeks" [0:08], made the trip to Lowe's for the panel and dowels [0:23, 6:50], and hangs it under his porch ("Don't mind all the algae on my house") [10:16].
-- Personality vs information: mostly instruction, with about 8 asides. Examples are a self-posed question ("Okay, Daniel, but what am I going to build?"), the McDonald's comparison, the "Add it up a glue" chant (5 times), "pop a brad in his ass" (3 times), "Voilà," "rockstars," and a sign-off captioned "Scott."
+- Personal experience/stories: yes, about 3. "browsing the internet for the last couple of weeks" [0:08], the Lowe's trip [0:23], and hanging it under his porch [10:16].
+- Personality vs information: mostly instruction, with about 8 asides. Examples are a self-posed question ("Okay, Daniel, but what am I going to build?"), the "Add it up a glue" chant (5 times), "pop a brad in his ass" (3 times), and "Voilà."
 - Adversary: none.
 
 ## CTAs
@@ -57,9 +57,9 @@ Stages open with "After I get my piece ripped…", "Now we'll…", "Okay, so wha
 ## Comments
 56 unique comments were available (3 duplicates).
 - Praise: about 18, for example "Cute A frame feeder" and "useful info on scribing project angles."
-- Tips/suggestions: about 14. Examples are drainage and screen floors (2), a finish or sealer (4), two strings to stop spinning, the brad-gun angle, Harbor Freight brads, dropping the dowels because of predators, and mounting it on a shovel handle.
-- The 41° angle: 4. Two explain the geometry (22 likes), plus a Fahrenheit/Celsius joke (20 likes) and Ron Burgundy.
+- Tips/suggestions: about 14. Examples are drainage (2), a sealer (4), two strings to stop spinning, and dropping the dowels because of predators.
+- The 41° angle: 4. Two explain the geometry (22 likes), and one is a Fahrenheit/Celsius joke (20 likes).
 - The glue jingle: 4, for example "Do you mind if i use that jingle in my videos?"
-- Complaints/hostility: about 10. Examples are a flag insult (13 likes), "SKIP THE BS AND GET TO THE POINT," "Do people really pay $50 for that," "I DON'T THINK YOU ARE HONEST ABOUT YOUR SALES," "You're annoying," and safety glasses.
+- Complaints/hostility: about 10. Examples are a flag insult (13 likes), "Do people really pay $50 for that," and "I DON'T THINK YOU ARE HONEST ABOUT YOUR SALES."
 - Other: personal notes and anecdotes, about 7.
 - "Sounds like AI"/fake remarks: 0. One audio remark: "My man ADR'd 'to 4 inches' when he said 5" [7:06].

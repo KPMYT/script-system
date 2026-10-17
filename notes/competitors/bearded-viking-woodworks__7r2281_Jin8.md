@@ -33,16 +33,16 @@
   - [11:22] Outro — 24 w
 
 ## Pacing
-Stages open with "Now, after you cut…", "For our next set of measurements…", "Now, while we let those pieces dry…", "Next, it's back to doing a butt load of sanding," and "Now, this next step is totally optional." The product is first named "step stool" at [9:56] and "display station" at [10:02]. Across the 12 build stages, the shortest is the sanding (18 s, 49 w), the longest are the glue-up and staining (67 s each, 169 and 162 w), and the typical stage runs about 40 s and 109 w.
+Stages open with "For our next set of measurements…", "Now, while we let those pieces dry…", and "Next, it's back to doing a butt load of sanding." The product is first named "step stool" at [9:56] and "display station" at [10:02]. Across the 12 build stages, the shortest is the sanding (18 s, 49 w), the longest are the glue-up and staining (67 s each, 169 and 162 w), and the typical stage runs about 40 s and 109 w.
 
 ## Content habits
-- Prices/earnings: 14 lines. Examples are a "$6 can" of spray paint, Etsy listings "$48 upwards of 70 bucks," "Sell your first one for 40, you're making 34 bucks," and "1,000 bucks" from 25.
-- Where to buy materials: yes. "your big box store" [0:25], southern yellow pine "from Lowe's" [3:15], and a 3/8 dowel at "Lowe's" [8:40]. He says he will leave description links for the plug maker and the Forstner bits [6:38]. He sells "on my Etsy" [10:49].
-- Show and tell: 1 line, "Hell, just look at mine" [0:18] (low). Near matches not counted: "This is how your setup will look" [2:36] and "You may notice" [0:47].
+- Prices/earnings: 14 lines. Examples are Etsy listings "$48 upwards of 70 bucks," "Sell your first one for 40, you're making 34 bucks," and "1,000 bucks" from 25.
+- Where to buy materials: yes. "your big box store" [0:25], southern yellow pine "from Lowe's" [3:15], and a 3/8 dowel at "Lowe's" [8:40]. He says he will leave description links for the plug maker and the Forstner bits [6:38].
+- Show and tell: 1 line, "Hell, just look at mine" [0:18] (low).
 
 ## Voice
 - Personal experience/stories: yes, about 2. His shop is "all used tools" [0:18], and he "hijacked some gloves from my wife" in an on-camera exchange with a second voice [7:05–7:27].
-- Personality vs information: mostly instruction, with about 7 asides ("keep your wigglies away from that spinny thing," "I come in peace," "Display station. Play station," "a big-ass profit"). The captions record "[groaning]" and "[laughter]" (2), and he signs off "Skål."
+- Personality vs information: mostly instruction, with about 7 asides ("keep your wigglies away from that spinny thing," "I come in peace," "Display station. Play station," "a big-ass profit"). He signs off "Skål."
 - Adversary: none.
 
 ## CTAs
@@ -58,10 +58,10 @@ Stages open with "Now, after you cut…", "For our next set of measurements…",
 ## Comments
 44 unique comments were available (4 duplicates).
 - Praise: about 18, for example "So much new information! I had no idea the difference between a stud and the YSP."
-- Reports of having made it or planning to: about 5 (a kindergarten sink step, a show display, a step for a wife).
+- Reports of having made it or planning to: about 5 (e.g. a kindergarten sink step).
 - Math correction: 4 note that $40 minus $16 is $24, not $34 ("Your math ain't mathing").
 - Questions: about 6 (Etsy's cut and shipping x3, depth stop, side-to-side strength, "what the bleep is it?").
-- Doubt/complaints: about 4. A retired cabinetmaker (32 likes) says these would have gone "for the stove to brew my tea." Others write "Stop the grifting," say they are amazed at what people pay, and are "a little bummed to see what the project actually was."
+- Doubt/complaints: about 4. A retired cabinetmaker (32 likes) says these would have gone "for the stove to brew my tea." Another writes "Stop the grifting."
 - Suggestions: about 4 (jigs and studs, longer dowels, store-bought plugs, 1x4 steps).
 - Jokes: 2 ("Wiggaly things," Fred Flintstone).
 - "Sounds like AI"/fake remarks: 0.
