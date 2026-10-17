@@ -66,3 +66,29 @@ Method (both channels):
   - Only KLit5xVATG4 returned continuation tokens, and paging was unreliable: top pages 2–4 added 3, 3 and 0 new comments; newest pages 2–3 repeated page 1. Stopped there. API counts likely include replies (excluded).
   - The channel owner's pinned book-promo comment is kept with a `[channel owner]` prefix on KLit5xVATG4, Hv7e4kwUNgk, FBSLO4DO-bQ.
   - Kept as not spam (judgement calls): a viewer linking their own YouTube Short (Hv7e4kwUNgk); an off-topic rant and a timestamped summary comment (FBSLO4DO-bQ); two near-identical comments with different IDs (Hv7e4kwUNgk).
+
+## 2026-10-17 — Phase 3, competitors
+
+User confirmed full transcripts must be collected and stored for future use. Check of all 25 own-channel transcripts: each runs to within 1–5 s of the video's end (2,335–3,817 words each).
+
+Method: same as Phase 2 (NexLev only). One helper agent per competitor, each with its own scratch folder outside the repo. Selection: Group A = 5 most recent long-form (Videos tab, ≥ 3:00); Group B = 5 most-viewed long-form published on/after 2024-10-17, skipping any already in Group A. Exact dates from `youtube_video_details` (NexLev list dates for older videos are approximate). Normal = median of exact views of the 15 most recent long-form uploads at least 7 days old. FACE/FACELESS by the user's definitions; basis recorded in each meta.md. I re-checked both medians and that no author handles or channel IDs appear in any comments.md.
+
+### BeardedVikingWoodWorks (UCsWLcxLC1B-MLCeIpYtPiMw) — 10 collected, folder `bearded-viking-woodworks`
+- Format: FACE. Basis: NexLev `check_faceless_channel` isFaceless=false (0.98, "tutorial"); about text describes his own build videos; transcripts narrate his own builds in first person; comments react to his appearance.
+- Group A (recent): `_L70uEXtGfc` (2026-10-11, 6 days old), `l_mOoZNuuDg`, `TwM0Wtfhako`, `AopDfSQj2FI`, `_vzgcQ-1hhQ`.
+- Group B (most-viewed, last 24 months): `aOh10QByJp0` (rank 2), `oDZB7UsqMHo` (4), `7r2281_Jin8` (5), `5wxFNCfgcPQ` (6), `C-oLqfdSsRM` (7). Skipped as already in Group A: rank 1 `_vzgcQ-1hhQ`, rank 3 `AopDfSQj2FI`.
+- Normal = 73,108 (15 uploads up to 2026-10-04; 16th `RVOOoPNkPMk` 2026-05-05 outside). Window views: 18485, 24935, 52681, 54747, 55158, 67345, 72723, **73108** (`_yP3R04q5N0`), 103597, 223359, 248823, 406585, 669365, 924656, 2877107.
+- Transcripts: 10/10, English auto-captions, each ends within 5 s of the video's end. The bulk call's output was too large to display inline; it was saved to a file and read in full.
+- Comments: 20–39 top, 19–20 newest per video. Paging: page 2 usually repeated page 1 exactly; stopped per rule. API comment counts 97 to "1K". 1 spam skipped (contact-me opener on `aOh10QByJp0`).
+- No videos under 3:00 encountered.
+
+### WhosTheVoss (UCejaHizj8RLiP7bPDv6v0tg) — 10 collected, folder `whosthevoss`
+- Format: FACE. Basis: `check_faceless_channel` isFaceless=false (0.97, "tutorial"); about text describes tutorials with free plans; transcripts film his own builds ("look how close my face is", "cut all of these out on camera"); comments mention his on-camera presence.
+- Group A (recent): `0lk5SY97KnI` (2026-10-10, exactly 7 days), `aaQRt6CAFik`, `z9gYuMQyHbo`, `ZIUYmkpHgP8`, `Tyrb9pNre6w`.
+- Group B (most-viewed, last 24 months): `6gmjCVaRfjY` (rank 1), `64alAPtMfFw` (2), `mCZZDfP7s2o` (3, 2024-10-27 — inside the window), `arNIvR7AXVE` (4), `i-mjhZz7OZU` (5). No overlap with Group A (first Group A video is popular rank 6), so no replacements.
+- Normal = 232,499 (15 uploads 2026-07-04 to 2026-10-10; 16th `gBbATzrGB9g` 2026-06-27 outside). Window views: 95484, 101592, 134713, 174515, 177333, 183215, 208586, **232499** (`Tyrb9pNre6w`), 263843, 355687, 401159, 759717, 931227, 1933143, 2314838.
+- Transcripts: 10/10, English auto-captions. Three end more than 10 s before the video ends: `Tyrb9pNre6w` (16 s), `mCZZDfP7s2o` (16 s), `64alAPtMfFw` (24 s). Each ends on a sign-off line ("See you later.", "…go build one", "…it works."), so the gap is probably outro without speech; noted in their meta.md.
+- Comments: 20–35 top, 19–20 newest per video; same paging behaviour. 1 spam skipped (video-editing services pitch on `z9gYuMQyHbo`). Kept as not spam (judgement calls): offers of a design app, a quote tool and machine-shop work; a religious comment. One `[channel owner]` comment on `mCZZDfP7s2o`. On `6gmjCVaRfjY` NexLev gave the comment total and one like count as "1K"; recorded as given.
+
+### Both competitors
+- Comment totals reached: well under the ~50 top target on every video (NexLev paging returns repeated pages). Newest ~20 per video (target ~25).
