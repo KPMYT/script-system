@@ -8,6 +8,8 @@ A self-contained research project: a study of YouTube scripts in the woodworking
 - Never change user-level or global settings. Any configuration needed goes in this repository only.
 - Do not install anything without asking the user first.
 - Do not write scripts, edit skill files, or draw conclusions about what is "good." This project collects and describes. Judging is the user's job, later.
+  - This rule still applies in full to `data/` and `notes/`: collect and describe only, never edit them to judge, and never edit skill files from there.
+  - Exception (script-library phase, from 2026-10-18): files inside `script-library/` may be edited, as the user's task for that phase describes. Edit nothing outside `script-library/` during that work (except log entries and this file). Log every change in `script-library/iterations/refs-NN/CHANGES.md` (file | what changed | why), commit after each task, and never delete previous versions.
 
 ## Structure
 
@@ -17,6 +19,7 @@ data/own/<channel-name>/<video-id>/          transcript.txt, comments.md, meta.m
 data/competitors/<channel-name>/<video-id>/  same files
 notes/own/  and  notes/competitors/          one notes file per video
 transcripts-combined/                        all transcripts merged per channel (and all-in-one), with header blocks, for pasting into a chat
+script-library/                              script rules (core/, woodworking-scripts/, tests/); editable only in the script-library phase
 log.md                                       every action, every failure, every skipped video and why
 ```
 
