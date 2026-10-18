@@ -19,7 +19,7 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 | `research-and-sourcing.md` | The research stage's rules: facts versus allowed framing, verify-or-cut, evidence wording, freshness, the verification pass, the default research pack, and flagging titles back to ideation. |
 | `script-structures.md` | Fallback structures for niches without their own: list, how-to, why it happens, comparison, essay, transformation. Plus the hook options. |
 | `greenlight-audit.md` | The final quality gate: checks A-F, three verdicts, the three-round cap, and the evidence block. |
-| `script-scanner.py` | The program that mechanically checks a script: banned phrases, dashes and odd characters, niche bans, filler counts, echoes, and numbers missing from the research pack. |
+| `script-scanner.py` | The program that mechanically checks a script: banned phrases, dashes and odd characters, niche bans, filler counts, echoes, numbers missing from the research pack, and (with `--refs`) any run of 8+ words copied from the niche pack's reference files. |
 
 ## woodworking-scripts/ (the woodworking niche pack)
 
@@ -29,8 +29,9 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 | `references/research-pack-template.md` | What a woodworking research pack must contain. |
 | `references/unit-plan-template.md` | The plan filled in before writing, so length comes from the content. |
 | `references/voice-samples.md` | Three real narration samples from winning competitors: the voice anchor. |
-| `references/excerpts.md` | Winning competitors' lines grouped by job, each marked as usable, rewrite or doesn't transfer. |
-| `archive/` | The full BeardedViking and WhosTheVoss transcripts, used for calibration only. |
+| `references/excerpts.md` | Winning competitors' lines in 15 groups by job (10-15 each), each marked as usable, rewrite or doesn't transfer. |
+| `references/reference-scripts.md` | Eight complete winning scripts, labelled with the skeleton, each with why it works, the unit plan it implies and what doesn't transfer. Read at the planning step; never copy wording. |
+| `archive/` | The full BeardedViking and WhosTheVoss transcripts, plus `most-viewed-24mo/` (each channel's 10 most-viewed from the last 24 months, with views and normal), used for calibration only. |
 
 ## personas/
 
@@ -38,7 +39,11 @@ One persona profile per channel. Hank's and Dale's are still to be written.
 
 ## tests/
 
-`run_checks.py`: 13 automated checks across the whole library. Run it after any edit.
+`run_checks.py`: 17 automated checks across the whole library, including the copy guard. Run it after any edit.
+
+## tests/iterations/
+
+One folder per round of changes (`refs-01/`, `iter-00/`, …), each with `CHANGES.md` (file | what changed | why) and `before/` copies of every file it modified.
 
 ## PINNED.md
 

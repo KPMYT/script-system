@@ -4,21 +4,23 @@
 
 **Test run:** `python3 tests/run_checks.py` gave **17/17 passed** after the restructure (study moved into `studies/woodworking/`, library at the root). The suite passes, but it misses several of the problems below; see A14.
 
+**IDs** are kept as first issued, so a removed finding leaves a gap in the numbering.
+
 **Severity:** **high** = gives a wrong or unsafe result, or blocks START. **medium** = a real conflict that a model could resolve either way. **low** = wording, housekeeping, or a borderline case.
 
-**Count:** A, contradictions: 16 · B, lost from the originals: 8 · C, breaks a locked decision: 7 · D, stops START: 5.
+**Count:** A, contradictions: 16 · B, lost from the originals: 7 · C, breaks a locked decision: 5 · D, stops START: 5.
 
 ---
 
 ## A. Contradictions between library files
 
-**A1. The copy guard never runs** · high
+**A1. The copy guard never runs** · high · **mostly fixed by refs-01 Task 4** (workflow 3.4 and audit D3 now pass `--refs`). Still open: the evidence block's Scanner line has no `copied` count.
 - `core/workflow.md:73` and `core/greenlight-audit.md:54` (D3) run the scanner without `--refs`.
 - But `core/script-scanner.py:19` and `woodworking-scripts/references/reference-scripts.md:5` say copied runs are flagged, and `core/greenlight-audit.md:73` (E2) requires zero lines copied from competitor transcripts or the excerpt library.
 - As written, the copy guard is only ever exercised by the tests.
 - **Fix:** add the niche pack's reference files as `--refs` in workflow 3.4 and audit D3 (for woodworking, `references/excerpts.md` and `references/reference-scripts.md`). Add `copied 0` to the evidence block's Scanner line (`core/greenlight-audit.md:132`).
 
-**A2. `reference-scripts.md` is not linked from anywhere** · medium
+**A2. `reference-scripts.md` is not linked from anywhere** · medium · **mostly fixed by refs-01 Tasks 3-4** (SKILL table and README map now list it and `most-viewed-24mo/`). Still open: workflow 3.1 doesn't load it.
 - The file says it's read at the planning step (`reference-scripts.md:5`).
 - Nothing points to it: it's missing from the SKILL file table (`woodworking-scripts/SKILL.md:21-29`) and from the README map (`README.md:24-33`), and the workflow's Plan step doesn't load it (`core/workflow.md:69`).
 - The same goes for `woodworking-scripts/archive/most-viewed-24mo/`.
@@ -75,7 +77,7 @@
 - `woodworking-scripts/SKILL.md:68` bans "today we're going to".
 - **Fix:** add "and drop the 'Today I'm going to show you' opener" to the ✎ note.
 
-**A13. README and PINNED are out of date** · low
+**A13. README and PINNED are out of date** · low · **partly fixed by refs-01** (test count is now 17; reference files listed). Still open: the map rows for `studies/`, `archive/facelessos-original/`, `HANDOFF.md`, `CLAUDE.md`, `CHANGELOG.md`, `PROPOSALS.md`.
 - `README.md:41` and `PINNED.md:8` say 13 checks; there are 17.
 - The README map has no rows for `references/reference-scripts.md`, `archive/most-viewed-24mo/`, `archive/facelessos-original/`, `studies/`, `tests/iterations/`, `HANDOFF.md`, `CLAUDE.md`, `CHANGELOG.md` or `PROPOSALS.md` (`CLAUDE.md` rule 7).
 - **Fix:** update both.
@@ -136,11 +138,6 @@ Everything under a cut or rejected item was left out on purpose: title formulas,
 - This fits the locked visuals rule (`HANDOFF.md:36`). Don't bring back `visual-scripting-skill.md`'s editor notation (`:283-285`): that one was cut.
 - **Fix:** add to `core/workflow.md:96`: outside steps, no more than about two sentences in a row without naming something showable (the piece, the tool, the listing, the price). Add the matching check to audit F7.
 
-**B8. Descriptions and pinned comments have no owner** · low (operator decision)
-- Original: `packaging-skill.md:26-28`, `:51-55`. The description and pinned comment are written with the script, strongest line in the first ~125-150 characters.
-- Library: `core/claims-policy.md:3` and `core/offer-rules.md:40` set rules for descriptions and pinned comments, and CTAs point to "the description". No file produces them. (The packaging file's title and thumbnail parts are rejected or owned elsewhere.)
-- **Fix:** decide whether START outputs a description and pinned comment after the VO copy, or whether the VAs write them by hand.
-
 ---
 
 ## C. Library content that breaks a locked decision
@@ -154,11 +151,6 @@ Everything under a cut or rejected item was left out on purpose: title formulas,
 - `core/script-scanner.py:41` puts delve, tapestry, unleash and robust in one ban, and `:276` lifts it if the lift text matches any part. Tested: `lift: robust` turns off all four, and `lift: AI vocabulary` would too.
 - Breaks: `HANDOFF.md:51` and `core/humanizer.md:280`: a ban is lifted only by naming that one ban.
 - **Fix:** split `:41` into four entries. Add test 8b: lifting one word leaves the other three enforced.
-
-**C3. "Dale stays as he is" isn't defined, and the core changes him** · medium (operator decision)
-- `HANDOFF.md:39` and `PINNED.md:17` say Dale's CTA stays unchanged for the CTA test.
-- But the lane fixes the mid-CTA after the materials plus the first step (`woodworking-scripts/SKILL.md:85`), and `core/cta-and-endings.md:83` rewrites every CTA from scratch. Dale's study notes show his book CTAs at about 4:53-6:57, plus "stick around"-type teases at 0:26-0:48, which are now hard bans.
-- **Fix:** the operator decides what "as he is" covers (wording? placement? length?). Dale's persona profile then states it explicitly, as an override where needed. The teases stay banned either way.
 
 **C4. A two-build reference script under "single builds only"** · low
 - `woodworking-scripts/references/reference-scripts.md:20`, `:678`: entry 4 is two builds in one video.
@@ -175,10 +167,11 @@ Everything under a cut or rejected item was left out on purpose: title formulas,
 - Breaks: retention coaching is rejected (`HANDOFF.md:82`; `PINNED.md:54`: graphs are analyzed with Claude when needed).
 - **Fix:** drop that clause from the description.
 
-**C7. The word-spread table** · low (borderline, leave unless the operator wants it moved)
-- `woodworking-scripts/SKILL.md:99-109` gives words per unit and whole-script lengths.
-- Tension with `HANDOFF.md:46` (word-count tables were cut) and `:28` (never word budgets). It's labelled "not targets", and `HANDOFF.md` section 4 records the same figures.
-- **Fix:** none needed. Or move it to `references/calibration.md` so it isn't read while writing.
+**C7. The word-count table in the woodworking skill** · low (recommendation: leave it as it is)
+- What it is: `woodworking-scripts/SKILL.md:99-109`, under "Length comes from the content", is a table of how many words each kind of line ran in the winning scripts (a material line 8-24 words, a step line 8-31, a money line 5-28, and so on), plus whole scripts at 1,135-2,408 words. It's measured from BeardedViking and WhosTheVoss.
+- Why it's flagged: two locked decisions brush against it. FacelessOS's word-count tables were cut (`HANDOFF.md:46`), and length must come from the content, never word budgets (`HANDOFF.md:28`). A model that sees "1,135-2,408 words" could treat it as a target and pad or squeeze.
+- Why it's probably fine: it's our own study data, not the FacelessOS tables. It's labelled "these show the usual spread, they are not targets" right above it, and `HANDOFF.md` section 4 keeps the same figures.
+- **Options:** (a) leave it (recommended); (b) move it to `references/calibration.md` so the writer doesn't see numbers while writing; (c) delete it. None of them changes a rule.
 
 Also logged in `PROPOSALS.md` (P1): the reason given for a locked decision is not quite right ("the winners never introduce themselves", `HANDOFF.md:25`). BeardedViking's top video opens with a credibility line (`voice-samples.md:13`). The rule itself isn't in question.
 
@@ -189,7 +182,7 @@ Also logged in `PROPOSALS.md` (P1): the reason given for a locked decision is no
 **D1. No channel can be scripted** · high (known, `PINNED.md:14`)
 - Both channels are `pending` (`core/channels.md:12-13`) and `personas/` holds no profiles (`personas/README.md:5`).
 - `core/workflow.md:23` stops every START at NOT READY. Talking Head markers also need the offer's printed title from the profile (`:117`).
-- **Fix:** write `hank-hardwood.md` and `dale-oakfield.md` (decide C3 first), then mark them ready.
+- **Fix:** write `hank-hardwood.md` and `dale-oakfield.md`, then mark them ready.
 
 **D2. There's no way to run START on test data** · high
 - `CLAUDE.md` says test data lives in `tests/fixtures/` and never in `core/channels.md` or `personas/`. But the workflow finds channels only in `channels.md` (`core/workflow.md:21-23`), so a TEST persona can't reach the gate.

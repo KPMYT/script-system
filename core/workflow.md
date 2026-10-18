@@ -70,7 +70,7 @@ Run these steps in order. Never ask "shall I continue?" Never stop to check in.
 3. **Write,** following the niche pack (or the fallback structure) and every core rule.
 4. **Sweep.**
    - Run the `humanizer.md` pass.
-   - Run `script-scanner.py` with the niche pack and persona profile as rules files and the research pack as the pack. Where Python isn't available, do the same checks by hand.
+   - Run `script-scanner.py` with the niche pack and persona profile as rules files, the research pack as the pack, and the niche pack's `excerpts.md` and `reference-scripts.md` with `--refs` (the copy guard: any run of 8 or more words shared with them is fix-on-sight). Where Python isn't available, do the same checks by hand.
 5. **Audit.** Run `greenlight-audit.md`, at most three rounds.
 6. **Output,** in the format in section 5.
 
