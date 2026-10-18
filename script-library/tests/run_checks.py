@@ -1,7 +1,8 @@
 # Library test suite: run with  python3 tests/run_checks.py  from the library root (or set LIB_ROOT).
 # Checks file references, stale leftovers, override statements, hard-ban and filler parity
 # between humanizer.md and script-scanner.py, scanner behavior on clean and broken scripts,
-# ban lifting, the numbers check, the woodworking inputs block, and shared labels across files.
+# ban lifting, the numbers check, the woodworking inputs block, shared labels across files, and the
+# copy guard (--refs) against the niche pack's reference files.
 import re, os, glob, subprocess, sys, tempfile, textwrap
 sys.dont_write_bytecode = True
 ROOT=os.environ.get("LIB_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -69,9 +70,9 @@ h23=re.search(r"### H23.*?```\n(.*?)```",hum,re.S).group(1)
 h23_list=[p.strip() for p in h23.replace("\n"," ").split(",") if p.strip()]
 check("5. H23 phrases match the scanner's list", sorted(h23_list)==sorted(sc.SPARING), f"humanizer={sorted(h23_list)} scanner={sorted(sc.SPARING)}")
 
-def run_scan(text, rules=(), pack=None):
+def run_scan(text, rules=(), pack=None, refs=()):
     with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write(text); p=t.name
-    cmd=["python3",SCAN,p]+(["--rules",*rules] if rules else [])+(["--pack",pack] if pack else [])
+    cmd=["python3",SCAN,p]+(["--rules",*rules] if rules else [])+(["--pack",pack] if pack else [])+(["--refs",*refs] if refs else [])
     r=subprocess.run(cmd,capture_output=True,text=True); return r.returncode, r.stdout
 
 WWR=f"{WW}/SKILL.md"
@@ -145,7 +146,27 @@ pairs=[("NOT READY: DO NOT UPLOAD", wf, ga), ("AUDIT EVIDENCE", wf, ga), ("ROTAT
 bad=[p for p,a,b in pairs if p not in a or p not in b]
 check("11. shared labels match between workflow, audit and rotation files", not bad, ", ".join(bad))
 
-# 12. no example line in core files breaks a hard ban outside the 'failure' examples (spot check: woodworking voice + bridges)
+# 12. copy guard: a line copied from a reference file is caught; normal text is not
+REFS=[f for f in (f"{WW}/references/excerpts.md", f"{WW}/references/reference-scripts.md") if os.path.isfile(f)]
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t:
+    t.write('1. "Slide up to the lumber yard and grab yourself a 1x4x8 for around eight bucks." [Ref \u00b7 test \u00b7 0:00 \u00b7 9.9x]\n'); tref=t.name
+copied="Cut your boards to length.\n\nSo slide up to the Lumber Yard, and grab yourself a 1x4x8 for around eight bucks, then sand it.\n"
+code,out=run_scan(copied,[WWR],refs=[tref])
+check("12. copy guard: a copied line is flagged fix-on-sight (case and punctuation ignored)",
+      code==1 and "COPIED FROM REFERENCE" in out and "slide up to the lumber yard and grab yourself a 1x4x8 for around eight bucks" in out, out)
+code,out=run_scan("Grab yourself a board and slide it up to the fence before you cut eight pieces.\n",[WWR],refs=[tref])
+check("12b. copy guard: shared words under 8 in a row are not flagged", code==0 and "COPIED FROM REFERENCE" not in out, out)
+code,out=run_scan(clean,[WWR],refs=REFS)
+check("12c. copy guard: the clean script passes against the pack's real reference files",
+      len(REFS)>=1 and code==0 and "COPIED FROM REFERENCE" not in out, f"refs={REFS} "+out[:600])
+if REFS:
+    line=None
+    for l in open(REFS[-1]).read().splitlines():
+        words=re.findall(r"[A-Za-z0-9']+", re.sub(r"\[[^\]]*\]","",l))
+        if len(words)>=14 and not l.lstrip().startswith(("#","|","-","*",">")): line=" ".join(words[:12])+"."; break
+    code,out=run_scan(f"Measure twice.\n\n{line}\n",[WWR],refs=REFS)
+    check("12d. copy guard: a line lifted from the pack's own reference file is caught", line is not None and code==1 and "COPIED FROM REFERENCE" in out, f"line={line!r} "+out[:600])
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")

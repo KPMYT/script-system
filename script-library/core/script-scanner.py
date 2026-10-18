@@ -7,7 +7,7 @@ fix-on-sight. Everything else is a candidate for a human or model to judge with
 the shape test in voice-anchoring.md.
 
 Usage:
-  python3 script-scanner.py SCRIPT [--rules FILE ...] [--pack RESEARCH_PACK]
+  python3 script-scanner.py SCRIPT [--rules FILE ...] [--pack RESEARCH_PACK] [--refs FILE ...]
 
   SCRIPT       the script file (plain text or markdown).
   --rules      niche pack and/or persona profile files. Any ```scanner block in them
@@ -16,8 +16,13 @@ Usage:
                    ban-regex: pattern | label
                    lift: phrase or label of a hard ban
   --pack       the research pack. Every number in the script is checked against it.
+  --refs       optional reference files (the niche pack's excerpts.md and reference-scripts.md).
+               Any run of 8 or more consecutive words in the spoken script that also appears
+               in a reference file is fix-on-sight "copied from reference". Case, punctuation
+               and [bracketed] source tags are ignored.
 
-Exit code: 1 if any fix-on-sight problem is found (hard ban, mechanical, niche ban), else 0.
+Exit code: 1 if any fix-on-sight problem is found (hard ban, mechanical, niche ban,
+copied from reference), else 0.
 """
 import re, sys, argparse
 from collections import Counter
@@ -221,9 +226,51 @@ def number_check(script_text, pack_text):
                 missing.append((v, s))
     return missing
 
+# ---------------------------------------------------------------- copy guard
+COPY_RUN = 8   # words in a row shared with a reference file = copied
+
+def copy_tokens(text):
+    """Lower-case word tokens, ignoring punctuation and [bracketed] tags (timestamps, source tags)."""
+    text = INLINE_TAG.sub(" ", text.replace("\u2019", "'").replace("\u2018", "'")).lower()
+    return re.findall(r"[a-z0-9]+(?:'[a-z]+)?", text)
+
+def read_refs(paths):
+    """Every COPY_RUN-word run in the reference files, mapped to the first file it came from."""
+    runs = {}
+    for p in paths or []:
+        name = p.replace("\\", "/").rsplit("/", 1)[-1]
+        for line in open(p, encoding="utf8", errors="ignore").read().split("\n\n"):
+            toks = copy_tokens(line)
+            for i in range(len(toks) - COPY_RUN + 1):
+                runs.setdefault(tuple(toks[i:i + COPY_RUN]), name)
+    return runs
+
+def copy_check(text, ref_runs):
+    """Merge overlapping shared runs per paragraph; return (source file, copied words)."""
+    hits = []
+    if not ref_runs:
+        return hits
+    for para in spoken_paragraphs(text):
+        toks = copy_tokens(para)
+        start = end = None; src = None
+        for i in range(len(toks) - COPY_RUN + 1):
+            g = tuple(toks[i:i + COPY_RUN])
+            if g in ref_runs:
+                if start is not None and i <= end:
+                    end = i + COPY_RUN
+                else:
+                    if start is not None:
+                        hits.append((src, " ".join(toks[start:end])))
+                    start, end, src = i, i + COPY_RUN, ref_runs[g]
+        if start is not None:
+            hits.append((src, " ".join(toks[start:end])))
+    return hits
+
 # ---------------------------------------------------------------- scan
-def scan(text, extra_bans, lifts):
+def scan(text, extra_bans, lifts, ref_runs=None):
     fix, judge = [], []
+    for src, run in copy_check(text, ref_runs):
+        fix.append(f"[COPIED FROM REFERENCE: {src}] \"{run}\" ({len(run.split())} words in a row)")
     paras = spoken_paragraphs(text)
     hard = [(re.compile(rx, re.I), name) for rx, name in HARD_BANS
             if not any(l in name.lower() or re.search(rx, l, re.I) for l in lifts)]
@@ -290,11 +337,14 @@ def main():
     ap.add_argument("script")
     ap.add_argument("--rules", nargs="*", default=[])
     ap.add_argument("--pack")
+    ap.add_argument("--refs", nargs="+", default=[])
     a = ap.parse_args()
     text = open(a.script, encoding="utf8", errors="ignore").read()
     bans, lifts = read_rules(a.rules)
-    fix, judge, most, reframes, echoes, sparing = scan(text, bans, lifts)
+    fix, judge, most, reframes, echoes, sparing = scan(text, bans, lifts, read_refs(a.refs))
     print(f"SCAN: {a.script}")
+    if a.refs:
+        print(f"  copy guard: {COPY_RUN}+ words in a row shared with {', '.join(a.refs)}")
     if lifts:
         print(f"  lifted bans in effect: {', '.join(lifts)}")
     print(f"\nFIX ON SIGHT ({len(fix)})")
