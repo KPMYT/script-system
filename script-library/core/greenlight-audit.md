@@ -51,7 +51,7 @@ description: The final quality gate every script passes before it ships. Six gro
 
 - **D1. The shape test.** Every sentence is tested against the niche pack's voice samples, or the persona profile's if it overrides them. Quote one matched line.
 - **D2. The humanizer sweep,** H1-H23 (`humanizer.md`), including the counts for H20, H21 and H23.
-- **D3. The scanner.** Run `script-scanner.py` with the niche pack and persona profile as rules files and the research pack as the pack. Hard bans, mechanical problems and niche bans must all be zero.
+- **D3. The scanner.** Run `script-scanner.py` with the niche pack and persona profile as rules files, the research pack as the pack, and the niche pack's `excerpts.md` and `reference-scripts.md` with `--refs`. Hard bans, mechanical problems, niche bans and "copied from reference" findings must all be zero.
 - **D4. Numbers trace to the research pack.** Every number appears in the pack, or is worked out from pack numbers with the math shown in the evidence block. A number the video relies on that traces to nothing is a Hold.
 - **D5. Contrast and poster-quote lines.** At most one "it's not X, it's Y" reframe, and only one earned poster-quote line, if any.
 
