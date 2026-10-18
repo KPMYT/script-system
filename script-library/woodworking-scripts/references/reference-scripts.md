@@ -4,7 +4,7 @@ Eight complete scripts from the lane's winners, chosen by the highest views agai
 
 **How to use this file:** read it at the planning step, for structure and pacing only: where the first material lands, how many steps there are and how long each runs, where the money proof sits, where a CTA can go. **Never copy wording.** Every script here was spoken by a real person filming his own build, so most of its lines can't transfer as they are (see each "Doesn't transfer" list), and the scanner's copy guard flags any run of 8 or more words lifted from this file or from `excerpts.md`.
 
-**Labels** (from the skeleton in `SKILL.md`): [PROMISE] [CONTEXT] [MATERIALS] [TOOLS] [CUT LIST] [STEP] [FINISH] [MONEY BLOCK] [WHERE TO SELL] [CTA] [CLOSE]. Labels follow the order things happen in the video, so a few appear out of skeleton order; asides, jokes and stories stay inside the section they interrupt. Each paragraph starts with its timestamp.
+**Labels** (from the skeleton in `SKILL.md`): [PROMISE] [CONTEXT] [MATERIALS] [TOOLS] [CUT LIST] [STEP] [FINISH] [MONEY BLOCK] [WHERE TO SELL] [CTA] [CLOSE]. Labels follow the order things happen in the video, so a few appear out of skeleton order; asides, jokes and stories stay inside the section they interrupt. Steps are numbered after the label, [STEP] (1), [STEP] (2) and so on, with P1/P2 for the two-build video. Each paragraph starts with its timestamp.
 
 **Each entry has:** the title, channel, views against the channel normal (BeardedViking 73,108; WhosTheVoss 232,499, as of 2026-10-17) and length; one paragraph on why it works; the labelled script; the unit plan it implies (`unit-plan-template.md`); and what doesn't transfer.
 
@@ -48,36 +48,36 @@ Eight complete scripts from the lane's winners, chosen by the highest views agai
 [CUT LIST]
 [0:44] We need to cut our board into 16 different pieces. That's a lot, I know.
 
-[STEP 1]
+[STEP] (1)
 [0:50] Now, there's many ways to get your pieces cut. Since I don't have much room to work with over here with the whole 8-ft board, I'm going to go ahead and start by cutting mine directly in half at 48 in. That's it. >> [groaning] >>
 
-[STEP 2]
+[STEP] (2)
 [1:13] Now, it's time to get our 16 pieces cut. I'll lock my saw in the downward position and on the right side of my saw, I'm going to measure over from my blade, making sure to measure over from one of the carbide tips to 5 and 3/4 on my deck. Make a little tick mark on the fence and the deck.
 
 [1:35] I'll grab a squeeze clamp, and I'm going to be setting myself up with a stop block right at that 5 and 3/4-in mark we made. With our saw set to 90°, it's time to make all 16 of those cuts. Anytime that you're using a stop block setup, you want to make sure to either let that blade stop completely before releasing the saw or just hold down that right side.
 
 [1:57] That way, you avoid the kickback factor.
 
-[STEP 3]
+[STEP] (3)
 [2:01] Once you're done cutting those, take eight of those pieces, and we're going to be adding an angle to each one of those. You could either do a 45° miter, or you can set your saw to a 45° bevel. It's up to you. I'm going to be using my 45° miter for this. On each end of your pieces, at the very edge, you're going to be making that 45° miter cut.
 
 [2:26] Make your first cut, then flip your piece over, and make your second cut. I've had a ton of comments asking me about what blade I use on my miter saw. Well, it is the 52-tooth combination blade. And yes, this is a 10-in blade on a 12-in saw. Why? There's no scientific reason behind it, other than I just haven't felt like buying a 12-in blade.
 
 [2:50] Those things can be expensive. Go ahead and do those same steps with your next seven pieces. And if you're a little bit uncomfortable holding this small of a piece, cutting it with that 45° miter, just switch your saw over to a 45° bevel. And that'll make this cut a little less intimidating. Once you've made all of your cuts, you'll be left with eight pieces that are long point to long point of the 45° bevel at 5 and 3/4, and eight pieces 5 and 3/4 square to square.
 
-[STEP 4]
+[STEP] (4)
 [3:24] Go ahead and get all your pieces sanded nice and smooth, and get rid of any kind of saw marks, or any kind of hairs that are left over from those cuts. One thing you may want to consider when picking out your 2 by 4 is the cup direction. I wound up picking up a 2 by 4 that had a U-shape cup, which sort of goes against the recommended 2 by 4 grain pattern.
 
 [3:46] I found one that was flat enough, but would also give it a cool little effect when I glued these two pieces together. Just something for you to think about.
 
-[STEP 5]
+[STEP] (5)
 [3:55] For each of our products, you're going to be using two of the square ones and two of the beveled ones. We'll start by gluing the two square pieces together, and I'm going to be gluing them together with the cups facing each other to give it the effect I'm looking for. I'll make sure to take my time and make sure the cups look symmetrical whenever I line these all up together.
 
 [4:22] Being that these can be an exterior or interior project, I'll be using some Boss Dog outdoor glue. Take our first pair, spread them apart, and add a dab of glue. Make sure to spread that glue like you were spreading butter on toast, and you can rub them back and forth to help stiffen them up a bit.
 
 [4:42] And that'll just help when it comes time to clamp these things. Add a dab of glue. Now, we're kind of going against another recommendation of gluing cups facing each other. However, with the pieces being so small, I'm not concerned about any kind of wood movement, and we should be just fine. Now, once you get these two glued together, if you wanted to, you could add some kind of fastener like a brad nail, or you could even add some screws if you're worried about the glue not holding up, but I'm here to tell you, on these long grain glue ups, this glue holds like you would not believe.
 
-[STEP 6]
+[STEP] (6)
 [5:15] It's time to glue in our 45° beveled pieces. One at the top and one at the bottom. Then go ahead and add your squeeze clamp, making sure you're nice and lined up on both edges. Check for any kind of squeeze out of the glue, and make sure to get that cleaned up because we don't want that interfering with our finish.
 
 [5:49] Now, it's just a matter of gluing up your other sets.
@@ -85,18 +85,18 @@ Eight complete scripts from the lane's winners, chosen by the highest views agai
 [CTA]
 [6:01] There are only 47% of my viewers that are subscribed. So, if you're not subscribed to the channel, consider doing so. It's absolutely free, and it really does help. And don't forget to smack that like button.
 
-[STEP 7]
+[STEP] (7)
 [6:14] You want to be able to give your client the option to choose the design that they want. Well, there goes my power. Okie dokie. I'll be back. Ow! Ooh, I just busted my shin. >> [laughter] >> Like I was saying, we're going to give the client the option to choose their design. So, I'll do two set up vertically, and then two horizontally.
 
-[STEP 8]
+[STEP] (8)
 [6:44] Go ahead and mark the center of each of your tops. Okay, so once you get your centers marked, what I like to do before I drill is use a center punch to punch a hole at those intersecting lines. And what that does is allow you to put the very tip of that drill bit right at that center punch hole, giving you the accuracy you're going to be looking for.
 
 [7:05] I'll leave a link for this one in the description.
 
-[STEP 9]
+[STEP] (9)
 [7:09] I'll grab my box of bits, and I'm going to be using an inch and a quarter forster bit to drill out these holes. Now, follow me, crew. I'll head over to my vise, and at each of those center marks we made, I'm going to drill down to a depth of 3/4 of an inch.
 
-[STEP 10]
+[STEP] (10)
 [7:35] Now, with this next step, this is totally optional. I'm going to be adding a chamfer bit to my trim router, and I'm going to be adding that chamfer to that hole that we drilled out just to give this piece a little bit of depth on each of our pieces.
 
 [FINISH]
@@ -106,7 +106,7 @@ Eight complete scripts from the lane's winners, chosen by the highest views agai
 
 [8:28] For the other two that aren't burnt, I'm going to be using a honey stain, and for the fourth pumpkin, I'm going to leave it raw with a coat of shellac.
 
-[STEP 11]
+[STEP] (11)
 [8:40] Now, it's time to put the stick in rustic. This is where the cut nails come into play. With a 1/4-in drill bit right at that center mark that the other drill bit left behind, we're going to drill down right at that mark but at a slight angle. If you notice on your cut nails, these things are pretty thick, so you want to give that a pilot hole that way you don't split your wood.
 
 [9:13] Do those same steps with your other three, and I've actually got some of this natural fiber rope. I'm going to add this just to give it a little bit more appeal.
@@ -192,7 +192,7 @@ FLEXIBLE CHOICES THIS TIME
 - context sentence: yes or no?                           yes (hand-me-down tools)
 
 MID CTA
-- goes after:                      STEP 6, all glue-ups done (6:01, ~54% through)
+- goes after:                      step 6, all glue-ups done (6:01, ~54% through)
 
 LENGTH ESTIMATE
 - number of units, by type:        1 promise, 1 context, 3 material lines, 1 cut-list line, 11 steps, 1 finish, ~9 money lines incl. doubter, 1 CTA, 1 close
@@ -261,16 +261,16 @@ VARIATION CHECK
 [MATERIALS]
 [0:08] Slide up to Lowe's and grab yourself a 1x4x8 for around eight bucks. Or you can get the furring strip like I typically do for around four bucks. That's less than the price of a number two from McDonald's. What? I don't know about y'all, but I'd much rather buy some wood than that garbage.
 
-[STEP 1]
+[STEP] (1)
 [0:31] All right, so here we go. First thing we're going to be doing is cutting two pieces to 27 in. Anytime I decide to use pine for a project, I never go with that expensive ass pine select. It's like twice the cost of this regular naughty pine. The only reason I'll be using pine is if I'm doing something rustic, and this naughty pine is perfect.
 
-[STEP 2]
+[STEP] (2)
 [0:52] Next, we're going to go ahead and pull some measurements. We'll start by pulling from the right side to 3 and 1/2 in. From that 3 and 1/2 in mark, we're going to be pulling over 5 in until we reach the left side here. So, that'll be 1 2 3 4. And that will give us five marks all together.
 
-[STEP 3]
+[STEP] (3)
 [1:22] The next step we'll take is that those five marks we just made will pull up from the back side at an inch and a [Music] [Applause] quarter. Now go ahead and put a punch mark at these intersecting points. [Music]
 
-[STEP 4]
+[STEP] (4)
 [1:49] I'll be using an inch and a half Forester bit to get these holes drilled out. But first, I'm going to go ahead and clamp both in my vise and use a 1/ inch bit to transfer the marks to my next piece. And also to avoid blowout, I'll drill down halfway from the top side, flip it over, and drill the rest of the way through my other side.
 
 [2:15] I'll go ahead and get this next one drilled out and I'll meet you back here.
@@ -278,36 +278,36 @@ VARIATION CHECK
 [CTA]
 [2:19] Turning eyeballs into potential buyers is sort of like turning viewers into subscribers. There's only 48.6% of my viewers that are subscribed to the channel. Help us reach 200,000 subscribers by hitting that subscribe button today. It's absolutely free and it really helps the channel.
 
-[STEP 5]
+[STEP] (5)
 [2:39] All right. Now that we've got those taken care of, we'll start at our 3 and 1/2 inch mark. And we'll lay our piece down with the thin side of our hole to the right. We'll be using our speed square. And I really like this little mini square. I'll leave a link where you can pick one of these up.
 
 [2:58] We'll set our square up against our left side here with our 45 facing the left side. We'll find the edge of our hole on the right side of that hole. Once you line up that square with the edge of that hole, we'll scribe straight up to the top, just like so. Now, we'll come 3/4 of an inch from that line we just scribed with the same 45° angle and scribe a line up to the top there as well.
 
 [3:27] And this will be coming out. Now, go ahead and finish marking out for the rest of your holes. [Music] [Applause] [Music] [Applause] [Music] [Applause] [Music] [Applause]
 
-[STEP 6]
+[STEP] (6)
 [4:00] Now, there are several different ways that we can get this waste removed. Let me demonstrate. We'll take it to the miter saw and turn our miter to 45°. We'll line up the curve of the blade with our lines and make those cuts. Just be sure not to cut into the back of your circle.
 
 [4:23] If you don't want to risk overcutting, you could even use a jigsaw or you could even use your band saw. Out of these three options, I like the miter saw because it leaves a cleaner [Music] look.
 
-[STEP 7]
+[STEP] (7)
 [4:45] Get yourself one of these cylinder sanders for your drill. This is one of the best tools that I've got laying around the shop. It'll make quick work of cleaning up all these holes. [Music]
 
-[STEP 8]
+[STEP] (8)
 [5:24] Now that we've got these two pieces cleaned up, we'll set them to the side for now. And with the remainder of that 1x4, we'll get two pieces cut to 10 in.
 
-[STEP 9]
+[STEP] (9)
 [5:42] I'll be using pocket hole screws to get these two pieces fastened to our side rails. I'll drill two pocket holes in the back side of each of those 10-in pieces. [Music]
 
-[STEP 10]
+[STEP] (10)
 [6:10] Now, before we do anything else, I'm going to take this piece over to our router table and get two key slots routed out in the back side. [Music]
 
-[STEP 11]
+[STEP] (11)
 [6:23] We'll go ahead and pull down from the top at 4 and 1/2 in on both of your pieces. Then we'll pull down to 19 and 12. Now, my one piece with the key slots, I'll put at the top. The piece without them, I'll put right at the bottom. I'll be using some inch and a half pocket screws.
 
 [6:46] And I'll start by lining up my pieces with those marks we just made. And I'm going to clamp them together. I'm going to flip it around. [Music] I'll do a little bit of adjusting and then get this upper piece reclamped. That way everything stays nice and square while I'll install these screws.
 
-[STEP 12]
+[STEP] (12)
 [7:32] I'll go ahead and hit it one last time with the sander.
 
 [CTA]
@@ -392,7 +392,7 @@ FLEXIBLE CHOICES THIS TIME
 - context sentence: yes or no?                           no
 
 MID CTA
-- goes after:                      STEP 4, holes drilled (2:19, ~24% through); a second like-ask at 7:35, just before the finish
+- goes after:                      step 4, holes drilled (2:19, ~24% through); a second like-ask at 7:35, just before the finish
 
 LENGTH ESTIMATE
 - number of units, by type:        1 promise, 1 material line + aside, 12 steps, 1 finish, ~8 money lines, 2 CTAs, 1 close
@@ -468,19 +468,19 @@ VARIATION CHECK
 [CUT LIST]
 [0:31] On our boards, we're going to be making 18 simple cuts.
 
-[STEP 1]
+[STEP] (1)
 [0:36] And there's a number of ways you can do this. I don't have very much room over at my miter saw for an 8-ft board. So, what I'll wind up doing is getting these boards cut directly in half at 48 in using my circular saw. I'll grab my speed square to make a reference mark and I'll get these cut down.
 
 [0:54] A quick tip, whenever measuring from the right side of your board, you want to be sure to cut on the left side of your mark and vice versa. That way you get the accurate measurement you're aiming for. >> [groaning] >>
 
-[STEP 2]
+[STEP] (2)
 [1:11] Now, I've got four workable pieces. With our miter saw set to 90°, now it's time to make our 18 cuts. And we'll start with our 2 by 6s. It'll actually be 20 cuts if we're being technical. Out of our 8-ft 2 by 6, we want as many pieces as close to 16 in as possible.
 
 [1:28] So, taking the blade curve into account, we need to measure over to 15 and 7/8. And we'll get six of these cut to that measurement. We'll use the first one we cut to make our other cuts. You want to line them up flush to the edge and you can feel for when it's flush.
 
 [1:47] Then you'll just slightly nudge that top board into the blade and make your next cut. And repeat the process until you've cut all six of these pieces using that first cut as your template.
 
-[STEP 3]
+[STEP] (3)
 [2:00] For our 2 by 4's, what we're going to do is lock our saw in the downward position. We're going to measure over from one of the carbide tips to 5 and 3/8 on our deck and our fence from the right side of the blade. We'll grab a clamp and a little block, and we're going to be using a stop block because we need to batch out 12 of the same measurement.
 
 [2:23] So, that'll be 12 at 5 and 3/8. And always remember, when using a miter saw with a stop block, either let that blade stop all the way before releasing the saw, or just hold down the right side that you're cutting. You do not want to have to deal with the kickback. After you make those 12 cuts, we'll take the remaining 2 by 4 that's left over, and we're going to set this to the side for now.
@@ -489,41 +489,41 @@ VARIATION CHECK
 
 [3:06] How often do you cut a piece of wood that's that wide? Me? Not very often. Once you've made all your cuts, you'll be left with six 2 by 6's that are 15 and 3/4 and 12 2 by 4's that are 5 and 3/8.
 
-[STEP 4]
+[STEP] (4)
 [3:26] You'll notice with your big box store lumber, if it's pine, it usually comes with a slight roundover on your pieces, but they're never equally rounded over. For this project, I want these roundovers to be symmetrical, so what I'll be doing is using a 1/4-in roundover and rounding over all four sides of each of these pieces.
 
 [3:44] And this step is totally optional, so if If have a router or a roundover bit, don't worry about it.
 
-[STEP 5]
+[STEP] (5)
 [3:52] Next, go ahead and get all of your pieces smoothed over with some sandpaper. Work your way through the grit, starting with 80 grit, working your way to 120, and then ultimately finish at 220. And when you're done sanding, don't forget to blow off all that excess dust. You don't want this dust to interfere with the finish.
 
 [4:13] A quick tip when picking up your material for this project is find the boards that have that vertical-looking grain when you're holding them flat like this, and you'll be shocked at how straight and flat these are.
 
-[STEP 6]
+[STEP] (6)
 [4:27] For each of our projects, we'll be using one of the 2 by 6 pieces and two of your 2 by 4 pieces. Our next step is fastening our two 2 by 4 pieces to our 2 by 6s. And there's a couple of different ways that you can do this, and I'm going to demonstrate both.
 
 [4:46] Our first demonstration is going to be fastening our 2 by 4s from the top of our 2 by 6. Measure over from your right side at 2 and 1/2 inches as well as from the left side at 2 and 1/2 inches. I'll set my square to an inch and a half, and from the front side at that 2 and 1/2 inch mark, we'll be coming in at that measurement as well as the back side.
 
 [5:13] And then just connect the two marks, making an intersecting point.
 
-[STEP 7]
+[STEP] (7)
 [5:23] I'm using my center punch to make punch marks at each of those intersecting points. And what that's going to do is allow me to get the very tip of my drill bit right at that intersecting point, giving me some super accurate holes. And there is a link in the description for this punch.
 
 [5:40] I'm going to finish getting these laid out, but while I do that, I see so many different woodworkers using these twist bits and they're always wondering why they get tear out when they're drilling out their holes. The twist bits are just so aggressive and they take out all that material so quick that it causes you to get tear out.
 
 [6:00] But these forstner bits make the cleanest, sharpest looking holes. So that's why I use these. So with a 3/8 inch forstner bit, I'm going to be drilling down to a depth of 3/4 of an inch. Make sure when drilling your holes that you're holding your drill nice and plumb. You don't want to wind up with a hole that's at an angle.
 
-[STEP 8]
+[STEP] (8)
 [6:22] Now it's time to get everything fastened. We're going to be using about a $1.50 in screws. And these are the 2 and 1/2 inch T25 screws and they're just standard deck screws. And with some Boss Dog outdoor glue, we're going to add a dab of glue. The center of our 2 by 4 is going to be lined up with that 2 and 1/2 inch mark we made earlier.
 
 [6:41] Holding everything nice and snug, go ahead and install your screw. These don't look too good now, but let's trust the process. To make sure that your 2 by 4 square, use a little square once you get that screw set, and butt it right into your 2 by 4 and you should be nice and square.
 
 [7:02] If you're not, go ahead and make sure that you fix that.
 
-[STEP 9]
+[STEP] (9)
 [7:06] Now go ahead and install your second leg. If you wanted to, you could add a clamp. You can temporarily clamp that while you get that screw installed. Doing it this way will require some 3/8 inch dowel or you could even make your own plugs.
 
-[STEP 10]
+[STEP] (10)
 [7:24] The other option is to use a Kreg Jig and fasten your 2 by 4s from the bottom. And Kreg Jigs come at a number of levels. They got the cheaper ones versus the more expensive ones. Drill two pocket holes in the bottom of each of your 2 by 4s, add a dab of glue, line up the center of the 2x4 with that 2 and 1/2 inch mark, add your first screw, check for square, and go ahead and get them installed.
 
 [7:51] And just rinse and repeat for each of your 2x4 feet.
@@ -531,7 +531,7 @@ VARIATION CHECK
 [FINISH]
 [7:59] Now it's time to take them from looking like this to this. That's what I'm talking about. >> [bell] >>
 
-[STEP 11]
+[STEP] (11)
 [8:06] Now the ones that I've been seeing going around on Etsy and Wayfair and places like that are marketed as risers. However, if you wanted to add a marketing strategy, you could even do riser/stool. But I would recommend if you do that to add a runner on the bottom of your piece. That way you can fasten your two sides into that runner and then fasten that runner into the bottom of your 2x6 and that's where our leftover 2x4 cutoff comes into play.
 
 [8:38] We'll just get that measurement and get that cut down over at the miter saw. Once we do that, we'll get this ripped directly in half. Now with that cutoff piece, you'll be able to get four of these little runners made. You'll be making six of these risers, so feel free to market four of them as a step stool.
@@ -570,7 +570,7 @@ CONTEXT
 MATERIALS
 - 2x4x8 + 2x6x8 -> own line? yes, because: price (~$12 together) / selection tip (dig for the straightest)
 - second selection tip, placed later (4:13): vertical-grain boards stay straight and flat
-- 2-1/2" T25 deck screws (~$1.50) and outdoor glue -> named inside STEP 8
+- 2-1/2" T25 deck screws (~$1.50) and outdoor glue -> named inside step 8
 - stain and paint -> named only in the money block total
 - batched together:                none; no store named
 
@@ -615,7 +615,7 @@ WHERE TO SELL
 FLEXIBLE CHOICES THIS TIME
 - tools listed separately, or folded into materials?   own short line (0:22), then details inside steps
 - where to sell: its own part, or merged?               merged into the money block / listing angle
-- a quick check of the finished piece?                   square check inside STEP 8 only
+- a quick check of the finished piece?                   square check inside step 8 only
 - context sentence: yes or no?                           yes (Etsy bestseller)
 
 MID CTA
@@ -686,33 +686,33 @@ VARIATION CHECK
 [MATERIALS]
 [0:17] First things first, you'll want to head up to Lowe's and grab yourself some 1x4x8, which is going to run you approximately anywhere from 6 to 8 bucks. That's about the same cost as a Whopper from Wendy's.
 
-[STEP P1-1]
+[STEP] (P1-1)
 [0:27] I cut one piece at 20 in. That way, it's more workable.
 
-[STEP P1-2]
+[STEP] (P1-2)
 [0:31] And we will start from one side, which is going to be our right side. We'll pull in at 3 in. And at that 3-in mark from the right edge, we'll pull in at an inch and a half. And we'll get those intersecting points punched.
 
-[STEP P1-3]
+[STEP] (P1-3)
 [0:50] Once you get those points punched, go ahead and get a 16th drill bit [music] installed into your drill. Head over to a vise if you've got a vice and get this drilled all the way through with that 16thin drill bit. Once you do that, just grab a 5/8 inch for bit, drill halfway through on one side, spin your piece around, and drill halfway through on the opposite side, avoiding any kind of blowout.
 
-[STEP P1-4]
+[STEP] (P1-4)
 [1:16] Next, we'll pull some measurements. Pull up at 5 in on your left side and square that line all the way over. Next thing we'll do is from our hole, from the bottom of the hole, we'll square that over to the right side. And on the left side of the hole, we'll square that all the way up to our 5 in mark.
 
-[STEP P1-5]
+[STEP] (P1-5)
 [1:43] Next, at the bottom left, we'll pull over to a/ inch and we'll connect that 1/2 in mark with the top of our 5-in mark on the left side, creating a slight taper. and we'll be removing all of that waste.
 
-[STEP P1-6]
+[STEP] (P1-6)
 [1:57] We'll grab ourselves a clamp and get our piece clamped to our bench. And I'll grab my DeWalt jigsaw and get this cut out. One of the big upsides of this project is you can make all of your cuts using just this jigsaw like I'm doing now. Now, you can either leave it like this and just cut it straight off, but what I want to do is follow this taper.
 
 [2:27] So, what I'll do is come down here toward the edge of my hole again and just follow that with my finger up against this taper. Then I'll cut it all the way off just like that.
 
-[STEP P1-7]
+[STEP] (P1-7)
 [2:44] And then it's just a matter of a little bit of sanding or maybe a lot of sanding.
 
-[STEP P1-8]
+[STEP] (P1-8)
 [2:56] Pick yourself up a 3/8 in key slot bit. Now let's get some key slots routed into the back of our piece. I'll line up our piece with the center of our bit. And I'm going to be routing two key slots that are 3/4 of an inch in width. I'll do one toward the top and one toward the bottom.
 
-[STEP P1-9]
+[STEP] (P1-9)
 [3:18] Once you get your first piece completed, it's just a matter of taking it back over to the remaining 1x4 and getting them scribed out and getting them cut out one at a time. I'll be batching out three for this project.
 
 [CTA]
@@ -721,10 +721,10 @@ VARIATION CHECK
 [FINISH]
 [3:51] Now it's just a matter of slapping some finish on this thing. And obviously we'll be using our favorite finish, the finish for dummies, shellaca. I'll put on a light coat of this.
 
-[STEP P1-10]
+[STEP] (P1-10)
 [4:00] And then I'll bring it over here to the table saw. Grab some blue tape and we'll get our key slot holes transferred.
 
-[STEP P1-11]
+[STEP] (P1-11)
 [4:11] Next, bring that blue tape over to your wall. And if you want to avoid sheetrock anchors, I would advise finding a stud. Install two T20 screws, leaving the heads a/4 in from the wall, and you've got yourself an awesome wall-mounted hanger.
 
 [MONEY BLOCK]
@@ -738,46 +738,46 @@ VARIATION CHECK
 [MATERIALS]
 [5:16] All right. Now, hear me out. I've got this piece of leftover fiddleback clar walnut. And I've got some Myrtle [laughter] Myrtle. The walnut measures 4 and 1/2 in width by 4 in tall. And the thickness is at 3/4 of an inch. My myrtle is 3/4 of an inch.
 
-[STEP P2-1]
+[STEP] (P2-1)
 [5:36] And I need to get this ripped down first to the same size of that 4 and 1/2 in walnut.
 
-[STEP P2-2]
+[STEP] (P2-2)
 [5:57] Once we get that myrtle ripped, we'll be pulling down from one side at 3 and 3/4. and we'll get this cut over at the miter saw.
 
-[STEP P2-3]
+[STEP] (P2-3)
 [6:10] Next, we'll take our myrtle piece and I'm going to be ripping three pieces to an inch and 3/8.
 
-[STEP P2-4]
+[STEP] (P2-4)
 [6:25] Now, orientate those pieces the way they were before you ripped them in half. And on the middle piece on the very bottom, I'm going to be cutting a 45 degree miter. Let me demonstrate. We'll turn our miter to a 45. And right at the very bottom, I'll be cutting this 45° miter. Just like so.
 
-[STEP P2-5]
+[STEP] (P2-5)
 [6:50] Now, on the top of our middle piece, I'm going to come in half the distance and cut a second 45° miter on the same side. So, right here on the back side, just like that.
 
-[STEP P2-6]
+[STEP] (P2-6)
 [7:07] Now, with my marking wheel, I need to make some marks on the insides of my two outer pieces and on both sides of my center piece at the bottom. I'll come an eighth inch from the back side and come an eighth inch up from the short point and scribe a line. Do that on both sides.
 
 [7:26] On our side pieces, we'll do those same marks but on one side. And that'll be the inside of these pieces. And it wouldn't hurt to mark your pieces. That way you don't lose track. And let's get those intersecting points punched.
 
-[STEP P2-7]
+[STEP] (P2-7)
 [7:47] And with a quarterinch drill bit installed into my drill press, I'll be drilling down all the way through on the center piece and drilling down 5/8 of an inch deep on both of the side pieces.
 
-[STEP P2-8]
+[STEP] (P2-8)
 [8:02] I'll take my 1/4in copper dowel, and there's no specific reason why I'm using the copper, but it works really good in my opinion. I'll get that cut to size.
 
-[STEP P2-9]
+[STEP] (P2-9)
 [8:12] We'll sand our pieces, working through the grits from 80 uppers to 220 grit. Blow off all that dust. And for our three myrtle pieces, I need to get those prefinished before I install them to our walnut. So, I'll hit this with a light coat of shellac and then I'll meet you back over at the bench.
 
-[STEP P2-10]
+[STEP] (P2-10)
 [8:32] Now, I'm not going to be gluing in my dowel. I'm just going to let that set inside there nice and free. I'll put these pieces together like so. Flip them around. And guess what? Add a dab of glue. Add a dab of glue. Add a [music] dab of glue. Add a dab of glue.
 
 [8:48] Add a dab of glue. Add a glue. In my shoes.
 
-[STEP P2-11]
+[STEP] (P2-11)
 [9:08] And I'll add a dab of CA glue to help act as a temporary clamp. We'll spin these pieces around. Line them up where we want this to be glued in. And I want an equal spacing around my whole piece of walnut. I should have a/4 inch on all sides of my walnut. You can give it a little wiggle.
 
 [9:29] Help it stiffen up a little bit. Giving it what we like to call a rub joint. And we'll let this sit for about 15 minutes and I'll meet you back here.
 
-[STEP P2-12]
+[STEP] (P2-12)
 [9:39] And for hanging this piece, we'll do those same two key slots right at the center on the back. Doing one at the top of the piece and one at the bottom. And to transfer our key slots, we'll use that same tape method using our tape and a Sharpie.
 
 [FINISH]
@@ -943,30 +943,30 @@ VARIATION CHECK
 [0:58] First ingredient you need is some sawdust. Take it out of your dust collection system. I'm sure there's some around your miter saw. When I run my planer, I like to keep all those bigger thicker chips because it does very well for this project. I've also made it out of that little fine dust that sits around the shop. Either one will work.
 [1:16] Second ingredient you'll need is some paraffin wax. Comes in these hard little blocks. It's how they make candles. It's also the stuff they coat apples in until you buy them from the store. Paraffin wax, the miracle product. Otherwise, you can use crayons. They sell them in bulk without the wrapper. And I'll go over some pros and cons later on in the video.
 
-[STEP 1]
+[STEP] (1)
 [1:35] Then we're going to crank up the heat to 150 or so. Not very high at all. Really, it's on low.
 [1:44] What is that? Chicken. No, it is kind of cool. It's like the Rick and Morty garage. Do you guys read this yet? Okay.
 [1:54] All right, we got to get moving cuz this thing's starting to smoke.
 
-[STEP 2]
+[STEP] (2)
 [1:56] To cut your paraffin wax, don't saw at it. It's going to take you all day. Just put your knife on there, give it some light pressure.
 [2:05] If this is your first time making this product, cut about an inch off of the block, cut them into little 1-in pieces, and throw them into your pot.
 
-[STEP 3]
+[STEP] (3)
 [2:11] Pretty soon it'll begin to melt and make this very beautiful little thick liquid. I have a potato masher. I like to just set that on top, kind of swirl it around. I don't like to push down a whole bunch because once that wax gives out and it pushes down, it sprays you with wax. Now, it's not that hot, it doesn't hurt, but it gets stuck in your clothes.
 [2:31] If you wanted to use old candles or you go to the thrift store, you pick up a whole bunch of used candles for cheap. However, those will have an odor, and you also have to deal with the glass and the wicks. Just a lot easier to buy a block of paraffin wax.
 [2:45] I also have this little silicone scraper. It's great for getting into the sides. It has a little flat spot. We'll go over that in just a moment. I can use it to scrape all that wax off of my masher.
 
-[STEP 4]
+[STEP] (4)
 [2:56] Once you have a perfectly clear liquid, has just a little bit of sawdust in it cuz you've done this before, you can take a little handful of sawdust, not much, like this much, you're going to sprinkle it on the top. And then you're going to mix that in.
 [3:09] What we want to avoid is the need to add additional wax when we can just add a little bit more sawdust. It's the same thing if you're trying to mix up a small batch of concrete. You're going to get it until it kind of looks like that crumble that goes on top of a pie. Mhm, pie.
 
-[STEP 5]
+[STEP] (5)
 [3:26] Next, you're going to need some sort of a silicone mold, being a candy mold, candle mold, resin mold. Doesn't really matter what you type in to find them. I'd originally found these. I thought they were going to be smaller. I've never used it. It just looks like a stump. Problem being, this is gigantic and going to eat our profits 100% away.
 [3:44] Then I found these. These are nice candy molds. They have the nice breaking points in them. Easy, I can fill them up. I got them on clearance. But, with these, I'd have to have a method to either wrap them or put them inside of a baggie, cuz I don't want this to get over 150° in somebody's vehicle, and then melt everywhere.
 [4:03] And since Amazon's so good at suggesting products for me to buy, it showed me these. Come in a bulk pack, they close up, they're actually for candle wax, has the little cutouts, they're perfect.
 
-[STEP 6]
+[STEP] (6)
 [4:15] Now, you need to do is take a little bit of wax here. I kind of just scoop it up and over the side. Then I take this sharpened corner, and I just press it into each of the corners. You'll see a little bit of liquid squeeze out. That is what we're looking for. You'll also be able to see all of those grid lines. I don't need to fill this all the way up. Where I have it at is more than enough for what we're doing.
 
 [FINISH]
@@ -1152,65 +1152,65 @@ VARIATION CHECK
 [1:00] >> What do you need, ready? >> I'll just get a large half-cut tea with no ice. >> $2.09 first one. No, thank you.
 [1:05] >> And that brings our entry fee to $826.20, but don't worry, we're going to turn a profit.
 
-[STEP 1]
+[STEP] (1)
 [1:10] Measure halfway down your 2x4 and cut it in half. 48 in, you'll end up with four pieces.
 
-[STEP 2]
+[STEP] (2)
 [1:16] With your fence set to 3 and 1/4 of an inch, remove that rounded section from one side of your board.
 [1:24] A little painter's tape on the open side of your saw blade really cuts down the amount of sawdust it's kicking back at you.
 
-[STEP 3]
+[STEP] (3)
 [1:30] Bump your saw down to 5/8 of an inch, place the side that we have made nice and flat against the fence, and cut your 2x4 into thinner slivers.
 
 [CTA]
 [1:36] If you fancy that push stick keeping my hand toes far away from that sharp spinny blade, I have free downloadable plans for all the popular push sticks used by the kings of YouTube.
 
-[STEP 4]
+[STEP] (4)
 [1:47] You might be asking yourself, "Hey Marcus, didn't you just make 1x2s? Why don't you just buy those in the first place?" And I'd say, "Well, my name's not Marcus, and this here in front of me cost me $5.96 versus if I'd bought 1 by 2s that are a lot more expensive, you'd be looking at over $10.
 [2:05] This is a simple project that you can build from 2 by 4 scrap material. You don't have to cut up the entire thing.
 [2:12] Back at the miter saw, cut all of your strips into 4-in blocks.
 [2:18] No, no, no, no, no, what are you guys doing? What are you doing, dude? We're not building a Jenga set. We don't make any money off those. We can't compete with Hasbro. We're not building Jenga today. Put all this back. Erase those.
 [2:33] So, you'll end up with 170 or so pieces, and you'll have a few that are rejects. The rejects all involve some sort of a knot or rough side. Just get rid of them. We don't need them. We have 170 to work with.
 
-[STEP 5]
+[STEP] (5)
 [2:46] Find one that really doesn't have any knots in it whatsoever. I'm going to take another one and lay it right across the top so it's lined up with the edge and draw a line.
 [2:58] Then I'm going to rotate it. Sorry if my hands are in the way. And you'll get something that looks like this.
 
-[STEP 6]
+[STEP] (6)
 [3:06] Remember that really tiny Lee Valley speed square I told you to buy? This is where it comes in handy. I'm going to lay it across the top, line it up with our line, just draw our 45° angle. Do it one more time, and on that side.
 [3:22] Then we need to make two X's on the top by putting our speed square in the corners and drawing a line.
 [3:30] You're going to drop this tiny little speed square a whole bunch cuz I always do. Look like that.
 
-[STEP 7]
+[STEP] (7)
 [3:35] Welcome to your new drill press. Features a light and a laser. That's a lot of switches. I was really excited to make one of these and put it so you could have downloadable plans.
 [3:46] Um it's got some problems. Problem with this one is I had made it, and then with the handle got in the way so I had to cut a recess and then this it now just falls out cuz it has to be so far forward and this is just so I can easily replace this as I use it instead of just drilling a bunch of holes and replacing the entire board and when this is scooted back this handle then hit this spot so I had to edit that and I like that this back was 4 in tall so that way I can make sure I have a nice 90° upright piece when I'm drilling out something except now my chuck could hit this if this was up a little bit higher.
 [4:22] Again, this thing just falls out. I don't We got to revise it. It also doesn't move. It has screws that you have to actually like loosen and then move it and tighten them. I wanted like thumb screws or something in there. So we'll take this back to the drawing board probably in a few weeks. I'll throw some pictures of it in the plans if you're wanting to build one for this project.
 [4:43] You can see I positioned that 3/8 of an inch drill bit to perfectly line into our crosshairs and if I flip that board around beautiful.
 [4:51] I put a stop block right here again just another 90° upright clamped it down to our piece so now I can just bring each one of these pieces over drill it down 2 in flip it around drill it down 2 in until I've done all until I've done all 170 of them.
 
-[STEP 8]
+[STEP] (8)
 [5:09] We need to make one of these holes a little bit deeper than the other one for acoustics. So right now our depth is this deep. We're just going to go about 1 in deeper.
 [5:20] Drilling a 3 in hole while holding on to the piece could be seen as unsafe. Throw 10 or so of them into a clamp and just get after it.
 
-[STEP 9]
+[STEP] (9)
 [5:31] Now is where we're going to learn the importance of those lines. I took just a simple scrap piece of 2 by 4 cut it at a 45° angle on the table saw. Doesn't need to be very big just big enough to hold our piece at that 45° angle and at our band saw I'm going to make two cuts. The first cut goes perfectly perpendicular to our project.
 [5:50] The second cut can be a little tricky cuz you are cutting a compound angle. Take your time starting the cut and be mindful because you are cutting towards your hand toes and they're pretty close. And you'll end up with something identical to what I just cut. We just need to repeat it for that other side.
 
-[STEP 10]
+[STEP] (10)
 [6:07] Now, instead of measuring and marking every single one of these like we did this first one, we can just use this as a template. Set them on top just like this. And just mark it with a pencil. I like mechanical. And you're going to flip it around, do this other side. You don't need to mark up the sides cuz they're not important when you're cutting it on the bandsaw.
 [6:27] To really ramp up production, take a thin piece of Luan, transfer in those cut lines. Again, holes at the top and make your marks easy breezy. And just keep doing that.
 
-[STEP 11]
+[STEP] (11)
 [6:37] Here I'm cutting a 3/8 inch dowel rod that matches the holes we had just drilled down to about 3/4 of an inch. You're going to need a ton of these little things.
 
-[STEP 12]
+[STEP] (12)
 [6:48] And you need to create a flat spot by sanding a 1/16 to an 1/8 of an inch off of that dowel. You can do it when it's one big long piece or you can do it when it's a bunch of tiny pieces.
 
-[STEP 13]
+[STEP] (13)
 [6:58] And now for the fun part, take those dowels, you're going to put them into those holes that you worked so hard to drill out. You're going to push them down a little ways just like that. They're going to be at a slight angle kind of matching those cutouts we had made in the top. And what you've made is train whistle.
 [7:15] Use a dot of super glue or wood glue on the bottom of your hole so that way that dowel rod can't fall out or be a choking hazard.
 
-[STEP 14]
+[STEP] (14)
 [7:23] I zip it one last time through the bandsaw to remove that extra dowel.
 
 [FINISH]
@@ -1377,38 +1377,38 @@ VARIATION CHECK
 [MATERIALS]
 [0:08] Grab a 2x4, your cordless drill and your miter saw. Let's turn that $3 construction grade piece of garbage into $810.
 
-[STEP 1]
+[STEP] (1)
 [0:18] First I am trimming off the end of my 2x4 to get rid of that nasty rough section.
 
-[STEP 2]
+[STEP] (2)
 [0:23] Find one, only one, piece of scrapwood that is the same thickness as your two X4 and secure it to your miter soft fence. I also added a sliver of wood to the top.
 
 [CTA]
 [0:35] Hate is a strong word, so I heavily dislike when videos Barely show you how to even build the project in the first place and they skip over all nine of the jigs that they use to make it profitable. This build only has one jig, and I include the plans with the project that we are building here today, free of charge. All of my plans are free. Woodworking on YouTube is definitely gone downhill.
 
-[STEP 3]
+[STEP] (3)
 [0:58] I also cut my board in half because the younger me was quite dull and didn't leave 8 ft between the wall and my miter saw blade.
 
-[STEP 4]
+[STEP] (4)
 [1:09] At the end of your 2x4, measure down 3/4 of an inch and draw a soft line.
 
-[STEP 5]
+[STEP] (5)
 [1:16] At your miter saw you will have a turn knob or a screw or possibly voice command options on the Fest tools, who knows, to limit how far down your blade can go. We need this to be set to that 3/4 of an inch line on our 2x4.
 
-[STEP 6]
+[STEP] (6)
 [1:30] Get your high school math teacher on the line. First we are going to measure down 3 1/2 in. This should be 3 in. Okay, hold on.
 [1:42] Get your high school math teacher on the line, and first measure down 3 in, then measure down 5/8 of an inch, and then measure down 1 and 38 of an inch. This should land you on the 5 in line, and you're going to repeat that all the way down.
 
-[STEP 7]
+[STEP] (7)
 [2:11] Using your Square, draw a 90° line across your 2x4 so it's less confusing later on, and the thinner 5/8 of an inch lines, I like to put a little squiggle through as well. A little bit of extra prep makes things easy breezy down the road.
 
-[STEP 8]
+[STEP] (8)
 [2:28] Back at the miter saw, slide your board Into The Jig, line your blade up on the inside of your squiggle line and remove the material. The board up against your fence allows your blade to travel all the way through your 2x4 instead of leaving some of it untouched, and the sliver of wood makes it so you don't have to keep a death grip on your material.
 
-[STEP 9]
+[STEP] (9)
 [2:49] With all the little grooves cut, remove your jig and reset your blade to full depth. Now we can cut the 2x4 into pieces on the remaining line. Makes a pretty cool little phone holder, except that's not what it is.
 
-[STEP 10]
+[STEP] (10)
 [3:06] Use something straight and draw an X at the end of the longest part of your 2x4. Grab your drill and a 1in forcer bit. Drill down until you reach the groove. She's deep.
 [3:26] Whoa, whoa, whoa. I think that's an unregistered, unlisted tool, my friend. Grab a 2x4, your cordless drill and your miter saw. Much better.
 
@@ -1561,38 +1561,38 @@ VARIATION CHECK
 [MATERIALS]
 [1:10] You'll also need a drill or an impact gun, and then you'll need some screws. I like to use 2 and 3/4 of an inch. I know you could do a 3-in, but if you had sink it down, it's going to stick out the other side because two of these is equal to 3 in.
 
-[STEP 1]
+[STEP] (1)
 [1:23] You're going to set the 8-in pieces off to the side. You're going to scoot those 16-in pieces out of the way as well.
 [1:29] Position your other two 47-in pieces just like this, and I need to put in some screws to hold the 16s to the 47s.
 [1:37] So, if you set a board up just like this, you lay it down. This is where you need to be putting your screws. Same with the other side.
 [1:43] I like to position two screws about an inch from that long edge, just centered in that space. And repeat this step on the other end.
 
-[STEP 2]
+[STEP] (2)
 [1:49] If you position your ruler to be a half inch at the end, now there's a half inch on both ends, which makes it centered to 48 in, which means now I can use my red numbers, which are type it out in the comments.
 [2:04] So, I can just make a mark at 16, make a mark at 32. Where I just made that mark, I take my speed square and put it up against there, but I'm not drawing a line, because that means I'm going to have to erase a line later on. And I don't sand these projects.
 [2:17] And using the same spacing and configuration from the end, you're going to put some screws on those two marks.
 
-[STEP 3]
+[STEP] (3)
 [2:23] One of your 47-in boards just gets moved to the sideline. The other one gets tipped up on its end, and I'm going to position these 16-in boards to be where I put my screws.
 
-[STEP 4]
+[STEP] (4)
 [2:36] Add glue to the end of your 16-in piece, plop it into place, and screw it together, repeating all the way down the line.
 [2:42] I like to use Titebond III, it's a little bit more liquidy. It's also waterproof and exterior. Titebond II is just water-resistant.
 [2:50] I'm just eyeballing those boards in the center. Nothing for this project needs to be precise, and as long as they're pretty much centered with the front and the back, and the project's going to look good in the end.
 
-[STEP 5]
+[STEP] (5)
 [3:00] I also drive the screws about a quarter of an inch into the outside board. That helps to give everything a little bit better of a bite, and a little bit more of a nicer appearance, so you don't see a bunch of screw heads.
 
-[STEP 6]
+[STEP] (6)
 [3:09] Then you're going to flip your project over and repeat for this other side.
 [3:12] Not sure if you guys actually want to watch this. When it's sped up this fast, it's hard to tell what we're doing. The camera angle's horrible. We don't have any background music. You want some background music? We're skipping this. Let's move on.
 
-[STEP 7]
+[STEP] (7)
 [3:28] To help attach our legs, I like to get a jerry board. It's just a board that's too small to be any other piece, and I also wrote jerry all over it, just in case I happen to mistake it for one of those other pieces.
 [3:42] I just put them underneath the leg, just to kind of give me an extra hand while doing assembly.
 [3:45] Give your glue bottle a good squeeze, nestle your board into the corner, and secure it using two or screws. I generally only use two because wood glue's doing most of the work.
 
-[STEP 8]
+[STEP] (8)
 [3:57] To ensure you do not end up with a wobble, before you secure this final leg, flip your project over, add your wood glue, put in your screws, and then when you put it in this corner, just make sure the catty-corner leg is also touching the ground. You don't want it up. So, if it's on the ground, about a bing, you can throw a clamp or just use your strength, and screw this into place, and that 100% eliminates your wobble, as long as your workbench is level and flat.
 
 [FINISH]
