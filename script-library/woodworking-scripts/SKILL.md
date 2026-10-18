@@ -26,6 +26,7 @@ A single-build video shows the viewer one project, what it costs to make, and wh
 | `references/unit-plan-template.md` | The plan to fill in before any prose. |
 | `references/voice-samples.md` | Three stretches of real human narration from lane winners: the voice anchor for every script (core `voice-anchoring.md`). |
 | `references/excerpts.md` | Real lines from the winners, grouped by job. Use for shape and range, never wording. |
+| `references/reference-scripts.md` | Read at the planning step for structure and pacing. Never copy wording. |
 | `archive/` | Full competitor transcripts. Calibration only; don't read them while writing. |
 
 ## Inputs for this lane
@@ -203,6 +204,7 @@ Record these choices in the unit plan's variation check. The rotation log in the
 - Negative claims about named companies.
 - Pointing at generated footage.
 - Competitors' catchphrases or signature lines.
+- Copying any run of 8 or more words from a reference file (`references/excerpts.md`, `references/reference-scripts.md`). The scanner's copy guard (`--refs`) flags it.
 
 ## Scanner rules for this lane
 
