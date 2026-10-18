@@ -1,63 +1,45 @@
-# Woodworking-for-Profit Script Study
+# Script System: read this first
 
-A self-contained research project: a study of YouTube scripts in the woodworking-for-profit lane. Keep it completely separate from anything else.
+This repository is the master copy of the script-writing library for the operator's YouTube channels. Read `HANDOFF.md` (decisions and why), `README.md` (what each file is) and `PINNED.md` (open items) before changing anything.
 
-## Isolation rules
+## Layout
 
-- Read and write only inside this repository. Never touch other repositories or anything outside this one.
-- Never change user-level or global settings. Any configuration needed goes in this repository only.
-- Do not install anything without asking the user first.
-- Do not write scripts, edit skill files, or draw conclusions about what is "good." This project collects and describes. Judging is the user's job, later.
-  - This rule still applies in full to `data/` and `notes/`: collect and describe only, never edit them to judge, and never edit skill files from there.
-  - Exception (script-library phase, from 2026-10-18): files inside `script-library/` may be edited, as the user's task for that phase describes. Edit nothing outside `script-library/` during that work (except log entries and this file). Log every change in `script-library/iterations/refs-NN/CHANGES.md` (file | what changed | why), commit after each task, and never delete previous versions.
+- `core/`, `woodworking-scripts/` (and future niche packs), `personas/`, `tests/`: **the library.** The source of truth.
+- `studies/`: research data (competitor transcripts, notes). Collect and describe only; never edit study data to fit a conclusion.
+- `archive/facelessos-original/`: the original bought FacelessOS files and the old house-rules prompt. Read-only. Used for comparison, never as rules.
 
-## Structure
+## Working rules
 
-```
-inputs/channels.md
-data/own/<channel-name>/<video-id>/          transcript.txt, comments.md, meta.md
-data/competitors/<channel-name>/<video-id>/  same files
-notes/own/  and  notes/competitors/          one notes file per video
-transcripts-combined/                        all transcripts merged per channel (and all-in-one), with header blocks, for pasting into a chat
-script-library/                              script rules (core/, woodworking-scripts/, tests/); editable only in the script-library phase
-log.md                                       every action, every failure, every skipped video and why
-```
+1. **Never change a locked decision** (`HANDOFF.md` section 3). If something suggests one should change, write it in `PROPOSALS.md` with the evidence, and leave the rule as it is.
+2. **Log every change** in `CHANGELOG.md`: date | files | what changed | why.
+3. **After every change,** run `python3 tests/run_checks.py`. Nothing is committed while a check fails.
+4. **Never delete history.** Test runs live in `tests/iterations/iter-NN/`, each with its outputs, results and changes. Old iterations are never overwritten.
+5. **Test data is labelled TEST** and lives in `tests/fixtures/`. It never goes into `personas/` or `core/channels.md`.
+6. **Keep the layers clean:**
+   - portfolio-wide rules go in `core/`
+   - niche rules go in the niche pack
+   - channel settings go in the persona profile
+   - nothing is duplicated across layers
+7. **Keep `README.md`'s file map current** whenever files are added or renamed.
 
-## Transcript source
+## Testing with subagents
 
-Use the NexLev MCP tools (bulk transcripts take up to 10 videos per call). If NexLev is not available in the session or fails, stop and tell the user. Do not switch to another method until the user approves it.
+When testing script generation, keep the roles separate so the test is honest:
 
-## Phases
+- **Writer:** sees only the library and the test inputs. It follows `core/workflow.md` exactly, as a VA's chat would. It never sees the rubric or the source script it's being compared against.
+- **Operator:** plays the VA: types START, supplies inputs, tries mistakes such as missing inputs or "just write it."
+- **Judge:** scores the writer's output against the rubric, the scanner and the original source script. It reports failures with quoted lines.
 
-Stop after each phase, report briefly, and wait for the user's go-ahead. Commit and push at the end of every phase.
+Fixes are made by the main session, logged, tested, and then the cycle runs again.
 
-### Phase 1, setup and test
-- Save the channel links to `inputs/channels.md`.
-- Confirm NexLev works by pulling the transcript of the most recent long-form video on the first own channel. Report whether it worked.
+## Adding a niche
 
-### Phase 2, own channels
-- For each of the two own channels: the 10 most recent long-form uploads. Long-form means 3 minutes or longer and not in the Shorts tab.
-- "Dale Oakfield's Workshop" pivoted to woodworking-for-profit on 2026-09-09. Tag any upload before that date as PRE-PIVOT in meta.md. Collect it, but mark it excluded from analysis.
-- "Hank Hardwood" may have fewer than 10 uploads. Take what exists and log the count.
-
-### Phase 3, competitors
-- For each competitor: the 5 most recent long-form uploads, plus the 5 most-viewed long-form uploads from the last 24 months. If a video falls in both groups, take the next one down.
-- In meta.md, tag the channel FACE (a presenter on camera or filming a real build) or FACELESS (narration over footage).
-
-### For every video (Phases 2 and 3)
-- `meta.md`: title, URL, upload date, duration, views, and the channel's normal. The normal is the median views of its last 10-15 long-form uploads, ignoring anything under 7 days old. Also record views divided by the normal.
-- `transcript.txt`: the full transcript. If none exists, log it and skip the video.
-- `comments.md`: the top ~50 comments by relevance plus the ~25 newest. Comment text and like counts only, no usernames. Skip obvious spam.
-
-### Phase 4, notes
-For each collected video (excluding PRE-PIVOT ones), write `notes/<own or competitors>/<channel>__<video-id>.md`, about 250-350 words, describing only, never judging:
-- Basics: title, views divided by normal, duration, face or faceless.
-- Structure map: hook length (words and seconds); when the first real value is delivered; each segment with its approximate start time and word count.
-- Pacing: how segments connect, and how long each point or item runs (shortest, longest, typical).
-- Content habits: how often prices or earnings are mentioned; whether it says where to buy materials; how much it describes what is on screen (show and tell).
-- Voice: personal experience or stories (yes/no, how often); personality versus pure information; any group or industry cast as the adversary.
-- CTAs: where they fall (timestamp), what they ask for, how they are worded.
-- Standout lines: up to 3 short excerpts, at most 2 sentences each.
-- Comments: recurring questions, complaints, praise, and any "sounds like AI" remarks, with rough counts.
-
-After Phase 4, write `notes/INDEX.md`: one line per video (channel, title, views/normal, notes file). Then stop. Do not summarize trends or write conclusions.
+1. Run a competitor study into `studies/<niche>/`.
+2. Build a niche pack modelled on `woodworking-scripts/`, with:
+   - inputs and freshness
+   - skeleton
+   - voice samples and excerpts
+   - research pack and unit plan templates
+   - a scanner block
+3. Add tests.
+4. Add its channels to `core/channels.md`.
