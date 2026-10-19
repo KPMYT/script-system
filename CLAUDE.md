@@ -1,6 +1,6 @@
 # Script System: read this first
 
-This repository is the master copy of the script-writing library for the operator's YouTube channels. Read `HANDOFF.md` (decisions and why), `README.md` (what each file is) and `PINNED.md` (open items) before changing anything.
+This repository is the master copy of the script-writing library for the operator's YouTube channels. Read `SESSION-HANDOVER.md` (where the last chat left off and what's next) first, then `HANDOFF.md` (decisions and why), `README.md` (what each file is) and `PINNED.md` (open items) before changing anything.
 
 ## Layout
 

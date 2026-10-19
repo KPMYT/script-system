@@ -45,6 +45,10 @@ One persona profile per channel. Hank's and Dale's are still to be written.
 
 One folder per round of changes (`refs-01/`, `iter-00/`, …), each with `CHANGES.md` (file | what changed | why) and `before/` copies of every file it modified.
 
+## SESSION-HANDOVER.md
+
+The live note between Claude Code chats: where the last chat stopped, operator decisions, the active channel list, open questions and the next actions. Rewritten at every handover.
+
 ## PINNED.md
 
 The to-do list, the decisions made, the decisions still open, and the data to pull.
