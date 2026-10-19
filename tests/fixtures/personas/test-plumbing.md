@@ -33,9 +33,9 @@ Offer(s), for each one:
   Printed title (exact, used in the markers): TEST: The 10-Minute Toilet Fix Guide
   Type: e-book
   True facts (contents, counts, chapters; the only facts a CTA may use): 24 pages; covers the five parts inside a toilet tank, a printable parts checklist to take to the store, and a one-page chart matching each symptom to its likely part
-  The added-value promise: the printable parts checklist and the symptom chart, so you buy the right part the first time
+  The added-value promise (what the viewer gets, never an outcome or result): a printable parts checklist to take to the store, and a one-page chart matching each symptom to its likely part
   Where to get it (description link, QR code, etc.): the first link in the description
 Style and length: two or three lines: a quick aside, one line on what's in the guide tied to this video, where to get it, then straight back to the content; no subscribe ask in the mid-video CTA
 Variants: none
-End ask: subscribe, so the next fix shows up in your feed
+End ask: subscribe (worded fresh each time)
 ```

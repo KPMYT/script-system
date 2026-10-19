@@ -51,6 +51,7 @@ description: The final quality gate every script passes before it ships. Six gro
 ## Group D: voice
 
 - **D1. The shape test.** Every sentence is tested against the niche pack's voice samples, or the persona profile's if it overrides them. Quote one matched line.
+- **D1b. The persona's voice.** The script matches the persona profile's "How they talk" lines (sentence length, register, how "you" and "I" are used). Where the profile and the samples disagree, the profile wins for this channel. Quote one line that shows it.
 - **D2. The humanizer sweep,** H1-H23 (`humanizer.md`), including the counts for H20, H21 and H23.
 - **D3. The scanner.** Run `script-scanner.py` with the niche pack and persona profile as rules files, the research pack as the pack, and the niche pack's `excerpts.md` and `reference-scripts.md` with `--refs`. Hard bans, mechanical problems, niche bans and "copied from reference" findings must all be zero.
 - **D4. Numbers trace to the research pack.** Every number appears in the pack, or is worked out from pack numbers with the math shown in the evidence block. A number the video relies on that traces to nothing is a Hold. **Rounding never flatters:** round only toward the cautious side. Costs, time and fees round up; prices, earnings and savings stay exact or round down. A real number is never dressed up as something rounder and more dramatic.
@@ -72,7 +73,7 @@ YouTube judges channels on whether content is mass-produced or reused. This grou
   - template scripting (only the topic name changes)
   - the same script going out on more than one channel
   - lines copied word for word from a competitor transcript or the excerpt library
-- **E3. Not a clone.** Where the title or structure mirrors a reference video, the angle, the voice and the sourcing all differ from it.
+- **E3. Not a clone.** Where the title or structure mirrors a reference video, the angle, the voice and the sourcing all differ from it. The brief names the reference video, its angle and its structure (never its transcript); if it names none, E3 is reported as "no reference given".
 - **E4. Custom elements.** The video carries at least one element beyond generated footage, such as real listing screenshots, a custom thumbnail, or edits.
 
 ## Group F: rules compliance
@@ -88,7 +89,7 @@ YouTube judges channels on whether content is mass-produced or reused. This grou
 - **F5. The claims policy** (`claims-policy.md`). No checkable life facts, no invented sales, customers, family or history, and personal details only from the persona profile's list.
 - **F6. Facts versus framing** stay within the limits in `research-and-sourcing.md`.
 - **F7. Nothing pointed at without being named.** The visuals are built from the narration, so the script never points at something it doesn't name ("look at this," "right here"). Outside the steps, no run of more than about two sentences names nothing showable (`workflow.md`, section 4). Quote any longer run.
-- **F8. The niche's safety lines and bans** are present and respected.
+- **F8. Safety.** The niche pack's safety lines and bans are present and respected. Every safety point in the research pack that belongs to a step the script teaches is said at that step (shut-offs before the work, not just once at the start). A safety line is never cut to fix an echo or a scanner flag: it's reworded. The evidence block lists each one used, or skipped with the reason.
 - **F9. Rotation.** The script differs from the pasted rotation log, per the cross-script rules (`variety-rotation.md`).
 - **F10. Format,** per `workflow.md`, sections 4 and 5.
 
@@ -128,10 +129,14 @@ Every audited script carries this short block after the rotation log. It's never
 ```
 AUDIT EVIDENCE
 Verdict: PASS (round [n] of 3)
+Hook: compared with [2-3 real hooks, quoted briefly] | or: A2 not run (no real hooks supplied)
 Promise map: [what the hook promises] -> [where each is delivered]
 Numbers: [each number = its research pack line, or the math from pack numbers]
 Scanner: hard bans 0 | mechanical 0 | niche bans 0 | copied 0 | "Most..." [n] | reframes [n] | filler over limit [n] | numbers not in pack [n, each explained]
-Voice: samples used = [which]; matched line = "[a script line]"
-Originality: [n]/7 (missing: [which]) | red flags 0
+Voice: samples used = [which]; matched line = "[a script line]"; persona line = "[a script line showing the How they talk lines]"
+Safety: [each safety point a step needs -> where it's said] | skipped: [which, why] | or: none needed
+Originality: [n]/7 (have: [which, each with its evidence]; missing: [which]) | red flags 0
+Not a clone (E3): [reference video] -> angle, voice and sourcing differ by [how] | or: no reference given
+Custom element (E4): [which]
 Rules (F): clean, or [the finding]
 ```

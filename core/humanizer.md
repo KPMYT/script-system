@@ -199,6 +199,8 @@ Paragraph 8: "...all thanks to a two-dollar part."
 
 **Fix:** check the whole script, never paragraph by paragraph. A fact or distinctive phrase appears at most twice, and the second mention must add something: a consequence, a comparison, the next number.
 
+**Safety lines are never cut to fix an echo.** If the same shut-off or warning comes up at several steps, reword it each time; it stays at every step that needs it (`greenlight-audit.md`, F8).
+
 **The same theme, in different words.** An echo doesn't need shared words. When section after section loops back to the same observation ("anyone can do this," "this one sells"), the scanner won't see it, because no phrase repeats. Give that observation one home paragraph, say it well there, and cut the other returns.
 
 ### H19. Vague and invented numbers
@@ -296,6 +298,7 @@ Everything in the catalogue (H1-H23) is a judgment call. When flagging a line, n
 - H22
 - the staged "Honestly?" half of H11
 - H19's invented numbers
+- H18's third mention of the same fact, phrase or theme
 
 **Fix only in clusters:** H1, H3, H4, H5, H9 and H10.
 - **Three hits** of the same pattern in one section means rewrite that section.

@@ -154,6 +154,16 @@ with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("P
 code,out=run_scan("They're listed at $46. Each one costs about thirteen bucks to make.\n",[],pk2)
 check("9b. numbers check: a price nudged up 10% is flagged, spoken rounding is not", "46" in out.split("NUMBERS NOT FOUND")[1] and "13  <<" not in out.split("NUMBERS NOT FOUND")[1], out)
 
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("PROOF\n- flapper listed at $6.48\n- 200 gallons a day\nGAPS\n- service call cost $150: unsourced\n"); pk3=t.name
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("```\nPERSONA PROFILE\nTrue facts: 24 pages\n```\n"); prof=t.name
+try:
+    r=subprocess.run(["python3",SCAN,"/dev/stdin","--pack",pk3,"--rules",prof],input="Flappers come in two-inch and three-inch sizes, listed at $6.48, about six bucks.\n\nA visit runs $200. One costs $6.90. Another is $150.\n\nThe guide has 24 pages.\n",capture_output=True,text=True,timeout=20)
+    nf=r.stdout.split("NUMBERS NOT FOUND")[1]
+    ok9c=all(x in nf for x in ("200  <<","6.9  <<","150  <<")) and "24  <<" not in nf and "6.48" not in nf and "  6  <<" not in nf
+except subprocess.TimeoutExpired:
+    ok9c, r = False, None
+check("9c. numbers check: hyphenated number words don't hang; money must match money; GAPS and invented prices flagged; offer facts accepted", ok9c, r.stdout if r else "timed out")
+
 # 10. woodworking inputs block parses
 sk=open(WWR).read()
 inp=re.search(r"```inputs\n(.*?)```",sk,re.S)
@@ -201,14 +211,14 @@ check("13. README file map lists every library file and folder", not unmapped, "
 
 # 14. persona profiles (real and TEST) fill every template field
 tmpl=re.search(r"```\n(PERSONA PROFILE.*?)```",open(f"{CORE}/persona-profile-template.md").read(),re.S).group(1)
-labels=[l.split(":")[0].strip() for l in tmpl.splitlines() if ":" in l and not l.rstrip().endswith("for each one:")]
+labels=[re.sub(r"\s*\(.*?\)","",l.split(":")[0]).strip() for l in tmpl.splitlines() if ":" in l and not l.rstrip().endswith("for each one:")]
 labels=[l for l in labels if l and not l.startswith(("or ","plain "))]
 gaps=[]
 for f in glob.glob(f"{ROOT}/personas/*.md")+glob.glob(f"{ROOT}/tests/fixtures/personas/*.md"):
     if os.path.basename(f)=="README.md": continue
     body=open(f).read()
     for lab in labels:
-        m=re.search(r"^\s*"+re.escape(lab)+r":[ \t]*(\S.*)$",body,re.M)
+        m=re.search(r"^\s*"+re.escape(lab)+r"(?:\s*\([^)]*\))?:[ \t]*(\S.*)$",body,re.M)
         if not m: gaps.append(f"{os.path.relpath(f,ROOT)}: {lab}")
 check("14. every persona profile fills every template field", not gaps, "; ".join(gaps))
 

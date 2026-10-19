@@ -24,7 +24,7 @@ This is the entry point. When someone types **START**, this file runs, and nothi
 2. Load the channel's files from `channels.md`:
    - **Persona profile.** If it's missing, or marked pending, stop with the NOT READY block (section 5), giving the reason `[channel]'s persona profile isn't set up yet.` Nothing more is asked.
    - **Niche pack.** If the channel has none, use the core fallbacks: `script-structures.md`, the default research pack in `research-and-sourcing.md`, and the default inputs below.
-3. **Test runs.** `START TEST` works exactly like START, except that the channel list, persona profiles and any test research packs come from `tests/fixtures/` (its `channels.md`), never from `channels.md` or `personas/`. The first line of every test output is `TEST: DO NOT UPLOAD.` A real channel can't be picked in a test run, and a test channel can't be picked in a real one.
+3. **Test runs.** `START TEST` works exactly like START, except that the channel list, persona profiles and any test research packs come from `tests/fixtures/` (its `channels.md`), never from `channels.md` or `personas/`. The first line of every test output, even a one-line reply, is `TEST: DO NOT UPLOAD.` A real channel can't be picked in a test run, and a test channel can't be picked in a real one.
 
 ---
 
@@ -35,7 +35,7 @@ This is the entry point. When someone types **START**, this file runs, and nothi
 - **brief:** the ideation brief for that title
 - **research-pack:** the verified research pack
 - **rotation-log:** the channel's last five ROTATION LOG ENTRY lines, or "none" for a new channel
-- **voice-samples:** 2-3 verbatim transcript excerpts of human narration from winning videos in the niche, each with its source. Required only when neither the niche pack nor the persona profile has voice samples (`voice-anchoring.md`).
+- **voice-samples:** 2-3 verbatim transcript excerpts of human narration from winning videos in the niche, each with its source, at least one starting at the video's opening so the hook can be graded (`greenlight-audit.md`, A2). Required only when neither the niche pack nor the persona profile has voice samples (`voice-anchoring.md`).
 
 Then add or replace items from the niche pack's `inputs` block, then from the persona profile's `inputs` block.
 
@@ -51,8 +51,8 @@ Then add or replace items from the niche pack's `inputs` block, then from the pe
   - its title matches the locked title
   - its live facts are within the niche's freshness window
   - no gap marked "blocking"
-- **rotation-log:** up to five ROTATION LOG ENTRY lines (fewer only if the channel has fewer scripts), or "none."
-- **voice-samples** (when required): two or three excerpts from different videos, each roughly 60-90 seconds of narration, each with its source (channel, video, timestamp).
+- **rotation-log:** up to five ROTATION LOG ENTRY lines, or "none." Fewer than five is accepted as stated (the channel has fewer scripts).
+- **voice-samples** (when required): two or three excerpts from different videos, each roughly 60-90 seconds of narration, each with its source (channel, video, timestamp). If none starts at 0:00, accept them, and A2 is reported as "not run".
 - **Anything from a niche pack or persona profile:** the check written in its `inputs` block (for example, "news article dated today").
 
 **If anything is missing or fails:** reply naming only what's missing or wrong, and ask only for that. Repeat until everything passes.
@@ -81,7 +81,7 @@ Run these steps in order. Never ask "shall I continue?" Never stop to check in.
 5. **Audit.** Run `greenlight-audit.md`, at most three rounds.
 6. **Output,** in the format in section 5.
 
-**If the run hits something it needs and doesn't have** (a missing fact, a blocking gap, an unsupportable title claim), it stops with NOT READY and says exactly what's needed. It never fills the gap itself.
+**If the run hits something it needs and doesn't have** (a missing fact, a blocking gap, an unsupportable title claim, a step the script must teach that the pack doesn't list), it stops with NOT READY and says exactly what's needed. It never fills the gap itself: not from memory, and never from the voice samples, excerpts or reference scripts, which supply voice and shape only, never facts, numbers or steps.
 
 **Later:** once the research stage exists, a missing research pack starts the research stage automatically instead of being asked for.
 
@@ -181,7 +181,7 @@ A second copy of the finished script, with light delivery tags so the voice read
 **Tag format:** square brackets, placed right before the sentence they shape: `[thoughtful] That's the part most people skip.` No SSML. Pauses are `[short pause]` or `[long pause]`.
 
 **A light touch:**
-- About one tag per 80-120 words. Never two in a row, never more than one per sentence. Most sentences get none.
+- About one tag per 80-120 words across the script, and never more than two in any 80 words. Never two in a row, never more than one per sentence. Most sentences get none.
 - **Allowed tags only:** [warm] [thoughtful] [quietly] [matter-of-fact] [slightly amused] [sighs] [short pause] [long pause] [slower] [emphatic]
 - **[slightly amused]** only on an honest-candor line, never to make a line sound like a joke.
 - **Never:** sound effects, accents, whispering, shouting, or anything that reads as a sound cue rather than a way of speaking.

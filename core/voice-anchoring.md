@@ -34,6 +34,7 @@ Ask a model for good YouTube copy and it writes good *writing*: dramatic paralle
 - **Skip bad habits.** A sample's "hey guys, welcome back" is a habit to write past, not a shape to copy.
 - **First-person claims stay with their owner.** If the sample's narrator says "I sold these at a craft fair," that's their life, not the persona's. Borrow how the sentence sounds, and apply the channel's claims rules to what it says.
 - **Match the language.** Samples are in the language the channel publishes in.
+- **The persona profile wins on the persona.** Where the profile's "How they talk" lines and the samples disagree (sentence length, register), the profile decides for this channel. The samples still decide the lane's natural shapes: how steps are handed over, how numbers are said.
 
 ---
 

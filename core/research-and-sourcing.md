@@ -89,8 +89,8 @@ Every fact either traces to a source that was actually opened, or it doesn't go 
 The wording has to match what the evidence actually shows:
 - **"Listed at"** for an asking price, and **"sold for"** only with real sales evidence.
 - **"A [named] study found,"** never "studies show."
-- **Each number said alongside whoever counted it,** wherever it matters.
-- **A checked date** on anything that changes.
+- **Each number said alongside whoever counted it,** wherever it matters. Attribute a number, rule or claim once per source per section, not on every line; steps need no attribution. A script that names a source in every other sentence reads like a citation list.
+- **A checked date** on anything that changes, in the pack. Prices are spoken without a date, because the upload outlives the price; a niche pack may add a "prices subject to change" line.
 
 ---
 
@@ -130,10 +130,11 @@ Title claims -> support:         [each claim or number in the title -> the line 
 FACTS                            [one per line]
 - fact | source | link | checked date | live or timeless
 
-STEPS OR METHOD                  [if the video teaches something]
+STEPS OR METHOD                  [if the video teaches something; complete for every fix the title promises:
+                                  shut-off, remove, install, test. A fix with no full steps is a blocking gap]
 - step | what's visible | mistake, safety, option or quality note
 
-SAFETY POINTS
+SAFETY POINTS                    [each tied to the step it belongs to]
 
 PROOF FOR THE MAIN PROMISE
 - evidence | source | link | date | wording ("listed at", "sold for", "a [named] study found")
@@ -157,5 +158,7 @@ If a title's claim can't be supported, even counting the framing allowed in sect
 - the claim
 - why it can't be supported
 - an honest version that can be
+
+The honest wording the pack suggests follows the audit's rounding rule (`greenlight-audit.md`, D4): time and cost round up, results and savings round down. "Within about 15 minutes" isn't honest when the sources say 10 to 25.
 
 The script is never written to support a claim the pack can't.

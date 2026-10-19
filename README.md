@@ -55,7 +55,7 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 
 | File or folder | What's in it |
 |---|---|
-| `run_checks.py` | 22 automated checks across the library, the README map, persona profiles and the test fixtures, including the copy guard. Run it after any edit; nothing is committed while one fails. |
+| `run_checks.py` | 23 automated checks across the library, the README map, persona profiles and the test fixtures, including the copy guard. Run it after any edit; nothing is committed while one fails. |
 | `tests/fixtures/` | TEST data for START TEST: `fixtures/README.md` (what's where and who may read it), `channels.md` (the TEST channel list), `tests/fixtures/personas/` (TEST persona profiles), `tests/fixtures/inputs/` (titles, briefs, research packs, rotation logs and voice samples the operator pastes) and `tests/fixtures/judge-only/` (the source scripts the judge compares against; the writer never opens it). |
 | `tests/iterations/` | One folder per round of changes or test runs (`refs-01`, `iter-00`, `iter-01`, …), each with its changes (`CHANGES.md`: file, what changed, why), `before/` copies of every file it modified, and any test outputs and results. Never overwritten. |
 

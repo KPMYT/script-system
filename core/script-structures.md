@@ -34,13 +34,14 @@ A promise about what's coming later in the video ("the fixes get more useful as 
 
 ## Picking a structure (when there's no niche pack)
 
-Go by the title's shape:
+**The brief comes first.** If the ideation brief names a format, use it, and use the matching structure below for anything the brief leaves open. Use the title's shape only when the brief names no format:
 
 | The title… | Structure |
 |---|---|
 | counts a list of things | List |
 | says how to do or make something | How-to or make-along |
 | asks why something happens, or how it works | Why it happens |
+| asks why something happens *and* how to fix it ("Why your toilet keeps running, and how to fix it") | Diagnose and fix |
 | pits options against each other, or asks which is best | Comparison |
 | centers on a lesson or an idea | Essay |
 | promises a before and after | Transformation |
@@ -86,6 +87,24 @@ For explaining a cause, a mechanism or a hidden reason. Build understanding in l
 4. **Layer 3:** what it means for the viewer's own situation.
 5. **What to do about it.**
 6. **The ending.**
+
+**Layer 1 and the line after the hook.** The line after the hook never sets up background (`retention-mechanics.md`, section 3). Layer 1 goes straight after the hook only when it's a sentence or two and itself delivers part of the promise. Otherwise fold it into the first cause, where it's needed.
+
+## 3b. Diagnose and fix
+
+For "why it happens and how to fix it": a problem with a few possible causes, each with its own fix.
+
+1. **Hook:** the symptom the viewer sees, in their words, covering every version the title promises (for example, the toilet that refills on its own and the one that never stops), plus the promise: which cause it is, and the fix.
+2. **The quick test that sorts the causes,** if there is one, straight away. That's the first payoff.
+3. **Each cause,** cheapest and quickest check first:
+   - how to tell it's this one
+   - why it happens, in a sentence (the only background the cause needs)
+   - the fix, as steps the viewer follows, with each safety point at the step it belongs to
+   - how you know it worked
+4. **When it's beyond a DIY fix,** where that's true.
+5. **The ending.**
+
+Say each cause's diagnosis once, where it's used. Don't explain all the causes up front and then again one by one.
 
 ## 4. Comparison
 

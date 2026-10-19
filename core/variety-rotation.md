@@ -28,7 +28,7 @@ The example lines below show the shape of each move. They are guides, never text
 
 ### 1. Opening move
 
-The shape of the hook.
+The shape of the hook, judged by its first sentence: that sentence's move is the one logged. The thumbnail's scene can be named inside any move (a question, a number, a contrarian line), so matching the thumbnail never forces the same move every time. "The problem at its worst" puts the viewer inside their own problem at its most annoying moment; "the universal situation" is something everyone recognizes that isn't the problem itself.
 
 - **The promise with a number:** "Two boards, under $15, and about 40 pieces you can sell."
 - **The everyday comparison:** "This takes less time than a load of laundry."
@@ -114,7 +114,7 @@ The mechanism doesn't change. Every script ends with one rotation log line, and 
 **Format:** one plain-text line, no emoji.
 
 ```
-ROTATION LOG ENTRY: [date] | [title] | opening: [move] "[first 6-10 words]" | turn: [move] | bridges: [moves] | return: [move] | mid-CTA: "[first 6-10 words]" | end-CTA: "[first 6-10 words]" | cta variant: [which, or n/a] | adversary: [which, how voiced] | personality: [moves] | swears: [words or none] | closing: [move]
+ROTATION LOG ENTRY: [date] | [title] | opening: [move] "[first 6-10 words]" | turn: [move] | bridges: [moves] | return: [move] | mid-CTA: "[first 6-10 words]" | end-CTA: "[first 6-10 words]" | structure: [which] | cta variant: [which, or n/a] | adversary: [which, how voiced] | personality: [moves] | swears: [words or none] | closing: [move]
 ```
 
 ---

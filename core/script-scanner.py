@@ -15,7 +15,10 @@ Usage:
                    ban: phrase | label
                    ban-regex: pattern | label
                    lift: the phrase or exact label of ONE hard ban (a partial match lifts nothing)
-  --pack       the research pack. Every number in the script is checked against it.
+  --pack       the research pack. Every number in the script is checked against it (its GAPS
+               section doesn't count as a source). Money ("$6.48", "15 bucks") must match money
+               in the pack; numbers in a rules file's PERSONA PROFILE block (the offer's facts)
+               also count as a source.
   --refs       optional reference files (the niche pack's excerpts.md and reference-scripts.md).
                Any run of 8 or more consecutive words in the spoken script that also appears
                in a reference file is fix-on-sight "copied from reference". Case, punctuation
@@ -174,6 +177,10 @@ def word_numbers(text):
         t = toks[i]
         parts = t.split("-")
         if parts[0] in WORD_NUM or parts[0] in TENS:
+            if not all(p in WORD_NUM or p in TENS for p in parts):
+                # "two-inch", "ten-minute": the number word alone, then move on (this used to loop forever)
+                vals.append(WORD_NUM.get(parts[0], 0) + TENS.get(parts[0], 0)); i += 1
+                continue
             total, cur = 0, 0
             while i < len(toks):
                 t = toks[i]; ps = t.split("-")
@@ -216,18 +223,49 @@ def digit_numbers(text):
 def all_numbers(text):
     return digit_numbers(text) + word_numbers(text)
 
-def number_check(script_text, pack_text):
+MONEY_RX = re.compile(r"\$\s?(\d[\d,]*(?:\.\d+)?)|\b(\d[\d,]*(?:\.\d+)?)\s*(?:dollars?|bucks?)\b", re.I)
+MONEY_WORDS_RX = re.compile(r"\b((?:[a-z]+[- ]?){1,4}?)\s+(?:dollars?|bucks?)\b", re.I)
+
+def money_numbers(text):
+    vals = [float((a or b).replace(",", "")) for a, b in MONEY_RX.findall(text)]
+    for m in MONEY_WORDS_RX.finditer(text):
+        vals += word_numbers(m.group(1))[-1:]
+    return vals
+
+def without_gaps(pack_text):
+    """The pack's GAPS section lists what is NOT verified, so its numbers are never a source."""
+    return re.sub(r"(?ms)^\s*GAPS\b.*?(?=^\s*[A-Z][A-Z ]{3,}\s*$|\Z)", "", pack_text)
+
+def close(v, p, money):
+    if v == p:
+        return True
+    if money:   # money: exact, a whole-dollar rounding of a small amount, or within 5% for larger ones
+        return (p < 10 and v == int(v) and abs(v - p) < 1) or (p >= 10 and abs(v - p) <= 0.05 * p)
+    return abs(v - p) <= max(0.05 * p, 0.5)   # spoken rounding only; "46" against "42" is flagged
+
+def number_check(script_text, pack_text, extra_text=""):
+    pack_text = without_gaps(pack_text) + "\n" + extra_text
     pack_vals = set(round(v, 2) for v in all_numbers(pack_text))
+    pack_money = set(round(v, 2) for v in money_numbers(pack_text))
     missing = []
     for para in spoken_paragraphs(script_text):
         for s in sentences(para):
+            money = set(round(x, 2) for x in money_numbers(s))
             for v in set(round(x, 2) for x in all_numbers(s)):
-                if v <= 3:      # tiny counts ("one board", "two coats") are too noisy to check
-                    continue
-                if any(abs(v - p) <= max(0.05 * p, 0.5) for p in pack_vals):   # spoken rounding only; "$46" against "$42" is flagged
+                if v <= 3 and v not in money and not re.search(r"(?<![\w.])" + re.escape(f"{v:g}") + r"(?![\w])", s):
+                    continue   # tiny counts said as words ("one board", "two coats") are too noisy to check
+                pool = pack_money if v in money else pack_vals
+                if any(close(v, p, v in money) for p in pool):
                     continue
                 missing.append((v, s))
     return missing
+
+def persona_numbers_text(paths):
+    """The PERSONA PROFILE block of any rules file: the offer's true facts are a number source for CTAs."""
+    out = []
+    for p in paths or []:
+        out += re.findall(r"PERSONA PROFILE.*?```", open(p, encoding="utf8", errors="ignore").read(), re.S)
+    return "\n".join(out)
 
 # ---------------------------------------------------------------- copy guard
 COPY_RUN = 8   # words in a row shared with a reference file = copied
@@ -363,7 +401,7 @@ def main():
     print(f"ECHO (H18): {len(echoes)}")
     for e in echoes: print("  " + e)
     if a.pack:
-        missing = number_check(text, open(a.pack, encoding="utf8", errors="ignore").read())
+        missing = number_check(text, open(a.pack, encoding="utf8", errors="ignore").read(), persona_numbers_text(a.rules))
         print(f"\nNUMBERS NOT FOUND IN THE RESEARCH PACK ({len(missing)})  (invented, or derived: confirm the math)")
         for v, s in missing[:30]:
             print(f"  {v:g}  <<  {s[:110]}")
