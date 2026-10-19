@@ -1,0 +1,28 @@
+## VO tag density (tags.py)
+spoken words (no markers): 1941 tags: 18 words/tag: 107.8
+adjacent tagged lines: []
+max tags in any 80 words: 2
+   [('matter-of-fact', 'VO L26'), ('short pause', 'VO L30')] span words 49
+   [('short pause', 'VO L30'), ('warm', 'VO L35')] span words 49
+   [('slightly amused', 'VO L52'), ('thoughtful', 'VO L57')] span words 74
+   [('thoughtful', 'VO L83'), ('matter-of-fact', 'VO L87')] span words 46
+   [('thoughtful', 'VO L121'), ('warm', 'VO L127')] span words 60
+   [('warm', 'VO L127'), ('short pause', 'VO L133')] span words 59
+gaps (words) between tags: [(121, 5, 15), (210, 15, 26), (49, 26, 30), (49, 30, 35), (132, 35, 45), (82, 45, 52), (74, 52, 57), (172, 57, 68), (149, 68, 78), (103, 78, 83), (46, 83, 87), (112, 87, 95), (115, 95, 104), (201, 104, 116), (97, 116, 121), (60, 121, 127), (59, 127, 133)]
+
+## Sentence length (sent.py)
+tests/iterations/iter-02/judge/script-body.txt sent 113 words 1941 mean 17.2 median 17 <=8: 12 >=23: 25 ', and' sents: 33
+tests/iterations/iter-01/judge/script-body.txt sent 77 words 1402 mean 18.2 median 18 <=8: 3 >=23: 18 ', and' sents: 34
+tests/iterations/iter-01/judge/source-spoken.txt sent 88 words 969 mean 11.0 median 10.5 <=8: 33 >=23: 3 ', and' sents: 0
+
+## Shared n-grams with source and samples
+plumbing-01-source.md 6 3
+    an inch below the top of
+    inch below the top of the
+    put the cap back on and
+test-plumbing-voice-samples.md 6 1
+    on each side of the flapper
+
+## Words: CTA blocks / outside CTA blocks
+122
+1819

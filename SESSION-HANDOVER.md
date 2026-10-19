@@ -2,7 +2,7 @@
 
 The live note passed from one Claude Code chat to the next. A new chat reads `CLAUDE.md`, then this file, then `HANDOFF.md`, `README.md` and `PINNED.md`, and carries on from "Next actions". The outgoing chat rewrites this file before every handover.
 
-**Last updated:** 2026-10-19, end of session 1.
+**Last updated:** 2026-10-19, end of session 2.
 
 ---
 
@@ -14,33 +14,38 @@ The live note passed from one Claude Code chat to the next. A new chat reads `CL
 
 ## Branches
 
-Every Claude Code chat works on its own `claude/...` branch. `main` is the shared branch every new chat starts from (`CLAUDE.md` rule 8).
-- **Set up 2026-10-19:** `main` was created from session 1's final commit. The operator was walked through making it the GitHub default (Settings, General, Default branch). If this chat didn't start from `main`, that step wasn't done: walk the operator through it again.
+Every Claude Code chat works on its own `claude/...` branch. `main` is the shared branch every new chat starts from, and GitHub's default (`CLAUDE.md` rule 8).
+- **Session 2 checked it:** this chat started from `main` at session 1's last commit, and `main` is the GitHub default. Nothing more to set up.
 - **At every handover,** merge this chat's branch into `main` and push `main`. Standing permission; no force-push, no branch deletion.
-- **Old branches:** `claude/kind-cori-wxoupp` (the previous default) and `claude/loving-edison-b6z86r` (session 1) are fully contained in `main`. Leave them.
+- **Old branches:** `claude/kind-cori-wxoupp`, `claude/loving-edison-b6z86r` (session 1) and `claude/wizardly-shannon-m0qqnw` (session 2) are all contained in `main`. Leave them.
 - This repo is separate from every other repo (for example the book-creation one). Nothing here touches them.
 
 ---
 
 ## Where things stand
 
-**Done in session 1 (2026-10-18/19):**
-- Restructured the repo: the woodworking study is in `studies/woodworking/`, the library is at the root, and the FacelessOS originals are in `archive/facelessos-original/`.
-- Merged refs-01 from another chat: excerpts expanded to 15 groups, `reference-scripts.md` wired in, and the copy guard (`--refs`) now runs in the workflow and the audit.
-- Wrote the first audit: `tests/iterations/iter-00/AUDIT.md`. **None of its fixes are applied yet.**
-- Created `CHANGELOG.md` and `PROPOSALS.md` (P1 is open).
-- Tests: 17/17 passing.
+**Done in session 2 (2026-10-19):**
+- **iter-01:** applied the iter-00 audit's core-level fixes (A1, A2, A4-A8, A10, A11, A13-A16, B1-B7, C1, C2, C5, C6). Added **START TEST** and `tests/fixtures/` (plumbing-01: a TEST channel with no niche pack, so the core fallbacks get exercised; TEST persona, brief, rotation log, three real voice samples, a web-verified research pack, and a judge-only source script). Ran the first writer / operator / judge test.
+- **iter-02:** fixed the 17 library problems the iter-01 judge found (scanner hang and number matching, safety bound at its step, E3 reference via the brief, a new Diagnose-and-fix fallback structure, persona voice check D1b, complete fix steps in the research pack, a fuller evidence block). Ran the test again in bulk mode with a fresh writer and judge.
+- Tests: 23/23 passing.
 
-**The library is a baseline only: built, mechanically tested, never run end to end.**
-- Built and niche-neutral by design:
-  - the core rule files and the scanner
-  - the fallback structures and the default research pack for niches without a pack
-- Not yet true:
-  - the audit fixes are unapplied (the core ones matter for every niche)
-  - the core isn't packaged as an installable skill, so typing START in a VA's chat does nothing yet
-  - there's no test fixture and no way to run START on TEST data
-  - no persona profile exists, so every START ends at NOT READY
-  - the installed `woodworking-scripts` skill on the operator's account hasn't been compared with this repo's copy
+**Test results so far (same title both times: "Why Your Toilet Keeps Running, and How to Fix it"):**
+
+| | iter-01 | iter-02 |
+|---|---|---|
+| Gate (asking, refusing "just write it", bulk mode, one script per chat) | 5/5 correct | correct |
+| Format, markers, VO copy | pass | pass |
+| Judge's verdict | FIX-THEN-PASS, **not** safe unread (false claim about a company, safety line deleted, steps borrowed from a voice sample) | FIX-THEN-PASS, **safe to upload unread** (nothing false, unsafe or off-policy) |
+| Length (source: 969 words, about 6 min) | 1,402 words, about 9:20 | 1,941 words, about 13 min |
+| Still wrong | | persona's short sentences missed; fill-valve swap before the flapper's free checks; evidence block overclaims |
+
+**The core baseline:** the core now works end to end on a channel with no niche pack: the gate, the run, the scanner, the audit, the format and the VO copy all function, and the second script was accurate and safe. It isn't finished: the writer's own audit still over-reports, and the iter-03 fixes below remain.
+
+**Still not true:**
+- the core isn't packaged as an installable skill, so typing START in a VA's chat does nothing yet (audit D3)
+- no real persona profile exists (Hank, Dale), so every real START ends at NOT READY
+- the installed `woodworking-scripts` skill on the operator's account hasn't been compared with this repo's copy
+- the woodworking pack-level audit fixes (A3, A9's template, A12, C4, C7, D5) aren't applied
 
 ## Operator decisions so far
 
@@ -91,17 +96,26 @@ Every Claude Code chat gets the operator's claude.ai skills, synced read-only to
 
 ## Open questions for the operator
 
-1. C7: leave the table, move it, or delete it?
+1. **C7** (the word-count table in `woodworking-scripts/SKILL.md`): leave it (Claude's recommendation), move it to a calibration file, or delete it? Still unanswered.
+2. **How deep "how to fix it" goes.** Teaching every part swap in full made the test script about 13 minutes against the competitor's 6 (which sends viewers to "a separate video"). Options: (a) full steps every time (current rule); (b) the diagnosis and free fixes in full, part swaps as a short summary; (c) decided per title in the brief. Claude recommends (c), with (a) as the default.
+3. **Competitor titles word for word.** The TEST title was the competitor's exact title. Is copying a winning title verbatim allowed, or must ideation always change it? (An ideation rule; it affects the not-a-clone check.)
+4. **P1** in `PROPOSALS.md` is still open.
 
 ## Next actions (in order)
 
-1. Check that this chat started from `main` (`git branch -a`, `git log -1 origin/main`). Get the C7 answer.
-2. **Baseline check of the core:**
-   - Apply the audit's core-level fixes: C2, C1, B1, B2, A3-A8, A10, A14, A15 and the rest that touch `core/`.
-   - Create `tests/fixtures/` (a TEST persona and a TEST research pack) and a way for START to load them (D2).
-   - Run the first writer / operator / judge test (`CLAUDE.md`, "Testing with subagents") as `tests/iterations/iter-01/`.
+1. Check this chat started from `main` (`git fetch origin`, `git log -1 origin/main`). Ask the operator the open questions above.
+2. **iter-03: finish the core baseline.** Apply the judge's ranked list in `tests/iterations/iter-02/CHANGES.md` ("Library fixes the judge ranks next"):
+   - number check: match numbers with their units, don't count quoted comments as a source, extend check 9c with "$200 for a visit", "20 years" and "9,000 gallons"
+   - D1b that can fail: the scanner reports sentence-length figures, personas get a numeric target, the evidence line reports the numbers
+   - structure 3b: branch order after the sorting test (free checks before parts; most common cause first); rotate the hook's move instead of prescribing the reference video's opening
+   - safety repeats: exempt repeated safety instructions from the echo count, instead of "reword"
+   - research verification: step 1 vs the water-on check, figures that must reconcile, variants need steps or a scope line
+   - low items: an opening voice sample in the fixture (so A2 runs), round-by-round notes and the brief's reference fields in the evidence block, E4 defined for scripts, part-number pronunciation
+   - then run plumbing-01 again with a fresh writer and judge (`tests/iterations/iter-01/PROTOCOL.md`). Aim: the judge agrees with the writer's PASS.
+   - consider a second fixture set in another niche (not plumbing) to confirm the core isn't tuned to one topic.
 3. **Finalize woodworking for profit:**
-   - Apply the pack-level fixes from the audit.
-   - The operator writes Hank's and Dale's persona profiles; Claude drafts from the template if asked.
-   - A test run on a real research pack.
-4. **Plumbing:** run a competitor study into `studies/plumbing/`, then build the niche pack.
+   - apply the pack-level fixes from the iter-00 audit (A3, A9's template, A12, C4, C7, D5)
+   - the operator writes Hank's and Dale's persona profiles; Claude drafts from the template if asked (check 14 verifies every field)
+   - a TEST run through the woodworking pack, then a real research pack
+4. **Packaging (audit D3):** decide how the core and packs become an installable skill that triggers on START, then install on the VA accounts.
+5. **Plumbing:** a competitor study into `studies/plumbing/`, then the niche pack. The plumbing-01 fixture's voice samples and research pack are a head start, but they're TEST data and never go into the pack as-is.

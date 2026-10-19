@@ -28,3 +28,37 @@ Started 2026-10-19. Fixes the library problems in `../iter-01/judge/JUDGE-REPORT
 ## Test runs after the fixes
 
 - `python3 tests/run_checks.py`: 23/23 passed.
+
+## The second run (plumbing-01, bulk mode)
+
+One operator message with START TEST, the channel and all five inputs (`run/operator-turn-1.md`); a fresh writer chat (`run/writer-turn-1.md`, scratch in `writer-work/`); a fresh judge (`judge/JUDGE-REPORT.md`).
+
+**Gate:** correct. No questions, straight to the full output, TEST line first; a two-line rotation log accepted; A2 reported "not run" (no sample starts at 0:00).
+
+**Format:** passes. VO copy identical to the script with tags stripped; 18 tags, one per 108 words, never more than two in any 80.
+
+**Scanner:** no hang (0.1 s); fix-on-sight 0; copied 0 against the source and the samples; every number in the pack.
+
+**Judge's verdict: FIX-THEN-PASS, no Hold, and safe to upload unread** (nothing false, unsafe or off-policy). Fixed since iter-01: no misattribution; every step from the pack, none from the samples; all seven safety points at their steps; both kinds of running in the hook; both part swaps taught in full (the source points to other videos); first action at about 1:00 (was 2:25); no triple diagnosis; opening move logged correctly; 25+ numbers all traced, none rounded the flattering way.
+
+**Still wrong:**
+1. Persona voice: 17.2 words per sentence (source 11.0); D1b let the writer quote one short line as proof.
+2. Branch order: the fill-valve replacement ($14.98) comes before the flapper's two free checks, against the brief's "free adjustments first, parts last"; the flapper (the most common cause) starts at about 7:34.
+3. Length: 1,941 words, about 12:56 at 150 wpm (source 969; iter-01 1,402). Honest by the progression test (80-120 words to trim); the extra is the two full repair procedures (681 words) that iter-02 now requires.
+4. Evidence overclaims: originality 7/7 should be 5/7; the E3 contrast isn't real; "Rules (F): clean" is false.
+5. Low: some parts unexplained (refill tube, lock ring, shank washer, piston valve); the float-ball valve left without a fix; "502" will be misread; the shut-off goes by six names.
+
+**Library fixes the judge ranks next (for iter-03):**
+1. High: the number check still passes "$200 for a visit" (a quoted comment in the pack), "20 years" (matched to "20 minutes") and "9,000 gallons". Match numbers with their units, exclude quoted comments as a source, extend check 9c.
+2. High: D1b can't fail. Scanner reports sentence-length figures; personas get a numeric target; the evidence line reports the numbers.
+3. Medium: structure 3b has no branch-order rule after the sorting test (order by how common the cause is, or every free check before any part when the brief says "parts last").
+4. Medium (made worse by iter-02): the 3b hook prescribes the reference video's own opening; keep the coverage requirement, rotate the move.
+5. Medium-low (made worse by iter-02): "reword safety lines" plus the echo flag pushes writers into renaming things (H-rules ban that); exempt repeated safety instructions from the echo count instead.
+6. Medium-low: research verification (pack step 1 contradicts F3's water-on check; the NYC figures don't reconcile; variants like the float-ball valve need steps or a scope line).
+7. Low: the voice-samples fixture still has no opening sample, so A2 has never run; the evidence block should record what each audit round fixed and quote the brief's reference fields; define E4 for scripts; attribution density has no check; "up to half an hour" turns a floor into a ceiling; pronunciation of part numbers.
+
+**Operator decision raised by this run:** how deep "how to fix it" goes. Teaching both part swaps in full roughly doubles the source's length (about 13 minutes against 6). See `SESSION-HANDOVER.md`, open questions.
+
+## Test runs
+
+- `python3 tests/run_checks.py`: 23/23 passed (before and after the run).

@@ -49,6 +49,8 @@ Things parked during the rebuild, so nothing gets lost between sessions.
 - **The old house-rules prompt is retired.** Its rules now live in `workflow.md`, `cta-and-endings.md`, `offer-rules.md` and `claims-policy.md`.
 
 ## Decisions still open
+- How deep "how to fix it" goes: every part swap in full (about 13 minutes in the iter-02 test, against the competitor's 6), a short summary, or decided per title in the brief.
+- Whether ideation may use a competitor's winning title word for word.
 - How the rebuilt core files get packaged as skills.
 - Distribution to VAs on personal Cowork accounts: a synced folder, a bootstrap skill, a version stamp, and developer-built queue and checks.
 
