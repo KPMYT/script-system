@@ -14,9 +14,10 @@ The live note passed from one Claude Code chat to the next. A new chat reads `CL
 
 ## Branches
 
-Every Claude Code chat works on its own `claude/...` branch. Work only reaches the next chat if it's merged into the branch new chats start from (the GitHub default branch).
-- **Now:** the default branch is `claude/kind-cori-wxoupp`, which does not have session 1's work. Session 1's work is on `claude/loving-edison-b6z86r`.
-- **Plan (waiting on the operator's OK):** create `main` from session 1's branch, the operator sets `main` as the GitHub default branch, and every chat merges its work into `main` before handing over.
+Every Claude Code chat works on its own `claude/...` branch. `main` is the shared branch every new chat starts from (`CLAUDE.md` rule 8).
+- **Set up 2026-10-19:** `main` was created from session 1's final commit. The operator was walked through making it the GitHub default (Settings, General, Default branch). If this chat didn't start from `main`, that step wasn't done: walk the operator through it again.
+- **At every handover,** merge this chat's branch into `main` and push `main`. Standing permission; no force-push, no branch deletion.
+- **Old branches:** `claude/kind-cori-wxoupp` (the previous default) and `claude/loving-edison-b6z86r` (session 1) are fully contained in `main`. Leave them.
 - This repo is separate from every other repo (for example the book-creation one). Nothing here touches them.
 
 ---
@@ -90,12 +91,11 @@ Every Claude Code chat gets the operator's claude.ai skills, synced read-only to
 
 ## Open questions for the operator
 
-1. Set up `main` (walked through with the operator on 2026-10-19). Check that it's the GitHub default.
-2. C7: leave the table, move it, or delete it?
+1. C7: leave the table, move it, or delete it?
 
 ## Next actions (in order)
 
-1. Check that this chat started from `main`. Get the C7 answer.
+1. Check that this chat started from `main` (`git branch -a`, `git log -1 origin/main`). Get the C7 answer.
 2. **Baseline check of the core:**
    - Apply the audit's core-level fixes: C2, C1, B1, B2, A3-A8, A10, A14, A15 and the rest that touch `core/`.
    - Create `tests/fixtures/` (a TEST persona and a TEST research pack) and a way for START to load them (D2).

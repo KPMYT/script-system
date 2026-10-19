@@ -21,6 +21,7 @@ This repository is the master copy of the script-writing library for the operato
    - channel settings go in the persona profile
    - nothing is duplicated across layers
 7. **Keep `README.md`'s file map current** whenever files are added or renamed.
+8. **Handover and `main`.** `main` is the shared branch every new chat starts from. Work on the chat's own branch. At every handover (around 50% context, Claude says when), rewrite `SESSION-HANDOVER.md`, log it, run the checks, commit, then merge the chat's branch into `main` and push `main`. The operator has given standing permission for this push. Never force-push `main` and never delete branches.
 
 ## Testing with subagents
 
