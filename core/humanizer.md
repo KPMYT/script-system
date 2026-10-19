@@ -150,6 +150,8 @@ A section or script that ends on optimism instead of substance.
 
 **Fix:** close on something concrete: the next step, what to watch for, the last useful fact. This includes the script's final line, whatever the channel's ending format is. That last line is where this tell shows up most.
 
+**Exempt:** the persona's signature sign-off, when the persona profile lists one. It's the required closing line (`workflow.md`, section 4), not an upbeat closer.
+
 ### H14. Unnamed authorities
 
 "Experts agree," "studies show," "industry reports suggest," "many professionals say."
@@ -197,6 +199,8 @@ Paragraph 8: "...all thanks to a two-dollar part."
 
 **Fix:** check the whole script, never paragraph by paragraph. A fact or distinctive phrase appears at most twice, and the second mention must add something: a consequence, a comparison, the next number.
 
+**The same theme, in different words.** An echo doesn't need shared words. When section after section loops back to the same observation ("anyone can do this," "this one sells"), the scanner won't see it, because no phrase repeats. Give that observation one home paragraph, say it well there, and cut the other returns.
+
 ### H19. Vague and invented numbers
 
 Two failures, one rule:
@@ -227,7 +231,7 @@ Numbers fired off like a spreadsheet.
 "Cost: $3.10. Price: $40. Margin: 92 percent."
 ```
 
-**Fix:** say numbers the way a person would. "Each one costs about three bucks to make, and they list around $40."
+**Fix:** say numbers the way a person would. "Each one costs a little over three bucks to make, and they're listed at $40." Rounding goes toward the cautious side only: costs up, prices and earnings exact or down (`greenlight-audit.md`, D4).
 
 ### H23. Stock filler phrases (use sparingly)
 

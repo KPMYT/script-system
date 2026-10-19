@@ -27,7 +27,8 @@ Every hook delivers the title's promise. On top of that, any of these can be use
 - **A stakes sentence:** why this matters to the viewer ("Get one of these wrong and the whole board's firewood").
 - **Paying off the title straight away:** deliver a first piece of the promise in the hook itself.
 - **Escalating the title's shock:** take the title's claim a step further, as long as it's true and within the framing limits in `research-and-sourcing.md`.
-- **An honest escalation promise:** "the fixes get more useful as we go." Only allowed when the content really does escalate. If the hook promises it, order the items from least to most useful, which overrides the usual best-in-the-middle order.
+
+A promise about what's coming later in the video ("the fixes get more useful as we go") is a long-range tease, and it's banned. Short bridges between segments are fine (`retention-mechanics.md`).
 
 ---
 
@@ -59,7 +60,7 @@ For tips, mistakes, ideas, things to know.
    - a short bridge to the next item
 4. **Last item,** then the ending.
 
-**Order:** second-best first, best near the middle, third-best last (`retention-mechanics.md`). A countdown saves the top item for last, and an escalation promise orders the items least to most useful. Items are uneven in length: each takes what it needs.
+**Order:** second-best first, best near the middle, third-best last (`retention-mechanics.md`). A countdown saves the top item for last. Items are uneven in length: each takes what it needs.
 
 ## 2. How-to or make-along
 
@@ -80,8 +81,8 @@ For fixing, making or doing something step by step.
 For explaining a cause, a mechanism or a hidden reason. Build understanding in layers, never all at once.
 
 1. **Hook:** the consequence first, meaning what the viewer sees or suffers.
-2. **Layer 1:** the simple version anyone gets.
-3. **Layer 2:** the mechanism, meaning what's actually going on.
+2. **Layer 1:** the simple version anyone gets: one core idea and one everyday comparison.
+3. **Layer 2:** the mechanism, meaning what's actually going on. It builds on Layer 1 and never contradicts it.
 4. **Layer 3:** what it means for the viewer's own situation.
 5. **What to do about it.**
 6. **The ending.**

@@ -1,6 +1,6 @@
 ---
 name: retention-mechanics
-description: Why viewers keep watching and how a script holds them: the first seconds, the line after the hook, the progression test, short-range rehooks between segments, list ordering, pacing guides and the retention mistakes to avoid. Use when planning or writing any script, and when a retention graph shows viewers leaving. Base rule file: applies to every channel unless a niche pack or persona profile explicitly overrides a specific rule.
+description: Why viewers keep watching and how a script holds them: the first seconds, the line after the hook, the progression test, short-range rehooks between segments, list ordering, pacing guides and the retention mistakes to avoid. Use when planning or writing any script. Base rule file: applies to every channel unless a niche pack or persona profile explicitly overrides a specific rule.
 ---
 
 # Retention mechanics
@@ -15,8 +15,8 @@ description: Why viewers keep watching and how a script holds them: the first se
 
 1. **A question forms.** Early on, the viewer has a question they care about: will this fix my drain, could I sell this, why does my hen stop laying? The closer the question is to their own life, the stronger the pull.
 2. **Each answer lands.** Every question the script raises gets answered fully, and the answer is useful, not obvious. A question left hanging feels like a cheat.
-3. **Trust builds.** With no face on screen, trust comes from competence: clear steps, real numbers, honest limits, and more value than promised.
-4. **They leave with something to do.** The video ends on a practical next action ("check the flapper tonight," "cut one board this weekend"). Never promise specific future videos.
+3. **Trust builds.** Without a real person on camera, trust comes from competence: clear steps, real numbers, honest limits, and more value than promised.
+4. **They leave with something to do.** The final content beat, before any end CTA, leaves the viewer a practical next action ("check the flapper tonight," "cut one board this weekend"). The closing line after it follows `cta-and-endings.md`. Never promise specific future videos.
 
 ---
 
@@ -160,4 +160,4 @@ Read the whole script out loud before it's done. Mark every stumble, every phras
 
 ## 14. The ending
 
-End at the last real payoff, then follow the channel's ending format (end CTA and closing line, from `workflow.md` and the persona profile). No recap, no wind-down, no "so that's everything." The last useful thing the viewer hears should be a practical next action, never a promise of a future video's topic.
+End at the last real payoff, then follow the channel's ending format (end CTA and closing line, from `workflow.md` and the persona profile). No recap, no wind-down, no "so that's everything." The last content beat should leave the viewer a practical next action; the closing line after it (sign-off, callback or next action) follows `cta-and-endings.md`. Never a promise of a future video's topic.

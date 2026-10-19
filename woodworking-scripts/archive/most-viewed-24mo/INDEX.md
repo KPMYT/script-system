@@ -1,6 +1,6 @@
 # Most-viewed long-form uploads, last 24 months
 
-Selection: the 10 most-viewed long-form videos (3:00 or longer, Videos tab only) published on or after 2024-10-18, per channel. Source: NexLev (youtube_channel_videos sorted by popular; exact views, dates and durations from youtube_video_details). Views as of 2026-10-18. Views/normal uses the channel normal computed 2026-10-17 (median of the 15 most recent long-form uploads at least 7 days old). "Already collected" means the video already had a folder in data/competitors/.
+Selection: the 10 most-viewed long-form videos (3:00 or longer, Videos tab only) published on or after 2024-10-18, per channel. Source: NexLev (youtube_channel_videos sorted by popular; exact views, dates and durations from youtube_video_details). Views as of 2026-10-18. Views/normal uses the channel normal computed 2026-10-17 (median of the 15 most recent long-form uploads at least 7 days old). "Already collected" means the video already had a folder in studies/woodworking/data/competitors/.
 
 ## BeardedVikingWoodWorks (channel normal 73108)
 

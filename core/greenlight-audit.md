@@ -17,6 +17,7 @@ description: The final quality gate every script passes before it ships. Six gro
 2. **Collect every finding before deciding the verdict.**
 3. **Evidence both ways.** To fail a check, quote the exact line and name the condition it breaks. To pass, the evidence block records what was checked. If no line can be quoted against a condition, it passes.
 4. **Never trust the first "clean."** After any fix, the whole audit runs again from group A. A run that applied fixes can't award its own pass.
+5. **A change after PASS voids it.** Any edit to a passed script, however small (a VA's "quick tweak" included), sends it back through the full audit for a new verdict and evidence block. Edits bring tells back in, and scripts are uploaded unread.
 
 ---
 
@@ -36,7 +37,7 @@ description: The final quality gate every script passes before it ships. Six gro
 - **B5. Bridges and pacing.** Bridges point only at the next segment, honestly, and the next segment delivers what they promise. No flat stretch runs longer than about 90 seconds without a payoff.
 - **B6. "But" and "therefore"** connect the narrative and reasoning parts. Steps and list items may be sequential.
 - **B7. Uneven rhythm.** No runs of same-length sentences, other than real lists and short instructions.
-- **B8. List order.** The order follows the default, the niche pack's rule, or the hook's escalation promise, whichever applies.
+- **B8. List order.** The order follows the default, a ranked countdown, or the niche pack's rule, whichever applies (`retention-mechanics.md`, section 9).
 - **B9. No retention killers:** repeated emphasis, piled-up qualifiers, announcing the obvious, throat-clearing.
 
 ## Group C: clarity
@@ -52,7 +53,7 @@ description: The final quality gate every script passes before it ships. Six gro
 - **D1. The shape test.** Every sentence is tested against the niche pack's voice samples, or the persona profile's if it overrides them. Quote one matched line.
 - **D2. The humanizer sweep,** H1-H23 (`humanizer.md`), including the counts for H20, H21 and H23.
 - **D3. The scanner.** Run `script-scanner.py` with the niche pack and persona profile as rules files, the research pack as the pack, and the niche pack's `excerpts.md` and `reference-scripts.md` with `--refs`. Hard bans, mechanical problems, niche bans and "copied from reference" findings must all be zero.
-- **D4. Numbers trace to the research pack.** Every number appears in the pack, or is worked out from pack numbers with the math shown in the evidence block. A number the video relies on that traces to nothing is a Hold.
+- **D4. Numbers trace to the research pack.** Every number appears in the pack, or is worked out from pack numbers with the math shown in the evidence block. A number the video relies on that traces to nothing is a Hold. **Rounding never flatters:** round only toward the cautious side. Costs, time and fees round up; prices, earnings and savings stay exact or round down. A real number is never dressed up as something rounder and more dramatic.
 - **D5. Contrast and poster-quote lines.** At most one "it's not X, it's Y" reframe, and only one earned poster-quote line, if any.
 
 ## Group E: authenticity
@@ -86,7 +87,7 @@ YouTube judges channels on whether content is mass-produced or reused. This grou
 - **F4. Offer rules** (`offer-rules.md`).
 - **F5. The claims policy** (`claims-policy.md`). No checkable life facts, no invented sales, customers, family or history, and personal details only from the persona profile's list.
 - **F6. Facts versus framing** stay within the limits in `research-and-sourcing.md`.
-- **F7. Nothing pointed at without being named.** The visuals are built from the narration, so the script never points at something it doesn't name ("look at this," "right here").
+- **F7. Nothing pointed at without being named.** The visuals are built from the narration, so the script never points at something it doesn't name ("look at this," "right here"). Outside the steps, no run of more than about two sentences names nothing showable (`workflow.md`, section 4). Quote any longer run.
 - **F8. The niche's safety lines and bans** are present and respected.
 - **F9. Rotation.** The script differs from the pasted rotation log, per the cross-script rules (`variety-rotation.md`).
 - **F10. Format,** per `workflow.md`, sections 4 and 5.
@@ -129,7 +130,7 @@ AUDIT EVIDENCE
 Verdict: PASS (round [n] of 3)
 Promise map: [what the hook promises] -> [where each is delivered]
 Numbers: [each number = its research pack line, or the math from pack numbers]
-Scanner: hard bans 0 | mechanical 0 | niche bans 0 | "Most..." [n] | reframes [n] | filler over limit [n] | numbers not in pack [n, each explained]
+Scanner: hard bans 0 | mechanical 0 | niche bans 0 | copied 0 | "Most..." [n] | reframes [n] | filler over limit [n] | numbers not in pack [n, each explained]
 Voice: samples used = [which]; matched line = "[a script line]"
 Originality: [n]/7 (missing: [which]) | red flags 0
 Rules (F): clean, or [the finding]

@@ -5,7 +5,8 @@ Things parked during the rebuild, so nothing gets lost between sessions.
 ## Done so far
 - **Core (complete):** `workflow.md` (START), `channels.md`, `claims-policy.md`, `persona-profile-template.md`, `humanizer.md`, `voice-anchoring.md`, `script-scanner.py`, `retention-mechanics.md`, `variety-rotation.md`, `cta-and-endings.md`, `offer-rules.md`, `research-and-sourcing.md`, `script-structures.md`, `greenlight-audit.md`.
 - **Woodworking pack:** `woodworking-scripts`, with excerpts, voice samples, both templates, its scanner block, its inputs block, and freshness (live facts re-checked after 30 days; change if needed).
-- **Tests:** `tests/run_checks.py`, 17 checks, all passing (copy guard added in refs-01).
+- **Tests:** `tests/run_checks.py`, 22 checks, all passing (copy guard added in refs-01; README map, persona fields, fixtures, one-word lifts and rounding added in iter-01).
+- **iter-01 (2026-10-19):** the iter-00 audit's core-level fixes applied; `tests/fixtures/` and START TEST added; first writer/operator/judge run on a no-pack TEST channel. See `tests/iterations/iter-01/`.
 - **refs-01 (2026-10-18):** excerpts expanded to 15 groups, `reference-scripts.md` added, copy guard (`--refs`) wired into the workflow and the audit. See `tests/iterations/refs-01/CHANGES.md`.
 
 ## Still to rebuild in the core

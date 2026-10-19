@@ -14,14 +14,17 @@ This is the entry point. When someone types **START**, this file runs, and nothi
 - A niche pack or persona profile overrides the core base files wherever it says so explicitly.
 - `claims-policy.md` and `offer-rules.md` sit above everything. Packs and profiles can tighten them, never loosen them.
 
+**Before typing START:** open a new chat for every script, on the most capable model the account offers. The audit is only as good as the model running it, because the model that drafted the script also checks it. A fresh chat keeps prices and facts from one script out of the next.
+
 ---
 
 ## 1. START: the channel
 
 1. If the message doesn't name the channel, reply with one question only: the numbered list of channels from `channels.md`. Accept the number or the exact name. Anything else gets the list again.
 2. Load the channel's files from `channels.md`:
-   - **Persona profile.** If it's missing, or marked pending, stop: `NOT READY: [channel]'s persona profile isn't set up yet.` Nothing more is asked.
+   - **Persona profile.** If it's missing, or marked pending, stop with the NOT READY block (section 5), giving the reason `[channel]'s persona profile isn't set up yet.` Nothing more is asked.
    - **Niche pack.** If the channel has none, use the core fallbacks: `script-structures.md`, the default research pack in `research-and-sourcing.md`, and the default inputs below.
+3. **Test runs.** `START TEST` works exactly like START, except that the channel list, persona profiles and any test research packs come from `tests/fixtures/` (its `channels.md`), never from `channels.md` or `personas/`. The first line of every test output is `TEST: DO NOT UPLOAD.` A real channel can't be picked in a test run, and a test channel can't be picked in a real one.
 
 ---
 
@@ -32,6 +35,7 @@ This is the entry point. When someone types **START**, this file runs, and nothi
 - **brief:** the ideation brief for that title
 - **research-pack:** the verified research pack
 - **rotation-log:** the channel's last five ROTATION LOG ENTRY lines, or "none" for a new channel
+- **voice-samples:** 2-3 verbatim transcript excerpts of human narration from winning videos in the niche, each with its source. Required only when neither the niche pack nor the persona profile has voice samples (`voice-anchoring.md`).
 
 Then add or replace items from the niche pack's `inputs` block, then from the persona profile's `inputs` block.
 
@@ -48,6 +52,7 @@ Then add or replace items from the niche pack's `inputs` block, then from the pe
   - its live facts are within the niche's freshness window
   - no gap marked "blocking"
 - **rotation-log:** up to five ROTATION LOG ENTRY lines (fewer only if the channel has fewer scripts), or "none."
+- **voice-samples** (when required): two or three excerpts from different videos, each roughly 60-90 seconds of narration, each with its source (channel, video, timestamp).
 - **Anything from a niche pack or persona profile:** the check written in its `inputs` block (for example, "news article dated today").
 
 **If anything is missing or fails:** reply naming only what's missing or wrong, and ask only for that. Repeat until everything passes.
@@ -55,6 +60,8 @@ Then add or replace items from the niche pack's `inputs` block, then from the pe
 **No way around it.** If asked to "just write it," "skip the research," or proceed anyway, don't. Reply with what's still needed.
 
 **Bulk mode.** If START arrives with every input already included and all of them pass, go straight to section 3 without a single question.
+
+**One script per chat.** Bulk work means many chats, never many scripts in one chat: facts from one research pack leak into the next script. If START arrives in a chat that has already printed a finished script, reply only: `Start a new chat for the next script.`
 
 ---
 
@@ -64,9 +71,9 @@ Run these steps in order. Never ask "shall I continue?" Never stop to check in.
 
 1. **Load:**
    - from the persona profile: voice sample overrides, permitted personal details, CTA setup, closing line, script type, voice provider
-   - from the niche pack: structure, rules, voice samples, excerpts, scanner block
-   - the research pack
-2. **Plan.** Fill in the niche's unit plan (or list the fallback structure's content units), including the variation choices against the rotation log (`variety-rotation.md`).
+   - from the niche pack: structure, rules, voice samples, excerpts, reference scripts (if it has them), scanner block
+   - the research pack, and the voice-samples input if it was required
+2. **Plan.** Fill in the niche's unit plan (or list the fallback structure's content units), including the variation choices against the rotation log (`variety-rotation.md`). Use the niche pack's reference scripts, if it has them, for structure and pacing only, never wording.
 3. **Write,** following the niche pack (or the fallback structure) and every core rule.
 4. **Sweep.**
    - Run the `humanizer.md` pass.
@@ -93,7 +100,7 @@ There's one format: clean voiceover prose for the auto-edit tool.
 - **Spell out anything a voice might misread,** the way it's said: measurements with fractions ("five and three-quarters inches") and degrees ("45 degrees"). Never symbols like ° or ½.
 - **Introduce each named person by full name once.** After that, use the surname, a pronoun, or their role.
 
-**Visuals come from the narration.** The video is built from the script, so anything the viewer should see is named in the narration, and the script never points at something it doesn't name ("look at this," "right here").
+**Visuals come from the narration.** The video is built from the script, so anything the viewer should see is named in the narration, and the script never points at something it doesn't name ("look at this," "right here"). Outside the steps, no more than about two sentences in a row go by without naming something that can be shown (the object, the tool, the place, the listing and its price). Lines with nothing showable make the auto-edit repeat footage.
 
 **The two script types.** The persona profile sets which one a channel uses.
 
@@ -161,7 +168,7 @@ No script is printed when the output is NOT READY, so a failed script can't be u
 
 **If the output runs out of room,** continue in the next message, unprompted, until the skeleton is complete.
 
-**Only PASS scripts are uploaded.**
+**Only PASS scripts are uploaded.** Any change after PASS, however small, voids it: the edited script runs the full audit again and gets a new verdict and evidence block.
 
 ---
 
@@ -175,7 +182,8 @@ A second copy of the finished script, with light delivery tags so the voice read
 
 **A light touch:**
 - About one tag per 80-120 words. Never two in a row, never more than one per sentence. Most sentences get none.
-- **Allowed tags only:** [warm] [thoughtful] [quietly] [matter-of-fact] [slightly amused] [chuckles] [sighs] [short pause] [long pause] [slower] [emphatic]
+- **Allowed tags only:** [warm] [thoughtful] [quietly] [matter-of-fact] [slightly amused] [sighs] [short pause] [long pause] [slower] [emphatic]
+- **[slightly amused]** only on an honest-candor line, never to make a line sound like a joke.
 - **Never:** sound effects, accents, whispering, shouting, or anything that reads as a sound cue rather than a way of speaking.
 - **Pauses** only where a natural beat belongs: after a key reveal, before the mid-video CTA, before the closing line. Never next to an existing "...".
 - **CTA sections** stay warm and even: at most one [warm] at the start of each, nothing else inside.

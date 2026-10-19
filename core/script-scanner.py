@@ -14,7 +14,7 @@ Usage:
                is read for extra bans and lifted bans:
                    ban: phrase | label
                    ban-regex: pattern | label
-                   lift: phrase or label of a hard ban
+                   lift: the phrase or exact label of ONE hard ban (a partial match lifts nothing)
   --pack       the research pack. Every number in the script is checked against it.
   --refs       optional reference files (the niche pack's excerpts.md and reference-scripts.md).
                Any run of 8 or more consecutive words in the spoken script that also appears
@@ -38,7 +38,10 @@ HARD_BANS = [
     (r"\bhere'?s the kicker\b", "here's the kicker"),
     (r"\bin today'?s (?:world|day and age)\b", "in today's world"),
     (r"\blet'?s get into it\b", "let's get into it"),
-    (r"\bdelve\b|\btapestry\b|\bunleash\b|\brobust\b", "AI vocabulary"),
+    (r"\bdelve\b", "delve"),
+    (r"\btapestry\b", "tapestry"),
+    (r"\bunleash\b", "unleash"),
+    (r"\brobust\b", "robust"),
     (r"\bgame.?changer\b", "game-changer"),
     (r"\b(?:evolving|shifting|changing|ever[- ]changing|current|modern|competitive|digital)\s+landscape\b", "landscape metaphor"),
     # retention teases
@@ -108,8 +111,8 @@ ECHO_STOP = set(("the a an and or but so of to in on at for from with that this 
                  "were has had have will would could been being as by he she they we you his her their our not").split())
 
 # ---------------------------------------------------------------- spoken-text extraction
-STOP_SECTION = re.compile(r"^\s*(?:VERDICT|HOUSE FORMAT|ROTATION LOG|VO COPY|BUILD SHEET|UNIT PLAN)\b", re.I)
-SKIP_LINE = re.compile(r"^\s*(?:#|[-*>|]|\d+\.\s|```|===|SCRIPT TYPE:|TYPE CONFIRMED|VOICE CONFIRMED|\*\*)")
+STOP_SECTION = re.compile(r"^\s*(?:VERDICT|ROTATION LOG|VO COPY|UNIT PLAN)\b", re.I)
+SKIP_LINE = re.compile(r"^\s*(?:#|[-*>|]|\d+\.\s|```|===|SCRIPT TYPE:|TEST: DO NOT UPLOAD|\*\*)")
 INLINE_TAG = re.compile(r"\[[^\]]{1,40}\]")
 
 def spoken_paragraphs(text):
@@ -221,7 +224,7 @@ def number_check(script_text, pack_text):
             for v in set(round(x, 2) for x in all_numbers(s)):
                 if v <= 3:      # tiny counts ("one board", "two coats") are too noisy to check
                     continue
-                if any(abs(v - p) <= max(0.1 * p, 0.5) for p in pack_vals):
+                if any(abs(v - p) <= max(0.05 * p, 0.5) for p in pack_vals):   # spoken rounding only; "$46" against "$42" is flagged
                     continue
                 missing.append((v, s))
     return missing
@@ -272,8 +275,9 @@ def scan(text, extra_bans, lifts, ref_runs=None):
     for src, run in copy_check(text, ref_runs):
         fix.append(f"[COPIED FROM REFERENCE: {src}] \"{run}\" ({len(run.split())} words in a row)")
     paras = spoken_paragraphs(text)
+    # a lift names one ban: its exact label, or a phrase the ban matches in full
     hard = [(re.compile(rx, re.I), name) for rx, name in HARD_BANS
-            if not any(l in name.lower() or re.search(rx, l, re.I) for l in lifts)]
+            if not any(l == name.lower() or re.fullmatch(rx, l, re.I) for l in lifts)]
     for para in paras:
         ctx = lambda m: para[max(0, m.start() - 40):m.end() + 40]
         for rx, name in hard:

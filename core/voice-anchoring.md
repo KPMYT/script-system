@@ -26,7 +26,7 @@ Ask a model for good YouTube copy and it writes good *writing*: dramatic paralle
 1. **Human narration from winners in the niche.** Use 2-3 videos well above their channel's normal, from different channels, and anchor to the shapes they share. You're learning how the lane talks, not copying one creator.
 2. **Your own uploads,** but only if a human wrote and narrated them. Scripts that were AI-written are never a voice sample: anchoring to them anchors the voice to exactly the robotic writing this file exists to escape. They're useful only for checking a channel's established habits, such as its sign-off.
 
-**No samples, no script.** If a channel has no niche pack yet and no samples in its persona profile, stop and ask for 2-3 transcripts before writing anything. An imagined "good YouTube voice" doesn't exist. Imagining one produces the written-cinematic default every time.
+**No samples, no script.** If a channel has no niche pack yet and no samples in its persona profile, the workflow's gate requires the `voice-samples` input (2-3 transcripts, `workflow.md` section 2) before anything is written. An imagined "good YouTube voice" doesn't exist. Imagining one produces the written-cinematic default every time.
 
 **Rules for samples:**
 - **Voice, never content.** A sample teaches how sentences are built: how the narrator counts things off, moves between points, and where they breathe. It never supplies hooks, structure, angles, claims or topics. Borrowing content is cloning.
