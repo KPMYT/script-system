@@ -55,41 +55,47 @@ Every Claude Code chat works on its own `claude/...` branch. Work only reaches t
 - **Ideation:** the skills live on the operator's claude.ai account, outside this repo. They may later be brought in here, audited and connected to the scripts (especially the brief). Where ideas get generated long term is still open.
 - **Research stage:** whether it belongs with ideation or with the script is still open, to be decided by testing.
 
-## Active channels (from the operator, 2026-10-19)
+## Active channels (confirmed by the operator, 2026-10-19)
 
-The niche mapping marked "?" is Claude's guess from the installed skills' descriptions. Confirm it with the operator.
+The spellings here are correct. Where the skills spell a name differently, the skills have a typo; fix those when the ideation skills are audited.
 
-| Channel | Niche | Notes |
+| Channel | Niche | Typo in the skills |
 |---|---|---|
 | Roger The Pipe Guy | plumbing | |
 | Mark Silverbridge | plumbing | |
 | Vintage Pipefitter | plumbing | |
-| Werner Finkbeiner | plumbing ("the German way") | skill spells it "Finkbinder" |
-| Dale Oakfield | woodworking for profit | in `core/channels.md` |
-| Hank Hardwood | woodworking for profit | in `core/channels.md` |
-| Norbert Daniels | home security? | |
-| Lance Kavanaugh | home security? | |
-| Frederick Barnes | home security? | |
-| Scarlet Sterling | style (50+ women) | skill spells it "Scarlett" |
-| Diane de Chambray | style, "the French way"? | |
-| Helena Hart | air travel (flight attendant)? | |
-| Backyard Brenda | animals: chickens | skill says "Backyard Bertha" |
+| Werner Finkbeiner | plumbing ("the German way") | "Finkbinder" |
+| Dale Oakfield | woodworking for profit | |
+| Hank Hardwood | woodworking for profit | |
+| Norbert Daniels | home security: the retired Locksmith | |
+| Lance Kavanaugh | home security: the Navy veteran | |
+| Frederick Barnes | home security: the retired Fireman | |
+| Scarlet Sterling | style (50+ women): the affluent American | "Scarlett" |
+| Diane de Chambray | style: "the French way" | |
+| Helena Hart | air travel: the former flight attendant | air-travel skill says "name TBC" |
+| Backyard Brenda | animals: chickens | "Backyard Bertha" |
 | Walter Wren | animals: backyard birds | |
-| Luca Merino | animals: cats | skill spells it "Marino" |
+| Luca Merino | animals: cats | "Luca Marino" |
 | Beau Carter | animals: dogs | |
 | Gideon Grant | philosophy (Stoic) | |
 
-Not on the active list, though the skills mention them: Master Kenji and Sawdust Sam (woodworking), and the fabrics channels.
+Not active: Master Kenji and Sawdust Sam (woodworking), and the fabrics channels.
+
+## The operator's skills
+
+Every Claude Code chat gets the operator's claude.ai skills, synced read-only to `/root/.claude/skills/synced/<id>/` (the folder name can change).
+- **Ideation:** `ideation-core` (the master format bank and registry), plus `plumbing-`, `woodworking-`, `home-security-`, `style-`, `air-travel-`, `animals-`, `philosophy-` and `fabrics-ideation`.
+- **Also:** `thumbnails` and `woodworking-scripts`.
+- **The installed `woodworking-scripts` is old:** a single 202-line `SKILL.md`, with no references, no core, and a different text from this repo's. This repo is the newer master. The core itself isn't installed on the account at all.
 
 ## Open questions for the operator
 
-1. Confirm the "?" niches above and the spellings.
-2. OK to create `main` and make it the default branch?
-3. C7: leave the table, move it, or delete it?
+1. Set up `main` (walked through with the operator on 2026-10-19). Check that it's the GitHub default.
+2. C7: leave the table, move it, or delete it?
 
 ## Next actions (in order)
 
-1. Get the answers to the open questions. Set up `main`.
+1. Check that this chat started from `main`. Get the C7 answer.
 2. **Baseline check of the core:**
    - Apply the audit's core-level fixes: C2, C1, B1, B2, A3-A8, A10, A14, A15 and the rest that touch `core/`.
    - Create `tests/fixtures/` (a TEST persona and a TEST research pack) and a way for START to load them (D2).
