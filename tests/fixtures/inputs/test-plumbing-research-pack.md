@@ -7,9 +7,9 @@ Promise in plain words: A toilet that keeps running is usually one of three thin
 Title claims -> support:
 - "Keeps running" = both kinds (refills by itself every few minutes, OR never stops) -> F1 (flapper leak makes the fill valve switch back on) and F2 (float set too high, debris, or a failed valve keeps water flowing).
 - "Why" -> F1, F2, F3 (two manufacturers name the same causes).
-- "How to fix it" -> STEPS 1-9 give each cause a DIY fix; parts prices P1-P3.
+- "How to fix it" -> STEPS give each cause a DIY fix, with full shut-off/remove/install/test steps for both parts swaps (5a-5k fill valve, 9a-9j flapper) and free fixes (3, 4, 7, 8); parts prices P1-P3.
 - Brief's "almost always one of three": no source gives a share. Korky says "in most cases" for the flapper and lists the fill-valve causes (F1-F2). Honest wording: "most of the time." (See GAPS.)
-- Brief's "tell which in a few minutes": the overflow check is instant, but the flapper tests take 10-25 minutes (F6-F8). Honest wording: "within about 15 minutes." (See GAPS.)
+- Brief's "tell which in a few minutes": the overflow check takes seconds, but the flapper tests run 10-25 minutes (F6-F8). Time rounds up, so the honest wording is: "the first check takes seconds; the flapper test takes up to half an hour." (See GAPS.)
 
 FACTS
 - F1. "In most cases, a worn toilet flapper or flush valve seal is allowing water to slowly leak from the tank into the bowl. As the water level inside the tank drops, the fill valve float also drops and turns the water back on." | Korky, How to Fix a Running Toilet | https://www.korky.com/toilet-repair-help/running-toilet | 2026-10-19 | timeless
@@ -28,22 +28,47 @@ FACTS
 - F14. Time: Bob Vila's flapper guide estimates "Working Time: 10 minutes, Total Time: 20 minutes, Skill Level: Beginner." Fluidmaster's own product page says the 400H "Installs in under 10 minutes." That is a manufacturer claim; say it as one. | https://www.bobvila.com/articles/how-to-replace-toilet-flapper/ ; https://fluidmaster.com/shop/product/400h-performax-fill-valve/ | 2026-10-19 | timeless
 
 STEPS OR METHOD
-1. Shut off the supply valve behind the toilet (clockwise), then lift off the lid and set it down somewhere safe. | lid on a towel, valve turning | safety: the lid is fragile (S2)
-2. Look in the tank: is water running into the top of the overflow tube? Yes = a fill valve or level problem (go to 3). No = test the flapper (go to 6). | water trickling into the tube | F3; this check is instant
-3. Lower the level. On a 400H-style valve, turn the adjustment screw counterclockwise to lower the float (clockwise raises it), then flush to reset. Aim for about ½" below the top of the overflow tube. | screwdriver on the adjustment screw, level line vs. tube top | F4. Option: older valves differ (F13)
+1. Shut off the supply valve behind the toilet (clockwise), then lift off the lid and set it down somewhere safe. | lid on a towel, valve turning | S1, S2
+2. Look in the tank: is water running into the top of the overflow tube? Yes = a fill valve or level problem (go to 3). No = test the flapper (go to 6). | water trickling into the tube | F3; this check takes seconds
+3. Lower the level. On a 400H-style valve, turn the adjustment screw counterclockwise to lower the float (clockwise raises it), then flush to reset. Aim for about ½" below the top of the overflow tube. | screwdriver on the adjustment screw, level line vs. tube top | F4. Option: older float-ball valves differ (F13)
 4. Still filling into the tube? Flush the debris out. Water off, then flush. Hold the float up, twist the cap and arm counterclockwise 1/8 turn and lift it off. Hold a cup upside down over the open valve and turn the water on "full force for 10-15 seconds." Check for debris, then put the cap back on. | cup over the uncapped valve | source: Fluidmaster F3 page (the 400H sheet says turn the water "on and off a few times"). Mistake: skipping the cup, which sprays water
-5. Still runs after cleaning? Replace the fill valve. | new valve, height set ½" mark | F3, F5; price P2/P3. Hand-tighten only (S3)
-6. Flapper test: mark the water line in pencil, shut off the supply and wait (F6/F7), or do the dye test (F8). | pencil line; blue water in bowl | flush right after the dye test (F8)
+5. Still runs after cleaning? Replace the fill valve (5a-5k). | new valve in the tank | F3, F5; price P2/P3
+FILL VALVE REPLACEMENT (Fluidmaster 400H Quick Install Guide, F4 link; checked 2026-10-19)
+5a. Turn off the water (clockwise). | hand on the supply valve | S1
+5b. Flush to drain most of the water, then soak up the rest with a sponge or towel. | sponge in the empty tank | towel and bucket are optional tools on the sheet
+5c. Under the tank, remove the water supply connector from the bottom of the fill valve by twisting its nut (the sheet says "to the left"). Inspect the connector. | nut coming off below the tank | S6; a little water drains, so use a bucket or towel
+5d. Below the tank, twist the old locknut off the fill valve. | locknut coming off | the sheet's direction label: "to the left"
+5e. Pull the old fill valve up and out, "including refill tube, refill clip and shank washer," and drain any extra water into the bucket. | old valve lifted out | none
+5f. Set the new valve's height: twist the valve so the top of the cap sits roughly 3" above the top of the overflow pipe. | tape measure from cap to tube top | mistake: moving the lock ring ("Do Not Move Lock Ring")
+5g. Insert the new valve with the refill tube facing the flush valve and no parts touching the lever arm. Screw the locknut onto the shank below the tank, hand-tight only. | valve in, locknut by hand | S3. The float cup must not touch the tank walls, the lever or the flush valve
+5h. Attach the supply connector to the valve (hand-tight only). Clip the refill tube onto the overflow pipe; if the tube is too long for the lid to close, cut it and reattach it. | connector on; tube clipped to the overflow | S3
+5i. Turn on the water and check for leaks. | eye on the connector and the locknut | S5
+5j. Check the level: when the tank stops filling, it should sit "roughly ½ inch below top of overflow pipe." Adjust with the screw as in step 3. | level line vs. tube top | F4
+5k. Test: flush the toilet to check the tank level. It should refill and stop below the overflow tube, with no water running into it. | tank refills and goes quiet | F2, F3
+6. Flapper test: mark the water line in pencil, shut off the supply and wait (F6/F7), or do the dye test (F8). | pencil line; blue water in bowl | S7
 7. Level dropped? Check the chain first (1-2 links of slack). | chain hanging with slight slack | free fix (F9)
 8. Clean any mineral crust off the flush valve seat where the flapper lands. | flapper lifted, rim of the drain opening | free fix (F10)
-9. Still leaking? Replace the flapper with the same size (2" or 3"). If it still drains after a new flapper, the flush valve itself is the problem. That is a bigger job, outside this video's promise. | old flapper unhooked from its ears | F7, F11; price P1
+9. Still leaking? Replace the flapper (9a-9j). If it still drains after a new flapper, the flush valve itself is the problem. That is a bigger job, outside this video's promise. | new flapper | F7, F11; price P1
+FLAPPER REPLACEMENT (Korky, How to Replace a Toilet Flapper, S1 link; Bob Vila flapper guide, F14 link; checked 2026-10-19)
+9a. Buy the same size (2" or 3"); bring the old one or a photo of it. | old flapper beside the new pack | F11
+9b. Turn off the water: turn the handle clockwise until the valve is fully closed. | hand on the valve | S1. Bob Vila's guide says "counterclockwise," which contradicts both manufacturers; use clockwise
+9c. Flush, and mark in pencil where the water level drops. Then hold the handle down to drain the rest. | pencil line in the tank | Korky (the mark is used in 9i)
+9d. Unhook the chain from the flush lever, then unhook both flapper ears from the flush valve arms (the pegs on each side). A ring-style flapper lifts straight up off the overflow tube. | ears popping off the pegs | Korky; ring-style: Bob Vila
+9e. Clean the flush valve and make sure there's no sediment or debris. | wiping the rim of the drain opening | Korky: this helps the new flapper seal and prevents slow leaks (F10)
+9f. Fit the new flapper: hook each ear onto the pegs, or slide a ring-style flapper down over the overflow tube. A hybrid ring/ear flapper can go either way; aviation snips cut the ring off. | ears hooked on | Korky; ring and hybrid: Bob Vila
+9g. Clip the chain to the tank lever arm, leaving 1 to 2 links of slack. | relaxed chain, flapper closed | F9. Too loose: a slow, weak flush. Too tight: it won't seal and the toilet keeps running
+9h. Turn the water back on (counterclockwise). | tank filling | none
+9i. Adjustable flappers only (optional): Korky's method is to turn the water off and flush. "If the water level falls at or below one-half inch of the pencil mark," you're done. If it stays above the mark, turn the band to the next higher number. Fluidmaster's 502 has its own dial. | dial or band on the flapper | follow the instructions in the pack you bought
+9j. Test: let the tank fill. "The toilet should stop running when the toilet tank is full." Flush once to check that the flapper opens and closes, then let it refill. To confirm the seal, repeat the flapper test (step 6). If it still drains, the flush valve is the problem (F7). | tank goes quiet; pencil line holds | Bob Vila Step 5; Fluidmaster (F3 page) says to repeat its drain-down test after replacing the flapper
 
 SAFETY POINTS
-- S1. Shut off the supply first: "turn off the water supply by turning the handle clockwise until the valve is fully closed." | Korky, How to Replace a Toilet Flapper | https://www.korky.com/toilet-repair-help/how-to-replace-toilet-flapper | 2026-10-19
-- S2. "The lid is fragile. Place it somewhere safe. These lids aren't always available as individual parts, especially with older toilets. If it breaks, you may need to replace the entire toilet." | The Home Depot, How To Fix a Running Toilet | https://www.homedepot.com/c/ah/how-to-fix-a-running-toilet/9ba683603be9fa5395fab90138bd8691 | 2026-10-19
-- S3. "Hand-tighten only. DO NOT OVER TIGHTEN." "Over tightening may crack the fill valve or tank causing flooding." | Fluidmaster 400H instructions (F4 link) | 2026-10-19
-- S4. No bleach or chlorine drop-in tank cleaners: they "RESULT IN DAMAGE to tank components and MAY CAUSE FLOODING." | Fluidmaster 400H instructions (F4 link) | 2026-10-19
-- S5. If the toilet keeps running and there's water on the floor, "immediately turn off water." | Fluidmaster (F3 page) | 2026-10-19
+- S1. Shut off the supply first: "turn off the water supply by turning the handle clockwise until the valve is fully closed." | Korky, How to Replace a Toilet Flapper | https://www.korky.com/toilet-repair-help/how-to-replace-toilet-flapper | 2026-10-19 | -> steps 1, 4, 5a, 6, 9b
+- S2. "The lid is fragile. Place it somewhere safe. These lids aren't always available as individual parts, especially with older toilets. If it breaks, you may need to replace the entire toilet." | The Home Depot, How To Fix a Running Toilet | https://www.homedepot.com/c/ah/how-to-fix-a-running-toilet/9ba683603be9fa5395fab90138bd8691 | 2026-10-19 | -> step 1
+- S3. "Hand-tighten only. DO NOT OVER TIGHTEN." "Over tightening may crack the fill valve or tank causing flooding." | Fluidmaster 400H instructions (F4 link) | 2026-10-19 | -> steps 5g, 5h
+- S4. No bleach or chlorine drop-in tank cleaners: they "RESULT IN DAMAGE to tank components and MAY CAUSE FLOODING." | Fluidmaster 400H instructions (F4 link) | 2026-10-19 | -> after steps 5k and 9j (keeping the new parts working)
+- S5. If the toilet keeps running and there's water on the floor, "immediately turn off water." | Fluidmaster (F3 page) | 2026-10-19 | -> steps 5i, 9h, and any time water reaches the floor
+- S6. Inspect the water supply connector and "Replace it if it is worn, or you don't know how old it is, to prevent flooding and property damage." | Fluidmaster 400H instructions (F4 link) | 2026-10-19 | -> step 5c
+- S7. After a dye test, "flush immediately after the experiment to avoid staining the tank." | EPA WaterSense (F8 page) | 2026-10-19 | -> step 6
 
 PROOF FOR THE MAIN PROMISE
 - P1. Fluidmaster 2 in. PerforMAX Universal High Performance, Water-Saving Toilet Tank Flapper 502P21 | The Home Depot | https://www.homedepot.com/p/Fluidmaster-2-in-PerforMAX-Universal-High-Performance-Water-Saving-Toilet-Tank-Flapper-502P21/100206743 | 2026-10-19 | "listed at $6.48" (live)
@@ -63,7 +88,7 @@ ADVERSARY AND FRAMING
 GAPS
 - Plumber service-call cost: no credible source found (only thin aggregator pages). Not blocking; leave the number out.
 - "Almost always one of three" has no source that gives a share. Not blocking; say "most of the time" or "in most cases" (Korky's words). Also say a cracked flush valve is a rarer fourth cause (F7, F10).
-- "Tell which in a few minutes": the flapper tests run 10-25 minutes. Not blocking; say "within about 15 minutes." The overflow check (step 2) is instant.
+- "Tell which in a few minutes" undersells the time: the flapper tests run 10-25 minutes. Not blocking. Say "the first check takes seconds; the flapper test takes up to half an hour" (or "within about half an hour"). Never "15 minutes."
 - Lowe's, Walmart and Amazon pages blocked automated access (bot checks). I verified prices only at Home Depot and Fluidmaster's store, and found no verified Korky price. Not blocking.
 - Tank lid weight: the source says "fragile," not heavy. Don't state a weight. Not blocking.
 - A shutoff valve that is seized or won't close fully: not researched. Not blocking. The script must not invent steps for it.
