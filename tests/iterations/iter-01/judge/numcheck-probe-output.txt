@@ -1,0 +1,14 @@
+SCAN: tests/iterations/iter-01/judge/numcheck-probe.md
+
+FIX ON SIGHT (0)
+
+JUDGE WITH THE SHAPE TEST (0)
+
+"MOST ..." OPENERS: 0 (allowed: 1)
+REFRAME FLOOR (H21): 0 machine-caught (allowed: 1; the audit's count may never be lower)
+FILLER PHRASES OVER THE LIMIT (H23): 0
+ECHO (H18): 0
+
+NUMBERS NOT FOUND IN THE RESEARCH PACK (2)  (invented, or derived: confirm the math)
+  45  <<  It takes 45 minutes to fix.
+  17  <<  It costs 17 dollars.

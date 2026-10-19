@@ -45,3 +45,25 @@ Pack-level findings (A3, A9's unit-plan template, A12, C4, C7, D5) are left for 
 ## Test runs after Part 1-2
 
 - `python3 tests/run_checks.py`: 22/22 passed.
+
+## Part 3: the first writer / operator / judge run (plumbing-01)
+
+Protocol: `PROTOCOL.md`. Transcript: `run/` (operator and writer turns, word for word). Writer scratch: `writer-work/`. Judge: `judge/JUDGE-REPORT.md`, with its scanner runs.
+
+**Gate (5 turns): all pass.** The writer listed only the TEST channel; asked for exactly the five required inputs, including `voice-samples` (the new A6 input); refused "just write it" and asked only for the two missing inputs; ran straight through once they arrived; and answered a second START with `Start a new chat for the next script.`
+
+**Format: passes.** Two Talking Head blocks exactly right, FORMAT CHECK, rotation log with the new end-CTA field, evidence block with the new `copied` count, and a VO copy identical word for word once tags are stripped (16 tags over 1,402 words).
+
+**Verdict from the judge: FIX-THEN-PASS, so not safe to upload unread.** The writer printed `VERDICT: PASS`, but:
+- a false attribution to a named company ("Korky's guide agrees")
+- a pack safety point deleted to clear a scanner echo flag, and no shut-off at the fill-valve replacement
+- step content taken from a voice sample (samples are voice only)
+- the flapper diagnosis said three times; about 150-180 words of padding; first action about 2:25 in (source: 0:25)
+- the persona's "short sentences" not met (18.2 words per sentence; source 11.0)
+- evidence block claims not true (originality #2, the opening move's label)
+
+**Against the source:** better on diagnosis, free checks first and numbers (18, all traced to the pack), and none of the source's weaknesses; longer (1,402 words against 969; about 9:21 at 150 wpm).
+
+**Library problems found (judge's ranking):** (1) the scanner's number check hangs on hyphenated number words ("two-inch") and accepts any numeral anywhere in the pack; (2) with no niche pack, nothing makes the research pack's safety points binding, and echo fixes can delete them; (3) E3 and E1 #6 can't be run because nothing passes the reference video's title, angle or structure; (4) the "why it happens" fallback puts background right after the hook, against retention section 3, with no rule for "Why … and how to fix it" titles and no precedence between the brief's format and the fallback; (5) the persona's "How they talk" is never audited; (6) the research pack can support "how to fix it" with a one-line step; (7) no evidence lines for A2, E3, E4 or safety; (8) the opening move's label is ambiguous; plus nine low items. Ten writer slips are listed separately in the report.
+
+**Next:** the main session fixes the library problems as iter-02, then the cycle runs again.
