@@ -60,6 +60,15 @@ One persona profile per channel, written from `core/persona-profile-template.md`
 | `books/hank-hardwood-book.md` | The full text of Hank's ebook, "100 Ways to Make Your First $1,000 with Woodworking", with a marker for every page (PDF page and printed page), a chapter page map and an index of all 100 builds. Used to find which pages cover a video's topic for the CTA, and which facts a CTA may state about the book. |
 | `books/dale-oakfield-book.md` | The same for Dale's ebook, "The Ultimate DIY Woodworking Guide", with a chapter page map (the book prints no page numbers, so it uses PDF pages). |
 
+## studies/
+
+Research data: collect and describe only, never edited to fit a conclusion.
+
+| Folder | What's in it |
+|---|---|
+| `woodworking/` | The woodworking-for-profit study (2026-10-17): Hank, Dale and two competitors, 45 videos. Transcripts, comments, views against each channel's normal, one descriptive notes file per video, and combined transcripts. Method in `study-brief.md`, every step in `log.md`. |
+| `plumbing/` | The plumbing study (started 2026-10-20): Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter and five competitors (one a pest-control parallel niche, one an AI channel), 5 most recent plus 5 most-viewed (last 24 months) per channel. Same layout and method as woodworking; see its `study-brief.md` and `log.md`. |
+
 ## tests/
 
 `run_checks.py`: 18 automated checks across the whole library, including the copy guard. Run it after any edit.
