@@ -10,6 +10,11 @@ The operator's three plumbing channels (Roger the Pipe Guy, Mark Silverbridge, T
 | `01-own-channels.md` | Each of the operator's channels: hits against recent uploads; script problems; 15 suggestions (S1-S15). |
 | `02-competitors.md` | A profile of each competitor, what transfers to a faceless AI-voiced channel and what doesn't, and a close look at TheCheapFix. |
 | `03-own-vs-competitors.md` | Side by side on 12 dimensions, ending with the 10 biggest differences ranked by evidence. |
+| `04-hooks.md` | Second, deeper pass: 19 hook structures with verbatim openings, all 80 openings classified, the first 60 seconds beat by beat, teases, hook-to-title handoff, a ranked shortlist. |
+| `05-emotions.md` | 18 emotional triggers with verbatim lines and comment evidence, six hits mapped minute by minute, the audience's pain points, an emotional language bank, what backfired. |
+| `06-titles-and-promises.md` | 25 title formulas with views against normal, title parts that recur in hits, a promise-payoff audit of all 30 own videos, 14 suggested title-to-script rules. |
+| `07-body-craft.md` | After the hook: 12 item shapes, ordering, transitions and rehooks, specifics, proof a faceless channel can use, money framing, safety wording, writing for compiled footage, padding, CTAs and endings, 39 stock phrases counted. |
+| `08-suggestions-with-examples.md` | Every medium and weaker suggestion with 6-10 real examples, before-and-after rewrites, draft rule wording (not applied), and a sample script section. |
 
 Every claim in those files cites a video ID, and script quotes carry a timestamp. The main session spot-checked key quotes and counts against the transcripts (listed in `../log.md`).
 
