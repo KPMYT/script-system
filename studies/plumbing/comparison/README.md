@@ -35,7 +35,7 @@ Also recorded in `HANDOFF.md` section 3; applied when the plumbing rules and pro
 - The Vintage Pipefitter: no CTAs except one at the end, two lines saying it's the persona's free e-book; the aim is the viewer's email.
 - Roger and Mark: CTAs shortened.
 - No name or channel intros on any channel (the core already bans them by default).
-- Mark Silverbridge's tenure is 45 years.
+- Mark Silverbridge's tenure is 45 years. **Superseded the same day:** tenures formalised as Roger 45, Mark 40, Vintage 50 (`HANDOFF.md`). The reports written earlier say "Mark 45"; read it as 40.
 - Get to the point faster, as the competitors do.
 - TheCheapFix is the closest format match, not the main source of scripting ideas.
 

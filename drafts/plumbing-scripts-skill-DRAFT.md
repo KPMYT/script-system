@@ -4,9 +4,11 @@ description: Script rules for the operator's plumbing channels (Roger the Pipe G
 ---
 
 <!--
-DRAFT 1, 2026-10-20. NOT IN THE LIBRARY. Nothing here applies until the operator says yes, section by section.
-Status tags: [DECIDED] the operator has already ruled; [DRAFT: for your yes] written, waiting for approval;
-[NEEDS P3] depends on proposal P3 in PROPOSALS.md (concrete forward promises); [LATER] heading only, written in a later batch.
+DRAFT 2, 2026-10-20. NOT IN THE LIBRARY YET. When approved it becomes the skill `plumbing-scripts` (one skill, one SKILL.md,
+like `woodworking-scripts`), built by tools/build_skills.py into dist/plumbing-scripts.skill.
+Status tags: [DECIDED] the operator has ruled; [APPROVED] the operator said yes to this draft wording (2026-10-20);
+[DRAFT: for your yes] written, waiting; [LATER] heading only, written in a later batch.
+P3 (concrete forward promises in the plumbing pack) was approved by the operator on 2026-10-20.
 Sources: studies/plumbing/comparison/ (04 hooks, 06 titles, 07 body craft, 09 differences, 10 opener teardowns, 11 reasons to stay)
 and HANDOFF.md section 3, "Operator decisions, 2026-10-20 (plumbing, after the study)".
 -->
@@ -36,7 +38,7 @@ Planned: `references/research-pack-template.md`, `references/unit-plan-template.
 
 ---
 
-## The villain [DECIDED, wording DRAFT: for your yes]
+## The villain [DECIDED; wording APPROVED]
 
 The villain on every plumbing channel is **the trade**: plumbers as a business, the plumbing industry, and whoever profits from the service call. Never a named company (core claims policy).
 
@@ -46,22 +48,22 @@ The villain on every plumbing channel is **the trade**: plumbers as a business, 
 - **One villain line in the opening, then let the prices carry it.** The trade's typical price at the end of an item ("you just did it for a couple of dollars") does the work for the rest of the video.
 - **The store shelf is a second, softer villain:** the jug, the tablet, the marketing on the label. Use it where the fix replaces a product.
 
-## The opening [DRAFT: for your yes] (the promise block [NEEDS P3])
+## The opening [APPROVED]
 
-Every opening, whatever the video type, does these jobs in about the first 45 seconds. The order can change by type (see "The video types"), the jobs can't.
+Every opening, whatever the video type, does these jobs in about the first 45 seconds. Hooks are not one fixed formula: rotate the order and the shape across a channel's scripts (the rotation log tracks it), use the order for the video type (see "The video types"), or model the opening on one of the reference winner scripts for its shape and beats, never its wording. What can't change is that the point comes first and fast, and nothing on the banned list below appears.
 
 1. **The point in the first sentence.** Name the title's subject and, wherever the title allows, the fix or product itself, by about 15 seconds. Never hold the name back: the two hits that hid the product for five and seven minutes drew the angriest comments in the study.
 2. **A question, when it fits.** A question the viewer can answer in their own house ("When did you last lift the lid off your toilet tank?"), answered within about 15 seconds. Never a question the viewer can't check.
 3. **The villain line,** as a price or a silence (above).
 4. **Honest scope or reassurance,** in one line: what it won't do, or why it's safe ("It won't touch a hair clog." "Nothing here harms a septic tank."). This keeps the title's strongest word honest.
-5. **The promise block [NEEDS P3].** Right after the point, promise two or three specific later payoffs. Each names its item and its stake: "Number six saves you a two-hundred-dollar call." "And the last one is the rule that keeps all of this safe on old pipes." Never a vague tease: the hard-ban list ("stay till the end", "stick with me", "by the end of this video" and the rest) still applies.
+5. **The promise block** (this pack's override of core `retention-mechanics.md` §6, approved as P3). Right after the point, promise two or three specific later payoffs. Each names its item and its stake: "Number six saves you a two-hundred-dollar call." "And the last one is the rule that keeps all of this safe on old pipes." Never a vague tease: the hard-ban list ("stay till the end", "stick with me", "by the end of this video" and the rest) still applies.
 6. **The first real tip** by about 45 seconds; in a list, item one by about 30 seconds.
 
 **Never in an opening:** a name or channel intro, a greeting, "today we're going to", a recap of what's coming, a claim of a test or demonstration (unless the title or brief calls for one), or a tenure number other than the profile's.
 
-**Tenure:** at most once, as the profile's fixed number ("forty-five years in this trade"), and only where it does a job (credibility right before a verdict or a mistakes list).
+**Tenure:** at most once, as the profile's fixed number (Roger 45, Mark 40, Vintage 50), and only where it does a job (credibility right before a verdict or a mistakes list).
 
-## Point then promise [DRAFT: for your yes] [NEEDS P3]
+## Point then promise [APPROVED]
 
 The competitors give the point first and promise second; our hits did the reverse and made the viewer wait. From now on:
 
@@ -73,7 +75,7 @@ The competitors give the point first and promise second; our hits did the revers
 - **A priority flag at the first answer:** "If you do only one thing from this video, do this one." Viewers pointed at that line when it came late.
 - **No recaps** at the end [DECIDED].
 
-## Ways to promise more value [DRAFT: for your yes] [NEEDS P3]
+## Ways to promise more value [APPROVED]
 
 Use two or three per video, and rotate them across a channel's scripts.
 
@@ -88,7 +90,7 @@ Use two or three per video, and rotate them across a channel's scripts.
 - **A problem the viewer didn't know they had,** promised and then shown.
 - **A myth flag:** "Number three is the one everybody gets backwards."
 
-## The video types [DRAFT: for your yes]
+## The video types [DRAFT: for your yes; the operator asked to see the list first]
 
 Pick the type from the title. Each type has its own opening order and item shape. The best real models are listed for the planning step (study IDs); never copy their wording.
 
@@ -98,7 +100,7 @@ Pick the type from the title. Each type has its own opening order and item shape
 | **N things about one product** | "N Things Plumbers Don't Want You to Know About X" | The product in the viewer's house and its price → what the trade charges for the same jobs → "nobody will mention it" → the belief it flips → the count, with one money item and one safety item → one rule | 45-90 s | A scene, what the trade charges, the method with amounts, the payoff | rGEFZrtOJOI, ls7BwoRhM9Q, SUqzcj5udsk |
 | **Never-do list** | "N Things You Should NEVER…" | A habit doing hidden damage → the avoidable cost → the trade bills for the result → the count → one numbered item with its stake | 30-45 s | The habit, why it does damage, what to do instead | WfAwg1l0xCE, DHk94YoC95k |
 | **Mistakes list** | "N Mistakes That…", "DO NOT Install X Until…" | A symptom question or neglect → the cost in hundreds or thousands → one credibility line → the count → one numbered stake | 15-30 s | The mistake, what it costs, the right way | VZo8y6AplVQ, xpsLXmntINE, 9_11vx_L6oM |
-| **Head-to-head verdict** | "X vs Y vs Z: A 45-Year Plumber's Verdict" | The failed attempt or the moment of choice → the contenders with prices → everyone disagrees, the pitch sells the dear one → "each one gets a job" → one concrete extra | 45-60 s | Each contender: what it's for, what it's not for, one line of verdict; then which to use for which job | Rb0aS97YnSA, WXJGaGtXrgY, dIe837GgLDs |
+| **Head-to-head verdict** | "X vs Y vs Z: A [tenure]-Year Plumber's Verdict" | The failed attempt or the moment of choice → the contenders with prices → everyone disagrees, the pitch sells the dear one → "each one gets a job" → one concrete extra | 45-60 s | Each contender: what it's for, what it's not for, one line of verdict; then which to use for which job | Rb0aS97YnSA, WXJGaGtXrgY, dIe837GgLDs |
 | **Banned / code explainer** | "Here's Why X Is NOT ALLOWED Anymore" | The why-question, or the viewer finding the fixture → the rule, scoped ("most codes", never "illegal") → the reason and one real danger, in proportion → "if yours works, you may not need to change it" → the fixes | about 20 s | Rule, reason, verdict, the fixes from cheapest | pmN88UvZfDI, HsOr7vpQUGg |
 | **How-to / correct way** | "The CORRECT Way to X", "How to X (Before It…)" | The task and the number-one mistake, or the myth flipped → "you can do this" → the step count and the step that decides it → when not to do it | 15-45 s | One step, the reason, the mistake to avoid | 8IV7oG43DZ0, JyVbjDsric4, 1kWd9HidNJk |
 | **Product swap** | "X Is Expensive. Use THIS Instead!" | The pro's price → the usual DIY option and its catch → the popular shortcut, judged fairly → the swap named, with its price and where not to use it | about 60 s | The swap, the price, the job it fits | YRow6eS6AHw, sHL4lBAhklA |

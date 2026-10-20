@@ -75,7 +75,7 @@ Drafts waiting for the operator's yes. Nothing here is part of the library until
 
 | File | What's in it |
 |---|---|
-| `plumbing-scripts/SKILL.md` | Draft 1 of the plumbing niche pack: the villain, the opening by video type, "point then promise", ways to promise more value, ten video types with their openings and item shapes, CTAs and length. Later sections are headings only. Parts depend on proposal P3. |
+| `plumbing-scripts-skill-DRAFT.md` | Draft 2 of the plumbing niche pack (it becomes the one skill `plumbing-scripts`, like `woodworking-scripts`): the villain, the opening by video type, "point then promise", ways to promise more value, ten video types with their openings and item shapes, CTAs and length. Villain, opening, point then promise and the promise devices are approved; the video types wait for the operator; later sections are headings only. |
 
 ## tests/
 

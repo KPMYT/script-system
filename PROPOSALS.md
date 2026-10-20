@@ -32,4 +32,4 @@ Evidence that a locked decision (`HANDOFF.md` section 3) might need to change. N
 
 **Proposal:** the plumbing pack overrides `retention-mechanics.md` §6 for one thing only: a **promise block** right after the first answer may name two or three later items with their concrete stake ("Number seven saves you a two-hundred-dollar call"), and later "next" lines may point further than the next segment, provided every promise names its item and stake, uses no tease phrase from the hard-ban list, and is paid inside the video (the first one within about five minutes). Vague long-range promises stay banned everywhere. The core rule is unchanged for every other niche.
 
-**Status:** open, for the operator. The plumbing draft marks the sections that depend on it.
+**Status:** approved by the operator on 2026-10-20 ("1. yes"). Applies when the plumbing pack goes into the library; the core rule is unchanged for every other niche.
