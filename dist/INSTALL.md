@@ -1,22 +1,26 @@
 # Installing the skills
 
-**Version:** 2026-10-20 (library commit 1208fb9)
+**Version:** 2026-10-20 (library commit bef3797)
 
-Three skill files. Install all three on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills (they then work in Claude and in Cowork).
+Six skill files, one per layer. Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills. They then work in Claude and in Cowork.
 
-| File | What it does | Changed? |
-|---|---|---|
-| `script-writer.skill` | Type **START** to write a script. Holds the core rules, the woodworking pack, Hank's and Dale's profiles and both books. | **New.** Replaces the old `woodworking-scripts` skill. |
-| `woodworking-ideation.skill` | Woodworking ideation: the Etsy-first product scan (30 products), title and thumbnail-text options, then fact briefs and the optional research pack. | **Updated.** Replaces the installed `woodworking-ideation`. |
-| `ideation-core.skill` | The shared base every ideation skill needs (format bank, rules, audience profiles). | **Unchanged.** Only install it where it's missing (for example a new VA account). |
+| File | Layer | What it does | On your account now |
+|---|---|---|---|
+| `script-writer.skill` | Core | Type **START** to write a script. The core rules every channel uses; it reads the skills below. | **New:** upload it. |
+| `woodworking-scripts.skill` | Niche | The woodworking-for-profit rules (structure, money block, proof, safety, voice) and the research-pack template. | **Replace** the old `woodworking-scripts` (delete the old one, upload this). |
+| `hank-hardwood-persona.skill` | Channel | Hank's profile, CTA rules and book. | **New:** upload it. |
+| `dale-oakfield-persona.skill` | Channel | Dale's profile, CTA rules and book. | **New:** upload it. |
+| `woodworking-ideation.skill` | Ideation | The Etsy-first product scan (30 products), title and thumbnail-text options, fact briefs, the optional research pack. | **Replace** the old `woodworking-ideation`. |
+| `ideation-core.skill` | Ideation | The shared base every ideation skill needs. | **Unchanged:** only install it where it's missing (for example a new VA account). |
+
+All of the script skills must be installed together: `script-writer` stops with NOT READY if the channel's niche or persona skill is missing.
 
 ## Steps
 
-1. **Remove the old `woodworking-scripts` skill** from the account. If it stays, it can clash with `script-writer`.
-2. **Upload `script-writer.skill`.**
-3. **Replace `woodworking-ideation`** with the new file (remove the old one, upload the new one).
-4. **Upload `ideation-core.skill`** only if the account doesn't have it.
-5. **Turn all three on.**
+1. **Delete** the old `woodworking-scripts` and the old `woodworking-ideation`.
+2. **Upload** `script-writer`, `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona` and `woodworking-ideation`.
+3. **Upload `ideation-core`** only if the account doesn't have it.
+4. **Turn them all on.**
 
 ## Using them (in Cowork)
 
@@ -26,4 +30,4 @@ Three skill files. Install all three on every account that will do ideation or s
 
 ## Updating
 
-The master copies live in the script-system repo. Whenever the rules change, the skills are rebuilt from the repo (`python3 tools/build_skills.py`) and re-uploaded. The version line at the top of each `SKILL.md` and of this file says which build you have.
+The master copies live in the script-system repo. Whenever the rules change, the skills are rebuilt from the repo (`python3 tools/build_skills.py`) and re-uploaded. The version line in each skill and in this file says which build you have.

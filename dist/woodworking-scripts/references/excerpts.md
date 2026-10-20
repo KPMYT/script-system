@@ -313,7 +313,7 @@ The viewer's own doubt said out loud, then answered.
    ✓ **Shape:** start from the doubter's worst case (nothing at all) and build up from there.
 
 ## 9. Adversaries
-PACK.md allows four, as categories only: the doubter, the big box store's markup, scammers and overpriced materials. One per video, two at most.
+SKILL.md allows four, as categories only: the doubter, the big box store's markup, scammers and overpriced materials. One per video, two at most.
 
 1. "The big box store thinks that they're selling you construction grade lumber when in all reality, they're actually selling you a secret furniture grade wood." [BV · credit cards · 3:46 · 3.4x]
    ✓ **Shape:** the big box store as a category, turned into a buying tip (hidden value on the shelf).

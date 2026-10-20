@@ -1,3 +1,10 @@
+---
+name: dale-oakfield-persona
+description: The channel profile for Dale Oakfield's Workshop: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
+---
+
+**Version:** 2026-10-20 (library commit bef3797)
+
 # Persona profile: Dale Oakfield's Workshop
 
 Approved by the operator on 2026-10-20. Source: the channel's page in Notion (Channel List, TEAM ACCESS), reviewed and changed with the operator. Written from `core/persona-profile-template.md`.
