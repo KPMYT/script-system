@@ -33,6 +33,14 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 | `references/reference-scripts.md` | Eight complete winning scripts, labelled with the skeleton, each with why it works, the unit plan it implies and what doesn't transfer. Read at the planning step; never copy wording. |
 | `archive/` | The full BeardedViking and WhosTheVoss transcripts, plus `most-viewed-24mo/` (each channel's 10 most-viewed from the last 24 months, with views and normal), used for calibration only. |
 
+## ideation/
+
+Copies of the operator's claude.ai ideation skills, brought in to be edited here with the operator's approval. The operator uploads the edited version back to claude.ai.
+
+| Folder | What's in it |
+|---|---|
+| `woodworking-ideation/` | The woodworking ideation skill (copied unchanged on 2026-10-20 from the installed version). It's an overlay on the shared `ideation-core` skill, which stays on claude.ai and isn't edited. |
+
 ## personas/
 
 One persona profile per channel, written from `core/persona-profile-template.md`.
