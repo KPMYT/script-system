@@ -67,7 +67,7 @@ INSTALL = """# Installing the skills
 
 **Version:** {stamp}
 
-Six skill files, one per layer. Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills. They then work in Claude and in Cowork.
+Six skills, one per layer. Each comes twice with the same contents: a `.skill` file and a plain `.zip` (use whichever the upload screen takes). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
 
 | File | Layer | What it does | On your account now |
 |---|---|---|---|
@@ -167,15 +167,16 @@ def main():
     for folder in (build_script_writer(), build_pack(), *[build_persona(s) for s in PERSONAS], build_ideation(), build_ideation_core()):
         validate(folder)
         zipdir(folder, folder + ".skill")
+        zipdir(folder, folder + ".zip")   # the same skill as a plain zip, for upload screens that ask for one
         n = sum(len(fs) for _, _, fs in os.walk(folder))
-        print(f"built {os.path.relpath(folder, ROOT)}/ ({n} files) and {os.path.relpath(folder, ROOT)}.skill")
+        print(f"built {os.path.relpath(folder, ROOT)}/ ({n} files), {os.path.relpath(folder, ROOT)}.skill and .zip")
     with open(os.path.join(DIST, "INSTALL.md"), "w") as f:
         f.write(INSTALL.replace("{stamp}", STAMP))
     # one folder (zipped) with every skill file and the install guide, for Drive
     bundle = os.path.join(DIST, f"script-system-skills-{datetime.date.today().isoformat()}.zip")
     with zipfile.ZipFile(bundle, "w", zipfile.ZIP_DEFLATED) as z:
         for f in sorted(os.listdir(DIST)):
-            if f.endswith(".skill") or f == "INSTALL.md":
+            if f.endswith(".skill") or (f.endswith(".zip") and not f.startswith("script-system-skills")) or f == "INSTALL.md":
                 z.write(os.path.join(DIST, f), os.path.join("script-system-skills", f))
     print(f"bundle: {os.path.relpath(bundle, ROOT)}")
     # the same skills as plain, readable files (a normal zip that opens on any computer)

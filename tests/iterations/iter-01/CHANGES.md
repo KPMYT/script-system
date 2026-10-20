@@ -22,4 +22,5 @@ Applied 2026-10-20 after the operator approved each finding in `REVIEW.md` ("you
 | `ideation/woodworking-ideation/SKILL.md`, `references/steering.md`, `references/audience.md`, `references/word-bank.md` | Hank's titles may claim selling and tenure too, in his own words; "40 years" stays Dale's. | 8 |
 | `HANDOFF.md` | New block "Operator decisions, 2026-10-20 (first script test review, iter-01)". | record |
 | `README.md`, `PINNED.md` | Check count 20; iter-01 noted. | record |
+| `tools/build_skills.py` | Each skill is also built as a plain `.zip` (same contents as its `.skill`), included in the Drive bundle; INSTALL.md says to use whichever the upload screen takes, on the account, not in a project. | Operator's request: an upload zip per skill. |
 | `dist/` | Rebuilt with `tools/build_skills.py`. | packaging |
