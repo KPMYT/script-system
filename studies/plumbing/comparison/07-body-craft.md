@@ -26,7 +26,7 @@ Sources: `stats.md`, `README.md`, `01`-`03`, all 80 notes files, all 80 transcri
 7. **Washing soda: two own channels give opposite instructions for the same powder.** Mark's top hit says "Dissolve it first" (Rb0aS97YnSA [11:17]); Vintage's hit says "Pour it dry. Do not mix it into a slurry" (rDLzNLUZnhw [8:11]). About 10 viewers report hardened traps on the dry-pour videos.
 8. **Footage complaints trace back to specific words.** Naming "35%" pulled a 35% jug onto screen while the voice said use 3% (234 likes); "dry powder" pulled a dumping clip in a video that said dissolve first; every dollar figure pulls stacks of $100 bills.
 9. **Viewers summarize the hits for each other.** The top comment on Roger's 1.2M-view hit is a numbered recap (1.5K likes); "3:15 is where it starts" has 2K likes. No hit ends on a recap. The recent template doesn't have one either.
-10. **The recent template's ending has three parts:** a book pitch repeated (about 80-100 words), a subscribe line with a channel promise, and a "Go… tonight" imperative. Competitors end with one ask and stop. TheCheapFix's two biggest hits have no end CTA at all.
+10. **The recent template's ending has three parts:** the book pitch again, a subscribe line with a channel promise, and a "Go… tonight" imperative, about 120-135 words in all. Competitors end with one ask and stop. TheCheapFix's two biggest hits have no end CTA at all.
 
 ---
 
@@ -51,7 +51,6 @@ Twelve item shapes recur in the data. Each is listed with 3 or more examples.
 
 TheCheapFix's signature, and the shape behind its five hits.
 - (TheCheapFix ls7BwoRhM9Q [2:37]-[3:39], hit 285×) Scene: "That sour rotting smell coming from your kitchen sink is not the disposal itself." Price: "Commercial disposal cleaners cost $6 to $10 per pack." Method: "Pour half a cup directly into the disposal. Let it sit for 10 minutes without running the water." Payoff: "This is exactly what professional kitchen cleaning services charge $40 a visit for. You just did it for cents."
-- (TheCheapFix RA1-fogcslM [2:06]-[3:06], hit 219×) "A detailer bills stain extraction as an add-on. Usually $50 to $100 on top of the base price" → "Mix one part peroxide with two parts water in a spray bottle… Let it sit about 10 minutes" → "One spray bottle handles your entire interior for pennies."
 - (Vintage uWXIUmWdPeY [2:35]-[3:37], hit 395×) Scene: "You're two rooms away, the machine hits the drain cycle, and the laundry room smells like a sewer." Method: "Pour a full cup of 3% peroxide straight down it… Let it sit an hour." Payoff with price: "A plumber will charge you $150 to come out and tell you that line needs snaking. It doesn't need snaking. It needs oxygen."
 - (Roger n-2hjVGsu-Q [6:40]-[8:42], recent 0.78×) "The service call for this one runs anywhere from $150 to $350… The flapper itself costs about eight bucks" → shutoff, flush, unhook, "Take the old one with you to the hardware store" → "$8 and about 10 minutes. And that's the whole job."
 
@@ -63,13 +62,11 @@ Got2Learn's inspection hit, and the closest thing to a "teaching" item.
 - (Got2Learn xpsLXmntINE [0:13], all-time hit 64×) "the new plumbing code specifies that a washing machine p-trap and pipes must be a minimum of two inches… the standpipe must be 18 to 30 inches in height… if not done this way you'd fail automatically"
 - (Got2Learn xpsLXmntINE [1:32]) "yes it would still work but for an inspector this is an automatic fail and would need to be modified using a y and 45… the reason being is that there's a lot less resistance"
 - (Mark HsOr7vpQUGg [13:14], hit 757×) "You want about a quarter inch of drop per foot of run, not more, not less. Too much slope and the water outruns the waste… For an inch and a half pipe, keep that trap arm under 6 ft."
-- (Mark VZo8y6AplVQ [3:03], hit 335×) "The sweet spot recommended by most plumbing codes and the Department of Energy is 120° F for standard households."
 
 ### Shape C: Problem → what happens inside the pipe → repair cost → "what to do instead"
 
 The "never" or "mistake" item. It's the shape of Roger's biggest hit and Mark's mistakes hit.
 - (Roger WfAwg1l0xCE [1:03]-[3:09], hit 453×) Grease "starts to solidify. It clings to the inside of the pipe like a coating" → hydrojetting "can cost anywhere from 300 to over [1],000" → "So, what should you do instead? Let that grease cool down in the pan… An old coffee can works great."
-- (Roger WfAwg1l0xCE [6:45]-[8:52]) Coffee grounds "pack together almost like wet sand" → "$150 and $500" → "toss them in the trash. Better yet, add them to a compost pile."
 - (Mark VZo8y6AplVQ [0:31]-[1:59], hit 335×) Anode rod "Its entire job is to corrode so your tank does not" → "You will need a 1 and 1/16 inch socket and a breaker bar" → "A new anode rod costs between 20 and 40 dollars… Ignoring it can cost you 500 to 1500 dollars."
 - (Vintage 9_11vx_L6oM [4:38], hit 61×) "Mistake number four… They stack two standard wax rings… you need a flange extender, not a wax ring sandwich."
 
@@ -80,22 +77,18 @@ The verdict shape behind Mark's top hit and Vintage's best recent upload.
 - (Mark Rb0aS97YnSA [9:44]) "So borax gets this ticket. Hired for mold, mildew, lasting odor, toilet bowls, and weekly maintenance. fired from anything involving cooked grease."
 - (Vintage dIe837GgLDs [4:38], recent 1.67×) "So, the bleach verdict on a bacterial ring, a $2 champion. On a mineral ring, a spectator."
 - (Mark sXlzedri_Hg, hit 551×) every test closes in the same order: solder, then ProPress, then SharkBite (notes). The order works; the first-person "I ran" framing doesn't (section 5).
-- (Wakefield WXJGaGtXrgY [4:30], hit 40×) "So, what's the verdict? A tankless water heater is a luxury performance upgrade."
 
 ### Shape E: Myth → truth → one line of chemistry → the right move
 
 - (Vintage 7oem6cSCg-g [2:03], recent 0.41×) "Number two, bleach has never once removed a mineral ring." Then the line that explains it: "scale is basically rock and rock does not care about bleach."
 - (Vintage rDLzNLUZnhw [14:48], hit 84×) "The vinegar and baking soda trick that everybody swears by does not clear clogs… You paid $4 to make salt water."
-- (Mark Rb0aS97YnSA [5:06], hit 858×) "They cancel each other out… The foam looks like work. It is theater."
 - (TheCheapFix SUqzcj5udsk [5:08], hit 197×) "The peroxide is doing the work in that method. The baking soda is mostly theater."
-- (TheCheapFix SUqzcj5udsk [0:12]) "That fizzing you see when you pour it, that is not the peroxide working. That is the peroxide dying."
 
 ### Shape F: Household item → stronger product → call a pro (the escalation ladder)
 
 Arrow's skeleton; on own channels it shows up inside single items and in step sequences.
 - (Arrow FaKOqJcsg4A [3:35], hit 8.6×) bucket trap with "Mosquito Bits… about $17", then "we're going to level up our mosquito program" (also [4:35], [11:18]: essential-oil repellent, then Barricor).
 - (Roger 8BZZwj93dkQ, recent 2.45×) step 1 pull the stopper, step 2 "$3" barbed strip, step 3 hand auger, step 4 washing soda, then "Those four, you pick up the phone" [13:11].
-- (Mark Fgc-A7FCG44, recent 0.38×) dish soap overnight → plunger → closet auger "most hardware stores" [14:05] → "Repeat clogs = main line" (notes).
 - (Vintage dIe837GgLDs, recent 1.67×) bleach → vinegar → CLR → pumice, explicitly a "step up to the power tool" [8:14].
 
 ### Shape G: The attempt autopsy (what you tried → why it failed → what it cost → a verdict line)
@@ -104,14 +97,12 @@ Roger's best recent upload is built on it.
 - (Roger 8BZZwj93dkQ [3:31], recent 2.45×) "$10 a bottle. It bought me one slightly faster week and a permanently weaker pipe."
 - (Roger 8BZZwj93dkQ [4:02]) "Foam doesn't scrub. Bubbles don't pull hair… As a clog remover, $4 buys you a demonstration."
 - (Mark fq7bWC_bRqQ [1:01], recent 0.47×) "Let me guess how the last hour went. You pulled the stopper… Then you brought out the plunger… the clog sat there like it had paid rent."
-- (TheCheapFix cljD9InmFzk [2:06], recent 0.06×) #8 "why vinegar/boiling water fail" (notes): "Hot water melts the grease for a few seconds, sure, but the col[d]…" [2:33].
 
 *Inference:* the autopsy works because the viewer recognizes their own last attempt. But in 8BZZwj93dkQ it takes the method until [7:50] of 16:31 to arrive (`03` section 3), so it needs a cap.
 
 ### Shape H: Diagnose, then match (a quick home test → which type you have → which fix)
 
 - (Vintage dIe837GgLDs [1:02]-[2:35], recent 1.67×) "It's three different problems wearing the same disguise." Pink and slimy means bacteria; gritty to a fingernail means minerals; orange streaks from the rim holes means iron.
-- (Vintage hOz49worQJg [5:07], hit 275×) "figure out which ring you have, because there are two of them, and they need two different things."
 - (Vintage uWXIUmWdPeY [11:57], hit 395×) "Number seven, the fizz is a test… Slow drain that foams like a milkshake, that's build-up… Slow drain that does nothing… that's a different job."
 - (Mark Rb0aS97YnSA [14:41], hit 858×) the job-by-job assignments: "Kitchen sink draining slow… That is washing soda… Toilet bowl with a ring… That is borax." A commenter pointed others straight at it: "@14:45 go straight to summary and recommendation" (49 likes).
 
@@ -128,14 +119,11 @@ Roger's best recent upload is built on it.
 - (Roger kHT6ZL8At0w [8:46]-[10:54], hit 168×) "Number one, bail out the standing water… Number two, pour one cup… Number three, follow it with about a quart of the hottest water from your tap… Number four, walk away. Give it 30 to 60 minutes… Number five, flush it through."
 - (Vintage rDLzNLUZnhw [12:15], hit 84×) "If the water swirls straight down with a clean gulp at the end, you are done… If it is exactly the same as yesterday… you are probably not dealing with grease."
 - (Mark fq7bWC_bRqQ [10:15], recent 0.47×) "A clear drain pulls a fast, tight spiral, almost a whirlpool. A lazy swirl with a gurgle means the clog moved but did not break."
-- (Got2Learn JyVbjDsric4 [4:01], all-time hit 67×) "always inspect your joint after soldering it it'll speak for itself"
-- (Silver Cymbal fseq9NvO_zw [0:30]-[1:00], hit 151×) "about 6 oz of warm or hot water. Nothing boiling… about 1 teaspoon of the soap."
 
 ### Shape K: The micro-trick (problem as a question → the fix → a quip)
 
 - (Got2Learn DHk94YoC95k [0:28], all-time hit 71×) "measure from center to center of both pipes multiply that measurement by 1.4… go ahead einstein who said you couldn't do it"
 - (Got2Learn DHk94YoC95k [4:03]) "snag yourself some mason record [cord]… who knew you'd be flossing on the job"
-- (Silver Cymbal cfGgCbQAjwM [0:30], hit 25×) "squirt a small amount of WD40 into each one of these holes"
 - (Roger E3p1V2wiQDc [3:37], recent 0.30×) closes each secret on a recap line: "A can and a towel. That's the whole system."
 
 Got2Learn's tricks video packs 31 of these into 6:45 (notes). Its top comment: "Most people would drag out one trick for 5 minutes and waste everyone's time. Thanks for not doing that!" (961 likes).
@@ -197,17 +185,7 @@ The fixed add-on block in own hits (4 of 5 Roger hits; `01`).
 ### The catalogue (measured)
 
 **Item headers.** Spoken labels let a viewer track progress without a face. Every channel uses them except Got2Learn's tricks video.
-- "Number X" (TheCheapFix 10 of 10; Vintage hits; Mark j_d6TuZKHV4)
-- "The fourth mistake on this list is…" (Mark VZo8y6AplVQ)
-- "The [nth] test…" (Mark sXlzedri_Hg)
-- "Item one, number one" (Vintage uWXIUmWdPeY: double label)
-- "Secret number…" (Roger E3p1V2wiQDc)
-- "Job one / Job three" (Roger ihZc3VGeG6c)
-- "Box number one" (Mark Rb0aS97YnSA)
-- "Impostor number one" (Vintage WxRQIn76yRo)
-- "Attempt one" (Roger 8BZZwj93dkQ)
-- "Point one" (Wakefield Wav7A7YhduY)
-- "the first violation / violation number four" (Got2Learn xpsLXmntINE)
+- "Number X" (TheCheapFix 10 of 10, Vintage hits, Mark j_d6TuZKHV4); "The fourth mistake on this list is…" (Mark VZo8y6AplVQ); "The [nth] test…" (Mark sXlzedri_Hg); "Item one, number one" (Vintage uWXIUmWdPeY, a double label); "Secret number…" (Roger E3p1V2wiQDc); "Job one" (Roger ihZc3VGeG6c); "Box number one" (Mark Rb0aS97YnSA); "Impostor number one" (Vintage WxRQIn76yRo); "Attempt one" (Roger 8BZZwj93dkQ); "Point one" (Wakefield Wav7A7YhduY); "violation number four" (Got2Learn xpsLXmntINE).
 - **Doubled number calls** ("Number five. Number five."): about 9 in Vintage hOz49worQJg (`03`), 19 across 4 TheCheapFix recent uploads, 0 in its hits. Inference: a generation artifact. The scanner should catch it.
 
 **Bridges between items (counts are uses / videos):**
@@ -225,12 +203,7 @@ The fixed add-on block in own hits (4 of 5 Roger hits; `01`).
 | "hold that thought / put a pin in / hang on to that" | 2 / 2 | 7 / 6 | 1 / 1 | 0 |
 | "Next" / "the next tip" | rare | rare | rare | Silver Cymbal's main joiner; Got2Learn "onto the next fact" |
 
-Examples:
-- (Roger YjPAVZAffh0 [13:27], hit 364×) "Let's talk about some common problems you might run into and how to handle them."
-- (Mark du--FqUoCHI [10:39], hit 509×) "Let us go over some common problems you might run into with each type and how to deal with them."
-- (Vintage 9_11vx_L6oM [10:45], hit 61×) "Let's talk about some common problems you might run into after the install and how to handle them."
-- (Mark VZo8y6AplVQ [5:06], hit 335×) "All right, let's keep going."
-- (Vintage dIe837GgLDs [4:38], recent 1.67×) "which brings us to the gallon jug in your pantry."
+Examples: "Let's talk about some common problems you might run into and how to handle them." (Roger YjPAVZAffh0 [13:27], hit 364×); "Let us go over some common problems you might run into with each type and how to deal with them." (Mark du--FqUoCHI [10:39], hit 509×); "Let's talk about some common problems you might run into after the install and how to handle them." (Vintage 9_11vx_L6oM [10:45], hit 61×).
 
 ### Rehooks (mid-video promises that pull the viewer forward)
 
@@ -238,7 +211,6 @@ Examples:
 - (TheCheapFix RA1-fogcslM [6:11], hit 219×) "And keep watching because three tips from now is the one that saves the most money of anything on this list"
 - (TheCheapFix ls7BwoRhM9Q [4:09]-[4:41], hit 285×) "But the next one on this list is the one that has saved homeowners the most money of any tip in this video."
 - (Roger n-2hjVGsu-Q [5:08], recent 0.78×) "Next, we're going into the tank. And somewhere in there is a leak you can't hear and can't see. One that might have been running since last winter."
-- (Roger n-2hjVGsu-Q [8:42]) "if you're not even sure your toilet is leaking, stick around because trick eight answers that with a few drops from your kitchen cabinet."
 - (Vintage 7oem6cSCg-g [9:06], recent 0.41×) "the next one is a free adjustment hiding in plain water."
 - (TheCheapFix SUqzcj5udsk [2:36], hit 197×) "If that is what grows in a slot nobody uses, what is growing in the pipe you use every single day?" Every item there ends on a question that sets up the next (notes).
 
@@ -249,7 +221,6 @@ Examples:
 **Generic or pleading (padding; inference).**
 - (Vintage rGEFZrtOJOI [16:00], hit 1,237×) "So, stay right here with me for number nine. Number nine, the one rule that keeps all of this safe, so please do not skip out on me now."
 - (Vintage rGEFZrtOJOI [1:34]) "So do not go clicking away early on me."
-- (Mark fq7bWC_bRqQ [0:54], recent 0.47×) "That last one can burn you, so stay for it."
 - (Mark sXlzedri_Hg [7:38], hit 551×) "this one produced results that genuinely surprised me." One commenter: "I love how the ai voice said it was surprising repeatedly…. and then gave very unsurprising predeictable outcomes." (12 likes)
 
 **"Stay / stick around to the end" (measured, uses / videos):** Roger hits 8 / 5, Roger recent 5 / 5, Mark hits 5 / 4, Mark recent 3 / 3, Vintage hits 4 / 2, Vintage recent 0, TheCheapFix 1 / 1, Wakefield 7 / 6, Got2Learn, Silver Cymbal and Arrow 0. Wakefield pays his held promise after the subscribe ask (Wav7A7YhduY [15:43]), and one comment called the intro "like one of those 'one weird trick' click bait videos".
@@ -295,39 +266,32 @@ Examples:
 **Exact amounts and recipes**
 - (Vintage rDLzNLUZnhw [21:30], hit 84×) "Bail it dry. One cup of washing soda, two or three cups of hot tap water, let it sleep on it for 6 to 8 hours, flush it hot in the morning."
 - (Roger nxb3nS21zgg [8:36], recent 0.70×) "One cup, one liter, one slow pour, 30 minutes, one hot flush." (notes)
-- (Silver Cymbal fseq9NvO_zw [0:30], hit 151×) "about 6 oz of warm or hot water… about 1 teaspoon of the soap."
 - (Arrow Wg9-yFIXlx0 [4:40], hit 17×) "you really want to mix it two parts baking soda, one part cornbread."
 
 **Measurements and part specs**
 - (Mark VZo8y6AplVQ [1:02], hit 335×) "You will need a 1 and 1/16 inch socket and a breaker bar"
 - (Vintage 9_11vx_L6oM [9:44], hit 61×) "Get a 3/8 inch compression by 7/8 inch ballcock connector… I usually go with a 12-in line"
 - (Roger hebGJ43lQ6s [13:21], hit 170×) "a 1/4-in cable that's about 15 ft long, which is enough to reach past the trap"
-- (Got2Learn xpsLXmntINE [2:34], all-time hit 64×) "at least 15 inches of clearance on each side from the center of the flange"
 
 **Wait times**
 - (Vintage hOz49worQJg [11:47], hit 275×) "Give it 4 hours minimum and overnight is better… 20 minutes gets you the outer skin. 8 hours gets you the shelf."
-- (TheCheapFix SUqzcj5udsk [5:38], hit 197×) "Leave it a full hour, not 15 minutes"
 - (Roger Rkm2BnFL9FA [7:11], hit 183×) "let that peroxide sit in the tank for at least 6 to 8 hours."
 
 **Code and standard numbers**
 - (Mark VZo8y6AplVQ [3:03]) 120° F "recommended by most plumbing codes and the Department of Energy"
 - (Got2Learn pmN88UvZfDI [3:42], all-time hit 95×) an AAV must sit "6” above the flood level of the fixture"
 - (Mark HsOr7vpQUGg [12:13], hit 757×) the vent "typically within 6 ft for an inch and a half drain, though that can vary by local code"
-- (Mark XGWQ3l_zEWA, recent 0.82×) "ADA 250 lb" (notes)
 
 **Chemistry one-liners (the best are under 15 words)**
 - (Mark Rb0aS97YnSA [2:02], hit 858×) "That scale does not add, it multiplies."
 - (Mark VZo8y6AplVQ [0:47], hit 335×) "Its entire job is to corrode so your tank does not."
 - (TheCheapFix ls7BwoRhM9Q [0:58], hit 285×) "hydrogen peroxide is basically water with an extra oxygen atom attached." (reused in 4 more TheCheapFix videos, `02`)
-- (Vintage rDLzNLUZnhw [3:26], hit 84×) "That is baking soda in a different costume."
 - (Vintage hOz49worQJg [7:43], hit 275×) "It reacts with the calcium carbonate and turns it into calcium citrate, which is water soluble."
 
 **Physical analogies**
 - (Mark Rb0aS97YnSA [2:02]) "Think about a hand sledge and a tack hammer. Both are hammers."
 - (Mark du--FqUoCHI [1:56], hit 509×) "Think of it like a big thermos that constantly reheats itself."
-- (Got2Learn pmN88UvZfDI [1:35]) the Pythagoras "Greedy Glass" and the straw trick.
 - (Mark fq7bWC_bRqQ [1:31], recent 0.47×) "Picture a garden hose laid out in the yard completely full… Your drain pipe is that hose. The clog is a cork."
-- (Roger WfAwg1l0xCE [7:18], hit 453×) grounds "pack together almost like wet sand".
 - Overused: "It's like plaque building up in an artery" appears in 3 Roger hits (YjPAVZAffh0 [2:04], hebGJ43lQ6s [2:32], kHT6ZL8At0w [2:31]). Viewers picked up on it in the comments ("It's almost like you're describing heart disease 😂 1:40", WfAwg1l0xCE).
 
 **Inconsistent numbers (measured; a specificity risk).** PVC softening is given as "around 140°" (Roger kHT6ZL8At0w [4:06]) and "somewhere around 175°" (Vintage rDLzNLUZnhw [9:44]). Peroxide in a tank is "about 2 cups, which is roughly half of a standard 16 oz brown bottle" (Roger Rkm2BnFL9FA [7:11]); 2 cups is the whole bottle, and 4 comments caught it.
@@ -348,7 +312,6 @@ Examples:
 **1. The mechanism, explained.**
 - (Mark Rb0aS97YnSA [1:31]-[2:32], hit 858×) the pH ladder: "Baking soda sits at about 8. Borax sits at about 9.2. Washing soda sits at about 11… Every single whole step up is 10 times stronger."
 - (Got2Learn pmN88UvZfDI [2:06], all-time hit 95×) "when the water goes down the vertical pipe, the velocity of it sucks just enough water outta the trap"
-- (Vintage uWXIUmWdPeY [0:31], hit 395×) mineral shell over biofilm, "like mortar holds brick".
 
 **2. A number with a source.**
 - (TheCheapFix yIh1HAlbhc0 [4:40], hit 142×) "ASHRAE puts the efficiency loss from a fouled coil at 10% to 25% and the US Department of Energy says a dirty coil can raise your energy use by as much as 30%."
@@ -356,28 +319,24 @@ Examples:
 - (Mark du--FqUoCHI [5:37], hit 509×) "The Department of Energy estimates that tankless water heaters are about 24 to 34% more energy efficient…" The only cited source on an own channel.
 - (Roger Rkm2BnFL9FA [14:25], hit 183×) "Kohler, American Standard, Toto, they all have warnings about chlorine-based tank additives right in their documentation."
 
-**3. "Here's why it works."** (Roger kHT6ZL8At0w [6:10], hit 168×) "It literally turns the fat into soap."
+**3. Typical ranges, not single prices.** (Mark du--FqUoCHI [3:02]) "somewhere between $400 and $800 for the unit itself… all in you are looking at roughly $800 to $1,400". Section 6 covers prices.
 
-**4. Typical ranges, not single prices.** (Mark du--FqUoCHI [3:02]) "somewhere between $400 and $800 for the unit itself… all in you are looking at roughly $800 to $1,400". Section 6 covers prices.
-
-**5. A test the viewer runs at home.**
+**4. A test the viewer runs at home.**
 - (Vintage rGEFZrtOJOI [19:35], hit 1,237×) "Pour a little splash into the sink. If it fizzes and foams up, it is still good and strong."
 - (Vintage uWXIUmWdPeY [12:57]) "Put a splash on a slice of raw potato. If it doesn't bubble on that, your bottle is dead."
 - (Roger n-2hjVGsu-Q [17:56], recent 0.78×) "squeeze about 10 drops of food coloring into the tank water… If you see color creeping into the bowl… the flapper is leaking"
-- (Vintage hOz49worQJg [2:33], hit 275×) "Run your fingernail across it. Go ahead. It is rough."
 - Caution: Vintage 9_11vx_L6oM's bonus [12:49] uses food colouring in the tank, "Don't flush", to find a base-seal leak. That probably can't show a base leak, because tank water only reaches the seal on a flush (`01`, flagged for a fact check).
 
-**6. The honest limit.**
+**5. The honest limit.**
 - (Vintage uWXIUmWdPeY [1:34], hit 395×) "Peroxide does not dissolve rock."
 - (TheCheapFix cljD9InmFzk, recent 0.06×) "It will not bust a clog."
 - (Got2Learn pmN88UvZfDI [3:10]) "if you have s-traps on all of your fixtures in your home and you aren't having any problems, you don't really need to address these"
-- (Mark sXlzedri_Hg [11:46], hit 551×) "SharkBite is not a bad product. Let me be clear about that."
 
-**7. Self-correction.** (TheCheapFix SUqzcj5udsk [13:46]-[14:16], hit 197×) "Number 12, the one we got wrong… We went back through the sourcing on that, we should not have said it." That video is the channel's 3rd-biggest hit.
+**6. Self-correction.** (TheCheapFix SUqzcj5udsk [13:46]-[14:16], hit 197×) "Number 12, the one we got wrong… We went back through the sourcing on that, we should not have said it." That video is the channel's 3rd-biggest hit.
 
-**8. Comparison against a known reference.** (Silver Cymbal sHL4lBAhklA [3:38], recent 21×) "Grabbing a can of spray foam can cost you as much as five bucks… Using duct seal, that same repair can cost you about 10 cents".
+**7. Comparison against a known reference.** (Silver Cymbal sHL4lBAhklA [3:38], recent 21×) "Grabbing a can of spray foam can cost you as much as five bucks… Using duct seal, that same repair can cost you about 10 cents".
 
-**9. Reported outcomes, framed as typical cases.**
+**8. Reported outcomes, framed as typical cases.**
 - (Roger Rkm2BnFL9FA [12:52], hit 183×) "I've had homeowners tell me they thought they needed a new toilet when all they really needed was to clean their rim jets."
 - (Vintage uWXIUmWdPeY [10:24], hit 395×) "An exterminator quoted a lady $300 to solve that. It was a $2 bottle and three nights."
 - Viewers do this proof job themselves when the brand is named: "I ordered some Arm & Hammer super washing soda… The water is draining for the first time in months!" (304 likes, YjPAVZAffh0).
@@ -410,14 +369,13 @@ Examples:
 - **Fix cost against call-out cost, one line.**
   - (Roger WfAwg1l0xCE [12:28], hit 453×) "Trust me, a $2 strainer is a lot cheaper than a $600 plumber visit."
   - (Vintage rGEFZrtOJOI [16:00], hit 1,237×) "A $4 bottle over $100 mistake, every time you can manage it."
-  - (TheCheapFix RA1-fogcslM [10:19], hit 219×) "If a $1 fix for a $500 problem is the kind of thing you want more of… subscribe."
 - **The three-way comparison.** (Roger kHT6ZL8At0w [7:43], hit 168×) "50 cents versus 20 bucks versus 300. That's the whole game."
 - **The running tally** (an item-by-item rehook, section 3): Roger n-2hjVGsu-Q ("The tally sits at zero" [3:07], then "you land at about $20" [21:00] against "$1,500 a year and up"); Vintage hOz49worQJg (from "$47" to "Total spent, $2. Total saved off the new toilet, right around 500." [15:26]); Got2Learn 2OeSzdjHBC0 ("which totals up to exactly $50 for this kit" [7:20]).
 - **The ledger at the end.** (Roger 8BZZwj93dkQ [14:12], recent 2.45×) "Let's close the ledger. $3 for the zip strip, $25 for the hand auger…" against "$200 to $350".
 - **Break-even arithmetic.**
   - (Mark du--FqUoCHI [6:09], hit 509×) "If your tankless installation cost you $3,000 more than a tank would have and you are saving $100 a year, that is a 30-year payback period. That is not great."
   - (Wakefield WXJGaGtXrgY [1:30], hit 40×) "If you save $20 a month, but spend an extra three, four grand to install it, it's going to take you over 12 years just to break even."
-- **Per-use cost.** (Roger YjPAVZAffh0 [12:55], hit 364×) "A box of washing soda costs about $4 and lasts 2 years. That's roughly $24 over a decade." (Vintage rDLzNLUZnhw [17:52]) "One cup of washing soda is roughly 40 cents."
+- **Per-use cost.** (Roger YjPAVZAffh0 [12:55], hit 364×) "A box of washing soda costs about $4 and lasts 2 years. That's roughly $24 over a decade."
 - **"Saves $X" in the title, paid in the body.** (TheCheapFix ls7BwoRhM9Q, hit 285×) "#4 Saves $300" is the avoided cost of a new toilet ("you absolutely do not need to pay a plumber $300 to $500 to replace your fixture", [4:41]). Inference: a stretched framing, but paid explicitly.
 - **The fair-price line** (recent template). (Roger n-2hjVGsu-Q [22:03]) "The plumber isn't the scam. The price is what looks like one. That fee covers a truck, gas, insurance, and an hour of somebody's day."
 
@@ -451,7 +409,6 @@ Examples:
 - (TheCheapFix TOurn07rVVQ [9:42], recent 0.11×) "If a true sewer smell still will not quit, that one is a plumber, not a bottle."
 - (Roger ihZc3VGeG6c [5:14], recent 0.78×) "one is a phone call, not a project."
 - (Roger kHT6ZL8At0w [18:07], hit 168×) "Now, stop. That's not a single drain clog. That's most likely your main line, and that's a real call."
-- (Mark Rb0aS97YnSA [16:56], hit 858×) "That is a call and it is the one situation where paying somebody is the cheap option."
 - (Vintage WxRQIn76yRo [9:09], recent 0.61×) "That one goes to a licensed plumber. No shame in it."
 - (TheCheapFix yIh1HAlbhc0 [7:40], hit 142×) "refrigerant work is licensed for a real reason."
 
@@ -466,16 +423,16 @@ Examples:
 - **Own hits that prescribe boiling water:**
   - (Roger WfAwg1l0xCE [17:06]-[17:39], hit 453×) "Boil a full kettle or pot of water… Then flush everything down with the boiling water… It is completely safe for all pipe types."
   - (Roger YjPAVZAffh0 [4:10], hit 364×) "Boil a full kettle or a large pot of water… Then slowly pour the boiling water down after it."
-- **The same channel later forbids it:** (Roger hebGJ43lQ6s [8:14], hit 170×) "Boiling water can soften PVC joints over time." (kHT6ZL8At0w [9:19]) "do not pour rolling boiling water down, a PVC drain, or into a porcelain fixture." (nxb3nS21zgg [6:39], recent 0.70×) "Never a rolling boil down the drain." (8BZZwj93dkQ [4:33], recent 2.45×) "that glue starts softening right around boiling temperature."
+- **The same channel later forbids it:** (Roger hebGJ43lQ6s [8:14], hit 170×) "Boiling water can soften PVC joints over time."; (Roger nxb3nS21zgg [6:39], recent 0.70×) "Never a rolling boil down the drain."
 - **The same video contradicts itself:** YjPAVZAffh0 warns drain-cleaner heat softens PVC [2:36], then prescribes boiling water [4:10]. A viewer: "2:55 he said, the heat from the chemicals can soften the PVC pipe joints, then 4:31, pouring boiling water into the PVC pipe... isn't the boiling water hotter than the chemical heat???"
-- **Comments on YjPAVZAffh0 (about 8 objections):** "Never use boiled water down pipes!… Very warm but never boiling hot!!!!!!" (101 likes); "Boiling water is absolutely wrong. This advice is disturbing."; "Won't boiling water damage plastic pipes?" On kHT6ZL8At0w, a viewer confirms the safer advice: "Don't use boiling water EVER. Only hot tap water. I made this mistake with our porcelain bathroom sink… several hairline cracks began to appear" (108 likes).
+- **Comments on YjPAVZAffh0 (about 8 objections):** "Never use boiled water down pipes!… Very warm but never boiling hot!!!!!!" (101 likes); "Boiling water is absolutely wrong. This advice is disturbing." On kHT6ZL8At0w a viewer backs the safer advice: "Don't use boiling water EVER… several hairline cracks began to appear" (108 likes).
 - **Good compact phrasings already in the data:** "Hot, never boiling. Say it out loud once if you need to." (Mark Fgc-A7FCG44 [7:11], recent 0.38×); "Hot tap water, not boiling water off the stove." (Vintage rDLzNLUZnhw [9:44], hit 84×); "Nothing boiling." (Silver Cymbal fseq9NvO_zw [0:30], hit 151×).
 
 ### The dry washing-soda issue (measured)
 
 - **Pour it dry:** (Vintage rDLzNLUZnhw [7:41]-[8:11], hit 84×) "Number five, pour one full cup dry straight down the drain… Pour it dry. Do not mix it into a slurry in a bowl first." (Roger kHT6ZL8At0w [9:19], hit 168×) "pour one cup of washing soda straight down the drain." (Roger YjPAVZAffh0 [4:10]) "pour about half a cup of washing soda directly into the drain." (Roger 8BZZwj93dkQ [11:08], recent 2.45×) the powder goes in, then "about a liter of hot water".
 - **Dissolve first, on another own channel:** (Mark Rb0aS97YnSA [11:17], hit 858×) "Now dissolve one cup of washing soda into about a half gallon of hot water in a bucket. Dissolve it first. Dumping dry powder into a standing sink packs it into a lump on top of the clog and accomplishes nothing." (Vintage bSrEWmK0g5E [11:14], recent 0.54×) also dissolves first: "one cup into a half gallon of the hottest water your tap will give."
-- **Viewer reports (about 10 across kHT6ZL8At0w, Rb0aS97YnSA and rDLzNLUZnhw):** "I followed the directions perfectly and left it over night. The stuff solidified and l had to replace the whole pipe!" (kHT6ZL8At0w); "This procedure fucked up my drain pipe...that soda hardened and caused a bigger job." (kHT6ZL8At0w); "Caution if you have hard water because this stuff can actually set like cement.....dissolve with hot water stirring prior to dumping down drain." (kHT6ZL8At0w); "I put straight washing soda in my kitchen drain this week and poured boiling water in the morning and it hardened into a cement" (rDLzNLUZnhw); "+++WARNING***I followed the instructions for using super washing soda… The super washing soda turned into a hard rock-like mass in the trap." (Rb0aS97YnSA, even though that video says dissolve first). Another viewer on Rb0aS97YnSA: "do not do like the picture shows poor products straight in. It turns into a brick" (section 8).
+- **Viewer reports (about 10 across kHT6ZL8At0w, Rb0aS97YnSA and rDLzNLUZnhw):** "I followed the directions perfectly and left it over night. The stuff solidified and l had to replace the whole pipe!" (kHT6ZL8At0w); "I put straight washing soda in my kitchen drain this week and poured boiling water in the morning and it hardened into a cement" (rDLzNLUZnhw); "The super washing soda turned into a hard rock-like mass in the trap." (Rb0aS97YnSA, although that video says dissolve first; another viewer there blames the picture, section 8).
 
 **Inference:** this is the clearest case for one shared plumbing fact bank (`01` S8). The hardening reports arrive on both the dry-pour and the dissolve-first video, so the footage and the script both need to show dissolving.
 
@@ -496,22 +453,19 @@ The video is built from the script, so a line that names a findable object gets 
 - (Vintage uWXIUmWdPeY [3:05], hit 395×) "Pull the washer hose out of the standpipe. Pour a full cup of 3% peroxide straight down it."
 - (Roger Rkm2BnFL9FA [12:22], hit 183×) "take a piece of stiff wire like a straightened coat hanger or even a small Allen wrench and gently poke each jet"
 - (Vintage hOz49worQJg [9:45], hit 275×) "Reach behind the toilet, down low on the left usually, and find the little oval handle on the supply line."
-- (Mark fq7bWC_bRqQ [7:42], recent 0.47×) "If there is an extra rubber sleeve folded up inside the bell, that is a flange plunger… What a sink wants is the plain cup plunger."
 - (TheCheapFix yIh1HAlbhc0 [3:06], hit 142×) "Find the T-shaped fitting with a cap on that pipe near your indoor unit, pull the cap and pour in a cup"
 
 **Abstract stretches (no object to show; examples):**
 - (Mark HsOr7vpQUGg [7:07], hit 757×) "Plumbers exist to protect the health of the nation and the way we do that is through proper drainage, proper venting, and proper trap seals."
 - (Mark fq7bWC_bRqQ [4:05], recent 0.47×) "Sealing the overflow is pure reflex for anyone who clears drains for a living. The way checking mirrors is reflex for a trucker."
 - (Roger YjPAVZAffh0 [11:52]-[13:27], hit 364×) the 330-word "why plumbers don't tell you" economics passage ("It's not a conspiracy. It's just economics.").
-- (Roger ihZc3VGeG6c [2:10], recent 0.78×) "The money in this business is in the emergency, not the prevention."
-- The recent template's "not a scam, just economics" aside sits in 5 of 5 Mark and 4 of 5 Roger recent uploads (`01`).
+- The recent template's "not a scam, just economics" aside, in 5 of 5 Mark and 4 of 5 Roger recent uploads (`01`).
 
 **Lines that point at the screen (measured; never safe on compiled footage):**
 - (Roger n-2hjVGsu-Q [0:00], recent 0.78×) "Look at the toilet on the left"; [15:22] "the one behind that bowl you saw at the start"
 - (Vintage bSrEWmK0g5E [0:00], recent 0.54×) "That picture you clicked on, the pipe bursting wide open"
 - (Mark XGWQ3l_zEWA [8:46], recent 0.82×) "the thumbnail on this video says 300 lb"
 - (Roger ihZc3VGeG6c [12:25], recent 0.78×) "that P trap I showed you"
-- (Vintage dIe837GgLDs [8:46], recent 1.67×) "the same way I showed you with the vinegar". This is a reference to an earlier spoken step, so it's safe.
 - QR lines: every recent upload says "There's a code on your screen" two or three times. Those work only if the edit reliably places the code.
 
 **Mismatch complaints, with the triggering line where it can be traced (inference about the trigger):**
@@ -526,7 +480,6 @@ The video is built from the script, so a line that names a findable object gets 
 | "do not do like the picture shows poor products straight in. It turns into a brick" | Mark Rb0aS97YnSA, hit 858× | [11:17] "Dumping dry powder into a standing sink packs it into a lump". The warning named the wrong action. |
 | "You're talking about S traps while showing P traps." ; "really wish the pictures were relevant…" (235); "THOSE IMAGES HAVE NOTHING TO DO WITH THE NARRATIVE" (168) | Mark HsOr7vpQUGg, hit 757× | S and P traps are described side by side for 10 minutes; the siphon is explained by analogy ("siphon gas out of a tank", [5:04]), not shown. A viewer: "Video never shows a clear pipe failure of an S trap" (22). Another: "You show a picture of an Air Admittance Valve, but say nothing about it." |
 | "17:57 that looks like sulphuric acid not citric acid" | Vintage hOz49worQJg, hit 275× | [17:59] "pour a 1/4 cup of citric acid into the bowl". The word "acid" alone. |
-| "WTF with the extra closet bolts at 6:58?"; "Why would you put whipped cream in there?" | Vintage 9_11vx_L6oM, hit 61× | [6:38] "Drop your new closet bolts into the flange slots"; the wax ring step. Generated visuals, by the comments. |
 | "Why are you inter-cutting footage of well system issues…"; "Around 4:59 the guy releasing pressure and spraying water on what looks like an electrical j-box!" | Mark VZo8y6AplVQ, hit 335× | [4:04] TPR test "lift the lever briefly"; general "water heater" lines pulled boiler-room clips. |
 | "Why do you keep showing stacks of $100's when you mention how inexpensive a solution is?" | Roger YjPAVZAffh0, hit 364× | Every dollar line. |
 
@@ -550,12 +503,10 @@ The video is built from the script, so a line that names a findable object gets 
 - **The post-hook framing paragraph (own hits).** About 55-70 words that restate the promise with no new fact:
   - (Roger YjPAVZAffh0 [1:03], hit 364×) "Keeping your drains clear is honestly one of the easiest things you can do as a homeowner and one of the most overlooked. It doesn't take special skills. It doesn't take expensive products."
   - (Roger hebGJ43lQ6s [1:00], hit 170×) "Keeping your drains clear is honestly one of the easiest things you can do as a homeowner once you understand how it works. You don't need expensive chemicals. You don't need fancy tools."
-  - (Roger Rkm2BnFL9FA [1:01], hit 183×) "This is one of those home maintenance tasks that almost nobody talks about. And that's exactly why it matters."
   - (Mark du--FqUoCHI [1:00], hit 509×) "This is one of the biggest decisions you will make for your home's plumbing system… So, let us break this down piece by piece."
-  - (Mark HsOr7vpQUGg [0:56], hit 757×) "Understanding how traps work is one of those fundamental plumbing concepts that once it clicks…"
 - **Setup sentences that announce the next sentence.** (Roger kHT6ZL8At0w [12:59], hit 168×) "There's one detail about what this stuff can and can't do. That if you skip it will have you standing over a sink that won't clear, wondering what went wrong. So, let's get it straight." That's 45 words before the point.
 - **Restated promises.** (Mark fq7bWC_bRqQ [4:35]-[5:06], recent 0.47×) "But the rag is only half of this. There is a right plunger and a wrong one… The grip, the stroke, and the walk away rule are all on the way." This repeats the [0:30] preview. (Vintage rGEFZrtOJOI [8:48]) "But we are getting ahead. There is a bleach question to settle first."
-- **Tally lines with no new money.** (Vintage hOz49worQJg [6:41]) "$22 still on the table. Let us go spend two of it." [11:47] "Still, $2. Just add patience, which is free." [13:51] "Nothing added to the receipt." Inference: the device works, but half of its lines carry no information.
+- **Tally lines with no new money.** (Vintage hOz49worQJg [6:41], [13:51]) "$22 still on the table. Let us go spend two of it."; "Nothing added to the receipt." Inference: the device works, but half its lines carry no information.
 - **Packaging inside the body (recent template).** The name and promise block (40-100 words), the mid-video pitch (137-230 words) and the closing block (about 120-135 words) make up about 10-15% of each recent script (`03`). Mark fq7bWC_bRqQ: 79 + 137 + 126 = 342 of 3,071 words.
 - **Book pitch lines that repeat in the same video.** All 15 recent uploads describe the book twice (mid and end), with the same contents list both times. Example: "Kitchen sink and disposal, bathroom sink, tub and shower, the toilet, laundry and floor drains out to the main line" (Vintage 7oem6cSCg-g [5:34], WxRQIn76yRo [6:06], dIe837GgLDs [5:08], AiUUNM24kCo [3:32]).
 
@@ -577,12 +528,8 @@ The video is built from the script, so a line that names a findable object gets 
 
 **Length and pace complaints (helper counts, `03`):** own hits about 39 (Roger about 11, Mark about 9, Vintage about 19), TheCheapFix 1, Arrow about 1.
 - "Why do we suffer through a 20 minute video that could be done in 5 minutes?" (428 likes, Roger kHT6ZL8At0w)
-- "To make this watchable, increase the speed to 150%" (70, Roger WfAwg1l0xCE)
 - "This should be an 1 to 2 minute video." (96, Mark HsOr7vpQUGg); "A 20 minute video to explain a 2 minute problem." (same video)
-- "AI junk could of been said in less than a minute, thumbs down!" (68, Vintage hOz49worQJg); "Dry dull get to the point" (25, same)
-- "21 minutes of unnecessary verbiage…" (50, Vintage rDLzNLUZnhw)
-- "22 minutes to show an alternative to vinegar. Video could have been 5 minutes." (28, Vintage uWXIUmWdPeY)
-- "18 minutes just to tell 90 seconds of story? Just go to about 3:15" (Roger YjPAVZAffh0)
+- "AI junk could of been said in less than a minute, thumbs down!" (68, Vintage hOz49worQJg); "21 minutes of unnecessary verbiage…" (50, Vintage rDLzNLUZnhw)
 - "christ all mighty get to the point" (TheCheapFix yIh1HAlbhc0); "I sped up the audio bc it was dddrrraggggeddd outtt… full of unnecessary fluff" (TheCheapFix RA1-fogcslM)
 - "We don't need all that explanation of what causes the clog. Just tell us how to unclog it." (Vintage AiUUNM24kCo, the only comment on that recent upload)
 
@@ -592,13 +539,11 @@ The video is built from the script, so a line that names a findable object gets 
 - "It says Cetric acid sprinkled on the ring. Stir in with brush and leave at least 4 hrs… You're welcome" (104, Vintage hOz49worQJg)
 - "Hydrogen peroxide for those who want the quick answer. 3% drugstore strength." (54, top comment, Vintage uWXIUmWdPeY)
 - "@14:45 go straight to summary and recommendation" (49, Mark Rb0aS97YnSA)
-- A full chapter list "00:29 annode rod / 2:20 temp too high / …" (37, Mark VZo8y6AplVQ)
 - "Okay, here are the 10 steps because there's no way to find it in the video since the video doesn't match the words very well" (Vintage hOz49worQJg)
 
 **Praise for brevity on competitor channels (contrast):**
 - "Due to this video being short enough to send the message…" (7.5K, Silver Cymbal fseq9NvO_zw); "Thank you for not having annoying music and a 30 minute video." (600)
 - "Dude I wish everyone had the same brisk, get-to-the-point pace. No tedious intro with music, no rambling." (1.4K, Got2Learn JyVbjDsric4)
-- "Right to the point, zero fluff, zero self-promotion, useful, and interesting." (214, Silver Cymbal dVjg_BK3G3s)
 - One own exception: "Helpful and super great pics with clear instructions and no fluff!" (88, Roger WfAwg1l0xCE, the 1.2M hit).
 
 **Inference:** viewers aren't asking for 4-minute videos (TheCheapFix and Arrow run 15-20 minutes with almost no complaints). They're asking to find the answer. The recap and timestamp comments are viewers doing the job the script skips: a spoken recap at the end, and early "here's the answer" lines.
@@ -641,7 +586,6 @@ The video is built from the script, so a line that names a findable object gets 
 
 All 15 recent uploads carry a 137-230-word mid-video book pitch with a QR walkthrough, repeated at the end (`01`). Representative lines:
 - (Roger ihZc3VGeG6c [6:17], recent 0.78×) "There's a code on your screen right now. Hold your phone up like you're photographing the TV. Let the camera land on it and tap the banner that pops up."
-- (Mark XGWQ3l_zEWA [4:39], recent 0.82×) "Or take the second road, the first link in the description under this video. That page does not change whether you visit it now or after the bar is up."
 - (Vintage dIe837GgLDs [5:39], recent 1.67×) "There's a checkered code on your screen… That ring will keep, so see to it whenever suits you."
 - The release line closes every pitch, in 14 of 15 recent uploads (counted above): "Grab it tonight, next month, or never." (Roger n-2hjVGsu-Q [6:10]); "Grab it now or once the sink drains, no difference to the clog." (Mark fq7bWC_bRqQ [5:37]); "No hurry on any of it. The book keeps." (Vintage 7oem6cSCg-g [6:05]).
 
@@ -651,10 +595,8 @@ Rare. The good ones:
 - (Mark Rb0aS97YnSA [19:01], hit 858×) "Three white boxes… One neutralized smells… One kills mold… One turns grease into soap… Stop asking which of them is the best. Ask which job you have."
 - (Vintage dIe837GgLDs [13:54], recent 1.67×) "bacteria gets bleach, patience gets vinegar, hurry gets CLR and stubborn gets the stone"
 - (Vintage rDLzNLUZnhw [21:30], hit 84×) "That is the whole method. Bail it dry. One cup of washing soda…"
-- (Vintage WxRQIn76yRo [14:49], recent 0.61×) a 76-word recap (notes)
-- (TheCheapFix SUqzcj5udsk [15:47], hit 197×) "Every one of them is the same thing in a different housing. A wet surface that never dries out growing a film…"
 
-Most own hits end on the bonus, then the CTA. Only 3-4 of the 30 own videos recap the steps (measured, from the notes).
+Most own hits end on the bonus, then the CTA. About 4 of the 30 own videos recap the steps (measured, from the notes).
 
 ### Sign-offs (measured)
 
