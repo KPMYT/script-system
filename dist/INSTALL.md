@@ -1,6 +1,6 @@
 # Installing the skills
 
-**Version:** 2026-10-20 (library commit 51d1eeb)
+**Version:** 2026-10-20 (library commit 566c5f7)
 
 Six skill files, one per layer. Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills. They then work in Claude and in Cowork.
 

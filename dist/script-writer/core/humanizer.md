@@ -283,6 +283,10 @@ don't click away / do not go clicking away
 hang on for
 stay for number (ten)
 I'll show you at the very end (any "I'll … at the very end" tease)
+at the very end, I'll
+wait until you hear
+stay right here with me
+don't skip out on me
 bonus tip at the end
 by the end, you'll
 ```

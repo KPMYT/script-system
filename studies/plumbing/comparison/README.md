@@ -16,6 +16,7 @@ The operator's three plumbing channels (Roger the Pipe Guy, Mark Silverbridge, T
 | `07-body-craft.md` | After the hook: 12 item shapes, ordering, transitions and rehooks, specifics, proof a faceless channel can use, money framing, safety wording, writing for compiled footage, padding, CTAs and endings, 39 stock phrases counted. |
 | `08-suggestions-with-examples.md` | Every medium and weaker suggestion with 6-10 real examples, before-and-after rewrites, draft rule wording (not applied), and a sample script section. |
 | `09-differences.md` | Every difference in one place: 24 variables (value, emotions, comments, hook structure and triggers, video structure, outro and more), each with one row per group (each own channel's hits and recent uploads, each competitor), then the 15 differences that matter most. |
+| `11-reasons-to-stay.md` | What happens right after the point: when the first answer lands and every promise of more value after it, 19 value-promise devices, rehook spacing, payoff discipline, the trade as a reason to stay, "point then promise" templates per video type. |
 
 Every claim in those files cites a video ID, and script quotes carry a timestamp. The main session spot-checked key quotes and counts against the transcripts (listed in `../log.md`).
 

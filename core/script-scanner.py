@@ -59,13 +59,15 @@ HARD_BANS = [
     (r"\bkeep watching\b", "tease: keep watching"),
     (r"\bwatch (?:un)?til the end\b", "tease: watch until the end"),
     (r"\bdon'?t skip (?:ahead|forward|to the|this (?:part|video|one)|the (?:end|rest))\b", "tease: don't skip ahead"),
-    (r"\bwait (?:un)?til you see\b", "tease: wait until you see"),
+    (r"\bwait (?:un)?til you (?:see|hear)\b", "tease: wait until you see"),
     (r"\bstay(?: with me)? (?:(?:un)?till?|to) the (?:very )?end\b", "tease: stay till the end"),
     (r"\bstick with me\b", "tease: stick with me"),
     (r"\b(?:do not|don'?t) (?:go )?click(?:ing)? away\b", "tease: don't click away"),
     (r"\bhang on (?:for|until|till|to the end)\b", "tease: hang on for"),
     (r"\bstay for (?:number|#|the last|the final)\b", "tease: stay for number"),
-    (r"\b(?:I'?ll|I will|we'?ll|I'?m|I am|saving|saved|save)\b[^.!?]{0,40}\bat the very end\b", "tease: at the very end"),
+    (r"\b(?:I'?ll|I will|we'?ll|I'?m|I am|saving|saved|save|keeping)\b[^.!?]{0,90}\bat the very end\b|\bat the very end,? (?:I'?ll|I will|we'?ll)\b", "tease: at the very end"),
+    (r"\bstay (?:right )?here with me\b", "tease: stay right here with me"),
+    (r"\b(?:do not|don'?t) skip out\b", "tease: don't skip out on me"),
     (r"\bby the end,? you'?ll\b", "tease: by the end, you'll"),
 ]
 

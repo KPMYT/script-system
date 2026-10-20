@@ -202,7 +202,9 @@ check("16. persona facts: a wrong tenure and near-miss names are caught; the rig
 # 17. the tease phrasings found in the plumbing study are hard bans
 teases=["Stay till the end because I'll show you.","And stick with me for number nine.","So do not go clicking away early on me.",
         "Hang on for the bonus habit.","Stay for number 10, because that one matters.","I'll save the best one for you at the very end.",
-        "By the end, you'll have the routine.","And the bonus tip at the end could save you."]
+        "By the end, you'll have the routine.","And the bonus tip at the end could save you.",
+        "Wait until you hear what it does to the seal.","So stay right here with me.","Please do not skip out on me now.",
+        "I'm keeping a running tally of every dollar you save, and at the very end I'll add it up."]
 missed=[t for t in teases if run_scan(t+"\n")[0]!=1]
 check("17. tease phrasings from the plumbing study are hard bans", not missed, "; ".join(missed))
 
