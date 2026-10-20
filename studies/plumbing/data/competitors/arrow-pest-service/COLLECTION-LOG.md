@@ -40,13 +40,13 @@ zuiwdNiVylQ is a 1:55:07 compilation of six earlier jobs (isLiveContent=false). 
 | 4 | d3QKP9kRwd8 | Homemade Bed Bug Trap That Actually Works! | 2025-12-30 | 16:22 | 2357474 | 8.70 |
 | 5 | FaKOqJcsg4A | KILL EVERY Mosquito. SAFE For Honey Bees & Pets! | 2026-05-08 | 20:58 | 2330282 | 8.60 |
 
-Next in popular order, not needed: symDHme88ks (rank 6, about 2.0M, list date "1 year ago"). The highest-ranked Group A video in the popular list is O_0ZCwXjKEM at rank 7, but it is not in Group A, so no Group B pick had to be skipped.
+Next in popular order, not needed: symDHme88ks (rank 6, about 2.0M, list date "1 year ago"). Group A videos appear only at popular ranks 26 (Sg17BA6M3EI) and 27 (4pG5LWiwfaU), well below the Group B cut, so no Group B pick had to be skipped.
 
 ## Skipped videos and why
 
 - None skipped for missing transcripts (all 10 had transcripts).
 - No Group A / Group B overlap, so no Group B substitutions.
-- KdzNk3jM6kw "Exterminator Panama City, FL" (0:28, list date 2023-10-20) appears at popular rank 21. Excluded: under 3:00 and outside the window.
+- KdzNk3jM6kw "Exterminator Panama City, FL" (0:28, list date 2023-10-20) appears at popular rank 20. Excluded: under 3:00 and outside the window.
 
 ## Normal (median of exact views, 15 most recent long-form uploads at least 7 days old on 2026-10-20)
 
@@ -123,7 +123,7 @@ All are NexLev, English (auto-generated). youtube_video_details reports hasCapti
 ## Failures and API oddities
 
 - **Comment pagination does not advance.** Continuation tokens from youtube_video_comments returned page 1 again, for both sorts:
-  - sort=top page 2 was identical to page 1 for Sg17BA6M3EI, cMhqzhuIH2g, d3QKP9kRwd8 and FaKOqJcsg4A. For the others it overlapped heavily, adding 0–9 new comments.
+  - sort=top page 2 returned the same set of comments as page 1 for Sg17BA6M3EI, cMhqzhuIH2g, Wg9-yFIXlx0, d3QKP9kRwd8 and FaKOqJcsg4A (Wg9-yFIXlx0 in a different order). For the others it overlapped heavily, adding 2 (4pG5LWiwfaU, DgMVZB814YI), 4 (zuiwdNiVylQ), 6 (ZBfgXMnhK_g) or 9 (2XTSgRtcwh0) new comments.
   - A third top page was tried for 2XTSgRtcwh0 and came back identical to page 2.
   - sort=newest page 2 was identical to page 1 for Sg17BA6M3EI and zuiwdNiVylQ, so newest paging stopped there.
   - Result: about 20–29 top and 20 newest comments per video, not the brief's ~50 + ~25. No other method was used.
