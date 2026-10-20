@@ -23,7 +23,7 @@ description: The final quality gate every script passes before it ships. Six gro
 ## Group A: the hook
 
 - **A1. The opening.** The viewer knows what the video is about within about 10 seconds, and the first line names the title's subject. By default the first sentence is a jolt, not a greeting, with no channel intro. A niche pack or persona profile can allow a greeting.
-- **A1b. The hook plays on emotion.** The opening touches the viewer's pain point or wish and points at the solution, in one sentence, without delaying the first payoff (`retention-mechanics.md`, section 2). A hook made only of numbers or facts fails. Quote the line that does it.
+- **A1b. The hook does all three jobs** (`retention-mechanics.md`, section 2): a transformation the viewer can picture, the viewer's pain or wish, and one spark of curiosity that the video answers (never a tease). One to three sentences, without delaying the first payoff. A hook made only of numbers or facts fails, and so does one that opens on the same move as the channel's last two or three scripts. Quote the line for each job.
 - **A2. Graded against real winners.** The hook holds up against 2-3 real winning hooks from the niche pack's excerpt library or voice samples. Quote the ones it was compared with. If the niche has no real hooks to compare against, mark A2 as "not run" rather than failed.
 - **A3. The promise is mapped.** Every item the hook promises maps to the section of the body that delivers it.
 - **A4. The hook's claims hold up.** Everything the hook claims is backed by the body, within the framing limits in `research-and-sourcing.md`.

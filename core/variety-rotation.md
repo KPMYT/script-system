@@ -38,6 +38,12 @@ The shape of the hook.
 - **The cost-to-result:** "$6 of wood, $60 of shelf."
 - **The problem at its worst:** "The toilet's running again at two in the morning."
 - **The question the viewer is already asking:** "Will anybody actually buy this?"
+- **The result as a life reward:** "Build six, and if they sell, that's the plane ticket."
+- **The surprise:** "The part people pay for here costs about a dollar."
+- **The unnamed object:** "There's a board in every garage that people will pay $40 for, once it's cut right." (Named within the next sentence or two.)
+- **The pain, then the good news:** "Folks pick it up at the fair and set it back down. That's fixable, and it's cheap."
+
+Every opening move still carries the hook's three parts (`retention-mechanics.md`, section 2): the transformation, the viewer's pain or wish, and one spark of curiosity. The move is how they're delivered.
 
 ### 2. Hook turn
 
