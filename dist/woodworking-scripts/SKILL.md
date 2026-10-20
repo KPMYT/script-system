@@ -70,7 +70,7 @@ For more depth, see `woodworking-ideation/references/audience.md` (§1 and §9 f
    - **This viewer's pains:** having to buy tools first, wasting wood on something nobody buys, work that looks homemade, being out-priced by the big stores. **The wish underneath:** side money from something they made.
    - **Results they can picture:** the holiday's spending money, a plane ticket, every tool paid for, a table full of stock before the fair.
    - **Curiosity that fits the lane:** the cheap part that makes it sell, the thing everyone throws away, the build that out-earns a pricier one.
-   - **Into the materials:** end the hook with a clear move into the shopping list, rotating the shapes in `references/excerpts.md` group 12 (a hard cut to the first material and its price, an announced short list, the tools you don't need and then "all you need is"). Never "let's get into it" (a hard ban), and never a competitor's signature launch such as "Let's go."
+   - **Into the materials, always announced** (operator, 2026-10-20), one of two ways, rotated: **straight to the first item and its price** ("First, one pine round from Home Depot, about fifteen bucks"), or **the list announced** ("Here's what you'll need."). Shapes in `references/excerpts.md` group 12. Never "let's get into it" (a hard ban), and never a competitor's signature launch such as "Let's go."
    - No persona intro, no channel name, no "today we're going to," no tease. Name the first material within about 15 seconds.
 2. **Materials and where to buy.** Store and price for each priced item, then "prices subject to change" once, straight after the prices. One price per item, always rounded the way people talk ("about fifteen bucks"), never cents; small items can be grouped. Specs only as far as the viewer needs them to grab the right thing off the shelf ("a 12-pack of five-eighths inch wood screws," not the whole label).
 3. **Cut list.** The exact measurements from the pack.
@@ -78,6 +78,8 @@ For more depth, see `woodworking-ideation/references/audience.md` (§1 and §9 f
 5. **Finish.**
 6. **Money block.**
 7. **End CTA and closing line,** per the core rules and the persona profile.
+
+**Signpost every section change** (core `retention-mechanics.md`, section 6). The first sentence of each new section names it, so the viewer knows where the video has moved: into the materials (announced as above), the tools, the cut list, the build ("Now the build. Start with…"), the finish, assembly ("Once the last coat's cured, it's time to mount the bearing"), the money ("Now, does anybody pay for this?"), the price and cost, and where to sell. Inside a section, steps follow one another without one. Rotate the wording.
 
 When the build has to be finished before it's assembled (oil the top before the hardware goes on, finish the parts before the glue-up), the steps that must come after the finish (final assembly, hardware, felt pads, the quick check) follow it. Order follows the real build.
 
@@ -240,6 +242,7 @@ Check that:
 - every step is an instruction with a visible object and action
 - every number, measurement and listing traces to the pack
 - the mid-CTA sits after the first payoff
+- every section change is signposted, and the move into the materials is announced one of the two ways
 - the money block uses "listed at" or "sold for" correctly, includes fees, and makes no guarantee
 - there's one adversary, two at most
 - swearing is within one to three, with none in the CTAs

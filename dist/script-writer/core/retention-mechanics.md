@@ -83,6 +83,8 @@ In list videos and in step-by-step progressions, where something visibly changes
 - **One line.** A bridge is one sentence, often half of one. Sometimes the best bridge is just starting the next item.
 - **Varied.** Never reuse the same bridge shape twice in a row, and rotate across scripts (`variety-rotation.md`).
 
+**Signpost every section** (operator, 2026-10-20). The viewer always knows which section they're going into. At every change of section, the first sentence names the next job, so it's clear the video has moved on: "Once the stain's dry, it's time for the name." "Now, the money." "As for where to sell it…" The winners do this at every turn, most often as "done, now the next job" ("Once your plugs are in, it's time to cut them flush"). A bridge can carry the signpost; a step inside a section doesn't need one. Signposts rotate like bridges and never repeat their wording in one script. The niche pack lists its sections and how the move into the first one is announced.
+
 **Bridge moves:**
 - **The stakes of the next item:** "That one saves you a service call. The next one saves you a water heater."
 - **Where the progress stands:** "It's square now, but it's still rough enough to snag a sweater. Sanding's next."

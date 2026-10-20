@@ -58,7 +58,10 @@ How the setup flips into tension.
 
 ### 3. Segment bridges
 
-Short-range only, as set out in `retention-mechanics.md`, section 6.
+Short-range only, as set out in `retention-mechanics.md`, section 6. Every change of section is signposted (same section); these moves are how, and the wording rotates.
+
+- **Done, now the next job:** "Once the last coat's dry, it's time to mount the bearing."
+- **The next section named outright:** "Now, the money." "As for where to sell it…"
 
 - **The stakes of the next item:** "That one saves a service call. The next one saves a water heater."
 - **Where the progress stands:** "It's square now, but it's still rough. Sanding's next."
