@@ -107,7 +107,7 @@ Calibration from the winning scripts: these show the usual spread, they are not 
 | Money line | 5-28 words |
 | Aside or opinion | 3-20 words |
 
-Whole winning scripts ran 1,135-2,408 words, with 18-55 step lines.
+Whole winning scripts ran 1,135-2,408 words, with 18-55 step lines; ours never go below 8 minutes (1,200 words at 150 words a minute).
 
 **Uneven is the goal.** Real scripts put a two-word step next to a thirty-word one. Lines of matching length in a row sound machine-made.
 
