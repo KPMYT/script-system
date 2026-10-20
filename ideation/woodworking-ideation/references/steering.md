@@ -2,6 +2,8 @@
 
 Canonical source for the woodworking column of core `scoreboard.md`. Dials: presence / demand shape / register. Status tags: `proven★` (own view data) · `proven` (woodworking ecosystem data) · `inherited` (carried from the plumbing bank with no woodworking evidence yet) · `produced` (own title exists, views pending) · `untested` · `dead` · `endorsed` · `excluded`. Tool-reported outlier scores are never evidence.
 
+**Updated 2026-10-20:** active channels are Hank and Dale only, both on camera (Talking Head), both single builds; Kenji stopped; Sam inactive until relaunched as woodworking for profit; personas live in the script library's persona profiles; titles may exaggerate freely (tenure and income included); every for-profit request runs `pipeline.md`.
+
 **Updated 2026-09-09.** Dale Oakfield's Workshop pivoted to woodworking-for-profit; Hank Hardwood (ch. 4, the niche's first face channel) launched; F51 and F52 entered the master from the for-profit intake (74 ecosystem winners observed 2026-06-22, banked 2026-09-09 — raw set in `archive/hank-hardwood-intake-2026-06.md`).
 
 ## Table of contents
@@ -18,10 +20,10 @@ Canonical source for the woodworking column of core `scoreboard.md`. Dials: pres
 ## 1. Dale Oakfield's Workshop — woodworking for profit (pivoted 2026-09-09)
 
 - **Angle:** woodworking for profit — projects that sell, what they cost, what they fetch, where they sell. Pivoted 2026-09-09 from the general / Western woodworking lane, which is now **parked** (§7).
-- **Persona:** unchanged — veteran American woodworker, ~40 years at the bench, practical, mixes power and hand tools, patient mentor to beginners — now framed as a lifelong seller (craft fairs, Marketplace, Etsy). The tenure is his differentiator from Hank: F2 in a money key ("In 40 Years of Selling…").
-- **Dials:** faceless (voiceover persona) / browse / **hustle-thrifty (money-in)**. **Profile:** A. Kinship: Roger the Pipe Guy (tradesman-thrifty family) and Hank Hardwood (for-profit face twin).
-- **Footage capability:** compiled — knowledge only. Money claims are persona verdicts with research-defensible cost and price figures in the brief; never a filmed one-off build; single-product titles frame the product *type's* economics.
-- **Batch mix:** listicle-heavy (the operator converted most singles to listicles in review); default batch 30; ~5 heritage-key test slots per batch (F19 territories — Japanese, Amish, Viking, Depression-era — territories a persona visits, never identities).
+- **Persona:** the on-camera veteran woodworker in `personas/dale-oakfield.md`. In titles, tenure and selling claims are allowed and stay his differentiator from Hank: F2 in a money key ("In 40 Years of Selling…"). The script delivers them through the numbers; the narration itself never states years or sales.
+- **Dials:** **face** (on-camera AI-avatar presenter, Talking Head, since 2026-10-20) / browse / **hustle-thrifty (money-in)**. **Profile:** A. Kinship: Roger the Pipe Guy (tradesman-thrifty family) and Hank Hardwood (for-profit face twin).
+- **Footage capability:** presenter + generated b-roll — knowledge only; the presenter never demonstrates. Money claims carry research-defensible cost and price figures in the brief; single-product titles frame the product *type's* economics.
+- **Batch mix:** single builds (no longer listicle-heavy, operator 2026-10-20; a list only on request); a product scan lists 30 products; ~5 heritage-key test slots per batch (F19 territories — Japanese, Amish, Viking, Depression-era — territories a persona visits, never identities).
 - **Channel normal:** the pre-pivot ceiling of ~18k on generic tips (own winners 18k / 14k) is the baseline. For-profit batches are judged against that band; **the first for-profit title to clear ~18k is the pivot's proof.**
 - **Money language:** the earned-income scale (core `format-bank-master.md` §5) plus the big-box anchor, which stays native to him ("One $5 Board From Home Depot That Sells for $60").
 - **Topic fit:** the for-profit cluster in `demand-map.md` §2b — projects that sell, free / waste material to profit, one-board yields, arbitrage gaps, side-hustle income, seasonal sellers, small giftables, cutting boards, bird feeders, kitchen products, engraving, sawdust-as-product, furniture flipping, pricing and where-to-sell.
@@ -30,6 +32,8 @@ Canonical source for the woodworking column of core `scoreboard.md`. Dials: pres
 - **Topic boundaries OUT (operator 2026-06-22 and 2026-09-09):** tool-buying (the F8 / F13 / F28 shopping expressions — parked, §7); free plans and lead-magnet promises (F45 excluded — "it's not Invent"); twigs; hourly-wage framing ("$100 an hour" — use per-project, per-month or margin); fence pickets; service hustles (trim repair for pay); off-season seasonal titles (a Fall title was killed in June for timing — publish at the season's front edge).
 
 ## 2. Master Kenji — Asian / Japanese woodworking
+
+**Status: stopped (operator, 2026-10-20).** Kept for reference; never generate for this channel.
 
 - **Persona:** Japanese master craftsman; precision, sharpening, hand tools, joinery that needs no nails or glue, reverence for wood and tool.
 - **Dials:** faceless / browse / mastery-precision. **Profile:** A.
@@ -42,6 +46,8 @@ Canonical source for the woodworking column of core `scoreboard.md`. Dials: pres
 
 ## 3. Sawdust Sam — Amish / traditional woodworking
 
+**Status: inactive (operator, 2026-10-20).** It relaunches later as woodworking for profit, and this block gets rewritten then. Don't generate until the operator relaunches it.
+
 - **Persona:** old-order traditional craftsman; hand tools, minimal or no electricity, furniture built to last generations, the way it has been done for 200 years, quiet distrust of modern disposable goods.
 - **Dials:** faceless / browse / heritage-plain. **Profile:** A. Kinship: Hannah Yoder (fabrics) — same register (core `kinship-map.md`).
 - **Footage capability:** compiled — knowledge only.
@@ -53,10 +59,10 @@ Canonical source for the woodworking column of core `scoreboard.md`. Dials: pres
 ## 4. Hank Hardwood — woodworking for profit (face)
 
 - **Angle:** woodworking for profit — the **face twin** of Dale on the same topic pool.
-- **Persona:** working American woodworker who earns his living selling what he builds (markets, Etsy, Marketplace); money-straight, beginner-encouraging. **Persona bible pending** (age, look, backstory, tenure number) — confirm with the operator.
+- **Persona:** the on-camera woodworker in `personas/hank-hardwood.md` (plain-spoken, warm, a bit edgy; big business and the corporations as the enemy; wrote the book). Titles may claim selling and income freely.
 - **Dials:** **face** (AI-avatar presenter; synthetic-media disclosure TBC) / browse / **hustle-thrifty (money-in)**. **Profile:** A (hypothesis: the money-motivated slice of the same viewer — confirm on the audience tab). Kinship: Dale (topic world, thrifty family) and Werner Finkbinder (the synthetic-presenter face doctrine; core `kinship-map.md`).
 - **Footage capability:** presenter + compiled b-roll — knowledge only. **The avatar never demonstrates** (core face-dial rule: generated visuals never demonstrate technique — the presenter talks, b-roll and diagrams show). Money claims are persona verdicts; single-product titles frame the product type.
-- **Persona-claim discipline (face dial):** soft, uncheckable backstory only — no checkable order counts, no named customers or markets, no audited-sounding revenue. Income figures ("How I Make $5,000 a Month…") are persona narrative and the brief makes the math real (product mix × units × prices). Heritage tests are territories the American persona visits, never identity.
+- **Claims in titles (operator 2026-10-20):** titles may exaggerate freely, income figures included ("How I Make $5,000 a Month…"); the brief makes the math real (product mix × units × prices), and the script delivers it through the numbers. Heritage tests are territories the American persona visits, never identity.
 - **Channel normal:** none — the launch batch (26 titles, greenlit 2026-06-22, uploading September 2026) is the acceptance test. The first woodworking face-channel data and the first F51 / F52 data resolve on it.
 - **Batch mix / topic fit / money language:** as Dale's, with two differences — no tenure (F2 is Dale's), and the big-box anchor is less native (Dale owns "$5 board from Home Depot").
 - **Home lanes:** F51, F52, F30, F26 money-key, F3 + sell-framing, F41, F42, F36, F8 (the decision gate — "Should You Sell…"), F19 territories.
@@ -64,7 +70,7 @@ Canonical source for the woodworking column of core `scoreboard.md`. Dials: pres
 
 ## 5. The for-profit channel pair (Dale ↔ Hank) — shared rules
 
-- **Format-flip:** where one channel runs the listicle, the sibling runs the single on the same topic, and vice versa; different power-adjectives and anchors.
+- **Single builds on both (operator 2026-10-20):** the old listicle/single format-flip is retired. Where both channels draw on one topic, split it by product, angle or price point, with different power-adjectives and anchors.
 - **Collision audit before every lock:** when both channels draw on one source set, list every same-topic pair; **strong twins** (same structure and near-identical wording) are split — one topic per channel, the other side drops it; light overlaps are differentiated by number or anchor.
 - **Current split:** Dale holds the $475 / $20 arbitrage, wedding gifts, the too-good-to-sell twist and "The ONE Wood Project I CAN'T Stop Selling (Unfortunately)"; Hank holds small-projects demand, the 40-project mega-list and the $3 monthly best-seller. Engraving and the one-2x4-products topic run on both, differentiated (12-list vs single; 30 vs 31 products).
 - **Batch 2 pulls for Hank:** the four topics Dale holds are unused on Hank — they are Hank's first pulls when he needs a second batch, re-skinned per the flip rule.

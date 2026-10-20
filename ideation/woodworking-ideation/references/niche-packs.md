@@ -6,9 +6,9 @@ Loaded by the `thumbnails` skill as standing context when a channel is named. Fi
 
 ## Dale Oakfield's Workshop (woodworking for profit — pivoted 2026-09-09)
 
-- **Character:** none by default (faceless). If hands are wanted: a weathered male hand in a plain work shirt, never a face. (Confirm.)
+- **Character:** the Dale Oakfield on-camera AI-avatar presenter (Talking Head since 2026-10-20) — **description pending from the operator**. Until supplied, use a presenter-left composition and treat the avatar as the character.
 - **Common objects / materials / settings:** raw pine and construction 2x4s, oak and walnut boards, table saw, miter saw, clamps, chisels, wood glue, sawdust piles, offcut bins, jigs; cutting boards; a home garage workshop with a plain plywood bench. Contrast rule matters doubly here — never wood-on-matching-wood; light wood on a dark bench or dark wood on a pale wall.
-- **Banned items:** brand logos (default off); faces; whole-room shots; matching-wood backgrounds.
+- **Banned items:** brand logos (default off); faces other than the avatar; any depiction of the avatar demonstrating technique; whole-room shots; matching-wood backgrounds.
 - **Style tweaks:** documentary realism; the "cutout on void" tool-review style allowed only for tool-buying titles (F8 / F28 / F13 — now a parked lane); text hooks short and specific.
 - **For-profit additions (2026-09-09):** the proof moment is **product + price** — the "$6 → $200" split, a finished piece beside the single 2x4 it came from, a market table stacked with smalls, a "SOLD OUT" or "SOLD" tag; cash, price tags and a card reader are on-brand here (unlike the pre-pivot pack); ecosystem thumbnail hooks seen on the intake: "MAKE YOUR MONEY", "QUICK ENOUGH", the "$475" callout, "$45 each".
 

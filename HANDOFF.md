@@ -89,6 +89,15 @@ These change or extend earlier decisions above, by the operator's choice.
 - **A persona's fixed last line is exempt from H13** (upbeat closers).
 - **Left as they are, by choice:** the rotation log gets no end-CTA field (the operator is fine if an end CTA's wording repeats), and an edit after PASS keeps the PASS.
 
+### Operator decisions, 2026-10-20 (ideation and packaging)
+
+- **Ideation runs in Cowork,** where Claude can browse Etsy in a real browser. **Etsy is the main source;** eBay and Facebook Marketplace are optional spot-checks. Products are found by hand-checking, with no paid tool and no API for now.
+- **The woodworking ideation pipeline** goes: product scan (30 products) → title and thumbnail-text options (format bank plus new creative ones) → the operator's picks → briefs → optional research pack. The fallback is invented products, marked as invented, with no sales figures.
+- **Briefs** are a bank of facts only, never structure or language direction, about 500-800 words, one spreadsheet cell with " | " between fact groups.
+- **Titles and thumbnail text may exaggerate freely,** including tenure and income claims. Ideation doesn't hard-code claim bans. The script delivers such titles through the numbers, and the narration still never claims sales or history.
+- **Active woodworking channels:** Hank and Dale, both on camera (Talking Head), both single builds. Kenji is stopped. Sam relaunches later as woodworking for profit.
+- **Packaging:** a single `script-writer` skill (START) carries the core, the niche packs, the persona profiles and the books. `woodworking-ideation` and `ideation-core` are installed alongside it. Everything is built from the repo by `tools/build_skills.py`; the operator stores the files in Drive and installs them on each account.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

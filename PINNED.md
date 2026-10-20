@@ -42,7 +42,7 @@ Things parked during the rebuild, so nothing gets lost between sessions.
 - **The old house-rules prompt is retired.** Its rules now live in `workflow.md`, `cta-and-endings.md`, `offer-rules.md` and `claims-policy.md`.
 
 ## Decisions still open
-- How the rebuilt core files get packaged as skills.
+- ~~How the rebuilt core files get packaged as skills.~~ Decided 2026-10-20: one `script-writer` skill (core, niche packs, persona profiles, books), built by `tools/build_skills.py` into `dist/`, installed per account; ideation runs in Cowork, Etsy first.
 - Distribution to VAs on personal Cowork accounts: a synced folder, a bootstrap skill, a version stamp, and developer-built queue and checks.
 
 ## Tests and data

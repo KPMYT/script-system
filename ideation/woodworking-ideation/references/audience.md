@@ -35,7 +35,7 @@ Disgust (F20) and family emergency (F31) — no raw material. Water damage, sewa
 
 ## 5. Adversaries
 
-Big-box furniture makers ("particleboard", "flat-pack"), tool marketers, "the woodworking stores", brand manufacturers, the modern disposable-furniture industry. The persona is the honest exception. Adversary appetite is gentler than plumbing's — use it for quality-decline and tool-marketing stories, not crusades.
+**On Hank and Dale (operator 2026-10-20): big business and the corporations come first** — their markup, their overpriced versions, the idea you need their expensive gear (a category, never a named company as villain in the script). Also: big-box furniture makers ("particleboard", "flat-pack"), tool marketers, "the woodworking stores", brand manufacturers, the modern disposable-furniture industry. The persona is the honest exception. Adversary appetite is gentler than plumbing's — use it for quality-decline and tool-marketing stories, not crusades.
 
 ## 6. Real mechanisms that support big titles
 
@@ -47,7 +47,7 @@ Table-saw kickback is the apex hazard — never the rip fence as a crosscut stop
 
 ## 8. Persona-claim discipline (core `rules-and-specs.md` §2.2)
 
-Dale's "40 years at the bench" is a standing voiceover claim; Kenji's and Sam's traditions are real and documented — lean into them and never invent lineage, dates, districts or "banned" stories. Cultural authenticity is a hard floor on Kenji and Sam.
+Dale's "40 years" is allowed in titles (operator 2026-10-20), but his narration never states years or sales (his persona profile); the script delivers tenure and income titles through the numbers; Kenji's and Sam's traditions are real and documented — lean into them and never invent lineage, dates, districts or "banned" stories. Cultural authenticity is a hard floor on Kenji and Sam.
 
 ## 9. The money-motivated slice — Dale (post-pivot) and Hank Hardwood — labeled hypotheses
 
@@ -58,5 +58,5 @@ Inherited from Profile A as facts; the for-profit specifics are **hypotheses** f
 - **Money and time language:** the earned-income scale (core §5) — `$X each` → `$X in under an hour` → `$X/month` → `N% margin` → `THOUSANDS in profit` → `replace your salary`; one rung per title. Dale keeps the big-box anchor and the tenure money-key; Hank has neither. Hourly-wage framing killed by the operator. Time framing that works: five-minute, fifteen-minute, one-hour builds and "a week's income in six weeks" (craft-fair season).
 - **Adversaries (gentle):** big-box stores (price and quality — "Big Box Hates Me"), boutiques and retailers charging the markup the maker could capture, stores that throw out pallets, "people who think it's hard". The persona is the honest seller who shows the real numbers.
 - **Real mechanisms that support the big titles:** construction 2x4s cost $4–5 and yield dozens of smalls; HT-stamped pallets are free and usable (MB pallets are not); sawdust has real buyers (fire starters, smoker chips — hardwood only, bedding — untreated pine only) and costs nothing; end-grain construction, thickness and finish drive cutting-board prices more than species; dovetails and visible joinery lift furniture prices because buyers read them as quality; rough-sawn hardwood from a mill runs a third of big-box S4S; Etsy fees stack to roughly 10–20% of a sale; craft-fair booths cost $50–500 and sell impulse smalls in volume; Q4 carries about a third of a maker's annual sales; retail anchors (Boos, Williams Sonoma, West Elm) set the price ceiling for handmade.
-- **Persona-claim discipline on the money channels:** income and order figures are persona narrative, never audited fact — no checkable counts, no named customers; every dollar figure in a title must have its cost-and-price math in the brief.
+- **Claims on the money channels (operator 2026-10-20):** titles may exaggerate freely, income and order figures included; every dollar figure in a title must have its cost-and-price math in the brief.
 - **Safety and integrity boundaries specific to selling:** no treated, MDF, plywood, painted or finished sawdust in any product; hardwood and food-safe glue and finish on anything for food; no small parts on toys for under-threes; no treated wood on food-growing beds; lead-paint testing on pre-1978 furniture flips; oily rags dried flat; never a filmed proof-of-work claim.

@@ -39,7 +39,15 @@ Copies of the operator's claude.ai ideation skills, brought in to be edited here
 
 | Folder | What's in it |
 |---|---|
-| `woodworking-ideation/` | The woodworking ideation skill (copied unchanged on 2026-10-20 from the installed version). It's an overlay on the shared `ideation-core` skill, which stays on claude.ai and isn't edited. |
+| `woodworking-ideation/` | The woodworking ideation skill, edited 2026-10-20: Hank and Dale only (both on camera, single builds), titles may exaggerate freely, and the new for-profit pipeline in `references/pipeline.md` (Etsy-first product scan of 30, title and thumbnail-text options, picks, fact-bank briefs, optional research pack). It's an overlay on `ideation-core`. |
+| `ideation-core/` | The shared ideation base (format bank, rules, audience profiles), an unchanged copy kept so it can be installed on VA accounts. Not edited. |
+
+## tools/ and dist/
+
+| File or folder | What's in it |
+|---|---|
+| `tools/build_skills.py` | Builds the installable skills from the library into `dist/`. Run it after any change, then re-upload. |
+| `dist/` | **Generated, never edited by hand.** `script-writer.skill` (START to finished script: core, woodworking pack, profiles, books), `woodworking-ideation.skill`, `ideation-core.skill`, the unzipped folders, and `INSTALL.md` (how to install them on each account). |
 
 ## personas/
 
