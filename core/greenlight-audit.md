@@ -34,7 +34,7 @@ description: The final quality gate every script passes before it ships. Six gro
 - **B2. The line after the hook** pays off or escalates, never background.
 - **B3. Progression.** Every paragraph adds information, moves forward, raises an obstacle or shifts a feeling. One that does none is padding: cut it. A line of the persona's opinion, reaction or honest aside is not padding (`retention-mechanics.md`, section 4).
 - **B4. None of the four retention mistakes:** the slow start, the context dump, a payoff with nothing after it, the broken promise.
-- **B5. Bridges and pacing.** Bridges point only at the next segment, honestly, and the next segment delivers what they promise. No flat stretch runs longer than about 90 seconds without a payoff.
+- **B5. Bridges, signposts and pacing.** Bridges point only at the next segment, honestly, and the next segment delivers what they promise. Every change of section is signposted, so the viewer knows which section they're going into (`retention-mechanics.md`, section 6): list each section change with its signpost line, and quote any that has none. No flat stretch runs longer than about 90 seconds without a payoff.
 - **B6. "But" and "therefore"** connect the narrative and reasoning parts. Steps and list items may be sequential.
 - **B7. Uneven rhythm.** No runs of same-length sentences, other than real lists and short instructions.
 - **B8. List order.** The order follows the default, the niche pack's rule, or the hook's escalation promise, whichever applies.

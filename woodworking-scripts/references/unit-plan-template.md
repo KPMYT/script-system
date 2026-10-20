@@ -46,6 +46,8 @@ WHERE TO SELL
 
 OPINION MOMENTS                    [the build's choice points (which wood, which hardware, which finish or decoration) where the persona says what they'd pick and why]
 
+SIGNPOSTS                          [each section change -> the shape of its signpost line (done-now-next, named outright, a bridge); no wording repeated]
+
 FLEXIBLE CHOICES THIS TIME         [see the skill's skeleton]
 - tools listed separately, or folded into materials?
 - where to sell: its own part, or merged into the money block?
