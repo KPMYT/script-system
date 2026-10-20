@@ -276,19 +276,19 @@ Examples:
 | Mark hits | 13,612 | 4.0 | 5.4 | 2.1 | 0.0 | 0.7 | 2.4* | 1.2 | 3.0 | 0.6 |
 | Mark recent | 14,718 | 2.6 | 2.6 | 1.7 | 0.0 | 0.7 | 0.0 | 1.0 | 0.3 | 1.4 |
 | Vintage hits | 15,395 | 3.7 | 5.2 | 3.3 | 0.0 | 0.9 | 0.1 | 0.5 | 4.9 | 0.5 |
-| Vintage recent | 14,504 | 2.0 | 2.1 | 1.8 | 0.1 | 0.7 | 0.6 | 0.8 | 2.1 | 1.2 |
+| Vintage recent | 14,504 | 2.0 | 2.1 | 1.8 | 0.0 | 0.7 | 0.6† | 0.8 | 2.1 | 1.2 |
 | TheCheapFix | 27,526 | 6.6 | 3.6 | 3.0 | 0.0 | 0.8 | 0.3 | 0.9 | 2.7 | 0.3 |
 | Got2Learn | 13,051 | 1.4 | 2.6 | 0.3 | 0.2 | 0.4 | 0.5 | 2.2 | 0.7 | 0.4 |
 | Silver Cymbal | 11,281 | 0.3 | 3.7 | 0.9 | 0.2 | 0.0 | 1.8 | 0.7 | 0.0 | 0.9 |
 | Wakefield | 24,307 | 2.5 | 1.6 | 1.1 | 0.1 | 0.0 | 0.2 | 0.4 | 0.0 | 0.7 |
 | Arrow | 47,718 | 0.2 | 2.1 | 0.1 | 0.9 | 0.0 | 1.9 | 0.6 | 0.8 | 0.4 |
 
-\*Mostly "SharkBite" and "ProPress" in sXlzedri_Hg. Arrow includes a 1:55:07 compilation.
+\*Mostly "SharkBite" and "ProPress" in sXlzedri_Hg. †All "CLR", the product being ranked in dIe837GgLDs. Arrow includes a 1:55:07 compilation.
 
 **Measured:**
 - Own **hits** are denser in measurements, wait times and chemistry than own **recent** uploads on Mark and Vintage (Vintage chemistry 4.9 against 2.1; Mark measurements 5.4 against 2.6). Recent uploads carry more analogy markers instead (Mark 0.6 against 1.4).
 - Own channels name **no stores** at all (0 of 30 videos name Home Depot, Lowe's, Walmart or Amazon in the narration). Arrow names them all the time (0.9 per 1,000). Own scripts say "laundry aisle", "canning aisle", "any drugstore".
-- **Brands** appear in 3 own hits only: Arm & Hammer (YjPAVZAffh0 [3:08], rDLzNLUZnhw [1:00]), Bio Clean (hebGJ43lQ6s [11:16]), Kohler / American Standard / Toto (Rkm2BnFL9FA [14:25]). Recent uploads name none, apart from CLR in a title product (dIe837GgLDs).
+- **Brands a viewer would buy** appear in 4 own hits: Arm & Hammer (YjPAVZAffh0 [3:08], rDLzNLUZnhw [1:00]), Bio Clean (hebGJ43lQ6s [11:16]), Kohler / American Standard / Toto in a warning (Rkm2BnFL9FA [14:25]). Drano is named as a hazard (kHT6ZL8At0w [15:04]), and SharkBite and ProPress are the products being compared in Mark's sXlzedri_Hg. Among the recent uploads, only CLR, the product being ranked in dIe837GgLDs, is named.
 
 ### Examples by device
 
@@ -399,7 +399,7 @@ Examples:
 - *Weak (a claimed test):* "I put all three fittings on a pressure rig and the push-fit let go first."
   *Stronger:* "Look at the published numbers. A soldered joint is rated well past anything a house sees. The push-fit is rated for the house too, but with the smallest margin of the three, so put it where you can see it."
 - *Weak (watch me):* "Watch me hang my whole weight off this bar."
-  *Stronger (Mark, tenure 45):* "In 45 years I've pulled bars off tile that were held by paint and hope. The ones that stay put have a rated anchor behind every screw. Tug yours hard before anyone leans on it."
+  *Stronger (Mark, tenure 45):* "In 45 years I've seen plenty of bars come away from tile with one tug. The ones that stay put have a rated anchor behind every screw. Tug yours hard before anyone leans on it."
 
 ---
 
@@ -444,7 +444,7 @@ Examples:
 
 ### Patterns (measured)
 
-**Referral phrases** ("call a plumber / professional / somebody", "pick up the phone", "phone call", "licensed plumber / pro"). Uses / videos: Roger hits 8 / 5, Roger recent 7 / 4, Mark hits 4 / 3, Mark recent 4 / 3, Vintage hits 0, Vintage recent 7 / 4, TheCheapFix 6 / 5, Wakefield 7, Got2Learn 2, Silver Cymbal and Arrow 0. (The `03` count of 21 used a slightly different phrase list.)
+**Referral phrases** ("call a plumber / professional / somebody", "pick up the phone", "phone call", "licensed plumber / pro"). Uses / videos: Roger hits 8 / 5, Roger recent 7 / 5, Mark hits 4 / 3, Mark recent 4 / 3, Vintage hits 0, Vintage recent 7 / 4, TheCheapFix 6 / 5, Wakefield 7, Got2Learn 2, Silver Cymbal and Arrow 0. (The `03` count of 21 used a slightly different phrase list.)
 
 **Compact, specific triggers (the best of the set; inference):**
 - (TheCheapFix SUqzcj5udsk [9:42], hit 197×) "if water backs up out of two fixtures at once, you have a main line problem, and you need someone with a camera."
