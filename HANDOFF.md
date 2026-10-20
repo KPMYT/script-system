@@ -101,11 +101,19 @@ These change or extend earlier decisions above, by the operator's choice.
 ### Operator decisions, 2026-10-20 (plumbing, after the study)
 
 Recorded from the operator's reply to the plumbing comparison (`studies/plumbing/comparison/`). They are applied when the plumbing niche pack and the plumbing persona profiles are written.
-- **The Vintage Pipefitter:** no CTAs in the script except one at the end: two lines saying it's the persona's free e-book. The aim is the viewer's email address, nothing else.
-- **Roger the Pipe Guy and Mark Silverbridge:** their CTAs are too long and get shortened.
+- **The Vintage Pipefitter:** no CTAs at all for now (mid-video and end both dropped). An email-collecting CTA will be discussed later. (This replaces the earlier two-line free-e-book plan.)
+- **Roger the Pipe Guy and Mark Silverbridge:** the mid-video CTA and the outro CTA go back to the old, much shorter structure their hits used (`studies/plumbing/comparison/01-own-channels.md` and `07-body-craft.md` §10 quote it).
 - **No name or channel intros on any channel.** The core already bans them by default (`retention-mechanics.md`), and both woodworking profiles say "Greeting: none"; the plumbing profiles follow.
 - **Mark Silverbridge's tenure is 45 years,** used everywhere.
-- **Get to the point faster,** as the competitors do.
+- **Get to the point faster, and very quickly give the viewer more reasons to stay by promising more value,** modelled on how the competitors and our own hits do it.
+- **Openers are modelled aggressively on our winners and the competitors' winners,** by video type: what each opener triggers and what it asks. (Analysis: `studies/plumbing/comparison/10-opener-teardowns.md`, `11-reasons-to-stay.md`.)
+- **The villain on every plumbing channel is the trade:** plumbers, the plumbing industry and the people who profit from service calls (never a named company, per the claims policy).
+- **Footage that doesn't match the narration is the editor's fault,** not a script problem. The script rule about naming what the footage should show stays as it is; nothing more is added for it.
+- **Contradictions between videos are acceptable; unsafe advice never is.** The fact bank and the safety block exist for safety, not for cross-video consistency.
+- **No recaps** at the end of plumbing videos.
+- **Words per point depend on the point;** no fixed length per item.
+- **"Nine times out of 10" is fine;** it doesn't go on a banned list.
+- **Sources and store names are not required** in plumbing scripts.
 - **TheCheapFix is the closest format match, but not the main source of scripting ideas.**
 - **The plumbing scripts skill carries compiled transcripts of the real-life (human) competitor channels** as reference material, under the copy guard like the woodworking references: Silver Cymbal, Roger Wakefield, Got2Learn and Arrow Pest Service (confirmed by the operator). Not TheCheapFix and not the operator's own three channels.
 - **No first-person claims of tests, demonstrations or on-camera actions, unless the title or brief specifically calls for one.** Every number is sourced or given as a typical range.
