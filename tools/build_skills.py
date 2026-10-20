@@ -67,7 +67,7 @@ INSTALL = """# Installing the skills
 
 **Version:** {stamp}
 
-Six skill files, one per layer. Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
+Six skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
 
 | File | Layer | What it does | On your account now |
 |---|---|---|---|
@@ -167,6 +167,8 @@ def main():
     for folder in (build_script_writer(), build_pack(), *[build_persona(s) for s in PERSONAS], build_ideation(), build_ideation_core()):
         validate(folder)
         zipdir(folder, folder + ".skill")
+        if os.path.basename(folder) == "script-writer":
+            zipdir(folder, folder + ".zip")   # the operator uploads the core as a zip (2026-10-20)
         n = sum(len(fs) for _, _, fs in os.walk(folder))
         print(f"built {os.path.relpath(folder, ROOT)}/ ({n} files) and {os.path.relpath(folder, ROOT)}.skill")
     with open(os.path.join(DIST, "INSTALL.md"), "w") as f:
