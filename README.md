@@ -37,6 +37,11 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 
 One persona profile per channel. Hank's and Dale's are still to be written.
 
+| File | What's in it |
+|---|---|
+| `books/hank-hardwood-book.md` | The full text of Hank's ebook, "100 Ways to Make Your First $1,000 with Woodworking", with a marker for every page. Used to find which pages cover a video's topic for the CTA, and which facts a CTA may state about the book. |
+| `books/dale-oakfield-book.md` | The same for Dale's ebook, "The Ultimate DIY Woodworking Guide". |
+
 ## tests/
 
 `run_checks.py`: 17 automated checks across the whole library, including the copy guard. Run it after any edit.
