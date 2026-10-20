@@ -68,6 +68,7 @@ Run these steps in order. Never ask "shall I continue?" Never stop to check in.
    - the research pack
 2. **Plan.** Fill in the niche's unit plan (or list the fallback structure's content units), including the variation choices against the rotation log (`variety-rotation.md`).
    - **The book match.** If the persona profile names a book text, search it for the video's topic (the build, the technique, the problem) and record each relevant page range with one line on what's there, or "nothing relevant." CTAs and book mentions may cite only these pages (`cta-and-endings.md`, section 3).
+   - **The 8-minute minimum.** Every script runs at least 8 minutes of narration, counted at the persona profile's words per minute, or 150 if it sets none (so at least 1,200 spoken words at 150). Above that, length comes from the content: every line must add value, and longer is fine. If the plan can't reach 8 minutes with real value, never pad: stop with NOT READY and ask for more research or a bigger angle. A niche pack may add guidance on length.
 3. **Write,** following the niche pack (or the fallback structure) and every core rule.
 4. **Sweep.**
    - Run the `humanizer.md` pass.

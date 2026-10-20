@@ -77,7 +77,7 @@ YouTube judges channels on whether content is mass-produced or reused. This grou
 ## Group F: rules compliance
 
 - **F1. Structure.** The niche pack's structure is followed, or the fallback in `script-structures.md`: fixed parts present, flexible choices recorded.
-- **F2. Length came from the content,** with no padding and no squeezing.
+- **F2. Length came from the content,** with no padding and no squeezing, and the script reaches the 8-minute minimum (`workflow.md`, section 3).
 - **F3. CTAs and the ending** follow `cta-and-endings.md` and the persona profile:
   - placed after the first payoff
   - what the offer is, the added-value promise, and where to get it
@@ -132,5 +132,6 @@ Numbers: [each number = its research pack line, or the math from pack numbers]
 Scanner: hard bans 0 | mechanical 0 | niche bans 0 | "Most..." [n] | reframes [n] | filler over limit [n] | numbers not in pack [n, each explained]
 Voice: samples used = [which]; matched line = "[a script line]"
 Originality: [n]/7 (missing: [which]) | red flags 0
+Length: [spoken words] words = about [minutes] minutes at [words per minute] (minimum 8)
 Rules (F): clean, or [the finding]
 ```

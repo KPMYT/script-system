@@ -150,6 +150,8 @@ A section or script that ends on optimism instead of substance.
 
 **Fix:** close on something concrete: the next step, what to watch for, the last useful fact. This includes the script's final line, whatever the channel's ending format is. That last line is where this tell shows up most.
 
+**Exempt:** a fixed closing line or sign-off written in the persona profile (for example "Keep all ten fingers and I'll see you at the bench"). It's the channel's required last line, not an upbeat closer.
+
 ### H14. Unnamed authorities
 
 "Experts agree," "studies show," "industry reports suggest," "many professionals say."

@@ -95,7 +95,7 @@ For more depth, see `woodworking-ideation/references/audience.md` (§1 and §9 f
 
 ## Length comes from the content
 
-There's no target length. Fill in the unit plan first; the length is whatever the units add up to. Never pad, and never squeeze steps to fit a length. If the plan is too thin to stand as a video, flag it: the fix is a bigger project at the ideation stage, not more words.
+There's no target length above the 8-minute minimum (core `workflow.md`, section 3). Fill in the unit plan first; the length is whatever the units add up to. Never pad, and never squeeze steps to fit a length. If the plan can't reach 8 minutes with real value, flag it: the fix is more research or a bigger project at the ideation stage, not more words.
 
 Calibration from the winning scripts: these show the usual spread, they are not targets.
 
@@ -179,7 +179,7 @@ Describe only safe technique. The visuals are generated from the script, so an u
 
 - **Name the object and the action in every step line** ("Clamp the two sides to the base," not "Bring it together").
 - **Keep measurements in the narration.** Generated visuals won't show them accurately.
-- **Never point at the screen** ("right here," "look at this"), except at listings and prices shown as real screenshots.
+- **Never point at the screen** ("right here," "look at this"), not even at listings and prices shown as real screenshots. Name the platform and the price instead.
 
 ## Variation: never a template
 

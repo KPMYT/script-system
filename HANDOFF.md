@@ -25,7 +25,7 @@ The data: BeardedViking and WhosTheVoss winners against Dale and Hank's own vide
 - **No persona or channel intro.** The winners never introduce themselves.
 - **Get to the first material fast:** within about 15 seconds. BeardedViking does it in 5-15 seconds.
 - **No retention teases** ("stick around," "bonus at the end"), no problem essays, at most one sentence of context.
-- **Length comes from the content, never word budgets.** Each unit (material, step, tip, cost line) takes what it needs. Trivial items are batched, repeated steps collapse, and the plan comes before the prose.
+- **Length comes from the content, never word budgets.** Each unit (material, step, tip, cost line) takes what it needs. Trivial items are batched, repeated steps collapse, and the plan comes before the prose. *(Changed 2026-10-20: every script now has an 8-minute minimum; see "Operator decisions, 2026-10-20".)*
 - **The money block is a bookend:** promised in line one, proven at the end with listings, price, cost, fees and what's left.
 - **Proof is always researched online listings,** worded honestly: "listed at" for asking prices, "sold for" only with sales evidence.
 - **Where to buy,** with "prices subject to change" said once.
@@ -84,6 +84,10 @@ These change or extend earlier decisions above, by the operator's choice.
 - **Each channel's full book text is in the library** (`personas/books/`). CTAs cite real pages that cover the video's topic (the book match), and otherwise give the book's general value.
 - **Hank has no opening lead-in** ("All righty" was dropped). His sign-off is one sentence: "Keep all ten fingers and I'll see you at the bench."
 - **Dale's main pitch keeps Bertha's shape, with fresh words every video.**
+- **Every script is at least 8 minutes long,** counted at the channel's words per minute (150 if unset, so 1,200 words). Value-driven only: longer is fine, padding never is. A topic that can't reach 8 minutes goes back for more research. Niche packs may add guidance.
+- **"Right here" and "look at this" are banned everywhere,** including at listing screenshots.
+- **A persona's fixed last line is exempt from H13** (upbeat closers).
+- **Left as they are, by choice:** the rotation log gets no end-CTA field (the operator is fine if an end CTA's wording repeats), and an edit after PASS keeps the PASS.
 
 ### Rejected, so they don't come back
 

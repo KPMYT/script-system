@@ -359,6 +359,8 @@ def main():
         print(f"  copy guard: {COPY_RUN}+ words in a row shared with {', '.join(a.refs)}")
     if lifts:
         print(f"  lifted bans in effect: {', '.join(lifts)}")
+    words = sum(len(p.split()) for p in spoken_paragraphs(text))
+    print(f"  spoken words: {words} (about {words / 150:.1f} minutes at 150 words a minute; minimum 8)")
     print(f"\nFIX ON SIGHT ({len(fix)})")
     for f in fix: print("  " + f)
     print(f"\nJUDGE WITH THE SHAPE TEST ({len(judge)})")
