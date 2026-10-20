@@ -42,6 +42,6 @@ The promise must be true and specific, and drawn from the profile's facts.
 ## 5. Always banned
 
 - Manufactured urgency or scarcity ("only a few left," "ends tonight").
-- False intimacy ("I read every single one").
+- False intimacy in a pitch (a made-up personal bond used to sell). Saying the narrator reads every comment is allowed (operator, 2026-10-20).
 - Guarantees of any result, and any health, treatment or prevention claim.
 - Negative claims about named companies.
