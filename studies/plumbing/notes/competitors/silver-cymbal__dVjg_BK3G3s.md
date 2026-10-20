@@ -7,7 +7,7 @@
 - Views / normal: 18.77 (1332137 / 70989)
 - Duration: 3:29
 - Format: FACE (check_faceless_channel isFaceless=false, 0.97; first-person presenter in his own home)
-- Selection: Group B, #4 (rank 85 in popular order)
+- Selection: Group B, #4 (rank 84 in popular order)
 - Topic note: electrical/lighting, not plumbing.
 
 ## Structure map

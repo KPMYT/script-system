@@ -7,7 +7,7 @@
 - Views / normal: 15.00 (1065097 / 70989)
 - Duration: 6:37
 - Format: FACE (check_faceless_channel isFaceless=false, 0.97; first-person presenter filming his own work)
-- Selection: Group B, #5 (rank 111 in popular order)
+- Selection: Group B, #5 (rank 110 in popular order)
 
 ## Structure map
 - Hook: ~270 w, 64 s (ends [1:04] "I am going to show you a solderless plumbing option")

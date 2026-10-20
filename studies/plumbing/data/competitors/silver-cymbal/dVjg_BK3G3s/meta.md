@@ -2,7 +2,7 @@
 
 - Channel: Silver Cymbal (competitor)
 - Format: FACE (check_faceless_channel: isFaceless=false, confidence 0.97, format "reviews"; channel about text: "Everything you see is how I take care of my home"; transcripts are first-person narration by the presenter, who introduces himself on camera as "Chris from the Silver Cymbal channel" and films his own installs and tests; comments react to his on-camera appearance, e.g. "I can see his pores", weight-loss remarks)
-- Selection: Group B — 5 most-viewed long-form uploads published on/after 2024-10-20 (#4 of 5; rank 85 in the channel's full popular order, all upload dates)
+- Selection: Group B — 5 most-viewed long-form uploads published on/after 2024-10-20 (#4 of 5; rank 84 in the channel's full popular order, all upload dates)
 - Video ID: dVjg_BK3G3s
 - URL: https://www.youtube.com/watch?v=dVjg_BK3G3s
 - Upload date: 2024-11-11 (05:50 -08:00)
