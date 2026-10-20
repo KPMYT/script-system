@@ -69,6 +69,14 @@ Research data: collect and describe only, never edited to fit a conclusion.
 | `woodworking/` | The woodworking-for-profit study (2026-10-17): Hank, Dale and two competitors, 45 videos. Transcripts, comments, views against each channel's normal, one descriptive notes file per video, and combined transcripts. Method in `study-brief.md`, every step in `log.md`. |
 | `plumbing/` | The plumbing study (started 2026-10-20): Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter and five competitors (one a pest-control parallel niche, one an AI channel), 5 most recent plus 5 most-viewed (last 24 months) per channel. Same layout and method as woodworking; see its `study-brief.md` and `log.md`. Got2Learn's second group is its all-time top 5 (it stopped uploading). `comparison/` holds the analysis: measured numbers, own hits against recent uploads, competitor profiles, a side-by-side on 12 dimensions, and a summary with suggestions for the plumbing script rules (none applied). |
 
+## drafts/
+
+Drafts waiting for the operator's yes. Nothing here is part of the library until it's approved and moved.
+
+| File | What's in it |
+|---|---|
+| `plumbing-scripts/SKILL.md` | Draft 1 of the plumbing niche pack: the villain, the opening by video type, "point then promise", ways to promise more value, ten video types with their openings and item shapes, CTAs and length. Later sections are headings only. Parts depend on proposal P3. |
+
 ## tests/
 
 `run_checks.py`: 18 automated checks across the whole library, including the copy guard. Run it after any edit.
