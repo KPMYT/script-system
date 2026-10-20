@@ -178,6 +178,18 @@ def main():
             if f.endswith(".skill") or f == "INSTALL.md":
                 z.write(os.path.join(DIST, f), os.path.join("script-system-skills", f))
     print(f"bundle: {os.path.relpath(bundle, ROOT)}")
+    # the same skills as plain, readable files (a normal zip that opens on any computer)
+    readable = os.path.join(DIST, f"script-system-skills-readable-{datetime.date.today().isoformat()}.zip")
+    with zipfile.ZipFile(readable, "w", zipfile.ZIP_DEFLATED) as z:
+        z.write(os.path.join(DIST, "INSTALL.md"), os.path.join("script-system-skills-readable", "INSTALL.md"))
+        for name in sorted(os.listdir(DIST)):
+            folder = os.path.join(DIST, name)
+            if os.path.isdir(folder):
+                for d, _, files in os.walk(folder):
+                    for f in sorted(files):
+                        full = os.path.join(d, f)
+                        z.write(full, os.path.join("script-system-skills-readable", os.path.relpath(full, DIST)))
+    print(f"readable: {os.path.relpath(readable, ROOT)}")
     print(f"version: {STAMP}")
 
 if __name__ == "__main__":
