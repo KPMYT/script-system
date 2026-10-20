@@ -80,8 +80,7 @@ The closing line is exactly one sentence: the persona's sign-off, a callback, or
 ## 5. Keeping CTA wording fresh
 
 The structure repeats; the words never do.
-- **Rewrite every CTA from scratch each time,** keeping its structure. Change the opening words, the value line, the directions and the close. The persona profile's end ask sets what's asked for, never its words.
-- **The end CTA carries the offer and, at most, the one ask** the persona profile names. That's the only place two things sit together; everywhere else it's one ask per moment.
+- **Rewrite every CTA from scratch each time,** keeping its structure. Change the opening words, the value line, the directions and the close.
 - **Never reuse or closely paraphrase** a CTA opening that appears in the pasted rotation log (`variety-rotation.md`, slot 8).
 - **Banned echoes,** from old scripts, never used on any channel (close variants included):
   - "before we start counting, you ought to know where this comes from"

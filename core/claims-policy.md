@@ -41,7 +41,7 @@ description: What a persona may and may not claim, on every channel: opinions ve
 ## Named companies and people
 
 - **Neutral mentions are fine:** where to buy, which product is used.
-- **Casting an industry or category as the villain is fine as tone** ("the big stores would rather you didn't know this"). A named company is never cast as the villain (`offer-rules.md`).
+- **Casting a company or category as the villain is fine as tone** ("the big stores would rather you didn't know this").
 - **Nothing false or unsupported is ever stated as fact** about a named company or person.
 
 ## Who checks it

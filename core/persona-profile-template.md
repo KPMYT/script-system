@@ -38,13 +38,13 @@ Offer(s), for each one:
   Printed title (exact, used in the markers):
   Type: e-book | email list | affiliate | subscribe only
   True facts (contents, counts, chapters; the only facts a CTA may use):
-  The added-value promise (what the viewer gets, never an outcome or result):
+  The added-value promise:
   Where to get it (description link, QR code, etc.):
 Style and length: [e.g. "two lines: quick aside, one line on the offer, where to get it, back to it"
   or "full pitch: why it exists (real sources only), what's in it, one line tying it to this video,
   plain step-by-step directions, a no-pressure close; no subscribe ask in the mid-video CTA"]
 Variants: none | [A, B, ...], chosen: random | assigned by operator
-End ask: [what the end CTA asks for: subscribe, a comment, etc.; its wording is written fresh each time] | none
+End ask: [the subscribe or engagement ask] | none
 ```
 
 Optional blocks the workflow and scanner read, if the channel needs them:
