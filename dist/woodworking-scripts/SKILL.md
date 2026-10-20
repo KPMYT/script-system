@@ -66,7 +66,12 @@ For more depth, see `woodworking-ideation/references/audience.md` (§1 and §9 f
 
 **Fixed parts, always present, in this order:**
 
-1. **Promise.** The title's promise with its number, in one or two sentences, plus one line that touches the viewer's fear or wish (core `retention-mechanics.md`, section 2). This viewer's main pains: having to buy tools first, wasting wood on something nobody buys, work that looks homemade, being out-priced by the big stores; and the wish underneath, side money from something they made. Point straight at how this build answers it. No persona intro, no channel name, no "today we're going to," no tease. Name the first material within about 15 seconds.
+1. **Promise (the hook).** The title's promise with its number, built to the core hook rule (`retention-mechanics.md`, section 2): a transformation the viewer can picture, their pain or wish, and one spark of curiosity, in one to three sentences. Model it on a winning hook in `references/excerpts.md` group 1 and rotate the move.
+   - **This viewer's pains:** having to buy tools first, wasting wood on something nobody buys, work that looks homemade, being out-priced by the big stores. **The wish underneath:** side money from something they made.
+   - **Results they can picture:** the holiday's spending money, a plane ticket, every tool paid for, a table full of stock before the fair.
+   - **Curiosity that fits the lane:** the cheap part that makes it sell, the thing everyone throws away, the build that out-earns a pricier one.
+   - **Into the materials:** end the hook with a clear move into the shopping list, rotating the shapes in `references/excerpts.md` group 12 (a hard cut to the first material and its price, an announced short list, the tools you don't need and then "all you need is"). Never "let's get into it" (a hard ban), and never a competitor's signature launch such as "Let's go."
+   - No persona intro, no channel name, no "today we're going to," no tease. Name the first material within about 15 seconds.
 2. **Materials and where to buy.** Store and price for each priced item, then "prices subject to change" once, straight after the prices. One price per item, always rounded the way people talk ("about fifteen bucks"), never cents; small items can be grouped. Specs only as far as the viewer needs them to grab the right thing off the shelf ("a 12-pack of five-eighths inch wood screws," not the whole label).
 3. **Cut list.** The exact measurements from the pack.
 4. **Steps.**
@@ -229,7 +234,7 @@ ban: per hour | hourly-wage framing
 ## Before handing over
 
 Check that:
-- the first material comes within about 15 seconds, and the opening touches the viewer's fear or wish
+- the first material comes within about 15 seconds, and the hook does its three jobs (transformation, pain or wish, curiosity) on a different move from the channel's last scripts
 - the numbers are easy to follow: no runs of figures (any sentence with three or more dollar figures gets a second look), and no shop is named
 - there's no intro and no tease
 - every step is an instruction with a visible object and action

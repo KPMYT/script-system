@@ -11,6 +11,10 @@ PROMISE
 - shape this time:                 [pick a different shape from this channel's last script; see excerpts §1]
 - the number it carries:
 - the viewer's fear or wish it touches:  [tools, wasted wood, looks homemade, out-priced by big stores, side money]
+- the transformation they can picture:  [what goes in -> what comes out]
+- the spark of curiosity:            [and where the video answers it]
+- the winning hook it's modelled on:  [excerpts group 1, number]
+- the move into the materials:        [excerpts group 12 shape]
 
 CONTEXT
 - none / one sentence about:

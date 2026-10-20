@@ -23,7 +23,13 @@ description: Why viewers keep watching and how a script holds them: the first se
 ## 2. The first seconds
 
 - **Say what the video is about within about 10 seconds, using "you" or "your."** Viewers decide fast whether this is what they came for, and any delay makes them doubt it.
-- **Play on what the viewer feels.** Besides the promise, the opening touches the viewer's pain point or wish: the fear, frustration or hope that brought them (buying tools they don't need, building something nobody buys, the leak that keeps coming back). Then it points at the solution. Keep it to one sentence, never a problem essay, and never let it push the first payoff back. A hook made only of numbers or facts is flat. The niche pack names its audience's main pains. (Operator's quality bar, 2026-10-20.)
+- **The hook** (operator, 2026-10-20), about 15 seconds, one to three sentences, modelled on what the winners do:
+  1. **A transformation the viewer can picture:** what goes in (one board, about $21 of parts) and what comes out (a gift listed around $90, a table full of stock, the holiday's spending money). A result they can see beats a bare dollar figure.
+  2. **The viewer's pain or wish,** in their own words: the fear, frustration or hope that brought them (buying tools they don't need, building something nobody buys, the leak that keeps coming back). One line, never a problem essay.
+  3. **One spark of curiosity:** a surprising fact, a contrarian line, or a small gap ("it isn't the wood that sells it"). The video itself answers it, a few lines later or when the build gets there. It's an open question, never an announcement ("I'm not telling you yet," "stick around" stay banned).
+
+  An everyday comparison ("about what a large pizza costs") helps where it's true. A hook made only of numbers or facts is flat. Then straight into the first payoff. The niche pack names its audience's main pains and its winners' hooks.
+- **Rotate the hook.** Copy the winners' moves, never their words: model each hook on a real winning hook from the niche pack's excerpt library, write it fresh in the persona's voice, and never open on the same move as the channel's last two or three scripts or reuse a logged line (`variety-rotation.md`, slot 1).
 - **Open on what the thumbnail and title promised.** The first visual matches the thumbnail, and the first line names the title's subject. The video is built from the script, so that first line has to name what should be on screen; the visuals can only show what the narration mentions.
 - **No greeting and no channel intro by default.** No "hey guys," no "today we're going to," no wind-up. Some niches suit a warm greeting, so a niche pack or persona profile can allow one.
 
