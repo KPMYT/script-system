@@ -92,9 +92,13 @@ When he pitches anything, it sounds like Dale sliding the next useful thing acro
 
 ### SCANNER
 
-Lines this channel says the same way every time, so the copy guard doesn't flag them:
+Lines this channel says the same way every time, so the copy guard doesn't flag them, and the persona's fixed facts (name, book, tenure), which the scanner checks:
 
 ```scanner
 allow: Now go make some sawdust
 allow: The Ultimate DIY Woodworking Guide
+name: Dale Oakfield
+name: Dale Oakfield's Workshop
+book: The Ultimate DIY Woodworking Guide
+tenure: none
 ```

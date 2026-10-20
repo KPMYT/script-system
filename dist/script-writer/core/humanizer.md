@@ -277,6 +277,14 @@ keep watching
 watch until the end
 don't skip ahead / don't skip to the end
 wait until you see
+stay till the end / stay to the end / stay with me till the end
+stick with me
+don't click away / do not go clicking away
+hang on for
+stay for number (ten)
+I'll show you at the very end (any "I'll … at the very end" tease)
+bonus tip at the end
+by the end, you'll
 ```
 
 **Lifting a ban.** A niche pack or persona profile can lift one specific ban, but only by naming it explicitly ("this channel may use 'let's get into it' once per script"). Nothing is lifted by implication, by "it's the persona's voice," or by a review pass that thinks it fits. Lifted bans are listed in that file and passed to the scanner.

@@ -3,7 +3,7 @@ name: dale-oakfield-persona
 description: The channel profile for Dale Oakfield's Workshop: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-20 (library commit 92063fa)
+**Version:** 2026-10-20 (library commit 51d1eeb)
 
 # Persona profile: Dale Oakfield's Workshop
 
@@ -99,9 +99,13 @@ When he pitches anything, it sounds like Dale sliding the next useful thing acro
 
 ### SCANNER
 
-Lines this channel says the same way every time, so the copy guard doesn't flag them:
+Lines this channel says the same way every time, so the copy guard doesn't flag them, and the persona's fixed facts (name, book, tenure), which the scanner checks:
 
 ```scanner
 allow: Now go make some sawdust
 allow: The Ultimate DIY Woodworking Guide
+name: Dale Oakfield
+name: Dale Oakfield's Workshop
+book: The Ultimate DIY Woodworking Guide
+tenure: none
 ```

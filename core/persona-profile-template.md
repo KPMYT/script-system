@@ -60,5 +60,10 @@ Optional blocks the workflow and scanner read, if the channel needs them:
 lift: [a hard ban, by phrase]
 ban: [phrase] | [label]
 allow: [a line the channel says the same way every time, exempt from the copy guard]
+name: [the persona's name, and the channel's name if different: one per line]
+book: [the book's spoken title, if the channel has one]
+tenure: [years in the trade as a number, or none if experience stays numberless]
 ```
 ````
+
+`name:`, `book:` and `tenure:` are the persona's fixed facts. The scanner fails a script that gives a different years-in-the-trade figure (any figure at all when `tenure: none`), or a capitalised near-miss of a name or the book title ("the Vintage Plumber" for The Vintage Pipefitter). Exact and shortened uses ("the Pipe Guy") pass.
