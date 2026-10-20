@@ -98,6 +98,16 @@ These change or extend earlier decisions above, by the operator's choice.
 - **Active woodworking channels:** Hank and Dale, both on camera (Talking Head), both single builds. Kenji is stopped. Sam relaunches later as woodworking for profit.
 - **Packaging:** one skill per layer, at the operator's request: `script-writer` (the core, START), `woodworking-scripts` (the niche pack), one persona skill per channel (profile plus book), and alongside them `woodworking-ideation` and `ideation-core`. Everything is built from the repo by `tools/build_skills.py`; the operator stores the files in Drive and installs them on each account.
 
+### Operator decisions, 2026-10-20 (plumbing, after the study)
+
+Recorded from the operator's reply to the plumbing comparison (`studies/plumbing/comparison/`). They are applied when the plumbing niche pack and the plumbing persona profiles are written.
+- **The Vintage Pipefitter:** no CTAs in the script except one at the end: two lines saying it's the persona's free e-book. The aim is the viewer's email address, nothing else.
+- **Roger the Pipe Guy and Mark Silverbridge:** their CTAs are too long and get shortened.
+- **No name or channel intros on any channel.** The core already bans them by default (`retention-mechanics.md`), and both woodworking profiles say "Greeting: none"; the plumbing profiles follow.
+- **Mark Silverbridge's tenure is 45 years,** used everywhere.
+- **Get to the point faster,** as the competitors do.
+- **TheCheapFix is the closest format match, but not the main source of scripting ideas.**
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

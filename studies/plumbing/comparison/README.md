@@ -21,6 +21,29 @@ Every claim in those files cites a video ID, and script quotes carry a timestamp
 - **Comments:** about 40 per video at most (the tool wouldn't page further).
 - **Face against faceless:** on-camera channels can't be compared like for like. TheCheapFix is the only competitor with the same format as yours.
 
+## Operator decisions (2026-10-20, after reading this)
+
+Also recorded in `HANDOFF.md` section 3; applied when the plumbing rules and profiles are written.
+- The Vintage Pipefitter: no CTAs except one at the end, two lines saying it's the persona's free e-book; the aim is the viewer's email.
+- Roger and Mark: CTAs shortened.
+- No name or channel intros on any channel (the core already bans them by default).
+- Mark Silverbridge's tenure is 45 years.
+- Get to the point faster, as the competitors do.
+- TheCheapFix is the closest format match, not the main source of scripting ideas.
+
+## Production notes read aloud (full count)
+
+A search of all 80 transcripts for spoken script labels (CTA, stinger, mid-roll, section, cue, B-roll, outro and similar) found 4 cases in 4 videos, all hits, none on Mark and none in a recent upload:
+
+| Channel | Video | Uploaded | Views | Time | Spoken |
+|---|---|---|---|---|---|
+| The Vintage Pipefitter | hOz49worQJg "1 Cup of This Removes Every Toilet Bowl Ring Forever" | 2026-07-31 | 167,260 | 18:43 | "And subscribe CTA." |
+| The Vintage Pipefitter | rDLzNLUZnhw "1 Cup of This Dissolves ANY Drain Clog Overnight" | 2026-07-29 | 51,304 | 8:54 | "Mid-roll subscribe CTA." |
+| The Vintage Pipefitter | uWXIUmWdPeY "Half a Cup of This Dissolves Years of Limescale Overnight" | 2026-08-20 | 240,315 | 20:58 | "Bonus tip stinger." |
+| Roger the Pipe Guy | WfAwg1l0xCE "5 Things You Should NEVER Pour Down Your Drain" | 2026-02-14 | 1,217,431 | 12:46 | "Continuing with the final sections now" |
+
+Related: hOz49worQJg also says numbers twice three times ([7:00], [12:23], [15:40]) and calls the channel "the Vintage Plumber"; Mark's XGWQ3l_zEWA refers to its own thumbnail at [9:09]. The scanner doesn't look for these labels today.
+
 ## The main findings
 
 1. **Three things split every own hit from every own recent upload (15 of 15 each way).**
