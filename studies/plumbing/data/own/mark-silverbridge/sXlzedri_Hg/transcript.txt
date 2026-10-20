@@ -1,0 +1,369 @@
+[0:00] You have got a leaky pipe, or maybe you
+[0:02] are re-plumbing a bathroom, and you are
+[0:04] staring at three options on the shelf.
+[0:07] SharkBite, ProPress, and good
+[0:09] old-fashioned solder.
+[0:12] Everyone has an opinion, but nobody
+[0:14] actually tests these things to failure.
+[0:17] Well, after over 25 years in the trade,
+[0:20] I did exactly that.
+[0:22] I put all three connection methods
+[0:24] through eight brutal tests to find out
+[0:26] which one truly holds up, and which one
+[0:29] fails when it matters most.
+[0:31] And let me tell you, the heat exposure
+[0:34] test, and the bonus tip at the end,
+[0:37] completely changed how I think about
+[0:39] fittings.
+[0:41] The first test I ran is the burst
+[0:43] pressure test, and honestly, this is the
+[0:46] one everyone wants to see.
+[0:49] I took half-inch copper pipe and made
+[0:51] one connection with each method.
+[0:54] SharkBite push fit, ProPress with a
+[0:57] standard jaw tool, and a traditional
+[0:59] sweat at solder joint using lead-free
+[1:01] solder and flux.
+[1:04] Then I capped the ends, hooked each one
+[1:06] up to a hydraulic pressure rig,
+[1:09] and started cranking.
+[1:11] Your typical home water system runs
+[1:13] somewhere between 40 and 80 psi.
+[1:18] Code usually requires pipes rated to at
+[1:21] least 160
+[1:23] psi.
+[1:25] So, I wanted to see what happens way
+[1:26] beyond that.
+[1:28] The solder joint held strong all the way
+[1:31] up to around 800 lb per square inch
+[1:34] before the copper pipe itself actually
+[1:36] split about 2 in away from the joint.
+[1:39] The joint was still perfect.
+[1:41] ProPress came in impressively close,
+[1:44] failing at around 750 psi.
+[1:48] And the failure point was right at the
+[1:50] fitting where the O-ring finally gave
+[1:52] way.
+[1:53] SharkBite held solid up to around 480
+[1:57] psi,
+[1:58] which is still well above anything your
+[2:00] home system will ever see,
+[2:02] but it was clearly the first to go.
+[2:05] The stainless steel teeth released, and
+[2:07] the pipe shot right out.
+[2:09] Now, does that matter for your house at
+[2:11] 60 psi?
+[2:13] Probably not.
+[2:14] But it tells you something real about
+[2:16] the engineering margin you are working
+[2:18] with in each method.
+[2:20] The second test that really separates
+[2:22] these three is the torque and twist
+[2:24] test.
+[2:25] This one simulates what happens when
+[2:27] somebody bumps a pipe in a wall,
+[2:30] when a joist shifts, or when you are
+[2:32] working in a tight crawl space, and
+[2:34] accidentally put rotational stress on a
+[2:36] connection.
+[2:38] I locked each pipe assembly into a vise,
+[2:40] and used a torque wrench to apply
+[2:42] increasing rotational force to the
+[2:44] fitting.
+[2:45] Solder was essentially immovable.
+[2:47] That joint is fused metal on metal, and
+[2:50] you would destroy the pipe long before
+[2:52] you broke that connection by twisting.
+[2:54] ProPress also performed extremely well
+[2:57] here.
+[2:58] The press ring creates a mechanical
+[2:59] crimp that resists rotation, and it took
+[3:02] serious force before I saw any movement
+[3:04] at all.
+[3:06] SharkBite is where things get
+[3:07] interesting.
+[3:08] It held up fine under light to moderate
+[3:10] torque, but once I got past about 15 ft
+[3:14] lb, the fitting started to rotate on the
+[3:16] pipe.
+[3:18] It did not leak right away,
+[3:20] but that movement tells you the O-ring
+[3:22] seal is being stressed in a way it was
+[3:24] not designed for.
+[3:26] This is exactly why SharkBite fitting
+[3:28] should always be supported with a proper
+[3:31] bracket or clip, especially in walls or
+[3:34] ceilings where things shift over time.
+[3:36] >> [clears throat]
+[3:37] >> The third test I put them through is the
+[3:39] vibration endurance test, and this one
+[3:41] matters more than most people think.
+[3:44] I mounted each connection on a vibration
+[3:47] rig that simulates years of water
+[3:49] hammer, nearby washing machines, furnace
+[3:52] rumble,
+[3:53] and the kind of low-grade constant
+[3:54] vibration that every house experiences.
+[3:58] I ran each assembly for 72 hours
+[4:01] straight at a consistent frequency.
+[4:03] Solder passed without any measurable
+[4:05] change. No micro cracks, no weeping,
+[4:09] nothing.
+[4:10] That fused joint just absorbs vibration
+[4:13] without complaint.
+[4:14] ProPress also passed cleanly, though
+[4:17] under magnification, I could see very
+[4:19] slight burnishing on the O-ring surface.
+[4:22] Nothing that would cause a leak in a
+[4:23] normal lifespan,
+[4:25] but it is worth noting.
+[4:27] SharkBite developed a very small weep
+[4:29] that around the 50-hour mark.
+[4:32] We are talking about a drop every few
+[4:33] minutes, not a spray.
+[4:36] But in a closed wall over 5 or 10 years,
+[4:38] that kind of micro leak is exactly what
+[4:41] causes mold, rot, and the
+[4:42] [clears throat] kind of damage you do
+[4:44] not find until it is a $5,000 problem.
+[4:48] If you are using SharkBite in a
+[4:50] permanent install, especially behind
+[4:52] drywall, this test should give you
+[4:54] pause.
+[4:56] Now, if this kind of practical plumbing
+[4:58] knowledge is something you want more of,
+[5:00] I have written a guide called 50 easy
+[5:03] plumbing fixes that will save you
+[5:05] $10,000.
+[5:07] It is packed with repairs you can do
+[5:08] yourself this weekend without calling a
+[5:11] plumber.
+[5:12] Scan the QR code right now, or check the
+[5:15] first link below.
+[5:16] All right, let us continue.
+[5:19] The fourth test is the freeze and thaw
+[5:21] cycle test, and if you live anywhere
+[5:23] that gets below freezing, pay close
+[5:25] attention.
+[5:27] I filled each assembly with water,
+[5:29] sealed them, and ran them through 25
+[5:31] freeze and thaw cycles in a controlled
+[5:34] freezer, taking them down to minus 10°
+[5:37] Fahrenheit, and then back up to room
+[5:39] temperature each time.
+[5:41] This simulates what happens to pipes in
+[5:43] garages, crawl spaces, exterior walls,
+[5:47] and cabins that go unheated in winter.
+[5:50] Solder handled it without any issue.
+[5:53] Copper is naturally resilient to thermal
+[5:55] cycling, and the solder joint maintained
+[5:57] a perfect seal every single time.
+[6:00] ProPress surprised me a little. It also
+[6:02] passed all 25 cycles, but on close
+[6:05] inspection, the O-ring showed minor
+[6:07] compression set,
+[6:08] meaning it had slightly flattened from
+[6:10] the repeated expansion and contraction.
+[6:13] Over many years, that could
+[6:15] theoretically reduce its sealing
+[6:17] pressure,
+[6:18] though the manufacturer rates these
+[6:20] fittings for the full lifespan of the
+[6:21] system.
+[6:23] SharkBite actually performed better here
+[6:25] than I expected.
+[6:27] The push fit design allows a tiny amount
+[6:29] of pipe movement inside the fitting,
+[6:31] which gives it some natural tolerance
+[6:32] for expansion.
+[6:34] It passed all 25 cycles without leaking.
+[6:37] That said, I would still insulate any
+[6:40] SharkBite connection in a freeze-prone
+[6:42] area because the O-ring material does
+[6:44] stiffen in extreme cold and loses some
+[6:46] of its elasticity.
+[6:49] The fifth test I ran is the pull-apart
+[6:51] tension test.
+[6:53] This one is simple, but brutal.
+[6:56] I locked each pipe assembly into a pull
+[6:58] rig and applied increasing linear force
+[7:00] to try to physically separate the pipe
+[7:03] from the fitting.
+[7:05] Think of this as what happens when a
+[7:06] foundation settles, when thermal
+[7:08] expansion pulls pipes in opposite
+[7:10] directions,
+[7:11] or when someone accidentally yanks on a
+[7:13] pipe.
+[7:15] Solder required over 200 lb of force
+[7:18] before the copper itself tore.
+[7:20] The joint never separated.
+[7:23] ProPress held to about 170 lb before the
+[7:26] crimp ring began to deform, and the pipe
+[7:28] started to slide.
+[7:31] SharkBite released at around 80 lb of
+[7:33] pull force.
+[7:35] That is still significant and well
+[7:37] beyond what normal residential
+[7:38] conditions would produce,
+[7:40] but it is roughly half of what ProPress
+[7:42] can handle, and less than half of
+[7:44] solder.
+[7:46] This is another reason why proper pipe
+[7:48] support and strapping is absolutely
+[7:50] critical with push fit connections.
+[7:52] If a SharkBite fitting is doing any
+[7:55] structural work, or if there is any
+[7:57] tension on that line, you are asking for
+[7:59] trouble.
+[8:01] The sixth test on my list is the heat
+[8:03] exposure test, and this one produced
+[8:05] results that genuinely surprised me.
+[8:08] I set up each connection and used a heat
+[8:10] gun to sustain 200° Fahrenheit at the
+[8:13] joint area for 60 minutes.
+[8:16] This simulates pipes running near a
+[8:18] water heater in an attic during summer,
+[8:21] or close to a furnace or boiler.
+[8:24] Solder was completely unbothered.
+[8:27] The melting point of lead-free solder is
+[8:29] around 460° Fahrenheit, so 200° is not
+[8:34] even close to a concern.
+[8:37] ProPress also handled it well, though
+[8:39] the O-ring is rated for a maximum
+[8:41] continuous temperature of 250°,
+[8:44] so there is less headroom than you might
+[8:46] assume.
+[8:48] Here is where it gets interesting.
+[8:50] The SharkBite O-ring is made of EPDM
+[8:53] rubber, rated for around 200° Fahrenheit
+[8:56] continuous.
+[8:58] At exactly that threshold, I measured a
+[9:00] small but real drop in
+[9:03] seal compression.
+[9:05] It did not leak during the test, but the
+[9:07] margin was razor thin.
+[9:09] If your SharkBite fitting is sitting
+[9:11] near a water heater exhaust, or in a
+[9:13] south-facing attic in Arizona,
+[9:16] you are running right at the edge of
+[9:17] what that O-ring can tolerate day after
+[9:20] day, year after year.
+[9:22] This is something almost nobody talks
+[9:24] about, and it should factor into where
+[9:26] you choose to use push fit connections.
+[9:29] The seventh test is the cost and time
+[9:32] comparison, and honestly, this is where
+[9:35] the conversation shifts for a lot of
+[9:37] people.
+[9:38] I priced out a standard half-inch
+[9:40] coupling for each method at current
+[9:41] retail.
+[9:43] A SharkBite coupling runs about $6
+[9:47] A ProPress coupling is around $4 to $6,
+[9:50] but you need a press tool that starts at
+[9:52] about $300 for a basic kit,
+[9:55] or you can rent one for around $60 a
+[9:58] day.
+[9:59] A copper coupling for soldering is about
+[10:02] $0.75
+[10:03] plus flux and solder bring your
+[10:05] consumable cost to maybe $1.50 per joint
+[10:08] and a basic torch kit costs around 30 to
+[10:11] $50.
+[10:13] Now for time.
+[10:15] A SharkBite connection takes about 5
+[10:17] seconds once the pipe is cut and
+[10:18] deburred.
+[10:20] ProPress takes about 10 seconds per
+[10:22] joint once the tool is set.
+[10:24] Soldering takes about 2 to 3 minutes per
+[10:27] joint including prep, flux, heat, and
+[10:30] cool down.
+[10:31] So if you are doing one or two quick
+[10:33] repairs, SharkBite is the fastest and
+[10:35] cheapest option with zero learning
+[10:37] curve.
+[10:38] If you are doing a whole house replumb
+[10:40] or a large renovation,
+[10:43] soldering gives you the lowest material
+[10:45] cost by a wide margin and ProPress sits
+[10:48] right in the middle offering
+[10:50] professional speed with
+[10:52] professional-grade reliability.
+[10:54] But that tool investment only makes
+[10:56] sense if you are doing a lot of joints.
+[10:59] The eighth and final test is the
+[11:01] long-term reliability verdict and this
+[11:04] is where I pull everything together.
+[11:06] Across all seven tests, solder won in
+[11:09] every single category except speed and
+[11:12] ease of use.
+[11:14] It is the strongest, most heat
+[11:16] resistant, most vibration proof,
+[11:19] and cheapest per joint connection method
+[11:21] available.
+[11:23] If you have the skill and the time,
+[11:25] solder is still king.
+[11:28] ProPress came in as the clear second
+[11:30] place overall. And honestly, it is what
+[11:33] most professional plumbers are switching
+[11:35] to for good reason.
+[11:37] The reliability is very close to solder,
+[11:40] the speed is dramatically faster, and
+[11:43] the consistency is excellent because the
+[11:46] tool removes human error from the
+[11:48] equation.
+[11:50] You get the same crimp every single
+[11:52] time.
+[11:53] SharkBite is not a bad product. Let me
+[11:56] be clear about that.
+[11:58] It passed every test within normal
+[12:00] residential operating ranges.
+[12:03] But it had the smallest safety margins
+[12:04] across the board.
+[12:06] Where I would use SharkBite without
+[12:08] hesitation is for accessible repairs,
+[12:10] shutoff valves, temporary fixes, and
+[12:13] situations where you need a connection
+[12:15] fast and you can get to it later if
+[12:18] anything ever goes wrong.
+[12:20] Where I would not use it is behind
+[12:22] finished walls, in ceiling cavities,
+[12:25] or anywhere you cannot visually inspect
+[12:27] it on a regular basis.
+[12:30] All right.
+[12:31] Here is the bonus tip the pros actually
+[12:33] use.
+[12:35] If you do install SharkBite fittings,
+[12:37] there is a simple trick that
+[12:38] dramatically improves their reliability
+[12:41] and almost nobody does it.
+[12:43] After you push the pipe into the
+[12:45] fitting,
+[12:46] take a permanent marker and draw a line
+[12:48] on the pipe right where it meets the
+[12:49] fitting edge.
+[12:51] That mark becomes your visual indicator.
+[12:54] If the fitting ever starts to creep or
+[12:56] the pipe shifts even a fraction, you
+[12:59] will see the mark move away from the
+[13:01] edge of the fitting.
+[13:03] Professional plumbers who use push-fit
+[13:05] connections in commercial settings do
+[13:07] this as standard practice.
+[13:09] It takes 2 seconds and it gives you an
+[13:12] early warning system that can save you
+[13:14] thousands in water damage.
+[13:16] One line from a marker can be the
+[13:18] difference between catching a problem
+[13:20] and coming home to a flooded basement.
+[13:23] That wraps it up.
+[13:25] If this was useful, you will love the
+[13:27] full book.
+[13:28] 50 step-by-step plumbing fixes with
+[13:30] diagrams all in one guide.
+[13:33] Link is below.
+[13:35] Hit subscribe so you do not miss the
+[13:37] next video.
+[13:39] Thanks for watching.
