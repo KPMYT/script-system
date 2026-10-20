@@ -51,7 +51,7 @@ description: The final quality gate every script passes before it ships. Six gro
 
 - **D1. The shape test.** Every sentence is tested against the niche pack's voice samples, or the persona profile's if it overrides them. Quote one matched line.
 - **D2. The humanizer sweep,** H1-H23 (`humanizer.md`), including the counts for H20, H21 and H23.
-- **D3. The scanner.** Run `script-scanner.py` with the niche pack and persona profile as rules files, the research pack as the pack, and the niche pack's `excerpts.md` and `reference-scripts.md` with `--refs`. Hard bans, mechanical problems, niche bans and "copied from reference" findings must all be zero.
+- **D3. The scanner.** Run `script-scanner.py` with the niche pack and persona profile as rules files, the research pack as the pack, and the niche pack's `excerpts.md` and `reference-scripts.md` plus the persona profile with `--refs`. Hard bans, mechanical problems, niche bans and "copied from reference" findings must all be zero.
 - **D4. Numbers trace to the research pack.** Every number appears in the pack, or is worked out from pack numbers with the math shown in the evidence block. A number the video relies on that traces to nothing is a Hold.
 - **D5. Contrast and poster-quote lines.** At most one "it's not X, it's Y" reframe, and only one earned poster-quote line, if any.
 
@@ -83,7 +83,7 @@ YouTube judges channels on whether content is mass-produced or reused. This grou
   - what the offer is, the added-value promise, and where to get it
   - the CTA or nothing, then stop
   - no named future video
-- **F4. Offer rules** (`offer-rules.md`).
+- **F4. Offer rules** (`offer-rules.md`). Every page reference to the persona's book is checked against the book text and the plan's book match; a page that doesn't cover what the script says is a false claim.
 - **F5. The claims policy** (`claims-policy.md`). No checkable life facts, no invented sales, customers, family or history, and personal details only from the persona profile's list.
 - **F6. Facts versus framing** stay within the limits in `research-and-sourcing.md`.
 - **F7. Nothing pointed at without being named.** The visuals are built from the narration, so the script never points at something it doesn't name ("look at this," "right here").

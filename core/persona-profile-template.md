@@ -36,7 +36,9 @@ Mid-video CTA: yes | no
 End CTA: yes | no
 Offer(s), for each one:
   Printed title (exact, used in the markers):
+  Spoken as (how the narration says the title):
   Type: e-book | email list | affiliate | subscribe only
+  Book text (the offer's full text with page markers, for the book match): [file in personas/books/] | none
   True facts (contents, counts, chapters; the only facts a CTA may use):
   The added-value promise:
   Where to get it (description link, QR code, etc.):
@@ -57,5 +59,6 @@ Optional blocks the workflow and scanner read, if the channel needs them:
 ```scanner
 lift: [a hard ban, by phrase]
 ban: [phrase] | [label]
+allow: [a line the channel says the same way every time, exempt from the copy guard]
 ```
 ````

@@ -114,7 +114,7 @@ The mechanism doesn't change. Every script ends with one rotation log line, and 
 **Format:** one plain-text line, no emoji.
 
 ```
-ROTATION LOG ENTRY: [date] | [title] | opening: [move] "[first 6-10 words]" | turn: [move] | bridges: [moves] | return: [move] | mid-CTA: "[first 6-10 words]" | cta variant: [which, or n/a] | adversary: [which, how voiced] | personality: [moves] | swears: [words or none] | closing: [move]
+ROTATION LOG ENTRY: [date] | [title] | opening: [move] "[first 6-10 words]" | turn: [move] | bridges: [moves] | return: [move] | mid-CTA: "[first 6-10 words]" | cta variant: [which, or n/a] | adversary: [which, how voiced] | personality: [moves] | swears: [words or none] | details: [persona details used, or none] | book: [benefits named; pages cited, or none] | closing: [move]
 ```
 
 ---

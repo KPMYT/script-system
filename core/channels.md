@@ -9,8 +9,8 @@ The workflow shows this list at START. A channel can only be scripted when its s
 
 | # | Channel | Niche pack | Persona profile | Status |
 |---|---|---|---|---|
-| 1 | Hank Hardwood | `woodworking-scripts` | `personas/hank-hardwood.md` | pending: persona profile not written yet |
-| 2 | Dale Oakfield's Workshop | `woodworking-scripts` | `personas/dale-oakfield.md` | pending: persona profile not written yet |
+| 1 | Hank Hardwood | `woodworking-scripts` | `personas/hank-hardwood.md` | ready |
+| 2 | Dale Oakfield's Workshop | `woodworking-scripts` | `personas/dale-oakfield.md` | ready |
 
 ## Adding a channel
 

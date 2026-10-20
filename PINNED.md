@@ -5,20 +5,14 @@ Things parked during the rebuild, so nothing gets lost between sessions.
 ## Done so far
 - **Core (complete):** `workflow.md` (START), `channels.md`, `claims-policy.md`, `persona-profile-template.md`, `humanizer.md`, `voice-anchoring.md`, `script-scanner.py`, `retention-mechanics.md`, `variety-rotation.md`, `cta-and-endings.md`, `offer-rules.md`, `research-and-sourcing.md`, `script-structures.md`, `greenlight-audit.md`.
 - **Woodworking pack:** `woodworking-scripts`, with excerpts, voice samples, both templates, its scanner block, its inputs block, and freshness (live facts re-checked after 30 days; change if needed).
-- **Tests:** `tests/run_checks.py`, 17 checks, all passing (copy guard added in refs-01).
+- **Tests:** `tests/run_checks.py`, 18 checks, all passing (copy guard added in refs-01; the profile allow: check added 2026-10-20).
 - **refs-01 (2026-10-18):** excerpts expanded to 15 groups, `reference-scripts.md` added, copy guard (`--refs`) wired into the workflow and the audit. See `tests/iterations/refs-01/CHANGES.md`.
 
 ## Still to rebuild in the core
 - Nothing. The core is complete.
 
 ## To build
-- **Persona profiles for Hank and Dale,** from `core/persona-profile-template.md`. Nothing can be scripted until these exist and are marked ready in `core/channels.md`. Include:
-  - the dog, "All righty" and the sign-off in Hank's profile
-  - Hank's two-line CTA, placed after the first payoff
-  - Dale's CTA, unchanged
-  - the CTA variants, if testing at random
-  - the offers' printed titles and true facts
-  - whether to use a named doubter
+- **Persona profiles for Hank and Dale:** done 2026-10-20 (`personas/hank-hardwood.md`, `personas/dale-oakfield.md`), approved by the operator.
 - **Research stage** (between ideation and script). Runs in Cowork, following core `research-and-sourcing.md`, with the mandatory verification pass. It fills the niche's research pack template, so the two stages can't drift apart.
 - **Niche launch skill and persona launch skill.** These collect every variable we've defined so far into a repeatable launch process:
   - competitor study (winners plus flops)

@@ -4,9 +4,126 @@
 - **Exact printed title** (used in CTA markers): 100 Ways to Make Your First $1,000 with Woodworking
 - **What's in it:** five chapters and 100 builds; every build has "Lumber & Cost", "Safety Check" and "What It Sells For".
 - **Source:** the PDF in the channel's ebook folder on Google Drive (277 pages), converted to text by OCR on 2026-10-20. The PDF itself isn't stored here.
-- **Page numbers:** the book has no printed page numbers. "Page N" below is page N as a PDF reader shows it, and it's the page a CTA may cite.
+- **Page numbers:** the book prints its page numbers at the bottom of each page, always two lower than a PDF reader's page count (PDF page 63 is printed page 61; the cover and contents pages have none). Each marker below shows both. **A CTA cites the printed page number**, because that's what the viewer sees on the page.
 - **OCR note:** a few words are split where a line broke on the page (for example "cons truction"). Search with that in mind; never quote a split word.
 - **Use:** for checking which pages cover a video's topic and which facts a CTA may state about the book. It supplies no facts, steps or numbers to the script itself.
+
+## Chapter page map (printed page numbers)
+
+| Chapter | Printed pages |
+|---|---|
+| 1. Start Here: why two-by-fours beat walnut | 1-27 |
+| 2. The starter toolkit and your first five builds | 28-69 |
+| 3. Build, batch, repeat: the economics and the first sales | 70-146 |
+| 4. Scaling your signature products: ten styles and seasonal demand | 147-223 |
+| 5. From garage to a thousand bucks: the business moves and the mistakes to skip | 224-275 |
+
+## Build index (printed page numbers)
+
+Each build runs from its heading to the page where the next build starts (a build can end on the same page the next one begins). Cite these numbers.
+
+| Build | Printed pages |
+|---|---|
+| 1. Build a Farmhouse Key and Mail Holder | 4-7 |
+| 2. Build a Two-by-Four Wine Rack | 7-10 |
+| 3. Build a Rustic Wall- Mounted Coat Rack | 10-13 |
+| 4. Build a Chunky Pine Serving Tray | 13-16 |
+| 5. Build a Set of Barn-Wood Candle Holders | 16-19 |
+| 6. Build a Simple Cedar or Pine Herb Planter | 19-22 |
+| 7. Build a Rustic Address or House Number Sign | 22-25 |
+| 8. Build a Two-by-Four Step Stool | 25-30 |
+| 9. Cut and Glue Your First Edge-Grain Cutting Board | 30-34 |
+| 10. Build a Two-Tone Cutting Board Using Cheap Pine | 34-37 |
+| 11. Add a Juice Groove and Handle Cutout to Level Up Your | 37-40 |
+| 12. Slice a Two-by-Four Into a Set of Four Rustic Coasters | 40-43 |
+| 13. Build End-Grain Coasters from Two-by-Four Scraps | 43-46 |
+| 14. Make a Coaster Set with a Routed Edge for a Fancier Look | 46-49 |
+| 15. Build a Basic Floating Shelf from One Two-by-Four | 49-51 |
+| 16. Build a Rustic Ledge Shelf with Hidden Cleat Mounting | 51-53 |
+| 17. Build a Corner Shelf from Scrap One-by-Six | 53-55 |
+| 18. Build a Set of Stacked Three-Tier Shelves for Small | 55-57 |
+| 19. Build a Simple Butt-Joint Storage Box from One-by- | 57-59 |
+| 20. Build a Small Keepsake Box with a Sliding Lid | 59-61 |
+| 21. Build a Rustic Crate-Style Box with Rope Handles | 61-62 |
+| 22. Build a Rustic Wood Sign from a Fence Board | 62-64 |
+| 23. Build a Small Wall-Mounted Key Holder | 64-65 |
+| 24. Build a Set of Wood Candle Holders from Two-by- | 65-67 |
+| 25. Build a Simple Picture Ledge for Photos and Frames | 67-72 |
+| 26. Batch Out a Set of Twenty End Grain Style Coasters | 72-75 |
+| 27. Cut a Floating Shelf Three Ways from One Board | 75-78 |
+| 28. Build a Simple Wine Rack from Scrap Two by Fours | 78-81 |
+| 29. Make a Batch of Rustic Picture Frames from One by Sixes | 81-84 |
+| 30. Build a Key and Mail Holder for the Entryway | 84-87 |
+| 31. Cut a Set of Nesting Serving Trays | 87-90 |
+| 32. Build a Simple Step Stool from Two by Fours | 90-93 |
+| 33. Make a Batch of Herb Planter Boxes | 93-96 |
+| 34. Build a Rustic Charcuterie Board with Handle | 96-99 |
+| 35. Cut a Set of Farmhouse Style Napkin Holders | 99-102 |
+| 36. Build a Small Spice Rack for the Kitchen Wall | 102-105 |
+| 37. Make a Batch of Wooden Phone and Tablet Stands | 105-108 |
+| 38. Build a Set of Farmhouse Style Coat Hooks | 108-111 |
+| 39. Cut a Batch of Cutting Boards with Juice Grooves | 111-114 |
+| 40. Build a Small Jewelry Box with a Sliding Lid | 114-117 |
+| 41. Make a Set of Bath Caddies for Over the Tub | 117-120 |
+| 42. Build a Rolling Cart Style Plant Stand | 120-123 |
+| 43. Cut a Batch of Candle Holder Blocks | 123-126 |
+| 44. Build a Wall Mounted Magazine and Mail Rack | 126-129 |
+| 45. Make a Batch of Cornhole Style Yard Game Boards | 129-132 |
+| 46. Build a Set of Nesting Storage Crates | 132-135 |
+| 47. Cut a Batch of Personalized Cutting Board Blanks | 135-138 |
+| 48. Build a Small Farmhouse Style Tool Tote | 138-141 |
+| 49. Make a Batch of Pet Feeding Stations | 141-144 |
+| 50. Build a Set of Rustic Wall Shelves with Metal Brackets | 144-149 |
+| 51. Build a Footed Serving Tray to Match Your Best- | 149-152 |
+| 52. Cut a Round Charcuterie Paddle From Scrap | 152-155 |
+| 53. Add an Epoxy River to Your Standard Board for a Deluxe | 155-158 |
+| 54. Build a Farmhouse Cake Stand for Wedding Season | 158-161 |
+| 55. Turn Cutoffs Into a Set of Personalized Coasters | 161-164 |
+| 56. Build a Rustic Ring Box for Wedding Proposals | 164-167 |
+| 57. Build a Guest Book Stand for Wedding Season | 167-170 |
+| 58. Build a Wine Bottle Caddy With Two Glasses | 170-173 |
+| 59. Build a Wooden Wreath for the Holiday Rush | 173-176 |
+| 60. Build a Set of Rustic Wood Ornaments | 176-179 |
+| 61. Build a Bread Box With a Sliding Lid | 179-182 |
+| 62. Build a Utensil Crock to Match Your Cutting Boards | 182-185 |
+| 63. Build a Spice Rack From 1x4 Cutoffs | 185-188 |
+| 64. Build a Key Holder Rack With Hooks | 188-191 |
+| 65. Build a Farmhouse Serving Tray With Rope Handles | 191-194 |
+| 66. Build a Wall-Mounted Wine Rack | 194-197 |
+| 67. Build a Herb Planter Box for the Kitchen Windowsill | 197-200 |
+| 68. Build a Napkin Holder to Round Out Your Table Sets | 200-203 |
+| 69. Build a Cheese Board With a Built-In Juice Groove | 203-206 |
+| 70. Build a Personalized Anniversary Cutting Board | 206-209 |
+| 71. Build a Mini Cake Stand for Cupcakes | 209-212 |
+| 72. Build a Set of Nesting Serving Boards | 212-215 |
+| 73. Build a Christmas Tree Centerpiece From 2x4 Scrap | 215-218 |
+| 74. Build a Charcuterie Set With Matching Coasters | 218-221 |
+| 75. Build a Deluxe Live- Edge Style Serving Board Using a | 221-228 |
+| 76. Build a Farmhouse Console Table From Three 2x4s | 228-231 |
+| 77. Build a Rustic Wine Rack That Turns Scrap Into a $60 | 231-234 |
+| 78. Build a Mudroom Bench With Hooks for the Whole Family | 234-237 |
+| 79. Build a Porch Planter Box That Survives Full Sun | 237-240 |
+| 80. Build a Herringbone Wall Art Panel From Cut-Off | 240-243 |
+| 81. Build a Rolling Bar Cart for the Backyard Crowd | 243-245 |
+| 82. Build a Queen Headboard That Looks Like | 245-247 |
+| 83. Build a Cornhole Board Set for Tailgate Season | 247-249 |
+| 84. Build a Ladder Shelf That Fills Empty Corners | 249-250 |
+| 85. Build a Dog Bed Frame Your Pup Will Actually Use | 250-252 |
+| 86. Build an Adirondack Chair From Construction | 252-253 |
+| 87. Build a Firewood Rack That Keeps Logs Off the | 253-255 |
+| 88. Build a Garden Trellis for Climbing Plants | 255-256 |
+| 89. Build a Mirror Frame That Upgrades a Bathroom in | 256-258 |
+| 90. Build a Rustic Picture Ledge Set for Gallery Walls | 258-259 |
+| 91. Build a Spice Rack That Fits Inside a Cabinet Door | 259-261 |
+| 92. Build a Laundry Hamper With a Removable Liner | 261-262 |
+| 93. Build a Step Stool Sturdy Enough for Grandkids | 262-264 |
+| 94. Build a Key and Mail Organizer for the Entryway | 264-265 |
+| 95. Build a Plant Stand Trio for Window Light | 265-267 |
+| 96. Build a Serving Tray Set With Cut Handles | 267-268 |
+| 97. Build a Charcuterie Board Big Enough for a Party | 268-270 |
+| 98. Build a Coffee Table With Hairpin Legs | 270-272 |
+| 99. Build a Porch Swing That Seats Two | 272-273 |
+| 100. Build a Farmhouse Dining Bench to Match Any Table | 273-275 |
 
 ## Page 1
 
@@ -35,14 +152,14 @@ Chapter 5 — From Garage to a Thousand Bucks: The Business Moves,
 
 the Mistakes to Skip, and What Happens Next
 
-## Page 3
+## Page 3 (printed page 1)
 
 Start Here: Why Two-by-Fours Beat
 Walnut When You're Building Your
 First Thousand
 
 
-## Page 4
+## Page 4 (printed page 2)
 
 Alrighty, so before we get into the actual builds here, let me tell
 you what these eight have in common, because it matters more
@@ -54,7 +171,7 @@ truction lumber, the stuff that's meant to hold up a wall, not sit
 
 on somebody's kitchen counter. And that's exactly the point.
 
-## Page 5
+## Page 5 (printed page 3)
 
 I know there's a whole crowd of woodworking folks who'll tell
 you that pine is beneath them, that dimensional lumber is what
@@ -73,7 +190,7 @@ you'd be with walnut. That difference right there is what lets
 
 you keep practicing instead of getting scared off the tools.
 
-## Page 6
+## Page 6 (printed page 4)
 
 These eight are basically my proof of concept that cheap lumb
 er sells just fine if you treat it right. My dog's been underfoot
@@ -96,7 +213,7 @@ out of an offcut I had leftover from another project, so this is a
 
 great one for using up scraps you'd otherwise toss.
 
-## Page 7
+## Page 7 (printed page 5)
 
 The Tricky Part: Honestly the fussiest part is getting your
 hooks spaced even, because if you eyeball it they end up looking
@@ -109,7 +226,7 @@ ahome center for twenty minutes, then a dark walnut stain sits
 
 in those grooves and really sells it.
 
-## Page 8
+## Page 8 (printed page 6)
 
 Lumber & Cost: One offcut of one by six, five cup hooks,
 wood screws for the mounting cleat, comes to around eight
@@ -125,13 +242,13 @@ depending on how nice your hardware looks, so on an eight
 dollar build that's twelve to twenty two dollars profit for
 maybe forty minutes of actual work.
 
-## Page 9
+## Page 9 (printed page 7)
 
 Build 2 — Build a Two-by-Four
 Wine Rack
 
 
-## Page 10
+## Page 10 (printed page 8)
 
 The Build: This is a stacked rack, three two by fours cut to
 identical lengths, notched with half circles so the bottles cradle
@@ -156,7 +273,7 @@ clear coat over top, and that scorched look hides pine's blotchin
 
 ess better than stain ever does.
 
-## Page 11
+## Page 11 (printed page 9)
 
 Lumber & Cost: Three two by fours and some wood glue,
 comes to about eighteen dollars total.
@@ -172,13 +289,13 @@ What It Sells For: These have sold for forty five to sixty
 five dollars for me, so you're looking at twenty seven to
 forty seven dollars of profit on an eighteen dollar build.
 
-## Page 12
+## Page 12 (printed page 10)
 
 Build 3 — Build a Rustic Wall-
 Mounted Coat Rack
 
 
-## Page 13
+## Page 13 (printed page 11)
 
 The Build: Take a one by six about three feet long, add five or
 six wooden pegs or hooks along the front, and a cleat on the
@@ -202,7 +319,7 @@ right, because that soft worn edge is what reads as old and used
 
 instead of fresh cut pine.
 
-## Page 14
+## Page 14 (printed page 12)
 
 Lumber & Cost: One one by six board plus wooden pegs or
 hooks, roughly twelve dollars depending on the hardware
@@ -218,14 +335,14 @@ What It Sells For: Coat racks like this move for thirty five
 to fifty dollars, which puts your profit at twenty three to
 thirty eight dollars over the twelve dollar build cost.
 
-## Page 15
+## Page 15 (printed page 13)
 
 Build 4 — Build a Chunky Pine
 Serving Tray
 
 Hank Hat
 
-## Page 16
+## Page 16 (printed page 14)
 
 The Build: This one's a solid one by six or two glued up one by
 fours for the base, with a couple of thin strips added around the
@@ -249,7 +366,7 @@ without making it look plasticky like a lot of polyurethane fini
 
 shes do.
 
-## Page 17
+## Page 17 (printed page 15)
 
 Lumber & Cost: Two one by four boards glued up plus thin
 edge strips, around fourteen dollars including glue and
@@ -265,13 +382,13 @@ What It Sells For: These sell in the thirty to forty five
 dollar range, so you're clearing sixteen to thirty one dollars
 profit on a fourteen dollar build.
 
-## Page 18
+## Page 18 (printed page 16)
 
 Build 5 — Build a Set of Barn-Wood
 Candle Holders
 
 
-## Page 19
+## Page 19 (printed page 17)
 
 The Build: This is about the cheapest, fastest build on this
 whole list, just chunky blocks cut from a four by four or a doub
@@ -295,7 +412,7 @@ close to reclaimed barn wood as a home center two by four is
 
 ever going to look.
 
-## Page 20
+## Page 20 (printed page 18)
 
 Lumber & Cost: One doubled up two by four cut into three
 or four blocks, about six dollars for the wood and stain.
@@ -310,13 +427,13 @@ What It Sells For: Sold as a set of three, these bring
 twenty to thirty dollars, which is fourteen to twenty four
 dollars profit over a six dollar material cost.
 
-## Page 21
+## Page 21 (printed page 19)
 
 Build 6 — Build a Simple Cedar or
 Pine Herb Planter
 
 
-## Page 22
+## Page 22 (printed page 20)
 
 The Build: This is a small box, maybe eight inches by twenty,
 built from two two by fours ripped down thinner and screwed
@@ -342,7 +459,7 @@ rough sawn character instead of that flat, sanded, obviously
 
 home center look.
 
-## Page 23
+## Page 23 (printed page 21)
 
 Lumber & Cost: Two two by fours plus screws and a scrap
 of plastic sheeting for the liner, around twenty dollars.
@@ -357,13 +474,13 @@ What It Sells For: Planters like this move for forty to
 sixty dollars, especially around spring, putting your profit at
 twenty to forty dollars on a twenty dollar build.
 
-## Page 24
+## Page 24 (printed page 22)
 
 Build 7 — Build a Rustic Address or
 House Number Sign
 
 
-## Page 25
+## Page 25 (printed page 23)
 
 The Build: This is a one by six or a glued up panel with house
 numbers either routed in, painted on with a stencil, or attached
@@ -385,7 +502,7 @@ high spots lighter, that contrast is what makes cheap pine read
 
 as reclaimed and weathered instead of fresh from the store.
 
-## Page 26
+## Page 26 (printed page 24)
 
 Lumber & Cost: One one by six board plus stencils or numb
 ers and finish, roughly fifteen dollars.
@@ -402,13 +519,13 @@ forty dollars profit on a fifteen dollar build, and custom
 work like this tends to bring repeat customers too since
 everybody's got a house that needs numbers.
 
-## Page 27
+## Page 27 (printed page 25)
 
 Build 8 — Build a Two-by-Four
 Step Stool
 
 
-## Page 28
+## Page 28 (printed page 26)
 
 The Build: This is a simple two step stool, sturdy enough to act
 ually stand on, built from a handful of two by fours for the legs
@@ -435,7 +552,7 @@ those spots looking intentional instead of looking like fasteners
 
 you're trying to hide.
 
-## Page 29
+## Page 29 (printed page 27)
 
 Lumber & Cost: Two two by fours for the frame and legs,
 one one by six for the tread, plus screws, coming to about
@@ -455,13 +572,13 @@ good example of how a slightly bigger project can still penc
 
 il out great even with more material going into it.
 
-## Page 30
+## Page 30 (printed page 28)
 
 The Starter Toolkit and Your First
 Five Builds: Learning While You Earn
 
 
-## Page 31
+## Page 31 (printed page 29)
 
 Grab a cup of coffee because this is the fun part, this is where
 the sawdust starts flying and the driveway starts filling up with
@@ -478,7 +595,7 @@ flat, dead-square hardwood, you need cheap pine and a little bit
 
 of patience.
 
-## Page 32
+## Page 32 (printed page 30)
 
 What ties these seventeen builds together is that they're all
 teaching you something you'll use for the rest of your woodw
@@ -502,7 +619,7 @@ from a Single Pine One-by-Six
 
 30
 
-## Page 33
+## Page 33 (printed page 31)
 
 The Build: Alrighty, this is the one I tell every beginner to start
 with, because it teaches you the single most important skill in
@@ -516,7 +633,7 @@ nervous right before I spread the glue, that part never really
 
 goes away and honestly I think that's a good thing.
 
-## Page 34
+## Page 34 (printed page 32)
 
 The Tricky Part: The fussy step is getting your rip cuts straight
 enough that the glue joints close up tight without gaps, because
@@ -530,7 +647,7 @@ pine so it doesn't look like a fresh cut two-by-four, it looks like
 
 something that's been in a farmhouse kitchen for years.
 
-## Page 35
+## Page 35 (printed page 33)
 
 Lumber & Cost: One eight-foot pine one-by-six, wood glue,
 food-safe mineral oil, roughly ten to twelve dollars total.
@@ -544,14 +661,14 @@ What It Sells For: These typically move for twenty-five
 to forty dollars depending on your area, which puts you
 thirteen to thirty dollars ahead on a single board.
 
-## Page 36
+## Page 36 (printed page 34)
 
 Build 10 — Build a Two-Tone
 Cutting Board Using Cheap Pine
 and a Contrasting Scrap
 
 
-## Page 37
+## Page 37 (printed page 35)
 
 The Build: Now once you've got that first single-species board
 under your belt, this next one is basically the same skill but
@@ -575,7 +692,7 @@ between looking handmade in a good way versus looking like
 
 two mismatched scraps taped together.
 
-## Page 38
+## Page 38 (printed page 36)
 
 Lumber & Cost: One pine one-by-six plus a contrasting
 scrap board (cedar or similar), wood glue, mineral oil finish,
@@ -594,14 +711,14 @@ profit.
 
 36
 
-## Page 39
+## Page 39 (printed page 37)
 
 Build 11 — Add a Juice Groove and
 Handle Cutout to Level Up Your
 Cutting Board
 
 
-## Page 40
+## Page 40 (printed page 38)
 
 The Build: Okay so this build takes either of those first two
 boards and dresses it up with a juice groove around the
@@ -624,7 +741,7 @@ corner, so now I always sneak up on the final depth in two or
 
 three passes instead of trying to be a hero.
 
-## Page 41
+## Page 41 (printed page 39)
 
 Lumber & Cost: Same base board as your standard cutting
 board build, roughly twelve to fifteen dollars, plus whatever
@@ -640,13 +757,13 @@ and handle typically commands thirty-five to sixty dollars,
 which is a meaningful jump for maybe twenty extra minutes
 of router time.
 
-## Page 42
+## Page 42 (printed page 40)
 
 Build 12 — Slice a Two-by-Four
 Into a Set of Four Rustic Coasters
 
 
-## Page 43
+## Page 43 (printed page 41)
 
 The Build: This is about as simple as woodworking gets and it's
 a fantastic confidence builder, you're taking one two-by-four,
@@ -668,7 +785,7 @@ grain a little before I finish them, so they read as farmhouse
 
 decor instead of just chunks of two-by-four.
 
-## Page 44
+## Page 44 (printed page 42)
 
 Lumber & Cost: One eight-foot two-by-four, a small can of
 finish, roughly six to eight dollars for a set of four.
@@ -683,13 +800,13 @@ for twelve to twenty dollars, so you're clearing somewhere
 around six to fourteen dollars of profit per set, and they're
 fast enough to batch by the dozen.
 
-## Page 45
+## Page 45 (printed page 43)
 
 Build 13 — Build End-Grain
 Coasters from Two-by-Four Scraps
 
 
-## Page 46
+## Page 46 (printed page 44)
 
 The Build: Alrighty, this one's a step up from the last one and it
 uses the same material, but instead of showing the flat face of
@@ -709,7 +826,7 @@ coats of a food-safe oil really brings out that ring pattern in a
 
 way that makes people stop scrolling.
 
-## Page 47
+## Page 47 (printed page 45)
 
 Lumber & Cost: Two-by-four offcuts you likely already have
 from another build, plus finish, so this one can run as low as
@@ -726,13 +843,13 @@ higher than face-grain ones, typically fifteen to twenty-five
 dollars a set, putting your profit around ten to twenty
 dollars.
 
-## Page 48
+## Page 48 (printed page 46)
 
 Build 14 — Make a Coaster Set with
 a Routed Edge for a Fancier Look
 
 
-## Page 49
+## Page 49 (printed page 47)
 
 The Build: Okay so this is basically a dress-up move on either
 coaster style before it, you're taking your blanks and running a
@@ -752,7 +869,7 @@ instead of holding it, is the difference between a clean consist
 
 ent edge and a chipped one.
 
-## Page 50
+## Page 50 (printed page 48)
 
 Lumber & Cost: Same two-by-four blanks as before,
 roughly six to eight dollars for a set of four, plus finish.
@@ -766,13 +883,13 @@ What It Sells For: A routed-edge set typically sells in the
 fifteen to twenty-five dollar range, similar to end-grain, givi
 ng you roughly eight to eighteen dollars of profit per set.
 
-## Page 51
+## Page 51 (printed page 49)
 
 Build 15 — Build a Basic Floating
 Shelf from One Two-by-Four
 
 
-## Page 52
+## Page 52 (printed page 50)
 
 The Build: This is the shelf I tell people to build first because it's
 genuinely just one two-by-four turned into a box, with a cleat
@@ -796,7 +913,7 @@ two-by-four and start looking like reclaimed barn wood.
 
 50
 
-## Page 53
+## Page 53 (printed page 51)
 
 Lumber & Cost: One eight-foot two-by-four, wood glue,
 wall anchors, roughly eight to ten dollars.
@@ -815,7 +932,7 @@ twenty-five dollars of profit.
 Build 16 — Build a Rustic Ledge Shelf with Hidden Cleat
 Mounting
 
-## Page 54
+## Page 54 (printed page 52)
 
 The Build: Now this one is a variation on the floating shelf but
 instead of a closed box, it's an open ledge, basically a flat board
@@ -837,7 +954,7 @@ ng to fight it during glue-up, nobody's going to notice a little
 
 sanding but they will notice a gap.
 
-## Page 55
+## Page 55 (printed page 53)
 
 Lumber & Cost: One two-by-four for the shelf body plus a
 scrap strip for the lip, roughly seven to nine dollars.
@@ -861,7 +978,7 @@ corner, with a simple cleat system on the two back edges for
 
 mounting.
 
-## Page 56
+## Page 56 (printed page 54)
 
 The Tricky Part: Getting that triangle cut to an actual clean
 ninety degree corner is the fussy step, because if your two
@@ -873,7 +990,7 @@ ng than redo the whole piece. Weathering the edges lightly
 with sandpaper after cutting softens that factory-fresh look
 and helps it blend with the rustic finish.
 
-## Page 57
+## Page 57 (printed page 55)
 
 Lumber & Cost: One one-by-six, roughly three feet, cleat
 scraps, about six dollars.
@@ -891,7 +1008,7 @@ Build 18 — Build a Set of Stacked Three-Tier Shelves for Small
 
 Spaces
 
-## Page 58
+## Page 58 (printed page 56)
 
 The Build: Okay so this is where you take the basic shelf skill
 and scale it up a little, three shelves of graduated width stacked
@@ -915,7 +1032,7 @@ and my results get way more consistent.
 
 56
 
-## Page 59
+## Page 59 (printed page 57)
 
 Lumber & Cost: Two two-by-fours and part of a one-by-six
 for the shelves, glue and screws, roughly eighteen to
@@ -936,7 +1053,7 @@ Build 19 — Build a Simple Butt-Joint Storage Box from One-by-
 Six
 
 
-## Page 60
+## Page 60 (printed page 58)
 
 The Build: This is the box that teaches you the basics of box
 construction without getting fancy about joinery, four sides
@@ -956,7 +1073,7 @@ gaps, and a light rustic stain with the corners sanded round aft
 
 erward hides the joint lines nicely.
 
-## Page 61
+## Page 61 (printed page 59)
 
 Lumber & Cost: One one-by-six board and a thin plywood
 scrap for the bottom, glue, small nails, roughly ten to twelve
@@ -983,7 +1100,7 @@ ined than the basic box and it's a nice option for people shopp
 
 ing for a small gift item.
 
-## Page 62
+## Page 62 (printed page 60)
 
 The Tricky Part: Cutting that groove consistently on all four
 sides so the lid slides smoothly without falling out or binding is
@@ -1011,7 +1128,7 @@ profit in the twelve to twenty-eight dollar range.
 
 60
 
-## Page 63
+## Page 63 (printed page 61)
 
 Build 21 — Build a Rustic Crate-Style Box with Rope Handles
 
@@ -1036,7 +1153,7 @@ splintering.
 
 61
 
-## Page 64
+## Page 64 (printed page 62)
 
 Lumber & Cost: One one-by-six for the ends and slats, a
 length of rope, roughly twelve to fifteen dollars.
@@ -1060,7 +1177,7 @@ point into custom, personalized product, which Chapter 4 goes
 
 into a lot more once you're scaling this stuff up.
 
-## Page 65
+## Page 65 (printed page 63)
 
 The Tricky Part: Getting lettering that looks clean and intent
 ional is the part people struggle with if they're not confident
@@ -1075,7 +1192,7 @@ one you made by hand.
 
 63
 
-## Page 66
+## Page 66 (printed page 64)
 
 Lumber & Cost: One cedar fence picket or one-by-six, paint
 or wood-burning supplies, roughly five to eight dollars.
@@ -1100,7 +1217,7 @@ buy alongside your bigger items.
 
 64
 
-## Page 67
+## Page 67 (printed page 65)
 
 The Tricky Part: Spacing the hooks evenly is the only real fussy
 part, and I mark all my hook positions with a combination
@@ -1128,7 +1245,7 @@ Four Offcuts
 
 65
 
-## Page 68
+## Page 68 (printed page 66)
 
 The Build: Alrighty, this one's great for using up short offcuts
 from other builds, you're taking small blocks, drilling a hole
@@ -1150,7 +1267,7 @@ ing on an angle, so this is one spot worth slowing down for.
 
 66
 
-## Page 69
+## Page 69 (printed page 67)
 
 Lumber & Cost: Two-by-four offcuts, likely already on hand,
 roughly three to five dollars for a set.
@@ -1168,7 +1285,7 @@ Build 25 — Build a Simple Picture Ledge for Photos and Frames
 
 67
 
-## Page 70
+## Page 70 (printed page 68)
 
 The Build: Okay so this closes out the chapter with a build
 that's essentially a cousin of the ledge shelf from earlier, but
@@ -1193,7 +1310,7 @@ starts to skin over.
 
 68
 
-## Page 71
+## Page 71 (printed page 69)
 
 Lumber & Cost: One two-by-four for the shelf plus a thin
 strip for the lip, roughly seven to nine dollars.
@@ -1210,14 +1327,14 @@ lands around ten to twenty dollars.
 
 69
 
-## Page 72
+## Page 72 (printed page 70)
 
 Build, Batch, Repeat: Making the
 Economics Work and Hitting Your
 First Sales
 
 
-## Page 73
+## Page 73 (printed page 71)
 
 These next twenty five builds are the ones I actually made my
 rent money on, back when I was still figuring out that a table
@@ -1234,7 +1351,7 @@ a small business, and the difference in your hourly rate is not
 
 small, it's the whole game.
 
-## Page 74
+## Page 74 (printed page 72)
 
 I want you thinking about three things as you read through
 these. First, the materials times three rule, because every single
@@ -1253,7 +1370,7 @@ Alrighty, let's get into it. Go grab some lumber and let's build.
 
 Build 26 — Batch Out a Set of Twenty End Grain Style Coasters
 
-## Page 75
+## Page 75 (printed page 73)
 
 The Build: Okay so this one isn't real end grain, because that's a
 scrap bin project for another day, but you can fake the look
@@ -1273,7 +1390,7 @@ just enough that they read like something tumbled and aged ins
 
 tead of fresh cut pine.
 
-## Page 76
+## Page 76 (printed page 74)
 
 Lumber & Cost: One eight foot two by six, wood glue, and a
 can of spray finish gets you a batch of twenty for around
@@ -1291,14 +1408,14 @@ ars depending on your market, which on a batch of twenty
 puts your profit somewhere around forty to eighty dollars
 for one afternoon of work.
 
-## Page 77
+## Page 77 (printed page 75)
 
 Build 27 — Cut a Floating Shelf
 Three Ways from One Board
 
 Hank Hardwood
 
-## Page 78
+## Page 78 (printed page 76)
 
 The Build: This is the shelf that taught me batching isn't just
 about making twenty of the same thing, it's about making one
@@ -1317,7 +1434,7 @@ a wire brush before staining, which opens up the grain and
 
 takes away that flat new lumber look.
 
-## Page 79
+## Page 79 (printed page 77)
 
 Lumber & Cost: One eight foot one by six, a hidden shelf
 bracket, and stain runs about twenty two dollars for all
@@ -1333,13 +1450,13 @@ thirty five dollars depending on length, so the three shelves
 off one board can bring in seventy to ninety dollars against
 a twenty two dollar material cost.
 
-## Page 80
+## Page 80 (printed page 78)
 
 Build 28 — Build a Simple Wine
 Rack from Scrap Two by Fours
 
 
-## Page 81
+## Page 81 (printed page 79)
 
 The Build: | built this one specifically because I had a pile of two
 by four offcuts from another project that were too short for
@@ -1357,7 +1474,7 @@ Leaving the wood a little rough and not sanding it glass smooth
 
 actually helps it read as farmhouse style instead of shop project.
 
-## Page 82
+## Page 82 (printed page 80)
 
 Lumber & Cost: This one used up scraps | already had, but if
 you're buying fresh, two two by fours will run you about
@@ -1374,13 +1491,13 @@ at a solid fifteen to thirty dollars profit per rack.
 
 80
 
-## Page 83
+## Page 83 (printed page 81)
 
 Build 29 — Make a Batch of Rustic
 Picture Frames from One by Sixes
 
 
-## Page 84
+## Page 84 (printed page 82)
 
 The Build: Picture frames are one of those items where people
 will pay real money for something that took me maybe twenty
@@ -1398,7 +1515,7 @@ dark walnut gel stain over pine does more to disguise the cheap
 
 lumber here than almost anything else I build.
 
-## Page 85
+## Page 85 (printed page 83)
 
 Lumber & Cost: One one by six cut into strips gets you
 three or four small frames, running about four dollars a
@@ -1414,13 +1531,13 @@ dollars a frame once you've got the batch process down.
 
 83
 
-## Page 86
+## Page 86 (printed page 84)
 
 Build 30 — Build a Key and Mail
 Holder for the Entryway
 
 
-## Page 87
+## Page 87 (printed page 85)
 
 The Build: This is a little wall piece with a shelf on top and
 
@@ -1441,7 +1558,7 @@ char look that sells way better than plain painted pine.
 
 85
 
-## Page 88
+## Page 88 (printed page 86)
 
 Lumber & Cost: One one by six, a short strip of one by two,
 and a set of small hooks costs around twelve dollars per
@@ -1458,13 +1575,13 @@ thirty eight dollars, leaving you ten to twenty six dollars
 profit depending on how efficient your hook spacing jig
 makes the batch.
 
-## Page 89
+## Page 89 (printed page 87)
 
 Build 31 — Cut a Set of Nesting
 Serving Trays
 
 
-## Page 90
+## Page 90 (printed page 88)
 
 The Build: Nesting trays are three trays of different sizes that
 stack inside each other, and I love building these because it's
@@ -1486,7 +1603,7 @@ ion lumber.
 
 88
 
-## Page 91
+## Page 91 (printed page 89)
 
 Lumber & Cost: Two one by sixes and a quarter sheet of
 thin plywood runs about sixteen dollars for a set of three
@@ -1504,13 +1621,13 @@ healthy fourteen to thirty four dollars profit per set.
 
 89
 
-## Page 92
+## Page 92 (printed page 90)
 
 Build 32 — Build a Simple Step
 Stool from Two by Fours
 
 
-## Page 93
+## Page 93 (printed page 91)
 
 The Build: This little step stool is sturdier than it looks and it's a
 great seller because parents buy them for kids' bathrooms cons
@@ -1531,7 +1648,7 @@ rather than plastic.
 
 9
 
-## Page 94
+## Page 94 (printed page 92)
 
 Lumber & Cost: Two two by fours and a small plywood
 scrap for the top comes to about eleven dollars per stool.
@@ -1545,13 +1662,13 @@ What It Sells For: These move for twenty to thirty five
 dollars, giving you nine to twenty four dollars profit once
 your jig is built and your cut time drops.
 
-## Page 95
+## Page 95 (printed page 93)
 
 Build 33 — Make a Batch of Herb
 Planter Boxes
 
 
-## Page 96
+## Page 96 (printed page 94)
 
 The Build: Small herb planters are cheap to build and people
 buy multiples at once for windowsills, so this is a great one to
@@ -1571,7 +1688,7 @@ people pay extra thinking it's reclaimed.
 
 o4
 
-## Page 97
+## Page 97 (printed page 95)
 
 Lumber & Cost: Cedar fence pickets run about three dollars
 each and two pickets go into each small planter, so figure
@@ -1587,13 +1704,13 @@ a hundred and ten dollars profit total.
 
 95
 
-## Page 98
+## Page 98 (printed page 96)
 
 Build 34 — Build a Rustic
 Charcuterie Board with Handle
 
 
-## Page 99
+## Page 99 (printed page 97)
 
 The Build: This is one of the biggest sellers I've made, a serving
 board with a routed handle hole, and I built it from a glued up
@@ -1611,7 +1728,7 @@ rously, rather than a film finish, is what makes these look rich
 
 and expensive instead of like a plain plank.
 
-## Page 100
+## Page 100 (printed page 98)
 
 Lumber & Cost: Three one by sixes and a bottle of food safe
 mineral oil comes to around fifteen dollars per board.
@@ -1627,13 +1744,13 @@ your profit around twenty to fifty dollars per board.
 
 98
 
-## Page 101
+## Page 101 (printed page 99)
 
 Build 35 — Cut a Set of Farmhouse
 Style Napkin Holders
 
 
-## Page 102
+## Page 102 (printed page 100)
 
 The Build: Napkin holders are a tiny item but they're a fast build
 once you've got a jig, and small fast builds are exactly what you
@@ -1653,7 +1770,7 @@ a kitchen table instead of glossy and cheap.
 
 100
 
-## Page 103
+## Page 103 (printed page 101)
 
 Lumber & Cost: One eight foot one by four makes about
 four napkin holders, so figure around three dollars each in
@@ -1670,13 +1787,13 @@ Is it's some of the best margin in this whole chapter.
 
 101
 
-## Page 104
+## Page 104 (printed page 102)
 
 Build 36 — Build a Small Spice Rack
 for the Kitchen Wall
 
 
-## Page 105
+## Page 105 (printed page 103)
 
 The Build: A wall mounted spice rack is basically a shelf with a
 lip, but people love these because kitchen storage sells itself,
@@ -1696,7 +1813,7 @@ piece instead of a flaw.
 
 103
 
-## Page 106
+## Page 106 (printed page 104)
 
 Lumber & Cost: One one by six and a scrap lip strip runs
 about seven dollars per rack.
@@ -1711,13 +1828,13 @@ dollars profit per unit.
 
 104
 
-## Page 107
+## Page 107 (printed page 105)
 
 Build 37 — Make a Batch of Wooden
 Phone and Tablet Stands
 
 
-## Page 108
+## Page 108 (printed page 106)
 
 The Build: These are tiny, fast, and people buy them as stocking
 stuffers or desk gifts, so I run these in batches of twenty or
@@ -1736,7 +1853,7 @@ makes each one feel more handmade.
 
 106
 
-## Page 109
+## Page 109 (printed page 107)
 
 Lumber & Cost: Two by four offcuts you likely already have
 on hand, or a fresh board for about four dollars, makes ten
@@ -1753,13 +1870,13 @@ price is profit.
 
 107
 
-## Page 110
+## Page 110 (printed page 108)
 
 Build 38 — Build a Set of
 Farmhouse Style Coat Hooks
 
 
-## Page 111
+## Page 111 (printed page 109)
 
 The Build: A board with a few hooks screwed into it sounds too
 simple to sell, but dressed up with a rustic finish these move
@@ -1779,7 +1896,7 @@ pine look.
 
 109
 
-## Page 112
+## Page 112 (printed page 110)
 
 Lumber & Cost: One one by six cut into two backer boards,
 plus hooks, runs around nine dollars per finished piece.
@@ -1794,13 +1911,13 @@ three dollar range per piece.
 
 110
 
-## Page 113
+## Page 113 (printed page 111)
 
 Build 39 — Cut a Batch of Cutting
 Boards with Juice Grooves
 
 
-## Page 114
+## Page 114 (printed page 112)
 
 The Build: This is the upgraded version of a plain cutting board,
 with a routed groove around the edge to catch juices, and it's a
@@ -1819,7 +1936,7 @@ a two tone look that reads as a premium product rather than a
 
 basic board.
 
-## Page 115
+## Page 115 (printed page 113)
 
 Lumber & Cost: Glued up one by sixes plus food safe finish
 comes to about seventeen dollars per board.
@@ -1835,13 +1952,13 @@ unit.
 
 113
 
-## Page 116
+## Page 116 (printed page 114)
 
 Build 40 — Build a Small Jewelry
 Box with a Sliding Lid
 
 
-## Page 117
+## Page 117 (printed page 115)
 
 The Build: This one's a little fussier than most of what's in this
 chapter, but I wanted to prove you can build something that
@@ -1861,7 +1978,7 @@ makes the whole piece feel like a finished product instead of a
 
 shop project.
 
-## Page 118
+## Page 118 (printed page 116)
 
 Lumber & Cost: One one by six, thin plywood for the lid and
 bottom, and a scrap of felt lining runs about ten dollars per
@@ -1878,13 +1995,13 @@ Is is ten to thirty dollars profit per box.
 
 116
 
-## Page 119
+## Page 119 (printed page 117)
 
 Build 41 — Make a Set of Bath
 Caddies for Over the Tub
 
 
-## Page 120
+## Page 120 (printed page 118)
 
 The Build: A bath caddy is a board that spans the width of a
 bathtub with cutouts for a candle, a book, maybe a wine glass,
@@ -1904,7 +2021,7 @@ looking like a slab of lumber propped over a tub.
 
 us
 
-## Page 121
+## Page 121 (printed page 119)
 
 Lumber & Cost: One one by eight and a food safe or water
 resistant finish comes to about fourteen dollars per caddy.
@@ -1920,13 +2037,13 @@ dollars profit per piece.
 
 119
 
-## Page 122
+## Page 122 (printed page 120)
 
 Build 42 — Build a Rolling Cart
 Style Plant Stand
 
 
-## Page 123
+## Page 123 (printed page 121)
 
 The Build: This is a taller build than most of what's in this chapt
 er, a multi tier plant stand on small casters, and I built it bec
@@ -1947,7 +2064,7 @@ better outdoors on a plant stand than a plain stain would.
 
 121
 
-## Page 124
+## Page 124 (printed page 122)
 
 Lumber & Cost: Four two by twos, two one by sixes, anda
 set of casters runs about twenty six dollars per stand.
@@ -1962,13 +2079,13 @@ What It Sells For: Multi tier plant stands sell for forty
 five to seventy five dollars, which against twenty six dollars
 in material puts your profit at nineteen to forty nine dollars.
 
-## Page 125
+## Page 125 (printed page 123)
 
 Build 43 — Cut a Batch of Candle
 Holder Blocks
 
 
-## Page 126
+## Page 126 (printed page 124)
 
 The Build: These are about as simple as woodworking gets, a
 solid block with a drilled hole for a candle, but batched out
@@ -1987,7 +2104,7 @@ rag, gives these a fire cured look that fits the whole candle
 
 holder concept perfectly.
 
-## Page 127
+## Page 127 (printed page 125)
 
 Lumber & Cost: One two by four cut into blocks makes ten
 or more holders, running less than a dollar each in material.
@@ -2001,13 +2118,13 @@ What It Sells For: These sell in sets of two or three for
 twelve to twenty dollars, and given the near zero material
 cost, nearly all of that is profit.
 
-## Page 128
+## Page 128 (printed page 126)
 
 Build 44 — Build a Wall Mounted
 Magazine and Mail Rack
 
 
-## Page 129
+## Page 129 (printed page 127)
 
 The Build: This is a slightly bigger cousin of the key holder from
 earlier in this chapter, with an open pocket for magazines and
@@ -2027,7 +2144,7 @@ saves sanding time without hurting the sale, which is the kind
 
 of shortcut that actually matters once you're batching.
 
-## Page 130
+## Page 130 (printed page 128)
 
 Lumber & Cost: One one by six and a scrap of quarter inch
 plywood comes to about ten dollars per rack.
@@ -2042,13 +2159,13 @@ unit.
 
 128
 
-## Page 131
+## Page 131 (printed page 129)
 
 Build 45 — Make a Batch of
 Cornhole Style Yard Game Boards
 
 
-## Page 132
+## Page 132 (printed page 130)
 
 The Build: Full size cornhole boards are a bigger project, closer
 to furniture in scope, but they're a proven seller because people
@@ -2069,7 +2186,7 @@ crowd looking for something that doesn't look mass produced.
 
 130
 
-## Page 133
+## Page 133 (printed page 131)
 
 Lumber & Cost: A pair of boards uses four two by fours and
 one sheet of half inch plywood, running around forty five
@@ -2086,13 +2203,13 @@ hundred and thirty dollars, which against forty five dollars
 in materials is thirty five to eighty five dollars profit for the
 set.
 
-## Page 134
+## Page 134 (printed page 132)
 
 Build 46 — Build a Set of Nesting
 Storage Crates
 
 
-## Page 135
+## Page 135 (printed page 133)
 
 The Build: Wooden crates in a few graduated sizes sell as home
 decor almost as often as they sell as actual storage, and they
@@ -2113,7 +2230,7 @@ thing look intentional and finished rather than like a box someo
 
 ne knocked together.
 
-## Page 136
+## Page 136 (printed page 134)
 
 Lumber & Cost: Two one by sixes, a plywood scrap for the
 bottom, and a length of rope for handles runs about thirt
@@ -2132,13 +2249,13 @@ built.
 
 134
 
-## Page 137
+## Page 137 (printed page 135)
 
 Build 47 — Cut a Batch of
 Personalized Cutting Board Blanks
 
 
-## Page 138
+## Page 138 (printed page 136)
 
 The Build: This build is really about setting yourself up to sell
 customization, which Chapter 4 gets into in a lot more depth,
@@ -2162,7 +2279,7 @@ pressure, you're just finishing and shipping.
 
 136
 
-## Page 139
+## Page 139 (printed page 137)
 
 Lumber & Cost: Glued up one by sixes run about eight doll
 ars per blank before any personalization is added.
@@ -2180,13 +2297,13 @@ round time and profit.
 
 137
 
-## Page 140
+## Page 140 (printed page 138)
 
 Build 48 — Build a Small
 Farmhouse Style Tool Tote
 
 
-## Page 141
+## Page 141 (printed page 139)
 
 The Build: A tool tote with a center handle is one of those
 pieces that sells to two totally different crowds, people who act
@@ -2209,7 +2326,7 @@ look than staining the whole thing one flat color.
 
 139
 
-## Page 142
+## Page 142 (printed page 140)
 
 Lumber & Cost: One one by six, a length of dowel, and finish
 comes to about nine dollars per tote.
@@ -2223,13 +2340,13 @@ ars, leaving nine to twenty one dollars profit per tote.
 
 140
 
-## Page 143
+## Page 143 (printed page 141)
 
 Build 49 — Make a Batch of Pet
 Feeding Stations
 
 
-## Page 144
+## Page 144 (printed page 142)
 
 The Build: Raised pet bow] stands are a great niche because pet
 owners are often willing to spend more on their animals than
@@ -2249,7 +2366,7 @@ here than on other pieces since pets are going to be right up
 
 against this thing daily.
 
-## Page 145
+## Page 145 (printed page 143)
 
 Lumber & Cost: One one by eight and finish comes to about
 eleven dollars per stand.
@@ -2262,13 +2379,13 @@ What It Sells For: Pet feeding stations sell for twenty two
 to forty dollars, giving you eleven to twenty nine dollars
 profit per unit.
 
-## Page 146
+## Page 146 (printed page 144)
 
 Build 50 — Build a Set of Rustic
 Wall Shelves with Metal Brackets
 
 
-## Page 147
+## Page 147 (printed page 145)
 
 The Build: This closes out the chapter with a shelf style that's a
 step up from the floating shelf earlier on, using visible metal L
@@ -2288,7 +2405,7 @@ dark wood and dark metal against a lighter wall reads as intent
 
 ional and designed, not thrown together.
 
-## Page 148
+## Page 148 (printed page 146)
 
 Lumber & Cost: One one by eight and a pair of metal L
 brackets bought in bulk runs about fifteen dollars per shelf.
@@ -2308,14 +2425,14 @@ windowsill.
 
 46
 
-## Page 149
+## Page 149 (printed page 147)
 
 Scaling Your Signature Products:
 From One Cutting Board to Ten
 Styles and Seasonal Demand
 
 
-## Page 150
+## Page 150 (printed page 148)
 
 These next twenty five builds are not new hobbies, they are
 what happens after you already found the thing that sells.
@@ -2332,7 +2449,7 @@ set of ornaments in December.
 
 48
 
-## Page 151
+## Page 151 (printed page 149)
 
 A big piece of this is timing. Wedding stuff, the cake stands and
 ring boxes and guest book pieces, that sells hardest in the
@@ -2359,7 +2476,7 @@ Selling Cutting Board
 
 149
 
-## Page 152
+## Page 152 (printed page 150)
 
 The Build: If your cutting board has been your bread and butt
 
@@ -2385,7 +2502,7 @@ letely, nobody's going to know but you.
 
 150
 
-## Page 153
+## Page 153 (printed page 151)
 
 Lumber & Cost: One one by six board for the tray body plus
 scrap strips for the lip and feet, about twelve dollars total if
@@ -2404,14 +2521,14 @@ dollars profit for a little extra shaping time.
 
 151
 
-## Page 154
+## Page 154 (printed page 152)
 
 Build 52 — Cut a Round
 Charcuterie Paddle From Scrap
 Cutoffs
 
 
-## Page 155
+## Page 155 (printed page 153)
 
 The Build: Every cutting board build leaves you with cutoffs,
 and instead of tossing them I started gluing them up edge to
@@ -2432,7 +2549,7 @@ looks like one intentional rustic piece instead of a pile of scraps
 
 glued together.
 
-## Page 156
+## Page 156 (printed page 154)
 
 Lumber & Cost: Basically free if you've been saving cutoffs
 from other builds, otherwise figure five to ten dollars for a
@@ -2449,14 +2566,14 @@ almost the whole price is profit in your pocket.
 
 154
 
-## Page 157
+## Page 157 (printed page 155)
 
 Build 53 — Add an Epoxy River to
 Your Standard Board for a Deluxe
 Upgrade
 
 
-## Page 158
+## Page 158 (printed page 156)
 
 The Build: Once you've got a cutting board people like, splitting
 the board down the middle, leaving a gap, and filling that gap
@@ -2480,7 +2597,7 @@ day flip like a plain board.
 
 156
 
-## Page 159
+## Page 159 (printed page 157)
 
 Lumber & Cost: Same one by six or two by four stock as
 
@@ -2503,14 +2620,14 @@ running these deluxe versions tend to see.
 
 157
 
-## Page 160
+## Page 160 (printed page 158)
 
 Build 54 — Build a Farmhouse Cake
 Stand for Wedding Season
 
 Hank Hardwood
 
-## Page 161
+## Page 161 (printed page 159)
 
 The Build: Wedding season runs spring through late summer,
 and a rustic wood cake stand is one of those pieces brides go
@@ -2533,7 +2650,7 @@ cake stand until I fixed the proportions on the second try.
 
 159
 
-## Page 162
+## Page 162 (printed page 160)
 
 Lumber & Cost: A scrap of plywood for the top, two to three
 two by fours stacked for the pedestal, about fifteen to
@@ -2551,13 +2668,13 @@ twenty five to fifty dollars profit in your pocket per stand.
 
 160
 
-## Page 163
+## Page 163 (printed page 161)
 
 Build 55 — Turn Cutoffs Into a Set
 of Personalized Coasters
 
 
-## Page 164
+## Page 164 (printed page 162)
 
 The Build: Coasters are the easiest thing you can add to a sign
 ature line because they use the exact same board stock and
@@ -2581,7 +2698,7 @@ ering crisp instead of smudged looking.
 
 162
 
-## Page 165
+## Page 165 (printed page 163)
 
 Lumber & Cost: Cut from one by six cutoffs, a set of four
 runs about five dollars in material.
@@ -2597,13 +2714,13 @@ profit over your plain set price.
 
 163
 
-## Page 166
+## Page 166 (printed page 164)
 
 Build 56 — Build a Rustic Ring Box
 for Wedding Proposals
 
 
-## Page 167
+## Page 167 (printed page 165)
 
 The Build: This is a tiny build, just a little hinged box a couple
 inches across, but ring boxes have become a whole thing on the
@@ -2627,7 +2744,7 @@ hinge mortise slightly.
 
 165
 
-## Page 168
+## Page 168 (printed page 166)
 
 Lumber & Cost: A short scrap of one by four and a small
 hinge, about six to eight dollars total.
@@ -2643,13 +2760,13 @@ erial goes into one.
 
 166
 
-## Page 169
+## Page 169 (printed page 167)
 
 Build 57 — Build a Guest Book
 Stand for Wedding Season
 
 
-## Page 170
+## Page 170 (printed page 168)
 
 The Build: A lot of couples are skipping the traditional guest
 book for a wood piece guests sign directly, or a stand that holds
@@ -2671,7 +2788,7 @@ hing you'd find at a barn wedding venue instead of a garage.
 
 168
 
-## Page 171
+## Page 171 (printed page 169)
 
 Lumber & Cost: Two one by fours for the legs and shelf,
 about ten dollars.
@@ -2686,13 +2803,13 @@ leaving twenty to forty dollars profit per stand.
 
 169
 
-## Page 172
+## Page 172 (printed page 170)
 
 Build 58 — Build a Wine Bottle
 Caddy With Two Glasses
 
 
-## Page 173
+## Page 173 (printed page 171)
 
 The Build: This is a fun little gift item, a wood caddy that carr
 ies a bottle of wine and two stemless glasses by their bases,
@@ -2712,7 +2829,7 @@ like a rough shop project, smooth edges are the difference bet
 
 ween rustic charm and just looking unfinished.
 
-## Page 174
+## Page 174 (printed page 172)
 
 Lumber & Cost: One two by ten or a glued up two by four
 panel, about eight to twelve dollars.
@@ -2727,13 +2844,13 @@ profit each.
 
 172
 
-## Page 175
+## Page 175 (printed page 173)
 
 Build 59 — Build a Wooden Wreath
 for the Holiday Rush
 
 
-## Page 176
+## Page 176 (printed page 174)
 
 The Build: Okay so this is a big one for the fourth quarter push,
 a wood wreath made from thin strips bent into a ring, and it's
@@ -2753,7 +2870,7 @@ soak them long enough, so give it real time, at least a few hours
 
 in water, before you try to bend anything.
 
-## Page 177
+## Page 177 (printed page 175)
 
 Lumber & Cost: One or two two by fours ripped into thin
 strips, about eight dollars.
@@ -2771,13 +2888,13 @@ biggest sales windows of the year for wood goods sellers.
 
 175
 
-## Page 178
+## Page 178 (printed page 176)
 
 Build 60 — Build a Set of Rustic
 Wood Ornaments
 
 
-## Page 179
+## Page 179 (printed page 177)
 
 The Build: These are the smallest, cheapest thing on this whole
 list, little cutout shapes like trees or stars sliced off a board end
@@ -2796,7 +2913,7 @@ wash of dark stain across the surface before adding the twine
 
 makes these look aged instead of freshly cut.
 
-## Page 180
+## Page 180 (printed page 178)
 
 Lumber & Cost: Cutoffs and scraps, essentially free, maybe
 a dollar or two for twine across a whole batch.
@@ -2811,13 +2928,13 @@ each or in sets of five for twenty to thirty five dollars, and at
 nearly zero material cost, it's close to pure profit stacked on
 top of a bigger order.
 
-## Page 181
+## Page 181 (printed page 179)
 
 Build 61 — Build a Bread Box With a
 Sliding Lid
 
 
-## Page 182
+## Page 182 (printed page 180)
 
 The Build: A bread box is a step up in complexity from a tray or
 a coaster but it's still built from the same board stock, and it's a
@@ -2839,7 +2956,7 @@ keeps this from looking like a plain plywood box.
 
 180
 
-## Page 183
+## Page 183 (printed page 181)
 
 Lumber & Cost: Two one by sixes and a one by four for the
 lid slats, about eighteen to twenty two dollars.
@@ -2857,13 +2974,13 @@ photos than a board.
 
 181
 
-## Page 184
+## Page 184 (printed page 182)
 
 Build 62 — Build a Utensil Crock to
 Match Your Cutting Boards
 
 
-## Page 185
+## Page 185 (printed page 183)
 
 The Build: If cutting boards are your bread and butter, a matchi
 ng utensil crock rounds out the kitchen counter look and gives
@@ -2882,7 +2999,7 @@ ring while the glue dries, that's the trick to keeping it round ins
 
 tead of oval.
 
-## Page 186
+## Page 186 (printed page 184)
 
 Lumber & Cost: Several one by four staves and a plywood
 scrap for the base, about twelve to fifteen dollars.
@@ -2900,13 +3017,13 @@ easy upsell.
 
 184
 
-## Page 187
+## Page 187 (printed page 185)
 
 Build 63 — Build a Spice Rack From
 1x4 Cutoffs
 
 
-## Page 188
+## Page 188 (printed page 186)
 
 The Build: A small tiered spice rack is another kitchen compani
 on piece that uses cutoffs you'd otherwise throw away, just a
@@ -2927,7 +3044,7 @@ without buying an ounce of actual walnut.
 
 186
 
-## Page 189
+## Page 189 (printed page 187)
 
 Lumber & Cost: One by four cutoffs, about six to ten
 dollars.
@@ -2943,13 +3060,13 @@ material build.
 
 187
 
-## Page 190
+## Page 190 (printed page 188)
 
 Build 64 — Build a Key Holder Rack
 With Hooks
 
 
-## Page 191
+## Page 191 (printed page 189)
 
 The Build: This is about as simple and as fast as a signature line
 item gets, a small board with a few hooks screwed in for keys by
@@ -2970,7 +3087,7 @@ er customers keep asking for.
 
 189
 
-## Page 192
+## Page 192 (printed page 190)
 
 Lumber & Cost: One short piece of one by six and a set of
 small hooks, about eight to twelve dollars.
@@ -2987,13 +3104,13 @@ labor.
 
 190
 
-## Page 193
+## Page 193 (printed page 191)
 
 Build 65 — Build a Farmhouse
 Serving Tray With Rope Handles
 
 
-## Page 194
+## Page 194 (printed page 192)
 
 The Build: This is a variation on the footed tray from earlier in
 this chapter, same basic tray body, but instead of little feet you
@@ -3013,7 +3130,7 @@ within a week of use, small detail but customers notice frayed
 
 rope fast.
 
-## Page 195
+## Page 195 (printed page 193)
 
 Lumber & Cost: Same tray body as the footed version, about
 ten dollars, plus a couple dollars of rope.
@@ -3029,14 +3146,14 @@ twenty to forty dollars profit.
 
 193
 
-## Page 196
+## Page 196 (printed page 194)
 
 Build 66 — Build a Wall-Mounted
 Wine Rack
 
 100 Ways to Make Your First $1,000 with Woodworking Hank Hardwood
 
-## Page 197
+## Page 197 (printed page 195)
 
 The Build: A wall mounted rack that holds a few bottles at an
 angle is a nice mid tier item between your small stuff and your
@@ -3056,7 +3173,7 @@ builds because a rough notch will chip the glass over time.
 
 195
 
-## Page 198
+## Page 198 (printed page 196)
 
 Lumber & Cost: Two one by six boards, about fourteen
 dollars.
@@ -3071,13 +3188,13 @@ rack.
 
 196
 
-## Page 199
+## Page 199 (printed page 197)
 
 Build 67 — Build a Herb Planter Box
 for the Kitchen Windowsill
 
 
-## Page 200
+## Page 200 (printed page 198)
 
 The Build: A small planter box sized for a kitchen windowsill is a
 nice home decor crossover item, it uses basic box building
@@ -3099,7 +3216,7 @@ weeks, so don't skip that step.
 
 198
 
-## Page 201
+## Page 201 (printed page 199)
 
 Lumber & Cost: One one by six box plus a cheap plastic
 liner tray, about ten dollars.
@@ -3113,13 +3230,13 @@ five dollars, giving you ten to twenty five dollars profit.
 
 199
 
-## Page 202
+## Page 202 (printed page 200)
 
 Build 68 — Build a Napkin Holder
 to Round Out Your Table Sets
 
 
-## Page 203
+## Page 203 (printed page 201)
 
 The Build: This is a tiny, fast item designed purely to bundle
 with your trays and coasters into a table set listing, just a simple
@@ -3139,7 +3256,7 @@ that is fast and consistent.
 
 201
 
-## Page 204
+## Page 204 (printed page 202)
 
 Lumber & Cost: A small scrap of one by four, about three
 dollars.
@@ -3155,13 +3272,13 @@ sets where they help justify a higher overall set price.
 
 202
 
-## Page 205
+## Page 205 (printed page 203)
 
 Build 69 — Build a Cheese Board
 With a Built-In Juice Groove
 
 
-## Page 206
+## Page 206 (printed page 204)
 
 The Build: This is a direct upsell variation on a plain cutting
 board, same shape, same wood, but with a routed groove
@@ -3183,7 +3300,7 @@ the grain out in a way you can't hide.
 
 204
 
-## Page 207
+## Page 207 (printed page 205)
 
 Lumber & Cost: Same board stock as a regular cutting
 board, about twelve to fifteen dollars, no real cost increase
@@ -3203,13 +3320,13 @@ jump in perceived value for very little extra material cost.
 
 205
 
-## Page 208
+## Page 208 (printed page 206)
 
 Build 70 — Build a Personalized
 Anniversary Cutting Board
 
 
-## Page 209
+## Page 209 (printed page 207)
 
 The Build: This one is pure customization, take your standard
 board and burn or engrave a couple's names and a wedding
@@ -3230,7 +3347,7 @@ the good board saves you from ruining a finished order.
 
 207
 
-## Page 210
+## Page 210 (printed page 208)
 
 Lumber & Cost: Standard board cost, about twelve to fift
 een dollars, plus your existing burning tool.
@@ -3248,13 +3365,13 @@ ully to perceived value.
 
 208
 
-## Page 211
+## Page 211 (printed page 209)
 
 Build 71 — Build a Mini Cake Stand
 for Cupcakes
 
 
-## Page 212
+## Page 212 (printed page 210)
 
 The Build: This is a smaller, cheaper sibling to the full size cake
 stand, sized for cupcakes or small desserts instead of a whole
@@ -3275,7 +3392,7 @@ width.
 
 210
 
-## Page 213
+## Page 213 (printed page 211)
 
 Lumber & Cost: Plywood scrap and a couple two by four
 cutoffs, about eight dollars.
@@ -3288,13 +3405,13 @@ What It Sells For: Mini cake stands sell for twenty to
 thirty five dollars each, often bought in sets of three or four,
 which adds up fast for a small, cheap build.
 
-## Page 214
+## Page 214 (printed page 212)
 
 Build 72 — Build a Set of Nesting
 Serving Boards
 
 
-## Page 215
+## Page 215 (printed page 213)
 
 The Build: This is a way to sell three boards for the price of a
 bundle deal instead of one, a set of three boards in graduated
@@ -3313,7 +3430,7 @@ stain, same coats, same day, keeps the set looking cohesive ins
 
 tead of like three separate builds thrown together.
 
-## Page 216
+## Page 216 (printed page 214)
 
 Lumber & Cost: Two to three one by sixes for the set, about
 eighteen dollars total.
@@ -3328,13 +3445,13 @@ five dollars as a bundle, which per board beats selling three
 boards separately, leaving thirty five to sixty five dollars
 profit on the set.
 
-## Page 217
+## Page 217 (printed page 215)
 
 Build 73 — Build a Christmas Tree
 Centerpiece From 2x4 Scrap
 
 
-## Page 218
+## Page 218 (printed page 216)
 
 The Build: This is a fun holiday season only piece, a small wood
 Christmas tree shape built up from stacked, tapered squares of
@@ -3357,7 +3474,7 @@ plain stained wood for this particular piece.
 
 216
 
-## Page 219
+## Page 219 (printed page 217)
 
 Lumber & Cost: One or two two by fours cut into stacked
 layers, about seven dollars.
@@ -3373,13 +3490,13 @@ low material batch build.
 
 27
 
-## Page 220
+## Page 220 (printed page 218)
 
 Build 74 — Build a Charcuterie Set
 With Matching Coasters
 
 
-## Page 221
+## Page 221 (printed page 219)
 
 The Build: This is the bundling move, taking your charcuterie
 paddle from earlier in this chapter and pairing it with a matchi
@@ -3402,7 +3519,7 @@ Ilist a set.
 
 219
 
-## Page 222
+## Page 222 (printed page 220)
 
 Lumber & Cost: One charcuterie paddle plus a set of four
 coasters from the same batch, about fifteen dollars total.
@@ -3418,14 +3535,14 @@ from bundling complementary pieces.
 
 220
 
-## Page 223
+## Page 223 (printed page 221)
 
 Build 75 — Build a Deluxe Live-
 Edge Style Serving Board Using a
 Circular Saw
 
 
-## Page 224
+## Page 224 (printed page 222)
 
 The Build: This is the top of your signature line, a board with
 one wavy, natural looking edge instead of a straight cut edge,
@@ -3452,7 +3569,7 @@ an intentional, expensive looking natural edge instead
 
 of a mistake.
 
-## Page 225
+## Page 225 (printed page 223)
 
 Lumber & Cost: Same board stock as your standard boards,
 about fifteen dollars.
@@ -3470,14 +3587,14 @@ jump in build time.
 
 223
 
-## Page 226
+## Page 226 (printed page 224)
 
 From Garage to a Thousand Bucks:
 The Business Moves, the Mistakes to
 Skip, and What Happens Next
 
 
-## Page 227
+## Page 227 (printed page 225)
 
 Alrighty, so here's where we are. You've sold your first batch of
 cutting boards and coasters, maybe a few shelves, and somew
@@ -3493,7 +3610,7 @@ comes from a smaller number of builds that each carry real
 
 value.
 
-## Page 228
+## Page 228 (printed page 226)
 
 What ties these twenty-five together is that every single one
 still starts at the box store, still uses construction lumber and
@@ -3513,7 +3630,7 @@ as you work through these.
 
 226
 
-## Page 229
+## Page 229 (printed page 227)
 
 One more thing before we get into it. Some of these are bigger,
 heavier, and a little more dangerous than what you were doing
@@ -3524,14 +3641,14 @@ right for your shop and your comfort level. Okay so, let's build
 
 some stuff worth real money.
 
-## Page 230
+## Page 230 (printed page 228)
 
 Build 76 — Build a Farmhouse
 Console Table From Three 2x4s
 and a Sheet of Ply
 
 
-## Page 231
+## Page 231 (printed page 229)
 
 The Build: This is the one that convinced me construction lumb
 er could pass for furniture, a long skinny console table for beh
@@ -3552,7 +3669,7 @@ so it reads like reclaimed barn wood instead of a fresh cut from
 
 aisle seven.
 
-## Page 232
+## Page 232 (printed page 230)
 
 Lumber & Cost: Six 2x4s, half a sheet of 3/4 inch plywood,
 one 1x4 for edging, around $38 total.
@@ -3568,14 +3685,14 @@ the build cost.
 
 230
 
-## Page 233
+## Page 233 (printed page 231)
 
 Build 77 — Build a Rustic Wine
 Rack That Turns Scrap Into a $60
 Gift
 
 
-## Page 234
+## Page 234 (printed page 232)
 
 The Build: This one came out of a pile of offcuts I was too cheap
 to throw away, a wall-mounted wine rack with X-shaped bottle
@@ -3593,7 +3710,7 @@ the soot off with a wire brush, and that alone does most of the
 
 work of making it look aged.
 
-## Page 235
+## Page 235 (printed page 233)
 
 Lumber & Cost: One 1x6 and scrap 1x2 for the cradles, about
 $14.
@@ -3608,13 +3725,13 @@ What It Sells For: $50 to $65 at craft fairs, which is
 around $40 to $50 profit on a build that takes under two
 hours.
 
-## Page 236
+## Page 236 (printed page 234)
 
 Build 78 — Build a Mudroom Bench
 With Hooks for the Whole Family
 
 
-## Page 237
+## Page 237 (printed page 235)
 
 The Build: This is a solid little bench with a shelf underneath for
 shoes and a row of hooks above for coats and bags, and it's one
@@ -3632,7 +3749,7 @@ standing, and that texture alone is most of what separates “furn
 
 iture" from "plywood box."
 
-## Page 238
+## Page 238 (printed page 236)
 
 Lumber & Cost: Four 2x4s, one 1x10 for the seat, hooks
 bought separately, around $35 not counting hardware.
@@ -3648,13 +3765,13 @@ $145 over cost.
 
 236
 
-## Page 239
+## Page 239 (printed page 237)
 
 Build 79 — Build a Porch Planter
 Box That Survives Full Sun
 
 
-## Page 240
+## Page 240 (printed page 238)
 
 The Build: This is a simple square planter built from cedar-ish
 treated construction lumber, sized to hold a standard plastic
@@ -3673,7 +3790,7 @@ staining, which knocks off that too-perfect factory edge and
 
 reads as weathered instead of beat up.
 
-## Page 241
+## Page 241 (printed page 239)
 
 Lumber & Cost: Three treated 2x6s and a scrap 2x2 for feet,
 about $22.
@@ -3687,7 +3804,7 @@ $25 to $45 profit, and these move fastest in spring.
 
 239
 
-## Page 242
+## Page 242 (printed page 240)
 
 Build 80 — Build a Herringbone
 Wall Art Panel From Cut-Off
@@ -3695,7 +3812,7 @@ Wall Art Panel From Cut-Off
 Scraps
 
 
-## Page 243
+## Page 243 (printed page 241)
 
 The Build: This is basically a way to sell your scrap pile, thin
 strips of pine arranged in a herringbone pattern, glued to a plyw
@@ -3715,7 +3832,7 @@ thing look like it came out of a hundred year old barn instead of
 
 ascrap bin from last Tuesday.
 
-## Page 244
+## Page 244 (printed page 242)
 
 Lumber & Cost: Scrap pine strips plus a quarter sheet of
 thin plywood backer, around $10 if you're using cut-offs you
@@ -3729,13 +3846,13 @@ have one.
 What It Sells For: $60 to $90 for a 2 foot by 3 foot panel,
 which is close to pure profit given the material cost.
 
-## Page 245
+## Page 245 (printed page 243)
 
 Build 81 — Build a Rolling Bar Cart
 for the Backyard Crowd
 
 
-## Page 246
+## Page 246 (printed page 244)
 
 The Build: This is a two-tier cart with locking casters, built to
 
@@ -3754,7 +3871,7 @@ which gives it a built, intentional look rather than a “one stain
 
 can, done" feel.
 
-## Page 247
+## Page 247 (printed page 245)
 
 Lumber & Cost: Five 2x4s, one 1x10 for shelves, casters
 bought separately, around $40 not counting hardware.
@@ -3781,7 +3898,7 @@ money. I priced this one nervously the first time, worried nob
 
 ody would pay furniture prices for pine, and I was wrong.
 
-## Page 248
+## Page 248 (printed page 246)
 
 The Tricky Part: Getting the slat spacing even across a width
 that wide takes patience, so I cut a couple of spacer blocks to
@@ -3806,13 +3923,13 @@ a $170 to $270 profit swing on one weekend build.
 
 246
 
-## Page 249
+## Page 249 (printed page 247)
 
 Build 83 — Build a Cornhole Board
 Set for Tailgate Season
 
 
-## Page 250
+## Page 250 (printed page 248)
 
 The Build: This is a pair of regulation-sized cornhole boards,
 plywood tops on a simple frame with the hole cut and the legs
@@ -3831,7 +3948,7 @@ on a few sets, which reads as custom and rustic at the same
 
 time and lets me charge more.
 
-## Page 251
+## Page 251 (printed page 249)
 
 Lumber & Cost: Two sheets of half inch plywood and four
 2x4s for the frames and legs, around $55 for the pair.
@@ -3855,7 +3972,7 @@ a good repeat item.
 
 249
 
-## Page 252
+## Page 252 (printed page 250)
 
 The Tricky Part: Cutting the matching angle on both side rails
 so the ladder sits flush against the wall took me a couple of tries
@@ -3881,7 +3998,7 @@ Build 85 — Build a Dog Bed Frame Your Pup Will Actually Use
 
 250
 
-## Page 253
+## Page 253 (printed page 251)
 
 The Build: This is a raised wood frame that holds a cushion or
 dog bed insert, elevating the dog off cold floors, and mine got
@@ -3900,7 +4017,7 @@ which also happens to deepen the pine's color in a warm way
 
 that looks less like a kids’ craft project.
 
-## Page 254
+## Page 254 (printed page 252)
 
 Lumber & Cost: Three 2x4s for the frame legs and rails, one
 1x4 for the surrounding lip, around $20.
@@ -3925,7 +4042,7 @@ late and special tools. It doesn't, it just needs patience with the
 
 curved cuts.
 
-## Page 255
+## Page 255 (printed page 253)
 
 The Tricky Part: The curved back slats are the one part that'll
 test you, and a jigsaw handles that curve fine even though it's
@@ -3951,7 +4068,7 @@ Build 87 — Build a Firewood Rack That Keeps Logs Off the
 
 Ground
 
-## Page 256
+## Page 256 (printed page 254)
 
 The Build: This is a simple sloped rack that holds a face cord of
 firewood up off wet ground with a slight rain-shedding tilt, and
@@ -3970,7 +4087,7 @@ weathers to naturally over a season looks better than anything
 
 I'd stain on it myself.
 
-## Page 257
+## Page 257 (printed page 255)
 
 Lumber & Cost: Six 2x4s, around $26.
 
@@ -3993,7 +4110,7 @@ cheap, fast build that does great business in early spring when
 
 everybody's suddenly a gardener again.
 
-## Page 258
+## Page 258 (printed page 256)
 
 The Tricky Part: Getting the crisscross strips evenly spaced
 without a jig is basically impossible to do fast, so I cut a spacing
@@ -4019,7 +4136,7 @@ Build 89 — Build a Mirror Frame That Upgrades a Bathroom in
 
 an Hour
 
-## Page 259
+## Page 259 (printed page 257)
 
 The Build: This is a simple frame built to fit around an existing
 plain mirror, mitered corners, mounted directly over the
@@ -4038,7 +4155,7 @@ frame look you'd expect from an antique store, not a big box
 
 aisle.
 
-## Page 260
+## Page 260 (printed page 258)
 
 Lumber & Cost: One 1x4, around $9.
 
@@ -4060,7 +4177,7 @@ making the pricing work.
 
 258
 
-## Page 261
+## Page 261 (printed page 259)
 
 The Tricky Part: Mounting these so they hang level and hold
 real weight without visible hardware is the part that takes some
@@ -4086,7 +4203,7 @@ Build 91 — Build a Spice Rack That Fits Inside a Cabinet Door
 
 259
 
-## Page 262
+## Page 262 (printed page 260)
 
 The Build: This is a small, shallow shelved rack sized to mount
 on the inside of a standard kitchen cabinet door, holding small
@@ -4107,7 +4224,7 @@ work.
 
 260
 
-## Page 263
+## Page 263 (printed page 261)
 
 Lumber & Cost: Scrap pine from a 1x3, around $6.
 
@@ -4128,7 +4245,7 @@ matters a lot when you're selling on a visual platform.
 
 261
 
-## Page 264
+## Page 264 (printed page 262)
 
 The Tricky Part: Spacing the slats so air can move through
 without the liner bag sagging out between them took some trial
@@ -4152,7 +4269,7 @@ What It Sells For: $85 to $120, roughly $60 to $90 profit.
 
 Build 93 — Build a Step Stool Sturdy Enough for Grandkids
 
-## Page 265
+## Page 265 (printed page 263)
 
 The Build: This is a simple two-step stool, wide enough to
 
@@ -4174,7 +4291,7 @@ rather than a garage-project look.
 
 263
 
-## Page 266
+## Page 266 (printed page 264)
 
 Lumber & Cost: Two 2x10s and scrap 2x4 for bracing,
 around $24.
@@ -4200,7 +4317,7 @@ more listings.
 
 264
 
-## Page 267
+## Page 267 (printed page 265)
 
 The Tricky Part: Getting the mail slot deep enough to actually
 hold a stack of envelopes without them sliding out is a detail
@@ -4224,7 +4341,7 @@ Build 95 — Build a Plant Stand Trio for Window Light
 
 265
 
-## Page 268
+## Page 268 (printed page 266)
 
 The Build: This is a set of three simple stands at graduated
 
@@ -4245,7 +4362,7 @@ raw pine rather than something heavily stained and dark.
 
 266
 
-## Page 269
+## Page 269 (printed page 267)
 
 Lumber & Cost: Scrap 2x2 and 1x6 for the tops, around $15
 for the set of three.
@@ -4265,7 +4382,7 @@ it's a good companion listing next to cutting boards since cust
 
 omers buying one gift item often add the other.
 
-## Page 270
+## Page 270 (printed page 268)
 
 The Tricky Part: Cutting a clean handle opening without
 tearout on the back face is the fussy part, so I clamp a sacrificial
@@ -4288,7 +4405,7 @@ Build 97 — Build a Charcuterie Board Big Enough for a Party
 
 268
 
-## Page 271
+## Page 271 (printed page 269)
 
 The Build: This is a scaled-up version of the small cutting
 boards from earlier in this book, big enough to actually hold a
@@ -4309,7 +4426,7 @@ farmhouse feel rather than a flat factory slab.
 
 269
 
-## Page 272
+## Page 272 (printed page 270)
 
 Lumber & Cost: About four glued-up 1x6 boards, food-safe
 finish separate, around $22.
@@ -4330,7 +4447,7 @@ make something look expensive without much woodworking at
 
 all, since the metal legs do a lot of the visual heavy lifting.
 
-## Page 273
+## Page 273 (printed page 271)
 
 The Tricky Part: Mounting hairpin legs so all four sit flat and
 don't rock is the part that catches people off guard, so I check
@@ -4353,7 +4470,7 @@ What It Sells For: $150 to $230 not counting the cost of
 the legs, which still leaves a strong profit once you factor
 the hardware in.
 
-## Page 274
+## Page 274 (printed page 272)
 
 Build 99 — Build a Porch Swing That Seats Two
 
@@ -4373,7 +4490,7 @@ headboard build works great here too, mixing tones across the
 
 slats so it doesn't look like one uniform batch of lumber.
 
-## Page 275
+## Page 275 (printed page 273)
 
 Lumber & Cost: Roughly six 2x4s and chain and hardware
 bought separately, around $45 not counting chain.
@@ -4391,7 +4508,7 @@ the whole book.
 Build 100 — Build a Farmhouse Dining Bench to Match Any
 Table
 
-## Page 276
+## Page 276 (printed page 274)
 
 The Build: This is a sturdy, simple bench built to sit alongside a
 dining table, and I like ending on this one because it's basically
@@ -4412,7 +4529,7 @@ whole chapter, mixed tones, wire brushed grain, a little dist
 
 ressing at the edges, and cheap pine stops looking cheap.
 
-## Page 277
+## Page 277 (printed page 275)
 
 Lumber & Cost: About five 2x4s and one 1x10 for the seat,
 around $30.

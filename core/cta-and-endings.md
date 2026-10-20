@@ -53,6 +53,8 @@ Then the CTA closes according to where it sits:
 
 **Linking the offer to the video.** A clause can connect the offer to this video's problem ("every measurement for this rack is in there too"). A separate recap sentence can't.
 
+**Page references come only from the book match.** When the persona profile names a book text, the plan records which pages cover this video's topic (`workflow.md`, section 3, step 2). A CTA or book mention may name pages only from that record ("more of this is on pages 63 to 65 of my book"). With no match, it gives the book's general value and names no pages. A page that doesn't cover what the script says it covers is a false claim about the offer (`offer-rules.md`).
+
 **Future value stays general.** "So the next build shows up in your feed" is fine. A named or described upcoming topic never is: the script has no idea what the next video will be.
 
 ---

@@ -13,3 +13,13 @@ Evidence that a locked decision (`HANDOFF.md` section 3) might need to change. N
 **Proposal:** keep the rule; correct only the reason given for it. Suggested wording: "The winners never name themselves or the channel, and they reach the first material within about 15 seconds. When there's a credibility line at all, it's about the viewer's goal, not the presenter." Our personas couldn't use BV's credibility line anyway (claims policy: no checkable history).
 
 **Status:** open, for the operator.
+
+## P2. One fixed family detail for a persona (opened and approved 2026-10-20)
+
+**Decision (HANDOFF.md section 3):** "The persona never claims sales, customers or history." `core/claims-policy.md` also allows profiles only to tighten it, never loosen it.
+
+**Evidence:** Bertha's Clean Home (212k subscribers, joined March 2026) builds its ebook pitch on a family promise ("my mother made me promise to write it all down"), and its book videos run 459k-914k views. Dale's own ebook already mentions learning at his grandfather's bench (three times).
+
+**Proposal:** allow one fixed, soft family detail per persona profile, approved by the operator and worded exactly as in the profile. For Dale: he learned at his grandfather's bench, and his grandfather made him promise to write it all down.
+
+**Status:** approved by the operator on 2026-10-20 and applied to `core/claims-policy.md` and `personas/dale-oakfield.md`.

@@ -15,6 +15,7 @@ Usage:
                    ban: phrase | label
                    ban-regex: pattern | label
                    lift: phrase or label of a hard ban
+                   allow: a line the channel says the same way every time (exempt from the copy guard)
   --pack       the research pack. Every number in the script is checked against it.
   --refs       optional reference files (the niche pack's excerpts.md and reference-scripts.md).
                Any run of 8 or more consecutive words in the spoken script that also appears
@@ -134,7 +135,7 @@ def sentences(para):
 
 # ---------------------------------------------------------------- rules files
 def read_rules(paths):
-    bans, lifts = [], []
+    bans, lifts, allows = [], [], []
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         for block in re.findall(r"```scanner\s*\n(.*?)```", txt, re.S):
@@ -155,7 +156,9 @@ def read_rules(paths):
                     bans.append((re.compile(pat, re.I), label))
                 elif key.strip() == "lift":
                     lifts.append(pat.lower())
-    return bans, lifts
+                elif key.strip() == "allow":
+                    allows.append(pat)
+    return bans, lifts, allows
 
 # ---------------------------------------------------------------- numbers
 WORD_NUM = {w: i for i, w in enumerate("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split())}
@@ -245,13 +248,22 @@ def read_refs(paths):
                 runs.setdefault(tuple(toks[i:i + COPY_RUN]), name)
     return runs
 
-def copy_check(text, ref_runs):
+def mask_allowed(toks, allows):
+    """Blank out lines a profile marks allow: (a fixed sign-off, a spoken title) so no copied run can use them."""
+    for phrase in allows or []:
+        a = copy_tokens(phrase)
+        for i in range(len(toks) - len(a) + 1):
+            if a and toks[i:i + len(a)] == a:
+                toks[i:i + len(a)] = [f"\x00{i}_{j}" for j in range(len(a))]
+    return toks
+
+def copy_check(text, ref_runs, allows=None):
     """Merge overlapping shared runs per paragraph; return (source file, copied words)."""
     hits = []
     if not ref_runs:
         return hits
     for para in spoken_paragraphs(text):
-        toks = copy_tokens(para)
+        toks = mask_allowed(copy_tokens(para), allows)
         start = end = None; src = None
         for i in range(len(toks) - COPY_RUN + 1):
             g = tuple(toks[i:i + COPY_RUN])
@@ -267,9 +279,9 @@ def copy_check(text, ref_runs):
     return hits
 
 # ---------------------------------------------------------------- scan
-def scan(text, extra_bans, lifts, ref_runs=None):
+def scan(text, extra_bans, lifts, ref_runs=None, allows=None):
     fix, judge = [], []
-    for src, run in copy_check(text, ref_runs):
+    for src, run in copy_check(text, ref_runs, allows):
         fix.append(f"[COPIED FROM REFERENCE: {src}] \"{run}\" ({len(run.split())} words in a row)")
     paras = spoken_paragraphs(text)
     hard = [(re.compile(rx, re.I), name) for rx, name in HARD_BANS
@@ -340,8 +352,8 @@ def main():
     ap.add_argument("--refs", nargs="+", default=[])
     a = ap.parse_args()
     text = open(a.script, encoding="utf8", errors="ignore").read()
-    bans, lifts = read_rules(a.rules)
-    fix, judge, most, reframes, echoes, sparing = scan(text, bans, lifts, read_refs(a.refs))
+    bans, lifts, allows = read_rules(a.rules)
+    fix, judge, most, reframes, echoes, sparing = scan(text, bans, lifts, read_refs(a.refs), allows)
     print(f"SCAN: {a.script}")
     if a.refs:
         print(f"  copy guard: {COPY_RUN}+ words in a row shared with {', '.join(a.refs)}")

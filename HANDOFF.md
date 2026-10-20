@@ -71,6 +71,20 @@ The data: BeardedViking and WhosTheVoss winners against Dale and Hank's own vide
 - **Rotation log:** the VA pastes the last five lines. Scripts are made in bulk on different PCs, so there's no shared file.
 - **Greetings:** off by default; a niche or persona can allow one.
 
+### Operator decisions, 2026-10-20 (Hank and Dale profiles)
+
+These change or extend earlier decisions above, by the operator's choice.
+- **Persona profiles come from Notion** (Channel List, TEAM ACCESS), checked and changed with the operator, then saved in `personas/`.
+- **The enemy for both channels is big business and the corporations.** It's a category, never a named company, and it replaces the pack's default doubter.
+- **Dale may name one fixed family detail:** he learned at his grandfather's bench, and his grandfather made him promise to write it all down. This is the one exception to "the persona never claims history", added to `core/claims-policy.md` (see `PROPOSALS.md`, P2).
+- **The CTA test is now Hank against Dale:**
+  - Hank keeps two short CTAs (mid and end) pointing to the QR code.
+  - Dale uses the Bertha's Clean Home style: one ~35-word pitch pointing to the description link, five one-line book mentions as narration, no end CTA, no subscribe ask, and an ending of a comments request plus "Now go make some sawdust."
+  - This replaces "Dale stays as he is".
+- **Each channel's full book text is in the library** (`personas/books/`). CTAs cite real pages that cover the video's topic (the book match), and otherwise give the book's general value.
+- **Hank has no opening lead-in** ("All righty" was dropped). His sign-off is one sentence: "Keep all ten fingers and I'll see you at the bench."
+- **Dale's main pitch keeps Bertha's shape, with fresh words every video.**
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

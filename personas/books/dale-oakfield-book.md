@@ -4,9 +4,19 @@
 - **Exact printed title:** The Ultimate DIY Woodworking Guide: Time-Tested Techniques, Money-Saving Shop Hacks, and Real Furniture Builds from 40 Years at the Bench. In narration it's always the short title, "The Ultimate DIY Woodworking Guide".
 - **What's in it:** five chapters (understanding wood; tools; core techniques: joinery, gluing and assembly; finishing, safety and shop wisdom; projects), with 30 "Common Mistake" sections.
 - **Source:** the PDF in the channel's ebook folder on Google Drive (119 pages), converted to text by OCR on 2026-10-20. The PDF itself isn't stored here.
-- **Page numbers:** the book has no printed page numbers. "Page N" below is page N as a PDF reader shows it, and it's the page a CTA or book mention may cite.
+- **Page numbers:** the book prints no page numbers (its footer shows only the title and author). "Page N" below is page N as a PDF reader shows it, and it's the page a CTA or book mention may cite.
 - **OCR note:** a few words are split where a line broke on the page (for example "rui ned"). Search with that in mind; never quote a split word.
 - **Use:** for checking which pages cover a video's topic and which facts a CTA or book mention may state about the book. It supplies no facts, steps or numbers to the script itself.
+
+## Chapter page map
+
+| Chapter | Pages |
+|---|---|
+| 1. Understanding wood: selection, sourcing and milling | 3-29 |
+| 2. Tools, hand and power: choosing, maintaining and mastering them | 30-54 |
+| 3. Core techniques: joinery, gluing and assembly | 55-79 |
+| 4. Finishing, safety and shop wisdom | 80-100 |
+| 5. Projects and putting it all together | 101-119 |
 
 ## Page 1
 

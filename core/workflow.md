@@ -67,10 +67,11 @@ Run these steps in order. Never ask "shall I continue?" Never stop to check in.
    - from the niche pack: structure, rules, voice samples, excerpts, scanner block
    - the research pack
 2. **Plan.** Fill in the niche's unit plan (or list the fallback structure's content units), including the variation choices against the rotation log (`variety-rotation.md`).
+   - **The book match.** If the persona profile names a book text, search it for the video's topic (the build, the technique, the problem) and record each relevant page range with one line on what's there, or "nothing relevant." CTAs and book mentions may cite only these pages (`cta-and-endings.md`, section 3).
 3. **Write,** following the niche pack (or the fallback structure) and every core rule.
 4. **Sweep.**
    - Run the `humanizer.md` pass.
-   - Run `script-scanner.py` with the niche pack and persona profile as rules files, the research pack as the pack, and the niche pack's `excerpts.md` and `reference-scripts.md` with `--refs` (the copy guard: any run of 8 or more words shared with them is fix-on-sight). Where Python isn't available, do the same checks by hand.
+   - Run `script-scanner.py` with the niche pack and persona profile as rules files, the research pack as the pack, and the niche pack's `excerpts.md` and `reference-scripts.md` plus the persona profile with `--refs` (the copy guard: any run of 8 or more words shared with them is fix-on-sight, except lines the profile's scanner block marks `allow:`, such as a fixed sign-off). Where Python isn't available, do the same checks by hand.
 5. **Audit.** Run `greenlight-audit.md`, at most three rounds.
 6. **Output,** in the format in section 5.
 

@@ -5,7 +5,7 @@ description: What a persona may and may not claim, on every channel: opinions ve
 
 # Claims policy
 
-**Where this file sits.** Above everything else. Niche packs and persona profiles can tighten these rules but never loosen them. Claims about offers are covered in `offer-rules.md`. The limits on exaggeration and framing are in `research-and-sourcing.md`, section 2.
+**Where this file sits.** Above everything else. Niche packs and persona profiles can tighten these rules but never loosen them, apart from the one approved family detail below. Claims about offers are covered in `offer-rules.md`. The limits on exaggeration and framing are in `research-and-sourcing.md`, section 2.
 
 ---
 
@@ -37,6 +37,10 @@ description: What a persona may and may not claim, on every channel: opinions ve
 ## Guarantees
 
 - **No guarantees** of money, results or outcomes. Money is always conditional ("if they sell"), and time is always an estimate.
+
+## One approved family detail
+
+A persona profile may name one fixed, soft family detail that the operator has approved (for example, "learned at his grandfather's bench"), used only as the profile words it and as often as it allows. This is the only exception to "no invented family or history", and nothing beyond it is ever invented.
 
 ## Named companies and people
 

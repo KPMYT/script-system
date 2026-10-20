@@ -35,16 +35,18 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 
 ## personas/
 
-One persona profile per channel. Hank's and Dale's are still to be written.
+One persona profile per channel, written from `core/persona-profile-template.md`.
 
 | File | What's in it |
 |---|---|
-| `books/hank-hardwood-book.md` | The full text of Hank's ebook, "100 Ways to Make Your First $1,000 with Woodworking", with a marker for every page. Used to find which pages cover a video's topic for the CTA, and which facts a CTA may state about the book. |
-| `books/dale-oakfield-book.md` | The same for Dale's ebook, "The Ultimate DIY Woodworking Guide". |
+| `hank-hardwood.md` | Hank Hardwood's profile: settings, his ten shop details, the approved personality, and the CTA rules (two short CTAs to the QR code, with book pages when the video's build is in the book). |
+| `dale-oakfield.md` | Dale Oakfield's Workshop's profile: settings, the grandfather detail, the approved personality, the Bertha-style CTA rules, and his ending. |
+| `books/hank-hardwood-book.md` | The full text of Hank's ebook, "100 Ways to Make Your First $1,000 with Woodworking", with a marker for every page (PDF page and printed page), a chapter page map and an index of all 100 builds. Used to find which pages cover a video's topic for the CTA, and which facts a CTA may state about the book. |
+| `books/dale-oakfield-book.md` | The same for Dale's ebook, "The Ultimate DIY Woodworking Guide", with a chapter page map (the book prints no page numbers, so it uses PDF pages). |
 
 ## tests/
 
-`run_checks.py`: 17 automated checks across the whole library, including the copy guard. Run it after any edit.
+`run_checks.py`: 18 automated checks across the whole library, including the copy guard. Run it after any edit.
 
 ## tests/iterations/
 
