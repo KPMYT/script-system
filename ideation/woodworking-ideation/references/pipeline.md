@@ -87,6 +87,6 @@ Nothing more is written until the operator picks titles by number.
 
 ## Step 5 (optional): the research pack
 
-On request, for each picked title, Claude fills in the woodworking research-pack template from the `script-writer` skill (`woodworking-scripts/references/research-pack-template.md`), including the verification pass and a "Verified on" date. The result can go straight into START in the script skill.
+On request, for each picked title, Claude fills in the woodworking research-pack template from the `woodworking-scripts` skill (`references/research-pack-template.md`), including the verification pass and a "Verified on" date. The result can go straight into START in the script skill.
 
-**This needs the `script-writer` skill installed.** The old single-file woodworking-scripts skill has no template.
+**This needs the new `woodworking-scripts` skill installed.** The old single-file version has no template.

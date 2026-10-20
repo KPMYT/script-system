@@ -96,7 +96,7 @@ These change or extend earlier decisions above, by the operator's choice.
 - **Briefs** are a bank of facts only, never structure or language direction, about 500-800 words, one spreadsheet cell with " | " between fact groups.
 - **Titles and thumbnail text may exaggerate freely,** including tenure and income claims. Ideation doesn't hard-code claim bans. The script delivers such titles through the numbers, and the narration still never claims sales or history.
 - **Active woodworking channels:** Hank and Dale, both on camera (Talking Head), both single builds. Kenji is stopped. Sam relaunches later as woodworking for profit.
-- **Packaging:** a single `script-writer` skill (START) carries the core, the niche packs, the persona profiles and the books. `woodworking-ideation` and `ideation-core` are installed alongside it. Everything is built from the repo by `tools/build_skills.py`; the operator stores the files in Drive and installs them on each account.
+- **Packaging:** one skill per layer, at the operator's request: `script-writer` (the core, START), `woodworking-scripts` (the niche pack), one persona skill per channel (profile plus book), and alongside them `woodworking-ideation` and `ideation-core`. Everything is built from the repo by `tools/build_skills.py`; the operator stores the files in Drive and installs them on each account.
 
 ### Rejected, so they don't come back
 
