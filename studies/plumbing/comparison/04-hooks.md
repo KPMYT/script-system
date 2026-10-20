@@ -16,13 +16,13 @@ Operator decisions already made, which this file respects: get to the point fast
 
 ## The short version
 
-1. **19 distinct opening structures** are in the 80 videos. The operator's channels use 15 of them; competitors use 13.
+1. **19 distinct opening structures** are in the 80 videos. The operator's channels open with 14 of them (15 counting the test promise, which they use only as a later beat); competitors open with 13.
 2. **The own hits and the own recent uploads open differently.** Hits most often open with a **question** (4 of 15) or a **"go look at this in your house"** line (2 of 15). Recent uploads never open with a question (0 of 15); they open with a scene, a price gap or an emergency moment, and then spend 20-40 seconds on a name and channel intro (15 of 15, against 0 of 15 hits).
 3. **Question openers lead the biggest hits across the whole study:** 6 of the 40 hits (own and competitor) open with a question, including Wakefield's and Got2Learn's biggest videos. None of the 40 recent uploads does. This is the single cleanest split in the data, but it lines up exactly with the hit/recent timing split, so treat it as a strong lead to test, not proof.
 4. **The fastest openings belong to the biggest competitor hits.** Got2Learn's all-time hits reach the first real point in 5-20 seconds; Arrow's hits say the whole promise in one sentence (11-16 s). The own channels take 56-106 s (median hook length by channel and group).
-5. **Holding back the product's name is the opening most tied to angry comments.** Four own hits keep the product unnamed for 30 seconds to 7 minutes; their comment sections hold the most-liked length complaints in the study ("Why do we suffer through a 20 minute video that could be done in 5 minutes?", 428 likes).
-6. **Teases:** 28 of 30 own openings make some forward promise; 34 of 50 competitor openings make none at all. Only TheCheapFix teases in almost every video (10 of 10), and its teases name a numbered item and a dollar figure. The core already bans the vague ones, but the scanner misses several phrasings the own scripts actually use ("stay to the end", "stay till the end", "stick with me", "hang on for", "do not go clicking away").
-7. **Title handoff is mostly fast on the object, slow on the fix.** Nearly every own video names the title's object in its first sentence; the title's promised fix arrives at 0:19 in the best case and 7:00 in the worst. Five videos in the study drift from their own title in the script (examples in section 4).
+5. **Holding back the product's name is the opening most tied to angry comments.** Four own hits keep the product unnamed for about 50 seconds to 7 minutes; their comment sections hold the most-liked length complaints in the study ("Why do we suffer through a 20 minute video that could be done in 5 minutes?", 428 likes).
+6. **Teases:** 26 of 30 own openings make some forward promise; 34 of 50 competitor openings make none at all. Only TheCheapFix teases in almost every video (10 of 10), and its teases name a numbered item and a dollar figure. The core already bans the vague ones, but the scanner misses several phrasings the own scripts actually use ("stay to the end", "stay till the end", "stick with me", "hang on for", "bonus tip at the end", "do not go clicking away").
+7. **Title handoff is mostly fast on the object, slow on the fix.** 22 of 30 own videos name the title's object in the first sentence and nearly all by the second; the title's promised fix arrives at 0:19 in the best case and 7:00 in the worst. Five videos in the study drift from their own title in the script (examples in section 4).
 
 ---
 
@@ -54,7 +54,7 @@ Primary opener = what the first one or two sentences do (one per video, totals 8
 | H18 | Plain announcement ("in this video I'll show you") | 0 | 0 | 10 | as a later beat in most own hooks |
 | H19 | Title read aloud as the first line | 0 | 0 | 8 | see section 4 |
 
-**Other devices** that appear in openings but aren't openers in their own right: the greeting ("what's up guys", 6 Got2Learn and Silver videos), the audience split ("if you're a homeowner… a DIYer… a plumber", Wakefield 3), the honesty check on the title or thumbnail (3 own), the seasonal peg (4), the reaction to another creator (Wakefield OEbAeVn6DHg, Got2Learn ns_jb7iStCs) and the unboxing (Silver's 3 product reviews). The numbered count with one item teased is covered under teases (section 3).
+**Other devices** that appear in openings but aren't openers in their own right: the greeting ("what's up guys", "Hey guys, I'm Chris": 5 Got2Learn, 4 Silver), the audience split ("if you're a homeowner… a DIYer… a plumber", Wakefield 3), the honesty check on the title or thumbnail (3 own), the seasonal peg (4), the reaction to another creator (Wakefield OEbAeVn6DHg, Got2Learn ns_jb7iStCs) and the unboxing (Silver's 3 product reviews). The numbered count with one item teased is covered under teases (section 3).
 
 **Other own-channel devices in the first minute (hand count):**
 
@@ -63,7 +63,7 @@ Primary opener = what the first one or two sentences do (one per video, totals 8
 | Name and channel intro | 0 | 15 (all at about 0:20-0:55) | 6 say a name (4 are Silver's "Hey guys, I'm Chris") |
 | Tenure number ("in 35 years…") | 9 | 0 | 1 (Wakefield f8-sd5Zw0E4) |
 | A money figure ($ or "hundreds of dollars") | 8 | 11 | 10 of 10 TheCheapFix; about 7 of the other 40 |
-| Any forward tease | 13 | 15 (2 are "by the end you'll know" previews) | 16 |
+| Any forward tease | 14 | 12 (2 of them "by the end you'll know" previews) | 16 |
 
 The rest of this section takes the structures one at a time.
 
@@ -87,7 +87,6 @@ Total about 50-100 words, 20-35 s.
 - *Mark fq7bWC_bRqQ [0:00], 257 views, 0.47x, recent.* "You did everything right. You bought the plunger. You pumped that bathroom sink until your shoulder burned and the water just sat there looking back at you. So now you are staring down a drain call somewhere between $150 and $250 over a clog softer than a bar of soap. But the plunger was never the problem."
 - *Vintage dIe837GgLDs [0:00], 1,016 views, 1.67x, recent (Vintage's best recent).* "There's a ring in your toilet bowl that laughs at everything you've thrown at it. You've scrubbed it. You've bleached it. And maybe you've stood in the cleaning aisle wondering if the whole toilet is ruined."
 - *TheCheapFix TOurn07rVVQ [0:00], 853 views, 0.11x, recent.* "The smell is back. You grind a lemon, [music] drop in a pod, and a day later that rotten stink is right back in your sink. It was never the food. A $1 bottle of hydrogen peroxide kills it for weeks, [music] not days."
-- *TheCheapFix YYLUiZEB_pE [0:00], 1,661 views, 0.22x, recent.* "Your dog had an accident weeks ago. You cleaned it, and now on the first humid day, that corner smells like a kennel again. A cleaner quotes you $300 for the smell, or $500 to rip out the carpet and padding."
 - First-person version, *Roger 8BZZwj93dkQ [0:00], 6,599 views, 2.45x, recent (Roger's best recent; classified H15).* "There was a stretch of my life when the cabinet under my kitchen sink looked like the chemical aisle at the hardware store. Red bottles, blue bottles, a gel that swore it could melt an engine block. And the drain still backed up once a month, regular as a utility bill."
 
 **Frequency and performance (measured).** Primary opener in 6 videos (own hits 1, own recent 2, competitors 3, all TheCheapFix recent); in the first minute of 11. Mark's biggest video uses it (857.86x), and the failed-fix idea opens the best recent upload on two of the three own channels (Vintage dIe837GgLDs 1.67x; Roger 8BZZwj93dkQ 2.45x, first-person). TheCheapFix's three failed-fix openers are all recent and all low, like every TheCheapFix recent upload (0.06-0.69x), so the structure doesn't explain that channel's slump either way.
@@ -142,7 +141,6 @@ About 50-90 words, 18-30 s. TheCheapFix adds one line of chemistry and a numbere
 
 **Examples (verbatim).**
 - *TheCheapFix ls7BwoRhM9Q [0:00], 2,183,304 views, 284.66x, hit (TheCheapFix's biggest).* "That little brown bottle sitting in your medicine cabinet cost about $1 at most drug stores. And yet the average homeowner pays a plumber $300 or more every single year for problems this $1 bottle could have fixed in 15 minutes. Most people only think of hydrogen peroxide as something you pour on a cut. But here's the thing. Plumbers know exactly what this stuff can do. They just do not volunteer it."
-- *TheCheapFix SUqzcj5udsk [0:00], 1,513,057 views, 197.27x, hit.* "That little brown bottle in your medicine cabinet costs about a dollar. The average homeowner pays $246 for one drain cleaning, plus 59 to 150 just for the plumber to walk in and look. Plumbers know what this bottle does. They just do not volunteer it, but almost everyone uses it wrong."
 - *TheCheapFix RA1-fogcslM [0:00], 1,676,523 views, 218.58x, hit.* "You spill one iced coffee on the passenger seat, let it sit a week, and suddenly a detailer is quoting you $300 to get the stain and the smell back out. Ask him about the musty mildew smell in the carpet while he is at it. And that number climbs right past $500."
 - *Roger nxb3nS21zgg [0:00], 1,881 views, 0.70x, recent.* "Tonight, somewhere in your town, a homeowner is going to hand a stranger $200 to clear a slow drain that a $1 cup of powder from the laundry aisle would have cleared before supper."
 - *Roger ihZc3VGeG6c [0:00], 2,103 views, 0.78x, recent.* "That brown bottle of hydrogen peroxide in your bathroom cabinet, the one that costs a dollar to $3 at any grocery store, can do the work of three separate plumber visits. The sink that smells like rotten eggs every time you lean over it. The pink ring in the toilet that comes back no matter how hard you scrub."
@@ -175,7 +173,6 @@ About 60-110 words, 25-45 s in the hits.
 - *Vintage uWXIUmWdPeY [0:00], 240,315 views, 394.61x, hit (Vintage's second).* "Go look at the base of your kitchen faucet, right where the chrome meets the sink deck. See that crusty white ring? Most folks call that lime scale and go buy something to attack it. I've been fitting pipe in American houses for about 30 years, and I'll tell you something that changes how you clean every fixture you own. That ring is not one thing. It's two."
 - *Silver Cymbal sHL4lBAhklA [0:03], 1,512,707 views, 21.31x, recent (Silver's best recent).* "If you own a house, you probably got a can of something like this sitting around, but I bet your can of spray foam does not look like this new one. It's probably one of these. You might even have a collection of these things, right?"
 - *Vintage bSrEWmK0g5E [0:00], 327 views, 0.54x, recent.* "Right now, behind the cabinet under your kitchen sink, there's a pipe packed with 20 years of bacon fat, roast drippings, and gravy set up hard as old candle wax and squeezed down to a hole about the width of a pencil."
-- *TheCheapFix nbBsxB8rFwU [0:00], 1,714 views, 0.22x, recent.* "Look down at the floor of your car for a second. That dark stain ground into the carpet by the driver's seat. The white salt lines crusted into the mats. That faint sour smell you've stopped noticing, but your passengers definitely haven't."
 
 **Frequency and performance.** Primary opener in 5 videos: Vintage's two biggest hits, one Vintage recent, Silver's best recent, one TheCheapFix recent. In the first minute of 12 (it doubles as the vehicle for many price-gap openings: "That little brown bottle sitting in your medicine cabinet"). The two own hits using it as the opener are the two highest ratios on Vintage.
 
@@ -201,7 +198,6 @@ About 60-110 words, 25-45 s in the hits.
 - *Roger kHT6ZL8At0w [0:00], 451,172 views, 167.85x, hit.* "Walk down the cleaning aisle at any grocery store and you'll pass a plain cardboard box that runs about five bucks. No lightning bolt on the label. No warning about melting your face off. That box has been sitting on the shelf doing its job since 1874, a good 50 years before anybody bottled up the harsh stuff and slapped a scary name on it." (Washing soda is named at [5:25], per the notes file.)
 - *Vintage rDLzNLUZnhw [0:00], 51,304 views, 84.24x, hit (Vintage's lowest hit).* "The best thing you can pour down a slow drain is not sold in the plumbing aisle. It is three aisles over. Past the mops, past the trash bags, down on the bottom shelf next to the laundry detergent. It comes in a yellow box. It costs about $4." (Named at [0:52].)
 - *Vintage hOz49worQJg [1:02], 167,260 views, 274.65x, hit.* "I fixed it for about $2. One cup of a white powder from the canning aisle at the grocery store. No fumes, no scrubbing until your shoulder gives out. And it did not come back." (Citric acid is named at [7:00].)
-- *Vintage WxRQIn76yRo [0:00], 372 views, 0.61x, recent.* "But walk down into a plumber's own basement, the man who fixes everybody else's hot water, and nine times out of 10, you'll find one brass fitting on his tank that yours doesn't have. It's about the size of a lemon." (Named at [2:59].)
 - *Silver Cymbal sHL4lBAhklA [0:34], 1,512,707 views, 21.31x, recent.* "It never dries. It never wears out. It resists bugs, water, even mice. With an intro like that, you'd expect music and lights and all sorts of nonsense, but in fact, this is the solution. This stuff is called duct seal." (Named at about 1:01.)
 
 **Frequency and performance.** Primary opener once (kHT6ZL8At0w), but the name is held past 30 s in 8 openings: own hits 4 (kHT6ZL8At0w, YjPAVZAffh0, hOz49worQJg, rDLzNLUZnhw), own recent 3 (AiUUNM24kCo named [4:31], WxRQIn76yRo, nxb3nS21zgg), Silver 1. Hits and duds both use it.
@@ -242,7 +238,7 @@ About 60-110 words, 25-45 s in the hits.
 
 **Illustrative, written for this report.**
 - "When did you last turn the main water shut-off in your house? If the honest answer is never, there's a fair chance it won't budge on the day a pipe bursts. Here's how to check it, and how to free it if it's stuck."
-- "Why does your toilet refill by itself at three in the morning when nobody has flushed? Nine out of ten times it's a rubber part at the bottom of the tank, and a few drops of food coloring will tell you tonight."
+- "Why does your toilet refill by itself at three in the morning when nobody has flushed? Almost always it's a rubber part at the bottom of the tank, and a few drops of food coloring will tell you tonight."
 
 ---
 
@@ -259,15 +255,13 @@ Often only 25-50 words, under 15 s, which makes it a good second beat after a sc
 
 **Examples (verbatim).**
 - *Got2Learn 8IV7oG43DZ0 [0:00], 9,853,734 views, 80.90x, all-time.* "so a lot of you are probably wondering why I'd be making a video about repairing a leak on a copper joint it's pretty straightforward just add some solder and it's fixed right wrong the answer is no and I want to explain to you everything that's wrong when doing this and how to do it the proper way"
-- *Vintage rDLzNLUZnhw [0:00], 51,304 views, 84.24x, hit.* "Here's something that is going to sound wrong the first time you hear it. The best thing you can pour down a slow drain is not sold in the plumbing aisle."
 - *Vintage AiUUNM24kCo [0:00], 603 views, 0.99x, recent.* "Every jug on the drain cleaner shelf is in a race. Faster, stronger, works in 15 minutes, clears the clog while you stand there and watch. And I'll tell you the part nobody prints on those labels. That speed is exactly why the clog keeps coming back."
 - *Vintage WxRQIn76yRo [0:00], 372 views, 0.61x, recent.* "Somewhere under your house right now, a water heater is lying to you. The label says 40 gallons, but you've stood in that shower on a cold morning, third in line behind two other people, and felt the truth roll down your back."
-- *TheCheapFix SUqzcj5udsk [0:00], 1,513,057 views, 197.27x, hit (second beat).* "That fizzing you see when you pour it, that is not the peroxide working. That is the peroxide dying."
 - *Arrow DgMVZB814YI [0:00], 2,595,835 views, 9.58x, hit.* "If you're having roaches show up in your kitchen, trust me, the real problem is hiding in areas that you can't see. What I'm about to show you today is going to change everything you thought you knew about killing roaches."
 
 **Frequency and performance.** Primary opener in 5 videos (own hits 1, own recent 2, competitor hits 2); used in the first minute of 14, the most common second beat after the price gap. Results are mixed: Got2Learn 80.90x, Arrow 9.58x (Arrow's lowest hit), Vintage 84.24x (Vintage's lowest hit), and two Vintage recents at 0.61x and 0.99x.
 
-**Faceless adaptation.** Nothing to fake, but the flip must be true and checkable; the own channels contradict each other on some myths (boiling water, baking soda; see README), and a viewer will quote the other video. One-line flips land better than a 60-second build-up (inferred).
+**Faceless adaptation.** Nothing to fake, but the flip must be true and checkable; the own channels contradict each other on some myths (boiling water; see README), and a viewer will quote the other video. One-line flips land better than a 60-second build-up (inferred).
 
 **Illustrative, written for this report.**
 - "Pouring a kettle of boiling water down the drain feels like the old-timer's fix. In a house with plastic drain pipe, it's how joints soften and start to weep. Hot tap water does the job without the risk."
@@ -315,7 +309,6 @@ Often only 25-50 words, under 15 s, which makes it a good second beat after a sc
 - *Mark XGWQ3l_zEWA [0:00], 449 views, 0.82x, recent.* "The most dangerous grab bar in the country is not the one that never got installed. It is the one already mounted on the wall held in by four plastic plugs waiting for the one morning somebody actually needs it."
 - *Mark VZo8y6AplVQ [0:00], 183,819 views, 334.83x, hit.* "Most homeowners never think about their water heater until something goes wrong. By then, you're looking at hundreds or even thousands of dollars in repairs you could have avoided. With over 25 years in the trades, I've seen the same mistakes come up again and again. And today, I'm walking you through 10 of them."
 - *Wakefield Wav7A7YhduY [0:00], 3,180 views, 0.61x, recent (after a title read).* "Right now, somebody is about to lose 20, 30,000 dollars on a water damage claim and they have no idea that is coming. The water's already dried up. The drywall's already been removed and they're sitting there waiting on a check that is never going to show up."
-- *Got2Learn 2OeSzdjHBC0 [1:03], 67,336 views, 0.55x, recent.* "this $50 kit will prevent a $155,000 claim if caught on time which is why it's super important to have one ready to deploy at all times"
 
 **Frequency and performance.** Primary opener in 2 (Mark hit 334.83x, Mark recent 0.82x); in the first minute of 7. VZo8y6AplVQ's version is the shortest own hook in the study (79 words, 28 s) and reaches item one at 0:28.
 
@@ -342,7 +335,6 @@ Often only 25-50 words, under 15 s, which makes it a good second beat after a sc
 - *Roger YjPAVZAffh0 [0:30], 977,201 views, 363.54x, hit (second beat after a question).* "absolutely no reason to tell you about it because your clogged drain is how he pays his mortgage."
 - *TheCheapFix yIh1HAlbhc0 [0:00], 1,089,664 views, 142.07x, hit.* "The most expensive thing an HVAC tech will ever try to sell you is a thousand-dollar box that bolts into your ductwork to clean your air. But the sales pitch leaves out what's actually inside it. That box works by making hydrogen peroxide, the same thing in the one-dollar brown bottle under your sink."
 - *Silver Cymbal dVjg_BK3G3s [0:00], 1,332,137 views, 18.77x, hit.* "When those first bulbs were created 20 years ago, those manufacturers wanted this technology to take off. So, they really overbuilt those bulbs so the consumers would love them and of course keep buying more. But then fast forward to today and things get really shady."
-- *Mark 6gl41FmPsCk [0:31], 746 views, 1.36x, recent (as a tease).* "And hang on for the bonus habit at the end. The one service techs keep up in their own basement so this never happens twice."
 
 **Frequency and performance.** Primary opener in only 3 (Roger recent 0.30x, TheCheapFix 142.07x, Silver 18.77x), but an insider line appears in the first minute of about 23 videos (5 own hits, 5 own recent, all 10 TheCheapFix). It is a beat, rarely an opener. Parts 1-3 found the "plumbers are the enemy" angle is not what separates hits from duds; Arrow and Got2Learn win without it.
 
@@ -392,10 +384,8 @@ Often only 25-50 words, under 15 s, which makes it a good second beat after a sc
 **Examples (verbatim).**
 - *Mark du--FqUoCHI [0:00], 279,335 views, 508.81x, hit.* "So, your water heater is on its last legs. Or maybe you are building new and trying to figure out which direction to go. And every single person you talk to has a different opinion. Your neighbor swears by his tankless unit. Your brother-in-law says tank style is the only way to go."
 - *Mark sXlzedri_Hg [0:00], 302,585 views, 551.16x, hit.* "You have got a leaky pipe, or maybe you are re-plumbing a bathroom, and you are staring at three options on the shelf. SharkBite, ProPress, and good old-fashioned solder. Everyone has an opinion, but nobody actually tests these things to failure."
-- *Mark Rb0aS97YnSA [0:30], 470,966 views, 857.86x, hit (second beat).* "So, let me line all three up and hand each one a job."
 - *Silver Cymbal YRow6eS6AHw [0:00], 1,065,097 views, 15.00x, hit.* "At some point, everybody's got to get some plumbing done. You could call in a pro, but of course, that's going to cost you big money. You could also go the DIY route. You could solder some pipe, but that needs a flame, some special tools, and of course, some skill that most people just don't want to master. Why not just use shark bites?"
 - *Wakefield WXJGaGtXrgY [0:00], 206,645 views, 39.66x, hit.* "Do you stick with the old reliable tank or do you upgrade to the new high efficiency tankless? Today, we're cutting through all the sales pitches to give you the brutal honest truth."
-- *Vintage dIe837GgLDs [0:00], 1,016 views, 1.67x, recent.* "Bleach, vinegar, a bottle of CLR, or a plain pumice stone. Today, I'm ranking all four, worst to first."
 
 **Frequency and performance.** Primary opener in 4 (two Mark hits at 551.16x and 508.81x, Silver hit 15.00x, Arrow recent 0.10x); in the first minute of 8, including Mark's biggest (Rb0aS97YnSA) and Vintage's best recent. Inferred: the head-to-head is the strongest topic shape on Mark's channel (three of his top four).
 
@@ -440,7 +430,6 @@ Often only 25-50 words, under 15 s, which makes it a good second beat after a sc
 - *Arrow Sg17BA6M3EI [0:00], 449,072 views, 1.66x, recent.* "They're going to drown. >> Where do we put these things? Boo-ya. >> Let's go. >> If you have stink bugs invading your house today, I'm going to show you two simple and effective ways to trap and to kill them."
 - *Arrow 4pG5LWiwfaU [0:00], 444,754 views, 1.64x, recent.* "I hate spiders. >> He's moving around. >> Don't want our animals to get into it. >> Yeah, it's still alive. It's still alive. >> That's perfect. >> No more spiders. This actually works."
 - *Silver Cymbal K8F2R1gDSkg [0:00], 45,438 views, 0.64x, recent.* "Here it goes. That is awesome. That thing blows practically every power station I try."
-- *Got2Learn 0v5Es6rYnyw [0:00], 19,525 views, 0.16x, recent (news clip).* "we walked into the kitchen this morning and there you go our pipe was frozen and then of course comes the fear that the pipe is going to burst"
 - *Roger n-2hjVGsu-Q [0:00], 2,101 views, 0.78x, recent.* "Look at the toilet on the left with that brown ring at the waterline and the gray streaks running down from under the rim. Now, look at the same toilet on the right the very next morning. All it took in between was one cup of drugstore peroxide left sitting in the bowl overnight."
 
 **Frequency and performance (measured).** Primary opener in 7, **all recent uploads**, no hit. Arrow is the clearest case: 4 of its 5 recent uploads open on footage; all 5 of its hits open on one spoken sentence first, with the footage after (hits 8.60-25.19x; footage-first recents 0.11-1.66x). Timing differs between those groups, so this is a lead, not proof.
@@ -466,7 +455,6 @@ Often only 25-50 words, under 15 s, which makes it a good second beat after a sc
 **Examples (verbatim).**
 - *Roger 8BZZwj93dkQ [0:00], 6,599 views, 2.45x, recent (Roger's best recent).* "There was a stretch of my life when the cabinet under my kitchen sink looked like the chemical aisle at the hardware store. Red bottles, blue bottles, a gel that swore it could melt an engine block. And the drain still backed up once a month, regular as a utility bill. I tried everything you're about to try in the same order you're about to try it."
 - *Vintage hOz49worQJg [0:00], 167,260 views, 274.65x, hit.* "There's a stack of receipts on my workbench right now, and I want to read a few of them out before we get into anything else. $4.99 for a bottle of thick blue bowl cleaner, the kind that clings. $6.49 for the same brand in a different bottle that says "heavy duty" on the label."
-- *Vintage hOz49worQJg [0:32], same video.* "That is what one homeowner spent in a single year fighting one ring in one toilet. And when I walked into that bathroom, the ring was still there."
 - *Wakefield RGH2k2G8oaQ [0:00], 2,683 views, 0.51x, recent (after a title read).* "I met a kid last month, 26 years old, marketing degree, $41,000 in student loans, and he was sitting in his truck in a parking lot outside of an office he hadn't walked into in three days because he couldn't make himself go in."
 - Mentor line as a later beat, *Vintage rDLzNLUZnhw [1:31], 51,304 views, 84.24x, hit.* "My Uncle Ray showed me this when I was still too young to be trusted with a torch. He was not a chemist. He was a man who did not like paying for things twice."
 
@@ -502,7 +490,7 @@ Often only 25-50 words, under 15 s, which makes it a good second beat after a sc
 
 **Frequency and performance.** Primary opener in 4 of Arrow's 5 hits; its fifth hit (DgMVZB814YI) ends with the same payoff line, and two recent uploads use the payoff line after a footage cold open. No other channel uses it.
 
-**Faceless adaptation.** All words, no demonstration needed. For plumbing the reassurance becomes "safe for septic", "safe for old cast iron", "no harsh chemicals" (part 3 already suggested "Safe For Septic" for titles). Two inferred cautions: "guaranteed" and "kill every" over-promise, which the core claims policy won't allow; and "Let's go" plus the "never… the same way again" line are on part 2's banned-phrase candidate list, so the plumbing version needs its own words. One Arrow viewer: "Another 21 minute long video with NO PROOF that really works.. waste of time…" (FaKOqJcsg4A, 0 likes).
+**Faceless adaptation.** All words, no demonstration needed. For plumbing the reassurance becomes "safe for septic", "safe for old cast iron", "no harsh chemicals" (part 3 already suggested "Safe For Septic" for titles). Two inferred cautions: "guaranteed" and "kill every" over-promise, which the core claims policy won't allow; and the "never… the same way again" line is on part 2's banned-phrase candidate list, so the plumbing version needs its own words. One Arrow viewer: "Another 21 minute long video with NO PROOF that really works.. waste of time…" (FaKOqJcsg4A, 0 likes).
 
 **Illustrative, written for this report.**
 - "Clear a slow kitchen drain overnight with no harsh chemicals, and it's safe for septic tanks and old cast-iron pipe. Too easy to be true? Not if you use the right white powder, and I'll name it in the next sentence."
@@ -521,7 +509,6 @@ Often only 25-50 words, under 15 s, which makes it a good second beat after a sc
 - *Got2Learn Jwe0PSDEAps [0:00], 267,469 views, 2.20x, recent (Got2Learn's best recent).* "here are 10 did you knows that you probably didn't know number one copper pipe is antimicrobial or biostatic but what does this mean"
 - *TheCheapFix uJVc7zmq7vs [0:00], 5,266 views, 0.69x, recent (TheCheapFix's best recent).* "Pour two cups of ordinary hydrogen peroxide into your toilet tank tonight. Leave it until morning without flushing and you wake up to grime lifting off the walls, a tank that stopped smelling, and a flush that actually hits harder than it did the day before. All from the $1 brown bottle already sitting in your bathroom cabinet."
 - *Got2Learn xpsLXmntINE [0:00], 7,790,113 views, 63.96x, all-time.* "here are 10 things that'll make you fail a plumbing inspection … so here we go the first violation would be to plumb your washing machine drain in inch and a half piping"
-- Closest own example, *Vintage 7oem6cSCg-g [0:00], 251 views, 0.41x, recent:* item one starts at 0:31, after a 95-word hook.
 
 **Frequency and performance.** Primary opener in 4 (Got2Learn 2 all-time hits, Got2Learn's best recent, TheCheapFix's best recent); no own video. Wakefield ooWoKmqrooU (49.80x) reaches item one at 0:22. The comments praise this pace more than anything else in the study: "Dude I wish everyone had the same brisk, get-to-the-point pace. No tedious intro with music, no rambling. Just instructions." (Got2Learn JyVbjDsric4, 1.4K likes).
 
@@ -541,7 +528,6 @@ Often only 25-50 words, under 15 s, which makes it a good second beat after a sc
 - *Silver Cymbal fseq9NvO_zw [0:00], 10,723,985 views, 151.07x, hit (Silver's biggest).* "Hey guys, I'm Chris from the Silver Symbol channel and in today's video I'm going to teach you how you can clean the inside of your car's windshield streak free. You do not need to buy any special tools."
 - *Got2Learn JyVbjDsric4 [0:00], 8,169,785 views, 67.08x, all-time.* "hi in this video I'll be thoroughly explaining how to solder copper pipe they get a nice leak free joint if you're unfamiliar with soldering you'll be able to solder any diameter pipe after this video with ease and peace of mind there are three steps to solder copper join"
 - *Silver Cymbal cfGgCbQAjwM [0:00], 1,790,187 views, 25.22x, hit.* "Everybody loves a well-edged yard, but sometimes getting there is not that easy. So, in this video, I'm going to give you three tips for better edges and weed whacking that will make your life easier."
-- *Got2Learn 2OeSzdjHBC0 [0:00], 67,336 views, 0.55x, recent.* "what's up guys and welcome back to another video in this video I want to show you a simple emergency plumbing kit I put together that'll temporarily fix 90% of all leaks in under 5 minutes"
 
 **Frequency and performance.** Primary opener in 10, all competitors (3 hits: 151.07x, 67.08x, 25.22x; 7 recent at 0.07-4.65x). In own hooks the same sentence appears as a later beat, usually at 0:20-0:45 ("Today we are going over five things you should never pour down your drain", WfAwg1l0xCE).
 
@@ -561,7 +547,6 @@ Often only 25-50 words, under 15 s, which makes it a good second beat after a sc
 - *Wakefield WXJGaGtXrgY [0:00], 206,645 views, 39.66x, hit.* "Don't buy a new water heater. Don't buy a new water heater until you watch this."
 - *Wakefield zfrqkteUPAI [0:00], 247,030 views, 47.41x, hit.* "Flushing a water heater the right way, step by step. Now, flushing a water heater is something that you need to do. And today, I'm going to show you how. If you're new to the channel, or even if you're not, if you've been here before, but you hadn't done it yet, please hit the subscribe button and ring the bell."
 - *Wakefield f8-sd5Zw0E4 [0:00], 97,050 views, 18.63x, recent (Wakefield's best recent).* "The trade school bubble is about to burst. What they're not telling you. Everybody and their cousin is telling you to go into the trades right now. And most of them are about to get stuck at the bottom making less than they would have at the job they just quit."
-- *Wakefield Wav7A7YhduY [0:00], 3,180 views, 0.61x, recent.* "The number one reason water damage claims get denied and the 5-minute fix that protects you. Make sure you stay till the end because I'm going to tell you the one line that you need to ask your insurance company that helps flip this for you almost every single time."
 
 **Frequency and performance.** Primary opener in 8, all Wakefield (4 hits 37.52-49.80x, 4 recent 0.51-18.63x). Wakefield's biggest video (OEbAeVn6DHg, a question) is the one hit that doesn't. Arrow's formula (H16) is a close relative: its first sentence is the title turned into a sentence.
 
@@ -613,7 +598,7 @@ Two faster ones for contrast: *Got2Learn xpsLXmntINE* (greeting 0:00, "here are 
 ### 2.3 What the sequences show
 
 - **Measured:** the own recent uploads name their fix faster than the hits in several cases (Fgc-A7FCG44, fq7bWC_bRqQ), yet their hook is just as long, because the name intro and preview fill 0:30-1:00. The hits put a tenure line where the recent uploads put a name intro.
-- **Measured:** the title's promise is restated by about 0:35 in 12 of 15 own hits.
+- **Measured:** the title's promise is restated by about 0:35 in 13 of 15 own hits (the two exceptions are the held-back products in hOz49worQJg and uWXIUmWdPeY).
 - **Inferred:** the competitor hits that move fastest (Got2Learn, Arrow, TheCheapFix) all spend 0:15-0:45 on substance (an item, a price, a disbelief beat), never on who the narrator is. Cutting the name intro (already decided) and naming the fix by about 0:20 would bring the own openings close to the competitor range without changing the opening sentence that the hits already get right.
 
 ---
@@ -622,7 +607,7 @@ Two faster ones for contrast: *Got2Learn xpsLXmntINE* (greeting 0:00, "here are 
 
 The core already bans the vague teases: "stick around", "stay tuned", "bonus at the end", "by the end of this video", "you won't believe", "keep watching", "watch until the end", "don't skip ahead", "wait until you see" (`core/humanizer.md`, checked by `core/script-scanner.py`).
 
-**Gap found (measured from the scanner's patterns, not a rule change):** the scanner does not catch several forms the own scripts actually use: "stay to the end", "stay till the end", "stick with me", "hang on for", "stay for number 10", "do not go clicking away", "at the very end I'll". It also wouldn't catch "By the end, you'll…" without "of this video". These belong in `PROPOSALS.md` if the operator wants them added.
+**Gap found (measured from the scanner's patterns, not a rule change):** the scanner does not catch several forms the own scripts actually use: "stay to the end", "stay till the end", "stick with me", "hang on for", "stay for number 10", "do not go clicking away", "at the very end I'll", and "bonus tip at the end" (the pattern only matches "bonus at the end", so WfAwg1l0xCE, sXlzedri_Hg and VZo8y6AplVQ would pass). It also wouldn't catch "By the end, you'll…" without "of this video". These belong in `PROPOSALS.md` if the operator wants them added.
 
 ### 3.1 Counts by kind (first ~2 minutes of each video)
 
@@ -630,57 +615,46 @@ A video can have more than one kind.
 
 | Kind of forward tease | Own hits (15) | Own recent (15) | Competitors (50) |
 |---|---|---|---|
-| "Stay / stick around to the end" with a concrete payoff named | 8 | 7 | 4 (all Wakefield) |
-| Vague end tease, no real payoff ("a bonus tip at the end that could save you hundreds") | 4 | 0 | 2 (Wakefield, Arrow) |
+| End tease with a concrete payoff named | 8 | 8 (n-2hjVGsu-Q without any "stay" phrase) | 4 (all Wakefield) |
+| Vague end tease, no real payoff ("a bonus tip at the end that could save you hundreds") | 4 | 0 | 3 (Wakefield 2, Arrow 1) |
 | Numbered item teased ("number five might surprise you") | 5 | 1 | 9 (all TheCheapFix) |
 | Numbered item with a dollar figure ("#4 saves $300") | 0 | 0 | 4 (TheCheapFix) |
 | Safety payoff teased ("number nine is the one that keeps you safe") | 1 | 3 | 0 |
 | Open loop held inside the hook ("Hold on to one word there, oxygen") | 1 | 3 | 3 (TheCheapFix) |
 | Running device ("I'm keeping a running tally of every dollar") | 1 | 1 | 0 |
 | "Don't click away" | 1 | 0 | 1 (Wakefield) |
-| "By the end (of this video) you'll know…" outcome preview | 0 | 5 | 2 |
-| **No forward tease at all** | 2 | 0 | 34 (Silver 10, Got2Learn 10, Arrow 9, Wakefield 5) |
+| "By the end (of this video) you'll know…" outcome preview | 0 | 5 | 1 (Wakefield) |
+| **No forward tease at all** | 1 (uWXIUmWdPeY) | 3 (7oem6cSCg-g, WxRQIn76yRo, bSrEWmK0g5E) | 34 (Silver 10, Got2Learn 10, Arrow 9, Wakefield 5) |
 
-Part 3 counted 22 of 30 own hooks with a "stay till the end" style tease; my count of any end tease using a "stay/stick/hang on" phrase or "at the very end" is 22 as well, by a slightly different route.
+Part 3 counted 22 of 30 own hooks with a "stay till the end" style tease; my count of end teases using "stay", "stick", "hang on" or "at the (very) end" is also 22 (Roger 10, Mark 9, Vintage 3).
 
 ### 3.2 Examples of each kind (verbatim)
 
 **Concrete payoff named (the better end tease).**
 - *Mark Rb0aS97YnSA [0:30], 857.86x, hit.* "Stay to the end because there is a fourth option that turns the weakest box on that shelf into the strongest one in your own oven for nothing."
-- *Roger YjPAVZAffh0 [0:31], 363.54x, hit.* "And stick around to the end because I'm going to show you a one-minute bathroom sink trick that eliminates the number one cause of slow drains in most homes."
 - *Roger n-2hjVGsu-Q [0:31], 0.78x, recent* (no banned phrase at all). "I'm keeping a running tally of every dollar they cost and at the very end I'll tell you the three times a plumber is worth every cent of the bill."
-- *Wakefield WXJGaGtXrgY [0:00], 39.66x, hit.* "and stay till the very end because I'm going to tell you why most plumbers try to charge a whole lot more than they really should."
 
 **Vague end tease.**
 - *Roger WfAwg1l0xCE [0:31], 452.91x, hit.* "Plus, stick around for a bonus tip at the end that could save you hundreds of dollars a year."
-- *Mark sXlzedri_Hg [0:31], 551.16x, hit.* "And let me tell you, the heat exposure test, and the bonus tip at the end, completely changed how I think about fittings."
-- *Wakefield RGH2k2G8oaQ [1:00], 0.51x, recent.* "Stick around because the thing nobody warns you about is at the very end."
 - *Arrow zuiwdNiVylQ [0:00], 0.10x, recent.* "And at the end of this video, the answer is going to shock you."
 
 **Numbered item teased.**
 - *Roger WfAwg1l0xCE [0:00], 452.91x, hit.* "And number five might surprise you because most people have no idea it is even a problem."
-- *Mark VZo8y6AplVQ [0:00], 334.83x, hit.* "Stick around because number eight catches almost everyone off guard."
-- *Vintage rDLzNLUZnhw [2:04], 84.24x, hit.* "Stick with me because number 10 is the one that trips people up the most. And it is the exact thing half the internet is telling you to do right now."
 
 **Numbered item with money (TheCheapFix only).**
 - *TheCheapFix ls7BwoRhM9Q [0:32], 284.66x, hit.* "One of the things on this list, number four, has saved homeowners $300 in a single afternoon."
 - *TheCheapFix RA1-fogcslM [0:32], 218.58x, hit.* "These are 13 things detailers do not want you to know about hydrogen peroxide. And number seven by itself can save you $500."
-- *TheCheapFix nbBsxB8rFwU [0:30], 0.22x, recent.* "And number six alone can save you around 500 bucks."
-- Countdown variant, *TheCheapFix uJVc7zmq7vs [0:30], 0.69x, recent.* "Secret number four is the one that should make you angry because those little blue tablets everyone drops in the tank are quietly wrecking your toilet from the inside."
 
 **Safety payoff.**
 - *Mark fq7bWC_bRqQ [0:30], 0.47x, recent.* "and the one situation where the correct move is to put the plunger down and walk away. That last one can burn you, so stay for it."
-- *Mark j_d6TuZKHV4 [0:30], 0.22x, recent.* "Stay for number 10, because that is the one where the right move is to pour nothing at all, and knowing it can save you a flooded hallway."
 - *Vintage rGEFZrtOJOI [1:34], 1,236.97x, hit.* "Number six is one most folks never even think to check and number nine is the one that keeps you safe. So do not go clicking away early on me."
 
 **Open loop inside the hook.**
 - *TheCheapFix cljD9InmFzk [1:32], 0.06x, recent.* "Hold on to one word there, oxygen. Because the fact that these bugs can't survive it is the whole reason a dollar bottle beats everything on the shelf. And we get to exactly why near the end."
-- *Mark Fgc-A7FCG44 [1:32], 0.38x, recent.* "later in this video, I will show you exactly why that jug is the most expensive shortcut you can pour into a toilet."
 - *Roger kHT6ZL8At0w [1:00], 167.85x, hit.* "And stay to the end because I'll tell you the real reason a plumber will either charge you extra or walk away from your sink completely. And it has nothing to do with the clog."
 
 **"By the end you'll know" previews (recent template).**
 - *Vintage dIe837GgLDs [0:31], 1.67x, recent.* "By the end of this video, you'll know which of these four to grab, exactly how to use it, and which two should never ever share a bowl."
-- *Vintage AiUUNM24kCo [0:31], 0.99x, recent.* "By the end, you'll have the exact overnight routine, drain by drain, plus the honest limits nobody puts on the jug."
 
 ### 3.3 What the comments say about teases (measured)
 
@@ -695,7 +669,7 @@ Part 3 counted 22 of 30 own hooks with a "stay till the end" style tease; my cou
 
 ## 4. Hook-to-title handoff
 
-**How fast the first line picks up the title (hand-read).** In 26 of 30 own videos the first sentence names the title's object (the drain, the tank, the bottle, the trap). The title's promised **fix** comes much later, and that is where the handoff slips.
+**How fast the first line picks up the title (hand-read).** In 22 of 30 own videos the first sentence names the title's object (the drain, the tank, the bottle, the trap), and nearly all do by the second sentence; the eight that wait a sentence open on a clock, a question or a scene first (hebGJ43lQ6s, fq7bWC_bRqQ, Fgc-A7FCG44, 6gl41FmPsCk, rGEFZrtOJOI, uWXIUmWdPeY, hOz49worQJg, rDLzNLUZnhw). The title's promised **fix** comes much later, and that is where the handoff slips.
 
 ### 4.1 Handoffs that work (verbatim)
 
@@ -743,12 +717,9 @@ Comments are capped at about 40 per video, and the own recent uploads were 1-8 d
 - Roger kHT6ZL8At0w (167.85x): "Why do we suffer through a 20 minute video that could be done in 5 minutes?" (428 likes).
 - Roger WfAwg1l0xCE (452.91x): "To make this watchable, increase the speed to 150%" (70).
 - Mark HsOr7vpQUGg: "This should be an 1 to 2 minute video." (96); "A 20 minute video to explain a 2 minute problem." (0).
-- Mark Rb0aS97YnSA: "20 minutes for 3 options? 🤣" (48).
 - Vintage hOz49worQJg (274.65x): "AI junk could of been said in less than a minute, thumbs down!" (68); "Dry dull get to the point" (25); "One could literally clean two toilet bowls by the time this bla bla bla video finishes. Total waste of time" (0).
 - Vintage rDLzNLUZnhw (84.24x): "21 minutes of unnecessary verbiage to convey a mixture of washing soda and baking soda overnight…" (50); "Too much useless talk" (22).
 - Vintage uWXIUmWdPeY (394.61x): "22 minutes to show an alternative to vinegar. Video could have been 5 minutes. No thanks!" (28); "Get to the freaking point." (10); "22 minutes for 2 minutes worth of information...AI nonsense." (5).
-- Vintage rGEFZrtOJOI: "Video is timestamped at 20 minutes. Google and read in three minutes." (15).
-- TheCheapFix RA1-fogcslM: "I sped up the audio bc it was dddrrraggggeddd outtt. But, once I realized the commentary was full of unnecessary fluff, I ended the video." (0).
 
 ### 5.3 Clickbait and trust
 
@@ -761,9 +732,9 @@ Comments are capped at about 40 per video, and the own recent uploads were 1-8 d
 - "Dude I wish everyone had the same brisk, get-to-the-point pace. No tedious intro with music, no rambling. Just instructions. Good ones, and thorough." (Got2Learn JyVbjDsric4, 1.4K likes; plus three more "to the point" comments on the same video, 30-58 likes.)
 - "He's too old to know how real videos are made these days with 3 minutes of information and 36 minutes of absolutely unnecessary garbage. Seriously, thank you for keeping this short and straight to the point brother." (Silver fseq9NvO_zw, 1K likes.)
 - "Right to the point, zero fluff, zero self-promotion, useful, and interesting. Subscribed 🔔" (Silver dVjg_BK3G3s, 214 likes.)
-- The own channels' single "no fluff" comment: "Helpful and super great pics with clear instructions and no fluff!" (Roger WfAwg1l0xCE, 88 likes), on the hit with the shortest own hit hook but one (45 s, item one at 0:46).
+- The own channels' single "no fluff" comment: "Helpful and super great pics with clear instructions and no fluff!" (Roger WfAwg1l0xCE, 88 likes), on one of the shortest own hit hooks (45 s; item one at 0:46).
 
-**Reading (measured, then inferred).** The most-liked comments about pace in the whole study are praise for fast competitor openings (1.4K, 1K) and complaints about slow own videos (428, 168, 96). Every complaint above is on an own video or TheCheapFix; none is on Got2Learn, Arrow or Silver. Inferred: the 15-20 minute length is not the problem by itself (TheCheapFix runs as long), but a long opening that holds back the answer is what viewers name.
+**Reading (measured, then inferred).** The most-liked comments about pace in the whole study are praise for fast competitor openings (1.4K, 1K) and complaints about slow own videos (428, 168, 96). Every pace complaint above is on an own video, TheCheapFix or (once) Wakefield; none is on Got2Learn or Silver, and the one Arrow complaint found is about proof, not pace. Inferred: the 15-20 minute length is not the problem by itself (TheCheapFix runs as long), but a long opening that holds back the answer is what viewers name.
 
 ---
 
@@ -781,7 +752,7 @@ Ranked by the strength of the evidence and the fit with a faceless AI-voiced cha
 | 6 | **H11 Banned / no longer allowed** | All 3 users are hits: Mark 756.84x, Got2Learn 95.02x (its biggest) and 63.96x. A code fact needs no demonstration. | "You notice X; X isn't allowed anymore; here's why and the fix". Say "most codes" unless sourced; match the footage to the fixture. |
 | 7 | **H3 Price gap, as a beat** | 4 of TheCheapFix's 5 hits open on it; it is in the first minute of most own videos. Too common to explain hits alone. | One sentence, specific prices as dated "about" ranges, in the first 10 s; skip the accusing "they won't tell you". |
 | 8 | **H8 "You're doing it wrong"** | Roger's biggest (452.91x); Silver 23.80x. | Calm tone, a proven harm, item one by 0:30 as Vintage 7oem6cSCg-g does. |
-| 9 | **H16 Bold promise + reassurance, in plumbing words** | 4 of Arrow's 5 hits; the shortest hooks in the study (11-16 s). | Promise plus "safe for septic / old pipes" in sentence one, a disbelief beat answered at once, then straight in. Drop "guaranteed", "Let's go" and "never… the same way again". |
+| 9 | **H16 Bold promise + reassurance, in plumbing words** | 4 of Arrow's 5 hits; the shortest hooks in the study (11-16 s). | Promise plus "safe for septic / old pipes" in sentence one, a disbelief beat answered at once, then straight in. Drop "guaranteed" and "never… the same way again". |
 | 10 | **H15 Short story** | Roger's best recent (2.45x); Vintage 274.65x. Uncle Ray in 4 of 5 Vintage hits as a later beat. | Under 20 s, consistent with the persona file, ending on the fix. |
 | 11 | **H2 Emergency moment** | Mark's best recent (1.36x); fits seasonal topics. | Clock, two details, stop sign, the answer straight after; no intro in between. |
 
