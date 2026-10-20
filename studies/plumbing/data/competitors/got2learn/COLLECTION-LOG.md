@@ -86,3 +86,45 @@ Spam skipped: a business partnership solicitation; a "promo sm" promotion; an of
 - youtube_video_details reports hasCaption=false for all videos, yet auto-generated English transcripts were returned for every video except 2DQq4wa0ar0.
 - 2OeSzdjHBC0 auto-caption at [1:03] reads "$155,000 claim". A newest comment refers to "A $15K claim", so the spoken figure may be $15,000. The transcript was left as returned.
 - Notes word counts follow the woodworking examples' layout. Measured with wc including headers and URLs, they run 416–493 words; the woodworking examples run 462–533 by the same count.
+
+## Group B added 2026-10-20 (all-time most-viewed, operator decision)
+
+The operator decided on 2026-10-20 that, since the last-24-months Group B is empty (see above), Got2Learn's Group B is its **5 all-time most-viewed long-form uploads**, skipping Group A. The selection line in each meta.md reads: "5 all-time most-viewed long-form uploads (operator decision 2026-10-20: the channel has no uploads in the last-24-months window beyond Group A) (rank N in popular order)". Same method as above: NexLev MCP tools only.
+
+| Popular rank | Video ID | Title | Upload date | Duration | Views | Likes | Views / normal |
+|---|---|---|---|---|---|---|---|
+| 1 | pmN88UvZfDI | Here's Why "S-TRAPS" Are NOT ALLOWED Anymore! (And 3 Ways To Fix It) \| GOT2LEARN | 2021-05-08 | 5:49 | 11572829 | 158295 | 95.02 |
+| 2 | 8IV7oG43DZ0 | The CORRECT Way To Fix A Leaking Joint (UNSOLDERING) \| GOT2LEARN | 2019-08-29 | 10:37 | 9853734 | 75889 | 80.90 |
+| 3 | DHk94YoC95k | The ULTIMATE Plumbing Tricks BIBLE (30+ Tricks!) \| GOT2LEARN | 2018-08-01 | 6:45 | 8651686 | 65534 | 71.03 |
+| 4 | JyVbjDsric4 | How to Solder Copper Pipe The CORRECT Way \| GOT2LEARN | 2017-08-12 | 5:04 | 8169785 | 126265 | 67.08 |
+| 5 | xpsLXmntINE | 10 Reasons Why You'd FAIL a Plumbing Inspection! \| GOT2LEARN | 2020-02-05 | 7:36 | 7790113 | 113882 | 63.96 |
+
+- **Selection:** youtube_channel_videos sort=popular, first page (30 videos). The top five are all long-form (3:00 or longer, none a Short) and none is in Group A, so ranks 1–5 were taken with no skips. Exact dates, views, likes and durations come from youtube_video_details. Rank 6 (NQmWLr1qBsM, 7511515 views) was also checked with youtube_video_details to confirm that the exact-view order matches the list order at the 5/6 boundary.
+- **Normal:** 121799, taken from the Normal section above, not recomputed. pmN88UvZfDI is also row 15 of the normal table (11572660 views there; 11572829 at this later fetch).
+- **Skips:** none. Every video had a transcript.
+- **Transcripts:** get_bulk_video_transcripts for all five. xpsLXmntINE returned HTTP 504 (gateway time-out) in the first bulk call. A single get_video_transcript call then worked. The result did not spill to a file, so a second bulk call with the same five IDs was made to get a parseable file. The four repeated transcripts were identical to the first call, and the saved xpsLXmntINE copy comes from the second call. No extra videos were requested.
+- **Comments:** youtube_video_comments, top and newest, one page each (paging repeats page 1, as noted above). Text and like counts only, blank like counts recorded as 0.
+
+| Video ID | Top | Newest listed | In both | Unique kept | Spam skipped | API commentsCount |
+|---|---|---|---|---|---|---|
+| pmN88UvZfDI | 20 | 20 | 2 | 38 | 0 | 4.8K |
+| 8IV7oG43DZ0 | 20 | 19 | 1 | 38 | 1 | 2.1K |
+| DHk94YoC95k | 20 | 20 | 2 | 38 | 0 | 2.8K |
+| JyVbjDsric4 | 20 | 20 | 2 | 38 | 0 | 4.6K |
+| xpsLXmntINE | 20 | 20 | 1 | 39 | 0 | 3.6K |
+| **Total** | 100 | 99 | 8 | **191** | **1** | |
+
+- **Spam skipped:** one newest comment on 8IV7oG43DZ0 plugging a named local plumbing company.
+- **Kept, flagged in the file:** on DHk94YoC95k, a newest comment that repeats top comment 2 word for word (a separate comment), an abusive off-topic comment, and an emoji-only comment.
+- **Privacy edits:** in DHk94YoC95k top comment 15, a self-signed first name became [name removed] and a link to the commenter's own channel became [channel link removed].
+- **Check:** all comments.md files were checked for "@" handles, channel links and the commenters' handles as returned by the API. None found.
+
+### Oddities (Group B)
+
+- **Channel owner's comment in every video.** A comment by the channel itself (a list of Amazon affiliate product links, posted "1 year ago" per the API) is first in both sorts on all five videos. It is kept as text with its links omitted and counted in the totals. On DHk94YoC95k its product list is the soldering-repair list (torch, pliers, solder), not the tools in that tricks video. None of the Group A videos showed such a comment.
+- **Format not visually checked.** watch_youtube_video_and_ask returned "Too Many Requests" twice for pmN88UvZfDI (0:00–1:15), so none of the five were watched. Format is FACELESS from the channel-wide check_faceless_channel result plus the transcripts and comments, as for the unchecked Group A videos.
+- **pmN88UvZfDI narration.** Its captions are uploaded English captions, not auto-generated, with full punctuation and a French (Canada) track listed. The script reads as written prose. One newest comment says "AI voices AND their bad pronunciations suck." Another ("Pitha grourous what happened to editing standards") and several top comments mock the pronunciation of "Pythagoras". Whether the voice is synthetic was not checked.
+- **pmN88UvZfDI timestamps.** Caption lines [1:58]–[2:02] are bunched (five lines in four seconds), as returned. They are left unchanged.
+- **Durations.** youtube_video_details gives lengths 1 s shorter than the list text for four videos (for example, 349 s vs "5:50"). meta.md uses the details value and notes the list value.
+- **Age.** The Group B videos are 1991–3356 days old at collection, against 1383–1524 for the Group A how-to videos. Views / normal for Group B (63.96–95.02) compares all-time hits against a normal taken from the 2021–2025 uploads.
+- **Notes length.** Measured with wc including headers and URLs, the Group B notes run 514–591 words, against 416–493 for the Group A notes.

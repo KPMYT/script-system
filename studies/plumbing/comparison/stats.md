@@ -1,6 +1,6 @@
 # Measured numbers per video
 
-Computed by the main session on 2026-10-20 from each video's meta.md (views, ratio, duration), transcript.txt (spoken words) and notes file (hook length and first-value timestamp, as the helper recorded them). Words/min = transcript words / duration. Got2Learn's channel update (bVgQ-uZ2Qo0) has no hook or first-value entry. Group: recent = 5 most recent; most-viewed = 5 most-viewed in the last 24 months; all-time = Got2Learn's all-time most-viewed (added on the operator's decision).
+Computed by the main session on 2026-10-20 from each video's meta.md (views, ratio, duration), transcript.txt (spoken words) and notes file (hook length and first-value timestamp, as the helper recorded them). Words/min = transcript words / duration. Hook "None": Got2Learn's channel update (bVgQ-uZ2Qo0) has no hook entry, and DHk94YoC95k has no hook (its first trick starts at 0:00). Group: recent = 5 most recent; most-viewed = 5 most-viewed in the last 24 months; all-time = Got2Learn's 5 all-time most-viewed (2017-2021, added on the operator's decision; their views/normal compare old hits with a normal built from 2021-2025 uploads).
 
 | Channel | Group | Title | Views | V/normal | Length | Words | Words/min | Hook (words / s) | First value at |
 |---|---|---|---|---|---|---|---|---|---|
@@ -59,6 +59,11 @@ Computed by the main session on 2026-10-20 from each video's meta.md (views, rat
 | got2learn | recent | The ULTIMATE $50 Plumbing Emergency Repair Kit (Fixes 90% of All Leaks | 67,336 | 0.55 | 8:21 | 1,348 | 161 | 122 / 46 | 0:49 |
 | got2learn | recent | What to do in case of an EMERGENCY with your plumbing! / GOT2LEARN | 19,525 | 0.16 | 13:24 | 2,212 | 165 | 222 / 69 | 2:18 |
 | got2learn | recent | CHANNEL UPDATE 2025 / GOT2LEARN | 8,677 | 0.07 | 3:08 | 503 | 161 | 48 / 14 | ? |
+| got2learn | all-time | Here's Why "S-TRAPS" Are NOT ALLOWED Anymore! (And 3 Ways To Fix It) / | 11,572,829 | 95.02 | 5:49 | 961 | 165 | 53 / 18 | 0:20 |
+| got2learn | all-time | The CORRECT Way To Fix A Leaking Joint (UNSOLDERING) / GOT2LEARN | 9,853,734 | 80.9 | 10:37 | 1,838 | 173 | 187 / 64 | 1:36 |
+| got2learn | all-time | The ULTIMATE Plumbing Tricks BIBLE (30+ Tricks!) / GOT2LEARN | 8,651,686 | 71.03 | 6:45 | 1,520 | 225 | None / None | 0:05 |
+| got2learn | all-time | How to Solder Copper Pipe The CORRECT Way / GOT2LEARN | 8,169,785 | 67.08 | 5:04 | 1,123 | 222 | 117 / 32 | 0:15 |
+| got2learn | all-time | 10 Reasons Why You'd FAIL a Plumbing Inspection! / GOT2LEARN | 7,790,113 | 63.96 | 7:36 | 1,247 | 164 | 39 / 13 | 0:13 |
 | arrow-pest-service | recent | Homemade Stink Bug Trap That Actually Works! | 449,072 | 1.66 | 16:35 | 3,144 | 190 | 63 / 16 | 0:23 |
 | arrow-pest-service | recent | Get Rid of Spiders! (Easy DIY) | 444,754 | 1.64 | 16:02 | 3,070 | 191 | 50 / 13 | 0:21 |
 | arrow-pest-service | recent | 5,000 Yellow Jackets vs WD 40! | 270,890 | 1.0 | 22:15 | 3,575 | 161 | 55 / 16 | 3:37 |
@@ -95,6 +100,7 @@ Computed by the main session on 2026-10-20 from each video's meta.md (views, rat
 | roger-wakefield | recent | 5 | 16:33 | 2,830 | 174 | 152 | 50 | 99 |
 | roger-wakefield | most-viewed | 5 | 11:39 | 2,271 | 173 | 118 | 43 | 49 |
 | got2learn | recent | 5 | 8:02 | 1,288 | 161 | 107 | 36 | 53 |
+| got2learn | all-time | 5 | 6:45 | 1,247 | 173 | 85 | 25 | 15 |
 | arrow-pest-service | recent | 5 | 16:35 | 3,144 | 190 | 63 | 16 | 38 |
 | arrow-pest-service | most-viewed | 5 | 20:13 | 2,908 | 171 | 50 | 14 | 94 |
 | thecheapfix | recent | 5 | 16:42 | 3,024 | 180 | 120 | 38 | 30 |

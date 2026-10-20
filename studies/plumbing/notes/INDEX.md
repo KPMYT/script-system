@@ -1,6 +1,6 @@
 # Notes index
 
-One line per collected video, own channels first, then competitors. Within each channel: most recent (newest first), then most-viewed in the last 24 months (most views first). Views / normal as recorded in each meta.md (as of 2026-10-20). Got2Learn has no most-viewed group: it has one long-form upload since 2024-10-20, already in its recent group.
+One line per collected video, own channels first, then competitors. Within each channel: most recent (newest first), then most-viewed in the last 24 months (most views first). Views / normal as recorded in each meta.md (as of 2026-10-20). Got2Learn has no uploads in the last-24-months window beyond its recent group, so its second group is its 5 all-time most-viewed (2017-2021; operator decision 2026-10-20).
 
 | Group | Channel | Format | Title | Views / normal | Notes file |
 |---|---|---|---|---|---|
@@ -59,6 +59,11 @@ One line per collected video, own channels first, then competitors. Within each 
 | competitor (recent) | Got2Learn | FACELESS | What to do in case of an EMERGENCY with your plumbing! / GOT2LEARN | 0.16 | [got2learn__0v5Es6rYnyw.md](competitors/got2learn__0v5Es6rYnyw.md) |
 | competitor (recent) | Got2Learn | FACELESS | Some Of The WORST Plumbing Jobs I've EVER Seen! (And how to fix them!) / GOT2LEARN | 0.86 | [got2learn__ns_jb7iStCs.md](competitors/got2learn__ns_jb7iStCs.md) |
 | competitor (recent) | Got2Learn | FACELESS | 10 Plumbing FACTS You Probably Didn't Know Of / GOT2LEARN | 2.20 | [got2learn__Jwe0PSDEAps.md](competitors/got2learn__Jwe0PSDEAps.md) |
+| competitor (all-time) | Got2Learn | FACELESS | Here's Why "S-TRAPS" Are NOT ALLOWED Anymore! (And 3 Ways To Fix It) / GOT2LEARN | 95.02 | [got2learn__pmN88UvZfDI.md](competitors/got2learn__pmN88UvZfDI.md) |
+| competitor (all-time) | Got2Learn | FACELESS | The CORRECT Way To Fix A Leaking Joint (UNSOLDERING) / GOT2LEARN | 80.90 | [got2learn__8IV7oG43DZ0.md](competitors/got2learn__8IV7oG43DZ0.md) |
+| competitor (all-time) | Got2Learn | FACELESS | The ULTIMATE Plumbing Tricks BIBLE (30+ Tricks!) / GOT2LEARN | 71.03 | [got2learn__DHk94YoC95k.md](competitors/got2learn__DHk94YoC95k.md) |
+| competitor (all-time) | Got2Learn | FACELESS | How to Solder Copper Pipe The CORRECT Way / GOT2LEARN | 67.08 | [got2learn__JyVbjDsric4.md](competitors/got2learn__JyVbjDsric4.md) |
+| competitor (all-time) | Got2Learn | FACELESS | 10 Reasons Why You'd FAIL a Plumbing Inspection! / GOT2LEARN | 63.96 | [got2learn__xpsLXmntINE.md](competitors/got2learn__xpsLXmntINE.md) |
 | competitor (recent) | Arrow Pest Service | FACE | Homemade Stink Bug Trap That Actually Works! | 1.66 | [arrow-pest-service__Sg17BA6M3EI.md](competitors/arrow-pest-service__Sg17BA6M3EI.md) |
 | competitor (recent) | Arrow Pest Service | FACE | I Tested 6 Household Pest Killers! | 0.10 | [arrow-pest-service__zuiwdNiVylQ.md](competitors/arrow-pest-service__zuiwdNiVylQ.md) |
 | competitor (recent) | Arrow Pest Service | FACE | Why Your Lawn Is Full Of Weeds (And How To Fix It) | 0.11 | [arrow-pest-service__cMhqzhuIH2g.md](competitors/arrow-pest-service__cMhqzhuIH2g.md) |

@@ -50,3 +50,8 @@ Recorded as found (described, not judged): the own channels' narrators give diff
 - Own channels confirmed (the three found by name search are the right ones).
 - Got2Learn: add its 5 all-time most-viewed long-form uploads as its Group B (one helper agent; channel normal kept at 121,799).
 - Comparison approved: written to `comparison/`, separate from the data and notes. `comparison/stats.md` holds the measured numbers per video (length, spoken words, words per minute, hook length, first-value time), computed by the main session from the meta, transcript and notes files.
+
+## 2026-10-20 — Got2Learn all-time group added
+
+- Helper collected Got2Learn's 5 all-time most-viewed long-form uploads (popular ranks 1-5, 2017-2021: pmN88UvZfDI, 8IV7oG43DZ0, DHk94YoC95k, JyVbjDsric4, xpsLXmntINE), with transcripts, comments and notes; details appended to its COLLECTION-LOG.md. Normal kept at 121,799. No skips; one transient 504 on a transcript (retried, identical text); the video-watch tool was rate-limited, so the five are FACELESS by the channel check, transcripts and comments, not visually checked.
+- Rebuilt `notes/INDEX.md` (80 lines), `transcripts-combined/` (211,449 transcript words in originals and combined files) and `comparison/stats.md`.
