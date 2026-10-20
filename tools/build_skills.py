@@ -38,18 +38,18 @@ When someone types **START**, open `core/workflow.md` and follow it exactly, fro
 | The channel list START shows | `core/channels.md` |
 | Every other core rule (claims, offers, CTAs, humanizer, voice, retention, rotation, research, structures, audit) | `core/` |
 | The checking program | `core/script-scanner.py` (run it with Python where available; otherwise do its checks by hand, as `core/workflow.md` says) |
-| The woodworking niche pack | `woodworking-scripts/SKILL.md` and `woodworking-scripts/references/` |
+| The woodworking niche pack | `woodworking-scripts/PACK.md` (the pack's rules) and `woodworking-scripts/references/` |
 | Channel persona profiles | `personas/` (for example `personas/hank-hardwood.md`) |
 | Each channel's book text, for the book match | `personas/books/` |
 
-When `core/channels.md` or a file names a niche pack such as `woodworking-scripts`, it means the folder of that name inside this skill. A persona profile path such as `personas/hank-hardwood.md` is inside this skill too.
+When `core/channels.md` or a file names a niche pack such as `woodworking-scripts`, it means the folder of that name inside this skill, and that pack's rules are its `PACK.md`. A persona profile path such as `personas/hank-hardwood.md` is inside this skill too.
 
 ## Running the checking program
 
 From this skill's folder:
 
 ```
-python3 core/script-scanner.py SCRIPT --rules woodworking-scripts/SKILL.md personas/<channel>.md --pack RESEARCH_PACK --refs woodworking-scripts/references/excerpts.md woodworking-scripts/references/reference-scripts.md personas/<channel>.md
+python3 core/script-scanner.py SCRIPT --rules woodworking-scripts/PACK.md personas/<channel>.md --pack RESEARCH_PACK --refs woodworking-scripts/references/excerpts.md woodworking-scripts/references/reference-scripts.md personas/<channel>.md
 ```
 """
 
@@ -95,10 +95,26 @@ def zipdir(folder, out):
                 full = os.path.join(d, f)
                 z.write(full, os.path.relpath(full, base))
 
+def rename_pack_skill_files(out):
+    """A skill may hold only one SKILL.md, so each niche pack's SKILL.md becomes PACK.md inside script-writer."""
+    for d, _, files in os.walk(out):
+        if d == out:
+            continue
+        if "SKILL.md" in files:
+            os.rename(os.path.join(d, "SKILL.md"), os.path.join(d, "PACK.md"))
+    for d, _, files in os.walk(out):
+        for f in files:
+            if f.endswith(".md") and d != out:
+                path = os.path.join(d, f)
+                s = open(path, encoding="utf8").read()
+                if "SKILL.md" in s:
+                    open(path, "w", encoding="utf8").write(s.replace("SKILL.md", "PACK.md"))
+
 def build_script_writer():
     out = os.path.join(DIST, "script-writer")
     copytree(os.path.join(ROOT, "core"), os.path.join(out, "core"))
     copytree(os.path.join(ROOT, "woodworking-scripts"), os.path.join(out, "woodworking-scripts"), ignore=("archive",))
+    rename_pack_skill_files(out)
     copytree(os.path.join(ROOT, "personas"), os.path.join(out, "personas"))
     with open(os.path.join(out, "SKILL.md"), "w") as f:
         f.write(SCRIPT_WRITER_SKILL.replace("{stamp}", STAMP))

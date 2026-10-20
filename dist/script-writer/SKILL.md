@@ -5,7 +5,7 @@ description: Writes YouTube scripts for the operator's channels. Runs whenever s
 
 # Script writer
 
-**Version:** 2026-10-20 (library commit 7e78d46)
+**Version:** 2026-10-20 (library commit 1208fb9)
 
 When someone types **START**, open `core/workflow.md` and follow it exactly, from section 1. Everything else is loaded from there.
 
@@ -17,16 +17,16 @@ When someone types **START**, open `core/workflow.md` and follow it exactly, fro
 | The channel list START shows | `core/channels.md` |
 | Every other core rule (claims, offers, CTAs, humanizer, voice, retention, rotation, research, structures, audit) | `core/` |
 | The checking program | `core/script-scanner.py` (run it with Python where available; otherwise do its checks by hand, as `core/workflow.md` says) |
-| The woodworking niche pack | `woodworking-scripts/SKILL.md` and `woodworking-scripts/references/` |
+| The woodworking niche pack | `woodworking-scripts/PACK.md` (the pack's rules) and `woodworking-scripts/references/` |
 | Channel persona profiles | `personas/` (for example `personas/hank-hardwood.md`) |
 | Each channel's book text, for the book match | `personas/books/` |
 
-When `core/channels.md` or a file names a niche pack such as `woodworking-scripts`, it means the folder of that name inside this skill. A persona profile path such as `personas/hank-hardwood.md` is inside this skill too.
+When `core/channels.md` or a file names a niche pack such as `woodworking-scripts`, it means the folder of that name inside this skill, and that pack's rules are its `PACK.md`. A persona profile path such as `personas/hank-hardwood.md` is inside this skill too.
 
 ## Running the checking program
 
 From this skill's folder:
 
 ```
-python3 core/script-scanner.py SCRIPT --rules woodworking-scripts/SKILL.md personas/<channel>.md --pack RESEARCH_PACK --refs woodworking-scripts/references/excerpts.md woodworking-scripts/references/reference-scripts.md personas/<channel>.md
+python3 core/script-scanner.py SCRIPT --rules woodworking-scripts/PACK.md personas/<channel>.md --pack RESEARCH_PACK --refs woodworking-scripts/references/excerpts.md woodworking-scripts/references/reference-scripts.md personas/<channel>.md
 ```
