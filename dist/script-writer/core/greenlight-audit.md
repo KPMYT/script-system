@@ -43,7 +43,7 @@ description: The final quality gate every script passes before it ships. Six gro
 ## Group C: clarity
 
 - **C1. One thread.** Any sentence traces back to the one thing the video exists to deliver.
-- **C2. Easy to follow on one listen.** Plain words, and any term explained the first time it's used. Numbers too: exact only where the viewer needs them, small costs rounded and collapsed, no fee schedules or lists of listings read aloud (`humanizer.md`, H22). Quote any sentence carrying three or more dollar figures.
+- **C2. Easy to follow on one listen.** Plain words, and any term explained the first time it's used. Numbers too: every price rounded (never cents), small costs collapsed, no fee schedules or lists of listings read aloud (`humanizer.md`, H22). Quote any sentence carrying three or more dollar figures.
 - **C3. The viewer's own words,** from the niche's vocabulary, not assumed jargon.
 - **C4. The perspective shift,** only where the structure calls for one.
 - **C5. The payoff is delivered exactly as promised,** and the ending doesn't recap or point back at the promise.

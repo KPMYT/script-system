@@ -67,7 +67,7 @@ For more depth, see `woodworking-ideation/references/audience.md` (§1 and §9 f
 **Fixed parts, always present, in this order:**
 
 1. **Promise.** The title's promise with its number, in one or two sentences, plus one line that touches the viewer's fear or wish (core `retention-mechanics.md`, section 2). This viewer's main pains: having to buy tools first, wasting wood on something nobody buys, work that looks homemade, being out-priced by the big stores; and the wish underneath, side money from something they made. Point straight at how this build answers it. No persona intro, no channel name, no "today we're going to," no tease. Name the first material within about 15 seconds.
-2. **Materials and where to buy.** Store and price for each priced item, then "prices subject to change" once, straight after the prices. One price per item, said the way people talk; small items can be rounded or grouped. Specs only as far as the viewer needs them to grab the right thing off the shelf ("a 12-pack of five-eighths inch wood screws," not the whole label).
+2. **Materials and where to buy.** Store and price for each priced item, then "prices subject to change" once, straight after the prices. One price per item, always rounded the way people talk ("about fifteen bucks"), never cents; small items can be grouped. Specs only as far as the viewer needs them to grab the right thing off the shelf ("a 12-pack of five-eighths inch wood screws," not the whole label).
 3. **Cut list.** The exact measurements from the pack.
 4. **Steps.**
 5. **Finish.**
