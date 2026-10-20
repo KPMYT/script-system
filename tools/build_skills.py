@@ -171,6 +171,13 @@ def main():
         print(f"built {os.path.relpath(folder, ROOT)}/ ({n} files) and {os.path.relpath(folder, ROOT)}.skill")
     with open(os.path.join(DIST, "INSTALL.md"), "w") as f:
         f.write(INSTALL.replace("{stamp}", STAMP))
+    # one folder (zipped) with every skill file and the install guide, for Drive
+    bundle = os.path.join(DIST, f"script-system-skills-{datetime.date.today().isoformat()}.zip")
+    with zipfile.ZipFile(bundle, "w", zipfile.ZIP_DEFLATED) as z:
+        for f in sorted(os.listdir(DIST)):
+            if f.endswith(".skill") or f == "INSTALL.md":
+                z.write(os.path.join(DIST, f), os.path.join("script-system-skills", f))
+    print(f"bundle: {os.path.relpath(bundle, ROOT)}")
     print(f"version: {STAMP}")
 
 if __name__ == "__main__":
