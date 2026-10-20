@@ -23,6 +23,7 @@ description: The final quality gate every script passes before it ships. Six gro
 ## Group A: the hook
 
 - **A1. The opening.** The viewer knows what the video is about within about 10 seconds, and the first line names the title's subject. By default the first sentence is a jolt, not a greeting, with no channel intro. A niche pack or persona profile can allow a greeting.
+- **A1b. The hook plays on emotion.** The opening touches the viewer's pain point or wish and points at the solution, in one sentence, without delaying the first payoff (`retention-mechanics.md`, section 2). A hook made only of numbers or facts fails. Quote the line that does it.
 - **A2. Graded against real winners.** The hook holds up against 2-3 real winning hooks from the niche pack's excerpt library or voice samples. Quote the ones it was compared with. If the niche has no real hooks to compare against, mark A2 as "not run" rather than failed.
 - **A3. The promise is mapped.** Every item the hook promises maps to the section of the body that delivers it.
 - **A4. The hook's claims hold up.** Everything the hook claims is backed by the body, within the framing limits in `research-and-sourcing.md`.
@@ -31,7 +32,7 @@ description: The final quality gate every script passes before it ships. Six gro
 
 - **B1. Every question opened gets answered,** fully, later in the script.
 - **B2. The line after the hook** pays off or escalates, never background.
-- **B3. Progression.** Every paragraph adds information, moves forward, raises an obstacle or shifts a feeling. One that does none is padding: cut it.
+- **B3. Progression.** Every paragraph adds information, moves forward, raises an obstacle or shifts a feeling. One that does none is padding: cut it. A line of the persona's opinion, reaction or honest aside is not padding (`retention-mechanics.md`, section 4).
 - **B4. None of the four retention mistakes:** the slow start, the context dump, a payoff with nothing after it, the broken promise.
 - **B5. Bridges and pacing.** Bridges point only at the next segment, honestly, and the next segment delivers what they promise. No flat stretch runs longer than about 90 seconds without a payoff.
 - **B6. "But" and "therefore"** connect the narrative and reasoning parts. Steps and list items may be sequential.
@@ -42,7 +43,7 @@ description: The final quality gate every script passes before it ships. Six gro
 ## Group C: clarity
 
 - **C1. One thread.** Any sentence traces back to the one thing the video exists to deliver.
-- **C2. Easy to follow on one listen.** Plain words, and any term explained the first time it's used.
+- **C2. Easy to follow on one listen.** Plain words, and any term explained the first time it's used. Numbers too: exact only where the viewer needs them, small costs rounded and collapsed, no fee schedules or lists of listings read aloud (`humanizer.md`, H22). Quote any sentence carrying three or more dollar figures.
 - **C3. The viewer's own words,** from the niche's vocabulary, not assumed jargon.
 - **C4. The perspective shift,** only where the structure calls for one.
 - **C5. The payoff is delivered exactly as promised,** and the ending doesn't recap or point back at the promise.
@@ -80,10 +81,10 @@ YouTube judges channels on whether content is mass-produced or reused. This grou
 - **F2. Length came from the content,** with no padding and no squeezing, and the script reaches the 8-minute minimum (`workflow.md`, section 3).
 - **F3. CTAs and the ending** follow `cta-and-endings.md` and the persona profile:
   - placed after the first payoff
-  - what the offer is, the added-value promise, and where to get it
+  - what the offer is, the added-value promise, and where to get it, worded as the persona profile says (for example, both the QR code and the top link in the description)
   - the CTA or nothing, then stop
   - no named future video
-- **F4. Offer rules** (`offer-rules.md`). Every page reference to the persona's book is checked against the book text and the plan's book match; a page that doesn't cover what the script says is a false claim.
+- **F4. Offer rules** (`offer-rules.md`). A book is always "the book" or "my book", never "e-book". Every page reference to the persona's book is checked against the book text and the plan's book match; a page that doesn't cover what the script says is a false claim.
 - **F5. The claims policy** (`claims-policy.md`). No checkable life facts, no invented sales, customers, family or history, and personal details only from the persona profile's list.
 - **F6. Facts versus framing** stay within the limits in `research-and-sourcing.md`.
 - **F7. Nothing pointed at without being named.** The visuals are built from the narration, so the script never points at something it doesn't name ("look at this," "right here").

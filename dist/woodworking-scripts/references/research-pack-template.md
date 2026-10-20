@@ -30,6 +30,7 @@ STEPS                              [in order]
 - step | the visible action | mistake/safety/option/quality note, if any
 
 SAFETY POINTS (build-specific)
+- food contact (anything food may touch): the finish AND every glue in it, including the factory glue in edge-glued panels and rounds, each with its source
 
 LISTINGS (3-5)
 - platform | listing title | price | asking or sold | sales evidence if visible | date | URL

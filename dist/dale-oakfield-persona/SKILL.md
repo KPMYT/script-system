@@ -3,7 +3,7 @@ name: dale-oakfield-persona
 description: The channel profile for Dale Oakfield's Workshop: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-20 (library commit 92063fa)
+**Version:** 2026-10-20 (library commit 535e70e)
 
 # Persona profile: Dale Oakfield's Workshop
 
@@ -18,7 +18,7 @@ Niche pack: woodworking-scripts
 THE BASICS
 Script type: Talking Head
 Voice provider: ElevenLabs (Mark - Solid, Clear and Dependable, voice ID v3p1kjzUvro6S76qmYmH)
-Words per minute (optional, for runtime estimates): not set
+Words per minute (for runtime and the 8-minute minimum): 170 (his last ten videos ran about 172)
 
 THE PERSONA
 Name: Dale Oakfield
@@ -40,7 +40,7 @@ End CTA: no
 Offer:
   Printed title (exact, used in the markers): The Ultimate DIY Woodworking Guide: Time-Tested Techniques, Money-Saving Shop Hacks, and Real Furniture Builds from 40 Years at the Bench
   Spoken as: always the short title, "The Ultimate DIY Woodworking Guide" (never the "40 Years" part)
-  Type: e-book (digital download), written by Dale Oakfield
+  Type: a digital download, written by Dale Oakfield. In narration it's always "the book" or "my book", never "e-book"
   Book text: personas/books/dale-oakfield-book.md
   True facts (the only facts a CTA or book mention may use): five chapters (understanding wood; tools; joinery, gluing and assembly; finishing, safety and shop wisdom; full furniture projects start to finish); 30 "Common Mistake" callouts; money-saving shop hacks throughout
   The added-value promise (what the viewer gets, never an outcome or result): every technique and fix in one place, with the common mistakes called out where they happen
@@ -99,9 +99,11 @@ When he pitches anything, it sounds like Dale sliding the next useful thing acro
 
 ### SCANNER
 
-Lines this channel says the same way every time, so the copy guard doesn't flag them:
+Lines this channel says the same way every time, so the copy guard doesn't flag them, and words it never says:
 
 ```scanner
 allow: Now go make some sawdust
 allow: The Ultimate DIY Woodworking Guide
+ban: e-book | say "book", never "e-book"
+ban: ebook | say "book", never "e-book"
 ```

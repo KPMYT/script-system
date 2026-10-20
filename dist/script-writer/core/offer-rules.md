@@ -27,7 +27,7 @@ The promise must be true and specific, and drawn from the profile's facts.
 
 ## 3. Naming the offer
 
-- **E-book:** always called a digital book or e-book download.
+- **Book (a digital download):** always called "the book" or "my book" in narration, never "e-book" or "ebook" (operator, 2026-10-20, every channel).
 - **Email list:** say what arrives and how often, as the profile states.
 - **Affiliate link:** say plainly that it's an affiliate link.
 - **Subscribe only:** one clear ask, no offer language.
