@@ -2,7 +2,7 @@
 
 The live note passed from one Claude Code chat to the next. A new chat reads `CLAUDE.md`, then this file, then `HANDOFF.md`, `README.md` and `PINNED.md`, and carries on from "Next actions". The outgoing chat rewrites this file before every handover.
 
-**Last updated:** 2026-10-19, end of session 1.
+**Last updated:** 2026-10-20, end of session 2.
 
 ---
 
@@ -11,50 +11,70 @@ The live note passed from one Claude Code chat to the next. A new chat reads `CL
 - When this chat reaches roughly 50% of its context, Claude tells the operator at the end of a message that it's time for a new chat.
 - Before that, Claude: (1) rewrites this file, (2) logs it in `CHANGELOG.md`, (3) runs `python3 tests/run_checks.py`, (4) commits and pushes, (5) makes sure the work is on `main` (see "Branches"), and (6) gives the operator the opening message for the new chat.
 - The operator is not technical. Explain Claude Code and git steps plainly and do them for them where possible.
+- **Context:** Claude can't see its own context percentage. Don't guess a handover early; the operator says when (in session 2 Claude called it at 34%, which was wrong).
+
+## How to work with the operator (learned the hard way in session 2)
+
+- **Never change a rule, file or skill without the operator's explicit yes to that specific change.** Show the exact change first (a draft file is good), then apply. In session 2 Claude changed core rules around a self-built plumbing test without asking, and the operator had all of it undone. Don't repeat that.
+- **Don't build tests or test material on your own initiative.** Testing happens later, on the operator's call, with material the operator chooses.
+- **Work niche by niche.** Don't touch a niche (plumbing, etc.) before the operator gets to it.
+- **Notion is read-only.** Never write anything in Notion unless the operator specifically says so. The same applies to Google Drive.
+- **Keep messages plain and short,** with numbered items the operator can answer "1 yes, 2 no".
 
 ## Branches
 
-Every Claude Code chat works on its own `claude/...` branch. `main` is the shared branch every new chat starts from (`CLAUDE.md` rule 8).
-- **Set up 2026-10-19:** `main` was created from session 1's final commit. The operator was walked through making it the GitHub default (Settings, General, Default branch). If this chat didn't start from `main`, that step wasn't done: walk the operator through it again.
+Every Claude Code chat works on its own `claude/...` branch. `main` is the shared branch every new chat starts from, and it's the GitHub default.
 - **At every handover,** merge this chat's branch into `main` and push `main`. Standing permission; no force-push, no branch deletion.
-- **Old branches:** `claude/kind-cori-wxoupp` (the previous default) and `claude/loving-edison-b6z86r` (session 1) are fully contained in `main`. Leave them.
+- **Old branches:** `claude/kind-cori-wxoupp`, `claude/loving-edison-b6z86r` (session 1) and `claude/wizardly-shannon-m0qqnw` (session 2) are all contained in `main`. Leave them.
 - This repo is separate from every other repo (for example the book-creation one). Nothing here touches them.
 
 ---
 
 ## Where things stand
 
-**Done in session 1 (2026-10-18/19):**
-- Restructured the repo: the woodworking study is in `studies/woodworking/`, the library is at the root, and the FacelessOS originals are in `archive/facelessos-original/`.
-- Merged refs-01 from another chat: excerpts expanded to 15 groups, `reference-scripts.md` wired in, and the copy guard (`--refs`) now runs in the workflow and the audit.
-- Wrote the first audit: `tests/iterations/iter-00/AUDIT.md`. **None of its fixes are applied yet.**
-- Created `CHANGELOG.md` and `PROPOSALS.md` (P1 is open).
-- Tests: 17/17 passing.
+**Session 2 (2026-10-19/20), in short:**
+1. Claude applied the iter-00 audit fixes and ran its own plumbing tests without asking. **The operator had all of it removed** (every library file restored to session 1's state, test records deleted; it survives only in git history before commit 4ab9468).
+2. Then, step by step with the operator's approval:
+   - **The books:** both ebooks' full text in `personas/books/`, with page markers. Hank's book prints page numbers (two lower than the PDF count), Dale's prints none. There's a chapter page map, and an index of Hank's 100 builds.
+   - **The persona profiles:** `personas/hank-hardwood.md` and `personas/dale-oakfield.md`, from the Notion channel pages (Channel List, TEAM ACCESS), reviewed and changed with the operator. Both channels are marked ready in `core/channels.md`.
+   - **Core additions:**
+     - **the book match:** the plan step searches the persona's book, CTAs cite only the matched pages, and audit F4 checks them
+     - **the family-detail exception:** one approved family detail (claims policy, P2)
+     - **the rotation log** gains `details:` and `book:` fields
+     - **the copy guard** now includes the persona profile, with `allow:` lines for fixed wording (scanner support plus check 13)
+     - **the 8-minute minimum** (workflow, audit F2 and the evidence-block Length line, with the scanner printing the spoken word count)
+     - **H13** exempts a persona's fixed last line
+   - **The woodworking pack:** "right here" and "look at this" are banned even at screenshots, and the word-count table notes the 8-minute minimum (C7 settled: keep it).
+   - **Ideation:** `ideation/woodworking-ideation/` was copied in and edited: Hank and Dale only, on camera, single builds; titles may exaggerate freely; the new for-profit pipeline in `references/pipeline.md`. `ideation/ideation-core/` holds an unchanged copy.
+   - **Packaging:**
+     - `tools/build_skills.py` builds one skill per layer into `dist/`: `script-writer` (core, START), `woodworking-scripts` (niche), `hank-hardwood-persona` and `dale-oakfield-persona` (profile plus book), `woodworking-ideation` and `ideation-core`.
+     - It also builds `INSTALL.md`, a zip of the `.skill` files and a readable zip.
+     - The build checks claude.ai's upload rules (one SKILL.md, frontmatter, name, description up to 1,024 characters).
+3. **The operator uploaded the new skills** to their claude.ai account and kept both zips in Drive. They're starting a first ideation test in Cowork (woodworking ideation for Hank or Dale).
+4. Tests: 18/18 passing.
 
-**The library is a baseline only: built, mechanically tested, never run end to end.**
-- Built and niche-neutral by design:
-  - the core rule files and the scanner
-  - the fallback structures and the default research pack for niches without a pack
-- Not yet true:
-  - the audit fixes are unapplied (the core ones matter for every niche)
-  - the core isn't packaged as an installable skill, so typing START in a VA's chat does nothing yet
-  - there's no test fixture and no way to run START on TEST data
-  - no persona profile exists, so every START ends at NOT READY
-  - the installed `woodworking-scripts` skill on the operator's account hasn't been compared with this repo's copy
+**Not yet true:**
+- **No script has been written end to end** with the new skills. The operator's first test (ideation, then research pack, then START) is the first real run.
+- **The iter-00 audit's other findings are still unapplied,** and each one needs the operator's yes. Settled so far: A3 (applied), A5 (applied as the H13 exemption), C7 (keep). A8 (no end-CTA log field) and B1 (edit after PASS) are left as they are by choice.
+- **Hank's QR code** (his CTAs point to it) hasn't been confirmed to exist.
+- **Thumbnail character descriptions** for Hank and Dale (both on camera now) are pending from the operator (`ideation/woodworking-ideation/references/niche-packs.md`).
 
 ## Operator decisions so far
 
-- Audit C3 (Dale's CTA) and B8 (descriptions and pinned comments) are removed. **Ignore descriptions and pinned comments for now.**
-- C7 (the word-count table in `woodworking-scripts/SKILL.md`): Claude recommends leaving it. Waiting on the operator.
-- **Order of work:**
-  1. Confirm the core works as a baseline for any niche.
-  2. Finalize woodworking for profit (Hank and Dale).
-  3. Plumbing.
-  4. The other niches, one at a time.
-- **Persona profiles:** probably written by the operator. The VA then does the channel setup (YouTube, Drive, Notion).
-- **Channel setup skill:** the goal. It builds a channel from a niche pack and a persona profile, and the VA runs it. The platform choice (Claude Code, Claude or Cowork) is still to be advised.
-- **Ideation:** the skills live on the operator's claude.ai account, outside this repo. They may later be brought in here, audited and connected to the scripts (especially the brief). Where ideas get generated long term is still open.
-- **Research stage:** whether it belongs with ideation or with the script is still open, to be decided by testing.
+Full list in `HANDOFF.md` section 3 ("Operator decisions, 2026-10-20", two blocks). Key points:
+- **Order of work:** finish woodworking for profit (Hank and Dale), then plumbing, then the other niches one at a time. Testing comes later.
+- **Quality bar for any script:** it follows the core (unless the niche pack overrides, which always wins), is tailored to the audience's emotions, gives appropriate value, opens on a strong hook that plays on pain points and emotions, and is solution-driven.
+- **Length:** at least 8 minutes, value-driven, longer is fine, never padded.
+- **The enemy** for Hank and Dale is big business and the corporations (never a named company).
+- **CTAs:**
+  - **Hank:** two short CTAs to the QR code, with book pages when the book match finds them.
+  - **Dale:** Bertha's Clean Home style: one ~35-word pitch (grandfather detail, "link below", fresh words each time), five one-line book mentions as narration, no end CTA, no subscribe ask, ending with a comments request ("I read every one") and then "Now go make some sawdust."
+- **Ideation:**
+  - **Where and what:** it runs in Cowork, Etsy-first, hand-checked. Each scan lists 30 products, then title and thumbnail-text options (format bank plus new creative ones), then the operator's picks, then fact-bank briefs (500-800 words, one cell, " | " between groups, never any structure or language direction), then an optional research pack.
+  - **Claims:** titles may exaggerate freely.
+  - **Inputs:** the operator also feeds in competitor videos for products and new formats.
+- **Ignore descriptions and pinned comments for now.**
+- **Channel setup skill** (YouTube, Drive, Notion from a niche pack and a profile) is still the long-term goal.
 
 ## Active channels (confirmed by the operator, 2026-10-19)
 
@@ -84,22 +104,22 @@ Not active: Master Kenji and Sawdust Sam (woodworking), and the fabrics channels
 
 ## The operator's skills
 
-Every Claude Code chat gets the operator's claude.ai skills, synced read-only to `/root/.claude/skills/synced/<id>/` (the folder name can change).
-- **Ideation:** `ideation-core` (the master format bank and registry), plus `plumbing-`, `woodworking-`, `home-security-`, `style-`, `air-travel-`, `animals-`, `philosophy-` and `fabrics-ideation`.
-- **Also:** `thumbnails` and `woodworking-scripts`.
-- **The installed `woodworking-scripts` is old:** a single 202-line `SKILL.md`, with no references, no core, and a different text from this repo's. This repo is the newer master. The core itself isn't installed on the account at all.
+Synced read-only to `/root/.claude/skills/synced/<id>/` (the folder name can change). As of 2026-10-20 the account has:
+- **The new script set:** `script-writer`, `woodworking-scripts`, `hank-hardwood-persona` and `dale-oakfield-persona`. The operator confirmed the persona skills in a screenshot; check that `script-writer` and `woodworking-scripts` were uploaded too.
+- **Ideation:** `woodworking-ideation` (the new version) and `ideation-core` (unchanged).
+- **Other ideation and tools, untouched:** `plumbing-`, `home-security-`, `style-`, `air-travel-`, `animals-`, `philosophy-` and `fabrics-ideation`, plus `thumbnails`.
+- **Changes are made here,** then rebuilt with `python3 tools/build_skills.py`, sent to the operator (the `.skill` files plus the zips) and re-uploaded by the operator.
 
 ## Open questions for the operator
 
-1. C7: leave the table, move it, or delete it?
+1. **The first ideation test:** how did it go? Fix whatever the operator reports, but only with their yes to each change.
+2. **Hank's QR code:** does it exist (his CTAs point to it)?
+3. **Thumbnail looks:** descriptions of the Hank and Dale avatars for the thumbnail packs.
+4. **P1** in `PROPOSALS.md` is still open.
 
 ## Next actions (in order)
 
-**Rule for every chat: make no rule changes until the operator confirms each one.** Session 2 applied the audit fixes and changed core rules around a plumbing test built from Claude's own material, without checking with the operator. All of it was undone at the operator's request (see `CHANGELOG.md`, 2026-10-20). The iter-00 audit's findings are still unapplied, and each one is discussed with the operator before anything changes.
-
-1. Check that this chat started from `main` (`git branch -a`, `git log -1 origin/main`).
-2. **Agree with the operator how to test the core.** The goal is to test the core workflow (START, the input gate, the run to a finished script) for any niche, and the basic quality of its output. Test only: report findings, and change nothing without the operator's yes. Before testing, ask the operator:
-   - which test material to use (a niche and the winning competitor scripts they choose, or a neutral made-up topic not tied to any of their niches)
-   - what "basic quality" means to them
-3. **Proposed rule from the operator, not yet written in:** scripts are value-driven by default, never under 8 minutes, longer is fine, and niche packs may add guidance. It changes the locked decision "length comes from the content, never word budgets", so confirm the exact wording first (for example, how 8 minutes converts to words for each channel, and what happens when a topic runs short).
-4. Still open: C7 (the woodworking word-count table: keep, move or delete).
+1. Check this chat started from `main` (`git fetch origin`, `git log -1 origin/main`).
+2. **Ask the operator how the first ideation test went** (woodworking ideation in Cowork). Read any screenshots or output they share. Propose fixes as drafts; apply only what they approve; rebuild with `tools/build_skills.py` and send the changed `.skill` files.
+3. **Support the first script run:** research pack (ideation step 5), then START in a new Cowork chat with `script-writer`. Check the output against the rules with the operator and fix with their yes.
+4. **Then, on the operator's call:** the remaining iter-00 audit findings (one by one), plumbing (competitor study into `studies/plumbing/`, then its niche pack, profiles and ideation), and the channel setup skill.
