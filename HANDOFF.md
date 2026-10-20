@@ -107,6 +107,9 @@ Recorded from the operator's reply to the plumbing comparison (`studies/plumbing
 - **Mark Silverbridge's tenure is 45 years,** used everywhere.
 - **Get to the point faster,** as the competitors do.
 - **TheCheapFix is the closest format match, but not the main source of scripting ideas.**
+- **The plumbing scripts skill carries compiled transcripts of the real-life (human) competitor channels** as reference material, under the copy guard like the woodworking references. Proposed set, pending the operator's confirmation: Silver Cymbal, Roger Wakefield, Got2Learn, Arrow Pest Service.
+- **No first-person claims of tests, demonstrations or on-camera actions, unless the title or brief specifically calls for one.** Every number is sourced or given as a typical range.
+- **The scanner checks matter a great deal to the operator** (spoken production notes, wrong channel or book names, numbers said twice, tenure numbers that differ from the profile, "boiling" near drain or toilet, "pour it dry"). Where they go (core or plumbing pack) is proposed to the operator before anything is built.
 
 ### Rejected, so they don't come back
 
