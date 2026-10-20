@@ -1,0 +1,279 @@
+[0:00] Hey guys, I'm Chris from the Silver
+[0:01] Cymbal channel, and in this video we're
+[0:02] going to be looking at a brand new a
+[0:04] completely new power station from
+[0:06] EcoFlow called the Titan. And the
+[0:08] feature you're going to like the best is
+[0:10] that this Titan is finally designed to
+[0:12] be the most affordable whole house power
+[0:15] backup system you can buy. There are a
+[0:17] lot of people out there that want of
+[0:18] course whole home backup, but they don't
+[0:20] want to spend those giant prices. And
+[0:22] this Titan is supposed to be the answer
+[0:24] to all of that, but we're going to take
+[0:26] a look at this unit in detail, put it
+[0:27] through a whole series of tests, and
+[0:29] I'll explain what makes this thing
+[0:30] different, and if it might be something
+[0:32] you want to consider getting for
+[0:33] yourself.
+[0:35] The Titan isn't just a single model.
+[0:36] They've actually got three different
+[0:37] versions. The Titan 5000 plus, which is
+[0:40] the version they sent me for this
+[0:41] review. That's the top of the line one.
+[0:44] And the beginning of the lineup starts
+[0:45] with the Titan classic. And then finally
+[0:47] the middle product is called the Titan.
+[0:49] Now like other EcoFlow products this
+[0:50] Titan series is expandable. You can add
+[0:53] additional batteries to it. You can go
+[0:54] all the way up to 30 kilowatt hours. And
+[0:57] that will give you a ton of backup
+[0:58] power, and for many people that will run
+[1:00] your house for even sometimes up to a
+[1:02] week depending on your loads. Now since
+[1:04] I only have this 5000 plus for the
+[1:05] review, that's the one I'm going to
+[1:06] focus on, but I will put specs up for
+[1:08] the classic and the standard Titan model
+[1:10] in the description, and you can compare
+[1:12] them. Looking at the outside of the
+[1:13] Titan, pretty much is very familiar. It
+[1:15] looks like similar products in the
+[1:16] EcoFlow lineup, but you will notice it
+[1:18] does not have a built-in trolley system,
+[1:20] no wheels. I've actually got this thing
+[1:22] on a dolly. Doesn't seem very
+[1:23] convenient, right? Well, this one is not
+[1:25] really designed to be a portable power
+[1:27] system. The goal is this will be used in
+[1:30] your home as a fixed backup system. It's
+[1:32] still portable. You can take it with you
+[1:33] when you move, but you're not going to
+[1:35] be grabbing it say to go to a campsite.
+[1:37] For portable stuff like that, you're
+[1:38] going to be better off getting the other
+[1:39] EcoFlow Delta Pros that they've got that
+[1:41] have wheels and trolleys, and they're
+[1:43] much more portable. It's got a full
+[1:44] color display. I think this is OLED, and
+[1:47] it's very sharp and clear, and I love
+[1:48] the full color. And the other feature
+[1:50] that I think is an industry first is
+[1:51] somebody finally had the brains to make
+[1:54] the display usable in terms of
+[1:55] configuring the device. That means you
+[1:57] don't have to have the app to do
+[1:59] everything. If I simply hit the power
+[2:01] button, I can get into the menu system,
+[2:03] and then you actually double-click the
+[2:05] same button, and it's not necessarily as
+[2:07] convenient as an app, but if you don't
+[2:08] have the app or you don't want to use
+[2:10] it, at least you have some ability
+[2:11] through the menu system. Ports on the
+[2:13] outside of this thing seem a little bit
+[2:15] limited, and that is because there are a
+[2:16] couple of different ways you can use
+[2:18] this device. You've got two standard
+[2:20] 120-V AC outlets on the front that are
+[2:22] rated at 20 amp. Additionally, you've
+[2:24] got a 240-V outlet as well. This is
+[2:27] typically how you'll connect it to
+[2:28] either a transfer switch if it's a
+[2:30] manual one, or you can use the home
+[2:31] panel that they have designed
+[2:33] specifically for the Titan. Now, if you
+[2:35] own other products in the lineup, those
+[2:36] smart home panels aren't gone. They've
+[2:38] just engineered a much more value-minded
+[2:40] version that will connect to this Titan
+[2:42] directly. There are no built-in USB
+[2:44] ports or charging pads. Again, the price
+[2:46] of this thing is much lower than other
+[2:48] models, and if you're using this thing
+[2:49] for home backup, you're probably not
+[2:50] going to plug your phone directly into
+[2:52] it because other outlets in your house
+[2:54] are going to be running as normal. Now,
+[2:55] in terms of specs, this thing is
+[2:56] surprisingly massive. The AC output on
+[2:59] this thing can go up to 10,000 surge
+[3:01] watts. Now, its running wattage is 7,200
+[3:04] watts, which is still making this thing
+[3:05] very capable and comparable to a lot of
+[3:07] different gas generators you might
+[3:09] consider getting. Internally, you've got
+[3:10] a lithium iron phosphate battery that is
+[3:13] 5 kWh. On the side of the device, we
+[3:15] have a battery expansion port allowing
+[3:17] you to add up to five additional
+[3:18] batteries. So, the total max battery
+[3:21] capacity of this thing is 30 kWh. It has
+[3:24] a built-in UPS function, and its
+[3:26] switchover time is 10 milliseconds or
+[3:28] less, making it suitable for any type of
+[3:29] appliance or electronics. You've also
+[3:31] got two solar charging ports on the
+[3:33] side, and this thing's solar input is
+[3:35] crazy massive. It can handle up to 8,000
+[3:38] watts of solar charging. Now, if you've
+[3:40] got time of use stuff, you can use the
+[3:41] Titan to use battery power during those
+[3:44] expensive times of the day, and then
+[3:46] switch over to charge the Titan at the
+[3:48] cheaper times of the day. So, some Some
+[3:50] can actually pay for this thing either
+[3:52] entirely or in part depending on what
+[3:54] your electric rates are like. The unit
+[3:56] also has a 5-year warranty. Seico Flow
+[3:58] didn't cheap out on some of the core
+[3:59] things that I think most people are
+[4:00] looking for. Additionally, on the side
+[4:02] of the device, we've got the sliding
+[4:03] panel. That's to prevent you plugging in
+[4:05] both the smart panel and local charging
+[4:08] at the same time. It's not exactly a
+[4:09] difficult concept, but some people would
+[4:12] accidentally plug both in and that can
+[4:14] cause a problem in the device.
+[4:17] And this is the Titan's home panel. Much
+[4:19] simpler design than the other smart home
+[4:21] panels. And those smart home panels are
+[4:22] great, but not everybody wants to spend
+[4:25] that much or maybe wants the complexity
+[4:27] of that type of install. You've got a
+[4:28] breaker for each circuit. So, the main
+[4:30] difference of this panel is you can't
+[4:32] just simply run everything in your
+[4:34] house. You have to select your most
+[4:36] critical circuits. You're going to get
+[4:37] 10 circuits. You may just want to run
+[4:39] your heating system, your well pump,
+[4:42] other critical stuff you've got going in
+[4:43] your house, and this is what that's for.
+[4:45] This is designed to be way easier to
+[4:48] install. You can pick up to 10 circuits.
+[4:51] Two circuits can be 240 each. That could
+[4:53] be a well pump in your maybe your
+[4:55] heating system, but oftentimes heat is
+[4:56] actually one 120.
+[4:58] You can pick eight more. The panel is
+[5:00] already completely pre-wired, but this
+[5:03] is very straightforward. So,
+[5:04] essentially, you just pick your 10
+[5:06] circuits that you want in your house.
+[5:07] You unplug the wire from your breaker.
+[5:10] It passes through this switch. That's
+[5:12] how it's able to do the switch over, but
+[5:14] you also now have your one connection
+[5:17] to your Titan. That is going to allow it
+[5:19] to be charged, discharged, and control
+[5:22] it. So, that's the brains of this that
+[5:24] you didn't have before. You now have the
+[5:26] power tie-in and you can do things like
+[5:28] time of day use and those advanced
+[5:30] functions.
+[5:32] And because this Titan series is still
+[5:34] brand new, I do want to put it through a
+[5:35] series of tests. Despite this seeming
+[5:37] like a small unit, this is designed to
+[5:39] run 7,200 W continuously. So, my 5,600 W
+[5:43] 240 V heater should be no issue at all.
+[5:49] But just our basic test of running 240 V
+[5:51] while we're doing this seems to be fine.
+[5:53] I want to try to charge it at 120 V
+[5:56] while it's outputting 240.
+[6:08] Immediately heard something click.
+[6:11] I heard that change a little bit. So,
+[6:12] what I believe is happening
+[6:14] is doing pass-through power to the
+[6:16] heater.
+[6:20] It's also notable that it did not
+[6:23] cut the power off to this at all. So,
+[6:25] this was actually a seamless transition.
+[6:27] As soon as I connected it,
+[6:29] this kept going. Maybe that doesn't
+[6:31] sound like a big deal, but it really is
+[6:32] because if you're going to use this for
+[6:33] full house power backup,
+[6:36] and you are going to try to trickle
+[6:38] charge this, say with a generator or
+[6:39] something like that, you don't want to
+[6:41] necessarily have all your loads shutting
+[6:43] off every time you do that.
+[6:45] 1.7 basically kilowatts in,
+[6:48] 5.something out.
+[6:50] Battery's charging.
+[6:54] Okay, so for this test, we are going to
+[6:55] start with the air compressor. This is a
+[6:59] quite a sizeable compressor.
+[7:05] Air AC is on.
+[7:07] On.
+[7:10] Perfect.
+[7:12] So, running, we're using about 1
+[7:14] kilowatt.
+[7:16] I absolutely love this screen. I don't
+[7:17] know why. It's very easy to read. The
+[7:19] color's cool.
+[7:21] Now, we're going to add the vacuum
+[7:22] cleaner.
+[7:38] No problem at all. That's great.
+[7:41] So, as I mentioned in a previous video,
+[7:43] this old Snap-on, it looks in terrific
+[7:45] shape cuz I've always had it clean,
+[7:47] is a pig. I call it Bertha. Thing is
+[7:50] huge
+[7:52] draw from that motor. It usually blows
+[7:54] out small power stations.
+[7:56] So, now we're going to start
+[7:58] with the vacuum cleaner. The point of
+[8:00] this test, I want to have this thing
+[8:02] already outputting some power, and can
+[8:05] this massive load
+[8:07] cause a dip or an overload or something
+[8:09] like that. So, let's give it a shot.
+[8:15] No issue at all. In fact, I didn't even
+[8:17] hear
+[8:19] I didn't hear the slightest difference
+[8:21] in tone of the motor.
+[8:23] Motors are kind of neat. You can audibly
+[8:25] hear a little dip from a brownout or
+[8:26] whatever. I heard nothing. That was
+[8:28] spot-on.
+[8:30] So, together,
+[8:31] 2.4, that's nothing.
+[8:33] We could still output way more, but as
+[8:35] you saw, we had no issue running 7,200
+[8:37] W.
+[8:39] Now, somebody noticed this, too, in the
+[8:40] other video. This is actually a flight
+[8:42] data recorder off a commercial jet
+[8:45] liner. I am going to cover that in
+[8:46] another video. I'll put that on my um
+[8:48] workshop channel. Now, in terms of
+[8:50] pricing, this Titan series is the most
+[8:52] affordable units EcoFlow has ever made
+[8:55] designed for total home power backup.
+[8:57] For those specific prices, I have put
+[8:59] links in the pinned comment at the top
+[9:00] and in the description as well. So, I've
+[9:02] only had this Titan just for a couple of
+[9:03] weeks, and so far it seems very
+[9:05] impressive. But, I think the most
+[9:06] impressive feature is the fact they're
+[9:08] actually listening to people and
+[9:09] realizing that not everybody wants to
+[9:11] spend 20,000 bucks on a battery backup
+[9:14] system. And the fact now you can get one
+[9:16] that you may be able to install
+[9:17] yourself, you can take it with you if
+[9:19] you move, and the fact the overall price
+[9:21] is a lot more affordable is definitely
+[9:23] going to make this thing very popular.
+[9:25] And I hope you like this video. If you
+[9:26] did, please be sure to give it a thumbs
+[9:28] up and subscribe to the Silver Symbol
+[9:29] channel for more videos coming up.

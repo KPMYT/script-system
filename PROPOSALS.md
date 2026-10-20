@@ -23,3 +23,13 @@ Evidence that a locked decision (`HANDOFF.md` section 3) might need to change. N
 **Proposal:** allow one fixed, soft family detail per persona profile, approved by the operator and worded exactly as in the profile. For Dale: he learned at his grandfather's bench, and his grandfather made him promise to write it all down.
 
 **Status:** approved by the operator on 2026-10-20 and applied to `core/claims-policy.md` and `personas/dale-oakfield.md`.
+
+## P3. Concrete forward promises in the plumbing pack (opened 2026-10-20)
+
+**Decision (HANDOFF.md section 3, FacelessOS rebuild):** "Rehooks: short-range bridges between segments are allowed and encouraged. Long-range promises are banned." (`core/retention-mechanics.md` §6: "A rehook points at the very next segment, never at 'the end of the video' or 'a bonus later.'")
+
+**Evidence:** the operator's instruction (2026-10-20): "we want to be faster to the point of what we are saying but we want to very quickly give them more reason to stay so we promise more value. watch how competitors do this." In the plumbing study the winners promise named items further ahead than the next segment: TheCheapFix's hits promise a numbered item with its dollar figure in the first minute and pay it 3-8 minutes later (`studies/plumbing/comparison/11-reasons-to-stay.md`, device D1; its titles carry the same bracket, "#4 Saves $300"); winning openers stack a median of about 4 promised payoffs in the first 90 seconds (`10-opener-teardowns.md`, synthesis). The vague teases the core bans ("stay till the end", "bonus at the end") stay banned; the promises in question name the item and its stake.
+
+**Proposal:** the plumbing pack overrides `retention-mechanics.md` §6 for one thing only: a **promise block** right after the first answer may name two or three later items with their concrete stake ("Number seven saves you a two-hundred-dollar call"), and later "next" lines may point further than the next segment, provided every promise names its item and stake, uses no tease phrase from the hard-ban list, and is paid inside the video (the first one within about five minutes). Vague long-range promises stay banned everywhere. The core rule is unchanged for every other niche.
+
+**Status:** approved by the operator on 2026-10-20 ("1. yes"). Applies when the plumbing pack goes into the library; the core rule is unchanged for every other niche.

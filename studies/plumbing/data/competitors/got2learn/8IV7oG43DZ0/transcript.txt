@@ -1,0 +1,244 @@
+[0:00] what's up guys and welcome back to
+[0:02] another video so a lot of you are
+[0:04] probably wondering why I'd be making a
+[0:07] video about repairing a leak on a copper
+[0:08] joint it's pretty straightforward
+[0:11] just add some solder and it's fixed
+[0:14] right wrong the answer is no and I want
+[0:19] to explain to you everything that's
+[0:20] wrong when doing this and how to do it
+[0:22] the proper way knowing how to solder is
+[0:26] an art and it could take years to
+[0:27] perfect if you're new in the plumbing
+[0:30] industry it'll most probably happen to
+[0:33] you that you solder a joint and you get
+[0:35] this so expect to have your pride dented
+[0:39] when this happens there's nothing to be
+[0:42] proud of here now there's two ways to
+[0:45] fix this
+[0:45] there's the proper way or there's the
+[0:48] quick fix
+[0:49] temporary gonna have to go back next
+[0:50] year way you could just patch it up like
+[0:54] most plumbers do or you could take the
+[0:56] extra time and fix it the proper way
+[0:59] which I'll be showing you how to do in
+[1:00] this video so first off I want to go
+[1:04] through all the reasons why this might
+[1:06] have happened so you don't have to make
+[1:08] these mistakes on future joints but
+[1:10] before if you're unfamiliar with
+[1:12] soldering copper and all of the tools
+[1:15] materials and terms that are used I
+[1:18] suggest watching my how to solder copper
+[1:20] pipes video it has clear step-by-step
+[1:23] instructions on how to solder and it'll
+[1:26] get you better familiarized after
+[1:28] watching it I'll be leaving a link in
+[1:30] the description box below and also a
+[1:33] card right here if you're interested so
+[1:36] the most common reason you get a leak in
+[1:38] my opinion is due to the joint being
+[1:41] under heated or overheated when you
+[1:45] overheat a joint for example the flux
+[1:47] which is critical for proper capillary
+[1:50] action burns off and can't do its job
+[1:52] anymore which is to keep the joint free
+[1:55] of any oxides and to draw in the solder
+[1:58] it's quite easy to know when it's too
+[2:00] late and that's when the flux carbonized
+[2:03] is like this it'll go from a liquid to a
+[2:06] burnt form
+[2:08] you're now basically trying to solder
+[2:10] without flux and to show you what it
+[2:13] looks like I have one pipe with flux on
+[2:15] it and one without when I apply the
+[2:18] solder they both look very similar after
+[2:20] they cooled down but as you could see
+[2:23] the one without flux then adhere
+[2:25] properly because of all the impurities
+[2:27] so it's vital to keep it from burning in
+[2:30] order to have a proper leak free joint
+[2:32] now it's impossible for me to give a
+[2:35] specific amount of time to heat a pipe
+[2:37] as there are so many variables in this
+[2:39] case but a good indicator to go by to
+[2:42] know if the joint is hot enough is to
+[2:45] probe it every 10 seconds or so if the
+[2:48] solder melts and gets drawn in that
+[2:51] means that it's hot enough you could
+[2:53] also under heat a joint what I mean by
+[2:56] this is only applying heat on one side
+[2:59] for example and not heating the other
+[3:01] this applies more to bigger sized pipes
+[3:04] as the heat takes a lot longer to be
+[3:07] conducted around the joint so you'd need
+[3:09] to circle around it to get it hot evenly
+[3:12] the next reason would be that the pipe
+[3:15] fitting or even both weren't properly
+[3:18] cleaned prepping both the pipe and
+[3:21] fitting is a must to ensure that the
+[3:23] solder could be properly conveyed inside
+[3:25] the joint the flux which is an acid will
+[3:30] do 90% of cleaning any oxides or greases
+[3:33] that are already on the surface of the
+[3:35] pipe however sticker glue or paint for
+[3:39] example needs to be removed mechanically
+[3:41] with sandpaper or an abrasive pad before
+[3:43] fluxing to get it down to bare copper
+[3:46] this also applies to the fittings they
+[3:49] must be cleaned before assembling them
+[3:51] or you run the chance of having a leak
+[3:54] to clean the inside of the fittings I
+[3:57] like getting a wire brush cutting the
+[3:59] tip off and using it in my drill when
+[4:01] doing big projects it's a lot easier and
+[4:04] it's a lot quicker to and lastly would
+[4:08] be if you tried soldering with a bit of
+[4:10] water in the pipe water is one of
+[4:13] soldering biggest enemies and I made a
+[4:16] thorough video on how to deal with this
+[4:18] particular problem I'll also link this
+[4:20] video in the description
+[4:22] bucks below and right here for you to
+[4:23] watch the reason why you might get a
+[4:27] leak is because the standing water at
+[4:29] the bottom of the pipe absorbs most of
+[4:31] the heat but not at the top so the top
+[4:35] will melt the solder but won't fill the
+[4:37] bottom because it's too cold so some
+[4:40] precautions need to be taken before in
+[4:42] order to not run into this issue so
+[4:45] let's move on to how to fix the leak now
+[4:48] what a lot of plumbers or
+[4:51] do-it-yourselfers do most times as a
+[4:53] quick fix is to apply a tad bit of flux
+[4:56] on the area heat it and apply a bit of
+[4:59] solder to patch the pinhole by doing
+[5:01] this your only surface filling the
+[5:04] pinhole let me explain if there's water
+[5:08] coming out the hole it means there's a
+[5:10] clear path from the back of the joint to
+[5:12] the front of the joint and as much as
+[5:14] you try to get it entirely filled you
+[5:16] never be able to because it's not
+[5:18] properly prepped anymore
+[5:20] also by only patching it you're
+[5:23] compromising the joint structural
+[5:25] integrity so in order to have a strong
+[5:27] joint that resists vibrations hard water
+[5:30] and other factors the joint must be
+[5:33] completely filled now seeing the solder
+[5:36] can travel to the back of the joint to
+[5:39] fix this you must on solder it and
+[5:41] restart the whole process to be able to
+[5:43] say the job was done properly so let me
+[5:45] show you how it's done the first thing
+[5:48] you need to do is to empty out the water
+[5:50] in the pipe you could do this by
+[5:53] shutting off the main water valve and
+[5:55] using the purge on it if there is one
+[5:57] undoing the water meter nuts and
+[5:59] draining from there or by opening a
+[6:02] faucet located at a lower level and
+[6:04] letting all of the water come out once
+[6:07] you think that most of the water has
+[6:09] been drained out start heating the joint
+[6:12] something I do suggest doing at this
+[6:14] point is to wrap the nearby joint with a
+[6:17] wet rag to keep it from melting as well
+[6:19] you wouldn't want to affect the others
+[6:22] while working on this one my preferred
+[6:25] way of doing this is to lock a pair of
+[6:27] locking pliers on the pipe and use a
+[6:30] small mallet to disconnect the pipe once
+[6:32] it's hot enough
+[6:33] this of course is assuming you have the
+[6:36] space and flexing the pipes to do this
+[6:38] or else this method won't work for you
+[6:41] once the pipe is disconnected from the
+[6:44] fitting get a wet rag and wipe off as
+[6:47] much solder on the pipe and inside the
+[6:49] fitting as you can if you were to skip
+[6:52] this step the solder would harden and
+[6:54] make it impossible to fit back into the
+[6:57] pipe without reheating it so remove it
+[7:00] while it's still hot it'll just make it
+[7:02] easier for you good now it's time to
+[7:06] prep everything for assembly one thing
+[7:10] here that's gonna be to your advantage
+[7:11] is the fact that the pipe and fitting
+[7:14] are now tinned meaning that they have a
+[7:16] thin layer of solder all around them
+[7:18] which will aid in getting full coverage
+[7:20] so no need for tinning flux here what I
+[7:24] like to do at this stage is to dry fit
+[7:27] it to see if it goes in if it doesn't
+[7:30] you'll need to send it a bit for it to
+[7:32] fit as you can see mine doesn't fit at
+[7:36] all so I'll have to send it down a bit
+[7:38] it's preferable to use 150 or 160 grit
+[7:43] sand paper instead enough abrasive pad
+[7:45] as it's just not rough enough to remove
+[7:47] any material alright now that it's
+[7:51] prepped
+[7:51] let's assemble everything together first
+[7:54] soldering it I'm using lead-free solder
+[7:56] and normal water-soluble flux and I'll
+[7:59] only be applying a thin layer on the
+[8:01] pipe and not inside the fitting I
+[8:04] noticed that when you apply flux in the
+[8:06] fitting it just gets pushed into the
+[8:08] pipe so there's no need to do that as
+[8:11] it'll just eat up the inside and time
+[8:13] and cause more problems the fit is still
+[8:16] very tight for it to go back in by hand
+[8:18] so to put it back in I'll use the same
+[8:22] technique I used to get it out but first
+[8:24] mark the pipe to make sure it goes in
+[8:27] all the way apply a thin layer of flux
+[8:29] all around it like this and get some
+[8:32] locking pliers on the pipe to lightly
+[8:34] tap it in place until it reaches the
+[8:36] mark
+[8:37] perfect just as you did in the beginning
+[8:40] wrap a wet rag around the surrounding
+[8:43] joints to protect them from the heat now
+[8:46] go ahead and do as you normally would
+[8:48] heat the joint and probe it every now
+[8:51] and then to see if it's hot enough or
+[8:53] not as soon as you see the solder melt
+[8:56] you could move your torch away and let
+[8:59] the heat from the joint do the work as
+[9:01] to not cook off the flux at this stage a
+[9:05] lot of people will take a wet rag and do
+[9:08] this by doing this you accelerate the
+[9:15] cool-down process risking a micro crack
+[9:17] and plus you move the joint as it's
+[9:20] hardening which are two things that may
+[9:22] cause a leak so put all the chunks on
+[9:25] your side and let the joint cool down on
+[9:27] its own for around one minute or so and
+[9:29] wipe off any excess flux you could
+[9:32] actually see the moment where the solder
+[9:34] hardens it goes from a shiny mirror
+[9:37] finish to a matte one which means it's
+[9:39] cool enough to wipe down and there you
+[9:42] have it go ahead and test it out if you
+[9:45] did it right I guarantee you it won't
+[9:48] leak with this method you know that the
+[9:51] joint is properly repaired and not just
+[9:53] patched up like a lot of people do to
+[9:55] save time and money like I said in the
+[9:58] video I've linked a couple of helpful
+[10:01] videos in the description box below that
+[10:03] are relevant to this one and I also
+[10:05] linked all the tools and materials I
+[10:07] used at the same place you can also
+[10:10] visit my website a triple w dot got to
+[10:13] learn shop comm to see everything in one
+[10:16] spot and if you learn something from
+[10:18] this video give it a thumbs up share
+[10:21] with your friends and subscribe for more
+[10:23] and until the next one thanks for
+[10:25] watching

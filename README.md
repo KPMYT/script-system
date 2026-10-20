@@ -19,7 +19,7 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 | `research-and-sourcing.md` | The research stage's rules: facts versus allowed framing, verify-or-cut, evidence wording, freshness, the verification pass, the default research pack, and flagging titles back to ideation. |
 | `script-structures.md` | Fallback structures for niches without their own: list, how-to, why it happens, comparison, essay, transformation. Plus the hook options. |
 | `greenlight-audit.md` | The final quality gate: checks A-F, three verdicts, the three-round cap, and the evidence block. |
-| `script-scanner.py` | The program that mechanically checks a script: banned phrases, dashes and odd characters, niche bans, filler counts, echoes, numbers missing from the research pack, and (with `--refs`) any run of 8+ words copied from the niche pack's reference files. |
+| `script-scanner.py` | The program that mechanically checks a script: banned phrases (including retention teases), dashes and odd characters, production notes read aloud ("CTA", "stinger", "mid-roll", "continuing with the final sections"), the same sentence twice in a row, the persona's fixed facts from its profile (a different years-in-the-trade figure, a near-miss of the channel, persona or book name), the script talking about its own thumbnail or title (judged), niche bans, filler counts, echoes, numbers missing from the research pack, and (with `--refs`) any run of 8+ words copied from the niche pack's reference files. |
 
 ## woodworking-scripts/ (the woodworking niche pack)
 
@@ -59,6 +59,23 @@ One persona profile per channel, written from `core/persona-profile-template.md`
 | `dale-oakfield.md` | Dale Oakfield's Workshop's profile: settings, the grandfather detail, the approved personality, the Bertha-style CTA rules, and his ending. |
 | `books/hank-hardwood-book.md` | The full text of Hank's ebook, "100 Ways to Make Your First $1,000 with Woodworking", with a marker for every page (PDF page and printed page), a chapter page map and an index of all 100 builds. Used to find which pages cover a video's topic for the CTA, and which facts a CTA may state about the book. |
 | `books/dale-oakfield-book.md` | The same for Dale's ebook, "The Ultimate DIY Woodworking Guide", with a chapter page map (the book prints no page numbers, so it uses PDF pages). |
+
+## studies/
+
+Research data: collect and describe only, never edited to fit a conclusion.
+
+| Folder | What's in it |
+|---|---|
+| `woodworking/` | The woodworking-for-profit study (2026-10-17): Hank, Dale and two competitors, 45 videos. Transcripts, comments, views against each channel's normal, one descriptive notes file per video, and combined transcripts. Method in `study-brief.md`, every step in `log.md`. |
+| `plumbing/` | The plumbing study (started 2026-10-20): Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter and five competitors (one a pest-control parallel niche, one an AI channel), 5 most recent plus 5 most-viewed (last 24 months) per channel. Same layout and method as woodworking; see its `study-brief.md` and `log.md`. Got2Learn's second group is its all-time top 5 (it stopped uploading). `comparison/` holds the analysis: measured numbers, own hits against recent uploads, competitor profiles, a side-by-side on 12 dimensions, and a summary with suggestions for the plumbing script rules (none applied). |
+
+## drafts/
+
+Drafts waiting for the operator's yes. Nothing here is part of the library until it's approved and moved.
+
+| File | What's in it |
+|---|---|
+| `plumbing-scripts-skill-DRAFT.md` | Draft 2 of the plumbing niche pack (it becomes the one skill `plumbing-scripts`, like `woodworking-scripts`): the villain, the opening by video type, "point then promise", ways to promise more value, ten video types with their openings and item shapes, CTAs and length. Villain, opening, point then promise and the promise devices are approved; the video types wait for the operator; later sections are headings only. |
 
 ## tests/
 

@@ -1,0 +1,187 @@
+[0:00] Here it goes.
+[0:05] That is awesome. That thing blows
+[0:08] practically every power station I try.
+[0:11] Hey guys, I'm Chris from the Silver
+[0:12] Symbol channel. And in today's video,
+[0:14] I'm going to be introducing Ankor's
+[0:15] brand new power station called the
+[0:17] S5000. This is currently the smallest
+[0:20] and the lightest portable power station
+[0:21] on the market with the most capacity.
+[0:24] And finally, this model has both 120
+[0:27] volt and 240 volt inside the single box.
+[0:30] The internal lithium ion phosphate
+[0:32] battery is 5 kwatt hours. It's also got
+[0:35] their brand new ultraefficient inverter.
+[0:38] That means this thing when it's sitting
+[0:39] idle only uses about 8 watts of power.
+[0:42] Now, as we look at the outside, the unit
+[0:44] has a similar appearance to other
+[0:45] devices on the market, but the weight
+[0:47] and the size are actually quite a bit
+[0:49] smaller. The weight on this one is 97 lb
+[0:51] and it's about 15 in high, 10 1/2 in
+[0:54] wide, and 22 in long. It's got a fully
+[0:57] retractable trolley system built in with
+[0:58] heavy duty wheels in the back. One
+[1:00] clever feature is they did also include
+[1:02] these rubber bumpers. Some other units
+[1:04] out there, unfortunately, when they're
+[1:05] folded upright, they will kind of get
+[1:07] scuffed on the floor, and these bumpers
+[1:09] will prevent that. And though it's
+[1:11] massive, this thing can be used as a
+[1:12] UPS. It has a switchover time of 10
+[1:14] milliseconds, making it suitable to via
+[1:17] UPS from everything from a CPAT machine
+[1:19] right up to a high-end computer. Now, of
+[1:20] course, because it's got a battery
+[1:21] inside, you need to recharge it. Now,
+[1:23] you can do that via multiple methods.
+[1:25] First, you can use the AC charging cords
+[1:27] that they include, the fact that you
+[1:29] can't remove the cord without actively
+[1:31] turning the lock can actually be really
+[1:32] useful in some situations, and via AC at
+[1:35] 120 volts, you can charge it at up to
+[1:37] 1,800 W. Additionally, you've got two
+[1:39] solar inputs. One of them allows you to
+[1:41] charge this thing with 2,000 watts of
+[1:43] solar input. The second can be charged
+[1:45] at 1,000 watts, giving you a combined
+[1:47] solar charging input of 3,000 W. You can
+[1:50] also charge this thing via DC. Now,
+[1:52] that's going to be useful for
+[1:53] applications where this might be built
+[1:54] into a tiny home, a van, or a mobile
+[1:57] vehicle because you could use their
+[1:58] alternator charger. Or if you're at home
+[2:00] and you want another option, you can use
+[2:02] their smart generator. Again, those are
+[2:04] options that will give you DC charging
+[2:06] and those will reach charging input of
+[2:08] about 4500 to 5,000 watts. They're able
+[2:10] to do that, of course, because they're
+[2:12] directly charging the batteries DC with
+[2:14] no conversion from AC. This unit is also
+[2:17] loaded with ports. So, we can take a
+[2:18] look at the front and it has a familiar
+[2:20] smart display. And of course, this will
+[2:21] connect to the Ankor app and that will
+[2:23] give you full control of the device.
+[2:25] Now, I should note the Ankor app is not
+[2:27] required in any way to use this thing. I
+[2:29] get this question a lot in the comments,
+[2:31] but you are going to need it if you want
+[2:32] to do things like firmware updates or of
+[2:34] course remotely control it. Any power
+[2:36] station that's just sitting around will
+[2:37] consume some power just to kind of keep
+[2:39] the unit ready to accept a load when it
+[2:41] comes in and then of course the inverter
+[2:43] can deliver it. And this device is king.
+[2:45] It only uses about 9 watts for standby
+[2:47] power while it's in 120 volt mode. But
+[2:49] this inverter has a much bigger benefit
+[2:51] than just the standby loss. When you're
+[2:53] delivering power, there's always going
+[2:55] to be some overhead for every watt that
+[2:57] you deliver. This ultraefficient
+[2:59] inverter can also deliver it up to about
+[3:01] 96% efficiency while it's delivering
+[3:04] power. What that means for you is you're
+[3:06] going to get more power out of that same
+[3:08] 5 kWh battery than you would get on a
+[3:11] competitive unit with a much less
+[3:12] efficient inverter. Looking at the front
+[3:14] of the device, you've got 120 volt 20
+[3:16] amp AC outlets, three USB ports, you've
+[3:19] got two USBC along with a USBA. You've
+[3:22] also got a 120 volt 30 amp plug. This is
+[3:25] going to be typically used in an RV. And
+[3:27] then of course you've got the L1430.
+[3:29] This is a 240 volt 30 amp plug that you
+[3:32] can plug things directly into it. You
+[3:34] can adapt them any way you want. But
+[3:36] additionally, you can also use this to
+[3:38] run a transfer switch on your house.
+[3:40] Now, because this is a brand new power
+[3:41] station from Ankor, I definitely wanted
+[3:43] to put it to the test. Let's give it a
+[3:45] shot to run 120 volt. You can change
+[3:48] that display time on to leave it on.
+[3:50] Here it goes.
+[3:56] That is awesome. That thing blows
+[3:59] practically every power station I try
+[4:02] cuz the load of this motor
+[4:05] should just be massive. Let's see what
+[4:07] happens if we fire up the vacuum.
+[4:17] Now 2100 watts is not over the top
+[4:20] impressive. What's impressive is neither
+[4:23] device trip this thing. Sorry about all
+[4:25] the noise. What I really want to see,
+[4:28] can that fire up with the vacuum already
+[4:31] running? That's really going to push it.
+[4:36] I heard a little dip. So, there's
+[4:38] definitely some surge action going on,
+[4:40] but that probably is the best result
+[4:43] I've ever gotten from any small,
+[4:46] although it's still huge power station.
+[4:51] Now we're on 240.
+[4:55] Now I don't actually expect this to
+[4:56] work.
+[5:05] 5,500 watts. That's over this thing's
+[5:08] capacity. Big question is how long will
+[5:11] it last?
+[5:14] So, it ran 5400 watts for about a
+[5:17] minute.
+[5:18] And now we're beginning to charge. Can
+[5:21] we charge at 120 volt and output 240
+[5:24] volt?
+[5:29] Shockingly, we can.
+[5:35] This was a feature everybody was asking
+[5:37] for. I'm thrilled to see we've actually
+[5:39] got it.
+[5:40] So, we are taking input of 1687,
+[5:43] outputting 5182.
+[5:46] Our heater's running. We're outputting
+[5:48] 240.
+[5:50] This was probably the most requested
+[5:53] feature I get. That's awesome. So, they
+[5:56] have now added that feature.
+[5:59] Additionally, they make the claim that
+[6:01] this really is supposed to be the
+[6:02] longest lasting power station you can
+[6:04] buy. So, to test that out, I connected
+[6:06] it to a fridge, charged the battery to
+[6:08] 100%, turned the fridge, of course, on
+[6:10] by activating the AC outlets, and
+[6:12] started a timer. I'm going to go back
+[6:13] and revisit the fridge in exactly 8
+[6:15] hours, and I can see how much of the
+[6:17] battery has been consumed. Now, keep in
+[6:19] mind, of course, fridges are part-time.
+[6:20] They tend to run about 30% of every
+[6:23] hour, using around 300 watts or so, but
+[6:25] it's going to depend a bit on your
+[6:26] model. So, we're now at 8 hours 10
+[6:28] minutes.
+[6:32] Fridge is still running of course. So
+[6:35] that fridge has been running for 8
+[6:36] hours. We have used 6% of the battery
+[6:39] roughly. Sometimes the first percent is
+[6:41] a little bit off.
+[6:46] 8 hours of running a fridge. 6% of the
+[6:49] battery. That is very impressive. And
+[6:51] that concludes my review of Anker's
+[6:53] brand new Solex S5000. And if you want
+[6:55] to get one for yourself, it's definitely
+[6:56] the right time. Anker is doing some
+[6:58] introductory pricing. I've put info in
+[7:00] the top pin comment and in the
+[7:02] description where you can take advantage
+[7:03] of this or just check out the info and
+[7:05] more specs at their website. And if you
+[7:06] like this video, please give it a thumbs
+[7:08] up and subscribe to the Silver Symbol
+[7:10] channel for more videos coming

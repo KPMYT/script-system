@@ -1,8 +1,9 @@
 # Library test suite: run with  python3 tests/run_checks.py  from the library root (or set LIB_ROOT).
 # Checks file references, stale leftovers, override statements, hard-ban and filler parity
 # between humanizer.md and script-scanner.py, scanner behavior on clean and broken scripts,
-# ban lifting, the numbers check, the woodworking inputs block, shared labels across files, and the
-# copy guard (--refs) against the niche pack's reference files.
+# ban lifting, the numbers check, the woodworking inputs block, shared labels across files, the
+# copy guard (--refs) against the niche pack's reference files, production notes read aloud,
+# repeated sentences, persona facts (tenure, near-miss names) and the tease phrasings.
 import re, os, glob, subprocess, sys, tempfile, textwrap
 sys.dont_write_bytecode = True
 ROOT=os.environ.get("LIB_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -173,6 +174,44 @@ code1,out1=run_scan("Sand it.\n\nKeep all ten fingers and I'll see you at the be
 code2,out2=run_scan("Sand it.\n\nCasual run-on sentences broken by short punchy fragments work best.\n",[prof],refs=[prof])
 check("13. copy guard: a profile's allow: line passes; a copied example line from the profile is caught",
       code1==0 and "COPIED" not in out1 and code2==1 and "COPIED FROM REFERENCE" in out2, out1+out2)
+
+# 14. production notes read aloud are fix-on-sight; ordinary words that look like them are not
+code,out=run_scan("Rinse the trap. Mid-roll subscribe CTA. Quick thing before number six.\n\nContinuing with the final sections now, number five is paint.\n\nBonus tip stinger. One more before you go.\n")
+need=["CTA label","mid-roll label","section label","stinger label"]
+miss=[n for n in need if n not in out]
+code2,out2=run_scan("Cut to length, then cut the pipe to sixteen inches. A section of pipe this old needs care.\n")
+check("14. production notes read aloud are caught; 'cut to length' and 'a section of pipe' are not",
+      not miss and code==1 and "PRODUCTION NOTE" not in out2 and code2==0, "missed: "+", ".join(miss)+" | "+out2[:400])
+
+# 15. the same sentence twice in a row
+code,out=run_scan("Number four. Number four. Pour the soda in hot water.\n")
+code2,out2=run_scan("Number four. Pour it in. Number five. Pour it in slowly.\n")
+check("15. the same sentence twice in a row is caught; a repeated word pattern with different sentences is not",
+      code==1 and "REPEATED SENTENCE" in out and "REPEATED SENTENCE" not in out2, out+out2)
+
+# 16. persona facts from a profile: tenure and near-miss names
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t:
+    t.write("```scanner\nname: The Vintage Pipefitter\nname: Mark Silverbridge\ntenure: 45\n```\n"); facts=t.name
+code,out=run_scan("Well, I have been a plumber for over 35 years. Subscribe to the Vintage Plumber. Mark Silverbrook here.\n",[facts])
+code2,out2=run_scan("I've been on the tools for 45 years. Subscribe to The Vintage Pipe Fitter, the Pipefitter way. This pipe held 20 years of grease, and in 10 years your pipes will thank you.\n",[facts])
+code3,out3=run_scan("After 40 years at the bench I know this.\n",[f"{ROOT}/personas/hank-hardwood.md"])
+check("16. persona facts: a wrong tenure and near-miss names are caught; the right tenure, spacing variants and other 'years' are not; tenure none catches any figure",
+      code==1 and out.count("PERSONA FACT: tenure")==1 and '"the Vintage Plumber"' in out and '"Mark Silverbrook"' in out
+      and "PERSONA FACT" not in out2 and code2==0 and "PERSONA FACT: tenure" in out3 and code3==1, out+out2+out3)
+
+# 17. the tease phrasings found in the plumbing study are hard bans
+teases=["Stay till the end because I'll show you.","And stick with me for number nine.","So do not go clicking away early on me.",
+        "Hang on for the bonus habit.","Stay for number 10, because that one matters.","I'll save the best one for you at the very end.",
+        "By the end, you'll have the routine.","And the bonus tip at the end could save you.",
+        "Wait until you hear what it does to the seal.","So stay right here with me.","Please do not skip out on me now.",
+        "I'm keeping a running tally of every dollar you save, and at the very end I'll add it up."]
+missed=[t for t in teases if run_scan(t+"\n")[0]!=1]
+check("17. tease phrasings from the plumbing study are hard bans", not missed, "; ".join(missed))
+
+# 18. the woodworking profiles carry their fixed facts
+fx=[l.strip() for f in ("hank-hardwood","dale-oakfield") for l in re.findall(r"```scanner\n(.*?)```",open(f"{ROOT}/personas/{f}.md").read(),re.S)[0].splitlines()]
+check("18. Hank's and Dale's profiles give their name, book and tenure to the scanner",
+      fx.count("tenure: none")==2 and "name: Hank Hardwood" in fx and "name: Dale Oakfield" in fx and sum(l.startswith("book:") for l in fx)==2, str(fx))
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

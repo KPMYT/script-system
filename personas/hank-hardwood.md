@@ -94,9 +94,12 @@ He signs off on "Keep all ten fingers and I'll see you at the bench," the one fi
 
 ### SCANNER
 
-Lines this channel says the same way every time, so the copy guard doesn't flag them:
+Lines this channel says the same way every time, so the copy guard doesn't flag them, and the persona's fixed facts (name, book, tenure), which the scanner checks:
 
 ```scanner
 allow: Keep all ten fingers and I'll see you at the bench
 allow: A Hundred Ways to Make Your First Thousand Dollars with Woodworking
+name: Hank Hardwood
+book: A Hundred Ways to Make Your First Thousand Dollars with Woodworking
+tenure: none
 ```

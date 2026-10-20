@@ -1,0 +1,17 @@
+# This SECRET Drain Trick Is Only Known by 1% of Plumbers (USE IT NOW)
+
+- Channel: Mark Silverbridge Plumbing (own)
+- Format: FACELESS (narration over compiled third-party footage). Basis: the description credits footage from other YouTube channels ("Credits to:"/"Credits:" list with 10 channel entries); the transcript is first-person voiceover whose only screen references are to a QR code/text on screen; channel-level comments describe clips that do not match the narration, "content taken from other creators" and an "AI voice". Conflicting signal: NexLev check_faceless_channel returned isFaceless=false (confidence 0.98, format "tutorial", cached result 2026-10-20). About text: "Hi guys, Im Mark and I have been working as a plumber for the last 35 years."
+- Selection: 5 most recent long-form uploads (rank 1 in newest order)
+- Video ID: fq7bWC_bRqQ
+- URL: https://www.youtube.com/watch?v=fq7bWC_bRqQ
+- Upload date: 2026-10-19 (08:30 -07:00)
+- Duration: 17:08 (1028 s)
+- Views: 257 (as of 2026-10-20)
+- Likes: 4
+- Channel normal: 549 (median views of the channel's 15 most recent long-form uploads at least 7 days old, as of 2026-10-20)
+- Views / normal: 0.47
+- Age at collection: 1 days
+- Analysis status: included
+- Transcript: NexLev get_bulk_video_transcripts, 415 segments, 0:00–17:06
+- Comments: NexLev youtube_video_comments, 0 top + 0 newest (API commentsCount 0; no comments on the video yet)

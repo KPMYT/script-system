@@ -16,16 +16,24 @@ Usage:
                    ban-regex: pattern | label
                    lift: phrase or label of a hard ban
                    allow: a line the channel says the same way every time (exempt from the copy guard)
+                 and, in a persona profile, the persona's fixed facts:
+                   name: the persona's or channel's name (one per line; near-misses are flagged)
+                   book: the book's spoken title (near-misses are flagged)
+                   tenure: years in the trade as a number, or "none" (any other tenure figure is flagged)
   --pack       the research pack. Every number in the script is checked against it.
   --refs       optional reference files (the niche pack's excerpts.md and reference-scripts.md).
                Any run of 8 or more consecutive words in the spoken script that also appears
                in a reference file is fix-on-sight "copied from reference". Case, punctuation
                and [bracketed] source tags are ignored.
 
-Exit code: 1 if any fix-on-sight problem is found (hard ban, mechanical, niche ban,
-copied from reference), else 0.
+Every script is also checked for production notes read aloud ("CTA", "stinger", "mid-roll",
+"continuing with the final sections"), the same sentence twice in a row, and (judge) the script
+talking about its own thumbnail or title.
+
+Exit code: 1 if any fix-on-sight problem is found (hard ban, mechanical, niche ban, production note,
+repeated sentence, persona fact, copied from reference), else 0.
 """
-import re, sys, argparse
+import re, sys, argparse, difflib
 from collections import Counter
 
 # ---------------------------------------------------------------- hard bans
@@ -45,14 +53,42 @@ HARD_BANS = [
     # retention teases
     (r"\bstick around\b", "tease: stick around"),
     (r"\bstay tuned\b", "tease: stay tuned"),
-    (r"\bbonus at the end\b", "tease: bonus at the end"),
+    (r"\bbonus(?: tip)? at the end\b", "tease: bonus at the end"),
     (r"\bby the end of (?:this|the) video\b", "tease: by the end of this video"),
     (r"\byou won'?t believe\b", "tease: you won't believe"),
     (r"\bkeep watching\b", "tease: keep watching"),
     (r"\bwatch (?:un)?til the end\b", "tease: watch until the end"),
     (r"\bdon'?t skip (?:ahead|forward|to the|this (?:part|video|one)|the (?:end|rest))\b", "tease: don't skip ahead"),
-    (r"\bwait (?:un)?til you see\b", "tease: wait until you see"),
+    (r"\bwait (?:un)?til you (?:see|hear)\b", "tease: wait until you see"),
+    (r"\bstay(?: with me)? (?:(?:un)?till?|to) the (?:very )?end\b", "tease: stay till the end"),
+    (r"\bstick with me\b", "tease: stick with me"),
+    (r"\b(?:do not|don'?t) (?:go )?click(?:ing)? away\b", "tease: don't click away"),
+    (r"\bhang on (?:for|until|till|to the end)\b", "tease: hang on for"),
+    (r"\bstay for (?:number|#|the last|the final)\b", "tease: stay for number"),
+    (r"\b(?:I'?ll|I will|we'?ll|I'?m|I am|saving|saved|save|keeping)\b[^.!?]{0,90}\bat the very end\b|\bat the very end,? (?:I'?ll|I will|we'?ll)\b", "tease: at the very end"),
+    (r"\bstay (?:right )?here with me\b", "tease: stay right here with me"),
+    (r"\b(?:do not|don'?t) skip out\b", "tease: don't skip out on me"),
+    (r"\bby the end,? you'?ll\b", "tease: by the end, you'll"),
 ]
+
+# ---------------------------------------------------------------- production notes read aloud (fix on sight)
+PRODUCTION = [
+    (r"\bCTAs?\b", "CTA label"),
+    (r"\bstingers?\b", "stinger label"),
+    (r"\bmid-?rolls?\b", "mid-roll label"),
+    (r"\bb-?roll\b", "B-roll label"),
+    (r"\bSFX\b|\bsound effects?\b", "sound-effect label"),
+    (r"\boutro\b|\bintro\s*:", "intro/outro label"),
+    (r"\b(?:smash )?cut to\s*:|\bcut to (?:black|camera|footage|the (?:shot|clip|footage|b-?roll|graphic))\b", "edit instruction"),
+    (r"\b(?:continuing|moving on|carrying on)\b[^.!?]{0,25}\bsections?\b|\bfinal sections?\b|\b(?:section|segment|scene) (?:\d+|one|two|three|four|five|six|seven|eight|nine|ten)\b", "section label"),
+    (r"\bon-?screen text\b|\btext overlay\b|\blower third\b|\bend screen\b|\bvoice-?over\b|\bnarrator\b", "production term"),
+    (r"\b(?:insert|show) (?:a )?(?:clip|footage|image|graphic|b-?roll)\b", "edit instruction"),
+    (r"\((?:pause|beat|laughs?|music|sfx|visual|b-?roll)[^)]*\)", "stage direction"),
+    (r"(?:^|(?<=[.!?]\s))(?:visual|scene|shot|camera|graphic|music|vo)\s*:", "stage direction"),
+]
+
+# ---------------------------------------------------------------- the script talking about its own packaging (judge)
+PACKAGING = r"\bthe thumbnail\b|\b(?:this|the) video'?s title\b|\btitle of (?:this|the) video\b|\b(?:picture|image|video|title) you clicked\b|\byou clicked on\b|\bin (?:the|that|this) title\b"
 
 # ---------------------------------------------------------------- mechanical sweep
 MECHANICAL = [
@@ -135,7 +171,9 @@ def sentences(para):
 
 # ---------------------------------------------------------------- rules files
 def read_rules(paths):
+    """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
+    facts = {"name": [], "book": [], "tenure": None}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         for block in re.findall(r"```scanner\s*\n(.*?)```", txt, re.S):
@@ -158,7 +196,11 @@ def read_rules(paths):
                     lifts.append(pat.lower())
                 elif key.strip() == "allow":
                     allows.append(pat)
-    return bans, lifts, allows
+                elif key.strip() in ("name", "book"):
+                    facts[key.strip()].append(pat)
+                elif key.strip() == "tenure":
+                    facts["tenure"] = pat.lower()
+    return bans, lifts, allows, facts
 
 # ---------------------------------------------------------------- numbers
 WORD_NUM = {w: i for i, w in enumerate("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split())}
@@ -278,9 +320,113 @@ def copy_check(text, ref_runs, allows=None):
             hits.append((src, " ".join(toks[start:end])))
     return hits
 
+# ---------------------------------------------------------------- persona facts (fix on sight)
+NUM_WORD = r"(?:\d{1,2}|(?:twenty|thirty|forty|fifty|sixty|seventy)(?:[- ](?:one|two|three|four|five|six|seven|eight|nine))?|ten|eleven|twelve|fifteen|five|six|seven|eight|nine)"
+_TRADE = r"(?:experience|trade|trades|plumbing|plumber|pipefitt\w*|pipe ?fitter|tools|bench|shop|job|field|business|woodworking|woodworker|carpentry|craft|career|wrenching|fixing \w+|doing this|in this line)"
+TENURE_RX = [
+    # "45 years in the trade", "35 years of experience", "40 years as a plumber"
+    re.compile(r"\b(" + NUM_WORD + r")[- ]years?\s+(?:(?:of|in|on|at|as|behind|under)\s+)?(?:(?:the|a|an|my)\s+)?" + _TRADE + r"\b", re.I),
+    # "been a plumber for over 35 years", "fixing pipe for 30 years", "on the tools for 30 years"
+    re.compile(r"\b(?:been|spent|worked|working|plumbing|fixing|on the tools|in the trade|doing this|at the bench)\b[^.!?]{0,40}?\bfor (?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
+    # "a 45-year plumber", "45-year veteran"
+    re.compile(r"\b(" + NUM_WORD + r")-year\s+(?:plumber|pipefitter|veteran|master|tradesman|woodworker|carpenter|pro|career)\b", re.I),
+]
+
+def _num(tok):
+    tok = tok.lower().replace("-", " ")
+    if tok.isdigit():
+        return int(tok)
+    parts = tok.split()
+    return sum(TENS.get(w, WORD_NUM.get(w, 0)) for w in parts)
+
+def tenure_check(para, tenure):
+    """Any years-in-the-trade figure that differs from the profile's tenure (or any at all, for "none")."""
+    out, seen = [], set()
+    if not tenure:
+        return out
+    for rx in TENURE_RX:
+        for m in rx.finditer(para):
+            if m.start(1) in seen:
+                continue
+            near = para[max(0, m.start() - 40):m.end() + 40]
+            if rx is TENURE_RX[0] and not re.search(r"\b(?:I|I'?ve|I'?m|me|my|we|we'?ve)\b", near):
+                continue
+            seen.add(m.start(1))
+            n = _num(m.group(1))
+            if tenure == "none" or (tenure.isdigit() and n != int(tenure)):
+                want = "no tenure figure (the profile keeps experience numberless)" if tenure == "none" else f"{tenure} years"
+                out.append(f"[PERSONA FACT: tenure] \"{para[max(0, m.start() - 20):m.end() + 15].strip()}\" (the profile says {want})")
+    return out
+
+def _squash(s):
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+SMALL_WORDS = {"the", "a", "an", "of", "to", "with", "and", "your", "my", "for", "in", "on", "at"}
+
+def name_check(para, names):
+    """A capitalised phrase that shares a key word with a fixed name or book title but isn't it
+    ("the Vintage Plumber" for The Vintage Pipefitter). Exact and partial uses ("the Pipe Guy") pass;
+    spacing and case are ignored ("Pipe Fitter" = "Pipefitter"). One finding per name per paragraph."""
+    out = []
+    toks = [(m.group(0), m.start()) for m in re.finditer(r"[A-Za-z0-9'$]+", para)]
+    words = [w for w, _ in toks]
+    sent_start = {i for i, (_, pos) in enumerate(toks) if i == 0 or re.search(r"[.!?]\s*$", para[:pos])}
+    for name in names:
+        nw = re.findall(r"[A-Za-z0-9'$]+", name)
+        name_words = {w.lower() for w in nw}
+        target = _squash(name)
+        bare_name = re.sub(r"^(?:the|a)\s+", "", name, flags=re.I)
+        bare = _squash(bare_name)
+        if len(nw) < 2 or not target:
+            continue
+        masked = set()
+        for size in range(1, len(nw) + 3):
+            for i in range(len(words) - size + 1):
+                if _squash(" ".join(words[i:i + size])) in (target, bare):
+                    masked.update(range(i, i + size))
+        key = {w.lower() for w in nw if len(w) > 3 and w.lower() not in SMALL_WORDS | {"this", "that", "from", "make"}}
+        sizes = {len(nw), len(re.findall(r"[A-Za-z0-9'$]+", bare_name))}
+        best = None
+        for size in sorted(sizes | {max(sizes) + 1, min(sizes) - 1} - {0, 1}):
+            for i in range(len(words) - size + 1):
+                if masked & set(range(i, i + size)):
+                    continue
+                win = words[i:i + size]
+                cand = _squash(" ".join(win))
+                if cand in target or not any(w.lower() in key for w in win):
+                    continue
+                if not all(w[:1].isupper() or w[:1].isdigit() or w.lower() in SMALL_WORDS for w in win):
+                    continue
+                if sum(w[:1].isupper() for w in win) < 2:
+                    continue
+                # the wrong word: capitalised, not part of the name, not a pronoun, not just a new sentence starting
+                if not any(w[:1].isupper() and w.lower() not in name_words and w.lower() not in ("i", "i'm", "i've", "i'll", "i'd")
+                           and (i + k) not in sent_start for k, w in enumerate(win)):
+                    continue
+                score = max(difflib.SequenceMatcher(None, cand, target).ratio(), difflib.SequenceMatcher(None, cand, bare).ratio())
+                shared = len({w.lower() for w in win} & key) / max(1, len(key))
+                if score >= 0.6 or shared >= 0.5:
+                    if not best or score > best[0]:
+                        best = (score, " ".join(win))
+        if best:
+            out.append(f"[PERSONA FACT: near-miss name] \"{best[1]}\" (the profile says \"{name}\")")
+    return out
+
+def repeated_sentences(paras):
+    """The same sentence twice in a row ("Number four. Number four.")."""
+    out, prev = [], None
+    for para in paras:
+        for snt in sentences(para):
+            norm = " ".join(re.findall(r"[a-z0-9']+", snt.lower()))
+            if prev and norm == prev and len(norm.split()) >= 2:
+                out.append(f"[REPEATED SENTENCE] \"{snt}\" said twice in a row")
+            prev = norm
+    return out
+
 # ---------------------------------------------------------------- scan
-def scan(text, extra_bans, lifts, ref_runs=None, allows=None):
+def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None):
     fix, judge = [], []
+    facts = facts or {"name": [], "book": [], "tenure": None}
     for src, run in copy_check(text, ref_runs, allows):
         fix.append(f"[COPIED FROM REFERENCE: {src}] \"{run}\" ({len(run.split())} words in a row)")
     paras = spoken_paragraphs(text)
@@ -297,6 +443,13 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None):
         for rx, name in MECHANICAL:
             for m in re.finditer(rx, para):
                 fix.append(f"[MECHANICAL: {name}] ...{ctx(m)}...")
+        for rx, name in PRODUCTION:
+            for m in re.finditer(rx, para, re.I):
+                fix.append(f"[PRODUCTION NOTE: {name}] ...{ctx(m)}...")
+        fix.extend(tenure_check(para, facts["tenure"]))
+        fix.extend(name_check(para, facts["name"] + facts["book"]))
+        for m in re.finditer(PACKAGING, para, re.I):
+            judge.append(f"[talks about its own packaging] ...{ctx(m)}...")
         for m in OTHER_NON_ASCII.finditer(para):
             fix.append(f"[MECHANICAL: non-standard character '{m.group(0)}'] ...{ctx(m)}...")
         for rx, name in TELLS:
@@ -309,6 +462,7 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None):
                                                 "back to", "quick", "right", "all right", "alright"))]
         if len(shorts) >= 2:
             judge.append(f"[staccato x{len(shorts)}] " + " | ".join(f'"{s}"' for s in shorts[:4]))
+    fix.extend(repeated_sentences(paras))
     sparing_counts, sparing_paras = Counter(), []
     for para in paras:
         hits = [p for p, rx in SPARING_RX for _ in rx.finditer(para)]
@@ -352,13 +506,15 @@ def main():
     ap.add_argument("--refs", nargs="+", default=[])
     a = ap.parse_args()
     text = open(a.script, encoding="utf8", errors="ignore").read()
-    bans, lifts, allows = read_rules(a.rules)
-    fix, judge, most, reframes, echoes, sparing = scan(text, bans, lifts, read_refs(a.refs), allows)
+    bans, lifts, allows, facts = read_rules(a.rules)
+    fix, judge, most, reframes, echoes, sparing = scan(text, bans, lifts, read_refs(a.refs), allows, facts)
     print(f"SCAN: {a.script}")
     if a.refs:
         print(f"  copy guard: {COPY_RUN}+ words in a row shared with {', '.join(a.refs)}")
     if lifts:
         print(f"  lifted bans in effect: {', '.join(lifts)}")
+    if facts["name"] or facts["book"] or facts["tenure"]:
+        print(f"  persona facts: names {facts['name']}, book {facts['book']}, tenure {facts['tenure']}")
     words = sum(len(p.split()) for p in spoken_paragraphs(text))
     print(f"  spoken words: {words} (about {words / 150:.1f} minutes at 150 words a minute; minimum 8)")
     print(f"\nFIX ON SIGHT ({len(fix)})")

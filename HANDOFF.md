@@ -98,6 +98,29 @@ These change or extend earlier decisions above, by the operator's choice.
 - **Active woodworking channels:** Hank and Dale, both on camera (Talking Head), both single builds. Kenji is stopped. Sam relaunches later as woodworking for profit.
 - **Packaging:** one skill per layer, at the operator's request: `script-writer` (the core, START), `woodworking-scripts` (the niche pack), one persona skill per channel (profile plus book), and alongside them `woodworking-ideation` and `ideation-core`. Everything is built from the repo by `tools/build_skills.py`; the operator stores the files in Drive and installs them on each account.
 
+### Operator decisions, 2026-10-20 (plumbing, after the study)
+
+Recorded from the operator's reply to the plumbing comparison (`studies/plumbing/comparison/`). They are applied when the plumbing niche pack and the plumbing persona profiles are written.
+- **The Vintage Pipefitter:** no CTAs at all for now (mid-video and end both dropped). An email-collecting CTA will be discussed later. (This replaces the earlier two-line free-e-book plan.)
+- **Roger the Pipe Guy and Mark Silverbridge:** the mid-video CTA and the outro CTA go back to the old, much shorter structure their hits used (`studies/plumbing/comparison/01-own-channels.md` and `07-body-craft.md` §10 quote it).
+- **No name or channel intros on any channel.** The core already bans them by default (`retention-mechanics.md`), and both woodworking profiles say "Greeting: none"; the plumbing profiles follow.
+- **Fixed tenures, formalised 2026-10-20 ("lets formalize from now"): Roger the Pipe Guy 45 years, Mark Silverbridge 40 years, The Vintage Pipefitter 50 years.** Each goes in the persona profile's `tenure:` line, and the scanner fails any other figure. (Earlier the same day Mark was set at 45; the operator replaced it with 40.)
+- **Concrete forward promises are allowed in the plumbing pack (P3, approved):** a promise block after the first answer may name two or three later items with their stake, provided each is paid inside the video; vague teases stay banned everywhere. This is the plumbing pack's override of the locked "long-range promises are banned" rule, which stays as it is for every other niche.
+- **Hooks rotate.** The opening jobs are fixed, the order and shape rotate, and an opening may be modelled on a reference winner script's shape (never its wording).
+- **Get to the point faster, and very quickly give the viewer more reasons to stay by promising more value,** modelled on how the competitors and our own hits do it.
+- **Openers are modelled aggressively on our winners and the competitors' winners,** by video type: what each opener triggers and what it asks. (Analysis: `studies/plumbing/comparison/10-opener-teardowns.md`, `11-reasons-to-stay.md`.)
+- **The villain on every plumbing channel is the trade:** plumbers, the plumbing industry and the people who profit from service calls (never a named company, per the claims policy).
+- **Footage that doesn't match the narration is the editor's fault,** not a script problem. The script rule about naming what the footage should show stays as it is; nothing more is added for it.
+- **Contradictions between videos are acceptable; unsafe advice never is.** The fact bank and the safety block exist for safety, not for cross-video consistency.
+- **No recaps** at the end of plumbing videos.
+- **Words per point depend on the point;** no fixed length per item.
+- **"Nine times out of 10" is fine;** it doesn't go on a banned list.
+- **Sources and store names are not required** in plumbing scripts.
+- **TheCheapFix is the closest format match, but not the main source of scripting ideas.**
+- **The plumbing scripts skill carries compiled transcripts of the real-life (human) competitor channels** as reference material, under the copy guard like the woodworking references: Silver Cymbal, Roger Wakefield, Got2Learn and Arrow Pest Service (confirmed by the operator). Not TheCheapFix and not the operator's own three channels.
+- **No first-person claims of tests, demonstrations or on-camera actions, unless the title or brief specifically calls for one.** Every number is sourced or given as a typical range.
+- **The scanner checks matter a great deal to the operator** (spoken production notes, wrong channel or book names, numbers said twice, tenure numbers that differ from the profile, "boiling" near drain or toilet, "pour it dry"). The operator approved the core ones (2026-10-20), now built: production notes read aloud, the same sentence twice, persona facts from the profile (name, book, tenure) and the tease phrasings the scanner missed, plus a judged flag for the script talking about its own thumbnail or title. "Boiling" near drain or toilet, "pour it dry" and first-person test claims go in the plumbing pack's scanner block.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.
