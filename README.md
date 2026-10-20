@@ -62,11 +62,11 @@ One persona profile per channel, written from `core/persona-profile-template.md`
 
 ## tests/
 
-`run_checks.py`: 18 automated checks across the whole library, including the copy guard. Run it after any edit.
+`run_checks.py`: 20 automated checks across the whole library, including the copy guard, the fraction-word scanner check and the "e-book" ban. Run it after any edit.
 
 ## tests/iterations/
 
-One folder per round of changes (`refs-01/`, `iter-00/`, …), each with `CHANGES.md` (file | what changed | why) and `before/` copies of every file it modified.
+One folder per round of changes (`refs-01/`, `iter-00/`, `iter-01/`, …), each with `CHANGES.md` (file | what changed | why) and `before/` copies of every file it modified. `iter-01/` is the first real script test (Hank, the lazy Susan): its inputs and output in `test-run/`, the findings and the operator's decisions in `REVIEW.md`.
 
 ## SESSION-HANDOVER.md
 

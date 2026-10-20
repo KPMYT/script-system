@@ -23,6 +23,7 @@ description: Why viewers keep watching and how a script holds them: the first se
 ## 2. The first seconds
 
 - **Say what the video is about within about 10 seconds, using "you" or "your."** Viewers decide fast whether this is what they came for, and any delay makes them doubt it.
+- **Play on what the viewer feels.** Besides the promise, the opening touches the viewer's pain point or wish: the fear, frustration or hope that brought them (buying tools they don't need, building something nobody buys, the leak that keeps coming back). Then it points at the solution. Keep it to one sentence, never a problem essay, and never let it push the first payoff back. A hook made only of numbers or facts is flat. The niche pack names its audience's main pains. (Operator's quality bar, 2026-10-20.)
 - **Open on what the thumbnail and title promised.** The first visual matches the thumbnail, and the first line names the title's subject. The video is built from the script, so that first line has to name what should be on screen; the visuals can only show what the narration mentions.
 - **No greeting and no channel intro by default.** No "hey guys," no "today we're going to," no wind-up. Some niches suit a warm greeting, so a niche pack or persona profile can allow one.
 
@@ -53,6 +54,8 @@ Every paragraph must do at least one of these:
 4. **Change how the viewer feels:** relief, surprise, confidence, concern.
 
 A paragraph that does none of them is padding. Cut it; don't polish it. This is the main test for whether a script's length is honest.
+
+**Personality isn't padding.** An opinion, a reaction or an honest aside in the persona's voice changes how the viewer feels and builds trust, so it passes this test. An extra sentence of it here or there is allowed, inside a step or between them; don't strip it out to make a script leaner. (Operator, 2026-10-20.)
 
 ---
 

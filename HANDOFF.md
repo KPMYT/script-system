@@ -98,6 +98,23 @@ These change or extend earlier decisions above, by the operator's choice.
 - **Active woodworking channels:** Hank and Dale, both on camera (Talking Head), both single builds. Kenji is stopped. Sam relaunches later as woodworking for profit.
 - **Packaging:** one skill per layer, at the operator's request: `script-writer` (the core, START), `woodworking-scripts` (the niche pack), one persona skill per channel (profile plus book), and alongside them `woodworking-ideation` and `ideation-core`. Everything is built from the repo by `tools/build_skills.py`; the operator stores the files in Drive and installs them on each account.
 
+### Operator decisions, 2026-10-20 (first script test review, iter-01)
+
+From the review of Hank's first script (the lazy Susan). Full record in `tests/iterations/iter-01/`.
+- **The hook plays on emotion, on every channel:** besides the promise, the opening touches the viewer's pain point or wish and points at the solution. One sentence of it, within the first-material and no-teases rules above. The quality bar (core unless the pack overrides, tailored to the audience's emotions, real value, a strong pain-point hook, solution-driven, easy to follow) is now written into `core/workflow.md`.
+- **Fewer numbers, easy to follow, on every channel:** exact figures only where the viewer needs them, the rest rounded the way people talk, one price per item, no fee schedules or lists of listings read aloud.
+- **Personality stays in:** an extra sentence of opinion, reaction or honest aside here or there is allowed and isn't padding.
+- **Words per minute** are set from each channel's real voiceovers: Hank 185, Dale 170.
+- **Hank's CTAs point to both the QR code and the top link in the description,** every time. This changes "pointing to the QR code" above. Hank's longer CTAs are fine as they are. Dale stays as he is ("link below").
+- **The offer is always "the book",** never "e-book", on every channel.
+- **No shop or seller names** in narration. The editor blurs them on screenshots.
+- **Titles may claim the persona's selling and tenure** on Hank too, in his own words ("40 years" stays Dale's). Research doesn't flag these; the narration still never claims them.
+- **When START comes without a research pack,** the script chat builds and verifies one, then checks it at the gate. Writing without a pack is still refused.
+- **Swears aimed at the viewer** include orders to the viewer ("So do the damn math" fails).
+- **Food items** have their factory glue checked as well as the finish.
+- **Steps that must follow the finish** (final assembly, hardware) come after it.
+- **Hank's QR code exists** (confirmed by the operator).
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

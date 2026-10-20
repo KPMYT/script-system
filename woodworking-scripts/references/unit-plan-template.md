@@ -10,6 +10,7 @@ Channel:
 PROMISE
 - shape this time:                 [pick a different shape from this channel's last script; see excerpts §1]
 - the number it carries:
+- the viewer's fear or wish it touches:  [tools, wasted wood, looks homemade, out-priced by big stores, side money]
 
 CONTEXT
 - none / one sentence about:
@@ -35,8 +36,11 @@ MONEY BLOCK
 - time estimate
 - doubter: the objection -> the proof
 - listing angle:                   [optional]
+- numbers worth saying:            [only the few the viewer needs: parts cost, price, what's left, one batch line; everything else rounded or left in the pack]
 
 WHERE TO SELL
+
+OPINION MOMENTS                    [the build's choice points (which wood, which hardware, which finish or decoration) where the persona says what they'd pick and why]
 
 FLEXIBLE CHOICES THIS TIME         [see the skill's skeleton]
 - tools listed separately, or folded into materials?

@@ -22,7 +22,7 @@ description: Fallback script structures for any channel whose niche pack doesn't
 
 ## Hook options
 
-Every hook delivers the title's promise. On top of that, any of these can be used where they fit. None is required, and different ones should rotate (`variety-rotation.md`).
+Every hook delivers the title's promise and touches the viewer's pain point or wish (`retention-mechanics.md`, section 2). On top of that, any of these can be used where they fit. None is required, and different ones should rotate (`variety-rotation.md`).
 
 - **A stakes sentence:** why this matters to the viewer ("Get one of these wrong and the whole board's firewood").
 - **Paying off the title straight away:** deliver a first piece of the promise in the hook itself.
