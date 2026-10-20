@@ -46,7 +46,7 @@ Copies of the operator's claude.ai ideation skills, brought in to be edited here
 
 | File or folder | What's in it |
 |---|---|
-| `tools/build_skills.py` | Builds the installable skills from the library into `dist/`, each as a `.skill` file and a plain `.zip` with the same contents. Run it after any change, then re-upload. |
+| `tools/build_skills.py` | Builds the installable skills from the library into `dist/` (one `.skill` file each, plus the full bundle as one zip). Run it after any change, then re-upload. |
 | `dist/` | **Generated, never edited by hand.** One skill per layer: `script-writer.skill` (the core, START), `woodworking-scripts.skill` (the niche pack), `hank-hardwood-persona.skill` and `dale-oakfield-persona.skill` (profile plus book), `woodworking-ideation.skill`, `ideation-core.skill`; the unzipped folders; and `INSTALL.md` (how to install them, not itself a skill). The build checks claude.ai's upload rules (one SKILL.md, frontmatter, name, description up to 1,024 characters). |
 
 ## personas/
