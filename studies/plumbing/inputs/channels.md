@@ -1,6 +1,6 @@
 # Channels
 
-Channel IDs resolved with NexLev on 2026-10-20. Own-channel links were found by NexLev channel search (exact title match).
+Channel IDs resolved with NexLev on 2026-10-20. Own-channel links were found by NexLev channel search (exact title match) and confirmed by the operator on 2026-10-20.
 
 ## Own channels
 

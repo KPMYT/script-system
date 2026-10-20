@@ -44,3 +44,9 @@ Recorded as found (described, not judged): the own channels' narrators give diff
 
 - `notes/INDEX.md`: one line per video (75), own channels first.
 - `transcripts-combined/`: one file per channel, plus `own-3-channels.txt` and `competitors-5-channels.txt`, with header blocks; see its README. Built with a scratch script outside the repo. Verified 204,760 transcript words in the originals and in the combined files.
+
+## 2026-10-20 — Operator decisions after collection
+
+- Own channels confirmed (the three found by name search are the right ones).
+- Got2Learn: add its 5 all-time most-viewed long-form uploads as its Group B (one helper agent; channel normal kept at 121,799).
+- Comparison approved: written to `comparison/`, separate from the data and notes. `comparison/stats.md` holds the measured numbers per video (length, spoken words, words per minute, hook length, first-value time), computed by the main session from the meta, transcript and notes files.
