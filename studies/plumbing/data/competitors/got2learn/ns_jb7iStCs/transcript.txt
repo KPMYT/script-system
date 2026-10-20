@@ -1,0 +1,181 @@
+[0:00] all right so I'm seeing a lot of videos
+[0:03] on YouTube of plumbers reacting to some
+[0:05] of the worst plumbing jobs they've seen
+[0:08] and it's fun to watch and all but they
+[0:11] never show how they'd go about fixing it
+[0:14] so since this channel is all about
+[0:16] learning I'll do just that as best as I
+[0:19] can and I hope that someone could
+[0:21] actually learn something with
+[0:23] this also if you see a picture that's
+[0:26] yours in this video these pics were sent
+[0:28] out to me by people on the Chan channel
+[0:30] so please don't red flag me unless you
+[0:33] really want to so without further Ado
+[0:36] number one is this here and so at first
+[0:41] if you have some Plumbing knowledge
+[0:43] you'll know that nothing is right in
+[0:45] this picture the individual that did
+[0:48] this job was obviously trying to tap
+[0:50] into a source of potable water in the
+[0:52] system to connect an ice maker or
+[0:54] something which is fine but there are
+[0:57] two major mistakes here number one is
+[1:01] the fact that he or she used a saddle
+[1:03] valve to do so and the second is that
+[1:06] the source it was tapped into is a water
+[1:09] hammer
+[1:10] arrester I have a full video on what
+[1:13] these are and how they work I'll link it
+[1:16] here for those who are
+[1:17] curious now if you've been following my
+[1:20] channel for a while you know that I
+[1:22] despise the use of saddle valves because
+[1:25] they're notorious for failing at the
+[1:26] rubber joint in time so I never
+[1:29] recommend using these and they're also a
+[1:32] code
+[1:33] violation if someone needed a connection
+[1:36] for an ice maker I'd use this method
+[1:39] instead a t fitting with a proper valve
+[1:42] like this this way nothing could go
+[1:44] wrong and it's code if you want to know
+[1:48] how to properly connect an ice maker to
+[1:50] a water supply I also have a full video
+[1:53] on this on my
+[1:54] channel number two is this job here
+[1:58] which at first glance looks to be okay
+[2:01] but it's not in a few ways the first
+[2:04] thing I think everyone here can point
+[2:06] out is the estp located here I made a
+[2:11] complete video on why s traps are code
+[2:14] violations and why they shouldn't be
+[2:16] used so I won't explain how that works
+[2:19] here but basically it would need an aav
+[2:22] or pipe vent right here before dropping
+[2:24] to be code the other thing that concerns
+[2:28] me in this picture is the fact fact that
+[2:30] all the plumbing is
+[2:32] exposed so just imagine going to the
+[2:34] sink not paying attention to the
+[2:36] plumbing under it and accidentally
+[2:38] hitting the pipe this could damage it
+[2:41] and eventually maybe even cause a leak
+[2:44] which is why most Plumbing is not
+[2:45] exposed like this and lastly the fact
+[2:49] that there's no shut off valves in the
+[2:52] vicinity obviously this setup is more
+[2:55] Aesthetics oriented seeing it's exposed
+[2:58] but you still need shut off valves
+[3:00] nearby in case something does happen
+[3:03] other than that I really like the
+[3:05] steampunk style it has going for it but
+[3:08] I really think this is more of a
+[3:09] magazine covers SL Pinterest
+[3:12] thingy number three has a lot going on I
+[3:16] think even a newbie would be able to
+[3:18] point out a few things here but
+[3:21] nonetheless let's go through them one by
+[3:23] one the first obvious thing is the use
+[3:27] of different materials and fittings
+[3:29] which is is not really
+[3:31] necessary we could see here some ABS a
+[3:34] rubber reducing coupling a chrome PE
+[3:37] trap and a copper drain pipe going into
+[3:39] the wall the other thing we could notice
+[3:43] is pipe dope being used here here and
+[3:46] also here supply lines don't need any
+[3:50] sealants as they have gaskets so that
+[3:53] too is
+[3:54] unnecessary another thing is this this
+[3:57] is not code and I'll show you the
+[4:00] fitting needed for this connection in a
+[4:01] few
+[4:02] minutes the dishwasher hose is
+[4:05] improperly installed and I'm no
+[4:07] electrician but I believe that this
+[4:10] Outlet needs to be gfic protected so
+[4:13] let's fix it all
+[4:15] up firstly I'd remove the Chrome trap
+[4:19] and install a inch and a half ABS trap
+[4:22] seeing the copper drain is inch and 1/2
+[4:25] I'd need to unsolder the inch and 1/2 to
+[4:28] inch and a/ qu reducer couplet
+[4:30] solder a male waist connector like this
+[4:33] and connect everything back
+[4:35] up the second thing that would need to
+[4:37] be done is properly install the
+[4:40] dishwasher hose and that could be done
+[4:42] two ways by installing an air gap like
+[4:45] this or by raising the pipe up in the
+[4:48] cabinet to create a
+[4:50] loop the reason for this is to ensure
+[4:53] that the old dishwasher water doesn't go
+[4:55] back in the machine some people install
+[4:58] these which aren't too appealing to the
+[5:00] eye but do the job but most people just
+[5:04] reroute it up top like this in the
+[5:06] picture and the last thing I would do is
+[5:09] call an electrician and change this
+[5:11] outlet for a gfic protected one in case
+[5:15] there's water that goes in it next
+[5:17] project is this here so once again at
+[5:22] first glance nothing seems wrong but
+[5:25] there is one thing I was always reminded
+[5:29] of when when I was an apprentice was to
+[5:31] always try to find a way to simplify my
+[5:34] work to be more
+[5:35] efficient here we could see a few PEX
+[5:38] lines but what sticks out the most is
+[5:41] the number of connections that were
+[5:44] made if these lines were made of copper
+[5:47] I could totally understand all the sharp
+[5:49] turns and fittings but the beauty about
+[5:52] peex is that it could be bent to save on
+[5:54] fittings time leaks and just make
+[5:58] everything easier so this is how I would
+[6:01] have done it so first of all for these
+[6:05] two lines here I would have pointed the
+[6:07] T fitting downwards and just bend the
+[6:10] pipe like this eliminating these two
+[6:13] fittings as for these two I would have
+[6:16] made a loop for both and can both of
+[6:19] these fittings too and for this one here
+[6:22] a simple Bend would have worked which
+[6:24] would have saved a ton of time and
+[6:26] looked more
+[6:27] professional and the last product
+[6:29] project is this little gem right here I
+[6:32] kept this one for last just because of
+[6:35] the mold in the wall and the weird
+[6:37] looking substance on the fitting right
+[6:39] over here so I think it's pretty obvious
+[6:43] what's wrong with this sink drain I mean
+[6:46] this would 100% work if we were on the
+[6:48] moon don't get me wrong but seeing we're
+[6:51] on Earth there's a thing called gravity
+[6:54] and this kind of goes against
+[6:55] it so the main problem in this setup is
+[6:59] this y right over here it's bringing the
+[7:02] whole setup lower than it should to fix
+[7:05] this I would personally remove
+[7:07] everything from here to here and start
+[7:10] off new this part here would require a
+[7:14] bit more attention seeing we have no
+[7:16] pipe to start off with I used the method
+[7:19] I showed in one of my videos to remove
+[7:20] the 45 to have a clean slate and
+[7:23] basically replicate the same setup the
+[7:26] only difference would be that this whole
+[7:28] portion would would be higher and the Y
+[7:31] would be on the horizontal part instead
+[7:33] of the vertical part I would also clean
+[7:35] up and rebuild the wall just for
+[7:37] aesthetic purposes or I wouldn't be able
+[7:39] to sleep at night and that pretty much
+[7:42] covers it for this video if you want to
+[7:45] see more like this just let me know in
+[7:47] the comment section below and I'll make
+[7:49] more don't forget to like share and
+[7:52] subscribe and until the next one thanks
+[7:54] for watching
