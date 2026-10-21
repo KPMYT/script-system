@@ -414,14 +414,15 @@ check("36. price guide: 100+ rows, none in cents, each marked confirmed / adjust
 #     the trade terms and the myth flag's belief; Roger's and Mark's profiles carry the new CTA; the scanner command guards SKILL.md
 sk=open(PLR).read()
 need=["## Emotion, all the way through","### The item shape in lists","about 100-130 words","**The number cap**",
-      "figures on no more than about half the items","after the second or third item","about 60-80 words",
+      "figures on no more than about half the items","never before the end of item 3","about 60-80 words","an outright ask to leave a comment",
+      "When the script names a source, its figure is said as the source gives it","as long as nothing in it is fluff",
       "the gas-leak row of `references/price-guide.md` section 9","no flame, no car",
       "psi, trap, P-trap, jetting, relining, anode rod, cleanout, PRV","names the belief it flips","absolutely criminal",
       "this file (`SKILL.md`)","much more of it, inside items and between them"]
 miss=[n for n in need if n not in sk]
-prof_bad=[os.path.basename(p) for p in (ROGER,MARK) if "20-60" in open(p).read() or "about 60-80 words after the second or third item" not in open(p).read()]
+prof_bad=[os.path.basename(p) for p in (ROGER,MARK) if "20-60" in open(p).read() or "about 60-80 words, about a third of the way in, never before the end of item 3" not in open(p).read()]
 bs=open(f"{ROOT}/tools/build_skills.py").read()
-check("37. plumbing pack: emotion, item shape, CTA template, number cap, gas steps, trade terms, myth flag; Roger and Mark profiles; SKILL.md in the scanner's --refs",
+check("37. plumbing pack: emotion, item shape, CTA template (a third in, not before item 3), comment ask, number cap, named-source figures, gas steps, trade terms, myth flag; Roger and Mark profiles; SKILL.md in the scanner's --refs",
       not miss and not prof_bad and "--refs <plumbing-scripts>/SKILL.md" in bs and "20-60" not in sk, f"missing {miss}; profiles {prof_bad}")
 
 # 38. the outrage line: "criminal" trips no ban, the operator's phrase passes once and fails on the second use (rotate it);
