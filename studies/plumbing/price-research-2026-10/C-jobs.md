@@ -1,0 +1,32 @@
+# Group C: pipes, leaks, valves, fixtures, outdoor and seasonal
+- Main water shutoff valve replacement (pro), gate vs ball valve
+- Fixture shutoff (angle stop) valve replacement (pro) and part
+- How often to test the main shutoff (common guidance)
+- Supply line replacement: faucet and toilet braided supply lines (part and pro)
+- Washing machine hoses: rubber vs braided stainless pair price; recommended replacement interval; typical insurance claim / damage cost of a burst washer hose
+- Faucet cartridge replacement (pro) and cartridge part
+- Faucet repair (drip) pro typical
+- Kitchen and bathroom faucet replacement installed (labor + mid-range faucet)
+- Showerhead replacement (part and pro)
+- Aerator cleaning/replacement (part)
+- Slow drip under a sink: water wasted per day by a slow drip (gallons), compression-fitting or slip-joint repair (pro)
+- Leak detection service (pro, non-invasive)
+- Slab leak repair (reroute and direct access)
+- Burst pipe repair (pro, accessible) and with drywall opening
+- Frozen pipe thawing (pro) and burst-from-freeze repair
+- Pipe insulation (foam sleeves, DIY price per 6 ft)
+- Whole-house repipe (PEX and copper) for a typical house
+- Galvanized pipe replacement / partial repipe
+- Pressure-reducing valve (PRV) installed and part; healthy household water pressure range (psi); code maximum (80 psi)
+- Water pressure gauge (hose-bib gauge) price
+- Water hammer arrestor installed and part
+- S-trap to P-trap conversion (pro)
+- Air admittance valve installed and part
+- Push-to-connect (SharkBite-style) fitting price per fitting; pipe repair clamp price
+- Outdoor faucet (hose bibb) repair; frost-free sillcock installed and part
+- Insulated outdoor faucet cover price
+- Leaking hose bibb into a foundation: typical repair
+- Sump pump replacement installed and pump unit price; sump pump battery backup
+- Water leak alarm (single sensor and smart shutoff valve installed)
+- Water meter leak check: how to do it and what a leak-indicator dial is (no price needed; method and source)
+- Typical increase in a water bill that suggests a leak (utility guidance), and what a hidden leak wastes per year (EPA WaterSense figures)

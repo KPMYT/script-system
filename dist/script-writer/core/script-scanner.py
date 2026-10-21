@@ -7,7 +7,7 @@ fix-on-sight. Everything else is a candidate for a human or model to judge with
 the shape test in voice-anchoring.md.
 
 Usage:
-  python3 script-scanner.py SCRIPT [--rules FILE ...] [--pack RESEARCH_PACK] [--refs FILE ...]
+  python3 script-scanner.py SCRIPT [--rules FILE ...] [--pack FACT_SOURCE ...] [--title TITLE] [--refs FILE ...]
 
   SCRIPT       the script file (plain text or markdown).
   --rules      niche pack and/or persona profile files. Any ```scanner block in them
@@ -22,10 +22,14 @@ Usage:
                    name: the persona's or channel's name (one per line; near-misses are flagged)
                    book: the book's spoken title (near-misses are flagged)
                    tenure: years in the trade as a number, or "none" (any other tenure figure is flagged)
-  --pack       the research pack. Every number in the script is checked against it.
+                 and, in a niche pack, its length minimum if it raises the core's 8 minutes:
+                   min-minutes: 12
+               A profile's "Words per minute ...: N" line sets the runtime estimate (150 if unset).
+  --pack       the fact source: the research pack, or the brief where the niche pack doesn't use one.
+               Every number in the script is checked against it.
   --title      the locked title. A years-in-the-trade figure in it ("A 30-Year Plumber's Verdict")
                is allowed in the script alongside the profile's tenure: title numbers win.
-  --refs       optional reference files (the niche pack's excerpts.md and reference-scripts.md).
+  --refs       optional reference files (the niche pack's copy-guard files, as its SKILL.md lists them).
                Any run of 8 or more consecutive words in the spoken script that also appears
                in a reference file is fix-on-sight "copied from reference". Case, punctuation
                and [bracketed] source tags are ignored.
@@ -69,10 +73,13 @@ HARD_BANS = [
     (r"\b(?:do not|don'?t) (?:go )?click(?:ing)? away\b", "tease: don't click away"),
     (r"\bhang on (?:for|until|till|to the end)\b", "tease: hang on for"),
     (r"\bstay for (?:number|#|the last|the final)\b", "tease: stay for number"),
-    (r"\b(?:I'?ll|I will|we'?ll|I'?m|I am|saving|saved|save|keeping)\b[^.!?]{0,90}\bat the very end\b|\bat the very end,? (?:I'?ll|I will|we'?ll)\b", "tease: at the very end"),
+    (r"\b(?:(?:I'?ll|I will|we'?ll|we will|I'?m|I am|we'?re|I'?ve|we'?ve)\s+(?:\w+\s+){0,2}?(?:save|saving|saved|keep|keeping|show|showing|tell|telling|reveal|revealing|share|sharing|give you|giving you)|saving|saved|keeping)\b[^.!?]{0,90}\b(?:at|for|till|until) the very end\b|\bat the very end,? (?:I'?ll|I will|we'?ll)\b", "tease: at the very end"),
     (r"\bstay (?:right )?here with me\b", "tease: stay right here with me"),
     (r"\b(?:do not|don'?t) skip out\b", "tease: don't skip out on me"),
     (r"\bby the end,? you'?ll\b", "tease: by the end, you'll"),
+    # pointing at the screen: banned everywhere (operator, 2026-10-20)
+    (r"\bright here\b", "pointing: right here"),
+    (r"\blook at this\b", "pointing: look at this"),
 ]
 
 # ---------------------------------------------------------------- production notes read aloud (fix on sight)
@@ -177,9 +184,12 @@ def sentences(para):
 def read_rules(paths):
     """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
-    facts = {"name": [], "book": [], "tenure": None, "once": []}
+    facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
+        w = re.search(r"^Words per minute[^:\n]*:\s*(\d+)", txt, re.M)
+        if w:
+            facts["wpm"] = int(w.group(1))
         for block in re.findall(r"```scanner\s*\n(.*?)```", txt, re.S):
             for line in block.splitlines():
                 line = line.strip()
@@ -208,12 +218,17 @@ def read_rules(paths):
                     facts[key.strip()].append(pat)
                 elif key.strip() == "tenure":
                     facts["tenure"] = pat.lower()
+                elif key.strip() == "min-minutes":
+                    facts["min"] = int(pat)
     return bans, lifts, allows, facts
 
 # ---------------------------------------------------------------- numbers
 WORD_NUM = {w: i for i, w in enumerate("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split())}
 TENS = {w: 10 * i for i, w in enumerate("_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()) if w != "_"}
 SCALES = {"hundred": 100, "thousand": 1000, "million": 1000000}
+UNIT_WORDS = {"dollar", "dollars", "buck", "bucks", "cent", "cents", "year", "years", "month", "months", "week", "weeks", "day", "days",
+              "hour", "hours", "minute", "minutes", "gallon", "gallons", "ounce", "ounces", "pound", "pounds", "foot", "feet",
+              "inch", "inches", "percent", "degree", "degrees", "to", "old"}
 FRACTIONS = {"a half": .5, "a quarter": .25, "three-quarters": .75, "three quarters": .75, "one-half": .5}
 
 def word_numbers(text):
@@ -223,16 +238,28 @@ def word_numbers(text):
     while i < len(toks):
         t = toks[i]
         parts = t.split("-")
-        if parts[0] in WORD_NUM or parts[0] in TENS:
+        lead_a = t == "a" and i + 1 < len(toks) and toks[i + 1].split("-")[0] in SCALES   # "a hundred and fifty"
+        if parts[0] in WORD_NUM or parts[0] in TENS or lead_a:
             total, cur = 0, 0
+            start = i
+            if lead_a:
+                cur = 1; i += 1
             while i < len(toks):
                 t = toks[i]; ps = t.split("-")
-                if all(p in WORD_NUM or p in TENS for p in ps):
-                    cur += sum(WORD_NUM.get(p, 0) + TENS.get(p, 0) for p in ps)
-                elif t in SCALES:
-                    cur = max(cur, 1) * SCALES[t]
-                    if SCALES[t] >= 1000:
-                        total += cur; cur = 0
+                k = 0
+                while k < len(ps) and (ps[k] in WORD_NUM or ps[k] in TENS or ps[k] in SCALES):
+                    k += 1
+                if k and (k == len(ps) or ps[k] in UNIT_WORDS):
+                    for p in ps[:k]:                   # "two-hundred" is one token; "hundred-dollar" keeps its number
+                        if p in SCALES:
+                            cur = max(cur, 1) * SCALES[p]
+                            if SCALES[p] >= 1000:
+                                total += cur; cur = 0
+                        else:
+                            cur += WORD_NUM.get(p, 0) + TENS.get(p, 0)
+                    if k < len(ps):                    # the unit ends the number
+                        i += 1
+                        break
                 elif t == "and" and i + 1 < len(toks) and (toks[i + 1] in ("a", "three-quarters", "one-half") or toks[i + 1].split("-")[0] in WORD_NUM or toks[i + 1].split("-")[0] in TENS):
                     if i + 2 < len(toks) and " ".join(toks[i + 1:i + 3]) in FRACTIONS:
                         cur += FRACTIONS[" ".join(toks[i + 1:i + 3])]; i += 2
@@ -240,6 +267,8 @@ def word_numbers(text):
                         cur += FRACTIONS[toks[i + 1]]; i += 1
                 else:
                     break
+                i += 1
+            if i == start:      # a word like "three-quarter" or "one-by-eight" that isn't a whole number: step past it
                 i += 1
             vals.append(total + cur)
         else:
@@ -347,9 +376,12 @@ def _num(tok):
     parts = tok.split()
     return sum(TENS.get(w, WORD_NUM.get(w, 0)) for w in parts)
 
+# titles also state tenure as years of selling or making ("In 40 Years of Selling...")
+TITLE_TENURE_EXTRA = re.compile(r"\b(" + NUM_WORD + r")[- ]years?\s+(?:of\s+)?(?:selling|sales|making|building)\b", re.I)
+
 def title_tenure(title):
     """The years-in-the-trade figure a locked title states ("A 45-Year Plumber's Verdict"), or None. Title numbers win."""
-    for rx in TENURE_RX:
+    for rx in TENURE_RX + [TITLE_TENURE_EXTRA]:
         m = rx.search(title or "")
         if m:
             return _num(m.group(1))
@@ -363,11 +395,19 @@ def tenure_check(para, tenure, title_n=None):
         return out
     tenure = tenure or "none"
     for rx in TENURE_RX:
-        for m in rx.finditer(para):
+        pos = 0
+        while True:
+            m = rx.search(para, pos)
+            if not m:
+                break
+            pos = m.start() + 1          # overlapping: a skipped "been ..." match mustn't hide a later one
             if m.start(1) in seen:
                 continue
             near = para[max(0, m.start() - 40):m.end() + 40]
             if rx is TENURE_RX[0] and not re.search(r"\b(?:I|I'?ve|I'?m|me|my|we|we'?ve)\b", near):
+                continue
+            # "been ... for N years" counts only with the persona as its subject ("I've been...", not "the heater has been...")
+            if rx is TENURE_RX[1] and m.group(0).lower().startswith("been") and not re.search(r"(?:\b(?:I|I'?ve|I have|I had|I'?d|we|we'?ve|we have)\s+(?:\w+\s+){0,2}|\bmy\s+\w+\s+(?:have|has|had)\s+|(?:^|[.!?]\s+))$", para[max(0, m.start() - 30):m.start()], re.I):
                 continue
             seen.add(m.start(1))
             n = _num(m.group(1))
@@ -528,7 +568,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("script")
     ap.add_argument("--rules", nargs="*", default=[])
-    ap.add_argument("--pack")
+    ap.add_argument("--pack", nargs="+", default=[], help="the fact source; several files are read as one (the plumbing brief plus its price guide)")
     ap.add_argument("--refs", nargs="+", default=[])
     ap.add_argument("--title", help="the locked title; a years-in-the-trade figure in it is allowed in the script")
     a = ap.parse_args()
@@ -545,7 +585,9 @@ def main():
     if title_tenure(a.title) is not None:
         print(f"  title tenure: {title_tenure(a.title)} years (title numbers win)")
     words = sum(len(p.split()) for p in spoken_paragraphs(text))
-    print(f"  spoken words: {words} (about {words / 150:.1f} minutes at 150 words a minute; minimum 8)")
+    wpm, minimum = facts.get("wpm") or 150, facts.get("min") or 8
+    mins = words / wpm
+    print(f"  spoken words: {words} (about {mins:.1f} minutes at {wpm} words a minute; minimum {minimum})" + ("  << under the minimum" if mins < minimum else ""))
     print(f"\nFIX ON SIGHT ({len(fix)})")
     for f in fix: print("  " + f)
     print(f"\nJUDGE WITH THE SHAPE TEST ({len(judge)})")
@@ -558,8 +600,8 @@ def main():
     print(f"ECHO (H18): {len(echoes)}")
     for e in echoes: print("  " + e)
     if a.pack:
-        missing = number_check(text, open(a.pack, encoding="utf8", errors="ignore").read())
-        print(f"\nNUMBERS NOT FOUND IN THE RESEARCH PACK ({len(missing)})  (invented, or derived: confirm the math)")
+        missing = number_check(text, "\n".join(open(f, encoding="utf8", errors="ignore").read() for f in a.pack))
+        print(f"\nNUMBERS NOT FOUND IN THE FACT SOURCE ({len(missing)})  (invented, or derived: confirm the math)")
         for v, s in missing[:30]:
             print(f"  {v:g}  <<  {s[:110]}")
     sys.exit(1 if fix else 0)

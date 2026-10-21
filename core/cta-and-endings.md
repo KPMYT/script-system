@@ -6,7 +6,7 @@ description: The mechanics of calls to action and endings for every channel: why
 # CTAs and endings
 
 **How this file relates to niche packs and persona profiles.** This is a base rule file. Everything about *what* a CTA offers lives in the persona profile or niche pack:
-- the offer itself: an e-book, an email list, an affiliate product, or just a subscribe
+- the offer itself: a book, an email list, an affiliate product, or just a subscribe
 - its length
 - its wording style
 - any placement detail
@@ -81,7 +81,7 @@ The closing line is exactly one sentence: the persona's sign-off, a callback, or
 
 ## 5. Keeping CTA wording fresh
 
-The structure repeats; the words never do.
+The structure repeats; the words never do. (One exception, operator 2026-10-20: the end CTA's wording may repeat, and it isn't logged.)
 - **Rewrite every CTA from scratch each time,** keeping its structure. Change the opening words, the value line, the directions and the close.
 - **Never reuse or closely paraphrase** a CTA opening that appears in the pasted rotation log (`variety-rotation.md`, slot 8).
 - **Banned echoes,** from old scripts, never used on any channel (close variants included):

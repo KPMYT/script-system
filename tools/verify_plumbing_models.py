@@ -2,7 +2,7 @@
 # Small "missing" counts come from label notes in parentheses, e.g. "(1, cont.)". Run: python3 tools/verify_plumbing_models.py
 import re,glob,sys,os
 root=os.environ.get("LIB_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-for f in sorted(glob.glob(f"{root}/drafts/plumbing-scripts-refs/references/models/[RS]*.md")):
+for f in sorted(glob.glob(f"{root}/plumbing-scripts/references/models/[RS]*.md")):
     s=open(f).read()
     vid=re.search(r"\*\*Video:\*\*\s*([A-Za-z0-9_-]{11})",s)
     sec=re.search(r"## Script \(verbatim, labelled\)\n(.*?)\n## Doesn",s,re.S)

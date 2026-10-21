@@ -1,0 +1,26 @@
+# Group D: damage costs, licensing, and the DIY shelf
+- Water damage restoration: small leak (one room), typical average, and a flooded basement
+- Mold remediation: small area and typical average
+- Drywall / ceiling repair after a leak (patch and larger section)
+- Sink base cabinet replacement after water damage
+- Subfloor repair under a toilet or sink
+- Average homeowners insurance water damage claim (Insurance Information Institute or similar)
+- Redoing bad or unlicensed plumbing work (typical cost ranges or examples); how to check a plumber's license (state licensing board lookup)
+- Plumbing permit cost typical range
+- DIY shelf prices (US big-box stores / Amazon, 2025-2026), each as a range:
+  - cup plunger; flange (toilet) plunger
+  - closet auger; 25 ft hand drain snake / drum auger; plastic drain-cleaning strips
+  - wet-dry vac (small)
+  - washing soda (Arm & Hammer Super Washing Soda 55 oz box); baking soda (1 lb and 4 lb); white vinegar (1 gallon)
+  - 3% hydrogen peroxide (32 oz); citric acid (1 lb); borax (65 oz box)
+  - enzyme drain cleaner (e.g. Bio-Clean, Green Gobbler enzyme) ; chemical drain cleaner (gel, 32-80 oz)
+  - CLR (28 oz); pumice stone toilet cleaner
+  - Teflon tape; pipe dope; plumber's putty; silicone caulk
+  - adjustable wrench; basin wrench; tongue-and-groove pliers
+  - toilet flapper; fill valve kit; complete toilet tank repair kit; wax ring (with and without flange); toilet supply line
+  - braided washing machine hoses (pair); faucet supply lines (pair)
+  - hose-bib water pressure gauge; insulated outdoor faucet cover
+  - pipe repair clamp; SharkBite-style push fitting (1/2 inch)
+  - foam pipe insulation (6 ft)
+  - water leak detector (single)
+  - a basic leak emergency kit ($50-type kit contents: towels, bucket, flashlight, clamp, tape, wrench)

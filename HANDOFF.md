@@ -94,7 +94,7 @@ These change or extend earlier decisions above, by the operator's choice.
 - **Ideation runs in Cowork,** where Claude can browse Etsy in a real browser. **Etsy is the main source;** eBay and Facebook Marketplace are optional spot-checks. Products are found by hand-checking, with no paid tool and no API for now.
 - **The woodworking ideation pipeline** goes: product scan (30 products) → title and thumbnail-text options (format bank plus new creative ones) → the operator's picks → briefs → optional research pack. The fallback is invented products, marked as invented, with no sales figures.
 - **Briefs** are a bank of facts only, never structure or language direction, about 500-800 words, one spreadsheet cell with " | " between fact groups.
-- **Titles and thumbnail text may exaggerate freely,** including tenure and income claims. Ideation doesn't hard-code claim bans. The script delivers such titles through the numbers, and the narration still never claims sales or history.
+- **Titles and thumbnail text may exaggerate freely,** including tenure and income claims. Ideation doesn't hard-code claim bans. The script delivers such titles through the numbers, and the narration still never claims sales or history. *(For tenure, superseded on 2026-10-21 by "title numbers win": a years figure in the locked title may be said in the script, on every channel.)*
 - **Active woodworking channels:** Hank and Dale, both on camera (Talking Head), both single builds. Kenji is stopped. Sam relaunches later as woodworking for profit.
 - **Packaging:** one skill per layer, at the operator's request: `script-writer` (the core, START), `woodworking-scripts` (the niche pack), one persona skill per channel (profile plus book), and alongside them `woodworking-ideation` and `ideation-core`. Everything is built from the repo by `tools/build_skills.py`; the operator stores the files in Drive and installs them on each account.
 
@@ -104,7 +104,7 @@ Recorded from the operator's reply to the plumbing comparison (`studies/plumbing
 - **The Vintage Pipefitter:** no CTAs at all for now (mid-video and end both dropped). An email-collecting CTA will be discussed later. (This replaces the earlier two-line free-e-book plan.)
 - **Roger the Pipe Guy and Mark Silverbridge:** the mid-video CTA and the outro CTA go back to the old, much shorter structure their hits used (`studies/plumbing/comparison/01-own-channels.md` and `07-body-craft.md` §10 quote it).
 - **No name or channel intros on any channel.** The core already bans them by default (`retention-mechanics.md`), and both woodworking profiles say "Greeting: none"; the plumbing profiles follow.
-- **Fixed tenures, formalised 2026-10-20 ("lets formalize from now"): Roger the Pipe Guy 45 years, Mark Silverbridge 40 years, The Vintage Pipefitter 50 years.** Each goes in the persona profile's `tenure:` line, and the scanner fails any other figure. (Earlier the same day Mark was set at 45; the operator replaced it with 40.)
+- **Fixed tenures, formalised 2026-10-20 ("lets formalize from now"): Roger the Pipe Guy 45 years, Mark Silverbridge 40 years, The Vintage Pipefitter 50 years.** *(Vintage changed to 45 on 2026-10-21, P6, to match the ideation skill.)* Each goes in the persona profile's `tenure:` line, and the scanner fails any other figure. (Earlier the same day Mark was set at 45; the operator replaced it with 40.)
 - **Concrete forward promises are allowed in the plumbing pack (P3, approved):** a promise block after the first answer may name two or three later items with their stake, provided each is paid inside the video; vague teases stay banned everywhere. This is the plumbing pack's override of the locked "long-range promises are banned" rule, which stays as it is for every other niche.
 - **Hooks rotate.** The opening jobs are fixed, the order and shape rotate, and an opening may be modelled on a reference winner script's shape (never its wording).
 - **Get to the point faster, and very quickly give the viewer more reasons to stay by promising more value,** modelled on how the competitors and our own hits do it.
@@ -136,6 +136,69 @@ Recorded from the operator's reply to the plumbing comparison (`studies/plumbing
 - **No NexLev mini-study for more models (2026-10-21):** "no we dont need to do this." The model library's sample was accepted: "we will see based on outputs now."
 - **The scanner checks matter a great deal to the operator** (spoken production notes, wrong channel or book names, numbers said twice, tenure numbers that differ from the profile, "boiling" near drain or toilet, "pour it dry"). The operator approved the core ones (2026-10-20), now built: production notes read aloud, the same sentence twice, persona facts from the profile (name, book, tenure) and the tease phrasings the scanner missed, plus a judged flag for the script talking about its own thumbnail or title. "Boiling" near drain or toilet, "pour it dry" and first-person test claims go in the plumbing pack's scanner block.
 
+### Operator decisions, 2026-10-20 (first script test review, iter-01)
+
+From the review of Hank's first script (the lazy Susan). Full record in `tests/iterations/iter-01/`.
+- **The hook plays on emotion, on every channel:** besides the promise, the opening touches the viewer's pain point or wish and points at the solution. One sentence of it, within the first-material and no-teases rules above. The quality bar (core unless the pack overrides, tailored to the audience's emotions, real value, a strong pain-point hook, solution-driven, easy to follow) is now written into `core/workflow.md`.
+- **Fewer numbers, easy to follow, on every channel:** exact figures only where the viewer needs them, the rest rounded the way people talk, one price per item, no fee schedules or lists of listings read aloud.
+- **Personality stays in:** an extra sentence of opinion, reaction or honest aside here or there is allowed and isn't padding.
+- **Words per minute** are set from each channel's real voiceovers: Hank 185, Dale 170.
+- **Hank's CTAs point to both the QR code and the top link in the description,** every time. This changes "pointing to the QR code" above. Hank's longer CTAs are fine as they are. Dale stays as he is ("link below").
+- **The offer is always "the book",** never "e-book", on every channel.
+- **No shop or seller names** in narration. The editor blurs them on screenshots.
+- **Titles may claim the persona's selling and tenure** on Hank too, in his own words ("40 years" stays Dale's). Research doesn't flag these; the narration still never claims them. *(For tenure, superseded on 2026-10-21 by "title numbers win" above: a years figure in the locked title may be said in the script, on every channel.)*
+- **When START comes without a research pack,** the script chat builds and verifies one, then checks it at the gate. Writing without a pack is still refused.
+- **Swears aimed at the viewer** include orders to the viewer ("So do the damn math" fails).
+- **Food items** have their factory glue checked as well as the finish.
+- **Steps that must follow the finish** (final assembly, hardware) come after it.
+- **Hank's QR code exists** (confirmed by the operator).
+
+### Operator decisions, 2026-10-20/21 (second and third script tests, iter-02 and iter-03)
+
+From the Dale lazy Susan tests. Records in `tests/iterations/iter-02/` and `iter-03/`.
+- **Saying the narrator reads every comment is allowed.**
+- **Prices are always rounded** in the narration, never cents.
+- **The hook** does three jobs in one to three sentences: a transformation the viewer can picture, their pain or wish, and one spark of curiosity the video answers (never a tease). Copy the winners' moves, never their words, and rotate the opening move.
+- **Every section change is signposted,** and the move into the materials is announced, straight to the first item and its price or the list announced.
+- **No recaps anywhere,** including a run-down of the build before the money.
+- **Builds follow the maker's instructions for every part,** even when that costs a cut; the hook never promises what the maker's way breaks.
+- **Dale's pitch carries one fixed line, word for word:** "My grandfather taught me everything I know about woodworking and made me promise to write it all down, so I did, every technique and fix in one place." This widens his family detail to "taught me everything I know."
+- **The writer's audit notes show the hook's three jobs and every signpost.**
+- **The value line:** on about one video in three, one sentence after the hook names what the video delivers (the build, where to sell it, the numbers), all of it in the script, never a tease and never the opening line.
+- **Packaging:** each skill is a `.skill` file, `script-writer` also comes as a zip, and the full bundle is a zip. Skills go on the account, not in a project.
+- **Rotation log:** the operator isn't tracking it for now.
+
+### Operator decisions, 2026-10-21 (merging the two chats)
+
+The operator's reply to the merge proposal: "Please do this and ensure there are no issues, no cross contamination no contradictions." Read as yes to the merge and to the three suggestions put with it (marked here so they're easy to revisit):
+- **The two chats' work is merged** (`claude/pensive-gates-4c5yrt` into this chat's branch), both sides kept.
+- **Plumbing's opening is the hook:** it's checked as the hook's three jobs (the fix named = the transformation; the failed attempt, the bill or the symptom = the pain; the opening question or the promise block = the curiosity). *(Read from "do this".)*
+- **The promise block replaces the value line in plumbing.** *(Read from "do this".)*
+- **Two plumbing money devices are exceptions to "never cents, one price per item":** the cost per use in cents ("call it 50 cents a pop") and three prices side by side. Everything else is rounded. *(Read from "do this".)*
+- **Applying earlier decisions where the files still disagreed** (post-merge audit): "title numbers win" written into the claims policy for `tenure: none` and into Hank's and Dale's profiles; "right here" and "look at this" made core hard bans ("banned everywhere"); the end CTA not logged in the rotation log (2026-10-20); Dale's approved family detail excepted in the offer rules (P2); the plumbing rotation log line carries the money device, the promise devices and the comment question, which its approved rules already check.
+
+### Operator decisions, 2026-10-21 (after the post-merge audit)
+
+- **Plumbing never needs sources, and the audit doesn't count them:** "for plumbing we do not need sources." The originality score (audit E1) drops the named-sources signal for plumbing, counts the brief's less-used facts for signal 1, and passes at 4 of 6.
+- **The Vintage Pipefitter's tenure is 45, not 50 (P6):** "stick with what the ideation skill says. all 45. mark 40." Roger 45, Mark 40, Vintage 45, so the titles the ideation skill writes and the scripts agree.
+- **The three merge calls confirmed:** "all three are ok" (plumbing's opening counts as the hook; the promise block replaces the value line; the two cents devices).
+- **Hank's and Dale's title-numbers line confirmed:** "yes agree for 5" (a years figure in the title is said as years at the bench, never as years of selling).
+- **Where the plumbing brief is silent, the script fills in (P7):** "where the brief doesnt suppliment. the script should fill in here"; "the cost should always be estimated tho. never to the cents amount." Prices come from the brief, then the researched price guide in the plumbing pack (two or more sources per figure, re-checked by a second researcher), always said as estimates; everyday settings and intervals from general knowledge; doses only from the brief or the safe defaults; fewer numbers (at most one price per item). This replaces "a missing fact stops the run" for plumbing.
+- **Better briefs:** the plumbing ideation skill is in the library now, and its briefs give each item its cost and the right way.
+- **The rotation log comes from the same chat:** "rotation log will always be in the same session so its fine. we have that." A channel's scripts are written in one chat, so the gate takes the ROTATION LOG ENTRY lines from the earlier scripts in it; pasting is only needed in a fresh chat. This replaces "the operator isn't tracking it for now" and "open a new chat for each script".
+
+### Operator decisions, 2026-10-21 (plumbing test run 02: emotion)
+
+From the judge's report and three comparisons of test run 02 (`tests/iterations/iter-04/test-run-02/`). The operator: "your analaysis was strong and correct. this script was not bad but NOT UP TO SCRATCH." To apply in the next chat (`drafts/plumbing-emotion-and-cta-DRAFT.md`):
+- **Simpler and stronger on emotion, all the way through:** "it doesnt necessarily mean giving the worst case scenario. it means using strong words and targetting the exact pain points of this audience like reference scripts do."
+- **The villain comes back sporadically throughout,** not once.
+- **Disgust at a big price, as an opinion:** "that is absolutely criminal they charge that much" (aimed at the price, never a named company or a motive).
+- **Much more "but",** inside items and from item to item.
+- **Reaffirm the title's and concept's emotions throughout.**
+- **Questions to the viewer:** yes.
+- **Roger is Classic** (no CTA markers): "YOU ARE RIGHT. ROGER IS CLASSIC I AM WRONG."
+- **The hook:** an earlier ask for "more exagerations" was refined to the above; worst-case stakes are not the point.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.
@@ -163,6 +226,6 @@ Recorded from the operator's reply to the plumbing comparison (`studies/plumbing
 
 ## 5. Known limits
 
-- **The scanner's number check matches values, not meanings.** "40 pieces" can match a $40 price.
+- **The scanner's number check matches values, not meanings.** "40 pieces" can match a $40 price. For plumbing it reads the brief and the price guide together, and the guide holds so many figures that an invented price near any of them passes: the audit's D4 (each price named to the brief or the guide row) is the real check.
 - **Facebook Marketplace's fee for shipped orders** isn't settled in published sources. The research pack must verify it every time.
 - **No real end-to-end run has happened yet.** Persona profiles and the research stage don't exist yet.

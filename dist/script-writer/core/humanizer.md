@@ -231,6 +231,13 @@ Numbers fired off like a spreadsheet.
 
 **Fix:** say numbers the way a person would. "Each one costs about three bucks to make, and they list around $40."
 
+**Too many numbers is the same tell.** A script that throws a dollar figure into every sentence is hard to follow on one listen, and real narrators don't do it. (Operator, 2026-10-20.)
+- **Always round** (operator, 2026-10-20). Every price, cost, listing and total is said the way people talk: "about four bucks for the board," "listed around $40," "about two bucks of screws." Never cents in the narration; the fact source keeps them.
+- **One price per item.** No pack math read aloud ("$91.79 for five, so $18.36 a board, so $1.53 a base").
+- **Collapse the small costs:** "the glue, the screws and the finish add about three bucks."
+- **Never read out a fee schedule or every listing:** give the total fee, and the listing range plus one example.
+- Every number, rounded or not, still traces to the fact source (the research pack, or the brief where the niche pack doesn't use one).
+
 ### H23. Stock filler phrases (use sparingly)
 
 Phrases that aren't wrong, but that a model leans on until they become a pattern:
@@ -289,6 +296,10 @@ stay right here with me
 don't skip out on me
 bonus tip at the end
 by the end, you'll
+
+Pointing at the screen (banned everywhere, operator 2026-10-20):
+right here
+look at this
 ```
 
 **Lifting a ban.** A niche pack or persona profile can lift one specific ban, but only by naming it explicitly ("this channel may use 'let's get into it' once per script"). Nothing is lifted by implication, by "it's the persona's voice," or by a review pass that thinks it fits. Lifted bans are listed in that file and passed to the scanner.

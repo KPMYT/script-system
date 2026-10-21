@@ -7,7 +7,7 @@ Approved by the operator on 2026-10-21. Source: the channel's page in Notion (Ch
 ```
 PERSONA PROFILE
 Channel: Mark Silverbridge
-Status: pending (approved 2026-10-21; becomes ready in step 4, when the plumbing pack enters the library and the channel is added to core/channels.md)
+Status: ready
 Niche pack: plumbing-scripts
 
 THE BASICS
@@ -35,7 +35,7 @@ End CTA: yes (a one-line reminder)
 Offer:
   Printed title (exact, used in the markers): 50 Easy Plumbing Fixes That Will Save You $10,000
   Spoken as: Fifty Easy Plumbing Fixes That Will Save You Ten Thousand Dollars
-  Type: e-book (digital download), by Mark Silverbridge
+  Type: book (digital download), by Mark Silverbridge; always "the book" or "my book" in narration, never "e-book"
   Book text: personas/books/mark-silverbridge-book.md (122 pages; printed page numbers match the PDF)
   True facts (the only facts a CTA may use): 50 numbered fixes, five per chapter, in ten chapters (the golden rules of DIY plumbing; faucets and fixtures; toilets; clearing blockages; the S-trap danger zone; stopping leaks; SharkBites and connections; water heater maintenance; water heater troubleshooting; old-school hacks); Pro Tip, Call a Pro and What You'll Save boxes; five appendices: a "never do this" checklist, a quick-reference troubleshooting guide, a glossary, a recommended tools list and a seasonal maintenance calendar; a final tally of the savings. Never cite the book's own years figure (it says 35; the channel's fixed figure is 40)
   The added-value promise: fifty fixes with the steps laid out, and the cost math to know what a job should cost before anyone quotes it
@@ -67,9 +67,12 @@ Audience: cost-conscious U.S. homeowners, handy or willing to be, who hate getti
 ### SCANNER
 
 ```scanner
+allow: the link in the description and the QR code
 allow: Fifty Easy Plumbing Fixes That Will Save You Ten Thousand Dollars
 name: Mark Silverbridge
 book: Fifty Easy Plumbing Fixes That Will Save You Ten Thousand Dollars
 tenure: 40
-ban-regex: \b\w+(?:n't|'re|'ve|'ll|'d|'m)\b|\b(?:it|that|there|here|what|he|she|who)'s\b | contraction (Mark's voice mishandles them)
+ban: e-book | say "book", never "e-book"
+ban: ebook | say "book", never "e-book"
+ban-regex: \b\w+(?:n't|'re|'ve|'ll|'d|'m)\b|\b(?:it|that|there|here|what|he|she|who|let|where|how|why|when|nothing|something)'s\b | contraction (Mark's voice mishandles them)
 ```

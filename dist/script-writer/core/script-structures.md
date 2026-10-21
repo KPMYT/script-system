@@ -14,7 +14,7 @@ description: Fallback script structures for any channel whose niche pack doesn't
 - **No intro, no teases, no recap.** No persona or channel intro, no long-range promises (`humanizer.md` hard bans), and no summary at the end.
 - **The first payoff comes fast.** The line after the hook delivers or escalates (`retention-mechanics.md`).
 - **Context is only what's necessary.** Give only the context needed to understand what comes next, in a sentence or two at most, and only when it's actually needed. Never a context block.
-- **Length comes from the content,** above the 8-minute minimum (`workflow.md`, section 3). List the content units first (each item, step, layer or option), give each one what it needs, and the length is the total. No word counts for parts, no timestamps, no fixed section lengths.
+- **Length comes from the content,** above the 8-minute minimum, or the niche pack's higher one (`workflow.md`, section 3). List the content units first (each item, step, layer or option), give each one what it needs, and the length is the total. No word counts for parts, no timestamps, no fixed section lengths.
 - **Anything shown is named.** The video is built from the script, so every visual must be named in the narration.
 - **CTAs and the ending** follow `cta-and-endings.md`.
 
@@ -22,7 +22,7 @@ description: Fallback script structures for any channel whose niche pack doesn't
 
 ## Hook options
 
-Every hook delivers the title's promise. On top of that, any of these can be used where they fit. None is required, and different ones should rotate (`variety-rotation.md`).
+Every hook delivers the title's promise and does the hook's three jobs: a transformation, the viewer's pain or wish, and one spark of curiosity (`retention-mechanics.md`, section 2). On top of that, any of these can be used where they fit. None is required, and different ones should rotate (`variety-rotation.md`).
 
 - **A stakes sentence:** why this matters to the viewer ("Get one of these wrong and the whole board's firewood").
 - **Paying off the title straight away:** deliver a first piece of the promise in the hook itself.
