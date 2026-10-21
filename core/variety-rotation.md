@@ -41,7 +41,7 @@ The shape of the hook.
 - **The result as a life reward:** "Build six, and if they sell, that's the plane ticket."
 - **The surprise:** "The part people pay for here costs about a dollar."
 - **The unnamed object:** "There's a board in every garage that people will pay $40 for, once it's cut right." (Named within the next sentence or two.)
-- **The pain, then the good news:** "Folks pick it up at the fair and set it back down. That's fixable, and it's cheap."
+- **The pain, then the good news:** "The faucet's dripping again and the plumber can't come till Tuesday. You won't need him for this one."
 
 Every opening move still carries the hook's three parts (`retention-mechanics.md`, section 2): the transformation, the viewer's pain or wish, and one spark of curiosity. The move is how they're delivered.
 
@@ -60,7 +60,7 @@ How the setup flips into tension.
 
 Short-range only, as set out in `retention-mechanics.md`, section 6. Every change of section is signposted (same section); these moves are how, and the wording rotates.
 
-- **Done, now the next job:** "Once the last coat's dry, it's time to mount the bearing."
+- **Done, now the next job:** "Once the hem's pressed, it's time to sew on the binding."
 - **The next section named outright:** "Now, the money." "As for where to sell it…"
 
 - **The stakes of the next item:** "That one saves a service call. The next one saves a water heater."

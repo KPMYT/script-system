@@ -115,6 +115,20 @@ From the review of Hank's first script (the lazy Susan). Full record in `tests/i
 - **Steps that must follow the finish** (final assembly, hardware) come after it.
 - **Hank's QR code exists** (confirmed by the operator).
 
+### Operator decisions, 2026-10-20/21 (second and third script tests, iter-02 and iter-03)
+
+From the Dale lazy Susan tests. Records in `tests/iterations/iter-02/` and `iter-03/`.
+- **Saying the narrator reads every comment is allowed.**
+- **Prices are always rounded** in the narration, never cents.
+- **The hook** does three jobs in one to three sentences: a transformation the viewer can picture, their pain or wish, and one spark of curiosity the video answers (never a tease). Copy the winners' moves, never their words, and rotate the opening move.
+- **Every section change is signposted,** and the move into the materials is announced, straight to the first item and its price or the list announced.
+- **No recaps anywhere,** including a run-down of the build before the money.
+- **Builds follow the maker's instructions for every part,** even when that costs a cut; the hook never promises what the maker's way breaks.
+- **Dale's pitch carries one fixed line, word for word:** "My grandfather taught me everything I know about woodworking and made me promise to write it all down, so I did, every technique and fix in one place." This widens his family detail to "taught me everything I know."
+- **The writer's audit notes show the hook's three jobs and every signpost.**
+- **Packaging:** each skill is a `.skill` file, `script-writer` also comes as a zip, and the full bundle is a zip. Skills go on the account, not in a project.
+- **Rotation log:** the operator isn't tracking it for now.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

@@ -38,7 +38,7 @@ description: The final quality gate every script passes before it ships. Six gro
 - **B6. "But" and "therefore"** connect the narrative and reasoning parts. Steps and list items may be sequential.
 - **B7. Uneven rhythm.** No runs of same-length sentences, other than real lists and short instructions.
 - **B8. List order.** The order follows the default, the niche pack's rule, or the hook's escalation promise, whichever applies.
-- **B9. No retention killers:** repeated emphasis, piled-up qualifiers, announcing the obvious, throat-clearing.
+- **B9. No retention killers:** repeated emphasis, piled-up qualifiers, announcing the obvious, throat-clearing, and recaps anywhere in the script (a run-down of what was just built counts).
 
 ## Group C: clarity
 
@@ -129,6 +129,8 @@ Every audited script carries this short block after the rotation log. It's never
 AUDIT EVIDENCE
 Verdict: PASS (round [n] of 3)
 Promise map: [what the hook promises] -> [where each is delivered]
+Hook: transformation = "[line]" | pain or wish = "[line]" | curiosity = "[line]" (answered at [where]) | modelled on [excerpt] | move: [opening move]
+Signposts: [each section change -> "its first line"]
 Numbers: [each number = its research pack line, or the math from pack numbers]
 Scanner: hard bans 0 | mechanical 0 | niche bans 0 | "Most..." [n] | reframes [n] | filler over limit [n] | numbers not in pack [n, each explained]
 Voice: samples used = [which]; matched line = "[a script line]"

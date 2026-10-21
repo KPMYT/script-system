@@ -70,7 +70,7 @@ For more depth, see `woodworking-ideation/references/audience.md` (§1 and §9 f
    - **This viewer's pains:** having to buy tools first, wasting wood on something nobody buys, work that looks homemade, being out-priced by the big stores. **The wish underneath:** side money from something they made.
    - **Results they can picture:** the holiday's spending money, a plane ticket, every tool paid for, a table full of stock before the fair.
    - **Curiosity that fits the lane:** the cheap part that makes it sell, the thing everyone throws away, the build that out-earns a pricier one.
-   - **Into the materials, always announced** (operator, 2026-10-20), one of two ways, rotated: **straight to the first item and its price** ("First, one pine round from Home Depot, about fifteen bucks"), or **the list announced** ("Here's what you'll need."). Shapes in `references/excerpts.md` group 12. Never "let's get into it" (a hard ban), and never a competitor's signature launch such as "Let's go."
+   - **Into the materials, always announced** (operator, 2026-10-20), one of two ways, rotated: **straight to the first item and its price** ("First, one 2x4 from the big box store, about four bucks"), or **the list announced** ("Here's what you'll need."). Shapes in `references/excerpts.md` group 12. Never "let's get into it" (a hard ban), and never a competitor's signature launch such as "Let's go."
    - No persona intro, no channel name, no "today we're going to," no tease. Name the first material within about 15 seconds.
 2. **Materials and where to buy.** Store and price for each priced item, then "prices subject to change" once, straight after the prices. One price per item, always rounded the way people talk ("about fifteen bucks"), never cents; small items can be grouped. Specs only as far as the viewer needs them to grab the right thing off the shelf ("a 12-pack of five-eighths inch wood screws," not the whole label).
 3. **Cut list.** The exact measurements from the pack.
@@ -79,7 +79,7 @@ For more depth, see `woodworking-ideation/references/audience.md` (§1 and §9 f
 6. **Money block.**
 7. **End CTA and closing line,** per the core rules and the persona profile.
 
-**Signpost every section change** (core `retention-mechanics.md`, section 6). The first sentence of each new section names it, so the viewer knows where the video has moved: into the materials (announced as above), the tools, the cut list, the build ("Now the build. Start with…"), the finish, assembly ("Once the last coat's cured, it's time to mount the bearing"), the money ("Now, does anybody pay for this?"), the price and cost, and where to sell. Inside a section, steps follow one another without one. Rotate the wording.
+**Signpost every section change** (core `retention-mechanics.md`, section 6). The first sentence of each new section names it, so the viewer knows where the video has moved: into the materials (announced as above), the tools, the cut list, the build, the finish, assembly, the money (often the question the viewer is already asking, worded fresh), the price and cost, and where to sell. Inside a section, steps follow one another without one. Rotate the wording.
 
 When the build has to be finished before it's assembled (oil the top before the hardware goes on, finish the parts before the glue-up), the steps that must come after the finish (final assembly, hardware, felt pads, the quick check) follow it. Order follows the real build.
 
@@ -101,6 +101,7 @@ When the build has to be finished before it's assembled (oil the top before the 
 - **A step earns extra words for:** a common mistake, a safety risk, a tool alternative, a quality tip, or a line of the persona's opinion, reaction or honest aside (an extra sentence here or there; personality is never stripped out to save words).
 - **Repeats collapse into one line:** "Do the same on the other seven."
 - **Safety is one practical line inside the step where the risk is,** with the reason. Never a separate section.
+- **Follow the maker's instructions for every part** (operator, 2026-10-21). When hardware or a product says how it must be installed or used (a bearing mounted on a base, a screw size, a cure time), the build does it that way. Never present the maker's way as an optional upgrade, and never let the hook promise something the maker's way breaks: if it needs one cut, the hook doesn't say "no cuts."
 
 ## Length comes from the content
 
@@ -133,7 +134,7 @@ Titles may exaggerate in degree ("EVERY tool," "stupid money"). The script deliv
 - **What's left** is price minus cost minus fees, per piece. Any batch total is conditional: "if all 20 sell."
 - **Time** is per piece or per batch, labelled as an estimate. No hourly-wage framing; the operator dropped it.
 - **Never guarantee income.**
-- **Keep it easy to follow** (core `humanizer.md`, H22). The money block answers "is it worth it?" with the few numbers that prove it: the parts cost, the price, what's left, and one batch line. Everything else is rounded and collapsed ("the pads, oil and sandpaper add about six bucks"). Fees are given as one total ("Etsy takes about $9 of that"), never as the fee schedule. The research pack keeps every cent; the script says only what the viewer needs.
+- **Keep it easy to follow** (core `humanizer.md`, H22). The money block answers "is it worth it?" with the few numbers that prove it: the parts cost, the price, what's left, and one batch line. Everything else is rounded and collapsed ("the glue, screws and finish add about three bucks"). Fees are given as one total ("Etsy keeps about a tenth of that"), never as the fee schedule. The research pack keeps every cent; the script says only what the viewer needs.
 
 ## Proof
 
@@ -202,14 +203,16 @@ Two scripts on the same channel should never feel like the same script with new 
 - **Vary the order inside the money block.**
 - **Let step lengths fall unevenly.**
 
-Record these choices in the unit plan's variation check. The rotation log in the core rules tracks them across videos. The excerpts show the range available, so pick a different shape each time and never write the same shape twice in a row on one channel.
+Record these choices in the unit plan's variation check.
+
+**Examples are shapes.** Every quoted example in this pack and in the core is a shape, often from another build or niche. Never reuse an example's wording or its image in a script; write the move fresh for this build. The rotation log in the core rules tracks them across videos. The excerpts show the range available, so pick a different shape each time and never write the same shape twice in a row on one channel.
 
 ## Banned in these scripts
 
 - Persona or channel intros in the opening.
 - Retention teases ("stick around," "bonus at the end," "by the end of this video").
 - Problem essays, and more than one sentence of context.
-- Recaps.
+- Recaps anywhere, including a run-down of the build before the money ("That's the whole build: sand, stain, three coats and four screws").
 - First-person build narration ("I'm cutting," "watch me").
 - Invented sales, customers, family or history.
 - Income guarantees and hourly-wage framing.
@@ -239,7 +242,7 @@ Check that:
 - the first material comes within about 15 seconds, and the hook does its three jobs (transformation, pain or wish, curiosity) on a different move from the channel's last scripts
 - the numbers are easy to follow: no runs of figures (any sentence with three or more dollar figures gets a second look), and no shop is named
 - there's no intro and no tease
-- every step is an instruction with a visible object and action
+- every step is an instruction with a visible object and action, and every part is installed the way its maker says
 - every number, measurement and listing traces to the pack
 - the mid-CTA sits after the first payoff
 - every section change is signposted, and the move into the materials is announced one of the two ways
