@@ -3,7 +3,7 @@
 # between humanizer.md and script-scanner.py, scanner behavior on clean and broken scripts,
 # ban lifting, the numbers check, the woodworking inputs block, shared labels across files, the
 # copy guard (--refs) against the niche pack's reference files, production notes read aloud,
-# repeated sentences, persona facts (tenure, near-miss names) and the tease phrasings.
+# repeated sentences, persona facts (tenure, near-miss names, title numbers win), the tease phrasings and once-per-script phrases.
 import re, os, glob, subprocess, sys, tempfile, textwrap
 sys.dont_write_bytecode = True
 ROOT=os.environ.get("LIB_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -71,9 +71,9 @@ h23=re.search(r"### H23.*?```\n(.*?)```",hum,re.S).group(1)
 h23_list=[p.strip() for p in h23.replace("\n"," ").split(",") if p.strip()]
 check("5. H23 phrases match the scanner's list", sorted(h23_list)==sorted(sc.SPARING), f"humanizer={sorted(h23_list)} scanner={sorted(sc.SPARING)}")
 
-def run_scan(text, rules=(), pack=None, refs=()):
+def run_scan(text, rules=(), pack=None, refs=(), title=None):
     with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write(text); p=t.name
-    cmd=["python3",SCAN,p]+(["--rules",*rules] if rules else [])+(["--pack",pack] if pack else [])+(["--refs",*refs] if refs else [])
+    cmd=["python3",SCAN,p]+(["--rules",*rules] if rules else [])+(["--pack",pack] if pack else [])+(["--refs",*refs] if refs else [])+(["--title",title] if title else [])
     r=subprocess.run(cmd,capture_output=True,text=True); return r.returncode, r.stdout
 
 WWR=f"{WW}/SKILL.md"
@@ -212,6 +212,22 @@ check("17. tease phrasings from the plumbing study are hard bans", not missed, "
 fx=[l.strip() for f in ("hank-hardwood","dale-oakfield") for l in re.findall(r"```scanner\n(.*?)```",open(f"{ROOT}/personas/{f}.md").read(),re.S)[0].splitlines()]
 check("18. Hank's and Dale's profiles give their name, book and tenure to the scanner",
       fx.count("tenure: none")==2 and "name: Hank Hardwood" in fx and "name: Dale Oakfield" in fx and sum(l.startswith("book:") for l in fx)==2, str(fx))
+
+# 19. title numbers win: a years figure in the locked title is allowed; any third figure still fails
+code,out=run_scan("I have been a plumber for 30 years, and this one matters.\n",[facts],title="Borax vs Washing Soda: A 30-Year Plumber's Verdict")
+code2,out2=run_scan("I have been a plumber for 35 years, and this one matters.\n",[facts],title="Borax vs Washing Soda: A 30-Year Plumber's Verdict")
+code3,out3=run_scan("After 40 years at the bench I know this.\n",[f"{ROOT}/personas/hank-hardwood.md"],title="What 40 Years of Woodworking Taught Me")
+code4,out4=run_scan("I've been on the tools for 45 years.\n",[facts],title="Pour This Down Your Drain Tonight")
+check("19. title numbers win: the title's years figure passes (also with tenure none); a third figure fails; no title figure leaves the profile's",
+      code==0 and "PERSONA FACT" not in out and code2==1 and "title says 30" in out2 and code3==0 and code4==0, out+out2+out3+out4)
+
+# 20. a niche pack's once-per-script phrases: the first use passes, the second is fix-on-sight
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t:
+    t.write("```scanner\nonce-regex: \\bnine (?:times )?out of (?:10|ten)\\b | nine times out of 10\nonce: between you and me\n```\n"); oncef=t.name
+code,out=run_scan("Nine times out of 10 it is the flapper. Between you and me, it is a cheap part.\n",[oncef])
+code2,out2=run_scan("Nine times out of 10 it is the flapper.\n\nAnd nine out of ten times the chain is fine too.\n",[oncef])
+check("20. once-per-script phrases from a niche pack: one use passes, a second use anywhere in the script is fix-on-sight",
+      code==0 and "NICHE/PERSONA LIMIT" not in out and code2==1 and "NICHE/PERSONA LIMIT: nine times out of 10] used 2 times" in out2, out+out2)
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

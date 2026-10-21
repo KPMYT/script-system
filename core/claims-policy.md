@@ -5,7 +5,7 @@ description: What a persona may and may not claim, on every channel: opinions ve
 
 # Claims policy
 
-**Where this file sits.** Above everything else. Niche packs and persona profiles can tighten these rules but never loosen them, apart from the one approved family detail below. Claims about offers are covered in `offer-rules.md`. The limits on exaggeration and framing are in `research-and-sourcing.md`, section 2.
+**Where this file sits.** Above everything else. Niche packs and persona profiles can tighten these rules but never loosen them, apart from the one approved family detail and the fixed years in the trade below. Claims about offers are covered in `offer-rules.md`. The limits on exaggeration and framing are in `research-and-sourcing.md`, section 2.
 
 ---
 
@@ -20,7 +20,7 @@ description: What a persona may and may not claim, on every channel: opinions ve
 
 **Never allowed** (checkable life facts the persona doesn't have):
 - ages, named relatives, heritage or identity membership
-- years of experience or credentials
+- years of experience (except the profile's fixed figure, below) or credentials
 - places worked or lived, employers, towns
 - having personally made, sold, tested, built, lived or collected something
 - customers, orders, sales, income or results
@@ -41,6 +41,10 @@ description: What a persona may and may not claim, on every channel: opinions ve
 ## One approved family detail
 
 A persona profile may name one fixed, soft family detail that the operator has approved (for example, "learned at his grandfather's bench"), used only as the profile words it and as often as it allows. This is the only exception to "no invented family or history", and nothing beyond it is ever invented.
+
+## Fixed years in the trade
+
+A persona profile may set one fixed years-in-the-trade figure on its `tenure:` line, approved by the operator. The script may say it, the same way every time. When the locked title states a different years figure, the script may use the title's figure instead (title numbers win). It never comes with dates, employers, towns, licences or other credentials, and it is never proof that the persona personally made or tested anything. The scanner fails any figure that is neither the profile's nor the title's.
 
 ## Named companies and people
 

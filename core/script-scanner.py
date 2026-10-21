@@ -14,6 +14,8 @@ Usage:
                is read for extra bans and lifted bans:
                    ban: phrase | label
                    ban-regex: pattern | label
+                   once: phrase | label        (fix on sight from the second use in a script)
+                   once-regex: pattern | label
                    lift: phrase or label of a hard ban
                    allow: a line the channel says the same way every time (exempt from the copy guard)
                  and, in a persona profile, the persona's fixed facts:
@@ -21,6 +23,8 @@ Usage:
                    book: the book's spoken title (near-misses are flagged)
                    tenure: years in the trade as a number, or "none" (any other tenure figure is flagged)
   --pack       the research pack. Every number in the script is checked against it.
+  --title      the locked title. A years-in-the-trade figure in it ("A 30-Year Plumber's Verdict")
+               is allowed in the script alongside the profile's tenure: title numbers win.
   --refs       optional reference files (the niche pack's excerpts.md and reference-scripts.md).
                Any run of 8 or more consecutive words in the spoken script that also appears
                in a reference file is fix-on-sight "copied from reference". Case, punctuation
@@ -173,7 +177,7 @@ def sentences(para):
 def read_rules(paths):
     """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
-    facts = {"name": [], "book": [], "tenure": None}
+    facts = {"name": [], "book": [], "tenure": None, "once": []}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         for block in re.findall(r"```scanner\s*\n(.*?)```", txt, re.S):
@@ -192,6 +196,10 @@ def read_rules(paths):
                     bans.append((re.compile(r"\b" + re.escape(pat) + r"\b", re.I), label))
                 elif key.strip() == "ban-regex":
                     bans.append((re.compile(pat, re.I), label))
+                elif key.strip() == "once":
+                    facts["once"].append((re.compile(r"\b" + re.escape(pat) + r"\b", re.I), label))
+                elif key.strip() == "once-regex":
+                    facts["once"].append((re.compile(pat, re.I), label))
                 elif key.strip() == "lift":
                     lifts.append(pat.lower())
                 elif key.strip() == "allow":
@@ -339,11 +347,21 @@ def _num(tok):
     parts = tok.split()
     return sum(TENS.get(w, WORD_NUM.get(w, 0)) for w in parts)
 
-def tenure_check(para, tenure):
-    """Any years-in-the-trade figure that differs from the profile's tenure (or any at all, for "none")."""
+def title_tenure(title):
+    """The years-in-the-trade figure a locked title states ("A 45-Year Plumber's Verdict"), or None. Title numbers win."""
+    for rx in TENURE_RX:
+        m = rx.search(title or "")
+        if m:
+            return _num(m.group(1))
+    return None
+
+def tenure_check(para, tenure, title_n=None):
+    """Any years-in-the-trade figure that differs from the profile's tenure (or any at all, for "none").
+    A figure the locked title states is allowed instead (title numbers win)."""
     out, seen = [], set()
-    if not tenure:
+    if not tenure and title_n is None:
         return out
+    tenure = tenure or "none"
     for rx in TENURE_RX:
         for m in rx.finditer(para):
             if m.start(1) in seen:
@@ -353,8 +371,12 @@ def tenure_check(para, tenure):
                 continue
             seen.add(m.start(1))
             n = _num(m.group(1))
+            if title_n is not None and n == title_n:
+                continue
             if tenure == "none" or (tenure.isdigit() and n != int(tenure)):
                 want = "no tenure figure (the profile keeps experience numberless)" if tenure == "none" else f"{tenure} years"
+                if title_n is not None:
+                    want += f", and the title says {title_n} years"
                 out.append(f"[PERSONA FACT: tenure] \"{para[max(0, m.start() - 20):m.end() + 15].strip()}\" (the profile says {want})")
     return out
 
@@ -424,9 +446,9 @@ def repeated_sentences(paras):
     return out
 
 # ---------------------------------------------------------------- scan
-def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None):
+def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=None):
     fix, judge = [], []
-    facts = facts or {"name": [], "book": [], "tenure": None}
+    facts = facts or {"name": [], "book": [], "tenure": None, "once": []}
     for src, run in copy_check(text, ref_runs, allows):
         fix.append(f"[COPIED FROM REFERENCE: {src}] \"{run}\" ({len(run.split())} words in a row)")
     paras = spoken_paragraphs(text)
@@ -446,7 +468,7 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None):
         for rx, name in PRODUCTION:
             for m in re.finditer(rx, para, re.I):
                 fix.append(f"[PRODUCTION NOTE: {name}] ...{ctx(m)}...")
-        fix.extend(tenure_check(para, facts["tenure"]))
+        fix.extend(tenure_check(para, facts["tenure"], title_tenure(title)))
         fix.extend(name_check(para, facts["name"] + facts["book"]))
         for m in re.finditer(PACKAGING, para, re.I):
             judge.append(f"[talks about its own packaging] ...{ctx(m)}...")
@@ -463,6 +485,10 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None):
         if len(shorts) >= 2:
             judge.append(f"[staccato x{len(shorts)}] " + " | ".join(f'"{s}"' for s in shorts[:4]))
     fix.extend(repeated_sentences(paras))
+    for rx, name in facts.get("once", []):
+        n = sum(len(rx.findall(para)) for para in paras)
+        if n > 1:
+            fix.append(f"[NICHE/PERSONA LIMIT: {name}] used {n} times (allowed once per script)")
     sparing_counts, sparing_paras = Counter(), []
     for para in paras:
         hits = [p for p, rx in SPARING_RX for _ in rx.finditer(para)]
@@ -504,10 +530,11 @@ def main():
     ap.add_argument("--rules", nargs="*", default=[])
     ap.add_argument("--pack")
     ap.add_argument("--refs", nargs="+", default=[])
+    ap.add_argument("--title", help="the locked title; a years-in-the-trade figure in it is allowed in the script")
     a = ap.parse_args()
     text = open(a.script, encoding="utf8", errors="ignore").read()
     bans, lifts, allows, facts = read_rules(a.rules)
-    fix, judge, most, reframes, echoes, sparing = scan(text, bans, lifts, read_refs(a.refs), allows, facts)
+    fix, judge, most, reframes, echoes, sparing = scan(text, bans, lifts, read_refs(a.refs), allows, facts, a.title)
     print(f"SCAN: {a.script}")
     if a.refs:
         print(f"  copy guard: {COPY_RUN}+ words in a row shared with {', '.join(a.refs)}")
@@ -515,6 +542,8 @@ def main():
         print(f"  lifted bans in effect: {', '.join(lifts)}")
     if facts["name"] or facts["book"] or facts["tenure"]:
         print(f"  persona facts: names {facts['name']}, book {facts['book']}, tenure {facts['tenure']}")
+    if title_tenure(a.title) is not None:
+        print(f"  title tenure: {title_tenure(a.title)} years (title numbers win)")
     words = sum(len(p.split()) for p in spoken_paragraphs(text))
     print(f"  spoken words: {words} (about {words / 150:.1f} minutes at 150 words a minute; minimum 8)")
     print(f"\nFIX ON SIGHT ({len(fix)})")

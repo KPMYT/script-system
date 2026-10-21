@@ -66,4 +66,4 @@ tenure: [years in the trade as a number, or none if experience stays numberless]
 ```
 ````
 
-`name:`, `book:` and `tenure:` are the persona's fixed facts. The scanner fails a script that gives a different years-in-the-trade figure (any figure at all when `tenure: none`), or a capitalised near-miss of a name or the book title ("the Vintage Plumber" for The Vintage Pipefitter). Exact and shortened uses ("the Pipe Guy") pass.
+`name:`, `book:` and `tenure:` are the persona's fixed facts. The scanner fails a script that gives a different years-in-the-trade figure (any figure at all when `tenure: none`), unless the locked title states that figure (title numbers win), or a capitalised near-miss of a name or the book title ("the Vintage Plumber" for The Vintage Pipefitter). Exact and shortened uses ("the Pipe Guy") pass.

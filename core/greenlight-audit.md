@@ -51,8 +51,8 @@ description: The final quality gate every script passes before it ships. Six gro
 
 - **D1. The shape test.** Every sentence is tested against the niche pack's voice samples, or the persona profile's if it overrides them. Quote one matched line.
 - **D2. The humanizer sweep,** H1-H23 (`humanizer.md`), including the counts for H20, H21 and H23.
-- **D3. The scanner.** Run `script-scanner.py` with the niche pack and persona profile as rules files, the research pack as the pack, and the niche pack's `excerpts.md` and `reference-scripts.md` plus the persona profile with `--refs`. Hard bans, mechanical problems, niche bans, production notes read aloud, repeated sentences, persona facts (tenure, near-miss names) and "copied from reference" findings must all be zero. A line the scanner flags as talking about its own thumbnail or title is judged: keep it only if it pays off the title honestly.
-- **D4. Numbers trace to the research pack.** Every number appears in the pack, or is worked out from pack numbers with the math shown in the evidence block. A number the video relies on that traces to nothing is a Hold.
+- **D3. The scanner.** Run `script-scanner.py` with the niche pack and persona profile as rules files, the fact source as the pack (the research pack, or the brief where the niche pack doesn't use one), the locked title with `--title`, and the niche pack's `excerpts.md` and `reference-scripts.md` plus the persona profile with `--refs`. Hard bans, mechanical problems, niche bans, once-per-script limits, production notes read aloud, repeated sentences, persona facts (tenure, near-miss names) and "copied from reference" findings must all be zero. A line the scanner flags as talking about its own thumbnail or title is judged: keep it only if it pays off the title honestly.
+- **D4. Numbers trace to the fact source** (the research pack, or the brief where the niche pack doesn't use one). Every number appears in the pack, or is worked out from pack numbers with the math shown in the evidence block. A number the video relies on that traces to nothing is a Hold.
 - **D5. Contrast and poster-quote lines.** At most one "it's not X, it's Y" reframe, and only one earned poster-quote line, if any.
 
 ## Group E: authenticity
@@ -103,7 +103,7 @@ YouTube judges channels on whether content is mass-produced or reused. This grou
   - a clone of the reference video (E3 fails on angle, voice and sourcing)
   - no single thread through the script (C1 fails everywhere)
   - the same script planned for more than one channel
-  - a missing research pack, or one without a "verified on" date
+  - a missing research pack, or one without a "verified on" date, in a niche that uses one
 
 ---
 
@@ -128,8 +128,8 @@ Every audited script carries this short block after the rotation log. It's never
 AUDIT EVIDENCE
 Verdict: PASS (round [n] of 3)
 Promise map: [what the hook promises] -> [where each is delivered]
-Numbers: [each number = its research pack line, or the math from pack numbers]
-Scanner: hard bans 0 | mechanical 0 | niche bans 0 | production notes 0 | repeats 0 | persona facts 0 | "Most..." [n] | reframes [n] | filler over limit [n] | numbers not in pack [n, each explained]
+Numbers: [each number = its fact-source line (research pack or brief), or the math from its numbers]
+Scanner: hard bans 0 | mechanical 0 | niche bans 0 | limits 0 | production notes 0 | repeats 0 | persona facts 0 | "Most..." [n] | reframes [n] | filler over limit [n] | numbers not in pack [n, each explained]
 Voice: samples used = [which]; matched line = "[a script line]"
 Originality: [n]/7 (missing: [which]) | red flags 0
 Length: [spoken words] words = about [minutes] minutes at [words per minute] (minimum 8)
