@@ -4,7 +4,7 @@ description: Script rules for the operator's plumbing channels (Roger the Pipe G
 ---
 
 <!--
-DRAFT 2, 2026-10-20. NOT IN THE LIBRARY YET. When approved it becomes the skill `plumbing-scripts` (one skill, one SKILL.md,
+DRAFT 2, 2026-10-20; batch 2 in progress from 2026-10-21. NOT IN THE LIBRARY YET. When approved it becomes the skill `plumbing-scripts` (one skill, one SKILL.md,
 like `woodworking-scripts`), built by tools/build_skills.py into dist/plumbing-scripts.skill.
 Status tags: [DECIDED] the operator has ruled; [APPROVED] the operator said yes to this draft wording (2026-10-20);
 [DRAFT: for your yes] written, waiting; [LATER] heading only, written in a later batch.
@@ -34,7 +34,29 @@ Planned: `references/research-pack-template.md`, `references/unit-plan-template.
 
 ## Inputs and freshness [LATER]
 
-## The viewer [LATER]
+## The viewer [DRAFT: for your yes]
+
+The viewer is a 50+ American homeowner, often in an older house and on a careful income, who would rather fix it than pay for a visit. They arrive from the feed, not from a search: they were offered a saving, a fear or a secret. Under the click sits one question: "Can I do this myself without making it worse?"
+
+**What they bring, from the study's comments:**
+- **The bill is the pain, not the plumber.** Comments name prices and labour often and the plumber rarely (8 of 506 on our hits). Many viewers like their own plumber, which is why the villain is aimed at the price.
+- **They've already tried something.** The jug, the plunger, the fizzing volcano: "I tried an extra large size of Drano. That didn't work." A failed attempt is the strongest opening feeling in the data. Say why it failed in one plain sentence, then give the fix.
+- **They have decades of habits.** "Never had a clog in 40 years." Confirm the good habits. When correcting a loved one (baking soda and vinegar), credit their thrift first: about 23 comments defended it against "it's theater."
+- **They protect each other.** Safety corrections are among the most-liked comments (4.3K likes on borax not being boric acid). An unsafe line produces the angriest comments a channel gets.
+- **They're impatient.** It's the commonest negative feeling in the study: "3:15 is where it starts." (2K likes). Get to the answer.
+- **They ask the doing questions.** How much water, is it safe for septic, for plastic pipe, for old cast iron, which pipe do I have. Answer the ones that apply inside the script, at the step where they'd ask.
+- **What they thank:** a fast answer, the reason why, a product they can find, steps clear enough to try, and the pride of doing it themselves ("72 years old and looking forward to seeing what else I can do").
+
+**Skill level:**
+- Write for beginners to handy homeowners, in plain words. A trade term gets a short explanation the first time ("the P-trap, the U-shaped bend under the sink"), then is used plainly.
+- Give the reason behind a step in one sentence; viewers thank the "why" (1.4K likes on Got2Learn). Don't lecture on the cause: "We don't need all that explanation of what causes the clog. Just tell us how to unclog it."
+- Never explain what everyone knows (turning off a tap, fetching a bucket).
+
+**The standard kit:**
+- Assume the viewer owns a plunger, a bucket, old towels, rubber gloves, a flashlight, an adjustable wrench, pliers, a screwdriver, a measuring cup, and the usual kitchen and laundry products (baking soda, white vinegar, dish soap).
+- Anything beyond that (drain snake, closet auger, wet-dry vac, pipe wrench, a specialty product) gets its typical price range and, where one exists, a cheaper alternative or an "optional."
+
+For more depth, see `plumbing-ideation/references/audience.md` (§1 for this viewer, §4 for money language, §7 for safety).
 
 ---
 
@@ -119,7 +141,19 @@ Story or "I tried everything" videos are allowed only when the title or brief ca
 
 The core 8-minute minimum applies. Above it, length comes from the content: words per item depend on the item [DECIDED]. Cut repetition rather than reach a length: the same check said twice five minutes apart, or the promise restated, is padding.
 
-## Voice, proof, money framing, safety, writing for the footage [LATER]
+## Voice [DRAFT: for your yes]
+
+Our hits sounded more like a person than our recent uploads: 1.5-2 times the first person on all three channels, more "you", and plain routine lines where the recent uploads used crafted metaphor. Even the hits used the least first person of any human-voiced channel in the study (5.3-8.8 per 1,000 words against 15.2-25.1).
+
+- **"You" for every instruction; "I" for opinions, preferences and verdicts.** "Pour it in slowly." "I'd leave the jug on the shelf for old cast iron." Write in contractions, the way people talk.
+- **Plain beats clever.** State the fact. At most one picture-phrase per item, and only when it teaches ("a colony of bacteria wearing a glue coat" explains biofilm). Mark's similes rose from 0.3 to 1.7 per 1,000 words in his recent uploads, with nothing to show for it.
+- **Honest candor.** Say the limits plainly: "Peroxide does not dissolve rock." "Nothing in plumbing is permanent." These are the lines viewers call honest. Never an invented mishap.
+- **Warmth comes from reassurance, not humour.** "You're fine." "Nothing's broken." "There's no shame in calling a pro." No jokes (a portfolio-wide decision).
+- **Swearing: none** in plumbing scripts. (The woodworking allowance doesn't carry over; nothing in the plumbing study calls for it.)
+- **A persona device only if the profile has one:** a mentor line or a household routine (Vintage's Uncle Ray, Roger's first-Saturday check). At most twice per video, under about 40 words, to teach or warn, never as proof that something works. Its facts (names, ages, places) come from the profile and never change.
+- **A phrase is voice once; in the same slot every video, it's a tic.** Vintage used "Nine times out of 10" in 9 of 10 videos. Each stock phrase at most once per video, and rotate what opens an item and what closes the video. (The list of limited phrases comes with "Banned in these scripts".)
+
+## Proof, money framing, safety, writing for the footage [LATER]
 
 Already decided, to be written up in the next batch:
 - **Proof:** no first-person claims of tests, demonstrations or on-camera actions unless the title or brief calls for one; every number sourced or given as a typical range; sources and store names not required.
