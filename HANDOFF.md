@@ -198,6 +198,8 @@ From the judge's report and three comparisons of test run 02 (`tests/iterations/
 - **Questions to the viewer:** yes.
 - **Roger is Classic** (no CTA markers): "YOU ARE RIGHT. ROGER IS CLASSIC I AM WRONG."
 - **The hook:** an earlier ask for "more exagerations" was refined to the above; worst-case stakes are not the point.
+- **Parts 3-5 of the draft, yes to each (session 6, 2026-10-21, asked once):** the list item shape (scene, what's happening, cost once, the turn, the fix, the win; about 100-130 words an item in lists of 10 or more; never more than two items without a bridge); Roger's and Mark's mid-video CTA in the shape their hits used (after item 2 or 3, about 60-80 words: aside, tied to the help, the book has the rest with pages, one benefit, link and QR code, return), which implements the locked "structure their hits used" above and replaces the pack's "20-60 words after the first payoff"; and all six of the judge's fixes (the number cap: one figure per item, figures on about half the items, one in the opening; straight quotes and a real scanner line, in the core; the plumbing pack's own SKILL.md under the copy guard; every gas-leak step; the trade-terms list; a myth flag names its belief). All applied to `plumbing-scripts/`, the two profiles and the core the same day.
+- **Reading recorded:** where the item length and the 12-minute minimum collide (a list of 10 or 11 items), the minimum wins: items run a little longer with real value, never padding. The operator's "absolutely criminal" is limited to once per script so the outrage line is reworded each time.
 
 ### Rejected, so they don't come back
 
