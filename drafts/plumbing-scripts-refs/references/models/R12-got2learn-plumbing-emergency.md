@@ -10,7 +10,7 @@
 | Time | Beat | What it does (no quoted wording) | Words |
 |---|---|---|---|
 | 0:00-0:17 | COLD OPEN | news-clip audio (another speaker): a frozen pipe and the fear it bursts | 64 |
-| 0:17-0:30 | INTRO + POINT | greeting, then the subject: preparing the plumbing for a power outage | 44 |
+| 0:17-0:30 | INTRO (banned) + POINT | greeting, then the subject: preparing the plumbing for a power outage | 44 |
 | 0:30-1:04 | CRISIS + SELF-PROMOTION | a past regional outage as the stakes, then the channel's earlier video and being first | 105 |
 | 1:04-2:09 | PROMISE: roadmap | three parts (prevention, energy options, burst pipes), with the cost of a burst in thousands | 170 |
 | 2:09-3:35 | ITEMS 1-3: prevention | insulate, back up the sump or well pump (with a dig at installers), know the shut-off and low points; then general stocking up | 259 |

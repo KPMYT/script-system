@@ -9,7 +9,7 @@
 
 | Time | Beat | What it does (no quoted wording) | Words |
 |---|---|---|---|
-| 0:00-0:03 | INTRO | a greeting | 9 |
+| 0:00-0:03 | INTRO (banned) | a greeting | 9 |
 | 0:03-0:13 | POINT + PROMISE + SCOPE | the count and the stake (a failed inspection), for both the DIYer and anyone who hired the work out | 30 |
 | 0:13-0:43 | ITEM 1 | washer drain size and standpipe height, with the code numbers and the automatic fail | 84 |
 | 0:43-1:14 | ITEM 2 | missing protection plates; the chain of damage from a drywall screw to rot | 77 |
@@ -24,7 +24,7 @@
 | 7:14-7:36 | END + COMMENT + CTA + CLOSE | restates the count, asks for questions and a thumbs up | 51 |
 
 - **Items:** 10 code violations, 0:13-7:14. They run 77 to 210 words (30 to 71 seconds), typical about 110 words or 40 seconds. Each is built the same way: the violation named, the code rule with its number, the reason, and the verdict (an automatic fail). No stated order: the simple one-number rules come first (washer drain, plates), the two venting items that need the most explaining sit in the middle (6 and 7, the longest at 141 and 210 words), and the structural one (joists) closes.
-- **Promise devices:** only the count, with its stake in words (a failed inspection), at 0:03; it is paid one item about every 40 seconds. Inside items: a stake in words per item (the automatic fail, five times), one check the viewer can run (the toilet's instructions for the flange distances, 3:03), one honest "it still works, but" line (1:40). No money stake, no priority flag, no myth flag.
+- **Promise devices:** only the count, with its stake in words (a failed inspection), at 0:03; it is paid one item about every 40 seconds. Inside items: a stake in words per item (the automatic fail, five times), one check the viewer can run (the toilet's instructions for the flange distances, 3:03), one honest line that the work would still function but fails anyway (1:40). No money stake, no priority flag, no myth flag.
 - **Forward lines:** none beyond the numbered item headers. Longest gap between payoffs: 1:11 (item 7, which carries its own reason and a second rule).
 - **Money:** none. Damage is named without prices (water damage, mold and rot at 1:06; permanent vent damage at 4:36).
 - **CTA placement:** end only, 7:17-7:28: questions in the comments and a thumbs up (24 words). No subscribe ask, no mid-video ask.

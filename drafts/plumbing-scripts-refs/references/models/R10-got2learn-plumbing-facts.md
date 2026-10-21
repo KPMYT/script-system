@@ -29,7 +29,7 @@
 - **CTA placement:** end only, 6:48-6:57: like, share, subscribe (31 words). No comment ask.
 - **Ending:** a one-line close, the like-share-subscribe ask, thanks; then a minute of end screen with no speech.
 - **What sets it apart from other models of its type:**
-  - Pure facts: most items fix nothing, so the value is the "huh" and one small habit, not a saving.
+  - Pure facts: most items fix nothing, so the value is the surprise and one small habit, not a saving.
   - The why as a question, answered in the same breath, three times: a cheap way to make a fact feel like a payoff.
   - Items close on a light tag instead of a stake; the opening is the shortest of any model (the count in 3 seconds, then fact one).
 

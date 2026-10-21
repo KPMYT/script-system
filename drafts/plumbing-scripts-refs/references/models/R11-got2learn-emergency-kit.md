@@ -9,7 +9,7 @@
 
 | Time | Beat | What it does (no quoted wording) | Words |
 |---|---|---|---|
-| 0:00-0:02 | INTRO | a greeting | 9 |
+| 0:00-0:02 | INTRO (banned) | a greeting | 9 |
 | 0:02-0:16 | POINT + SCOPE | names the kit and its claim (most leaks, temporarily, in minutes), drain or supply line | 41 |
 | 0:16-0:46 | MONEY | the budget cap and where to buy, then the cost of not knowing (repairs and insurance claims) | 73 |
 | 0:46-1:03 | MECHANISM: why a kit | the main valve may be seized in an older home, so a plan B is needed first | 46 |

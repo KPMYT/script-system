@@ -9,7 +9,7 @@
 
 | Time | Beat | What it does (no quoted wording) | Words |
 |---|---|---|---|
-| 0:00-0:03 | INTRO + POINT | an announcement line names the task and the result (a leak-free joint) | 20 |
+| 0:00-0:03 | INTRO (banned) + POINT | an announcement line names the task and the result (a leak-free joint) | 20 |
 | 0:03-0:11 | SCOPE + PROMISE | reassures a beginner and promises any pipe size afterwards | 22 |
 | 0:11-0:32 | PROMISE: step count | three steps, with the step that decides it (prep) and its stake (property damage) | 78 |
 | 0:32-2:10 | ITEMS 1-6: tools | torch with a price range, fuel choice, lighter, cleaning kit, flux, solder; one job and one reason each | 360 |
