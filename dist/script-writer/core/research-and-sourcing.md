@@ -23,6 +23,7 @@ ideation (title + brief)  ->  research (verified research pack)  ->  script (wri
 - **In:** the locked title and the ideation brief. The brief's facts are leads to check, not finished proof.
 - **Out:** the niche's research pack, or the default pack in section 9 when the niche has none.
 - **Back to ideation:** when a title's claim can't be supported, even generously (section 10).
+- **Skipped by choice:** a niche pack may mark the research pack `not used` in its `inputs` block. Its scripts are then written from the title and brief alone, and the brief is the fact source (`workflow.md`, section 2).
 
 The script stage never adds facts the pack doesn't contain.
 

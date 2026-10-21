@@ -202,10 +202,10 @@ Paragraph 8: "...all thanks to a two-dollar part."
 ### H19. Vague and invented numbers
 
 Two failures, one rule:
-- **Vague quantifiers** ("a lot," "many," "countless," "tons of") stand in for a number the research pack already has.
+- **Vague quantifiers** ("a lot," "many," "countless," "tons of") stand in for a number the fact source (research pack or brief) already has.
 - **Invented precise numbers** ("47% of homeowners," "in just 37 days") appear in no source and exist only to sound researched.
 
-**Fix:** if the research pack has the figure, use it exactly. If it doesn't, the vague word can stay only where the sentence makes no claim that depends on it ("plenty of people try this"), and a number is never invented to replace it.
+**Fix:** if the fact source has the figure, use it exactly. If it doesn't, the vague word can stay only where the sentence makes no claim that depends on it ("plenty of people try this"), and a number is never invented to replace it.
 
 ### H20. "Most people…" openers
 

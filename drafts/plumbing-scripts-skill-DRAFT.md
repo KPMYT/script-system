@@ -32,7 +32,7 @@ A plumbing video solves one household problem cheaply, or settles one decision, 
 
 Planned: `references/unit-plan-template.md`, `references/voice-samples.md`, `references/excerpts.md`, `references/reference-scripts.md`, and `archive/` with the compiled transcripts of the real-life channels (Silver Cymbal, Roger Wakefield, Got2Learn, Arrow Pest Service) [DECIDED], all under the copy guard.
 
-## Inputs [DRAFT: for your yes]
+## Inputs [APPROVED 2026-10-21]
 
 Plumbing scripts are written from the title and the brief alone; there is no research pack [DECIDED 2026-10-21]. The workflow reads this block at START and won't write until every required input passes.
 

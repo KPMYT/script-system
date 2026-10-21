@@ -30,10 +30,12 @@ This is the entry point. When someone types **START**, this file runs, and nothi
 **Which inputs are required.** Start from the core defaults:
 - **title:** the locked title, exactly as approved
 - **brief:** the ideation brief for that title
-- **research-pack:** the verified research pack
+- **research-pack:** the verified research pack (a niche pack may mark it `not used`; the brief is then the fact source)
 - **rotation-log:** the channel's last five ROTATION LOG ENTRY lines, or "none" for a new channel
 
-Then add or replace items from the niche pack's `inputs` block, then from the persona profile's `inputs` block.
+Then add, replace or drop items from the niche pack's `inputs` block, then from the persona profile's `inputs` block. An item marked `not used` isn't asked for or checked.
+
+**The fact source** is the research pack, or the brief where the niche pack marks the research pack `not used`. Every fact, price and number in the script comes from it, and the steps below that name the pack use the brief instead.
 
 **Asking.** Send one numbered message listing every missing required input, each with a single line on what a valid one looks like. Ask for nothing else:
 - not tone, length, script type, voice provider or CTA. Those come from the files.
@@ -42,7 +44,7 @@ Then add or replace items from the niche pack's `inputs` block, then from the pe
 **Checking every input before anything is written:**
 - **title:** present and non-empty.
 - **brief:** present.
-- **research-pack:**
+- **research-pack** (unless the niche pack marks it `not used`):
   - has a "Verified on" date
   - its title matches the locked title
   - its live facts are within the niche's freshness window
@@ -65,20 +67,20 @@ Run these steps in order. Never ask "shall I continue?" Never stop to check in.
 1. **Load:**
    - from the persona profile: voice sample overrides, permitted personal details, CTA setup, closing line, script type, voice provider
    - from the niche pack: structure, rules, voice samples, excerpts, scanner block
-   - the research pack
+   - the fact source (the research pack, or the brief where the niche pack doesn't use one)
 2. **Plan.** Fill in the niche's unit plan (or list the fallback structure's content units), including the variation choices against the rotation log (`variety-rotation.md`).
    - **The book match.** If the persona profile names a book text, search it for the video's topic (the build, the technique, the problem) and record each relevant page range with one line on what's there, or "nothing relevant." CTAs and book mentions may cite only these pages (`cta-and-endings.md`, section 3).
    - **The 8-minute minimum.** Every script runs at least 8 minutes of narration, counted at the persona profile's words per minute, or 150 if it sets none (so at least 1,200 spoken words at 150). Above that, length comes from the content: every line must add value, and longer is fine. If the plan can't reach 8 minutes with real value, never pad: stop with NOT READY and ask for more research or a bigger angle. A niche pack may add guidance on length.
 3. **Write,** following the niche pack (or the fallback structure) and every core rule.
 4. **Sweep.**
    - Run the `humanizer.md` pass.
-   - Run `script-scanner.py` with the niche pack and persona profile as rules files, the research pack as the pack, the locked title with `--title` (a years figure in it is allowed: title numbers win), and the niche pack's `excerpts.md` and `reference-scripts.md` plus the persona profile with `--refs` (the copy guard: any run of 8 or more words shared with them is fix-on-sight, except lines the profile's scanner block marks `allow:`, such as a fixed sign-off). Where Python isn't available, do the same checks by hand.
+   - Run `script-scanner.py` with the niche pack and persona profile as rules files, the fact source as the pack, the locked title with `--title` (a years figure in it is allowed: title numbers win), and the niche pack's `excerpts.md` and `reference-scripts.md` plus the persona profile with `--refs` (the copy guard: any run of 8 or more words shared with them is fix-on-sight, except lines the profile's scanner block marks `allow:`, such as a fixed sign-off). Where Python isn't available, do the same checks by hand.
 5. **Audit.** Run `greenlight-audit.md`, at most three rounds.
 6. **Output,** in the format in section 5.
 
 **If the run hits something it needs and doesn't have** (a missing fact, a blocking gap, an unsupportable title claim), it stops with NOT READY and says exactly what's needed. It never fills the gap itself.
 
-**Later:** once the research stage exists, a missing research pack starts the research stage automatically instead of being asked for.
+**Later:** once the research stage exists, a missing research pack (in a niche that uses one) starts the research stage automatically instead of being asked for.
 
 ---
 
