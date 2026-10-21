@@ -122,7 +122,7 @@ S03 makes up for its slow open with an inner order that never changes, and viewe
 | Season | "The next one's about the weather, and this is the time of year for it." | Original: "Mistake number four is waiting outside your house right now" |
 | Callback to the hook | "Now the one I said almost everybody gets backwards." | S07 [16:12] "Now, for that bonus tip I promised at the beginning." |
 | Cross-reference back | "Go back to number one."; "the same roots from number one"; "back to number two" | Original: "those wipes have a partner in crime at the other sink in the house" |
-| Bare cut ("Number N.") | 9 of 14 joins | S03: every join, but the header carries a stake each time |
+| Bare cut ("Number N.") | 9 of 14 joins | S03: every join is the header formula ("The [nth] thing you should never pour down your drain is…"), and 3 of 5 headers add a stake |
 | Return after the CTA | "Now, about that sound in the night." (picks up the open question) | S03 [9:13] / S07 [7:32] "All right, let's continue." (a banned stock line) |
 
 Ours has better bridges than the hits. Its weak spot is the run from #8 to #13: five bare cuts in a row, with no stake in any header.
