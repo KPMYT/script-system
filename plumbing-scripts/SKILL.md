@@ -116,7 +116,7 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 
 **Never in an opening:** a name or channel intro, a greeting, "today we're going to", a recap of what's coming, a first-person test or demonstration ("I tested", "watch me"), or a tenure number other than the profile's or the locked title's.
 
-**Tenure:** at most once, as the profile's fixed number (Roger 45, Mark 40, Vintage 50) or, when the title states a different one, the title's number (title numbers win), and only where it does a job (credibility right before a verdict or a mistakes list).
+**Tenure:** at most once, as the profile's fixed number (Roger 45, Mark 40, Vintage 45) or, when the title states a different one, the title's number (title numbers win), and only where it does a job (credibility right before a verdict or a mistakes list).
 
 ## Point then promise
 

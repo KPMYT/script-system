@@ -48,7 +48,7 @@ Conventions: two labels on one line = the passage does both, in order; "(2, cont
 
 ## Doesn't transfer
 
-Bullets, each quoting the line with its [m:ss]: everything a faceless AI-voiced plumbing channel can't or mustn't use, per plumbing-scripts/SKILL.md ("Proof", "Banned in these scripts", "Safety", "The opening"): on-camera demos and pointing, first-person tests and history, customer stories, greetings and name intros, teases, recaps, the trade's motives, unsafe methods (boiling water down drains or into toilets or PVC, washing soda poured dry, mixing cleaners), tenure figures that differ from the fixed ones (Roger 45, Mark 40, Vintage 50), single exact product prices, long CTAs, the draft's banned stock lines, and any factual slip the study flagged or you notice (mark your own as "check against the brief").
+Bullets, each quoting the line with its [m:ss]: everything a faceless AI-voiced plumbing channel can't or mustn't use, per plumbing-scripts/SKILL.md ("Proof", "Banned in these scripts", "Safety", "The opening"): on-camera demos and pointing, first-person tests and history, customer stories, greetings and name intros, teases, recaps, the trade's motives, unsafe methods (boiling water down drains or into toilets or PVC, washing soda poured dry, mixing cleaners), tenure figures that differ from the fixed ones (Roger 45, Mark 40, Vintage 50 when the models were built; 45 since 2026-10-21), single exact product prices, long CTAs, the draft's banned stock lines, and any factual slip the study flagged or you notice (mark your own as "check against the brief").
 ```
 
 ## The ten video types (use these names)

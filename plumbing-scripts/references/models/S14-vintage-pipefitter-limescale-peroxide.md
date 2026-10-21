@@ -250,7 +250,7 @@ Vintage's second-biggest hit opens on a check the viewer can do at their own sin
 
 ## Doesn't transfer
 
-- **Tenure that differs from the profile (Vintage is 50):** [0:11] "I've been fitting pipe in American houses for about 30 years"
+- **Tenure that differs from the profile (Vintage is 45):** [0:11] "I've been fitting pipe in American houses for about 30 years"
 - **First-person history and customer stories:** [6:09] "I'll tell you what I find in those houses."; [10:27] "An exterminator quoted a lady $300 to solve that."; [12:07] "I use this on service calls and it costs nothing."; [14:38] "I've cleared clogs that way that two men and a plunger couldn't budge dry."; [19:30] "I've had people tell me they figured stronger meant faster."
 - **The title walked back:** [1:31] "Peroxide does not dissolve rock." and [16:06] "Do a short vinegar soak first." The honesty is right; the fix belongs in the title (`01-own-channels.md` S5: pay the strongest reading of the title, or soften the title).
 - **A limited stock phrase used three times:** [0:51] "here's the part people skip", again at [5:16] "here's the part people skip" and [15:05] "here's the part people skip". Each stock phrase at most once per video.

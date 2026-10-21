@@ -104,7 +104,7 @@ Recorded from the operator's reply to the plumbing comparison (`studies/plumbing
 - **The Vintage Pipefitter:** no CTAs at all for now (mid-video and end both dropped). An email-collecting CTA will be discussed later. (This replaces the earlier two-line free-e-book plan.)
 - **Roger the Pipe Guy and Mark Silverbridge:** the mid-video CTA and the outro CTA go back to the old, much shorter structure their hits used (`studies/plumbing/comparison/01-own-channels.md` and `07-body-craft.md` §10 quote it).
 - **No name or channel intros on any channel.** The core already bans them by default (`retention-mechanics.md`), and both woodworking profiles say "Greeting: none"; the plumbing profiles follow.
-- **Fixed tenures, formalised 2026-10-20 ("lets formalize from now"): Roger the Pipe Guy 45 years, Mark Silverbridge 40 years, The Vintage Pipefitter 50 years.** Each goes in the persona profile's `tenure:` line, and the scanner fails any other figure. (Earlier the same day Mark was set at 45; the operator replaced it with 40.)
+- **Fixed tenures, formalised 2026-10-20 ("lets formalize from now"): Roger the Pipe Guy 45 years, Mark Silverbridge 40 years, The Vintage Pipefitter 50 years.** *(Vintage changed to 45 on 2026-10-21, P6, to match the ideation skill.)* Each goes in the persona profile's `tenure:` line, and the scanner fails any other figure. (Earlier the same day Mark was set at 45; the operator replaced it with 40.)
 - **Concrete forward promises are allowed in the plumbing pack (P3, approved):** a promise block after the first answer may name two or three later items with their stake, provided each is paid inside the video; vague teases stay banned everywhere. This is the plumbing pack's override of the locked "long-range promises are banned" rule, which stays as it is for every other niche.
 - **Hooks rotate.** The opening jobs are fixed, the order and shape rotate, and an opening may be modelled on a reference winner script's shape (never its wording).
 - **Get to the point faster, and very quickly give the viewer more reasons to stay by promising more value,** modelled on how the competitors and our own hits do it.
@@ -180,6 +180,9 @@ The operator's reply to the merge proposal: "Please do this and ensure there are
 ### Operator decisions, 2026-10-21 (after the post-merge audit)
 
 - **Plumbing never needs sources, and the audit doesn't count them:** "for plumbing we do not need sources." The originality score (audit E1) drops the named-sources signal for plumbing, counts the brief's less-used facts for signal 1, and passes at 4 of 6.
+- **The Vintage Pipefitter's tenure is 45, not 50 (P6):** "stick with what the ideation skill says. all 45. mark 40." Roger 45, Mark 40, Vintage 45, so the titles the ideation skill writes and the scripts agree.
+- **The three merge calls confirmed:** "all three are ok" (plumbing's opening counts as the hook; the promise block replaces the value line; the two cents devices).
+- **Hank's and Dale's title-numbers line confirmed:** "yes agree for 5" (a years figure in the title is said as years at the bench, never as years of selling).
 - **The rotation log comes from the same chat:** "rotation log will always be in the same session so its fine. we have that." A channel's scripts are written in one chat, so the gate takes the ROTATION LOG ENTRY lines from the earlier scripts in it; pasting is only needed in a fresh chat. This replaces "the operator isn't tracking it for now" and "open a new chat for each script".
 
 ### Rejected, so they don't come back

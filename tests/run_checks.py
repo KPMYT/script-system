@@ -319,10 +319,10 @@ check("24. copy guard: the clean plumbing paragraph passes against excerpts, voi
 # 25. the plumbing profiles give the scanner their fixed facts
 def facts_of(p): return [l.strip() for l in re.findall(r"```scanner\n(.*?)```",open(p).read(),re.S)[0].splitlines()]
 fr,fm,fv=facts_of(ROGER),facts_of(MARK),facts_of(VINT)
-check("25. Roger's, Mark's and Vintage's profiles give their name, book and tenure (45, 40, 50; Vintage has no book)",
+check("25. Roger's, Mark's and Vintage's profiles give their name, book and tenure (45, 40, 45; Vintage has no book)",
       "name: Roger the Pipe Guy" in fr and "tenure: 45" in fr and sum(l.startswith("book:") for l in fr)==1
       and "name: Mark Silverbridge" in fm and "tenure: 40" in fm and sum(l.startswith("book:") for l in fm)==1
-      and "name: The Vintage Pipefitter" in fv and "tenure: 50" in fv and not any(l.startswith("book:") for l in fv), str((fr,fm,fv)))
+      and "name: The Vintage Pipefitter" in fv and "tenure: 45" in fv and not any(l.startswith("book:") for l in fv), str((fr,fm,fv)))
 code,out=run_scan("I have been at this for 40 years.\n",[PLR,ROGER])
 code2,out2=run_scan("I have been at this for 45 years.\n",[PLR,ROGER])
 check("25b. a plumbing tenure that differs from the profile fails; the profile's passes", code==1 and "PERSONA FACT: tenure" in out and code2==0, out+out2)

@@ -59,3 +59,13 @@ The study supports the narrow form of both: a tenure stated the same way every t
 **Proposal:** the plumbing pack overrides §4 for plumbing only: after the last item, a one-line end CTA reminder, then one specific comment question with a small detail about the viewer and "I read every one" as the video's last line, with no fixed sign-off after it (operator, 2026-10-21: "CTA then comment line but the end CTA in these is just a one liner reminder"; "no fixed last line"). The core rule is unchanged for every other niche.
 
 **Status:** approved by the operator's instruction on 2026-10-21; applies when the plumbing pack goes into the library. Wording approved the same day.
+
+## P6. The Vintage Pipefitter's tenure: 45, not 50 (opened and approved 2026-10-21)
+
+**Decision (HANDOFF.md section 3, "Fixed tenures, formalised 2026-10-20"):** Roger the Pipe Guy 45 years, Mark Silverbridge 40, The Vintage Pipefitter 50.
+
+**Evidence:** the post-merge audit found the operator's plumbing ideation skill (on the account) still giving The Vintage Pipefitter "45 years" ("runs \"45 years\" since June 2026 and keeps it", `plumbing-ideation/references/audience.md` §8; the same in its SKILL.md §2 and steering.md), and the thumbnails skill likewise. Because a title's figure wins in the script, ideation titles saying 45 would make Vintage's stated tenure drift between 45 and 50.
+
+**Proposal:** pick one figure for Vintage so titles and scripts agree.
+
+**Status:** decided by the operator on 2026-10-21: "stick with what the ideation skill says. all 45. mark 40." Applied: `personas/vintage-pipefitter.md` (`tenure: 45`), `plumbing-scripts/SKILL.md`, test 25. Roger stays 45 and Mark 40. Mark's figure isn't in the ideation skill yet (it says he has no number), which doesn't clash: titles without a number leave the profile's 40.

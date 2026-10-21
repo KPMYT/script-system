@@ -236,7 +236,7 @@ The point comes first: a go-look pointer to the bottle in the viewer's own cabin
 
 ## Doesn't transfer
 
-- **Tenure that differs from the profile (Vintage is 50):** [0:35] "I have been on the tools for 30 years"; [18:37] "took me 30 years on the tools" (a second use; tenure is once at most).
+- **Tenure that differs from the profile (Vintage is 45):** [0:35] "I have been on the tools for 30 years"; [18:37] "took me 30 years on the tools" (a second use; tenure is once at most).
 - **Intro wording:** [1:26] "So today I am going to walk you through nine ways"
 - **Vague teases and pleas:** [1:44] "So do not go clicking away early on me."; [16:09] "So, stay right here with me for number nine."; [16:18] "so please do not skip out on me now"; [18:44] "Now stick around because I saved you a good one."
 - **Doubled number call:** [16:12] "for number nine. Number nine, the one rule"
