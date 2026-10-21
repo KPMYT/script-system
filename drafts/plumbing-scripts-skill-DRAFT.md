@@ -83,7 +83,7 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 
 **Never in an opening:** a name or channel intro, a greeting, "today we're going to", a recap of what's coming, a first-person test or demonstration ("I tested", "watch me"), or a tenure number other than the profile's.
 
-**Tenure:** at most once, as the profile's fixed number (Roger 45, Mark 40, Vintage 50), and only where it does a job (credibility right before a verdict or a mistakes list).
+**Tenure:** at most once, as the profile's fixed number (Roger 45, Mark 40, Vintage 50) or, when the title states a different one, the title's number (title numbers win), and only where it does a job (credibility right before a verdict or a mistakes list).
 
 ## Point then promise [APPROVED]
 
@@ -175,7 +175,7 @@ The clearest difference in the study: the face channels, and Got2Learn filming h
 - **Nameless claimed experience:** "the worst tank we've ever opened".
 - **Sweeping claims nobody can check:** "this trick has saved homeowners across America hundreds of dollars".
 
-## Money framing [DRAFT: for your yes]
+## Money framing [APPROVED 2026-10-21]
 
 All 15 of our hits set the fix's cost against what the trade charges. In this niche that comparison is the entry ticket, not an extra. The weak spot is a single low product price: viewers check it on Amazon while they watch. Service-call ranges drew almost no disputes.
 
@@ -209,7 +209,7 @@ All 15 of our hits set the fix's cost against what the trade charges. In this ni
 - **The trade's motives** (see "The villain"). Not "that's how he pays his mortgage", but "a drain call starts around a hundred and fifty".
 - **A total stated as certain** when it depends on the viewer's house. Not "this is a $5 fix", but "if it's the flapper, that's a five-to-fifteen-dollar fix".
 
-## Safety [DRAFT: for your yes; the brief always wins]
+## Safety [APPROVED 2026-10-21; the brief always wins]
 
 The facts and methods come from the brief and the research pack, and **the brief always wins** [DECIDED 2026-10-21]. There's no separate fact bank: contradictions between one video and another are acceptable [DECIDED].
 
@@ -234,6 +234,6 @@ Already decided, to be written up in the next batch:
 
 ## Scanner rules for this niche [LATER]
 
-To come with this batch: "boiling" near a drain, toilet, pipe or PVC; "pour it dry" and dry washing soda; first-person test or demo claims ("I tested", "I tried", "my results"; never liftable).
+To come with this batch: first-person test or demo claims ("I tested", "I tried", "my results"; never liftable). No checks for boiling water or dry washing soda: the brief wins on safety, and the operator said "dont even flag them" (2026-10-21).
 
 ## Before handing over [LATER]

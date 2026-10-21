@@ -44,7 +44,7 @@ A persona profile may name one fixed, soft family detail that the operator has a
 
 ## Fixed years in the trade
 
-A persona profile may set one fixed years-in-the-trade figure on its `tenure:` line, approved by the operator. The script and the title may say it, the same way every time. It never comes with dates, employers, towns, licences or other credentials, and it is never proof that the persona personally made or tested anything. The scanner fails any other figure.
+A persona profile may set one fixed years-in-the-trade figure on its `tenure:` line, approved by the operator. The script may say it, the same way every time. When the locked title states a different years figure, the script may use the title's figure instead (title numbers win). It never comes with dates, employers, towns, licences or other credentials, and it is never proof that the persona personally made or tested anything. The scanner fails any figure that is neither the profile's nor the title's.
 
 ## Named companies and people
 
