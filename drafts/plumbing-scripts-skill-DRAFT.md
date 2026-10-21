@@ -19,7 +19,7 @@ A plumbing video solves one household problem cheaply, or settles one decision, 
 
 ## What this skill covers
 
-**It owns:** the villain, the opening by video type, "point then promise", the structure of each video type, CTA placement and length, length, voice, proof, money framing, safety, writing for compiled footage and the plumbing scanner checks.
+**It owns:** the villain, the opening by video type, "point then promise", the structure of each video type, CTA placement and length, length, voice, proof, money framing, safety and the plumbing scanner checks. Scripts are clean narration only: no edit notes, cues or directions of any kind [DECIDED 2026-10-21].
 
 **It doesn't own:**
 - **The persona:** name, tenure, sign-off, any mentor or family detail. These live in the channel's persona profile.
@@ -224,13 +224,9 @@ The facts and methods come from the brief and the research pack, and **the brief
 - **One short line inside the step where the risk is,** with the reason, in proportion. "It will put you on the floor" (chlorine gas) drew no complaints; vague danger drew "This is nothing but a scare tactic video."
 - **The call-a-pro line names its trigger:** "Two drains backing up at once is the main line. That's a call." Never the vague "if it's outside your comfort zone", and never a long list of stop signs.
 
-## Writing for the footage [LATER]
-
-Already decided, to be written up in the next batch:
-- **The footage:** a mismatch between footage and narration is the editor's job; the existing rule to name what the viewer should see stays.
-- **"Nine times out of 10"** is fine.
-
 ## Banned in these scripts [LATER]
+
+Already decided: "Nine times out of 10" is fine and isn't on the list (it still counts as a stock phrase, once per video).
 
 ## Scanner rules for this niche [LATER]
 
