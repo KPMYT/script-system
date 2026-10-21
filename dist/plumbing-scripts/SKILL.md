@@ -1,6 +1,6 @@
 ---
 name: plumbing-scripts
-description: Script rules for the operator's plumbing channels (Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter, and any future channel in this niche). Use whenever a plumbing script is written, rewritten or reviewed, or a plumbing title and brief arrive for scripting. Sets the villain, the opening by video type, "point then promise", the structure of each video type, CTAs, length, voice, proof, money framing, safety and the plumbing scanner checks. Persona, tenure, book and CTA wording come from the channel's persona profile; claims policy, output format and the audit come from the core rules. To write a script, type START: the script-writer skill runs it and loads this pack.
+description: Script rules for the operator's plumbing channels (Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter, and any future channel in this niche). Use whenever a plumbing script is written, rewritten or reviewed, or a plumbing title and brief arrive for scripting. Sets the villain, the opening by video type, emotion all the way through, "point then promise", the structure of each video type and the item shape, CTAs, length, voice, proof, money framing, safety and the plumbing scanner checks. Persona, tenure, book and CTA wording come from the channel's persona profile; claims policy, output format and the audit come from the core rules. To write a script, type START: the script-writer skill runs it and loads this pack.
 ---
 
 
@@ -10,7 +10,7 @@ A plumbing video solves one household problem cheaply, or settles one decision, 
 
 ## What this skill covers
 
-**It owns:** the villain, the opening by video type, "point then promise", the structure of each video type, CTA placement and length, length, voice, proof, money framing, safety and the plumbing scanner checks. Scripts are clean narration only: no edit notes, cues or directions of any kind.
+**It owns:** the villain, the opening by video type, emotion all the way through, "point then promise", the structure of each video type and the list item shape, CTA placement, shape and length, length, voice, proof, money framing, safety and the plumbing scanner checks. Scripts are clean narration only: no edit notes, cues or directions of any kind.
 
 **It doesn't own:**
 - **The persona:** name, tenure, sign-off, any mentor or family detail. These live in the channel's persona profile.
@@ -31,7 +31,7 @@ A plumbing video solves one household problem cheaply, or settles one decision, 
 | `references/models/R01-...md` to `S18-...md` | One file per model: a beat map (what each stretch of the video does, with timings, items, promise devices, money and CTA placement; no wording), then the full labelled script, why it works and what doesn't transfer. Read at the planning step only. |
 | `archive/` | Full transcripts of the four real channels. Calibration only; don't read them while writing. Kept in the library; the installed skill leaves it out, as the woodworking skill does. |
 
-Every reference file is under the copy guard: the scanner flags any run of 8 or more words shared with it (the files are listed in "Where this pack overrides the core", below).
+Every reference file, and this file itself, is under the copy guard: the scanner flags any run of 8 or more words shared with it (the files are listed in "Where this pack overrides the core", below). So the example lines in these rules show a shape; the script never reuses their wording.
 
 ## Where this pack overrides the core
 
@@ -44,7 +44,8 @@ The core base rules apply wherever this pack is silent. These are the places it 
 | `cta-and-endings.md` §4, `workflow.md` §4 ("the closing line is exactly one sentence, under about 15 words"), `retention-mechanics.md` §14, `greenlight-audit.md` F3 ("the CTA or nothing, then stop") and `variety-rotation.md` slot 9 (closing line) | The ending is the one-line end CTA, then the comment line (a specific question and "I read every one"), which is the last line of the script. It may run to two sentences; there is no sign-off after it. In the output's FORMAT CHECK, the closing field reads `[comment line, last line of the script]`; F3 checks this ending; rotation slot 9 rotates the comment question. Write it as "Tell me…" or a plain question: the scanner flags "let me know if you" as a chatbot leftover. | P5, 2026-10-21 |
 | `workflow.md` §3, the 8-minute minimum; `greenlight-audit.md` F2 and the evidence block's Length line | At least 12 minutes (1,800 words at 150 a minute); the evidence block reads `(minimum 12)`. See "Length". | 2026-10-21 |
 | `variety-rotation.md`, the rotation log line | Four more fields at the end of the line: `\| model: [file numbers] \| money: [device] \| promises: [devices] \| comment: "[the comment question]"`, so the rotation checks in "Using the models", "Ways to promise more value", "Money framing" and "The ending" have something to check against. | 2026-10-21 (model); the other three carry rules already approved |
-| `workflow.md` §3 step 4 and `greenlight-audit.md` D3, the `--refs` files | Instead of `excerpts.md` and `reference-scripts.md` (woodworking's files), the copy guard runs against `references/excerpts.md`, `references/voice-samples.md` and every file in `references/models/`, plus the persona profile. | 2026-10-21 |
+| `workflow.md` §3 step 4 and `greenlight-audit.md` D3, the `--refs` files | Instead of `excerpts.md` and `reference-scripts.md` (woodworking's files), the copy guard runs against this file (`SKILL.md`), `references/excerpts.md`, `references/voice-samples.md` and every file in `references/models/`, plus the persona profile. | 2026-10-21; this file added by the operator, 2026-10-21 (test run 02: two lines echoed the pack's own examples) |
+| `cta-and-endings.md` §2, the mid-video CTA "in a list, after the first item or two" | Roger and Mark: after the second or third item, about a third of the way in, at the end of an item's win, in the shape in "CTAs". | Operator, 2026-10-21 (the CTA template from Roger's hits) |
 | `research-and-sourcing.md` §6, "each number said alongside whoever counted it" | Sources and store names don't have to be said (see "Proof"). | 2026-10-20 |
 | `greenlight-audit.md` E1, the originality score (7 signals, pass at 5) | Sources aren't needed in plumbing, so the two source signals change: signal 1 counts facts from the brief that most videos on the topic don't use, and signal 4 (three named sources) doesn't apply. The score is out of 6 and passes at 4. | Operator, 2026-10-21: "for plumbing we do not need sources" |
 | `retention-mechanics.md` §6 and `greenlight-audit.md` B5, signposts | The sections are the opening, each item (or step, or contender) and the ending. "Number four." is the signpost for an item; in a verdict, the contender's name is. | 2026-10-21 (merge) |
@@ -88,6 +89,7 @@ The viewer is a 50+ American homeowner, often in an older house and on a careful
 
 **Skill level:**
 - Write for beginners to handy homeowners, in plain words. A trade term gets a short explanation the first time ("the P-trap, the U-shaped bend under the sink"), then is used plainly.
+- **These terms are always explained the first time** (test run 02 left five unexplained): psi, trap, P-trap, jetting, relining, anode rod, cleanout, PRV (pressure-reducing valve), angle stop, sillcock. Any other trade word gets the same treatment.
 - Give the reason behind a step in one sentence; viewers thank the "why" (1.4K likes on Got2Learn). Don't lecture on the cause: "We don't need all that explanation of what causes the clog. Just tell us how to unclog it."
 - Never explain what everyone knows (turning off a tap, fetching a bucket).
 
@@ -106,7 +108,8 @@ The villain on every plumbing channel is **the trade**: plumbers as a business, 
 **How to use it, from what landed with viewers and what drew disbelief:**
 - **Aim it at the price and the silence, not at motives.** "A drain call for that runs about $150" and "nobody in the trade will mention it" land. Claiming to know what plumbers secretly do at home, or that they hide fixes on purpose, drew the most-liked doubt in our data (1.3K likes).
 - **Say it as a billing fact.** The trade is paid by the visit, so a $5 fix that ends the visits is nobody's business to mention. That's an observation the viewer can check against their own bills.
-- **One villain line in the opening, then let the prices carry it.** The trade's typical price at the end of an item ("you just did it for a couple of dollars") does the work for the rest of the video.
+- **The villain comes back again and again, all the way through** (operator, 2026-10-21: "the villains need to be mentioned sporadically throughout"). One villain line in the opening, then every few items, not on a schedule and never in the same words twice: a price ("That's a $150 visit for a ten-minute job."), a silence ("Nobody's going to knock on your door and tell you about this one."), the store shelf, or the outrage line below.
+- **Disgust at a big price, said as the narrator's opinion** (operator, 2026-10-21: "we must also show disgust to when things are very expensive"). Where a price runs into the hundreds or thousands, the narrator reacts as himself: "That is absolutely criminal, what they charge for that." Rotate the wording ("I think that's a crime for a part that costs less than lunch." "That number makes me sick."). It's aimed at the price, never at a named company, never at a person, and never says why they charge it (no "scam", no "ripping you off", no greed).
 - **The store shelf is a second, softer villain:** the jug, the tablet, the marketing on the label. Use it where the fix replaces a product.
 
 ## The opening
@@ -120,9 +123,37 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 5. **The promise block** (this pack's override of core `retention-mechanics.md` §6, approved as P3). Right after the point, promise two or three specific later payoffs. Each names its item and its stake: "Number six can save you a $200 call." "And the last one is the rule that keeps all of this safe on old pipes." Never a vague tease: the hard-ban list ("stay till the end", "stick with me", "by the end of this video" and the rest) still applies.
 6. **The first real tip** by about 45 seconds; in a list, item one by about 30 seconds.
 
+**Simpler and stronger** (operator, 2026-10-21: "it doesnt necessarily mean giving the worst case scenario. it means using strong words and targetting the exact pain points of this audience"). The first line hits the viewer's own pain in strong, plain words; it doesn't have to be the worst case.
+- Before (test run 02): "That toilet pulled up off the floor, its drain packed solid with tree roots, didn't get that way overnight. A camera down the sewer line would've found those roots years earlier for a couple hundred bucks, and once they've taken over the line, you're into the thousands."
+- The shape to aim for (never wording to reuse): "That slow flush you keep ignoring? It can end with a crew digging up your front yard. The expensive stuff in an old house always starts out quiet: a toilet that runs at night, a drip under the sink nobody sees, a rubber hose behind the washer that's older than you think. Fifteen of them, and almost every one takes a flashlight and five minutes to catch."
+- **One dollar figure at most in the opening;** the prices belong to the items, and the opening never repeats item one's price.
+
 **Never in an opening:** a name or channel intro, a greeting, "today we're going to", a recap of what's coming, a first-person test or demonstration ("I tested", "watch me"), or a tenure number other than the profile's or the locked title's.
 
 **Tenure:** at most once, as the profile's fixed number (Roger 45, Mark 40, Vintage 45) or, when the title states a different one, the title's number (title numbers win), and only where it does a job (credibility right before a verdict or a mistakes list).
+
+## Emotion, all the way through
+
+The operator (2026-10-21): "simpler and stronger on emotions... using strong words and targetting the exact pain points of this audience like reference scripts do. more work on emotion triggering throughout." Test run 02 named the pain once and then explained; the hits run on household pain plus money from the first line to the last: the bill, the thing that came back, the damage nobody saw, the bad night, the pride of doing it yourself. Every item makes the viewer feel something, in plain, strong words.
+
+1. **Put the viewer in it.** Say "you" and open each item on what they see, hear or smell in their own house, not on how the thing works.
+   - Did it: "You finish cooking up some bacon on a Saturday morning" (Roger, 453x hit).
+   - Didn't: "Inside every tank water heater, a long metal rod hangs down from the top." (test run 02)
+2. **Aim at one real pain per item,** the ones this audience lives with: the surprise bill; the fix that came back; damage you can't see; the bad night (water on the floor, no heat, the holiday rate); being sold something you didn't need; making it worse; the old house wearing out; the family's safety; the pride of doing it yourself.
+3. **Strong, plain words.** Physical verbs and pictures over explanations: eating, rotting, packed solid, splitting, soaking, slime, sludge, "from the inside out", "while you sleep". Simple words and short sentences, never clever metaphors (the Voice rule stands: at most one picture-phrase per item).
+4. **"But", much more of it, inside items and between them** (operator, 2026-10-21: "we want much more buts. both within sections and from section to section").
+   - **Inside every item, at least one turn:** say what people think or do, then "but", then the truth. Did it: "most people think they are actually helping their pipes" (Roger, 453x hit). Test run 02 used "but" about once per 1,000 words; Silver Cymbal about 20.
+   - **Between items, bridges that turn:** "But that one's cheap to fix. The next one isn't."
+   - Rotate how the belief is named ("you've probably heard", "the box says", "a lot of folks figure"): "Most people…" opens a sentence at most once per script (`humanizer.md` H20), and a "but" turn is never the "it's not X, it's Y" reframe (H21, at most one).
+5. **Ask the viewer.** A question they can answer about their own house, answered straight away, about every two items. Did it: "Problem solved, right? Not even close." (Roger, 453x hit). Test run 02 asked none.
+6. **Use disgust where the topic has it.** Plumbing's unfair advantage, on the items about grease, gunk, hair, roots or what grows in a tank. Did it: "black, slimy, musty-smelling ring" (TheCheapFix). Test run 02 barely used it (0.3 disgust words per 1,000, against 2.4 in Roger's hit and 18.8 in TheCheapFix's).
+7. **End every item on a win.** A short line of relief, pride or the contrast; the item's one price can sit here ("That's a $5 part doing a $300 visit's job."). Test run 02 ended 11 of 15 items on an instruction.
+8. **Reaffirm the title's feeling all the way through** (operator, 2026-10-21: "we must reaffirm throughout the emotions we are trying to trigger from the title and concept"). Say the title's idea again, in new words, every few items: for "15 Plumbing Mistakes Quietly Costing You THOUSANDS", the hidden, growing bill ("quietly", "costing you", "while you sleep", "adding up"). Test run 02 never said "mistake" or "quietly" after the opening.
+9. **The villain and the outrage come back** all the way through (see "The villain").
+10. **Let the narrator speak.** One short "I" opinion or verdict in most items ("I'd leave that jug on the shelf"), and once per video a line of insistence where it matters ("I need you to hear me on this one"). Test run 02 had no verdict from item 10 to 15.
+11. **Finish on relief, not danger.** The last item before the end CTA closes on reassurance or something to do tonight, even when it's a safety item.
+
+**Never, still:** invented facts or events, guaranteed savings, the trade's motives, teases, the mocked hype ("horror movie", "brutal tests"), worst-case exaggeration, jokes.
 
 ## Point then promise
 
@@ -133,7 +164,7 @@ The competitors give the point first and promise second; our hits did the revers
 - **Pay the first promise early.** The first promised item is paid within about five minutes. Nothing promised in the opening is held past the middle of the video, except the safety rule or a second use for the product.
 - **Keep one promise open.** After the opening, never go more than about five minutes without a new forward line or a payoff. Use a line that names the next value ("The next one is the reason your tank sweats in July."), the trade's price for what was just done, a question the next item answers, or a check the viewer can run.
 - **Every callback has a promise.** A line that says "I promised" or "like I said" must match something the script really promised earlier.
-- **A priority flag at the first answer:** "If you do only one thing from this video, do this one." Viewers pointed at that line when it came late.
+- **A priority flag at the first answer,** in fresh words each time (the shape: "If you do only one thing from this video, do this one."). Viewers pointed at that line when it came late.
 - **No recaps** at the end.
 
 ## Ways to promise more value
@@ -147,9 +178,9 @@ Use two or three per video, and rotate them across a channel's scripts.
 - **A second use for the same product,** or "while you're under there".
 - **A check the viewer can run:** lift the lid, the food-colouring test, the fizz test. No first-person test claim needed.
 - **A running cost tally** across the video (what the trade would have charged so far).
-- **The trade's price at the end of each item.**
+- **The trade's price at the end of each item** (in words on the items without a figure: the number cap in "Money framing").
 - **A problem the viewer didn't know they had,** promised and then shown.
-- **A myth flag:** "Number three is the one everybody gets backwards."
+- **A myth flag,** which names the belief it flips in the same line: "Number three is the one everybody gets backwards: hot water and dish soap won't carry grease away." Never a bare "the one everybody gets backwards".
 
 ## The video types
 
@@ -170,6 +201,20 @@ Pick the type from the title. Each type has its own opening order and item shape
 
 A title that promises tests ("I Tested 5 Drain Cleaners") is written as tests and results from the brief, never as "I tested".
 
+### The item shape in lists
+
+The hits give every item the same order, so viewers can follow it and retell it (the top comment on Roger's 453x hit, 1.5K likes, is a viewer listing all five). In every list type (N things, never-do, mistakes), each item runs in this order; the table's item shape says what goes into it.
+
+1. the scene in the viewer's house
+2. what's really happening in the pipe (one or two lines)
+3. what it costs, once (a figure or in words; see "Money framing")
+4. the turn ("So what do you do instead?")
+5. the fix, with its steps cut to what the viewer needs
+6. the win
+
+- **Length per item:** about 100-130 words (45 seconds to a minute) in a list of 10 or more; longer items only in short lists. Test run 02 ran about 187 words an item, mostly extra steps. Where this and the 12-minute minimum collide (a list of 10 or 11 items), the minimum wins: items run a little longer with real value (a second check, a "while you're under there"), never padding.
+- **Bridges:** never more than two items in a row without a forward line or a price line. Test run 02 went from item 7 to item 12 without one.
+
 **A title that fits none of the ten:** build the opening from the six jobs in "The opening", in the order the closest type uses, and pick the item shape from the table that best suits the content. Note the title in the plan as "new type". When the same new shape comes up on three or more videos, it's proposed for this table, and added only with the operator's yes.
 
 ## Using the models: never a copy
@@ -186,7 +231,17 @@ The copy guard still flags any run of 8 or more words shared with a model file.
 
 ## CTAs
 
-- **Roger the Pipe Guy and Mark Silverbridge:** back to the short CTAs their hits used. One mid-video ask, straight after the first real payoff, in about 20-60 words: one sentence for the ask, then straight back into the next item. At the end, a one-line reminder. Wording comes from the persona profile.
+- **Roger the Pipe Guy and Mark Silverbridge:** back to the structure their hits used (HANDOFF, locked 2026-10-20). Roger's hits used the same shape in three videos (7:14 in the 364x hit, about 37% of the way in). Only the order transfers: its opening words ("if you're finding this…") are a banned stock line.
+  - **Where:** after the second or third item (about a third of the way in), at the end of an item's win, never in the middle of a forward line.
+  - **The shape, in about 60-80 words:**
+    1. an aside signal ("By the way", "Quick thing", "Before the next one", rotated)
+    2. tied to the help just given ("if that one just saved you a service call")
+    3. this is a small part of it: the book has the rest, with the pages from the book match when the topic's in the book
+    4. one benefit
+    5. where to get it: the link in the description and the QR code
+    6. a return line into the next item
+  - **An example of the shape (never wording to reuse):** "Quick thing before number four. If that toilet check just saved you a service call, that's one of a hundred fixes in my book, One Hundred Old-House Fixes That Save You Thousands. The sewer warning signs from number one are on pages 56 and 57. It's at the link in the description, or use the QR code on your screen. Now, the hose on your outside faucet."
+  - **At the end,** a one-line reminder, then the comment line (see "The ending"). Wording comes from the persona profile.
 - **The Vintage Pipefitter:** no mid-video CTA. At the end, a one-line subscribe ask, worded in the persona profile. Something fuller (an email CTA) will be decided later.
 - **Never a long QR walkthrough,** never the same pitch twice in one video, and never a production label read aloud.
 
@@ -248,7 +303,9 @@ All 15 of our hits set the fix's cost against what the trade charges. In this ni
 - Did it: "That little brown bottle sitting in your medicine cabinet cost about $1 at most drug stores. And yet the average homeowner pays a plumber $300 or more every single year…" (TheCheapFix, 2.18M views; first sentence).
 - Didn't: Vintage's enzyme video names no product and no price at the point; the per-night cost arrives more than five minutes later.
 
-**2. Every price is an estimate, from the brief or the price guide:** a rounded range or "about", never one exact figure and never to the cent. Not every item needs a number: at most one price per item, and most items carry their cost in words ("that's a new water heater", "a flooded basement"). A list with a dollar figure on every item is too much to follow on one listen (the Hank tests, 2026-10-20).
+**2. Every price is an estimate, from the brief or the price guide:** a rounded range or "about", never one exact figure and never to the cent. Not every item needs a number. A list with a dollar figure on every item is too much to follow on one listen (the Hank tests, 2026-10-20; test run 02 said 25 dollar amounts on 11 of 15 items).
+- **The number cap** (operator, 2026-10-21): at most one dollar figure per item (a range counts as one); in a list, figures on no more than about half the items, and the rest carry their cost in words ("that's a new water heater", "a flooded basement", "a service call"); the opening has one figure at most and never repeats item one's. The brief decides what things cost; this rule decides how many numbers are said.
+- The money devices below all work inside the cap: on items without a figure, the trade's price is said in words ("that's a visit you didn't pay for").
 - Drew fire: "usually around eight to twelve dollars a bottle" brought "This guy prices are from 1924, Amazon - BIO-CLEAN $79.95." "A dollar or two" for peroxide brought "Peroxide is now priced close to 5.00 since COVID." TheCheapFix's "$1 a bottle" brought "Maybe 30 years ago!" (48 likes).
 - Survived: "An after hours no heat call lands somewhere between $200 and $400 in most of the country, more at night or on a weekend" (Mark). No disputes.
 - Write: "A flapper runs about $5 to $15. Having someone fit it usually starts around $150."
@@ -289,6 +346,8 @@ The facts and methods come from the brief, and **the brief always wins**. There'
 4. **Nothing added to a drain that already has a chemical drain cleaner in it,** plunging included. It can splash back.
 5. **Gas lines and live wiring are a call, not a project.** Before any water-heater job, the power or the gas goes off, in one line.
 
+**A gas leak, whenever a script mentions one, gets every step** in the gas-leak row of `references/price-guide.md` section 9, whatever the brief leaves out, in the script's own words. The steps, in short: everyone out, upwind; no switches, appliances, doorbells, phones or flashlights; no flame, no car; 911 and the gas company from well away, never assuming someone else called; back in only when they say so; they turn the gas on and relight; not everyone can smell it, and the smell fades. Never "open the windows" or "shut it off at the meter yourself". (Test run 02 left out "don't light anything or start a car".)
+
 **How safety sounds:**
 - **One short line inside the step where the risk is,** with the reason, in proportion. "It will put you on the floor" (chlorine gas) drew no complaints; vague danger drew "This is nothing but a scare tactic video."
 - **The call-a-pro line names its trigger:** "Two drains backing up at once is the main line. That's a call." Never the vague "if it's outside your comfort zone", and never a long list of stop signs.
@@ -308,14 +367,17 @@ The facts and methods come from the brief, and **the brief always wins**. There'
 - **Competitors' catchphrases and sign-offs.**
 - **Copying 8 or more words in a row** from a reference file. The copy guard flags it.
 
-**At most once per video.** A phrase is voice once; in the same slot every video it's a tic. "Nine times out of 10" is fine, and it's on this list with the others: "between you and me", "ask me how I know", "here's the part nobody tells you", "I'll be straight with you", "that's the whole trick", "in your pocket", "which brings us", "hold that thought", "the big one", "the real kicker", "quick thing", "no shame in", "full stop", "trust me".
+**At most once per video.** A phrase is voice once; in the same slot every video it's a tic. "Nine times out of 10" is fine, and it's on this list with the others: "between you and me", "ask me how I know", "here's the part nobody tells you", "I'll be straight with you", "that's the whole trick", "in your pocket", "which brings us", "hold that thought", "the big one", "the real kicker", "quick thing", "no shame in", "full stop", "trust me", "absolutely criminal".
 
 ## Scanner rules for this niche
 
-The scanner (core `script-scanner.py`) reads this block. `ban` lines are fix-on-sight; `once` lines fail on the second use in a script (scanner support built 2026-10-21, test 20). There are no checks for boiling water or dry washing soda: the brief wins on safety, and the operator said "dont even flag them" (2026-10-21).
+The scanner (core `script-scanner.py`) reads this block. `allow` lines are wording these rules require (the range shapes, the comment line's close), so the copy guard over this file never flags them; `ban` lines are fix-on-sight; `once` lines fail on the second use in a script (scanner support built 2026-10-21, test 20). There are no checks for boiling water or dry washing soda: the brief wins on safety, and the operator said "dont even flag them" (2026-10-21).
 
 ```scanner
 min-minutes: 12
+allow: on the high end
+allow: depending on where you live
+allow: I read every one
 ban-regex: \btoday,? (?:we'?re|we are|I'?m|I am) going to\b | opening: "today we're going to"
 ban-regex: \bI(?:'ve| have)? (?:tested|tried|ran (?:a |the |some |my )?tests?)\b | first-person test claim
 ban-regex: \bmy (?:own )?(?:test|tests|testing|results)\b | first-person test claim
@@ -347,20 +409,23 @@ once-regex: \bquick (?:thing|pause|one)\b | quick thing
 once: no shame in
 once: full stop
 once: trust me
+once: absolutely criminal
 ```
 
 ## Before handing over
 
 Check that:
-- the point comes in the first sentence, with the fix or product named by about 15 seconds
+- the point comes in the first sentence, with the fix or product named by about 15 seconds, and the first line hits the viewer's pain in strong, plain words
+- every item puts the viewer in the scene, aims at one real pain, has at least one "but" turn and ends on a win; bridges turn between items; a question about every two items; the title's feeling comes back every few items; the villain comes back all the way through, with disgust at the big prices as an opinion (never a company or a motive); the last item before the end CTA closes on relief
+- in a list, every item follows the item shape at about 100-130 words (lists of 10 or more), and no more than two items in a row go without a forward line or a price line
 - the opening follows the video type's order (or the closest type's, for a new type), with no intro, greeting, tease or recap
 - the promise block follows the first answer; every promise is paid, the first within about five minutes, and no stretch runs past about five minutes without a forward line or a payoff
 - the tenure appears at most once, as the profile's number or the title's
-- every price traces to the brief or the price guide and is said as an estimate (never cents, at most one per item); doses and waits trace to the brief or the safe defaults; filled-in settings and intervals are everyday knowledge; the dose arithmetic holds
+- every price traces to the brief or the price guide and is said as an estimate (never cents, at most one per item, figures on no more than about half the items, one at most in the opening); doses and waits trace to the brief or the safe defaults; filled-in settings and intervals are everyday knowledge; the dose arithmetic holds
 - the fix's cost meets the trade's price within the first two minutes
 - there's no "I tested", no pointing at the screen, no customer story and no motive
-- safety follows the brief, with the five defaults only where it's silent
-- the CTAs follow the persona profile: the mid-video ask after the first payoff (Roger and Mark), and a one-line end CTA on every channel (Roger and Mark: the book reminder; Vintage: the subscribe ask)
+- safety follows the brief, with the five defaults only where it's silent; a gas leak gets every step from the price guide; every trade term on the list is explained the first time; a myth flag names its belief
+- the CTAs follow the persona profile: the mid-video ask after the second or third item, in the six-part shape (Roger and Mark), and a one-line end CTA on every channel (Roger and Mark: the book reminder; Vintage: the subscribe ask)
 - the video ends on the comment line (a specific question and "I read every one"), with nothing after it
 - each stock phrase appears at most once, and the opening shape and money device differ from the rotation log
 - the plan names its models with at least three differences, and no model was used in the channel's last five scripts

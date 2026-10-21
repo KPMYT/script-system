@@ -76,7 +76,7 @@ Run these steps in order. Never ask "shall I continue?" Never stop to check in.
 3. **Write,** following the niche pack (or the fallback structure) and every core rule. **The quality bar** (operator, 2026-10-20): the script follows the core unless the niche pack overrides it (the pack always wins), is tailored to the audience's emotions, gives real value, opens on a strong hook that plays on their pain points, is solution-driven, and is easy to follow on one listen.
 4. **Sweep.**
    - Run the `humanizer.md` pass.
-   - Run `script-scanner.py` with the niche pack and persona profile as rules files, the fact source as the pack, the locked title with `--title` (a years figure in it is allowed: title numbers win), and the niche pack's copy-guard files (woodworking: `excerpts.md` and `reference-scripts.md`; a pack may name others, as plumbing does) plus the persona profile with `--refs` (the copy guard: any run of 8 or more words shared with them is fix-on-sight, except lines the profile's scanner block marks `allow:`, such as a fixed sign-off). Where Python isn't available, do the same checks by hand.
+   - Run `script-scanner.py` with the niche pack and persona profile as rules files, the fact source as the pack, the locked title with `--title` (a years figure in it is allowed: title numbers win), and the niche pack's copy-guard files (woodworking: `excerpts.md` and `reference-scripts.md`; a pack may name others, as plumbing does) plus the persona profile with `--refs` (the copy guard: any run of 8 or more words shared with them is fix-on-sight, except lines the profile's scanner block marks `allow:`, such as a fixed sign-off). Where Python isn't available, do the same checks by hand. Run it last on the exact text that will be delivered (quotes straightened, every fix applied), never on an earlier draft.
 5. **Audit.** Run `greenlight-audit.md`, at most three rounds.
 6. **Output,** in the format in section 5.
 
@@ -94,6 +94,7 @@ There's one format: clean voiceover prose for the auto-edit tool.
 
 **Writing for the voice:**
 - **Contractions,** and no em or en dashes (`humanizer.md`, H15).
+- **Straight quotes and apostrophes only** (' and "), never curly ones: before the final scanner run, the script straightens every quote and apostrophe in the delivered text (operator, 2026-10-21: test run 02 shipped 97 curly apostrophes under "mechanical 0").
 - **List numbers are spoken as words** in the narration: "Number eight." Never rely on a marker to announce them.
 - **Prices, years and stats are digits,** with commas in large numbers: "$15," "1,200," "1998." Small everyday counts can be words ("two boards").
 - **Few numbers, easy to follow:** always rounded the way people talk ("about four bucks," "around $40"), never cents; one price per item; never a fee schedule or every listing read aloud (`humanizer.md`, H22).
