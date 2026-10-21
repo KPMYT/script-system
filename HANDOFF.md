@@ -187,6 +187,18 @@ The operator's reply to the merge proposal: "Please do this and ensure there are
 - **Better briefs:** the plumbing ideation skill is in the library now, and its briefs give each item its cost and the right way.
 - **The rotation log comes from the same chat:** "rotation log will always be in the same session so its fine. we have that." A channel's scripts are written in one chat, so the gate takes the ROTATION LOG ENTRY lines from the earlier scripts in it; pasting is only needed in a fresh chat. This replaces "the operator isn't tracking it for now" and "open a new chat for each script".
 
+### Operator decisions, 2026-10-21 (plumbing test run 02: emotion)
+
+From the judge's report and three comparisons of test run 02 (`tests/iterations/iter-04/test-run-02/`). The operator: "your analaysis was strong and correct. this script was not bad but NOT UP TO SCRATCH." To apply in the next chat (`drafts/plumbing-emotion-and-cta-DRAFT.md`):
+- **Simpler and stronger on emotion, all the way through:** "it doesnt necessarily mean giving the worst case scenario. it means using strong words and targetting the exact pain points of this audience like reference scripts do."
+- **The villain comes back sporadically throughout,** not once.
+- **Disgust at a big price, as an opinion:** "that is absolutely criminal they charge that much" (aimed at the price, never a named company or a motive).
+- **Much more "but",** inside items and from item to item.
+- **Reaffirm the title's and concept's emotions throughout.**
+- **Questions to the viewer:** yes.
+- **Roger is Classic** (no CTA markers): "YOU ARE RIGHT. ROGER IS CLASSIC I AM WRONG."
+- **The hook:** an earlier ask for "more exagerations" was refined to the above; worst-case stakes are not the point.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

@@ -2,6 +2,19 @@
 
 Written 2026-10-21 from the judge's report and the three comparisons of test run 02 (`tests/iterations/iter-04/test-run-02/judge-report.md` and `comparison/`: the real creators, TheCheapFix, Roger's own hits). Nothing here is in the library until the operator says yes. Each part says where it goes in `plumbing-scripts/SKILL.md` and what it replaces.
 
+## The operator's reply (2026-10-21), to apply in the next chat
+
+> "the villains need to be mentioned sporadically throughout. we must also show disgust to when things are very expensive. we give the opinion 'that is absolutely criminal they charge that much' for example. we want much more buts. both within sections and from section to section. we must reaffirm throughout the emotions we are trying to trigger from the title and concept. we can ask questions yes. your analaysis was strong and correct. this script was not bad but NOT UP TO SCRATCH."
+
+What this changes in the draft below (decided by the operator):
+- **Part 1, rule 9 (the villain):** not "at least twice" but **sporadically all the way through**: the trade's prices and silence, and the store shelf, come back again and again.
+- **New, Part 1:** **disgust at a big price, said as Roger's opinion:** "That is absolutely criminal, what they charge for that." Aimed at the price, never a named company, never a claim about motives.
+- **Part 1, rule 4 ("but"):** **much more**, both inside items and between items: a turn in every item, and bridges that turn ("But that one's cheap. The next one isn't.").
+- **Part 1, rule 8 (the title's feeling):** **reaffirm all the way through** the emotions the title and concept promise ("quietly costing you thousands": the hidden, growing bill).
+- **Part 1, rule 5 (questions):** yes.
+
+Not answered yet (ask once in the next chat): Part 3 (the item shape and length), Part 4 (the CTA template) and Part 5 (the judge's six fixes). The operator called the analysis "strong and correct", which may mean yes to all.
+
 ---
 
 ## Part 1. New section "Emotion, all the way through" (after "The opening")
