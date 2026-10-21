@@ -1,4 +1,4 @@
-# S02. Borax vs Baking Soda vs Washing Soda — A 45-Year Plumber's Verdict
+# S02. Borax vs Baking Soda vs Washing Soda: A 45-Year Plumber's Verdict
 
 - **Channel:** Mark Silverbridge Plumbing · **Video:** Rb0aS97YnSA · https://www.youtube.com/watch?v=Rb0aS97YnSA
 - **Tag:** [structure only] (AI-voiced: never borrow voice or wording)

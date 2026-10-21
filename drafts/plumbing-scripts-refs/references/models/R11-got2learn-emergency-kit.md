@@ -35,7 +35,7 @@
 
 ## Why it works
 
-It doesn't, by the channel's standard: at 0.55x it is a recent upload below Got2Learn's normal, and it is included because the study has few seasonal or emergency models, not because it won. What it offers a writer is the shape. The reason for the kit is concrete and checkable: "in older homes these can sometimes be froze shut since they don't work very often" (0:54). The tally is the device the study singles out (`studies/plumbing/comparison/07-body-craft.md`, `08-suggestions-with-examples.md`, `09-differences.md`): "which brings us up to $42 for now" (4:38), closed with "which totals up to exactly $50 for this kit" (7:35). The honest limit is plain and repeated: "this is a temporary fix" (4:20), "so you'll need to call a plumber to get it done properly" (4:26), and the plumber's card as a kit item. Viewers answered by adding their own items ("I'd add a couple of SharkBite 1/2" and 3/4" end caps" leads at 51 likes; about 10 such comments) and by naming the real stake: "Plumbers on emergency hours are super expensive and the kit is cheap insurance." (14 likes). Against it: a greeting, a 46-second opening before the first point, a 90% claim never supported (`06-titles-and-promises.md`), and exact prices that dated fast ("Kit is $100 now" (0 likes)).
+It doesn't, by the channel's standard: at 0.55x it is a recent upload below Got2Learn's normal, and it is included because the study has few seasonal or emergency models, not because it won. What it offers a writer is the shape. The reason for the kit is concrete and checkable: "in older homes these can sometimes be froze shut since they don't work very often" (0:51). The tally is the device the study singles out (`studies/plumbing/comparison/07-body-craft.md`, `08-suggestions-with-examples.md`, `09-differences.md`): "which brings us up to $42 for now" (4:38), closed with "which totals up to exactly $50 for this kit" (7:35). The honest limit is plain and repeated: "this is a temporary fix" (4:17), "so you'll need to call a plumber to get it done properly" (4:26), and the plumber's card as a kit item. Viewers answered by adding their own items (the top comment, at 51 likes, adds push-fit end caps; about 10 comments add items) and by naming the real stake: "Plumbers on emergency hours are super expensive and the kit is cheap insurance." (14 likes). Against it: a greeting, a 46-second opening before the first point, a 90% claim never supported (`06-titles-and-promises.md`), and exact prices that dated fast ("Kit is $100 now" (0 likes)).
 
 ## Script (verbatim, labelled)
 
@@ -162,13 +162,13 @@ It doesn't, by the channel's standard: at 0.55x it is a recent upload below Got2
 - **A garbled stake said as a certainty** (the caption reads $155,000; a comment says $15K; check against the brief, and "can help avoid", never "will prevent"): [1:03] "this $50 kit will prevent a $155,000 claim if caught on time"
 - **A guaranteed saving:** [7:44] "that'll save you thousands of damage if something happens"
 - **Single exact product prices** (ours are ranges; "Kit is $100 now"):
-  - [2:42] "the price for both of these are $12 for the rotary cutter"
+  - [2:38] "the price for both of these are $12 for the rotary cutter"
   - [7:35] "which totals up to exactly $50 for this kit"
 - **Pointing at the footage:**
-  - [1:39] "so let me set this aside"
+  - [1:36] "so let me set this aside"
   - [2:01] "this particular model cutter right here"
-  - [2:51] "the second items in this kit are these two"
+  - [2:47] "the second items in this kit are these two"
   - [4:09] "which is this one right here"
-  - [6:38] "this flash light right here"
+  - [6:36] "this flash light right here"
 - **First-person channel history:** [2:16] "if you've been following me on my channel for a while now"
 - **A plug for another video in the middle of an item:** [2:57] "if you aren't familiar with these types of repairs go check out this video I made"

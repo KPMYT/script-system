@@ -1,4 +1,4 @@
-# S06. 1 Cup of This Destroys Every Drain Clog — But Never Touches Your Pipes
+# S06. 1 Cup of This Destroys Every Drain Clog: But Never Touches Your Pipes
 
 - **Channel:** Roger the Pipe Guy · **Video:** kHT6ZL8At0w · https://www.youtube.com/watch?v=kHT6ZL8At0w
 - **Tag:** [structure only] (AI-voiced: never borrow voice or wording)
