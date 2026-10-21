@@ -1,6 +1,6 @@
 ---
 name: plumbing-scripts
-description: Script rules for the operator's plumbing channels (Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter, and any future channel in this niche). Use whenever a plumbing script is written, rewritten or reviewed, or a plumbing research pack or brief arrives for scripting. Sets the villain, the opening by video type, "point then promise", the structure of each video type, CTAs, length, voice, proof, money framing, safety and the plumbing scanner checks. Persona, tenure, book and CTA wording come from the channel's persona profile; claims policy, output format and the audit come from the core rules.
+description: Script rules for the operator's plumbing channels (Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter, and any future channel in this niche). Use whenever a plumbing script is written, rewritten or reviewed, or a plumbing title and brief arrive for scripting. Sets the villain, the opening by video type, "point then promise", the structure of each video type, CTAs, length, voice, proof, money framing, safety and the plumbing scanner checks. Persona, tenure, book and CTA wording come from the channel's persona profile; claims policy, output format and the audit come from the core rules.
 ---
 
 <!--
@@ -30,9 +30,22 @@ A plumbing video solves one household problem cheaply, or settles one decision, 
 
 ## Files in this skill [LATER]
 
-Planned: `references/research-pack-template.md`, `references/unit-plan-template.md`, `references/voice-samples.md`, `references/excerpts.md`, `references/reference-scripts.md`, and `archive/` with the compiled transcripts of the real-life channels (Silver Cymbal, Roger Wakefield, Got2Learn, Arrow Pest Service) [DECIDED], all under the copy guard.
+Planned: `references/unit-plan-template.md`, `references/voice-samples.md`, `references/excerpts.md`, `references/reference-scripts.md`, and `archive/` with the compiled transcripts of the real-life channels (Silver Cymbal, Roger Wakefield, Got2Learn, Arrow Pest Service) [DECIDED], all under the copy guard.
 
-## Inputs and freshness [LATER]
+## Inputs [DRAFT: for your yes]
+
+Plumbing scripts are written from the title and the brief alone; there is no research pack [DECIDED 2026-10-21]. The workflow reads this block at START and won't write until every required input passes.
+
+```inputs
+- title | required | the locked title, exactly as approved
+- brief | required | the ideation brief for this title; every fact, price, dose and method in the script comes from it
+- research-pack | not used | plumbing scripts are written from the brief
+- rotation-log | required | the channel's last five ROTATION LOG ENTRY lines, or "none" for a new channel
+```
+
+- **The brief is the fact source.** It does the research pack's job: the scanner checks every number in the script against the brief, and the brief wins on safety.
+- **No freshness check.** Prices are said as ranges (see "Money framing"), so nothing is re-checked at START.
+- **If the brief is missing something the script needs** (the trade's typical price, a dose, a wait time), the run stops with NOT READY and names it. It never invents the fact.
 
 ## The viewer [APPROVED 2026-10-21]
 
@@ -161,15 +174,15 @@ The clearest difference in the study: the face channels, and Got2Learn filming h
 
 **Use:**
 - **The mechanism, in one plain line:** why it works. "Its entire job is to corrode so your tank does not." The best ones are under 15 words.
-- **A number from the research pack, said as a typical range** rather than one exact price: "somewhere between four hundred and eight hundred dollars for the unit." A source may be named when it helps ("the Department of Energy puts it at…"), but sources and store names don't have to be said [DECIDED].
-- **The maker's own warning,** when the research pack confirms one: "Kohler, American Standard and Toto all warn against chlorine tablets in their own instructions."
-- **A check the viewer runs at home,** with what they'll see either way: the fizz test for old peroxide, food colouring in the tank for a leaking flapper. Only checks the research pack confirms really work (food colouring can't find a leak at the toilet's base).
+- **A number from the brief, said as a typical range** rather than one exact price: "somewhere between four hundred and eight hundred dollars for the unit." A source may be named when it helps ("the Department of Energy puts it at…"), but sources and store names don't have to be said [DECIDED].
+- **The maker's own warning,** when the brief confirms one: "Kohler, American Standard and Toto all warn against chlorine tablets in their own instructions."
+- **A check the viewer runs at home,** with what they'll see either way: the fizz test for old peroxide, food colouring in the tank for a leaking flapper. Only checks the brief confirms really work (food colouring can't find a leak at the toilet's base).
 - **The honest limit:** what the fix won't do. "Peroxide does not dissolve rock."
 - **Exact amounts, waits and what "done" looks like:** "One cup of washing soda stirred into two or three cups of hot tap water. Leave it six to eight hours." Check the arithmetic of every dose: one hit called two cups "half of a 16-ounce bottle" (it's the whole bottle), and four comments caught it.
 - **The typical case, as a general statement:** "Plenty of people replace a toilet when the rim jets only needed cleaning."
 
 **Never:**
-- **First-person tests, trials or demonstrations,** even when the title promises tests [DECIDED 2026-10-21]. "I put all three through eight brutal tests" drew "Where is the footage of him doing the tests?" Tests and results are fine when the brief or research pack gives them, said without "I": "In pull tests, the push-fit gave way first." "Side by side, the enzyme cleaner took three nights; the jug took fifteen minutes and the clog was back in a week."
+- **First-person tests, trials or demonstrations,** even when the title promises tests [DECIDED 2026-10-21]. "I put all three through eight brutal tests" drew "Where is the footage of him doing the tests?" Tests and results are fine when the brief gives them, said without "I": "In pull tests, the push-fit gave way first." "Side by side, the enzyme cleaner took three nights; the jug took fifteen minutes and the clog was back in a week."
 - **Anything that needs footage the channel doesn't control:** "watch me", "look at the toilet on the left", "there's a stack of receipts on my bench right now".
 - **Customer stories and results:** "I had a homeowner tell me…", "an exterminator quoted a lady three hundred dollars". The claims policy bans customers; say it as the typical case instead.
 - **Nameless claimed experience:** "the worst tank we've ever opened".
@@ -183,7 +196,7 @@ All 15 of our hits set the fix's cost against what the trade charges. In this ni
 - Did it: "That little brown bottle sitting in your medicine cabinet cost about $1 at most drug stores. And yet the average homeowner pays a plumber $300 or more every single year…" (TheCheapFix, 2.18M views; first sentence).
 - Didn't: Vintage's enzyme video names no product and no price at the point; the per-night cost arrives more than five minutes later.
 
-**2. Every price is a range from the research pack,** never one exact figure.
+**2. Every price is a range from the brief,** never one exact figure.
 - Drew fire: "usually around eight to twelve dollars a bottle" brought "This guy prices are from 1924, Amazon - BIO-CLEAN $79.95." "A dollar or two" for peroxide brought "Peroxide is now priced close to 5.00 since COVID." TheCheapFix's "$1 a bottle" brought "Maybe 30 years ago!" (48 likes).
 - Survived: "An after hours no heat call lands somewhere between $200 and $400 in most of the country, more at night or on a weekend" (Mark). No disputes.
 - Write: "A flapper runs about five to fifteen dollars. Having someone fit it usually starts around a hundred and fifty."
@@ -202,7 +215,7 @@ All 15 of our hits set the fix's cost against what the trade charges. In this ni
 
 **6. A money figure in the title is paid at its item,** with what was avoided spelled out. TheCheapFix's "#4 Saves $300" lands at item four as the new toilet nobody has to buy: "you absolutely do not need to pay a plumber $300 to $500 to replace your fixture."
 
-**7. Brand names are optional** [DECIDED: sources and store names aren't required]. Name a widely sold product only when it is the answer and the research pack confirms it's on sale now. Viewers acted on the one brand our hits named: "I ordered some Arm & Hammer super washing soda… The water is draining for the first time in months!" (304 likes).
+**7. Brand names are optional** [DECIDED: sources and store names aren't required]. Name a widely sold product only when it is the answer and the brief confirms it's on sale now. Viewers acted on the one brand our hits named: "I ordered some Arm & Hammer super washing soda… The water is draining for the first time in months!" (304 likes).
 
 **Never:**
 - **A guaranteed saving** (claims policy). Not "this saves you $300", but "this can save you the $300 visit".
@@ -211,7 +224,7 @@ All 15 of our hits set the fix's cost against what the trade charges. In this ni
 
 ## Safety [APPROVED 2026-10-21; the brief always wins]
 
-The facts and methods come from the brief and the research pack, and **the brief always wins** [DECIDED 2026-10-21]. There's no separate fact bank: contradictions between one video and another are acceptable [DECIDED].
+The facts and methods come from the brief, and **the brief always wins** [DECIDED 2026-10-21]. There's no separate fact bank: contradictions between one video and another are acceptable [DECIDED].
 
 **Defaults, only where the brief is silent.** These five drew the angriest comments in the study (about 18 on boiling water and 17 on washing soda that set hard: "Thanks to this video I had to hire a plumber!"), so the script uses the safe version unless the brief says otherwise:
 1. **Hot tap water,** not boiling water, for drains, toilets and plastic pipe.
