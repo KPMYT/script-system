@@ -69,3 +69,18 @@ The study supports the narrow form of both: a tenure stated the same way every t
 **Proposal:** pick one figure for Vintage so titles and scripts agree.
 
 **Status:** decided by the operator on 2026-10-21: "stick with what the ideation skill says. all 45. mark 40." Applied: `personas/vintage-pipefitter.md` (`tenure: 45`), `plumbing-scripts/SKILL.md`, test 25. Roger stays 45 and Mark 40. Mark's figure isn't in the ideation skill yet (it says he has no number), which doesn't clash: titles without a number leave the profile's 40.
+
+## P7. Where the plumbing brief is silent, the script fills in (opened 2026-10-21, first plumbing test)
+
+**Decision (HANDOFF.md section 3 and session 4's "the brief is king"):** "a missing fact stops the run rather than being invented"; `plumbing-scripts/SKILL.md`, "Inputs": "If the brief is missing something the script needs (the trade's typical price, a dose, a wait time), the run stops with NOT READY and names it. It never invents the fact." Core `greenlight-audit.md` D4: a number that traces to nothing is a Hold. Core research rules: facts are always verified.
+
+**Evidence:** the first plumbing test (`tests/iterations/iter-04/test-run-01/`): a 15-item mistakes brief with prices for 2 items was refused, and the chat asked for a price and a "right way" fact on all 15. The operator: "we need to have better briefs so but we dont have to extremely overload scirpt with numbers like the issue we had w hank remember. where the brief doesnt suppliment. the script should fill in here." The Hank tests found the same: too many numbers is hard to follow on one listen (iter-01, W3; core `humanizer.md` H22).
+
+**Proposal (plumbing only), three changes:**
+1. **"Inputs", the last bullet, becomes:** "Where the brief is silent, the script fills in. The method, the right setting, how often to check, and what a mistake leads to come from well-established, everyday plumbing knowledge, said plainly. Two limits: no dollar figure the brief doesn't give (say the cost in words instead: "that's a new water heater", "a flooded basement"), and no dose, mix or chemical method beyond the brief and the five safe defaults in "Safety". The run stops with NOT READY only when the brief can't carry the title's main promise."
+2. **"Money framing" gains:** "Not every item needs a number. At most one price per item, and most items carry their cost in words. A list with a dollar figure on every item is too much to follow on one listen."
+3. **A new row in "Where this pack overrides the core"** (D4): "A non-price number the script fills in (a setting such as 120 degrees, a healthy pressure range, 'once a year') is allowed when it's well-established general knowledge; the evidence block lists each one as 'general knowledge'. Every dollar figure still traces to the brief."
+
+**Open question for the operator:** may the script also add typical price ranges from general knowledge when the brief gives none (option B), or are filled-in costs always said in words (option A, recommended: fewer numbers, and no out-of-date prices for viewers to dispute)?
+
+**Status:** open, waiting for the operator's yes.
