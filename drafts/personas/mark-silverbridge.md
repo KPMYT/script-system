@@ -39,8 +39,8 @@ Offer:
   Book text: personas/books/mark-silverbridge-book.md (being extracted)
   True facts (the only facts a CTA may use): [to fill from the book text] fifty step-by-step fixes a homeowner can do on a Saturday with basic tools; how to spot when a contractor is overcharging; when a repair is safe to tackle and when it is not
   The added-value promise: fifty fixes with the steps laid out, and the cost math to know what a job should cost before anyone quotes it
-  Where to get it: [operator to confirm: the link in the description (marksilverbridge.com) or a QR code on screen]
-Style and length: mid-video: one short ask (about 20-60 words) straight after the first real payoff, calm and value-first, tied to this video, then straight back into the next item. End: one line reminding of the book and where to get it.
+  Where to get it: the link in the description (marksilverbridge.com) and the QR code on screen; every CTA names both [operator, 2026-10-21]
+Style and length: mid-video: one short ask (about 20-60 words) straight after the first real payoff, calm and value-first, tied to this video, then straight back into the next item. End: one line reminding of the book, naming the link in the description and the QR code.
 Variants: none
 End ask: none beyond the one-line reminder (the comment line closes the video)
 ```

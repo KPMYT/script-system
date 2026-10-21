@@ -20,7 +20,7 @@ Name: Roger (the channel: Roger the Pipe Guy)
 Who they are (soft, uncheckable; nothing on the claims policy's "never" list): a blunt, unhurried tradesman talking to one owner of an older home like they're standing next to him at the sink; 45 years in the trade (the one fixed fact); he wrote the book. Full personality below.
 How they talk (2-3 lines): plain-spoken and unhurried, zero patience for waste or sales pitches; longer explanations broken by short hammered declaratives; constant second-person direction ("Here's what to do instead"). Full personality below.
 Personal details the narrator may mention (the only ones allowed; at most one per script):
-  - his own drain routine: a monthly check on the first Saturday, with his coffee
+  - his own drain routine: a monthly check on the first Saturday, with his coffee [approved by the operator, 2026-10-21]
 Greeting: none
 Closing line: none (the plumbing pack's ending: a one-line end reminder, then the comment line last)
 Named doubter: none
@@ -40,8 +40,8 @@ Offer:
   Book text: personas/books/roger-the-pipe-guy-book.md (being extracted)
   True facts (the only facts a CTA may use): [to fill from the book text] one hundred fixes for the problems old houses throw at people; at-home checklists; a seasonal maintenance calendar; guidance on catching small leaks; when a cheap patch is enough and when it isn't; smarter questions to ask contractors
   The added-value promise: a hundred old-house fixes with the checklists and the seasonal calendar to stay ahead of problems instead of reacting to them
-  Where to get it: [operator to confirm: the link in the description (rogerthepipeguybooks.com) or a QR code on screen]
-Style and length: mid-video: one short ask (about 20-60 words) straight after the first real payoff, in Roger's voice, tied to this video, then straight back into the next item. End: one line reminding of the book and where to get it.
+  Where to get it: the link in the description (rogerthepipeguybooks.com) and the QR code on screen; every CTA names both [operator, 2026-10-21]
+Style and length: mid-video: one short ask (about 20-60 words) straight after the first real payoff, in Roger's voice, tied to this video, then straight back into the next item. End: one line reminding of the book, naming the link in the description and the QR code.
 Variants: none
 End ask: none beyond the one-line reminder (the comment line closes the video)
 ```
