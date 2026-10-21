@@ -94,7 +94,7 @@ There's one format: clean voiceover prose for the auto-edit tool.
 - **Contractions,** and no em or en dashes (`humanizer.md`, H15).
 - **List numbers are spoken as words** in the narration: "Number eight." Never rely on a marker to announce them.
 - **Prices, years and stats are digits,** with commas in large numbers: "$15," "1,200," "1998." Small everyday counts can be words ("two boards").
-- **Few numbers, easy to follow:** always rounded the way people talk ("about fifteen bucks," "around $90"), never cents; one price per item; never a fee schedule or every listing read aloud (`humanizer.md`, H22).
+- **Few numbers, easy to follow:** always rounded the way people talk ("about four bucks," "around $40"), never cents; one price per item; never a fee schedule or every listing read aloud (`humanizer.md`, H22).
 - **Spell out anything a voice might misread,** the way it's said: measurements with fractions ("five and three-quarters inches") and degrees ("45 degrees"). Never symbols like ° or ½.
 - **Introduce each named person by full name once.** After that, use the surname, a pronoun, or their role.
 

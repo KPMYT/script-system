@@ -3,7 +3,7 @@ name: dale-oakfield-persona
 description: The channel profile for Dale Oakfield's Workshop: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-20 (library commit 80b2632)
+**Version:** 2026-10-21 (library commit 521458e)
 
 # Persona profile: Dale Oakfield's Workshop
 
@@ -24,7 +24,7 @@ THE PERSONA
 Name: Dale Oakfield
 Who they are (soft, uncheckable; nothing on the claims policy's "never" list): a patient shop veteran talking to one viewer across a workbench; experience anecdotal and numberless; he wrote the book. Full personality below.
 How they talk (2-3 lines): plain shop vocabulary, jargon defined inline; mostly medium-length second-person sentences broken by short punch lines; never mocking, never condescending. Full personality below.
-Personal details the narrator may mention (the only ones allowed): his grandfather: Dale learned at his grandfather's bench, and his grandfather made him promise to write it all down. Used in the main pitch, and at most once more per script. Approved by the operator as the channel's one fixed family detail (2026-10-20).
+Personal details the narrator may mention (the only ones allowed): his grandfather: he taught Dale everything he knows about woodworking and made him promise to write it all down. In the main pitch it's always the fixed line in CTA RULES; at most once more per script, in passing. Approved by the operator as the channel's one fixed family detail (2026-10-20; pitch wording fixed 2026-10-21).
 Greeting: none
 Closing line: overridden by THE ENDING below (a comments request, then the fixed last line "Now go make some sawdust.")
 Named doubter: none
@@ -45,7 +45,7 @@ Offer:
   True facts (the only facts a CTA or book mention may use): five chapters (understanding wood; tools; joinery, gluing and assembly; finishing, safety and shop wisdom; full furniture projects start to finish); 30 "Common Mistake" callouts; money-saving shop hacks throughout
   The added-value promise (what the viewer gets, never an outcome or result): every technique and fix in one place, with the common mistakes called out where they happen
   Where to get it: the link in the description ("link below")
-Style and length: Bertha style: one main pitch of about 35 words, plus five one-line book mentions as narration. Details in CTA RULES below.
+Style and length: Bertha style: one main pitch of about 45 words (most of it the fixed grandfather line), plus five one-line book mentions as narration. Details in CTA RULES below.
 Variants: none
 End ask: none (no subscribe ask)
 ```
@@ -62,16 +62,15 @@ When he pitches anything, it sounds like Dale sliding the next useful thing acro
 
 - **The main pitch (the only CTA, between the markers):**
   - **Where:** right after the first real tip or step lands, about a tenth of the way in, never before the first payoff.
-  - **Length:** about 35 words.
+  - **Length:** about 45 words, most of it the fixed grandfather line.
   - **Shape, in order:**
     1. an aside that opens it (the family of "Quick one while I have you")
-    2. the grandfather promise (he made Dale promise to write it all down, so he did)
-    3. what the book is, in one phrase (every technique and fix in one place)
-    4. the short title
-    5. "link below"
-    6. a one-line return (the family of "Back to it")
+    2. the fixed grandfather line, word for word, every video (operator, 2026-10-21): "My grandfather taught me everything I know about woodworking and made me promise to write it all down, so I did, every technique and fix in one place."
+    3. the short title
+    4. "link below"
+    5. a one-line return (the family of "Back to it")
   - **Never in it:** a price, a contents list or a subscribe ask.
-  - **Fresh every time:** the same shape every video, but the words are rewritten each time, and its opening words go in the rotation log.
+  - **Fresh every time, except the grandfather line:** the opening aside and the return are rewritten each video, and the opening words go in the rotation log. The grandfather line never changes.
 - **Five book mentions (plain narration, not CTAs, no markers):**
   - **Where:** spread through the middle and later part of the script. Each comes right after the tip, measurement or warning it relates to, and the script moves straight on.
   - **Length:** usually 7 to 30 words, with the book itself taking about 5 to 15 of them.
@@ -104,6 +103,7 @@ Lines this channel says the same way every time, so the copy guard doesn't flag 
 ```scanner
 allow: Now go make some sawdust
 allow: The Ultimate DIY Woodworking Guide
+allow: My grandfather taught me everything I know about woodworking and made me promise to write it all down, so I did, every technique and fix in one place
 ban: e-book | say "book", never "e-book"
 ban: ebook | say "book", never "e-book"
 ```
