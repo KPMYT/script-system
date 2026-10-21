@@ -9,6 +9,10 @@ Channel:
 Video type:                        [one of the ten in SKILL.md, or "new type; closest is ..."]
 Years figure:                      [none / the title's number / the profile's number]
 
+MODELS                             [from references/models/INDEX.md; none used in the channel's last five scripts]
+- model(s) used:                   [file numbers; blending is encouraged]
+- at least three differences:      [opening order / number or order of items / promise devices / money device / comment question]
+
 OPENING                            [order this time, from the video type: ...]
 - the point, first sentence:       [the subject, and the fix or product named]
 - question (optional):             [one the viewer answers in their own house; answered within ~15 s]
@@ -49,6 +53,7 @@ LENGTH ESTIMATE
 - can't reach 12 minutes with real value? -> NOT READY: ask for a fuller brief; never pad
 
 VARIATION CHECK                    [against the rotation log]
+- models (not in the last five):
 - opening order and shape:
 - promise devices:
 - money device:
