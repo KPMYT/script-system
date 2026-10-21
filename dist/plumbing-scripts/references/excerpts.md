@@ -483,7 +483,7 @@ The line at the end of one item, or inside it, that names the next value so the 
 
 ## 15. Short mid-video CTAs and one-line end reminders
 
-The mid-video ask (Roger the Pipe Guy and Mark Silverbridge only, after the second or third item, in the six-part shape in SKILL.md's "CTAs") and the one-line end reminder on every channel. Notice that the best of them start on a short aside, tie the ask to the help just given, hand straight back to the next item with its stake, and that the end reminders are one sentence. Borrow the aside, the tie-in and the return line (the mid-video ask runs about 60-80 words, one line at the end); the offer and its wording always come from the persona profile. Wording is never copied: the copy guard flags any run of 8 or more words shared with this file.
+The mid-video ask (Roger the Pipe Guy and Mark Silverbridge only, about a third of the way in, in the six-part shape in SKILL.md's "CTAs") and the one-line end reminder on every channel. Notice that the best of them start on a short aside, tie the ask to the help just given, hand straight back to the next item with its stake, and that the end reminders are one sentence. Borrow the aside, the tie-in and the return line (the mid-video ask runs about 60-80 words, one line at the end); the offer and its wording always come from the persona profile. Wording is never copied: the copy guard flags any run of 8 or more words shared with this file.
 
 **Mid-video**
 

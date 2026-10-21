@@ -3,7 +3,7 @@ name: roger-the-pipe-guy-persona
 description: The channel profile for Roger the Pipe Guy: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-21 (library commit 0d514eb)
+**Version:** 2026-10-21 (library commit 56438f7)
 
 # Persona profile: Roger the Pipe Guy
 
@@ -48,7 +48,7 @@ Offer:
   True facts (the only facts a CTA may use): 100 numbered fixes in 16 chapters and six parts (first checks before you spend a dime; leaks, drips and water damage; drains, toilets and odors; old pipes, fittings and fast repairs; water heaters, basements and seasonal protection; and a final part); every fix has the same six parts: the problem, why it costs money, Roger's first check, the cheap fix, when to call a pro, and the money saved; back matter: a checklist, a shutoff sheet, a seasonal maintenance calendar, a troubleshooting guide, a contractor question sheet, a tools list and a glossary
   The added-value promise: a hundred old-house fixes with the checklists and the seasonal calendar to stay ahead of problems instead of reacting to them
   Where to get it: the link in the description (rogerthepipeguybooks.com) and the QR code on screen; every CTA names both [operator, 2026-10-21]
-Style and length: mid-video: about 60-80 words after the second or third item (about a third of the way in), at the end of an item's win, in the shape from Roger's hits (the plumbing pack's "CTAs"): an aside signal, tied to the help just given, the book has the rest (pages from the book match), one benefit, the link in the description and the QR code, a return line into the next item; in Roger's voice. End: one line reminding of the book, naming the link in the description and the QR code.
+Style and length: mid-video: about 60-80 words, about a third of the way in, never before the end of item 3 (in a list of 15, after item 4 or 5), at the end of an item's win, in the shape from Roger's hits (the plumbing pack's "CTAs"): an aside signal, tied to the help just given, the book has the rest (pages from the book match), one benefit, the link in the description and the QR code, a return line into the next item; in Roger's voice. End: one line reminding of the book, naming the link in the description and the QR code, then the plumbing pack's comment ask (an outright ask to comment, not an abrupt "Tell me").
 Variants: none
 End ask: none beyond the one-line reminder (the comment line closes the video)
 ```

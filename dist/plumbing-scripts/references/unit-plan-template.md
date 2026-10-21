@@ -52,10 +52,10 @@ SAFETY
 - call-a-pro trigger:              [a named sign, never "if it's outside your comfort zone"]
 
 CTAs AND ENDING
-- mid CTA after:                   [item 2 or 3, about a third in, at the end of its win] (Roger, Mark; none on Vintage)
+- mid CTA after:                   [about a third in, never before the end of item 3; in a list of 15, item 4 or 5; at the end of its win] (Roger, Mark; none on Vintage)
 - mid CTA shape:                   aside signal -> tied to the help just given -> a small part of the book, pages from the book match -> one benefit -> link and QR code -> return line
 - end reminder:                    one line
-- comment line (the last line):    [a specific question from the viewer's house, + "I read every one"; not last video's]
+- comment ask (the end):           [a turn to the viewer, an outright ask to comment, a specific question from the viewer's house, + "I read every one"; not last video's]
 
 PROMISES CHECK
 - each promise -> where it's paid  [the first within ~5 min; none held past the middle except the safety rule or a second use]
