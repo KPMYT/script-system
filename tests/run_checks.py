@@ -400,6 +400,15 @@ code3,out3=run_scan("Let's look. Where's the valve?\n",[PLR,MARK])
 check("35. plumbing: 'today we're going to' banned; Mark's 'here is the part nobody tells you' limited to once; 'Let's' and 'Where's' caught",
       code==1 and "today we're going to" in out and code2==1 and "NICHE/PERSONA LIMIT" in out2 and code3==1 and out3.count("contraction")>=2, out+out2+out3)
 
+# 36. the plumbing price guide: every table row is rounded (no cents), carries a check mark, and the pack points to it
+PG=f"{PL}/references/price-guide.md"
+rows=[l for l in open(PG).read().splitlines() if l.startswith("| ") and not l.startswith("| Item") and not l.startswith("| Fact") and not set(l) <= set("|- ")] if os.path.isfile(PG) else []
+cents=[l for l in rows if re.search(r"\$\d[\d,]*\.\d", l)]
+nocheck=[l for l in rows if l.rstrip(" |").split("|")[-1].strip() not in ("confirmed","adjusted","thin","in words")]
+check("36. price guide: 100+ rows, none in cents, each marked confirmed / adjusted / thin / in words; the plumbing pack and its scanner line use it",
+      len(rows)>=100 and not cents and not nocheck and "references/price-guide.md" in open(PLR).read()
+      and "price-guide.md" in open(f"{ROOT}/tools/build_skills.py").read(), f"rows={len(rows)} cents={cents[:3]} nocheck={nocheck[:3]}")
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")

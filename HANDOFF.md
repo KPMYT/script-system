@@ -214,6 +214,6 @@ The operator's reply to the merge proposal: "Please do this and ensure there are
 
 ## 5. Known limits
 
-- **The scanner's number check matches values, not meanings.** "40 pieces" can match a $40 price.
+- **The scanner's number check matches values, not meanings.** "40 pieces" can match a $40 price. For plumbing it reads the brief and the price guide together, and the guide holds so many figures that an invented price near any of them passes: the audit's D4 (each price named to the brief or the guide row) is the real check.
 - **Facebook Marketplace's fee for shipped orders** isn't settled in published sources. The research pack must verify it every time.
 - **No real end-to-end run has happened yet.** Persona profiles and the research stage don't exist yet.

@@ -1,0 +1,28 @@
+# Group A: service calls, drains, sewer, toilets
+- Plumber service call / trip fee (normal hours)
+- Plumber hourly rate (US typical)
+- After-hours / weekend / emergency call surcharge and typical emergency call total
+- Clearing a sink, tub or shower drain clog (pro)
+- Clearing a toilet clog (pro), and pulling a toilet to clear it
+- Main sewer line clearing with a cable machine (snaking the main)
+- Hydro jetting a sewer line
+- Sewer camera inspection
+- Tree root removal from a sewer line (mechanical cutting); chemical root treatment (DIY product and pro)
+- Sewer line spot repair (dig up one section)
+- Sewer line full replacement (traditional dig)
+- Trenchless sewer line relining (CIPP) and pipe bursting
+- Installing a sewer cleanout
+- Grease clog in a kitchen line (pro clearing)
+- Clog caused by "flushable" wipes in the main line (pro clearing)
+- P-trap replacement (pro) and P-trap kit (DIY part)
+- Garbage disposal: unjam/reset (pro call), replacement installed, disposal unit price
+- Toilet flapper replacement (pro) and flapper part
+- Toilet fill valve replacement (pro) and fill valve part
+- Running toilet repair (pro typical)
+- Toilet wax ring replacement / reseat (pro) and wax ring part
+- Toilet replacement installed (standard toilet), and toilet unit price
+- Toilet flange repair
+- Rocking toilet fix (shims, pro)
+- Water cost of a running toilet: gallons per day (range for a small leak to a constantly running toilet) and what that adds to a monthly water/sewer bill at typical US combined water+sewer rates per 1,000 gallons
+- Bathroom sink stopper / pop-up drain repair
+- Gurgling drain / venting problem diagnosis and vent clearing

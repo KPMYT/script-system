@@ -7,7 +7,7 @@ fix-on-sight. Everything else is a candidate for a human or model to judge with
 the shape test in voice-anchoring.md.
 
 Usage:
-  python3 script-scanner.py SCRIPT [--rules FILE ...] [--pack FACT_SOURCE] [--title TITLE] [--refs FILE ...]
+  python3 script-scanner.py SCRIPT [--rules FILE ...] [--pack FACT_SOURCE ...] [--title TITLE] [--refs FILE ...]
 
   SCRIPT       the script file (plain text or markdown).
   --rules      niche pack and/or persona profile files. Any ```scanner block in them
@@ -568,7 +568,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("script")
     ap.add_argument("--rules", nargs="*", default=[])
-    ap.add_argument("--pack")
+    ap.add_argument("--pack", nargs="+", default=[], help="the fact source; several files are read as one (the plumbing brief plus its price guide)")
     ap.add_argument("--refs", nargs="+", default=[])
     ap.add_argument("--title", help="the locked title; a years-in-the-trade figure in it is allowed in the script")
     a = ap.parse_args()
@@ -600,7 +600,7 @@ def main():
     print(f"ECHO (H18): {len(echoes)}")
     for e in echoes: print("  " + e)
     if a.pack:
-        missing = number_check(text, open(a.pack, encoding="utf8", errors="ignore").read())
+        missing = number_check(text, "\n".join(open(f, encoding="utf8", errors="ignore").read() for f in a.pack))
         print(f"\nNUMBERS NOT FOUND IN THE FACT SOURCE ({len(missing)})  (invented, or derived: confirm the math)")
         for v, s in missing[:30]:
             print(f"  {v:g}  <<  {s[:110]}")

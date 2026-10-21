@@ -39,6 +39,7 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 |---|---|
 | `SKILL.md` | All plumbing rules, approved by the operator (2026-10-21): where the pack overrides the core (one table), inputs (title and brief; no research pack), the viewer, the villain, the opening, point then promise, promise devices, the ten video types with their models, using the models (never a copy), CTAs, the ending (comment line last), length (12 minutes minimum), voice, proof, money framing, safety (the brief wins), the banned list, the scanner block and the before-handing-over checklist. |
 | `references/unit-plan-template.md` | The plan filled in from the title and brief before writing, with a MODELS block. |
+| `references/price-guide.md` | Typical US prices (October 2026) for about 140 jobs, parts, damage costs and shelf items, plus the safety facts and settings, each marked confirmed, adjusted, thin or "in words". Researched by four helpers and re-checked by four others against different sources; the evidence is in `studies/plumbing/price-research-2026-10/`. The script uses it for any price the brief doesn't give, always as an estimate. |
 | `references/voice-samples.md` | Three verbatim stretches of real human narration (Got2Learn, Silver Cymbal, Roger Wakefield): the voice anchor. |
 | `references/excerpts.md` | 204 lines in 16 groups by job, tagged [real] or [structure only], with source, timestamp and views against normal. |
 | `references/models/` | 38 model files, each a beat map plus the full labelled script, why it works and what doesn't transfer: R01-R20 the real channels (structure and voice), S01-S18 our hits and TheCheapFix (structure only). `INDEX.md` sorts them by video type. |
@@ -83,7 +84,7 @@ Research data: collect and describe only, never edited to fit a conclusion.
 | Folder | What's in it |
 |---|---|
 | `woodworking/` | The woodworking-for-profit study (2026-10-17): Hank, Dale and two competitors, 45 videos. Transcripts, comments, views against each channel's normal, one descriptive notes file per video, and combined transcripts. Method in `study-brief.md`, every step in `log.md`. |
-| `plumbing/` | The plumbing study (started 2026-10-20): Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter and five competitors (one a pest-control parallel niche, one an AI channel), 5 most recent plus 5 most-viewed (last 24 months) per channel. Same layout and method as woodworking; see its `study-brief.md` and `log.md`. Got2Learn's second group is its all-time top 5 (it stopped uploading). `comparison/` holds the analysis: measured numbers, own hits against recent uploads, competitor profiles, a side-by-side on 12 dimensions, and a summary with suggestions for the plumbing script rules (none applied). |
+| `plumbing/` | The plumbing study (started 2026-10-20): Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter and five competitors (one a pest-control parallel niche, one an AI channel), 5 most recent plus 5 most-viewed (last 24 months) per channel. Same layout and method as woodworking; see its `study-brief.md` and `log.md`. Got2Learn's second group is its all-time top 5 (it stopped uploading). `price-research-2026-10/` holds the price research and re-checks behind the plumbing price guide. `comparison/` holds the analysis: measured numbers, own hits against recent uploads, competitor profiles, a side-by-side on 12 dimensions, and a summary with suggestions for the plumbing script rules (none applied). |
 
 ## drafts/
 
@@ -91,7 +92,7 @@ Drafts waiting for the operator's yes go here; nothing in it is part of the libr
 
 ## tests/
 
-`run_checks.py`: 42 automated checks across the whole library, including the copy guard, the fraction-word scanner check, the "e-book" ban on every profile, and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over every model file, the plumbing profiles and the channel list). Run it after any edit.
+`run_checks.py`: 43 automated checks across the whole library, including the copy guard, the fraction-word scanner check, the "e-book" ban on every profile, and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over every model file, the plumbing profiles and the channel list). Run it after any edit.
 
 ## tests/iterations/
 

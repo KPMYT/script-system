@@ -1,0 +1,25 @@
+# Group B: water heaters, gas, temperature and energy
+- Tank water heater replacement installed: 40-50 gallon gas and electric (unit + install)
+- Tank water heater unit price (40-50 gallon), store prices
+- Tankless water heater installed (gas and electric), including typical retrofit extras (venting, gas line upsizing)
+- Water heater typical lifespan (tank and tankless)
+- Water heater flush / sediment drain (pro) and DIY (cost of a hose, nothing)
+- Anode rod replacement (pro) and anode rod part (magnesium/aluminum/powered)
+- How often to check an anode rod (manufacturer and common guidance)
+- Electric heating element replacement (pro) and element part
+- Electric thermostat replacement (pro) and part
+- Gas thermocouple replacement (pro) and thermocouple part
+- Gas pilot relight (service call)
+- T&P relief valve replacement (pro) and valve part
+- Expansion tank installed and part
+- Thermostatic mixing valve installed and part
+- Recommended water heater setting (DOE/CPSC guidance: 120 F), scald times at 140 F and 120 F, and the energy savings per 10 F reduction (DOE figure)
+- Standby heat loss and typical annual water heating cost for a household (DOE/Energy Star)
+- Leaking water heater tank: repair vs replace; cost of water damage from a failed tank (typical range)
+- Gas line repair or new gas line run (licensed plumber), per-foot and typical job
+- Gas leak detection / emergency response: what to do (leave the house, call the gas utility or 911 from outside) and typical gas leak repair cost
+- Gas appliance hookup (dryer, range) by a pro
+- Water softener installed and unit price
+- Whole-house water filter installed
+- Tankless descaling / flush (pro) and DIY kit
+- Recirculation pump installed
