@@ -104,7 +104,7 @@ One line in the opening that aims at the trade's bill, or at what nobody mention
 
 1. "At some point, everybody's got to get some plumbing done. You could call in a pro, but of course, that's going to cost you big money." (Silver Cymbal · YRow6eS6AHw · [0:00] · 15.00x · [real])
    **Shape:** the pro's price as the first beat of a product-swap opener. Ours gives the figure as a range from the brief.
-2. "So, it is something that you can do, but this is a service call that can cost a few hundred." (Roger Wakefield · WXJGaGtXrgY · [3:41] · 39.66x · [real])
+2. "So, it is something that you can do, but this is a service call that can cost a few hundred." (Roger Wakefield · WXJGaGtXrgY · [3:39] · 39.66x · [real])
    **Shape:** "you can do it", then the visit's price, in one plain sentence.
 3. "But here's the math that the salesman won't show you." (Roger Wakefield · WXJGaGtXrgY · [1:41] · 39.66x · [real])
    **Shape:** the silence aimed at the pitch, paid at once with the break-even sum (group 10).
@@ -118,7 +118,7 @@ One line in the opening that aims at the trade's bill, or at what nobody mention
    **Shape:** the billing fact, as a list of jobs the viewer has paid for. **Watch:** the line before it ("They just do not volunteer it") is a banned stock line.
 8. "And there's no money in prevention. So, nobody's going to run an ad telling you a $5 box beats the pros and treats your pipes better while it's at it." (Roger the Pipe Guy · kHT6ZL8At0w · [21:11] · 167.85x · [structure only])
    **Shape:** the silence explained by how the trade is paid, with no one accused of lying.
-9. "That $246 bill is honest. It just covers the last 10 minutes of a problem that took 4 years to grow." (TheCheapFix · SUqzcj5udsk · [16:23] · 197.27x · [structure only])
+9. "That $246 bill is honest. It just covers the last 10 minutes of a problem that took 4 years to grow." (TheCheapFix · SUqzcj5udsk · [16:24] · 197.27x · [structure only])
    **Shape:** calls the bill fair, then reframes it. Keeps the villain honest for viewers who like their plumber.
 10. "You spill one iced coffee on the passenger seat, let it sit a week, and suddenly a detailer is quoting you $300 to get the stain and the smell back out." (TheCheapFix · RA1-fogcslM · [0:00] · 218.58x · [structure only])
     **Shape:** the price arrives inside a one-line scene from the viewer's week.
@@ -152,7 +152,7 @@ One line that keeps the title's strongest word honest: what the fix won't do, wh
    **Shape:** three "no"s that pay the title's "never touches your pipes".
 9. "One cup of that, used the right way, will open a grease clog or a soap scum clog overnight while you are asleep." (The Vintage Pipefitter · rDLzNLUZnhw · [1:23] · 84.24x · [structure only])
    **Shape:** scopes the title's "ANY drain clog" down to two named kinds. (The method that follows in the source pours the powder dry; never a model.)
-10. "It's not a complicated job, but it's an unforgiving one." (The Vintage Pipefitter · 9_11vx_L6oM · [0:59] · 61.11x · [structure only])
+10. "It's not a complicated job, but it's an unforgiving one." (The Vintage Pipefitter · 9_11vx_L6oM · [0:56] · 61.11x · [structure only])
     **Shape:** reassurance and warning in one balanced line.
 11. "Now, just to be clear, we are talking about the regular 3% hydrogen peroxide, the standard brown bottle from any pharmacy or grocery store, not the industrial strength stuff." (TheCheapFix · Ins--8a65ZI · [0:50] · 128.95x · [structure only])
     **Shape:** the safe strength pinned down early, so every later dose is safe.
@@ -193,11 +193,11 @@ Right after the point, two or three later payoffs, each naming its item and its 
 
 One line at the first answer that tells the viewer which thing to act on if they act on only one. Notice that the real channels put it on the step that decides the job ("90% of the job", "the secret"), and that the one viewers pointed at most ("3:15 is where it starts", 2K likes) came three minutes late. Borrow the placement (at the first answer, not minutes later) and the length (one short sentence, sometimes with the cost of getting it wrong). Wording is never copied: the copy guard flags any run of 8 or more words shared with this file.
 
-1. "You should also wear long pants, but if you don't do anything else, make certain your eyes are always protected." (Silver Cymbal · cfGgCbQAjwM · [2:51] · 25.22x · [real])
+1. "You should also wear long pants, but if you don't do anything else, make certain your eyes are always protected." (Silver Cymbal · cfGgCbQAjwM · [2:52] · 25.22x · [real])
    **Shape:** the priority flag on a safety step, said plainly.
 2. "All right, step one is the prep. And listen to me. This is 90% of the job." (Roger Wakefield · 1kWd9HidNJk · [0:45] · 37.52x · [real])
    **Shape:** step one flagged as the one that decides it, with a rough share.
-3. "step 1 is preparation preparation is the secret to getting a leak-free joint ... so this step needs to be followed very closely" (Got2Learn · JyVbjDsric4 · [0:11] · 67.08x · [real])
+3. "step 1 is preparation preparation is the secret to getting a leak-free joint ... so this step needs to be followed very closely" (Got2Learn · JyVbjDsric4 · [0:13] · 67.08x · [real])
    **Shape:** the decisive step named at 0:11, with what happens if it's skipped (cut here: it "will most probably leak").
 4. "Okay, so step three is the heat. And here's the number one mistake beginners make. They heat the pipe. You don't heat the pipe, you heat the fitting." (Roger Wakefield · 1kWd9HidNJk · [8:18] · 37.52x · [real])
    **Shape:** the flag as "the number one mistake", then the fix in six words.
@@ -222,9 +222,9 @@ The body of the video, item by item. Five shapes recur. Notice that the real cha
    **Shape:** container, amount, temperature, and the safety note in two words.
 2. "Next, you'll squirt about 1 teaspoon of the soap directly into the glass." (Silver Cymbal · fseq9NvO_zw · [0:58] · 151.07x · [real])
    **Shape:** "next", the amount, where it goes. One step per sentence.
-3. "Pour half a cup directly into the disposal. Let it sit for 10 minutes without running the water." (TheCheapFix · ls7BwoRhM9Q · [2:58] · 284.66x · [structure only])
+3. "Pour half a cup directly into the disposal. Let it sit for 10 minutes without running the water." (TheCheapFix · ls7BwoRhM9Q · [3:11] · 284.66x · [structure only])
    **Shape:** dose, place, wait, and the one thing not to do during the wait.
-4. "Now dissolve one cup of washing soda into about a half gallon of hot water in a bucket. Dissolve it first." (Mark Silverbridge · Rb0aS97YnSA · [11:27] · 857.86x · [structure only])
+4. "Now dissolve one cup of washing soda into about a half gallon of hot water in a bucket. Dissolve it first." (Mark Silverbridge · Rb0aS97YnSA · [11:28] · 857.86x · [structure only])
    **Shape:** the amount, the water, the vessel, then the key word said twice.
 5. "The acid has to work down through it from the outside in. 20 minutes gets you the outer skin. 8 hours gets you the shelf." (The Vintage Pipefitter · hOz49worQJg · [11:58] · 274.65x · [structure only])
    **Shape:** the wait explained by what each length of time achieves.
@@ -246,7 +246,7 @@ The body of the video, item by item. Five shapes recur. Notice that the real cha
     **Shape:** fair praise first, then "but" and the count of weaknesses. (His own home is his; ours says it as an opinion.)
 11. "Now, by far, Shark Bites are the leader in the industry, and they're certainly a good choice. But for those people out there that don't want to deal with an O-ring, you want more structural strength once they're installed, using these compression fittings can really be a [game changer]." (Silver Cymbal · YRow6eS6AHw · [5:58] · 15.00x · [real])
     **Shape:** the closing verdict by who it suits, not "which is best".
-12. "So the ticket on baking soda reads like this. Hired for odor control and for scrubbing anything you are afraid to scratch. Fired from drain clearing permanently." (Mark Silverbridge · Rb0aS97YnSA · [5:51] · 857.86x · [structure only])
+12. "So the ticket on baking soda reads like this. Hired for odor control and for scrubbing anything you are afraid to scratch. Fired from drain clearing permanently." (Mark Silverbridge · Rb0aS97YnSA · [5:48] · 857.86x · [structure only])
     **Shape:** a one-line job ticket per contender: hired for, fired from. Mark's biggest hit.
 13. "So borax gets this ticket. Hired for mold, mildew, lasting odor, toilet bowls, and weekly maintenance. fired from anything involving cooked grease." (Mark Silverbridge · Rb0aS97YnSA · [9:51] · 857.86x · [structure only])
     **Shape:** the same frame repeated for each contender, so the viewer can compare.
@@ -255,7 +255,7 @@ The body of the video, item by item. Five shapes recur. Notice that the real cha
 
 14. "so a lot of you are probably wondering why I'd be making a video about repairing a leak on a copper joint it's pretty straightforward just add some solder and it's fixed right wrong the answer is no" (Got2Learn · 8IV7oG43DZ0 · [0:02] · 80.90x · [real])
     **Shape:** the viewer's assumption said in full, then "wrong", inside 15 seconds.
-15. "This is where everyone makes a mistake. They always want to mix it one part cornbread, one part baking soda, but you really want to mix it two parts baking soda, one part cornbread." (Arrow Pest Service · Wg9-yFIXlx0 · [4:33] · 17.25x · [real])
+15. "This is where everyone makes a mistake. They always want to mix it one part cornbread, one part baking soda, but you really want to mix it two parts baking soda, one part cornbread." (Arrow Pest Service · Wg9-yFIXlx0 · [4:30] · 17.25x · [real])
     **Shape:** the common ratio, then the right one, in the same sentence. (Cornbread means a cornbread mix.)
 16. "Well, the problem is inside the head. It's not the brand or type of line." (Silver Cymbal · cfGgCbQAjwM · [0:23] · 25.22x · [real])
     **Shape:** the real cause, then the blamed cause cleared.
@@ -289,7 +289,7 @@ Why it works, in one sentence the viewer can repeat. Notice that the best ones a
    **Shape:** the viewer's question, then the answer in seven words.
 4. "This stuff just sits around. Sometimes it kind of welds itself together just from heat or age." (Silver Cymbal · cfGgCbQAjwM · [0:27] · 25.22x · [real])
    **Shape:** the hidden cause in kitchen-table words.
-5. "as you get sediment buildup in the bottom of your water heater, it actually lowers the efficiency rating. So, it's going to cost you more money and you're going to get less hot water." (Roger Wakefield · zfrqkteUPAI · [0:27] · 47.41x · [real])
+5. "as you get sediment buildup in the bottom of your water heater, it actually lowers the efficiency rating. So, it's going to cost you more money and you're going to get less hot water." (Roger Wakefield · zfrqkteUPAI · [0:25] · 47.41x · [real])
    **Shape:** the mechanism, then what it means for the bill and the shower.
 6. "The solder, it only flows where the copper is perfectly clean." (Roger Wakefield · 1kWd9HidNJk · [0:50] · 37.52x · [real])
    **Shape:** the reason behind the priority step, straight after it.
@@ -303,7 +303,7 @@ Why it works, in one sentence the viewer can repeat. Notice that the best ones a
     **Shape:** the key idea behind a number, in seven words.
 11. "Peroxide only cleans what it is touching while it is still peroxide." (TheCheapFix · SUqzcj5udsk · [1:11] · 197.27x · [structure only])
     **Shape:** the mechanism stated as the rule that governs every use.
-12. "It reacts with the calcium carbonate and turns it into calcium citrate, which is water soluble." (The Vintage Pipefitter · hOz49worQJg · [7:43] · 274.65x · [structure only])
+12. "It reacts with the calcium carbonate and turns it into calcium citrate, which is water soluble." (The Vintage Pipefitter · hOz49worQJg · [7:55] · 274.65x · [structure only])
     **Shape:** the chemistry in one sentence, ending on the plain-English result.
 
 ## 9. Checks the viewer runs at home
@@ -318,11 +318,11 @@ A test the viewer can do in their own house, with what they'll see either way. N
    **Shape:** read the label: a check with nothing to buy.
 4. "a good tip here is to always inspect your joint after soldering it it'll speak for itself" (Got2Learn · JyVbjDsric4 · [4:01] · 67.08x · [real])
    **Shape:** the finished-work check, as a habit.
-5. "Pour a little splash into the sink. If it fizzes and foams up, it is still good and strong. If it just sits there flat and quiet, it has turned to water and it is time for a fresh $3 bottle." (The Vintage Pipefitter · rGEFZrtOJOI · [19:31] · 1236.97x · [structure only])
+5. "Pour a little splash into the sink. If it fizzes and foams up, it is still good and strong. If it just sits there flat and quiet, it has turned to water and it is time for a fresh $3 bottle." (The Vintage Pipefitter · rGEFZrtOJOI · [19:32] · 1236.97x · [structure only])
    **Shape:** action, the result if good, the result if not, and what to do.
-6. "Put a splash on a slice of raw potato. If it doesn't bubble on that, your bottle is dead and your test means nothing." (The Vintage Pipefitter · uWXIUmWdPeY · [13:15] · 394.61x · [structure only])
+6. "Put a splash on a slice of raw potato. If it doesn't bubble on that, your bottle is dead and your test means nothing." (The Vintage Pipefitter · uWXIUmWdPeY · [13:12] · 394.61x · [structure only])
    **Shape:** a check on the check, with a kitchen object.
-7. "If the water swirls straight down with a clean gulp at the end, you are done. That is a cleared line." (The Vintage Pipefitter · rDLzNLUZnhw · [12:43] · 84.24x · [structure only])
+7. "If the water swirls straight down with a clean gulp at the end, you are done. That is a cleared line." (The Vintage Pipefitter · rDLzNLUZnhw · [12:40] · 84.24x · [structure only])
    **Shape:** what "done" looks and sounds like.
 8. "Run a paper towel across it right now and look at what comes off." (TheCheapFix · SUqzcj5udsk · [1:42] · 197.27x · [structure only])
    **Shape:** a ten-second check that sells the next step.
@@ -343,23 +343,23 @@ The fix's cost set against the trade's price, early and then item by item. Notic
    **Shape:** the two prices side by side, first thing in the body. **Watch:** a high single figure drew "I can get a 50 gallon tanked water heater for $500 not 3k" (191 likes); say what's included and give a range.
 3. "Grabbing a can of spray foam can cost you as much as five bucks ... Using duct seal, that same repair can cost you about 10 cents" (Silver Cymbal · sHL4lBAhklA · [3:52] · 21.31x · [real])
    **Shape:** the cost of one repair, old way against new.
-4. "many of the tips that I show you on my channel unfortunately cost money sometimes a lot of money this one is completely free and it will make a difference" (Silver Cymbal · sX442FodiT4 · [3:46] · 23.80x · [real])
+4. "many of the tips that I show you on my channel unfortunately cost money sometimes a lot of money this one is completely free and it will make a difference" (Silver Cymbal · sX442FodiT4 · [3:51] · 23.80x · [real])
    **Shape:** "this one is free", said at the end as the last word on cost.
 5. "these couplings are $12 each ... which brings us up to $42 for now" (Got2Learn · 2OeSzdjHBC0 · [4:30] · 0.55x · [real])
    **Shape:** a running total that moves with each part. "Which brings us" is limited to once per video.
 6. "That box is about $4 [to $5] and it gives you the better part of a dozen treatments. Call it 50 cents a pop." (Roger the Pipe Guy · kHT6ZL8At0w · [7:23] · 167.85x · [structure only])
    **Shape:** box price, treatments per box, cost per use. Check the arithmetic against the dose.
-7. "50 cents versus 20 bucks versus 300. That's the whole game." (Roger the Pipe Guy · kHT6ZL8At0w · [8:03] · 167.85x · [structure only])
+7. "50 cents versus 20 bucks versus 300. That's the whole game." (Roger the Pipe Guy · kHT6ZL8At0w · [8:00] · 167.85x · [structure only])
    **Shape:** three prices side by side: the fix, the jug, the visit. "That's the whole game" is limited to once per video.
-8. "This is exactly what professional kitchen cleaning services charge $40 a visit for. You just did it for cents." (TheCheapFix · ls7BwoRhM9Q · [3:35] · 284.66x · [structure only])
+8. "This is exactly what professional kitchen cleaning services charge $40 a visit for. You just did it for cents." (TheCheapFix · ls7BwoRhM9Q · [3:34] · 284.66x · [structure only])
    **Shape:** the trade's price at the end of an item. Ours gives the price as a range.
-9. "Clearing this on a service call runs you $145 to $245. The bottle and a vacuum you already own do it for about a dollar." (TheCheapFix · yIh1HAlbhc0 · [3:53] · 142.07x · [structure only])
+9. "Clearing this on a service call runs you $145 to $245. The bottle and a vacuum you already own do it for about a dollar." (TheCheapFix · yIh1HAlbhc0 · [3:50] · 142.07x · [structure only])
    **Shape:** the service-call range, then what the viewer already owns.
 10. "Total spent, $2. Total saved off the new toilet, right around 500." (The Vintage Pipefitter · hOz49worQJg · [15:33] · 274.65x · [structure only])
     **Shape:** the running total closed in two short lines.
 11. "If your tankless installation cost you $3,000 more than a tank would have and you are saving $100 a year, that is a 30-year payback period. That is not great." (Mark Silverbridge · du--FqUoCHI · [6:09] · 508.81x · [structure only])
     **Shape:** payback arithmetic that ends on a plain "no". A verdict that says no is the one viewers trust.
-12. "gas-fired, is going to run you somewhere between $400 and $800 for the unit itself." (Mark Silverbridge · du--FqUoCHI · [3:13] · 508.81x · [structure only])
+12. "gas-fired, is going to run you somewhere between $400 and $800 for the unit itself." (Mark Silverbridge · du--FqUoCHI · [3:12] · 508.81x · [structure only])
     **Shape:** a price as a range, with what the price covers. No disputes.
 
 - **Problem:** "That little brown bottle sitting in your medicine cabinet costs about $1 at most drug stores." (TheCheapFix · Ins--8a65ZI · [0:00] · 128.95x · [structure only])
@@ -377,17 +377,17 @@ The line that says where the fix stops, or admits something plainly. Notice that
    **Shape:** a preference admitted as habit, not dressed up as science.
 4. "You could use these bulbs in a fully enclosed fixture, but if you only use them for 5 or 10 minutes a day, it is very unlikely that that bulb will die sooner." (Silver Cymbal · dVjg_BK3G3s · [2:24] · 18.77x · [real])
    **Shape:** puts the danger in proportion, in the viewer's favor.
-5. "A single can can cost as little as five bucks, but spray foam is also permanent, and it is the wrong solution when you're going to seal things like wiring, plumbing" (Silver Cymbal · sHL4lBAhklA · [0:28] · 21.31x · [real])
+5. "A single can can cost as little as five bucks, but spray foam is also permanent, and it is the wrong solution when you're going to seal things like wiring, plumbing" (Silver Cymbal · sHL4lBAhklA · [0:26] · 21.31x · [real])
    **Shape:** where the popular product is the wrong choice.
 6. "You need to flush it every year, but nobody does that anyway." (Roger Wakefield · WXJGaGtXrgY · [3:26] · 39.66x · [real])
    **Shape:** the honest gap between the rule and what people do.
-7. "the first thing that would come to mind would be to shut off the main water valve however in older homes these can sometimes be froze shut since they don't work very often so a plan B needs to be established" (Got2Learn · 2OeSzdjHBC0 · [0:49] · 0.55x · [real])
+7. "the first thing that would come to mind would be to shut off the main water valve however in older homes these can sometimes be froze shut since they don't work very often so a plan B needs to be established" (Got2Learn · 2OeSzdjHBC0 · [0:46] · 0.55x · [real])
    **Shape:** the obvious move, then why it may fail in an older house.
 8. "Peroxide does not dissolve rock." (The Vintage Pipefitter · uWXIUmWdPeY · [1:31] · 394.61x · [structure only])
    **Shape:** the limit in five words, said early. **Watch:** it contradicted the title's "dissolves years of limescale"; the title has to agree with the limit.
-9. "Peroxide will not touch a real blockage. It does nothing to tree roots" (TheCheapFix · SUqzcj5udsk · [9:42] · 197.27x · [structure only])
+9. "Peroxide will not touch a real blockage. It does nothing to tree roots" (TheCheapFix · SUqzcj5udsk · [9:39] · 197.27x · [structure only])
    **Shape:** two plain "will not"s before the call-a-pro trigger (group 13).
-10. "It is also why the drain field is the exception because there is no film down there to kill." (TheCheapFix · SUqzcj5udsk · [16:07] · 197.27x · [structure only])
+10. "It is also why the drain field is the exception because there is no film down there to kill." (TheCheapFix · SUqzcj5udsk · [16:03] · 197.27x · [structure only])
     **Shape:** the exception, with its reason.
 11. "Nothing in plumbing is permanent." (The Vintage Pipefitter · hOz49worQJg · [17:26] · 274.65x · [structure only])
     **Shape:** five words that walk back the title's "forever" honestly.
@@ -408,17 +408,17 @@ One short line at the step where the risk is, with the reason, in proportion. No
    **Shape:** the serious risk, said once, with why it's dangerous (you can't smell it).
 5. "Now, you do want to be careful. I recommend either using a product like baby shampoo or you can use any type of dishwashing detergent, but don't get one that says antibacterial." (Silver Cymbal · VW_bhZt3IpM · [1:10] · 4.65x · [real])
    **Shape:** which product to buy, and the one label to avoid.
-6. "getting the proper permits for this is mandatory" (Got2Learn · pmN88UvZfDI · [4:58] · 95.02x · [real])
+6. "getting the proper permits for this is mandatory" (Got2Learn · pmN88UvZfDI · [5:04] · 95.02x · [real])
    **Shape:** the legal line, short, inside the fix that needs it.
-7. "some plumbers will use flux to clean up the joint while it's still very hot but doing this could cause a big drop in temperature ... and can fracture the joint causing a leak" (Got2Learn · JyVbjDsric4 · [4:22] · 67.08x · [real])
+7. "some plumbers will use flux to clean up the joint while it's still very hot but doing this could cause a big drop in temperature ... and can fracture the joint causing a leak" (Got2Learn · JyVbjDsric4 · [4:21] · 67.08x · [real])
    **Shape:** a common shortcut, then what it breaks.
 8. "One rule before we start, and it's not optional. Peroxide goes in alone. Never mix it with vinegar in the same container, because those two together make peracetic acid, and that will burn your eyes and your lungs." (The Vintage Pipefitter · uWXIUmWdPeY · [1:57] · 394.61x · [structure only])
    **Shape:** the mixing rule before the first use, with the concrete harm.
 9. "Dissolve it first. Dumping dry powder into a standing sink packs it into a lump on top of the clog and accomplishes nothing." (Mark Silverbridge · Rb0aS97YnSA · [11:33] · 857.86x · [structure only])
    **Shape:** the instruction, then what goes wrong if it's skipped.
-10. "make sure you're using hot tap water, not boiling water from a kettle. Boiling water can soften PVC joints over time." (Roger the Pipe Guy · hebGJ43lQ6s · [8:27] · 169.87x · [structure only])
+10. "make sure you're using hot tap water, not boiling water from a kettle. Boiling water can soften PVC joints over time." (Roger the Pipe Guy · hebGJ43lQ6s · [8:24] · 169.87x · [structure only])
     **Shape:** the safe version, the unsafe version, the reason.
-11. "Set it down gently on a towel on the floor because that porcelain is heavy and it will crack your tile if you drop it." (Roger the Pipe Guy · Rkm2BnFL9FA · [2:04] · 183.35x · [structure only])
+11. "Set it down gently on a towel on the floor because that porcelain is heavy and it will crack your tile if you drop it." (Roger the Pipe Guy · Rkm2BnFL9FA · [2:03] · 183.35x · [structure only])
     **Shape:** a small physical risk handled inside the step, with its reason.
 12. "The fifth mistake is one where the consequences go well beyond money, and that is improper venting on gas water heaters." (Mark Silverbridge · VZo8y6AplVQ · [7:00] · 334.83x · [structure only])
     **Shape:** the safety item flagged in its header as more than money.
@@ -439,7 +439,7 @@ The point where the viewer stops and calls, named as a sign they can see: two dr
    **Shape:** the trigger and what it usually means, before the call.
 6. "if every drain in the house is slow at the same time, that's a main line issue and that's one situation where I'd recommend calling a professional." (Roger the Pipe Guy · hebGJ43lQ6s · [15:29] · 169.87x · [structure only])
    **Shape:** trigger, cause, call, with what the pro will do next ("run a camera down the line").
-7. "And refrigerant work is licensed for a real reason." (TheCheapFix · yIh1HAlbhc0 · [7:46] · 142.07x · [structure only])
+7. "And refrigerant work is licensed for a real reason." (TheCheapFix · yIh1HAlbhc0 · [7:43] · 142.07x · [structure only])
    **Shape:** a job that is never DIY, with respect for why.
 8. "severe pipe damage, or a sewer line backup, please call a licensed plumber." (TheCheapFix · ls7BwoRhM9Q · [12:36] · 284.66x · [structure only])
    **Shape:** named emergencies, then the call. Ours places it at the step, not only at the end.
@@ -469,13 +469,13 @@ The line at the end of one item, or inside it, that names the next value so the 
    **Shape:** a question the next sentence answers.
 9. "But the next one on this list is the one that has saved homeowners the most money of any tip in this video." (TheCheapFix · ls7BwoRhM9Q · [4:38] · 284.66x · [structure only])
    **Shape:** the next item's stake, repeated right before it's paid.
-10. "If that is what grows in a slot nobody uses, what is growing in the pipe you use every single day?" (TheCheapFix · SUqzcj5udsk · [2:33] · 197.27x · [structure only])
+10. "If that is what grows in a slot nobody uses, what is growing in the pipe you use every single day?" (TheCheapFix · SUqzcj5udsk · [2:31] · 197.27x · [structure only])
     **Shape:** the end of one item set up as a question for the next.
 11. "And it is why, when we get to number eight, this exact property is the reason us tradesmen reach for peroxide before the harsh stuff." (The Vintage Pipefitter · rGEFZrtOJOI · [8:48] · 1236.97x · [structure only])
     **Shape:** a forward cross-reference by number, paid by name later.
 12. "This is where mistakes three and four live." (The Vintage Pipefitter · 9_11vx_L6oM · [4:09] · 61.11x · [structure only])
     **Shape:** a signpost: the next step holds two named mistakes.
-13. "Number three, the clog that shuts your whole system down in July." (TheCheapFix · yIh1HAlbhc0 · [2:36] · 142.07x · [structure only])
+13. "Number three, the clog that shuts your whole system down in July." (TheCheapFix · yIh1HAlbhc0 · [2:35] · 142.07x · [structure only])
     **Shape:** the stake in the item header, with a season.
 
 - **Problem:** "So, stay right here with me for number nine. Number nine, the one rule that keeps all of this safe, so please do not skip out on me now." (The Vintage Pipefitter · rGEFZrtOJOI · [16:09] · 1236.97x · [structure only])
@@ -489,7 +489,7 @@ The mid-video ask (Roger the Pipe Guy and Mark Silverbridge only, straight after
 
 1. "If that is the kind of thing you would rather fix than pay for, subscribe. Five left, and the last one is the correction." (TheCheapFix · SUqzcj5udsk · [9:59] · 197.27x · [structure only])
    **Shape:** a one-sentence condition and ask, then the return line names what's left and its stake.
-2. "If this is already changing how you look at your last few HVAC bills, subscribe because we do one of these every week." (TheCheapFix · yIh1HAlbhc0 · [9:10] · 142.07x · [structure only])
+2. "If this is already changing how you look at your last few HVAC bills, subscribe because we do one of these every week." (TheCheapFix · yIh1HAlbhc0 · [9:14] · 142.07x · [structure only])
    **Shape:** the condition tied to the viewer's own bills, one ask, one reason.
 3. "If a $1 fix for a $500 problem is the kind of thing you want more of, do yourself a favor and subscribe. ... All right, back to the bottle because a few of the messiest, most satisfying ones are still ahead." (TheCheapFix · RA1-fogcslM · [10:19] · 218.58x · [structure only])
    **Shape:** the ask right after an item's payoff, then a return line into what's ahead.
@@ -504,9 +504,9 @@ The mid-video ask (Roger the Pipe Guy and Mark Silverbridge only, straight after
 
 **One-line end reminders**
 
-8. "If you like this video, please give it a thumbs up and subscribe to the Silver Symbol channel if you're not already for more videos coming up." (Silver Cymbal · cfGgCbQAjwM · [3:16] · 25.22x · [real])
+8. "If you like this video, please give it a thumbs up and subscribe to the Silver Symbol channel if you're not already for more videos coming up." (Silver Cymbal · cfGgCbQAjwM · [3:17] · 25.22x · [real])
    **Shape:** one sentence: condition, two small asks, done. Our channel name and wording come from the profile.
-9. "like, share and subscribe if you learned something" (Got2Learn · pmN88UvZfDI · [5:22] · 95.02x · [real])
+9. "like, share and subscribe if you learned something" (Got2Learn · pmN88UvZfDI · [5:23] · 95.02x · [real])
    **Shape:** seven words with the condition at the end.
 10. "If you appreciate getting the real unfiltered truth without a sales pitch, do me a favor and hit that subscribe button." (Roger Wakefield · WXJGaGtXrgY · [8:43] · 39.66x · [real])
     **Shape:** the condition names what the channel stands for, then one ask.
@@ -514,10 +514,10 @@ The mid-video ask (Roger the Pipe Guy and Mark Silverbridge only, straight after
     **Shape:** sixteen words; in the source, the comment question follows (group 16).
 12. "Hit subscribe so you do not miss the next video." (Mark Silverbridge · sXlzedri_Hg · [13:35] · 551.16x · [structure only])
     **Shape:** the shortest reminder in the set.
-13. "So, if you find these videos helpful, subscribe and stay up to date." (TheCheapFix · ls7BwoRhM9Q · [13:10] · 284.66x · [structure only])
+13. "So, if you find these videos helpful, subscribe and stay up to date." (TheCheapFix · ls7BwoRhM9Q · [13:11] · 284.66x · [structure only])
     **Shape:** one line. **Watch:** the source follows it with "Your wallet will thank you.", a banned stock line.
 
-- **Problem:** "Mid-roll subscribe CTA. Quick thing before number six. If this is the kind of repair you want more of, subscribe to The Vintage Pipe Fitter." (The Vintage Pipefitter · rDLzNLUZnhw · [8:51] · 84.24x · [structure only])
+- **Problem:** "Mid-roll subscribe CTA. Quick thing before number six. If this is the kind of repair you want more of, subscribe to The Vintage Pipe Fitter." (The Vintage Pipefitter · rDLzNLUZnhw · [8:54] · 84.24x · [structure only])
   A production label read aloud by the voice. Scripts are clean narration only.
 - **Problem:** "Now, if you're finding this video helpful so far, I'd really appreciate it if you'd hit that like button and subscribe to the channel." (Roger the Pipe Guy · WfAwg1l0xCE · [9:13] · 452.91x · [structure only])
   A banned stock opener, and the return line in the source is "All right, let's continue.", also banned. Nothing points forward.
@@ -534,11 +534,11 @@ The last line of every plumbing video: one specific question the viewer can answ
    **Shape:** asks for the result after the viewer tries it.
 4. "if you've got other generator tips be sure to [share] in the comments below" (Silver Cymbal · sX442FodiT4 · [3:57] · 23.80x · [real])
    **Shape:** invites the viewer's own know-how.
-5. "Now, do y'all know why he's stuck that cup down in there? If you did, do me a favor and leave me a ... message down in the comments as to why he stuck the cup in there." (Roger Wakefield · OEbAeVn6DHg · [5:09] · 142.51x · [real])
+5. "Now, do y'all know why he's stuck that cup down in there? If you did, do me a favor and leave me a ... message down in the comments as to why he stuck the cup in there." (Roger Wakefield · OEbAeVn6DHg · [5:07] · 142.51x · [real])
    **Shape:** a quiz the viewer answers in the comments; he gives the answer about 15 seconds later. Mid-video, so a shape to note, not our ending.
 6. "What kind of spiders do y'all deal with? Do y'all deal with brown recluse or black widows?" (Arrow Pest Service · 4pG5LWiwfaU · [6:18] · 1.64x · [real])
    **Shape:** a specific question with two named answers to pick from.
-7. "What do y'all think is the most efficient way to get rid of yellow jackets? Put it down in the comments below." (Arrow Pest Service · ZBfgXMnhK_g · [20:17] · 1.00x · [real])
+7. "What do y'all think is the most efficient way to get rid of yellow jackets? Put it down in the comments below." (Arrow Pest Service · ZBfgXMnhK_g · [20:15] · 1.00x · [real])
    **Shape:** asks for the viewer's opinion on the video's own question.
 8. "Hey, if y'all got any DIY remedies y'all use for rats and mice, put them down in the comment chat below. I want to hear your experience." (Arrow Pest Service · Wg9-yFIXlx0 · [10:34] · 17.25x · [real])
    **Shape:** asks for the viewer's own fix, and says why.
@@ -549,5 +549,5 @@ The last line of every plumbing video: one specific question the viewer can answ
 11. "Got questions or want to share what you found under your own sink? Drop it in the comments." (Mark Silverbridge · HsOr7vpQUGg · [19:40] · 756.84x · [structure only])
     **Shape:** a question about the viewer's own house, as the second-to-last line. Ours moves it to the very end and adds "I read every one".
 
-- **Problem:** "If you guys have any questions about this topic, just drop me a comment below" (Got2Learn · pmN88UvZfDI · [5:15] · 95.02x · [real])
+- **Problem:** "If you guys have any questions about this topic, just drop me a comment below" (Got2Learn · pmN88UvZfDI · [5:18] · 95.02x · [real])
   A bare "any questions?" names nothing the viewer can answer from their own house.
