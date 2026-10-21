@@ -81,7 +81,7 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 5. **The promise block** (this pack's override of core `retention-mechanics.md` §6, approved as P3). Right after the point, promise two or three specific later payoffs. Each names its item and its stake: "Number six saves you a two-hundred-dollar call." "And the last one is the rule that keeps all of this safe on old pipes." Never a vague tease: the hard-ban list ("stay till the end", "stick with me", "by the end of this video" and the rest) still applies.
 6. **The first real tip** by about 45 seconds; in a list, item one by about 30 seconds.
 
-**Never in an opening:** a name or channel intro, a greeting, "today we're going to", a recap of what's coming, a claim of a test or demonstration (unless the title or brief calls for one), or a tenure number other than the profile's.
+**Never in an opening:** a name or channel intro, a greeting, "today we're going to", a recap of what's coming, a first-person test or demonstration ("I tested", "watch me"), or a tenure number other than the profile's.
 
 **Tenure:** at most once, as the profile's fixed number (Roger 45, Mark 40, Vintage 50), and only where it does a job (credibility right before a verdict or a mistakes list).
 
@@ -129,7 +129,7 @@ Pick the type from the title. Each type has its own opening order and item shape
 | **Hidden cause** | "Why Your X Keeps Y" | The thing the viewer trusts → what it's really doing → the hidden cause in one line → "what that means for you", answered at once | 30-45 s | Cause, how to check, the fix | dVjg_BK3G3s (one model only) |
 | **Seasonal or emergency** | "Do This Before the First Freeze" | The clock and the crisis → "put the phone down" with the after-hours price → "probably nothing's broken" → the cause in one line → the fixes with what the viewer already owns | 30-45 s | The step, why now, what to watch for | 6gl41FmPsCk (one model only) |
 
-Story or "I tried everything" videos are allowed only when the title or brief calls for a first-person trial [DECIDED: no first-person test or demo claims otherwise].
+A title that promises tests ("I Tested 5 Drain Cleaners") is written as tests and results from the brief, never as "I tested" [DECIDED 2026-10-21].
 
 **A title that fits none of the ten:** build the opening from the six jobs in "The opening", in the order the closest type uses, and pick the item shape from the table that best suits the content. Note the title in the plan as "new type". When the same new shape comes up on three or more videos, it's proposed for this table, and added only with the operator's yes.
 
@@ -155,7 +155,7 @@ Our hits sounded more like a person than our recent uploads: 1.5-2 times the fir
 - **A persona device only if the profile has one:** a mentor line or a household routine (Vintage's Uncle Ray, Roger's first-Saturday check). At most twice per video, under about 40 words, to teach or warn, never as proof that something works. Its facts (names, ages, places) come from the profile and never change.
 - **A phrase is voice once; in the same slot every video, it's a tic.** Vintage used "Nine times out of 10" in 9 of 10 videos. Each stock phrase at most once per video, and rotate what opens an item and what closes the video. (The list of limited phrases comes with "Banned in these scripts".)
 
-## Proof [APPROVED 2026-10-21]
+## Proof [APPROVED 2026-10-21; tests-and-results line updated per the operator, 2026-10-21]
 
 The clearest difference in the study: the face channels, and Got2Learn filming his own hands, drew no complaints about the footage, while our hits drew about 38 (Mark about 28). Most of that is the camera. But the script made it worse every time it said "I tested", "watch me" or "look at". Proof in these scripts is the kind that survives any footage.
 
@@ -169,7 +169,7 @@ The clearest difference in the study: the face channels, and Got2Learn filming h
 - **The typical case, as a general statement:** "Plenty of people replace a toilet when the rim jets only needed cleaning."
 
 **Never:**
-- **First-person tests, trials or demonstrations** ("I put all three through eight brutal tests" drew "Where is the footage of him doing the tests?"), unless the title or brief calls for one [DECIDED].
+- **First-person tests, trials or demonstrations,** even when the title promises tests [DECIDED 2026-10-21]. "I put all three through eight brutal tests" drew "Where is the footage of him doing the tests?" Tests and results are fine when the brief or research pack gives them, said without "I": "In pull tests, the push-fit gave way first." "Side by side, the enzyme cleaner took three nights; the jug took fifteen minutes and the clog was back in a week."
 - **Anything that needs footage the channel doesn't control:** "watch me", "look at the toilet on the left", "there's a stack of receipts on my bench right now".
 - **Customer stories and results:** "I had a homeowner tell me…", "an exterminator quoted a lady three hundred dollars". The claims policy bans customers; say it as the typical case instead.
 - **Nameless claimed experience:** "the worst tank we've ever opened".
@@ -177,31 +177,48 @@ The clearest difference in the study: the face channels, and Got2Learn filming h
 
 ## Money framing [DRAFT: for your yes]
 
-All 15 of our hits set the fix's cost against what the trade charges. In this niche that comparison is the entry ticket, not an extra. The weak spot is a single low product price: viewers check it on Amazon while they watch ("Every bottle of anything in these AI videos is $1 a bottle. Maybe 30 years ago!", 48 likes; "This guy prices are from 1924", on an $8-12 enzyme bottle). Service-call ranges drew almost no disputes.
+All 15 of our hits set the fix's cost against what the trade charges. In this niche that comparison is the entry ticket, not an extra. The weak spot is a single low product price: viewers check it on Amazon while they watch. Service-call ranges drew almost no disputes.
 
-- **The comparison comes early:** the fix's cost against the trade's typical price, within the first two minutes, usually as the villain line.
-- **Every price is a range from the research pack,** never one exact figure: "a box runs about four to seven dollars", "a drain call starts around a hundred and fifty and often runs past three hundred". After-hours and weekend prices are higher; use them in emergency videos.
-- **The cost per use when a product lasts:** "about fifty cents a treatment." Check it against the dose: a box that "lasts two years" has to survive the arithmetic.
-- **Rotate the money devices** across a channel's scripts:
-  - the three-way comparison ("fifty cents, against twenty dollars for the jug, against three hundred for the visit")
-  - the trade's price at the end of each item
-  - a running tally, closed at the last item ("about twenty dollars on one side, fifteen hundred and up on the other")
-  - payback arithmetic for big purchases such as water heaters and softeners
-- **Say it when the cheap or popular option loses.** "If it cost three thousand more and saves a hundred a year, that's a thirty-year payback. That is not great." A verdict that says no is the one viewers trust.
-- **A money figure in the title is paid at its item,** with what was avoided spelled out (the visit, the new toilet, the replacement).
-- **Brand names are optional** [DECIDED: sources and store names aren't required]. Name a widely sold product only when it is the answer and the research pack confirms it's on sale now. Viewers acted on the one brand our hits named ("I ordered some Arm & Hammer super washing soda", 304 likes).
-- **Never:** a guaranteed saving (claims policy); the trade's motives (see "The villain"); a total that isn't conditional when it depends on the viewer's house ("if it's the flapper, that's the whole bill").
+**1. The comparison comes early,** within the first two minutes, usually as the villain line.
+- Did it: "That little brown bottle sitting in your medicine cabinet cost about $1 at most drug stores. And yet the average homeowner pays a plumber $300 or more every single year…" (TheCheapFix, 2.18M views; first sentence).
+- Didn't: Vintage's enzyme video names no product and no price at the point; the per-night cost arrives more than five minutes later.
 
-## Safety [DRAFT: for your yes; kept light, as the operator asked]
+**2. Every price is a range from the research pack,** never one exact figure.
+- Drew fire: "usually around eight to twelve dollars a bottle" brought "This guy prices are from 1924, Amazon - BIO-CLEAN $79.95." "A dollar or two" for peroxide brought "Peroxide is now priced close to 5.00 since COVID." TheCheapFix's "$1 a bottle" brought "Maybe 30 years ago!" (48 likes).
+- Survived: "An after hours no heat call lands somewhere between $200 and $400 in most of the country, more at night or on a weekend" (Mark). No disputes.
+- Write: "A flapper runs about five to fifteen dollars. Having someone fit it usually starts around a hundred and fifty."
 
-The facts and methods come from the brief and the research pack. There's no separate fact bank: contradictions between one video and another are acceptable [DECIDED]. This section is only a short floor under the brief: five things that hurt the viewer or their pipes, and that drew the angriest comments in the study (about 18 on boiling water and 17 on washing soda that set hard: "Thanks to this video I had to hire a plumber!").
+**3. The cost per use, when a product lasts,** checked against the dose.
+- Did it: "That box is about $4 to $5 and it gives you the better part of a dozen treatments. Call it 50 cents a pop." (Roger, hit).
+- Check: "a box lasts two years of monthly treatments" has to survive the arithmetic. A 55-ounce box at half a cup a month doesn't make two years.
 
-**Never written, whatever the brief says.** If a brief asks for one of these, write the safe version and note it in the audit.
-1. **Boiling water** down a drain, into a toilet or through plastic pipe. Hot tap water instead: "Hot tap water, not boiling water off the stove."
-2. **Washing soda poured in dry.** Dissolve it in hot tap water first.
-3. **Mixing cleaners:** bleach with ammonia, vinegar or any acid, or peroxide with vinegar. One product in a drain at a time. Peroxide means the 3% drugstore bottle, never anything stronger.
-4. **Anything into a drain that already has a chemical drain cleaner in it,** including plunging it. It can splash back.
-5. **Gas lines and live wiring.** Gas pipe work is never DIY. Before any water-heater job, the power or the gas is turned off, in one line.
+**4. Rotate the money devices** across a channel's scripts, so no two videos count money the same way:
+- **Three prices side by side:** "50 cents versus 20 bucks versus 300. That's the whole game." (Roger, hit).
+- **The trade's price at the end of each item:** "This is exactly what professional kitchen cleaning services charge $40 a visit for. You just did it for cents." (TheCheapFix, hit).
+- **A running total,** closed at the last item: "Total spent, $2. Total saved off the new toilet, right around 500." (Vintage, hit).
+- **Payback arithmetic for big purchases** (water heaters, softeners, tankless): "If you save $20 a month, but spend an extra three, four grand to install it, it's going to take you over 12 years just to break even." (Roger Wakefield, hit).
+
+**5. Say it when the cheap or popular option loses.** "That is a 30-year payback period. That is not great." (Mark, his biggest hit). A verdict that says no is the one viewers trust, and "the one situation where paying somebody is the cheap option" (Mark) keeps the villain honest.
+
+**6. A money figure in the title is paid at its item,** with what was avoided spelled out. TheCheapFix's "#4 Saves $300" lands at item four as the new toilet nobody has to buy: "you absolutely do not need to pay a plumber $300 to $500 to replace your fixture."
+
+**7. Brand names are optional** [DECIDED: sources and store names aren't required]. Name a widely sold product only when it is the answer and the research pack confirms it's on sale now. Viewers acted on the one brand our hits named: "I ordered some Arm & Hammer super washing soda… The water is draining for the first time in months!" (304 likes).
+
+**Never:**
+- **A guaranteed saving** (claims policy). Not "this saves you $300", but "this can save you the $300 visit".
+- **The trade's motives** (see "The villain"). Not "that's how he pays his mortgage", but "a drain call starts around a hundred and fifty".
+- **A total stated as certain** when it depends on the viewer's house. Not "this is a $5 fix", but "if it's the flapper, that's a five-to-fifteen-dollar fix".
+
+## Safety [DRAFT: for your yes; the brief always wins]
+
+The facts and methods come from the brief and the research pack, and **the brief always wins** [DECIDED 2026-10-21]. There's no separate fact bank: contradictions between one video and another are acceptable [DECIDED].
+
+**Defaults, only where the brief is silent.** These five drew the angriest comments in the study (about 18 on boiling water and 17 on washing soda that set hard: "Thanks to this video I had to hire a plumber!"), so the script uses the safe version unless the brief says otherwise:
+1. **Hot tap water,** not boiling water, for drains, toilets and plastic pipe.
+2. **Washing soda dissolved first** in hot tap water, not poured in dry.
+3. **One cleaner at a time;** never bleach with ammonia, vinegar or any acid, or peroxide with vinegar. Peroxide means the 3% drugstore bottle.
+4. **Nothing added to a drain that already has a chemical drain cleaner in it,** plunging included. It can splash back.
+5. **Gas lines and live wiring are a call, not a project.** Before any water-heater job, the power or the gas goes off, in one line.
 
 **How safety sounds:**
 - **One short line inside the step where the risk is,** with the reason, in proportion. "It will put you on the floor" (chlorine gas) drew no complaints; vague danger drew "This is nothing but a scare tactic video."
@@ -217,6 +234,6 @@ Already decided, to be written up in the next batch:
 
 ## Scanner rules for this niche [LATER]
 
-To come with this batch: "boiling" near a drain, toilet, pipe or PVC; "pour it dry" and dry washing soda; first-person test or demo claims (liftable only when the title or brief calls for one).
+To come with this batch: "boiling" near a drain, toilet, pipe or PVC; "pour it dry" and dry washing soda; first-person test or demo claims ("I tested", "I tried", "my results"; never liftable).
 
 ## Before handing over [LATER]
