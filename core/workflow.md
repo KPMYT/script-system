@@ -31,7 +31,7 @@ This is the entry point. When someone types **START**, this file runs, and nothi
 - **title:** the locked title, exactly as approved
 - **brief:** the ideation brief for that title
 - **research-pack:** the verified research pack, or "none" (the chat then builds it; see below). A niche pack may mark it `not used`: then it is never asked for or built, and the brief is the fact source.
-- **rotation-log:** the channel's last five ROTATION LOG ENTRY lines, or "none" for a new channel
+- **rotation-log:** the channel's last five ROTATION LOG ENTRY lines (from the earlier scripts in this chat, or pasted), or "none" for a new channel. When this chat already wrote scripts for the channel, take their ROTATION LOG ENTRY lines (up to the last five) from the earlier outputs without asking (operator, 2026-10-21: "rotation log will always be in the same session").
 
 Then add, replace or drop items from the niche pack's `inputs` block, then from the persona profile's `inputs` block. An item marked `not used` isn't asked for or checked.
 
@@ -49,7 +49,7 @@ Then add, replace or drop items from the niche pack's `inputs` block, then from 
   - its title matches the locked title
   - its live facts are within the niche's freshness window
   - no gap marked "blocking"
-- **rotation-log:** up to five ROTATION LOG ENTRY lines (fewer only if the channel has fewer scripts), or "none."
+- **rotation-log:** up to five ROTATION LOG ENTRY lines (fewer only if the channel has fewer scripts), from this chat's earlier scripts or pasted, or "none."
 - **Anything from a niche pack or persona profile:** the check written in its `inputs` block (for example, "news article dated today").
 
 **If anything is missing or fails:** reply naming only what's missing or wrong, and ask only for that. Repeat until everything passes.

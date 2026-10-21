@@ -118,7 +118,7 @@ The move of the one line after the end-CTA.
 
 ## The rotation log
 
-The mechanism doesn't change. Every script ends with one rotation log line, and the next script's intake gets the last five lines pasted in. It works across different machines and VAs because the lines travel with the brief.
+The mechanism doesn't change. Every script ends with one rotation log line, and the next script's intake gets the last five lines: from the earlier scripts in the same chat (how the operator works, 2026-10-21), or pasted in. It works across different machines and VAs because the lines travel with the brief.
 
 **Format:** one plain-text line, no emoji.
 

@@ -37,7 +37,7 @@ The workflow reads this block at START and won't write until every input passes.
 - title | required | the locked title, exactly as approved
 - brief | required | the ideation brief for this title
 - research-pack | required | or "none", and the chat builds it (core workflow.md, section 2); follows references/research-pack-template.md; has a "Verified on" date; its title matches the locked title; live facts within the freshness window below; no gap marked blocking
-- rotation-log | required | the channel's last five ROTATION LOG ENTRY lines, or "none" for a new channel
+- rotation-log | required | the channel's last five ROTATION LOG ENTRY lines (from the earlier scripts in this chat, or pasted), or "none" for a new channel
 ```
 
 ## Freshness

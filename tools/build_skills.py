@@ -107,7 +107,7 @@ All of the script skills must be installed together: `script-writer` stops with 
 ## Using them (in Cowork)
 
 - **Ideation:** "Woodworking ideation for Hank" (or Dale). It scans Etsy, shows 30 products, then title options. You pick by number, and it writes the briefs. Ask for the research pack if you want it.
-- **Script:** open a new chat for each script and type **START**. Pick the channel, then paste what it asks for: for woodworking, the title, the brief, the research pack (or "none", and the chat builds one) and the rotation log (the channel's last five ROTATION LOG ENTRY lines, or "none"); for plumbing, the title, the brief and the rotation log (no research pack).
+- **Script:** type **START** in the chat where that channel's scripts are written, so each new script reads the rotation log lines of the earlier ones (in a fresh chat, paste the last five ROTATION LOG ENTRY lines, or "none"). Pick the channel, then paste what it asks for: for woodworking, the title, the brief, the research pack (or "none", and the chat builds one) and, in a fresh chat, the rotation log; for plumbing, the title, the brief and, in a fresh chat, the rotation log (no research pack).
 - **Upload rule:** only upload a script whose output says **VERDICT: PASS**. Anything that starts "NOT READY: DO NOT UPLOAD" goes back.
 
 ## Updating

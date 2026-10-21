@@ -177,6 +177,11 @@ The operator's reply to the merge proposal: "Please do this and ensure there are
 - **Two plumbing money devices are exceptions to "never cents, one price per item":** the cost per use in cents ("call it 50 cents a pop") and three prices side by side. Everything else is rounded. *(Read from "do this".)*
 - **Applying earlier decisions where the files still disagreed** (post-merge audit): "title numbers win" written into the claims policy for `tenure: none` and into Hank's and Dale's profiles; "right here" and "look at this" made core hard bans ("banned everywhere"); the end CTA not logged in the rotation log (2026-10-20); Dale's approved family detail excepted in the offer rules (P2); the plumbing rotation log line carries the money device, the promise devices and the comment question, which its approved rules already check.
 
+### Operator decisions, 2026-10-21 (after the post-merge audit)
+
+- **Plumbing never needs sources, and the audit doesn't count them:** "for plumbing we do not need sources." The originality score (audit E1) drops the named-sources signal for plumbing, counts the brief's less-used facts for signal 1, and passes at 4 of 6.
+- **The rotation log comes from the same chat:** "rotation log will always be in the same session so its fine. we have that." A channel's scripts are written in one chat, so the gate takes the ROTATION LOG ENTRY lines from the earlier scripts in it; pasting is only needed in a fresh chat. This replaces "the operator isn't tracking it for now" and "open a new chat for each script".
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

@@ -45,6 +45,7 @@ The core base rules apply wherever this pack is silent. These are the places it 
 | `variety-rotation.md`, the rotation log line | Four more fields at the end of the line: `\| model: [file numbers] \| money: [device] \| promises: [devices] \| comment: "[the comment question]"`, so the rotation checks in "Using the models", "Ways to promise more value", "Money framing" and "The ending" have something to check against. | 2026-10-21 (model); the other three carry rules already approved |
 | `workflow.md` §3 step 4 and `greenlight-audit.md` D3, the `--refs` files | Instead of `excerpts.md` and `reference-scripts.md` (woodworking's files), the copy guard runs against `references/excerpts.md`, `references/voice-samples.md` and every file in `references/models/`, plus the persona profile. | 2026-10-21 |
 | `research-and-sourcing.md` §6, "each number said alongside whoever counted it" | Sources and store names don't have to be said (see "Proof"). | 2026-10-20 |
+| `greenlight-audit.md` E1, the originality score (7 signals, pass at 5) | Sources aren't needed in plumbing, so the two source signals change: signal 1 counts facts from the brief that most videos on the topic don't use, and signal 4 (three named sources) doesn't apply. The score is out of 6 and passes at 4. | Operator, 2026-10-21: "for plumbing we do not need sources" |
 | `retention-mechanics.md` §6 and `greenlight-audit.md` B5, signposts | The sections are the opening, each item (or step, or contender) and the ending. "Number four." is the signpost for an item; in a verdict, the contender's name is. | 2026-10-21 (merge) |
 | `workflow.md` §4, contractions | Kept for the pack; a persona profile may forbid them (Mark Silverbridge's does). See "Voice". | 2026-10-21 |
 | `retention-mechanics.md` §2, the hook (a transformation, the viewer's pain or wish, one spark of curiosity, in about 15 seconds); `greenlight-audit.md` A1b and the evidence block's Hook line | The plumbing opening is the hook (see "The opening"). It is checked as the same three jobs: the transformation is the fix or product named in the first sentence, with what it does; the pain or wish is the failed attempt, the bill or the symptom; the curiosity is the opening question or the promise block. The Hook line records those three lines. The point still comes first, and the opening's six jobs run to about 45 seconds. | Operator, 2026-10-21 (merge) |
@@ -59,7 +60,7 @@ Plumbing scripts are written from the title and the brief alone; there is no res
 - title | required | the locked title, exactly as approved
 - brief | required | the ideation brief for this title; every fact, price, dose and method in the script comes from it
 - research-pack | not used | plumbing scripts are written from the brief
-- rotation-log | required | the channel's last five ROTATION LOG ENTRY lines, or "none" for a new channel
+- rotation-log | required | the channel's last five ROTATION LOG ENTRY lines (from the earlier scripts in this chat, or pasted), or "none" for a new channel
 ```
 
 - **The brief is the fact source.** It does the research pack's job: the scanner checks every number in the script against the brief, and the brief wins on safety.
