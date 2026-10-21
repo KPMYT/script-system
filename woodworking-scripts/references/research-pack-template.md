@@ -19,6 +19,7 @@ Pieces per batch:                  [how many one board or batch yields]
 MATERIALS                          [one line each]
 - item | size/spec | qty | store | price | date checked | URL
 - consumables: glue, screws/nails, finish, sandpaper, hardware -> cost per piece
+- maker's instructions for each hardware item or product (how it must be mounted or used, screw size, load, cure time), with source
 
 TOOLS                              [one line each]
 - tool | basic kit? (yes/no) | alternative if not
@@ -30,6 +31,7 @@ STEPS                              [in order]
 - step | the visible action | mistake/safety/option/quality note, if any
 
 SAFETY POINTS (build-specific)
+- food contact (anything food may touch): the finish AND every glue in it, including the factory glue in edge-glued panels and rounds, each with its source
 
 LISTINGS (3-5)
 - platform | listing title | price | asking or sold | sales evidence if visible | date | URL

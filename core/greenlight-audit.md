@@ -23,6 +23,7 @@ description: The final quality gate every script passes before it ships. Six gro
 ## Group A: the hook
 
 - **A1. The opening.** The viewer knows what the video is about within about 10 seconds, and the first line names the title's subject. By default the first sentence is a jolt, not a greeting, with no channel intro. A niche pack or persona profile can allow a greeting.
+- **A1b. The hook does all three jobs** (`retention-mechanics.md`, section 2): a transformation the viewer can picture, the viewer's pain or wish, and one spark of curiosity that the video answers (never a tease). One to three sentences, without delaying the first payoff. A hook made only of numbers or facts fails, and so does one that opens on the same move as the channel's last two or three scripts. Quote the line for each job. If the script carries a value line, everything it names is delivered, it contains no tease, and the first payoff still lands within about 15 seconds.
 - **A2. Graded against real winners.** The hook holds up against 2-3 real winning hooks from the niche pack's excerpt library or voice samples. Quote the ones it was compared with. If the niche has no real hooks to compare against, mark A2 as "not run" rather than failed.
 - **A3. The promise is mapped.** Every item the hook promises maps to the section of the body that delivers it.
 - **A4. The hook's claims hold up.** Everything the hook claims is backed by the body, within the framing limits in `research-and-sourcing.md`.
@@ -31,18 +32,18 @@ description: The final quality gate every script passes before it ships. Six gro
 
 - **B1. Every question opened gets answered,** fully, later in the script.
 - **B2. The line after the hook** pays off or escalates, never background.
-- **B3. Progression.** Every paragraph adds information, moves forward, raises an obstacle or shifts a feeling. One that does none is padding: cut it.
+- **B3. Progression.** Every paragraph adds information, moves forward, raises an obstacle or shifts a feeling. One that does none is padding: cut it. A line of the persona's opinion, reaction or honest aside is not padding (`retention-mechanics.md`, section 4).
 - **B4. None of the four retention mistakes:** the slow start, the context dump, a payoff with nothing after it, the broken promise.
-- **B5. Bridges and pacing.** Bridges point only at the next segment, honestly, and the next segment delivers what they promise. No flat stretch runs longer than about 90 seconds without a payoff.
+- **B5. Bridges, signposts and pacing.** Bridges point only at the next segment, honestly, and the next segment delivers what they promise. Every change of section is signposted, so the viewer knows which section they're going into (`retention-mechanics.md`, section 6): list each section change with its signpost line, and quote any that has none. No flat stretch runs longer than about 90 seconds without a payoff.
 - **B6. "But" and "therefore"** connect the narrative and reasoning parts. Steps and list items may be sequential.
 - **B7. Uneven rhythm.** No runs of same-length sentences, other than real lists and short instructions.
 - **B8. List order.** The order follows the default, the niche pack's rule, or the hook's escalation promise, whichever applies.
-- **B9. No retention killers:** repeated emphasis, piled-up qualifiers, announcing the obvious, throat-clearing.
+- **B9. No retention killers:** repeated emphasis, piled-up qualifiers, announcing the obvious, throat-clearing, and recaps anywhere in the script (a run-down of what was just built counts).
 
 ## Group C: clarity
 
 - **C1. One thread.** Any sentence traces back to the one thing the video exists to deliver.
-- **C2. Easy to follow on one listen.** Plain words, and any term explained the first time it's used.
+- **C2. Easy to follow on one listen.** Plain words, and any term explained the first time it's used. Numbers too: every price rounded (never cents), small costs collapsed, no fee schedules or lists of listings read aloud (`humanizer.md`, H22). Quote any sentence carrying three or more dollar figures.
 - **C3. The viewer's own words,** from the niche's vocabulary, not assumed jargon.
 - **C4. The perspective shift,** only where the structure calls for one.
 - **C5. The payoff is delivered exactly as promised,** and the ending doesn't recap or point back at the promise.
@@ -80,10 +81,10 @@ YouTube judges channels on whether content is mass-produced or reused. This grou
 - **F2. Length came from the content,** with no padding and no squeezing, and the script reaches the 8-minute minimum (`workflow.md`, section 3).
 - **F3. CTAs and the ending** follow `cta-and-endings.md` and the persona profile:
   - placed after the first payoff
-  - what the offer is, the added-value promise, and where to get it
+  - what the offer is, the added-value promise, and where to get it, worded as the persona profile says (for example, both the QR code and the top link in the description)
   - the CTA or nothing, then stop
   - no named future video
-- **F4. Offer rules** (`offer-rules.md`). Every page reference to the persona's book is checked against the book text and the plan's book match; a page that doesn't cover what the script says is a false claim.
+- **F4. Offer rules** (`offer-rules.md`). A book is always "the book" or "my book", never "e-book". Every page reference to the persona's book is checked against the book text and the plan's book match; a page that doesn't cover what the script says is a false claim.
 - **F5. The claims policy** (`claims-policy.md`). No checkable life facts, no invented sales, customers, family or history, and personal details only from the persona profile's list.
 - **F6. Facts versus framing** stay within the limits in `research-and-sourcing.md`.
 - **F7. Nothing pointed at without being named.** The visuals are built from the narration, so the script never points at something it doesn't name ("look at this," "right here").
@@ -128,6 +129,8 @@ Every audited script carries this short block after the rotation log. It's never
 AUDIT EVIDENCE
 Verdict: PASS (round [n] of 3)
 Promise map: [what the hook promises] -> [where each is delivered]
+Hook: transformation = "[line]" | pain or wish = "[line]" | curiosity = "[line]" (answered at [where]) | modelled on [excerpt] | move: [opening move] | value line: "[line]" or none
+Signposts: [each section change -> "its first line"]
 Numbers: [each number = its fact-source line (research pack or brief), or the math from its numbers]
 Scanner: hard bans 0 | mechanical 0 | niche bans 0 | limits 0 | production notes 0 | repeats 0 | persona facts 0 | "Most..." [n] | reframes [n] | filler over limit [n] | numbers not in pack [n, each explained]
 Voice: samples used = [which]; matched line = "[a script line]"

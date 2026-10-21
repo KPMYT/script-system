@@ -36,7 +36,7 @@ End CTA: yes (a one-line reminder)
 Offer:
   Printed title (exact, used in the markers): 100 Old-House Fixes That Save You Thousands
   Spoken as: One Hundred Old-House Fixes That Save You Thousands
-  Type: e-book (digital download), by Roger the Pipe Guy
+  Type: book (digital download), by Roger the Pipe Guy; always "the book" or "my book" in narration, never "e-book"
   Book text: personas/books/roger-the-pipe-guy-book.md (124 pages; printed page numbers match the PDF)
   True facts (the only facts a CTA may use): 100 numbered fixes in 16 chapters and six parts (first checks before you spend a dime; leaks, drips and water damage; drains, toilets and odors; old pipes, fittings and fast repairs; water heaters, basements and seasonal protection; and a final part); every fix has the same six parts: the problem, why it costs money, Roger's first check, the cheap fix, when to call a pro, and the money saved; back matter: a checklist, a shutoff sheet, a seasonal maintenance calendar, a troubleshooting guide, a contractor question sheet, a tools list and a glossary
   The added-value promise: a hundred old-house fixes with the checklists and the seasonal calendar to stay ahead of problems instead of reacting to them
@@ -73,4 +73,6 @@ allow: One Hundred Old-House Fixes That Save You Thousands
 name: Roger the Pipe Guy
 book: One Hundred Old-House Fixes That Save You Thousands
 tenure: 45
+ban: e-book | say "book", never "e-book"
+ban: ebook | say "book", never "e-book"
 ```

@@ -16,7 +16,7 @@ Niche pack:
 THE BASICS
 Script type: Talking Head | Classic
 Voice provider: ElevenLabs | Minimax
-Words per minute (optional, for runtime estimates):
+Words per minute (for runtime and the 8-minute minimum; measure it from the channel's real voiceovers, 150 if there are none yet):
 
 THE PERSONA
 Name:
@@ -37,7 +37,7 @@ End CTA: yes | no
 Offer(s), for each one:
   Printed title (exact, used in the markers):
   Spoken as (how the narration says the title):
-  Type: e-book | email list | affiliate | subscribe only
+  Type: book (digital download) | email list | affiliate | subscribe only
   Book text (the offer's full text with page markers, for the book match): [file in personas/books/] | none
   True facts (contents, counts, chapters; the only facts a CTA may use):
   The added-value promise:

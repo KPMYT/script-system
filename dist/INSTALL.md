@@ -1,28 +1,28 @@
 # Installing the skills
 
-**Version:** 2026-10-21 (library commit a0a42be)
+**Version:** 2026-10-21 (library commit 2bcc4db)
 
-Ten skill files, one per layer. Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills. They then work in Claude and in Cowork.
+Ten skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
 
 | File | Layer | What it does | On your account now |
 |---|---|---|---|
 | `script-writer.skill` | Core | Type **START** to write a script. The core rules every channel uses; it reads the skills below. | **New:** upload it. |
-| `woodworking-scripts.skill` | Niche | The woodworking-for-profit rules (structure, money block, proof, safety, voice) and the research-pack template. | **Replace** the old `woodworking-scripts` (delete the old one, upload this). |
-| `hank-hardwood-persona.skill` | Channel | Hank's profile, CTA rules and book. | **New:** upload it. |
-| `dale-oakfield-persona.skill` | Channel | Dale's profile, CTA rules and book. | **New:** upload it. |
-| `plumbing-scripts.skill` | Niche | The plumbing rules (inputs: title and brief, the opening, promises, the ten video types, CTAs, the ending, length, voice, proof, money, safety), the 38 model scripts and the copy guard's files. | **New:** upload it. |
-| `roger-the-pipe-guy-persona.skill` | Channel | Roger's profile, CTA rules and book. | **New:** upload it. |
-| `mark-silverbridge-persona.skill` | Channel | Mark's profile, CTA rules and book. | **New:** upload it. |
-| `vintage-pipefitter-persona.skill` | Channel | The Vintage Pipefitter's profile and its one-line subscribe ask (no book). | **New:** upload it. |
-| `woodworking-ideation.skill` | Ideation | The Etsy-first product scan (30 products), title and thumbnail-text options, fact briefs, the optional research pack. | **Replace** the old `woodworking-ideation`. |
+| `woodworking-scripts.skill` | Niche | The woodworking-for-profit rules (structure, money block, proof, safety, voice) and the research-pack template. | **Replace** the copy on the account (delete it, upload this). |
+| `hank-hardwood-persona.skill` | Channel | Hank's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
+| `dale-oakfield-persona.skill` | Channel | Dale's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
+| `plumbing-scripts.skill` | Niche | The plumbing rules (inputs: title and brief, the opening, promises, the ten video types, CTAs, the ending, length, voice, proof, money, safety), the 38 model scripts and the copy guard's files. | **Replace** the copy on the account (delete it, upload this). |
+| `roger-the-pipe-guy-persona.skill` | Channel | Roger's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
+| `mark-silverbridge-persona.skill` | Channel | Mark's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
+| `vintage-pipefitter-persona.skill` | Channel | The Vintage Pipefitter's profile and its one-line subscribe ask (no book). | **Replace** the copy on the account (delete it, upload this). |
+| `woodworking-ideation.skill` | Ideation | The Etsy-first product scan (30 products), title and thumbnail-text options, fact briefs, the optional research pack. | **Replace** the copy on the account (delete it, upload this). |
 | `ideation-core.skill` | Ideation | The shared base every ideation skill needs. | **Unchanged:** only install it where it's missing (for example a new VA account). |
 
 All of the script skills must be installed together: `script-writer` stops with NOT READY if the channel's niche or persona skill is missing.
 
 ## Steps
 
-1. **Delete** the old `woodworking-scripts` and the old `woodworking-ideation`.
-2. **Upload** `script-writer`, `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona` and `vintage-pipefitter-persona`.
+1. **Delete** the old copies of `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona` and `vintage-pipefitter-persona`.
+2. **Upload all nine from this build together**: those eight and `script-writer`. They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
 3. **Upload `ideation-core`** only if the account doesn't have it.
 4. **Turn them all on.**
 

@@ -10,6 +10,12 @@ Channel:
 PROMISE
 - shape this time:                 [pick a different shape from this channel's last script; see excerpts §1]
 - the number it carries:
+- the viewer's fear or wish it touches:  [tools, wasted wood, looks homemade, out-priced by big stores, side money]
+- the transformation they can picture:  [what goes in -> what comes out]
+- the spark of curiosity:            [and where the video answers it]
+- the winning hook it's modelled on:  [excerpts group 1, number]
+- the move into the materials:        [excerpts group 12 shape]
+- value line this time?              [yes or no (about one video in three); what it names]
 
 CONTEXT
 - none / one sentence about:
@@ -35,8 +41,13 @@ MONEY BLOCK
 - time estimate
 - doubter: the objection -> the proof
 - listing angle:                   [optional]
+- numbers worth saying:            [only the few the viewer needs: parts cost, price, what's left, one batch line; everything else rounded or left in the pack]
 
 WHERE TO SELL
+
+OPINION MOMENTS                    [the build's choice points (which wood, which hardware, which finish or decoration) where the persona says what they'd pick and why]
+
+SIGNPOSTS                          [each section change -> the shape of its signpost line (done-now-next, named outright, a bridge); no wording repeated]
 
 FLEXIBLE CHOICES THIS TIME         [see the skill's skeleton]
 - tools listed separately, or folded into materials?

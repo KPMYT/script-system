@@ -30,7 +30,7 @@ This is the entry point. When someone types **START**, this file runs, and nothi
 **Which inputs are required.** Start from the core defaults:
 - **title:** the locked title, exactly as approved
 - **brief:** the ideation brief for that title
-- **research-pack:** the verified research pack (a niche pack may mark it `not used`; the brief is then the fact source)
+- **research-pack:** the verified research pack, or "none" (the chat then builds it; see below). A niche pack may mark it `not used`: then it is never asked for or built, and the brief is the fact source.
 - **rotation-log:** the channel's last five ROTATION LOG ENTRY lines, or "none" for a new channel
 
 Then add, replace or drop items from the niche pack's `inputs` block, then from the persona profile's `inputs` block. An item marked `not used` isn't asked for or checked.
@@ -54,7 +54,9 @@ Then add, replace or drop items from the niche pack's `inputs` block, then from 
 
 **If anything is missing or fails:** reply naming only what's missing or wrong, and ask only for that. Repeat until everything passes.
 
-**No way around it.** If asked to "just write it," "skip the research," or proceed anyway, don't. Reply with what's still needed.
+**No research pack.** In a niche that uses one (never where the niche pack marks it `not used`), if the reply is "none" (or the pack is missing and the operator says there isn't one), the chat builds it, by running the research stage (`research-and-sourcing.md` and the niche pack's research pack template), including the verification pass. It saves the pack as its own file, then checks it at this gate like any other pack. If the research finds a title claim it can't support, it stops with NOT READY, names the claim, and offers honest versions of the title for the operator to re-lock; it never changes the title itself. (Operator, 2026-10-20.)
+
+**No way around it.** If asked to "just write it," "skip the research," or proceed anyway, don't. Reply with what's still needed. Building the pack is allowed; writing without one never is.
 
 **Bulk mode.** If START arrives with every input already included and all of them pass, go straight to section 3 without a single question.
 
@@ -71,7 +73,7 @@ Run these steps in order. Never ask "shall I continue?" Never stop to check in.
 2. **Plan.** Fill in the niche's unit plan (or list the fallback structure's content units), including the variation choices against the rotation log (`variety-rotation.md`).
    - **The book match.** If the persona profile names a book text, search it for the video's topic (the build, the technique, the problem) and record each relevant page range with one line on what's there, or "nothing relevant." CTAs and book mentions may cite only these pages (`cta-and-endings.md`, section 3).
    - **The 8-minute minimum.** Every script runs at least 8 minutes of narration, counted at the persona profile's words per minute, or 150 if it sets none (so at least 1,200 spoken words at 150). Above that, length comes from the content: every line must add value, and longer is fine. If the plan can't reach 8 minutes with real value, never pad: stop with NOT READY and ask for more research or a bigger angle. A niche pack may add guidance on length.
-3. **Write,** following the niche pack (or the fallback structure) and every core rule.
+3. **Write,** following the niche pack (or the fallback structure) and every core rule. **The quality bar** (operator, 2026-10-20): the script follows the core unless the niche pack overrides it (the pack always wins), is tailored to the audience's emotions, gives real value, opens on a strong hook that plays on their pain points, is solution-driven, and is easy to follow on one listen.
 4. **Sweep.**
    - Run the `humanizer.md` pass.
    - Run `script-scanner.py` with the niche pack and persona profile as rules files, the fact source as the pack, the locked title with `--title` (a years figure in it is allowed: title numbers win), and the niche pack's `excerpts.md` and `reference-scripts.md` plus the persona profile with `--refs` (the copy guard: any run of 8 or more words shared with them is fix-on-sight, except lines the profile's scanner block marks `allow:`, such as a fixed sign-off). Where Python isn't available, do the same checks by hand.
@@ -80,7 +82,7 @@ Run these steps in order. Never ask "shall I continue?" Never stop to check in.
 
 **If the run hits something it needs and doesn't have** (a missing fact, a blocking gap, an unsupportable title claim), it stops with NOT READY and says exactly what's needed. It never fills the gap itself.
 
-**Later:** once the research stage exists, a missing research pack (in a niche that uses one) starts the research stage automatically instead of being asked for.
+**A pack built in this chat** follows section 2: it's built, verified and checked at the gate before the run starts.
 
 ---
 
@@ -93,7 +95,8 @@ There's one format: clean voiceover prose for the auto-edit tool.
 **Writing for the voice:**
 - **Contractions,** and no em or en dashes (`humanizer.md`, H15).
 - **List numbers are spoken as words** in the narration: "Number eight." Never rely on a marker to announce them.
-- **Prices, years and stats are digits,** with commas in large numbers: "$4.65," "1,200," "1998." Small everyday counts can be words ("two boards").
+- **Prices, years and stats are digits,** with commas in large numbers: "$15," "1,200," "1998." Small everyday counts can be words ("two boards").
+- **Few numbers, easy to follow:** always rounded the way people talk ("about four bucks," "around $40"), never cents; one price per item; never a fee schedule or every listing read aloud (`humanizer.md`, H22).
 - **Spell out anything a voice might misread,** the way it's said: measurements with fractions ("five and three-quarters inches") and degrees ("45 degrees"). Never symbols like ° or ½.
 - **Introduce each named person by full name once.** After that, use the surname, a pronoun, or their role.
 

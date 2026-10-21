@@ -336,6 +336,21 @@ for name,slug in (("Roger the Pipe Guy","roger-the-pipe-guy"),("Mark Silverbridg
     if not (row and "Status: ready" in prof and "Niche pack: plumbing-scripts" in prof): bad.append(name)
 check("26. channels.md lists Roger, Mark and Vintage as ready on plumbing-scripts, and their profiles agree", not bad and os.path.isfile(PLR), ", ".join(bad))
 
+# 27. (iter-01's check 14) the numbers check finishes on spoken fractions and lumber names (it used to loop forever on them)
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("Drill a three-quarter inch hole. Use five-eighths inch screws on a one-by-eight, seventeen and three-quarters across.\n"); fs=t.name
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("17.75 0.75 0.625\n"); fp=t.name
+try:
+    r=subprocess.run(["python3",SCAN,fs,"--pack",fp],capture_output=True,text=True,timeout=20); ok14,d14=r.returncode==0,r.stdout[-400:]
+except subprocess.TimeoutExpired:
+    ok14,d14=False,"scanner did not finish within 20 seconds"
+check("27. numbers check finishes on fraction words (three-quarter, five-eighths, one-by-eight)", ok14, d14)
+
+# 28. (iter-01's check 15) every persona profile's scanner block flags "e-book" (the offer is always called "book")
+PROFILES=sorted(glob.glob(f"{ROOT}/personas/*.md"))
+PROFILES=[p for p in PROFILES if "```scanner" in open(p).read()]
+noflag=[os.path.basename(p) for p in PROFILES if run_scan("Grab my e-book from the link.\n",[p])[0]!=1]
+check("28. every persona profile flags 'e-book'", len(PROFILES)>=2 and not noflag, f"profiles={[os.path.basename(p) for p in PROFILES]} not flagging: {noflag}")
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")

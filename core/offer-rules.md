@@ -27,7 +27,7 @@ The promise must be true and specific, and drawn from the profile's facts.
 
 ## 3. Naming the offer
 
-- **E-book:** always called a digital book or e-book download.
+- **Book (a digital download):** always called "the book" or "my book" in narration, never "e-book" or "ebook" (operator, 2026-10-20, every channel).
 - **Email list:** say what arrives and how often, as the profile states.
 - **Affiliate link:** say plainly that it's an affiliate link.
 - **Subscribe only:** one clear ask, no offer language.
@@ -42,6 +42,6 @@ The promise must be true and specific, and drawn from the profile's facts.
 ## 5. Always banned
 
 - Manufactured urgency or scarcity ("only a few left," "ends tonight").
-- False intimacy ("I read every single one").
+- False intimacy in a pitch (a made-up personal bond used to sell). Saying the narrator reads every comment is allowed (operator, 2026-10-20).
 - Guarantees of any result, and any health, treatment or prevention claim.
 - Negative claims about named companies.

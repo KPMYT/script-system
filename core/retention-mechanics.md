@@ -23,6 +23,14 @@ description: Why viewers keep watching and how a script holds them: the first se
 ## 2. The first seconds
 
 - **Say what the video is about within about 10 seconds, using "you" or "your."** Viewers decide fast whether this is what they came for, and any delay makes them doubt it.
+- **The hook** (operator, 2026-10-20), about 15 seconds, one to three sentences, modelled on what the winners do:
+  1. **A transformation the viewer can picture:** what goes in (one 2x4, about four bucks) and what comes out (a set of planters listed around $25 each, a table full of stock, the holiday's spending money). A result they can see beats a bare dollar figure.
+  2. **The viewer's pain or wish,** in their own words: the fear, frustration or hope that brought them (buying tools they don't need, building something nobody buys, the leak that keeps coming back). One line, never a problem essay.
+  3. **One spark of curiosity:** a surprising fact, a contrarian line, or a small gap ("the part nobody looks at is the one that fails"). The video itself answers it, a few lines later or when the build gets there. It's an open question, never an announcement ("I'm not telling you yet," "stick around" stay banned).
+
+  An everyday comparison ("about what a large pizza costs") helps where it's true. A hook made only of numbers or facts is flat. Then straight into the first payoff. The niche pack names its audience's main pains and its winners' hooks.
+- **The value line** (optional, operator 2026-10-21). On about one video in three, one short sentence straight after the hook names what the video delivers, in plain words (for a build: how to make it, where to sell it, the numbers). Everything it names must be in the script. Never "by the end of this video," "stick around" or any other tease (hard bans), and never the opening line itself. The first payoff still lands within about 15 seconds, so the hook is shorter on videos that carry one. Write it fresh each time; no two scripts on a channel word it the same.
+- **Rotate the hook.** Copy the winners' moves, never their words: model each hook on a real winning hook from the niche pack's excerpt library, write it fresh in the persona's voice, and never open on the same move as the channel's last two or three scripts or reuse a logged line (`variety-rotation.md`, slot 1). The example lines in these files are shapes from other builds and niches: never reuse their wording or their image.
 - **Open on what the thumbnail and title promised.** The first visual matches the thumbnail, and the first line names the title's subject. The video is built from the script, so that first line has to name what should be on screen; the visuals can only show what the narration mentions.
 - **No greeting and no channel intro by default.** No "hey guys," no "today we're going to," no wind-up. Some niches suit a warm greeting, so a niche pack or persona profile can allow one.
 
@@ -54,6 +62,8 @@ Every paragraph must do at least one of these:
 
 A paragraph that does none of them is padding. Cut it; don't polish it. This is the main test for whether a script's length is honest.
 
+**Personality isn't padding.** An opinion, a reaction or an honest aside in the persona's voice changes how the viewer feels and builds trust, so it passes this test. An extra sentence of it here or there is allowed, inside a step or between them; don't strip it out to make a script leaner. (Operator, 2026-10-20.)
+
 ---
 
 ## 5. Show, then explain
@@ -73,6 +83,8 @@ In list videos and in step-by-step progressions, where something visibly changes
 - **Honest.** The next segment has to actually deliver what the bridge promised. Mild exaggeration in tone is fine; promising something the segment doesn't contain isn't.
 - **One line.** A bridge is one sentence, often half of one. Sometimes the best bridge is just starting the next item.
 - **Varied.** Never reuse the same bridge shape twice in a row, and rotate across scripts (`variety-rotation.md`).
+
+**Signpost every section** (operator, 2026-10-20). The viewer always knows which section they're going into. At every change of section, the first sentence names the next job, so it's clear the video has moved on: "Once the glue's set, it's time to sand." "Now, the price." "As for where to sell it…" The winners do this at every turn, most often as "done, now the next job" ("Once your plugs are in, it's time to cut them flush"). A bridge can carry the signpost; a step inside a section doesn't need one. Signposts rotate like bridges and never repeat their wording in one script. The niche pack lists its sections and how the move into the first one is announced.
 
 **Bridge moves:**
 - **The stakes of the next item:** "That one saves you a service call. The next one saves you a water heater."

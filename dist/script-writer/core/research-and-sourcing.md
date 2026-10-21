@@ -21,6 +21,7 @@ ideation (title + brief)  ->  research (verified research pack)  ->  script (wri
 ```
 
 - **In:** the locked title and the ideation brief. The brief's facts are leads to check, not finished proof.
+- **Who runs it:** the ideation pipeline's optional research pack step, or the script chat itself when START arrives without a pack (`workflow.md`, section 2). Either way, it follows this file and the niche's template, including the verification pass.
 - **Out:** the niche's research pack, or the default pack in section 9 when the niche has none.
 - **Back to ideation:** when a title's claim can't be supported, even generously (section 10).
 - **Skipped by choice:** a niche pack may mark the research pack `not used` in its `inputs` block. Its scripts are then written from the title and brief alone, and the brief is the fact source (`workflow.md`, section 2).
@@ -42,9 +43,10 @@ The script stage never adds facts the pack doesn't contain.
 - emotional stakes, and how big a problem feels
 - an industry or category cast as the villain ("the big stores would rather you didn't know this")
 - the degree a title promises ("EVERY tool," "stupid money")
+- **titles only:** claims about the persona's own selling, income or tenure ("the laziest thing I sell," "40 years of selling"). The operator allows these in titles on every channel (2026-10-20). Research doesn't flag them back; the script delivers them through the numbers, and the narration still never claims sales, customers or history (`claims-policy.md`). A years figure in the locked title is the one exception: the script may say it (title numbers win, `claims-policy.md`, operator 2026-10-21).
 
 **The limits on framing:**
-- **The fact underneath is true.** Exaggeration changes the degree, never invents the event.
+- **The fact underneath is true.** Exaggeration changes the degree, never invents the event. (The one exception is the title-only persona claims above.)
 - **A worst case must be a real possibility, said as one.** "That drip can end up costing you a ceiling" is fine. "That drip will flood your house tonight" isn't.
 - **Villain framing stays tone.** Nothing false is ever stated as fact about a named company or person.
 - **No exaggeration that could lead someone into danger or panic** on health or safety.
@@ -154,7 +156,7 @@ GAPS
 
 ## 10. Flagging a title back to ideation
 
-If a title's claim can't be supported, even counting the framing allowed in section 2, the research stage doesn't patch it. It sends a short note back to ideation:
+If a title's claim can't be supported, even counting the framing allowed in section 2 (title-only persona claims about selling, income or tenure are never flagged), the research stage doesn't patch it. It sends a short note back to ideation:
 - the claim
 - why it can't be supported
 - an honest version that can be

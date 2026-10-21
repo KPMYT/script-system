@@ -136,6 +136,38 @@ Recorded from the operator's reply to the plumbing comparison (`studies/plumbing
 - **No NexLev mini-study for more models (2026-10-21):** "no we dont need to do this." The model library's sample was accepted: "we will see based on outputs now."
 - **The scanner checks matter a great deal to the operator** (spoken production notes, wrong channel or book names, numbers said twice, tenure numbers that differ from the profile, "boiling" near drain or toilet, "pour it dry"). The operator approved the core ones (2026-10-20), now built: production notes read aloud, the same sentence twice, persona facts from the profile (name, book, tenure) and the tease phrasings the scanner missed, plus a judged flag for the script talking about its own thumbnail or title. "Boiling" near drain or toilet, "pour it dry" and first-person test claims go in the plumbing pack's scanner block.
 
+### Operator decisions, 2026-10-20 (first script test review, iter-01)
+
+From the review of Hank's first script (the lazy Susan). Full record in `tests/iterations/iter-01/`.
+- **The hook plays on emotion, on every channel:** besides the promise, the opening touches the viewer's pain point or wish and points at the solution. One sentence of it, within the first-material and no-teases rules above. The quality bar (core unless the pack overrides, tailored to the audience's emotions, real value, a strong pain-point hook, solution-driven, easy to follow) is now written into `core/workflow.md`.
+- **Fewer numbers, easy to follow, on every channel:** exact figures only where the viewer needs them, the rest rounded the way people talk, one price per item, no fee schedules or lists of listings read aloud.
+- **Personality stays in:** an extra sentence of opinion, reaction or honest aside here or there is allowed and isn't padding.
+- **Words per minute** are set from each channel's real voiceovers: Hank 185, Dale 170.
+- **Hank's CTAs point to both the QR code and the top link in the description,** every time. This changes "pointing to the QR code" above. Hank's longer CTAs are fine as they are. Dale stays as he is ("link below").
+- **The offer is always "the book",** never "e-book", on every channel.
+- **No shop or seller names** in narration. The editor blurs them on screenshots.
+- **Titles may claim the persona's selling and tenure** on Hank too, in his own words ("40 years" stays Dale's). Research doesn't flag these; the narration still never claims them. *(For tenure, superseded on 2026-10-21 by "title numbers win" above: a years figure in the locked title may be said in the script, on every channel.)*
+- **When START comes without a research pack,** the script chat builds and verifies one, then checks it at the gate. Writing without a pack is still refused.
+- **Swears aimed at the viewer** include orders to the viewer ("So do the damn math" fails).
+- **Food items** have their factory glue checked as well as the finish.
+- **Steps that must follow the finish** (final assembly, hardware) come after it.
+- **Hank's QR code exists** (confirmed by the operator).
+
+### Operator decisions, 2026-10-20/21 (second and third script tests, iter-02 and iter-03)
+
+From the Dale lazy Susan tests. Records in `tests/iterations/iter-02/` and `iter-03/`.
+- **Saying the narrator reads every comment is allowed.**
+- **Prices are always rounded** in the narration, never cents.
+- **The hook** does three jobs in one to three sentences: a transformation the viewer can picture, their pain or wish, and one spark of curiosity the video answers (never a tease). Copy the winners' moves, never their words, and rotate the opening move.
+- **Every section change is signposted,** and the move into the materials is announced, straight to the first item and its price or the list announced.
+- **No recaps anywhere,** including a run-down of the build before the money.
+- **Builds follow the maker's instructions for every part,** even when that costs a cut; the hook never promises what the maker's way breaks.
+- **Dale's pitch carries one fixed line, word for word:** "My grandfather taught me everything I know about woodworking and made me promise to write it all down, so I did, every technique and fix in one place." This widens his family detail to "taught me everything I know."
+- **The writer's audit notes show the hook's three jobs and every signpost.**
+- **The value line:** on about one video in three, one sentence after the hook names what the video delivers (the build, where to sell it, the numbers), all of it in the script, never a tease and never the opening line.
+- **Packaging:** each skill is a `.skill` file, `script-writer` also comes as a zip, and the full bundle is a zip. Skills go on the account, not in a project.
+- **Rotation log:** the operator isn't tracking it for now.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

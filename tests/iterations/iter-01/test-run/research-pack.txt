@@ -1,0 +1,105 @@
+RESEARCH PACK Title (locked): $21 in Big Box Parts, $90 at Every Craft Fair — the Laziest Thing To Sell Channel: Hank Hardwood Promise in plain words: three big-box parts (pine round + bearing + screws) = $20.78 -> a personalized 18-inch lazy Susan you could list around $90; about $28 all in with base, pads, oil and sandpaper Title claims to support:
+
+* "$21 in Big Box Parts" -> round $14.58 + bearing $5.22 + 8 screws $0.98 = $20.78 (MATERIALS)
+* "$90" -> personalized wood lazy Susans listed $54 to $327, cluster $70 to $118 (LISTINGS); $90 = opinion inside the range, not the top
+* "at Every Craft Fair" -> framing (degree); no fee at a fair beyond the booth; price evidence is online listings
+* "the Laziest Thing To Sell" -> persona verdict: one crosscut, no joinery, no glue-up Researched on: 2026-10-20 Verified on: 2026-10-20 (every link below reopened and checked this date)
+
+PLAN SOURCE Source of the design: standard top-plus-base turntable assembly with an access hole, per Rockler "How to install lazy Susan hardware" | https://rockler.com/learn/how-to-install-lazy-susan-hardware | 2026-10-20 Finished size: 17.75 in. diameter x 1 in. top on a 7.25 in. square base Pieces per batch: 6 (the bearing 6-pack); base board yields 12 bases from one 1x8x8
+MATERIALS
+
+* pine round | Edge-Glued Pine Round, 1 in. x 17.75 in. actual, SKU 680435 | 1 | Home Depot | $14.58 | 2026-10-20 | https://www.homedepot.com/p/Edge-Glued-Pine-Rounds-Common-1-in-x-17-3-4-in-Actual-1-0-in-x-17-75-in-HDLPRD18/206047904
+* bearing | Everbilt 6 in. Square Lazy Susan Turntable, 400 lb evenly distributed, 5/16 in. profile, model 49548 | 1 | Home Depot | $7.87 single; 6-pack $31.30 = $5.22 each | 2026-10-20 | https://www.homedepot.com/p/p/203661089 ; https://www.homedepot.com/p/Everbilt-6-in-Silver-Square-Lazy-Susan-Turntable-with-400-lbs-Load-Rating-6-Pack-49548-6/321148314
+   * hole spacing center to center: top plate 4-3/4 in., bottom plate 5-1/2 in. (HD Q&A); maker says mount it on a base, rubber feet not recommended; a reviewer had trouble finding the access hole and made their own
+* screws | Everbilt #6 x 5/8 in. Phillips flat head wood screw, 12-pack | 8 per piece | Home Depot | $1.47 (= $0.98 for 8) | 2026-10-20 | https://homedepot.com/p/6-x-5-8-in-Phillips-Flat-Head-Zinc-Plated-Wood-Screw-12-Pack-807011/204275569
+* base board | 1 in. x 8 in. x 8 ft. Premium Pine S4S, actual 0.75 x 7.25 in., 5-pack | 1 base (7.25 in. square) per piece; 12 per board | Home Depot | $91.79 per 5 = $18.36 a board = $1.53 a base | 2026-10-20 | https://homedepot.com/p/1-in-x-8-in-x-8-ft-Premium-Pine-S4S-Common-Board-5-Pack-188GS4S5PK/326202809 ; a scrap 1x8 offcut does the same job
+* felt pads | Everbilt 1 in. round felt pads, 16-pack | 4 per piece | Home Depot | $4.97 (= $1.24 for 4) | 2026-10-20 | https://homedepot.com/p/Everbilt-1-in-Brown-Round-Felt-Heavy-Duty-Self-Adhesive-Furniture-Pads-16-Pack-49862/203661096
+* finish | Watco Butcher Block Oil, Clear, 1 pint, model 241758 | Home Depot | $18.98 | 2026-10-20 | https://www.homedepot.com/b/Kitchen-Countertops-Butcher-Block-Oils/JavaFly/Watco/N-5yc1vZ2fkp3h1Z642Zrp6
+   * per piece: about $3.16 (ESTIMATE: a pint over about six 18-inch rounds, both faces and edge, two coats; maker publishes no coverage figure, "varies with type and porosity of wood")
+* sandpaper | Diablo 150 grit 9 x 11, 4-pack | Ace Hardware | $9.99 ($2.50 a sheet) | 2026-10-20 | https://www.acehardware.com/departments/paint-and-supplies/painting-tools-and-supplies/sandpaper/1039385
+   * per piece: about $1.25 (ESTIMATE: about half a sheet across 150, 180 and 220)
+* consumables per piece: screws $0.98 + pads $1.24 + oil $3.16 + sandpaper $1.25 + base $1.53 = $8.16
+
+TOOLS
+
+* tape measure, pencil, speed square | yes
+* saw for one crosscut on the base | yes (circular, miter or hand saw)
+* drill/driver + 3/4 in. spade bit for the access hole | drill yes; bit is a cheap add | access hole size from Rockler's sample (3/4 in.)
+* clamps | yes
+* sanding block or sander | yes
+* wood burning pen (personalized version only) | no | Wall Lenk 30 W corded woodburning kit, Walmart, $39.22 (2026-10-20) | https://www.walmart.com/ip/24458732 | max tip temperature 1,050 degrees F (same page) | optional: plain version needs none
+
+CUT LIST
+
+* base | 1 | 7.25 in. x 7.25 in. from a 1x8 | crosscut
+* top | 1 | none, the round comes finished to size
+
+STEPS
+
+* find the access hole: line a large hole in the bottom plate up with a screw hole in the top plate (Rockler)
+* cut the base square | clamp, let the blade stop before lifting
+* center the bearing on the base, mark the spot under one top-plate screw hole, drill a 3/4 in. access hole through the base (Rockler) | clamp the base, no gloves near the bit
+* screw the bottom plate to the base (Rockler step 4) | pilot holes optional in pine
+* sand the round 150 -> 180 -> 220, vacuum dust (Watco TDS) | dust mask
+* personalized: burn the name before any oil (don't burn sealed or finished wood; glue lines in the burn area are a no-go; pine bleeds resin and burns unevenly, test first; keep pen in stand; ventilate) (woodworkingadvisor; Hank book pp. 161-163 for guide-rail tip, light sanding after burning knocks down char fuzz)
+* oil: wipe on with a soft cloth, recoat after 6 hours with a light #400 scuff, 72 hours before normal use, hand wash, no dishwasher; food safe once dry, meets 21 CFR 175.300 (Watco TDS; Highland Woodworking)
+* center the base assembly on the underside of the top (measure equal from each corner of the bearing to the edge), drive the top-plate screws through the access hole, turning the top to each hole (Rockler step 6)
+* felt pads on the four corners of the base
+* check: spin it; lift by the top to make sure all four top screws hold (brief safety fact)
+
+SAFETY POINTS (build-specific)
+
+* crosscut: clamp, let blade stop before lifting; no gloves or loose sleeves near the saw or drill
+* dust mask for sanding
+* oily rags: linseed-oil based; soak used rags in water and let them dry completely outdoors before disposal (Highland Woodworking, Watco product page) | https://www.highlandwoodworking.com/watcobutcherblockoilpint.aspx
+* food contact: Watco butcher block oil food safe once dry (72 h)
+* pinch points between the plates; all four top screws tight so the top can't lift off when carried
+* wood burner: hot enough to burn skin, keep in stand, ventilate, fire-safe surface (book p. 162-163; woodworkingadvisor) | https://woodworkingadvisor.com/wood-burning-guide-tools-techniques-safety/
+
+LISTINGS
+
+* Etsy | Personalized Wood Lazy Susan: 18" Round Family Name Tray | $70.00 | asking | 102 reviews | 2026-10-20 | https://www.etsy.com/market/personalized_family_name_lazy_susan
+* Etsy | Engraved Lazy Susan, Custom Family Name (name, monogram, date) | $72.95 | asking | 302 reviews | 2026-10-20 | https://www.etsy.com/market/personalized_lazy_susan
+* Etsy | Custom Acacia Wood Lazy Susan, Engraved | $92.00 (sale from $115) | asking | 4.7k reviews | 2026-10-20 | https://www.etsy.com/market/large_lazy_susan_turntable_personalized
+* Etsy | Personalized 20 Inch Lazy Susan Engraved for Family | $99.90 (sale from $199.80) | asking | 15.5k reviews | 2026-10-20 | same page
+* Etsy | Personalized Wine Barrel Ring Lazy Susan | $118.00 | asking | 2026-10-20 | same page
+* Etsy | cbSignWorks, Handmade Wood Lazy Susan, Personalized Engraved, pine standard | 18 in. $273.75 to $327.75 (25% sale) | asking | shop 4.3k (4,300) sales, 5.0 from 1.2k ratings | 2026-10-20 | https://www.etsy.com/listing/4375949301/handmade-wood-lazy-susan-personalized
+* Etsy | AlymackByMcLeod solid hardwood lazy Susan | 10 in. $65, 15 in. $90, 20 in. $150 | asking | shop 915 sales | 2026-10-20 | https://www.etsy.com/listing/4477554535
+* Etsy | KoozeeahsCreative engraved 15 in. | $70 | asking | shop 1.6k sales | 2026-10-20 | https://www.etsy.com/listing/1247536107
+* Home Depot (big-box comparison) | 14 in. x 14 in. 1-tier natural lazy Susan | $54.80 | retail | 2026-10-20 | https://www.homedepot.com/p/100652745
+
+COST MATH
+
+* parts: 14.58 + 5.22 + 0.98 = $20.78 -> "$21"
+* cost per piece all in: 20.78 + 1.53 + 1.24 + 3.16 + 1.25 = $27.96 -> "about $28"
+* suggested price (opinion): personalized 18-inch around $90 (inside $54-$327, well below the top); plain around $50 (below the $54.80 big-box 14-inch; plain handmade listed $65-$90)
+* craft fair at $90: 90 - 28 = $62 left before the booth fee; plain at $50: $22
+* Etsy at $90: $0.20 + 6.5% ($5.85) + 3% + $0.25 ($2.95) = $9.00 -> 90 - 9 - 28 = $53 before shipping (transaction fee also applies to shipping charged; Offsite Ads 15% if an ad brings the sale)
+* batch of six: 6 x 62 = $372 left if all six sell personalized at a fair, before booth fee
+* one-time tools: wood burning kit $39.22, spade bit
+* time: ESTIMATE about 30 minutes hands-on per plain piece, 30 to 45 more to burn a name, plus 72 hours of oil cure (estimated from the step list)
+
+WHERE TO SELL
+
+* craft fairs: no platform fee, light, stacks, a family name sells in person; Q4 hosting season
+* Facebook Marketplace local pickup: no selling fee (Vendoo, 2026 fee structure) | https://vendoo.co/fbmp-fees-calculator
+* Etsy: fees as above (Checkout Page, published 2026-07-19, US rates as of June 2026) | https://checkoutpage.com/blog/etsy-fees
+
+DOUBTER
+
+* "Nobody pays $90 for a pine lazy Susan." (general voice; not from scraped comments)
+* proof: an 18-inch family-name round listed at $70; personalized listings cluster $70 to $118; a pine-standard engraved 18-inch from a 4.3k-sales shop listed from $273.75
+
+ADVERSARY: big business markup (persona enemy): a 14-inch store lazy Susan at $54.80 against $21 of parts on the same store's shelves. Category only; no named-company negative.
+VISUAL NOTES
+
+* the access hole step is hard to picture: name the hole, the screwdriver and the turning top in the narration
+* burned lettering: AI visuals won't render a real family name accurately; keep the name generic ("your family name")
+* listings: real screenshots placed by the editor (platform + price named in narration)
+
+GAPS
+
+* Watco coverage per pint not published | not blocking (oil cost labeled an estimate)
+* shipping cost for an 18-inch round | not blocking (Etsy math stated "before shipping")
+* craft-fair-specific price evidence | not blocking ("every craft fair" is framing; price rests on online listings)
+* reference video receipt ($18.31) could not be opened | not used

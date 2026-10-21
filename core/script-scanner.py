@@ -225,6 +225,7 @@ def word_numbers(text):
         parts = t.split("-")
         if parts[0] in WORD_NUM or parts[0] in TENS:
             total, cur = 0, 0
+            start = i
             while i < len(toks):
                 t = toks[i]; ps = t.split("-")
                 if all(p in WORD_NUM or p in TENS for p in ps):
@@ -240,6 +241,8 @@ def word_numbers(text):
                         cur += FRACTIONS[toks[i + 1]]; i += 1
                 else:
                     break
+                i += 1
+            if i == start:      # a word like "three-quarter" or "one-by-eight" that isn't a whole number: step past it
                 i += 1
             vals.append(total + cur)
         else:

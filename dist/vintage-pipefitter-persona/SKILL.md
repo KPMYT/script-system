@@ -3,7 +3,7 @@ name: vintage-pipefitter-persona
 description: The channel profile for The Vintage Pipefitter: persona, personal details, CTA rules and ending (this channel has no book). Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-21 (library commit a0a42be)
+**Version:** 2026-10-21 (library commit 2bcc4db)
 
 # Persona profile: The Vintage Pipefitter
 
@@ -65,4 +65,6 @@ Audience: cost-conscious American homeowners, mostly 50 and up, willing to do th
 ```scanner
 name: The Vintage Pipefitter
 tenure: 50
+ban: e-book | say "book", never "e-book"
+ban: ebook | say "book", never "e-book"
 ```

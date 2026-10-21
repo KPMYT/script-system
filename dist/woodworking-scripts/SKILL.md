@@ -36,7 +36,7 @@ The workflow reads this block at START and won't write until every input passes.
 ```inputs
 - title | required | the locked title, exactly as approved
 - brief | required | the ideation brief for this title
-- research-pack | required | follows references/research-pack-template.md; has a "Verified on" date; its title matches the locked title; live facts within the freshness window below; no gap marked blocking
+- research-pack | required | or "none", and the chat builds it (core workflow.md, section 2); follows references/research-pack-template.md; has a "Verified on" date; its title matches the locked title; live facts within the freshness window below; no gap marked blocking
 - rotation-log | required | the channel's last five ROTATION LOG ENTRY lines, or "none" for a new channel
 ```
 
@@ -66,13 +66,23 @@ For more depth, see `woodworking-ideation/references/audience.md` (§1 and §9 f
 
 **Fixed parts, always present, in this order:**
 
-1. **Promise.** The title's promise with its number, in one or two sentences. No persona intro, no channel name, no "today we're going to," no tease. Name the first material within about 15 seconds.
-2. **Materials and where to buy.** Store and price for each priced item, then "prices subject to change" once, straight after the prices.
+1. **Promise (the hook).** The title's promise with its number, built to the core hook rule (`retention-mechanics.md`, section 2): a transformation the viewer can picture, their pain or wish, and one spark of curiosity, in one to three sentences. Model it on a winning hook in `references/excerpts.md` group 1 and rotate the move.
+   - **This viewer's pains:** having to buy tools first, wasting wood on something nobody buys, work that looks homemade, being out-priced by the big stores. **The wish underneath:** side money from something they made.
+   - **Results they can picture:** the holiday's spending money, a plane ticket, every tool paid for, a table full of stock before the fair.
+   - **Curiosity that fits the lane:** the cheap part that makes it sell, the thing everyone throws away, the build that out-earns a pricier one.
+   - **Into the materials, always announced** (operator, 2026-10-20), one of two ways, rotated: **straight to the first item and its price** ("First, one 2x4 from the big box store, about four bucks"), or **the list announced** ("Here's what you'll need."). Shapes in `references/excerpts.md` group 12. Never "let's get into it" (a hard ban), and never a competitor's signature launch such as "Let's go."
+   - **The value line,** on about one video in three (core `retention-mechanics.md`, section 2): one sentence after the hook naming what this video delivers (the build, where to sell it, the numbers), each of them really in the script. "Today we're going to" is still never the opening line.
+   - No persona intro, no channel name, no "today we're going to" as the opening line, no tease. Name the first material within about 15 seconds.
+2. **Materials and where to buy.** Store and price for each priced item, then "prices subject to change" once, straight after the prices. One price per item, always rounded the way people talk ("about fifteen bucks"), never cents; small items can be grouped. Specs only as far as the viewer needs them to grab the right thing off the shelf ("a 12-pack of five-eighths inch wood screws," not the whole label).
 3. **Cut list.** The exact measurements from the pack.
 4. **Steps.**
 5. **Finish.**
 6. **Money block.**
 7. **End CTA and closing line,** per the core rules and the persona profile.
+
+**Signpost every section change** (core `retention-mechanics.md`, section 6). The first sentence of each new section names it, so the viewer knows where the video has moved: into the materials (announced as above), the tools, the cut list, the build, the finish, assembly, the money (often the question the viewer is already asking, worded fresh), the price and cost, and where to sell. Inside a section, steps follow one another without one. Rotate the wording.
+
+When the build has to be finished before it's assembled (oil the top before the hardware goes on, finish the parts before the glue-up), the steps that must come after the finish (final assembly, hardware, felt pads, the quick check) follow it. Order follows the real build.
 
 **Flexible parts.** Vary these across scripts; the plan records the choices:
 
@@ -89,9 +99,10 @@ For more depth, see `woodworking-ideation/references/audience.md` (§1 and §9 f
 
 - **Every step is an instruction to the viewer:** "Cut your first piece at five and three-quarters." Never "I'm cutting" or "watch me." Nobody on screen is the narrator.
 - **Say each step in as few words as it allows.** Some steps take two words ("Flip them."), most take one ordinary sentence, and a genuinely tricky one (a compound angle, a jig) takes three or four.
-- **A step earns extra words only for:** a common mistake, a safety risk, a tool alternative, or a quality tip.
+- **A step earns extra words for:** a common mistake, a safety risk, a tool alternative, a quality tip, or a line of the persona's opinion, reaction or honest aside (an extra sentence here or there; personality is never stripped out to save words).
 - **Repeats collapse into one line:** "Do the same on the other seven."
 - **Safety is one practical line inside the step where the risk is,** with the reason. Never a separate section.
+- **Follow the maker's instructions for every part** (operator, 2026-10-21). When hardware or a product says how it must be installed or used (a bearing mounted on a base, a screw size, a cure time), the build does it that way. Never present the maker's way as an optional upgrade, and never let the hook promise something the maker's way breaks: if it needs one cut, the hook doesn't say "no cuts."
 
 ## Length comes from the content
 
@@ -113,7 +124,7 @@ Whole winning scripts ran 1,135-2,408 words, with 18-55 step lines; ours never g
 
 ## Exaggerated titles
 
-Titles may exaggerate in degree ("EVERY tool," "stupid money"). The script delivers that through math, never through a claimed event. The promise line states what the build can do, and the money block shows the numbers that make the title reachable: how many pieces at what price would cover it. If even generous math can't reach the title's claim, flag it back to ideation rather than inventing support.
+Titles may exaggerate in degree ("EVERY tool," "stupid money"). The script delivers that through math, never through a claimed event. The promise line states what the build can do, and the money block shows the numbers that make the title reachable: how many pieces at what price would cover it. If even generous math can't reach the title's claim, flag it back to ideation rather than inventing support. Titles may also claim the persona's own selling or tenure ("the laziest thing I sell," "40 years of selling"), for Hank and Dale alike (operator, 2026-10-20). Those aren't flagged: the script delivers them through the numbers, and the narration never claims sales, customers or history.
 
 ## Money block rules
 
@@ -124,15 +135,17 @@ Titles may exaggerate in degree ("EVERY tool," "stupid money"). The script deliv
 - **What's left** is price minus cost minus fees, per piece. Any batch total is conditional: "if all 20 sell."
 - **Time** is per piece or per batch, labelled as an estimate. No hourly-wage framing; the operator dropped it.
 - **Never guarantee income.**
+- **Keep it easy to follow** (core `humanizer.md`, H22). The money block answers "is it worth it?" with the few numbers that prove it: the parts cost, the price, what's left, and one batch line. Everything else is rounded and collapsed ("the glue, screws and finish add about three bucks"). Fees are given as one total ("Etsy keeps about a tenth of that"), never as the fee schedule. The research pack keeps every cent; the script says only what the viewer needs.
 
 ## Proof
 
 Proof is always researched online listings, worded honestly:
 - **"Listed at"** means an asking price.
 - **"Sold for"** only with real sales evidence, such as a sold listing or a shop's sales count.
-- **Give a range rather than one cherry-picked high price:** "listed between $35 and $60."
+- **Give a range rather than one cherry-picked high price:** "listed between $35 and $60." Then one example at most, ideally the one closest to this build. Never read every listing out one by one.
+- **Never name a seller or a shop** (operator, 2026-10-20). Say "one Etsy shop" or "a seller on Etsy". The editor blurs shop names on the screenshots.
 
-At each proof moment, name the platform and the price so the editor can place the real screenshot.
+At each proof moment, name the platform and the price (never the shop) so the editor can place the real screenshot.
 
 The narrator never claims personal sales, customers or history: no "I've sold 200," no "my wife asked for one." Opinions and preferences are fine: "I'd skip the stain on this one."
 
@@ -152,7 +165,7 @@ These lines are mandatory where the build calls for them, always inside the rele
 - **Spinning tools:** no gloves or loose sleeves near them.
 - **Fumes and dust:** a mask for spray finishes and fine dust.
 - **Oily rags** (linseed, tung): dry them flat, or store them in water or a sealed metal can.
-- **Food contact:** food-safe finish and glue on anything that touches food.
+- **Food contact:** food-safe finish and glue on anything that touches food, including the factory glue in edge-glued panels and rounds (the research pack checks it).
 - **What a product can be made from:** never treated lumber, MDF, plywood or finished wood (or their sawdust) in anything for food, animals or burning.
 - **Toys:** no small parts on toys for children under three.
 - **Old furniture flips:** test for lead paint on anything made before 1978.
@@ -164,6 +177,7 @@ Describe only safe technique. The visuals are generated from the script, so an u
 - **Use "you" for steps and "I" for opinions and preferences.** Write in contractions, the way people talk.
 - **Use honest candor sometimes:** real tradeoffs and limits ("This one's slower to sand than it looks," "It won't ship well, so it's a local item"). Never invented mishaps.
 - **No jokes.**
+- **Personal details from the profile** (a pet, the coffee, the pencil) go at a natural pause: after a step lands, while the glue or oil dries, before a bridge. Never inside a tricky instruction, where they get in the way of the step.
 - **Adversaries:** one per video, two at most. Categories only, never named companies.
   - **The doubter** (the default choice).
   - The big box store's markup.
@@ -171,7 +185,7 @@ Describe only safe technique. The visuals are generated from the script, so an u
   - Overpriced materials.
 - **Retired adversaries:** clickbait YouTube, "the algorithm," and any group of people (including the old "hardwood crowd").
 - **Swearing:**
-  - Mild words only (ass, damn, hell, crap), aimed at the adversary or a price, never at the viewer, a customer or a named company.
+  - Mild words only (ass, damn, hell, crap), aimed at the adversary or a price, never at the viewer, a customer or a named company. An order to the viewer counts as aimed at the viewer: "So do the damn math" fails; "That's a hell of a markup" works.
   - One to three per video, rotating the words.
   - Never in CTAs, titles or thumbnails, and no strong profanity.
 
@@ -190,14 +204,16 @@ Two scripts on the same channel should never feel like the same script with new 
 - **Vary the order inside the money block.**
 - **Let step lengths fall unevenly.**
 
-Record these choices in the unit plan's variation check. The rotation log in the core rules tracks them across videos. The excerpts show the range available, so pick a different shape each time and never write the same shape twice in a row on one channel.
+Record these choices in the unit plan's variation check.
+
+**Examples are shapes.** Every quoted example in this pack and in the core is a shape, often from another build or niche. Never reuse an example's wording or its image in a script; write the move fresh for this build. The rotation log in the core rules tracks them across videos. The excerpts show the range available, so pick a different shape each time and never write the same shape twice in a row on one channel.
 
 ## Banned in these scripts
 
 - Persona or channel intros in the opening.
 - Retention teases ("stick around," "bonus at the end," "by the end of this video").
 - Problem essays, and more than one sentence of context.
-- Recaps.
+- Recaps anywhere, including a run-down of the build before the money ("That's the whole build: sand, stain, three coats and four screws").
 - First-person build narration ("I'm cutting," "watch me").
 - Invented sales, customers, family or history.
 - Income guarantees and hourly-wage framing.
@@ -224,11 +240,13 @@ ban: per hour | hourly-wage framing
 ## Before handing over
 
 Check that:
-- the first material comes within about 15 seconds
+- the first material comes within about 15 seconds, and the hook does its three jobs (transformation, pain or wish, curiosity) on a different move from the channel's last scripts
+- the numbers are easy to follow: no runs of figures (any sentence with three or more dollar figures gets a second look), and no shop is named
 - there's no intro and no tease
-- every step is an instruction with a visible object and action
+- every step is an instruction with a visible object and action, and every part is installed the way its maker says
 - every number, measurement and listing traces to the pack
 - the mid-CTA sits after the first payoff
+- every section change is signposted, and the move into the materials is announced one of the two ways
 - the money block uses "listed at" or "sold for" correctly, includes fees, and makes no guarantee
 - there's one adversary, two at most
 - swearing is within one to three, with none in the CTAs

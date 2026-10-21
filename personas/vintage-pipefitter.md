@@ -58,4 +58,6 @@ Audience: cost-conscious American homeowners, mostly 50 and up, willing to do th
 ```scanner
 name: The Vintage Pipefitter
 tenure: 50
+ban: e-book | say "book", never "e-book"
+ban: ebook | say "book", never "e-book"
 ```
