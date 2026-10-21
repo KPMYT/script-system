@@ -458,7 +458,7 @@ The line at the end of one item, or inside it, that names the next value so the 
 3. "this brings us to the first big mistake" (Silver Cymbal · sX442FodiT4 · [0:42] · 23.80x · [real])
    **Shape:** the plain joiner into a mistake.
 4. "And I'm about to show you where everybody messes up and makes a mistake." (Arrow Pest Service · Wg9-yFIXlx0 · [4:00] · 17.25x · [real])
-   **Shape:** promises the mistake inside the next step, paid at 4:33.
+   **Shape:** promises the mistake inside the next step, paid at 4:30.
 5. "But there is a secret you want to be aware of." (Silver Cymbal · dVjg_BK3G3s · [2:52] · 18.77x · [real])
    **Shape:** a short turn into the last payoff, paid in the next sentence.
 6. "but what if you always smell sewer gases, how do you go about fixing it? There's 3 possible ways" (Got2Learn · pmN88UvZfDI · [3:16] · 95.02x · [real])

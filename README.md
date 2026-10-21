@@ -75,7 +75,8 @@ Drafts waiting for the operator's yes. Nothing here is part of the library until
 
 | File | What's in it |
 |---|---|
-| `plumbing-scripts-skill-DRAFT.md` | Draft 2 of the plumbing niche pack (it becomes the one skill `plumbing-scripts`, like `woodworking-scripts`): the villain, the opening by video type, "point then promise", ways to promise more value, ten video types with their openings and item shapes, CTAs and length. Villain, opening, point then promise and the promise devices are approved; the video types wait for the operator; later sections are headings only. |
+| `plumbing-scripts-skill-DRAFT.md` | The plumbing niche pack, every section approved by the operator (2026-10-21); it becomes the one skill `plumbing-scripts`, like `woodworking-scripts`, at step 4. Inputs (title and brief), the viewer, the villain, the opening, point then promise, promise devices, ten video types with models, CTAs, the ending, length (12 minutes minimum), voice, proof, money framing, safety (the brief wins), the banned list, the scanner block and the before-handing-over checklist. |
+| `plumbing-scripts-refs/` | The plumbing pack's reference files, built in step 2: `references/unit-plan-template.md`, `voice-samples.md` (three real-channel stretches), `excerpts.md` (204 lines in 16 groups; [real] or [structure only]), `reference-scripts.md` (seven real-channel scripts, labelled), `structure-models.md` (six AI-voiced hits, labelled, structure only); `archive/` holds the four real channels' transcripts. Moves into the library with the pack. |
 
 ## tests/
 
