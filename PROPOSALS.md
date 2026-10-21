@@ -56,6 +56,6 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Evidence:** the operator's instruction (2026-10-21): "ALWAYS these channels should have the ending lines like berthas where were trying to get a comment." Dale Oakfield already ends this way by the operator's choice (2026-10-20, Bertha's Clean Home style: a comments request, then the fixed last line). In the plumbing study, face channels get answers when they ask a question; our own recent uploads ended with a prompt but drew no comments (`studies/plumbing/comparison/09-differences.md` §22), so the ask has to be specific.
 
-**Proposal:** the plumbing pack overrides §4 for plumbing only: after the last item, the end CTA (if the channel has one), then one specific comment question with a small detail about the viewer and "I read every one", then the persona's fixed last line. The core rule is unchanged for every other niche.
+**Proposal:** the plumbing pack overrides §4 for plumbing only: after the last item, a one-line end CTA reminder, then one specific comment question with a small detail about the viewer and "I read every one" as the video's last line, with no fixed sign-off after it (operator, 2026-10-21: "CTA then comment line but the end CTA in these is just a one liner reminder"; "no fixed last line"). The core rule is unchanged for every other niche.
 
-**Status:** approved by the operator's instruction on 2026-10-21; applies when the plumbing pack goes into the library. The exact wording is in the plumbing draft for the operator's yes.
+**Status:** approved by the operator's instruction on 2026-10-21; applies when the plumbing pack goes into the library. Wording approved the same day.

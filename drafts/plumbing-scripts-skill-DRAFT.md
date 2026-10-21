@@ -148,20 +148,19 @@ A title that promises tests ("I Tested 5 Drain Cleaners") is written as tests an
 
 ## CTAs [APPROVED 2026-10-21]
 
-- **Roger the Pipe Guy and Mark Silverbridge:** back to the short CTAs their hits used. One mid-video ask, straight after the first real payoff, in about 20-60 words: one sentence for the ask, then straight back into the next item. One short end CTA. Wording comes from the persona profile.
+- **Roger the Pipe Guy and Mark Silverbridge:** back to the short CTAs their hits used. One mid-video ask, straight after the first real payoff, in about 20-60 words: one sentence for the ask, then straight back into the next item. At the end, a one-line reminder [DECIDED 2026-10-21]. Wording comes from the persona profile.
 - **The Vintage Pipefitter:** no mid-video CTA. At the end, a one-line subscribe ask, worded in the persona profile [DECIDED 2026-10-21]. Something fuller (an email CTA) will be decided later.
 - **Never a long QR walkthrough,** never the same pitch twice in one video, and never a production label read aloud.
 
-## The ending [DECIDED 2026-10-21; wording DRAFT: for your yes]
+## The ending [APPROVED 2026-10-21]
 
-Every plumbing channel ends the way Bertha's Clean Home does: the last thing before the sign-off is a real attempt to get a comment. This overrides core `cta-and-endings.md` §4 ("the end CTA, then the one closing line") for plumbing.
+Every plumbing channel ends the way Bertha's Clean Home does: the video's last line is a real attempt to get a comment. This overrides core `cta-and-endings.md` §4 for plumbing (P5).
 
 After the last item:
-1. **The end CTA,** in the persona profile's words: short for Roger and Mark, the one-line subscribe ask for Vintage.
-2. **The comment ask:** one specific question the viewer can answer from their own house, plus one small detail about them, and "I read every one." For example: "Tell me how old your house is and which drain gives you the most grief. I read every one." Never a bare "let me know in the comments", and never the same question two videos running.
-3. **The persona's fixed last line,** from the profile.
+1. **The end CTA: a one-line reminder,** in the persona profile's words, on every channel.
+2. **The comment line, which is the last line of the video:** one specific question the viewer can answer from their own house, plus one small detail about them, and "I read every one." For example: "Tell me how old your house is and which drain gives you the most grief. I read every one." Never a bare "let me know in the comments", and never the same question two videos running.
 
-No recap, no tease of a future video, and nothing after the last line.
+There's no fixed last line or sign-off after the comment line [DECIDED 2026-10-21]. No recap, no tease of a future video, and nothing after the comment line.
 
 ## Length [DECIDED 2026-10-21]
 
@@ -252,7 +251,7 @@ The facts and methods come from the brief, and **the brief always wins** [DECIDE
 - **One short line inside the step where the risk is,** with the reason, in proportion. "It will put you on the floor" (chlorine gas) drew no complaints; vague danger drew "This is nothing but a scare tactic video."
 - **The call-a-pro line names its trigger:** "Two drains backing up at once is the main line. That's a call." Never the vague "if it's outside your comfort zone", and never a long list of stop signs.
 
-## Banned in these scripts [DRAFT: for your yes]
+## Banned in these scripts [APPROVED 2026-10-21]
 
 **Never:**
 - **A name or channel intro,** a greeting, "today we're going to", or "this channel is for…" (all three channels used the same channel-promise line in their recent uploads).
@@ -269,7 +268,7 @@ The facts and methods come from the brief, and **the brief always wins** [DECIDE
 
 **At most once per video.** A phrase is voice once; in the same slot every video it's a tic. "Nine times out of 10" is fine [DECIDED], and it's on this list with the others: "between you and me", "ask me how I know", "here's the part nobody tells you", "I'll be straight with you", "that's the whole trick", "in your pocket", "which brings us", "hold that thought", "the big one", "the real kicker", "quick thing", "no shame in", "full stop", "trust me".
 
-## Scanner rules for this niche [DRAFT: for your yes]
+## Scanner rules for this niche [APPROVED 2026-10-21]
 
 The scanner (core `script-scanner.py`) reads this block. `ban` lines are fix-on-sight; `once` lines fail on the second use in a script (scanner support built 2026-10-21, test 20). There are no checks for boiling water or dry washing soda: the brief wins on safety, and the operator said "dont even flag them" (2026-10-21).
 
@@ -308,7 +307,7 @@ once: full stop
 once: trust me
 ```
 
-## Before handing over [DRAFT: for your yes]
+## Before handing over [APPROVED 2026-10-21]
 
 Check that:
 - the point comes in the first sentence, with the fix or product named by about 15 seconds
@@ -319,7 +318,7 @@ Check that:
 - the fix's cost meets the trade's price within the first two minutes
 - there's no "I tested", no pointing at the screen, no customer story and no motive
 - safety follows the brief, with the five defaults only where it's silent
-- the CTAs follow the persona profile, with the mid-video ask after the first payoff (Roger and Mark) and Vintage's one-line subscribe ask at the end
-- the ending is the end CTA, then a specific comment question with "I read every one", then the profile's last line
+- the CTAs follow the persona profile: the mid-video ask after the first payoff (Roger and Mark), and a one-line end reminder on every channel
+- the video ends on the comment line (a specific question and "I read every one"), with nothing after it
 - each stock phrase appears at most once, and the opening shape and money device differ from the rotation log
 - the script runs at least 12 minutes (12 to 20 is the sweet spot), with nothing padded
