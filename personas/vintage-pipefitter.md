@@ -7,7 +7,7 @@ Approved by the operator on 2026-10-21. Source: the channel's page in Notion (Ch
 ```
 PERSONA PROFILE
 Channel: The Vintage Pipefitter
-Status: pending (approved 2026-10-21; becomes ready in step 4, when the plumbing pack enters the library and the channel is added to core/channels.md)
+Status: ready
 Niche pack: plumbing-scripts
 
 THE BASICS

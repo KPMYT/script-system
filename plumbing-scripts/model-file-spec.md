@@ -2,7 +2,7 @@
 
 How every file in `references/models/` was built (session 4, 2026-10-21). Kept for adding models later; not part of the skill.
 
-Every model is ONE markdown file in /home/user/script-system/drafts/plumbing-scripts-refs/references/models/, named
+Every model is ONE markdown file in plumbing-scripts/references/models/, named
 `<ID>-<channel-slug>-<short-topic-slug>.md`, e.g. `R08-got2learn-solder-correct-way.md`, `S10-mark-silverbridge-s-traps.md`.
 Channel slugs: got2learn, silver-cymbal, roger-wakefield, arrow-pest-service, roger-the-pipe-guy, mark-silverbridge, vintage-pipefitter, thecheapfix.
 
@@ -48,7 +48,7 @@ Conventions: two labels on one line = the passage does both, in order; "(2, cont
 
 ## Doesn't transfer
 
-Bullets, each quoting the line with its [m:ss]: everything a faceless AI-voiced plumbing channel can't or mustn't use, per /home/user/script-system/drafts/plumbing-scripts-skill-DRAFT.md ("Proof", "Banned in these scripts", "Safety", "The opening"): on-camera demos and pointing, first-person tests and history, customer stories, greetings and name intros, teases, recaps, the trade's motives, unsafe methods (boiling water down drains or into toilets or PVC, washing soda poured dry, mixing cleaners), tenure figures that differ from the fixed ones (Roger 45, Mark 40, Vintage 50), single exact product prices, long CTAs, the draft's banned stock lines, and any factual slip the study flagged or you notice (mark your own as "check against the brief").
+Bullets, each quoting the line with its [m:ss]: everything a faceless AI-voiced plumbing channel can't or mustn't use, per plumbing-scripts/SKILL.md ("Proof", "Banned in these scripts", "Safety", "The opening"): on-camera demos and pointing, first-person tests and history, customer stories, greetings and name intros, teases, recaps, the trade's motives, unsafe methods (boiling water down drains or into toilets or PVC, washing soda poured dry, mixing cleaners), tenure figures that differ from the fixed ones (Roger 45, Mark 40, Vintage 50), single exact product prices, long CTAs, the draft's banned stock lines, and any factual slip the study flagged or you notice (mark your own as "check against the brief").
 ```
 
 ## The ten video types (use these names)
@@ -58,8 +58,8 @@ single-product fix; N things about one product; never-do list; mistakes list; he
 - Transcripts: /home/user/script-system/studies/plumbing/data/{own,competitors}/<channel-folder>/<videoId>/transcript.txt, plus meta.md and comments.md.
 - Views/normal and titles: /home/user/script-system/studies/plumbing/notes/INDEX.md. Notes: studies/plumbing/notes/{own,competitors}/<channel>__<id>.md.
 - Analysis: /home/user/script-system/studies/plumbing/comparison/ (04 hooks, 07 body craft, 10 opener teardowns, 11 reasons to stay, 01 own channels, 02 competitors).
-- The rules: /home/user/script-system/drafts/plumbing-scripts-skill-DRAFT.md (read it first).
-- Format examples already done: /home/user/script-system/drafts/plumbing-scripts-refs/references/reference-scripts.md and structure-models.md (labelled scripts, why it works, doesn't transfer). Reuse their verified content where your model is one of theirs.
+- The rules: plumbing-scripts/SKILL.md (read it first).
+- Format examples already done: the retired reference-scripts.md and structure-models.md (in git history; their content is now in R01-R07 and S01-S06) (labelled scripts, why it works, doesn't transfer). Reuse their verified content where your model is one of theirs.
 
 ## Rules
 - Write ONLY your assigned files in models/. Don't edit, commit or push anything else. Don't write helper scripts into the shared scratchpad root; use a subfolder named after your agent task (e.g. scratchpad/models-C/).

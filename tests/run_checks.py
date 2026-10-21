@@ -3,18 +3,25 @@
 # between humanizer.md and script-scanner.py, scanner behavior on clean and broken scripts,
 # ban lifting, the numbers check, the woodworking inputs block, shared labels across files, the
 # copy guard (--refs) against the niche pack's reference files, production notes read aloud,
-# repeated sentences, persona facts (tenure, near-miss names, title numbers win), the tease phrasings and once-per-script phrases.
+# repeated sentences, persona facts (tenure, near-miss names, title numbers win), the tease phrasings and once-per-script phrases,
+# and the plumbing pack: its inputs block, scanner block, Mark's contraction ban, the copy guard over every model file,
+# the plumbing profiles' fixed facts and the channel list.
 import re, os, glob, subprocess, sys, tempfile, textwrap
 sys.dont_write_bytecode = True
 ROOT=os.environ.get("LIB_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-CORE=f"{ROOT}/core"; WW=f"{ROOT}/woodworking-scripts"; SCAN=f"{CORE}/script-scanner.py"
+CORE=f"{ROOT}/core"; WW=f"{ROOT}/woodworking-scripts"; PL=f"{ROOT}/plumbing-scripts"; PERS=f"{ROOT}/personas"; SCAN=f"{CORE}/script-scanner.py"
 results=[]
 def check(name, ok, detail=""):
     results.append((name, ok, detail))
 
 lib_files=[f for f in glob.glob(f"{CORE}/*")+glob.glob(f"{WW}/**/*",recursive=True) if os.path.isfile(f) and not f.endswith(".txt")]
+pl_files=[f for f in glob.glob(f"{PL}/**/*",recursive=True)+glob.glob(f"{PERS}/**/*",recursive=True) if os.path.isfile(f) and not f.endswith(".txt")]
 names={os.path.basename(f) for f in lib_files}
 rels={os.path.relpath(f,WW) for f in lib_files if f.startswith(WW)}
+# the plumbing pack and the profiles may also cite the study files they were built from
+repo_files=[os.path.join(d,f) for d,ds,fs in os.walk(ROOT) if "/.git" not in d and "/dist" not in d for f in fs]
+repo_names={os.path.basename(f) for f in repo_files}
+repo_rels={os.path.relpath(f,base) for f in repo_files for base in (ROOT,PL,PERS) if f.startswith(base+"/")}
 
 # 1. every referenced file exists
 EXTERNAL={"woodworking-ideation/references/audience.md","word-bank.md","personas/hank-hardwood.md","personas/dale-oakfield.md","archive/","personas/[channel-name].md"}
@@ -27,15 +34,29 @@ for f in lib_files:
         if ref.endswith("/"):
             ok = os.path.isdir(os.path.join(WW,ref)) or os.path.isdir(os.path.join(ROOT,ref))
         else:
-            ok = base in names or ref in rels
+            ok = base in names or ref in rels or os.path.isfile(os.path.join(ROOT,ref))
         if not ok: missing.append(f"{os.path.relpath(f,ROOT)} -> {ref}")
 check("1. every file reference resolves", not missing, "; ".join(sorted(set(missing))))
+
+# 1b. the same for the plumbing pack and the persona profiles (placeholders in templates and specs aside)
+PLACEHOLDER={"plumbing-ideation/references/audience.md","references/models/R01-...md","S18-...md","<ID>-<channel-slug>-<short-topic-slug>.md"}
+missing=[]
+for f in pl_files:
+    if not f.endswith(".md"): continue
+    for ref in re.findall(r"`([^`\s]+?\.(?:md|py)|[a-z-]+/)`", open(f).read()):
+        if ref in PLACEHOLDER: continue
+        if ref.endswith("/"):
+            ok = any(os.path.isdir(os.path.join(b,ref)) for b in (ROOT,PL,PERS,os.path.dirname(f)))
+        else:
+            ok = os.path.basename(ref) in repo_names or ref in repo_rels
+        if not ok: missing.append(f"{os.path.relpath(f,ROOT)} -> {ref}")
+check("1b. every file reference in the plumbing pack and the persona profiles resolves", not missing, "; ".join(sorted(set(missing))))
 
 # 2. no stale leftovers from FacelessOS / house rules
 STALE=[r"FacelessOS", r"house rules", r"trailer-voice-scan", r"REAL-FACELESS", r"NICHE-SPECIFIC-HOOKS", r"master file",
        r"Traditional mode", r"Four Pillars", r"PROOF BANK", r"persona canon", r"STEP \d", r"swipe file", r"core output rules"]
 hits=[]
-for f in lib_files:
+for f in lib_files+[f for f in pl_files if f.startswith(PL)]:
     if not (f.endswith(".md") or f.endswith(".py")): continue
     t=open(f).read()
     for p in STALE:
@@ -228,6 +249,92 @@ code,out=run_scan("Nine times out of 10 it is the flapper. Between you and me, i
 code2,out2=run_scan("Nine times out of 10 it is the flapper.\n\nAnd nine out of ten times the chain is fine too.\n",[oncef])
 check("20. once-per-script phrases from a niche pack: one use passes, a second use anywhere in the script is fix-on-sight",
       code==0 and "NICHE/PERSONA LIMIT" not in out and code2==1 and "NICHE/PERSONA LIMIT: nine times out of 10] used 2 times" in out2, out+out2)
+
+# ---- the plumbing pack (step 4, 2026-10-21) ----
+PLR=f"{PL}/SKILL.md"; ROGER=f"{PERS}/roger-the-pipe-guy.md"; MARK=f"{PERS}/mark-silverbridge.md"; VINT=f"{PERS}/vintage-pipefitter.md"
+PL_REFS=[f"{PL}/references/excerpts.md", f"{PL}/references/voice-samples.md"]+sorted(glob.glob(f"{PL}/references/models/*.md"))
+
+# 21. plumbing inputs block parses: title, brief and rotation log required, the research pack not used
+sk=open(PLR).read()
+inp=re.search(r"```inputs\n(.*?)```",sk,re.S)
+rows=[[c.strip() for c in l.strip()[1:].split("|")] for l in inp.group(1).splitlines() if l.strip().startswith("-")] if inp else []
+want={"title":"required","brief":"required","research-pack":"not used","rotation-log":"required"}
+check("21. plumbing inputs block: 4 well-formed inputs, research pack not used",
+      len(rows)==4 and all(len(r)==3 for r in rows) and {r[0]:r[1] for r in rows}==want, str(rows))
+
+# 22. the plumbing scanner block: every ban fires, once-limits fail on the second use, a clean plumbing paragraph passes
+clean_pl=textwrap.dedent("""\
+One cup of washing soda, stirred into hot tap water, clears the slow kitchen drain most homeowners pay a plumber to snake.
+
+A drain call for that usually starts around a hundred and fifty dollars. A box of washing soda runs about five to seven dollars and gives you close to a dozen treatments.
+
+It won't touch a hair clog in the bathroom. That's a different job, and number four handles it.
+
+Number four is the two-dollar tool that pulls the hair out in one go. And the last one is the rule that keeps all of this safe on old cast-iron pipe.
+
+Number one. Stir one cup of washing soda into two or three cups of hot tap water until it's clear. Pour it in slowly and leave it six to eight hours. If the water runs out fast in the morning, you're done.
+
+Tell me how old your house is and which drain gives you the most grief. I read every one.
+""")
+planted={"first-person test claim":"I tested all three on a slow sink.","first-person demonstration":"Now watch me pour it in.",
+         "pointing at the screen":"Look at the trap on the left before you start.","template stock line: the economics aside":"It's not a scam, it's just economics.",
+         "template stock line: channel promise":"This channel is all about saving you money.","template stock line":"Grab it now or later.",
+         "hype that got mocked":"It looked like a horror movie under there."}
+code,out=run_scan(clean_pl,[PLR,ROGER])
+bad=[]
+for label,line in planted.items():
+    c,o=run_scan(f"Rinse the trap.\n\n{line}\n",[PLR])
+    if c!=1 or f"NICHE/PERSONA BAN: {label}]" not in o: bad.append(label)
+code2,out2=run_scan("Between you and me, it is the flapper.\n\nAnd between you and me, the chain is fine too. Trust me on this one.\n",[PLR])
+check("22. plumbing scanner block: each ban fires; a once-phrase used twice fails and once passes; a clean plumbing paragraph passes",
+      code==0 and "FIX ON SIGHT (0)" in out and not bad and code2==1 and "NICHE/PERSONA LIMIT: between you and me] used 2 times" in out2
+      and "trust me] used" not in out2, f"missed: {bad} | "+out[:500]+out2[:500])
+
+# 23. Mark's profile bans contractions; his no-contraction style passes
+code,out=run_scan("Do not pour it in dry. It is the flapper nine times out of ten, and that is a cheap part.\n",[PLR,MARK])
+code2,out2=run_scan("Don't pour it in dry. It's the flapper, and you'll want a cheap part.\n",[PLR,MARK])
+check("23. Mark's contraction ban: contractions are fix-on-sight, his plain style passes",
+      code==0 and code2==1 and out2.count("contraction")>=3, out+out2)
+
+# 24. copy guard over the plumbing references: the clean paragraph passes against all of them, and a line lifted from
+#     every model file (and from the excerpts and voice samples) is caught and traced to that file
+runs=sc.read_refs(PL_REFS)
+lifted=[]; nolift=[]
+for f in PL_REFS:
+    name=os.path.basename(f); got=None
+    for para in open(f).read().split("\n\n"):
+        toks=sc.copy_tokens(para)
+        for i in range(len(toks)-12):
+            if all(runs.get(tuple(toks[j:j+sc.COPY_RUN]))==name for j in range(i,i+5)):
+                got=" ".join(toks[i:i+12]); break
+        if got: break
+    (lifted.append((name,got)) if got else nolift.append(name))
+code,out=run_scan("\n\n".join(g.capitalize()+"." for _,g in lifted)+"\n",[PLR],refs=PL_REFS)
+uncaught=[n for n,_ in lifted if f"COPIED FROM REFERENCE: {n}]" not in out]
+code2,out2=run_scan(clean_pl,[PLR,ROGER],refs=PL_REFS+[ROGER])
+check("24. copy guard: the clean plumbing paragraph passes against excerpts, voice samples and all model files; a line from each is caught",
+      len(PL_REFS)>=41 and not nolift and not uncaught and code==1 and code2==0 and "COPIED" not in out2,
+      f"refs={len(PL_REFS)} no line found in {nolift}; not caught {uncaught}; "+out2[:400])
+
+# 25. the plumbing profiles give the scanner their fixed facts
+def facts_of(p): return [l.strip() for l in re.findall(r"```scanner\n(.*?)```",open(p).read(),re.S)[0].splitlines()]
+fr,fm,fv=facts_of(ROGER),facts_of(MARK),facts_of(VINT)
+check("25. Roger's, Mark's and Vintage's profiles give their name, book and tenure (45, 40, 50; Vintage has no book)",
+      "name: Roger the Pipe Guy" in fr and "tenure: 45" in fr and sum(l.startswith("book:") for l in fr)==1
+      and "name: Mark Silverbridge" in fm and "tenure: 40" in fm and sum(l.startswith("book:") for l in fm)==1
+      and "name: The Vintage Pipefitter" in fv and "tenure: 50" in fv and not any(l.startswith("book:") for l in fv), str((fr,fm,fv)))
+code,out=run_scan("I have been at this for 40 years.\n",[PLR,ROGER])
+code2,out2=run_scan("I have been at this for 45 years.\n",[PLR,ROGER])
+check("25b. a plumbing tenure that differs from the profile fails; the profile's passes", code==1 and "PERSONA FACT: tenure" in out and code2==0, out+out2)
+
+# 26. the channel list: the three plumbing channels are ready, on plumbing-scripts, and their profiles say so
+ch=open(f"{CORE}/channels.md").read()
+bad=[]
+for name,slug in (("Roger the Pipe Guy","roger-the-pipe-guy"),("Mark Silverbridge","mark-silverbridge"),("The Vintage Pipefitter","vintage-pipefitter")):
+    row=re.search(rf"^\| \d+ \| {re.escape(name)} \| `plumbing-scripts` \| `personas/{slug}.md` \| ready \|$",ch,re.M)
+    prof=open(f"{PERS}/{slug}.md").read()
+    if not (row and "Status: ready" in prof and "Niche pack: plumbing-scripts" in prof): bad.append(name)
+check("26. channels.md lists Roger, Mark and Vintage as ready on plumbing-scripts, and their profiles agree", not bad and os.path.isfile(PLR), ", ".join(bad))
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

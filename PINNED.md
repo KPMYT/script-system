@@ -5,7 +5,8 @@ Things parked during the rebuild, so nothing gets lost between sessions.
 ## Done so far
 - **Core (complete):** `workflow.md` (START), `channels.md`, `claims-policy.md`, `persona-profile-template.md`, `humanizer.md`, `voice-anchoring.md`, `script-scanner.py`, `retention-mechanics.md`, `variety-rotation.md`, `cta-and-endings.md`, `offer-rules.md`, `research-and-sourcing.md`, `script-structures.md`, `greenlight-audit.md`.
 - **Woodworking pack:** `woodworking-scripts`, with excerpts, voice samples, both templates, its scanner block, its inputs block, and freshness (live facts re-checked after 30 days; change if needed).
-- **Tests:** `tests/run_checks.py`, 18 checks, all passing (copy guard added in refs-01; the profile allow: check added 2026-10-20).
+- **Plumbing pack (2026-10-21):** `plumbing-scripts`, with its overrides table, inputs block (no research pack), excerpts, voice samples, unit plan template, 38 model files and scanner block; Roger, Mark and Vintage ready in `core/channels.md`.
+- **Tests:** `tests/run_checks.py`, 33 checks, all passing (copy guard added in refs-01; the profile allow: check added 2026-10-20; the plumbing tests added 2026-10-21).
 - **refs-01 (2026-10-18):** excerpts expanded to 15 groups, `reference-scripts.md` added, copy guard (`--refs`) wired into the workflow and the audit. See `tests/iterations/refs-01/CHANGES.md`.
 
 ## Still to rebuild in the core

@@ -1,6 +1,6 @@
 # Script System: what's in each file
 
-The whole system is one library. `core/` holds the rules every channel uses. Each niche gets its own pack (so far, `woodworking-scripts/`). Each channel gets a persona profile in `personas/`. Typing **START** runs `core/workflow.md`, which pulls in everything else.
+The whole system is one library. `core/` holds the rules every channel uses. Each niche gets its own pack (so far, `woodworking-scripts/` and `plumbing-scripts/`). Each channel gets a persona profile in `personas/`. Typing **START** runs `core/workflow.md`, which pulls in everything else.
 
 ## core/ (every channel)
 
@@ -33,6 +33,18 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 | `references/reference-scripts.md` | Eight complete winning scripts, labelled with the skeleton, each with why it works, the unit plan it implies and what doesn't transfer. Read at the planning step; never copy wording. |
 | `archive/` | The full BeardedViking and WhosTheVoss transcripts, plus `most-viewed-24mo/` (each channel's 10 most-viewed from the last 24 months, with views and normal), used for calibration only. |
 
+## plumbing-scripts/ (the plumbing niche pack)
+
+| File | What's in it |
+|---|---|
+| `SKILL.md` | All plumbing rules, approved by the operator (2026-10-21): where the pack overrides the core (one table), inputs (title and brief; no research pack), the viewer, the villain, the opening, point then promise, promise devices, the ten video types with their models, using the models (never a copy), CTAs, the ending (comment line last), length (12 minutes minimum), voice, proof, money framing, safety (the brief wins), the banned list, the scanner block and the before-handing-over checklist. |
+| `references/unit-plan-template.md` | The plan filled in from the title and brief before writing, with a MODELS block. |
+| `references/voice-samples.md` | Three verbatim stretches of real human narration (Got2Learn, Silver Cymbal, Roger Wakefield): the voice anchor. |
+| `references/excerpts.md` | 204 lines in 16 groups by job, tagged [real] or [structure only], with source, timestamp and views against normal. |
+| `references/models/` | 38 model files, each a beat map plus the full labelled script, why it works and what doesn't transfer: R01-R20 the real channels (structure and voice), S01-S18 our hits and TheCheapFix (structure only). `INDEX.md` sorts them by video type. |
+| `archive/` | The four real channels' transcripts (Silver Cymbal, Roger Wakefield, Got2Learn, Arrow Pest Service). Calibration only; not in the installed skill. |
+| `model-file-spec.md` | How the model files were built, for adding models later. Not in the installed skill. |
+
 ## ideation/
 
 Copies of the operator's claude.ai ideation skills, brought in to be edited here with the operator's approval. The operator uploads the edited version back to claude.ai.
@@ -47,8 +59,8 @@ Copies of the operator's claude.ai ideation skills, brought in to be edited here
 | File or folder | What's in it |
 |---|---|
 | `tools/build_skills.py` | Builds the installable skills from the library into `dist/`. Run it after any change, then re-upload. |
-| `tools/verify_plumbing_models.py` | Checks every plumbing model file's labelled script against its study transcript (session 4). |
-| `dist/` | **Generated, never edited by hand.** One skill per layer: `script-writer.skill` (the core, START), `woodworking-scripts.skill` (the niche pack), `hank-hardwood-persona.skill` and `dale-oakfield-persona.skill` (profile plus book), `woodworking-ideation.skill`, `ideation-core.skill`; the unzipped folders; and `INSTALL.md` (how to install them, not itself a skill). The build checks claude.ai's upload rules (one SKILL.md, frontmatter, name, description up to 1,024 characters). |
+| `tools/verify_plumbing_models.py` | Checks every plumbing model file's labelled script against its study transcript, word for word (session 4). |
+| `dist/` | **Generated, never edited by hand.** One skill per layer: `script-writer.skill` (the core, START), `woodworking-scripts.skill` and `plumbing-scripts.skill` (the niche packs), `hank-hardwood-persona.skill`, `dale-oakfield-persona.skill`, `roger-the-pipe-guy-persona.skill` and `mark-silverbridge-persona.skill` (profile plus book), `vintage-pipefitter-persona.skill` (profile only), `woodworking-ideation.skill`, `ideation-core.skill`; the unzipped folders; and `INSTALL.md` (how to install them, not itself a skill). The build checks claude.ai's upload rules (one SKILL.md, frontmatter, name, description up to 1,024 characters). |
 
 ## personas/
 
@@ -60,7 +72,7 @@ One persona profile per channel, written from `core/persona-profile-template.md`
 | `dale-oakfield.md` | Dale Oakfield's Workshop's profile: settings, the grandfather detail, the approved personality, the Bertha-style CTA rules, and his ending. |
 | `books/hank-hardwood-book.md` | The full text of Hank's ebook, "100 Ways to Make Your First $1,000 with Woodworking", with a marker for every page (PDF page and printed page), a chapter page map and an index of all 100 builds. Used to find which pages cover a video's topic for the CTA, and which facts a CTA may state about the book. |
 | `books/dale-oakfield-book.md` | The same for Dale's ebook, "The Ultimate DIY Woodworking Guide", with a chapter page map (the book prints no page numbers, so it uses PDF pages). |
-| `roger-the-pipe-guy.md`, `mark-silverbridge.md`, `vintage-pipefitter.md` | The three plumbing profiles, approved 2026-10-21 (status pending until step 4): settings, voices, fixed tenures 45/40/50, the personality kept close to Notion, CTA rules (Roger and Mark: a short mid-video book ask and a one-line end reminder, naming the link and the QR code; Vintage: a one-line subscribe ask), and scanner blocks (Mark's also bans contractions). |
+| `roger-the-pipe-guy.md`, `mark-silverbridge.md`, `vintage-pipefitter.md` | The three plumbing profiles, approved 2026-10-21, ready since the plumbing pack entered the library: settings, voices, fixed tenures 45/40/50, the personality kept close to Notion, CTA rules (Roger and Mark: a short mid-video book ask and a one-line end reminder, naming the link and the QR code; Vintage: a one-line subscribe ask), and scanner blocks (Mark's also bans contractions). |
 | `books/roger-the-pipe-guy-book.md`, `books/mark-silverbridge-book.md` | Roger's "100 Old-House Fixes That Save You Thousands" (124 pages, 100 fixes) and Mark's "50 Easy Plumbing Fixes That Will Save You $10,000" (122 pages, 50 fixes), with printed page markers, chapter maps and fix indexes. |
 
 ## studies/
@@ -74,16 +86,11 @@ Research data: collect and describe only, never edited to fit a conclusion.
 
 ## drafts/
 
-Drafts waiting for the operator's yes. Nothing here is part of the library until it's approved and moved.
-
-| File | What's in it |
-|---|---|
-| `plumbing-scripts-skill-DRAFT.md` | The plumbing niche pack, every section approved by the operator (2026-10-21); it becomes the one skill `plumbing-scripts`, like `woodworking-scripts`, at step 4. Inputs (title and brief), the viewer, the villain, the opening, point then promise, promise devices, ten video types with models, CTAs, the ending, length (12 minutes minimum), voice, proof, money framing, safety (the brief wins), the banned list, the scanner block and the before-handing-over checklist. |
-| `plumbing-scripts-refs/` | The plumbing pack's reference files, built in step 2: `references/unit-plan-template.md`, `voice-samples.md` (three real-channel stretches), `excerpts.md` (204 lines in 16 groups; [real] or [structure only]), and `models/` (38 model files, each a beat map plus the full labelled script: R01-R20 real channels, S01-S18 our hits and TheCheapFix for structure only, with `INDEX.md` by video type); `archive/` holds the four real channels' transcripts. `model-file-spec.md` is how the model files were built (for adding models later; not part of the skill). Moves into the library with the pack. |
+Drafts waiting for the operator's yes go here; nothing in it is part of the library until it's approved and moved. There are none open now (the folder is made again when one is): the plumbing pack moved into `plumbing-scripts/` on 2026-10-21.
 
 ## tests/
 
-`run_checks.py`: 18 automated checks across the whole library, including the copy guard. Run it after any edit.
+`run_checks.py`: 33 automated checks across the whole library, including the copy guard and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over every model file, the plumbing profiles and the channel list). Run it after any edit.
 
 ## tests/iterations/
 

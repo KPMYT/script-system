@@ -3,15 +3,6 @@ name: plumbing-scripts
 description: Script rules for the operator's plumbing channels (Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter, and any future channel in this niche). Use whenever a plumbing script is written, rewritten or reviewed, or a plumbing title and brief arrive for scripting. Sets the villain, the opening by video type, "point then promise", the structure of each video type, CTAs, length, voice, proof, money framing, safety and the plumbing scanner checks. Persona, tenure, book and CTA wording come from the channel's persona profile; claims policy, output format and the audit come from the core rules.
 ---
 
-<!--
-DRAFT 2, 2026-10-20; batch 2 in progress from 2026-10-21. NOT IN THE LIBRARY YET. When approved it becomes the skill `plumbing-scripts` (one skill, one SKILL.md,
-like `woodworking-scripts`), built by tools/build_skills.py into dist/plumbing-scripts.skill.
-Status tags: [DECIDED] the operator has ruled; [APPROVED] the operator said yes to this draft wording (2026-10-20);
-[DRAFT: for your yes] written, waiting; [LATER] heading only, written in a later batch.
-P3 (concrete forward promises in the plumbing pack) was approved by the operator on 2026-10-20.
-Sources: studies/plumbing/comparison/ (04 hooks, 06 titles, 07 body craft, 09 differences, 10 opener teardowns, 11 reasons to stay)
-and HANDOFF.md section 3, "Operator decisions, 2026-10-20 (plumbing, after the study)".
--->
 
 # Plumbing scripts
 
@@ -19,7 +10,7 @@ A plumbing video solves one household problem cheaply, or settles one decision, 
 
 ## What this skill covers
 
-**It owns:** the villain, the opening by video type, "point then promise", the structure of each video type, CTA placement and length, length, voice, proof, money framing, safety and the plumbing scanner checks. Scripts are clean narration only: no edit notes, cues or directions of any kind [DECIDED 2026-10-21].
+**It owns:** the villain, the opening by video type, "point then promise", the structure of each video type, CTA placement and length, length, voice, proof, money framing, safety and the plumbing scanner checks. Scripts are clean narration only: no edit notes, cues or directions of any kind.
 
 **It doesn't own:**
 - **The persona:** name, tenure, sign-off, any mentor or family detail. These live in the channel's persona profile.
@@ -28,7 +19,7 @@ A plumbing video solves one household problem cheaply, or settles one decision, 
 
 **Authority:** the core claims policy and offer rules come first, then safety and the title's promise, then the persona profile, then this skill, then the core base rules. The core `workflow.md` runs every script (START, the input gate, the output format).
 
-## Files in this skill [DRAFT: being built in step 2]
+## Files in this skill
 
 | File | What it's for |
 |---|---|
@@ -37,13 +28,27 @@ A plumbing video solves one household problem cheaply, or settles one decision, 
 | `references/excerpts.md` | Real lines grouped by job (the point, promises, money, limits, call-a-pro, comment questions). Lines from our hits and TheCheapFix are marked "structure only". Use for shape and range, never wording. |
 | `references/models/INDEX.md` | The model library: 38 winning videos sorted by video type (two to nine per type; the never-do list has one, plus two list models for pacing). R files are real channels (structure and voice); S files are our hits and TheCheapFix (structure only). |
 | `references/models/R01-...md` to `S18-...md` | One file per model: a beat map (what each stretch of the video does, with timings, items, promise devices, money and CTA placement; no wording), then the full labelled script, why it works and what doesn't transfer. Read at the planning step only. |
-| `archive/` | Full transcripts of the four real channels. Calibration only; don't read them while writing. |
+| `archive/` | Full transcripts of the four real channels. Calibration only; don't read them while writing. Kept in the library; the installed skill leaves it out, as the woodworking skill does. |
 
-Every reference file is under the copy guard: the scanner flags any run of 8 or more words shared with it [DECIDED: the real channels for voice; our hits and TheCheapFix for structure only, 2026-10-21].
+Every reference file is under the copy guard: the scanner flags any run of 8 or more words shared with it (the files are listed in "Where this pack overrides the core", below).
 
-## Inputs [APPROVED 2026-10-21]
+## Where this pack overrides the core
 
-Plumbing scripts are written from the title and the brief alone; there is no research pack [DECIDED 2026-10-21]. The workflow reads this block at START and won't write until every required input passes.
+The core base rules apply wherever this pack is silent. These are the places it changes them, each one approved by the operator. Everything else in the core stands.
+
+| Core rule | What this pack does instead | Decided |
+|---|---|---|
+| `workflow.md` §2, the default inputs | The `inputs` block below: the title, the brief and the rotation log. The research pack is `not used`, so the brief is the fact source everywhere the core says "the fact source". | 2026-10-21 |
+| `retention-mechanics.md` §6, "short range only" | Concrete named promises may point further than the next segment: the promise block in "The opening" and the forward lines in "Point then promise". Each names its item and its stake and is paid inside the video. Vague teases stay hard-banned. | P3, 2026-10-20 |
+| `cta-and-endings.md` §4 and `workflow.md` §4, "the closing line is exactly one sentence" | The ending is the one-line end CTA, then the comment line (a specific question and "I read every one"), which is the last line of the script. It may run to two sentences; there is no sign-off after it. In the output's FORMAT CHECK, the closing field reads `[comment line, last line of the script]`. | P5, 2026-10-21 |
+| `workflow.md` §3, the 8-minute minimum; `greenlight-audit.md` F2 and the evidence block's Length line | At least 12 minutes (1,800 words at 150 a minute); the evidence block reads `(minimum 12)`. See "Length". | 2026-10-21 |
+| `variety-rotation.md`, the rotation log line | One more field at the end of the line: `\| model: [file numbers]`. See "Using the models". | 2026-10-21 |
+| `workflow.md` §3 step 4 and `greenlight-audit.md` D3, the `--refs` files | Instead of `excerpts.md` and `reference-scripts.md` (woodworking's files), the copy guard runs against `references/excerpts.md`, `references/voice-samples.md` and every file in `references/models/`, plus the persona profile. | 2026-10-21 |
+| `workflow.md` §4, contractions | Kept for the pack; a persona profile may forbid them (Mark Silverbridge's does). See "Voice". | 2026-10-21 |
+
+## Inputs
+
+Plumbing scripts are written from the title and the brief alone; there is no research pack. The workflow reads this block at START and won't write until every required input passes.
 
 ```inputs
 - title | required | the locked title, exactly as approved
@@ -56,7 +61,7 @@ Plumbing scripts are written from the title and the brief alone; there is no res
 - **No freshness check.** Prices are said as ranges (see "Money framing"), so nothing is re-checked at START.
 - **If the brief is missing something the script needs** (the trade's typical price, a dose, a wait time), the run stops with NOT READY and names it. It never invents the fact.
 
-## The viewer [APPROVED 2026-10-21]
+## The viewer
 
 The viewer is a 50+ American homeowner, often in an older house and on a careful income, who would rather fix it than pay for a visit. They arrive from the feed, not from a search: they were offered a saving, a fear or a secret. Under the click sits one question: "Can I do this myself without making it worse?"
 
@@ -82,7 +87,7 @@ For more depth, see `plumbing-ideation/references/audience.md` (§1 for this vie
 
 ---
 
-## The villain [DECIDED; wording APPROVED]
+## The villain
 
 The villain on every plumbing channel is **the trade**: plumbers as a business, the plumbing industry, and whoever profits from the service call. Never a named company (core claims policy).
 
@@ -92,7 +97,7 @@ The villain on every plumbing channel is **the trade**: plumbers as a business, 
 - **One villain line in the opening, then let the prices carry it.** The trade's typical price at the end of an item ("you just did it for a couple of dollars") does the work for the rest of the video.
 - **The store shelf is a second, softer villain:** the jug, the tablet, the marketing on the label. Use it where the fix replaces a product.
 
-## The opening [APPROVED]
+## The opening
 
 Every opening, whatever the video type, does these jobs in about the first 45 seconds. Hooks are not one fixed formula: rotate the order and the shape across a channel's scripts (the rotation log tracks it), use the order for the video type (see "The video types"), or model the opening on one of the reference winner scripts for its shape and beats, never its wording. What can't change is that the point comes first and fast, and nothing on the banned list below appears.
 
@@ -107,7 +112,7 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 
 **Tenure:** at most once, as the profile's fixed number (Roger 45, Mark 40, Vintage 50) or, when the title states a different one, the title's number (title numbers win), and only where it does a job (credibility right before a verdict or a mistakes list).
 
-## Point then promise [APPROVED]
+## Point then promise
 
 The competitors give the point first and promise second; our hits did the reverse and made the viewer wait. From now on:
 
@@ -117,9 +122,9 @@ The competitors give the point first and promise second; our hits did the revers
 - **Keep one promise open.** After the opening, never go more than about five minutes without a new forward line or a payoff. Use a line that names the next value ("The next one is the reason your tank sweats in July."), the trade's price for what was just done, a question the next item answers, or a check the viewer can run.
 - **Every callback has a promise.** A line that says "I promised" or "like I said" must match something the script really promised earlier.
 - **A priority flag at the first answer:** "If you do only one thing from this video, do this one." Viewers pointed at that line when it came late.
-- **No recaps** at the end [DECIDED].
+- **No recaps** at the end.
 
-## Ways to promise more value [APPROVED]
+## Ways to promise more value
 
 Use two or three per video, and rotate them across a channel's scripts.
 
@@ -134,7 +139,7 @@ Use two or three per video, and rotate them across a channel's scripts.
 - **A problem the viewer didn't know they had,** promised and then shown.
 - **A myth flag:** "Number three is the one everybody gets backwards."
 
-## The video types [APPROVED 2026-10-21]
+## The video types
 
 Pick the type from the title. Each type has its own opening order and item shape. These are the most common types, not the only ones (operator, 2026-10-21). The models column names example files in `references/models/` (R = real channels, structure and voice; S = our hits and TheCheapFix, structure only); `references/models/INDEX.md` lists every model for each type. Never copy their wording, and follow "Using the models" below.
 
@@ -151,11 +156,11 @@ Pick the type from the title. Each type has its own opening order and item shape
 | **Hidden cause** | "Why Your X Keeps Y" | The thing the viewer trusts → what it's really doing → the hidden cause in one line → "what that means for you", answered at once | 30-45 s | Cause, how to check, the fix | R06, R17; S07 |
 | **Seasonal or emergency** | "Do This Before the First Freeze" | The clock and the crisis → "put the phone down" with the after-hours price → "probably nothing's broken" → the cause in one line → the fixes with what the viewer already owns | 30-45 s | The step, why now, what to watch for | R11, R12, R17; S13 |
 
-A title that promises tests ("I Tested 5 Drain Cleaners") is written as tests and results from the brief, never as "I tested" [DECIDED 2026-10-21].
+A title that promises tests ("I Tested 5 Drain Cleaners") is written as tests and results from the brief, never as "I tested".
 
 **A title that fits none of the ten:** build the opening from the six jobs in "The opening", in the order the closest type uses, and pick the item shape from the table that best suits the content. Note the title in the plan as "new type". When the same new shape comes up on three or more videos, it's proposed for this table, and added only with the operator's yes.
 
-## Using the models: never a copy [APPROVED 2026-10-21]
+## Using the models: never a copy
 
 The models show how winning videos are built. A script borrows their structure, never their wording, and never one model's structure whole.
 
@@ -167,13 +172,13 @@ The models show how winning videos are built. A script borrows their structure, 
 
 The copy guard still flags any run of 8 or more words shared with a model file.
 
-## CTAs [APPROVED 2026-10-21]
+## CTAs
 
-- **Roger the Pipe Guy and Mark Silverbridge:** back to the short CTAs their hits used. One mid-video ask, straight after the first real payoff, in about 20-60 words: one sentence for the ask, then straight back into the next item. At the end, a one-line reminder [DECIDED 2026-10-21]. Wording comes from the persona profile.
-- **The Vintage Pipefitter:** no mid-video CTA. At the end, a one-line subscribe ask, worded in the persona profile [DECIDED 2026-10-21]. Something fuller (an email CTA) will be decided later.
+- **Roger the Pipe Guy and Mark Silverbridge:** back to the short CTAs their hits used. One mid-video ask, straight after the first real payoff, in about 20-60 words: one sentence for the ask, then straight back into the next item. At the end, a one-line reminder. Wording comes from the persona profile.
+- **The Vintage Pipefitter:** no mid-video CTA. At the end, a one-line subscribe ask, worded in the persona profile. Something fuller (an email CTA) will be decided later.
 - **Never a long QR walkthrough,** never the same pitch twice in one video, and never a production label read aloud.
 
-## The ending [APPROVED 2026-10-21]
+## The ending
 
 Every plumbing channel ends the way Bertha's Clean Home does: the video's last line is a real attempt to get a comment. This overrides core `cta-and-endings.md` §4 for plumbing (P5).
 
@@ -181,35 +186,35 @@ After the last item:
 1. **The end CTA: a one-line reminder,** in the persona profile's words, on every channel.
 2. **The comment line, which is the last line of the video:** one specific question the viewer can answer from their own house, plus one small detail about them, and "I read every one." For example: "Tell me how old your house is and which drain gives you the most grief. I read every one." Never a bare "let me know in the comments", and never the same question two videos running.
 
-There's no fixed last line or sign-off after the comment line [DECIDED 2026-10-21]. No recap, no tease of a future video, and nothing after the comment line.
+There's no fixed last line or sign-off after the comment line. No recap, no tease of a future video, and nothing after the comment line.
 
-## Length [DECIDED 2026-10-21]
+## Length
 
-**At least 12 minutes** of narration on every plumbing script (this pack raises the core 8-minute minimum): 1,800 spoken words at 150 a minute, or at the profile's words per minute. **12 to 20 minutes is the sweet spot.** Inside that, the value decides: words per item depend on the item [DECIDED].
+**At least 12 minutes** of narration on every plumbing script (this pack raises the core 8-minute minimum): 1,800 spoken words at 150 a minute, or at the profile's words per minute. **12 to 20 minutes is the sweet spot.** Inside that, the value decides: words per item depend on the item.
 
 - **Never pad to reach a length.** Cut repetition instead: the same check said twice five minutes apart, or the promise restated, is padding.
 - **If the brief can't fill 12 minutes with real value,** the run stops with NOT READY and asks for a fuller brief (more items, more detail). The fix belongs at the ideation stage, not in extra words.
 - **For calibration, not as targets:** our hits ran 17 to 21 minutes, and the competitors' median was about 13. The length complaints on our hits were about the wait before the answer and the repetition, not the runtime: TheCheapFix and Arrow ran as long and drew about one length complaint each.
 
-## Voice [APPROVED 2026-10-21]
+## Voice
 
 Our hits sounded more like a person than our recent uploads: 1.5-2 times the first person on all three channels, more "you", and plain routine lines where the recent uploads used crafted metaphor. Even the hits used the least first person of any human-voiced channel in the study (5.3-8.8 per 1,000 words against 15.2-25.1).
 
-- **"You" for every instruction; "I" for opinions, preferences and verdicts.** "Pour it in slowly." "I'd leave the jug on the shelf for old cast iron." Write in contractions, the way people talk.
+- **"You" for every instruction; "I" for opinions, preferences and verdicts.** "Pour it in slowly." "I'd leave the jug on the shelf for old cast iron." Write in contractions, the way people talk, unless the persona profile forbids them (Mark Silverbridge's does: no contractions anywhere).
 - **Plain beats clever.** State the fact. At most one picture-phrase per item, and only when it teaches ("a colony of bacteria wearing a glue coat" explains biofilm). Mark's similes rose from 0.3 to 1.7 per 1,000 words in his recent uploads, with nothing to show for it.
 - **Honest candor.** Say the limits plainly: "Peroxide does not dissolve rock." "Nothing in plumbing is permanent." These are the lines viewers call honest. Never an invented mishap.
 - **Warmth comes from reassurance, not humour.** "You're fine." "Nothing's broken." "There's no shame in calling a pro." No jokes (a portfolio-wide decision).
 - **Swearing: none** in plumbing scripts. (The woodworking allowance doesn't carry over; nothing in the plumbing study calls for it.)
-- **A persona device only if the profile has one:** a mentor line or a household routine (Vintage's Uncle Ray, Roger's first-Saturday check). At most twice per video, under about 40 words, to teach or warn, never as proof that something works. Its facts (names, ages, places) come from the profile and never change.
+- **A persona device only if the profile has one:** a mentor line or a household routine (Roger's first-Saturday check; Mark and Vintage have none). At most twice per video, under about 40 words, to teach or warn, never as proof that something works. Its facts (names, ages, places) come from the profile and never change.
 - **A phrase is voice once; in the same slot every video, it's a tic.** Vintage used "Nine times out of 10" in 9 of 10 videos. Each stock phrase at most once per video, and rotate what opens an item and what closes the video. (The list of limited phrases comes with "Banned in these scripts".)
 
-## Proof [APPROVED 2026-10-21; tests-and-results line updated per the operator, 2026-10-21]
+## Proof
 
 The clearest difference in the study: the face channels, and Got2Learn filming his own hands, drew no complaints about the footage, while our hits drew about 38 (Mark about 28). Most of that is the camera. But the script made it worse every time it said "I tested", "watch me" or "look at". Proof in these scripts is the kind that survives any footage.
 
 **Use:**
 - **The mechanism, in one plain line:** why it works. "Its entire job is to corrode so your tank does not." The best ones are under 15 words.
-- **A number from the brief, said as a typical range** rather than one exact price: "somewhere between four hundred and eight hundred dollars for the unit." A source may be named when it helps ("the Department of Energy puts it at…"), but sources and store names don't have to be said [DECIDED].
+- **A number from the brief, said as a typical range** rather than one exact price: "somewhere between four hundred and eight hundred dollars for the unit." A source may be named when it helps ("the Department of Energy puts it at…"), but sources and store names don't have to be said.
 - **The maker's own warning,** when the brief confirms one: "Kohler, American Standard and Toto all warn against chlorine tablets in their own instructions."
 - **A check the viewer runs at home,** with what they'll see either way: the fizz test for old peroxide, food colouring in the tank for a leaking flapper. Only checks the brief confirms really work (food colouring can't find a leak at the toilet's base).
 - **The honest limit:** what the fix won't do. "Peroxide does not dissolve rock."
@@ -217,13 +222,13 @@ The clearest difference in the study: the face channels, and Got2Learn filming h
 - **The typical case, as a general statement:** "Plenty of people replace a toilet when the rim jets only needed cleaning."
 
 **Never:**
-- **First-person tests, trials or demonstrations,** even when the title promises tests [DECIDED 2026-10-21]. "I put all three through eight brutal tests" drew "Where is the footage of him doing the tests?" Tests and results are fine when the brief gives them, said without "I": "In pull tests, the push-fit gave way first." "Side by side, the enzyme cleaner took three nights; the jug took fifteen minutes and the clog was back in a week."
+- **First-person tests, trials or demonstrations,** even when the title promises tests. "I put all three through eight brutal tests" drew "Where is the footage of him doing the tests?" Tests and results are fine when the brief gives them, said without "I": "In pull tests, the push-fit gave way first." "Side by side, the enzyme cleaner took three nights; the jug took fifteen minutes and the clog was back in a week."
 - **Anything that needs footage the channel doesn't control:** "watch me", "look at the toilet on the left", "there's a stack of receipts on my bench right now".
 - **Customer stories and results:** "I had a homeowner tell me…", "an exterminator quoted a lady three hundred dollars". The claims policy bans customers; say it as the typical case instead.
 - **Nameless claimed experience:** "the worst tank we've ever opened".
 - **Sweeping claims nobody can check:** "this trick has saved homeowners across America hundreds of dollars".
 
-## Money framing [APPROVED 2026-10-21]
+## Money framing
 
 All 15 of our hits set the fix's cost against what the trade charges. In this niche that comparison is the entry ticket, not an extra. The weak spot is a single low product price: viewers check it on Amazon while they watch. Service-call ranges drew almost no disputes.
 
@@ -250,16 +255,16 @@ All 15 of our hits set the fix's cost against what the trade charges. In this ni
 
 **6. A money figure in the title is paid at its item,** with what was avoided spelled out. TheCheapFix's "#4 Saves $300" lands at item four as the new toilet nobody has to buy: "you absolutely do not need to pay a plumber $300 to $500 to replace your fixture."
 
-**7. Brand names are optional** [DECIDED: sources and store names aren't required]. Name a widely sold product only when it is the answer and the brief confirms it's on sale now. Viewers acted on the one brand our hits named: "I ordered some Arm & Hammer super washing soda… The water is draining for the first time in months!" (304 likes).
+**7. Brand names are optional.** Name a widely sold product only when it is the answer and the brief confirms it's on sale now. Viewers acted on the one brand our hits named: "I ordered some Arm & Hammer super washing soda… The water is draining for the first time in months!" (304 likes).
 
 **Never:**
 - **A guaranteed saving** (claims policy). Not "this saves you $300", but "this can save you the $300 visit".
 - **The trade's motives** (see "The villain"). Not "that's how he pays his mortgage", but "a drain call starts around a hundred and fifty".
 - **A total stated as certain** when it depends on the viewer's house. Not "this is a $5 fix", but "if it's the flapper, that's a five-to-fifteen-dollar fix".
 
-## Safety [APPROVED 2026-10-21; the brief always wins]
+## Safety
 
-The facts and methods come from the brief, and **the brief always wins** [DECIDED 2026-10-21]. There's no separate fact bank: contradictions between one video and another are acceptable [DECIDED].
+The facts and methods come from the brief, and **the brief always wins**. There's no separate fact bank: contradictions between one video and another are acceptable.
 
 **Defaults, only where the brief is silent.** These five drew the angriest comments in the study (about 18 on boiling water and 17 on washing soda that set hard: "Thanks to this video I had to hire a plumber!"), so the script uses the safe version unless the brief says otherwise:
 1. **Hot tap water,** not boiling water, for drains, toilets and plastic pipe.
@@ -272,7 +277,7 @@ The facts and methods come from the brief, and **the brief always wins** [DECIDE
 - **One short line inside the step where the risk is,** with the reason, in proportion. "It will put you on the floor" (chlorine gas) drew no complaints; vague danger drew "This is nothing but a scare tactic video."
 - **The call-a-pro line names its trigger:** "Two drains backing up at once is the main line. That's a call." Never the vague "if it's outside your comfort zone", and never a long list of stop signs.
 
-## Banned in these scripts [APPROVED 2026-10-21]
+## Banned in these scripts
 
 **Never:**
 - **A name or channel intro,** a greeting, "today we're going to", or "this channel is for…" (all three channels used the same channel-promise line in their recent uploads).
@@ -287,9 +292,9 @@ The facts and methods come from the brief, and **the brief always wins** [DECIDE
 - **Competitors' catchphrases and sign-offs.**
 - **Copying 8 or more words in a row** from a reference file. The copy guard flags it.
 
-**At most once per video.** A phrase is voice once; in the same slot every video it's a tic. "Nine times out of 10" is fine [DECIDED], and it's on this list with the others: "between you and me", "ask me how I know", "here's the part nobody tells you", "I'll be straight with you", "that's the whole trick", "in your pocket", "which brings us", "hold that thought", "the big one", "the real kicker", "quick thing", "no shame in", "full stop", "trust me".
+**At most once per video.** A phrase is voice once; in the same slot every video it's a tic. "Nine times out of 10" is fine, and it's on this list with the others: "between you and me", "ask me how I know", "here's the part nobody tells you", "I'll be straight with you", "that's the whole trick", "in your pocket", "which brings us", "hold that thought", "the big one", "the real kicker", "quick thing", "no shame in", "full stop", "trust me".
 
-## Scanner rules for this niche [APPROVED 2026-10-21]
+## Scanner rules for this niche
 
 The scanner (core `script-scanner.py`) reads this block. `ban` lines are fix-on-sight; `once` lines fail on the second use in a script (scanner support built 2026-10-21, test 20). There are no checks for boiling water or dry washing soda: the brief wins on safety, and the operator said "dont even flag them" (2026-10-21).
 
@@ -328,7 +333,7 @@ once: full stop
 once: trust me
 ```
 
-## Before handing over [APPROVED 2026-10-21]
+## Before handing over
 
 Check that:
 - the point comes in the first sentence, with the fix or product named by about 15 seconds

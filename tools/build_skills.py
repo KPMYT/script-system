@@ -4,6 +4,7 @@
 Writes dist/<skill>/ (the folder) and dist/<skill>.skill (the same folder zipped) for:
   script-writer          START -> finished script: the core rules (it finds the other skills by name)
   woodworking-scripts    the woodworking niche pack
+  plumbing-scripts       the plumbing niche pack (without its archive/ and model-file-spec.md)
   <channel>-persona      one per channel: the persona profile (as SKILL.md) and the channel's book text
   woodworking-ideation the edited woodworking ideation skill (needs ideation-core installed too)
   ideation-core        the shared ideation base, an unchanged copy (every niche's ideation skill needs it)
@@ -23,7 +24,7 @@ STAMP = f"{datetime.date.today().isoformat()} (library commit {commit()})"
 
 SCRIPT_WRITER_SKILL = """---
 name: script-writer
-description: Writes YouTube scripts for the operator's channels. Runs whenever someone types START (alone or followed by inputs), asks for a new script, or pastes a title with a brief and research pack for a script. It asks which channel, collects exactly the inputs that channel needs, refuses to write until every input is valid, then runs straight through to the finished, audited script and voiceover copy. Holds the core rules; it reads the channel's niche-pack skill and persona skill. Channels ready now: Hank Hardwood and Dale Oakfield's Workshop (woodworking for profit).
+description: Writes YouTube scripts for the operator's channels. Runs whenever someone types START (alone or followed by inputs), asks for a new script, or pastes a title with a brief (and, where the niche uses one, a research pack) for a script. It asks which channel, collects exactly the inputs that channel needs, refuses to write until every input is valid, then runs straight through to the finished, audited script and voiceover copy. Holds the core rules; it reads the channel's niche-pack skill and persona skill. Channels ready now: Hank Hardwood and Dale Oakfield's Workshop (woodworking for profit); Roger the Pipe Guy, Mark Silverbridge and The Vintage Pipefitter (plumbing).
 ---
 
 # Script writer (the core)
@@ -41,6 +42,10 @@ The script system is split into separate skills, one per layer. They're all inst
 | the niche pack `woodworking-scripts` | the **woodworking-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder |
 | the persona profile `personas/hank-hardwood.md` | the **hank-hardwood-persona** skill: its `SKILL.md` is the profile |
 | the persona profile `personas/dale-oakfield.md` | the **dale-oakfield-persona** skill: its `SKILL.md` is the profile |
+| the niche pack `plumbing-scripts` | the **plumbing-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder (with `references/models/`) |
+| the persona profile `personas/roger-the-pipe-guy.md` | the **roger-the-pipe-guy-persona** skill: its `SKILL.md` is the profile |
+| the persona profile `personas/mark-silverbridge.md` | the **mark-silverbridge-persona** skill: its `SKILL.md` is the profile |
+| the persona profile `personas/vintage-pipefitter.md` | the **vintage-pipefitter-persona** skill: its `SKILL.md` is the profile (this channel has no book) |
 | a book text `personas/books/<channel>-book.md` | inside that channel's persona skill, at the same path |
 
 If a skill the chosen channel needs isn't installed, stop with the NOT READY block (`core/workflow.md`, section 5) and name the missing skill.
@@ -56,10 +61,18 @@ If a skill the chosen channel needs isn't installed, stop with the NOT READY blo
 
 ## Running the checking program
 
-Use the real folders of the other skills in place of the placeholders:
+Use the real folders of the other skills in place of the placeholders. `FACT_SOURCE` is the research pack, or the brief where the niche pack doesn't use one.
+
+Woodworking:
 
 ```
-python3 core/script-scanner.py SCRIPT --rules <woodworking-scripts>/SKILL.md <channel-persona>/SKILL.md --pack RESEARCH_PACK --refs <woodworking-scripts>/references/excerpts.md <woodworking-scripts>/references/reference-scripts.md <channel-persona>/SKILL.md
+python3 core/script-scanner.py SCRIPT --rules <woodworking-scripts>/SKILL.md <channel-persona>/SKILL.md --pack FACT_SOURCE --title "LOCKED TITLE" --refs <woodworking-scripts>/references/excerpts.md <woodworking-scripts>/references/reference-scripts.md <channel-persona>/SKILL.md
+```
+
+Plumbing (the pack's copy-guard files: the excerpts, the voice samples and every model file):
+
+```
+python3 core/script-scanner.py SCRIPT --rules <plumbing-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF --title "LOCKED TITLE" --refs <plumbing-scripts>/references/excerpts.md <plumbing-scripts>/references/voice-samples.md <plumbing-scripts>/references/models/*.md <channel-persona>/SKILL.md
 ```
 """
 
@@ -67,7 +80,7 @@ INSTALL = """# Installing the skills
 
 **Version:** {stamp}
 
-Six skill files, one per layer. Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills. They then work in Claude and in Cowork.
+Ten skill files, one per layer. Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills. They then work in Claude and in Cowork.
 
 | File | Layer | What it does | On your account now |
 |---|---|---|---|
@@ -75,6 +88,10 @@ Six skill files, one per layer. Install them on every account that will do ideat
 | `woodworking-scripts.skill` | Niche | The woodworking-for-profit rules (structure, money block, proof, safety, voice) and the research-pack template. | **Replace** the old `woodworking-scripts` (delete the old one, upload this). |
 | `hank-hardwood-persona.skill` | Channel | Hank's profile, CTA rules and book. | **New:** upload it. |
 | `dale-oakfield-persona.skill` | Channel | Dale's profile, CTA rules and book. | **New:** upload it. |
+| `plumbing-scripts.skill` | Niche | The plumbing rules (inputs: title and brief, the opening, promises, the ten video types, CTAs, the ending, length, voice, proof, money, safety), the 38 model scripts and the copy guard's files. | **New:** upload it. |
+| `roger-the-pipe-guy-persona.skill` | Channel | Roger's profile, CTA rules and book. | **New:** upload it. |
+| `mark-silverbridge-persona.skill` | Channel | Mark's profile, CTA rules and book. | **New:** upload it. |
+| `vintage-pipefitter-persona.skill` | Channel | The Vintage Pipefitter's profile and its one-line subscribe ask (no book). | **New:** upload it. |
 | `woodworking-ideation.skill` | Ideation | The Etsy-first product scan (30 products), title and thumbnail-text options, fact briefs, the optional research pack. | **Replace** the old `woodworking-ideation`. |
 | `ideation-core.skill` | Ideation | The shared base every ideation skill needs. | **Unchanged:** only install it where it's missing (for example a new VA account). |
 
@@ -83,14 +100,14 @@ All of the script skills must be installed together: `script-writer` stops with 
 ## Steps
 
 1. **Delete** the old `woodworking-scripts` and the old `woodworking-ideation`.
-2. **Upload** `script-writer`, `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona` and `woodworking-ideation`.
+2. **Upload** `script-writer`, `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona` and `vintage-pipefitter-persona`.
 3. **Upload `ideation-core`** only if the account doesn't have it.
 4. **Turn them all on.**
 
 ## Using them (in Cowork)
 
 - **Ideation:** "Woodworking ideation for Hank" (or Dale). It scans Etsy, shows 30 products, then title options. You pick by number, and it writes the briefs. Ask for the research pack if you want it.
-- **Script:** open a new chat for each script and type **START**. Pick the channel, then paste the title, the brief, the research pack and the rotation log (the channel's last five ROTATION LOG ENTRY lines, or "none").
+- **Script:** open a new chat for each script and type **START**. Pick the channel, then paste what it asks for: for woodworking, the title, the brief, the research pack and the rotation log (the channel's last five ROTATION LOG ENTRY lines, or "none"); for plumbing, the title, the brief and the rotation log (no research pack).
 - **Upload rule:** only upload a script whose output says **VERDICT: PASS**. Anything that starts "NOT READY: DO NOT UPLOAD" goes back.
 
 ## Updating
@@ -124,6 +141,15 @@ def zipdir(folder, out):
 PERSONAS = {
     "hank-hardwood": ("Hank Hardwood", "personas/hank-hardwood.md", "personas/books/hank-hardwood-book.md"),
     "dale-oakfield": ("Dale Oakfield's Workshop", "personas/dale-oakfield.md", "personas/books/dale-oakfield-book.md"),
+    "roger-the-pipe-guy": ("Roger the Pipe Guy", "personas/roger-the-pipe-guy.md", "personas/books/roger-the-pipe-guy-book.md"),
+    "mark-silverbridge": ("Mark Silverbridge", "personas/mark-silverbridge.md", "personas/books/mark-silverbridge-book.md"),
+    "vintage-pipefitter": ("The Vintage Pipefitter", "personas/vintage-pipefitter.md", None),  # no book for now
+}
+
+# niche packs: folder -> what the installed skill leaves out
+PACKS = {
+    "woodworking-scripts": ("archive",),
+    "plumbing-scripts": ("archive", "model-file-spec.md"),
 }
 
 def build_script_writer():
@@ -133,18 +159,21 @@ def build_script_writer():
         f.write(SCRIPT_WRITER_SKILL.replace("{stamp}", STAMP))
     return out
 
-def build_pack():
-    out = os.path.join(DIST, "woodworking-scripts")
-    copytree(os.path.join(ROOT, "woodworking-scripts"), out, ignore=("archive",))
+def build_pack(name):
+    out = os.path.join(DIST, name)
+    copytree(os.path.join(ROOT, name), out, ignore=PACKS[name])
     return out
 
 def build_persona(slug):
     channel, profile, book = PERSONAS[slug]
     out = os.path.join(DIST, f"{slug}-persona")
-    os.makedirs(os.path.join(out, os.path.dirname(book)))
-    shutil.copy(os.path.join(ROOT, book), os.path.join(out, book))
+    os.makedirs(out)
+    if book:
+        os.makedirs(os.path.join(out, os.path.dirname(book)))
+        shutil.copy(os.path.join(ROOT, book), os.path.join(out, book))
+    what = "CTA rules, ending and the channel's book text" if book else "CTA rules and ending (this channel has no book)"
     head = (f"---\nname: {slug}-persona\ndescription: The channel profile for {channel}: persona, personal details, "
-            f"CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written "
+            f"{what}. Read by the script-writer skill when a script is written "
             f"for this channel (START). Not used on its own.\n---\n\n**Version:** {STAMP}\n\n")
     with open(os.path.join(out, "SKILL.md"), "w") as f:
         f.write(head + open(os.path.join(ROOT, profile), encoding="utf8").read())
@@ -164,11 +193,13 @@ def main():
     if os.path.isdir(DIST):
         shutil.rmtree(DIST)
     os.makedirs(DIST)
-    for folder in (build_script_writer(), build_pack(), *[build_persona(s) for s in PERSONAS], build_ideation(), build_ideation_core()):
+    for folder in (build_script_writer(), *[build_pack(p) for p in PACKS], *[build_persona(s) for s in PERSONAS], build_ideation(), build_ideation_core()):
         validate(folder)
         zipdir(folder, folder + ".skill")
         n = sum(len(fs) for _, _, fs in os.walk(folder))
-        print(f"built {os.path.relpath(folder, ROOT)}/ ({n} files) and {os.path.relpath(folder, ROOT)}.skill")
+        size = sum(os.path.getsize(os.path.join(d, f)) for d, _, fs in os.walk(folder) for f in fs)
+        lines = sum(1 for _ in open(os.path.join(folder, "SKILL.md"), encoding="utf8"))
+        print(f"built {os.path.relpath(folder, ROOT)}/ ({n} files, {size // 1024} KB unzipped, {os.path.getsize(folder + '.skill') // 1024} KB zipped, SKILL.md {lines} lines) and {os.path.relpath(folder, ROOT)}.skill")
     with open(os.path.join(DIST, "INSTALL.md"), "w") as f:
         f.write(INSTALL.replace("{stamp}", STAMP))
     # one folder (zipped) with every skill file and the install guide, for Drive
