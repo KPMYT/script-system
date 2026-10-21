@@ -28,9 +28,18 @@ A plumbing video solves one household problem cheaply, or settles one decision, 
 
 **Authority:** the core claims policy and offer rules come first, then safety and the title's promise, then the persona profile, then this skill, then the core base rules. The core `workflow.md` runs every script (START, the input gate, the output format).
 
-## Files in this skill [LATER]
+## Files in this skill [DRAFT: being built in step 2]
 
-Planned: `references/unit-plan-template.md`, `references/voice-samples.md`, `references/excerpts.md`, `references/reference-scripts.md`, and `archive/` with the compiled transcripts of the real-life channels (Silver Cymbal, Roger Wakefield, Got2Learn, Arrow Pest Service) [DECIDED], all under the copy guard.
+| File | What it's for |
+|---|---|
+| `references/unit-plan-template.md` | The plan to fill in from the title and brief before any prose. |
+| `references/voice-samples.md` | Three stretches of real human narration from the real channels' winners: the voice anchor for every script (core `voice-anchoring.md`). |
+| `references/excerpts.md` | Real lines grouped by job (the point, promises, money, limits, call-a-pro, comment questions). Lines from our hits and TheCheapFix are marked "structure only". Use for shape and range, never wording. |
+| `references/reference-scripts.md` | Complete winning scripts from the real channels (Got2Learn, Silver Cymbal, Roger Wakefield, Arrow), labelled. Read at the planning step for structure and pacing. |
+| `references/structure-models.md` | Complete scripts of the biggest AI-voiced plumbing hits (our own and TheCheapFix's), labelled. Structure only: never their voice or wording, and their banned lines are marked. |
+| `archive/` | Full transcripts of the four real channels. Calibration only; don't read them while writing. |
+
+Every reference file is under the copy guard: the scanner flags any run of 8 or more words shared with it [DECIDED: the real channels for voice; our hits and TheCheapFix for structure only, 2026-10-21].
 
 ## Inputs [APPROVED 2026-10-21]
 
@@ -127,20 +136,20 @@ Use two or three per video, and rotate them across a channel's scripts.
 
 ## The video types [APPROVED 2026-10-21]
 
-Pick the type from the title. Each type has its own opening order and item shape. These are the most common types, not the only ones (operator, 2026-10-21). The best real models are listed for the planning step (study IDs); never copy their wording.
+Pick the type from the title. Each type has its own opening order and item shape. These are the most common types, not the only ones (operator, 2026-10-21). The models are full labelled scripts for the planning step: RS = `references/reference-scripts.md` (real channels: structure and voice), SM = `references/structure-models.md` (our hits and TheCheapFix: structure only). Never copy their wording.
 
 | Type | Title shape | Opening, in order | First tip by | Item shape | Models |
 |---|---|---|---|---|---|
-| **Single-product fix** | "1 Cup of This…", "Pour X Into Y Tonight" | Product and what it does → reassurance → the doubt answered ("Too simple? It works on…") → what the jug or the visit costs → what it won't do → the promise block | 40-60 s | Dose, method, wait time, what you'll see, when it won't work | Rkm2BnFL9FA, kHT6ZL8At0w, Wg9-yFIXlx0 |
-| **N things about one product** | "N Things Plumbers Don't Want You to Know About X" | The product in the viewer's house and its price → what the trade charges for the same jobs → "nobody will mention it" → the belief it flips → the count, with one money item and one safety item → one rule | 45-90 s | A scene, what the trade charges, the method with amounts, the payoff | rGEFZrtOJOI, ls7BwoRhM9Q, SUqzcj5udsk |
-| **Never-do list** | "N Things You Should NEVER…" | A habit doing hidden damage → the avoidable cost → the trade bills for the result → the count → one numbered item with its stake | 30-45 s | The habit, why it does damage, what to do instead | WfAwg1l0xCE, DHk94YoC95k |
-| **Mistakes list** | "N Mistakes That…", "DO NOT Install X Until…" | A symptom question or neglect → the cost in hundreds or thousands → one credibility line → the count → one numbered stake | 15-30 s | The mistake, what it costs, the right way | VZo8y6AplVQ, xpsLXmntINE, 9_11vx_L6oM |
-| **Head-to-head verdict** | "X vs Y vs Z: A [tenure]-Year Plumber's Verdict" | The failed attempt or the moment of choice → the contenders with prices → everyone disagrees, the pitch sells the dear one → "each one gets a job" → one concrete extra | 45-60 s | Each contender: what it's for, what it's not for, one line of verdict; then which to use for which job | Rb0aS97YnSA, WXJGaGtXrgY, dIe837GgLDs |
-| **Banned / code explainer** | "Here's Why X Is NOT ALLOWED Anymore" | The why-question, or the viewer finding the fixture → the rule, scoped ("most codes", never "illegal") → the reason and one real danger, in proportion → "if yours works, you may not need to change it" → the fixes | about 20 s | Rule, reason, verdict, the fixes from cheapest | pmN88UvZfDI, HsOr7vpQUGg |
-| **How-to / correct way** | "The CORRECT Way to X", "How to X (Before It…)" | The task and the number-one mistake, or the myth flipped → "you can do this" → the step count and the step that decides it → when not to do it | 15-45 s | One step, the reason, the mistake to avoid | 8IV7oG43DZ0, JyVbjDsric4, 1kWd9HidNJk |
-| **Product swap** | "X Is Expensive. Use THIS Instead!" | The pro's price → the usual DIY option and its catch → the popular shortcut, judged fairly → the swap named, with its price and where not to use it | about 60 s | The swap, the price, the job it fits | YRow6eS6AHw, sHL4lBAhklA |
-| **Hidden cause** | "Why Your X Keeps Y" | The thing the viewer trusts → what it's really doing → the hidden cause in one line → "what that means for you", answered at once | 30-45 s | Cause, how to check, the fix | dVjg_BK3G3s (one model only) |
-| **Seasonal or emergency** | "Do This Before the First Freeze" | The clock and the crisis → "put the phone down" with the after-hours price → "probably nothing's broken" → the cause in one line → the fixes with what the viewer already owns | 30-45 s | The step, why now, what to watch for | 6gl41FmPsCk (one model only) |
+| **Single-product fix** | "1 Cup of This…", "Pour X Into Y Tonight" | Product and what it does → reassurance → the doubt answered ("Too simple? It works on…") → what the jug or the visit costs → what it won't do → the promise block | 40-60 s | Dose, method, wait time, what you'll see, when it won't work | RS7 (Arrow, rats); SM6 (Roger, 1 cup) |
+| **N things about one product** | "N Things Plumbers Don't Want You to Know About X" | The product in the viewer's house and its price → what the trade charges for the same jobs → "nobody will mention it" → the belief it flips → the count, with one money item and one safety item → one rule | 45-90 s | A scene, what the trade charges, the method with amounts, the payoff | SM1 (Vintage, peroxide); SM5 (TheCheapFix, peroxide); RS2 for list pacing |
+| **Never-do list** | "N Things You Should NEVER…" | A habit doing hidden damage → the avoidable cost → the trade bills for the result → the count → one numbered item with its stake | 30-45 s | The habit, why it does damage, what to do instead | SM3 (Roger, never pour) |
+| **Mistakes list** | "N Mistakes That…", "DO NOT Install X Until…" | A symptom question or neglect → the cost in hundreds or thousands → one credibility line → the count → one numbered stake | 15-30 s | The mistake, what it costs, the right way | SM4 (Mark, water heater) |
+| **Head-to-head verdict** | "X vs Y vs Z: A [tenure]-Year Plumber's Verdict" | The failed attempt or the moment of choice → the contenders with prices → everyone disagrees, the pitch sells the dear one → "each one gets a job" → one concrete extra | 45-60 s | Each contender: what it's for, what it's not for, one line of verdict; then which to use for which job | RS4 (Wakefield, tank vs tankless); SM2 (Mark, borax) |
+| **Banned / code explainer** | "Here's Why X Is NOT ALLOWED Anymore" | The why-question, or the viewer finding the fixture → the rule, scoped ("most codes", never "illegal") → the reason and one real danger, in proportion → "if yours works, you may not need to change it" → the fixes | about 20 s | Rule, reason, verdict, the fixes from cheapest | RS1 (Got2Learn, S-traps) |
+| **How-to / correct way** | "The CORRECT Way to X", "How to X (Before It…)" | The task and the number-one mistake, or the myth flipped → "you can do this" → the step count and the step that decides it → when not to do it | 15-45 s | One step, the reason, the mistake to avoid | RS3 (Got2Learn, unsoldering) |
+| **Product swap** | "X Is Expensive. Use THIS Instead!" | The pro's price → the usual DIY option and its catch → the popular shortcut, judged fairly → the swap named, with its price and where not to use it | about 60 s | The swap, the price, the job it fits | RS5 (Silver Cymbal, spray foam) |
+| **Hidden cause** | "Why Your X Keeps Y" | The thing the viewer trusts → what it's really doing → the hidden cause in one line → "what that means for you", answered at once | 30-45 s | Cause, how to check, the fix | RS6 (Silver Cymbal, LED bulbs) |
+| **Seasonal or emergency** | "Do This Before the First Freeze" | The clock and the crisis → "put the phone down" with the after-hours price → "probably nothing's broken" → the cause in one line → the fixes with what the viewer already owns | 30-45 s | The step, why now, what to watch for | none yet: build from the opening jobs |
 
 A title that promises tests ("I Tested 5 Drain Cleaners") is written as tests and results from the brief, never as "I tested" [DECIDED 2026-10-21].
 
