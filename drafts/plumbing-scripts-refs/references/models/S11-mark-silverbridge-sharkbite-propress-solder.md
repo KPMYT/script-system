@@ -1,6 +1,6 @@
 # S11. SharkBite vs ProPress vs Solder - I Tested ALL 3 to DESTRUCTION (The Results Will SURPRISE You!)
 
-- **Channel:** Mark Silverbridge · **Video:** sXlzedri_Hg · https://www.youtube.com/watch?v=sXlzedri_Hg
+- **Channel:** Mark Silverbridge Plumbing · **Video:** sXlzedri_Hg · https://www.youtube.com/watch?v=sXlzedri_Hg
 - **Tag:** [structure only] (AI-voiced: never borrow voice or wording)
 - **Views / normal:** 551.16x (302,585 / channel normal 549)
 - **Length:** 13:40 · 2,023 spoken words · **Video type:** head-to-head verdict

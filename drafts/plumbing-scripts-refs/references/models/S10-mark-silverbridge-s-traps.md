@@ -1,6 +1,6 @@
 # S10. The REAL Reason S-Traps Are No Longer ALLOWED In Any Home!
 
-- **Channel:** Mark Silverbridge · **Video:** HsOr7vpQUGg · https://www.youtube.com/watch?v=HsOr7vpQUGg
+- **Channel:** Mark Silverbridge Plumbing · **Video:** HsOr7vpQUGg · https://www.youtube.com/watch?v=HsOr7vpQUGg
 - **Tag:** [structure only] (AI-voiced: never borrow voice or wording)
 - **Views / normal:** 756.84x (415,505 / channel normal 549)
 - **Length:** 19:48 · 3,352 spoken words · **Video type:** banned / code explainer

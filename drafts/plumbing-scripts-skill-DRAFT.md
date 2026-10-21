@@ -35,7 +35,7 @@ A plumbing video solves one household problem cheaply, or settles one decision, 
 | `references/unit-plan-template.md` | The plan to fill in from the title and brief before any prose. |
 | `references/voice-samples.md` | Three stretches of real human narration from the real channels' winners: the voice anchor for every script (core `voice-anchoring.md`). |
 | `references/excerpts.md` | Real lines grouped by job (the point, promises, money, limits, call-a-pro, comment questions). Lines from our hits and TheCheapFix are marked "structure only". Use for shape and range, never wording. |
-| `references/models/INDEX.md` | The model library: 38 winning videos sorted by video type, 3 or more per type. R files are real channels (structure and voice); S files are our hits and TheCheapFix (structure only). |
+| `references/models/INDEX.md` | The model library: 38 winning videos sorted by video type (two to nine per type; the never-do list has one, plus two list models for pacing). R files are real channels (structure and voice); S files are our hits and TheCheapFix (structure only). |
 | `references/models/R01-...md` to `S18-...md` | One file per model: a beat map (what each stretch of the video does, with timings, items, promise devices, money and CTA placement; no wording), then the full labelled script, why it works and what doesn't transfer. Read at the planning step only. |
 | `archive/` | Full transcripts of the four real channels. Calibration only; don't read them while writing. |
 
@@ -140,7 +140,7 @@ Pick the type from the title. Each type has its own opening order and item shape
 
 | Type | Title shape | Opening, in order | First tip by | Item shape | Models |
 |---|---|---|---|---|---|
-| **Single-product fix** | "1 Cup of This…", "Pour X Into Y Tonight" | Product and what it does → reassurance → the doubt answered ("Too simple? It works on…") → what the jug or the visit costs → what it won't do → the promise block | 40-60 s | Dose, method, wait time, what you'll see, when it won't work | R07, R19, R20; S06, S08, S14, S15 |
+| **Single-product fix** | "1 Cup of This…", "Pour X Into Y Tonight" | Product and what it does → reassurance → the doubt answered ("Too simple? It works on…") → what the jug or the visit costs → what it won't do → the promise block | 40-60 s | Dose, method, wait time, what you'll see, when it won't work | R07, R15, R19, R20; S06, S08, S14, S15 |
 | **N things about one product** | "N Things Plumbers Don't Want You to Know About X" | The product in the viewer's house and its price → what the trade charges for the same jobs → "nobody will mention it" → the belief it flips → the count, with one money item and one safety item → one rule | 45-90 s | A scene, what the trade charges, the method with amounts, the payoff | S01, S05, S17, S18; R02 and R10 for list pacing |
 | **Never-do list** | "N Things You Should NEVER…" | A habit doing hidden damage → the avoidable cost → the trade bills for the result → the count → one numbered item with its stake | 30-45 s | The habit, why it does damage, what to do instead | S03; R16 for list pacing |
 | **Mistakes list** | "N Mistakes That…", "DO NOT Install X Until…" | A symptom question or neglect → the cost in hundreds or thousands → one credibility line → the count → one numbered stake | 15-30 s | The mistake, what it costs, the right way | S04, S16; R09 |

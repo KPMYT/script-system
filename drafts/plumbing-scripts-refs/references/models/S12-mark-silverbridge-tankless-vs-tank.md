@@ -1,6 +1,6 @@
 # S12. Tankless vs Tank Water Heater
 
-- **Channel:** Mark Silverbridge · **Video:** du--FqUoCHI · https://www.youtube.com/watch?v=du--FqUoCHI
+- **Channel:** Mark Silverbridge Plumbing · **Video:** du--FqUoCHI · https://www.youtube.com/watch?v=du--FqUoCHI
 - **Tag:** [structure only] (AI-voiced: never borrow voice or wording)
 - **Views / normal:** 508.81x (279,335 / channel normal 549)
 - **Length:** 15:43 · 2,461 spoken words · **Video type:** head-to-head verdict
