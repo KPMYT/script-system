@@ -1375,7 +1375,7 @@ VARIATION CHECK
 [19:16] >> We're happy with the results. We came out yesterday, installed everything. Usually mice and rats are neophobic. They stay away from new things that are introduced into their environment. So, we had activity in that one box with our bacon soda and Jippy cornbread mix. I'm excited about that. Homeowners super stoked. Also, the other boxes we had activity with the Warerin Kaput bait. Um, we're going to come back next week. We're going to check up everything. I would suspect everything is going to be a-ok. Okay. This homeowner is happy because the pets are going to be good. The chickens are going to be fine. No worry for secondary poisoning going to take place.
 
 [CLOSE] [CTA]
-[19:53] So, listen, I want to say thank you for watching this video. Uh, if you got any questions, you can email me at info@erops.com. Uh, I will try to get back to every single email.
+[19:53] So, listen, I want to say thank you for watching this video. Uh, if you got any questions, you can email me at [email address removed]. Uh, I will try to get back to every single email.
 
 [COMMENT]
 [20:04] Uh, any comment, put them down in the chat below. I try to respond to all of them.
