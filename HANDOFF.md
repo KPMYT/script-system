@@ -183,6 +183,8 @@ The operator's reply to the merge proposal: "Please do this and ensure there are
 - **The Vintage Pipefitter's tenure is 45, not 50 (P6):** "stick with what the ideation skill says. all 45. mark 40." Roger 45, Mark 40, Vintage 45, so the titles the ideation skill writes and the scripts agree.
 - **The three merge calls confirmed:** "all three are ok" (plumbing's opening counts as the hook; the promise block replaces the value line; the two cents devices).
 - **Hank's and Dale's title-numbers line confirmed:** "yes agree for 5" (a years figure in the title is said as years at the bench, never as years of selling).
+- **Where the plumbing brief is silent, the script fills in (P7):** "where the brief doesnt suppliment. the script should fill in here"; "the cost should always be estimated tho. never to the cents amount." Prices come from the brief, then the researched price guide in the plumbing pack (two or more sources per figure, re-checked by a second researcher), always said as estimates; everyday settings and intervals from general knowledge; doses only from the brief or the safe defaults; fewer numbers (at most one price per item). This replaces "a missing fact stops the run" for plumbing.
+- **Better briefs:** the plumbing ideation skill is in the library now, and its briefs give each item its cost and the right way.
 - **The rotation log comes from the same chat:** "rotation log will always be in the same session so its fine. we have that." A channel's scripts are written in one chat, so the gate takes the ROTATION LOG ENTRY lines from the earlier scripts in it; pasting is only needed in a fresh chat. This replaces "the operator isn't tracking it for now" and "open a new chat for each script".
 
 ### Rejected, so they don't come back
