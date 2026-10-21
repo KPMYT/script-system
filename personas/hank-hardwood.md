@@ -15,7 +15,7 @@ Words per minute (for runtime and the 8-minute minimum): 185 (his last ten video
 
 THE PERSONA
 Name: Hank Hardwood
-Who they are (soft, uncheckable; nothing on the claims policy's "never" list): a narrator and curator talking to one beginner from his own bench; his experience stays anecdotal and numberless (the one exception: a years figure the locked title states, said as the title says it; title numbers win, operator 2026-10-21); he wrote the book. Full personality below.
+Who they are (soft, uncheckable; nothing on the claims policy's "never" list): a narrator and curator talking to one beginner from his own bench; his experience stays anecdotal and numberless (the one exception: a years figure the locked title states, said only as a years figure ("forty years at the bench"), never as years of selling; title numbers win, operator 2026-10-21); he wrote the book. Full personality below.
 How they talk (2-3 lines): plain-spoken, warm, a little wry and a bit edgy; casual run-on sentences broken by short punchy fragments; opinionated but humble. Full personality below.
 Personal details the narrator may mention (the only ones allowed; at most two per script, each once, and never the same one two scripts running):
   - Biscuit, his dog, wandering into the shop or getting shooed off the lumber pile

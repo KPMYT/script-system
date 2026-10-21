@@ -44,7 +44,7 @@ The core base rules apply wherever this pack is silent. These are the places it 
 | `workflow.md` §3, the 8-minute minimum; `greenlight-audit.md` F2 and the evidence block's Length line | At least 12 minutes (1,800 words at 150 a minute); the evidence block reads `(minimum 12)`. See "Length". | 2026-10-21 |
 | `variety-rotation.md`, the rotation log line | Four more fields at the end of the line: `\| model: [file numbers] \| money: [device] \| promises: [devices] \| comment: "[the comment question]"`, so the rotation checks in "Using the models", "Ways to promise more value", "Money framing" and "The ending" have something to check against. | 2026-10-21 (model); the other three carry rules already approved |
 | `workflow.md` §3 step 4 and `greenlight-audit.md` D3, the `--refs` files | Instead of `excerpts.md` and `reference-scripts.md` (woodworking's files), the copy guard runs against `references/excerpts.md`, `references/voice-samples.md` and every file in `references/models/`, plus the persona profile. | 2026-10-21 |
-| `research-and-sourcing.md` §3, "each number said alongside whoever counted it" | Sources and store names don't have to be said (see "Proof"). | 2026-10-20 |
+| `research-and-sourcing.md` §6, "each number said alongside whoever counted it" | Sources and store names don't have to be said (see "Proof"). | 2026-10-20 |
 | `retention-mechanics.md` §6 and `greenlight-audit.md` B5, signposts | The sections are the opening, each item (or step, or contender) and the ending. "Number four." is the signpost for an item; in a verdict, the contender's name is. | 2026-10-21 (merge) |
 | `workflow.md` §4, contractions | Kept for the pack; a persona profile may forbid them (Mark Silverbridge's does). See "Voice". | 2026-10-21 |
 | `retention-mechanics.md` §2, the hook (a transformation, the viewer's pain or wish, one spark of curiosity, in about 15 seconds); `greenlight-audit.md` A1b and the evidence block's Hook line | The plumbing opening is the hook (see "The opening"). It is checked as the same three jobs: the transformation is the fix or product named in the first sentence, with what it does; the pain or wish is the failed attempt, the bill or the symptom; the curiosity is the opening question or the promise block. The Hook line records those three lines. The point still comes first, and the opening's six jobs run to about 45 seconds. | Operator, 2026-10-21 (merge) |
@@ -170,7 +170,7 @@ A title that promises tests ("I Tested 5 Drain Cleaners") is written as tests an
 The models show how winning videos are built. A script borrows their structure, never their wording, and never one model's structure whole.
 
 1. **Name the models and the differences.** The plan names the model or models used and at least three things done differently: the opening order, the number or order of items, the promise devices, the money device, or the comment question.
-2. **No repeats.** The same model is never used twice in the channel's last five scripts. This pack adds a field to the core rotation log entry: `| model: [file numbers]`.
+2. **No repeats.** The same model is never used twice in the channel's last five scripts. This pack adds fields to the core rotation log entry, `| model: [file numbers]` among them (see "Where this pack overrides the core").
 3. **Blending is encouraged:** the opening shape from one model and the item pacing from another, for example.
 4. **Planning only.** Model files are read at the planning step, never kept open while writing. Wording comes fresh from the brief, in the persona's voice.
 5. **The audit checks it:** the plan lists its differences, and no model in it appears in the last five rotation log lines.
@@ -219,7 +219,7 @@ The clearest difference in the study: the face channels, and Got2Learn filming h
 
 **Use:**
 - **The mechanism, in one plain line:** why it works. "Its entire job is to corrode so your tank does not." The best ones are under 15 words.
-- **A number from the brief, said as a typical range** rather than one exact price: "somewhere between four hundred and eight hundred dollars for the unit." A source may be named when it helps ("the Department of Energy puts it at…"), but sources and store names don't have to be said.
+- **A number from the brief, said as a typical range** rather than one exact price: "somewhere between $400 and $800 for the unit." A source may be named when it helps ("the Department of Energy puts it at…"), but sources and store names don't have to be said.
 - **The maker's own warning,** when the brief confirms one: "Kohler, American Standard and Toto all warn against chlorine tablets in their own instructions."
 - **A check the viewer runs at home,** with what they'll see either way: the fizz test for old peroxide, food colouring in the tank for a leaking flapper. Only checks the brief confirms really work (food colouring can't find a leak at the toilet's base).
 - **The honest limit:** what the fix won't do. "Peroxide does not dissolve rock."
@@ -310,8 +310,6 @@ ban-regex: \bI(?:'ve| have)? (?:tested|tried|ran (?:a |the |some |my )?tests?)\b
 ban-regex: \bmy (?:own )?(?:test|tests|testing|results)\b | first-person test claim
 ban: watch me | first-person demonstration
 ban: as you can see | pointing at the screen
-ban: right here | pointing at the screen
-ban: look at this | pointing at the screen
 ban-regex: \blook at the \w+(?: \w+)? on the (?:left|right)\b | pointing at the screen
 ban-regex: \bnot a scam\b|\bisn'?t the scam\b|\bjust (?:plain )?(?:economics|arithmetic)\b|\bno conspiracy\b | template stock line: the economics aside
 ban-regex: \bthis channel (?:is for|exists|is all about)\b | template stock line: channel promise

@@ -73,7 +73,7 @@ HARD_BANS = [
     (r"\b(?:do not|don'?t) (?:go )?click(?:ing)? away\b", "tease: don't click away"),
     (r"\bhang on (?:for|until|till|to the end)\b", "tease: hang on for"),
     (r"\bstay for (?:number|#|the last|the final)\b", "tease: stay for number"),
-    (r"\b(?:(?:I'?ll|I will|we'?ll|we will|I'?m|I am|we'?re)\s+(?:\w+\s+){0,2}?(?:save|saving|keep|keeping|show|showing|tell|telling|reveal|revealing|share|sharing|give|giving|add|adding)|saving|saved|keeping)\b[^.!?]{0,90}\bat the very end\b|\bat the very end,? (?:I'?ll|I will|we'?ll)\b", "tease: at the very end"),
+    (r"\b(?:(?:I'?ll|I will|we'?ll|we will|I'?m|I am|we'?re|I'?ve|we'?ve)\s+(?:\w+\s+){0,2}?(?:save|saving|saved|keep|keeping|show|showing|tell|telling|reveal|revealing|share|sharing|give you|giving you)|saving|saved|keeping)\b[^.!?]{0,90}\b(?:at|for|till|until) the very end\b|\bat the very end,? (?:I'?ll|I will|we'?ll)\b", "tease: at the very end"),
     (r"\bstay (?:right )?here with me\b", "tease: stay right here with me"),
     (r"\b(?:do not|don'?t) skip out\b", "tease: don't skip out on me"),
     (r"\bby the end,? you'?ll\b", "tease: by the end, you'll"),
@@ -226,6 +226,9 @@ def read_rules(paths):
 WORD_NUM = {w: i for i, w in enumerate("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split())}
 TENS = {w: 10 * i for i, w in enumerate("_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()) if w != "_"}
 SCALES = {"hundred": 100, "thousand": 1000, "million": 1000000}
+UNIT_WORDS = {"dollar", "dollars", "buck", "bucks", "cent", "cents", "year", "years", "month", "months", "week", "weeks", "day", "days",
+              "hour", "hours", "minute", "minutes", "gallon", "gallons", "ounce", "ounces", "pound", "pounds", "foot", "feet",
+              "inch", "inches", "percent", "degree", "degrees", "to", "old"}
 FRACTIONS = {"a half": .5, "a quarter": .25, "three-quarters": .75, "three quarters": .75, "one-half": .5}
 
 def word_numbers(text):
@@ -243,14 +246,20 @@ def word_numbers(text):
                 cur = 1; i += 1
             while i < len(toks):
                 t = toks[i]; ps = t.split("-")
-                if all(p in WORD_NUM or p in TENS or p in SCALES for p in ps) and not (ps[0] in SCALES and i == start and not lead_a):
-                    for p in ps:                       # "two-hundred" is one token
+                k = 0
+                while k < len(ps) and (ps[k] in WORD_NUM or ps[k] in TENS or ps[k] in SCALES):
+                    k += 1
+                if k and (k == len(ps) or ps[k] in UNIT_WORDS):
+                    for p in ps[:k]:                   # "two-hundred" is one token; "hundred-dollar" keeps its number
                         if p in SCALES:
                             cur = max(cur, 1) * SCALES[p]
                             if SCALES[p] >= 1000:
                                 total += cur; cur = 0
                         else:
                             cur += WORD_NUM.get(p, 0) + TENS.get(p, 0)
+                    if k < len(ps):                    # the unit ends the number
+                        i += 1
+                        break
                 elif t == "and" and i + 1 < len(toks) and (toks[i + 1] in ("a", "three-quarters", "one-half") or toks[i + 1].split("-")[0] in WORD_NUM or toks[i + 1].split("-")[0] in TENS):
                     if i + 2 < len(toks) and " ".join(toks[i + 1:i + 3]) in FRACTIONS:
                         cur += FRACTIONS[" ".join(toks[i + 1:i + 3])]; i += 2
@@ -386,14 +395,19 @@ def tenure_check(para, tenure, title_n=None):
         return out
     tenure = tenure or "none"
     for rx in TENURE_RX:
-        for m in rx.finditer(para):
+        pos = 0
+        while True:
+            m = rx.search(para, pos)
+            if not m:
+                break
+            pos = m.start() + 1          # overlapping: a skipped "been ..." match mustn't hide a later one
             if m.start(1) in seen:
                 continue
             near = para[max(0, m.start() - 40):m.end() + 40]
             if rx is TENURE_RX[0] and not re.search(r"\b(?:I|I'?ve|I'?m|me|my|we|we'?ve)\b", near):
                 continue
             # "been ... for N years" counts only with the persona as its subject ("I've been...", not "the heater has been...")
-            if rx is TENURE_RX[1] and not re.search(r"\b(?:I|I'?ve|I have|I had|I'?d|we|we'?ve|we have)\s+(?:\w+\s+){0,2}$", para[max(0, m.start() - 30):m.start()], re.I):
+            if rx is TENURE_RX[1] and m.group(0).lower().startswith("been") and not re.search(r"(?:\b(?:I|I'?ve|I have|I had|I'?d|we|we'?ve|we have)\s+(?:\w+\s+){0,2}|\bmy\s+\w+\s+(?:have|has|had)\s+|(?:^|[.!?]\s+))$", para[max(0, m.start() - 30):m.start()], re.I):
                 continue
             seen.add(m.start(1))
             n = _num(m.group(1))

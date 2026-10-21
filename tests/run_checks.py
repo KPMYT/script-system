@@ -140,7 +140,7 @@ I'm cutting the first piece now, right here. The fix is cheap â€” really cheap â
 No glue. No nails. No excuses. The truth is it works. The truth is it lasts.
 """)
 code,out=run_scan(broken,[WWR])
-need=["let's get into it","tease: stick around","tease: bonus at the end","first-person build narration","pointing at generated footage","em dash","curly quote","single-character ellipsis","hourly-wage framing"]
+need=["let's get into it","tease: stick around","tease: bonus at the end","first-person build narration","pointing: right here","em dash","curly quote","single-character ellipsis","hourly-wage framing"]
 miss=[n for n in need if n not in out]
 check("7. broken script: every planted problem caught", not miss and code==1, "missed: "+", ".join(miss))
 check("7b. 'Most...' over the cap, staccato and filler flagged", "over the cap" in out and "staccato" in out and '"the truth is" x2' in out, out)
@@ -355,21 +355,25 @@ check("28. every persona profile flags 'e-book'", len(PROFILES)>=2 and not nofla
 # 29. tenure: ordinary ages of pipes and heaters are not the persona's years; the persona's own still are
 code,out=run_scan("That water heater has been running for 10 years. A pipe that has been in your walls for 50 years is fine.\n",[PLR,ROGER])
 code2,out2=run_scan("I've been at this for 40 years.\n",[PLR,ROGER])
-check("29. tenure check ignores pipe and heater ages; the persona's own wrong figure still fails",
-      code==0 and "PERSONA FACT" not in out and code2==1 and "PERSONA FACT: tenure" in out2, out+out2)
+missed=[l for l in ("After working on old houses for thirty years, you learn.","Plumbing for 30 years teaches you this.","Been at it for thirty years.",
+                    "It's been the same since I've been plumbing for 50 years.","My hands have been in pipes for 30 years.") if run_scan(l+"\n",[PLR,ROGER])[0]!=1]
+check("29. tenure check ignores pipe and heater ages; the persona's own wrong figure still fails, in every form",
+      code==0 and "PERSONA FACT" not in out and code2==1 and "PERSONA FACT: tenure" in out2 and not missed, out+out2+str(missed))
 
 # 30. spoken prices are read correctly by the numbers check
 with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("drain call 150 dollars; flapper 5 to 15\n"); bp=t.name
-code,out=run_scan("A drain call starts around a hundred and fifty dollars. A flapper is five to fifteen. That one can save you a two-hundred-dollar call.\n",[PLR],bp)
+code,out=run_scan("A drain call starts around a hundred and fifty dollars. A flapper is five to fifteen. That one can save you a two-hundred-dollar call. Keep a hundred-dollar bill and a ten-dollar part.\n",[PLR],bp)
 miss=out.split("NUMBERS NOT FOUND")[1] if "NUMBERS NOT FOUND" in out else ""
-check("30. numbers check reads 'a hundred and fifty' as 150 and 'two-hundred-dollar' as 200",
-      "200" in miss and " 50 " not in miss and "150" not in miss, out)
+check("30. numbers check reads 'a hundred and fifty' as 150, 'two-hundred-dollar' as 200, 'a hundred-dollar' as 100, 'ten-dollar' as 10",
+      "200" in miss and "100" in miss and "  10  " in miss and " 50 " not in miss and "150" not in miss, out)
 
 # 31. "at the very end" in a build order is not a tease; the teases still are
 code,out=run_scan("We'll put the felt pads on at the very end, once the oil is dry.\n")
 code2,out2=run_scan("I'll save the best one for you at the very end.\n")
-check("31. a build-order 'at the very end' passes; 'I'll save the best one for you at the very end' is still a hard ban",
-      code==0 and code2==1 and "tease: at the very end" in out2, out+out2)
+okb=[l for l in ("We'll add the felt pads at the very end.","We'll give it one last coat at the very end.") if run_scan(l+"\n")[0]!=0]
+tz=[l for l in ("I'm saving the best for the very end.","I've saved the best one for the very end.","At the very end, I'll add it all up.") if run_scan(l+"\n")[0]!=1]
+check("31. build-order 'at the very end' lines pass; 'saving the best for the very end' teases are hard bans",
+      code==0 and code2==1 and "tease: at the very end" in out2 and not okb and not tz, out+out2+str(okb)+str(tz))
 
 # 32. runtime: the profile's words per minute and the niche pack's minimum
 code,out=run_scan("Cut the board.\n",[WWR,f"{PERS}/hank-hardwood.md"])
@@ -392,8 +396,8 @@ check("34. each profile's required CTA or ending wording passes the copy guard a
 # 35. plumbing bans the 'today we're going to' opening; Mark's uncontracted stock phrases still count once; more contractions caught
 code,out=run_scan("Today we're going to fix the drain.\n",[PLR,ROGER])
 code2,out2=run_scan("Here is the part nobody tells you.\n\nAnd here is the part nobody tells you again.\n",[PLR,MARK])
-code3,out3=run_scan("Let's look. Nobody's checking.\n",[PLR,MARK])
-check("35. plumbing: 'today we're going to' banned; Mark's 'here is the part nobody tells you' limited to once; 'Let's' and 'Nobody's' caught",
+code3,out3=run_scan("Let's look. Where's the valve?\n",[PLR,MARK])
+check("35. plumbing: 'today we're going to' banned; Mark's 'here is the part nobody tells you' limited to once; 'Let's' and 'Where's' caught",
       code==1 and "today we're going to" in out and code2==1 and "NICHE/PERSONA LIMIT" in out2 and code3==1 and out3.count("contraction")>=2, out+out2+out3)
 
 for name,ok,detail in results:

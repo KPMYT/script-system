@@ -3,7 +3,7 @@ name: mark-silverbridge-persona
 description: The channel profile for Mark Silverbridge: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-21 (library commit 2fe33ab)
+**Version:** 2026-10-21 (library commit f67c550)
 
 # Persona profile: Mark Silverbridge
 
@@ -81,5 +81,5 @@ book: Fifty Easy Plumbing Fixes That Will Save You Ten Thousand Dollars
 tenure: 40
 ban: e-book | say "book", never "e-book"
 ban: ebook | say "book", never "e-book"
-ban-regex: \b\w+(?:n't|'re|'ve|'ll|'d|'m)\b|\b(?:it|that|there|here|what|he|she|who|let|where|how|why|when|nobody|everybody|everyone|nothing|something|someone)'s\b | contraction (Mark's voice mishandles them)
+ban-regex: \b\w+(?:n't|'re|'ve|'ll|'d|'m)\b|\b(?:it|that|there|here|what|he|she|who|let|where|how|why|when|nothing|something)'s\b | contraction (Mark's voice mishandles them)
 ```

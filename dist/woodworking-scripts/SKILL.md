@@ -124,7 +124,7 @@ Whole winning scripts ran 1,135-2,408 words, with 18-55 step lines; ours never g
 
 ## Exaggerated titles
 
-Titles may exaggerate in degree ("EVERY tool," "stupid money"). The script delivers that through math, never through a claimed event. The promise line states what the build can do, and the money block shows the numbers that make the title reachable: how many pieces at what price would cover it. If even generous math can't reach the title's claim, flag it back to ideation rather than inventing support. Titles may also claim the persona's own selling or tenure ("the laziest thing I sell," "40 years of selling"), for Hank and Dale alike (operator, 2026-10-20). Those aren't flagged: the script delivers them through the numbers, and the narration never claims sales, customers or history.
+Titles may exaggerate in degree ("EVERY tool," "stupid money"). The script delivers that through math, never through a claimed event. The promise line states what the build can do, and the money block shows the numbers that make the title reachable: how many pieces at what price would cover it. If even generous math can't reach the title's claim, flag it back to ideation rather than inventing support. Titles may also claim the persona's own selling or tenure ("the laziest thing I sell," "40 years of selling"), for Hank and Dale alike (operator, 2026-10-20). Those aren't flagged: the script delivers them through the numbers, and the narration never claims sales, customers or history (a years figure from the title aside, said as years at the bench; see "Proof" below).
 
 ## Money block rules
 
@@ -147,7 +147,7 @@ Proof is always researched online listings, worded honestly:
 
 At each proof moment, name the platform and the price (never the shop) so the editor can place the real screenshot.
 
-The narrator never claims personal sales, customers or history: no "I've sold 200," no "my wife asked for one." Opinions and preferences are fine: "I'd skip the stain on this one."
+The narrator never claims personal sales, customers or history: no "I've sold 200," no "my wife asked for one." The one exception is a years figure the locked title states, said as years at the bench, never as years of selling (title numbers win, `claims-policy.md`). Opinions and preferences are fine: "I'd skip the stain on this one."
 
 ## Where to sell
 
@@ -227,11 +227,10 @@ Record these choices in the unit plan's variation check.
 The scanner (core `script-scanner.py`) reads this block. These are fix-on-sight in this lane only.
 
 ```scanner
+ban-regex: \byears? of (?:selling|sales)\b | sales-history claim (a title may say it; the narration never does)
 ban-regex: \bI(?:'m| am) (?:cutting|drilling|sanding|gluing|clamping|measuring|marking)\b | first-person build narration
 ban-regex: \bI(?:'ll| will) (?:cut|drill|sand|glue|clamp|measure|mark|grab)\b | first-person build narration
 ban: watch me | first-person build narration
-ban: right here | pointing at generated footage
-ban: look at this | pointing at generated footage
 ban: as you can see | pointing at generated footage
 ban-regex: (?:\$\s?\d[\d,.]*|\bbucks|\bdollars)\s*(?:an|per|a|/)\s*hour\b | hourly-wage framing
 ban: per hour | hourly-wage framing

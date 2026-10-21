@@ -81,7 +81,7 @@ The closing line is exactly one sentence: the persona's sign-off, a callback, or
 
 ## 5. Keeping CTA wording fresh
 
-The structure repeats; the words never do.
+The structure repeats; the words never do. (One exception, operator 2026-10-20: the end CTA's wording may repeat, and it isn't logged.)
 - **Rewrite every CTA from scratch each time,** keeping its structure. Change the opening words, the value line, the directions and the close.
 - **Never reuse or closely paraphrase** a CTA opening that appears in the pasted rotation log (`variety-rotation.md`, slot 8).
 - **Banned echoes,** from old scripts, never used on any channel (close variants included):
