@@ -3,7 +3,7 @@ name: mark-silverbridge-persona
 description: The channel profile for Mark Silverbridge: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-21 (library commit f705212)
+**Version:** 2026-10-21 (library commit 2fe33ab)
 
 # Persona profile: Mark Silverbridge
 
