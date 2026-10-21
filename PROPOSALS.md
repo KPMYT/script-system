@@ -48,4 +48,4 @@ The study supports the narrow form of both: a tenure stated the same way every t
 1. **Years in the trade:** allowed only as the persona profile's fixed `tenure:` figure, worded the same way every time, and never with dates, employers, towns, licences or other credentials.
 2. **A first-person trial:** allowed only where a niche pack permits it and the title or brief calls for one. Everything else on the "never" list stays.
 
-**Status:** open, for the operator.
+**Status:** decided by the operator on 2026-10-21: "the years of experience can be from the title. we can mention in the video but not personally tested." Exception 1 approved and applied to `core/claims-policy.md` ("Fixed years in the trade"). Exception 2 not applied: "personally tested" stays on the never list. Waiting on the operator to confirm whether this also ends the earlier "unless the title or brief calls for one" exception for plumbing.

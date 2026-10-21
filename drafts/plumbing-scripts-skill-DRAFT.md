@@ -112,7 +112,7 @@ Use two or three per video, and rotate them across a channel's scripts.
 - **A problem the viewer didn't know they had,** promised and then shown.
 - **A myth flag:** "Number three is the one everybody gets backwards."
 
-## The video types [APPROVED 2026-10-21; the closing note is DRAFT: for your yes]
+## The video types [APPROVED 2026-10-21]
 
 Pick the type from the title. Each type has its own opening order and item shape. These are the most common types, not the only ones (operator, 2026-10-21). The best real models are listed for the planning step (study IDs); never copy their wording.
 
@@ -131,7 +131,7 @@ Pick the type from the title. Each type has its own opening order and item shape
 
 Story or "I tried everything" videos are allowed only when the title or brief calls for a first-person trial [DECIDED: no first-person test or demo claims otherwise].
 
-**A title that fits none of the ten** [DRAFT: for your yes]: build the opening from the six jobs in "The opening", in the order the closest type uses, and pick the item shape from the table that best suits the content. Note the title in the plan as "new type". When the same new shape comes up on three or more videos, it's proposed for this table, and added only with the operator's yes.
+**A title that fits none of the ten:** build the opening from the six jobs in "The opening", in the order the closest type uses, and pick the item shape from the table that best suits the content. Note the title in the plan as "new type". When the same new shape comes up on three or more videos, it's proposed for this table, and added only with the operator's yes.
 
 ## CTAs [DECIDED; placement DRAFT: for your yes]
 
@@ -155,7 +155,7 @@ Our hits sounded more like a person than our recent uploads: 1.5-2 times the fir
 - **A persona device only if the profile has one:** a mentor line or a household routine (Vintage's Uncle Ray, Roger's first-Saturday check). At most twice per video, under about 40 words, to teach or warn, never as proof that something works. Its facts (names, ages, places) come from the profile and never change.
 - **A phrase is voice once; in the same slot every video, it's a tic.** Vintage used "Nine times out of 10" in 9 of 10 videos. Each stock phrase at most once per video, and rotate what opens an item and what closes the video. (The list of limited phrases comes with "Banned in these scripts".)
 
-## Proof [DRAFT: for your yes]
+## Proof [APPROVED 2026-10-21]
 
 The clearest difference in the study: the face channels, and Got2Learn filming his own hands, drew no complaints about the footage, while our hits drew about 38 (Mark about 28). Most of that is the camera. But the script made it worse every time it said "I tested", "watch me" or "look at". Proof in these scripts is the kind that survives any footage.
 
@@ -175,7 +175,24 @@ The clearest difference in the study: the face channels, and Got2Learn filming h
 - **Nameless claimed experience:** "the worst tank we've ever opened".
 - **Sweeping claims nobody can check:** "this trick has saved homeowners across America hundreds of dollars".
 
-## Money framing, safety, writing for the footage [LATER]
+## Money framing [DRAFT: for your yes]
+
+All 15 of our hits set the fix's cost against what the trade charges. In this niche that comparison is the entry ticket, not an extra. The weak spot is a single low product price: viewers check it on Amazon while they watch ("Every bottle of anything in these AI videos is $1 a bottle. Maybe 30 years ago!", 48 likes; "This guy prices are from 1924", on an $8-12 enzyme bottle). Service-call ranges drew almost no disputes.
+
+- **The comparison comes early:** the fix's cost against the trade's typical price, within the first two minutes, usually as the villain line.
+- **Every price is a range from the research pack,** never one exact figure: "a box runs about four to seven dollars", "a drain call starts around a hundred and fifty and often runs past three hundred". After-hours and weekend prices are higher; use them in emergency videos.
+- **The cost per use when a product lasts:** "about fifty cents a treatment." Check it against the dose: a box that "lasts two years" has to survive the arithmetic.
+- **Rotate the money devices** across a channel's scripts:
+  - the three-way comparison ("fifty cents, against twenty dollars for the jug, against three hundred for the visit")
+  - the trade's price at the end of each item
+  - a running tally, closed at the last item ("about twenty dollars on one side, fifteen hundred and up on the other")
+  - payback arithmetic for big purchases such as water heaters and softeners
+- **Say it when the cheap or popular option loses.** "If it cost three thousand more and saves a hundred a year, that's a thirty-year payback. That is not great." A verdict that says no is the one viewers trust.
+- **A money figure in the title is paid at its item,** with what was avoided spelled out (the visit, the new toilet, the replacement).
+- **Brand names are optional** [DECIDED: sources and store names aren't required]. Name a widely sold product only when it is the answer and the research pack confirms it's on sale now. Viewers acted on the one brand our hits named ("I ordered some Arm & Hammer super washing soda", 304 likes).
+- **Never:** a guaranteed saving (claims policy); the trade's motives (see "The villain"); a total that isn't conditional when it depends on the viewer's house ("if it's the flapper, that's the whole bill").
+
+## Safety, writing for the footage [LATER]
 
 Already decided, to be written up in the next batch:
 - **Safety:** unsafe advice is never allowed (the safety block and fact bank come in this batch); contradictions between one video and another are acceptable.
