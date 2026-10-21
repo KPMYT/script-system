@@ -192,10 +192,24 @@ All 15 of our hits set the fix's cost against what the trade charges. In this ni
 - **Brand names are optional** [DECIDED: sources and store names aren't required]. Name a widely sold product only when it is the answer and the research pack confirms it's on sale now. Viewers acted on the one brand our hits named ("I ordered some Arm & Hammer super washing soda", 304 likes).
 - **Never:** a guaranteed saving (claims policy); the trade's motives (see "The villain"); a total that isn't conditional when it depends on the viewer's house ("if it's the flapper, that's the whole bill").
 
-## Safety, writing for the footage [LATER]
+## Safety [DRAFT: for your yes; kept light, as the operator asked]
+
+The facts and methods come from the brief and the research pack. There's no separate fact bank: contradictions between one video and another are acceptable [DECIDED]. This section is only a short floor under the brief: five things that hurt the viewer or their pipes, and that drew the angriest comments in the study (about 18 on boiling water and 17 on washing soda that set hard: "Thanks to this video I had to hire a plumber!").
+
+**Never written, whatever the brief says.** If a brief asks for one of these, write the safe version and note it in the audit.
+1. **Boiling water** down a drain, into a toilet or through plastic pipe. Hot tap water instead: "Hot tap water, not boiling water off the stove."
+2. **Washing soda poured in dry.** Dissolve it in hot tap water first.
+3. **Mixing cleaners:** bleach with ammonia, vinegar or any acid, or peroxide with vinegar. One product in a drain at a time. Peroxide means the 3% drugstore bottle, never anything stronger.
+4. **Anything into a drain that already has a chemical drain cleaner in it,** including plunging it. It can splash back.
+5. **Gas lines and live wiring.** Gas pipe work is never DIY. Before any water-heater job, the power or the gas is turned off, in one line.
+
+**How safety sounds:**
+- **One short line inside the step where the risk is,** with the reason, in proportion. "It will put you on the floor" (chlorine gas) drew no complaints; vague danger drew "This is nothing but a scare tactic video."
+- **The call-a-pro line names its trigger:** "Two drains backing up at once is the main line. That's a call." Never the vague "if it's outside your comfort zone", and never a long list of stop signs.
+
+## Writing for the footage [LATER]
 
 Already decided, to be written up in the next batch:
-- **Safety:** unsafe advice is never allowed (the safety block and fact bank come in this batch); contradictions between one video and another are acceptable.
 - **The footage:** a mismatch between footage and narration is the editor's job; the existing rule to name what the viewer should see stays.
 - **"Nine times out of 10"** is fine.
 
