@@ -23,7 +23,7 @@ description: The final quality gate every script passes before it ships. Six gro
 ## Group A: the hook
 
 - **A1. The opening.** The viewer knows what the video is about within about 10 seconds, and the first line names the title's subject. By default the first sentence is a jolt, not a greeting, with no channel intro. A niche pack or persona profile can allow a greeting.
-- **A1b. The hook does all three jobs** (`retention-mechanics.md`, section 2): a transformation the viewer can picture, the viewer's pain or wish, and one spark of curiosity that the video answers (never a tease). One to three sentences, without delaying the first payoff. A hook made only of numbers or facts fails, and so does one that opens on the same move as the channel's last two or three scripts. Quote the line for each job.
+- **A1b. The hook does all three jobs** (`retention-mechanics.md`, section 2): a transformation the viewer can picture, the viewer's pain or wish, and one spark of curiosity that the video answers (never a tease). One to three sentences, without delaying the first payoff. A hook made only of numbers or facts fails, and so does one that opens on the same move as the channel's last two or three scripts. Quote the line for each job. If the script carries a value line, everything it names is delivered, it contains no tease, and the first payoff still lands within about 15 seconds.
 - **A2. Graded against real winners.** The hook holds up against 2-3 real winning hooks from the niche pack's excerpt library or voice samples. Quote the ones it was compared with. If the niche has no real hooks to compare against, mark A2 as "not run" rather than failed.
 - **A3. The promise is mapped.** Every item the hook promises maps to the section of the body that delivers it.
 - **A4. The hook's claims hold up.** Everything the hook claims is backed by the body, within the framing limits in `research-and-sourcing.md`.
@@ -129,7 +129,7 @@ Every audited script carries this short block after the rotation log. It's never
 AUDIT EVIDENCE
 Verdict: PASS (round [n] of 3)
 Promise map: [what the hook promises] -> [where each is delivered]
-Hook: transformation = "[line]" | pain or wish = "[line]" | curiosity = "[line]" (answered at [where]) | modelled on [excerpt] | move: [opening move]
+Hook: transformation = "[line]" | pain or wish = "[line]" | curiosity = "[line]" (answered at [where]) | modelled on [excerpt] | move: [opening move] | value line: "[line]" or none
 Signposts: [each section change -> "its first line"]
 Numbers: [each number = its research pack line, or the math from pack numbers]
 Scanner: hard bans 0 | mechanical 0 | niche bans 0 | "Most..." [n] | reframes [n] | filler over limit [n] | numbers not in pack [n, each explained]

@@ -126,6 +126,7 @@ From the Dale lazy Susan tests. Records in `tests/iterations/iter-02/` and `iter
 - **Builds follow the maker's instructions for every part,** even when that costs a cut; the hook never promises what the maker's way breaks.
 - **Dale's pitch carries one fixed line, word for word:** "My grandfather taught me everything I know about woodworking and made me promise to write it all down, so I did, every technique and fix in one place." This widens his family detail to "taught me everything I know."
 - **The writer's audit notes show the hook's three jobs and every signpost.**
+- **The value line:** on about one video in three, one sentence after the hook names what the video delivers (the build, where to sell it, the numbers), all of it in the script, never a tease and never the opening line.
 - **Packaging:** each skill is a `.skill` file, `script-writer` also comes as a zip, and the full bundle is a zip. Skills go on the account, not in a project.
 - **Rotation log:** the operator isn't tracking it for now.
 
