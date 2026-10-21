@@ -88,7 +88,7 @@ Research data: collect and describe only, never edited to fit a conclusion.
 
 ## drafts/
 
-Drafts waiting for the operator's yes go here; nothing in it is part of the library until it's approved and moved. There are none open now (the folder is made again when one is): the plumbing pack moved into `plumbing-scripts/` on 2026-10-21.
+Drafts waiting for the operator's yes go here; nothing in it is part of the library until it's approved and moved. Open now: `plumbing-emotion-and-cta-DRAFT.md` (emotion all the way through, the list item shape, Roger's and Mark's CTA template, and the judge's six fixes, from test run 02; waiting for the operator's yes). The plumbing pack itself moved into `plumbing-scripts/` on 2026-10-21.
 
 ## tests/
 
