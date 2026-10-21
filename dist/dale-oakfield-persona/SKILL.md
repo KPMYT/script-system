@@ -3,7 +3,7 @@ name: dale-oakfield-persona
 description: The channel profile for Dale Oakfield's Workshop: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-21 (library commit f933265)
+**Version:** 2026-10-21 (library commit a0a42be)
 
 # Persona profile: Dale Oakfield's Workshop
 
