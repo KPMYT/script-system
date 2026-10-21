@@ -94,7 +94,7 @@ These change or extend earlier decisions above, by the operator's choice.
 - **Ideation runs in Cowork,** where Claude can browse Etsy in a real browser. **Etsy is the main source;** eBay and Facebook Marketplace are optional spot-checks. Products are found by hand-checking, with no paid tool and no API for now.
 - **The woodworking ideation pipeline** goes: product scan (30 products) → title and thumbnail-text options (format bank plus new creative ones) → the operator's picks → briefs → optional research pack. The fallback is invented products, marked as invented, with no sales figures.
 - **Briefs** are a bank of facts only, never structure or language direction, about 500-800 words, one spreadsheet cell with " | " between fact groups.
-- **Titles and thumbnail text may exaggerate freely,** including tenure and income claims. Ideation doesn't hard-code claim bans. The script delivers such titles through the numbers, and the narration still never claims sales or history.
+- **Titles and thumbnail text may exaggerate freely,** including tenure and income claims. Ideation doesn't hard-code claim bans. The script delivers such titles through the numbers, and the narration still never claims sales or history. *(For tenure, superseded on 2026-10-21 by "title numbers win": a years figure in the locked title may be said in the script, on every channel.)*
 - **Active woodworking channels:** Hank and Dale, both on camera (Talking Head), both single builds. Kenji is stopped. Sam relaunches later as woodworking for profit.
 - **Packaging:** one skill per layer, at the operator's request: `script-writer` (the core, START), `woodworking-scripts` (the niche pack), one persona skill per channel (profile plus book), and alongside them `woodworking-ideation` and `ideation-core`. Everything is built from the repo by `tools/build_skills.py`; the operator stores the files in Drive and installs them on each account.
 
@@ -167,6 +167,15 @@ From the Dale lazy Susan tests. Records in `tests/iterations/iter-02/` and `iter
 - **The value line:** on about one video in three, one sentence after the hook names what the video delivers (the build, where to sell it, the numbers), all of it in the script, never a tease and never the opening line.
 - **Packaging:** each skill is a `.skill` file, `script-writer` also comes as a zip, and the full bundle is a zip. Skills go on the account, not in a project.
 - **Rotation log:** the operator isn't tracking it for now.
+
+### Operator decisions, 2026-10-21 (merging the two chats)
+
+The operator's reply to the merge proposal: "Please do this and ensure there are no issues, no cross contamination no contradictions." Read as yes to the merge and to the three suggestions put with it (marked here so they're easy to revisit):
+- **The two chats' work is merged** (`claude/pensive-gates-4c5yrt` into this chat's branch), both sides kept.
+- **Plumbing's opening is the hook:** it's checked as the hook's three jobs (the fix named = the transformation; the failed attempt, the bill or the symptom = the pain; the opening question or the promise block = the curiosity). *(Read from "do this".)*
+- **The promise block replaces the value line in plumbing.** *(Read from "do this".)*
+- **Two plumbing money devices are exceptions to "never cents, one price per item":** the cost per use in cents ("call it 50 cents a pop") and three prices side by side. Everything else is rounded. *(Read from "do this".)*
+- **Applying earlier decisions where the files still disagreed** (post-merge audit): "title numbers win" written into the claims policy for `tenure: none` and into Hank's and Dale's profiles; "right here" and "look at this" made core hard bans ("banned everywhere"); the end CTA not logged in the rotation log (2026-10-20); Dale's approved family detail excepted in the offer rules (P2); the plumbing rotation log line carries the money device, the promise devices and the comment question, which its approved rules already check.
 
 ### Rejected, so they don't come back
 

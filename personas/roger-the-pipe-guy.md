@@ -69,6 +69,7 @@ Audience: owners of older homes, cost-conscious and DIY-curious but safety-minde
 ### SCANNER
 
 ```scanner
+allow: the link in the description and the QR code
 allow: One Hundred Old-House Fixes That Save You Thousands
 name: Roger the Pipe Guy
 book: One Hundred Old-House Fixes That Save You Thousands

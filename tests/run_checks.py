@@ -351,6 +351,51 @@ PROFILES=[p for p in PROFILES if "```scanner" in open(p).read()]
 noflag=[os.path.basename(p) for p in PROFILES if run_scan("Grab my e-book from the link.\n",[p])[0]!=1]
 check("28. every persona profile flags 'e-book'", len(PROFILES)>=2 and not noflag, f"profiles={[os.path.basename(p) for p in PROFILES]} not flagging: {noflag}")
 
+# ---- fixes from the post-merge audit (2026-10-21) ----
+# 29. tenure: ordinary ages of pipes and heaters are not the persona's years; the persona's own still are
+code,out=run_scan("That water heater has been running for 10 years. A pipe that has been in your walls for 50 years is fine.\n",[PLR,ROGER])
+code2,out2=run_scan("I've been at this for 40 years.\n",[PLR,ROGER])
+check("29. tenure check ignores pipe and heater ages; the persona's own wrong figure still fails",
+      code==0 and "PERSONA FACT" not in out and code2==1 and "PERSONA FACT: tenure" in out2, out+out2)
+
+# 30. spoken prices are read correctly by the numbers check
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("drain call 150 dollars; flapper 5 to 15\n"); bp=t.name
+code,out=run_scan("A drain call starts around a hundred and fifty dollars. A flapper is five to fifteen. That one can save you a two-hundred-dollar call.\n",[PLR],bp)
+miss=out.split("NUMBERS NOT FOUND")[1] if "NUMBERS NOT FOUND" in out else ""
+check("30. numbers check reads 'a hundred and fifty' as 150 and 'two-hundred-dollar' as 200",
+      "200" in miss and " 50 " not in miss and "150" not in miss, out)
+
+# 31. "at the very end" in a build order is not a tease; the teases still are
+code,out=run_scan("We'll put the felt pads on at the very end, once the oil is dry.\n")
+code2,out2=run_scan("I'll save the best one for you at the very end.\n")
+check("31. a build-order 'at the very end' passes; 'I'll save the best one for you at the very end' is still a hard ban",
+      code==0 and code2==1 and "tease: at the very end" in out2, out+out2)
+
+# 32. runtime: the profile's words per minute and the niche pack's minimum
+code,out=run_scan("Cut the board.\n",[WWR,f"{PERS}/hank-hardwood.md"])
+code2,out2=run_scan("Rinse the trap.\n",[PLR,ROGER])
+check("32. runtime uses the profile's words per minute (Hank 185) and the pack's minimum (plumbing 12, woodworking 8)",
+      "at 185 words a minute; minimum 8" in out and "at 150 words a minute; minimum 12" in out2, out[:300]+out2[:300])
+
+# 33. a title's years of selling unlock that figure (Dale's title format)
+code,out=run_scan("I've spent forty years at the bench.\n",[WWR,f"{PERS}/dale-oakfield.md"],title="In 40 Years of Selling, Nothing Beats This Build")
+check("33. 'In 40 Years of Selling' in the title allows forty years in the script", code==0 and "PERSONA FACT" not in out, out)
+
+# 34. the wording each profile requires passes its own copy guard
+cases=[(ROGER,PLR,"Grab it from the link in the description and the QR code on screen."),
+       (MARK,PLR,"It is at the link in the description and the QR code on screen."),
+       (f"{PERS}/hank-hardwood.md",WWR,"Grab it with the QR code on screen or the top link in the description."),
+       (f"{PERS}/dale-oakfield.md",WWR,"Here's what I'd ask of you. Try it this week.")]
+bad=[os.path.basename(pf) for pf,rules,line in cases if run_scan(line+"\n",[rules,pf],refs=[pf])[0]!=0]
+check("34. each profile's required CTA or ending wording passes the copy guard against the profile", not bad, ", ".join(bad))
+
+# 35. plumbing bans the 'today we're going to' opening; Mark's uncontracted stock phrases still count once; more contractions caught
+code,out=run_scan("Today we're going to fix the drain.\n",[PLR,ROGER])
+code2,out2=run_scan("Here is the part nobody tells you.\n\nAnd here is the part nobody tells you again.\n",[PLR,MARK])
+code3,out3=run_scan("Let's look. Nobody's checking.\n",[PLR,MARK])
+check("35. plumbing: 'today we're going to' banned; Mark's 'here is the part nobody tells you' limited to once; 'Let's' and 'Nobody's' caught",
+      code==1 and "today we're going to" in out and code2==1 and "NICHE/PERSONA LIMIT" in out2 and code3==1 and out3.count("contraction")>=2, out+out2+out3)
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")

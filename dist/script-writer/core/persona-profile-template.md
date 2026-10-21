@@ -16,7 +16,7 @@ Niche pack:
 THE BASICS
 Script type: Talking Head | Classic
 Voice provider: ElevenLabs | Minimax
-Words per minute (for runtime and the 8-minute minimum; measure it from the channel's real voiceovers, 150 if there are none yet):
+Words per minute (for runtime and the length minimum, 8 minutes unless the niche pack sets more; measure it from the channel's real voiceovers, 150 if there are none yet):
 
 THE PERSONA
 Name:
@@ -59,6 +59,11 @@ Optional blocks the workflow and scanner read, if the channel needs them:
 ```scanner
 lift: [a hard ban, by phrase]
 ban: [phrase] | [label]
+ban-regex: [pattern] | [label]
+once: [a phrase allowed once per script] | [label]
+once-regex: [pattern] | [label]
+ban: e-book | say "book", never "e-book"
+ban: ebook | say "book", never "e-book"
 allow: [a line the channel says the same way every time, exempt from the copy guard]
 name: [the persona's name, and the channel's name if different: one per line]
 book: [the book's spoken title, if the channel has one]

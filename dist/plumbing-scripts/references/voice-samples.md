@@ -10,6 +10,7 @@ The voice anchor for every plumbing script. These are three stretches of real hu
 - **The trade's motives:** "here's the math that the salesman won't show you" (Roger Wakefield). Banned in these scripts; let the numbers make the point.
 - **Hype:** "this is going to really supercharge this cleaning" (Silver Cymbal).
 - **Single prices:** "probably around three grand these days" (Roger Wakefield). Our prices are ranges from the brief.
+- **Hard-banned phrases:** "let's break this down" (Roger Wakefield) is on the core hard-ban list (`humanizer.md`). Never borrow it.
 - **Personal life and customers:** none of the three stretches has them, but the videos around them do ("I've lived in my house 25 years," "I got called to a doctor's house one day," both Roger Wakefield). Those are the creators' lives; our narrator never claims a house, a history or a customer, and follows the claims policy.
 
 ---

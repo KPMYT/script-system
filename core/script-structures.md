@@ -14,7 +14,7 @@ description: Fallback script structures for any channel whose niche pack doesn't
 - **No intro, no teases, no recap.** No persona or channel intro, no long-range promises (`humanizer.md` hard bans), and no summary at the end.
 - **The first payoff comes fast.** The line after the hook delivers or escalates (`retention-mechanics.md`).
 - **Context is only what's necessary.** Give only the context needed to understand what comes next, in a sentence or two at most, and only when it's actually needed. Never a context block.
-- **Length comes from the content,** above the 8-minute minimum (`workflow.md`, section 3). List the content units first (each item, step, layer or option), give each one what it needs, and the length is the total. No word counts for parts, no timestamps, no fixed section lengths.
+- **Length comes from the content,** above the 8-minute minimum, or the niche pack's higher one (`workflow.md`, section 3). List the content units first (each item, step, layer or option), give each one what it needs, and the length is the total. No word counts for parts, no timestamps, no fixed section lengths.
 - **Anything shown is named.** The video is built from the script, so every visual must be named in the narration.
 - **CTAs and the ending** follow `cta-and-endings.md`.
 

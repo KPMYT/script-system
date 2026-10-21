@@ -3,7 +3,7 @@ name: roger-the-pipe-guy-persona
 description: The channel profile for Roger the Pipe Guy: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-21 (library commit 2bcc4db)
+**Version:** 2026-10-21 (library commit f705212)
 
 # Persona profile: Roger the Pipe Guy
 
@@ -76,6 +76,7 @@ Audience: owners of older homes, cost-conscious and DIY-curious but safety-minde
 ### SCANNER
 
 ```scanner
+allow: the link in the description and the QR code
 allow: One Hundred Old-House Fixes That Save You Thousands
 name: Roger the Pipe Guy
 book: One Hundred Old-House Fixes That Save You Thousands

@@ -6,7 +6,7 @@ description: The mechanics of calls to action and endings for every channel: why
 # CTAs and endings
 
 **How this file relates to niche packs and persona profiles.** This is a base rule file. Everything about *what* a CTA offers lives in the persona profile or niche pack:
-- the offer itself: an e-book, an email list, an affiliate product, or just a subscribe
+- the offer itself: a book, an email list, an affiliate product, or just a subscribe
 - its length
 - its wording style
 - any placement detail

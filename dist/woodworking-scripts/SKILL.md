@@ -1,6 +1,6 @@
 ---
 name: woodworking-scripts
-description: Script rules for the operator's woodworking channels, the scripting partner to woodworking-ideation. Currently covers the woodworking-for-profit lane: single-build YouTube scripts (Hank Hardwood, Dale Oakfield's Workshop, and any future channel in this lane). Use whenever a script is written, rewritten or reviewed for one of these channels, or whenever a woodworking research pack, build brief or "make this project and sell it" title arrives for scripting. Sets the skeleton, how length is decided, voice, proof, money math, adversaries, swearing, safety and how to write for AI-generated visuals. Persona, book and CTA wording come from the channel's persona profile; claims policy, output format and the audit come from the core rules.
+description: Script rules for the operator's woodworking channels, the scripting partner to woodworking-ideation. Currently covers the woodworking-for-profit lane: single-build YouTube scripts (Hank Hardwood, Dale Oakfield's Workshop, and any future channel in this lane). Use whenever a script is written, rewritten or reviewed for one of these channels, or whenever a woodworking research pack, build brief or "make this project and sell it" title arrives for scripting. Sets the skeleton, how length is decided, voice, proof, money math, adversaries, swearing, safety and how to write for AI-generated visuals. Persona, book and CTA wording come from the channel's persona profile; claims policy, output format and the audit come from the core rules. To write a script, type START: the script-writer skill runs it and loads this pack.
 ---
 
 # Woodworking scripts: the for-profit lane (single builds)
@@ -27,7 +27,7 @@ A single-build video shows the viewer one project, what it costs to make, and wh
 | `references/voice-samples.md` | Three stretches of real human narration from lane winners: the voice anchor for every script (core `voice-anchoring.md`). |
 | `references/excerpts.md` | Real lines from the winners, grouped by job. Use for shape and range, never wording. |
 | `references/reference-scripts.md` | Read at the planning step for structure and pacing. Never copy wording. |
-| `archive/` | Full competitor transcripts. Calibration only; don't read them while writing. |
+| `archive/` | Full competitor transcripts. Calibration only; don't read them while writing. Kept in the library; the installed skill leaves it out. |
 
 ## Inputs for this lane
 

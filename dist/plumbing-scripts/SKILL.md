@@ -1,6 +1,6 @@
 ---
 name: plumbing-scripts
-description: Script rules for the operator's plumbing channels (Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter, and any future channel in this niche). Use whenever a plumbing script is written, rewritten or reviewed, or a plumbing title and brief arrive for scripting. Sets the villain, the opening by video type, "point then promise", the structure of each video type, CTAs, length, voice, proof, money framing, safety and the plumbing scanner checks. Persona, tenure, book and CTA wording come from the channel's persona profile; claims policy, output format and the audit come from the core rules.
+description: Script rules for the operator's plumbing channels (Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter, and any future channel in this niche). Use whenever a plumbing script is written, rewritten or reviewed, or a plumbing title and brief arrive for scripting. Sets the villain, the opening by video type, "point then promise", the structure of each video type, CTAs, length, voice, proof, money framing, safety and the plumbing scanner checks. Persona, tenure, book and CTA wording come from the channel's persona profile; claims policy, output format and the audit come from the core rules. To write a script, type START: the script-writer skill runs it and loads this pack.
 ---
 
 
@@ -40,14 +40,16 @@ The core base rules apply wherever this pack is silent. These are the places it 
 |---|---|---|
 | `workflow.md` §2, the default inputs | The `inputs` block below: the title, the brief and the rotation log. The research pack is `not used`, so the brief is the fact source everywhere the core says "the fact source". | 2026-10-21 |
 | `retention-mechanics.md` §6, "short range only" | Concrete named promises may point further than the next segment: the promise block in "The opening" and the forward lines in "Point then promise". Each names its item and its stake and is paid inside the video. Vague teases stay hard-banned. | P3, 2026-10-20 |
-| `cta-and-endings.md` §4 and `workflow.md` §4, "the closing line is exactly one sentence" | The ending is the one-line end CTA, then the comment line (a specific question and "I read every one"), which is the last line of the script. It may run to two sentences; there is no sign-off after it. In the output's FORMAT CHECK, the closing field reads `[comment line, last line of the script]`. | P5, 2026-10-21 |
+| `cta-and-endings.md` §4, `workflow.md` §4 ("the closing line is exactly one sentence, under about 15 words"), `retention-mechanics.md` §14, `greenlight-audit.md` F3 ("the CTA or nothing, then stop") and `variety-rotation.md` slot 9 (closing line) | The ending is the one-line end CTA, then the comment line (a specific question and "I read every one"), which is the last line of the script. It may run to two sentences; there is no sign-off after it. In the output's FORMAT CHECK, the closing field reads `[comment line, last line of the script]`; F3 checks this ending; rotation slot 9 rotates the comment question. Write it as "Tell me…" or a plain question: the scanner flags "let me know if you" as a chatbot leftover. | P5, 2026-10-21 |
 | `workflow.md` §3, the 8-minute minimum; `greenlight-audit.md` F2 and the evidence block's Length line | At least 12 minutes (1,800 words at 150 a minute); the evidence block reads `(minimum 12)`. See "Length". | 2026-10-21 |
-| `variety-rotation.md`, the rotation log line | One more field at the end of the line: `\| model: [file numbers]`. See "Using the models". | 2026-10-21 |
+| `variety-rotation.md`, the rotation log line | Four more fields at the end of the line: `\| model: [file numbers] \| money: [device] \| promises: [devices] \| comment: "[the comment question]"`, so the rotation checks in "Using the models", "Ways to promise more value", "Money framing" and "The ending" have something to check against. | 2026-10-21 (model); the other three carry rules already approved |
 | `workflow.md` §3 step 4 and `greenlight-audit.md` D3, the `--refs` files | Instead of `excerpts.md` and `reference-scripts.md` (woodworking's files), the copy guard runs against `references/excerpts.md`, `references/voice-samples.md` and every file in `references/models/`, plus the persona profile. | 2026-10-21 |
+| `research-and-sourcing.md` §3, "each number said alongside whoever counted it" | Sources and store names don't have to be said (see "Proof"). | 2026-10-20 |
+| `retention-mechanics.md` §6 and `greenlight-audit.md` B5, signposts | The sections are the opening, each item (or step, or contender) and the ending. "Number four." is the signpost for an item; in a verdict, the contender's name is. | 2026-10-21 (merge) |
 | `workflow.md` §4, contractions | Kept for the pack; a persona profile may forbid them (Mark Silverbridge's does). See "Voice". | 2026-10-21 |
 | `retention-mechanics.md` §2, the hook (a transformation, the viewer's pain or wish, one spark of curiosity, in about 15 seconds); `greenlight-audit.md` A1b and the evidence block's Hook line | The plumbing opening is the hook (see "The opening"). It is checked as the same three jobs: the transformation is the fix or product named in the first sentence, with what it does; the pain or wish is the failed attempt, the bill or the symptom; the curiosity is the opening question or the promise block. The Hook line records those three lines. The point still comes first, and the opening's six jobs run to about 45 seconds. | Operator, 2026-10-21 (merge) |
 | `retention-mechanics.md` §2, the optional value line (about one video in three) | Not used: the promise block, in every plumbing video, does its job. The Hook line reads `value line: none (promise block)`. | Operator, 2026-10-21 (merge) |
-| `humanizer.md` H22, `workflow.md` §4 and `greenlight-audit.md` C2: always rounded, never cents, one price per item, a sentence with three or more dollar figures quoted | Everything stays rounded and said as ranges, with two exceptions from "Money framing": the cost per use may be said in cents ("call it 50 cents a pop"), and the three-prices-side-by-side device may put three figures in one sentence ("50 cents versus 20 bucks versus 300"). Each still traces to the brief. Never cents anywhere else. | Operator, 2026-10-21 (merge) |
+| `humanizer.md` H22, `workflow.md` §4 and `greenlight-audit.md` C2: always rounded, never cents, one price per item, a sentence with three or more dollar figures quoted | Everything stays rounded and said as ranges, with two exceptions from "Money framing": the cost per use may be said in cents ("call it 50 cents a pop"), and the three-prices-side-by-side device may put three figures in one sentence ("50 cents versus 20 bucks versus 300"). A range ("$5 to $15") counts as one figure for C2's three-figure check. Each still traces to the brief. No other price is said in cents. | Operator, 2026-10-21 (merge) |
 
 ## Inputs
 
@@ -95,8 +97,8 @@ For more depth, see `plumbing-ideation/references/audience.md` (§1 for this vie
 The villain on every plumbing channel is **the trade**: plumbers as a business, the plumbing industry, and whoever profits from the service call. Never a named company (core claims policy).
 
 **How to use it, from what landed with viewers and what drew disbelief:**
-- **Aim it at the price and the silence, not at motives.** "A drain call for that runs about a hundred and fifty dollars" and "nobody in the trade will mention it" land. Claiming to know what plumbers secretly do at home, or that they hide fixes on purpose, drew the most-liked doubt in our data (1.3K likes).
-- **Say it as a billing fact.** The trade is paid by the visit, so a five-dollar fix that ends the visits is nobody's business to mention. That's an observation the viewer can check against their own bills.
+- **Aim it at the price and the silence, not at motives.** "A drain call for that runs about $150" and "nobody in the trade will mention it" land. Claiming to know what plumbers secretly do at home, or that they hide fixes on purpose, drew the most-liked doubt in our data (1.3K likes).
+- **Say it as a billing fact.** The trade is paid by the visit, so a $5 fix that ends the visits is nobody's business to mention. That's an observation the viewer can check against their own bills.
 - **One villain line in the opening, then let the prices carry it.** The trade's typical price at the end of an item ("you just did it for a couple of dollars") does the work for the rest of the video.
 - **The store shelf is a second, softer villain:** the jug, the tablet, the marketing on the label. Use it where the fix replaces a product.
 
@@ -108,10 +110,10 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 2. **A question, when it fits.** A question the viewer can answer in their own house ("When did you last lift the lid off your toilet tank?"), answered within about 15 seconds. Never a question the viewer can't check.
 3. **The villain line,** as a price or a silence (above).
 4. **Honest scope or reassurance,** in one line: what it won't do, or why it's safe ("It won't touch a hair clog." "Nothing here harms a septic tank."). This keeps the title's strongest word honest.
-5. **The promise block** (this pack's override of core `retention-mechanics.md` §6, approved as P3). Right after the point, promise two or three specific later payoffs. Each names its item and its stake: "Number six saves you a two-hundred-dollar call." "And the last one is the rule that keeps all of this safe on old pipes." Never a vague tease: the hard-ban list ("stay till the end", "stick with me", "by the end of this video" and the rest) still applies.
+5. **The promise block** (this pack's override of core `retention-mechanics.md` §6, approved as P3). Right after the point, promise two or three specific later payoffs. Each names its item and its stake: "Number six can save you a $200 call." "And the last one is the rule that keeps all of this safe on old pipes." Never a vague tease: the hard-ban list ("stay till the end", "stick with me", "by the end of this video" and the rest) still applies.
 6. **The first real tip** by about 45 seconds; in a list, item one by about 30 seconds.
 
-**Never in an opening:** a name or channel intro, a greeting, "today we're going to", a recap of what's coming, a first-person test or demonstration ("I tested", "watch me"), or a tenure number other than the profile's.
+**Never in an opening:** a name or channel intro, a greeting, "today we're going to", a recap of what's coming, a first-person test or demonstration ("I tested", "watch me"), or a tenure number other than the profile's or the locked title's.
 
 **Tenure:** at most once, as the profile's fixed number (Roger 45, Mark 40, Vintage 50) or, when the title states a different one, the title's number (title numbers win), and only where it does a job (credibility right before a verdict or a mistakes list).
 
@@ -131,7 +133,7 @@ The competitors give the point first and promise second; our hits did the revers
 
 Use two or three per video, and rotate them across a channel's scripts.
 
-- **A numbered item with its money stake:** "Number four saves you a three-hundred-dollar camera inspection."
+- **A numbered item with its money stake:** "Number four can save you a $300 camera inspection."
 - **A numbered item with its stake in words:** "Number eight is the step that protects old cast-iron pipe."
 - **The escalation ladder:** the cheap fix, then the stronger fix, then the point to call, with the trade's typical price as the top rung. The default for fix videos.
 - **The rule that protects everything:** a safety or method rule promised early, paid straight after the first fix or as the last item.
@@ -242,7 +244,7 @@ All 15 of our hits set the fix's cost against what the trade charges. In this ni
 **2. Every price is a range from the brief,** never one exact figure.
 - Drew fire: "usually around eight to twelve dollars a bottle" brought "This guy prices are from 1924, Amazon - BIO-CLEAN $79.95." "A dollar or two" for peroxide brought "Peroxide is now priced close to 5.00 since COVID." TheCheapFix's "$1 a bottle" brought "Maybe 30 years ago!" (48 likes).
 - Survived: "An after hours no heat call lands somewhere between $200 and $400 in most of the country, more at night or on a weekend" (Mark). No disputes.
-- Write: "A flapper runs about five to fifteen dollars. Having someone fit it usually starts around a hundred and fifty."
+- Write: "A flapper runs about $5 to $15. Having someone fit it usually starts around $150."
 
 **3. The cost per use, when a product lasts,** checked against the dose.
 - Did it: "That box is about $4 to $5 and it gives you the better part of a dozen treatments. Call it 50 cents a pop." (Roger, hit).
@@ -262,8 +264,8 @@ All 15 of our hits set the fix's cost against what the trade charges. In this ni
 
 **Never:**
 - **A guaranteed saving** (claims policy). Not "this saves you $300", but "this can save you the $300 visit".
-- **The trade's motives** (see "The villain"). Not "that's how he pays his mortgage", but "a drain call starts around a hundred and fifty".
-- **A total stated as certain** when it depends on the viewer's house. Not "this is a $5 fix", but "if it's the flapper, that's a five-to-fifteen-dollar fix".
+- **The trade's motives** (see "The villain"). Not "that's how he pays his mortgage", but "a drain call starts around $150".
+- **A total stated as certain** when it depends on the viewer's house. Not "this is a $5 fix", but "if it's the flapper, that's a $5 to $15 fix".
 
 ## Safety
 
@@ -302,6 +304,8 @@ The facts and methods come from the brief, and **the brief always wins**. There'
 The scanner (core `script-scanner.py`) reads this block. `ban` lines are fix-on-sight; `once` lines fail on the second use in a script (scanner support built 2026-10-21, test 20). There are no checks for boiling water or dry washing soda: the brief wins on safety, and the operator said "dont even flag them" (2026-10-21).
 
 ```scanner
+min-minutes: 12
+ban-regex: \btoday,? (?:we'?re|we are|I'?m|I am) going to\b | opening: "today we're going to"
 ban-regex: \bI(?:'ve| have)? (?:tested|tried|ran (?:a |the |some |my )?tests?)\b | first-person test claim
 ban-regex: \bmy (?:own )?(?:test|tests|testing|results)\b | first-person test claim
 ban: watch me | first-person demonstration
@@ -322,9 +326,9 @@ ban-regex: \bbrutal tests?\b | hype that got mocked
 once-regex: \bnine (?:times )?out of (?:10|ten)\b | nine times out of 10
 once: between you and me
 once: ask me how I know
-once-regex: \bhere'?s the part (?:people skip|nobody tells you)\b | here's the part nobody tells you
-once-regex: \bI'?ll be (?:straight|square|honest) with you\b | I'll be straight with you
-once-regex: \bthat'?s the whole (?:trick|method|job|game)\b | that's the whole trick
+once-regex: \bhere(?:'?s| is) the part (?:people skip|nobody tells you)\b | here's the part nobody tells you
+once-regex: \bI(?:'?ll| will) be (?:straight|square|honest) with you\b | I'll be straight with you
+once-regex: \bthat(?:'?s| is) the whole (?:trick|method|job|game)\b | that's the whole trick
 once: in your pocket
 once-regex: \bwhich (?:brings us|leaves)\b | which brings us
 once-regex: \bhold that thought\b|\bput a pin in\b | hold that thought
@@ -347,7 +351,7 @@ Check that:
 - the fix's cost meets the trade's price within the first two minutes
 - there's no "I tested", no pointing at the screen, no customer story and no motive
 - safety follows the brief, with the five defaults only where it's silent
-- the CTAs follow the persona profile: the mid-video ask after the first payoff (Roger and Mark), and a one-line end reminder on every channel
+- the CTAs follow the persona profile: the mid-video ask after the first payoff (Roger and Mark), and a one-line end CTA on every channel (Roger and Mark: the book reminder; Vintage: the subscribe ask)
 - the video ends on the comment line (a specific question and "I read every one"), with nothing after it
 - each stock phrase appears at most once, and the opening shape and money device differ from the rotation log
 - the plan names its models with at least three differences, and no model was used in the channel's last five scripts

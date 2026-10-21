@@ -1,6 +1,6 @@
 ---
 name: offer-rules
-description: The claims rules for anything a CTA points to (an e-book, an email list, an affiliate product, or nothing but a subscribe). Covers where offer facts come from, the added-value promise, how each offer type is named, money talk, and what's banned. Use whenever a script, description or pinned comment mentions an offer. Base rule file: the persona profile supplies each channel's actual offer and its facts.
+description: The claims rules for anything a CTA points to (a book, an email list, an affiliate product, or nothing but a subscribe). Covers where offer facts come from, the added-value promise, how each offer type is named, money talk, and what's banned. Use whenever a script, description or pinned comment mentions an offer. Base rule file: the persona profile supplies each channel's actual offer and its facts.
 ---
 
 # Offer rules
@@ -13,7 +13,7 @@ description: The claims rules for anything a CTA points to (an e-book, an email 
 
 - **Only the persona profile's CTA rules.** That covers the offer's name, what's in it, counts, chapters and benefits. The product itself is never pasted in at script time.
 - **Never invent or embellish** contents, counts, sections or results beyond what the profile states. If a fact needed for the tie-in is missing, pitch with what the profile does provide.
-- **No invented backstory for the offer.** No "my mother made me promise to write it down," no "old bench hands who taught me." Provenance may name a real tradition or the real sources gathered into the offer, never a made-up personal history.
+- **No invented backstory for the offer.** No "my mother made me promise to write it down," no "old bench hands who taught me." Provenance may name a real tradition or the real sources gathered into the offer, never a made-up personal history. The one exception is the persona profile's approved family detail (`claims-policy.md`, "One approved family detail"), worded exactly as the profile gives it.
 
 ## 2. The added-value promise
 
@@ -34,7 +34,7 @@ The promise must be true and specific, and drawn from the profile's facts.
 
 ## 4. Money
 
-- **Paid products** (an e-book, for example) are price-silent. No price, discount, strike-through or "cheaper than…" comparison anywhere in the script, and never imply they're free. "You can get it" framing is fine.
+- **Paid products** (a book, for example) are price-silent. No price, discount, strike-through or "cheaper than…" comparison anywhere in the script, and never imply they're free. "You can get it" framing is fine.
 - **Free offers** (an email list, for example) may be called free, because it's true.
 - **No money comparisons that position the offer,** in the CTA or planted elsewhere in the body. Cost comparisons that are the video's actual subject (making it yourself against buying it) are fine in the body, as long as they stay well away from the CTA and the CTA never refers back to them.
 - **Descriptions and pinned comments** stay price-silent unless the profile supplies a price for that specific item.

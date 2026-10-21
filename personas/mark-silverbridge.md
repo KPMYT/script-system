@@ -67,11 +67,12 @@ Audience: cost-conscious U.S. homeowners, handy or willing to be, who hate getti
 ### SCANNER
 
 ```scanner
+allow: the link in the description and the QR code
 allow: Fifty Easy Plumbing Fixes That Will Save You Ten Thousand Dollars
 name: Mark Silverbridge
 book: Fifty Easy Plumbing Fixes That Will Save You Ten Thousand Dollars
 tenure: 40
 ban: e-book | say "book", never "e-book"
 ban: ebook | say "book", never "e-book"
-ban-regex: \b\w+(?:n't|'re|'ve|'ll|'d|'m)\b|\b(?:it|that|there|here|what|he|she|who)'s\b | contraction (Mark's voice mishandles them)
+ban-regex: \b\w+(?:n't|'re|'ve|'ll|'d|'m)\b|\b(?:it|that|there|here|what|he|she|who|let|where|how|why|when|nobody|everybody|everyone|nothing|something|someone)'s\b | contraction (Mark's voice mishandles them)
 ```

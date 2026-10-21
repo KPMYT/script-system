@@ -1,12 +1,12 @@
 # Installing the skills
 
-**Version:** 2026-10-21 (library commit 2bcc4db)
+**Version:** 2026-10-21 (library commit f705212)
 
 Ten skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
 
 | File | Layer | What it does | On your account now |
 |---|---|---|---|
-| `script-writer.skill` | Core | Type **START** to write a script. The core rules every channel uses; it reads the skills below. | **New:** upload it. |
+| `script-writer.skill` | Core | Type **START** to write a script. The core rules every channel uses; it reads the skills below. | **New** (not on the account when this was built): upload it. If an older `script-writer` is on the account, delete it first. |
 | `woodworking-scripts.skill` | Niche | The woodworking-for-profit rules (structure, money block, proof, safety, voice) and the research-pack template. | **Replace** the copy on the account (delete it, upload this). |
 | `hank-hardwood-persona.skill` | Channel | Hank's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
 | `dale-oakfield-persona.skill` | Channel | Dale's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
@@ -22,14 +22,14 @@ All of the script skills must be installed together: `script-writer` stops with 
 ## Steps
 
 1. **Delete** the old copies of `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona` and `vintage-pipefitter-persona`.
-2. **Upload all nine from this build together**: those eight and `script-writer`. They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
+2. **Upload all nine from this build together**: those eight and `script-writer` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
 3. **Upload `ideation-core`** only if the account doesn't have it.
 4. **Turn them all on.**
 
 ## Using them (in Cowork)
 
 - **Ideation:** "Woodworking ideation for Hank" (or Dale). It scans Etsy, shows 30 products, then title options. You pick by number, and it writes the briefs. Ask for the research pack if you want it.
-- **Script:** open a new chat for each script and type **START**. Pick the channel, then paste what it asks for: for woodworking, the title, the brief, the research pack and the rotation log (the channel's last five ROTATION LOG ENTRY lines, or "none"); for plumbing, the title, the brief and the rotation log (no research pack).
+- **Script:** open a new chat for each script and type **START**. Pick the channel, then paste what it asks for: for woodworking, the title, the brief, the research pack (or "none", and the chat builds one) and the rotation log (the channel's last five ROTATION LOG ENTRY lines, or "none"); for plumbing, the title, the brief and the rotation log (no research pack).
 - **Upload rule:** only upload a script whose output says **VERDICT: PASS**. Anything that starts "NOT READY: DO NOT UPLOAD" goes back.
 
 ## Updating

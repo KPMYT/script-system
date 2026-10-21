@@ -90,7 +90,7 @@ Drafts waiting for the operator's yes go here; nothing in it is part of the libr
 
 ## tests/
 
-`run_checks.py`: 35 automated checks across the whole library, including the copy guard, the fraction-word scanner check, the "e-book" ban on every profile, and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over every model file, the plumbing profiles and the channel list). Run it after any edit.
+`run_checks.py`: 42 automated checks across the whole library, including the copy guard, the fraction-word scanner check, the "e-book" ban on every profile, and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over every model file, the plumbing profiles and the channel list). Run it after any edit.
 
 ## tests/iterations/
 

@@ -104,7 +104,7 @@ If the niche pack allows swearing, log which words were used and rotate them. Th
 
 ### 8. CTA wording
 
-Log the mid-CTA's opening words and the end-CTA's wording. The wording never repeats across scripts, even though the structure stays the same. `cta-and-endings.md` and the persona profile set the structure.
+Log the mid-CTA's opening words; they never repeat across scripts, even though the structure stays the same. The end CTA isn't logged, and its wording may repeat (operator, 2026-10-20). `cta-and-endings.md` and the persona profile set the structure.
 
 ### 9. Closing line
 
