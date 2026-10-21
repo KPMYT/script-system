@@ -34,7 +34,7 @@ Planned: `references/research-pack-template.md`, `references/unit-plan-template.
 
 ## Inputs and freshness [LATER]
 
-## The viewer [DRAFT: for your yes]
+## The viewer [APPROVED 2026-10-21]
 
 The viewer is a 50+ American homeowner, often in an older house and on a careful income, who would rather fix it than pay for a visit. They arrive from the feed, not from a search: they were offered a saving, a fear or a secret. Under the click sits one question: "Can I do this myself without making it worse?"
 
@@ -112,9 +112,9 @@ Use two or three per video, and rotate them across a channel's scripts.
 - **A problem the viewer didn't know they had,** promised and then shown.
 - **A myth flag:** "Number three is the one everybody gets backwards."
 
-## The video types [DRAFT: for your yes; the operator asked to see the list first]
+## The video types [APPROVED 2026-10-21; the closing note is DRAFT: for your yes]
 
-Pick the type from the title. Each type has its own opening order and item shape. The best real models are listed for the planning step (study IDs); never copy their wording.
+Pick the type from the title. Each type has its own opening order and item shape. These are the most common types, not the only ones (operator, 2026-10-21). The best real models are listed for the planning step (study IDs); never copy their wording.
 
 | Type | Title shape | Opening, in order | First tip by | Item shape | Models |
 |---|---|---|---|---|---|
@@ -131,6 +131,8 @@ Pick the type from the title. Each type has its own opening order and item shape
 
 Story or "I tried everything" videos are allowed only when the title or brief calls for a first-person trial [DECIDED: no first-person test or demo claims otherwise].
 
+**A title that fits none of the ten** [DRAFT: for your yes]: build the opening from the six jobs in "The opening", in the order the closest type uses, and pick the item shape from the table that best suits the content. Note the title in the plan as "new type". When the same new shape comes up on three or more videos, it's proposed for this table, and added only with the operator's yes.
+
 ## CTAs [DECIDED; placement DRAFT: for your yes]
 
 - **Roger the Pipe Guy and Mark Silverbridge:** back to the short CTAs their hits used. One mid-video ask, straight after the first real payoff, in about 20-60 words: one sentence for the ask, then straight back into the next item. One short end CTA. Wording comes from the persona profile.
@@ -141,7 +143,7 @@ Story or "I tried everything" videos are allowed only when the title or brief ca
 
 The core 8-minute minimum applies. Above it, length comes from the content: words per item depend on the item [DECIDED]. Cut repetition rather than reach a length: the same check said twice five minutes apart, or the promise restated, is padding.
 
-## Voice [DRAFT: for your yes]
+## Voice [APPROVED 2026-10-21]
 
 Our hits sounded more like a person than our recent uploads: 1.5-2 times the first person on all three channels, more "you", and plain routine lines where the recent uploads used crafted metaphor. Even the hits used the least first person of any human-voiced channel in the study (5.3-8.8 per 1,000 words against 15.2-25.1).
 
@@ -153,10 +155,29 @@ Our hits sounded more like a person than our recent uploads: 1.5-2 times the fir
 - **A persona device only if the profile has one:** a mentor line or a household routine (Vintage's Uncle Ray, Roger's first-Saturday check). At most twice per video, under about 40 words, to teach or warn, never as proof that something works. Its facts (names, ages, places) come from the profile and never change.
 - **A phrase is voice once; in the same slot every video, it's a tic.** Vintage used "Nine times out of 10" in 9 of 10 videos. Each stock phrase at most once per video, and rotate what opens an item and what closes the video. (The list of limited phrases comes with "Banned in these scripts".)
 
-## Proof, money framing, safety, writing for the footage [LATER]
+## Proof [DRAFT: for your yes]
+
+The clearest difference in the study: the face channels, and Got2Learn filming his own hands, drew no complaints about the footage, while our hits drew about 38 (Mark about 28). Most of that is the camera. But the script made it worse every time it said "I tested", "watch me" or "look at". Proof in these scripts is the kind that survives any footage.
+
+**Use:**
+- **The mechanism, in one plain line:** why it works. "Its entire job is to corrode so your tank does not." The best ones are under 15 words.
+- **A number from the research pack, said as a typical range** rather than one exact price: "somewhere between four hundred and eight hundred dollars for the unit." A source may be named when it helps ("the Department of Energy puts it at…"), but sources and store names don't have to be said [DECIDED].
+- **The maker's own warning,** when the research pack confirms one: "Kohler, American Standard and Toto all warn against chlorine tablets in their own instructions."
+- **A check the viewer runs at home,** with what they'll see either way: the fizz test for old peroxide, food colouring in the tank for a leaking flapper. Only checks the research pack confirms really work (food colouring can't find a leak at the toilet's base).
+- **The honest limit:** what the fix won't do. "Peroxide does not dissolve rock."
+- **Exact amounts, waits and what "done" looks like:** "One cup of washing soda stirred into two or three cups of hot tap water. Leave it six to eight hours." Check the arithmetic of every dose: one hit called two cups "half of a 16-ounce bottle" (it's the whole bottle), and four comments caught it.
+- **The typical case, as a general statement:** "Plenty of people replace a toilet when the rim jets only needed cleaning."
+
+**Never:**
+- **First-person tests, trials or demonstrations** ("I put all three through eight brutal tests" drew "Where is the footage of him doing the tests?"), unless the title or brief calls for one [DECIDED].
+- **Anything that needs footage the channel doesn't control:** "watch me", "look at the toilet on the left", "there's a stack of receipts on my bench right now".
+- **Customer stories and results:** "I had a homeowner tell me…", "an exterminator quoted a lady three hundred dollars". The claims policy bans customers; say it as the typical case instead.
+- **Nameless claimed experience:** "the worst tank we've ever opened".
+- **Sweeping claims nobody can check:** "this trick has saved homeowners across America hundreds of dollars".
+
+## Money framing, safety, writing for the footage [LATER]
 
 Already decided, to be written up in the next batch:
-- **Proof:** no first-person claims of tests, demonstrations or on-camera actions unless the title or brief calls for one; every number sourced or given as a typical range; sources and store names not required.
 - **Safety:** unsafe advice is never allowed (the safety block and fact bank come in this batch); contradictions between one video and another are acceptable.
 - **The footage:** a mismatch between footage and narration is the editor's job; the existing rule to name what the viewer should see stays.
 - **"Nine times out of 10"** is fine.

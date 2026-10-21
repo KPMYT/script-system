@@ -33,3 +33,19 @@ Evidence that a locked decision (`HANDOFF.md` section 3) might need to change. N
 **Proposal:** the plumbing pack overrides `retention-mechanics.md` §6 for one thing only: a **promise block** right after the first answer may name two or three later items with their concrete stake ("Number seven saves you a two-hundred-dollar call"), and later "next" lines may point further than the next segment, provided every promise names its item and stake, uses no tease phrase from the hard-ban list, and is paid inside the video (the first one within about five minutes). Vague long-range promises stay banned everywhere. The core rule is unchanged for every other niche.
 
 **Status:** approved by the operator on 2026-10-20 ("1. yes"). Applies when the plumbing pack goes into the library; the core rule is unchanged for every other niche.
+
+## P4. Tenure and first-person trials against the claims policy (opened 2026-10-21)
+
+**Decision (HANDOFF.md section 3, FacelessOS rebuild, and `core/claims-policy.md`):** the claims policy sits above everything; packs and profiles may tighten it, never loosen it. Its "never allowed" list includes "years of experience or credentials" and "having personally made, sold, tested, built, lived or collected something".
+
+**Evidence:** two later operator decisions for plumbing (HANDOFF section 3, "Operator decisions, 2026-10-20 (plumbing, after the study)") go past that list:
+- **Fixed tenures:** Roger the Pipe Guy 45 years, Mark Silverbridge 40, The Vintage Pipefitter 50, stated in scripts, in the profile's `tenure:` line, with the scanner failing any other figure. The persona-profile template and the scanner already carry `tenure:`, but the claims policy still bans years of experience outright.
+- **First-person trials:** "No first-person claims of tests, demonstrations or on-camera actions, unless the title or brief specifically calls for one." The claims policy bans "personally tested" with no such exception (its "Build narration" line does let a niche pack allow first-person demonstration).
+
+The study supports the narrow form of both: a tenure stated the same way every time drew no complaints on Roger Wakefield, while contradicting tenures drew mockery on our channels (`studies/plumbing/comparison/03-own-vs-competitors.md` §8); claimed tests drew "Where is the footage of him doing the tests?" (`07-body-craft.md` §5).
+
+**Proposal:** two narrow exceptions in `core/claims-policy.md`, each set by the layer that owns it:
+1. **Years in the trade:** allowed only as the persona profile's fixed `tenure:` figure, worded the same way every time, and never with dates, employers, towns, licences or other credentials.
+2. **A first-person trial:** allowed only where a niche pack permits it and the title or brief calls for one. Everything else on the "never" list stays.
+
+**Status:** open, for the operator.
