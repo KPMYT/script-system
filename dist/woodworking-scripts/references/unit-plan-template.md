@@ -15,6 +15,7 @@ PROMISE
 - the spark of curiosity:            [and where the video answers it]
 - the winning hook it's modelled on:  [excerpts group 1, number]
 - the move into the materials:        [excerpts group 12 shape]
+- value line this time?              [yes or no (about one video in three); what it names]
 
 CONTEXT
 - none / one sentence about:
