@@ -37,8 +37,8 @@ Offer:
   Printed title (exact, used in the markers): 100 Old-House Fixes That Save You Thousands
   Spoken as: One Hundred Old-House Fixes That Save You Thousands
   Type: e-book (digital download), by Roger the Pipe Guy
-  Book text: personas/books/roger-the-pipe-guy-book.md (being extracted)
-  True facts (the only facts a CTA may use): [to fill from the book text] one hundred fixes for the problems old houses throw at people; at-home checklists; a seasonal maintenance calendar; guidance on catching small leaks; when a cheap patch is enough and when it isn't; smarter questions to ask contractors
+  Book text: personas/books/roger-the-pipe-guy-book.md (124 pages; printed page numbers match the PDF)
+  True facts (the only facts a CTA may use): 100 numbered fixes in 16 chapters and six parts (first checks before you spend a dime; leaks, drips and water damage; drains, toilets and odors; old pipes, fittings and fast repairs; water heaters, basements and seasonal protection; and a final part); every fix has the same six parts: the problem, why it costs money, Roger's first check, the cheap fix, when to call a pro, and the money saved; back matter: a checklist, a shutoff sheet, a seasonal maintenance calendar, a troubleshooting guide, a contractor question sheet, a tools list and a glossary
   The added-value promise: a hundred old-house fixes with the checklists and the seasonal calendar to stay ahead of problems instead of reacting to them
   Where to get it: the link in the description (rogerthepipeguybooks.com) and the QR code on screen; every CTA names both [operator, 2026-10-21]
 Style and length: mid-video: one short ask (about 20-60 words) straight after the first real payoff, in Roger's voice, tied to this video, then straight back into the next item. End: one line reminding of the book, naming the link in the description and the QR code.
