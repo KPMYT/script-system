@@ -252,6 +252,10 @@ All 15 of our hits set the fix's cost against what the trade charges. In this ni
 - Drew fire: "usually around eight to twelve dollars a bottle" brought "This guy prices are from 1924, Amazon - BIO-CLEAN $79.95." "A dollar or two" for peroxide brought "Peroxide is now priced close to 5.00 since COVID." TheCheapFix's "$1 a bottle" brought "Maybe 30 years ago!" (48 likes).
 - Survived: "An after hours no heat call lands somewhere between $200 and $400 in most of the country, more at night or on a weekend" (Mark). No disputes.
 - Write: "A flapper runs about $5 to $15. Having someone fit it usually starts around $150."
+- **How to say a range** (operator, 2026-10-21): give the spread and why it moves, or the top of it.
+  - "This can cost you anywhere from $200 to $400, depending on where you live and how bad it's got."
+  - "On the high end, this can run up to $20,000."
+  - Rotate these shapes and the reason given (where you live, the size of the job, the age of the house, a weekend call); never the same phrasing twice in one video.
 
 **3. The cost per use, when a product lasts,** checked against the dose.
 - Did it: "That box is about $4 to $5 and it gives you the better part of a dozen treatments. Call it 50 cents a pop." (Roger, hit).
