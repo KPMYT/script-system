@@ -107,7 +107,7 @@ R2. 8 Toilet Cleaning Mistakes That Make Your Bathroom Smell (The Plumber's Way 
 
 *Views for this batch are not in the files — paste them and the `steering.md` `produced` rows promote or demote; the flat/outlier read for Mark waits on the same data.*
 
-## Werner Finkbinder (ch. 4) — launch batch, greenlit 2026-09-07 (views pending; no thumbnail seeds by operator call)
+## Werner Finkbeiner (ch. 4) — launch batch, greenlit 2026-09-07 (views pending; no thumbnail seeds by operator call)
 
 Face persona, "(The German Way)" key; steering inherited from Roger. **Tenure placeholder:** title 3 runs "30 Years" until the persona bible fixes one number. Briefs (200–300 words, facts only) delivered as `werner_finkbinder_batch1_briefs.xlsx` / `.tsv` on 2026-09-07. Titles 2, 3, 11, 12 and 14 are intentional variants of sibling-channel produced titles (the face-twin doctrine) — read the later channel-normal with that in mind. `fmt ←` names the format's source video with views, `own ←` the operator's winner being re-made.
 1. Pour this $1 German Liquid in Your Toilet Bowl and Watch What Happens (6 Genius Uses) [F24×F25, 1:1; substance = vinegar essence, 25% acetic acid] — fmt ← "Put a Dishwasher Tablet in Your Toilet Bowl and Watch What Happens (6 Genius Uses)" · 511k/7d (Bertha's Clean Home); operator-authored title

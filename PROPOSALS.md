@@ -83,4 +83,4 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Open question for the operator:** may the script also add typical price ranges from general knowledge when the brief gives none (option B), or are filled-in costs always said in words (option A, recommended: fewer numbers, and no out-of-date prices for viewers to dispute)?
 
-**Status:** open, waiting for the operator's yes.
+**Status:** approved by the operator on 2026-10-21: "yes agree for all. and also the cost should always be estimated tho. never to the cents amount." Applied with one change from option A/B: a price the brief doesn't give comes from a researched price guide (`plumbing-scripts/references/price-guide.md`, each figure checked against two or more sources and re-checked), always said as an estimate, never to the cent.

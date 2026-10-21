@@ -24,6 +24,7 @@ A plumbing video solves one household problem cheaply, or settles one decision, 
 | File | What it's for |
 |---|---|
 | `references/unit-plan-template.md` | The plan to fill in from the title and brief before any prose. |
+| `references/price-guide.md` | Typical US prices for the jobs, parts and problems these channels talk about, each checked against at least two sources and re-checked by a second researcher. Used for any price the brief doesn't give. |
 | `references/voice-samples.md` | Three stretches of real human narration from the real channels' winners: the voice anchor for every script (core `voice-anchoring.md`). |
 | `references/excerpts.md` | Real lines grouped by job (the point, promises, money, limits, call-a-pro, comment questions). Lines from our hits and TheCheapFix are marked "structure only". Use for shape and range, never wording. |
 | `references/models/INDEX.md` | The model library: 38 winning videos sorted by video type (two to nine per type; the never-do list has one, plus two list models for pacing). R files are real channels (structure and voice); S files are our hits and TheCheapFix (structure only). |
@@ -47,6 +48,7 @@ The core base rules apply wherever this pack is silent. These are the places it 
 | `research-and-sourcing.md` §6, "each number said alongside whoever counted it" | Sources and store names don't have to be said (see "Proof"). | 2026-10-20 |
 | `greenlight-audit.md` E1, the originality score (7 signals, pass at 5) | Sources aren't needed in plumbing, so the two source signals change: signal 1 counts facts from the brief that most videos on the topic don't use, and signal 4 (three named sources) doesn't apply. The score is out of 6 and passes at 4. | Operator, 2026-10-21: "for plumbing we do not need sources" |
 | `retention-mechanics.md` §6 and `greenlight-audit.md` B5, signposts | The sections are the opening, each item (or step, or contender) and the ending. "Number four." is the signpost for an item; in a verdict, the contender's name is. | 2026-10-21 (merge) |
+| `greenlight-audit.md` D4, "every number traces to the fact source" | The fact source is the brief plus `references/price-guide.md`. A non-price number the script fills in (a setting such as 120 degrees, a healthy pressure range, "once a year") is allowed when it's well-established general knowledge; the evidence block's Numbers line marks each one "general knowledge". Every dollar figure traces to the brief or the price guide. | P7, operator 2026-10-21 |
 | `workflow.md` §4, contractions | Kept for the pack; a persona profile may forbid them (Mark Silverbridge's does). See "Voice". | 2026-10-21 |
 | `retention-mechanics.md` §2, the hook (a transformation, the viewer's pain or wish, one spark of curiosity, in about 15 seconds); `greenlight-audit.md` A1b and the evidence block's Hook line | The plumbing opening is the hook (see "The opening"). It is checked as the same three jobs: the transformation is the fix or product named in the first sentence, with what it does; the pain or wish is the failed attempt, the bill or the symptom; the curiosity is the opening question or the promise block. The Hook line records those three lines. The point still comes first, and the opening's six jobs run to about 45 seconds. | Operator, 2026-10-21 (merge) |
 | `retention-mechanics.md` §2, the optional value line (about one video in three) | Not used: the promise block, in every plumbing video, does its job. The Hook line reads `value line: none (promise block)`. | Operator, 2026-10-21 (merge) |
@@ -58,14 +60,18 @@ Plumbing scripts are written from the title and the brief alone; there is no res
 
 ```inputs
 - title | required | the locked title, exactly as approved
-- brief | required | the ideation brief for this title; every fact, price, dose and method in the script comes from it
+- brief | required | the ideation brief for this title; the script's facts, prices, doses and methods come from it first
 - research-pack | not used | plumbing scripts are written from the brief
 - rotation-log | required | the channel's last five ROTATION LOG ENTRY lines (from the earlier scripts in this chat, or pasted), or "none" for a new channel
 ```
 
-- **The brief is the fact source.** It does the research pack's job: the scanner checks every number in the script against the brief, and the brief wins on safety.
+- **The brief is the fact source,** with the price guide behind it. It does the research pack's job: the scanner checks every number in the script against the brief and `references/price-guide.md`, and the brief wins on safety.
 - **No freshness check.** Prices are said as ranges (see "Money framing"), so nothing is re-checked at START.
-- **If the brief is missing something the script needs** (the trade's typical price, a dose, a wait time), the run stops with NOT READY and names it. It never invents the fact.
+- **Where the brief is silent, the script fills in** (P7, operator 2026-10-21):
+  - **Prices** come from `references/price-guide.md`, said as an estimate: a rounded range or "about", never to the cent.
+  - **The method, the right setting, how often to check, and what a mistake leads to** come from well-established, everyday plumbing knowledge, said plainly ("set the water heater to about 120 degrees", "test the shutoff once a year").
+  - **No dose, mix or chemical method** beyond the brief and the five safe defaults in "Safety".
+  - The run stops with NOT READY only when the brief can't carry the title's main promise, or a price the script needs is in neither the brief nor the price guide (then the cost is said in words instead, or the item is cut).
 
 ## The viewer
 
@@ -199,7 +205,7 @@ There's no fixed last line or sign-off after the comment line. No recap, no teas
 **At least 12 minutes** of narration on every plumbing script (this pack raises the core 8-minute minimum): 1,800 spoken words at 150 a minute, or at the profile's words per minute. **12 to 20 minutes is the sweet spot.** Inside that, the value decides: words per item depend on the item.
 
 - **Never pad to reach a length.** Cut repetition instead: the same check said twice five minutes apart, or the promise restated, is padding.
-- **If the brief can't fill 12 minutes with real value,** the run stops with NOT READY and asks for a fuller brief (more items, more detail). The fix belongs at the ideation stage, not in extra words.
+- **If the brief can't fill 12 minutes with real value,** even with the fill-ins above, the run stops with NOT READY and asks for a fuller brief (more items, more detail). The fix belongs at the ideation stage, not in extra words.
 - **For calibration, not as targets:** our hits ran 17 to 21 minutes, and the competitors' median was about 13. The length complaints on our hits were about the wait before the answer and the repetition, not the runtime: TheCheapFix and Arrow ran as long and drew about one length complaint each.
 
 ## Voice
@@ -220,7 +226,7 @@ The clearest difference in the study: the face channels, and Got2Learn filming h
 
 **Use:**
 - **The mechanism, in one plain line:** why it works. "Its entire job is to corrode so your tank does not." The best ones are under 15 words.
-- **A number from the brief, said as a typical range** rather than one exact price: "somewhere between $400 and $800 for the unit." A source may be named when it helps ("the Department of Energy puts it at…"), but sources and store names don't have to be said.
+- **A number from the brief or the price guide, said as a typical range** rather than one exact price: "somewhere between $400 and $800 for the unit." A source may be named when it helps ("the Department of Energy puts it at…"), but sources and store names don't have to be said.
 - **The maker's own warning,** when the brief confirms one: "Kohler, American Standard and Toto all warn against chlorine tablets in their own instructions."
 - **A check the viewer runs at home,** with what they'll see either way: the fizz test for old peroxide, food colouring in the tank for a leaking flapper. Only checks the brief confirms really work (food colouring can't find a leak at the toilet's base).
 - **The honest limit:** what the fix won't do. "Peroxide does not dissolve rock."
@@ -242,7 +248,7 @@ All 15 of our hits set the fix's cost against what the trade charges. In this ni
 - Did it: "That little brown bottle sitting in your medicine cabinet cost about $1 at most drug stores. And yet the average homeowner pays a plumber $300 or more every single year…" (TheCheapFix, 2.18M views; first sentence).
 - Didn't: Vintage's enzyme video names no product and no price at the point; the per-night cost arrives more than five minutes later.
 
-**2. Every price is a range from the brief,** never one exact figure.
+**2. Every price is an estimate, from the brief or the price guide:** a rounded range or "about", never one exact figure and never to the cent. Not every item needs a number: at most one price per item, and most items carry their cost in words ("that's a new water heater", "a flooded basement"). A list with a dollar figure on every item is too much to follow on one listen (the Hank tests, 2026-10-20).
 - Drew fire: "usually around eight to twelve dollars a bottle" brought "This guy prices are from 1924, Amazon - BIO-CLEAN $79.95." "A dollar or two" for peroxide brought "Peroxide is now priced close to 5.00 since COVID." TheCheapFix's "$1 a bottle" brought "Maybe 30 years ago!" (48 likes).
 - Survived: "An after hours no heat call lands somewhere between $200 and $400 in most of the country, more at night or on a weekend" (Mark). No disputes.
 - Write: "A flapper runs about $5 to $15. Having someone fit it usually starts around $150."
@@ -346,7 +352,7 @@ Check that:
 - the opening follows the video type's order (or the closest type's, for a new type), with no intro, greeting, tease or recap
 - the promise block follows the first answer; every promise is paid, the first within about five minutes, and no stretch runs past about five minutes without a forward line or a payoff
 - the tenure appears at most once, as the profile's number or the title's
-- every number, price, dose and wait traces to the brief; prices are ranges; the dose arithmetic holds
+- every price traces to the brief or the price guide and is said as an estimate (never cents, at most one per item); doses and waits trace to the brief or the safe defaults; filled-in settings and intervals are everyday knowledge; the dose arithmetic holds
 - the fix's cost meets the trade's price within the first two minutes
 - there's no "I tested", no pointing at the screen, no customer story and no motive
 - safety follows the brief, with the five defaults only where it's silent

@@ -52,6 +52,7 @@ Copies of the operator's claude.ai ideation skills, brought in to be edited here
 | Folder | What's in it |
 |---|---|
 | `woodworking-ideation/` | The woodworking ideation skill, edited 2026-10-20: Hank and Dale only (both on camera, single builds), titles may exaggerate freely, and the new for-profit pipeline in `references/pipeline.md` (Etsy-first product scan of 30, title and thumbnail-text options, picks, fact-bank briefs, optional research pack). It's an overlay on `ideation-core`. |
+| `plumbing-ideation/` | The plumbing ideation skill, copied from the account 2026-10-21 and edited: Mark's fixed 40 years, Vintage's 45, "Finkbinder" corrected to Finkbeiner (outside the archive), and a brief rule so every item carries its cost and the right way. An overlay on `ideation-core`. |
 | `ideation-core/` | The shared ideation base (format bank, rules, audience profiles), an unchanged copy kept so it can be installed on VA accounts. Not edited. |
 
 ## tools/ and dist/

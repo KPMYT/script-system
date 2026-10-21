@@ -6,7 +6,7 @@ Canonical source for the plumbing column of core `scoreboard.md`. Dial values ar
 1. Roger the Pipe Guy (ch. 1)
 2. Mark Silverbridge (ch. 2)
 3. The Vintage Pipefitter (ch. 3)
-4. Werner Finkbinder (ch. 4)
+4. Werner Finkbeiner (ch. 4)
 5. Format steering table (niche-level, with per-channel notes)
 6. Topic boundaries
 
@@ -31,7 +31,7 @@ Canonical source for the plumbing column of core `scoreboard.md`. Dial values ar
 - **Persona / dials / profile / footage:** as Roger (faceless sibling, veteran-tradesman register, Profile A, compiled b-roll).
 - **Steering:** **inherited** from Roger's table until ~20 local datapoints exist. The June 2026 batch skewed **water heaters** (5 of the 11 produced titles per `produced-log.md`; an earlier note said 12 — the log is canonical) — treat water heaters as this channel's opening lane unless the operator redirects.
 - **Own view data in the files:** none yet. The Jul/Aug 2026 batch produced no outliers (operator, 2026-09-07); the channel's last outliers are from the batch before — titles and views pending, unlogged. Not diagnosable until the flat batch's titles and views are in: topic fatigue, packaging, or distribution (the collab-tagging question) are all open.
-- **Persona claim:** no tenure number exists in the files — verdict formats run as "Master Plumber" / "my whole career" until a number is fixed; do not lend Roger's 45.
+- **Persona claim:** Mark's fixed tenure is **40 years** (operator, 2026-10-20; confirmed 2026-10-21): verdict formats may run "A 40-Year Plumber's Verdict", one number, forever; never lend Roger's 45.
 - **2026-09-07 batch:** 10 of 20 titles are water-heater lane, sharpened with the flush contrarian gate (F8), the mixing valve (F27b), the anode ritual (F50) and the hope-you-keep-making adversary. Rebalance toward drains and toilets if the flat batch turns out to be lane fatigue.
 
 - **Read 2026-10-01:** Mark's only 28-day appearance is the Roger-credited drain-substance verdict; no water-heater title on the board, so the tilt toward drains and toilets stands (batch 2026-10-01: 11 greenlit, 3 water-heater). Open: "40 Years" and unquoted ILLEGAL on his water-bill title — confirm whether 40 is now his tenure; his dishwasher title sits beside his own 2026-09-07 dishwasher F24.
@@ -43,13 +43,13 @@ Canonical source for the plumbing column of core `scoreboard.md`. Dial values ar
 - **Steering:** **inherited** from Roger's table until ~20 local datapoints.
 - **Own view data in the files:** one datapoint — "Half a Cup of This Dissolves Years of Limescale Overnight — And It's NOT Vinegar" · 148k · age unknown (F23 dose mystery + F20 accumulation lever + expected-answer negation, on a fixture-cleaning crossover topic). It won with the mechanism-mystery packaging this audience binges on the suppressed-remedy network, not with a period key. Baseline still unknown; the byline showed "and Roger the Pipe Guy" — collab credit TBC, which would confound the normal.
 
-*Channel-number mapping (1/2/3 → names) was supplied by the operator on 2026-09-06 in listed order; correct here if the order differs. Werner Finkbinder became ch. 4 on 2026-09-07 (§4); one more plumbing channel is still launching — add it with core `launch-playbook.md` §4.*
+*Channel-number mapping (1/2/3 → names) was supplied by the operator on 2026-09-06 in listed order; correct here if the order differs. Werner Finkbeiner became ch. 4 on 2026-09-07 (§4); one more plumbing channel is still launching — add it with core `launch-playbook.md` §4.*
 
 *Batch of 2026-09-07: 21 titles per channel plus two 1:1 recreations each (see `produced-log.md`); every new format endorsed that day was produced ×3 across the channels with different applications. Persona tenure: Roger and The Vintage Pipefitter run "45 years"; Mark has no fixed number — his bible needs one before an F2 runs there.*
 
 - **Read 2026-10-01:** three own datapoints now — F49 peroxide drains 393k (head), F23 limescale 235k, F23 toilet ring 103k, all Roger-credited. The winning lane is substance mysteries on toilets and drains, not the old-timer key alone. Batch 2026-10-01: 12 greenlit.
 
-## 4. Werner Finkbinder (ch. 4) — the German way, face persona
+## 4. Werner Finkbeiner (ch. 4) — the German way, face persona
 
 - **Persona:** German Meister plumber (the combined German plumbing-heating-AC trade), on camera, warm and blunt, thorough; admires the American house and is baffled by a handful of things in it. Working assumption until the bible is written: a Meister who has worked on both sides of the Atlantic (uncheckable, licenses first-hand comparison of American fixtures). Name collision-checked 2026-09-07 (clean).
 - **Dials:** **face** / proven topics re-made as "the German way of X" (browse packaging; the Hannah Yoder lens doctrine ported to plumbing) / **German-precision** — a new register: mastery-precision × tradesman-practical. **Profile:** A. **Footage:** presenter + compiled b-roll — knowledge only; no hands library yet.

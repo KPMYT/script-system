@@ -7,6 +7,7 @@ Writes dist/<skill>/ (the folder) and dist/<skill>.skill (the same folder zipped
   plumbing-scripts       the plumbing niche pack (without its archive/ and model-file-spec.md)
   <channel>-persona      one per channel: the persona profile (as SKILL.md) and the channel's book text
   woodworking-ideation the edited woodworking ideation skill (needs ideation-core installed too)
+  plumbing-ideation    the edited plumbing ideation skill (needs ideation-core too)
   ideation-core        the shared ideation base, an unchanged copy (every niche's ideation skill needs it)
 The library files stay the single source; dist/ is regenerated from them every time.
 """
@@ -72,7 +73,7 @@ python3 core/script-scanner.py SCRIPT --rules <woodworking-scripts>/SKILL.md <ch
 Plumbing (the pack's copy-guard files: the excerpts, the voice samples and every model file):
 
 ```
-python3 core/script-scanner.py SCRIPT --rules <plumbing-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF --title "LOCKED TITLE" --refs <plumbing-scripts>/references/excerpts.md <plumbing-scripts>/references/voice-samples.md <plumbing-scripts>/references/models/*.md <channel-persona>/SKILL.md
+python3 core/script-scanner.py SCRIPT --rules <plumbing-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF <plumbing-scripts>/references/price-guide.md --title "LOCKED TITLE" --refs <plumbing-scripts>/references/excerpts.md <plumbing-scripts>/references/voice-samples.md <plumbing-scripts>/references/models/*.md <channel-persona>/SKILL.md
 ```
 """
 
@@ -80,7 +81,7 @@ INSTALL = """# Installing the skills
 
 **Version:** {stamp}
 
-Ten skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
+Eleven skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
 
 | File | Layer | What it does | On your account now |
 |---|---|---|---|
@@ -93,14 +94,15 @@ Ten skill files, one per layer (`script-writer` also comes as `script-writer.zip
 | `mark-silverbridge-persona.skill` | Channel | Mark's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
 | `vintage-pipefitter-persona.skill` | Channel | The Vintage Pipefitter's profile and its one-line subscribe ask (no book). | **Replace** the copy on the account (delete it, upload this). |
 | `woodworking-ideation.skill` | Ideation | The Etsy-first product scan (30 products), title and thumbnail-text options, fact briefs, the optional research pack. | **Replace** the copy on the account (delete it, upload this). |
+| `plumbing-ideation.skill` | Ideation | Plumbing titles and briefs for Roger, Mark, Vintage and Werner; briefs now give each item its cost and the right way (the script fills gaps from the plumbing price guide). | **Replace** the copy on the account (delete it, upload this). |
 | `ideation-core.skill` | Ideation | The shared base every ideation skill needs. | **Unchanged:** only install it where it's missing (for example a new VA account). |
 
 All of the script skills must be installed together: `script-writer` stops with NOT READY if the channel's niche or persona skill is missing.
 
 ## Steps
 
-1. **Delete** the old copies of `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona` and `vintage-pipefitter-persona`.
-2. **Upload all nine from this build together**: those eight and `script-writer` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
+1. **Delete** the old copies of `plumbing-ideation`, `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona` and `vintage-pipefitter-persona`.
+2. **Upload all ten from this build together**: those nine and `script-writer` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
 3. **Upload `ideation-core`** only if the account doesn't have it.
 4. **Turn them all on.**
 
@@ -179,9 +181,9 @@ def build_persona(slug):
         f.write(head + open(os.path.join(ROOT, profile), encoding="utf8").read())
     return out
 
-def build_ideation():
-    out = os.path.join(DIST, "woodworking-ideation")
-    copytree(os.path.join(ROOT, "ideation", "woodworking-ideation"), out)
+def build_ideation(name="woodworking-ideation"):
+    out = os.path.join(DIST, name)
+    copytree(os.path.join(ROOT, "ideation", name), out)
     return out
 
 def build_ideation_core():
@@ -193,7 +195,7 @@ def main():
     if os.path.isdir(DIST):
         shutil.rmtree(DIST)
     os.makedirs(DIST)
-    for folder in (build_script_writer(), *[build_pack(p) for p in PACKS], *[build_persona(s) for s in PERSONAS], build_ideation(), build_ideation_core()):
+    for folder in (build_script_writer(), *[build_pack(p) for p in PACKS], *[build_persona(s) for s in PERSONAS], build_ideation(), build_ideation("plumbing-ideation"), build_ideation_core()):
         validate(folder)
         zipdir(folder, folder + ".skill")
         if os.path.basename(folder) == "script-writer":

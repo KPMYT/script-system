@@ -29,7 +29,7 @@ The `thumbnails` skill loads the named channel's pack as standing context (its r
 - Display name carries the article: "The Vintage Pipefitter".
 - Inherits Roger's pack, including the 2026-09-07 standing elements. If the persona bible confirms the old-school key: period tools, brass and cast iron, "grandpa's" props — still no invented history in the image. Own winner to reference for limescale content: "Half a Cup of This Dissolves Years of Limescale Overnight — And It's NOT Vinegar" · 148k (NOT VINEGAR text top-left, unlabeled pour onto a scaled faucet base, red arrow).
 
-## Werner Finkbinder (ch. 4) — the German way, face persona
+## Werner Finkbeiner (ch. 4) — the German way, face persona
 
 - **Status:** `endorsed`-pending like the packs above; the presenter question (real or generated) is open — if generated, synthetic-media disclosure stays on.
 - **Character:** German Meister plumber, late 50s to 60s, on camera; clean work shirt or trade vest, no company name, no flag, no stereotype props (no lederhosen, beer, Alpine hats); warm, blunt, precise. Gloved or bare hands may appear alongside the presenter (hands still *confirm*).
