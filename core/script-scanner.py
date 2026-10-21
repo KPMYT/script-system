@@ -14,6 +14,8 @@ Usage:
                is read for extra bans and lifted bans:
                    ban: phrase | label
                    ban-regex: pattern | label
+                   once: phrase | label        (fix on sight from the second use in a script)
+                   once-regex: pattern | label
                    lift: phrase or label of a hard ban
                    allow: a line the channel says the same way every time (exempt from the copy guard)
                  and, in a persona profile, the persona's fixed facts:
@@ -175,7 +177,7 @@ def sentences(para):
 def read_rules(paths):
     """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
-    facts = {"name": [], "book": [], "tenure": None}
+    facts = {"name": [], "book": [], "tenure": None, "once": []}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         for block in re.findall(r"```scanner\s*\n(.*?)```", txt, re.S):
@@ -194,6 +196,10 @@ def read_rules(paths):
                     bans.append((re.compile(r"\b" + re.escape(pat) + r"\b", re.I), label))
                 elif key.strip() == "ban-regex":
                     bans.append((re.compile(pat, re.I), label))
+                elif key.strip() == "once":
+                    facts["once"].append((re.compile(r"\b" + re.escape(pat) + r"\b", re.I), label))
+                elif key.strip() == "once-regex":
+                    facts["once"].append((re.compile(pat, re.I), label))
                 elif key.strip() == "lift":
                     lifts.append(pat.lower())
                 elif key.strip() == "allow":
@@ -442,7 +448,7 @@ def repeated_sentences(paras):
 # ---------------------------------------------------------------- scan
 def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=None):
     fix, judge = [], []
-    facts = facts or {"name": [], "book": [], "tenure": None}
+    facts = facts or {"name": [], "book": [], "tenure": None, "once": []}
     for src, run in copy_check(text, ref_runs, allows):
         fix.append(f"[COPIED FROM REFERENCE: {src}] \"{run}\" ({len(run.split())} words in a row)")
     paras = spoken_paragraphs(text)
@@ -479,6 +485,10 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
         if len(shorts) >= 2:
             judge.append(f"[staccato x{len(shorts)}] " + " | ".join(f'"{s}"' for s in shorts[:4]))
     fix.extend(repeated_sentences(paras))
+    for rx, name in facts.get("once", []):
+        n = sum(len(rx.findall(para)) for para in paras)
+        if n > 1:
+            fix.append(f"[NICHE/PERSONA LIMIT: {name}] used {n} times (allowed once per script)")
     sparing_counts, sparing_paras = Counter(), []
     for para in paras:
         hits = [p for p, rx in SPARING_RX for _ in rx.finditer(para)]

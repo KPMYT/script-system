@@ -49,3 +49,13 @@ The study supports the narrow form of both: a tenure stated the same way every t
 2. **A first-person trial:** allowed only where a niche pack permits it and the title or brief calls for one. Everything else on the "never" list stays.
 
 **Status:** decided by the operator on 2026-10-21: "the years of experience can be from the title. we can mention in the video but not personally tested." Exception 1 approved and applied to `core/claims-policy.md` ("Fixed years in the trade"). Exception 2 not applied: "personally tested" stays on the never list. Confirmed 2026-10-21: "we dont in the video say I tested. but we say tests and results", so the plumbing exception for titles that call for a trial is gone too. Also 2026-10-21: "title numbers win" (a title's years figure may be used in the script); applied the same day to the claims policy and the scanner (`--title`), on every channel.
+
+## P5. A comment-seeking ending on every plumbing channel (opened and approved 2026-10-21)
+
+**Decision (HANDOFF.md section 3, FacelessOS rebuild, and `core/cta-and-endings.md` §4):** "the ending is the CTA or nothing, then exactly one closing line."
+
+**Evidence:** the operator's instruction (2026-10-21): "ALWAYS these channels should have the ending lines like berthas where were trying to get a comment." Dale Oakfield already ends this way by the operator's choice (2026-10-20, Bertha's Clean Home style: a comments request, then the fixed last line). In the plumbing study, face channels get answers when they ask a question; our own recent uploads ended with a prompt but drew no comments (`studies/plumbing/comparison/09-differences.md` §22), so the ask has to be specific.
+
+**Proposal:** the plumbing pack overrides §4 for plumbing only: after the last item, the end CTA (if the channel has one), then one specific comment question with a small detail about the viewer and "I read every one", then the persona's fixed last line. The core rule is unchanged for every other niche.
+
+**Status:** approved by the operator's instruction on 2026-10-21; applies when the plumbing pack goes into the library. The exact wording is in the plumbing draft for the operator's yes.

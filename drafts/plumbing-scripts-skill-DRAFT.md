@@ -146,15 +146,30 @@ A title that promises tests ("I Tested 5 Drain Cleaners") is written as tests an
 
 **A title that fits none of the ten:** build the opening from the six jobs in "The opening", in the order the closest type uses, and pick the item shape from the table that best suits the content. Note the title in the plan as "new type". When the same new shape comes up on three or more videos, it's proposed for this table, and added only with the operator's yes.
 
-## CTAs [DECIDED; placement DRAFT: for your yes]
+## CTAs [APPROVED 2026-10-21]
 
 - **Roger the Pipe Guy and Mark Silverbridge:** back to the short CTAs their hits used. One mid-video ask, straight after the first real payoff, in about 20-60 words: one sentence for the ask, then straight back into the next item. One short end CTA. Wording comes from the persona profile.
-- **The Vintage Pipefitter:** no CTAs for now. An email CTA will be decided later.
+- **The Vintage Pipefitter:** no mid-video CTA. At the end, a one-line subscribe ask, worded in the persona profile [DECIDED 2026-10-21]. Something fuller (an email CTA) will be decided later.
 - **Never a long QR walkthrough,** never the same pitch twice in one video, and never a production label read aloud.
 
-## Length [DRAFT: for your yes]
+## The ending [DECIDED 2026-10-21; wording DRAFT: for your yes]
 
-The core 8-minute minimum applies. Above it, length comes from the content: words per item depend on the item [DECIDED]. Cut repetition rather than reach a length: the same check said twice five minutes apart, or the promise restated, is padding.
+Every plumbing channel ends the way Bertha's Clean Home does: the last thing before the sign-off is a real attempt to get a comment. This overrides core `cta-and-endings.md` §4 ("the end CTA, then the one closing line") for plumbing.
+
+After the last item:
+1. **The end CTA,** in the persona profile's words: short for Roger and Mark, the one-line subscribe ask for Vintage.
+2. **The comment ask:** one specific question the viewer can answer from their own house, plus one small detail about them, and "I read every one." For example: "Tell me how old your house is and which drain gives you the most grief. I read every one." Never a bare "let me know in the comments", and never the same question two videos running.
+3. **The persona's fixed last line,** from the profile.
+
+No recap, no tease of a future video, and nothing after the last line.
+
+## Length [DECIDED 2026-10-21]
+
+**At least 12 minutes** of narration on every plumbing script (this pack raises the core 8-minute minimum): 1,800 spoken words at 150 a minute, or at the profile's words per minute. **12 to 20 minutes is the sweet spot.** Inside that, the value decides: words per item depend on the item [DECIDED].
+
+- **Never pad to reach a length.** Cut repetition instead: the same check said twice five minutes apart, or the promise restated, is padding.
+- **If the brief can't fill 12 minutes with real value,** the run stops with NOT READY and asks for a fuller brief (more items, more detail). The fix belongs at the ideation stage, not in extra words.
+- **For calibration, not as targets:** our hits ran 17 to 21 minutes, and the competitors' median was about 13. The length complaints on our hits were about the wait before the answer and the repetition, not the runtime: TheCheapFix and Arrow ran as long and drew about one length complaint each.
 
 ## Voice [APPROVED 2026-10-21]
 
@@ -256,7 +271,7 @@ The facts and methods come from the brief, and **the brief always wins** [DECIDE
 
 ## Scanner rules for this niche [DRAFT: for your yes]
 
-The scanner (core `script-scanner.py`) reads this block. `ban` lines are fix-on-sight; `once` lines fail on the second use in a script. There are no checks for boiling water or dry washing soda: the brief wins on safety, and the operator said "dont even flag them" (2026-10-21).
+The scanner (core `script-scanner.py`) reads this block. `ban` lines are fix-on-sight; `once` lines fail on the second use in a script (scanner support built 2026-10-21, test 20). There are no checks for boiling water or dry washing soda: the brief wins on safety, and the operator said "dont even flag them" (2026-10-21).
 
 ```scanner
 ban-regex: \bI(?:'ve| have)? (?:tested|tried|ran (?:a |the |some |my )?tests?)\b | first-person test claim
@@ -304,6 +319,7 @@ Check that:
 - the fix's cost meets the trade's price within the first two minutes
 - there's no "I tested", no pointing at the screen, no customer story and no motive
 - safety follows the brief, with the five defaults only where it's silent
-- the CTAs follow the persona profile (none on Vintage), with the mid-video ask after the first payoff
+- the CTAs follow the persona profile, with the mid-video ask after the first payoff (Roger and Mark) and Vintage's one-line subscribe ask at the end
+- the ending is the end CTA, then a specific comment question with "I read every one", then the profile's last line
 - each stock phrase appears at most once, and the opening shape and money device differ from the rotation log
-- the script runs at least 8 minutes, with nothing padded
+- the script runs at least 12 minutes (12 to 20 is the sweet spot), with nothing padded
