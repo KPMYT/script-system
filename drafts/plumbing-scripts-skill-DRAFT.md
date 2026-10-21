@@ -237,12 +237,73 @@ The facts and methods come from the brief, and **the brief always wins** [DECIDE
 - **One short line inside the step where the risk is,** with the reason, in proportion. "It will put you on the floor" (chlorine gas) drew no complaints; vague danger drew "This is nothing but a scare tactic video."
 - **The call-a-pro line names its trigger:** "Two drains backing up at once is the main line. That's a call." Never the vague "if it's outside your comfort zone", and never a long list of stop signs.
 
-## Banned in these scripts [LATER]
+## Banned in these scripts [DRAFT: for your yes]
 
-Already decided: "Nine times out of 10" is fine and isn't on the list (it still counts as a stock phrase, once per video).
+**Never:**
+- **A name or channel intro,** a greeting, "today we're going to", or "this channel is for…" (all three channels used the same channel-promise line in their recent uploads).
+- **Vague teases:** "stay till the end", "stick with me", "by the end of this video" and the rest of the core hard-ban list. Concrete, named promises are the plumbing exception (P3).
+- **A recap** at the end.
+- **First-person tests and demonstrations:** "I tested", "I tried", "my results", "watch me".
+- **Pointing at the screen:** "look at the one on the left", "as you can see", "right here", "look at this".
+- **Customer stories and results, the trade's motives,** and anything negative stated as fact about a named company.
+- **Edit notes, cues, labels or directions** of any kind.
+- **The recent template's stock lines,** which showed no lift and made the three channels sound alike: "not a scam, just economics" (and "no conspiracy", "just arithmetic"); "this channel is for / exists / is all about"; "grab it now or later"; "your wallet (or pipes) will thank you"; "they just don't volunteer it"; "if you're finding this helpful"; "let's continue"; "common problems you might run into".
+- **Hype that got mocked:** "horror movie", "brutal tests", and any "every" or "forever" the script then walks back.
+- **Competitors' catchphrases and sign-offs.**
+- **Copying 8 or more words in a row** from a reference file. The copy guard flags it.
 
-## Scanner rules for this niche [LATER]
+**At most once per video.** A phrase is voice once; in the same slot every video it's a tic. "Nine times out of 10" is fine [DECIDED], and it's on this list with the others: "between you and me", "ask me how I know", "here's the part nobody tells you", "I'll be straight with you", "that's the whole trick", "in your pocket", "which brings us", "hold that thought", "the big one", "the real kicker", "quick thing", "no shame in", "full stop", "trust me".
 
-To come with this batch: first-person test or demo claims ("I tested", "I tried", "my results"; never liftable). No checks for boiling water or dry washing soda: the brief wins on safety, and the operator said "dont even flag them" (2026-10-21).
+## Scanner rules for this niche [DRAFT: for your yes]
 
-## Before handing over [LATER]
+The scanner (core `script-scanner.py`) reads this block. `ban` lines are fix-on-sight; `once` lines fail on the second use in a script. There are no checks for boiling water or dry washing soda: the brief wins on safety, and the operator said "dont even flag them" (2026-10-21).
+
+```scanner
+ban-regex: \bI(?:'ve| have)? (?:tested|tried|ran (?:a |the |some |my )?tests?)\b | first-person test claim
+ban-regex: \bmy (?:own )?(?:test|tests|testing|results)\b | first-person test claim
+ban: watch me | first-person demonstration
+ban: as you can see | pointing at the screen
+ban: right here | pointing at the screen
+ban: look at this | pointing at the screen
+ban-regex: \blook at the \w+(?: \w+)? on the (?:left|right)\b | pointing at the screen
+ban-regex: \bnot a scam\b|\bisn'?t the scam\b|\bjust (?:plain )?(?:economics|arithmetic)\b|\bno conspiracy\b | template stock line: the economics aside
+ban-regex: \bthis channel (?:is for|exists|is all about)\b | template stock line: channel promise
+ban: grab it now or later | template stock line
+ban-regex: \byour (?:wallet|pipes) will thank you\b | template stock line
+ban-regex: \b(?:just )?(?:do not|don'?t) volunteer it\b | template stock line
+ban-regex: \bif (?:you'?re|you are) finding this helpful\b|\bif this is helping\b | template stock line
+ban-regex: \blet'?s (?:continue|keep going)\b | template stock line
+ban: common problems you might run into | template stock line
+ban: horror movie | hype that got mocked
+ban-regex: \bbrutal tests?\b | hype that got mocked
+once-regex: \bnine (?:times )?out of (?:10|ten)\b | nine times out of 10
+once: between you and me
+once: ask me how I know
+once-regex: \bhere'?s the part (?:people skip|nobody tells you)\b | here's the part nobody tells you
+once-regex: \bI'?ll be (?:straight|square|honest) with you\b | I'll be straight with you
+once-regex: \bthat'?s the whole (?:trick|method|job|game)\b | that's the whole trick
+once: in your pocket
+once-regex: \bwhich (?:brings us|leaves)\b | which brings us
+once-regex: \bhold that thought\b|\bput a pin in\b | hold that thought
+once: the big one
+once: the real kicker
+once-regex: \bquick (?:thing|pause|one)\b | quick thing
+once: no shame in
+once: full stop
+once: trust me
+```
+
+## Before handing over [DRAFT: for your yes]
+
+Check that:
+- the point comes in the first sentence, with the fix or product named by about 15 seconds
+- the opening follows the video type's order (or the closest type's, for a new type), with no intro, greeting, tease or recap
+- the promise block follows the first answer; every promise is paid, the first within about five minutes, and no stretch runs past about five minutes without a forward line or a payoff
+- the tenure appears at most once, as the profile's number or the title's
+- every number, price, dose and wait traces to the brief; prices are ranges; the dose arithmetic holds
+- the fix's cost meets the trade's price within the first two minutes
+- there's no "I tested", no pointing at the screen, no customer story and no motive
+- safety follows the brief, with the five defaults only where it's silent
+- the CTAs follow the persona profile (none on Vintage), with the mid-video ask after the first payoff
+- each stock phrase appears at most once, and the opening shape and money device differ from the rotation log
+- the script runs at least 8 minutes, with nothing padded
