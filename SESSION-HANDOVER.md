@@ -2,7 +2,7 @@
 
 The live note passed from one Claude Code chat to the next. A new chat reads `CLAUDE.md`, then this file, then `HANDOFF.md`, `README.md` and `PINNED.md`, and carries on from "Next actions". The outgoing chat rewrites this file before every handover.
 
-**Last updated:** 2026-10-20, end of session 3 (branch `claude/compassionate-pascal-ez3imz`, merged into `main`).
+**Last updated:** 2026-10-21, end of session 4 (branch `claude/magical-bell-pkebg2`, merged into `main`).
 
 ---
 
@@ -20,120 +20,95 @@ The live note passed from one Claude Code chat to the next. A new chat reads `CL
 
 ## How to work with the operator
 
-From session 2, still true:
+From sessions 2 and 3, still true:
 - **Never change a rule, file or skill without the operator's explicit yes to that specific change.** Show the exact change first (a draft file is good), then apply.
 - **Don't build tests or test material on your own initiative.** Testing happens on the operator's call.
 - **Work niche by niche.** Plumbing is the current niche.
 - **Notion and Google Drive are read-only** unless the operator says otherwise.
 - **Keep messages plain,** with numbered items the operator can answer "1 yes, 2 no".
+- **The operator wants depth and examples:** quoted evidence, counts, before/after lines.
+- **Verify what helpers report** against the sources before passing it on.
+- **Locked decisions:** when an instruction collides with one, say so plainly, write a proposal in `PROPOSALS.md`, and wait for the yes (P3, P4 and P5 went this way).
 
-Learned in session 3:
-- **The operator wants depth and examples.** The first comparison was "not as detailed as I'd hoped". They then asked for many verbatim examples, more hook structures and more on emotions. Give quoted evidence, counts and before/after rewrites, not summaries.
-- **The operator reads on the web page.** Put long findings on the private artifact page and send the link. Send draft files with SendUserFile so they open in the app.
-- **Verify what helpers report.** Spot-check their quotes and counts against the transcripts before passing findings on. Every report so far held up; two counts differed by method, and both figures were given.
-- **Locked decisions:** when an instruction collides with one (HANDOFF section 3), say so plainly, write a proposal in `PROPOSALS.md`, and wait for the yes. P3 went this way and was approved.
-- **Use helper agents in parallel** for collection and analysis, each writing only its own files. Commit their work as it lands; the stop hook insists on a clean tree.
+Learned in session 4:
+- **Answers are short; read them carefully.** "2 yes" can mean yes to a question and its premise; when an answer is genuinely ambiguous (session 4: "title numbers win", "not personally tested"), state the reading and ask once. The operator once sent a message with a template blank unfilled ("[your answer: approved, or what to change]"): say so rather than assume approval.
+- **The brief is king.** The operator wants scripts based on the brief: no research pack for plumbing, safety follows the brief, a missing fact stops the run rather than being invented.
+- **Lenient where it can be, strict on copying.** Safety was loosened ("a BIT lenient"; boiling-water checks dropped), but the operator pushed hard for scripts never to copy the models (38 models, five no-copy rules).
+- **Use waiting time.** When helpers run, offer the next independent step ("is there something we can do in the meantime?").
+- **Helpers in parallel worked well** (up to six at once, each writing only its own files, every quote then checked by script). The stop hook demands a clean tree, so commit helpers' work in progress as it lands.
 
 ## Branches
 
 - Every chat works on its own `claude/...` branch; `main` is the shared starting point and the GitHub default.
-- This chat's branch is `claude/compassionate-pascal-ez3imz`, merged into `main` at this handover.
-- Earlier branches (`claude/kind-cori-wxoupp`, `claude/loving-edison-b6z86r`, `claude/wizardly-shannon-m0qqnw`) are contained in `main`. Leave them.
-- **A second chat may be running in parallel:** the operator planned a separate chat to review the first Hank Hardwood script test. When both chats change shared files (`CHANGELOG.md` especially), merge carefully, keeping both sides.
+- This chat's branch is `claude/magical-bell-pkebg2`, merged into `main` at this handover.
+- Earlier branches are contained in `main`. Leave them.
+- `claude/pensive-gates-4c5yrt` exists on GitHub and isn't in `main`; it's probably the parallel chat that reviewed the first Hank Hardwood script test. Don't merge it without the operator; when it comes into `main`, merge carefully (keep both sides of `CHANGELOG.md`).
 
 ---
 
 ## Where things stand
 
-### Session 3 (2026-10-20), in short
+### Session 4 (2026-10-21), in short
 
-**1. The plumbing study.** It lives in `studies/plumbing/`, collected with NexLev by one helper agent per channel and checked by the main session.
-- **The 80 videos:**
-  - Own channels: Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter.
-  - Competitors: Silver Cymbal, Roger Wakefield, Got2Learn, Arrow Pest Service (pest control, a parallel niche) and TheCheapFix (the AI channel).
-  - Per channel: the 5 most recent plus the 5 most-viewed from the last 24 months. Got2Learn's second group is its all-time top 5, because the channel stopped uploading.
-- **Per video:** transcript, comments, a normal-based ratio, and a notes file.
-- **Also there:** `notes/INDEX.md`, `transcripts-combined/` and `log.md`.
+The plan to deployment, confirmed by the operator: **1** finish the plumbing rules → **2** reference files → **3** persona profiles → **4** into the library → **5** test → **6** deploy. **Steps 1-3 are done.**
 
-**2. The comparison** is in `studies/plumbing/comparison/`; its README is the summary and file list.
-- **First pass:** `stats.md`, then `01` own channels, `02` competitors, `03` own vs competitors.
-- **Deep pass:**
-  - `04` hooks (19 structures)
-  - `05` emotions (18)
-  - `06` titles and promises (25 formulas)
-  - `07` body craft
-  - `08` suggestions with examples
-  - `09` every difference across 24 variables
-  - `10` the 43 winning openers torn down, with the opener playbook by video type
-  - `11` reasons to stay (19 value-promise devices)
-- **The private web page:** https://claude.ai/artifact/SGRPBBUCWdG8YUFWkuW6Fd (version 5). Its source is in `comparison/page/plumbing-script-study.html`; `md2page.py` turns the markdown reports into page sections. To update it, edit that file and publish it to the same URL (Artifact tool, `url` set).
+**Step 1. The plumbing rules** (`drafts/plumbing-scripts-skill-DRAFT.md`): every section approved. New this session:
+- **Inputs:** the title and the brief only (no research pack); the rotation log stays.
+- **The viewer, voice** (no swearing; a persona device only if the profile has one), **proof** (tests and results from the brief, never "I tested"), **money framing** (ranges, the comparison within two minutes, rotate the money devices), **safety** (the brief always wins; five safe defaults only where the brief is silent).
+- **The ten video types** approved as the common ones, not the only ones, with a rule for titles that fit none.
+- **Using the models: never a copy** (five rules; see step 2).
+- **CTAs:** Roger and Mark, a short mid-video ask after the first payoff and a one-line end reminder; Vintage, a one-line subscribe ask at the end only.
+- **The ending (P5):** the one-line end CTA, then a specific comment question with "I read every one" as the video's last line; no sign-off.
+- **Length:** at least 12 minutes; 12-20 the sweet spot; value decides.
+- **Banned list, scanner block** (first-person tests, pointing at the screen, template stock lines, mocked hype; 15 phrases once per script), **before-handing-over checklist.**
+- No edit notes in scripts, and no "writing for the footage" section.
 
-**3. Scanner.** `core/script-scanner.py` gained new checks; tests 14-18 were added, and all 23 pass.
-- **Fix-on-sight:**
-  - production notes read aloud
-  - the same sentence twice in a row
-  - persona facts from the profile's scanner block (`name:`, `book:`, `tenure:`)
-  - eleven more tease phrasings ("stay till the end", "stick with me", "wait until you hear" and others)
-- **Judged:** a flag when a script talks about its own thumbnail or title.
-- **Profiles:** Hank's and Dale's carry `tenure: none`.
-- **Tested** against all 125 real transcripts: it catches every known slip, with no false name or production-note findings.
-- **Skills rebuilt** in `dist/`.
+**Step 2. The reference files** (`drafts/plumbing-scripts-refs/`):
+- `references/unit-plan-template.md` (with a MODELS block), `voice-samples.md` (three real-channel stretches), `excerpts.md` (204 lines in 16 groups, tagged [real] or [structure only]).
+- `references/models/`: **38 model files**, each a beat map plus the full labelled script, why it works and what doesn't transfer. R01-R20 are the real channels (structure and voice); S01-S18 are our hits and TheCheapFix (structure only). `INDEX.md` sorts them by video type. Four types have only one or two models (never-do, banned explainer, product swap, hidden cause); the operator declined a NexLev top-up.
+- `archive/`: the four real channels' transcripts.
+- Every quote and script was checked word for word (`tools/verify_plumbing_models.py`). `model-file-spec.md` is how the model files were built.
 
-**4. The plumbing script rules.** Draft 2 is `drafts/plumbing-scripts-skill-DRAFT.md`, outside the library. When approved, it becomes the one skill `plumbing-scripts`, like `woodworking-scripts`.
-- **Approved by the operator:** the villain, the opening (hooks rotate, and an opening may be modelled on a reference winner's shape), "point then promise", and the ways to promise more value.
-- **Waiting:** the ten video types (the operator asked to see the list; it was given in the final message of session 3).
-- **Headings only, still to write:** inputs, viewer, voice, proof, money, safety block, banned list, scanner block, before-handing-over.
+**Step 3. Persona profiles** (`personas/roger-the-pipe-guy.md`, `mark-silverbridge.md`, `vintage-pipefitter.md`): approved, status pending until step 4. Kept close to the Notion pages. Books converted from Drive into `personas/books/` (Roger 124 pages, 100 fixes; Mark 122 pages, 50 fixes).
 
-**5. Decisions.** All are in `HANDOFF.md` section 3, "Operator decisions, 2026-10-20 (plumbing, after the study)", and P3 is approved in `PROPOSALS.md`.
+**Core changes this session (all in `dist/`, rebuilt):**
+- **Claims policy:** fixed years in the trade allowed (the profile's `tenure:` figure, or the title's number: "title numbers win", every channel); "personally tested" stays banned (P4).
+- **Scanner:** `--title` (a years figure in the locked title passes); `once:` / `once-regex:` lines (a phrase allowed once per script). Tests 19 and 20 (25 checks).
+- **Workflow and audit:** the research pack is niche-dependent; a niche pack may mark it `not used`, and the brief becomes the fact source.
 
-### Key plumbing decisions (full list in HANDOFF)
+### Key decisions (full list in `HANDOFF.md` section 3, the 2026-10-20 and 2026-10-21 plumbing blocks)
 
-- **Tenures, fixed:** Roger the Pipe Guy 45, Mark Silverbridge 40, The Vintage Pipefitter 50.
-- **CTAs:**
-  - Roger and Mark go back to the short mid-video and outro CTAs their hits used.
-  - Vintage has no CTA for now; an email CTA will be discussed later.
-- **The villain is the trade** (prices and silence, never motives, never a named company).
-- **Openers:** point first and fast, then two or three concrete, named promises paid inside the video (P3). Vague teases stay banned. Openers are modelled on the winners, by video type.
-- **No name intros, no recaps.**
-- **No first-person test or demo claims** unless the title or brief calls for one.
-- **Safety:** unsafe advice is never allowed; contradictions between one video and another are acceptable.
-- **Footage mismatch** is the editor's job.
-- **Fine as they are:** "Nine times out of 10" is fine, and sources and store names aren't required.
-- **Reference transcripts:** those of the real-life channels (Silver Cymbal, Roger Wakefield, Got2Learn, Arrow) go into the plumbing skill under the copy guard. TheCheapFix and the own channels are excluded.
+- Tenures fixed: Roger 45, Mark 40, Vintage 50; a title's number wins. Mark's book says 35: "change nothing" (scripts never cite the book's figure).
+- No "I tested" anywhere; tests and results from the brief, said without "I".
+- The brief wins on safety; no scanner checks for boiling water or dry washing soda.
+- References: the real channels for voice; our hits and TheCheapFix for structure only.
+- Every Roger and Mark CTA names the description link and the QR code. Roger's one personal detail: the first-Saturday drain check with his coffee. Mark: no contractions. Vintage: no personal name, no Uncle Ray.
 
 ### Not yet true
 
-- **No plumbing persona profiles exist.** Roger's, Mark's and Vintage's personalities still need confirming with the operator ("not necessarily yet"); draft them from the Notion channel pages, read-only.
-- **The plumbing pack** isn't in the library, isn't in `core/channels.md`, and has no tests.
-- **The operator hasn't re-uploaded skills since the scanner changes.** `script-writer` and both persona skills changed. `script-writer` was never uploaded at all (it was missing from the account at the start of session 3); the operator held off because they weren't at the script stage yet.
-- **The first Hank Hardwood script test** was ready at the end of session 3. Its review happens in a separate chat.
-- **The woodworking ideation test** in Cowork was still running; no feedback yet.
-- **Unanswered:** whether to add a rule that the script delivers the title's strongest word (comparison point 11, explained to the operator).
+- **The plumbing pack isn't in the library:** the draft and its references sit in `drafts/`; the three channels aren't in `core/channels.md`; there are no plumbing tests; `build_skills.py` doesn't build `plumbing-scripts` or the three persona skills.
+- **The rotation log's `model:` field** is written into the plumbing draft as an override; `core/variety-rotation.md` itself is unchanged.
+- **The operator hasn't re-uploaded skills.** `script-writer` changed again this session (claims policy, workflow, audit, scanner) and was never uploaded; the persona skills changed in session 3.
+- **No plumbing script has been written or tested yet.**
 
 ## Open questions for the operator
 
-1. **The ten video types** in the draft: approve, change or add?
-2. **Persona profiles for Roger, Mark and Vintage:** when to confirm them (personality, book, CTA wording)?
-3. **The "title's strongest word" rule:** add it?
-4. **The woodworking ideation test and the Hank script test:** what came out?
-5. **Thumbnail looks:** the rule is "avatar + object + text, always" (operator, session 3). It isn't written into the woodworking ideation skill yet; that waits for the operator's yes after the ideation test.
+1. **From session 3, still unanswered:** the "title's strongest word" rule; the outcomes of the woodworking ideation test and the Hank script test; writing "avatar + object + text, always" into the woodworking ideation skill.
+2. **When to run the first plumbing test** (step 5), and on which channel and title.
 
 ## Next actions (in order)
 
 1. Check this chat started from `main` (`git fetch origin`, `git log -1 origin/main`).
-2. **Plumbing pack, batch 2,** in `drafts/plumbing-scripts-skill-DRAFT.md`, section by section for the operator's yes. Sources: comparison `07`, `08`, `09`, `11`, and the HANDOFF decisions.
-   - Write: the viewer; voice; proof (no first-person tests; ranges); money framing (fix cost against the trade's price); the safety block and fact bank (hot tap water, never boiling, in drains, toilets and PVC; washing soda dissolved first; 3% peroxide; one product per drain; never after a chemical cleaner); writing for the footage; the banned list; inputs and freshness; before handing over.
-   - Write the scanner block: "boiling" near drain, toilet, pipe or PVC; "pour it dry" and dry washing soda; first-person test or demo claims, liftable when the title or brief calls for one.
-3. **Plumbing pack references:**
-   - the research-pack and unit-plan templates
-   - voice samples (real human narration from the winners)
-   - excerpts
-   - reference scripts
-   - `archive/` with the real-life channels' compiled transcripts (from `studies/plumbing/transcripts-combined/` 4-7)
-   - tests in `tests/run_checks.py` (the copy guard against the new references)
-   - `tools/build_skills.py`, extended to build `plumbing-scripts`
-4. **Persona profiles** for Roger (45), Mark (40) and Vintage (50, no CTA), each with a `scanner` block (`name:`, `tenure:`, `book:` where there is one), reviewed with the operator. Then add the rows to `core/channels.md`.
-5. **Then, on the operator's call:** a first plumbing script test; the plumbing ideation fixes ("Finkbinder" to Finkbeiner and the other typos in the channel table, steering for the villain and tenures); Werner Finkbeiner; the remaining iter-00 audit findings.
+2. **Step 4: into the library** (show the operator the plan in one message first, then do it):
+   - `drafts/plumbing-scripts-skill-DRAFT.md` becomes `plumbing-scripts/SKILL.md` (strip the status tags and the draft comment; keep the content); `drafts/plumbing-scripts-refs/references/` and `archive/` move under `plumbing-scripts/` (leave `model-file-spec.md` out of the skill).
+   - Make the explicit override statements the core needs: the `inputs` block with `research-pack | not used`, retention-mechanics §6 (P3), cta-and-endings §4 (P5), the 12-minute minimum, the rotation log's `model:` field (variety-rotation), the plumbing voice's contractions with Mark's exception in his profile.
+   - Add Roger, Mark and Vintage to `core/channels.md`; set their profiles to `ready`.
+   - Tests in `tests/run_checks.py`: the plumbing inputs block parses; the scanner block's bans and once-limits fire (and pass a clean plumbing paragraph); Mark's contraction ban; the copy guard runs against `excerpts.md` and every model file; the three profiles' scanner blocks give name, book and tenure; file references resolve.
+   - Extend `tools/build_skills.py` to build `plumbing-scripts.skill` and `roger-the-pipe-guy-persona`, `mark-silverbridge-persona`, `vintage-pipefitter-persona`; check the size against claude.ai's limits (the models folder is large: if it's too big for one skill, ask the operator).
+   - README file map, CHANGELOG, checks.
+3. **Step 5: the first plumbing test,** on the operator's call, with the writer / operator / judge roles from `CLAUDE.md`.
+4. **Step 6: deploy:** rebuild, send the operator the `.skill` files (`script-writer`, `plumbing-scripts`, three persona skills) and explain the upload.
+5. **Then, on the operator's call:** the plumbing ideation fixes ("Finkbinder" to Finkbeiner and the other typos in the channel table, steering for the villain and tenures); Werner Finkbeiner; the remaining iter-00 audit findings.
 
 ## Active channels (confirmed by the operator, 2026-10-19)
 
@@ -164,7 +139,7 @@ Not active: Master Kenji and Sawdust Sam (woodworking), and the fabrics channels
 ## The operator's skills
 
 - **Where they sync:** read-only, to `/root/.claude/skills/synced/<id>/`.
-- **On the account at the start of session 3:**
+- **On the account at the start of session 3 (unchanged since, as far as this chat knows):**
   - `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation` and `ideation-core`
   - the untouched ideation skills, and `thumbnails`
   - **not** `script-writer`

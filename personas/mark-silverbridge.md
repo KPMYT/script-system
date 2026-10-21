@@ -1,13 +1,13 @@
-# Persona profile: Mark Silverbridge (DRAFT for the operator's yes)
+# Persona profile: Mark Silverbridge
 
-Draft, 2026-10-21. Source: the channel's page in Notion (Channel List, TEAM ACCESS), kept close to it as the operator asked, changed only where the operator's decisions of 2026-10-20 and 2026-10-21 overrule it. Written from `core/persona-profile-template.md`. Moves to `personas/` when approved.
+Approved by the operator on 2026-10-21. Source: the channel's page in Notion (Channel List, TEAM ACCESS), kept close to it as the operator asked, changed only where the operator's decisions of 2026-10-20 and 2026-10-21 overrule it. Written from `core/persona-profile-template.md`.
 
 **Changed from Notion, by decision:** a fixed tenure of 40 years (or the title's number) replaces "never state years"; the retention teasers ("stick around to the end…", "wait for the last one…", "the bonus tip at the end…") are banned and become concrete named promises paid inside the video (P3); the "plain economics, not a cover-up" aside is a banned stock line; the fresh sign-off is replaced by the comment line as the last line; experience lines stay general, never customer stories. **Kept from Notion:** no contractions anywhere (the text-to-speech voice mishandles them), which overrides the plumbing pack's "write in contractions" for this channel.
 
 ```
 PERSONA PROFILE
 Channel: Mark Silverbridge
-Status: pending (draft)
+Status: pending (approved 2026-10-21; becomes ready in step 4, when the plumbing pack enters the library and the channel is added to core/channels.md)
 Niche pack: plumbing-scripts
 
 THE BASICS

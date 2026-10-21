@@ -1,13 +1,13 @@
-# Persona profile: The Vintage Pipefitter (DRAFT for the operator's yes)
+# Persona profile: The Vintage Pipefitter
 
-Draft, 2026-10-21. Source: the channel's page in Notion (Channel List, TEAM ACCESS), kept close to it as the operator asked, changed only where the operator's decisions of 2026-10-20 and 2026-10-21 overrule it. Written from `core/persona-profile-template.md`. Moves to `personas/` when approved.
+Approved by the operator on 2026-10-21. Source: the channel's page in Notion (Channel List, TEAM ACCESS), kept close to it as the operator asked, changed only where the operator's decisions of 2026-10-20 and 2026-10-21 overrule it. Written from `core/persona-profile-template.md`.
 
 **Changed from Notion, by decision:** a fixed tenure of 50 years (or the title's number) replaces "never state years"; no book pitch for now: the only CTA is a one-line subscribe ask at the end (an email CTA comes later); his signature asides ("between you and me", "here's the part people skip", "nine times out of ten") stay, each at most once per video (the plumbing pack's once-per-script list); the fresh sign-off is replaced by the comment line as the last line; experience lines stay general, never customer stories. **Kept from Notion:** no personal name, ever; no named relatives or mentors (so no Uncle Ray).
 
 ```
 PERSONA PROFILE
 Channel: The Vintage Pipefitter
-Status: pending (draft)
+Status: pending (approved 2026-10-21; becomes ready in step 4, when the plumbing pack enters the library and the channel is added to core/channels.md)
 Niche pack: plumbing-scripts
 
 THE BASICS

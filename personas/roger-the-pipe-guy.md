@@ -1,13 +1,13 @@
-# Persona profile: Roger the Pipe Guy (DRAFT for the operator's yes)
+# Persona profile: Roger the Pipe Guy
 
-Draft, 2026-10-21. Source: the channel's page in Notion (Channel List, TEAM ACCESS), kept close to it as the operator asked ("for the most part these can stay pretty much the same"), changed only where the operator's decisions of 2026-10-20 and 2026-10-21 overrule it. Written from `core/persona-profile-template.md`. Moves to `personas/` when approved.
+Approved by the operator on 2026-10-21. Source: the channel's page in Notion (Channel List, TEAM ACCESS), kept close to it as the operator asked ("for the most part these can stay pretty much the same"), changed only where the operator's decisions of 2026-10-20 and 2026-10-21 overrule it. Written from `core/persona-profile-template.md`.
 
 **Changed from Notion, by decision:** a fixed tenure of 45 years (or the title's number) replaces "never state years"; the "teased payoff at the end" becomes concrete named promises paid inside the video (P3); the "common problems you might run into" run and the "plain economics, never conspiracy" aside are banned stock lines; the artery analogy is flagged as overused; the fresh sign-off is replaced by the comment line as the last line; experience lines stay general, never customer stories.
 
 ```
 PERSONA PROFILE
 Channel: Roger the Pipe Guy
-Status: pending (draft)
+Status: pending (approved 2026-10-21; becomes ready in step 4, when the plumbing pack enters the library and the channel is added to core/channels.md)
 Niche pack: plumbing-scripts
 
 THE BASICS
