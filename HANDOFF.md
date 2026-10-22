@@ -199,6 +199,13 @@ From the judge's report and three comparisons of test run 02 (`tests/iterations/
 - **Roger is Classic** (no CTA markers): "YOU ARE RIGHT. ROGER IS CLASSIC I AM WRONG."
 - **The hook:** an earlier ask for "more exagerations" was refined to the above; worst-case stakes are not the point.
 
+### Operator decisions, 2026-10-22 (Frederick Barnes and Werner)
+
+- **Werner Finkbeiner is stopped:** "werner is killed. dead channel now." His lines in the plumbing ideation skill (the German-way re-makes and his HVAC, energy, mold, pest and home-DIY probe lane) and in the thumbnails skill are not cleaned up yet; that waits for the operator's yes.
+- **Frederick Barnes moves to broad home DIY,** no longer framed as a firefighter: "I guess we could turn frederick into a broad DIY guy"; "we wouldnt even really frame it to be like a firefighter anymore". Overlap with the plumbing channels is fine: "i dont care for overlaps."
+- **His emotional targets are plumbing's,** on the Silver Cymbal model (asked for confirmation; the evidence is in `studies/plumbing/comparison/02-competitors.md` §2.1 and `05-emotions.md`). Not yet decided: his authority line now the firefighter framing is gone, the offer (the current book, *Prevent The Burning*, is fire-only), length, and the pack (a home-DIY pack modelled on the plumbing pack, after a competitor study).
+- **Baseline saved:** his 23 pre-library scripts, views and an analysis are in `studies/home-diy/frederick-baseline-2026-10/`.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.
