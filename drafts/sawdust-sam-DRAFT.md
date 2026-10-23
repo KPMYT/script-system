@@ -67,11 +67,37 @@ The assumption lives in ideation and the research pack (a new HERITAGE block, Pa
 3. **Script type.** Notion says **Classic** (CTAs as plain narration, no markers). Hank and Dale are Talking Head. Keep Classic?
 4. **Length.** Woodworking's floor is 8 minutes. Sam's old videos ran 14 to 21 minutes, and the heritage beats add some. Options: keep the 8-minute floor and let length come from the content (my pick, since the history adds roughly two to three minutes on its own), or set Sam's floor at 10 or 12 minutes.
 5. **Swearing.** Off (my pick: Notion says "never slangy, never hurried"; Dale is off too), or the pack's one to three mild words?
-6. **The book.** Notion says *The Old Ways* (100 traditional techniques from makers around the world). It fits the heritage angle well: when a Viking build comes up, the CTA can cite the book's Viking pages. Keep it? (Its full text goes into `personas/books/` for the page matching, as for Hank and Dale.)
+6. **The book.** Notion says *The Old Ways: 100 Forgotten Woodworking Secrets From The World's Greatest Craftsmen*. Its contents fit the heritage angle well: the chapters run by topic (reading wood, joints, fastening, natural protection, finishes, hand tools, measuring, proportions, comfort), and every secret is credited to a tradition (Japanese, Amish, Roman and Medieval 10 each, Viking 8, and others), so a Viking build can cite the Viking pages. Two catches (Part 2b): the book says nothing about selling, and its author story is full of named mentors, trips and years that the scripts may never repeat. My pick: keep it, with the CTA using only the contents. Keep it?
 7. **Where to get the book.** Notion lists the webstore (sawdustsambooks.com). Is it "the link in the description" only, or is there a QR code on screen as well?
 8. **Personal details** (soft shop details Sam may mention, at most two per script). Notion lists none. Suggestions below in Part 5. Pick, change or drop.
-9. **Hank and Dale's heritage slots.** Their ideation runs about five heritage test titles per batch (Japanese, Amish, Viking). Once Sam owns the old-world lane, do they **stop** (my pick, so the channels don't eat each other's titles), or keep a few?
-10. **Which old-world keys come first.** On Sam's old channel, Amish was by far the strongest key: 138k, 104k and 103k views on the top three, against Viking at 27k and 11k, Roman at 6k to 12k, Japanese at 7k to 12k and Medieval at 61k (one video). The operator's example is Viking. Lead with Amish and test Viking and Medieval alongside, or spread evenly?
+9. **Hank and Dale's heritage slots.** Their ideation runs about five heritage test titles per batch. Once Sam owns the old-world lane, do they **stop** (my pick, so the channels don't eat each other's titles; Hank's seven heritage titles showed no lift, Part 2b), or keep a few?
+10. **Which old-world keys come first.** On Sam's old channel, Amish was by far the strongest key: 138k, 104k and 103k views on the top three, against Viking at 27k and 11k, Roman at 6k to 12k, Japanese at 7k to 12k and Medieval at 61k (one video). On Hank's for-profit channel, Japanese did best (10k, 2.2 times his normal) and Viking worst (2k, under half). Viking came last on both channels, so the operator's example is the weakest key so far. Lead with Amish and Japanese and test Viking and Medieval alongside, or spread evenly?
+
+11. **The rest of the book.** Drive only gives the text up to printed page 80 (secrets 1 to 80; secrets 15 and 16 are missing from the text). Chapters 11 and 12, secrets 81 to 100 and the appendices are cut off, and the file is too big (17 MB) for the connector to download. Can you upload the PDF into this chat, or share a smaller copy? Without it, CTAs can only cite pages 1 to 80.
+
+### Part 2b. What the evidence says (pulled 2026-10-23)
+
+**Heritage titles on the for-profit channels (NexLev).** All seven heritage test titles in the produced log went up on **Hank's** channel (none on Dale's):
+
+| Title | Views | Age | Against Hank's normal (4,500) |
+|---|---|---|---|
+| 7 JAPANESE Wood Projects That Sell FASTER Than I Can Build Them | 10,000 | 2 months | 2.2x |
+| This 1,000 Year Old Wood Technique Sells for HUGE Profit | 5,600 | 2 months | 1.2x |
+| 12 AMISH Wood Projects With RIDICULOUS Profit Margins | 4,400 | 4 weeks | 1.0x |
+| I Tried 10 JAPANESE Woodworking Projects — the Profit SHOCKED Me | 4,400 | 1 month | 1.0x |
+| I Build AMISH-Style Pieces for $20 — They Sell for $400 | 3,800 | 2 months | 0.8x |
+| Why AMISH Wood Projects Sell for a FORTUNE (I Tried It) | 3,300 | 2 months | 0.7x |
+| The VIKING Woodworking Trick That Prints Money | 2,000 | 2 months | 0.4x |
+
+Against Hank's other videos of the same age (median 8,400), the five two-month-old heritage titles ran at a median of 3,800. Seven videos on one channel is too few to say heritage hurts, but there's **no sign of a lift**. Sam's channel is a different audience (8.5k subscribers who came for the old ways), so this tests the angle on Hank's viewers, not on Sam's.
+
+Side finding, not acted on: the ideation produced log says Dale's for-profit batch 1 is "not yet uploaded" and assigned to Dale, but 26 of its 27 titles are on Hank's channel. It's worth correcting in the ideation skill on the operator's yes.
+
+**The book (*The Old Ways*, Drive text to page 80).**
+- **Title page:** "100 Forgotten Woodworking Secrets From The World's Greatest Craftsmen / How Japanese, Amish, Viking, Roman And Medieval Woodworking Techniques Can Make You A Better Builder For Cheaper", by Sawdust Sam.
+- **Nothing about selling:** no mention of selling, Etsy, markets, customers or profit in the 80 pages. The money it does mention is saving ("use less material, save money on tools"). Like Dale's book, it's a technique guide pitched to a for-profit audience.
+- **The author story the scripts may never repeat:** a grandfather named Elmer, "booked a ticket to Japan", a Japanese mentor "Hiroshi Tanaka", Amish mentors by name, a week aboard a Viking longship replica, Chartres "in 2003", and "thirty" and "forty years" of woodworking. Some of it contradicts itself ("back in '98" plus "over the next forty years"). The claims policy keeps all of it out of the narration, and the CTA's true facts come only from the contents (chapters, the 100 secrets, the traditions, what each secret explains).
+- **The extracted text** (to page 80, with page markers) is saved at `drafts/sawdust-sam-book-PARTIAL.md`. It becomes `personas/books/sawdust-sam-book.md` once the full text is in and the book is confirmed.
 
 ---
 

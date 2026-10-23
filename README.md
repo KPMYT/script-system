@@ -89,7 +89,7 @@ Research data: collect and describe only, never edited to fit a conclusion.
 
 ## drafts/
 
-Drafts waiting for the operator's yes go here; nothing in it is part of the library until it's approved and moved. Now: `sawdust-sam-DRAFT.md` (2026-10-23), the relaunch of Sawdust Sam as woodworking for profit the old-world way (pack section, research pack block, persona profile, ideation steering, ten questions; proposals P8 and P9). The plumbing emotion draft was applied on 2026-10-21 (in git history). The plumbing pack itself moved into `plumbing-scripts/` on 2026-10-21.
+Drafts waiting for the operator's yes go here; nothing in it is part of the library until it's approved and moved. Now: `sawdust-sam-DRAFT.md` (2026-10-23), the relaunch of Sawdust Sam as woodworking for profit the old-world way (pack section, research pack block, persona profile, ideation steering, eleven questions; proposals P8 and P9), and `sawdust-sam-book-PARTIAL.md`, the text of Sam's book *The Old Ways* up to printed page 80 (all Drive's extraction gives) with page markers. The plumbing emotion draft was applied on 2026-10-21 (in git history). The plumbing pack itself moved into `plumbing-scripts/` on 2026-10-21.
 
 ## tests/
 
