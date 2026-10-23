@@ -2,7 +2,7 @@
 
 The live note passed from one Claude Code chat to the next. A new chat reads `CLAUDE.md`, then this file, then `HANDOFF.md`, `README.md` and `PINNED.md`, and carries on from "Next actions". The outgoing chat rewrites this file before every handover.
 
-**Last updated:** 2026-10-21, end of session 5 (branch `claude/exciting-lamport-jasm2p`, merged into `main`).
+**Last updated:** 2026-10-23, session 7 (branch `claude/amazing-lamport-08irk0`, merged into `main`). Sessions 6 and 7 are summarised below; session 5's notes follow them.
 
 ---
 
@@ -43,13 +43,47 @@ Learned in session 5:
 ## Branches
 
 - Every chat works on its own `claude/...` branch; `main` is the shared starting point.
-- This chat's branch `claude/exciting-lamport-jasm2p` is merged into `main` at this handover.
+- Session 7's branch `claude/amazing-lamport-08irk0` is merged into `main` at this handover. It carried in two branches that had never reached `main`: `claude/zealous-goldberg-c43er6` (session 6) and `claude/relaxed-faraday-u4j0df` (the Frederick chat, 2026-10-22).
+- Session 5's branch `claude/exciting-lamport-jasm2p` was merged at its handover.
 - **`claude/pensive-gates-4c5yrt` (the parallel chat's woodworking tests iter-01 to iter-03) was merged in this session** with both sides kept (`CHANGELOG.md` has every row of both), so it's in `main` now.
 - Earlier branches are contained in `main`. Leave them.
 
 ---
 
 ## Where things stand
+
+### Session 7 (2026-10-23), in short: two new channels, research first
+
+1. **The operator chose two new channels** (HANDOFF section 3, "Operator decisions, 2026-10-23"):
+   - **Roger the HVAC Guy:** a new channel; Roger the Pipe Guy carries on.
+   - **Frederick Barnes, a new brand:** electrical DIY, electrical safety and fire prevention. This replaces the 2026-10-22 "broad home DIY" direction. His background is open; his book changes.
+2. **Both packs are built from the plumbing pack, later.** Research comes first, in the other repository, **`KPMYT/niche-research`** ("keep niche reserach and scripting in seperate repos"):
+   - two research chats there, one for HVAC and one for electrical and fire prevention, following its `RESEARCH-BRIEF.md`
+   - then conclusions
+   - then, on the operator's call, the ideation skills, base ideation plans and thumbnail plans, also there
+   - then two scripting chats here
+3. **The 2026-10-22 research was recovered.** The "Roger the Pipe Guy sub-brand opportunities" chat never pushed, so its transcript was read in full and saved to niche-research (`recovered/`, `findings/2026-10-22-hvac-and-electrical.md`). Key points, not re-checked:
+   - HVAC is crowded (Ray Dutton's Garage is Roger's model in HVAC; there's also a "John The HVAC Guy").
+   - HVAC runs on distrust of the trade, mistakes and the bill, but not on fear of damage.
+   - Electrical runs on mistakes and "the hidden thing", not on money.
+4. **Two loose ends merged:** session 6 and the Frederick branch (above). All 46 checks pass.
+
+### Session 6 (2026-10-21), in short (branch `claude/zealous-goldberg-c43er6`)
+
+1. **The plumbing emotion draft is applied** (Parts 1-5, each a yes):
+   - "Emotion, all the way through"
+   - the list item shape
+   - Roger's and Mark's CTA template
+   - the judge's six fixes
+2. **Test run 03** (`tests/iterations/iter-04/test-run-03/`) closed most of the emotional gap against run 02 ("you" 21 to 39 per 1,000 words, "but" 1.3 to 6.9, questions 0 to 7).
+3. **The operator's answers to run 03** are applied (HANDOFF section 3):
+   - the mid-video CTA a third in, never before the end of item 3
+   - an outright comment ask at the end
+   - item length a guide, not a cap
+   - "but" to join sentences
+   - the title's word back more often
+   - named-source figures
+4. **The skills were rebuilt and are on the account:** at 2026-10-23 the synced copies match `dist/`, apart from quote marks in the frontmatter.
 
 ### Session 5 (2026-10-21), in short
 
@@ -75,33 +109,32 @@ Learned in session 5:
 
 ### Not yet true
 
-- **The emotion rules, item shape, CTA template and the judge's six fixes aren't applied** (the draft).
-- **No plumbing script has passed the judge yet;** Mark and Vintage haven't been tested.
+- **No plumbing script has passed the judge yet** (run 03 was close; no run 04). Mark and Vintage haven't been tested.
+- **No HVAC or electrical pack, persona or channel entry exists.** The research in niche-research comes first.
+- **Werner's lines** in the plumbing ideation and thumbnails skills are not cleaned up (waits for a yes).
 - **The thumbnails skill** (not in the repo) still says Mark has "no tenure number fixed yet" and Vintage "45 years" (now correct); Werner is still unnamed there and in `core/channels.md` (no profile yet).
 
 ## Open questions for the operator
 
-1. **Parts 3-5 of the draft** (the item shape and length, Roger's and Mark's CTA template, the judge's six fixes): the operator called the analysis "strong and correct" but didn't say yes to each. Ask once.
-2. From session 3, still unanswered: the "title's strongest word" rule; the woodworking ideation and Hank script test outcomes; "avatar + object + text, always" in the woodworking ideation skill.
+1. **Frederick's background** (firefighter, electrician, lineman, none) and **his new book**: after the research.
+2. **Roger the HVAC Guy against Ray Dutton's Garage:** how it stands apart (the 2026-10-22 research suggested old-house heat and the winter bill).
+3. **Whether the new packs need a script transcript study here** (`studies/<niche>/`, as `CLAUDE.md` "Adding a niche" says) on top of the research in niche-research: the scripting chats ask once.
+4. From session 3, still unanswered: the "title's strongest word" rule; the woodworking ideation and Hank script test outcomes; "avatar + object + text, always" in the woodworking ideation skill.
 
 ## Next actions (in order)
 
-1. Check this chat started from `main` (`git fetch origin`, `git log -1 origin/main`).
-2. **Apply the emotion draft** (`drafts/plumbing-emotion-and-cta-DRAFT.md`), after asking once about Parts 3-5:
-   - **Part 1 + the operator's additions:** a new "Emotion, all the way through" section in `plumbing-scripts/SKILL.md`. Villain sporadically throughout, opinion-outrage at big prices ("that is absolutely criminal they charge that much", never a company or a motive), much more "but" inside and between items, the title's emotions reaffirmed throughout, questions.
-   - **Part 2:** the simpler, stronger opening. Check it against the Voice section ("plain beats clever", which stays for wording) and the banned list.
-   - **Part 3:** the item shape and length (about 100-130 words an item in long lists; never more than two hard cuts in a row).
-   - **Part 4:** the CTA order from Roger's hits (after item 2 or 3, about a third in; aside, tied to the help, "one of a hundred fixes", pages, link and QR code, return). Update the "CTAs" section and Roger's and Mark's profiles' "Style and length" (the 20-60 words). It implements the locked "structure their hits used"; log it.
-   - **Part 5:** the six fixes:
-     - the number cap
-     - straight quotes, plus the evidence line from a real scanner run (core `workflow.md`, `greenlight-audit.md`)
-     - `plumbing-scripts/SKILL.md` into the copy-guard files (overrides row, build_skills scanner command, test)
-     - full gas steps
-     - the trade-terms list
-     - "gets backwards" names the belief
-   - Update the scanner block if needed (for example "criminal" must not trip a ban), add tests, update the README map and CHANGELOG, and remove the draft file once its content is in the pack (git keeps it).
-3. **Rebuild, send only the changed skill files** (likely `plumbing-scripts`, `script-writer`, maybe the Roger and Mark persona skills), then **test run 03** on the same title and brief. Judge it against run 02, the original and Roger's hits on the same dimensions as the comparisons.
-4. Then, on the operator's call: tests for Mark and Vintage; the thumbnails skill's tenure lines; Werner Finkbeiner's profile; the remaining iter-00 audit findings.
+1. **Now: the research, in `KPMYT/niche-research`,** not here. Two chats there, one per niche, follow its `CLAUDE.md`, `SESSION-HANDOVER.md` and `RESEARCH-BRIEF.md`. Nothing in this repository changes during the research.
+2. **After the research and the operator's conclusions: two scripting chats here,** one for Roger the HVAC Guy and one for Frederick Barnes. Each:
+   - checks it started from `main`
+   - reads the niche's `CONCLUSIONS.md` in niche-research
+   - asks question 3 above
+   - builds the niche pack from `plumbing-scripts/` ("Adding a niche" in `CLAUDE.md`)
+   - builds the persona profile
+   - adds tests
+   - adds the channel to `core/channels.md`
+
+   Every rule and skill change is shown to the operator first. The two chats keep to their own pack folders; shared files get one row each, and both sides are kept on merge.
+3. **On the operator's call:** plumbing test run 04; tests for Mark and Vintage; the thumbnails skill's tenure lines; Werner's cleanup; the remaining iter-00 audit findings.
 
 ## Active channels (confirmed by the operator, 2026-10-19)
 
@@ -112,12 +145,13 @@ The spellings here are correct; where a skill differs, the skill has the typo.
 | Roger The Pipe Guy | plumbing (45 years) | |
 | Mark Silverbridge | plumbing (40 years) | |
 | Vintage Pipefitter | plumbing (45 years) | |
-| Werner Finkbeiner | plumbing ("the German way") | fixed in plumbing ideation (session 5); check the thumbnails skill |
+| Werner Finkbeiner | **stopped** (2026-10-22) | his lines still in plumbing ideation and the thumbnails skill |
 | Dale Oakfield | woodworking for profit | |
 | Hank Hardwood | woodworking for profit | |
 | Norbert Daniels | home security: the retired Locksmith | |
 | Lance Kavanaugh | home security: the Navy veteran | |
-| Frederick Barnes | home security: the retired Fireman | |
+| Frederick Barnes | **moving to electrical DIY, electrical safety and fire prevention** (2026-10-23; was home security, the retired Fireman); background open | |
+| Roger the HVAC Guy | **new** (2026-10-23): HVAC, Roger's persona and triggers | |
 | Scarlet Sterling | style (50+ women): the affluent American | "Scarlett" |
 | Diane de Chambray | style: "the French way" | |
 | Helena Hart | air travel: the former flight attendant | air-travel skill says "name TBC" |
