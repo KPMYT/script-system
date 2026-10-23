@@ -252,7 +252,7 @@ check("20. once-per-script phrases from a niche pack: one use passes, a second u
 
 # ---- the plumbing pack (step 4, 2026-10-21) ----
 PLR=f"{PL}/SKILL.md"; ROGER=f"{PERS}/roger-the-pipe-guy.md"; MARK=f"{PERS}/mark-silverbridge.md"; VINT=f"{PERS}/vintage-pipefitter.md"
-PL_REFS=[f"{PL}/references/excerpts.md", f"{PL}/references/voice-samples.md"]+sorted(glob.glob(f"{PL}/references/models/*.md"))
+PL_REFS=[PLR, f"{PL}/references/excerpts.md", f"{PL}/references/voice-samples.md"]+sorted(glob.glob(f"{PL}/references/models/*.md"))
 
 # 21. plumbing inputs block parses: title, brief and rotation log required, the research pack not used
 sk=open(PLR).read()
@@ -264,17 +264,17 @@ check("21. plumbing inputs block: 4 well-formed inputs, research pack not used",
 
 # 22. the plumbing scanner block: every ban fires, once-limits fail on the second use, a clean plumbing paragraph passes
 clean_pl=textwrap.dedent("""\
-One cup of washing soda, stirred into hot tap water, clears the slow kitchen drain most homeowners pay a plumber to snake.
+One cup of washing soda, stirred into hot tap water, clears the slow kitchen drain you keep paying somebody to snake.
 
 A drain call for that usually starts around a hundred and fifty dollars. A box of washing soda runs about five to seven dollars and gives you close to a dozen treatments.
 
 It won't touch a hair clog in the bathroom. That's a different job, and number four handles it.
 
-Number four is the two-dollar tool that pulls the hair out in one go. And the last one is the rule that keeps all of this safe on old cast-iron pipe.
+Number four is the two-dollar tool that pulls the hair out in one go. And the final item keeps every bit of this safe on your old cast-iron line.
 
-Number one. Stir one cup of washing soda into two or three cups of hot tap water until it's clear. Pour it in slowly and leave it six to eight hours. If the water runs out fast in the morning, you're done.
+Number one. Stir one cup of washing soda into about three cups of hot tap water until it's clear. Pour it in slowly and leave it six to eight hours. If the sink empties fast in the morning, you're done.
 
-Tell me how old your house is and which drain gives you the most grief. I read every one.
+What's the oldest pipe in your basement, and which sink backs up first at your place? I read every one.
 """)
 planted={"first-person test claim":"I tested all three on a slow sink.","first-person demonstration":"Now watch me pour it in.",
          "pointing at the screen":"Look at the trap on the left before you start.","template stock line: the economics aside":"It's not a scam, it's just economics.",
@@ -312,8 +312,8 @@ for f in PL_REFS:
 code,out=run_scan("\n\n".join(g.capitalize()+"." for _,g in lifted)+"\n",[PLR],refs=PL_REFS)
 uncaught=[n for n,_ in lifted if f"COPIED FROM REFERENCE: {n}]" not in out]
 code2,out2=run_scan(clean_pl,[PLR,ROGER],refs=PL_REFS+[ROGER])
-check("24. copy guard: the clean plumbing paragraph passes against excerpts, voice samples and all model files; a line from each is caught",
-      len(PL_REFS)>=41 and not nolift and not uncaught and code==1 and code2==0 and "COPIED" not in out2,
+check("24. copy guard: the clean plumbing paragraph passes against the pack's SKILL.md, excerpts, voice samples and all model files; a line from each is caught",
+      len(PL_REFS)>=42 and not nolift and not uncaught and code==1 and code2==0 and "COPIED" not in out2,
       f"refs={len(PL_REFS)} no line found in {nolift}; not caught {uncaught}; "+out2[:400])
 
 # 25. the plumbing profiles give the scanner their fixed facts
@@ -408,6 +408,42 @@ nocheck=[l for l in rows if l.rstrip(" |").split("|")[-1].strip() not in ("confi
 check("36. price guide: 100+ rows, none in cents, each marked confirmed / adjusted / thin / in words; the plumbing pack and its scanner line use it",
       len(rows)>=100 and not cents and not nocheck and "references/price-guide.md" in open(PLR).read()
       and "price-guide.md" in open(f"{ROOT}/tools/build_skills.py").read(), f"rows={len(rows)} cents={cents[:3]} nocheck={nocheck[:3]}")
+
+# ---- the emotion draft applied (2026-10-21, after plumbing test run 02) ----
+# 37. the plumbing pack carries the emotion section, the list item shape, the CTA template, the number cap, the gas steps,
+#     the trade terms and the myth flag's belief; Roger's and Mark's profiles carry the new CTA; the scanner command guards SKILL.md
+sk=open(PLR).read()
+need=["## Emotion, all the way through","### The item shape in lists","about 100-130 words","**The number cap**",
+      "figures on no more than about half the items","never before the end of item 3","about 60-80 words","an outright ask to leave a comment",
+      "When the script names a source, its figure is said as the source gives it","as long as nothing in it is fluff",
+      "the gas-leak row of `references/price-guide.md` section 9","no flame, no car",
+      "psi, trap, P-trap, jetting, relining, anode rod, cleanout, PRV","names the belief it flips","absolutely criminal",
+      "this file (`SKILL.md`)","much more of it, inside items and between them"]
+miss=[n for n in need if n not in sk]
+prof_bad=[os.path.basename(p) for p in (ROGER,MARK) if "20-60" in open(p).read() or "about 60-80 words, about a third of the way in, never before the end of item 3" not in open(p).read()]
+bs=open(f"{ROOT}/tools/build_skills.py").read()
+check("37. plumbing pack: emotion, item shape, CTA template (a third in, not before item 3), comment ask, number cap, named-source figures, gas steps, trade terms, myth flag; Roger and Mark profiles; SKILL.md in the scanner's --refs",
+      not miss and not prof_bad and "--refs <plumbing-scripts>/SKILL.md" in bs and "20-60" not in sk, f"missing {miss}; profiles {prof_bad}")
+
+# 38. the outrage line: "criminal" trips no ban, the operator's phrase passes once and fails on the second use (rotate it);
+#     a line lifted from the pack's own opening example is caught by the copy guard
+code,out=run_scan("A new sewer line can run into the thousands. That is absolutely criminal, for a pipe in the ground.\n",[PLR,ROGER])
+code2,out2=run_scan("That is absolutely criminal.\n\nAnd that is absolutely criminal too.\n",[PLR,ROGER])
+code3,out3=run_scan("That slow flush you keep ignoring? It can end with a crew digging up your front yard.\n",[PLR,ROGER],refs=PL_REFS+[ROGER])
+code4,out4=run_scan("On the high end, this can run up to $15,000. It can cost you anywhere from $300 to $600, depending on where you live and how bad it's got.\n\n"
+                    "If you smell gas, get everybody out of the house right now and walk away upwind. Don't flip a light switch, don't use the phone inside, "
+                    "don't light a match and don't start the car. Once you're well down the street, call 911 and the gas company yourself. "
+                    "Don't go back in until they tell you it's safe, and let them turn the gas back on and relight the pilots. Some people can't smell it at all.\n\n"
+                    "Tell me which drain gives you trouble every winter. I read every one.\n",[PLR,ROGER],refs=PL_REFS+[ROGER])
+check("38. 'absolutely criminal' passes once and is limited to once; the pack's own example lines are under the copy guard, but its range wording, the gas steps in fresh words and 'I read every one' are not flagged",
+      code==0 and code2==1 and "absolutely criminal] used 2 times" in out2 and code3==1 and "COPIED FROM REFERENCE: SKILL.md]" in out3
+      and "COPIED" not in out4, out[:300]+out2[:300]+out3[:300]+out4[:600])
+
+# 39. core: straight quotes, and the scanner line comes from a real run on the delivered text (or says "checked by hand")
+wf=open(f"{CORE}/workflow.md").read(); ga=open(f"{CORE}/greenlight-audit.md").read()
+check("39. core: straight quotes before the final scan; the Scanner evidence line is a real run on the delivered text or 'checked by hand'",
+      "**Straight quotes and apostrophes only**" in wf and "Run it last on the exact text that will be delivered" in wf
+      and "Scanner: [run on the delivered text | checked by hand]" in ga and "never reports a count it didn't measure" in ga)
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

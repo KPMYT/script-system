@@ -37,8 +37,8 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 
 | File | What's in it |
 |---|---|
-| `SKILL.md` | All plumbing rules, approved by the operator (2026-10-21): where the pack overrides the core (one table), inputs (title and brief; no research pack), the viewer, the villain, the opening, point then promise, promise devices, the ten video types with their models, using the models (never a copy), CTAs, the ending (comment line last), length (12 minutes minimum), voice, proof, money framing, safety (the brief wins), the banned list, the scanner block and the before-handing-over checklist. |
-| `references/unit-plan-template.md` | The plan filled in from the title and brief before writing, with a MODELS block. |
+| `SKILL.md` | All plumbing rules, approved by the operator (2026-10-21): where the pack overrides the core (one table), inputs (title and brief; no research pack), the viewer, the villain (all the way through, with disgust at big prices), the opening, emotion all the way through, point then promise, promise devices, the ten video types with their models and the list item shape, using the models (never a copy), CTAs (Roger's and Mark's six-part mid-video ask after item 2 or 3), the ending (comment line last), length (12 minutes minimum), voice, proof, money framing, safety (the brief wins), the banned list, the scanner block and the before-handing-over checklist. |
+| `references/unit-plan-template.md` | The plan filled in from the title and brief before writing, with MODELS and EMOTION blocks. |
 | `references/price-guide.md` | Typical US prices (October 2026) for about 140 jobs, parts, damage costs and shelf items, plus the safety facts and settings, each marked confirmed, adjusted, thin or "in words". Researched by four helpers and re-checked by four others against different sources; the evidence is in `studies/plumbing/price-research-2026-10/`. The script uses it for any price the brief doesn't give, always as an estimate. |
 | `references/voice-samples.md` | Three verbatim stretches of real human narration (Got2Learn, Silver Cymbal, Roger Wakefield): the voice anchor. |
 | `references/excerpts.md` | 204 lines in 16 groups by job, tagged [real] or [structure only], with source, timestamp and views against normal. |
@@ -88,11 +88,11 @@ Research data: collect and describe only, never edited to fit a conclusion.
 
 ## drafts/
 
-Drafts waiting for the operator's yes go here; nothing in it is part of the library until it's approved and moved. Open now: `plumbing-emotion-and-cta-DRAFT.md` (emotion all the way through, the list item shape, Roger's and Mark's CTA template, and the judge's six fixes, from test run 02; waiting for the operator's yes). The plumbing pack itself moved into `plumbing-scripts/` on 2026-10-21.
+Drafts waiting for the operator's yes go here; nothing in it is part of the library until it's approved and moved. Empty now: the plumbing emotion draft was applied on 2026-10-21 (in git history). The plumbing pack itself moved into `plumbing-scripts/` on 2026-10-21.
 
 ## tests/
 
-`run_checks.py`: 43 automated checks across the whole library, including the copy guard, the fraction-word scanner check, the "e-book" ban on every profile, and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over every model file, the plumbing profiles and the channel list). Run it after any edit.
+`run_checks.py`: 46 automated checks across the whole library, including the copy guard, the fraction-word scanner check, the "e-book" ban on every profile, and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over its own SKILL.md and every model file, the emotion rules, item shape, CTA template and number cap, the plumbing profiles and the channel list), and the core's straight-quotes and real-scanner-line rules. Run it after any edit.
 
 ## tests/iterations/
 

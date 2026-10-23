@@ -198,6 +198,17 @@ From the judge's report and three comparisons of test run 02 (`tests/iterations/
 - **Questions to the viewer:** yes.
 - **Roger is Classic** (no CTA markers): "YOU ARE RIGHT. ROGER IS CLASSIC I AM WRONG."
 - **The hook:** an earlier ask for "more exagerations" was refined to the above; worst-case stakes are not the point.
+- **Parts 3-5 of the draft, yes to each (session 6, 2026-10-21, asked once):** the list item shape (scene, what's happening, cost once, the turn, the fix, the win; about 100-130 words an item in lists of 10 or more; never more than two items without a bridge); Roger's and Mark's mid-video CTA in the shape their hits used (after item 2 or 3, about 60-80 words: aside, tied to the help, the book has the rest with pages, one benefit, link and QR code, return), which implements the locked "structure their hits used" above and replaces the pack's "20-60 words after the first payoff"; and all six of the judge's fixes (the number cap: one figure per item, figures on about half the items, one in the opening; straight quotes and a real scanner line, in the core; the plumbing pack's own SKILL.md under the copy guard; every gas-leak step; the trade-terms list; a myth flag names its belief). All applied to `plumbing-scripts/`, the two profiles and the core the same day.
+- **After test run 03 (2026-10-21), the operator's answers to the judge's findings:**
+  - Curly quotes: "ignore". Reading: no rule change and no new fix; judges don't hold them against a script. (The straight-quotes line from Part 5 stays in the core; ask before removing it.)
+  - Item length: "his ones is fine if it runs a bit longer. as long as its not fluff." 100-130 words stays the guide; a bit longer is fine; no enforcement added.
+  - Long sentences: no rule; "sentences can and should be joined SOMETIMES with But to keep a narrative flowing."
+  - The opening's length, and the pack's example lines being echoed in short phrases: fine as they are.
+  - The title's word and feeling: referred to more, "in one way or another", "not every item", never robotic or repetitive.
+  - The mid-video CTA: "push it out a bit later": about a third of the way in, never before the end of item 3 (after item 4 or 5 in a list of 15).
+  - The ending: "the outro call to action didnt actually say to comment. it was too abrupt." The comment ask now turns to the viewer, asks outright for a comment, then the question and "I read every one" (two or three sentences).
+  - A named source keeps its exact figure, "only if the script names the source in it which shouldnt happen often".
+- **Reading recorded:** where the item length and the 12-minute minimum collide (a list of 10 or 11 items), the minimum wins: items run a little longer with real value, never padding. The operator's "absolutely criminal" is limited to once per script so the outrage line is reworded each time.
 
 ### Rejected, so they don't come back
 
