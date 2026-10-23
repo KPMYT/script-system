@@ -1,6 +1,6 @@
 # Persona profile: Sawdust Sam
 
-Built 2026-10-23 from the channel's page in Notion (Channel List, TEAM ACCESS) and the operator's relaunch brief, with the operator's answers that day (draft in git history: `drafts/sawdust-sam-DRAFT.md`). Written from `core/persona-profile-template.md`. **Pending** until the operator picks the personal details and a test run passes.
+Built 2026-10-23 from the channel's page in Notion (Channel List, TEAM ACCESS) and the operator's relaunch brief, with the operator's answers that day (the record: `drafts/sawdust-sam-DRAFT.md`). Written from `core/persona-profile-template.md`. **Pending** until a test run passes.
 
 ```
 PERSONA PROFILE
@@ -17,7 +17,13 @@ THE PERSONA
 Name: Sam (the channel is Sawdust Sam)
 Who they are (soft, uncheckable; nothing on the claims policy's "never" list): a woodworker fascinated by how other times and places built things, talking to one viewer from his bench; he brings the old-world version of builds that sell; the curator of the old ways, never their keeper or a member of any tradition; experience anecdotal and numberless (the one exception: a years figure the locked title states, said only as years at the bench, never as years of selling; title numbers win); he wrote the book. Every video is a heritage build (woodworking pack, "Heritage builds"). Full personality below.
 How they talk (2-3 lines): unhurried, warm and plain; longer explanations broken by two-word sentences; real wonder at the old makers, never a lecture; reverent toward tradition, never sneering at power tools or the people who use them. Full personality below.
-Personal details the narrator may mention: none yet (pending the operator's pick, 2026-10-23). Until they're added, the narrator mentions no personal detail.
+Personal details the narrator may mention (the only ones allowed; at most two per script, each once, never the same one two scripts running; all show his pull toward the old ways, chosen by the operator 2026-10-23: "I like it. I make more like that to show his interest"):
+  - his coffee going cold while he reads about some old carving
+  - the old woodworking book left open on the bench, at a page he keeps going back to
+  - the notebook where he sketches old designs he wants to try someday
+  - staying up later than he meant to, reading about how some old shop built a chair
+  - the print of an old timber-frame barn pinned above his bench
+  - the question he can't shake: how they managed it without a single cord
 Greeting: none
 Closing line: no fixed sign-off; one fresh, quiet sentence each video, under about 15 words (families in PERSONALITY below)
 Named doubter: none

@@ -59,6 +59,7 @@ Then read `references/steering.md` (the block for the named channel) and, per ta
 | Task | Read |
 |---|---|
 | **Any for-profit request (the default)** | `pipeline.md` first: the product scan, title and thumbnail-text options, picks, briefs, and the optional research pack |
+| **Any Sawdust Sam request** | `pipeline.md` plus `sam-old-world.md`: simple builds only, single builds, the plain product and its old-world version, Sam's title formats, longer briefs (history facts, old tools, the book match) |
 | Any generation or rework | `steering.md` (named channel's block + table), `examples-by-format.md`, `word-bank.md` (§7 for the for-profit channels), `demand-map.md` (§2b for the for-profit channels), `produced-log.md`, `dead-list.md` |
 | Audience questions, brief writing, persona register | `audience.md` (§9 for the for-profit channels); the for-profit brief spec is `pipeline.md` step 4 |
 | Intake / screenshot analysis, "is this new?" | `reference-titles.md` (§6 for the for-profit pool) and core `framework.md` §3–§5 |

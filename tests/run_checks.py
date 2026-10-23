@@ -477,6 +477,15 @@ passes=[l for l in ("Grab it with the QR code on screen or the top link in the d
 check("42. Sam's scanner: invented trips, encounters, teachers, 'scientists now say' and a years figure fail; his CTA wording and plain lines pass",
       not fails and not passes, f"not failing: {fails}; not passing: {passes}")
 
+# 43. Sam's ideation: the simple-build filter, single builds, the operator's title formats and the longer brief, wired into the pipeline
+so=f"{ROOT}/ideation/woodworking-ideation/references/sam-old-world.md"
+sot=open(so).read() if os.path.isfile(so) else ""
+need=["## 1. Simple builds only","**Single builds to begin with**","`Simple build?`","But They Never Sell Them","You Can Sell It for $[high]",
+      "about 800 to 1,200 words","6b. **History facts:**","6c. **Old tools and methods:**","11. **The book match:**","2b. **The build in outline:**"]
+check("43. Sam's ideation file: simple builds, single builds, title formats, longer briefs; the pipeline and SKILL.md point to it",
+      not [n for n in need if n not in sot] and "sam-old-world.md" in open(f"{ROOT}/ideation/woodworking-ideation/references/pipeline.md").read()
+      and "sam-old-world.md" in open(f"{ROOT}/ideation/woodworking-ideation/SKILL.md").read(), str([n for n in need if n not in sot]))
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")
