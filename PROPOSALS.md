@@ -84,3 +84,23 @@ The study supports the narrow form of both: a tenure stated the same way every t
 **Open question for the operator:** may the script also add typical price ranges from general knowledge when the brief gives none (option B), or are filled-in costs always said in words (option A, recommended: fewer numbers, and no out-of-date prices for viewers to dispute)?
 
 **Status:** approved by the operator on 2026-10-21: "yes agree for all. and also the cost should always be estimated tho. never to the cents amount." Applied with one change from option A/B: a price the brief doesn't give comes from a researched price guide (`plumbing-scripts/references/price-guide.md`, each figure checked against two or more sources and re-checked), always said as an estimate, never to the cent.
+
+## P8. Heritage history without sources, for Sawdust Sam (opened 2026-10-23)
+
+**Decision (HANDOFF.md section 3, FacelessOS rebuild, and `core/research-and-sourcing.md` §2, §5):** "facts are always verified"; stories count as facts; verify or cut. The woodworking ideation skill adds "cultural authenticity is a hard floor... no invented dates, 'banned' stories, or fake lineage" for Sam.
+
+**Evidence:** the operator's ask for the relaunched Sawdust Sam (2026-10-23): "we should also potnetially include sams fascination with the foreign and historic approaches and designs... they will be less built and based on facts and clear sources". On the other side: about 40% of Dale's and Hank's comments were "AI" or "fake" remarks (HANDOFF §4), and Sam's old uploads leaned on invented authority ("10 BANNED Viking Woodworking Tricks That Scientists Now Say Were GENIUS").
+
+**Proposal (option A in `drafts/sawdust-sam-DRAFT.md`, Part 2):** in heritage builds only, the narrator's history beats may say general, well-known history plainly, with a hedge on anything less sure, without a source in the research pack. Never a specific date, named person, figure, "banned" story or "scientists now say" unless the brief or pack carries it with its source. Every build fact (prices, measurements, steps, safety) stays verified. Options B (anything goes) and C (no change) are in the draft.
+
+**Status:** open, for the operator.
+
+## P9. Proof from the plain product for heritage builds (opened 2026-10-23)
+
+**Decision (HANDOFF.md section 3, from the woodworking study):** "Proof is always researched online listings, worded honestly", and the research stage flags back any title claim it can't support (`core/research-and-sourcing.md` §10).
+
+**Evidence:** the operator (2026-10-23): "we take for example the concept that a lamp works and sells. and we are making the assumption that the viking lamp would also sell the same way." Listings for an old-world version of a product often won't exist.
+
+**Proposal (`drafts/sawdust-sam-DRAFT.md`, Part 2, decision 2):** for a heritage build, the research pack proves the plain product with its listings, and uses the heritage version's own listings where they exist. Where they don't, the narration gives the plain product's range honestly ("wooden lamps like this list between..."), the price is the narrator's opinion inside it, the heritage angle is opinion only, and a title claim about the heritage version counts as supported by the plain product's listings. The assumption is recorded in the pack's HERITAGE block, never stated as fact in narration.
+
+**Status:** open, for the operator.
