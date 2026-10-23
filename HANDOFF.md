@@ -227,6 +227,12 @@ From the judge's report and three comparisons of test run 02 (`tests/iterations/
 - **Repositories:** "keep niche reserach and scripting in seperate repos". The niche research (which niches, competitors, audience size, framing) lives in `KPMYT/niche-research`. The 2026-10-22 research was recovered there (`findings/2026-10-22-hvac-and-electrical.md`). The operator's plan: "we can setup 2 research chats under niche research, then we take findinds conclude them and move to working on the scripting in the other repo. (the niche research can also include building the ideation skills and the base ideation + thumb plans)". Whether a pack also needs a script transcript study here (`studies/<niche>/`) is for the scripting chats to ask.
 - **Skills:** "never change skills without me knowing. or approving. you always default to me" (the standing rule, restated).
 
+### Operator decisions, 2026-10-23 (Sawdust Sam relaunch)
+
+- **Sawdust Sam relaunches as woodworking for profit, the old-world way:** "the same topics angles and spins as the normal woodworking for profit, but take an ancient approach to it... the core structure of the videos should be the same", with Sam's fascination with foreign and historic approaches and designs as a core part of his personality, "still very direct and very tutorial based". The draft is `drafts/sawdust-sam-DRAFT.md`; two parts of the ask wait on proposals P8 (history without sources) and P9 (proof from the plain product).
+- **The keys:** "we will do a lot of japanese, forgotton, amish, asian - we will be testing more but those are the bulk."
+- **The book stays as it is:** *The Old Ways* ("the book can remain as is"). Its author story (named mentors, trips, years) still never goes in a script; CTAs use only its contents.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.
