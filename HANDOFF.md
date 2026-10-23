@@ -210,6 +210,13 @@ From the judge's report and three comparisons of test run 02 (`tests/iterations/
   - A named source keeps its exact figure, "only if the script names the source in it which shouldnt happen often".
 - **Reading recorded:** where the item length and the 12-minute minimum collide (a list of 10 or 11 items), the minimum wins: items run a little longer with real value, never padding. The operator's "absolutely criminal" is limited to once per script so the outrage line is reworded each time.
 
+### Operator decisions, 2026-10-22 (Frederick Barnes and Werner)
+
+- **Werner Finkbeiner is stopped:** "werner is killed. dead channel now." His lines in the plumbing ideation skill (the German-way re-makes and his HVAC, energy, mold, pest and home-DIY probe lane) and in the thumbnails skill are not cleaned up yet; that waits for the operator's yes.
+- **Frederick Barnes moves to broad home DIY,** no longer framed as a firefighter: "I guess we could turn frederick into a broad DIY guy"; "we wouldnt even really frame it to be like a firefighter anymore". Overlap with the plumbing channels is fine: "i dont care for overlaps."
+- **His emotional targets are plumbing's,** on the Silver Cymbal model (asked for confirmation; the evidence is in `studies/plumbing/comparison/02-competitors.md` §2.1 and `05-emotions.md`). Not yet decided: his authority line now the firefighter framing is gone, the offer (the current book, *Prevent The Burning*, is fire-only), length, and the pack (a home-DIY pack modelled on the plumbing pack, after a competitor study).
+- **Baseline saved:** his 23 pre-library scripts, views and an analysis are in `studies/home-diy/frederick-baseline-2026-10/`.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.
