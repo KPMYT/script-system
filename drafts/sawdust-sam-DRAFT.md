@@ -1,6 +1,6 @@
 # DRAFT: Sawdust Sam, woodworking for profit the old-world way
 
-**Status:** a draft for the operator to check. Nothing in it is in the library yet. Each part gets applied only after the operator says yes to it (the standing rule: "never change skills without me knowing. or approving").
+**Status:** applied on 2026-10-23 after the operator's answers (P8 yes, P9 yes, Talking Head, 8-minute floor, swearing on, Hank's CTA structure with the QR code, overlap fine, the book as is, keys Japanese / Amish / Asian / forgotten). Still open: question 8, his personal details. The library's versions are the live ones; this file is the record.
 
 **The operator's ask (2026-10-23):**
 > "This channel will be Sawdust Sam who will now take the same topics angles and spins as the normal woodworking for profit, but take an ancient approach to it. the core structure of the videos should be the same but we should also potnetially include sams fascination with the foreign and historic approaches and designs. this could become a core part of his personality. so we can add a little more onto these scripts. they are still very direct and very tutorial based. they will be less built and based on facts and clear sources as we take for example the concept that a lamp works and sells. and we are making the assumption that the viking lamp would also sell the same way."

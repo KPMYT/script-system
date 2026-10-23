@@ -16,6 +16,15 @@ Source of the design and cut list:  [plan name, site, URL]
 Finished size:
 Pieces per batch:                  [how many one board or batch yields]
 
+HERITAGE                           [heritage builds only; woodworking SKILL.md, "Heritage builds"]
+- plain product the money block proves:        [e.g. wooden table lamp]
+- heritage key:                                [Japanese / Amish / Asian (name the style) / forgotten / other]
+- listings for the heritage version:           [3-5 if they exist, same fields as LISTINGS] | none found
+- the assumption, if none found:               "the heritage version is assumed to sell like the plain product" (operator, 2026-10-23)
+- design features that make it heritage-style: [the shape, the joint, the pattern], each a visible object for the visuals
+- old tools or methods to offer as options:    [one line each, with the basic-kit way]
+- heritage beats (3-6 ideas):                  [one line each, tied to a step; general history, hedged; any date, name or figure with its source]
+
 MATERIALS                          [one line each]
 - item | size/spec | qty | store | price | date checked | URL
 - consumables: glue, screws/nails, finish, sandpaper, hardware -> cost per piece

@@ -39,6 +39,8 @@ The script stage never adds facts the pack doesn't contain.
 - stories and quotes
 - anything stated as fact about a real company, person or product
 
+**One exception, set by a niche pack:** the woodworking pack's heritage builds may say general, well-known history without a source, hedged where less sure, and never a specific date, name, figure or "banned" story without one (P8, operator 2026-10-23; woodworking `SKILL.md`, "Heritage builds"). For a heritage build, the plain product's listings can prove the money (P9).
+
 **Framing may be exaggerated, within limits:**
 - emotional stakes, and how big a problem feels
 - an industry or category cast as the villain ("the big stores would rather you didn't know this")

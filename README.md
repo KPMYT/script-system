@@ -25,7 +25,7 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 
 | File | What's in it |
 |---|---|
-| `SKILL.md` | All woodworking-for-profit rules: inputs, freshness, viewer, skeleton, steps, length, money math, proof, where to sell, safety, voice, AI-visual writing, banned list, scanner rules. |
+| `SKILL.md` | All woodworking-for-profit rules: inputs, freshness, viewer, skeleton, steps, length, heritage builds (old-world styles: heritage beats, general hedged history, proof from the plain product; 2026-10-23), money math, proof, where to sell, safety, voice, AI-visual writing, banned list, scanner rules. |
 | `references/research-pack-template.md` | What a woodworking research pack must contain. |
 | `references/unit-plan-template.md` | The plan filled in before writing, so length comes from the content. |
 | `references/voice-samples.md` | Three real narration samples from winning competitors: the voice anchor. |
@@ -52,7 +52,7 @@ Copies of the operator's claude.ai ideation skills, brought in to be edited here
 
 | Folder | What's in it |
 |---|---|
-| `woodworking-ideation/` | The woodworking ideation skill, edited 2026-10-20: Hank and Dale only (both on camera, single builds), titles may exaggerate freely, and the new for-profit pipeline in `references/pipeline.md` (Etsy-first product scan of 30, title and thumbnail-text options, picks, fact-bank briefs, optional research pack). It's an overlay on `ideation-core`. |
+| `woodworking-ideation/` | The woodworking ideation skill, edited 2026-10-20 (Hank and Dale) and 2026-10-23 (Sawdust Sam relaunched: old-world builds for profit, steering §3 and his thumbnail block): all on camera, single builds, titles may exaggerate freely, and the new for-profit pipeline in `references/pipeline.md` (Etsy-first product scan of 30, title and thumbnail-text options, picks, fact-bank briefs, optional research pack). It's an overlay on `ideation-core`. |
 | `plumbing-ideation/` | The plumbing ideation skill, copied from the account 2026-10-21 and edited: Mark's fixed 40 years, Vintage's 45, "Finkbinder" corrected to Finkbeiner (outside the archive), and a brief rule so every item carries its cost and the right way. An overlay on `ideation-core`. |
 | `ideation-core/` | The shared ideation base (format bank, rules, audience profiles), an unchanged copy kept so it can be installed on VA accounts. Not edited. |
 
@@ -74,6 +74,8 @@ One persona profile per channel, written from `core/persona-profile-template.md`
 | `dale-oakfield.md` | Dale Oakfield's Workshop's profile: settings, the grandfather detail, the approved personality, the Bertha-style CTA rules, and his ending. |
 | `books/hank-hardwood-book.md` | The full text of Hank's ebook, "100 Ways to Make Your First $1,000 with Woodworking", with a marker for every page (PDF page and printed page), a chapter page map and an index of all 100 builds. Used to find which pages cover a video's topic for the CTA, and which facts a CTA may state about the book. |
 | `books/dale-oakfield-book.md` | The same for Dale's ebook, "The Ultimate DIY Woodworking Guide", with a chapter page map (the book prints no page numbers, so it uses PDF pages). |
+| `sawdust-sam.md` | Sawdust Sam's profile (built 2026-10-23, **pending** until his personal details are picked and a test run passes): woodworking for profit the old-world way (every video a heritage build), Talking Head, 174 words a minute, the Jon voice, Hank's CTA structure (two short CTAs naming the QR code and the top link) for *The Old Ways*, and scanner bans on invented trips, encounters and teachers. |
+| `books/sawdust-sam-book.md` | The text of Sam's book *The Old Ways* to printed page 80 (all Drive's extraction gives), with a chapter page map, the secrets by style (Japanese, Amish, Chinese and the rest) and a secret index; CTAs cite nothing past page 80. |
 | `roger-the-pipe-guy.md`, `mark-silverbridge.md`, `vintage-pipefitter.md` | The three plumbing profiles, approved 2026-10-21, ready since the plumbing pack entered the library: settings, voices, fixed tenures 45/40/45, the personality kept close to Notion, CTA rules (Roger and Mark: a short mid-video book ask and a one-line end reminder, naming the link and the QR code; Vintage: a one-line subscribe ask), and scanner blocks (Mark's also bans contractions). |
 | `books/roger-the-pipe-guy-book.md`, `books/mark-silverbridge-book.md` | Roger's "100 Old-House Fixes That Save You Thousands" (124 pages, 100 fixes) and Mark's "50 Easy Plumbing Fixes That Will Save You $10,000" (122 pages, 50 fixes), with printed page markers, chapter maps and fix indexes. |
 
@@ -89,7 +91,7 @@ Research data: collect and describe only, never edited to fit a conclusion.
 
 ## drafts/
 
-Drafts waiting for the operator's yes go here; nothing in it is part of the library until it's approved and moved. Now: `sawdust-sam-DRAFT.md` (2026-10-23), the relaunch of Sawdust Sam as woodworking for profit the old-world way (pack section, research pack block, persona profile, ideation steering, eleven questions; proposals P8 and P9), and `sawdust-sam-book-PARTIAL.md`, the text of Sam's book *The Old Ways* up to printed page 80 (all Drive's extraction gives) with page markers. The plumbing emotion draft was applied on 2026-10-21 (in git history). The plumbing pack itself moved into `plumbing-scripts/` on 2026-10-21.
+Drafts waiting for the operator's yes go here; nothing in it is part of the library until it's approved and moved. Now: `sawdust-sam-DRAFT.md` (2026-10-23), the Sawdust Sam relaunch draft, applied the same day except his personal details (question 8), which wait for the operator's pick; kept as the record of the questions and evidence. The plumbing emotion draft was applied on 2026-10-21 (in git history). The plumbing pack itself moved into `plumbing-scripts/` on 2026-10-21.
 
 ## tests/
 

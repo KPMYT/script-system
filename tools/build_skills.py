@@ -43,6 +43,7 @@ The script system is split into separate skills, one per layer. They're all inst
 | the niche pack `woodworking-scripts` | the **woodworking-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder |
 | the persona profile `personas/hank-hardwood.md` | the **hank-hardwood-persona** skill: its `SKILL.md` is the profile |
 | the persona profile `personas/dale-oakfield.md` | the **dale-oakfield-persona** skill: its `SKILL.md` is the profile |
+| the persona profile `personas/sawdust-sam.md` | the **sawdust-sam-persona** skill: its `SKILL.md` is the profile |
 | the niche pack `plumbing-scripts` | the **plumbing-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder (with `references/models/`) |
 | the persona profile `personas/roger-the-pipe-guy.md` | the **roger-the-pipe-guy-persona** skill: its `SKILL.md` is the profile |
 | the persona profile `personas/mark-silverbridge.md` | the **mark-silverbridge-persona** skill: its `SKILL.md` is the profile |
@@ -89,6 +90,7 @@ Eleven skill files, one per layer (`script-writer` also comes as `script-writer.
 | `woodworking-scripts.skill` | Niche | The woodworking-for-profit rules (structure, money block, proof, safety, voice) and the research-pack template. | **Replace** the copy on the account (delete it, upload this). |
 | `hank-hardwood-persona.skill` | Channel | Hank's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
 | `dale-oakfield-persona.skill` | Channel | Dale's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
+| `sawdust-sam-persona.skill` | Channel | Sawdust Sam's profile, CTA rules and book (pages 1-80). Pending: START won't script Sam until the operator marks him ready. | **New:** upload it. |
 | `plumbing-scripts.skill` | Niche | The plumbing rules (inputs: title and brief, the opening, promises, the ten video types, CTAs, the ending, length, voice, proof, money, safety), the 38 model scripts and the copy guard's files. | **Replace** the copy on the account (delete it, upload this). |
 | `roger-the-pipe-guy-persona.skill` | Channel | Roger's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
 | `mark-silverbridge-persona.skill` | Channel | Mark's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
@@ -102,7 +104,7 @@ All of the script skills must be installed together: `script-writer` stops with 
 ## Steps
 
 1. **Delete** the old copies of `plumbing-ideation`, `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona` and `vintage-pipefitter-persona`.
-2. **Upload all ten from this build together**: those nine and `script-writer` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
+2. **Upload all eleven from this build together**: those nine, `script-writer` and the new `sawdust-sam-persona` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
 3. **Upload `ideation-core`** only if the account doesn't have it.
 4. **Turn them all on.**
 
@@ -143,6 +145,7 @@ def zipdir(folder, out):
 PERSONAS = {
     "hank-hardwood": ("Hank Hardwood", "personas/hank-hardwood.md", "personas/books/hank-hardwood-book.md"),
     "dale-oakfield": ("Dale Oakfield's Workshop", "personas/dale-oakfield.md", "personas/books/dale-oakfield-book.md"),
+    "sawdust-sam": ("Sawdust Sam", "personas/sawdust-sam.md", "personas/books/sawdust-sam-book.md"),
     "roger-the-pipe-guy": ("Roger the Pipe Guy", "personas/roger-the-pipe-guy.md", "personas/books/roger-the-pipe-guy-book.md"),
     "mark-silverbridge": ("Mark Silverbridge", "personas/mark-silverbridge.md", "personas/books/mark-silverbridge-book.md"),
     "vintage-pipefitter": ("The Vintage Pipefitter", "personas/vintage-pipefitter.md", None),  # no book for now

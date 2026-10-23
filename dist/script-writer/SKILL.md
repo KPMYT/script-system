@@ -5,7 +5,7 @@ description: Writes YouTube scripts for the operator's channels. Runs whenever s
 
 # Script writer (the core)
 
-**Version:** 2026-10-21 (library commit 56438f7)
+**Version:** 2026-10-23 (library commit fd30910)
 
 When someone types **START**, open `core/workflow.md` (in this skill's folder) and follow it exactly, from section 1. Everything else is loaded from there.
 
@@ -18,6 +18,7 @@ The script system is split into separate skills, one per layer. They're all inst
 | the niche pack `woodworking-scripts` | the **woodworking-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder |
 | the persona profile `personas/hank-hardwood.md` | the **hank-hardwood-persona** skill: its `SKILL.md` is the profile |
 | the persona profile `personas/dale-oakfield.md` | the **dale-oakfield-persona** skill: its `SKILL.md` is the profile |
+| the persona profile `personas/sawdust-sam.md` | the **sawdust-sam-persona** skill: its `SKILL.md` is the profile |
 | the niche pack `plumbing-scripts` | the **plumbing-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder (with `references/models/`) |
 | the persona profile `personas/roger-the-pipe-guy.md` | the **roger-the-pipe-guy-persona** skill: its `SKILL.md` is the profile |
 | the persona profile `personas/mark-silverbridge.md` | the **mark-silverbridge-persona** skill: its `SKILL.md` is the profile |

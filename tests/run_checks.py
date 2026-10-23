@@ -445,6 +445,38 @@ check("39. core: straight quotes before the final scan; the Scanner evidence lin
       "**Straight quotes and apostrophes only**" in wf and "Run it last on the exact text that will be delivered" in wf
       and "Scanner: [run on the delivered text | checked by hand]" in ga and "never reports a count it didn't measure" in ga)
 
+# ---- Sawdust Sam relaunch (2026-10-23) ----
+# 40. the woodworking pack carries the heritage section (P8, P9), its safety lines and scanner line; the template has a HERITAGE block;
+#     the core's research rules point to the exception
+SAM=f"{PERS}/sawdust-sam.md"
+wk=open(WWR).read(); tp=open(f"{WW}/references/research-pack-template.md").read(); rs=open(f"{CORE}/research-and-sourcing.md").read()
+need=["## Heritage builds (old-world and foreign styles)","**The skeleton doesn't change.**","**Heritage beats.**","**Style, never replica.**",
+      "**The old way is an option, never the main step.**","**What the history may say (P8, operator 2026-10-23).**","**Proof for a heritage build (P9, operator 2026-10-23).**",
+      "**Lamps and lights:**","**Old-world finishes and pigments:**"]
+miss=[n for n in need if n not in wk]
+check("40. woodworking pack: heritage builds (beats, style not replica, old way as option, P8 history, P9 proof), lamp and old-finish safety; template HERITAGE block; core points to the exception",
+      not miss and "HERITAGE                           [heritage builds only" in tp and "the assumption, if none found" in tp and "P8, operator 2026-10-23" in rs, f"missing {miss}")
+
+# 41. Sam's profile: Talking Head, 174 wpm, tenure none, his name and book, the CTA points to both the QR code and the top link,
+#     the book file exists with its page map and the never-cite-past-80 rule; the channel row is pending until the details are picked
+sp=open(SAM).read(); sb=f"{PERS}/books/sawdust-sam-book.md"
+fs=facts_of(SAM); ch=open(f"{CORE}/channels.md").read()
+check("41. Sam's profile: Talking Head, 174 wpm, name/book/tenure facts, QR code and top link, book file with page map; channels.md row 6 pending",
+      "Script type: Talking Head" in sp and "Words per minute (for runtime and the 8-minute minimum): 174" in sp and "tenure: none" in fs and "name: Sawdust Sam" in fs
+      and "book: The Old Ways" in fs and "the QR code on screen or the top link in the description (every CTA says both)" in sp
+      and os.path.isfile(sb) and "## Chapter page map" in open(sb).read() and "cite nothing past page 80" in sp
+      and re.search(r"^\| 6 \| Sawdust Sam \| `woodworking-scripts` \| `personas/sawdust-sam.md` \| pending",ch,re.M) is not None, str(fs))
+
+# 42. Sam's scanner: invented trips, encounters, teachers and "scientists now say" fail; his required CTA wording, a plain
+#     old-way line and his name pass; a years figure fails (tenure none)
+fails=[l for l in ("When I was in Kyoto I saw this.","I once met an old carver who did this.","I visited a temple workshop.",
+                   "My old mentor taught me this joint.","Scientists now say the Vikings were right.","After 40 years at the bench I know this.")
+       if run_scan(l+"\n",[WWR,SAM])[0]!=1]
+passes=[l for l in ("Grab it with the QR code on screen or the top link in the description.","That's how they did it the old way.",
+                    "Subscribe to Sawdust Sam for more.") if run_scan(l+"\n",[WWR,SAM],refs=[SAM])[0]!=0]
+check("42. Sam's scanner: invented trips, encounters, teachers, 'scientists now say' and a years figure fail; his CTA wording and plain lines pass",
+      not fails and not passes, f"not failing: {fails}; not passing: {passes}")
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")

@@ -1,13 +1,139 @@
-# The Old Ways: 100 Forgotten Woodworking Secrets From The World's Greatest Craftsmen (Sawdust Sam): extracted text
+# Book text: The Old Ways
 
-Source: Google Drive file 1Nz2ztAKFYvVp1xSc9WyGIGdCpOjrGvzW ("The_Old_Ways - Sawdust Sam.pdf", 16,980,872 bytes), read with the Drive connector's text extraction on 2026-10-23.
+- **Channel:** Sawdust Sam. **Author:** Sawdust Sam (written in his own voice).
+- **Exact printed title** (used in CTA markers): The Old Ways: 100 Forgotten Woodworking Secrets From The World's Greatest Craftsmen
+- **Spoken as:** "The Old Ways"
+- **Title page subtitle:** "How Japanese, Amish, Viking, Roman And Medieval Woodworking Techniques Can Make You A Better Builder For Cheaper"
+- **What's in it:** six parts, twelve chapters and 100 "secrets", each credited to a tradition (Japanese, Amish, Roman, Medieval, Viking, Chinese, Celtic, Egyptian and others), plus three appendices (wood species, traditional recipes and formulas, essential tools) and a glossary.
+- **Source:** the PDF in the channel's ebook folder on Google Drive ("The_Old_Ways - Sawdust Sam.pdf", 17 MB, linked from the channel's Notion page), read with the Drive connector's text extraction on 2026-10-23. The PDF itself isn't stored here.
+- **Not complete (2026-10-23):** Drive's text stops at the end of printed page 80 (secret #80). Chapters 11 and 12, secrets 81 to 100, the appendices, the glossary and "About the Author" are missing, and the PDF is too big for the connector to download. **A CTA cites only pages 1 to 80 until the rest is added.** Secrets #15 and #16 don't appear in the extracted text.
+- **Page numbers:** the printed page numbers (from page 6; part divider pages 9, 24, 38, 52 and 67 carry none). Whether printed page N is PDF page N is not checked. **A CTA cites the printed page number.**
+- **The author story is never repeated in a script.** The book's "Note from Sam" and chapters tell a life story (a grandfather named Elmer, trips to Japan, Norway, Italy and Chartres, named Japanese and Amish mentors, "thirty" and "forty years" of woodworking), and parts of it contradict each other. The claims policy keeps all of it out of the narration and the CTAs; a CTA may use only the contents (`personas/sawdust-sam.md`, CTA RULES).
+- **Selling:** the book says nothing about selling, Etsy, markets or profit in pages 1 to 80. Its money promise is saving: "a better builder for cheaper", less material, less spent on tools.
+- **Use:** for checking which pages cover a video's style or technique, and which facts a CTA may state about the book. It supplies no facts, steps or numbers to the script itself.
 
-EXTRACTION NOTES (read before use):
-- The PDF itself could not be downloaded (connector limit 10 MB; file not publicly shared), so page markers are derived from the printed folio numbers in the extracted text, not from PDF page indices. Whether printed page N equals PDF page N is UNVERIFIED.
-- Drive's extraction stops at the end of printed page 80 (end of Chapter 10, Secret #80). Chapters 11-12, Secrets #81-#100, Appendices A-C, the Glossary and About the Author are listed in the table of contents but are NOT in this file.
-- Secrets #15 and #16 do not appear anywhere in the extracted text (Chapter 2 runs #9-#14 on pp. 17-23; Chapter 3 starts at #17 on p. 25).
-- Folios 9, 24, 38, 52 and 67 are not printed; each falls on a Part divider page and is inferred.
-- Text is verbatim from the extraction (including its hyphenation artifacts such as "‐ " and "\#"); only page markers were added.
+## Chapter page map (printed page numbers)
+
+| Part and chapter | Printed pages |
+|---|---|
+| Front matter: dedication, A Note from Sam, How to Use This Book | 1-8 |
+| Part I. 1. Reading Wood Like the Ancients | 10-16 |
+| 2. Preparing Wood the Ancient Way | 17-23 |
+| Part II. 3. Invisible Connections That Last Centuries | 25-31 |
+| 4. Fastening Secrets of the Masters | 32-37 |
+| Part III. 5. Natural Protection That Outlasts Chemicals | 39-45 |
+| 6. Finishes That Improve With Age | 46-51 |
+| Part IV. 7. Hand Tools That Outperform Machines | 53-59 |
+| 8. Measuring and Marking Like a Master | 60-66 |
+| Part V. 9. Sacred Geometry and Natural Proportions | 68-74 |
+| 10. Ergonomics and Human-Centered Design | 75-80 |
+| Part VI. 11. Building Projects That Last Generations | not extracted |
+| 12. Master Integration and Lifetime Mastery | not extracted |
+| Appendices A-C, Glossary, About the Author | not extracted |
+
+## Secrets by style (secret number, printed page where it starts)
+
+The channel's main keys first (operator, 2026-10-23: Japanese, Amish, Asian, forgotten). Every secret in the book is an old method, so any of them can back a "forgotten" video.
+
+| Style | Secrets |
+|---|---|
+| Japanese | #1 (10), #10 (18), #17 (25), #25 (32), #33 (39), #41 (46), #49 (53), #57 (60), #65 (68), #73 (75) |
+| Amish | #5 (13), #11 (19), #19 (27), #27 (33), #35 (40), #43 (48), #51 (55), #58 (61), #66 (69), #74 (76) |
+| Chinese | #6 (14), #22 (29), #47 (50), #62 (64), #70 (72) |
+| Asian | #32 (36), #80 (79) |
+| Viking | #2 (11), #18 (26), #26 (33), #34 (40), #44 (48), #52 (55), #61 (63), #69 (71) |
+| Scandinavian | #9 (17), #40 (44), #75 (76) |
+| Roman | #3 (12), #12 (20), #20 (28), #28 (34), #36 (41), #45 (49), #54 (56), #59 (62), #67 (70), #76 (77) |
+| Medieval | #4 (12), #13 (21), #21 (28), #29 (34), #37 (42), #46 (50), #53 (56), #60 (62), #68 (70), #77 (78) |
+| Celtic | #7 (14), #23 (30), #39 (44), #55 (57), #71 (73) |
+| Egyptian | #8 (15), #24 (31), #38 (43), #56 (58), #63 (65), #72 (74) |
+| Native American | #14 (22), #30 (35), #48 (50), #64 (65), #78 (78) |
+| German | #31 (35), #42 (47), #50 (54), #79 (79) |
+
+## Secret index (printed page where each starts)
+
+| Secret | Page |
+|---|---|
+| 1. The Japanese Grain Whispering Method | 10 |
+| 2. The Viking Storm Season Selection | 11 |
+| 3. The Roman Moon Phase Felling Technique | 12 |
+| 4. The Medieval Cathedral Builder's Century Test | 12 |
+| 5. The Amish Compass Reading Method | 13 |
+| 6. The Chinese Bamboo Flexibility Principle | 14 |
+| 7. The Celtic Heartwood Divination | 14 |
+| 8. The Egyptian Desert Drying Formula | 15 |
+| 9. The Scandinavian Ice Seasoning Method | 17 |
+| 10. The Japanese Water-Fire Alternating Cure | 18 |
+| 11. The Amish Barn Aging Technique | 19 |
+| 12. The Roman Salt Brine Preservation | 20 |
+| 13. The Medieval Monastery Herb Smoking | 21 |
+| 14. The Native American Sun-Shadow Positioning | 22 |
+| 17. The Japanese Earthquake-Proof Joint System | 25 |
+| 18. The Viking Ship Flexibility Joinery | 26 |
+| 19. The Amish Barn Raising Compression Lock | 27 |
+| 20. The Roman Amphitheater Expansion Joint | 28 |
+| 21. The Medieval Cathedral Flying Buttress Principle | 28 |
+| 22. The Chinese Forbidden City No-Nail Construction | 29 |
+| 23. The Celtic Roundhouse Spiral Joint Method | 30 |
+| 24. The Egyptian Pyramid Ramp Joint System | 31 |
+| 25. The Japanese Bamboo Peg Swelling Technique | 32 |
+| 26. The Viking Iron-Wood Fusion Method | 33 |
+| 27. The Amish Hide Glue Weather Formula | 33 |
+| 28. The Roman Lead Anchor System | 34 |
+| 29. The Medieval Blacksmith Wedge Technique | 34 |
+| 30. The Native American Sinew Lashing Method | 35 |
+| 31. The German Brewery Barrel Hoop Tension | 35 |
+| 32. The Asian Rice Paste Adhesive Formula | 36 |
+| 33. The Japanese Shou Sugi Ban Fire Treatment | 39 |
+| 34. The Viking Pine Tar Hull Protection | 40 |
+| 35. The Amish Linseed Oil Weather Shield | 40 |
+| 36. The Roman Olive Oil Wood Conditioning | 41 |
+| 37. The Medieval Monastery Beeswax Sealing | 42 |
+| 38. The Egyptian Natron Salt Preservation | 43 |
+| 39. The Celtic Bog Oak Transformation | 44 |
+| 40. The Scandinavian Fish Oil Weatherproofing | 44 |
+| 41. The Japanese Urushi Lacquer Layering System | 46 |
+| 42. The German Beer Hall Shellac Recipe | 47 |
+| 43. The Amish Milk Paint Limestone Formula | 48 |
+| 44. The Viking Blood and Egg Tempera | 48 |
+| 45. The Roman Fresco Wood Staining Method | 49 |
+| 46. The Medieval Illuminated Manuscript Gold Leaf | 50 |
+| 47. The Chinese Lacquered Furniture Aging Process | 50 |
+| 48. The Native American Clay and Ochre Earth Pigments | 50 |
+| 49. The Japanese Plane Pull-Stroke Precision | 53 |
+| 50. The German Froe Wood Splitting Rhythm | 54 |
+| 51. The Amish Drawknife Shaving Technique | 55 |
+| 52. The Viking Broad Axe Hewing Method | 55 |
+| 53. The Medieval Adze Hollowing Mastery | 56 |
+| 54. The Roman Bow Drill Fire Starting Principle | 56 |
+| 55. The Celtic Curved Knife Carving Flow | 57 |
+| 56. The Egyptian Copper Tool Tempering Secret | 58 |
+| 57. The Japanese Sashigane Square Proportional System | 60 |
+| 58. The Amish Story Pole Measurement Method | 61 |
+| 59. The Roman Surveyor's Cross Leveling Technique | 62 |
+| 60. The Medieval Cathedral Geometry Rope Method | 62 |
+| 61. The Viking Sunstone Navigation Angle Transfer | 63 |
+| 62. The Chinese Master's Proportional Divider System | 64 |
+| 63. The Egyptian Pyramid Builder's Plumb Bob Accuracy | 65 |
+| 64. The Native American Natural Compass Method | 65 |
+| 65. The Japanese Ma (Negative Space) Design Philosophy | 68 |
+| 66. The Amish Functional Beauty Principle | 69 |
+| 67. The Roman Golden Ratio Architectural Integration | 70 |
+| 68. The Medieval Cathedral Sacred Number System | 70 |
+| 69. The Viking Dragon Ship Organic Curve Method | 71 |
+| 70. The Chinese Feng Shui Furniture Positioning | 72 |
+| 71. The Celtic Spiral and Knotwork Mathematical Patterns | 73 |
+| 72. The Egyptian Pyramid Phi Proportional System | 74 |
+| 73. The Japanese Tatami Mat Modular Sizing | 75 |
+| 74. The Amish Rocking Chair Body Mechanics | 76 |
+| 75. The Scandinavian Long Winter Furniture Comfort | 76 |
+| 76. The Roman Amphitheater Sight Line Geometry | 77 |
+| 77. The Medieval Scribe Desk Posture Optimization | 78 |
+| 78. The Native American Longhouse Social Space Design | 78 |
+| 79. The German Workshop Tool Reach Efficiency | 79 |
+| 80. The Asian Meditation Furniture Consciousness Design | 79 |
+
+## Text (verbatim from the extraction, with page markers)
 
 [Front matter: cover, title page, copyright, table of contents, dedication; printed pages 1-5 not numbered in the text, page breaks not recoverable]
 

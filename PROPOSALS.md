@@ -93,7 +93,7 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Proposal (option A in `drafts/sawdust-sam-DRAFT.md`, Part 2):** in heritage builds only, the narrator's history beats may say general, well-known history plainly, with a hedge on anything less sure, without a source in the research pack. Never a specific date, named person, figure, "banned" story or "scientists now say" unless the brief or pack carries it with its source. Every build fact (prices, measurements, steps, safety) stays verified. Options B (anything goes) and C (no change) are in the draft.
 
-**Status:** open, for the operator.
+**Status:** approved by the operator on 2026-10-23 ("p8 - yes", option A). Applied to `woodworking-scripts/SKILL.md` ("Heritage builds") and a pointer in `core/research-and-sourcing.md` §2; the pack's scanner bans "scientists now say".
 
 ## P9. Proof from the plain product for heritage builds (opened 2026-10-23)
 
@@ -103,4 +103,4 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Proposal (`drafts/sawdust-sam-DRAFT.md`, Part 2, decision 2):** for a heritage build, the research pack proves the plain product with its listings, and uses the heritage version's own listings where they exist. Where they don't, the narration gives the plain product's range honestly ("wooden lamps like this list between..."), the price is the narrator's opinion inside it, the heritage angle is opinion only, and a title claim about the heritage version counts as supported by the plain product's listings. The assumption is recorded in the pack's HERITAGE block, never stated as fact in narration.
 
-**Status:** open, for the operator.
+**Status:** approved by the operator on 2026-10-23 ("p9 - yes"). Applied to `woodworking-scripts/SKILL.md` ("Heritage builds", and a pointer in "Proof"), the research pack template's HERITAGE block and `core/research-and-sourcing.md` §2.

@@ -231,7 +231,12 @@ From the judge's report and three comparisons of test run 02 (`tests/iterations/
 
 - **Sawdust Sam relaunches as woodworking for profit, the old-world way:** "the same topics angles and spins as the normal woodworking for profit, but take an ancient approach to it... the core structure of the videos should be the same", with Sam's fascination with foreign and historic approaches and designs as a core part of his personality, "still very direct and very tutorial based". The draft is `drafts/sawdust-sam-DRAFT.md`; two parts of the ask wait on proposals P8 (history without sources) and P9 (proof from the plain product).
 - **The keys:** "we will do a lot of japanese, forgotton, amish, asian - we will be testing more but those are the bulk."
-- **The book stays as it is:** *The Old Ways* ("the book can remain as is"). Its author story (named mentors, trips, years) still never goes in a script; CTAs use only its contents.
+- **The book stays as it is:** *The Old Ways* ("the book can remain as is"). Its author story (named mentors, trips, years) still never goes in a script; CTAs use only its contents. The library holds its text to printed page 80 only (Drive's extraction stops there and the 17 MB PDF is over the connector's download limit); CTAs cite nothing past page 80 until the rest is added.
+- **P8 and P9 approved** ("p8 - yes", "p9 - yes"): heritage history may be general and hedged without a source, never invented specifics; a heritage build's money is proven by the plain product's listings. Applied in the woodworking pack ("Heritage builds"), the research pack template and a pointer in `core/research-and-sourcing.md`.
+- **Talking Head** ("this is talking head now"), **the 8-minute floor** with length from the content ("4, - yes"), **swearing as the pack** ("we can hve it").
+- **CTA: Hank's structure** ("same cta as hank we r gna hve as structure. there will be qr code"): two short CTAs, mid and end, each naming the QR code on screen and the top link in the description.
+- **Overlap is fine:** "we are allowed overlap. this is never an issue." Hank and Dale may still run heritage titles; the pack's heritage rules apply to them too.
+- **Built 2026-10-23:** `personas/sawdust-sam.md` (status pending until the operator picks his personal details and a test run passes), `personas/books/sawdust-sam-book.md`, row 6 in `core/channels.md`, the ideation steering and thumbnail blocks, checks 40-42, the `sawdust-sam-persona` skill.
 
 ### Rejected, so they don't come back
 
