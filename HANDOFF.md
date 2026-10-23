@@ -217,6 +217,16 @@ From the judge's report and three comparisons of test run 02 (`tests/iterations/
 - **His emotional targets are plumbing's,** on the Silver Cymbal model (asked for confirmation; the evidence is in `studies/plumbing/comparison/02-competitors.md` §2.1 and `05-emotions.md`). Not yet decided: his authority line now the firefighter framing is gone, the offer (the current book, *Prevent The Burning*, is fire-only), length, and the pack (a home-DIY pack modelled on the plumbing pack, after a competitor study).
 - **Baseline saved:** his 23 pre-library scripts, views and an analysis are in `studies/home-diy/frederick-baseline-2026-10/`.
 
+### Operator decisions, 2026-10-23 (two new channels)
+
+- **Two new channels.** Both packs are built from the plumbing pack, and the work happens in two new chats running side by side:
+  - **Roger the HVAC Guy:** "the only Roger-branded channel that we're going to be doing", picked for the closest audience fit. A new channel; "roger the pipe guy obviously carries on". The persona and niche rules stay "very similar to what Roger is right now", hitting the same triggers. A short competitor study comes first.
+  - **Frederick Barnes, a new brand:** he moves from Just Stop Fire to electrical DIY, "how to be safe doing electric, avoid electricity mistakes, and fire prevention as well". This **replaces** the 2026-10-22 "broad home DIY" direction. The audience is shared with plumbing and HVAC, but "the emotions we trigger are different, and we're going to really focus on emotions".
+- **Frederick's background is open:** "frederick background is up for debate". **His book changes** from *Prevent The Burning*; the new one isn't chosen.
+- **Before the two chats start:** "deep and wide research on YouTube for channels in this niche", run with many helpers.
+- **Repositories:** "keep niche reserach and scripting in seperate repos". The niche research (which niches, competitors, audience size, framing) lives in `KPMYT/niche-research`. The 2026-10-22 research was recovered there (`findings/2026-10-22-hvac-and-electrical.md`). Where the transcript study behind each pack goes (here in `studies/`, or there) is still to be confirmed.
+- **Skills:** "never change skills without me knowing. or approving. you always default to me" (the standing rule, restated).
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.
