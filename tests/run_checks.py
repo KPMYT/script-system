@@ -461,11 +461,11 @@ check("40. woodworking pack: heritage builds (beats, style not replica, old way 
 #     the book file exists with its page map and the never-cite-past-80 rule; the channel row is pending until the details are picked
 sp=open(SAM).read(); sb=f"{PERS}/books/sawdust-sam-book.md"
 fs=facts_of(SAM); ch=open(f"{CORE}/channels.md").read()
-check("41. Sam's profile: Talking Head, 174 wpm, name/book/tenure facts, QR code and top link, book file with page map; channels.md row 6 pending",
+check("41. Sam's profile: Talking Head, 174 wpm, name/book/tenure facts, QR code and top link, book file with page map; channels.md row 6 ready",
       "Script type: Talking Head" in sp and "Words per minute (for runtime and the 8-minute minimum): 174" in sp and "tenure: none" in fs and "name: Sawdust Sam" in fs
       and "book: The Old Ways" in fs and "the QR code on screen or the top link in the description (every CTA says both)" in sp
       and os.path.isfile(sb) and "## Chapter page map" in open(sb).read() and "cite nothing past page 80" in sp
-      and re.search(r"^\| 6 \| Sawdust Sam \| `woodworking-scripts` \| `personas/sawdust-sam.md` \| pending",ch,re.M) is not None, str(fs))
+      and re.search(r"^\| 6 \| Sawdust Sam \| `woodworking-scripts` \| `personas/sawdust-sam.md` \| ready \|$",ch,re.M) is not None, str(fs))
 
 # 42. Sam's scanner: invented trips, encounters, teachers and "scientists now say" fail; his required CTA wording, a plain
 #     old-way line and his name pass; a years figure fails (tenure none)
@@ -473,7 +473,7 @@ fails=[l for l in ("When I was in Kyoto I saw this.","I once met an old carver w
                    "My old mentor taught me this joint.","Scientists now say the Vikings were right.","After 40 years at the bench I know this.")
        if run_scan(l+"\n",[WWR,SAM])[0]!=1]
 passes=[l for l in ("Grab it with the QR code on screen or the top link in the description.","That's how they did it the old way.",
-                    "Subscribe to Sawdust Sam for more.") if run_scan(l+"\n",[WWR,SAM],refs=[SAM])[0]!=0]
+                    "Subscribe to Sawdust Sam for more.","That one's on page 25 of Sawdust Sam's book, and Hank Hardwood's too.") if run_scan(l+"\n",[WWR,SAM],refs=[SAM])[0]!=0]
 check("42. Sam's scanner: invented trips, encounters, teachers, 'scientists now say' and a years figure fail; his CTA wording and plain lines pass",
       not fails and not passes, f"not failing: {fails}; not passing: {passes}")
 

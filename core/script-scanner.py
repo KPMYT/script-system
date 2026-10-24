@@ -462,7 +462,7 @@ def name_check(para, names):
                 if sum(w[:1].isupper() for w in win) < 2:
                     continue
                 # the wrong word: capitalised, not part of the name, not a pronoun, not just a new sentence starting
-                if not any(w[:1].isupper() and w.lower() not in name_words and w.lower() not in ("i", "i'm", "i've", "i'll", "i'd")
+                if not any(w[:1].isupper() and re.sub(r"['\u2019]s$", "", w.lower()) not in name_words and w.lower() not in ("i", "i'm", "i've", "i'll", "i'd")
                            and (i + k) not in sent_start for k, w in enumerate(win)):
                     continue
                 score = max(difflib.SequenceMatcher(None, cand, target).ratio(), difflib.SequenceMatcher(None, cand, bare).ratio())

@@ -1,11 +1,11 @@
 # Persona profile: Sawdust Sam
 
-Built 2026-10-23 from the channel's page in Notion (Channel List, TEAM ACCESS) and the operator's relaunch brief, with the operator's answers that day (the record: `drafts/sawdust-sam-DRAFT.md`). Written from `core/persona-profile-template.md`. **Pending** until a test run passes.
+Built 2026-10-23 from the channel's page in Notion (Channel List, TEAM ACCESS) and the operator's relaunch brief, with the operator's answers that day (the record: `drafts/sawdust-sam-DRAFT.md`). Written from `core/persona-profile-template.md`. Marked **ready** on 2026-10-24 (the profile is complete, so the operator's test scripts can run; the test runs decide any changes).
 
 ```
 PERSONA PROFILE
 Channel: Sawdust Sam
-Status: pending
+Status: ready
 Niche pack: woodworking-scripts
 
 THE BASICS
