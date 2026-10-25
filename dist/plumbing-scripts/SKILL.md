@@ -40,7 +40,7 @@ The core base rules apply wherever this pack is silent. These are the places it 
 | Core rule | What this pack does instead | Decided |
 |---|---|---|
 | `workflow.md` §2, the default inputs | The `inputs` block below: the title, the brief and the rotation log. The research pack is `not used`, so the brief is the fact source everywhere the core says "the fact source". | 2026-10-21 |
-| `retention-mechanics.md` §6, "short range only" | Concrete named promises may point further than the next segment: the promise block in "The opening" and the forward lines in "Point then promise". Each names its item and its stake and is paid inside the video. Vague teases stay hard-banned. | P3, 2026-10-20 |
+| `retention-mechanics.md` §6, "short range only" | Concrete named promises may point further than the next segment, in the body of the video only: the forward lines in "Point then promise" and "Ways to promise more value". Each names its item and its stake and is paid inside the video. Never in the opening, which names no single later item (operator, 2026-10-25). Vague teases stay hard-banned. | P3, 2026-10-20; the opening's promise block removed 2026-10-25 (P10) |
 | `cta-and-endings.md` §4, `workflow.md` §4 ("the closing line is exactly one sentence, under about 15 words"), `retention-mechanics.md` §14, `greenlight-audit.md` F3 ("the CTA or nothing, then stop") and `variety-rotation.md` slot 9 (closing line) | The ending is the one-line end CTA, then the comment ask (a short turn to the viewer, an outright ask to comment, a specific question and "I read every one"), which ends the script. It may run to two or three sentences; there is no sign-off after it. In the output's FORMAT CHECK, the closing field reads `[comment line, last line of the script]`; F3 checks this ending; rotation slot 9 rotates the comment question. Write it as "Tell me…" or a plain question: the scanner flags "let me know if you" as a chatbot leftover. | P5, 2026-10-21 |
 | `workflow.md` §3, the 8-minute minimum; `greenlight-audit.md` F2 and the evidence block's Length line | At least 12 minutes (1,800 words at 150 a minute); the evidence block reads `(minimum 12)`. See "Length". | 2026-10-21 |
 | `variety-rotation.md`, the rotation log line | Four more fields at the end of the line: `\| model: [file numbers] \| money: [device] \| promises: [devices] \| comment: "[the comment question]"`, so the rotation checks in "Using the models", "Ways to promise more value", "Money framing" and "The ending" have something to check against. | 2026-10-21 (model); the other three carry rules already approved |
@@ -51,8 +51,8 @@ The core base rules apply wherever this pack is silent. These are the places it 
 | `retention-mechanics.md` §6 and `greenlight-audit.md` B5, signposts | The sections are the opening, each item (or step, or contender) and the ending. "Number four." is the signpost for an item; in a verdict, the contender's name is. | 2026-10-21 (merge) |
 | `greenlight-audit.md` D4, "every number traces to the fact source" | The fact source is the brief plus `references/price-guide.md`. A non-price number the script fills in (a setting such as 120 degrees, a healthy pressure range, "once a year") is allowed when it's well-established general knowledge; the evidence block's Numbers line marks each one "general knowledge". Every dollar figure traces to the brief or the price guide. | P7, operator 2026-10-21 |
 | `workflow.md` §4, contractions | Kept for the pack; a persona profile may forbid them (Mark Silverbridge's does). See "Voice". | 2026-10-21 |
-| `retention-mechanics.md` §2, the hook (a transformation, the viewer's pain or wish, one spark of curiosity, in about 15 seconds); `greenlight-audit.md` A1b and the evidence block's Hook line | The plumbing opening is the hook (see "The opening"). It is checked as the same three jobs: the transformation is the fix or product named in the first sentence, with what it does; the pain or wish is the failed attempt, the bill or the symptom; the curiosity is the opening question or the promise block. The Hook line records those three lines. The point still comes first, and the opening's six jobs run to about 45 seconds. | Operator, 2026-10-21 (merge) |
-| `retention-mechanics.md` §2, the optional value line (about one video in three) | Not used: the promise block, in every plumbing video, does its job. The Hook line reads `value line: none (promise block)`. | Operator, 2026-10-21 (merge) |
+| `retention-mechanics.md` §2, the hook (a transformation, the viewer's pain or wish, one spark of curiosity, in about 15 seconds); `greenlight-audit.md` A1b and the evidence block's Hook line | The plumbing opening is the hook (see "The opening"). It is checked as the same three jobs: the transformation is the fix or product named in the first sentence, with what it does; the pain or wish is the failed attempt, the bill or the symptom; the curiosity is the opening question, or a surprising fact the video answers. The Hook line records those three lines. The point still comes first, and the opening's six jobs run to about 45 seconds. | Operator, 2026-10-21 (merge) |
+| `retention-mechanics.md` §2, the optional value line (about one video in three) | Not used: the opening goes from the point to item one, and a list's count line (see "The opening") names the whole list, never what a single item holds. The Hook line reads `value line: none`. | Operator, 2026-10-21 (merge); 2026-10-25 |
 | `humanizer.md` H22, `workflow.md` §4 and `greenlight-audit.md` C2: always rounded, never cents, one price per item, a sentence with three or more dollar figures quoted | Everything stays rounded and said as ranges, with two exceptions from "Money framing": the cost per use may be said in cents ("call it 50 cents a pop"), and the three-prices-side-by-side device may put three figures in one sentence ("50 cents versus 20 bucks versus 300"). A range ("$5 to $15") counts as one figure for C2's three-figure check. Each still traces to the brief. No other price is said in cents. | Operator, 2026-10-21 (merge) |
 
 ## Inputs
@@ -120,7 +120,7 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 2. **A question, when it fits.** A question the viewer can answer in their own house ("When did you last lift the lid off your toilet tank?"), answered within about 15 seconds. Never a question the viewer can't check.
 3. **The villain line,** as a price or a silence (above).
 4. **Honest scope or reassurance,** in one line: what it won't do, or why it's safe ("It won't touch a hair clog." "Nothing here harms a septic tank."). This keeps the title's strongest word honest.
-5. **The promise block** (this pack's override of core `retention-mechanics.md` §6, approved as P3). Right after the point, promise two or three specific later payoffs. Each names its item and its stake: "Number six can save you a $200 call." "And the last one is the rule that keeps all of this safe on old pipes." Never a vague tease: the hard-ban list ("stay till the end", "stick with me", "by the end of this video" and the rest) still applies.
+5. **The count line, when the video has a count** (a list, three fixes, eight checks; operator, 2026-10-25: "instead of saying 1 and 2 it would be better to say something like... the eight things you must check (if it doesnt already)"). One sentence naming the whole list and what it does for the viewer: "I'm going to show you the eight things you need to check before anybody quotes you a new tank." Skip it when the opening has already said the count. It never says what any single item holds: no "Number one is... Number two is...", no "Before we get to the fixes, you will hear...". Never "today" in front of it (the "today we're going to" ban below stands).
 6. **The first real tip** by about 45 seconds; in a list, item one by about 30 seconds.
 
 **Simpler and stronger** (operator, 2026-10-21: "it doesnt necessarily mean giving the worst case scenario. it means using strong words and targetting the exact pain points of this audience"). The first line hits the viewer's own pain in strong, plain words; it doesn't have to be the worst case.
@@ -128,7 +128,7 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 - The shape to aim for (never wording to reuse): "That slow flush you keep ignoring? It can end with a crew digging up your front yard. The expensive stuff in an old house always starts out quiet: a toilet that runs at night, a drip under the sink nobody sees, a rubber hose behind the washer that's older than you think. Fifteen of them, and almost every one takes a flashlight and five minutes to catch."
 - **One dollar figure at most in the opening;** the prices belong to the items, and the opening never repeats item one's price.
 
-**Never in an opening:** a name or channel intro, a greeting, "today we're going to", a recap of what's coming, a first-person test or demonstration ("I tested", "watch me"), or a tenure number other than the profile's or the locked title's.
+**Never in an opening:** a name or channel intro, a greeting, "today we're going to", a recap of what's coming, a promise block or any run-down of what later items hold (operator, 2026-10-25), a first-person test or demonstration ("I tested", "watch me"), or a tenure number other than the profile's or the locked title's.
 
 **Tenure:** at most once, as the profile's fixed number (Roger 45, Mark 40, Vintage 45) or, when the title states a different one, the title's number (title numbers win), and only where it does a job (credibility right before a verdict or a mistakes list).
 
@@ -159,9 +159,8 @@ The operator (2026-10-21): "simpler and stronger on emotions... using strong wor
 
 The competitors give the point first and promise second; our hits did the reverse and made the viewer wait. From now on:
 
-- **Point first.** The first answer (the fix named, the rule stated, the first verdict fact) comes before the first forward promise.
-- **Promise straight after.** The promise block follows within about 30 seconds of the first answer.
-- **Pay the first promise early.** The first promised item is paid within about five minutes. Nothing promised in the opening is held past the middle of the video, except the safety rule or a second use for the product.
+- **Point first.** The first answer (the fix named, the rule stated, the first verdict fact) comes before anything else.
+- **Pay forward lines fast.** A later item named in a forward line is paid within about five minutes. Nothing is promised in the opening (operator, 2026-10-25).
 - **Keep one promise open.** After the opening, never go more than about five minutes without a new forward line or a payoff. Use a line that names the next value ("The next one is the reason your tank sweats in July."), the trade's price for what was just done, a question the next item answers, or a check the viewer can run.
 - **Every callback has a promise.** A line that says "I promised" or "like I said" must match something the script really promised earlier.
 - **A priority flag at the first answer,** in fresh words each time (the shape: "If you do only one thing from this video, do this one."). Viewers pointed at that line when it came late.
@@ -169,12 +168,12 @@ The competitors give the point first and promise second; our hits did the revers
 
 ## Ways to promise more value
 
-Use two or three per video, and rotate them across a channel's scripts.
+Use two or three per video, in the body only (never as a list in the opening), and rotate them across a channel's scripts.
 
 - **A numbered item with its money stake:** "Number four can save you a $300 camera inspection."
 - **A numbered item with its stake in words:** "Number eight is the step that protects old cast-iron pipe."
 - **The escalation ladder:** the cheap fix, then the stronger fix, then the point to call, with the trade's typical price as the top rung. The default for fix videos.
-- **The rule that protects everything:** a safety or method rule promised early, paid straight after the first fix or as the last item.
+- **The rule that protects everything:** a safety or method rule, named at the first item it touches, paid straight after the first fix or as the last item.
 - **A second use for the same product,** or "while you're under there".
 - **A check the viewer can run:** lift the lid, the food-colouring test, the fizz test. No first-person test claim needed.
 - **A running cost tally** across the video (what the trade would have charged so far).
@@ -188,13 +187,13 @@ Pick the type from the title. Each type has its own opening order and item shape
 
 | Type | Title shape | Opening, in order | First tip by | Item shape | Models |
 |---|---|---|---|---|---|
-| **Single-product fix** | "1 Cup of This…", "Pour X Into Y Tonight" | Product and what it does → reassurance → the doubt answered ("Too simple? It works on…") → what the jug or the visit costs → what it won't do → the promise block | 40-60 s | Dose, method, wait time, what you'll see, when it won't work | R07, R15, R19, R20; S06, S08, S14, S15 |
-| **N things about one product** | "N Things Plumbers Don't Want You to Know About X" | The product in the viewer's house and its price → what the trade charges for the same jobs → "nobody will mention it" → the belief it flips → the count, with one money item and one safety item → one rule | 45-90 s | A scene, what the trade charges, the method with amounts, the payoff | S01, S05, S17, S18; R02 and R10 for list pacing |
-| **Never-do list** | "N Things You Should NEVER…" | A habit doing hidden damage → the avoidable cost → the trade bills for the result → the count → one numbered item with its stake | 30-45 s | The habit, why it does damage, what to do instead | S03; R16 for list pacing |
-| **Mistakes list** | "N Mistakes That…", "DO NOT Install X Until…" | A symptom question or neglect → the cost in hundreds or thousands → one credibility line → the count → one numbered stake | 15-30 s | The mistake, what it costs, the right way | S04, S16; R09 |
+| **Single-product fix** | "1 Cup of This…", "Pour X Into Y Tonight" | Product and what it does → reassurance → the doubt answered ("Too simple? It works on…") → what the jug or the visit costs → what it won't do | 40-60 s | Dose, method, wait time, what you'll see, when it won't work | R07, R15, R19, R20; S06, S08, S14, S15 |
+| **N things about one product** | "N Things Plumbers Don't Want You to Know About X" | The product in the viewer's house and its price → what the trade charges for the same jobs → "nobody will mention it" → the belief it flips → the count line | 45-90 s | A scene, what the trade charges, the method with amounts, the payoff | S01, S05, S17, S18; R02 and R10 for list pacing |
+| **Never-do list** | "N Things You Should NEVER…" | A habit doing hidden damage → the avoidable cost → the trade bills for the result → the count line | 30-45 s | The habit, why it does damage, what to do instead | S03; R16 for list pacing |
+| **Mistakes list** | "N Mistakes That…", "DO NOT Install X Until…" | A symptom question or neglect → the cost in hundreds or thousands → one credibility line → the count line | 15-30 s | The mistake, what it costs, the right way | S04, S16; R09 |
 | **Head-to-head verdict** | "X vs Y vs Z: A [tenure]-Year Plumber's Verdict" | The failed attempt or the moment of choice → the contenders with prices → everyone disagrees, the pitch sells the dear one → "each one gets a job" → one concrete extra | 45-60 s | Each contender: what it's for, what it's not for, one line of verdict; then which to use for which job | R04; S02, S11, S12 |
 | **Banned / code explainer** | "Here's Why X Is NOT ALLOWED Anymore" | The why-question, or the viewer finding the fixture → the rule, scoped ("most codes", never "illegal") → the reason and one real danger, in proportion → "if yours works, you may not need to change it" → the fixes | about 20 s | Rule, reason, verdict, the fixes from cheapest | R01; S10 |
-| **How-to / correct way** | "The CORRECT Way to X", "How to X (Before It…)" | The task and the number-one mistake, or the myth flipped → "you can do this" → the step count and the step that decides it → when not to do it | 15-45 s | One step, the reason, the mistake to avoid | R03, R08, R13, R14; S09 |
+| **How-to / correct way** | "The CORRECT Way to X", "How to X (Before It…)" | The task and the number-one mistake, or the myth flipped → "you can do this" → the step count line → when not to do it | 15-45 s | One step, the reason, the mistake to avoid | R03, R08, R13, R14; S09 |
 | **Product swap** | "X Is Expensive. Use THIS Instead!" | The pro's price → the usual DIY option and its catch → the popular shortcut, judged fairly → the swap named, with its price and where not to use it | about 60 s | The swap, the price, the job it fits | R05, R18 |
 | **Hidden cause** | "Why Your X Keeps Y" | The thing the viewer trusts → what it's really doing → the hidden cause in one line → "what that means for you", answered at once | 30-45 s | Cause, how to check, the fix | R06, R17; S07 |
 | **Seasonal or emergency** | "Do This Before the First Freeze" | The clock and the crisis → "put the phone down" with the after-hours price → "probably nothing's broken" → the cause in one line → the fixes with what the viewer already owns | 30-45 s | The step, why now, what to watch for | R11, R12, R17; S13 |
@@ -228,6 +227,8 @@ The models show how winning videos are built. A script borrows their structure, 
 5. **The audit checks it:** the plan lists its differences, and no model in it appears in the last five rotation log lines.
 
 The copy guard still flags any run of 8 or more words shared with a model file.
+
+A model's promise block is never copied: several of our hits and TheCheapFix's open with one, and this pack no longer does (operator, 2026-10-25). The excerpts' group 5 lines are for forward lines in the body.
 
 ## CTAs
 
@@ -342,7 +343,7 @@ The facts and methods come from the brief, and **the brief always wins**. There'
 **Defaults, only where the brief is silent.** These five drew the angriest comments in the study (about 18 on boiling water and 17 on washing soda that set hard: "Thanks to this video I had to hire a plumber!"), so the script uses the safe version unless the brief says otherwise:
 1. **Hot tap water,** not boiling water, for drains, toilets and plastic pipe.
 2. **Washing soda dissolved first** in hot tap water, not poured in dry.
-3. **One cleaner at a time;** never bleach with ammonia, vinegar or any acid, or peroxide with vinegar. Peroxide means the 3% drugstore bottle.
+3. **One cleaner at a time;** never bleach with ammonia, vinegar or any acid, or peroxide with vinegar. Peroxide means the 3 percent drugstore bottle.
 4. **Nothing added to a drain that already has a chemical drain cleaner in it,** plunging included. It can splash back.
 5. **Gas lines and live wiring are a call, not a project.** Before any water-heater job, the power or the gas goes off, in one line.
 
@@ -356,7 +357,7 @@ The facts and methods come from the brief, and **the brief always wins**. There'
 
 **Never:**
 - **A name or channel intro,** a greeting, "today we're going to", or "this channel is for…" (all three channels used the same channel-promise line in their recent uploads).
-- **Vague teases:** "stay till the end", "stick with me", "by the end of this video" and the rest of the core hard-ban list. Concrete, named promises are the plumbing exception (P3).
+- **Vague teases:** "stay till the end", "stick with me", "by the end of this video" and the rest of the core hard-ban list. Concrete, named promises are the plumbing exception (P3), in the body only.
 - **A recap** at the end.
 - **First-person tests and demonstrations:** "I tested", "I tried", "my results", "watch me".
 - **Pointing at the screen:** "look at the one on the left", "as you can see", "right here", "look at this".
@@ -419,7 +420,7 @@ Check that:
 - every item puts the viewer in the scene, aims at one real pain, has at least one "but" turn and ends on a win; bridges turn between items; a question about every two items; the title's feeling comes back every few items; the villain comes back all the way through, with disgust at the big prices as an opinion (never a company or a motive); the last item before the end CTA closes on relief
 - in a list, every item follows the item shape at about 100-130 words (lists of 10 or more; a bit longer is fine, fluff never is), and no more than two items in a row go without a forward line or a price line
 - the opening follows the video type's order (or the closest type's, for a new type), with no intro, greeting, tease or recap
-- the promise block follows the first answer; every promise is paid, the first within about five minutes, and no stretch runs past about five minutes without a forward line or a payoff
+- no promise block: the opening names no single later item and ends on the count line (when there's a count) or item one; every forward line is paid within about five minutes, and no stretch runs past about five minutes without a forward line or a payoff
 - the tenure appears at most once, as the profile's number or the title's
 - every price traces to the brief or the price guide and is said as an estimate (never cents, at most one per item, figures on no more than about half the items, one at most in the opening); doses and waits trace to the brief or the safe defaults; filled-in settings and intervals are everyday knowledge; the dose arithmetic holds
 - the fix's cost meets the trade's price within the first two minutes

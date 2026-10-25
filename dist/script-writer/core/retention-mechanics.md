@@ -24,7 +24,7 @@ description: Why viewers keep watching and how a script holds them: the first se
 
 - **Say what the video is about within about 10 seconds, using "you" or "your."** Viewers decide fast whether this is what they came for, and any delay makes them doubt it.
 - **The hook** (operator, 2026-10-20), about 15 seconds, one to three sentences, modelled on what the winners do:
-  1. **A transformation the viewer can picture:** what goes in (one 2x4, about four bucks) and what comes out (a set of planters listed around $25 each, a table full of stock, the holiday's spending money). A result they can see beats a bare dollar figure. The niche pack says what the transformation is for its format (the plumbing pack: the fix named, with what it does).
+  1. **A transformation the viewer can picture:** what goes in (one two by four, about four bucks) and what comes out (a set of planters listed around $25 each, a table full of stock, the holiday's spending money). A result they can see beats a bare dollar figure. The niche pack says what the transformation is for its format (the plumbing pack: the fix named, with what it does).
   2. **The viewer's pain or wish,** in their own words: the fear, frustration or hope that brought them (buying tools they don't need, building something nobody buys, the leak that keeps coming back). One line, never a problem essay.
   3. **One spark of curiosity:** a surprising fact, a contrarian line, or a small gap ("the part nobody looks at is the one that fails"). The video itself answers it, a few lines later or when the build gets there. It's an open question, never an announcement ("I'm not telling you yet," "stick around" stay banned).
 

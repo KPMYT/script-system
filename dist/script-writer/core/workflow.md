@@ -96,9 +96,19 @@ There's one format: clean voiceover prose for the auto-edit tool.
 - **Contractions,** and no em or en dashes (`humanizer.md`, H15).
 - **Straight quotes and apostrophes only** (' and "), never curly ones: before the final scanner run, the script straightens every quote and apostrophe in the delivered text (operator, 2026-10-21: test run 02 shipped 97 curly apostrophes under "mechanical 0").
 - **List numbers are spoken as words** in the narration: "Number eight." Never rely on a marker to announce them.
-- **Prices, years and stats are digits,** with commas in large numbers: "$15," "1,200," "1998." Small everyday counts can be words ("two boards").
+- **Prices, years and stats are digits,** with commas in large numbers: "$15," "1,200," "1998." Small everyday counts can be words ("two boards"). The unit after a digit is always a word ("19 percent," "8 feet").
 - **Few numbers, easy to follow:** always rounded the way people talk ("about four bucks," "around $40"), never cents; one price per item; never a fee schedule or every listing read aloud (`humanizer.md`, H22).
-- **Spell out anything a voice might misread,** the way it's said: measurements with fractions ("five and three-quarters inches") and degrees ("45 degrees"). Never symbols like ° or ½.
+- **Write every word the way the voice should say it** (operator, 2026-10-25: "It has to be written for text-to-speech"). The voice reads only what's on the page and guesses at anything that isn't a plain word, and it guesses differently from one sentence to the next: in one video, "2x12" came out right once and as "212" later, and "2x4" as "a 24" and "two host". Briefs, research packs and reference transcripts write sizes and units the short way; the narration never does.
+  - **Lumber and any size with an "x" in it, in words:** "a two by four", "two two by twelves", "a four by eight sheet of plywood", "a one by six". Never 2x4, 2 x 4, 2×4 or 2-by-4.
+  - **Units as full words:** inches, feet, ounces, pounds, gallons, percent, degrees, volts. Never in, ", ft, ', oz, lb, gal, %, ° or psi ("pounds of pressure").
+  - **Fractions in words:** "three-eighths of an inch", "sixteen and a half inches", "a quarter inch for every foot". Never a slash (3/8, 16 1/2) or ½.
+  - **Never two numbers side by side.** Turn the phrase so a word sits between them: "one eight-foot two by four", not "one 2x4, 8 ft"; "four pieces at ten inches", not "4 10-inch pieces".
+  - **No abbreviation or code a person wouldn't say aloud.** Say what it stands for: "an air admittance valve" (the voice dropped "AAV" twice), "number two grade", "kiln-dried". A short set of letters everyone says as letters (EPA) is fine, with no periods. A stamp or model code is written the way a person reads it: "the stamp that says K D 19".
+  - **No symbols in the narration:** x, /, %, &, +, #, =, ~, @, °. Write the word ("and", "plus", "about").
+  - **Money:** whole-dollar prices stay as digits ("$50", "$2,500", "$4 to $10", with the dollar sign on both ends of a range), the forms every recent voiceover read correctly. Never "$4.00", cents, "$1.4M" or "50k" (write "$1.4 million", "50 thousand dollars").
+  - **No laugh or filler sounds written as words** ("haha", "hmm", "ugh"): the voice says them as words. Delivery belongs in the voiceover copy's tags ([chuckles]).
+  - **Words with two pronunciations:** where "lead" (the metal), "bow" or "bowed" (a bent board) or "wound" could be read the other way, reword so only one reading fits: "lead paint" is clear; "under their lead limit" isn't ("under their limit for lead in paint").
+  - The scanner fails a script on the mechanical forms above (`[SPOKEN: ...]`) and lists capital-letter runs and the two-pronunciation words to judge.
 - **Introduce each named person by full name once.** After that, use the surname, a pronoun, or their role.
 
 **Visuals come from the narration.** The video is built from the script, so anything the viewer should see is named in the narration, and the script never points at something it doesn't name ("look at this," "right here").
