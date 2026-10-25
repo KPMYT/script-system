@@ -102,9 +102,9 @@ WWR=f"{WW}/SKILL.md"
 clean=textwrap.dedent("""\
 SCRIPT TYPE: Talking Head
 
-Two 2x4s, about nine bucks at Lowe's, and twenty little shelf brackets you can sell. Prices subject to change.
+Two two by fours, about nine bucks at Lowe's, and twenty little shelf brackets you can sell. Prices subject to change.
 
-Grab two 2x4x8 boards. Pick through the pile for the straightest ones. Cut each board into 16-inch pieces. Flip them. Sand the edges.
+Grab two eight-foot two by fours. Pick through the pile for the straightest ones. Cut each board into 16-inch pieces. Flip them. Sand the edges.
 
 ===START CTA(100 Ways to Make Your First $1,000 with Woodworking)===
 Quick one. Every measurement for this bracket, plus a hundred more projects, is in my digital book, first link in the description. Back to the cut.
@@ -444,6 +444,74 @@ wf=open(f"{CORE}/workflow.md").read(); ga=open(f"{CORE}/greenlight-audit.md").re
 check("39. core: straight quotes before the final scan; the Scanner evidence line is a real run on the delivered text or 'checked by hand'",
       "**Straight quotes and apostrophes only**" in wf and "Run it last on the exact text that will be delivered" in wf
       and "Scanner: [run on the delivered text | checked by hand]" in ga and "never reports a count it didn't measure" in ga)
+
+# ---- Sawdust Sam relaunch (2026-10-23) ----
+# 40. the woodworking pack carries the heritage section (P8, P9), its safety lines and scanner line; the template has a HERITAGE block;
+#     the core's research rules point to the exception
+SAM=f"{PERS}/sawdust-sam.md"
+wk=open(WWR).read(); tp=open(f"{WW}/references/research-pack-template.md").read(); rs=open(f"{CORE}/research-and-sourcing.md").read()
+need=["## Heritage builds (old-world and foreign styles)","**The skeleton doesn't change.**","**Heritage beats.**","**Style, never replica.**",
+      "**The old way is an option, never the main step.**","**What the history may say (P8, operator 2026-10-23).**","**Proof for a heritage build (P9, operator 2026-10-23).**",
+      "**Lamps and lights:**","**Old-world finishes and pigments:**"]
+miss=[n for n in need if n not in wk]
+check("40. woodworking pack: heritage builds (beats, style not replica, old way as option, P8 history, P9 proof), lamp and old-finish safety; template HERITAGE block; core points to the exception",
+      not miss and "HERITAGE                           [heritage builds only" in tp and "the assumption, if none found" in tp and "P8, operator 2026-10-23" in rs, f"missing {miss}")
+
+# 41. Sam's profile: Talking Head, 174 wpm, tenure none, his name and book, the CTA points to both the QR code and the top link,
+#     the book file exists with its page map and the never-cite-past-80 rule; the channel row is pending until the details are picked
+sp=open(SAM).read(); sb=f"{PERS}/books/sawdust-sam-book.md"
+fs=facts_of(SAM); ch=open(f"{CORE}/channels.md").read()
+check("41. Sam's profile: Talking Head, 174 wpm, name/book/tenure facts, QR code and top link, book file with page map; channels.md row 6 ready",
+      "Script type: Talking Head" in sp and "Words per minute (for runtime and the 8-minute minimum): 174" in sp and "tenure: none" in fs and "name: Sawdust Sam" in fs
+      and "book: The Old Ways" in fs and "the QR code on screen or the top link in the description (every CTA says both)" in sp
+      and os.path.isfile(sb) and "## Chapter page map" in open(sb).read() and "cite nothing past page 80" in sp
+      and re.search(r"^\| 6 \| Sawdust Sam \| `woodworking-scripts` \| `personas/sawdust-sam.md` \| ready \|$",ch,re.M) is not None, str(fs))
+
+# 42. Sam's scanner: invented trips, encounters, teachers and "scientists now say" fail; his required CTA wording, a plain
+#     old-way line and his name pass; a years figure fails (tenure none)
+fails=[l for l in ("When I was in Kyoto I saw this.","I once met an old carver who did this.","I visited a temple workshop.",
+                   "My old mentor taught me this joint.","Scientists now say the Vikings were right.","After 40 years at the bench I know this.")
+       if run_scan(l+"\n",[WWR,SAM])[0]!=1]
+passes=[l for l in ("Grab it with the QR code on screen or the top link in the description.","That's how they did it the old way.",
+                    "Subscribe to Sawdust Sam for more.","That one's on page 25 of Sawdust Sam's book, and Hank Hardwood's too.") if run_scan(l+"\n",[WWR,SAM],refs=[SAM])[0]!=0]
+check("42. Sam's scanner: invented trips, encounters, teachers, 'scientists now say' and a years figure fail; his CTA wording and plain lines pass",
+      not fails and not passes, f"not failing: {fails}; not passing: {passes}")
+
+# 43. Sam's ideation: the simple-build filter, single builds, the operator's title formats and the longer brief, wired into the pipeline
+so=f"{ROOT}/ideation/woodworking-ideation/references/sam-old-world.md"
+sot=open(so).read() if os.path.isfile(so) else ""
+need=["## 1. Simple builds only","**Single builds to begin with**","`Simple build?`","But They Never Sell Them","You Can Sell It for $[high]",
+      "about 800 to 1,200 words","6b. **History facts:**","6c. **Old tools and methods:**","11. **The book match:**","2b. **The build in outline:**"]
+check("43. Sam's ideation file: simple builds, single builds, title formats, longer briefs; the pipeline and SKILL.md point to it",
+      not [n for n in need if n not in sot] and "sam-old-world.md" in open(f"{ROOT}/ideation/woodworking-ideation/references/pipeline.md").read()
+      and "sam-old-world.md" in open(f"{ROOT}/ideation/woodworking-ideation/SKILL.md").read(), str([n for n in need if n not in sot]))
+
+# 44. written for the voice (operator, 2026-10-25): the forms the voice misread fail; the spoken forms pass;
+#     the library's own narration examples carry no "2x4"
+bad=["a single 2x12 and a 2x4.","Then one 2x4, 8 ft, about $4.","Grab two 2x4x8 boards.","Use 3-in screws.","An 11in board.",
+     "a 3/8 dowel.","at 19% moisture.","thousands of psi.","the stamp that says KD19.","Haha, the scrap pile pays its rent.",
+     "It runs $4.00 a box.","about $1.4M.","No. 2 grade.","Wood & glue.","about 6\" of tape.","Then 1 2 4 8 feet."]
+fails=[l for l in bad if run_scan(l+"\n",[WWR])[0]!=1]
+good=["a single two by twelve and a two by four.","Then one eight-foot two by four, about $4.","a three-eighths inch dowel.",
+      "at 19 percent moisture, set to 120 degrees.","In 2026, 15 people paid $4 to $10.","about $1.4 million.","It took 3 in a row.",
+      "the stamp that says K D 19."]
+passes=[l for l in good if run_scan(l+"\n",[WWR])[0]!=0]
+judged=run_scan("It is called an AAV, under their lead limit.\n",[WWR])[1]
+ex=open(f"{CORE}/retention-mechanics.md").read()+open(WWR).read()
+wf=open(f"{CORE}/workflow.md").read()
+check("44. written for the voice: 2x4, 8 ft, 3/8, 19%, psi, KD19, haha, $4.00, symbols fail; spoken forms pass; AAV and lead judged; no 2x4 in narration examples",
+      not fails and not passes and "letters 'AAV'" in judged and "'lead' can be said two ways" in judged
+      and "one 2x4" not in ex and "**Write every word the way the voice should say it**" in wf,
+      f"not failing: {fails}; not passing: {passes}")
+
+# 45. no promise block in the plumbing hook (P10, operator 2026-10-25): the opening's job 5 is the count line, the promise
+#     block is on the opening's never list, and the plan template carries the count line
+pk=open(f"{ROOT}/plumbing-scripts/SKILL.md").read(); up=open(f"{ROOT}/plumbing-scripts/references/unit-plan-template.md").read()
+op=pk[pk.index("## The opening"):pk.index("## Emotion, all the way through")]
+check("45. plumbing hook: no promise block (P10); job 5 is the count line, which never names a single item; the plan template follows",
+      "5. **The count line, when the video has a count**" in op and "5. **The promise block**" not in op
+      and "a promise block or any run-down of what later items hold" in op and "Promise straight after" not in pk
+      and "- count line:" in up and "- promise block:" not in up, "")
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

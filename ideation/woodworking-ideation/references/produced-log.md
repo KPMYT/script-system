@@ -108,4 +108,4 @@ Greenlit 2026-06-22 as the AI-avatar list. Briefs delivered 2026-06-22 (three-co
 25. These Wood Projects Are EASY to Make and EASIER to Sell [F12 dual-ease]
 26. 12 AMISH Wood Projects With RIDICULOUS Profit Margins [F19 territory × F3 — heritage test]
 
-*Master Kenji and Sawdust Sam have no produced titles recorded.*
+*Master Kenji and Sawdust Sam have no produced titles recorded (Sam relaunched 2026-10-23; his old channel's technique videos are summarised in `steering.md` §3).*

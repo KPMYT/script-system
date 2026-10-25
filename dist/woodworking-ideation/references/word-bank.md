@@ -1,6 +1,6 @@
 # Word bank — woodworking
 
-Modifier taxonomy is in core `format-bank-master.md` §5–§6; this file holds the woodworking phrases and vocabulary. Persona locks apply: Dale and Hank (the for-profit channels) get the full bank plus §7; Kenji and Sam exclude big-box, disposable, speed and money-in anchors.
+Modifier taxonomy is in core `format-bank-master.md` §5–§6; this file holds the woodworking phrases and vocabulary. Persona locks apply: Dale and Hank (the for-profit channels) get the full bank plus §7; Kenji excludes big-box, disposable, speed and money-in anchors; Sam (for profit since 2026-10-23) gets §7 plus his lost-wisdom register, and keeps big-box as his enemy, never his material source.
 
 ## 1. Caps-worthy power words (niche-proven)
 
@@ -45,7 +45,7 @@ Most beginners get this wrong → Pros don't talk about it → Nobody teaches �
 - "Literally Defy Gravity" — produced on the illusion sub-angle, no data yet.
 - Add audience-tab finds here with source, views, date observed.
 
-## 7. For-profit vocabulary (Dale post-pivot and Hank; register-locked off Kenji and Sam)
+## 7. For-profit vocabulary (Dale post-pivot, Hank and Sam; register-locked off Kenji)
 
 Sources are the for-profit intake (observed 2026-06-22; raw set in `archive/hank-hardwood-intake-2026-06.md`) and the operator's own greenlit titles. Modifier taxonomy — the earned-income scale and the ironic-burden parenthetical — lives in core `format-bank-master.md` §5.
 

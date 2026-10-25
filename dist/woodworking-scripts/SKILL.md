@@ -70,7 +70,7 @@ For more depth, see `woodworking-ideation/references/audience.md` (§1 and §9 f
    - **This viewer's pains:** having to buy tools first, wasting wood on something nobody buys, work that looks homemade, being out-priced by the big stores. **The wish underneath:** side money from something they made.
    - **Results they can picture:** the holiday's spending money, a plane ticket, every tool paid for, a table full of stock before the fair.
    - **Curiosity that fits the lane:** the cheap part that makes it sell, the thing everyone throws away, the build that out-earns a pricier one.
-   - **Into the materials, always announced** (operator, 2026-10-20), one of two ways, rotated: **straight to the first item and its price** ("First, one 2x4 from the big box store, about four bucks"), or **the list announced** ("Here's what you'll need."). Shapes in `references/excerpts.md` group 12. Never "let's get into it" (a hard ban), and never a competitor's signature launch such as "Let's go."
+   - **Into the materials, always announced** (operator, 2026-10-20), one of two ways, rotated: **straight to the first item and its price** ("First, one two by four from the big box store, about four bucks"), or **the list announced** ("Here's what you'll need."). Shapes in `references/excerpts.md` group 12. Never "let's get into it" (a hard ban), and never a competitor's signature launch such as "Let's go."
    - **The value line,** on about one video in three (core `retention-mechanics.md`, section 2): one sentence after the hook naming what this video delivers (the build, where to sell it, the numbers), each of them really in the script. "Today we're going to" is still never the opening line.
    - No persona intro, no channel name, no "today we're going to" as the opening line, no tease. Name the first material within about 15 seconds.
 2. **Materials and where to buy.** Store and price for each priced item, then "prices subject to change" once, straight after the prices. One price per item, always rounded the way people talk ("about fifteen bucks"), never cents; small items can be grouped. Specs only as far as the viewer needs them to grab the right thing off the shelf ("a 12-pack of five-eighths inch wood screws," not the whole label).
@@ -126,6 +126,18 @@ Whole winning scripts ran 1,135-2,408 words, with 18-55 step lines; ours never g
 
 Titles may exaggerate in degree ("EVERY tool," "stupid money"). The script delivers that through math, never through a claimed event. The promise line states what the build can do, and the money block shows the numbers that make the title reachable: how many pieces at what price would cover it. If even generous math can't reach the title's claim, flag it back to ideation rather than inventing support. Titles may also claim the persona's own selling or tenure ("the laziest thing I sell," "40 years of selling"), for Hank and Dale alike (operator, 2026-10-20). Those aren't flagged: the script delivers them through the numbers, and the narration never claims sales, customers or history (a years figure from the title aside, said as years at the bench; see "Proof" below).
 
+## Heritage builds (old-world and foreign styles)
+
+A heritage build is a build that sells, made in the style of another time or place: an Amish-style bench, a Japanese-style box, a "forgotten" thousand-year-old method with no named culture. The topic, the skeleton and the money are this lane's; the heritage adds a story thread. Every Sawdust Sam video is one. On Hank and Dale, a title with a heritage key makes it one (overlap between the channels is fine, operator 2026-10-23).
+
+- **The skeleton doesn't change.** Promise, materials within about 15 seconds, cut list, steps, finish, money block, end CTA. No history opening and no context paragraph (one sentence at most, as always). The history lives inside the build.
+- **The hook's curiosity is the heritage:** the old-world twist on a thing the viewer can already picture selling. The transformation and the pain or wish stay this lane's.
+- **Heritage beats.** Short asides of the narrator's fascination, each tied to the step, part or finish in hand: why they shaped it that way, what it was for, what they'd have used instead of the tool in your hand. One to four sentences each, at natural pauses (glue drying, between sections), never inside a tricky instruction. About one per section of the build; together roughly a tenth to a fifth of the script. They count toward the length because each one adds to the build; a beat that doesn't tie to the build is padding.
+- **Style, never replica.** The build is a modern piece in the old style, from the viewer's basic kit. Say "Amish-style" or "the way Japanese makers shaped theirs", never that it copies a real museum piece unless the pack says so. Name the actual style the build has ("Chinese-style", "Korean-style") rather than a broad "Asian" wherever it has one.
+- **The old way is an option, never the main step.** The step gives the basic-kit way first; the old tool or method follows as an option where it fits ("If you've got a drawknife, that's how they'd have done it"). Old methods that are unsafe today are never given, even as options (see Safety).
+- **What the history may say (P8, operator 2026-10-23).** General, well-known history, said plainly, with a hedge on anything less sure ("the way it's usually told", "most likely"). It doesn't need a source in the research pack. Never a specific date, named person, figure, "banned" story or "scientists now say" unless the brief or research pack carries it with its source. Never mock a culture or its people, and never claim to belong to one (`claims-policy.md`). Every build fact (prices, measurements, steps, safety) stays verified as usual.
+- **Proof for a heritage build (P9, operator 2026-10-23).** The research pack proves the plain product (a wooden lamp), and uses the heritage version's own listings where they exist. When they don't, the money block gives the plain product's listing range and says so honestly ("wooden lamps like this list between..."), the price is the narrator's opinion inside that range, and the heritage angle is opinion only ("I'd argue the story makes this one stand out"), never "Japanese-style lamps sell for...". A title claim about the heritage version counts as supported by the plain product's listings, so the research stage doesn't flag it back. The pack records the assumption in its HERITAGE block.
+
 ## Money block rules
 
 - **Cost per piece** = lumber cost divided by pieces per board, plus consumables per piece (glue, screws or nails, finish, sandpaper, hardware). Round up.
@@ -139,7 +151,7 @@ Titles may exaggerate in degree ("EVERY tool," "stupid money"). The script deliv
 
 ## Proof
 
-Proof is always researched online listings, worded honestly:
+Proof is always researched online listings, worded honestly (for heritage builds, the plain product's listings can stand in; see "Heritage builds"):
 - **"Listed at"** means an asking price.
 - **"Sold for"** only with real sales evidence, such as a sold listing or a shop's sales count.
 - **Give a range rather than one cherry-picked high price:** "listed between $35 and $60." Then one example at most, ideally the one closest to this build. Never read every listing out one by one.
@@ -169,6 +181,8 @@ These lines are mandatory where the build calls for them, always inside the rele
 - **What a product can be made from:** never treated lumber, MDF, plywood or finished wood (or their sawdust) in anything for food, animals or burning.
 - **Toys:** no small parts on toys for children under three.
 - **Old furniture flips:** test for lead paint on anything made before 1978.
+- **Lamps and lights:** a listed lamp kit or LEDs inside wood, never an open flame. A candle holder keeps the flame in a metal or glass cup, clear of the wood.
+- **Old-world finishes and pigments:** only today's safe versions (no lead pigments; lye or charring, if used, with gloves, eye protection and the maker's instructions).
 
 Describe only safe technique. The visuals are generated from the script, so an unsafe instruction becomes an unsafe picture.
 
@@ -234,6 +248,7 @@ ban: watch me | first-person build narration
 ban: as you can see | pointing at generated footage
 ban-regex: (?:\$\s?\d[\d,.]*|\bbucks|\bdollars)\s*(?:an|per|a|/)\s*hour\b | hourly-wage framing
 ban: per hour | hourly-wage framing
+ban-regex: \bscientists? (?:now )?(?:say|said|admit|are baffled)\b | invented authority claim in heritage history
 ```
 
 ## Before handing over

@@ -84,3 +84,34 @@ The study supports the narrow form of both: a tenure stated the same way every t
 **Open question for the operator:** may the script also add typical price ranges from general knowledge when the brief gives none (option B), or are filled-in costs always said in words (option A, recommended: fewer numbers, and no out-of-date prices for viewers to dispute)?
 
 **Status:** approved by the operator on 2026-10-21: "yes agree for all. and also the cost should always be estimated tho. never to the cents amount." Applied with one change from option A/B: a price the brief doesn't give comes from a researched price guide (`plumbing-scripts/references/price-guide.md`, each figure checked against two or more sources and re-checked), always said as an estimate, never to the cent.
+
+## P8. Heritage history without sources, for Sawdust Sam (opened 2026-10-23)
+
+**Decision (HANDOFF.md section 3, FacelessOS rebuild, and `core/research-and-sourcing.md` §2, §5):** "facts are always verified"; stories count as facts; verify or cut. The woodworking ideation skill adds "cultural authenticity is a hard floor... no invented dates, 'banned' stories, or fake lineage" for Sam.
+
+**Evidence:** the operator's ask for the relaunched Sawdust Sam (2026-10-23): "we should also potnetially include sams fascination with the foreign and historic approaches and designs... they will be less built and based on facts and clear sources". On the other side: about 40% of Dale's and Hank's comments were "AI" or "fake" remarks (HANDOFF §4), and Sam's old uploads leaned on invented authority ("10 BANNED Viking Woodworking Tricks That Scientists Now Say Were GENIUS").
+
+**Proposal (option A in `drafts/sawdust-sam-DRAFT.md`, Part 2):** in heritage builds only, the narrator's history beats may say general, well-known history plainly, with a hedge on anything less sure, without a source in the research pack. Never a specific date, named person, figure, "banned" story or "scientists now say" unless the brief or pack carries it with its source. Every build fact (prices, measurements, steps, safety) stays verified. Options B (anything goes) and C (no change) are in the draft.
+
+**Status:** approved by the operator on 2026-10-23 ("p8 - yes", option A). Applied to `woodworking-scripts/SKILL.md` ("Heritage builds") and a pointer in `core/research-and-sourcing.md` §2; the pack's scanner bans "scientists now say".
+
+## P9. Proof from the plain product for heritage builds (opened 2026-10-23)
+
+**Decision (HANDOFF.md section 3, from the woodworking study):** "Proof is always researched online listings, worded honestly", and the research stage flags back any title claim it can't support (`core/research-and-sourcing.md` §10).
+
+**Evidence:** the operator (2026-10-23): "we take for example the concept that a lamp works and sells. and we are making the assumption that the viking lamp would also sell the same way." Listings for an old-world version of a product often won't exist.
+
+**Proposal (`drafts/sawdust-sam-DRAFT.md`, Part 2, decision 2):** for a heritage build, the research pack proves the plain product with its listings, and uses the heritage version's own listings where they exist. Where they don't, the narration gives the plain product's range honestly ("wooden lamps like this list between..."), the price is the narrator's opinion inside it, the heritage angle is opinion only, and a title claim about the heritage version counts as supported by the plain product's listings. The assumption is recorded in the pack's HERITAGE block, never stated as fact in narration.
+
+**Status:** approved by the operator on 2026-10-23 ("p9 - yes"). Applied to `woodworking-scripts/SKILL.md` ("Heritage builds", and a pointer in "Proof"), the research pack template's HERITAGE block and `core/research-and-sourcing.md` §2.
+
+## P10. No promise block in the plumbing hook (opened 2026-10-25)
+
+**Decision (HANDOFF.md section 3, plumbing, P3):** "Concrete forward promises are allowed in the plumbing pack (P3, approved): a promise block after the first answer may name two or three later items with their stake, provided each is paid inside the video." Applied as job 5 of "The opening" in `plumbing-scripts/SKILL.md`.
+
+**Evidence:** the operator (2026-10-25), on Roger's water heater video: "It ends by saying, 'The first part, I'll teach you this. The second thing I'll teach you this,' and nothing, and just goes to the first part... That doesn't make sense. I think we remove that part of the hook entirely. As in, going forward, I don't like it." All four plumbing uploads of 2026-10-24 open with one, and item one starts at 1:03 to 1:13 in the lists (the pack's own target is about 30 seconds); Roger's water heater block promises items one and two and then starts item one (`studies/recent-uploads-2026-10-25/analysis.md` §2).
+
+**Proposal (`drafts/tts-hook-and-length-DRAFT.md`, Part 2):** the opening loses the promise block: it goes from the point, the question, the villain line and the honest scope to the count and item one, and "a promise block or any run-down of what later items hold" joins "Never in an opening". Concrete named promises stay allowed in the body (P3's forward lines), and vague teases stay banned everywhere.
+
+**Status:** approved by the operator on 2026-10-25 with a change: "in the hook of plumbing instead of saying 1 and 2 it owuld be better to say something like today i am going to show you the eight things you must check (if it doesnt already)". Applied with a count line in place of the promise block (job 5 of "The opening"), without "today", which the plumbing scanner bans in openings.
+

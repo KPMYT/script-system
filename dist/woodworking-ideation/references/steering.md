@@ -2,7 +2,7 @@
 
 Canonical source for the woodworking column of core `scoreboard.md`. Dials: presence / demand shape / register. Status tags: `proven★` (own view data) · `proven` (woodworking ecosystem data) · `inherited` (carried from the plumbing bank with no woodworking evidence yet) · `produced` (own title exists, views pending) · `untested` · `dead` · `endorsed` · `excluded`. Tool-reported outlier scores are never evidence.
 
-**Updated 2026-10-20:** active channels are Hank and Dale only, both on camera (Talking Head), both single builds; Kenji stopped; Sam inactive until relaunched as woodworking for profit; personas live in the script library's persona profiles; titles may exaggerate freely (tenure and income included); every for-profit request runs `pipeline.md`.
+**Updated 2026-10-23:** active channels are Hank, Dale and Sawdust Sam (relaunched 2026-10-23 as woodworking for profit the old-world way, §3), all on camera (Talking Head), all single builds; Kenji stopped; personas live in the script library's persona profiles; titles may exaggerate freely (tenure and income included); every for-profit request runs `pipeline.md`.
 
 **Updated 2026-09-09.** Dale Oakfield's Workshop pivoted to woodworking-for-profit; Hank Hardwood (ch. 4, the niche's first face channel) launched; F51 and F52 entered the master from the for-profit intake (74 ecosystem winners observed 2026-06-22, banked 2026-09-09 — raw set in `archive/hank-hardwood-intake-2026-06.md`).
 
@@ -44,17 +44,17 @@ Canonical source for the woodworking column of core `scoreboard.md`. Dials: pres
 - **Format fit:** F19 in an Eastern key ("the method the West forgot"), F36 ("why the West still does X the hard way"), F37 ("…Separate Amateurs from MASTERS"), F22 (the joint masters always use), precision F5 / F18, hand-tool F13 / F28, F32 (myth-busting Western habits).
 - **Register lock:** mastery and precision, never thrift. No big-box or $5-hack anchors; "in 60 seconds" only where it does not undercut the craft. Money language: "worth every penny". No for-profit money-in framing.
 
-## 3. Sawdust Sam — Amish / traditional woodworking
+## 3. Sawdust Sam — woodworking for profit, the old-world way (relaunched 2026-10-23)
 
-**Status: inactive (operator, 2026-10-20).** It relaunches later as woodworking for profit, and this block gets rewritten then. Don't generate until the operator relaunches it.
-
-- **Persona:** old-order traditional craftsman; hand tools, minimal or no electricity, furniture built to last generations, the way it has been done for 200 years, quiet distrust of modern disposable goods.
-- **Dials:** faceless / browse / heritage-plain. **Profile:** A. Kinship: Hannah Yoder (fabrics) — same register (core `kinship-map.md`).
-- **Footage capability:** compiled — knowledge only.
-- **Own view data in the files:** none — steering **inherited** with the persona filter, until ~20 local datapoints.
-- **Topic fit:** hand-tool methods, no-power solutions, old joinery, traditional finishes (milk paint, shellac, boiled / raw oils, wax), restoring and using old hand tools, wood-movement wisdom, furniture that lasts, "why Amish / old furniture lasts". Not tech-tool-heavy.
-- **Format fit:** F19 (lost wisdom — his strongest lane, zero fabrication), F2 (veteran authority), F29 (quality-decline / built-to-last), F4 (insider betrayal), F21 (abandoned methods), F26 (waste-nothing resourcefulness).
-- **Register lock:** heritage, durability, self-reliance. No big-box, disposable or speed anchors. Money language: "built to last" vs "disposable", never micro-cost hacks, never money-in framing. Truth doctrine: real tradition only, hedged community claims, no invented dates or named districts.
+- **Angle:** the for-profit lane's topics, angles and spins (the same product scan, formats and demand as Dale and Hank), each re-made in an old-world or foreign style: the Amish-style bench, the Japanese-style box, the Chinese-style lantern, the "forgotten" thousand-year-old design. Proven product × heritage key.
+- **The assumption (operator, 2026-10-23):** a product that sells in its plain form is assumed to sell in its heritage style. The scan proves the plain product; the brief names both; the script proves the plain product's listings (woodworking scripts pack, "Heritage builds").
+- **Keys (operator, 2026-10-23):** the bulk is **Japanese, Amish, Asian** (name the actual style: Chinese, Korean...) and **forgotten** (old methods with no named culture); others (Viking, Roman, Medieval, Shaker...) are tests.
+- **Persona:** `personas/sawdust-sam.md` (the sawdust-sam-persona skill): fascinated by how other times and places built things; curator, never a member of any tradition. His book is *The Old Ways* (100 secrets credited to traditions).
+- **Dials:** **face** (AI-avatar presenter, Talking Head) / browse / heritage-for-profit. **Profile:** A. Kinship: Dale and Hank (same topic pool; overlap is fine, operator 2026-10-23).
+- **Simple builds, single builds (operator, 2026-10-23):** one product per video; every design buildable by a home woodworker following instructions, never an artist's piece (no freehand carving, knotwork, inlay, turning or compound curves). Big and long builds are fine. The filter, the scan columns, the title formats and the longer brief spec are in `sam-old-world.md`.
+- **Formats:** mostly the current formats with the key word added; F19 territories crossed with the for-profit home lanes (F51, F52, F30, F26 money-key, F3 + sell-framing, F36); the operator's F52 heritage expressions ("The Amish Make This for $12. You Can Sell It for $140.") and the new "...But They Never Sell Them" candidate (`sam-old-world.md` §3); a few new titles per batch.
+- **Own data (old channel, March-July 2026, technique videos, not for-profit builds):** Amish 138k / 104k / 103k / 64k; Medieval 61k (one); Viking 27k / 11k; Roman 12k / 6.9k / 6.1k; Japanese 12k / 7.2k. **On Hank (for-profit heritage tests, 2026-10-23):** Japanese 10k (2.2x his normal) and 4.4k; "1,000 Year Old" 5.6k (1.2x); Amish 4.4k / 3.8k / 3.3k; Viking 2k (0.4x). No sign of a lift on Hank's audience yet; Sam's is a different one.
+- **Register:** wonder at the old makers plus money. Titles may exaggerate the degree, never invent the history: no "BANNED" or "scientists now say" stories (the old channel used both).
 
 ## 4. Hank Hardwood — woodworking for profit (face)
 
@@ -86,7 +86,7 @@ Niche status = what the scoreboard shows. Persona notes give the channel fit. `p
 | F2 | Veteran authority | inherited · produced | General batch "In 40 Years at the Bench, I've NEVER Thrown Away a Single Offcut"; **money key on Dale** — "In 40 Years, Sawdust Is the Most Profitable Thing I've Ever Sold... Here's How" (batch 2). Dale's for-profit differentiator; Hank may claim tenure too, in his own words, never "40 years" (operator 2026-10-20) |
 | F3 | Numbered tips / SECRETS | proven★ | Own 18k and 14k tips listicles (ceiling ~18k when the topic is generic). For-profit sell-framing ecosystem: "Top 5 Woodworking Projects That Sell" · 2.1M / 5y (731 Woodworks); "40 Woodworking Projects That Sell! (DIY PROJECTS)" · 387k / 4y (Fish Over Chicks). Dale's listicle engine |
 | F3b | 'ILLEGAL' tenure listicle | produced | First woodworking test — "25 'ILLEGAL' Woodworking Money Tricks I've Used for 40 Years (Big Box Hates Me)" (Dale batch 2) |
-| F4 | Insider betrayal | inherited · produced | "The Lumber Yard Secret That Cuts My Wood Costs in Half (Big Box HATES This)" (Dale batch 2); Sam home lane |
+| F4 | Insider betrayal | inherited · produced | "The Lumber Yard Secret That Cuts My Wood Costs in Half (Big Box HATES This)" (Dale batch 2) |
 | F5 | Universal claim | inherited | "Hides ANY Ugly Gap" shape; precision key on Kenji |
 | F6 | Ego challenge | inherited · produced | "I BET You're Cutting Wood WRONG — 10 Mistakes Every Beginner Makes" (general batch) |
 | F7 | Versus + test | inherited · produced | Persona verdict only — "Etsy vs Craft Fairs vs Facebook — Where I ACTUALLY Make Money (40 Years of Selling)" (Dale batch 2) |
@@ -102,7 +102,7 @@ Niche status = what the scoreboard shows. Persona notes give the channel fit. `p
 | F16 | Concrete benchmark | inherited | Kenji precision key; a store-bought-finish expression drafted 2026-09-09, not selected |
 | F17 | Problem-question opener | inherited | "Nobody Buying Your Wood Projects?" drafted 2026-09-09, not selected — abstract selling advice fails the sift |
 | F18 | Quantified micro-solution | inherited · produced | "How To Make Bad Miter Joints Look FLAWLESS in 60 Seconds" (general batch) |
-| F19 | Lost wisdom / old-school | proven | "Old School Tricks To Make Bad Mitres Look Amazing!" · 1.5M / 2y — Sam's home run; Eastern key on Kenji; **territories on the for-profit channels** — Japanese / Amish / Viking / 1,000-year-technique tests produced on Dale batch 1 and Hank |
+| F19 | Lost wisdom / old-school | proven | "Old School Tricks To Make Bad Mitres Look Amazing!" · 1.5M / 2y — **Sam's home lane** (relaunched 2026-10-23: heritage key × for-profit build); Eastern key on Kenji; **territories on Dale and Hank** — Japanese / Amish / Viking / 1,000-year-technique tests produced on Dale batch 1 and Hank (all uploaded on Hank; views in §3) |
 | F19b | Abandonment mystery | untested | A roadside-selling expression drafted 2026-09-09, not selected |
 | F20 | Causal horror | untested (weak) | Disgust barely applies |
 | F21 | Banned / no-longer-done | inherited · produced | "Stop Using These Wood Joints — They're SECRETLY Ruining Your Furniture" adjacent (general batch) |
@@ -114,7 +114,7 @@ Niche status = what the scoreboard shows. Persona notes give the channel fit. `p
 | F27 | Like never before / restoration | inherited · produced | "Make Old Furniture Sell Like NEW — The $10 Flip I've Done for 40 Years" (Dale batch 2) |
 | F27b | Quantified upgrade | untested | A table-saw-upgrade expression drafted 2026-09-09, not selected |
 | F28 | Survivor shortlist | proven · produced | Ecosystem "Expensive Woodworking Tools Beginners Actually Need" · 132k / 1y (tool-shopping expression parked); **money key on Dale** — "The First 5 Things I'd Sell If I Started Woodworking Today (40 Years Later)" (batch 2) |
-| F29 | Grade lie / quality exposé | inherited | Sam's second home run; honest ammunition abundant |
+| F29 | Grade lie / quality exposé | inherited | Sam's enemy line (mass-made vs built to last) as a twist on a for-profit build; honest ammunition abundant |
 | F30 | Hidden asset reframe | **proven (multi-million lane)** · produced | "This only takes Three 2x4s. Huge Profit" · 4.1M / 3y (Brady Hommel); "Use PALLETWOOD to make MONEY and learn woodworking." · 2.6M / 3y (Dainer Made); "I cannot make these FAST ENOUGH. $45 each. Nineteen products from ONE 2X4." · 2.1M / 1y (WhosTheVoss); general-lane "5 DIY Christmas Builds in Under 5 Hours Using Only Wood from Lowes" · 144k / 7 mo. **The #1 home lane on both for-profit channels**; produced on Dale (batches 1 and 2) and Hank |
 | F31 | Family protection emergency | untested (weak) | No crisis material |
 | F32 | Truth about X | inherited | Finish myths are honest targets |
@@ -140,8 +140,8 @@ Niche status = what the scoreboard shows. Persona notes give the channel fit. `p
 
 ## 7. Topic boundaries
 
-- **In:** the for-profit cluster (`demand-map.md` §2b) on Dale and Hank; the Kenji and Sam lanes unchanged; trim and finish carpentry framed craft-side remains a validated adjacency for the parked lane.
-- **Parked (2026-09-09 — no owning channel):** the general-woodworking lane Dale used to run — generic tips listicles, beginner mistakes as craft (not as sales), jigs, table-saw upgrades, tool-buying (the F8 / F13 / F28 shopping expressions, the highest-monetization lane), trim and finish carpentry. Not dead — parked. Kenji and Sam are register-locked and exclude big-box and tool anchors, so audits must not re-propose it to them; it needs a new channel or a Dale minority share on the operator's call.
+- **In:** the for-profit cluster (`demand-map.md` §2b) on Dale, Hank and Sam (Sam in a heritage key, §3); the Kenji lane unchanged; trim and finish carpentry framed craft-side remains a validated adjacency for the parked lane.
+- **Parked (2026-09-09 — no owning channel):** the general-woodworking lane Dale used to run — generic tips listicles, beginner mistakes as craft (not as sales), jigs, table-saw upgrades, tool-buying (the F8 / F13 / F28 shopping expressions, the highest-monetization lane), trim and finish carpentry. Not dead — parked. Kenji is register-locked and Sam is for-profit in a heritage key, so audits must not re-propose it to them; it needs a new channel or a Dale minority share on the operator's call.
 - **Out:** pure bathroom / handyman (caulk your toilet to the floor · moldy silicone); plumbing topics; any filmed proof-of-work build. **On the for-profit channels also out:** free plans and lead-magnet promises; tool-buying; twigs; hourly-wage framing; fence pickets; service hustles (paid trim repair); off-season seasonal titles.
-- **Persona exclusions:** big-box / cheap-lumber / named-retailer anchors on Kenji and Sam; speed and disposable framing on Sam; thrift and money-in framing on Kenji; on Hank the big-box anchor is less native than on Dale.
+- **Persona exclusions:** big-box / cheap-lumber / named-retailer anchors on Kenji (on Sam the big-box aisle is the enemy, never the material source); speed and disposable framing on Sam; thrift and money-in framing on Kenji; on Hank the big-box anchor is less native than on Dale.
 - **Exclusions (do not transfer):** F45 on the for-profit channels; F46 everywhere. Write `NOT woodworking:` triage rulings here.

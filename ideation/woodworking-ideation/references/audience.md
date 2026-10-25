@@ -13,9 +13,9 @@ A DIY-inclined hobbyist woodworker skewing **beginner-to-intermediate** (confirm
 1. **Competence / avoiding amateur shame** — I BET, Most Beginners Get This Wrong, skills that separate amateurs from pros. Confrontational (F6) and aspirational (F37) both work; the beginner skew makes this the top lever.
 2. **Fear of ruining the project / wasting wood** — mistakes, NEVER, FATAL, "ruining your furniture", blotchy stain, split boards. A ruined hardwood board is real money.
 3. **Money — save it and make it** — save THOUSANDS, cheap-beats-expensive, tools you actually need; plus the make-money angle (projects that SELL) and the look-expensive angle. Both proven on scrap topics.
-4. **Lost wisdom / nostalgia** — old-school tricks, before power tools, the way it has always been done. Run honestly; **Sam's core lever**.
+4. **Lost wisdom / nostalgia** — old-school tricks, before power tools, the way it has always been done. Run honestly; **Sam's core lever** (since 2026-10-23 as the heritage key on a build that sells).
 5. **Mastery / precision** — dead-flat, razor-sharp, no nails, the secret the West never learned. **Kenji's core lever**.
-6. **Quality-decline / built-to-last** — modern furniture is disposable, why old pieces outlast new ones, the workaround. **Sam's second lever**.
+6. **Quality-decline / built-to-last** — modern furniture is disposable, why old pieces outlast new ones, the workaround. **Sam's second lever** (his enemy line).
 7. **Resourcefulness** — use what you would throw away (scrap, offcuts, sawdust), one cheap board into many projects. The biggest validated demand cluster.
 8. **Ease** — the easiest way possible, in 60 seconds, no special tools; friendly trigger for jobs perceived as hard (miters, finishing, joinery).
 9. **Curiosity / contrarian** — "I don't get why anyone still…", pour glue in sawdust and watch. The F36 contrarian take was the single biggest outlier.
@@ -29,7 +29,7 @@ Disgust (F20) and family emergency (F31) — no raw material. Water damage, sewa
 
 - **Dale:** FREE → $1 / $5 micro-cost ("One $5 Board From Home Depot") → "Save $400" exact figures → THOUSANDS; SELL for Stupid Money; Look Like You Spent THOUSANDS.
 - **Kenji:** "worth every penny", the tool worth buying once; never micro-cost or bargain framing.
-- **Sam:** "built to last generations" vs "disposable"; never cheap, never fast.
+- **Sam:** the earned-income scale in an old-world key, with "built to last" vs "disposable" as his enemy line (relaunched for profit 2026-10-23).
 - **Time:** "in 60 Seconds" and "Under 5 Hours" on Dale; time framing on Kenji only where it does not undercut the craft; Sam's time runs in generations.
 - **Briefs carry real dollar anchors:** hardwood ~$6–15/board-foot, tool prices, what the pro / commercial equivalent costs.
 
@@ -47,7 +47,7 @@ Table-saw kickback is the apex hazard — never the rip fence as a crosscut stop
 
 ## 8. Persona-claim discipline (core `rules-and-specs.md` §2.2)
 
-Dale's "40 years" is allowed in titles (operator 2026-10-20), and Hank's titles may claim selling and tenure too, in his own words; neither narration ever states years or sales (their persona profiles); the script delivers tenure and income titles through the numbers; Kenji's and Sam's traditions are real and documented — lean into them and never invent lineage, dates, districts or "banned" stories. Cultural authenticity is a hard floor on Kenji and Sam.
+Dale's "40 years" is allowed in titles (operator 2026-10-20), and Hank's titles may claim selling and tenure too, in his own words; neither narration ever states years or sales (their persona profiles); the script delivers tenure and income titles through the numbers; Kenji's and Sam's traditions are real and documented — lean into them and never invent lineage, dates, districts or "banned" stories. Cultural authenticity is a hard floor on Kenji and Sam (Sam's scripts may tell general history without a source, hedged, never invented specifics: woodworking scripts pack, "Heritage builds").
 
 ## 9. The money-motivated slice — Dale (post-pivot) and Hank Hardwood — labeled hypotheses
 

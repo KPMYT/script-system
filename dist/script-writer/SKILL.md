@@ -1,11 +1,11 @@
 ---
 name: script-writer
-description: Writes YouTube scripts for the operator's channels. Runs whenever someone types START (alone or followed by inputs), asks for a new script, or pastes a title with a brief (and, where the niche uses one, a research pack) for a script. It asks which channel, collects exactly the inputs that channel needs, refuses to write until every input is valid, then runs straight through to the finished, audited script and voiceover copy. Holds the core rules; it reads the channel's niche-pack skill and persona skill. Channels ready now: Hank Hardwood and Dale Oakfield's Workshop (woodworking for profit); Roger the Pipe Guy, Mark Silverbridge and The Vintage Pipefitter (plumbing).
+description: Writes YouTube scripts for the operator's channels. Runs whenever someone types START (alone or followed by inputs), asks for a new script, or pastes a title with a brief (and, where the niche uses one, a research pack) for a script. It asks which channel, collects exactly the inputs that channel needs, refuses to write until every input is valid, then runs straight through to the finished, audited script and voiceover copy. Holds the core rules; it reads the channel's niche-pack skill and persona skill. Channels ready now: Hank Hardwood, Dale Oakfield's Workshop and Sawdust Sam (woodworking for profit); Roger the Pipe Guy, Mark Silverbridge and The Vintage Pipefitter (plumbing).
 ---
 
 # Script writer (the core)
 
-**Version:** 2026-10-21 (library commit 56438f7)
+**Version:** 2026-10-25 (library commit fa06b6c)
 
 When someone types **START**, open `core/workflow.md` (in this skill's folder) and follow it exactly, from section 1. Everything else is loaded from there.
 
@@ -18,6 +18,7 @@ The script system is split into separate skills, one per layer. They're all inst
 | the niche pack `woodworking-scripts` | the **woodworking-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder |
 | the persona profile `personas/hank-hardwood.md` | the **hank-hardwood-persona** skill: its `SKILL.md` is the profile |
 | the persona profile `personas/dale-oakfield.md` | the **dale-oakfield-persona** skill: its `SKILL.md` is the profile |
+| the persona profile `personas/sawdust-sam.md` | the **sawdust-sam-persona** skill: its `SKILL.md` is the profile |
 | the niche pack `plumbing-scripts` | the **plumbing-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder (with `references/models/`) |
 | the persona profile `personas/roger-the-pipe-guy.md` | the **roger-the-pipe-guy-persona** skill: its `SKILL.md` is the profile |
 | the persona profile `personas/mark-silverbridge.md` | the **mark-silverbridge-persona** skill: its `SKILL.md` is the profile |

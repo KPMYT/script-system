@@ -4,6 +4,8 @@ Every woodworking-for-profit request runs these steps in order. Steps 1 and 2 ar
 
 Best run in Cowork, where Claude can browse Etsy in a real browser.
 
+**Sawdust Sam:** run this pipeline with the additions in `sam-old-world.md` (simple builds only, the plain product and its old-world version in each row, Sam's title formats, and more detailed briefs with four extra fact groups). Hank and Dale use this file as it is.
+
 ---
 
 ## Step 0: inputs (optional)
