@@ -110,3 +110,23 @@ What these seven can and can't say:
   3. Long stretches before the title's payoff: Mark's fixes at 8:17; Hank's 2½ minutes of regulations mid-build.
   4. Thin back halves when a title's count outruns the content (Roger's 12 reasons).
 - **Dale's video probably didn't come from the library** (section 3), so it can't be counted for or against it.
+
+## 5. The two VA chats (pasted by the operator, 2026-10-25)
+
+The operator pasted the claude.ai chats behind two scripts: Sawdust Sam's bench (the video above) and a Roger script, "$0.01 vs $1000 Drain Unclogging Tricks (RANKED)". Neither that Roger title nor the "Does Green Gobbler ACTUALLY Work?" script in its rotation log is among Roger's 30 newest uploads on 2026-10-25.
+
+### Sam: the chat matches the video, and shows where each problem came from
+
+- **The uploaded video is the chat's second, extended version,** voiced from its VO copy. The extension's added lines are all in the captions ("Amish shops hand-pick every board", "KD19", "If you're building two", "end grain", "a cherry tone", Grand Rapids), and the one "[snorts]" in the captions (8:22) falls exactly where the VO copy put `[warm]` ("Sand it smooth. [warm] Those round plugs are my favorite thing").
+- **The misreads were written into the script.** It says "a single 2x12 and a 2x4", "First, one 2x12, eight feet long", "Then one 2x4, eight feet, about $4", "On the 2x4, cut one stretcher", "one 2x12 and one 2x4". Each of these came out garbled (section 1). The audit's Voice line picked **"Then one 2x4, eight feet, about $4."** as its best-matched line, and that is the line the voice read as "Then 1 2 4 8 ft". The scanner reported "mechanical 0", because it has no check for any of it.
+- **The VA asked for length:** "MAKE IT 14-16 MINS LONG", after a first version that passed at 1,683 words (about 9.7 minutes at 174). The chat added about 800 words. Most of them are real build value: picking boards, wood movement, building two, the end-grain joint, the table-length version and listing details. Some are not: the Grand Rapids history, and "That pine bench on their own site is listed around $425" said for the second time. Four new short forms came in with them ("KD19", "an eleven-inch 2x12", "19 percent" was fine). The library sets length from the content, with an 8-minute floor; it has no rule on a VA asking for a length.
+- **The title's promise is never voiced.** "I'm Shocked at How Fast These AMISH Benches Sell": the brief says no demand signal was found and calls the title "persona puffery over a real gap", and the script never says anything about how fast they sell. It turns to the three-month wait instead. The wait is the demand evidence (buyers wait because the makers can't keep up), but the script never makes that link.
+- **Two prices to check in the chat's research pack** (it isn't in the paste): "Even their pine one, at four feet, is listed around $425". The brief says "a plain pine 42–48" Amish bench was not found", and the audit traces $425 to "$305 + $119", a base price plus an option. Also "Etsy" in "listed between about $155 and $250, on Etsy and on small shop sites", where the brief says Etsy wasn't checked.
+
+### Roger: good inputs, a good script, and three of the drafted fixes in it
+
+- **The inputs are complete:** the title, a brief with a priced ladder for all ten rungs and the safety facts, and the previous rotation log line. The script is strong: the stopper as the free number one, a "but" turn in most items, the safety rule after a caustic, the flush-and-watch-the-tub check, the villain as price and silence, and a specific comment question.
+- **The promise block** (Part 2 of the draft): "Number four is a strip of plastic that costs less than a cup of coffee... Number six is the one you most likely paid for. It ranks dead last, and it comes with the one rule..." The audit's Hook line says "value line: none (promise block)".
+- **The runtime at 150** (Part 3): "2,513 spoken words = about 16.8 minutes at 150". At Roger's real speed (about 170) it plays in about 14¾ minutes.
+- **One voice risk** (Part 1): "blasts water through it at thousands of psi. Psi is pounds per square inch". The script defines the letters, but the voice may read "psi" as a word. "PVC" and "P-trap" are letters people say.
+- **The close sits close to the plumbing "no recaps" rule:** "So, ranked for value, it comes down to this. The free stopper, the zip tool and the right plunger..." It's four sentences, and the title "RANKED" and the brief's PAYOFF ask for it. The audit didn't treat it as a recap.
