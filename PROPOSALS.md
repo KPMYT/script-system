@@ -104,3 +104,14 @@ The study supports the narrow form of both: a tenure stated the same way every t
 **Proposal (`drafts/sawdust-sam-DRAFT.md`, Part 2, decision 2):** for a heritage build, the research pack proves the plain product with its listings, and uses the heritage version's own listings where they exist. Where they don't, the narration gives the plain product's range honestly ("wooden lamps like this list between..."), the price is the narrator's opinion inside it, the heritage angle is opinion only, and a title claim about the heritage version counts as supported by the plain product's listings. The assumption is recorded in the pack's HERITAGE block, never stated as fact in narration.
 
 **Status:** approved by the operator on 2026-10-23 ("p9 - yes"). Applied to `woodworking-scripts/SKILL.md` ("Heritage builds", and a pointer in "Proof"), the research pack template's HERITAGE block and `core/research-and-sourcing.md` §2.
+
+## P10. No promise block in the plumbing hook (opened 2026-10-25)
+
+**Decision (HANDOFF.md section 3, plumbing, P3):** "Concrete forward promises are allowed in the plumbing pack (P3, approved): a promise block after the first answer may name two or three later items with their stake, provided each is paid inside the video." Applied as job 5 of "The opening" in `plumbing-scripts/SKILL.md`.
+
+**Evidence:** the operator (2026-10-25), on Roger's water heater video: "It ends by saying, 'The first part, I'll teach you this. The second thing I'll teach you this,' and nothing, and just goes to the first part... That doesn't make sense. I think we remove that part of the hook entirely. As in, going forward, I don't like it." All four plumbing uploads of 2026-10-24 open with one, and item one starts at 1:03 to 1:13 in the lists (the pack's own target is about 30 seconds); Roger's water heater block promises items one and two and then starts item one (`studies/recent-uploads-2026-10-25/analysis.md` §2).
+
+**Proposal (`drafts/tts-hook-and-length-DRAFT.md`, Part 2):** the opening loses the promise block: it goes from the point, the question, the villain line and the honest scope to the count and item one, and "a promise block or any run-down of what later items hold" joins "Never in an opening". Concrete named promises stay allowed in the body (P3's forward lines), and vague teases stay banned everywhere.
+
+**Status:** open, waiting for the operator's yes to Part 2 of the draft.
+
