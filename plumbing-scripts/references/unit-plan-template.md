@@ -18,7 +18,7 @@ OPENING                            [order this time, from the video type: ...]
 - question (optional):             [one the viewer answers in their own house; answered within ~15 s]
 - villain line:                    [the trade's price or silence, from the brief]
 - scope or reassurance:            [what it won't do, or why it's safe]
-- promise block:                   [2-3 later items, each with its stake -> where each is paid]
+- count line:                      [a list or a set of fixes: one sentence naming the whole list and what it does for the viewer; none if the opening already said the count; never what a single item holds]
 - first real tip by:               [seconds; in a list, item one by ~30 s]
 - tenure:                          [not used / where, and the job it does there]
 - dollar figure in the opening:    [none / one, not item one's]
@@ -58,7 +58,7 @@ CTAs AND ENDING
 - comment ask (the end):           [a turn to the viewer, an outright ask to comment, a specific question from the viewer's house, + "I read every one"; not last video's]
 
 PROMISES CHECK
-- each promise -> where it's paid  [the first within ~5 min; none held past the middle except the safety rule or a second use]
+- each forward line -> where paid  [within ~5 min; nothing promised in the opening]
 - longest stretch without a forward line or a payoff:
 
 LENGTH ESTIMATE

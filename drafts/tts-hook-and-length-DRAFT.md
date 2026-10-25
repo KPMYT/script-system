@@ -1,6 +1,8 @@
 # Draft: writing for the voice, the plumbing hook ending, and real runtimes (2026-10-25)
 
-**Nothing here is applied yet.** It answers the operator's three points of 2026-10-25. The evidence is in `studies/recent-uploads-2026-10-25/analysis.md`. Each part can be answered on its own ("1 yes, 2 yes, 3 no"). Part 2 changes a locked decision (P3), so it's also in `PROPOSALS.md` as P10.
+**Status (2026-10-25):** Part 1 applied as written. Part 2 applied with the operator's change (a count line in place of the promise block; see `HANDOFF.md`, "Operator decisions, 2026-10-25"). Part 3 not applied ("do not change 3 yet"). VAs don't ask for lengths; the VO copy tags stay. The text below is the draft as it was put to the operator.
+
+**When drafted, nothing here was applied yet.** It answers the operator's three points of 2026-10-25. The evidence is in `studies/recent-uploads-2026-10-25/analysis.md`. Each part can be answered on its own ("1 yes, 2 yes, 3 no"). Part 2 changes a locked decision (P3), so it's also in `PROPOSALS.md` as P10.
 
 ---
 

@@ -113,5 +113,5 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Proposal (`drafts/tts-hook-and-length-DRAFT.md`, Part 2):** the opening loses the promise block: it goes from the point, the question, the villain line and the honest scope to the count and item one, and "a promise block or any run-down of what later items hold" joins "Never in an opening". Concrete named promises stay allowed in the body (P3's forward lines), and vague teases stay banned everywhere.
 
-**Status:** open, waiting for the operator's yes to Part 2 of the draft.
+**Status:** approved by the operator on 2026-10-25 with a change: "in the hook of plumbing instead of saying 1 and 2 it owuld be better to say something like today i am going to show you the eight things you must check (if it doesnt already)". Applied with a count line in place of the promise block (job 5 of "The opening"), without "today", which the plumbing scanner bans in openings.
 

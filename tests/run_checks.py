@@ -102,9 +102,9 @@ WWR=f"{WW}/SKILL.md"
 clean=textwrap.dedent("""\
 SCRIPT TYPE: Talking Head
 
-Two 2x4s, about nine bucks at Lowe's, and twenty little shelf brackets you can sell. Prices subject to change.
+Two two by fours, about nine bucks at Lowe's, and twenty little shelf brackets you can sell. Prices subject to change.
 
-Grab two 2x4x8 boards. Pick through the pile for the straightest ones. Cut each board into 16-inch pieces. Flip them. Sand the edges.
+Grab two eight-foot two by fours. Pick through the pile for the straightest ones. Cut each board into 16-inch pieces. Flip them. Sand the edges.
 
 ===START CTA(100 Ways to Make Your First $1,000 with Woodworking)===
 Quick one. Every measurement for this bracket, plus a hundred more projects, is in my digital book, first link in the description. Back to the cut.
@@ -485,6 +485,33 @@ need=["## 1. Simple builds only","**Single builds to begin with**","`Simple buil
 check("43. Sam's ideation file: simple builds, single builds, title formats, longer briefs; the pipeline and SKILL.md point to it",
       not [n for n in need if n not in sot] and "sam-old-world.md" in open(f"{ROOT}/ideation/woodworking-ideation/references/pipeline.md").read()
       and "sam-old-world.md" in open(f"{ROOT}/ideation/woodworking-ideation/SKILL.md").read(), str([n for n in need if n not in sot]))
+
+# 44. written for the voice (operator, 2026-10-25): the forms the voice misread fail; the spoken forms pass;
+#     the library's own narration examples carry no "2x4"
+bad=["a single 2x12 and a 2x4.","Then one 2x4, 8 ft, about $4.","Grab two 2x4x8 boards.","Use 3-in screws.","An 11in board.",
+     "a 3/8 dowel.","at 19% moisture.","thousands of psi.","the stamp that says KD19.","Haha, the scrap pile pays its rent.",
+     "It runs $4.00 a box.","about $1.4M.","No. 2 grade.","Wood & glue.","about 6\" of tape.","Then 1 2 4 8 feet."]
+fails=[l for l in bad if run_scan(l+"\n",[WWR])[0]!=1]
+good=["a single two by twelve and a two by four.","Then one eight-foot two by four, about $4.","a three-eighths inch dowel.",
+      "at 19 percent moisture, set to 120 degrees.","In 2026, 15 people paid $4 to $10.","about $1.4 million.","It took 3 in a row.",
+      "the stamp that says K D 19."]
+passes=[l for l in good if run_scan(l+"\n",[WWR])[0]!=0]
+judged=run_scan("It is called an AAV, under their lead limit.\n",[WWR])[1]
+ex=open(f"{CORE}/retention-mechanics.md").read()+open(WWR).read()
+wf=open(f"{CORE}/workflow.md").read()
+check("44. written for the voice: 2x4, 8 ft, 3/8, 19%, psi, KD19, haha, $4.00, symbols fail; spoken forms pass; AAV and lead judged; no 2x4 in narration examples",
+      not fails and not passes and "letters 'AAV'" in judged and "'lead' can be said two ways" in judged
+      and "one 2x4" not in ex and "**Write every word the way the voice should say it**" in wf,
+      f"not failing: {fails}; not passing: {passes}")
+
+# 45. no promise block in the plumbing hook (P10, operator 2026-10-25): the opening's job 5 is the count line, the promise
+#     block is on the opening's never list, and the plan template carries the count line
+pk=open(f"{ROOT}/plumbing-scripts/SKILL.md").read(); up=open(f"{ROOT}/plumbing-scripts/references/unit-plan-template.md").read()
+op=pk[pk.index("## The opening"):pk.index("## Emotion, all the way through")]
+check("45. plumbing hook: no promise block (P10); job 5 is the count line, which never names a single item; the plan template follows",
+      "5. **The count line, when the video has a count**" in op and "5. **The promise block**" not in op
+      and "a promise block or any run-down of what later items hold" in op and "Promise straight after" not in pk
+      and "- count line:" in up and "- promise block:" not in up, "")
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

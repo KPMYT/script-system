@@ -35,11 +35,13 @@ Usage:
                and [bracketed] source tags are ignored.
 
 Every script is also checked for production notes read aloud ("CTA", "stinger", "mid-roll",
-"continuing with the final sections"), the same sentence twice in a row, and (judge) the script
-talking about its own thumbnail or title.
+"continuing with the final sections"), the same sentence twice in a row, (judge) the script
+talking about its own thumbnail or title, and forms the voice misreads (`[SPOKEN: ...]`, fix on
+sight: 2x4, 8 ft, 3/8, 19%, symbols, two numbers side by side, $4.00, KD19, "haha"; judged:
+capital-letter runs such as AAV, and words with two pronunciations such as "lead").
 
-Exit code: 1 if any fix-on-sight problem is found (hard ban, mechanical, niche ban, production note,
-repeated sentence, persona fact, copied from reference), else 0.
+Exit code: 1 if any fix-on-sight problem is found (hard ban, mechanical, spoken, niche ban,
+production note, repeated sentence, persona fact, copied from reference), else 0.
 """
 import re, sys, argparse, difflib
 from collections import Counter
@@ -112,6 +114,29 @@ MECHANICAL = [
     (r"(?i)\bI hope this helps\b|\bwould you like me to\b|\blet me know if you\b|\bas an AI\b|\bcertainly!|\bgreat question\b", "chatbot leftover"),
     (r"(?i)\bas of my last update\b|\bwhile details are limited\b|\bmy knowledge cutoff\b", "knowledge-cutoff disclaimer"),
 ]
+# ---------------------------------------------------------------- written for the voice (operator, 2026-10-25)
+# Forms the text-to-speech voice misreads or guesses at: fix on sight. Sam's bench video turned
+# "2x4" into "a 24" and "one 2x4, 8 ft" into "1 2 4 8 ft"; Mark's voice dropped "AAV" twice.
+SPOKEN = [
+    (r"\b\d+(?:\.\d+)?(?:\s?[xX\u00d7]\s?\d+)+s?\b|\b\d+[xX]\b", "size written with x (write 'two by four')"),
+    (r"\b\d+[- ]by[- ]\d+s?\b", "size written in digits (write 'two by four')"),
+    (r"\b\d+(?:\.\d+)?(?:\s|-)?(?:ft|in\.|oz|lbs?|gal|mm|cm|psi|yds?)(?![A-Za-z])|\b\d+-?in\b", "unit abbreviation (write the word)"),
+    (r"(?i)\bpsi\b", "'psi' (say 'pounds of pressure' or 'pounds per square inch')"),
+    (r"(?<![$\d.,])\d+(?:\.\d+)?\s?(?:\"|'')|(?<![$\d.,])\d+'(?![a-z])", "inch or foot mark (write the word)"),
+    (r"\b\d+/\d+\b", "fraction with a slash (write 'three-eighths')"),
+    (r"%", "percent sign (write 'percent')"),
+    (r"[&+#=~@]", "symbol (write the word)"),
+    (r"(?<![\d,.$])\b\d(?:[\d,.]*\d)?\s+\d(?:[\d,.]*\d)?\b", "two numbers side by side"),
+    (r"\$\d[\d,]*\.\d{2}\b", "cents written out ($4.00)"),
+    (r"\$?\b\d+(?:\.\d+)?\s?[kKmM]\b", "money or number written short ($1.4M, 50k)"),
+    (r"\bNo\.\s?\d|(?i:\bvs\b\.?)|(?i:\betc\b\.?)|(?i:\be\.g\.|\bi\.e\.)|(?i:\bapprox\.)|\b(?:Dr|Mr|Mrs|Ms|St|Ave|Jr|Sr)\.(?=\s)", "abbreviation (write the word)"),
+    (r"\b(?=[A-Z0-9]*[A-Z])(?=[A-Z0-9]*\d)[A-Z0-9]{2,}\b", "letters-and-digits code (write it as it's said: 'K D 19')"),
+    (r"(?i)\b(?:ha){2,}\b|\bhm+\b|\blol\b|\bugh\b", "laugh or filler sound written as a word"),
+]
+# judged: letters the voice may skip or read as a word, and words with two pronunciations
+SPOKEN_LETTERS = re.compile(r"\b[A-Z]{2,5}s?\b")
+SPOKEN_LETTERS_OK = {"OK", "TV", "QR", "DIY", "US", "USA"}
+SPOKEN_TWO_WAYS = re.compile(r"(?i)\b(?:lead|bow|bows|bowed|bowing|wound)\b")
 OTHER_NON_ASCII = re.compile(r"[^\x00-\x7F\u2014\u2013\u2018\u2019\u201C\u201D\u2026\U0001F300-\U0001FAFF\u2600-\u27BF]")
 
 # ---------------------------------------------------------------- trailer-voice tells (judge each)
@@ -512,6 +537,14 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
         fix.extend(name_check(para, facts["name"] + facts["book"]))
         for m in re.finditer(PACKAGING, para, re.I):
             judge.append(f"[talks about its own packaging] ...{ctx(m)}...")
+        for rx, name in SPOKEN:
+            for m in re.finditer(rx, para):
+                fix.append(f"[SPOKEN: {name}] ...{ctx(m)}...")
+        for m in SPOKEN_LETTERS.finditer(para):
+            if m.group(0).rstrip("s") not in SPOKEN_LETTERS_OK and m.group(0) not in SPOKEN_LETTERS_OK:
+                judge.append(f"[SPOKEN, judge: letters '{m.group(0)}' (keep only if people say it as letters; otherwise the words)] ...{ctx(m)}...")
+        for m in SPOKEN_TWO_WAYS.finditer(para):
+            judge.append(f"[SPOKEN, judge: '{m.group(0)}' can be said two ways; reword if both fit] ...{ctx(m)}...")
         for m in OTHER_NON_ASCII.finditer(para):
             fix.append(f"[MECHANICAL: non-standard character '{m.group(0)}'] ...{ctx(m)}...")
         for rx, name in TELLS:
