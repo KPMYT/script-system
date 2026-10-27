@@ -26,6 +26,8 @@ Usage:
                    min-minutes: 12
                  and letter words the niche says as letters every day (no judge line for them):
                    letters-ok: HVAC, AC, MERV
+                 and steps that must all be there once a topic comes up (fix on sight when one is missing):
+                   require-if: trigger pattern => needed pattern | label
                A profile's "Words per minute ...: N" line sets the runtime estimate (150 if unset).
   --pack       the fact source: the research pack, or the brief where the niche pack doesn't use one.
                Every number in the script is checked against it.
@@ -162,6 +164,7 @@ REFRAME = [
     r"(?i)\bnot\s+(?:about|just|only|merely)\b[^.!?\n]{0,50}?[.,;]\s*(?:it['\u2019]?s|it\s+(?:is|was)|that['\u2019]?s|this is|but)\b",
     r"(?i)\bless\s+\w+[^.!?\n]{0,25},\s*more\s+\w+\b",
     r"\bNot [a-z]+\. [A-Z]",
+    r"(?i)\b(?:won|doesn|don|didn|can|isn|aren|wasn)['\u2019]?t\s+(\w+)\b[^.!?\n]{0,60}[.;]\s*(?:[^.!?\n]{0,25},\s*)?(?:(?:it|that|this)\s+\1s|they\s+\1)\b",
 ]
 
 # stock filler phrases (H23): allowed once per script each, never two in one paragraph
@@ -211,7 +214,7 @@ def sentences(para):
 def read_rules(paths):
     """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
-    facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None, "letters_ok": set()}
+    facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None, "letters_ok": set(), "require": []}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         w = re.search(r"^Words per minute[^:\n]*:\s*(\d+)", txt, re.M)
@@ -249,6 +252,9 @@ def read_rules(paths):
                     facts["min"] = int(pat)
                 elif key.strip() == "letters-ok":
                     facts["letters_ok"].update(x.strip() for x in pat.split(",") if x.strip())
+                elif key.strip() == "require-if" and " => " in pat:
+                    trig, _, need = pat.partition(" => ")
+                    facts["require"].append((re.compile(trig.strip(), re.I), re.compile(need.strip(), re.I), label))
     return bans, lifts, allows, facts
 
 # ---------------------------------------------------------------- numbers
@@ -571,6 +577,10 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
         if len(shorts) >= 2:
             judge.append(f"[staccato x{len(shorts)}] " + " | ".join(f'"{s}"' for s in shorts[:4]))
     fix.extend(repeated_sentences(paras))
+    whole = "\n\n".join(paras)
+    for trig, need, name in facts.get("require", []):
+        if trig.search(whole) and not need.search(whole):
+            fix.append(f"[NICHE/PERSONA REQUIRED: {name}] the script brings up \"{trig.search(whole).group(0)}\" but leaves this out")
     for rx, name in facts.get("once", []):
         n = sum(len(rx.findall(para)) for para in paras)
         if n > 1:
@@ -590,6 +600,9 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
         for rx in REFRAME:
             for m in re.finditer(rx, para):
                 if any(m.start() < e and m.end() > s for s, e in spans):
+                    continue
+                # an instruction ("Don't touch it. It's fragile.") is not a reframe
+                if re.match(r"(?i)do(?:n['\u2019]?t| not)\b", m.group(0)) and re.search(r"(?:^|[.!?,]\s+|\b(?:and|or|just|never|so)\s+)$", para[:m.start()], re.I):
                     continue
                 spans.append((m.start(), m.end()))
                 reframes.append(para[max(0, m.start() - 30):m.end() + 30])

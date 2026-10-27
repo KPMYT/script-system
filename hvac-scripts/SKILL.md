@@ -104,7 +104,7 @@ The villain on an HVAC channel is **the trade as a business and its upsell**: th
 **How to use it, from what landed with viewers and what drew disbelief:**
 - **Aim it at the price, the upsell and the silence, not at motives.** "That's a few hundred dollars to swap a part that costs less than lunch" and "nobody on the truck is going to mention it" land. Claiming to know why they do it backfired in plumbing (the most-liked doubt, 1.3K) and in HVAC: the channel that never softened its motive lines drew the only "this is a lie" comments in the study.
 - **"You need a whole new unit" is the upsell's signature.** It's the story viewers tell most. Use it as the moment the viewer fears, never as a claim about a particular company.
-- **Say it as a billing fact.** The trade is paid by the visit and the install, so a cheap check that ends the visits is nobody's business to mention. That's an observation the viewer can check against their own quotes.
+- **Say it as a billing fact.** Two facts side by side, never joined into a reason: "The visit runs $75 to $200. The check that saves you the next one costs nothing, and nobody hands it to you at the door." Never "so", "since" or "because" between what the trade earns and what it doesn't say: that turns a fact into a motive (HVAC test run 03 wrote "since the trade gets paid by the visit, the habit that ends those visits is nobody's job to mention"; operator, 2026-10-27: "up to you"). That's an observation the viewer can check against their own quotes.
 - **The villain comes back again and again, all the way through.** One villain line in the opening, then every few items, not on a schedule and never in the same words twice: a price, a silence, the quote, the store shelf, or the outrage line below.
 - **Disgust at a big price, said as the narrator's opinion.** Where a price runs into the hundreds or thousands, the narrator reacts as himself, rotating the wording ("I think that's a crime for a part that size." "That number turns my stomach."). It's aimed at the price, never at a named company, never at a person, and never says why they charge it (no "scam", no "ripping you off", no greed).
 - **The honest out, at least once.** When an item goes past the homeowner, it goes to "a tech you trust", said without a sneer. It keeps the villain honest and the techs in the audience on side.
@@ -404,6 +404,23 @@ ban-regex: \blet'?s (?:continue|keep going)\b | template stock line
 ban: common problems you might run into | template stock line
 ban: stay tuned | tease
 ban-regex: \b911\b | say "nine-one-one": a voice can read the digits as "nine eleven"
+require-if: carbon monoxide (?:alarm|detector)s?\b[^.!?]{0,40}?\b(?:goes off|go off|went off|going off|sounds?|sounding)\b => \bignore\b | carbon monoxide alarm: never ignore it, don't hunt for the source (price guide §9)
+require-if: carbon monoxide (?:alarm|detector)s?\b[^.!?]{0,40}?\b(?:goes off|go off|went off|going off|sounds?|sounding)\b => \boutside\b|\bfresh air\b|\boutdoors\b | carbon monoxide alarm: everyone out to fresh air, outside (price guide §9)
+require-if: carbon monoxide (?:alarm|detector)s?\b[^.!?]{0,40}?\b(?:goes off|go off|went off|going off|sounds?|sounding)\b => \bcount heads\b|\bhead ?count\b|\bevery (?:person|one|body)\b[^.!?]{0,40}\bout\b | carbon monoxide alarm: count heads (price guide §9)
+require-if: carbon monoxide (?:alarm|detector)s?\b[^.!?]{0,40}?\b(?:goes off|go off|went off|going off|sounds?|sounding)\b => \bnine-one-one\b|\bfire department\b | carbon monoxide alarm: call nine-one-one or the fire department from outside (price guide §9)
+require-if: carbon monoxide (?:alarm|detector)s?\b[^.!?]{0,40}?\b(?:goes off|go off|went off|going off|sounds?|sounding)\b => \bstay out\b|\b(?:don't|do not) go back in\b|\buntil [^.!?]{0,50}\bsafe\b | carbon monoxide alarm: stay out until the responders say it's safe (price guide §9)
+require-if: carbon monoxide (?:alarm|detector)s?\b[^.!?]{0,40}?\b(?:goes off|go off|went off|going off|sounds?|sounding)\b => \banother appliance\b|\bany (?:other )?appliance\b|\bor an appliance\b | carbon monoxide alarm: the furnace or another appliance stays off until a trained tech fixes it (shorter, never narrower)
+require-if: carbon monoxide (?:alarm|detector)s?\b[^.!?]{0,40}?\b(?:goes off|go off|went off|going off|sounds?|sounding)\b => \bmedical\b|\bdoctor\b|\bemergency room\b | carbon monoxide alarm: medical help for anyone who feels sick (price guide §9)
+require-if: \bsmell(?:s|ing)? (?:of )?gas\b|\bgas leak\b => \bget (?:everyone|everybody) out\b|\bleave the house\b|\bget out of the house\b | gas leak: get everyone out now, on foot (price guide §9)
+require-if: \bsmell(?:s|ing)? (?:of )?gas\b|\bgas leak\b => \blight switch | gas leak: don't flip a light switch (price guide §9)
+require-if: \bsmell(?:s|ing)? (?:of )?gas\b|\bgas leak\b => \bphone\b | gas leak: don't use your phone (price guide §9)
+require-if: \bsmell(?:s|ing)? (?:of )?gas\b|\bgas leak\b => \bgarage door\b | gas leak: don't touch the garage door opener (price guide §9)
+require-if: \bsmell(?:s|ing)? (?:of )?gas\b|\bgas leak\b => \blight anything\b|\bflame\b|\bmatch(?:es)?\b|\blighter\b | gas leak: don't light anything (price guide §9)
+require-if: \bsmell(?:s|ing)? (?:of )?gas\b|\bgas leak\b => \bstart the car\b|\bcar\b|\bengine\b | gas leak: don't start the car (price guide §9)
+require-if: \bsmell(?:s|ing)? (?:of )?gas\b|\bgas leak\b => \bgas company\b|\butility\b | gas leak: call nine-one-one and the gas company once you're well away (price guide §9)
+require-if: \bsmell(?:s|ing)? (?:of )?gas\b|\bgas leak\b => \bassume\b | gas leak: don't assume someone else called (price guide §9)
+require-if: \bsmell(?:s|ing)? (?:of )?gas\b|\bgas leak\b => \bgo back in\b|\bback inside\b|\buntil [^.!?]{0,50}\bsafe\b | gas leak: don't go back in until they say it's safe (price guide §9)
+require-if: \bsmell(?:s|ing)? (?:of )?gas\b|\bgas leak\b => \bfade\b|\bcan(?:'t|not) smell\b | gas leak: some people can't smell it, and the smell can fade (price guide §9)
 ban: horror movie | hype that got mocked
 ban-regex: \bbrutal tests?\b | hype that got mocked
 ban: keep your cool | the faceless leader's catchphrase (Ray Dutton)

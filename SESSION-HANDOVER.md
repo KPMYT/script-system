@@ -138,7 +138,7 @@ The same chat finished the electrical ideation in `KPMYT/niche-research` (17 ini
 
 ## Open questions for the operator
 
-**HVAC (asked 2026-10-27; answer "1 yes, 2 no…"):**
+**HVAC (asked 2026-10-27; H1, H2, H3, H5 and H6 answered the same day, see HANDOFF "after the HVAC tests"; H4 still open):**
 - H1. **The villain example line** in the HVAC and plumbing packs joins its two facts with "so" ("The trade is paid by the visit and the install, so a cheap check that ends the visits is nobody's business to mention"), and the HVAC writer copied it with "since", one step from a motive. Reword it as two separate sentences?
 - H2. **Core scanner checks** (every channel): list sentences over about 35 words; catch "it's not X, it's Y" split across two sentences; check every carbon monoxide step is there. (Overlaps P13; decide together.)
 - H3. **A brief price that disagrees with the price guide:** should the input gate flag it? Today the brief wins.

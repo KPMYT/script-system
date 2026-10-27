@@ -272,6 +272,14 @@ From the operator's answers to the 11 questions in `drafts/hvac-pack-diagnosis-D
 - **More Silver Cymbal:** "why is there no silver cymbal also?" His AC-not-cooling video (`_b6p0fkWhCY`, 4.3M) was added as model R44 (with the techs' corrections from its comments labelled), and his AC drain video is a voice sample.
 - **The reference list** (titles and channels) was shown to the operator for confirmation, as asked ("confirm with me which scripts u use as reference also").
 
+### Operator decisions, 2026-10-27 (after the HVAC tests, `tests/iterations/iter-06/`)
+
+- **The villain example line:** "up to you". Reworded in the HVAC and plumbing packs as two facts side by side, never joined with "so", "since" or "because" (the joined form read as a motive in HVAC test run 03).
+- **Scanner checks:** "ok yes". Built: `require-if` (a carbon monoxide alarm or a gas smell brings every step from the price guide; HVAC pack) and the reframe split across two sentences, with "don't" instructions no longer counted (core, every channel; checks 69-70). The sentence cap (over 35 words) is already built on the electrical chat's branch (`claude/electrical-scripting-session-ayrkjc`, P13) and reaches every channel when that branch merges; it isn't built twice.
+- **A brief price that disagrees with the price guide:** "brief always wins". No gate flag; the price research corrects the briefs at the source instead.
+- **Titles:** "title always wins also". Batch 1 #3 ("The $5 Filter ... Than the $30 One") and #14 ("$300") stay as they are; the scripts pay them honestly (say "under $10", "up to about $300").
+- **The voice:** "same as plumbing voice". Read as: Roger the HVAC Guy's voice and settings are Roger the Pipe Guy's (Ron, words per minute not set), and the HVAC voice samples are settled, picked the way plumbing's were (real tradesmen); plumbing's Got2Learn sample isn't reused because it's a faceless voice-over.
+
 ### Operator decisions, 2026-10-27 (the electrical pack and Frederick Barnes)
 
 - **Frederick Barnes is the electrical channel** ("we will do frederick for this"); Jack Redfield stays pinned as a possible second lane (niche-research `studies/electrical/`). **35 years** in the trade. **No book for now:** "CTA will literally just be a very short subscribe one". **Talking Head** script type.

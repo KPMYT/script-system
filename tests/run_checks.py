@@ -737,6 +737,28 @@ check("68. HVAC price guide: 100+ rows, none in cents, each marked; gas-leak and
       and "references/price-guide.md" in open(HVR).read() and "<hvac-scripts>/references/price-guide.md" in open(f"{ROOT}/tools/build_skills.py").read(),
       f"rows={len(hrows)} cents={hcents[:3]} nocheck={hnocheck[:3]} missing={hmiss} warn={hwarn}")
 
+# 69. require-if (operator, 2026-10-27: "2 ok yes"): a carbon monoxide alarm or a gas smell brings every step from the
+#     price guide; a narrowed step ("the furnace" without "another appliance") fails; the full steps pass
+co_full=("If your carbon monoxide alarm goes off, never ignore it. Get everyone outside into fresh air. Count heads. "
+         "Call nine-one-one from outside, and stay out until the firefighters say it's safe. The furnace or another appliance "
+         "stays off until a trained tech fixes it, and anyone who feels sick gets medical help.\n")
+co_narrow=co_full.replace("The furnace or another appliance stays off","The furnace stays off")
+gas_full=("If you smell gas, get everyone out now, on foot. Don't flip a light switch, don't use your phone or the garage door opener, "
+          "don't light anything, and don't start the car. Once you're well away, call nine-one-one and the gas company, and don't assume "
+          "somebody else did. Don't go back in until they say it's safe. Some people can't smell it, and the smell can fade.\n")
+gas_short=gas_full.replace(" or the garage door opener","")
+c1,o1=run_scan(co_full,[HVR,ROGER_HVAC]); c2,o2=run_scan(co_narrow,[HVR,ROGER_HVAC]); c3,o3=run_scan(gas_full,[HVR,ROGER_HVAC]); c4,o4=run_scan(gas_short,[HVR,ROGER_HVAC])
+check("69. HVAC require-if: full carbon monoxide and gas-leak steps pass; a narrowed CO step and a missing gas step fail",
+      "REQUIRED" not in o1 and "another appliance" in o2 and "REQUIRED" in o2 and "REQUIRED" not in o3 and "garage door" in o4 and "REQUIRED" in o4,
+      (o1+o2+o3+o4)[-900:])
+
+# 70. reframes split across two sentences are counted ("won't show up on a bill. At its worst, it shows up as a fire");
+#     an instruction ("Don't touch it. It's fragile.", "...shuts down, don't try to get around it. It's telling you something") is not
+c5,o5=run_scan("That mistake won't show up on a repair bill. At its worst, it shows up as a fire.\n",[HVR,ROGER_HVAC])
+c6,o6=run_scan("Don't touch the igniter. It's fragile. If it still shuts down, don't try to get around that switch. It's telling you something.\n",[HVR,ROGER_HVAC])
+check("70. reframe floor: a same-verb flip across two sentences is caught; instructions starting \"don't\" are not",
+      "REFRAME FLOOR (H21): 1" in o5 and "REFRAME FLOOR (H21): 0" in o6, o5[-300:]+o6[-300:])
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")

@@ -2,7 +2,7 @@
 
 The voice anchor for every HVAC script. Three stretches of real human narration from HVAC winners in the HVAC study (`studies/hvac/`), copied verbatim from the transcripts; only punctuation is added where the auto-captions had none, and three obvious caption slips in sample 3 are fixed ("a vacuum" to "the vacuum" twice, "unclog" to "unclogged"). They come only from real people on camera, never from faceless or AI-voiced channels (operator, 2026-10-27: "we dont want any ai or faceless for reference"). Test every sentence of a draft against these (core `voice-anchoring.md`). The copy guard applies: never 8 or more words in a row from this file.
 
-**Provisional.** The operator will listen and choose the voice samples ("we will decide this ourselves later", 2026-10-27). Until then these three stand. They were picked from the transcripts for a plain, practical tradesman's register; nobody has listened to them yet for age or accent.
+**Settled** (operator, 2026-10-27: "same as plumbing voice"): the voice and its settings are Roger the Pipe Guy's, and these three samples are picked the way the plumbing samples were, real tradesmen in plain, practical speech. The plumbing file's first sample (Got2Learn) isn't reused here: it's a faceless voice-over, which the HVAC pack leaves out.
 
 **Borrow:** how the sentences are built. That means:
 - the point in the first line, and "you" for every step
