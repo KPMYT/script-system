@@ -1,0 +1,309 @@
+[0:00] in this video I'm going to talk about
+[0:01] possibly the biggest scam that happens
+[0:04] in the hbac industry every single summer
+[0:06] when it starts to get hot and it
+[0:08] involves this right here now for those
+[0:11] of you that don't know what this is this
+[0:13] is a capacitor and it's like a little
+[0:15] battery that gives your AC unit an extra
+[0:18] jolt of energy when it first kicks on
+[0:21] now I've heard of people being charged
+[0:23] $2,000 to replace this piece and guess
+[0:26] how much it is
+[0:28] $10 that's right these capacitors cost
+[0:31] about 10 bucks and people are charging
+[0:34] $2,000 to replace them I don't know how
+[0:37] these guys sleep at night but I want to
+[0:38] help you as a homeowner as a DIY learn
+[0:42] how to check this item how to replace it
+[0:44] yourself and how to do it safely so
+[0:46] let's get right into it okay so the
+[0:48] first thing that you always want to make
+[0:49] sure you do is disconnect power so we're
+[0:51] going to take our disconnect pull it
+[0:53] straight out and then we can flip it
+[0:56] 180° and slide it back in and that will
+[1:00] just kind of store this unit and the way
+[1:02] you can tell is if the on is in the
+[1:04] upright that means it's connected but if
+[1:07] in if the off is in the upright position
+[1:10] it's just being stored so you can see
+[1:12] there's no resistance and it's just
+[1:13] sitting in here so the first thing we
+[1:15] need to do is access the electronics of
+[1:17] our AC unit it's typically going to be a
+[1:19] panel on the corner of the unit like
+[1:21] this one but in some older units it
+[1:23] might be a little bit different so you
+[1:25] might have to search where that panel is
+[1:27] now if you're curious about this tool I
+[1:29] use this tool all all the time this is a
+[1:31] Klein 7 in1 and as you can see these
+[1:33] bits come off and they're
+[1:35] interchangeable so you have bits from4
+[1:37] in all the way up to/ in and the nice
+[1:39] part is if you have a really tight space
+[1:41] you can make this about half the size of
+[1:43] what it normally is you can get that off
+[1:45] and you can also Chuck it on your drill
+[1:47] you can find this in our Amazon store
+[1:49] simply go down to the video description
+[1:51] and I'll have it linked right there okay
+[1:52] so now that we have the cover off you'll
+[1:54] notice on your AC unit that there's a
+[1:56] cylinder looking object and this is your
+[1:59] capacitor now hopefully you can see the
+[2:01] label on yours sometimes they're kind of
+[2:02] worn out and we'll go over how to check
+[2:05] the size if you don't have a label but
+[2:07] something to be very cautious of even
+[2:08] though the power is turned off like I
+[2:10] said this is kind of like a battery so
+[2:12] it can hold a charge so the first thing
+[2:14] that we're going to do um being careful
+[2:16] not to touch any of the terminals is
+[2:18] we're going to take this capacitor loose
+[2:20] so we'll take this screw
+[2:25] out and we'll just pull this strap aside
+[2:28] so that it's now free hanging
+[2:30] so now that it's free we're going to
+[2:31] grabb the insulated ones and just pull
+[2:33] them off and take a picture if you don't
+[2:36] know where these wires are supposed to
+[2:37] go and can't read schematics just take a
+[2:39] picture or even a video so you know
+[2:41] where they
+[2:42] go so now that we have all of the wires
+[2:45] off again being careful not to touch any
+[2:48] of these we're going to take an
+[2:49] insulated screwdriver and we're just
+[2:51] going to Arc all of these together
+[2:54] doesn't matter which orientation just
+[2:55] Arc them all and that's going to safely
+[2:58] discharge its capacitor so that there's
+[3:00] no threat of potentially getting
+[3:01] electrocuted now I've never been popped
+[3:03] by one of these but from time to time
+[3:05] I've heard of people getting popped and
+[3:07] it's not fun you don't want to do that
+[3:09] so make sure and discharge it so
+[3:10] something that people ask me all the
+[3:12] time is how do I even know to look at
+[3:13] the capacitor as a potential item that's
+[3:16] bad on my system and here are some of
+[3:18] the symptoms that you'll see if you have
+[3:20] a bad capacitor so there's two main
+[3:22] components on your condensing unit
+[3:24] there's the fan and there's the
+[3:26] compressor so in some instances the fan
+[3:29] will be running but the compressor that
+[3:30] buzz sound will not be happening and all
+[3:33] you feel is cold air coming out of the
+[3:35] top that's one scenario or you could
+[3:38] have the compressor running and the fan
+[3:40] is not in which case it'll get really
+[3:42] hot because it can't dissipate that heat
+[3:44] but if you go out there you'll see the
+[3:46] compressor running the third scenario is
+[3:48] you go out there and nothing is
+[3:49] happening meaning that both of these
+[3:51] terminals on the capacitor has gone bad
+[3:54] and that's another indication that your
+[3:56] capacitor is bad now on that note if you
+[3:58] open up the side panel just do a visual
+[4:01] inspection first if you see that the
+[4:03] terminals on your capacitor are not
+[4:05] pointing straight up like this they're
+[4:07] kind of bowed out and mushroomed out
+[4:10] that's a perfect indicator that your
+[4:11] capacitor is bad if you see anything
+[4:14] burnt sometimes in the South uh we saw
+[4:17] snakes and lizards and stuff get caught
+[4:19] in here that's a great indicator that
+[4:20] it's bad um but just do a visual
+[4:23] inspection and see what it looks like a
+[4:24] lot of times just visually you can say
+[4:27] right off okay I think the capacitor is
+[4:29] bad you can either purchase one that's
+[4:31] the right size or throw in one of these
+[4:33] turbo 200s okay so now that our
+[4:35] capacitor is out and discharged we're
+[4:37] going to go ahead and check what the
+[4:39] microfarads are on your unit now this is
+[4:41] really important if the label on your
+[4:43] capacitor is just worn out and you can't
+[4:45] read it if your unit is still
+[4:46] functioning this is a great way to check
+[4:48] and verify what type of capacitor you
+[4:51] have so we're going to go over to this
+[4:52] setting right here we're going to click
+[4:55] mode and this will be a little bit
+[4:56] different on each of your multimeters
+[4:58] but you're looking for this UF that
+[5:00] stands for microfarads so what we're
+[5:02] going to do now is take one lead doesn't
+[5:05] matter which one and we're going to put
+[5:06] it on the C
+[5:08] terminal and then we're going to take
+[5:10] one and put it on the Hermetic hold it
+[5:13] down for a second and see what you got
+[5:15] so
+[5:17] 44.9 so that's really close to our 45
+[5:20] which is this first number and then we
+[5:23] have plus five some of them have a dash
+[5:25] five the plus doesn't mean you want to
+[5:27] add these together it just means the
+[5:29] larger number is for your compressor and
+[5:32] the smaller one is for your fan so next
+[5:34] we'll check between
+[5:36] common and fan and we should have five
+[5:40] microfarads there we go so if you don't
+[5:42] have a label whatever number comes up
+[5:45] between common and hermetic that's going
+[5:47] to be the size of your compressor part
+[5:50] of the capacitor and whatever comes up
+[5:52] between common and fan that will be for
+[5:54] your fan now another way if your
+[5:57] capacitor is bad doesn't doesn't show a
+[6:00] reading on here and it doesn't have a
+[6:02] label I want to show you now how you can
+[6:04] verify what capacitor you need to
+[6:06] purchase so this website is called
+[6:08] repairclinic.com and it's great because
+[6:11] you can punch in your model or serial
+[6:13] number of your condenser and it will
+[6:16] give you a parts list of all of the
+[6:18] different common components of that unit
+[6:21] and you can simply click on the
+[6:22] capacitor see what size it is and that
+[6:25] will verify what size capacitor you need
+[6:27] to purchase you can then purchase it on
+[6:29] repair clinic or you can purchase it
+[6:31] from Amazon but you now know what size
+[6:34] it is now something to note is that each
+[6:36] of these capacitors will have a
+[6:38] different thing right here that says
+[6:40] plus or minus a certain percentage now
+[6:43] this particular one is a
+[6:45] 45-5 with plus or minus 6% so that means
+[6:48] if we measure between hermetic and
+[6:50] common and we get a number that is below
+[6:54] or above 45 that means that this
+[6:56] capacitor is bad now you'll notice on
+[6:59] this one this is a
+[7:00] 35-5 with plus or minus 5 and so you're
+[7:04] going to want to base your readings
+[7:06] whether this is good or bad based off of
+[7:08] this 5% now a lot of times when a
+[7:10] capacitor is bad when you go to check it
+[7:12] between say common and hermetic you'll
+[7:14] see o on the multimeter and if there's
+[7:17] no reading on the multimeter that means
+[7:19] that that capacitor is bad so now that
+[7:21] you know how to check and verify the
+[7:22] size of your capacitor I want to show
+[7:24] you a really awesome tool to have as a
+[7:26] diyre and even as an HVAC contract
+[7:29] tractor and it is this guy right here
+[7:32] this is the turbo 200 Universal
+[7:35] capacitor now this might seem a little
+[7:37] bit confusing but we're going to explain
+[7:39] exactly how this works this unit will
+[7:41] fit any condensing unit so it takes all
+[7:43] the guesswork out of what size you need
+[7:45] to purchase because you can turn this
+[7:47] capacitor into any size capacitor that
+[7:49] you need for your system now these are
+[7:51] about 70 bucks on Amazon Prime so a
+[7:54] really cheap price to pay in the event
+[7:56] that your capacitor goes bad and you
+[7:58] don't know what size it is is you don't
+[8:00] want to go out to your unit and take it
+[8:01] apart just to see what size it is you
+[8:03] can pick one of these up leave it in
+[8:05] your junk drawer leave it in your garage
+[8:07] and be prepared on the next hot day of
+[8:09] the season when that capacitor goes bad
+[8:11] and you can potentially save like $2,000
+[8:14] okay so I'm just going to empty out the
+[8:15] box and show you what contents comes
+[8:18] with this capacitor so we have a strap
+[8:21] that we can put around this and attach
+[8:23] it securely to the unit so it's not
+[8:25] going to be jingling around comes with a
+[8:27] big self-tapping screw to secure it and
+[8:30] it comes with 1 2 3 4 five jumpers now
+[8:34] I'm going to show you exactly how to use
+[8:36] this and we're going to use the same
+[8:38] capacitor 455 as an example so you'll
+[8:42] notice the top pins here are labeled so
+[8:44] this white one here is a five 2 and 1/2
+[8:48] 10 microfarad 20 microfarad 25 okay so
+[8:52] let's start with the 45 aspect of it so
+[8:55] we're going to use simple addition here
+[8:57] we're going to take 20 + 25 equal 45 so
+[9:01] we're going to take a jumper and we're
+[9:02] going to jump this 20 to the
+[9:06] 25 and that now just gave you a 45
+[9:09] microfarad capacitor so when we go to
+[9:12] install this the center pin is our
+[9:14] common so we're going to connect the
+[9:15] common wire there and then the wire that
+[9:18] used to go to the Hermetic pin right
+[9:20] here is now going to go on any of these
+[9:23] pins where these two jumpers are so you
+[9:25] can connect it in any of these four
+[9:28] locations here and and that will give
+[9:29] you 45 microfarads and then for the fan
+[9:32] terminal we're simply going to take the
+[9:33] wire that used to be connected to the
+[9:35] fan and we're just going to connect it
+[9:36] to this 5 microfarad terminal any of
+[9:39] these three here and that is it it's
+[9:41] that easy to install the turbo 200 and
+[9:44] we'll show you how to install this on
+[9:45] our unit right now but a couple other
+[9:47] features these are all made in the USA
+[9:49] they last a really long time and as you
+[9:52] can see these have a 5year warranty
+[9:55] something that most capacitors do not
+[9:56] have okay so since this capacitor is the
+[9:58] same size as our old one we could
+[10:01] actually use this strap okay so now that
+[10:03] the capacitor is securely fastened we're
+[10:05] going to take our yellow wire that used
+[10:07] to go to the Hermetic pin and we're just
+[10:10] going to drop it
+[10:11] on this guy any of these four terminals
+[10:14] that are connected to these two jumper
+[10:16] wires our purple and red went to Common
+[10:19] so we're going to connect these two to
+[10:21] the center Terminals and then again our
+[10:23] Brown is going to go to the fan terminal
+[10:26] which is this white one here
+[10:30] and that's it it's as easy as that to
+[10:32] hook up the turbo 200 on your AC unit
+[10:35] for $70 this is a very cheap product uh
+[10:38] when you consider how much companies are
+[10:40] charging to replace this item well guys
+[10:42] it's that easy to check and replace the
+[10:44] capacitor on your air conditioner again
+[10:46] please be safe while doing this I don't
+[10:47] want anyone to get injured and I'm sure
+[10:49] the comments will be flooded with people
+[10:51] saying that um you're not qualified to
+[10:53] replace your capacitor but I've learned
+[10:55] to tune those guys out and I know that
+[10:56] you guys are capable of doing this
+[10:58] project yourself now as usual I've left
+[11:00] links in the video description for the
+[11:02] turbo 200 as well as the Klein 7 in1
+[11:05] simply go down to the video description
+[11:07] and you can find those products there
+[11:09] now a bad capacitor is one of the top
+[11:11] four repairs that I see as an hbac
+[11:14] contractor if you're curious to see what
+[11:16] the other three are check out this video
+[11:18] right here and I'm sure you'll find it
+[11:20] informative as well until next time you
+[11:22] guys be safe later

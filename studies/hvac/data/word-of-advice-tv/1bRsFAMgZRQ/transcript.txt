@@ -1,0 +1,343 @@
+[0:00] Hey guys, Jay here with Word of Advice
+[0:02] TV. And today I want to go over the
+[0:04] furnace igniter, or more specifically
+[0:06] the furnace igniter not working on
+[0:08] furnaces. On gas furnaces, there's
+[0:11] pretty much just four types of igniters.
+[0:13] You've got the standing pilot. Only very
+[0:15] old furnaces have those yet. That's
+[0:18] where you have to manually light the
+[0:19] flame, and that little flame stays on
+[0:21] all the time. And if you think you have
+[0:23] that, but you're not sure, an easy way
+[0:25] to check is to just look on your gas
+[0:27] valve. And usually it'll have a knob on
+[0:29] top of it that'll have a on position, an
+[0:31] off position, and a pilot. Mine is not a
+[0:34] standing pilot, so you won't see it on
+[0:36] mine. On mine, I just have a little
+[0:38] switch that says off and on. But with a
+[0:41] standing pilot furnace, you would have
+[0:42] three positions: on, off, and pilot. So,
+[0:45] we have a standing pilot, and the next
+[0:47] one is a direct spark ignition. And
+[0:49] those are generally pretty loud. If
+[0:51] that's what you have, you'll probably
+[0:52] hear it when the furnace is trying to
+[0:54] start. It'll make a pretty loud racket.
+[0:56] So, with a direct spark igniter, the gas
+[0:58] valve opens, sends gas through the
+[1:00] manifold to all the burners, and that
+[1:02] spark ignites that gas right away. The
+[1:05] third kind is the intermittent pilot.
+[1:07] So, it's kind of like a standing pilot,
+[1:08] but it's intermittent. So, it only turns
+[1:10] on when there's a call for heat, when
+[1:12] the thermostat's calling for heating. So
+[1:14] you have a little pilot hood and usually
+[1:16] the gas valve will have a little silver
+[1:18] tube coming out of it. That'll be the
+[1:20] pilot tube. So whenever there's a call
+[1:22] for heat, the pilot valve opens on the
+[1:25] gas valve and lets a little bit of gas
+[1:26] through and then a spark will ignite
+[1:29] that pilot flame. And once a flame
+[1:32] sensor or a thermouple senses that the
+[1:34] flame is there, then the main gas valve
+[1:36] opens up and lets the flame through. And
+[1:38] ignition source number four is the most
+[1:40] common for modern-day furnaces is a hot
+[1:43] surface igniter. And that's what my
+[1:44] furnace has as well. That's where they
+[1:46] use a little glow stick that glows up to
+[1:49] about 1,200° and that's what ignites the
+[1:52] gas. So, I want to go over my furnace
+[1:54] quick, how to check the hot surface
+[1:56] igniter, and how to replace one. So,
+[1:58] mine, you can see that little shiny
+[2:00] stuff right there. That's my igniter
+[2:02] right there. It'll generally be behind
+[2:04] your burners. If you see where your
+[2:06] flame sensor is, it'll be across the
+[2:08] flame sensor on the other side. So,
+[2:10] that's my igniter right there.
+[2:13] So, before we get into how to check it,
+[2:15] let's just see what it would look like
+[2:16] if your igniter is burnt out or for some
+[2:19] reason it's not getting power.
+[2:21] So, I turn my power back on to my
+[2:23] furnace. So, the very first thing that
+[2:25] should come on is the inducer motor if
+[2:27] there's a call for heat. And there it
+[2:30] goes. My thermostat's calling for heat.
+[2:32] So, that turns on.
+[2:36] And in about 5 10 seconds, generally on
+[2:39] my furnace, the igniter should start to
+[2:41] glow. But as you can see, mine is not
+[2:43] glowing. Then you're going to hear the
+[2:45] gas valve open up.
+[2:47] You should hear a click. There it goes.
+[2:50] And I don't know if you can hear that on
+[2:52] the camera, but I can actually hear the
+[2:54] gas hissing out and nothing happens.
+[2:58] That's what a typical burnt out igniter
+[3:00] scenario would look like. Your gas valve
+[3:02] will open up. You'll hear some gas
+[3:03] coming out, but the igniter was never
+[3:05] glowing. Now, my igniter is not actually
+[3:07] bad. I just wanted to simulate a bad
+[3:09] igniter. I just left mine unplugged
+[3:11] slightly so you could see what it looks
+[3:13] like. But if I plug it back in and reset
+[3:17] my furnace power,
+[3:22] we will now be able to see what a normal
+[3:25] sequence of operation would look like.
+[3:28] So once again, the inducer motor comes
+[3:31] on.
+[3:32] This time I have it plugged in all the
+[3:34] way.
+[3:37] And there goes my hot surface igniter.
+[3:39] As you can see, it's glowing bright
+[3:41] orange like that.
+[3:48] Gas valve opens up. And there go my
+[3:51] burners.
+[3:54] Now, the best way to check an igniter
+[3:56] is, of course, with a meter. If you
+[3:58] don't have a meter, then you can just
+[4:00] kind of play it by ear. So, like I was
+[4:02] saying earlier, if you can hear your gas
+[4:03] valve opening, but the igniter was never
+[4:05] glowing, then there's a pretty good
+[4:07] chance that your igniter is the one
+[4:08] that's actually bad. And when you pull
+[4:10] it out, I'll pull it out in a little bit
+[4:11] here. A lot of times you'll actually see
+[4:13] a crack in the middle of the igniter. If
+[4:15] you can visually see a crack, then for
+[4:17] sure it's bad. There's two ways how you
+[4:18] can check an igniter with a multimeter.
+[4:21] You can check voltage or you can check
+[4:22] resistance. My preferred method is
+[4:25] voltage. I like to just check and see if
+[4:31] get my meter to stick on there. I like
+[4:33] to just check and see if the igniter is
+[4:35] getting voltage. So, long story short,
+[4:38] if it's getting voltage but it's not
+[4:40] igniting, that means the igniter is bad.
+[4:42] If it's not getting voltage, that means
+[4:45] something else is wrong or maybe the
+[4:46] board is bad and it's not sending power
+[4:48] to it. So, how I check voltage on these
+[4:50] things. I usually unplug it, I leave the
+[4:53] igniter unplugged and then I just put my
+[4:56] meter leads inside the plug here from
+[4:59] this side. And you want to be really
+[5:01] careful how you jam your meter leads in
+[5:02] here. Actually, that's just the thing.
+[5:04] You don't want to jam them in there. Be
+[5:06] gentle as you're putting them in. Or
+[5:07] even better, if your meter leads fit,
+[5:09] you can try to backstab it from the
+[5:11] back. That way, you're not damaging the
+[5:13] connectors in here. My leads are having
+[5:15] a hard time getting in there, so I'll go
+[5:17] from the front. But just be careful so
+[5:19] you don't spread out those connectors
+[5:21] too much. Then you're going to have a
+[5:23] bad connection and that could cause
+[5:24] further problems. But anyways, I'll put
+[5:26] one lead here and one lead here and
+[5:28] check for voltage. So, let's turn our
+[5:30] power back on. The inducer motor will
+[5:33] come on and the next thing that should
+[5:34] start is the igniter, which means I
+[5:37] should have 120 volts
+[5:40] going to my igniter. And if you look at
+[5:42] my meter,
+[5:44] as you can see, there's 123 volts right
+[5:47] there.
+[5:49] So, my igniter should be glowing. So, if
+[5:51] you verified that your igniter is
+[5:53] getting 120 volts, yet it's not glowing,
+[5:56] that means the igniter is bad. Another
+[5:58] way you can check it is by checking
+[6:00] resistance on it. So, if you set your
+[6:02] meter to the ohm setting or the
+[6:04] horseshoe symbol,
+[6:07] the manufacturers generally recommend 40
+[6:10] to 90 ohms is what the regular reading
+[6:12] should be on an igniter like this. Some
+[6:15] manufacturers say as long as it's under
+[6:17] 150 ohms, it's good. But honestly, I've
+[6:19] seen igniters at 300 ohms that have been
+[6:21] working good for a long time. So, I'm
+[6:23] not sure how accurate that is. That's
+[6:25] why I generally just check the voltage.
+[6:27] Cuz with the hot surface igniter,
+[6:29] really, it either works or it doesn't.
+[6:31] But, if your ohms are very high, like
+[6:33] over 150 in the 200 range, then perhaps
+[6:36] you want to get a spare igniter and just
+[6:38] have it by your furnace just in case.
+[6:40] But anyways, unplug the igniter again.
+[6:44] So to check the ohms on the igniter, I
+[6:47] usually like the backstabbing approach
+[6:48] for the plug that actually goes to the
+[6:50] igniter because the wires are usually
+[6:51] thinner so you can fit them in and it's
+[6:53] a snugger fit. So you stick one lead
+[6:56] into one side and the other lead into
+[6:58] the other side.
+[7:01] And let's see what our meter has to say.
+[7:04] So my igniter is coming out at about
+[7:07] it's going to jump around a little bit,
+[7:08] but 71 ohms, let's say. And for the
+[7:12] range 40 to 90, that's perfect. 70 ohms.
+[7:15] But if you're seeing like 250, that
+[7:17] means that your igniter is starting to
+[7:19] fail. And perhaps you should order a new
+[7:20] one and just have a spare in case. But
+[7:22] like I said previously, 250 doesn't mean
+[7:25] it'll fail anytime soon. It could last a
+[7:27] couple more years. And just one more
+[7:30] thing you should be aware of, if the
+[7:31] igniter was hot or if your furnace was
+[7:33] just working, the resistance readings
+[7:35] will be different. So when you check
+[7:37] these things, they should be at a room
+[7:39] temperature for an accurate ohm reading.
+[7:41] And now for how to replace them, it's
+[7:44] usually pretty simple. On most furnaces,
+[7:46] replacing them is pretty easy. But there
+[7:49] are some models of furnaces that make it
+[7:51] pretty difficult to access. So if you
+[7:53] have like a high efficiency furnace
+[7:55] where your burners are up on top,
+[7:57] sometimes the igniter will be tucked in
+[7:59] in the back and it can be a little hard
+[8:01] to get to. So, if you have some gadgets
+[8:04] like this, you know, the angled bit
+[8:05] holder or the flexible bit holder,
+[8:09] that'll make your life a lot easier.
+[8:11] Otherwise, you're going to have to just
+[8:13] try to struggle through it with a nut
+[8:14] driver or a wrench, and it'll probably
+[8:16] take you a long time. So, some furnaces,
+[8:19] if you don't get lucky, are pretty hard
+[8:21] to access the igniter on, but in my
+[8:23] case, it's pretty easy.
+[8:26] All I have to do on mine is take out two
+[8:30] quarterinch screws that are on the
+[8:32] bottom right there.
+[8:34] And that'll drop down my igniter.
+[8:43] And when you have your second screw
+[8:46] almost completely out, I would reach in
+[8:48] there and grab the igniter bracket so it
+[8:50] doesn't drop down when you take that
+[8:52] screw out all the way. Because these
+[8:54] silicone carbide igniters are very
+[8:56] fragile.
+[8:58] If this thing drops, there's a good
+[9:01] chance it'll shatter.
+[9:05] There's a good chance that it will
+[9:06] shatter.
+[9:09] Shatter. Okay. So, here's what my
+[9:12] igniter looks like. So, here's the
+[9:15] igniter itself. And then it's just
+[9:16] mounted to a bracket right here with one
+[9:19] screw. To replace it, all you would need
+[9:21] to do is just simply loosen up this
+[9:24] screw right here.
+[9:28] You don't even have to take the screw
+[9:29] out all the way. You just loosen it.
+[9:32] And you can just pop that igniter right
+[9:34] out.
+[9:38] And then you put the new one right back
+[9:39] in the same way you took the old one
+[9:41] out.
+[9:43] Tighten it down and you're good to go.
+[9:45] And remember how I said you can
+[9:46] sometimes visually see if they're burnt
+[9:48] out? Most of the time there will be a
+[9:50] little crack on the bottom side of the
+[9:52] igniter where you'll actually see a line
+[9:55] going right through it, like a white
+[9:56] burnt out line. If you see that on your
+[9:58] igniter, then your igniter is for sure
+[10:00] bad and it needs to be replaced. And
+[10:02] just so you know, sometimes the new
+[10:04] igniter will come with a different plug.
+[10:07] And that's okay. Don't worry about that.
+[10:09] All you got to do is just snip the plug
+[10:12] off of the old igniter off and wire nut
+[10:15] that onto the new igniter. And then just
+[10:17] reuse that same plug to plug back into
+[10:19] your furnace. And like I said
+[10:21] previously, keep in mind that they're
+[10:23] very fragile. And you also don't want to
+[10:25] touch the actual igniter part with your
+[10:27] fingers cuz it'll leave some oil residue
+[10:30] on it. And that'll create a hot spot and
+[10:32] that spot will burn out a lot faster
+[10:34] than the rest of the igniter. So don't
+[10:36] touch it with your hands. Just touch the
+[10:38] ceramic part or the bracket when you're
+[10:40] putting it back in. And try not to hit
+[10:42] the igniter on anything as you're
+[10:44] putting it back in because they shatter
+[10:46] pretty easily. And that's about it. As
+[10:48] you saw, there's really not much to it.
+[10:50] Just make sure you get the right
+[10:51] igniter. One more tip I want to give.
+[10:53] Sometimes this, as you can see, there's
+[10:55] a ridge on this igniter right here.
+[10:58] Sometimes this ridge will not quite line
+[11:00] up the new igniter. I mean, it'll be a
+[11:02] little longer. In that case, you can
+[11:04] just take some pliers and break that
+[11:06] little ceramic part off to make it
+[11:08] shorter so it fits into the bracket.
+[11:10] This ceramic part is pretty brittle, so
+[11:12] it's pretty easy to bite into it with
+[11:13] your pliers. And hopefully you were
+[11:15] paying attention on how you were taking
+[11:17] your old one out.
+[11:20] And you will remember how to put it in
+[11:22] in a similar fashion. In my case, it's
+[11:25] just two screw holes and it's nothing
+[11:28] hard, but sometimes the bracket needs to
+[11:30] slide into a slot. In that case, it'll
+[11:34] be helpful if you either took a picture
+[11:35] or remembered how you took the old one
+[11:37] out so you can put the new one back in
+[11:39] the same way. Because if the igniter is
+[11:41] not positioned right, then there's a
+[11:44] good chance it'll not ignite the gas.
+[11:47] So, I put my two screws in and my
+[11:50] igniter is ready to go.
+[11:57] Well guys, and that is all I had for you
+[11:59] today. Just another thing I want to
+[12:00] point out is that there's a lot of
+[12:02] different kinds of hot surface igniters.
+[12:05] The one that I have, the 409 hot surface
+[12:07] igniter, is very common, but there are
+[12:09] many different kinds. So, before you go
+[12:11] ahead and order one, make sure you take
+[12:13] yours out, take a look at it, and make
+[12:15] sure that the one you're ordering is the
+[12:16] same one that you have. I hope you found
+[12:18] this video helpful. Thank you so much
+[12:19] for watching. Don't forget to mash that
+[12:21] like button on the way out, and we'll
+[12:22] see you next time. And for those of you
+[12:24] that watch this video all the way till
+[12:26] the end, let me tell you what I told the
+[12:28] customer recently. So, I knock on his
+[12:29] door, he opens it up, and he tells me,
+[12:30] "You're late." And I say, "Yes, I know.
+[12:33] I apologize. I was at home painting my
+[12:35] nails. I didn't notice the time, and now
+[12:37] I'm late." And the customer is like,
+[12:39] "Uh." And at that point, I'm like,
+[12:41] "Yeah, see.
+[12:53] [Music]

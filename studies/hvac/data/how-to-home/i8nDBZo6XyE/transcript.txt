@@ -1,0 +1,339 @@
+[0:00] in this video I'm going to show you how
+[0:01] I go about diagnosing and repairing what
+[0:04] is most definitely one of the most
+[0:05] common service calls if not the most
+[0:07] common service call the HVAC technicians
+[0:10] receive so let's go ahead and Jump Right
+[0:12] In let's go all right so first thing we
+[0:14] always want to do before working on
+[0:16] anything with the AC unit or anything
+[0:17] electrical is your AC unit will have a
+[0:20] disconnect next to it now mine is going
+[0:23] to look like this one here most of them
+[0:25] are going to look like this where you
+[0:26] just pull that little piece of plastic
+[0:28] out you can either turn it upside down
+[0:30] and put it back inside and it'll hold it
+[0:32] in place but it's always safer to just
+[0:34] leave it out of the box now this is also
+[0:36] a good time to remind you that you
+[0:37] always want to make sure that you're
+[0:38] following your local laws and codes if
+[0:41] you don't know exactly what you're doing
+[0:42] and buy that I mean you don't know the
+[0:44] codes and you don't know how any of this
+[0:46] works and you also don't feel like you
+[0:48] are capable of doing it then definitely
+[0:50] call a locally licensed HVAC technician
+[0:52] and then come out and do this for you
+[0:54] all right so now that that power is
+[0:55] turned off now we need to remove this
+[0:57] panel which is then going to give us
+[0:59] access to where the the capacitor is
+[1:01] along with the majority of our circuit
+[1:03] boards and wiring I'm going to do that
+[1:05] by using this Klein screwdriver here
+[1:07] this has a 5 16 drive on it so it
+[1:10] doesn't have to necessarily be this
+[1:11] exact screwdriver but you'll need a 5 16
+[1:13] Drive in most cases and on my AC unit I
+[1:17] have four screws that are holding the
+[1:18] panel on so once I get those four screws
+[1:21] removed then the panel will just slide
+[1:22] down and then out and away from the unit
+[1:24] all right so now that I've got that
+[1:25] panel off now you can kind of see what
+[1:27] the inside of this looks like but before
+[1:29] I go in and just start touching things
+[1:30] inside of this AC unit something that
+[1:32] seems to be neglected a lot is making
+[1:34] sure that the power is in fact off we
+[1:36] don't have some sort of weird wiring
+[1:38] that we're not aware of that this is
+[1:40] somehow still getting some power over
+[1:42] here this is where the power actually
+[1:44] comes in this is called the contactor so
+[1:47] I'm just going to take a multimeter with
+[1:48] some probes and I'm going to put one of
+[1:50] the probes on the ground and then I'm
+[1:52] also going to then touch the second
+[1:54] probe to either one of those two hot
+[1:56] leads that are coming in and as long as
+[1:58] they both read zero then we know that
+[1:59] there's no power flowing to this all
+[2:02] right so now that we've verified that
+[2:03] there's no power flowing into the AC
+[2:05] unit there's still one more safety
+[2:07] measure that I would encourage people to
+[2:09] take and this almost never happens but
+[2:12] there are some rare cases where it does
+[2:13] so we've got our run capacitor over here
+[2:16] and if we look up here on top you see
+[2:19] these terminals there's three different
+[2:20] terminals now under normal conditions
+[2:22] these should be discharged already
+[2:24] however again on rare occasions these
+[2:27] sometimes can retain a slight charge so
+[2:30] we want to make sure that we discharge
+[2:31] it and the way that we can do that
+[2:33] easily is by just taking a screwdriver
+[2:35] and you want to make sure that you're
+[2:36] holding on to the insulated portion of
+[2:39] the screwdriver and not touching
+[2:40] anything on the screwdriver that's metal
+[2:42] or that's conductive so what I do is I
+[2:44] just take the shaft of that screwdriver
+[2:46] and I just touch it to two of those
+[2:48] Terminals and what I'm basically doing
+[2:50] is I'm just jumping those two so in this
+[2:52] case I'm going common to hermetic and
+[2:55] now I'll go common to fan and I just
+[2:58] continue to jump between the two a cup
+[2:59] couple of times just to make sure that
+[3:01] we in fact do not still have any kind of
+[3:03] a charge here on the capacitor now we
+[3:06] can start getting into looking for
+[3:08] whether or not this capacitor is still
+[3:10] good or if it needs to be replaced and
+[3:12] one of the first things you can start
+[3:14] looking for is at the top of this
+[3:16] capacitor if you're you're looking for
+[3:18] almost a mound or a mushrooming effect
+[3:20] but if you see a mushrooming effect on
+[3:23] the top of the capacitor where it's
+[3:25] rounded out that is a Telltale sign that
+[3:27] the capacitor is bad or is on its way
+[3:30] out now in some cases you may see where
+[3:32] it's pretty flat like this one is here
+[3:34] and you may see some sort of a liquid in
+[3:37] on top if you see where it's wet and on
+[3:40] top and there's absolutely no reason it
+[3:42] should be that is also a really good
+[3:45] Telltale sign that the capacitor is
+[3:47] either bad or on its way out so if
+[3:49] you're noticing now or at some point you
+[3:51] notice that your AC unit seems to be
+[3:53] running but it's not blowing cold air
+[3:55] you may just have your fan running and
+[3:57] the compressor itself is not running it
+[3:59] could be the opposite or if it's just
+[4:01] totally bad the AC unit just won't start
+[4:04] up at all so we need to remove all the
+[4:06] wires from the terminals here on top in
+[4:08] order for the test to work so the first
+[4:10] thing I recommend doing especially for
+[4:11] Di wires that don't know where things
+[4:13] are supposed to go is take your cell
+[4:16] phone put it in camera mode and snap a
+[4:19] picture of where all of the wires are at
+[4:22] and on which terminals you'll want to
+[4:24] make a note of which terminals are what
+[4:26] in this case this is the c or common
+[4:28] terminal this back left one is the Herm
+[4:31] or hermetic terminal and then this back
+[4:33] right one is the fan terminal once
+[4:35] that's done I just like to use a pair of
+[4:36] needle nose pliers and just pull those
+[4:38] wires up and off of the terminals and
+[4:40] it's typically held in place by either a
+[4:42] band or a couple of bands and just by
+[4:44] loosening or removing a screw or two and
+[4:47] once you've got them loosened up and
+[4:48] you've got ample room to just slide it
+[4:50] out then you can do it that way or if
+[4:52] you just find it easier to just
+[4:53] completely remove the screws and the
+[4:55] straps that is also another option
+[4:57] you'll just want to make sure that you
+[4:58] keep track of the screws all right so
+[5:00] this is the capacitor that I just took
+[5:02] out of the AC unit and this is the brand
+[5:05] new one you'll see up here these are
+[5:07] probably the two most important numbers
+[5:09] that you're going to need to know so
+[5:11] we've got a 70 and a five so these are
+[5:13] for microfarads which is what this
+[5:15] symbol is for your particular capacitor
+[5:18] might not say where it looks kind of
+[5:20] like a weird U and an F you would see
+[5:22] where it might say MFD which is for
+[5:25] microfarads now you also want to make
+[5:26] sure you're getting the proper capacitor
+[5:28] for the voltage that you have as well so
+[5:30] we've got 440 volts so it's always good
+[5:33] to just match up the numbers with
+[5:34] whatever new capacitor that you're
+[5:36] planning on getting so as you can see
+[5:37] between our old one and our new one
+[5:39] pretty much all the numbers are
+[5:41] completely identical so these are the
+[5:43] amount of microfarads that we should be
+[5:45] getting or getting within six percent
+[5:48] plus or minus so it could be six percent
+[5:51] high or six percent low on the readings
+[5:54] and it would still be considered in good
+[5:56] condition and if you look at the top of
+[5:58] your capacitor sometimes their color
+[5:59] code loaded but you'll see there's a c
+[6:01] right here that's for common here it
+[6:03] says Herm that's harm or for hermetic
+[6:06] and then over here you'll see where it
+[6:08] says fan hey really quickly if you're
+[6:10] finding value in this if you could do me
+[6:11] a huge favor all I ask is that you give
+[6:13] the video a thumbs up right down below
+[6:15] or if you'd like to leave a comment or a
+[6:17] question you leave those down in the
+[6:18] comment section it really does help the
+[6:19] video out to spread out to other people
+[6:21] and hopefully we can help them out with
+[6:23] this as well I really appreciate it
+[6:24] let's get back into it alright so on the
+[6:27] multimeter we want to get it over here
+[6:28] to this setting and so we'll set it over
+[6:30] to that setting and then there's also a
+[6:33] setting within this particular
+[6:34] multimeter that I need to set it to in
+[6:37] order to read the microfarad so I'm
+[6:39] going to hit select and so now it's set
+[6:41] to detecting microfarads now you can use
+[6:44] the standard probes and if this is all
+[6:46] you've got that'll work just great you
+[6:48] just want to make sure that you're
+[6:49] pushing them into the terminals pretty
+[6:50] well in order make sure you're getting
+[6:52] nice contact but for me personally I
+[6:54] prefer to use the alligator clips for
+[6:56] this test just because it's going to
+[6:57] give me a whole lot more surface contact
+[6:59] and get a very accurate reading all
+[7:01] right so I'm going to first put one of
+[7:03] my alligator clips or the probes on my
+[7:06] common terminal and then I'm going to
+[7:08] connect this second one over here to my
+[7:10] Herm or my hermetic terminal and again
+[7:12] we want to get a reading of within six
+[7:14] percent of this number 70 between the
+[7:17] common and the Hermetic terminal so I'll
+[7:20] go ahead and connect this second clip
+[7:22] and as you can see we're getting
+[7:24] 19.39 microfarads which I'm not super
+[7:28] good at math but I'm pretty sure that is
+[7:30] well beyond or below the 70 microfarads
+[7:34] that we should be getting between these
+[7:35] two terminals but now let's leave this
+[7:37] alligator clip or Probe on the common
+[7:39] terminal and now we're going to be
+[7:41] connecting the other probe or clip to
+[7:43] the fan terminal and again we're looking
+[7:46] for within six percent of five
+[7:49] microfarads
+[7:52] and as you can see we are getting
+[7:56] 3.107 microfarads so both of our
+[7:59] readings are nowhere near where this
+[8:01] should be in order for this to still be
+[8:03] being used in the AC unit and now we
+[8:06] will test out our new one so again I'm
+[8:08] just going to connect this clip to the
+[8:10] common terminal I'm going to take the
+[8:12] second one and connect it to the Herm
+[8:13] terminal and again we're looking for
+[8:15] within six percent of 70 microfarads
+[8:20] all right so we're getting 69.3 so that
+[8:23] is within the six percent and normal
+[8:24] range for the capacitor so now just take
+[8:27] it off the Hermetic terminal and put it
+[8:28] on the fan terminal and again we're
+[8:30] looking for within six percent of five
+[8:32] microfarads
+[8:35] so as you can see we're getting
+[8:38] 4.985 so we are well within six percent
+[8:41] all the way around in order for this
+[8:43] capacitor to be considered at normal and
+[8:45] proper working order so let's go ahead
+[8:47] and install it so now take my new
+[8:49] capacitor and slide it into the mounting
+[8:51] bracket then I'll take the mounting
+[8:52] bracket and reinstall it into the AC
+[8:54] unit using the two screws that I removed
+[8:57] now I also want to make sure that the
+[8:58] label on the capacitor is facing out so
+[9:00] in the future if I need to read it or an
+[9:02] AC repairman needs to read it it's able
+[9:04] to be read easily now I would highly
+[9:07] recommend always having an extra
+[9:08] capacitor on hand they're incredibly
+[9:10] inexpensive this one ran me just a
+[9:12] little over ten dollars with tax so of
+[9:14] course I'll have links for everything
+[9:15] that you see in the video down below
+[9:17] along with some other dual run
+[9:18] capacitors that are of some very common
+[9:20] and varying size that may fit your needs
+[9:22] all right so this is where I'm going to
+[9:24] go ahead and hook up all of my terminals
+[9:26] again now this is where you'd want to
+[9:27] refer back to the picture that was taken
+[9:29] at the beginning but I know that my
+[9:32] brown wire which is here at the back is
+[9:34] going to go on the this back fan
+[9:36] terminal and that's the only one that
+[9:38] gets connected to the fan terminal then
+[9:40] I've got my blue wire here and that one
+[9:43] connects to the Herm or hermetic
+[9:45] terminal but in my case I also have an
+[9:47] orange wire that goes to my soft start
+[9:49] kit but that also goes on the Hermetic
+[9:52] terminal and then I've just got these
+[9:54] two yellow wires here and those are both
+[9:56] going to go on the common terminal and
+[9:59] I'm going to put them on opposing sides
+[10:01] and it's just as easy as that they just
+[10:04] slide and lock into place so now at this
+[10:06] point I can slide the panel cover back
+[10:07] on and put all the screws back in
+[10:09] reconnect the power or turn the circuit
+[10:12] breaker back on going to the AC unit and
+[10:14] turn on the AC and make sure that
+[10:16] everything is working properly now don't
+[10:18] go anywhere yet because I'm going to
+[10:19] give you some incentive to make sure
+[10:21] that your run capacitor is still
+[10:24] operating where it's supposed to be
+[10:26] doing some testing on it like I showed
+[10:28] you earlier unfortunately I didn't get
+[10:30] video of the before running amperage but
+[10:32] I was running at about 17 amps now since
+[10:35] I've installed the new capacitor with
+[10:37] those levels being where they're
+[10:39] supposed to be it is now running at just
+[10:42] over 10 amps that is almost a 42 percent
+[10:45] reduction in my running amperage which
+[10:47] should mean massive savings on my next
+[10:50] electric bill now at the time of
+[10:51] recording this video I'm also recording
+[10:53] another video that's going to go over
+[10:54] the top things the HVAC technicians do
+[10:58] not want you to know either how to do or
+[11:00] look into how to doing them or that
+[11:03] you're even allowed to do them as a
+[11:05] homeowner and that's because just like
+[11:07] this video the profit margins are huge
+[11:10] where the supplies cost a little to
+[11:12] nothing they're incredibly easy to do
+[11:14] and they're also very quick in order to
+[11:16] carry out so once that video is done and
+[11:18] uploaded I'll post a link to that video
+[11:19] right over here that when you click on
+[11:21] it it'll take you directly to it until
+[11:23] then I will allow YouTube to decide
+[11:25] whatever it is it thinks that you want
+[11:26] to watch next so I hope that you found
+[11:28] this video to be helpful and informative
+[11:30] and if you did if you could do me a huge
+[11:31] favor hit that thumbs up button right
+[11:33] down below and of course you have any
+[11:34] questions or comments still you can
+[11:36] leave those down in the comment section
+[11:37] and I'll catch you all in the next one
+[11:39] see

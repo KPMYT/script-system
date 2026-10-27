@@ -1,0 +1,297 @@
+[0:00] hey guys and welcome back to the channel
+[0:02] I'm really excited because I got a lot
+[0:03] of feedback on this video that I did
+[0:05] last fall and I wanted to do kind of an
+[0:08] update video a much more simplified way
+[0:11] of getting power to your furnace in the
+[0:13] event of an emergency now most of you
+[0:16] homeowners who have gas furnaces if you
+[0:18] look by your furnace you more than
+[0:20] likely will just see a little switch
+[0:22] like this and there's simply no means of
+[0:25] getting power to that furnace in the
+[0:27] event that you have no power but you do
+[0:30] still have natural gas or propane so
+[0:32] we're going to show you a super basic
+[0:34] way of getting power to that furnace so
+[0:36] that you can have heat in the event of
+[0:39] an emergency winter power outage now
+[0:41] there's several ways of getting power to
+[0:42] your furnace but this is 100% the
+[0:45] easiest and cheapest method to get power
+[0:48] to your furnace and all it involves
+[0:50] using is a little connector like this
+[0:52] which we'll show you in more detail in a
+[0:53] second an outlet and a pigtail like this
+[0:56] one that you can get from Home Depot or
+[0:58] Amazon okay so I'm obviously b l just
+[1:00] using this furnace for demonstration
+[1:02] purposes you probably noticed there's
+[1:03] not a a return Grill here so the very
+[1:06] first thing we're going to do before we
+[1:08] take this cover off and show you what's
+[1:09] inside is we're going to head over to
+[1:11] the breaker panel and we're going to
+[1:13] make sure that the power is turned off
+[1:15] to your gas furnace it'll more than
+[1:17] likely be a 15 amp breaker possibly a 20
+[1:20] amp breaker if it's an older furnace so
+[1:22] we're going to go ahead and start by
+[1:23] removing this
+[1:25] cover so now as we said before we're
+[1:28] just going to confirm that there's no no
+[1:32] power and we're going to go ahead and
+[1:34] take this
+[1:36] off so this is more than likely what
+[1:38] you'll see when you take your switch off
+[1:41] you'll see your main power lead going to
+[1:43] one part of the switch and then the
+[1:45] furnace wire going to the other side of
+[1:48] the switch and then you'll notice inside
+[1:50] here our neutral is just wire nutted and
+[1:53] then we have one ground on the switch
+[1:55] and we have our other ground tapped into
+[1:58] our box there okay so what we're we're
+[1:59] going to do to start with is we're just
+[2:01] going to go ahead and disconnect all of
+[2:03] the wiring to this
+[2:07] switch and you'll notice that any
+[2:09] stranded wire will have a connector um
+[2:13] if you just wrap this around here that's
+[2:15] not not going to be a good connection
+[2:17] and any solid wiring um you can't put a
+[2:20] connector on these because they um they
+[2:23] just won't hold so you want to Loop it
+[2:25] like this make sure you have good
+[2:27] coverage and always make sure that the
+[2:28] screw is spinning in the same rotation
+[2:31] as your wire is going around the screw
+[2:34] and lastly we're going to disconnect our
+[2:36] neutral so that these are totally
+[2:39] isolated so now as you can see we have
+[2:42] the grid power coming in here this is
+[2:45] completely isolated from our three wires
+[2:48] that go to the furnace so we have our
+[2:50] neutral our hot and our ground and our
+[2:53] neutral or hot and our ground that's
+[2:56] connected to this box so next what we're
+[2:58] going to do is take the front cup cover
+[3:00] off of our furnace so now that we have
+[3:02] this removed the next thing that we're
+[3:03] going to do and you'll probably have
+[3:05] this on your furnace if you don't you
+[3:07] can make a/2 in hole that's where this
+[3:10] piece comes in so this is just a wire
+[3:12] holder so as you can see it has the nut
+[3:16] that will hold this in place and then
+[3:18] our pigtail will actually clamp inside
+[3:20] of here so there will be no movement and
+[3:23] our pigtail will come out like this so
+[3:25] let's go ahead and knock this out you
+[3:26] should just be able to tap that and it
+[3:28] should pop out
+[3:33] and now all we do is take this nut
+[3:36] off going to slide it in and put the nut
+[3:40] on the back now let's go ahead and
+[3:42] loosen up these so that we have plenty
+[3:44] of room to work with now as you can see
+[3:47] we have a nice big opening here and then
+[3:50] once we put that pigtail in we can clamp
+[3:52] it okay so here's the pigtail we got
+[3:54] this is rated for a 15 amp as you saw
+[3:56] our breaker was a 15 amp as well if you
+[3:59] have a 20 amp breaker obviously you want
+[4:01] a cable that's capable of handling 20
+[4:04] amps so now that this has been undone
+[4:07] we're going
+[4:08] to feed this into our furnace and then
+[4:12] we're just going to give oursel enough
+[4:13] slack that we can go back into the
+[4:15] junction box like this and we'll make
+[4:18] all of our connections inside of here
+[4:21] and now we're just going to tighten this
+[4:22] back down so that cord is not going to
+[4:26] have any movement and it's not going to
+[4:27] rub on any sharp edges
+[4:31] so now this is solid this is not going
+[4:33] to be rubbing on anything now while I'm
+[4:36] doing this I want to mention something
+[4:38] that um I've talked to several people
+[4:40] electricians who have said that this is
+[4:43] totally fine to run a a proper gauge
+[4:47] extension cord that you can plug into an
+[4:49] outlet uh this is basically like any
+[4:51] other Appliance now in some ordinances
+[4:54] they might say you know this will not
+[4:57] pass uh an inspection in which case you
+[5:00] can easily wire this back to how it was
+[5:03] but a lot of places would have zero
+[5:05] issue with there being an outlet here
+[5:07] and this simply plugging into that
+[5:09] outlet so I just wanted to go ahead and
+[5:11] address that for all of you that want to
+[5:13] comment on that feel free to but know
+[5:15] that I already addressed it okay so
+[5:17] basically just to simplify this our
+[5:20] junction box right now is just being
+[5:22] used so that we can connect our furnace
+[5:25] wires to our pigtail wires meaning that
+[5:28] this is totally separate
+[5:30] and then we're going to Simply wire in
+[5:32] an outlet right here once we have our
+[5:34] connections for this made so we're
+[5:36] simply going to go green to green white
+[5:39] to white and black to Black here all
+[5:43] right so what we're going to be using
+[5:44] here to make our connections are called
+[5:46] Wago lever nuts now you can choose to
+[5:49] use a wi nut this is totally your
+[5:51] preference uh whether or not you want to
+[5:54] use these I really like the wagos people
+[5:57] will say that um they have have bad
+[5:59] things to say about them but I
+[6:01] personally have never had an issue and
+[6:03] until that point I'm going to continue
+[6:05] using them so I'll just show you how
+[6:06] easy they are to use so you simply slide
+[6:09] this into the
+[6:10] opening you make sure that it's touching
+[6:13] on the back side here and then you
+[6:15] simply lock that little um lever there
+[6:18] and it is not going anywhere I'm pulling
+[6:20] on this just about as hard as I can and
+[6:23] it won't go anywhere so you just do that
+[6:26] on both sides and especially where these
+[6:29] these are really helpful is if you don't
+[6:31] have a ton of space so in this case
+[6:34] we're working with a a smaller pigtail
+[6:37] here so these are perfect and you can
+[6:39] just push them in and they're good to go
+[6:41] now something that some people have said
+[6:43] is these can come loose by themsel and
+[6:46] what you can do is once you have your
+[6:49] connection made you can throw some tape
+[6:51] on it and that will ensure that that
+[6:53] lever nut will never come loose okay so
+[6:55] all three of our connections are made
+[6:57] between the pigtail and the furnace so
+[6:59] we're just going to kind of Tuck these
+[7:01] wires into the back of our box here and
+[7:04] now this last step is extremely easy
+[7:06] it's where we're going to install our
+[7:08] Outlet so as you probably already know
+[7:11] if you've ever installed an outlet the
+[7:12] black power wire is going to go to the
+[7:15] right side of the outlet or the gold
+[7:16] terminals here and these are connected
+[7:19] so either of these they're both the same
+[7:21] and then the neutral will go to the
+[7:23] silver side and ground will go to ground
+[7:26] so we're just going to hook this back up
+[7:28] the same way and we're going to give
+[7:30] this an
+[7:32] extra tighten
+[7:35] here just like
+[7:40] that so a lot of people didn't know this
+[7:43] but on these wire strippers you see
+[7:45] these holes here those are there for a
+[7:47] purpose and so you can just put it on
+[7:49] the edge of the wire and you can spin it
+[7:52] all the way around
+[7:53] 180° and what you'll end up with is a
+[7:56] perfect hook that you can put on your
+[7:58] outlet
+[7:59] so we're going to do the same thing
+[8:01] right here so we're going to attach this
+[8:03] to the neutral side again making sure
+[8:05] that the wire goes this way around the
+[8:10] screw now as far as our ground this
+[8:13] ground wire from the furnace attached to
+[8:15] the ground on the pigtail and being as
+[8:18] our ground is attached to this
+[8:20] box we are still grounding being as this
+[8:23] is attached to a metal box um but you
+[8:26] could alternatively put a pigtail on the
+[8:28] um Ground Terminal on the box and run it
+[8:31] to this if you want to but you can do it
+[8:33] either way so we're going to rotate this
+[8:36] the proper way to where the power is on
+[8:38] the right
+[8:39] side and we're going to feed it in and
+[8:41] attach
+[8:46] it all right so this install is complete
+[8:48] we can go ahead and flip the breaker
+[8:50] back on and make sure that we have power
+[8:52] here to the outlet now the beauty of
+[8:54] this is that this is a pigtail like as
+[8:58] if this this was any other Appliance
+[9:00] like a toaster or a microwave and this
+[9:03] is totally isolated so in the event of a
+[9:06] power outage we plug this into our power
+[9:09] station or an extension cord that goes
+[9:12] out to our generator and we have zero
+[9:14] possibility of power back feeding
+[9:17] through this to the Grid it's completely
+[9:19] isolated from this Outlet now code says
+[9:22] that you just have to have a means by
+[9:24] which you can disconnect this and in my
+[9:27] previous video I thought that was that
+[9:29] switch so you can use that same method
+[9:31] in my previous video if you have it
+[9:33] installed it's totally fine same thing
+[9:36] applies here except with this it's a
+[9:38] little bit it's a lot more simple so
+[9:41] there's no switch and as soon as you
+[9:43] unplug this that's your means of
+[9:45] disconnecting this furnace and killing
+[9:47] power to it now as far as this extra
+[9:49] cordage we have plenty to plug into a
+[9:52] power station if it's within 9 ft you
+[9:54] can make this however long you want it
+[9:56] if you only want it you know this long
+[9:58] and you can put put your power station
+[10:00] right here you can trim it and make it
+[10:02] that long you can also spool this up and
+[10:04] just keep it zip tied next to the
+[10:06] furnace under normal operation that's
+[10:09] totally up to you so what I'm going to
+[10:11] do is I'm just going to zip tie this to
+[10:13] the MC cable here for our grid power and
+[10:16] that's going to keep this cord out of
+[10:18] the way and we should still be able to
+[10:20] have plenty of room to remove our filter
+[10:23] and replace it as needed all right so
+[10:25] that's our finished product I want to go
+[10:27] ahead and demonstrate how easy this this
+[10:29] is to use so say our power just went out
+[10:32] there's no power coming from this Outlet
+[10:34] now from the grid so we're going to
+[10:36] Simply unplug our furnace we're going to
+[10:38] cut our zip tie to give us the full
+[10:40] length we've got our vetto man 1000 wat
+[10:44] um Power Station here we're simply going
+[10:46] to plug it in we're going to turn on AC
+[10:51] power and our furnace should kick on
+[10:55] momentarily so our blower just came on
+[10:57] that's going to be on a 1 minute minute
+[10:59] timer and then our inducer will come
+[11:02] on and there we go our inducer just came
+[11:05] on so we're going to go ahead and start
+[11:07] our heating cycle you'll notice after a
+[11:09] minute here our hot surface igniter will
+[11:11] come
+[11:12] on here we go and if we had gas
+[11:15] connected to this at the moment uh we
+[11:17] would have fire but we don't at the
+[11:20] moment but I just wanted to demonstrate
+[11:21] how easy this whole system is to use
+[11:25] it's super easy super basic and I feel
+[11:27] like any homeowner should be able to do
+[11:29] this now you may or may not have known
+[11:31] this already but you can power your gas
+[11:33] furnace with your vehicle if you don't
+[11:35] have a generator or a power station if
+[11:38] you're interested in that video check it
+[11:39] out right here and I'm sure you'll find
+[11:41] it fascinating until next time you guys
+[11:43] be safe later

@@ -1,0 +1,214 @@
+[0:00] how's it going you guys it's Scott with
+[0:01] everyday home repairs I'm going to show
+[0:03] you quickly how to troubleshoot and
+[0:05] solve a problem where your furnace is
+[0:06] turning on and then quickly off and not
+[0:09] providing any heat through your vents in
+[0:11] your home with just a little knowledge
+[0:13] on common furnace operation you're going
+[0:15] to be able to troubleshoot this yourself
+[0:17] and out of the last five failures I've
+[0:19] had in my rental properties two of those
+[0:21] failures have been this exact issue one
+[0:24] time I was able to solve it without any
+[0:25] parts and the second time I was able to
+[0:27] solve was just ten dollars in parts so
+[0:29] you can save a ton of money just with
+[0:31] some basic knowledge of furnace
+[0:33] operation and what some of the parts are
+[0:35] and how to troubleshoot them so a key to
+[0:37] troubleshooting is getting a baseline
+[0:39] what is it supposed to look like so
+[0:40] let's run through that I'll take this
+[0:42] top cover off this Ameristar and yours
+[0:46] might not look exactly like this
+[0:48] depending on how old your furnace is and
+[0:51] depending on the brand but it's pretty
+[0:53] consistent across Brands and really over
+[0:55] the last kind of 15 or 20 years of
+[0:57] furnace operation now your burners might
+[0:59] be wide to open once you get to a little
+[1:02] bit higher efficiency unit they'll put a
+[1:05] box around it like this
+[1:07] so I'm just using a 5 16 nut driver to
+[1:11] take off two screws
+[1:12] and then I'll be able to open up and see
+[1:15] my burners so I'm going to turn on my
+[1:17] furnace you usually should have an on
+[1:19] off switch and you should be off if
+[1:21] you're poking around inside your furnace
+[1:23] but I want to run through the cycle and
+[1:25] show you guys the six steps involved in
+[1:28] startup of the Furnace so I'll flip that
+[1:30] on my thermostat's calling for heat so
+[1:34] step one in this process is going to be
+[1:36] your draft inducer motor turning on so
+[1:39] here a motor startup
+[1:42] then the draft is confirmed by a
+[1:45] pressure switch once that's confirmed
+[1:46] you'll see an igniter glowing hot that's
+[1:49] step three once that glows hot for a few
+[1:52] seconds you'll have a relay in step four
+[1:56] where your gas valve turns on and then
+[1:59] the burners will light
+[2:01] now step five you're having a flame
+[2:04] detection sensor confirming the flame
+[2:07] and then once those Flames are confirmed
+[2:10] to be there in your heat exchanger
+[2:12] starts to warm up after about 30 or 45
+[2:15] seconds your main blower fan will start
+[2:18] up and that's what's actually going to
+[2:20] push that conditioned air through your
+[2:22] ductworks and out of your vents and
+[2:25] we'll hear that blower fan come on here
+[2:27] shortly
+[2:29] now this complete cycle for this unit
+[2:32] takes about a minute and 20 seconds and
+[2:35] the blower fan just turned on so between
+[2:38] the thermostat calling for Heat and the
+[2:41] blower fan going on for this unit is a
+[2:43] minute and 20 seconds and you should be
+[2:46] somewhere around that but now let's look
+[2:48] at that common failure where the burner
+[2:51] is turning on and off and how to fix it
+[2:54] so on this failure mode I just flipped
+[2:56] on the on off switch we're going to go
+[2:57] through the same steps and you'll see
+[3:00] where the process stops so the inducer
+[3:02] motor turns on to step one step two
+[3:05] we're confirming that we have a giraffe
+[3:07] step three we're going to start to Glow
+[3:09] the igniter and then going on to step
+[3:11] four the gas valve is going to turn on
+[3:14] and try to start the burners with the
+[3:17] gas valve turning on
+[3:20] burners start but then after two or
+[3:23] three seconds burners will stop so they
+[3:26] will not continuously stay lit and then
+[3:29] your furnace can cycle through the same
+[3:32] state so we're getting to step four but
+[3:34] we're not getting the step five or step
+[3:36] six now your furnace will cycle through
+[3:39] this condition but then after three four
+[3:42] or five Cycles your furnace will go into
+[3:44] a lockout mode now that lockout will go
+[3:47] on for hours as a safety protocol
+[3:49] because What's Happening Here is we're
+[3:52] getting to step five and if you remember
+[3:53] step five was confirming that we have a
+[3:56] flame
+[3:57] right now we're not able to confirm we
+[4:00] have a flame so the safety system is
+[4:02] turning it off because you wouldn't want
+[4:04] your gas valve open with gas being
+[4:06] delivered inside your furnace or inside
+[4:08] your environment but no flame being lit
+[4:10] that obviously can be a dangerous
+[4:12] scenario so what is the issue the issue
+[4:15] is usually associated right here to the
+[4:17] flame detection sensor for whatever
+[4:19] reason that flame detection sensor is
+[4:21] not detecting the flame and providing a
+[4:24] small current to your control board
+[4:26] saying yep we got a flame at the burners
+[4:29] we're good to go on to the next step
+[4:31] which would be heating up that heat
+[4:33] exchanger and then the blower fan
+[4:35] turning on but don't worry this is an
+[4:38] easy fix let me show you how to remove
+[4:39] that and also again remember one of my
+[4:42] issues I didn't need any parts because a
+[4:45] simple cleaning can sometimes solve this
+[4:47] issue so removal is super simple we'll
+[4:49] take the connector off the Spade
+[4:51] terminal and then with that same Klein
+[4:54] Tools 14 and one I'm gonna flip it from
+[4:57] the 516 I needed earlier over to the
+[5:00] quarter inch this screwdriver is awesome
+[5:02] for HVAC work because you also have all
+[5:05] your different bits in the base which
+[5:08] will fit into the quarter inch nut
+[5:09] driver which is also serves as a bit
+[5:12] holder if you just move it out a little
+[5:13] bit further and then you can make it
+[5:16] compact or extend out that shaft to
+[5:19] reach things like this flame detection
+[5:21] sensor
+[5:23] I'm just going to back out this screw
+[5:24] but if you want a link below the video
+[5:27] you'll see my Amazon store where you'll
+[5:29] find all my tool and supply
+[5:30] recommendation for diy-ers
+[5:33] and we got a magnet in the base there
+[5:36] which helps me pull the screw out
+[5:38] and then I'm able just to pull that
+[5:40] flame detection sensor out and then what
+[5:43] we're looking for is any carbon buildup
+[5:46] on that Rod if there is carbon buildup
+[5:49] that can impact its ability to sense
+[5:51] that flame and be the source of your
+[5:53] issue so cleaning super simple you can
+[5:56] either use something like steel wool if
+[5:59] you have it around or even just a one
+[6:02] dollar bill
+[6:03] where you'll just work it across that
+[6:05] rod
+[6:08] working off any of those carbon deposits
+[6:15] and then once the carbon deposits are
+[6:18] removed you should be good to reinstall
+[6:21] and then test this out one out of my
+[6:23] five failures just cleaning it solved it
+[6:25] the other one I just got a new flame
+[6:28] detection sensor you can get three or
+[6:30] four packs for about 15 on Amazon I'll
+[6:33] show you an example in the description
+[6:36] of what would be a direct replacement
+[6:37] for this basically you want to get the
+[6:40] same orientation whether you have a
+[6:42] straight Rod you have a 90 degree like
+[6:45] this but then pay attention to where
+[6:47] that mounting hole is for the screw
+[6:49] because that's really going to be the
+[6:51] thing that orients that Rod into the
+[6:54] path of your flame and that's the key it
+[6:56] has to be in the path of your flame so
+[6:59] for me when this is fully mounted that
+[7:01] Rod is pointing towards the last burner
+[7:04] there and that would be critical you
+[7:07] don't want to get a flame detection
+[7:08] sensor that is going to position that
+[7:11] rod in the middle of the burners and
+[7:13] it's not going to work effectively so
+[7:15] that's it and then you just plug back in
+[7:18] your connector on that Spade terminal
+[7:22] and then test things out to see if that
+[7:24] solved your problem so just going
+[7:26] through the standard steps again we're
+[7:28] on step three with that igniter looking
+[7:31] to go to step four with the gas valve
+[7:33] turning on and then the burner is
+[7:35] actually lighting and this time
+[7:37] hopefully they stay lit for more than
+[7:39] two or three seconds
+[7:40] [Music]
+[7:43] so it looks like we're good and our
+[7:45] problem is solved now if you have rental
+[7:47] properties where you're looking to avoid
+[7:49] any long down time on furnaces or maybe
+[7:52] just live in northern states for the
+[7:54] cost it's probably not a bad idea just
+[7:57] to have one two or even three of these
+[7:59] flame detection sensors on hand so you
+[8:02] can swap those out anytime you're having
+[8:03] a failure mode like this now that the
+[8:06] furnace is up and running there's the
+[8:07] other side of the equation and that's
+[8:09] that you're not losing a lot of heat
+[8:10] through your doors check out this video
+[8:13] right here and it'll show you how to
+[8:15] replace the weather stripping if you
+[8:16] need to to make sure you have good seals
+[8:19] at all the exterior doors in your house
+[8:21] so thanks for joining me on this video
+[8:22] and we'll catch you on that next one
+[8:24] take care
