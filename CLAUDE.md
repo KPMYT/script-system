@@ -29,7 +29,7 @@ When testing script generation, keep the roles separate so the test is honest:
 
 - **Writer:** sees only the library and the test inputs. It follows `core/workflow.md` exactly, as a VA's chat would. It never sees the rubric or the source script it's being compared against.
 - **Operator:** plays the VA: types START, supplies inputs, tries mistakes such as missing inputs or "just write it."
-- **Judge:** scores the writer's output against the rubric, the scanner and the original source script. It reports failures with quoted lines.
+- **Judge:** scores the writer's output against the rubric, the scanner and the original source script. It reports failures with quoted lines. Before judging, the main session runs `tools/verify_output.py` on the saved output; its findings go to the judge as facts.
 
 Fixes are made by the main session, logged, tested, and then the cycle runs again.
 

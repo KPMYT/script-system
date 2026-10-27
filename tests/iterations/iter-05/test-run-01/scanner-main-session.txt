@@ -1,0 +1,26 @@
+SCAN: tests/iterations/iter-05/test-run-01/script.txt
+  copy guard: 8+ words in a row shared with electrical-scripts/SKILL.md, electrical-scripts/references/excerpts.md, electrical-scripts/references/voice-samples.md, electrical-scripts/references/models/E01-everyday-home-repairs-outlet-finished-wall.md, electrical-scripts/references/models/E02-how-to-home-generator-interlock-inlet.md, electrical-scripts/references/models/E03-anthony-mendez-multimeter-like-a-pro.md, electrical-scripts/references/models/E04-lrn2diy-wire-stripper-features.md, electrical-scripts/references/models/E05-handydadtv-light-from-outlet.md, electrical-scripts/references/models/E07-the-diy-guy-downlights-no-access-above.md, electrical-scripts/references/models/E08-everyday-home-repairs-plug-wont-stay-in-outlet.md, electrical-scripts/references/models/E09-everyday-home-repairs-short-wires-in-box.md, electrical-scripts/references/models/E10-the-diy-guy-extend-short-wires.md, electrical-scripts/references/models/E11-how-to-home-sunken-outlet-fixes.md, electrical-scripts/references/models/E12-electrician-u-tell-if-breaker-is-bad.md, electrical-scripts/references/models/E13-practical-engineering-grounded-electricity.md, electrical-scripts/references/models/E14-practical-engineering-every-us-outlet.md, electrical-scripts/references/models/E15-the-wiring-guide-live-neutral-ground.md, electrical-scripts/references/models/E16-electrician-u-bond-service-not-subpanel.md, electrical-scripts/references/models/E17-technology-connections-holey-plugs.md, electrical-scripts/references/models/E18-technology-connections-ev-charger-overkill.md, electrical-scripts/references/models/E19-electroboom-fafo-the-breaker.md, electrical-scripts/references/models/E20-styropyro-volts-or-amps.md, electrical-scripts/references/models/E21-greatscott-wire-nut-vs-wago.md, electrical-scripts/references/models/E22-top-homeowner-afci-vs-gfci.md, electrical-scripts/references/models/E23-top-homeowner-gfci-line-vs-load.md, electrical-scripts/references/models/E24-how-to-home-biggest-receptacle-mistakes.md, electrical-scripts/references/models/E25-lrn2diy-10-breaker-box-mistakes.md, electrical-scripts/references/models/E26-silver-cymbal-3-wiring-mistakes-outlets.md, electrical-scripts/references/models/E27-artisan-electrics-5-socket-mistakes.md, electrical-scripts/references/models/E28-lrn2diy-clever-electrical-tricks.md, electrical-scripts/references/models/E29-everyday-home-repairs-stranded-to-solid-splice.md, electrical-scripts/references/models/E30-how-to-home-ceiling-fan-splices-in-box.md, electrical-scripts/references/models/E31-lrn2diy-wrong-screwdriver.md, electrical-scripts/references/models/E32-haxman-fatal-generator-connection.md, electrical-scripts/references/models/E33-everyday-home-repairs-generator-inlet-box.md, electrical-scripts/references/models/E34-silver-cymbal-generator-interlock-legal.md, electrical-scripts/references/models/E35-how-to-home-7-wiring-mistakes.md, electrical-scripts/references/models/E36-how-to-home-8-outlet-mistakes.md, electrical-scripts/references/models/E37-lrn2diy-holes-in-plugs.md, electrical-scripts/references/models/E38-electroboom-led-lights-keep-glowing.md, electrical-scripts/references/models/INDEX.md, personas/frederick-barnes.md
+  lifted bans in effect: tease: by the end of this video
+  persona facts: names ['Frederick Barnes'], book [], tenure 35
+  spoken words: 3152 (about 16.2 minutes at 195 words a minute; minimum 12)
+  ITEMS: 7 | item one at word 147 (about 45 seconds at 195)  << later than 30 seconds
+  item words: 1 = 795, 2 = 332, 3 = 459, 4 = 336, 5 = 225, 6 = 514, 7 = 344 (the last runs to the end of the script)
+  no 'I' line: none | no 'but': none
+  SENTENCES: 191 | mean 16.5 words | 6 or fewer 8.4% | over 25: 22 | longest 33 | over 35: 0
+
+FIX ON SIGHT (0)
+
+JUDGE WITH THE SHAPE TEST (6)
+  [SPOKEN, judge: letters 'CPSC' (keep only if people say it as letters; otherwise the words)] ...Consumer Product Safety Commission, the CPSC, says bending the blades usually makes ... (x3 in the script)
+  [SPOKEN, judge: letters 'UL' (keep only if people say it as letters; otherwise the words)] ...acement with a listing mark on it, like UL, which means a testing lab has checked ... (x1 in the script)
+  [SPOKEN, judge: letters 'GFCI' (keep only if people say it as letters; otherwise the words)] ...under newer code, the replacement needs GFCI protection. A GFCI, a ground-fault circ... (x10 in the script)
+  [SPOKEN, judge: letters 'AFCI' (keep only if people say it as letters; otherwise the words)] ...fault protection when it's replaced. An AFCI, an arc-fault circuit interrupter, shut... (x1 in the script)
+  [staccato x2] "First, match the rating." | "Second, buy tamper-resistant."
+  [staccato x2] "Now it's your turn." | "I read every one."
+
+"MOST ..." OPENERS: 1 (allowed: 1)
+REFRAME FLOOR (H21): 0 machine-caught (allowed: 1; the audit's count may never be lower)
+FILLER PHRASES OVER THE LIMIT (H23): 0
+ECHO (H18): 0
+
+NUMBERS NOT FOUND IN THE FACT SOURCE (0)  (invented, or derived: confirm the math)

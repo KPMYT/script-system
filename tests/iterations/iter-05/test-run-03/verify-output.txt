@@ -1,0 +1,10 @@
+VERIFY: tests/iterations/iter-05/test-run-03/output.md
+  curly quotes in the script: 0 | evidence says mechanical 0
+  spoken words: 3361 (about 17.2 minutes at 195; minimum 12) | evidence says 3,361
+  ITEMS: 7 | item one at word 142 (about 44 seconds at 195)
+  item words: 1 = 288, 2 = 460, 3 = 489, 4 = 548, 5 = 317, 6 = 502, 7 = 615 (the last runs to the end of the script)
+  no 'I' line: none | no 'but': none | no sentence of 6 words or fewer: none
+  SENTENCES: 223 | mean 15.1 words | 6 or fewer 15.7% | over 25: 25 | longest 35 | over 35: 0
+  quoted script lines in the evidence: 36 | not found in the script: 0
+
+DISCREPANCIES (0)
