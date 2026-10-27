@@ -1,0 +1,374 @@
+# Project Farm: combined transcripts (1 videos)
+
+---
+
+## Best Furnace Filter Brand? 3M Filtrete vs HoneyWell BestAir, Nordic Pure, Flanders EZ Flow
+
+Video `RkjRKIRva58` · 12:54 · 2,574,586 views · 2.51x normal · https://www.youtube.com/watch?v=RkjRKIRva58
+
+[0:00] Replacing that furnace filter every 30
+[0:01] days can get very expensive. So, the
+[0:03] question is, are cheap filters just as
+[0:05] good as the more expensive ones? Also,
+[0:08] why bother replacing your filter when
+[0:10] you can buy a permanent washable filter
+[0:12] like this one? We've got about 14
+[0:14] different filters to test today, so
+[0:16] let's get the testing underway and see
+[0:17] which filter is the best. We'll see
+[0:19] which air filter provides the best air
+[0:21] flow when it's new. We'll see which air
+[0:22] filters do the best at filtering out
+[0:24] contamination. We'll see which provides
+[0:26] the best air flow even after they're
+[0:27] dirty. We'll take a look at the filters
+[0:29] under a microscope and compare media
+[0:31] design. In order to test HVAC filters, I
+[0:33] built this air filter test stand. The
+[0:35] air filter will be placed at the very
+[0:36] top of the test stand when the test
+[0:37] begins. The air filter cover is encased
+[0:40] in plexiglass so that the contamination
+[0:42] can easily be added to the top of the
+[0:43] air filter. Air will move down and pass
+[0:45] through an observation box that is also
+[0:47] enclosed in plexiglass. Air then travels
+[0:49] into a 6-in air pipe. At the very end of
+[0:52] the tester is an electric fan motor that
+[0:54] draws air through the test stand. Let's
+[0:56] establish our baseline air flow rate by
+[0:57] first running the test stand without an
+[0:59] air filter in place. I'll place the
+[1:01] particle counter inside the air box. The
+[1:03] number on the left side of the screen
+[1:04] indicates the number of the particles
+[1:06] between 1 and 5 microns in size. The
+[1:08] number on the right side indicates the
+[1:10] number of particles of 5 microns and
+[1:12] larger. The manometer is showing static
+[1:14] pressure, which is the resistance of air
+[1:15] flow from the filter test box into the
+[1:17] observation box. Static pressure is
+[1:19] measured in inches of water column. We
+[1:21] want this number to be as low as
+[1:23] possible. And the static pressure
+[1:24] without an air filter is 0.16 in water
+[1:27] column. So, there's very little stress
+[1:28] on the blower motor since air is moving
+[1:30] freely. Before we begin testing the
+[1:32] filters, a little more information on
+[1:34] how filters are rated. Different brands
+[1:36] use different rating systems, which can
+[1:37] cause a lot of confusion. FPR, NPR, and
+[1:40] MERV are the three rating systems. MERV
+[1:42] filter rating is the domestic and
+[1:44] international industry standard rating
+[1:46] system established by the American
+[1:48] Society of Heating, Refrigerating, and
+[1:50] Air Conditioning Engineers. NPR stands
+[1:52] for Microparticle Performance and is
+[1:54] used by 3M. FPR stands for Filter
+[1:57] Performance Rating and was created by
+[1:58] The Home Depot to differentiate their
+[2:00] HVAC filters. All three rating systems
+[2:02] can be cross-referenced for every
+[2:04] filter. We'll be testing the filters in
+[2:05] order from the lowest to the highest
+[2:07] ratings. Most of the filters we'll be
+[2:09] testing are MERV 8 filters since that
+[2:11] seems to be the most common filter
+[2:13] purchased. Costing only $1.08, is this
+[2:15] AAF Flanders Easy Flow brand, which is
+[2:17] designed to last 30 days. Allows more
+[2:19] air flow than competitors' model. It
+[2:21] claims it's designed to stop up to four
+[2:23] times more dust than the competition.
+[2:25] It's a high air flow filter and doesn't
+[2:27] even have a MERV rating. The filter
+[2:28] media is made of fiberglass. The
+[2:30] Flanders Easy Flow filter is made in
+[2:32] North Carolina. To test the clean
+[2:33] filters, I'll power up the fan motor for
+[2:35] 30 seconds. The static pressure without
+[2:37] a filter was 0.16 and it's only up by
+[2:40] 0.08 for a total of 0.24 in of water
+[2:43] column. That's an impressively low
+[2:45] static pressure and will be hard to
+[2:46] beat. At $4.97, is this 3M Basic
+[2:49] Filtrete brand, which is designed to
+[2:51] last up to 90 days. Now, it's a very
+[2:53] basic filter and is designed to stop
+[2:55] lint and household dust. It's definitely
+[2:57] not designed to stop dust mite debris,
+[2:59] mold spores, pollen, or anything
+[3:01] smaller. The 3M Basic is made in Mexico.
+[3:04] The 3M Basic has 14 layers of filter
+[3:07] media. Wow, the filter is causing 0.27
+[3:09] increase in static pressure for a total
+[3:11] of 0.43, which is very restrictive and
+[3:13] not good. Why waste money on replaceable
+[3:16] filters when you can buy a washable
+[3:17] electrostatic filter like this one,
+[3:19] which costs $49.99? Air Care Indoor
+[3:22] Quality Specialists Electrostatic Air
+[3:24] Filter, permanent high-tech filter,
+[3:26] never needs replacement. Cleaner air to
+[3:28] breathe, removes pollen, dust, and
+[3:30] pollutants. No harmful ozone emissions.
+[3:32] Made in USA. The 0.38 static pressure is
+[3:35] much better than the 3M, but a little
+[3:37] higher than desired. At only $3.99, the
+[3:40] DuPont 7500 is the most affordable MERV
+[3:43] 8 filter we'll be testing. It claims it
+[3:45] can reduce common airborne allergens in
+[3:46] your home, including 75% of particles
+[3:49] from 3 to up to 10 microns in size.
+[3:51] According to the chart, a MERV 8 filter
+[3:53] reduces 75% of airborne particles, while
+[3:56] a fiberglass filter only reduces about
+[3:58] 20%. The DuPont filter is made in USA.
+[4:01] 14 layers of filter media. The MERV 8
+[4:03] should filter out more airborne
+[4:04] particles than the previous filters, but
+[4:06] 0.39 is still a little bit high for
+[4:08] static pressure. At $4.74, the True Blue
+[4:12] is the second most affordable MERV 8
+[4:13] filter we'll be testing. Now, it says
+[4:15] it's an FPR 5, which is the same as a
+[4:17] MERV 8. It's designed to stop dust,
+[4:19] lint, pollen, dust mite debris, and even
+[4:22] pet dander. Made in USA. The True Blue
+[4:24] has 15 layers of filter media. Compared
+[4:27] to the other MERV 8 filters, 0.33 is
+[4:29] much better than the DuPont's 0.39.
+[4:32] At $4.99, this Aerostar brand is made in
+[4:35] the USA and it's a MERV 8 rated filter.
+[4:38] The MERV 8 has 15 layers of filter
+[4:40] material. 0.37 is better than DuPont,
+[4:42] but not as good as True Blue. Costing
+[4:44] $5.86, is this Nordic Pure brand. It
+[4:48] claims, "Your fresh air has arrived. You
+[4:50] may now breathe freely." This is also a
+[4:51] MERV 8 filter. Made in USA.
+[4:54] 20 layers of filter material. 0.38 is a
+[4:57] little higher than desired. True Blue
+[4:59] holds onto the lead for the MERV 8
+[5:00] filters.
+[5:02] Costing $5.99, is this Natural Air
+[5:04] brand. It has odor eliminator with
+[5:06] baking soda technology. The other MERV 8
+[5:09] filters only claim to handle pollen,
+[5:11] dust, dust mite debris, and pet dander,
+[5:13] but this MERV 8 also claims to handle
+[5:15] mold, bacteria, and virus carriers. Made
+[5:18] in North Carolina. 16 pleats. 0.35 is
+[5:21] actually pretty good, but the True Blue
+[5:23] holds onto the lead. At $9.08, this 3M
+[5:27] Filtrete is almost twice as expensive as
+[5:29] other MERV 8 filters. It's a MERV 8
+[5:31] filter, but it also uses the NPR rating,
+[5:34] which is unique to 3M. 3 months. It
+[5:36] filters lint, household dust, dust mite
+[5:38] debris, mold spores, and pollen. This 3M
+[5:40] filter has 15 pleats. The 3M 600
+[5:43] actually did pretty good at 0.35, but
+[5:45] the True Blue holds onto the lead. At
+[5:48] $5.48, we'll also be testing this 2-in
+[5:50] filter, which is a Best Air brand MERV 8
+[5:53] rating. Last up to 90 days. Made in USA.
+[5:56] 12 filter pleats. 0.28 is a very
+[5:59] impressive performance and the Honeywell
+[6:00] 2-in filter takes the lead. At $22.99,
+[6:03] is this Best Air Honeywell brand MERV 8
+[6:06] filter. Unlike the other ones, this is a
+[6:09] 4-in filter. Captures dust and lint,
+[6:11] dust mite debris, mold spores, pollen,
+[6:13] pet dander. This filter will last up to
+[6:15] 1 year. Made in USA. 12 filter pleats.
+[6:18] Wow, 0.23 is the best filter we've
+[6:20] tested yet. The 4-in Honeywell takes the
+[6:22] lead. The previous filters we tested
+[6:24] were MERV 8. This is a MERV 11
+[6:26] equivalent or an MPR 1085 made by 3M
+[6:29] Filtrete. Now, it costs $11.97,
+[6:32] which is more than twice as much as many
+[6:34] of the MERV 8 filters we tested. 90 days
+[6:36] of air flow. Pollen, smoke particles,
+[6:38] smog particles, dust mite debris, lint,
+[6:40] pet dander, mold spores, household dust.
+[6:42] This 3M filter is made in Mexico. 20
+[6:45] pleats. 0.38 is a little high, but not
+[6:47] surprising since this is a MERV 11
+[6:49] filter. Also costing $11.97,
+[6:52] is this Honeywell FPR 7. Now, FPR 7 is
+[6:56] the same as a MERV 11. It captures dust
+[6:58] and lint, airborne dust mite debris,
+[7:00] pollen, pet dander, mold spores, and
+[7:02] bacteria. Last up to 3 months.
+[7:03] Manufactured in USA. 19 pleats. 0.37 is
+[7:07] a little high, but not surprising since
+[7:09] this is a MERV 11 filter. Costing
+[7:11] $19.97,
+[7:13] is this 3M Filtrete 1900. This is the
+[7:16] same as a MERV 13 rating. Premium
+[7:18] allergen, bacteria, and virus. Smoke,
+[7:20] smog particles, cough and sneeze debris,
+[7:22] bacteria, viruses. Last up to 3 months.
+[7:25] Made in USA with globally sourced
+[7:27] materials. 54 pleats. 0.37 seems a
+[7:30] little high, which makes sense since
+[7:31] this is a MERV 13 filter. The test stand
+[7:34] without a filter had a static pressure
+[7:35] of 0.16. All of the MERV 8 filters have
+[7:38] an asterisk next to them. The MERV 8
+[7:40] 4-in Honeywell did a fantastic job at
+[7:42] 0.23, Easy Flow 0.24, 2-in Honeywell
+[7:45] 0.28, and True Blue 0.33.
+[7:48] To test the filtering capability of each
+[7:50] brand, I'll tape the perimeter of each
+[7:51] filter to the test stand to ensure a
+[7:53] good seal. I'll then spread 1 cup of
+[7:55] flour across the filter and wait until
+[7:56] the particle count stops climbing. Then
+[7:58] I'll power up the blower motor for 1
+[8:00] minute to measure the static pressure.
+[8:01] You can see particles raining down into
+[8:03] the observation box. The Easy Flow isn't
+[8:05] filtering much of anything. The small
+[8:07] particle count is over 22,000 and the
+[8:10] large particle count is over 20,000. Not
+[8:12] good. The static pressure was only 26.
+[8:15] Not a surprise since this filter isn't
+[8:17] stopping much of anything. The 3M Basic
+[8:19] did a lot better at just 1400 small
+[8:21] particles and 1100 large. Static
+[8:24] pressure of 0.87 is very high and would
+[8:26] likely cause damage to the blower motor
+[8:28] over time.
+[8:29] The permanent filter didn't do too well
+[8:31] with 4100 small and 3200 large
+[8:33] particles. When the blower motor was
+[8:34] activated, you could see a white puff of
+[8:36] flour entering the air box.
+[8:42] A static pressure of 0.53 is much better
+[8:44] than the 3M Basic. The DuPont MERV 8
+[8:46] filter had 3100 small and 2400 large
+[8:50] particles. The static pressure was very
+[8:51] high at 1.18. True Blue didn't do nearly
+[8:54] as good as the DuPont at over 9000 small
+[8:57] and 7600 large particles. The static
+[9:00] pressure of 0.95 is high, but much
+[9:02] better than the DuPont. The Aerostar did
+[9:04] better than the True Blue at 6100 large
+[9:07] and 5000 small particles. The Aerostar
+[9:09] also had a better static pressure of
+[9:11] 0.74, the best of the MERV 8 filters.
+[9:15] Nordic Pure did better than the Aerostar
+[9:17] at 5000 large and 4100 small particles.
+[9:20] It also had a slightly better static
+[9:22] pressure of 0.73, the best of the MERV 8
+[9:25] filters.
+[9:26] Natural Air didn't do as well as the
+[9:28] DuPont, Aerostar, or Nordic Pure with
+[9:30] 6600 small and 5500 large particles. It
+[9:34] really struggled with a static pressure
+[9:35] of 1.07.
+[9:38] The 3M 600 did by far the best yet at
+[9:40] 500 large and 400 small particles. And
+[9:42] as you might expect, it had a very high
+[9:44] static pressure of 1.31.
+[9:47] The 2-in Honeywell did even better yet
+[9:49] at just under 300 small and around 200
+[9:51] large particles. The static pressure was
+[9:53] the best yet at only 0.34, showing a lot
+[9:56] of life left in the filter.
+[9:59] The 4-in Honeywell was almost identical
+[10:01] to the 2-in Honeywell at 300 small and
+[10:03] 200 large. Its static pressure was
+[10:04] extremely impressive at only .22. Before
+[10:07] adding the flour to the top of the
+[10:09] filter, the 3M MERV 11 had a particle
+[10:11] count at 57 and 4. It did a fantastic
+[10:13] job and did not show a particle count
+[10:15] increase. However, the static pressure
+[10:17] was high at .8.
+[10:19] Just like the 3M filter, the Honeywell
+[10:21] MERV 11 did a fantastic job and did not
+[10:23] show any increase in particle count.
+[10:25] However, the static pressure was 1.01,
+[10:27] which is higher than the 3M.
+[10:30] Both MERV 11's actually did slightly
+[10:32] better than the 3M MERV 13, which had an
+[10:34] increase of 70 small and 50 large, which
+[10:37] is still really good. What's more
+[10:38] impressive though is that the static
+[10:40] pressure was only .52. Let's compare the
+[10:42] large particle filtering performance of
+[10:44] the filters since the MERV 8 filters are
+[10:46] really designed to capture large
+[10:47] particles such as dust. The first three
+[10:49] filters are MERV 11's and 13 and did a
+[10:51] very impressive job. The 2-in the 4-in
+[10:53] Honeywell and the 3M 600 did a terrific
+[10:55] job at cleaning the air as well. While
+[10:57] the 3M 1085 and the Honeywell both tied
+[11:00] for first place for removing particles,
+[11:01] their static pressure was pretty high.
+[11:03] Obviously, one cup of flour on a 16 by
+[11:05] 20 filter seems like an extreme test,
+[11:07] but the 3M 1900, a MERV 13 filter, did
+[11:10] very well at .52. The Honeywell 2-in and
+[11:13] the 4-in filters both handled the 1 cup
+[11:15] of flour with ease and could easily
+[11:17] handle more. While the Easy Flow filter
+[11:19] had a terrific static pressure of 26, it
+[11:21] did the worst job at filtering as well.
+[11:23] To better understand why the 3M 1900,
+[11:25] which is a MERV 11, as well as the 2-in
+[11:27] the 4-in Honeywell filters did so well,
+[11:29] I disassembled all the filters and
+[11:31] measured the length of the filter media.
+[11:33] I also took a look at each of the
+[11:34] filters under a microscope to compare
+[11:35] the media design. 3M 1085 and the
+[11:38] Honeywell both did a great job of
+[11:39] filtering, but only had 760 and 640
+[11:42] square inches of filter media
+[11:44] respectively. They obviously have a very
+[11:46] tightly woven filter media design
+[11:48] restricting not only dust, but also air
+[11:50] flow. With such a tightly woven design
+[11:52] and limited surface area, they can only
+[11:53] handle so much dust load before the
+[11:55] static pressure reaches a critical
+[11:57] level. Even though the 3M 1900, which is
+[11:59] a MERV 13 filter, does have a very
+[12:01] tightly woven filter media, it overcomes
+[12:03] the static pressure challenge by having
+[12:05] 54 pleats and 1,560 square inches, which
+[12:08] is more than twice as much as any of the
+[12:10] other 1-in filters. The MERV 8 2-in
+[12:12] Honeywell, as well as the 4-in
+[12:13] Honeywell, greatly benefited from having
+[12:15] far more surface area than the
+[12:17] competition. The other filters, which
+[12:19] had much less surface area, quickly
+[12:20] became clogged. An air filter that's too
+[12:22] restrictive just isn't going to allow
+[12:24] that HVAC system to properly manage
+[12:26] temperature, humidity, and air flow. So,
+[12:28] if you can go with a 2, 3, or even a
+[12:30] 4-in air filter, that's the way to go,
+[12:32] but a lot of systems just won't
+[12:33] accommodate anything beyond a 1-in
+[12:35] filter. So, if you don't have an issue
+[12:37] with allergies, going with a filter with
+[12:39] a lower MERV rating and more filter
+[12:41] pleats is probably going to deliver a
+[12:42] lot better air flow. All my video ideas,
+[12:45] including this one, come from viewers.
+[12:47] So, if you have a video idea, hope
+[12:49] you'll take time to leave a comment.
+[12:50] Thanks so much for watching the video.
+[12:52] Please take care and look forward to
+[12:53] next time.

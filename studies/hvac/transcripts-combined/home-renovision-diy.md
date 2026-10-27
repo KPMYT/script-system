@@ -1,0 +1,517 @@
+# Home RenoVision DIY: combined transcripts (1 videos)
+
+---
+
+## THIS is Why Your Heat Bill is So High! Rim Joist Insulation Technique!
+
+Video `J95l9Ue4224` · 18:20 · 5,848,497 views · 24.92x normal · https://www.youtube.com/watch?v=J95l9Ue4224
+
+[0:00] hey guys Jeff here and welcome to my
+[0:01] 1974 home this is my forever home series
+[0:04] today's project we are actually
+[0:06] insulating our Rim joist we thought we'd
+[0:07] take an opportunity to set this up so
+[0:09] that we could go through a few different
+[0:10] options for you we're going to show you
+[0:11] the good the better and the best option
+[0:13] been a lot of things that have uh
+[0:15] changed over the years so let's just
+[0:16] start off with back in 1974 this is what
+[0:19] you got and if it was done well it was
+[0:22] one piece of insulation that filled the
+[0:24] space and that's all they had and the
+[0:26] reason for this is back in 1974 energy
+[0:29] was basically Ally free and uh homes
+[0:32] were made out of 2x4s okay so you would
+[0:34] get that piece of insulation right there
+[0:36] 3 and2 in thick this is an R12 back in
+[0:39] the day today it's an R14 still the same
+[0:42] thickness not sure why the difference
+[0:43] but the point is this you get just as
+[0:45] much insulation in that little air
+[0:47] cavity there as you do in your walls
+[0:49] upstairs all right and so that's all
+[0:51] they did they would put insulation here
+[0:53] boom and boom now 1974 they did not even
+[0:56] have a building Cod so there was no
+[0:59] plastic going on the walls and there was
+[1:00] no insulation no framing they just put
+[1:02] some strapping and a little bit of wood
+[1:04] paneling and called the basement done
+[1:06] time to party now things have changed
+[1:09] since then obviously out with the old in
+[1:11] with the new nowadays things are done a
+[1:14] little bit different so nowadays the
+[1:16] builders the minimum code is R20 because
+[1:20] they're making all of the homes with 2x6
+[1:22] framing that gives you a deeper cavity
+[1:25] you have thicker piece of insulation
+[1:27] okay and the building code makes it so
+[1:29] that we have to have the same
+[1:30] installation value downstairs as we have
+[1:32] upstairs so what we're doing now is
+[1:35] we're sticking this in here all the way
+[1:37] to the back and they're realizing they
+[1:41] need this insulation to come right to
+[1:42] the front okay there you go so they're
+[1:47] bending it in so what you can do there
+[1:49] is you effectively get an R20 against
+[1:52] the outside wall and coming across the
+[1:56] top of your ped concrete and so that
+[1:58] becomes a continuous system because then
+[2:00] you would also in this environment you
+[2:03] would have your R7 or r10 rigid foam and
+[2:06] then you would add another piece of bat
+[2:09] here that fits the 2x4 frame and so now
+[2:11] you've got a continuous R20 that's not
+[2:13] bad we also have vapor barrier in our
+[2:15] building code now so that you would
+[2:17] finish this off with plastic little
+[2:19] acoustic seal staple it all up seal it
+[2:21] all up and that's your air barrier
+[2:23] that's not terrible but then somebody
+[2:25] came along with a brilliant idea and
+[2:26] said hey Jeff why don't we do this a
+[2:27] little bit better why don't we make an
+[2:29] air SE at The Rim joist and so what
+[2:32] they've done is they said we're already
+[2:34] having this foam on the on on board at
+[2:37] the job site why don't we cut it just a
+[2:39] little bit
+[2:41] smaller there we
+[2:45] go watching out for all the nails and
+[2:47] the
+[2:48] protrusions okay they shove the rigid
+[2:51] foam in there we got door and window
+[2:53] spray foam and this is different than
+[2:54] what you've seen most people see the
+[2:56] great stuff right this comes with a DIY
+[2:58] interior nozzle and you can throw thread
+[3:00] that in it'll break the seal thread it
+[3:01] down nice and
+[3:03] tight
+[3:05] now little test
+[3:09] here and we're we're live and this is
+[3:12] where the sloppy mess begins right you
+[3:15] get right in here and you're throwing
+[3:16] some spray
+[3:19] foam you try to do this with some
+[3:28] control okay now this became the new
+[3:31] industry standard and what you get there
+[3:33] is you get an air seal to all of these
+[3:35] connecting pieces of lumber from the
+[3:37] outside as well as a thermal block it
+[3:39] also is not insulated enough so then you
+[3:43] take your insulation and you'd have to
+[3:45] place it over top and fill that cavity
+[3:48] even once again this was getting done
+[3:50] all the time all over the place now
+[3:52] you'll notice that this insulation is
+[3:54] now in contact with the rigid foam so
+[3:57] you do get a thermal break there's two
+[3:59] different things you want to pay
+[4:00] attention to here one is thermal
+[4:01] bridging and one is thermal break a
+[4:03] thermal break is when there's nothing
+[4:06] but insallation happening behind your
+[4:07] framing thermal bridging is when you
+[4:09] have insulation framing insulation
+[4:11] framing so having a thermal brake is the
+[4:14] best system now this was the gold
+[4:15] Stander for a long time and that's
+[4:16] because spray foam was limited to the
+[4:18] little cans and spray foam contractors
+[4:21] if you wanted to hire a guy to come out
+[4:22] here and actually use the spray foam and
+[4:24] fill up that space it would cost you a
+[4:26] fortune nowadays we have an option as
+[4:27] DIY Community we can buy spray foam two
+[4:30] parts mix it with the gun and spray our
+[4:32] own Rim Joys let's show you that product
+[4:35] right now this is called a two-part
+[4:37] system we got tank a and tank B and when
+[4:39] you buy it there's a barcode right down
+[4:43] here they only scan one of these codes
+[4:46] guys okay make sure they don't scan both
+[4:49] boxes or you'll pay for the whole system
+[4:51] twice you'll notice that on here it says
+[4:53] box one of
+[4:54] two okay and then that's box two of two
+[4:59] and the world of construction that means
+[5:00] this is one sale that UPC scan symbol
+[5:04] probably shouldn't even exist on this
+[5:06] box it's very confusing and your person
+[5:08] working at the store should know that so
+[5:10] go to the contractor desk when you check
+[5:11] out they're a little bit more educated
+[5:13] about the product lines all right here
+[5:15] we go we're going to open this up nice
+[5:16] and simple right out of the gate we got
+[5:18] a big warning sign here we're going read
+[5:20] this before using the
+[5:22] product I'm going to take a second and
+[5:24] look through foam must be applied in
+[5:26] layers to avoid overheating or
+[5:28] combustion so if you don't want to burn
+[5:30] your house down you got to read the note
+[5:31] never Exceed 2 in thickness per layer of
+[5:33] cured foam aim for a target of 1 in okay
+[5:36] that's good let it cool down between
+[5:38] layers there's a quick curing time where
+[5:39] it's chemically activated and it's hot
+[5:42] okay here's Part B so here we go it's
+[5:46] one gun with two hoses coming in it so
+[5:48] you bring a line from each and when you
+[5:50] pull the trigger both of the lines fill
+[5:52] up with the product and then it
+[5:53] distributes a mixture on contact it
+[5:56] turns into foam if you stop for more
+[5:58] than 30 seconds you got to replace
+[6:00] your spray tip the mixing tip okay so
+[6:03] that's an important little Gizmo this
+[6:05] also has an open and then closed all
+[6:08] right so if you're going to stop stop
+[6:10] spraying close the system boom doesn't
+[6:13] tell me which one is for
+[6:16] which come on come on come on come
+[6:19] on there we go now we've got it sorted
+[6:22] out that's all we needed to know there
+[6:24] we go fingertight okay in the closed
+[6:26] position all right open clothes there's
+[6:30] not much difference we're going to also
+[6:32] want to wear the safety glasses we're
+[6:34] going to want to wear the
+[6:36] gloves I'm going to wear these just for
+[6:38] now but the truth is they're not going
+[6:39] to last I'm actually going to use a pair
+[6:41] of construction gloves and use them as
+[6:43] throwaways I'm going to be starting and
+[6:44] stopping a few different times and I
+[6:46] know that this whole program is a little
+[6:47] bit messy eye protection is a
+[6:49] must and away we go now they did have
+[6:53] information here about the temperature
+[6:55] you want to store this and use it at
+[6:56] we're a little cold
+[6:58] today it's suppos to be the summer time
+[7:00] things are supposed to be nice and hot
+[7:01] around here but today they are not this
+[7:03] has got notches and grooves you just
+[7:05] slide on and give it a quarter turn
+[7:06] twist that's it and we are good to go
+[7:08] now this is going to underperform for me
+[7:10] right now cuz it's cold if you have wor
+[7:11] this before I've used a can system like
+[7:13] this before on a crawl space it was
+[7:16] Stone it was a crawl space it was cool
+[7:18] it was in the shade and it
+[7:19] underperformed there too because it was
+[7:20] cold you want to get this warm about 70°
+[7:23] okay or like over 21 we're about 20° in
+[7:26] down here maybe 19 it's a little chilly
+[7:28] okay but but that's it going to show you
+[7:30] the science of how to do this I got my
+[7:32] gun closed haven't mixed it yet I got a
+[7:34] good tip once I get started I can't stop
+[7:36] for more than 30 seconds without closing
+[7:38] it and removing the tip and that's not a
+[7:39] big deal they give you like 20 but let
+[7:41] me just go through the science here I'll
+[7:42] use this as a pointing stick air gap
+[7:44] possible here and here and here because
+[7:47] it's all construction nailed together
+[7:49] all right even plywood when it comes to
+[7:51] the factory you can be delaminated while
+[7:52] they're changing out things and
+[7:54] thicknesses change and wood warps and
+[7:56] bends but it's sitting on a seal plate
+[7:59] which is basically another 2x6 or 2x4
+[8:02] even flat across the concrete wall now
+[8:05] in this case we don't even have poured
+[8:06] concrete right we've got block which
+[8:09] means it's a lot of inconsistencies and
+[8:11] the only thing they've got sealing that
+[8:12] off is a little bit of black tar paper
+[8:15] so what you have when you really take a
+[8:16] look here is concrete with tar paper
+[8:20] with air gaps between the two tar paper
+[8:22] to the wood is going to have air gaps
+[8:24] because the wood isn't flat and then the
+[8:26] rim joist is all nailed on and take a
+[8:28] look at this you're going to have Gap
+[8:29] like this where the boards are put
+[8:31] together they're just buted up against
+[8:33] each other that's going to be an air gap
+[8:35] blowing through there as well all of
+[8:36] these things are working together to
+[8:38] cause you problems this plywood actually
+[8:40] goes over and on top of this as well so
+[8:43] there's a possible air leakage there
+[8:44] when we're talking insulating and we're
+[8:46] talking Rim joists there's really two
+[8:48] major issues you got to deal with one is
+[8:49] the insulation value your R value the
+[8:51] other one is air sealing okay so what we
+[8:54] don't want to do is fill this cavity
+[8:57] like this and go we're good because this
+[9:00] scenario here it has a
+[9:02] weakness that spray foam doesn't account
+[9:05] for the the the Gap under the SE plate
+[9:08] and it doesn't account for the fact that
+[9:09] the stone itself is about an inch and a
+[9:12] half away from that soap plate okay
+[9:14] which means the masonry of this building
+[9:18] is bringing the cold from outside in the
+[9:19] winter time right up from behind here in
+[9:21] front of here so what I'm looking at is
+[9:23] I need a system that is going to give me
+[9:25] an air seal here all the way down all
+[9:27] the way to the front and then yes I even
+[9:30] want to spray right up to the edge of my
+[9:31] frame well so this is ideally done
+[9:34] before you even finish your framing okay
+[9:37] you can spray it up to the foam here but
+[9:38] if you do that if there's no frame you
+[9:40] got to spray foam to here but get about
+[9:43] an inch up okay that one to two in that
+[9:45] sits on top of that concrete is going to
+[9:47] be killer important for your thermal
+[9:49] break so here we go let's give this
+[9:51] sucker a shot oh I have to turn the
+[9:52] canisters open don't I cheaper
+[9:56] creepers how do you how do you how do
+[9:58] you how do you how do you it's not
+[10:00] telling me hold on a second it's
+[10:01] counterclockwise and you just turn it it
+[10:03] says don't use tools you got it okay
+[10:06] turn that off is that even fit on
+[10:10] this hold on hold on we're good okay all
+[10:14] right now it also
+[10:16] recommends that you spray a little bit
+[10:19] into a garbage bag I'm just going to use
+[10:21] the box now both components are in the
+[10:25] handle and that's officially spray pump
+[10:27] here we go let's go get a seal
+[10:35] wow that is so much better than the
+[10:37] product I use in my crawl
+[10:40] space okay so we're using a downward
+[10:42] angle here to make sure we get that air
+[10:44] [Applause]
+[10:47] seal and if you have
+[10:51] framing why not we're going to close
+[10:53] that off this is going to be more than
+[10:55] 30
+[10:56] seconds disposing of it where's my box
+[11:00] I've got this little tool here okay that
+[11:02] I can put my cans on and it has a gun
+[11:04] and opens and closes it doesn't dry out
+[11:06] in the main time right it's good you
+[11:08] just store it upside down like this and
+[11:10] it comes with this little spray can here
+[11:12] and it can be threaded into the gun so I
+[11:15] can clean the whole system out or it
+[11:17] also has this little spray nozzle on it
+[11:19] okay
+[11:21] and it's perfect for cleaning off your
+[11:23] gun this is management so you're going
+[11:25] to want to get one of these great stuff
+[11:26] Gun Cleaners it's telling us to give it
+[11:28] a minute to set up you see I'm getting
+[11:30] almost 2 inches of foam here this is the
+[11:32] crazy thing that is like a complete
+[11:34] insulation cavity if I want a little bit
+[11:36] more r value on that I can give it one
+[11:38] more spray and then it's perfect now
+[11:40] we're going to do that because there is
+[11:42] a system out there it's called Flash and
+[11:45] bat and what you can do is you can go
+[11:47] cheap on your ins on your on your foam
+[11:49] here I'm going to do the next cavity
+[11:51] over and we're going to go a little
+[11:52] cheaper and I'll just show you what
+[11:53] flash and bat looks
+[11:54] like here we go
+[12:01] it's a lot less foam yeah that's not
+[12:03] going to be quite enough up there there
+[12:05] we are okay you can get the idea how
+[12:07] messy the system is right this is why
+[12:09] you don't want to do your whole home
+[12:10] with this kind of a kit because it is
+[12:12] extremely messy that would be what we
+[12:13] would call Flash and bat that gives you
+[12:15] just enough material that you seal up
+[12:17] all your Gap and then you come along
+[12:18] because that gives you about an r10 and
+[12:20] you can shove this in for the extra
+[12:23] insulation value that you want okay and
+[12:25] then you can put your Vapor Barrier up
+[12:27] right in front of it so then you get
+[12:28] your wall frame you get put your plastic
+[12:29] in there that works great the reason I
+[12:31] like this system better is you have to
+[12:33] remember when you're looking upstairs
+[12:36] this floor you don't want it cold you
+[12:38] want the heat from the room down here
+[12:40] traveling across this cavity getting up
+[12:42] to there because if you have tile or
+[12:44] hardwood upstairs and the first 3 or
+[12:46] four inches of the flooring never
+[12:48] touches a warm surface your flooring is
+[12:50] in two different temperatures you're
+[12:51] going to get expansion and contraction
+[12:53] issues so by going full foam like this
+[12:59] I'm actually going to be able to get an
+[13:02] R20 with only 2 in of foam no problem if
+[13:05] I go to 3 in of foam I am way over
+[13:08] insulated this allows me to have that
+[13:10] warm air mass making it up to that
+[13:12] flooring okay this is why I'm saying
+[13:13] that this is the best system you get
+[13:15] what you pay for bottom line here's the
+[13:17] deal the foam is expensive this canister
+[13:20] here is enough for me to do the entire
+[13:21] Rim joist and probably another house
+[13:24] okay so they come in different sizes
+[13:25] unfortunately for the purpose of my job
+[13:27] today it was the only one in my area
+[13:28] that was available so I grabbed it
+[13:30] anyway I'm just going to go full foam
+[13:32] instead of flashing bat because I've got
+[13:34] the product you can do one of two things
+[13:35] you can save money now and go just bunch
+[13:37] of insulation have air leaks because
+[13:39] there's no air seal and you can pay for
+[13:41] it for the rest of your life with energy
+[13:43] bills in an uncomfortable basement or
+[13:45] you can get up to this level okay and
+[13:48] get an air seal and a thermal break and
+[13:51] overdo your thermal okay and you're
+[13:53] going to have the most comfortable
+[13:54] basement ever cuz the number one reason
+[13:56] that people have drafty basements is the
+[13:58] rim joint
+[14:00] so solve that problem pay today and then
+[14:02] have cheap energy and a really
+[14:04] comfortable room forever now there's one
+[14:06] other area we got to deal with here and
+[14:08] that is not all part of the house is
+[14:10] looking like this right there's the
+[14:12] other side the other direction the one
+[14:13] that runs parallel with your floor joist
+[14:15] what do you do there so let's run over
+[14:17] to that part of the installation and
+[14:18] we'll show you how to get that one done
+[14:19] as well here's the difference between
+[14:21] the two different color tips you're
+[14:22] probably asking yourself and it is all
+[14:24] about the size of the spray the round
+[14:27] one puts a lot more material in a
+[14:29] smaller area and you get more grow more
+[14:31] buildup the yellow one it does a wider
+[14:34] stream so I'm going to demonstrate that
+[14:35] for you right now you can pick what you
+[14:37] want if you're going to go Flash and bat
+[14:39] go with the yellow because it sprays
+[14:40] less material and it'll just get your
+[14:42] air seal like here we
+[14:44] go okay and here's the white one this
+[14:48] one shoots a lot more material in a
+[14:50] smaller
+[14:55] spray both of them will work
+[15:00] you just have to decide what problem are
+[15:02] you trying to solve I'm more interested
+[15:04] in
+[15:06] getting 100% foam as my solution so my
+[15:10] situation is going to be one where I'm
+[15:12] going to be shooting probably with the
+[15:13] white gun most of the day and then
+[15:15] coming back and doing a second coat
+[15:16] because I want to get to the full two
+[15:17] inches so spray to get 1 inch let it do
+[15:20] its job let it cure up let it cool down
+[15:22] you're going to come back here you put
+[15:23] your hand up you can feel the heat if
+[15:25] it's hot don't spray again because
+[15:26] you're going to have a combustible
+[15:27] probability you could set your house on
+[15:29] fire all
+[15:34] right we're looking to try to get foam
+[15:36] right from this Edge all the way back
+[15:39] like a slope and then hit the rim joist
+[15:41] as
+[15:42] well and even onto that ceiling just a
+[15:47] touch okay like I said it's a messy
+[15:51] messy business but it's a little bit of
+[15:53] fun to be honest with you okay guys so
+[15:54] here's the deal I was working with the
+[15:56] um the white nozzle that had a lot more
+[15:58] content coming it was a little violent
+[16:00] and it was starting to spray itself and
+[16:02] push the other foam around inconsistent
+[16:04] and I was getting too much bunching up
+[16:05] okay and and I don't want too much
+[16:08] volume of product in one application
+[16:09] because the heat so I'm going to the
+[16:11] wides spray instead and maybe maybe
+[16:14] maybe we'll just have to go with like
+[16:16] three passes and uh take it
+[16:21] easy few more passes than that ought to
+[16:23] do the job really gentle on the spray
+[16:26] nozzle here
+[16:32] okay guys so let's just talk CA real
+[16:33] quick because we had the three different
+[16:34] options right just a straight up bat if
+[16:36] you're going to do that it's going to be
+[16:37] like2 maybe $300 for your installation
+[16:39] for the whole basement of your house all
+[16:41] right and mine is an 800t footprint so
+[16:44] that's the relative cost when you go to
+[16:46] upgrade to go to the R20 you're going to
+[16:48] double your installation double your
+[16:50] cost so there you go if you go to the
+[16:52] use the foam board first and then the
+[16:54] spray foam and then insulation because
+[16:56] you don't have a lot of sprace to work
+[16:57] with and you're trying to get closer to
+[16:58] R2 then you're going to almost double
+[17:00] the price again all right so you're up
+[17:02] to about 800 bucks to go with that rigid
+[17:04] foam board plus insulation plus the foam
+[17:06] cans and that's a lot of work this spray
+[17:08] can system here will do my entire
+[17:10] basement it's $1,200 and it guarantees
+[17:13] me an air seal right up to the edge of
+[17:15] this foam okay no fooling around I don't
+[17:17] have to get my vapor barrier up and in
+[17:20] all around my joist so now the finish
+[17:22] this off traditionally we have a frame
+[17:25] wall with bat okay I can come back with
+[17:27] my spray foam can and spray the top of
+[17:29] my plate to the existing foam here and
+[17:32] air seal that so now my plastic Vapor
+[17:35] Barrier only goes to the top of my wall
+[17:37] frame and I'm officially done an
+[17:39] acoustic seal bead done and done and
+[17:40] it's about the same price and a lot less
+[17:42] labor and it's more efficient and it
+[17:44] gives you a better r value so do
+[17:46] yourself a favor if you want to go with
+[17:47] the old fashion system fine save your
+[17:50] money today pay for the rest of your
+[17:51] life but if you want to enjoy your
+[17:52] basement and you're going to invest time
+[17:54] and money building it and doing
+[17:55] something nice for yourself and your
+[17:56] family get the spray foam canisters it's
+[17:59] $1,200 do your whole house and then you
+[18:01] can come by and do a second coat and get
+[18:03] an R30 in that Rim joice it's the
+[18:05] weakest link in your home and it's the
+[18:06] number one reason why people can't enjoy
+[18:08] their basement once they're done don't
+[18:09] let that happen to you because by the
+[18:10] time you're finished renovating and
+[18:12] you're trying to enjoy it and you
+[18:13] realize it's cold it's too late CU this
+[18:16] problem is solved at the very beginning
+[18:17] of the renovation cheers till next time
