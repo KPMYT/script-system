@@ -4,7 +4,7 @@ How every file in `references/models/` was built (session 4, 2026-10-21). Kept f
 
 Every model is ONE markdown file in plumbing-scripts/references/models/, named
 `<ID>-<channel-slug>-<short-topic-slug>.md`, e.g. `R08-got2learn-solder-correct-way.md`, `S10-mark-silverbridge-s-traps.md`.
-Channel slugs: got2learn, silver-cymbal, roger-wakefield, arrow-pest-service, roger-the-pipe-guy, mark-silverbridge, vintage-pipefitter, thecheapfix, nailed-it (R21, not plumbing, added 2026-10-27 with its opening quoted and no full script).
+Channel slugs: got2learn, silver-cymbal, roger-wakefield, arrow-pest-service, roger-the-pipe-guy, mark-silverbridge, vintage-pipefitter, thecheapfix, nailed-it (R21, not plumbing, added 2026-10-27 as two opening moves, with no script and no beat map).
 
 R files = real (human) channels: borrow structure AND voice. S files = AI-voiced hits (our own channels and TheCheapFix): STRUCTURE ONLY, never voice or wording.
 

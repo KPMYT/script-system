@@ -4,7 +4,7 @@ import re,glob,sys,os
 root=os.environ.get("LIB_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 for f in sorted(glob.glob(f"{root}/plumbing-scripts/references/models/[RS]*.md")):
     s=open(f).read()
-    if "**Script:** not reproduced" in s: print(f"{os.path.basename(f):60} no full script (opening quoted only), not checked"); continue
+    if "**Script:** not reproduced" in s: print(f"{os.path.basename(f):60} no script (operator, 2026-10-27), not checked"); continue
     vid=re.search(r"\*\*Video:\*\*\s*([A-Za-z0-9_-]{11})",s)
     sec=re.search(r"## Script \(verbatim, labelled\)\n(.*?)\n## Doesn",s,re.S)
     if not vid or not sec: print(os.path.basename(f),"FORMAT?"); continue

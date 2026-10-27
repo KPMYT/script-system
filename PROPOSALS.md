@@ -116,23 +116,20 @@ The study supports the narrow form of both: a tenure stated the same way every t
 **Status:** approved by the operator on 2026-10-25 with a change: "in the hook of plumbing instead of saying 1 and 2 it owuld be better to say something like today i am going to show you the eight things you must check (if it doesnt already)". Applied with a count line in place of the promise block (job 5 of "The opening"), without "today", which the plumbing scanner bans in openings.
 
 
-## P11. The range opening, from the drywall video (opened 2026-10-27)
+## P11. The escalation line, from the drywall video (opened 2026-10-27)
 
-**Decision it touches (HANDOFF.md section 3, "Operator decisions, 2026-10-25", P10):** no promise block in the plumbing hook. `plumbing-scripts/SKILL.md` says "Nothing is promised in the opening" ("Point then promise") and bans "a recap of what's coming, a promise block or any run-down of what later items hold" ("Never in an opening").
+**Decision it touches (HANDOFF.md section 3, "Operator decisions, 2026-10-25", P10):** no promise block in the plumbing hook. `plumbing-scripts/SKILL.md` says "Nothing is promised in the opening" ("Point then promise"), and job 5, the count line, "never says what any single item holds".
 
-**Evidence:** the operator (2026-10-27), on Nailed it's "How to Repair Drywall For Beginners" (7AczE-EA1Is, 1.03M views, about 60x the channel's median): "i love his hook. can you build that in please", then "the hook just the hook not the naming himself". Its opening (model R21, `plumbing-scripts/references/models/R21-nailed-it-drywall-repair-beginners.md`) has the task in one line, the range from the smallest case to the biggest, the kit for every size, the transfer ("you'll be able to fix any size") and a myth flipped into reassurance, all in about 40 seconds. The kit and transfer lines are promises, and the range names the smallest and the biggest case, so the hook collides with P10's wording, though not with what P10 was for (stopping "the first part I'll teach you this, the second thing I'll teach you this").
+**Evidence:** the operator (2026-10-27), on Nailed it's "How to Repair Drywall For Beginners" (7AczE-EA1Is, 1.03M views, about 60x the channel's median upload): "i love his hook. can you build that in please", then "the hook just the hook not the naming himself", then "i simply like the way he clearly introduces the problem and explains the escalation of the video very clear and simple". Model R21 holds the two moves. Saying where the video starts and where it ends up names the smallest and the biggest case, so it sits on the edge of P10's wording, though not of what P10 was for (stopping "the first part I'll teach you this, the second thing I'll teach you this").
 
-**Proposal: add this to "The opening" in `plumbing-scripts/SKILL.md`, after "Simpler and stronger":**
+**Proposal: add this to "The opening" in `plumbing-scripts/SKILL.md`, after job 5:**
 
-> **The range opening** (one shape the opening can take; operator, 2026-10-27: "i love his hook. can you build that in please"; model R21, not plumbing). For titles where the problem comes in sizes or levels: how-to, a fix with an escalation ladder, seasonal or emergency. In about 20 to 40 seconds, in this order:
-> 1. **The task in one plain line,** in the viewer's words. This is the point (job 1).
-> 2. **The range,** from the small everyday case to the big one that scares them, both as pictures from their own house. The shape (never wording to reuse): "from a bathroom sink that drains slow to a toilet that won't go down no matter how hard you plunge." It names the span of the problem, never what an item holds and never a fix.
-> 3. **The kit,** in one line: they'll have what they need for each, and most of it is already in the house (the standard kit).
-> 4. **The transfer,** in one line: learn these and you can handle just about any drain (leak, toilet) in the house.
-> 5. **The myth flipped into reassurance,** as a "but" turn (job 4): what they've been told, then the truth that makes it feel doable. The shape: "You've probably been told a clog that deep means a plumber. But most of them sit within arm's reach of the drain, and a bucket and a pair of gloves will get you there."
+> **The escalation line** (operator, 2026-10-27, from model R21, not plumbing: "i simply like the way he clearly introduces the problem and explains the escalation of the video very clear and simple"). When the video runs from a small case to a big one (sizes of clog, levels of leak, the cheap fix up to the stronger one), the opening does two things, plainly:
+> 1. **Introduce the problem clearly,** in one sentence: what the viewer has and what the video fixes, in a beginner's words, with no build-up.
+> 2. **Explain the escalation simply,** in one sentence: where the video starts and where it ends up, as pictures from the viewer's house. The shape (never wording to reuse): "We'll start with a sink that's draining slow and work up to a toilet that won't go down at all."
 >
-> Then the first real tip by about 45 seconds. When the video has a count, lines 3 and 4 carry it ("the four fixes that cover every size of clog") and stand in for the count line. The kit and transfer lines promise the whole video, as the count line does, so they are the one exception to "Nothing is promised in the opening". Never: a name or channel intro, "today", or an invitation to skip ahead. Rotate it like any opening shape: not in two scripts in a row on the same channel.
+> The escalation line stands in for the count line, or carries it ("and four fixes cover every one of them"). It names the two ends of the problem, never what an item holds or its fix, and the body keeps that order, smallest first. Not in every script: rotate it like any opening shape.
 
-**Also, to match:** "Point then promise" reads "Nothing is promised in the opening, apart from the range opening's kit and transfer lines (operator, 2026-10-25 and 2026-10-27)"; the How-to row of "The video types" adds "or the range opening" to its opening order; a check (test 46) that the range opening is in the pack and that the name, "today" and the skip invitation stay banned; a HANDOFF section 3 entry.
+**Also, to match:** "Point then promise" reads "Nothing is promised in the opening, apart from the count line or the escalation line (operator, 2026-10-25 and 2026-10-27)"; a check (test 46) that the escalation line is in the pack; a HANDOFF section 3 entry.
 
-**Status:** open, waiting for the operator's yes.
+**Status:** open, waiting for the operator's yes. (Replaces the first draft of 2026-10-27, "the range opening", which also had a kit line, a transfer line and a myth flip; the operator narrowed it to the two moves.)
