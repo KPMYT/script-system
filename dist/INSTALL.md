@@ -1,8 +1,8 @@
 # Installing the skills
 
-**Version:** 2026-10-27 (library commit 44bcea6)
+**Version:** 2026-10-27 (library commit 0fd6703)
 
-Thirteen skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
+Seventeen skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
 
 | File | Layer | What it does | On your account now |
 |---|---|---|---|
@@ -17,6 +17,8 @@ Thirteen skill files, one per layer (`script-writer` also comes as `script-write
 | `vintage-pipefitter-persona.skill` | Channel | The Vintage Pipefitter's profile and its one-line subscribe ask (no book). | **Replace** the copy on the account (delete it, upload this). |
 | `electrical-scripts.skill` | Niche | The electrical rules (inputs: title and brief, no research pack; the stakes with no money; the opening with one value promise; the seven video types; the one-line subscribe ask and the comment ending; 12 minutes minimum; units written for the voice; safety), the facts guide and the model scripts. | **New:** upload it. |
 | `frederick-barnes-persona.skill` | Channel | Frederick Barnes's profile (retired electrician, 35 years, Talking Head, a one-line subscribe ask, no book). Ready (2026-10-27); his ElevenLabs voice check is still to report back. | **New:** upload it. |
+| `hvac-scripts.skill` | Niche | The HVAC rules for Roger the HVAC Guy (built from the plumbing rules: the opening, emotion, villain, video types, CTAs, the ending, length, voice, proof, money, HVAC safety), the HVAC model scripts, the HVAC price guide and the copy guard's files. | **New:** upload it. |
+| `roger-the-hvac-guy-persona.skill` | Channel | Roger the HVAC Guy's profile (the same Roger, in HVAC) and his one-line subscribe ask (no book for now). Ready since 2026-10-27, after two rounds of tests. | **New:** upload it. |
 | `werner-finkbeiner-persona.skill` | Channel | Werner Finkbeiner's profile (the German way, plumbing, Talking Head, *Werner's 101 Free Repairs*). Ready since 2026-10-27; his book index (chapters, every repair with page and Money Saved) is inside. | **New:** upload it. |
 | `woodworking-ideation.skill` | Ideation | The Etsy-first product scan (30 products), title and thumbnail-text options, fact briefs, the optional research pack. | **Replace** the copy on the account (delete it, upload this). |
 | `plumbing-ideation.skill` | Ideation | Plumbing titles and briefs for Roger, Mark, Vintage and Werner; briefs now give each item its cost and the right way (the script fills gaps from the plumbing price guide). | **Replace** the copy on the account (delete it, upload this). |
@@ -27,7 +29,7 @@ All of the script skills must be installed together: `script-writer` stops with 
 ## Steps
 
 1. **Delete** the old copies of `plumbing-ideation`, `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona` and `vintage-pipefitter-persona`.
-2. **Upload all fourteen from this build together**: those nine, `script-writer`, `sawdust-sam-persona` and the new `electrical-scripts`, `frederick-barnes-persona` and `werner-finkbeiner-persona` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
+2. **Upload all sixteen from this build together**: those nine, `script-writer`, `sawdust-sam-persona`, the new `electrical-scripts` and `frederick-barnes-persona`, the new `hvac-scripts` and `roger-the-hvac-guy-persona`, and the new `werner-finkbeiner-persona` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
 3. **Upload `ideation-core`** only if the account doesn't have it.
 4. **Turn them all on.**
 

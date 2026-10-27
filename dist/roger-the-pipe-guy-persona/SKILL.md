@@ -3,7 +3,7 @@ name: roger-the-pipe-guy-persona
 description: The channel profile for Roger the Pipe Guy: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-27 (library commit 44bcea6)
+**Version:** 2026-10-27 (library commit 0fd6703)
 
 # Persona profile: Roger the Pipe Guy
 
@@ -83,4 +83,5 @@ book: One Hundred Old-House Fixes That Save You Thousands
 tenure: 45
 ban: e-book | say "book", never "e-book"
 ban: ebook | say "book", never "e-book"
+ban-regex: \broger the hvac guy\b|\bmy (?:hvac|heating) channel\b | the other Roger channel: the two channels never mention each other (operator, 2026-10-27)
 ```

@@ -26,10 +26,14 @@ Usage:
                    min-minutes: 12
                  and, optionally, report settings (the ITEMS and SENTENCES lines; report only):
                    item-words: 120-180        (each item's words against this band)
-                   first-item-seconds: 30     (item one later than this is marked)
+                   first-item-seconds: 45     (item one later than this is marked)
                    sentence-max: 35           (the sentence cap; 35 if unset, fix on sight on every channel)
                  and, to guard the pack's own quoted example lines with a shorter run than the copy guard's 8:
                    example-guard: 5           (any 5 words in a row from a "quoted example" in that file, fix on sight)
+                 and letter words the niche says as letters every day (no judge line for them):
+                   letters-ok: HVAC, AC, MERV
+                 and steps that must all be there once a topic comes up (fix on sight when one is missing):
+                   require-if: trigger pattern => needed pattern | label
                A profile's "Words per minute ...: N" line sets the runtime estimate (150 if unset).
   --pack       the fact source: the research pack, or the brief where the niche pack doesn't use one.
                Every number in the script is checked against it.
@@ -171,6 +175,7 @@ REFRAME = [
     r"(?i)\bnot\s+(?:about|just|only|merely)\b[^.!?\n]{0,50}?[.,;]\s*(?:it['\u2019]?s|it\s+(?:is|was)|that['\u2019]?s|this is|but)\b",
     r"(?i)\bless\s+\w+[^.!?\n]{0,25},\s*more\s+\w+\b",
     r"\bNot [a-z]+\. [A-Z]",
+    r"(?i)\b(?:won|doesn|don|didn|can|isn|aren|wasn)['\u2019]?t\s+(\w+)\b[^.!?\n]{0,60}[.;]\s*(?:[^.!?\n]{0,25},\s*)?(?:(?:it|that|this)\s+\1s|they\s+\1)\b",
 ]
 
 # stock filler phrases (H23): allowed once per script each, never two in one paragraph
@@ -232,8 +237,8 @@ def sentences(para):
 def read_rules(paths):
     """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
-    facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None,
-             "item_words": None, "first_item_seconds": None, "sentence_max": None, "examples": []}
+    facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None, "letters_ok": set(),
+             "item_words": None, "first_item_seconds": None, "sentence_max": None, "examples": [], "require": []}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         w = re.search(r"^Words per minute[^:\n]*:\s*(\d+)", txt, re.M)
@@ -278,6 +283,11 @@ def read_rules(paths):
                     facts["sentence_max"] = int(pat)
                 elif key.strip() == "example-guard":
                     facts["examples"].append((int(pat), p))
+                elif key.strip() == "letters-ok":
+                    facts["letters_ok"].update(x.strip() for x in pat.split(",") if x.strip())
+                elif key.strip() == "require-if" and " => " in pat:
+                    trig, _, need = pat.partition(" => ")
+                    facts["require"].append((re.compile(trig.strip(), re.I), re.compile(need.strip(), re.I), label))
     return bans, lifts, allows, facts
 
 # ---------------------------------------------------------------- numbers
@@ -468,14 +478,16 @@ def example_check(text, examples, allows=None):
 
 # ---------------------------------------------------------------- persona facts (fix on sight)
 NUM_WORD = r"(?:\d{1,2}|(?:twenty|thirty|forty|fifty|sixty|seventy)(?:[- ](?:one|two|three|four|five|six|seven|eight|nine))?|ten|eleven|twelve|fifteen|five|six|seven|eight|nine)"
-_TRADE = r"(?:experience|trade|trades|plumbing|plumber|pipefitt\w*|pipe ?fitter|tools|bench|shop|job|field|business|woodworking|woodworker|carpentry|craft|career|wrenching|fixing \w+|doing this|in this line|(?:master |journeyman |licensed )?electricians?|electrical (?:work|trade|contracting)|wiring(?: houses| homes)?|lineman|wireman)"
+_TRADE = r"(?:experience|trade|trades|plumbing|plumber|pipefitt\w*|pipe ?fitter|tools|bench|shop|job|field|business|woodworking|woodworker|carpentry|craft|career|wrenching|fixing \w+|doing this|in this line|(?:master |journeyman |licensed )?electricians?|electrical(?: work| trade| contracting)?|electric|wiring(?: houses| homes)?|lineman|wireman|hvac|heating|cooling|air conditioning|furnaces?)"
 TENURE_RX = [
     # "45 years in the trade", "35 years of experience", "40 years as a plumber"
     re.compile(r"(?<![\w-])(" + NUM_WORD + r")[- ]years?\s+(?:(?:of|in|on|at|as|behind|under)\s+)?(?:(?:the|a|an|my)\s+)?" + _TRADE + r"\b", re.I),
     # "been a plumber for over 35 years", "fixing pipe for 30 years", "on the tools for 30 years"
     re.compile(r"\b(?:been|spent|worked|working|wired|wiring (?:houses|homes)|plumbing|fixing|on the tools|in the trade|doing this|at the bench)\b[^.!?]{0,40}?\bfor (?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
-    # "a 45-year plumber", "45-year veteran"
-    re.compile(r"(?<![\w-])(" + NUM_WORD + r")-year\s+(?:plumber|electrician|lineman|journeyman|pipefitter|veteran|master|tradesman|woodworker|carpenter|pro|career)\b", re.I),
+    # "I've been doing this 40 years", "in the trade 45 years" (no "for"; 2026-10-27)
+    re.compile(r"\b(?:doing this|in the trade|on the tools|at the bench)\s+(?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
+    # "a 45-year plumber", "45-year veteran", "a 40-year electrician", "a 30-year HVAC tech"
+    re.compile(r"(?<![\w-])(" + NUM_WORD + r")-year\s+(?:(?:hvac|heating|furnace|service|electrical)\s+)?(?:plumber|pipefitter|veteran|master|tradesman|woodworker|carpenter|pro|career|tech|techs|technician|electrician|lineman|journeyman|serviceman|man|guy)\b", re.I),
 ]
 
 def _num(tok):
@@ -515,8 +527,14 @@ def tenure_check(para, tenure, title_n=None):
             near = para[max(0, m.start() - 40):m.end() + 40]
             if rx is TENURE_RX[0] and not re.search(r"\b(?:I|I'?ve|I'?m|[Mm]e|[Mm]y|[Ww]e|[Ww]e'?ve)\b", near):
                 continue
+            # someone else's years ("Techs with 20 years of experience told me..."): a third party just before the figure (2026-10-27)
+            if rx is TENURE_RX[0] and re.search(r"\b(?:techs?|technicians?|plumbers?|electricians?|contractors?|installers?|pros|guys|folks|people|someone|somebody|anybody|anyone|he|she|they|a tech|the tech|my (?:dad|father|grandfather|uncle|neighbor|neighbour))\b(?:(?!\b(?:I|I'?ve|I'?m|my|me|we)\b)[^.!?]){0,30}$", para[max(0, m.start() - 45):m.start()], re.I):
+                continue
             # "been ... for N years" counts only with the persona as its subject ("I've been...", not "the heater has been...")
-            if rx is TENURE_RX[1] and m.group(0).lower().startswith(("been", "wired", "wiring")) and not re.search(r"(?:\b(?:I|I'?ve|I have|I had|I'?d|we|we'?ve|we have)\s+(?:\w+\s+){0,2}|\bmy\s+\w+\s+(?:have|has|had)\s+|(?:^|[.!?]\s+))$", para[max(0, m.start() - 30):m.start()], re.I):
+            # "been / spent / worked / working ... for N years" counts only with the persona as its subject:
+            # "I've been...", "I spent...", "My hands have been..." (check 29); not "the heater has been...",
+            # "that old compressor kept working...", "my furnace has been running..." (2026-10-27)
+            if rx is TENURE_RX[1] and re.match(r"(?:been|spent|worked|working|wired|wiring)\b", m.group(0), re.I) and not re.search(r"(?:\b(?:I|I'?ve|I have|I had|I'?d|we|we'?ve|we have)\s+(?:\w+\s+){0,2}|\bmy\s+(?:hands|knees|back|eyes|life|whole life|career)\s+(?:have|has|had)\s+|(?:^|[.!?]\s+)(?:(?:after|from|since|with|in)\s+)?)$", para[max(0, m.start() - 30):m.start()], re.I):
                 continue
             seen.add(m.start(1)); spans.append((m.start(1), m.end(1)))
             n = _num(m.group(1))
@@ -678,7 +696,8 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
             for m in re.finditer(rx, para):
                 fix.append(f"[SPOKEN: {name}] ...{ctx(m)}...")
         for m in SPOKEN_LETTERS.finditer(para):
-            if m.group(0).rstrip("s") not in SPOKEN_LETTERS_OK and m.group(0) not in SPOKEN_LETTERS_OK:
+            ok = SPOKEN_LETTERS_OK | facts.get("letters_ok", set())
+            if m.group(0).rstrip("s") not in ok and m.group(0) not in ok:
                 key = "L:" + m.group(0).rstrip("s")
                 if key not in once_judged:
                     once_judged[key] = [len(judge), 0]
@@ -709,6 +728,10 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
         for s in sentences(para):
             if len(s.split()) > (facts.get("sentence_max") or SENTENCE_MAX):
                 fix.append(f"[SENTENCE OVER {facts.get('sentence_max') or SENTENCE_MAX} WORDS] ({len(s.split())} words) \"{s[:90]}...\" (split it; join two with \"but\" only where it turns)")
+    whole = "\n\n".join(paras)
+    for trig, need, name in facts.get("require", []):
+        if trig.search(whole) and not need.search(whole):
+            fix.append(f"[NICHE/PERSONA REQUIRED: {name}] the script brings up \"{trig.search(whole).group(0)}\" but leaves this out")
     for rx, name in facts.get("once", []):
         n = sum(len(rx.findall(para)) for para in paras)
         if n > 1:
@@ -728,6 +751,9 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
         for rx in REFRAME:
             for m in re.finditer(rx, para):
                 if any(m.start() < e and m.end() > s for s, e in spans):
+                    continue
+                # an instruction ("Don't touch it. It's fragile.") is not a reframe
+                if re.match(r"(?i)do(?:n['\u2019]?t| not)\b", m.group(0)) and re.search(r"(?:^|[.!?,]\s+|\b(?:and|or|just|never|so)\s+)$", para[:m.start()], re.I):
                     continue
                 spans.append((m.start(), m.end()))
                 reframes.append(para[max(0, m.start() - 30):m.end() + 30])

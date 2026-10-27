@@ -3,7 +3,7 @@ name: werner-finkbeiner-persona
 description: The channel profile for Werner Finkbeiner: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-27 (library commit 44bcea6)
+**Version:** 2026-10-27 (library commit 0fd6703)
 
 # Persona profile: Werner Finkbeiner
 
