@@ -126,7 +126,7 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 2. **A question, when it fits,** about something the viewer can see, hear, smell or feel in their own house in under a minute, without a tool and without opening anything (does the plug droop when you let go; is the dead outlet near a bathroom, the kitchen, the garage or outside; does the light dim only when the dryer starts), answered in the next sentence with what each answer means. Never a question only the footage can answer, and never a thought experiment with the answer held back.
 3. **The stake, once,** in plain words: the title's own stake (see "The stakes"). Fire or shock comes into the opening only when the title is about a danger (a generator, a panel called dangerous, a WARNING title) or the fix-video order asks "is it dangerous". Otherwise the opening's stake is the nuisance, the habit or the hidden work, and the first fire or shock line waits for the item where the risk is real (the models bring danger in at a median of about 1:37; only 8 of 27 do it in the first 45 seconds). The villain line only if the topic has one.
 4. **Honest scope or reassurance,** in one line: what this fixes and what it doesn't, or that most of the job is safe for a careful homeowner and which part isn't. It never takes back the title.
-5. **One value promise, when it fits** (P11, operator 2026-10-27): one sentence that either promises the escalation ("we'll go from the two-minute check to the one sign that means you stop and call") or what the viewer will know or be able to do by the end ("By the end of this video you'll know how to tell a tired breaker from a real fault, and the one sign that means you leave the panel alone"). It names only things paid after item three (or after the third step, check or block), never item one, two or three (operator: "as long as they are not iteams one 2 and 3"), and it isn't always three things ("doesnt have to be 3 items also"). An escalation may name its starting rung, since the operator allowed "a simple promise of escalation" on its own terms. In a list of three, it names what the viewer will be able to do, not an item. Never "First I'll show you… then…". Never a vague tease ("stick around", "you won't believe"). Or, in a list, **the count line** naming the whole list and what it does for the viewer. Never "today we're going to".
+5. **One value promise, when it fits** (P11, operator 2026-10-27): one sentence that either promises the escalation ("we'll go from the two-minute check to the one sign that means you stop and call") or what the viewer will know or be able to do by the end ("By the end of this video you'll know how to tell a tired breaker from a real fault, and the one sign that means you leave the panel alone"). It names only things paid after item three (or after the third step, check or block), never item one, two or three (operator: "as long as they are not iteams one 2 and 3"), and it isn't always three things ("doesnt have to be 3 items also"). An escalation may name its starting rung, since the operator allowed "a simple promise of escalation" on its own terms. In a list of three, it names what the viewer will be able to do, not an item. Never "First I'll show you… then…". Write it as "By the end of this video…"; the short "By the end, you'll…" is still a banned tease. Never a vague tease ("stick around", "you won't believe"). Or, in a list, **the count line** naming the whole list and what it does for the viewer. Never "today we're going to".
 6. **The first real tip, check or step** by about 45 seconds; in a list, item one by about 30 seconds.
 
 **Simpler and stronger** (operator, 2026-10-21, for every niche): the first line hits the viewer's own problem in strong, plain words; it doesn't have to be the worst case.
@@ -182,10 +182,10 @@ The operator (2026-10-21): "simpler and stronger on emotions... using strong wor
 ## Ways to promise more value
 
 Two or three per video, in the body (the opening carries at most the one value promise), rotated across a channel's scripts:
-- **A numbered item with its stake in words:** "Number six is the one that leaves the light fixture live when the switch is off."
+- **A numbered item with its stake in words:** "Number six is the one that leaves the light fixture with power when the switch is off."
 - **The escalation ladder:** the two-minute check, then the fix a careful homeowner can do, then the sign that it's a call for a licensed electrician. The default for fix videos.
 - **The rule that protects everything:** turn it off, then prove it's off. Named at the first step it touches, paid straight after.
-- **A check the viewer can run:** the plug-in tester's lights, the TEST button, the tug test on a connection, noticing a cover plate or plug that feels warm in everyday use (a sign to act on, never a thing to touch on purpose: hot, buzzing or smelling means the sequence in "Safety"). Only checks that are safe and that the brief or facts guide confirm.
+- **A check the viewer can run:** the plug-in tester's lights, the test button, the tug test on a connection, noticing a cover plate or plug that feels warm in everyday use (a sign to act on, never a thing to touch on purpose: hot, buzzing or smelling means the sequence in "Safety"). Only checks that are safe and that the brief or facts guide confirm.
 - **A problem the viewer didn't know they had,** promised and then shown.
 - **A myth flag** that names the belief it flips in the same line: "Number three is the one everybody gets backwards: a three-prong outlet doesn't mean you have a ground." Never a bare "the one everybody gets backwards".
 - **The "why" promised:** "And I'll tell you why that wire got short in the first place."
@@ -301,7 +301,7 @@ If a future electrical channel has a book or a mid-video CTA, its placement foll
 
 After the last item or step:
 1. **The end CTA:** the one-line subscribe ask, in its markers.
-2. **The comment ask, which ends the video:** a short turn to the viewer, an outright ask to leave a comment, one specific question the viewer can answer from their own house (the age of the house, the outlet that gives them grief, what they found behind the plate), and that he reads every comment ("I read every one" or "I read every comment"; operator, 2026-10-27: "we say we read every comment"). Two or three sentences. Never a bare "let me know in the comments", never the same question two videos running, never "let me know if you" (a chatbot leftover the scanner flags). Rotate the question across a channel's scripts among: the age of the house and what's in its walls; what the viewer found behind the plate; which outlet or switch gives them grief; what their tester or the TEST button showed; the one thing they'll check tonight. Never ask the viewer to tell Frederick something he should know (E04 [4:07]).
+2. **The comment ask, which ends the video:** a short turn to the viewer, an outright ask to leave a comment, one specific question the viewer can answer from their own house (the age of the house, the outlet that gives them grief, what they found behind the plate), and that he reads every comment ("I read every one" or "I read every comment"; operator, 2026-10-27: "we say we read every comment"). Two or three sentences. Never a bare "let me know in the comments", never the same question two videos running, never "let me know if you" (a chatbot leftover the scanner flags). Rotate the question across a channel's scripts among: the age of the house and what's in its walls; what the viewer found behind the plate; which outlet or switch gives them grief; what their tester or the test button showed; the one thing they'll check tonight. Never ask the viewer to tell Frederick something he should know (E04 [4:07]).
 
 No recap, no tease of a future video, no sign-off after the comment line.
 
@@ -323,12 +323,16 @@ No recap, no tease of a future video, no sign-off after the comment line.
 - **Swearing: none** (operator, 2026-10-27).
 - **A phrase is voice once; in the same slot every video, it's a tic.** Each stock phrase at most once per video (the once-list in the scanner block), and rotate what opens an item and what closes the video.
 
-**Written for the voice** (core `workflow.md` §4, every channel). Electrical has more numbers and letters than any other niche, so:
-- **Units in words, numbers as people say them:** "a hundred and twenty volts", "fifteen amps", "a twenty-amp breaker", "fifteen hundred watts", "five milliamps", "sixty hertz". Never 120V, 120 V, 15A, 1,500W, 5mA, 60Hz, 10kW.
-- **Wire and cable names in words:** "fourteen-gauge wire", "twelve-two cable" (twelve-gauge, two wires plus a ground). Never 12/2, 14 AWG or #12.
-- **Letters people say as letters** are written with no periods: GFCI, AFCI, NEC, UL, EV, LED, CPSC. Say what the letters mean the first time ("a GFCI, the outlet with the test and reset buttons"). Anything people don't say as letters is written as words.
-- **Code sections** are never read as numbers ("NEC 406.4(D)(2)"): say "the electrical code" and what it requires.
-- **Fractions and measurements in words:** "six inches of wire", "three-quarters of an inch".
+**Written for the voice** (core `workflow.md` §4, every channel). Electrical has more numbers, codes and letters than any other niche, and the briefs write all of them the short way (15 A, 14 AWG, 12-2, NEMA 5-15, L14-30, 120/240 V, NEC 210.8). The narration never does:
+- **Volts, amps, watts and wire sizes in words, the way an electrician says them:** "a hundred and twenty volts", "fifteen amps", "a twenty-amp breaker", "fifteen hundred watts" (never 1,500, which the voice reads "one thousand five hundred"), "five milliamps", "sixty hertz", "fourteen-gauge wire". Never 120V, 120 V, 120v, 15A, 1,500W, 5mA, 60Hz, 10kW, 14 AWG or #12. Years stay digits ("the 2023 code"). One form for the whole script.
+- **Cable names in words:** "twelve-two cable" (twelve-gauge, two wires plus a ground). Never 12/2 or 12-2.
+- **Two numbers joined by a hyphen or a slash, in words:** "a hundred and twenty and two hundred and forty volts", or as electricians say it, "one-twenty, two-forty"; "fifteen to twenty years"; "six-thirty-two screws". Never 120/240, 15-20 or 6-32.
+- **Plug, outlet and inlet codes:** name the thing first in plain words, and use the code at most once, only when the viewer needs it at the store, written the way it's said: "the four-prong twist-lock inlet, the kind marked L fourteen-thirty", "a fourteen-fifty outlet", "the everyday three-prong outlet, what the trade calls a five-fifteen", "the twenty-amp kind with the sideways slot, a five-twenty". Never L14-30, 14-50, NEMA 5-15 or 5-20; leave "NEMA" out. Model numbers the same way ("a Wago two-twenty-one"), or leave them out.
+- **Letters people say as letters,** with no periods: GFCI, AFCI, UL, EV, LED, CPSC, USB. Say what they mean the first time in one plain clause of your own (`references/facts-guide.md` §14 has one for each, and it's outside the copy guard). Written as words, never letters: carbon monoxide (never CO), the electrical code (never NEC, and never a section number such as 406.4(D)(2)), Romex or "the plastic-jacketed cable" (never NM), gauge (never AWG), air conditioner or alternating current (never AC), "single insulated wires" (never THHN). If the voice test runs a letter set together, it's written with spaces ("G F C I") in every script.
+- **Button labels in lower case:** the test button, press reset. Never TEST or RESET.
+- **"Live" only before a noun** ("a live wire", "a live outlet"). After a verb ("the fixture stays live") the voice can rhyme it with "give": write "still has power" or "is still hot".
+- **Switches, breakers and plugs in words:** a three-way switch, a double-pole breaker, a three-prong plug. Never 3-way or 2-pole.
+- **Fractions and measurements in words:** "six inches of wire", "three-quarters of an inch", "two cubic inches". Never 3/4", 6 in. or cu in.
 
 ## Proof
 
@@ -338,7 +342,7 @@ The winners are real electricians filming their hands. This channel is an AI pre
 - **The mechanism, in one plain line:** why it happens. "A loose wire touches on a smaller spot, and a smaller spot gets hot." Best under 15 words.
 - **A fact from the brief or the facts guide,** said plainly; a named source keeps its figure exactly ("CPSC says…").
 - **The maker's own instruction,** when the brief confirms it: "The instructions on the device say to strip it to the gauge on the back."
-- **A check the viewer runs at home** with what they'll see either way: the plug-in tester's lights, the TEST button cutting the power, the tug on a connection. Only safe checks the brief or facts guide confirm; never a finger, never a live test inside a box.
+- **A check the viewer runs at home** with what they'll see either way: the plug-in tester's lights, the test button cutting the power, the tug on a connection. Only safe checks the brief or facts guide confirm; never a finger, never a live test inside a box.
 - **The honest limit:** what the fix won't do. "A new outlet won't fix a loose wire further down the line."
 - **The typical case, as a general statement:** "Older houses often have outlets wired through the push-in holes."
 - **Test topics, explained:** the result the brief gives, said as the fact or the mechanism ("A plug with no holes grips the outlet just as tight: by the time it's all the way in, the holes have already slid past the contacts."), never as something the channel did, never "when people test this" or a named video or creator, and never a result the brief or the facts guide doesn't carry. A demonstration in a model file is never a fact source. A dangerous test is said as its result, never as how it was done (shorting an outlet to find the breaker, touching a live wire, a meter left on amps), with one line on why not to try it.
@@ -355,8 +359,8 @@ The winners are real electricians filming their hands. This channel is an AI pre
 The facts come from the brief and the facts guide. **The brief can add safety but never remove it** (operator, 2026-10-27).
 
 **Always, in every script that tells the viewer to take off a cover plate, open a box, a fixture or a panel door, or wire anything:**
-1. **Power off at the breaker, then prove it's off,** inside the first step that needs it, not as a disclaimer at the top, and before any cover plate, fixture or device comes off: check the tester on an outlet you know is live, test every wire in the box (both halves of a split outlet and every cable in it, not just the one you're working on), then check the tester on the live outlet again (facts guide 8.2, 8.5, 4.27). An outlet that's already dead, a switch turned off, a tripped GFCI or a GFCI's TEST button never proves the box is dead. A non-contact tester's silence is never proof on its own (8.3): in a metal box or on armored cable, a two-probe tester on the wires (8.4). A plug-in tester is a check, never permission to touch (8.11). Tape over the breaker so nobody flips it back on (8.13).
-2. **How the power comes back, and the test after,** as its own short step said to "you": the breaker back on; the named check and what a good result looks like (the plug-in tester's two lights; TEST cuts the power and RESET brings it back); then the problem the viewer came with, tried again; then the win. Never "if you turned it off". **Except after a stop sign:** when the step ends on a call-an-electrician trigger (scorch, melting, a tingle, a burning smell, a hot plate, brittle insulation, aluminum wire), the breaker stays off and the device stays unplugged until a licensed electrician has seen it (facts guide 12.6, 12.13, 13.7).
+1. **Power off at the breaker, then prove it's off,** inside the first step that needs it, not as a disclaimer at the top, and before any cover plate, fixture or device comes off: check the tester on an outlet you know is live, test every wire in the box (both halves of a split outlet and every cable in it, not just the one you're working on), then check the tester on the live outlet again (facts guide 8.2, 8.5, 4.27). An outlet that's already dead, a switch turned off, a tripped GFCI or a GFCI's test button never proves the box is dead. A non-contact tester's silence is never proof on its own (8.3): in a metal box or on armored cable, a two-probe tester on the wires (8.4). A plug-in tester is a check, never permission to touch (8.11). Tape over the breaker so nobody flips it back on (8.13).
+2. **How the power comes back, and the test after,** as its own short step said to "you": the breaker back on; the named check and what a good result looks like (the plug-in tester's two lights; the test button cuts the power and reset brings it back); then the problem the viewer came with, tried again; then the win. Never "if you turned it off". **Except after a stop sign:** when the step ends on a call-an-electrician trigger (scorch, melting, a tingle, a burning smell, a hot plate, brittle insulation, aluminum wire), the breaker stays off and the device stays unplugged until a licensed electrician has seen it (facts guide 12.6, 12.13, 13.7).
 3. **The call-an-electrician line names its trigger,** in this order: the sign the viewer can see, smell, hear or feel; "that's where you stop"; who does it; why, in one clause. The signs come from the brief or facts guide 12.18 and 9.5: brittle, cracked or scorched insulation; a breaker that trips again the moment it's reset; a warm or buzzing panel, a hot breaker or a burning smell; anything behind the panel's dead front; no free space in the panel or a new circuit; the generator connection itself; wiring that doesn't match what the brief describes. Never the vague "if you're not comfortable".
 4. **Panels:** the door is the homeowner's; the dead front, the inner metal cover the breaker handles poke through, is not. With the door open, a homeowner reads the labels, finds the tripped handle and resets it once by pushing it fully off, then on (facts guide 9.6), and looks for rust or water stains, scorch marks, buzzing, heat or a burning smell. Any of those last four means don't touch it, don't reset it, call (9.5). Everything behind the dead front stays live even with the main breaker off (9.4), so taking it off, and adding, swapping or upsizing any breaker (a GFCI or AFCI breaker included), is a licensed electrician's job (13.4). The meter and the wires from the pole belong to the utility (13.5, 9.19); never tell a viewer to pull the meter. In a panel-mistakes list, a fault behind the dead front is said as what an electrician finds when the inner cover comes off, and the item's check is what the viewer can see with the door open or what to ask for. It's never "take the cover off and check yours".
 5. **Generators:** the house wiring is fed only through an interlock kit with an outdoor inlet, a transfer switch, or a meter-socket device the utility approves, each put in by a licensed electrician with a permit (facts guide 11.13, 11.14, 11.23). Never a cord with plugs on both ends, never into a wall, dryer or range outlet. Without that equipment, appliances plug straight into the generator with outdoor-rated cords sized for the load (11.18). The generator runs outdoors only, at least twenty feet from doors, windows and vents, as the facts guide gives it; the carbon monoxide sequence (below) is said in full whenever a generator runs in the script. If neither the brief nor the facts guide gives the storm-night order (main off, then the generator side, loads one at a time, and the way back), the script says the order is printed in the kit's instructions and the electrician walks you through it at install, and gives no order of its own.
@@ -406,7 +410,8 @@ The scanner (core `script-scanner.py`) reads this block. `allow` lines are wordi
 ```scanner
 min-minutes: 12
 lift: tease: by the end of this video
-once-regex: \bby the end of (?:this|the) video\b | the one value promise (P11, opening only)
+allow: by the end of this video you'll know
+once-regex: \bby the end of (?:this|the) video\b | the opening's value promise (P11: once, in the opening)
 allow: I read every one
 allow: I read every comment
 ban-regex: \btoday,? (?:we'?re|we are|I'?m|I am) going to\b | opening: "today we're going to"
@@ -418,17 +423,25 @@ ban-regex: \bI (?:put|held|hooked up|clamped|stuck|ran) (?:a |my |the )?(?:meter
 ban: as you can see | pointing at the screen
 ban-regex: \blook at this\b|\bright here\b|\bon the (?:left|right) (?:side )?of (?:the|your) screen\b | pointing at the screen
 ban-regex: \b(?:after|in) all the (?:houses|homes|jobs|panels) I'?ve (?:worked|been|seen|wired)\b|\bI once (?:found|had|saw|walked)\b|\ba customer (?:of mine|called|asked)\b|\bon a job (?:once|last)\b | job or customer story
-ban-regex: \belectricians? (?:hate|don'?t want)\b|\bwhat (?:electricians|the electrician|inspectors) (?:won'?t|don'?t) tell you\b | trade as villain
-ban-regex: \$\s?\d|\b\d[\d,]*\s?(?:dollars|bucks)\b|\bsave (?:you )?(?:hundreds|thousands)\b | money (no money framing on this channel)
+ban-regex: \belectricians? (?:hate|don'?t want)\b|\bwhat (?:they|electricians|the electrician|inspectors|contractors|the pros) (?:won'?t|don'?t) (?:tell you|want you to know)\b | trade as villain
+ban-regex: \$\s?\d|\b(?:dollars?|bucks|cents)\b|\bsave (?:you )?(?:hundreds|thousands|money)\b|\b(?:electric|electricity|power|energy|utility) bills?\b | money (no money framing on this channel)
 ban-regex: \bthis channel (?:is for|exists|is all about)\b | template stock line: channel promise
 ban-regex: \bno rush\b|\bno pressure\b|\bwhenever you'?re ready\b | CTA "no rush" family
 ban-regex: \bjust stop fire\b|\bprevent the burning\b | the old brand and book
 ban-regex: \bas a (?:former |retired )?firefighter\b|\bfire (?:department|service) taught me\b | the old firefighter framing
 ban: horror movie | hype that got mocked
 ban-regex: \bbrutal tests?\b | hype that got mocked
-ban-regex: \bit'?s only (?:a hundred and twenty|120|one-twenty) volts\b | unsafe line
-ban-regex: \b\d[\d,.]*\s?(?-i:V|A|W|kW|kWh|mA|Hz|VA)\b | unit written as a symbol (write the word: 'fifteen amps')
-ban-regex: \b\d+\s?(?-i:AWG)\b|\b(?-i:AWG)\s?\d|#\s?\d{1,2}\b | wire gauge written as a code (write 'fourteen-gauge')
+ban-regex: \b(?:it'?s|that'?s|it is|that is) (?:only|just) (?:a hundred and twenty|one hundred (?:and )?twenty|120|one-twenty|household|house)(?: volts?| current| power)?\b|\b(?:it|that|this|a hundred and twenty|120|one-twenty)(?: volts)? won'?t kill you\b | unsafe line
+ban-regex: \b\d(?:[\d,]*\d)?(?:\.\d+)?(?:\s?(?:(?-i:VAC|VDC|VA|V|A|W|mA|Ah)|kWh?|Hz)|(?-i:v|a|w|ma))\b | unit written as a symbol (write the word: 'fifteen amps')
+ban-regex: \b\d+\s?AWG\b|\bAWG\s?\d|#\s?\d{1,2}\b | wire gauge written as a code (write 'fourteen-gauge')
+ban-regex: \b\d+(?:-\d+)+\b | numbers joined by a hyphen (12-2, 14-3, 5-15, 6-32, 15-20): write them as said ('twelve-two cable', 'a five-fifteen outlet', 'fifteen to twenty years')
+ban-regex: \b\d{3}/\d{3}\b | voltage pair with a slash (write 'a hundred and twenty and two hundred and forty volts', or 'one-twenty, two-forty')
+ban-regex: \b[1-4]/0\b | aught wire size with a slash (write 'four-aught')
+ban-regex: (?-i:\bCO\b) | 'CO' (write 'carbon monoxide')
+ban-regex: \bcu\.?\s?in\b | 'cu in' (write 'cubic inches')
+ban-regex: \b[2-4]-(?:way|pole|prong|gang)\b | write it in words ('a three-way switch', 'a double-pole breaker', 'a three-prong plug')
+ban-regex: (?:^|(?<=[.!?]\s))(?:hey|hi|hello|howdy)(?: there| folks| everyone| friends| guys)?\b|\bwelcome (?:back|to (?:the|my|this) channel)\b | greeting
+ban-regex: \bask me how I know\b | implied job story
 ban-regex: \b(?:14|12|10|8|6)/[234]\b | cable name with a slash (write 'twelve-two cable')
 ban-regex: \bNEC\s?\d|\b\d{3}\.\d{1,3}\b | code section read as a number (say 'the electrical code')
 once: between you and me
@@ -442,9 +455,12 @@ once-regex: \bquick (?:thing|pause|one)\b | quick thing
 once: no shame in
 once: full stop
 once: trust me
+once-regex: \b(?:nine|9) (?:times )?out of (?:10|ten)\b | nine times out of ten
+once-regex: \bfive-minute fix\b | a five-minute fix (this pack's own example)
+once: you didn't break anything
+once-regex: \bI'?d replace (?:that|this|it)(?: one)? today\b | I'd replace that one today (this pack's own example)
 once-regex: \bplease,? test it\b | the insistence line
 once-regex: \bthat'?s a call\b | that's a call
-once-regex: \bpalm (?:on|against) the (?:plate|cover)\b | Frederick's old tic: palm on the plate
 ban-regex: \bkill(?:s|ing)? (?:you in your sleep|your (?:whole )?family|everyone)\b|\bburn(?:s|ed|ing)? (?:your|the|a) (?:house|home) (?:down|to the ground)\b|\bdeath ?traps?\b | scare-reel line (fire is the stakes, never the topic)
 once-regex: \bwhile you(?:'re)? (?:sleep|sleeping)\b | Frederick's old fire-channel tic: while you sleep
 once-regex: \btrapped heat\b | Frederick's old fire-channel tic: trapped heat

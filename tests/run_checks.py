@@ -530,7 +530,7 @@ check("46. electrical inputs block: 4 well-formed inputs, research pack not used
 clean_el=textwrap.dedent("""\
 That outlet in the hallway that quit on you last night probably isn't broken at all.
 
-Does the bathroom outlet have two little buttons on it? Press RESET on that one first. That's a GFCI, a safety outlet that cuts the power in a blink, and it often covers other outlets in the house.
+Does the bathroom outlet have two little buttons on it? Press reset on that one first. That's a GFCI, a safety outlet that cuts the power in a blink, and it often covers other outlets in the house.
 
 By the end of this video you'll be able to find the cause yourself, and you'll know exactly when it's a job for a licensed electrician instead.
 
@@ -538,7 +538,7 @@ Step one. Turn the breaker off, then prove the outlet is dead with a tester you'
 
 Most folks figure the panel is the first place to look. But a tripped GFCI two rooms away is the usual reason, and it takes ten seconds to check.
 
-So turn the breaker back on, press RESET, and plug a lamp in. If it lights, you're done.
+So turn the breaker back on, press reset, and plug a lamp in. If it lights, you're done.
 
 Down in the comments, tell me how old your house is and which outlet gives you the most grief. I read every one.
 """)
@@ -606,6 +606,29 @@ check("51. electrical pack: no money, the stakes section, P11 opening promise, s
       and "min-minutes: 12" in ek and "allow: I read every comment" in ek and "lift: tease: by the end of this video" in ek
       and all(t in ek for t in ("**How-to / correct way**","**Fix this problem**","**Explainer**","**X vs Y**","**Mistakes list**","**Single big mistake**","**Know-this list**"))
       and not re.search(r"\$\d", ek.split("```scanner")[0]), "")
+
+# 52. electrical voice (review R4, 2026-10-27): the brief's short forms fail; the spoken forms and years before a capital "A" pass;
+#     the P11 promise passes the copy guard and fails on a second use; Frederick's old sign-off fails; his old tics fail on the second use.
+#     (The tenure-in-words and number-check parts wait for the core scanner proposal P13.)
+bad_v=["Run 12-2 cable to the outlet.","A regular outlet is a NEMA 5-15.","It lasts 15-20 years.","Your panel is a 120/240 panel.",
+       "The heater pulls 1500w on high.","Most outlets run at 120v.","Use 14 awg copper.","Plug in the CO alarm.","Box fill is 2.25 cu in. per wire.",
+       "A new outlet runs about twenty dollars.","Your electric bill goes up.","Hey there, folks.","It's just 120 volts.","Ask me how I know."]
+good_v=["It was built in 2014. A lot of houses were.","The code changed in 2017. VA ratings came later.","Run twelve-two cable to the outlet.",
+        "A regular outlet is what the trade calls a five-fifteen.","Your panel is a one-twenty, two-forty panel.","A thirty-amp double-pole breaker feeds the dryer.",
+        "A three-way switch runs the stairs.","Leave at least six inches of wire and strip three-quarters of an inch.","Plug in the carbon monoxide alarm."]
+f_v=[l for l in bad_v if run_scan(f"Check the outlet.\n\n{l}\n",[ELR,FRED])[0]!=1]
+p_v=[l for l in good_v if run_scan(l+"\n",[ELR,FRED])[0]!=0]
+p11=run_scan("By the end of this video you'll know where the hidden reset sits and when it's a call for an electrician.\n",[ELR,FRED],refs=EL_REFS+[FRED])
+p11x2=run_scan("By the end of this video you'll know one thing.\n\nBy the end of this video you'll know another.\n",[ELR,FRED])
+shift=run_scan("Tell me which outlet gives you grief. I read every one, and I'll see you next shift.\n",[ELR,FRED])
+tics=run_scan("Rest your palm on the plate tonight.\n\nThen rest your palm on the switch tonight.\n",[ELR,FRED])
+stories=[l for l in ["I've watched a neighbor run a generator cord through a kitchen window.","A homeowner once asked me why the plug kept falling out.",
+         "That's the worst panel I've ever opened.","These are the seven I find in almost every older house.","We tested all three connectors.",
+         "I put a meter on it and it read zero."] if run_scan(l+"\n",[ELR,FRED])[0]!=1]
+check("52. electrical voice and claims: short forms fail, spoken forms and years pass; P11 passes the guard and is once-only; old sign-off, tics, job stories and test claims fail",
+      not f_v and not p_v and p11[0]==0 and p11x2[0]==1 and shift[0]==1 and "next shift" in shift[1]
+      and "the palm check" in tics[1] and "tonight" in tics[1] and not stories,
+      f"bad passing: {f_v}; good failing: {p_v}; p11: {p11[1][-300:] if p11[0] else ''}; stories passing: {stories}")
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

@@ -12,6 +12,7 @@ THE BASICS
 Script type: Talking Head
 Voice provider: to confirm with the operator (his old voiceovers used one voice throughout; name it here)
 Words per minute (for runtime and the length minimum): 195 (his 20 published voiceovers ran 169 to 209, typically about 195; `studies/home-diy/frederick-baseline-2026-10/views.md`)
+Contractions: yes (his 23 old scripts used about 30 per 1,000 words and 20 were voiced with no recorded misreads); confirm on the voice test clip
 
 THE PERSONA
 Name: Frederick Barnes
@@ -73,4 +74,11 @@ ban-regex: \bI (?:once |ever )(?:opened|saw|found|pulled|wired|walked into|watch
 ban-regex: \bI walk(?:ed)? (?:houses|homes|through (?:houses|homes))\b | Frederick's old invented line
 ban-regex: \bwhen I was (?:still )?(?:working|on the job|in the trade|an apprentice|on the tools)\b | job story
 once-regex: \b(?:thirty-five|35)[- ]years?\b | the tenure, said at most once
+ban-regex: \bnext shift\b|\bsee you (?:next time|in the next (?:one|video))\b | the old sign-off ("I'll see you next shift", all 23 old scripts)
+once-regex: \bpalm\b | the palm check (his old tic: 14 of 23 old scripts)
+once-regex: \btonight\b | tonight (his old tic: 22 of 23 old scripts, 185 uses)
+once-regex: \b(?:three|3) in the morning\b | three in the morning (his old tic: 11 of 23)
+once-regex: \bnowhere (?:else )?to go\b | the heat has nowhere to go (his old tic: 11 of 23)
+once-regex: \b(?:your|a) (?:parents?'?s?|mother'?s|father'?s|mom'?s|dad'?s) (?:house|place|home)\b | a parent's place (his old tic: 17 of 23)
+once-regex: \ba straight answer\b | a straight answer (his old CTA line: 10 of 23)
 ```
