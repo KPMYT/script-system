@@ -278,7 +278,7 @@ From the operator's answers to the 11 questions in `drafts/hvac-pack-diagnosis-D
 - **Scanner checks:** "ok yes". Built: `require-if` (a carbon monoxide alarm or a gas smell brings every step from the price guide; HVAC pack) and the reframe split across two sentences, with "don't" instructions no longer counted (core, every channel; checks 71-72). The sentence cap (over 35 words, fix on sight on every channel) came with the electrical chat's P13, merged into `main` the same day; it isn't built twice.
 - **A brief price that disagrees with the price guide:** "brief always wins". No gate flag; the price research corrects the briefs at the source instead.
 - **Titles:** "title always wins also". Batch 1 #3 ("The $5 Filter ... Than the $30 One") and #14 ("$300") stay as they are; the scripts pay them honestly (say "under $10", "up to about $300").
-- **The voice:** "same as plumbing voice". Read as: Roger the HVAC Guy's voice and settings are Roger the Pipe Guy's (Ron, words per minute not set), and the HVAC voice samples are settled, picked the way plumbing's were (real tradesmen); plumbing's Got2Learn sample isn't reused because it's a faceless voice-over.
+- **The voice:** "same as plumbing voice", meaning the ElevenLabs voice (operator, the same day: "i meant voice as in the elevnlabs voice of the channel"): the same voice as Roger the Pipe Guy, as the profile already says. The voice samples stay provisional until the operator listens, and words per minute stays unset until the first voiceover.
 
 ### Operator decisions, 2026-10-27 (the electrical pack and Frederick Barnes)
 

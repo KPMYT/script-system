@@ -20,7 +20,7 @@ Niche pack: hvac-scripts
 THE BASICS
 Script type: Classic
 Voice provider: ElevenLabs (Ron - Calm, Confident & Clear, voice ID xkDz8dF9GIt1kG06c9Of), the same voice as Roger the Pipe Guy
-Words per minute (optional, for runtime estimates): not set (as Roger the Pipe Guy's; operator, 2026-10-27: "same as plumbing voice")
+Words per minute (optional, for runtime estimates): not set (to be measured from the first voiceover; the operator will run a voice test later)
 
 THE PERSONA
 Name: Roger (the channel: Roger the HVAC Guy)
