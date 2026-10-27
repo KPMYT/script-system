@@ -24,6 +24,8 @@ Usage:
                    tenure: years in the trade as a number, or "none" (any other tenure figure is flagged)
                  and, in a niche pack, its length minimum if it raises the core's 8 minutes:
                    min-minutes: 12
+                 and letter words the niche says as letters every day (no judge line for them):
+                   letters-ok: HVAC, AC, MERV
                A profile's "Words per minute ...: N" line sets the runtime estimate (150 if unset).
   --pack       the fact source: the research pack, or the brief where the niche pack doesn't use one.
                Every number in the script is checked against it.
@@ -209,7 +211,7 @@ def sentences(para):
 def read_rules(paths):
     """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
-    facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None}
+    facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None, "letters_ok": set()}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         w = re.search(r"^Words per minute[^:\n]*:\s*(\d+)", txt, re.M)
@@ -245,6 +247,8 @@ def read_rules(paths):
                     facts["tenure"] = pat.lower()
                 elif key.strip() == "min-minutes":
                     facts["min"] = int(pat)
+                elif key.strip() == "letters-ok":
+                    facts["letters_ok"].update(x.strip() for x in pat.split(",") if x.strip())
     return bans, lifts, allows, facts
 
 # ---------------------------------------------------------------- numbers
@@ -384,14 +388,16 @@ def copy_check(text, ref_runs, allows=None):
 
 # ---------------------------------------------------------------- persona facts (fix on sight)
 NUM_WORD = r"(?:\d{1,2}|(?:twenty|thirty|forty|fifty|sixty|seventy)(?:[- ](?:one|two|three|four|five|six|seven|eight|nine))?|ten|eleven|twelve|fifteen|five|six|seven|eight|nine)"
-_TRADE = r"(?:experience|trade|trades|plumbing|plumber|pipefitt\w*|pipe ?fitter|tools|bench|shop|job|field|business|woodworking|woodworker|carpentry|craft|career|wrenching|fixing \w+|doing this|in this line)"
+_TRADE = r"(?:experience|trade|trades|plumbing|plumber|pipefitt\w*|pipe ?fitter|tools|bench|shop|job|field|business|woodworking|woodworker|carpentry|craft|career|wrenching|fixing \w+|doing this|in this line|hvac|heating|cooling|air conditioning|furnaces?|electrical|electrician|electric|wiring)"
 TENURE_RX = [
     # "45 years in the trade", "35 years of experience", "40 years as a plumber"
     re.compile(r"\b(" + NUM_WORD + r")[- ]years?\s+(?:(?:of|in|on|at|as|behind|under)\s+)?(?:(?:the|a|an|my)\s+)?" + _TRADE + r"\b", re.I),
     # "been a plumber for over 35 years", "fixing pipe for 30 years", "on the tools for 30 years"
     re.compile(r"\b(?:been|spent|worked|working|plumbing|fixing|on the tools|in the trade|doing this|at the bench)\b[^.!?]{0,40}?\bfor (?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
+    # "I've been doing this 40 years", "in the trade 45 years" (no "for"; 2026-10-27)
+    re.compile(r"\b(?:doing this|in the trade|on the tools|at the bench)\s+(?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
     # "a 45-year plumber", "45-year veteran"
-    re.compile(r"\b(" + NUM_WORD + r")-year\s+(?:plumber|pipefitter|veteran|master|tradesman|woodworker|carpenter|pro|career)\b", re.I),
+    re.compile(r"\b(" + NUM_WORD + r")-year\s+(?:(?:hvac|heating|furnace|service|electrical)\s+)?(?:plumber|pipefitter|veteran|master|tradesman|woodworker|carpenter|pro|career|tech|techs|technician|electrician|lineman|serviceman|man|guy)\b", re.I),
 ]
 
 def _num(tok):
@@ -431,8 +437,14 @@ def tenure_check(para, tenure, title_n=None):
             near = para[max(0, m.start() - 40):m.end() + 40]
             if rx is TENURE_RX[0] and not re.search(r"\b(?:I|I'?ve|I'?m|me|my|we|we'?ve)\b", near):
                 continue
+            # someone else's years ("Techs with 20 years of experience told me..."): a third party just before the figure (2026-10-27)
+            if rx is TENURE_RX[0] and re.search(r"\b(?:techs?|technicians?|plumbers?|electricians?|contractors?|installers?|pros|guys|folks|people|someone|somebody|anybody|anyone|he|she|they|a tech|the tech|my (?:dad|father|grandfather|uncle|neighbor|neighbour))\b(?:(?!\b(?:I|I'?ve|I'?m|my|me|we)\b)[^.!?]){0,30}$", para[max(0, m.start() - 45):m.start()], re.I):
+                continue
             # "been ... for N years" counts only with the persona as its subject ("I've been...", not "the heater has been...")
-            if rx is TENURE_RX[1] and m.group(0).lower().startswith("been") and not re.search(r"(?:\b(?:I|I'?ve|I have|I had|I'?d|we|we'?ve|we have)\s+(?:\w+\s+){0,2}|\bmy\s+\w+\s+(?:have|has|had)\s+|(?:^|[.!?]\s+))$", para[max(0, m.start() - 30):m.start()], re.I):
+            # "been / spent / worked / working ... for N years" counts only with the persona as its subject:
+            # "I've been...", "I spent...", "My hands have been..." (check 29); not "the heater has been...",
+            # "that old compressor kept working...", "my furnace has been running..." (2026-10-27)
+            if rx is TENURE_RX[1] and re.match(r"(?:been|spent|worked|working)\b", m.group(0), re.I) and not re.search(r"(?:\b(?:I|I'?ve|I have|I had|I'?d|we|we'?ve|we have)\s+(?:\w+\s+){0,2}|\bmy\s+(?:hands|knees|back|eyes|life|whole life|career)\s+(?:have|has|had)\s+|(?:^|[.!?]\s+)(?:(?:after|from|since|with|in)\s+)?)$", para[max(0, m.start() - 30):m.start()], re.I):
                 continue
             seen.add(m.start(1))
             n = _num(m.group(1))
@@ -541,7 +553,8 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
             for m in re.finditer(rx, para):
                 fix.append(f"[SPOKEN: {name}] ...{ctx(m)}...")
         for m in SPOKEN_LETTERS.finditer(para):
-            if m.group(0).rstrip("s") not in SPOKEN_LETTERS_OK and m.group(0) not in SPOKEN_LETTERS_OK:
+            ok = SPOKEN_LETTERS_OK | facts.get("letters_ok", set())
+            if m.group(0).rstrip("s") not in ok and m.group(0) not in ok:
                 judge.append(f"[SPOKEN, judge: letters '{m.group(0)}' (keep only if people say it as letters; otherwise the words)] ...{ctx(m)}...")
         for m in SPOKEN_TWO_WAYS.finditer(para):
             judge.append(f"[SPOKEN, judge: '{m.group(0)}' can be said two ways; reword if both fit] ...{ctx(m)}...")
