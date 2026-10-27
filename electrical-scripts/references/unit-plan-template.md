@@ -12,7 +12,8 @@ Years figure:                      [none / the title's number / the profile's nu
 
 MODELS                             [from references/models/INDEX.md; none used in the channel's last five scripts]
 - model(s) used:                   [IDs; blending is encouraged]
-- read "Doesn't transfer" for each: [yes]
+- what doesn't transfer, for this script:  [2-4 items from each model's "Doesn't transfer" and labels that this topic would otherwise pull in, each with what replaces it, e.g. "E02 7:36-10:36 panel steps -> the electrician's part, explained; the viewer gets the storm-night order" / "E22 cost verdict -> where each device belongs, no cost"]
+- electrician-only steps in the model, and how this script handles them:  [none / list]
 - at least three differences:      [opening order / number or order of items / promise devices / stake device / comment question]
 
 OPENING                            [order this time, from the video type: ...]
