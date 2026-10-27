@@ -159,7 +159,7 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Proposal:** a third exception in the claims policy, worded like P2's: a persona profile may name one fixed, soft heritage line that the operator has approved, used only as the profile words it and as often as it allows, never with a town, a date, an employer, a licence or a named teacher. For Werner: (a) he grew up in Germany, where water and heating cost real money and you fix a thing before you replace it; (b) he was trained the German way ("the way I was trained"), with no where, when or who. His profile already bans hometowns, arrival stories, relatives and credential claims, and holds each line to once per script.
 
-**Status:** open: waiting for the operator (W1 in `drafts/werner-relaunch-DRAFT.md`).
+**Status:** approved by the operator on 2026-10-27 (W1: "allow it"). Applied to `core/claims-policy.md` ("One approved heritage line") and `personas/werner-finkbeiner.md`. W3, same day: he is a trained plumber, "but he doesnt need to mention it", so the trained-way line is allowed but never needed.
 
 ## P15. Werner's sign-off, "Enough for today. Feierabend." (opened 2026-10-27, Werner relaunch)
 
@@ -169,7 +169,7 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Proposal, three options:** (a) drop the sign-off; the pack's ending stands (the default in his profile now); (b) "Enough for today." becomes the short turn into the comment ask ("Enough for today. Before you go, …"), and the comment line still ends the video; (c) an exception for Werner only: "Feierabend." after the comment line. Recommended: (b), which keeps his flavour and the locked ending.
 
-**Status:** open: waiting for the operator (W5).
+**Status:** decided by the operator on 2026-10-27, option (a): "no need to overcomplicate it, we just want a comment line". No sign-off; the pack's ending stands; his profile bans "enough for today".
 
 ## P16. "30 years as a German plumber": the scanner misses a years figure with a word before the trade (opened 2026-10-27, Werner relaunch)
 
@@ -179,4 +179,4 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Proposal:** in `TENURE_RX[0]`, after the article, allow one of "German", "master", "licensed" or "retired" before the trade word. In a scratch copy, the title then reads 30, the script's "30 years as a plumber" passes with that title, and "25 years as a German plumber" fails. All other checks to be re-run before it's applied; P13 item 1 touches the same lines and can go in with it.
 
-**Status:** open: waiting for the operator (W11).
+**Status:** open: waiting for the operator (W11, not answered on 2026-10-27; asked again). With his tenure now 30 (W2), the uploaded "30 Years as a German Plumber" title passes; the gap that remains is a wrong figure said as "N years as a German plumber", which passes unflagged.

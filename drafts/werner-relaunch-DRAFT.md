@@ -6,6 +6,22 @@ The operator: "we are relaunching werner. this means we have to get it into the 
 
 Answer like "W1 yes, W2 b, …". Each question says what happens with each answer and what I'd pick.
 
+## The operator's answers (2026-10-27) and what was applied
+
+| Q | Answer | Applied |
+|---|---|---|
+| W1 | "allow it" | P14 approved: `core/claims-policy.md` gains "One approved heritage line"; his profile keeps "grew up in Germany…" |
+| W2 | "good" | tenure 30 (`tenure: 30`, said at most once; the title's figure wins) |
+| W3 | "yes kind of but he doesnt need to mention it" | a trained plumber in the profile; the background stays unspoken; "the way I was trained" allowed, never needed |
+| W4 | "yes why not" | two details: the spring check when the heating goes off; the screw tin on the shelf |
+| W5 | "no need to overcomplicate it, we just want a comment line" | P15 option (a): no sign-off; "enough for today" banned; the comment line ends the video |
+| W6 | "CTA to his book, no subscribe ask. we just want a basic quick CTA of what his german father old mentor taught him before passing" | mid-video CTA of about 40-55 words built on one fixed father line (the claims policy's one family detail): "My father taught me everything he knew about looking after a house before he passed, and I wrote all of it down."; the end stays a one-line reminder; "subscribe" banned. **Wording to confirm** |
+| W7 | the Drive folder shared | the PDF is there, but Drive gives no text for it and at 115 MB it's over the 10 MB download limit. **A smaller copy or a text export is needed** |
+| W8 | "its not relevant really" | no topic limit: the title decides; outside plumbing, prices only from the brief |
+| W9/W10 | "contractions can be allowed like BUT"; "W10 - yes" | Talking Head kept. Read as: joining words like "but" are wanted (the pack already asks for them); contractions such as "it's" and "don't" stay off. **To confirm** |
+| W11 | not answered | P16 still open |
+| W12 | "its fine we just need scripts here" | no ideation edits |
+
 ---
 
 ## Where Werner stands

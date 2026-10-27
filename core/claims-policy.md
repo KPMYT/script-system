@@ -5,7 +5,7 @@ description: What a persona may and may not claim, on every channel: opinions ve
 
 # Claims policy
 
-**Where this file sits.** Above everything else. Niche packs and persona profiles can tighten these rules but never loosen them, apart from the one approved family detail and the fixed years in the trade below. Claims about offers are covered in `offer-rules.md`. The limits on exaggeration and framing are in `research-and-sourcing.md`, section 2.
+**Where this file sits.** Above everything else. Niche packs and persona profiles can tighten these rules but never loosen them, apart from the one approved family detail, the one approved heritage line and the fixed years in the trade below. Claims about offers are covered in `offer-rules.md`. The limits on exaggeration and framing are in `research-and-sourcing.md`, section 2.
 
 ---
 
@@ -19,7 +19,7 @@ description: What a persona may and may not claim, on every channel: opinions ve
 **Allowed only when the persona profile lists them:** soft personal details nobody could check, such as a catchphrase, a pet's name, or a sign-off. The narrator mentions no personal detail that isn't on the profile's list.
 
 **Never allowed** (checkable life facts the persona doesn't have):
-- ages, named relatives, heritage or identity membership
+- ages, named relatives, heritage or identity membership (except the profile's approved family detail and heritage line, below)
 - years of experience (except the profile's fixed figure, or the locked title's, below) or credentials
 - places worked or lived, employers, towns
 - having personally made, sold, tested, built, lived or collected something
@@ -41,6 +41,10 @@ description: What a persona may and may not claim, on every channel: opinions ve
 ## One approved family detail
 
 A persona profile may name one fixed, soft family detail that the operator has approved (for example, "learned at his grandfather's bench"), used only as the profile words it and as often as it allows. This is the only exception to "no invented family or history", and nothing beyond it is ever invented.
+
+## One approved heritage line
+
+A persona profile may name one fixed, soft heritage line that the operator has approved (for example, "grew up in Germany, where water and heating cost real money"), used only as the profile words it and as often as it allows. It never comes with a town, a date, an employer, a licence or a named teacher, and nothing beyond it is ever invented. (P14, operator 2026-10-27, for Werner Finkbeiner: "allow it".)
 
 ## Fixed years in the trade
 
