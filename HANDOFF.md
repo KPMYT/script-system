@@ -259,7 +259,7 @@ From the review of the seven newest uploads and two VA chats (`studies/recent-up
 - **Villain:** "villain does not need to be necessary": used only where it fits.
 - **Agreed as proposed (2026-10-27):** the brief can add safety but never remove power-off, verify-dead or the call-an-electrician line; named panel brands only with what CPSC or inspectors actually say; no "after all the houses I've worked in" lines, the tenure at most once; no swearing.
 - **P11, the opening may carry one value promise** (an escalation, or "by the end of this video you'll know X and Y", never the first items in order): see `PROPOSALS.md` P11. Electrical only.
-- **Not answered, defaults kept (state them at the next check-in):** the ending (one-line subscribe ask, then the comment ask last, as plumbing's P5); the research pack is not used (the brief and the facts guide are the fact source).
+- **Confirmed later the same day:** the 12-minute minimum with 15 to 22 the aim ("ok to 1"); the ending, a one-line subscribe ask then the comment ask last, as plumbing's P5 ("ok to 2, anad we say we read every comment": the comment line says he reads every comment). Default kept, not asked: the research pack is not used (the brief and the facts guide are the fact source).
 
 ### Rejected, so they don't come back
 

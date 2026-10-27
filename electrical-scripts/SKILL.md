@@ -237,7 +237,7 @@ If a future electrical channel has a book or a mid-video CTA, its placement foll
 
 After the last item or step:
 1. **The end CTA:** the one-line subscribe ask, in its markers.
-2. **The comment ask, which ends the video:** a short turn to the viewer, an outright ask to leave a comment, one specific question the viewer can answer from their own house (the age of the house, the outlet that gives them grief, what they found behind the plate), and "I read every one." Two or three sentences. Never a bare "let me know in the comments", never the same question two videos running, never "let me know if you" (a chatbot leftover the scanner flags).
+2. **The comment ask, which ends the video:** a short turn to the viewer, an outright ask to leave a comment, one specific question the viewer can answer from their own house (the age of the house, the outlet that gives them grief, what they found behind the plate), and that he reads every comment ("I read every one" or "I read every comment"; operator, 2026-10-27: "we say we read every comment"). Two or three sentences. Never a bare "let me know in the comments", never the same question two videos running, never "let me know if you" (a chatbot leftover the scanner flags).
 
 No recap, no tease of a future video, no sign-off after the comment line.
 
@@ -327,6 +327,7 @@ The scanner (core `script-scanner.py`) reads this block. `allow` lines are wordi
 min-minutes: 12
 lift: tease: by the end of this video
 allow: I read every one
+allow: I read every comment
 ban-regex: \btoday,? (?:we'?re|we are|I'?m|I am) going to\b | opening: "today we're going to"
 ban-regex: \bI(?:'ve| have)? (?:tested|tried|measured|ran (?:a |the |some |my )?tests?)\b | first-person test claim
 ban-regex: \bmy (?:own )?(?:test|tests|testing|results|meter reading)\b | first-person test claim
