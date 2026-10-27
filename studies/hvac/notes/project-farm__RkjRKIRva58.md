@@ -6,7 +6,7 @@
 - Views / normal: 2.51 (2,574,586 / 1,025,022) · 12:54 · HANDS ONLY (reading, not checked visually: first-person narration of his own bench work, no comment mentions his face; NexLev not faceless 0.98; see meta.md) · ranked verdict (filmed tests: structure only)
 
 ## Structure map
-- Hook: 123 w, 33 s (ends [0:31] "We'll take a look at the filters under a microscope and compare media design.")
+- Hook: 123 w, 33 s (ends [0:27] "We'll take a look at the filters under a microscope and compare media design.")
 - First real value: [1:21] "want this number to be as low as possible."
 - Segments: [0:00] hook: cost question, 14 filters, test list 123 w · [0:33] test stand, 0.16 baseline 229 w · [1:32] MERV, MPR, FPR explained 128 w · [2:13] round 1, clean airflow, each filter priced 1,015 w · [7:48] round 2, one cup of flour 539 w · [10:42] large-particle ranking 148 w · [11:23] teardown: media area, microscope 209 w · [12:22] verdict: thicker filter, lower MERV, more pleats 86 w · [12:45] video-idea ask, sign-off 37 w
 
@@ -51,7 +51,7 @@ Fixed formula per product: price, brand, claims, country, layers or pleats, read
 46 unique of 10K (28 top, 20 newest, 2 in both).
 - Trust in the tester: ~16 ("Dude, I can't imagine the terror that the marketing staff must feel when they find out that you analyzed their products!", 2.6K; "I’ve waited my entire adult homeowner life for this.", 2.8K).
 - Change-interval surprise: 2 ("Everyone in the comments: oh shit I'm supposed to change that", 1.1K; "Every 30 days? I thought it was every 3 months!", 154).
-- "Which one do I buy?": ~4 ("I was a bit confused with the results...so which filter do you recommend we buy??", 66). Asks for a chart or an update: ~4 ("PLEASE add a grid chart with all of the data", 434). New test requests: ~7.
+- Which-one-to-buy questions: ~4 ("I was a bit confused with the results...so which filter do you recommend we buy??", 66). Asks for a chart or an update: ~4 ("PLEASE add a grid chart with all of the data", 434). New test requests: ~7.
 - Trade voices: Best Air rep (218), HVAC pro (20), "Your home A/C IS NOT DESIGNED TO PURIFY THE AIR INSIDE YOUR HOUSE." (0). One affiliate jab ("You can hardly tell this guy makes money off Amazon referrals.", 0).
 - Safety corrections: none. Saved or avoided: "You are my go to to figure out what I can and can't get away with." (2).
 - "Sounds like AI": 0.
