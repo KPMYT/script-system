@@ -1,0 +1,341 @@
+# E19 FAFO the Breaker! / ElectroBOOM
+# https://www.youtube.com/watch?v=MkMc5t02A64
+# Source: NexLev get_bulk_video_transcripts (same data as get_video_transcript, checked on yBHdCsVRle0), pulled 2026-10-27. Raw captions, one segment per line: [start] text. Not edited.
+
+[0:00] hi everyone knows how to find the
+[0:02] circuit breaker for a specific
+[0:05] Outlet no no we don't do that you could
+[0:08] easily get shocked and electrocuted and
+[0:11] if you ever wake up you won't have
+[0:13] superpowers that allow you to power
+[0:15] appliances out of your butt and even if
+[0:18] shorting works it can cause a Big Arc
+[0:21] and Flash that can melt and ruin your
+[0:24] outlet to avoid damage to your outlet
+[0:27] you might decide to cut the end of a
+[0:28] power cord log that in first and then
+[0:32] short out no we don't do that either I
+[0:35] know you're trying to be creative but
+[0:37] stop it from the time you short an
+[0:39] outlet to when the breaker pops open
+[0:41] there is nothing limiting the current
+[0:43] but the resistance of the wires so you
+[0:45] may end up popping the building's power
+[0:47] drawing hundreds of amps just trust me
+[0:50] when I say my sponsor brilliant is the
+[0:53] best place to learn by electrocution
+[0:55] lless intraction through my link below
+[0:57] you can start your free journey to be
+[1:00] become an expert in math science or
+[1:02] Computing with the 30-day free trial
+[1:04] more at the end in any case if you are
+[1:06] trying to pull a MacGyver method it
+[1:09] should be done at safe current levels a
+[1:11] toaster or a hair dryer alone pulls
+[1:14] close to the top of the breaker's limit
+[1:16] so two of them together will exceed the
+[1:18] outlet breaker current of 15 amps in
+[1:20] North American Standards but safely just
+[1:24] plug them in together and turn them on
+[1:26] at their maximum settings and it's it
+[1:30] should
+[1:31] pop it might take a second because the
+[1:34] breaker trips is slower at currents less
+[1:36] than
+[1:38] [Music]
+[1:47] infinity finally then you open the
+[1:50] breaker box to find a popped
+[1:54] breaker uh what the hell nothing is
+[1:56] popped here oh I think my power bar
+[2:00] breaker has popped there you
+[2:03] go turn it off you know what I think
+[2:07] there is a better way that can allow us
+[2:09] to find all the connected outlets and
+[2:11] fuses and even wires in the wall what if
+[2:14] we inject a high frequency like 1 mahz
+[2:17] or something into the outlet then all
+[2:20] the wires will be radiating that signal
+[2:22] and we can measure it like this we have
+[2:24] a 1 MHz signal from my function
+[2:26] generator we can easily inject into the
+[2:30] power
+[2:35] line all right we already have the AC
+[2:38] power riding on these Outlets so we
+[2:40] can't inject a new signal directly into
+[2:43] it like that I guess we could turn off
+[2:45] the breaker first then inject the signal
+[2:48] and go measure to find a corresponding
+[2:51] breaker what which idiot wrote this
+[2:55] script there is already 60 HZ AC power
+[2:59] riding on this these wires and we know
+[3:01] we can sense that I already made a video
+[3:03] making a sensor for it and there are
+[3:06] these Live Wire
+[3:09] sensors oh I left it on and the coin
+[3:12] cell batteries are dead already and this
+[3:15] is pretty old let's go grab a new
+[3:18] [Music]
+[3:24] technology so I bought this runs on two
+[3:27] AAA batteries and unlike this old
+[3:29] garbage it auto shuts down after 4
+[3:32] minutes so your batteries won't die if
+[3:34] you accidentally leave it on you power
+[3:36] it on and you sense with
+[3:42] it it senses the Live Wire right beside
+[3:46] it so you can actually tell between live
+[3:48] and neutral wires which is very good but
+[3:52] my old one did more let's power it up
+[3:54] I'm powering it from some AAA batteries
+[3:57] it has a knob that Tunes its sensitivity
+[4:00] something the new one doesn't have so I
+[4:02] can set the sensitivity low and tell
+[4:05] between the live and neutral wires like
+[4:09] the new device or set the sensitivity
+[4:12] high and actually scan and find the Live
+[4:15] Wire inside the wall
+[4:18] [Music]
+[4:20] see I can't trace and find the wires
+[4:24] inside the wall something the new device
+[4:26] can't do maybe I can manually adjust
+[4:29] this since sensity in this one let's
+[4:31] open it
+[4:33] up look at this this blade picks up the
+[4:37] electric Fields radiated from the Live
+[4:40] Wire like in capacitive coupling and
+[4:43] that voltage goes straight into the Seas
+[4:47] instruments microcontroller to be sensed
+[4:49] without any additional amplification the
+[4:52] microcontroller then controls the
+[4:54] beeping and LEDs and auto power off
+[4:57] sometimes it feels like microcontroller
+[4:59] make electronic design easier and lazier
+[5:03] I like an adjustable sensitivity so I
+[5:06] guess I'm stuck with my old sensor I
+[5:09] could use it with AAA batteries it only
+[5:11] needs two for three volts but I figured
+[5:14] I can use three dead batteries they
+[5:17] still have some rotten juice in any case
+[5:21] all these Breakers have the ac voltage
+[5:23] on them so they all beep I guess you can
+[5:27] turn them off one by one to see which
+[5:29] break witch or just read the chart
+[5:32] provided here but this is not always
+[5:34] available and you don't want to reset
+[5:36] everything at home so here's the thing I
+[5:38] was watching a big Clive's video where
+[5:40] he was tearing a breaker open and the
+[5:43] breaker had a current sensing coil in it
+[5:46] which gave me big hopes quickly crushed
+[5:49] by the fact that it was a European style
+[5:51] breaker and the North American Breakers
+[5:53] don't have that look at this breaker I'm
+[5:56] measuring around 150 Nano Henry only
+[5:58] across it which is similar to a straight
+[6:01] piece of wire but I'm hoping the
+[6:03] inductance in this and its contacts in
+[6:06] the breaker panel is enough to help let
+[6:08] me tell you
+[6:10] why the wires from an outlet run into
+[6:13] the breaker panel which also connects to
+[6:16] the rest of the house and goes out to
+[6:18] the city power transformer which has a
+[6:20] huge inductance now if I introduce a
+[6:23] signal with high enough frequency at
+[6:25] this Outlet it meets with the huge
+[6:28] impedance at the city Transformer so for
+[6:30] that frequency city lines look like an
+[6:32] open circuit which means my signal will
+[6:35] not be loaded by the 120 volt AC the two
+[6:38] voltages will just add up to each other
+[6:40] and Coexist on the same lines at home
+[6:43] this is how ethernet over power line
+[6:45] devices can operate now I'm also hoping
+[6:47] that the breaker on my main signal line
+[6:50] also introduces enough impedence to the
+[6:52] rest of the house to somewhat block my
+[6:55] signal so that the signal is larger on
+[6:57] the breaker I'm trying to find compared
+[6:59] to other Breakers if I can't find that
+[7:02] largest signal I can tell which breaker
+[7:04] is connected to my outlet to inject my
+[7:07] signal into the Live Wire we don't
+[7:09] directly connect them but we can pass it
+[7:12] through a small high voltage capacitor
+[7:14] like 10 nanofarad if our signal is like
+[7:16] 1 mahz the capacitor impedance would be
+[7:19] around 16 ohms and the signal will be
+[7:21] passing through the capacitor easily but
+[7:24] the impedance for the 60 HZ line
+[7:26] frequency would be over 260 ,000 ohms
+[7:30] easily blocked by the capacitor so it
+[7:33] can't hurt my function generator so we
+[7:35] should be able to oh there are these
+[7:39] circuit breaker finder devices out there
+[7:42] already let's buy
+[7:43] [Music]
+[7:52] one okay I bought this two-piece device
+[7:55] this side is an outlet and GFCI tester
+[7:58] that apparently ALS so injects a signal
+[8:01] into the power line like what I was
+[8:02] trying to do these LEDs show that the
+[8:06] outlet wiring is correct and pressing
+[8:08] that button tests the GFCI If the GFCI
+[8:11] is healthy pressing that button shuts
+[8:14] down the outlets I assume they are doing
+[8:17] the same thing I've been always doing
+[8:19] connecting a resistor between live and
+[8:21] Earth so you plug this into an outlet
+[8:25] that you want to find the circuit
+[8:26] breaker for to inject the magic signal
+[8:29] into it and on this side this thing has
+[8:31] a sensor that you can scan The Breakers
+[8:34] with sounds like a metal detector oh
+[8:37] there you go and it finds the right
+[8:39] breaker if I turn it
+[8:42] off the signal goes away too and if I
+[8:46] turn it back on there you go it seems
+[8:49] like the sensor doesn't sense well
+[8:51] anymore after some sensing due to some
+[8:55] active gain adjustment I assume so you
+[8:57] move it away from the signal press the
+[8:59] reset
+[9:01] button and it starts sensing again so it
+[9:04] works but what is it injecting into the
+[9:06] power lines thanks to
+[9:08] our North American plugs we can pull it
+[9:13] half out and it is still connected and
+[9:16] probe the live
+[9:21] contact there doesn't seem to be
+[9:24] anything hey what is that thing on the
+[9:26] peak it seems like there's a pulse
+[9:28] happening on some of the
+[9:31] Peaks every like s to eight Peaks that
+[9:35] is around 7 to 10 micros wide which
+[9:39] translates into somewhere around 100 to
+[9:41] 150 khz if we probe the neutral line as
+[9:45] well you'll see the signal is there but
+[9:48] reversed the peak of the signal is
+[9:51] around 45 volts or 90 volts combined
+[9:54] that's a huge signal yeah and it happens
+[9:57] right on the positive Peak only it's
+[10:00] guessing time how did they make this
+[10:01] happen because we see drop on positive
+[10:05] power and rise in negative it means they
+[10:07] are connecting a large low drawing a ton
+[10:10] of momentary current between the lines
+[10:13] and the line voltage drops over wire
+[10:15] resistance and inductance in fact we
+[10:17] should be able to pick up the magnetic
+[10:18] fields from such high current pulse
+[10:21] using an inductor with a ferite core
+[10:24] like this let's see oh look at that
+[10:30] only the high frequency signal is
+[10:33] sensed I wonder if we put a capacitor
+[10:37] across the inductor to create a
+[10:39] resonance circuit around 150 khz we
+[10:41] might be able to amplify and stretch the
+[10:44] signal the capacitor is added let's see
+[10:47] if it can sense any better oh
+[10:51] boom let's zoom out a little
+[10:56] bit the pulse on the sensor goes
+[11:00] straight so far much easier to detect I
+[11:03] wonder if they're using the same thing
+[11:04] in
+[11:08] this H look a tiny inductor glued in
+[11:11] there across a capacitor here for
+[11:14] resonance then they amplify the signal
+[11:16] through this standard operational
+[11:18] amplifier and send the signal to this
+[11:21] mystery microcontroller for beeping and
+[11:23] stuff if we probe across the
+[11:27] capacitor hey there is something let me
+[11:29] zoom
+[11:31] out there it is although it looks like
+[11:34] they are resonating at around 10 khz so
+[11:37] back to this thing to create the pulse
+[11:39] of current I bet they sense the live
+[11:41] voltage and when it reaches the peak
+[11:43] they switch a discharged capacitor
+[11:45] across live and neutral for a few micros
+[11:48] capacitor at 0 volts placed across 170
+[11:52] volts draws a ton of current that seems
+[11:55] to also be resonating with the wire
+[11:57] inductance they should have a high value
+[11:59] resistance across the capacitor to
+[12:01] discharge it again when the switch is
+[12:03] off let's cut this open to see if our
+[12:05] guess is
+[12:07] right that didn't help jurry
+[12:11] knife I don't acly cut myself
+[12:16] again yeah finally some simple circuit
+[12:21] even simpler than I thought look at this
+[12:23] well you can ignore the diodes and LEDs
+[12:25] on the top they indicate the health of
+[12:27] the outlet see that power resist when
+[12:29] you press this switch that power
+[12:31] resistor Falls between live and Earth
+[12:34] like I always do creates an imbalanced
+[12:36] current betweenin live and neutral and
+[12:38] triggers the GFCI and like I thought
+[12:40] these capacitors are the ones that are
+[12:42] switched between the power lines to
+[12:43] create a huge amount of current with the
+[12:46] help of this tiny component as the
+[12:48] switch called a
+[12:50] Pac I always thought it was a Dak pyac
+[12:54] is a new name to me to simplify when the
+[12:56] voltage across this component rises
+[12:58] above some fixed threshold it switches
+[13:01] on and in this design places the
+[13:03] capacitor between the power lines and
+[13:06] when the voltage across it is too small
+[13:07] or the current through it is negative it
+[13:09] turns off basically what I'm saying is
+[13:12] that I was right kind of well my circuit
+[13:14] would do the same thing just that this
+[13:16] side act design seems simpler one
+[13:18] important thing about this measurement
+[13:20] method is that we are measuring the
+[13:21] magnetic fields created by the pulse of
+[13:24] current so we can only measure where the
+[13:26] current is Flowing for example this
+[13:29] power cord is plugged into the same
+[13:31] outlet but there is no current running
+[13:33] through it so we don't measure anything
+[13:36] well we learned so much but don't let
+[13:38] that stop you from learning even more at
+[13:40] my sponsor brilliant.org it has a 30-day
+[13:44] free trial there is nothing to lose tons
+[13:47] of knowledge to learn and lots of fun to
+[13:49] be had a great replacement to that
+[13:51] stupid addictive gy you are playing on
+[13:53] your phone or those endless Scrolls
+[13:55] through Tik Tok your idle time doesn't
+[13:57] need to be a waste any anymore you can
+[13:59] learn from thousands of interactive
+[14:01] lessons in math data analysis
+[14:04] programming Ai and more and they often
+[14:07] keep adding new lessons to you learn any
+[14:09] time suits you best and just like that
+[14:12] you become an expert in what you need
+[14:14] brilliant has made Learning Easy and
+[14:16] enjoyable through Hands-On interactive
+[14:19] lessons this is the best way to gain
+[14:21] problem solving skills by learning how
+[14:23] your adjustments make different results
+[14:26] and helps you remember what you learned
+[14:28] I used to be very good at math I used to
+[14:30] be a very good programmer most of the
+[14:33] knowledge is vaporized from my brain
+[14:35] over many years brilliant puts me at
+[14:37] ease though their collection of valuable
+[14:40] knowledge is what I can always refer to
+[14:42] to remember or learn everything I need
+[14:45] so make sure to use my link
+[14:47] brilliant.org electroboom because on top
+[14:49] of the 30-day free trial my viewers get
+[14:52] a lifetime 20% off of billions annual
+[14:55] premium subscription 10 million people
+[14:58] are learning there right now be the 10
+[15:01] million and first person and thank you
+[15:03] for watching

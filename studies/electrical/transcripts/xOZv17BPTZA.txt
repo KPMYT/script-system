@@ -1,0 +1,262 @@
+# xOZv17BPTZA | How to Add a Light from an Outlet | HandyDadTV
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:00] in my previous videos i talked all about
+[0:03] wiring outlets
+[0:04] outlets from another outlet how to
+[0:06] switch outlets even how to switch just
+[0:08] half an outlet
+[0:10] but this time i'm gonna actually
+[0:12] switch things up and talk about lighting
+[0:15] coming up
+[0:22] so on my project board at this point i
+[0:23] have two outlets this one over here is
+[0:26] the bottom one is on all the time the
+[0:28] top one is controlled by this switch and
+[0:31] this one over here is on all the time as
+[0:33] well
+[0:34] now what i'm going to do is i'm going to
+[0:35] install a new light and
+[0:38] this could be a scenario like you're
+[0:39] going to install a new light in your
+[0:41] basement or your shop or your shed or
+[0:43] something like that the first step is to
+[0:45] determine your power source you've got
+[0:47] to find something usually an outlet or
+[0:50] another switch or something that has
+[0:52] power already and that's my scenario
+[0:55] here i'm going to actually take power
+[0:56] from this outlet
+[0:59] so this is the light that i'm going to
+[1:00] be using it is old and it just has two
+[1:04] leads on the back two screws hot and new
+[1:06] neutral now this is the wire i'm going
+[1:08] to be using this is 14 gauge two
+[1:10] conductor wire now 14 gauge is for 15
+[1:14] amp circuits if it was a 20 amp circuit
+[1:16] i would need to use 12 gauge wire which
+[1:18] is thicker and more expensive so i
+[1:20] pulled the wire up through the box and
+[1:22] if i wanted it to be hot all the time i
+[1:26] could just wire it right into this
+[1:28] outlet down here now why would i do that
+[1:30] well if this was a motion sensor light
+[1:33] or a fan or something like that that you
+[1:36] want it on all the time that would be
+[1:37] fine but in my scenario i'm going to be
+[1:39] putting a light here so there's no point
+[1:42] in putting in a light unless you're
+[1:43] going to put in a switch so i'm actually
+[1:45] going to have this wire run through that
+[1:46] box put a switch here and then power it
+[1:49] from this outlet
+[1:53] so you need enough wire to connect
+[1:55] whatever device you're going to put here
+[1:56] whether it's a switch or an outlet and
+[1:58] you also need the the jacket here
+[2:01] on the outside has to come through so it
+[2:03] has to be in the box and i could always
+[2:05] cut that back and if i need any more
+[2:07] wire but i think this is going to be
+[2:08] plenty for just wiring a switch
+[2:12] and the ground is wrapped in this little
+[2:13] paper which is sometimes annoying to get
+[2:15] off
+[2:16] and then i just take the jacket and the
+[2:19] paper
+[2:20] and cut them
+[2:22] and get rid of those
+[2:24] and to strip them i use this
+[2:26] i guess a fancy little stripper it's a
+[2:29] one
+[2:30] handed thing it's really easy to do
+[2:32] you just click it and if you don't like
+[2:34] stripping wires these are a good thing
+[2:36] makes a great christmas gift i've had it
+[2:38] for years
+[2:39] and i'll put a link to this down in the
+[2:41] video description
+[2:43] now every light is going to be wired a
+[2:44] little bit different but they're all
+[2:46] pretty much the same they're always
+[2:47] going to have some place to connect the
+[2:48] black and the white
+[2:50] sometimes they'll have a ground
+[2:52] connection as well in addition if you
+[2:54] have a metal box you have to ground or
+[2:57] bond the box to the ground as well but
+[3:00] since i have neither a metal box
+[3:03] and my light does not require a ground
+[3:05] i'm just going to push that one aside
+[3:07] and not use it
+[3:12] next i'm going to turn my attention to
+[3:14] the switch
+[3:15] and the switch is going to get mounted
+[3:16] in this box and i'm going to use a
+[3:18] rocker switch here which is
+[3:20] works exactly the same way as this
+[3:22] single switch does this one says on and
+[3:25] off on it these are a little fancier but
+[3:27] it does specifically have a label here
+[3:30] that says top
+[3:32] and that way you know up is on
+[3:35] at least in this country up is on
+[3:37] now the switch has
+[3:39] two
+[3:40] brass screws and one green screw the
+[3:43] green screw is going to be for the
+[3:44] ground there's always going to be a
+[3:46] ground connection here
+[3:48] and these two grounds are going to get
+[3:50] connected
+[3:51] to that screw and i'll show you how to
+[3:53] do that in a moment and then
+[3:55] the
+[3:56] two
+[3:58] white ones are going to get connected
+[3:59] together it's the black ones that are
+[4:02] actually going to be switched okay this
+[4:04] is the hot you always switch the hot
+[4:07] and that way when the switch is off the
+[4:09] circuit is broken and when the switch
+[4:11] goes on
+[4:13] it's as if these two were connected and
+[4:15] it just lets power go right up to the
+[4:17] the light so the neutrals are the
+[4:19] easiest and i'm going to do those first
+[4:21] there's many ways to connect them i
+[4:22] could twist them and use a wire nut but
+[4:24] i like to use these wego lever nuts
+[4:26] these are really pretty cool you lift up
+[4:28] this latch you put the wire underneath
+[4:31] it and you can see the wire goes all the
+[4:33] way in
+[4:35] and then you just flip down that little
+[4:37] switch that tightens it on the wire and
+[4:39] the wire doesn't come loose
+[4:41] so i'm going to do the same thing on
+[4:42] this side
+[4:43] and i don't know if that's too long i'm
+[4:45] going to take a look it's a little bit
+[4:47] too long because it's sticking out so
+[4:50] i'm just going to take a little bit of
+[4:51] hair off of that
+[4:54] and then i'm going to put it under here
+[4:56] and now it's in good
+[4:58] i can see them both are in there all the
+[5:00] way to the top
+[5:02] and that's fine and then i'm going to
+[5:03] push these back in the box because i'm
+[5:05] not i'm done with that
+[5:07] now let's talk about the ground now i
+[5:10] can do a similar thing with the ground
+[5:13] i can take
+[5:14] the lever nuts like this
+[5:17] or a wire nut whatever you want
+[5:20] and i could do that and create what's
+[5:22] known as a pigtail
+[5:24] and this is a pigtail it's a little
+[5:25] piece of wire that has a little j hook
+[5:28] on the end
+[5:29] and i could put that under here
+[5:33] and that would work fine i just attached
+[5:36] this to my switch
+[5:38] green screw but there's another thing i
+[5:40] can do too
+[5:43] if i have enough and i do have enough
+[5:45] here
+[5:46] i can actually connect
+[5:49] these together using a special
+[5:52] wire nut this is called a grounding
+[5:54] connector and what it does is it has a
+[5:56] hole in the top and it allows
+[5:58] that to come out the top this wire i'm
+[6:01] going to push this in and i'm going to
+[6:03] wind this around and then i put this
+[6:05] grounding wire connector on there and
+[6:07] tighten that down
+[6:09] and i'm going to screw that down good
+[6:12] and tight
+[6:13] now what i've got is these two are the
+[6:16] hots
+[6:17] and all i'm going to do is connect one
+[6:19] of these black wires to each one
+[6:21] with a little j
+[6:32] hook okay here you can see i've got the
+[6:35] two black wires one on each screw and i
+[6:38] have my ground on the other side so now
+[6:41] i'm just going to push these in
+[6:44] and i'm done with the switch
+[6:47] so now i'm going to turn my attention to
+[6:48] this outlet and what we have here is we
+[6:50] have
+[6:51] the white on the silver screws and the
+[6:54] black goes to the brass screws i'm
+[6:56] introducing a new ground so i'm going to
+[6:59] do the same thing i did before
+[7:01] and i'm going to use one of these
+[7:02] grounding wire connectors
+[7:05] all right here you can see i have
+[7:06] connected both of those grounds together
+[7:09] they're under this grounding wire
+[7:11] connector and this wire comes out the
+[7:13] top and goes on the ground screw
+[7:15] now i need to worry about the white
+[7:18] and the black now what i've done is i've
+[7:20] taken the white wire and i've attached
+[7:22] it to the extra silver screw here on
+[7:24] this side of the outlet and you can see
+[7:27] there's this little
+[7:28] piece of metal in between here this
+[7:30] little shunt i call it that connects the
+[7:33] two screws
+[7:34] so these are actually bonded together
+[7:36] just like they were under a wire nut and
+[7:38] i can use the screws to do that and now
+[7:41] it's a little bit controversial whether
+[7:43] that's the right thing to do with
+[7:44] outlets
+[7:45] but because i'm wiring a lighting
+[7:48] circuit above that's going to be low
+[7:50] current draw so i'm not worried about it
+[7:52] i would absolutely be fine doing it this
+[7:54] way the other way to do it
+[7:56] is if i was to take
+[7:58] this black wire and this black wire and
+[8:01] connect it to a third black wire with
+[8:03] either a wire nut or a wiggle connector
+[8:06] and then i would put the pigtail on here
+[8:09] but that's in a high current situation
+[8:11] like i did when i wired the other
+[8:12] outlets so for this one i'm just going
+[8:14] to put these right on my outlet
+[8:22] okay here my wiring is completely done
+[8:25] i've got my grounds connected and
+[8:27] they're connected here i got my two
+[8:29] whites on the silver screws i have the
+[8:31] two black wires on the brass screws and
+[8:33] this is ready to be closed up
+[8:36] now with my power back on i put my
+[8:38] little outlet tester in here and you can
+[8:39] see two greens that means it's wired
+[8:41] correctly and now let's test the switch
+[8:44] and you can see the light goes on when
+[8:46] the switch is up
+[8:47] and off when it is down that disconnects
+[8:50] those two black wires
+[8:52] that's what makes the circuit so that's
+[8:55] perfect and this one still works fine so
+[8:58] that outlet is switched the other one is
+[8:59] on all the time
+[9:03] hopefully you found this video useful if
+[9:05] you did please give it a thumbs up leave
+[9:07] me any questions you might have down as
+[9:08] comments below and i will see you in the
+[9:11] next one
+[9:13] if you need shade on your deck or patio
+[9:15] this summer check out toya grid pergola
+[9:17] kits you source the lumber locally and
+[9:19] can assemble this modular system in as
+[9:21] little as 30 minutes
+[9:23] check the video description for links to
+[9:24] videos and more information about toya
+[9:27] grid

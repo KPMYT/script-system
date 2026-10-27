@@ -1,0 +1,407 @@
+# NF4zxBAuRoI | 10 Common Mistakes DIYers Make In Circuit Breaker Boxes | LRN2DIY
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:00] here are 10 common mistakes diy-ers make
+[0:03] in their electrical panels or circuit
+[0:05] breaker boxes now we will be covering a
+[0:07] fix for each of these that I can walk
+[0:09] you through and keep in mind these are a
+[0:11] no particular order so let's kick it off
+[0:13] with our first one and that is the
+[0:15] frustrating experience of opening up
+[0:17] your panel only to find this there's
+[0:20] nothing here sometimes there's no
+[0:22] description at all other times it's an
+[0:24] outdated description and other times
+[0:26] you're just wondering how the heck am I
+[0:27] supposed to read that this is gibberish
+[0:29] that doesn't make any sense illegible
+[0:31] handwriting is kind of a a bad thing
+[0:33] when it comes to electricity so this can
+[0:35] be a real problem now this is a good
+[0:37] time to remind you that you should
+[0:38] always test your receptacles or your
+[0:40] switches or whatever it is you're
+[0:41] working on to make sure that there is no
+[0:43] current running to them even if you
+[0:45] think you've got it turned off here in
+[0:47] the electrical panel fortunately this is
+[0:49] an easy one to fix make sure to take the
+[0:52] time to write these in legibly if you
+[0:54] need to you can buy some labels and I'll
+[0:55] put some links in the description below
+[0:57] now I have a circuit breaker Finder
+[0:59] right here that works really well this
+[1:01] is the kind of thing where you basically
+[1:03] you plug this end in to an outlet for
+[1:05] example and then it even comes with an
+[1:07] adapter for working with light bulbs and
+[1:09] then you can use this end to run over
+[1:11] each of the circuit breakers and it'll
+[1:13] tell you which one is assigned to that
+[1:15] particular Outlet or receptacle or light
+[1:18] switch it's really handy but there's a
+[1:20] hundred easier ways to do it as well you
+[1:22] can just turn on a loud radio that's
+[1:24] plugged in you can have someone yell you
+[1:26] can do the cell phone walkie-talkie
+[1:28] thing whatever you need to do but make
+[1:30] sure you get these labeled appropriately
+[1:32] mistake number two is overloading your
+[1:34] circuit breaker panel now you can see on
+[1:37] this particular panel this thing is
+[1:38] pretty chock full we have our entire
+[1:40] house running on this including the
+[1:42] basement which was unfinished when we
+[1:43] moved in so this really can't handle any
+[1:46] more than it's got right here the more
+[1:48] important thing is that you know how
+[1:50] many amps you can handle in this panel
+[1:52] and that you are only using up to about
+[1:54] 80 percent of that amperage so for
+[1:57] example this is a 150 amp panel so I
+[2:00] want to make sure that I'm not using
+[2:01] more than 120 amps of the juice that
+[2:04] this can provide at any given time it
+[2:07] doesn't mean that I have to keep this to
+[2:08] 120 or even 150 amps worth of circuit
+[2:11] breakers when I add all these up it's
+[2:13] going to be more than that and that's
+[2:15] okay it's more about the usage within
+[2:17] your home now the more you stack in here
+[2:20] especially if you're using tandems like
+[2:22] this where I'm getting 30 plus 30 you
+[2:24] know that kind of thing can add up
+[2:25] pretty quickly and the more of those you
+[2:27] have the more likely it is that you'll
+[2:29] be able to use those and overload your
+[2:31] panel so you want to be careful to make
+[2:33] sure that you're not putting too much in
+[2:35] there and if you need to create a
+[2:37] separate sub panel I'll have a whole
+[2:38] video coming out about that next week
+[2:40] mistake number three on our list is not
+[2:42] protecting the sheathing of the wires on
+[2:44] the inside and letting them rub up
+[2:46] against The Knockouts inside the panel
+[2:48] now I'm going to take this cover off
+[2:50] I've got all the screws but one off I'm
+[2:52] going to support the panel with one hand
+[2:54] while I remove this last screw to make
+[2:56] sure it doesn't slip or fall into the
+[2:59] panel itself so with that being
+[3:01] supported I can now pull that out and
+[3:03] put it aside
+[3:04] you can see up here we've got a pretty
+[3:07] good job up here we've got our push and
+[3:09] plastic connectors or bushings here
+[3:11] we've got everything here coming in as
+[3:14] it should there are no wires going
+[3:16] directly into the actual panel Knockouts
+[3:19] without being supported or protected by
+[3:22] a bushing or a connector here and that's
+[3:24] exactly what we want when you don't have
+[3:26] that that could start to serrate the
+[3:28] edges of these and cause a short or a
+[3:31] fault now this is a great time as we
+[3:33] remove the panel cover here for you to
+[3:35] pause for a second and think am I ready
+[3:37] to do this is this something that I'm
+[3:39] qualified and trained to do do I have
+[3:41] confidence in what I'm doing or is this
+[3:43] a little bit of guesswork if there's
+[3:44] guesswork if you're unsure if you don't
+[3:46] have that confidence that you know
+[3:48] you're doing it right and you've done
+[3:49] your research then maybe call an
+[3:51] electrician and get them to help you
+[3:52] there is some serious voltage and
+[3:54] amperage running through here that you
+[3:56] want to treat with respect mistake
+[3:58] number four is having an imbalance
+[4:00] between your circuit breaker amperage
+[4:02] and your wire gauge if you look up to
+[4:04] top here we'll see that we've got
+[4:06] multiple colors of wires coming in we've
+[4:08] got these white sheathed Romex here and
+[4:10] then we've also got some yellows as well
+[4:12] now the white typically indicates a 14
+[4:14] gauge wire remember with gauges the
+[4:17] higher the number the thinner the wire
+[4:19] is and over here these yellows represent
+[4:21] a 12 gauge wire so it's a little bit
+[4:23] thicker now that makes a big difference
+[4:25] on what they're connected to what we
+[4:28] don't want to do is allow a thinner
+[4:29] gauge wire to have an amperage of
+[4:32] circuit breaker that exceeds its
+[4:34] capacity generally speaking 15 amp
+[4:37] circuits should use at least a 14 gauge
+[4:39] wire and it could be thicker that's okay
+[4:41] we don't want it to be thinner and then
+[4:44] these 20 amps will use a 12 gauge wire
+[4:46] now the issue you might run into is
+[4:48] let's say you have a 20 or a 30 amp
+[4:51] circuit breaker in here and you've got
+[4:53] 14 gauge wire that's actually capable of
+[4:56] producing a lot more electricity pushing
+[4:58] A Lot More Voltage essentially or
+[4:59] amperage really Through the Wire than a
+[5:02] 14 gauge wire is designed to handle and
+[5:05] what could happen is that heats up and
+[5:07] that creates again a potential for fault
+[5:09] or issues fire different things like
+[5:11] that so we don't want that overheating
+[5:13] to occur so we want to make sure that
+[5:14] you match up the gauge of wire with the
+[5:17] amperage of each circuit number five on
+[5:19] our list is improper grounding and
+[5:21] there's several ways that I've seen this
+[5:23] happen I just saw a box the other day
+[5:24] actually where someone actually snipped
+[5:26] the main ground coming in from the
+[5:28] source and they just cut it right here
+[5:30] nothing in the whole panel was grounded
+[5:32] at all have no idea honestly why they
+[5:35] would do that or what they thought they
+[5:36] were trying to accomplish here but that
+[5:37] is a huge mistake another one that I've
+[5:40] seen before is when they take a bunch of
+[5:41] these different ground wires here and
+[5:43] then they twist them all together and
+[5:45] then they run one pigtail down into the
+[5:48] ground bus bar that's also not okay it
+[5:52] can be okay depending on the area for
+[5:54] you to use a wire nut there and you can
+[5:56] match a bunch of them up there put a
+[5:58] wire nut with a pigtail going off that's
+[6:00] actually all right in most areas but
+[6:02] again check with your local code on that
+[6:04] what's not not okay is just to Twist
+[6:06] them together assume they're going to
+[6:07] have good enough contact and then run a
+[6:09] pigtail off of that so make sure that
+[6:11] everything is properly grounded and you
+[6:13] can easily tell for example in mine if I
+[6:15] move these wires out of the way over
+[6:17] here you can see that the main ground
+[6:18] comes in right here and then it's
+[6:20] attached to the bus bar and then this
+[6:22] bus bar is attached to the other ground
+[6:24] bus bar by the panel itself you don't
+[6:27] need to have a wire running from here
+[6:29] over to here for grounding or making
+[6:32] that connection with the ground it's
+[6:33] actually the metal panel that's making
+[6:35] that connection there and that's
+[6:36] perfectly okay number six on our list is
+[6:39] doubling up on your wiring within the
+[6:41] same hole on the bus bar I found an
+[6:43] example of that here on this neutral
+[6:45] right down here at the end I've got two
+[6:47] neutrals going into the exact same hole
+[6:50] which is kind of silly because there are
+[6:52] plenty of available neutral holes on
+[6:54] this bus bar there's no good reason to
+[6:56] do that other than maybe a bit of
+[6:58] laziness or a misunderstanding there
+[7:00] when you have two you're increasing the
+[7:02] likelihood of a poor connection and that
+[7:04] some something that again could shake
+[7:06] loose over time or just not have a tight
+[7:08] connection and that could cause arcing
+[7:09] sparking other issues like that I've got
+[7:12] an issue with it right there and then on
+[7:14] my ground bar it's all over the place
+[7:16] there's Bunches of them and those are
+[7:18] pretty easy fixes especially if you have
+[7:20] a lot of open holes in your bus bar for
+[7:22] neutrals or for grounds number seven on
+[7:25] our list is using the improper sheathing
+[7:27] coloring for your wires now there's
+[7:29] pretty simple National Electric Code
+[7:31] about this here in the United States and
+[7:33] it basically says that your neutrals
+[7:35] have to be white or gray and that your
+[7:37] ground has to be green or bare wire and
+[7:40] so it doesn't really specify much about
+[7:42] the black for example for your hot or
+[7:44] the red for your secondary hot but that
+[7:47] is that well understood color set for
+[7:49] anything electrical in these panels so
+[7:52] what I noticed in my panel right here
+[7:54] the electrician who wired this house up
+[7:56] before we bought this wired up a neutral
+[7:58] as a secondary hot or what appears to be
+[8:01] a neutral now that would be okay if we
+[8:04] made one little will change to this so
+[8:06] what we need to do is just take some
+[8:07] electrical tape that's red and use that
+[8:10] to wrap around and indicate that that is
+[8:12] not in fact neutral but is a secondary
+[8:15] hot and there we go now that lets
+[8:17] anybody who's working on this in the
+[8:18] future know that this is a secondary hot
+[8:21] not a neutral line you can kind of
+[8:23] figure that out if you're looking at it
+[8:24] but let's not make it any more difficult
+[8:26] than it needs to be number eight on our
+[8:28] list is what are called double tapped
+[8:30] circuit breakers now this is illegal or
+[8:32] against code at least in some areas and
+[8:35] then in other circumstances and
+[8:37] situations it's actually totally okay to
+[8:39] do so you have to know when you can use
+[8:41] this and when you cannot now you can see
+[8:43] for example if I were to feed two
+[8:45] different Hots or two different lines
+[8:47] into this one circuit breaker that may
+[8:50] or may not be against code it depends on
+[8:52] how this one was designed you can see on
+[8:54] this Eaton circuit breaker for example
+[8:56] this 20 amp really is designed just for
+[8:58] one wire to be fed in if you look at the
+[9:01] specs on the side it shows a 14 to 10
+[9:04] gauge an eight gauge or even a six to
+[9:06] four gauge and it has all the specs for
+[9:09] that that's okay but it doesn't say
+[9:10] anything about applying two different
+[9:12] wires to the same circuit breaker that's
+[9:14] because it's not up to manufacturer's
+[9:16] specs to land two different wires into
+[9:19] this thing however if you look at the
+[9:21] Square D home line series for example
+[9:23] these typically tend to allow for that
+[9:25] if we take a look on the side here you
+[9:27] can see there's a very clear
+[9:28] illustration of mounting one wire in or
+[9:32] two wires so we can follow those
+[9:34] guidelines and again if you flip over to
+[9:35] the side and see the lug here it's got
+[9:37] two plates where you can clearly receive
+[9:40] two different wires based on the
+[9:41] curvature of those plates now double
+[9:43] tapping is kind of a frown upon practice
+[9:45] mostly because it means you've got two
+[9:48] home runs or two lines running off the
+[9:50] same circuit breaker it makes it a
+[9:52] little bit trickier sometimes to
+[9:53] troubleshoot especially if those two
+[9:55] areas of the home or the business are
+[9:57] not right next to each other that can be
+[9:59] problematic to troubleshoot as well
+[10:01] number nine on our list is missing
+[10:03] filler plates you're your circuit
+[10:05] breaker panel cover has these different
+[10:07] Knockouts for different circuit breakers
+[10:09] you want to make sure to only knock out
+[10:11] those that are filled with a circuit
+[10:13] breaker what can happen is sometimes
+[10:15] some changes are made in the home maybe
+[10:17] some circuits are rewired to a sub panel
+[10:19] and then you have these open slots here
+[10:21] or perhaps you got a little aggressive
+[10:23] and you knocked out too many of those
+[10:25] Knockouts and you have more open holes
+[10:27] than you have circuit breakers to fill
+[10:29] in that case that's actually totally
+[10:31] against code again because someone could
+[10:33] just reach their fingers in there and
+[10:35] put their fingers where they're not
+[10:36] supposed to it can be dangerous and it's
+[10:38] an easy fix you can buy filler blanks
+[10:41] right from the store you sell these at
+[10:43] Home Depot and Lowe's you can buy them
+[10:44] on Amazon these are pretty easy so get
+[10:47] these filler plates put one of those in
+[10:49] there make sure you don't have any open
+[10:50] holes in your circuit breaker panel now
+[10:52] we're almost on our last one but I do
+[10:54] want to remind you that I will have a
+[10:55] video coming out about how to install a
+[10:58] new sub panel I'm putting one in my
+[11:00] garage for example and I'll walk you
+[11:02] through step by step all of that you can
+[11:04] check that out using the link at the end
+[11:05] of the video or in the description below
+[11:07] and as always every product that I show
+[11:10] in this video you can check out that
+[11:12] little shopping bag in the lower left
+[11:13] corner to see those from Home Depot or
+[11:16] Lowe's or other stores like that or you
+[11:18] can check out the links in the
+[11:19] description below now on to number 10
+[11:21] which is not torquing your screws down
+[11:24] to the right tension all of the lugs or
+[11:27] screws inside this panel have a specific
+[11:29] tension that they need to be torqued
+[11:31] down to and if you look for example on
+[11:34] our different circuit breakers just like
+[11:36] we saw earlier it shows how much
+[11:38] pressure these need to have in fact
+[11:40] we've got a breakdown right here for
+[11:41] example that this says 36 inch pounds or
+[11:44] 4 newton meters so that same thing
+[11:47] applies to the lugs on here but then
+[11:50] there are different measurements or
+[11:51] ratings for our bigger lugs over here
+[11:53] and those are typically located on the
+[11:55] inside of the panel so you want to make
+[11:57] sure to do that up to code and make sure
+[11:59] you're following those specifications
+[12:00] most people don't have something like
+[12:03] this this is a tour Fork screwdriver and
+[12:06] it allows you there's different ways to
+[12:07] adjust these banks on the brand and then
+[12:09] when it maxes out it's no longer going
+[12:12] to apply that tension so I keep turning
+[12:14] into turning and then it'll get to that
+[12:16] in this case it's set to 50 inch pounds
+[12:18] of torque and then when it's done it's
+[12:20] not going to turn anymore so I know I've
+[12:21] got it just at the right spot and in a
+[12:24] lot of companies nowadays they're
+[12:25] actually going around and they're
+[12:27] actually once a year just testing all of
+[12:29] the screws and lugs to make sure that
+[12:31] they're tightened the appropriate amount
+[12:33] and this is a smart thing to do in your
+[12:34] house as well now I will say I think
+[12:37] most of the time diy-ers especially like
+[12:39] myself we're not necessarily going
+[12:41] around and saying okay I've got to get
+[12:42] it right to 36 inch pounds but believe
+[12:45] it or not these only cost about 40 bucks
+[12:47] I know it's not super cheap but to make
+[12:49] sure that you're getting it just right I
+[12:51] think it's a good little investment and
+[12:52] again I'll put links to that in the
+[12:54] description below so that you can make
+[12:55] sure that you're getting all of these
+[12:57] set to just the right torque now just
+[12:59] one last little bonus issue that I want
+[13:00] to throw out there here's an example of
+[13:03] a beautifully wired and and beautifully
+[13:05] patterned panel I love looking at
+[13:07] something like this to me it's a form of
+[13:09] art it's done well it's easy to
+[13:11] recognize it's easy to trace the lines
+[13:13] and it's easy to add on more here's an
+[13:16] example of what we want to avoid a
+[13:18] tangled Rat's Nest like this can be
+[13:20] really difficult to find out what's what
+[13:22] and it makes it easy to accidentally
+[13:24] touch wires when you don't mean to or to
+[13:26] remove the wrong one because it's hard
+[13:28] to trace so the more organization you
+[13:30] have the more of a pattern that you
+[13:32] apply to your layout inside your panel
+[13:34] the better off you'll be in the future
+[13:35] as well as anyone working after you
+[13:38] while we're on the topic of wiring you
+[13:40] might enjoy this video right here it
+[13:42] shows six mistakes diy-ers make when
+[13:44] wiring outlets and some of these are
+[13:46] pretty surprising I was going to say
+[13:48] shocking I restrain myself yeah I can do
+[13:50] that I'm Nils with learn to DIY thanks
+[13:53] for watching

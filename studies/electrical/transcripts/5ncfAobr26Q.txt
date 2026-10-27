@@ -1,0 +1,322 @@
+# 5ncfAobr26Q | How to Tell if a Breaker is Bad | Electrician U
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [startTime] text. Raw auto-captions, unedited.
+[0:00] what's going on my friends I am Dustin
+[0:01] Stelzer with electrician U today we are
+[0:03] going to discuss Breakers and how to
+[0:05] tell if a breaker is good or
+[0:08] [Music]
+[0:17] bad have you ever had a breaker go out
+[0:20] on you or if you had a breaker that you
+[0:22] couldn't really tell if it was good or
+[0:25] if it was bad or somebody was like check
+[0:27] to see if a breaker is bad and you're
+[0:28] like I don't even know how to do that
+[0:30] well here's
+[0:35] how so Breakers can go bad over time uh
+[0:39] certain brands of Breakers go bad more
+[0:41] than others and I'm not going to just
+[0:44] sit and crap on Breakers so that is not
+[0:46] the point of this video um but I will
+[0:49] say that there are some common things uh
+[0:52] that can be tested with Breakers to see
+[0:54] whether or not they are good or bad so
+[0:56] in other videos I've covered um fault
+[1:00] breakers like old Federal Pacific stuff
+[1:01] or vinsko um because a lot of them
+[1:04] weren't tripping at certain values so
+[1:07] Breakers are really designed to hold at
+[1:09] 100% value if you got a 20 amp breaker
+[1:11] should hold at 20 amps but once you
+[1:13] start creeping above that there needs to
+[1:15] be a point where it trip so a thermal
+[1:16] trip can trip at about 130 or more per
+[1:21] of its value so for a 20 amp breaker
+[1:23] that ends up being about 26 amps once we
+[1:26] hit 26 amps sometimes it'll take a while
+[1:29] for the breaker to trip but around that
+[1:31] point it should thermally trip um which
+[1:33] is kind of an overload situation or a
+[1:35] little bit overheating of the circuit
+[1:37] this protects the insulation around that
+[1:39] conductor from getting too hot and
+[1:40] actually starting to melt while it's not
+[1:42] actually a short circuit or a ground
+[1:44] fault that's a massive impact that's
+[1:46] where the 200% value comes from so at
+[1:49] 200% of the breaker's value on a 20 amp
+[1:52] breaker we have 40 amps run through it
+[1:54] they would consider that a short circuit
+[1:56] or possibly a ground fault and that's a
+[1:58] different situation that a breaker needs
+[2:00] to trip um but it still needs to trip at
+[2:02] those levels so while we don't really
+[2:04] have any way out in the field as an
+[2:06] electrician to like simulate 130 you
+[2:09] know per load um or a 200% load we do
+[2:13] run into situations where we can
+[2:16] actually try to trip a circuit and the
+[2:19] breaker doesn't trip so if it's not
+[2:21] tripping you know mechanically there's
+[2:23] something wrong with the inside of it um
+[2:25] so how would we even test for something
+[2:28] like that so there's a couple of
+[2:29] different ways that you can tell if a
+[2:30] breaker is bad if the breaker won't
+[2:33] actually reset if it's off and you try
+[2:36] to flip it on and it just won't go into
+[2:39] the on position or it hits the on
+[2:41] position but trips immediately and you
+[2:43] don't have any load hooked up I've had
+[2:45] Breakers that actually do this in my
+[2:46] hand like brand new Breakers I will sit
+[2:48] there and hold them and try to flip them
+[2:50] and turn them on and they won't hold um
+[2:53] so there's something mechanically on the
+[2:54] inside of the breaker that's wrong with
+[2:56] it another thing that happens sometimes
+[2:58] is a breaker will have kind of a mushy
+[3:01] handle so you'll go to to trip it or
+[3:04] turn it on or turn it off and compared
+[3:06] to all of the rest of the breakers
+[3:07] around it the handle just doesn't really
+[3:09] feel like it's got any mechanical
+[3:11] strength in the spring anymore and a lot
+[3:13] of times this will actually cause the
+[3:16] inside of the breaker to trip when an
+[3:18] event happens but the handle itself
+[3:19] won't move notorious for this is GE a
+[3:23] lot of the skinny GE Breakers somebody
+[3:25] will report like hey I have the circuit
+[3:27] off and we've gone out to the panel
+[3:28] we've looked at every single of the
+[3:30] breakers they're all in the on position
+[3:32] don't know what the deal is so I'll go
+[3:34] out there with my finger and I'll start
+[3:35] tapping the handles towards the off
+[3:38] position I won't hit them hard because I
+[3:40] don't want to actually flip them off I
+[3:42] just want to see if any of the Springs
+[3:44] uh on the handles are just weak and by
+[3:46] tapping them a little bit you can tell
+[3:48] if a breaker internally is actually off
+[3:50] because once you tap it boom it'll
+[3:52] actually flip that handle over to where
+[3:54] it's supposed to be in the off position
+[3:56] and then of course you reset the breaker
+[3:58] and their lights come back on so that's
+[4:00] kind of a a common thing that you run
+[4:02] into with older GE Breakers um but it
+[4:04] just means that there's something with
+[4:06] the handle that's that's messed up even
+[4:08] though the internals of the breaker are
+[4:10] fine so that breaker should be replaced
+[4:12] another thing to look out for are actual
+[4:14] like physical damage to Breakers so
+[4:17] sometimes breaker handles will be busted
+[4:19] people will still leave them
+[4:21] installed which you can't turn the
+[4:23] breaker on or off that kind of seems
+[4:25] silly replace the thing um but you can
+[4:28] notice too if you ever pull out a
+[4:29] breaker and inspect it whether or not
+[4:31] there's any arcing happening between the
+[4:32] contacts on the back of the breaker and
+[4:34] the bus bar um from any arcing or
+[4:37] overheating sometimes you can see the
+[4:38] backside of a breaker melting or the
+[4:41] case of a breaker if it gets way too hot
+[4:43] you know that there's something going on
+[4:45] inside of that breaker and it should
+[4:46] probably be replaced uh other points
+[4:48] where you can kind of see some like
+[4:50] charring or arcing happening are
+[4:52] actually at the terminal where the
+[4:53] branch circuit leaves where the
+[4:54] conductor leaves and goes out into the
+[4:56] field um there's all kinds of different
+[4:58] things with Breakers that you can notice
+[5:00] physical damage and in those cases it
+[5:02] could be something internal in the
+[5:04] circuitry of the breaker or mechanically
+[5:06] with the breaker that's causing excess
+[5:07] heating it may not actually be something
+[5:09] that's going on in the circuit or it
+[5:11] could be something that's going on in
+[5:12] the circuit which is causing this
+[5:14] overheating to happen and the breaker
+[5:16] internally is not tripping so either way
+[5:19] probably have a bad breaker it's good to
+[5:21] go ahead and test that now speaking of
+[5:23] old Breakers we have some replacement
+[5:26] Breakers here from Connecticut Electric
+[5:30] sorry I'm in a goofy mood today people
+[5:33] um so if you have any old Legacy panels
+[5:35] like Federal Pacific zinsco pushmatic
+[5:38] Wadsworth Challenger they make all
+[5:41] replacement breakers for those old
+[5:43] Legacy systems a lot of these you can
+[5:44] find Like Home Depot there's a link in
+[5:46] the description below you can go to big
+[5:47] Electric Supply and get them um but
+[5:50] anytime that you have like stuff that's
+[5:51] just not not like normal you know like
+[5:54] Square D or GE things that like you can
+[5:56] easily just replace because they're
+[5:58] commonly made a lot of these are not
+[6:00] made anymore the companies aren't even
+[6:02] around so they're having to make brand
+[6:04] new replacement Breakers to put in so go
+[6:07] get you some replacement breakers for
+[6:09] your old Legacy systems at Big electric
+[6:12] supply.com
+[6:13] then there's other specialty kinds of
+[6:16] Breakers that have a little bit more
+[6:19] specific things with them that could be
+[6:21] going on with them um for example like
+[6:23] smart Breakers uh we've done videos
+[6:25] about smart Breakers in the past um but
+[6:28] smart Breakers are usually remotely
+[6:29] controlled Breakers meaning that
+[6:31] somebody's going to send a signal some
+[6:32] event possibly uh could send a signal
+[6:35] through low voltage um contacts on the
+[6:38] breaker and actually cause the line
+[6:40] voltage contacts to trip and actually
+[6:42] trip that breaker remotely um an event
+[6:44] can do it person can do it there's a few
+[6:46] different things that can happen this
+[6:48] goes for shunt trip Breakers as well a
+[6:50] shunt trip breaker just is a breaker
+[6:53] that is on a circuit but you have a
+[6:55] secondary circuit 110 volts just depends
+[6:58] on what the situation is but there's a
+[7:00] separate circuit with a fire suppression
+[7:02] system that if something happens it can
+[7:04] trigger remotely this breaker to shut
+[7:06] off it doesn't rely on the circuit that
+[7:08] is going through the breaker to turn on
+[7:10] and off um but these are things that you
+[7:12] know if you try to trip a shunt trip
+[7:15] breaker and it doesn't actually trip the
+[7:17] breaker then you know the breaker is bad
+[7:18] same thing with smart Breakers a lot of
+[7:20] times you'll get a service call to go
+[7:21] out and replace a smart breaker because
+[7:24] it's not responding on the network
+[7:25] they're trying to trip it remotely and
+[7:27] it won't trip um so there's just
+[7:30] problems with those Breakers that's how
+[7:31] you know that they need to be replaced
+[7:34] some other specialty Breakers where they
+[7:35] might have problems are things like dual
+[7:38] function Breakers in residential
+[7:39] settings uh or arc fault or ground fault
+[7:42] breakers they have a little test button
+[7:44] on them and if you ever go to test uh
+[7:48] one of these Breakers which I recommend
+[7:50] anytime you put in a new arc fault
+[7:52] ground fault or dual function breaker
+[7:54] make sure that you test the buttons on
+[7:56] them you don't want to install a brand
+[7:57] new breaker and just assume that from
+[7:59] the Factory it's good most times it is
+[8:01] but sometimes you run into some bad ones
+[8:03] so when you install a new uh breaker
+[8:05] like that you need to test the button
+[8:07] sometimes when you push that little
+[8:09] button it's supposed to simulate a fault
+[8:11] and a lot of times it doesn't not a lot
+[8:13] of times sometimes it doesn't and lastly
+[8:15] this is probably the first thing that
+[8:17] you're going to do out in the field to
+[8:19] figure out whether or not a breaker is
+[8:21] bad if it's just a standard General use
+[8:24] breaker is using your multimeter if you
+[8:26] go from the terminal where the conductor
+[8:29] is hooked up to ground or neutral and
+[8:33] you don't get voltage or if you have
+[8:35] like a two- pole breaker you know like a
+[8:37] 220 load and you go between each one of
+[8:39] those you should have 240 volts or 208
+[8:42] depending on what kind of wiring system
+[8:43] that you're you're on but if you don't
+[8:46] if you get like 120 volts or something
+[8:48] weird you're like whoa why am I getting
+[8:50] that and then you take one of them and
+[8:52] go to ground and you find that you have
+[8:54] zero volts that breaker is not actually
+[8:57] putting out any uh poti potential it's
+[8:59] not allowing current to flow because
+[9:01] it's probably not connected inside
+[9:03] there's probably some kind of Gap or
+[9:05] there's something in the contacts that
+[9:06] aren't making a connection anymore and
+[9:08] so that breaker needs to be replaced and
+[9:11] I've actually seen this in two pole
+[9:13] Breakers as well as three pole Breakers
+[9:15] so if you're in a three-phase
+[9:16] environment every once in a while you
+[9:17] have like a motor load or something and
+[9:19] you'll end up single-phasing a piece of
+[9:21] equipment because two of the actual
+[9:23] contacts will still allow power through
+[9:25] but the third doesn't it's a very common
+[9:27] problem in contactors and relays as well
+[9:29] you just have one of them that goes out
+[9:32] um so that something you should be aware
+[9:34] of because anytime you single phase a
+[9:36] three-phase load um you're going to
+[9:38] create excess strain on that motor and
+[9:39] you can actually burn up a motor so it's
+[9:41] a really serious thing to try to change
+[9:43] that out as fast as you can so that's
+[9:45] pretty much it I know very simple video
+[9:48] but there are people out there that have
+[9:49] asked like how do you even know if a
+[9:51] breaker is bad if I have something going
+[9:52] off in my house I'm just going to assume
+[9:55] it's a bad breaker it's like well I mean
+[9:56] there's there's some things you kind of
+[9:57] have to figure out and a lot of times
+[10:00] when an electrician walks up to a panel
+[10:02] you can open the panel and know
+[10:04] immediately because of the brand or the
+[10:06] types of Breakers or the location the
+[10:07] breakers are installed in um whether or
+[10:10] not we think a breaker is going to be
+[10:12] bad um and a lot of times you can't tell
+[10:14] that a breaker is bad before you start
+[10:15] pulling a multimeter out and be like oh
+[10:17] whoa there's something crazy happening
+[10:19] and then even yet sometimes you have to
+[10:20] dig it even further and take the breaker
+[10:22] out and be like whoa that bus is messed
+[10:25] up and then you flip the breaker around
+[10:26] you're like whoa that thing's melted on
+[10:28] the back and it's things that from the
+[10:30] front you would just have no idea about
+[10:32] so I hope that answers some questions I
+[10:34] hope that helps you guys out in your
+[10:35] troubleshooting out in the field uh
+[10:37] thank you for all the attention thank
+[10:38] you for constantly supporting the
+[10:39] channel support the channel if you don't
+[10:41] already hit the join button hit the
+[10:42] Subscribe button hit the like uh hit the
+[10:44] little notification thing lets everybody
+[10:46] know or lets you know lets everybody and
+[10:49] you you included know every time a video
+[10:51] of mine comes out um thank you to all of
+[10:54] the 480 volt members all of the Thousand
+[10:56] volt members uh all of you people for
+[10:59] supporting everything that I do join the
+[11:01] Thousand volts and you guys get my phone
+[11:03] number I've gotten probably I don't know
+[11:05] how many people now that text me all the
+[11:07] time uh everybody on the fourth was like
+[11:10] awesome and thought of me and said happy
+[11:12] fourth so I appreciate all you crazies
+[11:15] thank you love you people see you soon
+[11:24] [Music]
+[11:32] music and video
+[11:38] [Music]

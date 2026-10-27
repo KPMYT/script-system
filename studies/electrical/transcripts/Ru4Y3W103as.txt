@@ -1,0 +1,217 @@
+# Ru4Y3W103as | How To Fix Short Wires In An Electrical Box | Everyday Home Repairs
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [startTime] text. Raw auto-captions, unedited.
+[0:00] so you're jumping into what should be a
+[0:02] quick little electrical update project
+[0:04] you just want to swap out this outlet
+[0:06] confirming you don't have any power
+[0:10] now you take off your two mounting
+[0:12] screws
+[0:14] but when you go to pull the outlet out
+[0:16] man you notice that it is not coming out
+[0:19] very far and it's pretty tight so
+[0:21] further investigation taking off your
+[0:24] three screw terminals this is what we
+[0:26] find
+[0:26] and that is we have extremely short
+[0:28] wires coming into this box and they do
+[0:30] not meet code now this is an older home
+[0:33] it's been updated numerous times over
+[0:35] the years so this is not uncommon and
+[0:38] the question is what do we do so let me
+[0:40] show you a few different options that
+[0:42] will get you out of this situation
+[0:44] safely and also will touch on the
+[0:46] electrical code that you should be
+[0:48] meeting in your area so speaking of code
+[0:51] what would you actually want to see and
+[0:52] i'll mock up a piece of romex here which
+[0:55] will give a better example
+[1:01] to meet code what you'd want to see is
+[1:03] your non-metallic sheathing from romex
+[1:06] extending at least a quarter of an inch
+[1:08] through
+[1:09] then you want to see from the end of the
+[1:12] sheathing to the end of your wire that
+[1:14] being at least six inches
+[1:17] with at least
+[1:18] three inches extending past the box
+[1:21] itself so that would be the code that
+[1:23] you're looking for
+[1:25] now for us our wires
+[1:27] one are kind of missing that sheathing
+[1:29] and also not extending more than an inch
+[1:32] past our box surface
+[1:34] so the question is what options do you
+[1:36] have i'll walk you through three
+[1:38] different options the first two will be
+[1:40] focused on trying to get more wire into
+[1:43] the box so we can meet code and have
+[1:45] plenty to work with to safely mount that
+[1:47] outlet and then the last one is the one
+[1:50] i'm gonna have to go with where we're
+[1:51] gonna use connectors not wire nuts
+[1:54] different connectors to extend out those
+[1:56] wires to give you enough to work with to
+[1:58] get that outlet securely installed now
+[2:01] hopefully step one here works for you
+[2:03] because it's by far the easiest and
+[2:06] really that's just checking to see if we
+[2:07] have a service loop or some extra romex
+[2:11] back behind this box
+[2:14] so you want to pull on your wires but to
+[2:16] do this without causing damage to your
+[2:18] two conductors like your hot and your
+[2:20] neutral here i'll take my hybrid wire
+[2:23] strippers here or some needle nose
+[2:25] pliers i will firmly grasp on to the
+[2:27] bare copper and then i'll kind of use
+[2:30] the bottom here for some leverage
+[2:32] pulling up on the wires to see if i can
+[2:34] pull any more slack into the box
+[2:37] sometimes that works and then that will
+[2:39] get you to meeting code where you have
+[2:42] that six inches past the non-metallic
+[2:44] sheathing and three extra inches past
+[2:47] the surface of the box but if that
+[2:49] doesn't work let's go on to step two
+[2:52] so step two or more appropriately called
+[2:55] option two is if you actually have
+[2:57] access to the romex or old wire that's
+[3:00] feeding this box so maybe it's going
+[3:02] through a wall cavity down to your
+[3:04] basement or crawl space or maybe it's
+[3:06] going up to your attic and going to a
+[3:08] junction box or maybe you're close to
+[3:10] your actual panel and then that will be
+[3:13] pulling a new piece of romex through
+[3:15] that section and let me give you a few
+[3:16] tips i'll give you an example
+[3:18] so here i'm pulling a new piece of 14.3
+[3:21] romex and i've already stripped off all
+[3:23] the conductors and using one conductor
+[3:27] to connect to the old wire that's in the
+[3:30] box
+[3:32] so i want to twist everything on both
+[3:35] sides tight and what you're trying to
+[3:37] reduce is any wires hanging out and make
+[3:40] the overall package as small as possible
+[3:43] so it doesn't snag on anything as you're
+[3:45] pulling it through
+[3:46] it's very important to wrap several
+[3:48] times with electrical tape making that
+[3:50] as smooth as possible as you prepare to
+[3:53] pull the old wire which will then pull
+[3:55] the new romex up through
+[3:57] here crawling into the attic space
+[4:00] grabbing on the wire and then i'd pull
+[4:01] that new wire up through the wall cavity
+[4:04] now the challenge with option two is you
+[4:06] literally can hit a snag and that most
+[4:09] commonly is when that old piece of wire
+[4:11] going up through your wall cavity was
+[4:13] actually secured with staples onto the
+[4:16] studs within the wall so that would
+[4:18] obviously make it much harder to pull
+[4:20] that into your attic or down into your
+[4:22] basement or crawl space so it might not
+[4:24] be an option for you but might be worth
+[4:26] a try now moving on if option one you
+[4:29] didn't have any slack you could not pull
+[4:31] any additional wire into the box option
+[4:34] two you don't have access to the romax
+[4:36] or maybe it's secured in the wall cavity
+[4:38] doesn't work let's go into option three
+[4:41] which is what i'm going to use for this
+[4:42] one so wouldn't it be uncommon for
+[4:45] somebody to use a small
+[4:47] wing nut or wire nut like this
+[4:49] introduce an extension of wire and then
+[4:52] twist those together letting the wire
+[4:54] nut do the work or to pre-twist those
+[4:57] before putting the wire nut on
+[4:59] now for most di wires they don't have a
+[5:02] ton of experience with wire nuts and
+[5:03] kind of struggle with them so if the
+[5:05] wires are short that's even more of a
+[5:07] problem
+[5:08] so for this instance i really prefer
+[5:12] the wago 2 2 1 especially the small
+[5:16] 2 wire which is very compact and really
+[5:19] ideal for these type of scenarios
+[5:22] so unfortunately i am going to have to
+[5:24] trim these up a bit because i would like
+[5:26] to have
+[5:27] a little less exposed copper on my new
+[5:30] two conductors
+[5:31] so i'll trim those up a bit and i'll
+[5:33] show you how easy these wagos are to
+[5:35] install
+[5:52] so once i have my existing wires where i
+[5:54] want them now i'll just take the way go
+[5:56] and i'll pre-install my extension here
+[6:00] making sure that it's fully seated
+[6:03] and it goes all the way to the edge of
+[6:05] the housing so it's fully seated on the
+[6:06] bus bar
+[6:08] then i'll just open up the other lever
+[6:11] again confirming that the wire is going
+[6:13] all the way to the end
+[6:15] and then close the lever and that's it
+[6:17] now you have the hot extended and we'll
+[6:20] do that for the neutral and the ground
+[6:32] so now with the extensions or most
+[6:34] people call these pigtails in place
+[6:37] i'm going to make a j hook for the
+[6:39] ground
+[6:40] and we'll place that clockwise around
+[6:42] the green screw first
+[6:44] tightening that up and this is a
+[6:46] commercial grade legrand 20 amp outlet
+[6:50] so i'm going to use what's called back
+[6:52] wiring
+[6:53] and that's where you can just pass the
+[6:55] straight section of wire in and then
+[6:57] when you tighten up the screw terminal
+[6:58] actually pulls a plate internally and
+[7:01] that's what secures the wire into each
+[7:03] of those terminals that would be as
+[7:06] opposed to making j hooks on these then
+[7:08] going clockwise around each of the
+[7:10] terminals for the hot in neutral
+[7:13] so once everything's secured then you'll
+[7:15] want to fold the wires back into the box
+[7:18] not just cramming them back so kind of
+[7:20] make it where when you press the outlet
+[7:23] back in and you're securing it with the
+[7:24] mounting screws the wires want to fold
+[7:27] into place where you want them and not
+[7:28] just kind of push all over the box
+[7:33] then with the ecx screwdriver we'll go
+[7:36] ahead and secure the two mounting screws
+[7:39] trying to get it as flush as possible
+[7:40] with the ship lap
+[7:42] on the wall
+[7:46] tightening that up basically finish line
+[7:49] here and we'll just put the wall plate
+[7:50] in place
+[7:52] and we're done
+[7:53] so although i prefer option one or
+[7:56] option two sometimes like this case you
+[7:59] have to go with option three and splice
+[8:01] in that extra wire length so let me know
+[8:03] what you guys think was there another
+[8:05] option i missed that's helped you in the
+[8:06] past but i think for the wego 221 this
+[8:10] is a perfect example of where it makes
+[8:12] the job much easier opposed to having
+[8:15] very short wires and trying to get a
+[8:17] tight hole with the wire nut now if you
+[8:19] want a refresher or just want to go over
+[8:21] the basics of an outlet check out this
+[8:23] video right here and i'll walk you start
+[8:25] to finish to give you that knowledge so
+[8:27] you get more comfortable and you can do
+[8:29] electrical work around your house safely
+[8:31] so thanks for joining me on this video
+[8:33] and we'll catch you on the next one take
+[8:34] care

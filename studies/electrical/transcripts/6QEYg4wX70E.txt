@@ -1,0 +1,515 @@
+# E16 Why Do We Bond at the Service Panel and Not a Subpanel? / Electrician U
+# https://www.youtube.com/watch?v=6QEYg4wX70E
+# Source: NexLev get_bulk_video_transcripts (same data as get_video_transcript, checked on yBHdCsVRle0), pulled 2026-10-27. Raw captions, one segment per line: [start] text. Not edited.
+
+[0:00] why is it that we Bond our neutrals and
+[0:04] grounds at the service panel but we
+[0:06] don't do it at the sub panels that are
+[0:08] say in the garage or somewhere else in
+[0:10] the house this is really important
+[0:12] actually so stay
+[0:15] [Music]
+[0:24] tuned what's going on my friends Dustin
+[0:26] Stelzer with electrician U this was a
+[0:29] question that was sent into me from
+[0:30] YouTube it says Mr Stelzer hello I'm a
+[0:32] big fan thanks for putting out excellent
+[0:34] content can you please make a video
+[0:36] explaining why the secondary breaker box
+[0:38] me meaning a sub panel uh not the main
+[0:41] service panel uh why the secondary
+[0:43] breaker box the one in my garage in the
+[0:46] house is not bonded between the neutral
+[0:47] and ground it is fed by a double 50 amp
+[0:51] breaker in my 200 amp service and the
+[0:53] bonding occurs there my ibw buddy swears
+[0:57] I did it incorrectly but I got my
+[0:59] understanding from something on one of
+[1:00] your videos this is from Darren Eckler
+[1:03] uh on YouTube so Darren let's get into
+[1:05] this on the Whiteboard now before we get
+[1:08] started make sure you get your U crew
+[1:11] merch so we've got electrician U shirts
+[1:13] right now we've got a whole bunch of
+[1:14] variations of hats so if you want just
+[1:17] the electrician U EU logo or you can get
+[1:20] the U crew if you want to be part of the
+[1:21] U crew come on come join us UK crew but
+[1:25] go get your merch right now uh we sell
+[1:27] out very very quickly so they're for a
+[1:29] limited time only only but we're
+[1:30] constantly adding new stuff there's all
+[1:32] kinds of people that have been throwing
+[1:33] tons of suggestions at us but if you
+[1:35] want any EU merch check out the link
+[1:37] below electrician you.com all right so
+[1:40] this whole issue of why we Bond at the
+[1:42] service panel we bring our uh our
+[1:45] neutrals and our grounds together let me
+[1:47] draw the
+[1:49] bond uh I'll just go like this so that
+[1:53] you know that they're bonded together
+[1:56] this is what we do at a service panel we
+[1:57] make sure all of the neutrals and all
+[1:59] the grounds all of the uh grounded
+[2:02] conductors and all of the grounding
+[2:04] conductors are all bonded together at a
+[2:07] single point that uh is connected to
+[2:10] earth now the connected to Earth that's
+[2:12] a
+[2:14] different thing than just bonding them
+[2:17] together uh what we're doing is making
+[2:19] sure that everything that's grounded in
+[2:22] a structure does not have current on it
+[2:24] you know our ground our equipment
+[2:26] grounding conductor should not have
+[2:28] current on it but in a fault in ground
+[2:30] fault situation where maybe one of these
+[2:32] Hots like slips off its termination and
+[2:35] hits the the metal casing when somebody
+[2:37] goes up and W and and touches that metal
+[2:39] of that uh like drier in this case they
+[2:42] don't get shocked there's not current on
+[2:43] that ground but that ground needs to
+[2:45] make a completed circuit all the way
+[2:47] back to the Transformer up at the pole
+[2:50] for the breaker to trip if it doesn't if
+[2:53] it doesn't have a complete circuit it's
+[2:55] not going to trip a breaker you're just
+[2:57] going to have something that's
+[2:58] potentially energized and and it's a
+[3:00] hazard and somebody can get shocked or
+[3:02] electrocuted and there is a difference
+[3:04] for those of you who didn't know
+[3:05] electrocution normally means
+[3:08] death and getting shocked just means
+[3:11] getting
+[3:13] [Music]
+[3:14] shocked all
+[3:16] right so uh what we have in this
+[3:18] situation we have a service panel
+[3:20] outside we got a sub panel in a garage
+[3:23] uh the sub panel is going to be fed off
+[3:25] of a breaker so we've got a 220 breaker
+[3:27] that's feeding over to feed our panel
+[3:29] with it we carry an equipment grounding
+[3:32] conductor um and then we have a neutral
+[3:34] or a grounded conductor in code um so we
+[3:38] run all of these over to a new panel
+[3:41] from here in the subpanel let's say that
+[3:43] we've got uh a a dryer and we ran 220
+[3:47] over to this dryer we also ran a neutral
+[3:48] with it and a ground with it it's a
+[3:50] four-prong modern fancy
+[3:53] dryer the reason that we need to keep
+[3:55] everything separated is a concept called
+[3:58] objectionable current so it means
+[4:01] objection there's a problem there's
+[4:03] something wrong there's like we need to
+[4:04] address something objectionable current
+[4:07] is when there is current on something
+[4:09] and there shouldn't be current on
+[4:10] something or more specifically there's
+[4:12] current in two different places going in
+[4:14] two different directions where it should
+[4:16] not be now objectionable current would
+[4:18] be if we had current uh in in a fault
+[4:23] condition where uh anytime we have a
+[4:25] fault we want to be be very precise
+[4:28] about where we're allowing current to
+[4:30] flow we don't want it to just kind of go
+[4:31] wherever the hell it wants to go cuz we
+[4:33] could fry other equipment there's a lot
+[4:34] of things that could happen people could
+[4:36] get shocked for some reason you're
+[4:37] standing on something metal in a shower
+[4:39] you get shocked so we want to make sure
+[4:41] that we control where current is Flowing
+[4:43] so we definitely don't want this ground
+[4:45] conductor to act as a neutral we don't
+[4:48] want it to carry current all the time
+[4:50] neutrals are designed to carry current
+[4:53] and grounds are not so if we have an
+[4:56] objectional current on a ground when
+[4:58] we're supposed to have current on a
+[5:00] neutral we could have it going down both
+[5:02] paths so essentially if we didn't bond
+[5:05] our neutral and our ground together we
+[5:07] could have current flowing on the
+[5:09] neutral and on the ground at the same
+[5:12] time both trying to get back to source
+[5:14] and finding whatever means they needed
+[5:16] to you'd have parallel Paths of current
+[5:18] so we always want to try to minimize
+[5:21] that we want one guaranteed place where
+[5:24] fault current can go to to get back to
+[5:26] source so if we have a situation where a
+[5:30] fault happens a ground fault
+[5:32] specifically not a short circuit a lot
+[5:34] of people misuse this terminology a
+[5:37] short circuit is when you have a circuit
+[5:39] that has a shortcut in it basically it's
+[5:41] not it has nothing to do with ground
+[5:43] it's either hot to neutral or hot to hot
+[5:46] a ground fault is specifically when you
+[5:48] have a hot conductor touching your
+[5:51] equipment grounding conductor or
+[5:52] touching ground they call that a ground
+[5:54] fault so a ground fault and a short
+[5:55] circuit two different things so say in
+[5:57] this situation we have a ground fault
+[5:59] let's figure out where the current's
+[6:00] going to travel say that this red
+[6:02] conductor for some reason contacts the
+[6:05] case our ground is contacting the case
+[6:07] as well so now we have current that is
+[6:10] going from this breaker through the case
+[6:13] through the equipment grounding
+[6:14] conductor going all the way back over
+[6:16] here and since it's bonded to neutral it
+[6:19] has a path and it has a completed path
+[6:22] all the way up to the
+[6:23] Transformer so that will cause current
+[6:27] to flow momentarily it'll cause so much
+[6:30] current because there's no load in
+[6:31] between this red and this green anymore
+[6:35] for electricity to really operate there
+[6:37] has to be a load in between it so as
+[6:39] current's flowing there's something
+[6:41] that's resisting or that's impeding that
+[6:43] current flow and that makes electricity
+[6:45] travel at kind of a responsible rate
+[6:48] enough for us to use it if there's no
+[6:50] resistance to that current flow it's
+[6:51] going to go unimpeded uh very very fast
+[6:55] things are going to get really hot it's
+[6:56] going to become chaotic very very
+[6:58] quickly you're going to have uh
+[6:59] insulation melting off the conductors
+[7:01] you might even liquefy the conductors
+[7:03] and completely melt the conductors
+[7:04] themselves depending on the situation
+[7:06] the Heat and available fault current and
+[7:08] all of that so you need impedance right
+[7:10] you need something impeding the circuit
+[7:13] for it to do meaningful work well in
+[7:15] this case we have a hot that's touching
+[7:17] the case there's no resistance at all
+[7:19] there's nothing impeding it so that
+[7:21] current's going to go flying through the
+[7:22] circuit so we have a complete circuit I
+[7:25] should probably have drawn this red also
+[7:28] so on the red from our Transformer up
+[7:30] here we've got like the start of the
+[7:32] circuit travels down through the Reds
+[7:36] all the way over here back all the way
+[7:37] through the ground and that ground
+[7:39] because the ground and the neutral are
+[7:41] bonded that it's going to travel that
+[7:44] current is going to travel back up on
+[7:45] the neutral which is going to allow an
+[7:47] complete circuit for the entirety of
+[7:49] that circuit to be complete so current
+[7:52] will flow so much of it'll flow that
+[7:54] this breaker right here is going to trip
+[7:56] because that's what the breaker is
+[7:57] supposed to do if we didn't did not bond
+[8:01] this uh how do I do this if we did not
+[8:06] Bond the neutral in the
+[8:11] ground then this fault would occur but
+[8:14] current wouldn't travel because we don't
+[8:15] have a complete Loop anywhere so we just
+[8:18] have all of this metal enclosure this
+[8:20] entire metal conductor uh the metal
+[8:23] inside this panel the metal that the
+[8:25] panel is hooked up to this conductor
+[8:28] ground rod everything metal all along
+[8:30] the way will have potential on it so if
+[8:33] you touch this and you were to say touch
+[8:36] a neutral or touch anything else that's
+[8:38] at a different potential current would
+[8:40] flow through you as a way to try to get
+[8:43] back to the source where it's always
+[8:44] trying to get to so nothing would
+[8:46] actually happen it wouldn't clear a
+[8:47] breaker this fault would happen all of
+[8:49] this stuff would have potential on it
+[8:51] doesn't necessarily mean it would be
+[8:52] energized but would it would have
+[8:54] potential available depending on if you
+[8:56] touched from one potential to another
+[8:58] potential to create a difference of
+[9:00] potential or a voltage for pressure to
+[9:03] push current through you so it's a
+[9:06] dangerous situation if we don't bond
+[9:08] these together and we're never going to
+[9:10] get the breaker to trip if we don't bond
+[9:13] them the neutral is our path back to
+[9:16] source and that's how we have a
+[9:17] completed Loop um in a Transformer uh
+[9:21] say at a uh we have our our pole that
+[9:24] has a huge Transformer out here we've
+[9:26] got the utility company with its Smoke
+[9:28] Stacks and a big generator in here and
+[9:31] we've got a house so we actually have
+[9:34] two completed circuits when we talk
+[9:36] about uh utility there might be more
+[9:38] than that because distribution it
+[9:40] changes from voltage you know different
+[9:42] multiple different times but what we
+[9:44] have is we have a primary circuit that
+[9:46] comes from a generator so it means we
+[9:47] have one conductor that goes all the way
+[9:50] out in the field brings power out to a
+[9:52] Transformer that's up on a pole it's one
+[9:55] piece of wire unbroken the entire time
+[9:57] it comes back out goes back to the
+[9:58] generator where it is also another loop
+[10:01] we have one continuous circuit coming
+[10:04] from the utility company to the power
+[10:06] pole that's out at your house that's a
+[10:08] complete circuit that's how current
+[10:10] flows then we have a secondary circuit
+[10:13] I'll do that a different
+[10:14] color uh what we often times call the
+[10:18] secondary out in the field if you hear
+[10:19] somebody saying oh the primary or the
+[10:20] secondary they're talking about on a uh
+[10:23] Transformer so we've got our secondary
+[10:26] circuit and the secondary comes down we
+[10:28] have our black
+[10:32] we have our
+[10:35] red we still don't have a completed
+[10:37] circuit right when we land these
+[10:39] conductors inside the panel we're
+[10:41] breaking the circuit there's no
+[10:43] completion to them so what we do is we
+[10:46] run all these circuits out from the
+[10:48] panel to loads and from here this
+[10:52] breaker is going to touch the black it's
+[10:54] going to go out to our washing machine
+[10:56] it's going to hook up to the washing
+[10:58] machine inside the washing machine
+[11:00] there's going to be another a motor so
+[11:01] basically another coil kind of like this
+[11:04] and then we're going to have our red
+[11:05] conductor that we bring from a breaker
+[11:08] you know on the red phase and we go
+[11:10] straight out to that so when we flip a
+[11:13] switch like say the say there's a switch
+[11:15] on one of these you know the the the
+[11:18] washing machine or the dryer is off and
+[11:19] we push a button to start it we close a
+[11:22] switch and we connect this load so now
+[11:24] we have current in a complete Loop
+[11:26] traveling and that's why that washer or
+[11:28] that dryer
+[11:29] is on you shut it off it opens the
+[11:32] circuit and it no longer has current
+[11:34] moving through it so it has to have a
+[11:36] completed circuit somehow to travel the
+[11:39] neutral and if I didn't State this
+[11:42] enough the neutral point is always going
+[11:44] to be the middle point in the system so
+[11:46] we have a neutral that we run to the
+[11:48] Transformer as well that is how this
+[11:53] green that's connected to the case of
+[11:55] this that's connected to the case of
+[11:57] this that's connected to the ground r
+[11:59] Rod again ground doesn't ground rod
+[12:01] doesn't have anything to do with
+[12:02] tripping a breaker um it's there for a
+[12:04] different reason but that means if we're
+[12:06] bonding our all of our metal stuff to
+[12:10] our
+[12:11] neutral then anytime we have current
+[12:14] that goes from one of the hots to any
+[12:17] pieces of metal around electrical
+[12:18] equipment now it has a complete Loop it
+[12:21] has a complete loop on neutral through
+[12:23] red all the way around that's how we get
+[12:26] that breaker to trip if we did not Bond
+[12:29] those things it would not happen we
+[12:31] wouldn't have a breaker that trips we
+[12:33] would just have a whole bunch of metal
+[12:35] that has potential on it to hurt or kill
+[12:37] somebody because it's energized or it's
+[12:40] waiting to be energized because there's
+[12:42] potential on it there's a voltage that
+[12:44] is uh available on it that's why uh we
+[12:48] on the secondary panels or the sub
+[12:50] panels we never Bond and that means if
+[12:53] you have like 50 panels in a house which
+[12:55] I don't know why you would but if you
+[12:57] had 50 panels you would not Bond the
+[12:59] neutral to ground on any of them at all
+[13:03] the only place you want to bond is at
+[13:05] that service panel now the reason for
+[13:07] this if you sit and think about it it
+[13:09] actually kind of makes sense so I drew
+[13:12] uh basically a service and then all of
+[13:14] these are sub
+[13:19] panels so say this is like at one end of
+[13:21] the house this is at another end of the
+[13:22] house this is at like another end of the
+[13:25] house
+[13:26] somewhere each one of the panels feeds
+[13:28] another another panel right so we've got
+[13:30] a completed Loop all the way from the
+[13:32] service all the way through red all the
+[13:35] way to our piece of equipment uh we've
+[13:37] got you know neutral that's the same
+[13:40] thing goes all the way from the service
+[13:42] all the way through neutral so
+[13:43] essentially red and neutral have a
+[13:45] complete Loop uh here inside of the
+[13:47] piece of equipment let me just
+[13:49] draw uh we'll say like there's a winding
+[13:52] in there so you can see right this is a
+[13:54] closed loop it goes all the way through
+[13:56] and all the way back but the ground
+[13:58] you'll notice is a completely separate
+[14:00] thing it's not trying to form a loop for
+[14:03] current to go through a breaker and be a
+[14:05] part of the the system all it's trying
+[14:08] to do is Bond all of the metal things
+[14:11] together and go back and reference to
+[14:13] ground and reference to neutral at this
+[14:15] one point so this is the point where we
+[14:17] put a bonding Jumper in at the service
+[14:20] so if we have a short circuit let's say
+[14:23] or a ground fault sorry say this red
+[14:26] conductor for some reason just flops off
+[14:28] and like boom hits the case well we have
+[14:32] a path so now we know that we are going
+[14:34] through this red all the way through
+[14:37] this entire
+[14:40] thing and then we have a path on ground
+[14:43] all the way back to neutral to go back
+[14:47] up to the service to form our complete
+[14:50] Loop so that is a complete circle I know
+[14:52] it's kind of like drawn crazy but it is
+[14:55] it's a complete it's a complete loot if
+[14:57] that bonding jumper was gone on and that
+[14:59] ground fault happened there would be no
+[15:02] way for this breaker to trip it would
+[15:05] just stay in an energized State because
+[15:07] there is no complete Loop to make the
+[15:10] breaker trip now objectionable current
+[15:13] what that speaks to is say we have a
+[15:15] ground fult and on every one of these
+[15:17] panels I'm just going to draw a quick
+[15:19] bonding jumper we have bonding jumpers
+[15:21] so that every single neutral in every
+[15:23] single ground are bonded at every single
+[15:25] place what that what happens is in a
+[15:28] ground down fault like that
+[15:31] situation now we have two paths that
+[15:34] that current could take at the same time
+[15:36] going through the system and that's what
+[15:37] we don't want so current could take this
+[15:41] path and go all the way
+[15:43] through and could make it back up to the
+[15:46] panel right that's okay but now that our
+[15:49] grounds and neutrals are bonded it could
+[15:51] also take the path through neutral the
+[15:53] entire way and end up back at the
+[15:55] service so now we have two parallel
+[15:57] paths that current can take and we don't
+[15:59] want that that's an irresponsible thing
+[16:01] to do we want to make sure that it goes
+[16:03] through One Singular path only reason
+[16:07] being uh if there's any loads on any of
+[16:10] these panels which there will be there's
+[16:11] Breakers everywhere but there's going to
+[16:12] be loads and say we got laptops and TVs
+[16:14] and all these things hooked up well
+[16:16] they're all hooked up to that neutral so
+[16:18] we don't want a ground fall to go
+[16:19] through equipment as well as go through
+[16:22] the ground that's the entire reason that
+[16:24] we have a ground is for this purpose to
+[16:27] direct that fault current elsewhere now
+[16:30] say we have a short circuit instead of a
+[16:32] ground fault say instead of this
+[16:34] conductor uh you know flopped off and
+[16:36] hit the case and it was a ground fault
+[16:38] meaning the hot is touching ground say
+[16:40] we have a short
+[16:41] circuit so uh now we've got like a black
+[16:44] and a white that are touching together
+[16:47] well instead of just clearing the fault
+[16:49] in the black and white now we've got
+[16:51] bonds from neutral from the white to the
+[16:53] green the the uh neutral to the grounds
+[16:56] everywhere so now that short circuit
+[16:58] current is traveling on all of this
+[17:00] metal stuff and that's an objectionable
+[17:02] path because the short circuit should be
+[17:04] taken care of through a breaker through
+[17:06] that hot and that neutral it should be
+[17:07] one complete Loop we shouldn't introduce
+[17:10] metal parts to that short circuit
+[17:13] because a short circuit is a very
+[17:14] different thing it's it's still a fault
+[17:17] but it's not a ground fault so in either
+[17:18] case you're providing two different
+[17:20] paths for current to take which means it
+[17:23] could go anywhere that it wants to take
+[17:25] it could go on everything metal but it
+[17:27] could also go through every piece of a
+[17:28] equipment and you know anything that you
+[17:31] have wired in this this entire place and
+[17:33] so it could start frying equipment and
+[17:35] things like that so it's really it's
+[17:36] silly you don't want to bond anything
+[17:39] anywhere but the one place you do want
+[17:41] to bond everything is back here at the
+[17:44] service because it's the only way that
+[17:45] ground FAA current can make it to the
+[17:48] neutral and actually complete a circuit
+[17:50] and the only way a breaker trips is if
+[17:52] there is a completed circuit for that
+[17:54] current to keep traveling through if
+[17:56] there's not a complete circuit no
+[17:58] current travels so we just have this
+[18:00] potential over here on everything metal
+[18:04] and anything that touches between two
+[18:05] points current's going to go through it
+[18:08] so that's the hazard of it so I hope
+[18:10] that that makes a little bit more sense
+[18:11] we just do not want two different
+[18:13] parallel paths we want One path for
+[18:16] fault current to take and we want to
+[18:18] connect it back and bond it right here
+[18:21] so that that current goes along the
+[18:23] ground and back up to the the the
+[18:25] utility up to the Transformer and clears
+[18:28] that fault actually opens that breaker
+[18:30] grounding and bonding is kind of a crazy
+[18:31] thing there's a whole bunch of other
+[18:32] different situations if you have a you
+[18:34] know
+[18:35] Transformer um or you know whether or
+[18:37] not you have a generator how it needs to
+[18:39] be grounded whether or not you have a
+[18:40] floating neutral a lot of different
+[18:42] things to consider so grounding and
+[18:44] bonding uh which is article 250 and code
+[18:46] is a really heavily talked about topic
+[18:49] but as an electrician I think that's a
+[18:51] good place to uh start diving in and
+[18:53] trying to figure some of this stuff out
+[18:54] because it's actually very very
+[18:56] important grounding has a lot to do with
+[18:58] life safety and and people not getting
+[19:00] injured or hurt equipment not getting
+[19:02] destroyed um so it's very important to
+[19:04] know about that kind of stuff so that
+[19:06] was a great question thank you so much
+[19:07] for your time I love you crazy people uh
+[19:09] put more comments below I'll make more
+[19:11] videos like these talk to you soon
+[19:13] [Music]
+[19:29] best music and video
+[19:42] [Music]
