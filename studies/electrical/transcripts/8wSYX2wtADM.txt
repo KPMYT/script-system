@@ -1,0 +1,332 @@
+# 8wSYX2wtADM | 5 Mistakes Everyone Makes Changing Sockets | Artisan Electrics
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:00] changing face plates one of those
+[0:02] classic DIY jobs if you're a regular
+[0:04] viewer of the channel you'll know that
+[0:05] we don't do many tutorial Style videos
+[0:08] because I don't like teaching people how
+[0:10] to do their own electrics it just feels
+[0:12] wrong however I know that some of you
+[0:14] are going to do it anyway so today I'm
+[0:16] going to teach you how to do it properly
+[0:18] first here's the tools that you're going
+[0:19] to need I'll leave a link in the
+[0:21] description below a flathead screwdriver
+[0:22] a level some cable Cutters and strippers
+[0:25] a safe isolation device
+[0:28] only joking use one of these so step one
+[0:31] is to take the cover off but there's
+[0:33] something important to do first a
+[0:35] mistake to avoid and make sure you watch
+[0:38] the end of the video where I show you
+[0:39] the top five mistakes that most people
+[0:41] make when changing sockets
+[0:45] rewind this socket is currently live do
+[0:50] not take the cover off without first
+[0:52] safely isolating as George Clark would
+[0:55] say the consumer unit is the Hub of the
+[0:58] home now that's the kitchen but this is
+[1:00] the Hub of your electrics in your home
+[1:03] it's where everything is turned on and
+[1:05] off from you've got a main switch so if
+[1:08] you want to be super safe you could
+[1:09] flick that off that'll turn everything
+[1:11] off in the house or you can find the
+[1:13] individual circuit that feeds the socket
+[1:15] that you're wanting to change now in
+[1:16] this case I think it's circuit two so
+[1:19] I'm going to flick that off and check to
+[1:21] see if the socket has gone dead or not
+[1:23] so the Vault pen seems to indicate that
+[1:25] the socket's dead which is a good
+[1:26] indicator we'll take the cover off now
+[1:28] but we do need to properly check and if
+[1:30] you're really not sure which circuit
+[1:32] it's on better to be safe and sorry just
+[1:34] turn the main switch off for the whole
+[1:35] house now a quick DIY tip always take a
+[1:38] before photo before you make any changes
+[1:40] so that you can look back and if
+[1:42] something doesn't work properly see how
+[1:44] it was before because it's almost
+[1:46] impossible to put it back together how
+[1:48] it was before without a photo now I use
+[1:50] this fault pen just as a rough
+[1:52] indication that it was turned off and it
+[1:55] looks like it is but this is not a
+[1:57] trusted device these can go wrong they
+[1:59] can break they can give false readings
+[2:01] so always use what we call a gs38
+[2:03] approved test lead like this and what
+[2:06] you can do is just test between all the
+[2:08] combinations that's just saying that
+[2:11] there's continuity but we test between
+[2:12] live and neutral neutral and Earth
+[2:15] and life and Earth and then ideally what
+[2:19] we want to do is turn the circuit back
+[2:20] on check to make sure our tester is
+[2:22] working properly on a known source and
+[2:25] then turn it back off off again one of
+[2:27] the biggest mistakes I see people doing
+[2:28] is changing these live without turning
+[2:30] the power off or turning off the wrong
+[2:32] circuit and getting an electric shock
+[2:34] you don't want to risk your life so if
+[2:37] you're really not sure or don't feel
+[2:39] confident just pay an electrician who
+[2:42] will safely isolate it but if you are
+[2:43] doing it yourself for goodness sake
+[2:45] please turn the power off now in the
+[2:47] socket we've got live neutral and Earth
+[2:50] there's a big mistake that I see people
+[2:53] making which is getting the live and
+[2:54] neutral the wrong way around in other
+[2:56] words reverse polarity and I'll tell you
+[2:59] why they do that and how it's easy to
+[3:01] avoid so the way this socket is arranged
+[3:03] is live is on the left neutral is on the
+[3:05] right but not all sockets are built the
+[3:08] same some sockets have a neutral on the
+[3:10] left and the live on the right and it
+[3:12] might be that even the same brand
+[3:13] they've changed the design and over time
+[3:15] and they've swapped around where the
+[3:17] terminals are so if you just pop the
+[3:19] wires back in the order that they were
+[3:21] on the previous socket you could end up
+[3:23] having the live in neutral the wrong way
+[3:25] around and the socket will work but it
+[3:28] won't be safe now the reason reverse
+[3:29] polarity is dangerous is because if you
+[3:32] had the live and neutral the wrong way
+[3:34] around and switch the switch off on the
+[3:36] socket this switch often only switches
+[3:38] the live that means that it would
+[3:40] actually be switching to neutral and
+[3:42] whatever's plugged in like maybe a lamp
+[3:45] with a lamp socket at the end that would
+[3:47] actually still be live even though
+[3:49] you've turned the switch off and you
+[3:51] could get an electric shock these MK
+[3:53] sockets are really well built they're
+[3:54] actually double poles so they switch to
+[3:56] live and the neutral which is a nice
+[3:57] extra safety feature but most sockets
+[3:59] aren't like that and so reverse polarity
+[4:02] can be a really easy mistake to make and
+[4:04] a very dangerous fault to create So to
+[4:07] avoid it just make sure that the live
+[4:09] conductors are going into the terminal
+[4:11] marked L the neutral conductors are
+[4:14] going into the terminal marked n just
+[4:16] make sure that they line up now in
+[4:19] European wiring colors now they're
+[4:20] harmonized so the brown is the live the
+[4:23] blue is the neutral and the green yellow
+[4:25] is the CPC or Earth however olden times
+[4:28] in Britain about 20 years ago we used
+[4:30] red and black so red was the live and
+[4:33] black was the neutral so if you do find
+[4:35] a red and black Cable in the UK then red
+[4:38] is your live and black is your neutral
+[4:40] now these green yellows are actually
+[4:41] sleeved so they're bare copper
+[4:44] with Earth's leaving in some
+[4:47] installations if you change your socket
+[4:48] you'll find that these are just spare
+[4:50] copper nobody's ever sleeved them up now
+[4:52] it is important to sleeve them properly
+[4:55] because otherwise the bare copper of the
+[4:57] earth wire could easily make contact
+[4:59] with one of the live conductors and
+[5:00] short out so always sleeve your Earth
+[5:03] and there's another big mistake that a
+[5:05] lot of people make which is twisting
+[5:07] them together for one of my bug Bears
+[5:09] why should you avoid that let me show
+[5:11] you now you might think it's a good idea
+[5:13] because it makes a nice connection
+[5:14] between the two wires however for
+[5:17] testing an inspection it's an absolute
+[5:18] nightmare because there's a break in the
+[5:20] ring circuit and an electrician needs to
+[5:23] split these conductors up it's not as
+[5:25] simple as just taking the socket face
+[5:27] off and separating the ends they've got
+[5:28] to physically remove the Earth's leaving
+[5:31] and untwist the wires and also it can
+[5:34] just put unnecessary strain on these
+[5:36] wires and cause them to break
+[5:37] prematurely which is not ideal so Earth
+[5:39] sleeving comes on rolls like this I
+[5:41] think it's 100 meter roll it's very
+[5:43] cheap you can pick it up from your leg
+[5:44] local electrical wholesaler and a little
+[5:46] tip is just slide it over the wire like
+[5:49] that
+[5:50] and then to get it to the right length
+[5:51] slide it right up to the butt of the
+[5:53] cable bend it over then slide it back by
+[5:55] the amount that you want to be exposed
+[5:57] and then just cut it off
+[6:00] like so and then slide it back now what
+[6:03] I like to do is a nice little extra is
+[6:05] just bend these over
+[6:07] we call it doubling up
+[6:09] bend them back over on themselves
+[6:11] because the CPC wires are a little bit
+[6:13] smaller than the main wires the live and
+[6:16] neutral you want to get a bit of extra
+[6:18] strength on it for when you screw your
+[6:21] terminal screw into it so if you've only
+[6:23] got two wires in a socket like this I
+[6:25] would generally double them up like that
+[6:27] and then it gets a better connection now
+[6:30] you might notice at the back of the
+[6:31] socket there's a little Earth terminal
+[6:33] to Earth the back box of the socket this
+[6:36] is not a hundred percent needed but it's
+[6:39] a nice little touch to connect what we
+[6:40] call a flying lead or a little bit of
+[6:42] Earth wire into that and connect that
+[6:44] into the face plate as well that just
+[6:46] means that when you've got the face
+[6:47] plate Off the Wall the back box is still
+[6:49] Earth from the face plate normally it'll
+[6:52] be Earth through the screws anyway when
+[6:53] it's screwed back it's just a nice nice
+[6:55] little touch not essential but if you
+[6:57] want to do things really by the book and
+[6:59] top-notch quality that's a nice thing
+[7:01] that I would do so that flying lead is
+[7:03] connected into the back box now and what
+[7:05] I'll do in general is cut them to the
+[7:07] same length as the main Earthwise so
+[7:09] that will fit neatly into the back of
+[7:10] the socket now we're fitting one of
+[7:12] these USB sockets today which is one
+[7:14] common reason why you might swap a face
+[7:16] plate over and there's another easy
+[7:19] mistake that people make when swapping
+[7:21] USB sockets which is not having a deep
+[7:24] enough back box so often the back boxes
+[7:27] of sockets are quite shallow and they
+[7:29] fit perfectly with a normal size socket
+[7:31] like this but when it comes to fitting a
+[7:34] USB socket it's quite a lot deeper and
+[7:37] so you will need an extra deep back box
+[7:38] so it sometimes turns a simple DIY job
+[7:41] like swapping a face plate into quite a
+[7:43] complicated one of changing a back box
+[7:45] as well in which case you might need
+[7:47] Plastering and decorating doing so this
+[7:49] is the 35mm deep back box the standard
+[7:52] back box depth in the UK for sockets is
+[7:54] 25 mil that extra 10 mil makes all the
+[7:57] difference so sometimes it's worth to
+[7:58] check the depth of the back boxes before
+[8:00] you start changing the sockets you can
+[8:02] get some brands that have got quite slim
+[8:05] back plates on the sockets to enable you
+[8:07] to fit them with an old 20 five mil star
+[8:10] back box but definitely worth a double
+[8:12] check so the other day we came across a
+[8:14] customer who had actually wired up his
+[8:16] own house
+[8:17] and he'd done brand new wiring like this
+[8:20] but the trouble was he'd actually cut
+[8:23] all the wires way too short in the back
+[8:25] boxes so they were all cut back to like
+[8:28] there and it was just impossible to then
+[8:30] terminate them in properly he'd managed
+[8:33] to do it somehow but he'd wired up all
+[8:35] the sockets the wrong way around and we
+[8:37] could barely even get the front covers
+[8:39] off the sockets to check it was just a
+[8:41] complete nightmare so we ended up having
+[8:43] to rewire half of the sockets ourselves
+[8:45] just to get the right length on the
+[8:47] cables so I'd always advise you to make
+[8:49] sure you don't strip them back far leave
+[8:52] yourself plenty of wiring to just neatly
+[8:55] tuck the wires into the back of the box
+[8:56] and therefore you avoid that whole
+[8:59] guitar string wiring disaster now to
+[9:01] avoid loose connections there's a simple
+[9:03] trick once you've tightened up the screw
+[9:04] just give a little pull on the backs of
+[9:06] the wires to make sure that they don't
+[9:08] pull out of the terminals that indicates
+[9:10] that they're all securely in place some
+[9:12] sockets like this do have two Earth
+[9:13] terminals one on each side so you can
+[9:15] split the Earthwise between them but
+[9:17] they're all joined by the metal bar
+[9:18] along the back so it's fine to use both
+[9:21] terminals in this case you've got three
+[9:22] wires it just gives you a bit more space
+[9:24] now you might find when screwing the
+[9:27] socket back sometimes the screws will
+[9:28] get threaded they use these little M 3.5
+[9:31] screws machine screws and they can
+[9:34] easily get threaded and the lugs at the
+[9:36] back of the box that the screw goes into
+[9:38] just get threaded and you need to
+[9:40] re-thread them so I've got one of these
+[9:42] tools and I'll show you how to do that
+[9:43] now so you can see this screw has been
+[9:45] threaded because the lug has lost its
+[9:48] thread so I'm going to use is this
+[9:50] little 3.5 mil tap and you just line it
+[9:53] up in a straight line into the lug of
+[9:56] the socket
+[9:57] and screw it in gently
+[10:00] that should just re-thread that M 3.5
+[10:04] lug and enable you to then get a new
+[10:07] screw in and it's sit back securely if
+[10:10] you're an electrician this is a
+[10:12] must-have in your tool bag and as with
+[10:13] all the tools that we've used today I'll
+[10:15] leave a link in the description below
+[10:16] where you can pick some up for
+[10:17] yourselves
+[10:18] [Music]
+[10:24] now the final step is very important
+[10:26] you've got to test to see if it actually
+[10:28] works and is safe so here I've got my
+[10:30] plug-in tester this is an expensive
+[10:32] professional piece of Kit which does
+[10:34] lots of tests however you could use a
+[10:36] simple plug-in voltage tester so as you
+[10:39] can see here it's showing the voltage
+[10:40] and I can even do an earth Loop
+[10:42] impedance test to make sure it's all
+[10:43] left correctly and an rcd test to make
+[10:46] sure the rcd operates properly so to
+[10:48] summarize the five mistakes you should
+[10:50] avoid number one make sure you turn the
+[10:52] power off number two make sure you get
+[10:55] the polarity correct number three make
+[10:57] sure you sleeve the Earth wires and
+[10:59] connect them incorrectly number four
+[11:01] don't twist wires together and number
+[11:03] five don't cut the wires too short now
+[11:06] I'm sure I've missed other classic
+[11:07] mistakes that people make when
+[11:09] connecting sockets so let me know all of
+[11:10] the dodgy mistakes that you've found in
+[11:12] the comments below and if you did enjoy
+[11:15] this video why not like And subscribe to
+[11:17] see some really high skilled electrical
+[11:20] work done and as a disclaimer that I
+[11:22] want to leave with you guys is that in
+[11:24] general if you're not confident doing
+[11:25] electrical work even a straight swap
+[11:27] like this which can be done by a DIY
+[11:29] just don't do it call a local qualified
+[11:32] electrician but either way I hope you've
+[11:35] enjoyed watching this video and if you
+[11:36] have there's two more videos up here
+[11:38] that YouTube thinks you might enjoy so
+[11:40] why not grab a cup of tea and watch one
+[11:42] of those
