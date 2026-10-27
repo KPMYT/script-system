@@ -52,6 +52,8 @@ The sample is 37 proven HVAC videos (`../inputs/videos.md`): 25 real-person vide
 
 ## 2. What the pack should take (suggestions, for the operator)
 
+**The operator's answers (2026-10-27):** 1 potentially, not always; 2-9 agree; 10 agree, but not always needed; 11 the operator decides later; 12 agree. Recorded in `HANDOFF.md` §3.
+
 | # | Suggestion | Evidence | Fits the diagnosis as… |
 |---|---|---|---|
 | 1 | **Open on the breakdown moment or the quote,** then the point by about 15-30 s: the cold night, the heat wave, "they can't come till Tuesday", "they told me I need a whole new unit". | §1.1, §1.2; real-person first value 0:30 | ADAPT: the pains in "The opening" and emotion rule 2 |
