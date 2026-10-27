@@ -249,6 +249,20 @@ From the review of the seven newest uploads and two VA chats (`studies/recent-up
 - **The voiceover copy's tags stay as they are** ("the VO copy tags sound fine for now. leave as is").
 - **Sawdust Sam goes into `main`** (the 2026-10-23/24 branch `claude/determined-darwin-3u43bh`, already on the account).
 
+### Operator decisions, 2026-10-27 (Roger the HVAC Guy: the diagnosis questions)
+
+From the operator's answers to the 11 questions in `drafts/hvac-pack-diagnosis-DRAFT.md` §9 (the HVAC chat, branch `claude/hvac-research-czb2hy`).
+- **Same man, same voice:** "roger is same voie same man." Roger the HVAC Guy is the same Roger as Roger the Pipe Guy (45 years), with the same ElevenLabs voice. *Reading recorded:* his profile copies the Pipe Guy's persona; only the trade, the villains' targets and the safety rules change.
+- **No book for now:** "no book for now." Read as option (a): no mid-video CTA, a one-line subscribe ask at the end, then the comment ask (the Vintage Pipefitter's pattern).
+- **His personal detail:** "3 yes": he checks his own furnace filter on the first of the month, with his coffee (at most one per script).
+- **The test voiceover** (how the voice says HVAC, MERV and AFUE; words per minute): "we will do this later."
+- **Where DIY stops:** "depends the title." *Reading recorded:* no fixed DIY line in the profile (the Pipe Guy's "never gas, electrical" hard no doesn't carry as it is); each title and brief sets what the viewer does, and the HVAC safety defaults still apply where the brief is silent (the brief wins, as in plumbing).
+- **The two channels never mention each other:** "6 never." Each profile gets a ban on the other channel's name, short forms included; this changes Roger the Pipe Guy's profile too, applied when the HVAC profile is built.
+- **No dated-facts rule:** "no need."
+- **The HVAC script and comment study first:** "yes please very imp."
+- **Everything marked KEEP** in the diagnosis is copied from the plumbing pack as it is (the opening, emotion, villain rules, ending, length, money, banned list, the escalation line): "11 yes."
+- **Asked back by the operator:** what the brand-verdict rules are (question 8) and what the seven scanner gaps are (question 10); explained in chat, waiting.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

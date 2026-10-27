@@ -2,6 +2,8 @@
 
 Written 2026-10-27 by the HVAC chat (branch `claude/hvac-research-czb2hy`), for the operator's ask: "take and diagnose current script writer, plumbing scripts skills and lets figure what needs to be adapted and whta can remain as is. look through every possible variable". **Nothing in any skill has changed.** This is the plan; every change still goes to the operator first.
 
+**The operator's answers (2026-10-27), recorded in `HANDOFF.md` §3:** 1 same man, same voice; 2 no book for now (subscribe ask at the end); 3 yes (the filter check on the first of the month); 4 later; 5 "depends the title" (no fixed DIY line; the brief decides, the safety defaults stay); 6 never mention each other; 7 no dated-facts rule; 8 asked what the brand-verdict rules are; 9 yes, the study first; 10 asked what the gaps are; 11 yes to everything marked KEEP.
+
 **What was read:**
 - The plumbing pack **as installed on the account.** It's one step ahead of `main`: it has the 2026-10-27 escalation-line option and model R21, from branch `claude/festive-planck-2e8f22`.
 - `personas/roger-the-pipe-guy.md`, the core (`core/`, including `script-scanner.py`), `tools/build_skills.py`, `tests/run_checks.py`, `HANDOFF.md` §3, `PROPOSALS.md` and `PINNED.md`.
