@@ -118,6 +118,8 @@ def main():
             q = line[a_ + 1:b_]
             if " " not in q.strip():
                 continue      # a label such as "I/me/my", not a quoted line
+            if re.match(r"\s*(?:=|->)", line[b_ + 1:]) or re.search(r"'s\s*$", line[:a_]):
+                continue      # a key word before " = " (Title word: "won't stay in" = ...), or a source's pattern (sample 2's "...")
             if "[" in q or re.search(r"\bE\d\d\b[^\"]{0,15}$", line[max(0, a_ - 20):a_]):
                 continue      # a pattern ("Number [two] is..."), or a model's line
             parts = [p for p in re.split(r"\.\.\.|\u2026|\s/\s", q) if len(norm(p).split()) >= 3]
