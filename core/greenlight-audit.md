@@ -52,7 +52,7 @@ description: The final quality gate every script passes before it ships. Six gro
 
 - **D1. The shape test.** Every sentence is tested against the niche pack's voice samples, or the persona profile's if it overrides them. Quote one matched line.
 - **D2. The humanizer sweep,** H1-H23 (`humanizer.md`), including the counts for H20, H21 and H23.
-- **D3. The scanner.** Run `script-scanner.py` with the niche pack and persona profile as rules files, the fact source as the pack (the research pack, or the brief where the niche pack doesn't use one), the locked title with `--title`, and the niche pack's copy-guard files (woodworking: `excerpts.md` and `reference-scripts.md`; a pack may name others, as plumbing does) plus the persona profile with `--refs`. Hard bans, mechanical problems, niche bans, once-per-script limits, production notes read aloud, repeated sentences, persona facts (tenure, near-miss names) and "copied from reference" findings must all be zero. A line the scanner flags as talking about its own thumbnail or title is judged: keep it only if it pays off the title honestly. The evidence block's Scanner line comes from a real run on the delivered text (quotes straightened, every fix applied); where the scanner couldn't run, the line starts "checked by hand" and never reports a count it didn't measure.
+- **D3. The scanner.** Run `script-scanner.py` with the niche pack and persona profile as rules files, the fact source as the pack (the research pack, or the brief where the niche pack doesn't use one), the locked title with `--title`, and the niche pack's copy-guard files (woodworking: `excerpts.md` and `reference-scripts.md`; a pack may name others, as plumbing does) plus the persona profile with `--refs`. Run it with `--final` on the delivered text. Hard bans, mechanical problems (voice tags in the script among them), niche bans, once-per-script limits, production notes read aloud, repeated sentences, sentences over 35 words, the length minimum, persona facts (tenure, near-miss names) and "copied from reference" findings must all be zero. A line the scanner flags as talking about its own thumbnail or title is judged: keep it only if it pays off the title honestly. The evidence block's Scanner line comes from a real run on the delivered text (quotes straightened, every fix applied); where the scanner couldn't run, the line starts "checked by hand" and never reports a count it didn't measure.
 - **D4. Numbers trace to the fact source** (the research pack, or the brief where the niche pack doesn't use one). Every number appears in the pack, or is worked out from pack numbers with the math shown in the evidence block. A number the video relies on that traces to nothing is a Hold.
 - **D5. Contrast and poster-quote lines.** At most one "it's not X, it's Y" reframe, and only one earned poster-quote line, if any.
 
@@ -136,5 +136,12 @@ Scanner: [run on the delivered text | checked by hand] | hard bans 0 | mechanica
 Voice: samples used = [which]; matched line = "[a script line]"
 Originality: [n]/7 (missing: [which]) | red flags 0
 Length: [spoken words] words = about [minutes] minutes at [words per minute] (minimum 8, or the niche pack's)
+Items: [paste the scanner's ITEMS line and its item words line exactly] (none in a script with no numbered items)
+Sentences: [paste the scanner's SENTENCES line exactly]
+I-verdicts: [n] of [N] items | 1 = "[line]" | 2 = "[line]" … | none in: [items]
+Turns: "but" in [n] of [N] items | reframes [n] = "[line]"
+Title word: "[key word]" = "[line]" ([where]), "[line]" ([where]), …
 Rules (F): clean, or [the finding]
 ```
+
+**Every quoted line is copied exactly from the delivered script,** and every count comes from the scanner's run, never from memory (P13, 2026-10-27: plumbing run 03's audit claimed "mechanical 0" over 122 curly quotes and quoted originality facts the script didn't contain). Originality counts a signal only with the script line that carries it, quoted. A quoted line the script doesn't contain fails the audit. In tests, the main session runs `tools/verify_output.py` on the saved output before the judge reads it, and its findings go to the judge as facts.

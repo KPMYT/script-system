@@ -442,7 +442,7 @@ check("38. 'absolutely criminal' passes once and is limited to once; the pack's 
 # 39. core: straight quotes, and the scanner line comes from a real run on the delivered text (or says "checked by hand")
 wf=open(f"{CORE}/workflow.md").read(); ga=open(f"{CORE}/greenlight-audit.md").read()
 check("39. core: straight quotes before the final scan; the Scanner evidence line is a real run on the delivered text or 'checked by hand'",
-      "**Straight quotes and apostrophes only**" in wf and "Run it last on the exact text that will be delivered" in wf
+      "**Straight quotes and apostrophes only**" in wf and "Run it last, with `--final`, on the exact text that will be delivered" in wf
       and "Scanner: [run on the delivered text | checked by hand]" in ga and "never reports a count it didn't measure" in ga)
 
 # ---- Sawdust Sam relaunch (2026-10-23) ----
@@ -609,7 +609,7 @@ check("51. electrical pack: no money, the stakes section, P11 opening promise, s
 
 # 52. electrical voice (review R4, 2026-10-27): the brief's short forms fail; the spoken forms and years before a capital "A" pass;
 #     the P11 promise passes the copy guard and fails on a second use; Frederick's old sign-off fails; his old tics fail on the second use.
-#     (The tenure-in-words and number-check parts wait for the core scanner proposal P13.)
+#     (The tenure-in-words and number-check parts are checks 53 and 54, since P13 was approved.)
 bad_v=["Run 12-2 cable to the outlet.","A regular outlet is a NEMA 5-15.","It lasts 15-20 years.","Your panel is a 120/240 panel.",
        "The heater pulls 1500w on high.","Most outlets run at 120v.","Use 14 awg copper.","Plug in the CO alarm.","Box fill is 2.25 cu in. per wire.",
        "A new outlet runs about twenty dollars.","Your electric bill goes up.","Hey there, folks.","It's just 120 volts.","Ask me how I know."]
@@ -629,6 +629,67 @@ check("52. electrical voice and claims: short forms fail, spoken forms and years
       not f_v and not p_v and p11[0]==0 and p11x2[0]==1 and shift[0]==1 and "next shift" in shift[1]
       and "the palm check" in tics[1] and "tonight" in tics[1] and not stories,
       f"bad passing: {f_v}; good failing: {p_v}; p11: {p11[1][-300:] if p11[0] else ''}; stories passing: {stories}")
+
+# ---- P13: the core checker fixes (operator, 2026-10-27: E1 "apply all") ----
+# 53. tenure (R4 B1-B2, R5 M14): "thirty-five years in the trade" passes for tenure 35, the same for Mark's "forty-five";
+#     a wrong tenure said the electrician way fails; a wiring age doesn't count as tenure
+ten_good=[l for l in ["In thirty-five years in the trade, I'd replace that one first.","Thirty five years in the trade taught me one thing.",
+                      "After thirty-five years of doing this, I'd replace it."] if run_scan(l+"\n",[ELR,FRED])[0]!=0]
+mark_good=run_scan("In forty-five years in the trade, I'd fix that first.\n",[f"{PERS}/vintage-pipefitter.md"])
+ten_bad=[l for l in ["In 25 years as an electrician, I'd replace it.","I wired houses for 30 years, and I'd replace it.","I'm a 40-year electrician, and I'd replace it.",
+                     "After 25 years of electrical work, I'd replace it.","My twenty-five years in the trade say replace it.","I spent forty years as an electrician.",
+                     "I spent 25 years as a lineman.","In thirty years of wiring houses, I learned one thing."]
+         if "PERSONA FACT: tenure" not in run_scan(l+"\n",[ELR,FRED])[1]]
+ten_age=[l for l in ["Wiring that's forty years old isn't bad, and I'd keep it. Old wiring like that held up for 40 years.",
+                     "That panel has been in the wall for forty years.","If your house has forty years of wiring in it, check the outlets.",
+                     "Your 40-year-old electrical panel deserves a look."] if run_scan(l+"\n",[ELR,FRED])[0]!=0]
+check("53. tenure: 'thirty-five years' in words passes (and 'forty-five' for 45); wrong tenures said the electrician way fail; wiring ages pass",
+      not ten_good and mark_good[0]==0 and not ten_bad and not ten_age, f"good failing: {ten_good}; 45: {mark_good[1][-200:] if mark_good[0] else ''}; bad passing: {ten_bad}; ages failing: {ten_age}")
+
+# 54. numbers in words (R4 M2): "a forty-amp breaker on eight-gauge wire" is number-checked; "twelve-two" is two numbers
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("Copper 14 AWG is protected at 15 A, 12 AWG at 20 A.\n"); brief54=t.name
+num=run_scan("A forty-amp breaker on eight-gauge wire feeds the dryer.\n",[ELR,FRED],pack=brief54)
+num_ok=run_scan("A fifteen-amp breaker on fourteen-gauge wire, a twenty-amp breaker on twelve-gauge.\n",[ELR,FRED],pack=brief54)
+spec54=importlib.util.spec_from_file_location("scan54", SCAN); sc54=importlib.util.module_from_spec(spec54); spec54.loader.exec_module(sc54)
+wn=[sc54.word_numbers(x) for x in ("twelve-two cable","thirty-five years","a hundred and twenty volts","fifteen hundred watts","one-twenty, two-forty")]
+check("54. number words: amp, volt, watt and gauge forms are checked against the fact source; 'twelve-two' is 12 and 2, 'thirty-five' is 35",
+      "NUMBERS NOT FOUND IN THE FACT SOURCE (2)" in num[1] and "NUMBERS NOT FOUND IN THE FACT SOURCE (0)" in num_ok[1]
+      and wn==[[12,2],[35],[120],[1500],[1,20,2,40]], f"{num[1][-200:]} | {num_ok[1][-200:]} | {wn}")
+
+# 55. letter sets and two-way words judged once with a count (R4 M5, M6); "3-in-1" is no unit (m7); voice tags in the script fail (R6 M12);
+#     a sentence over 35 words fails; --final fails a short script (R7 F8)
+lt=run_scan("Press the test button on the GFCI. A GFCI trips fast. Every GFCI has a reset. The fixture stays live.\n")
+inone=run_scan("The 3-in-1 tester is handy.\n")
+tag=run_scan("[chuckles] Check the outlet. [short pause] Then the breaker.\n")
+tag_vo=run_scan("Check the outlet.\n\nVO COPY\n[thoughtful] Check the outlet.\n")
+long_s=run_scan("Check the outlet "+"and then the breaker "*9+"before you call.\n")
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("Check the outlet before you call anyone.\n"); short_s=t.name
+fin=subprocess.run([sys.executable,SCAN,short_s,"--rules",ELR,FRED,"--final"],capture_output=True,text=True)
+nofin=subprocess.run([sys.executable,SCAN,short_s,"--rules",ELR,FRED],capture_output=True,text=True)
+check("55. letters 'GFCI' judged once (x3); 'live' judged; '3-in-1' passes; voice tags in the script fail, in the VO copy pass; a 36-word sentence fails; --final fails a short script",
+      lt[1].count("letters 'GFCI'")==1 and "(x3 in the script)" in lt[1] and "'live' can be said two ways" in lt[1] and inone[0]==0
+      and tag[0]==1 and "voice tag in the script" in tag[1] and tag_vo[0]==0 and long_s[0]==1 and "SENTENCE OVER 35 WORDS" in long_s[1]
+      and fin.returncode==1 and "[LENGTH]" in fin.stdout and nofin.returncode==0, lt[1][-400:]+inone[1][-200:]+tag[1][-200:]+tag_vo[1][-200:]+long_s[1][-200:]+fin.stdout[-200:])
+
+# 56. the ITEMS / SENTENCES report (R7 F11, T6) and tools/verify_output.py (R7 F7, T5) on plumbing run 03 (history is read, never written)
+R03=f"{ROOT}/tests/iterations/iter-04/test-run-03"
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("```scanner\nitem-words: 100-130\nfirst-item-seconds: 30\n```\n"); band=t.name
+rep=subprocess.run([sys.executable,SCAN,f"{R03}/script.txt","--rules",band],capture_output=True,text=True).stdout
+ver=subprocess.run([sys.executable,f"{ROOT}/tools/verify_output.py",f"{R03}/chat-and-output.md","--script",f"{R03}/script.txt",
+                    "--rules",f"{PL}/SKILL.md",f"{PERS}/roger-the-pipe-guy.md"],capture_output=True,text=True)
+check("56. scanner ITEMS/SENTENCES report and verify_output.py: run 03 shows item one at word 139, 0 of 15 in band, longest sentence 45, 'MECHANICAL CLAIMED 0' against 122 curly quotes",
+      "item one at word 139" in rep and "in band 100-130: 0 of 15" in rep and "longest 45" in rep and "<< later than 30 seconds" in rep
+      and ver.returncode==1 and "MECHANICAL CLAIMED 0, the script has 122 curly quotes" in ver.stdout, rep[:600]+ver.stdout[-600:])
+
+# 57. the P13 text: offer rules §5 scoped to offers; the electrical pack allows Federal Pacific's independent test results with the source,
+#     has the numbers-in-words override row and first-item-seconds; core audit carries the quoted evidence lines and --final; check 52's
+#     wait note is gone (P12 rejected: H21 unchanged)
+orr=open(f"{CORE}/offer-rules.md").read(); ga=open(f"{CORE}/greenlight-audit.md").read(); wf=open(f"{CORE}/workflow.md").read(); ek=open(ELR).read()
+check("57. P13 text: offer rules §5 scoped to offers; Federal Pacific test results with the source; numbers-in-words row; audit's quoted evidence lines; --final; 35-word limit",
+      "Negative claims about named companies in a CTA, pitch, description or pinned comment" in orr
+      and "Federal Pacific's independent test results may be said" in ek and "P13 item 6, operator 2026-10-27" in ek and "first-item-seconds: 30" in ek
+      and "Items: [paste the scanner's ITEMS line" in ga and "A quoted line the script doesn't contain fails the audit" in ga and "`--final`" in wf
+      and "**No sentence over 35 words**" in wf, "")
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

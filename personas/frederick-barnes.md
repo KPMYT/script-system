@@ -5,15 +5,17 @@ Built 2026-10-27 from `core/persona-profile-template.md` on the operator's decis
 ```
 PERSONA PROFILE
 Channel: Frederick Barnes
-Status: pending (until the voice provider is confirmed; then ready so the operator's test scripts can run, as Sawdust Sam's was on 2026-10-24; the tests decide any changes)
+Status: ready (operator, 2026-10-27: ElevenLabs, and "mark ready, check later" as Sawdust Sam on 2026-10-24; the voice check below and the tests decide any changes)
 Niche pack: electrical-scripts
 
 THE BASICS
 Script type: Talking Head
-Voice provider: to confirm with the operator (his old voiceovers used one voice throughout; name it here)
+Voice provider: ElevenLabs (operator, 2026-10-27; the voice's name and ID are still to add here)
 Words per minute (for runtime and the length minimum): 195 (his 20 published voiceovers ran 169 to 209, typically about 195; `studies/home-diy/frederick-baseline-2026-10/views.md`)
 Contractions: yes (his 23 old scripts used about 30 per 1,000 words and 20 were voiced with no recorded misreads); confirm on the voice test clip
-Voice check (before Status: ready): read one test paragraph in the chosen voice with GFCI, AFCI, UL, "fourteen-gauge", "twelve-two", "a hundred and twenty volts", "fifteen hundred watts" and five contractions; write here which letter sets it says right (any it fumbles are written as words or with spaces) and whether contractions are fine; re-measure words per minute from that voice.
+Voice check (open: the operator generates the clip and reports back; until then the defaults above stand): generate this paragraph in Frederick's ElevenLabs voice:
+  "Before you touch that outlet, find the GFCI that protects it. If you've got an AFCI breaker, it's the same idea, just for arcing. Look for the UL mark on anything you buy. It'll say fourteen-gauge on the cable, or twelve-two if it's the heavier kind. That outlet runs at a hundred and twenty volts, and a space heater can pull fifteen hundred watts. Don't guess. You'll know it's right when it doesn't wiggle, and I'd test it again anyway. The fixture stays live, so keep your hands off a live wire."
+  Write here: which letter sets it says right (GFCI, AFCI, UL; any it runs together are written with spaces, "G F C I", in every script); whether the contractions (you've, it's, It'll, Don't, You'll, doesn't, I'd) are clean; whether "live" is said right both times; and the words per minute it reads at (the paragraph is 92 words: words per minute = 92 x 60 / the clip's length in seconds; if it differs from 195, change the line above).
 
 THE PERSONA
 Name: Frederick Barnes

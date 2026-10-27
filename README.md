@@ -75,6 +75,7 @@ Copies of the operator's claude.ai ideation skills, brought in to be edited here
 | File or folder | What's in it |
 |---|---|
 | `tools/build_skills.py` | Builds the installable skills from the library into `dist/` (one `.skill` file each, `script-writer` also as a `.zip`, plus the full bundle as one zip). Run it after any change, then re-upload. |
+| `tools/verify_output.py` | Re-counts a saved script output against its own AUDIT EVIDENCE block: curly quotes against "mechanical n", words against Length, items and sentences, and every quoted evidence line against the script (P13, 2026-10-27). The main session runs it on every test output before the judge. |
 | `tools/verify_plumbing_models.py` | Checks every plumbing model file's labelled script against its study transcript, word for word (session 4). |
 | `dist/` | **Generated, never edited by hand.** One skill per layer: `script-writer.skill` (the core, START), `woodworking-scripts.skill` and `plumbing-scripts.skill` (the niche packs), `hank-hardwood-persona.skill`, `dale-oakfield-persona.skill`, `roger-the-pipe-guy-persona.skill` and `mark-silverbridge-persona.skill` (profile plus book), `vintage-pipefitter-persona.skill` (profile only), `woodworking-ideation.skill`, `ideation-core.skill`; the unzipped folders; `script-writer.zip` (the same skill as `script-writer.skill`); and `INSTALL.md` (how to install them, not itself a skill). The build checks claude.ai's upload rules (one SKILL.md, frontmatter, name, description up to 1,024 characters). |
 
@@ -112,7 +113,7 @@ Drafts waiting for the operator's yes go here; nothing in it is part of the libr
 
 ## tests/
 
-`run_checks.py`: 52 automated checks across the whole library, including the copy guard, the fraction-word scanner check, the "e-book" ban on every profile, and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over its own SKILL.md and every model file, the emotion rules, item shape, CTA template and number cap, the plumbing profiles and the channel list), and the core's straight-quotes and real-scanner-line rules, the written-for-the-voice scanner check (44) and the plumbing count line in place of the promise block (45). Run it after any edit.
+`run_checks.py`: 64 automated checks across the whole library, including the copy guard, the fraction-word scanner check, the "e-book" ban on every profile, and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over its own SKILL.md and every model file, the emotion rules, item shape, CTA template and number cap, the plumbing profiles and the channel list), and the core's straight-quotes and real-scanner-line rules, the written-for-the-voice scanner check (44) and the plumbing count line in place of the promise block (45), the electrical pack and Frederick (46-52), and the P13 core checker fixes (53-57: tenure in words, number words, letter sets once, voice tags, the 35-word sentence limit, `--final`, the ITEMS and SENTENCES report, `verify_output.py`). Run it after any edit.
 
 ## tests/iterations/
 

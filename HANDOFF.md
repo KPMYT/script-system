@@ -261,6 +261,17 @@ From the review of the seven newest uploads and two VA chats (`studies/recent-up
 - **P11, the opening may carry one value promise** (an escalation, or "by the end of this video you'll know X and Y", never the first items in order): see `PROPOSALS.md` P11. Electrical only.
 - **Confirmed later the same day:** the 12-minute minimum with 15 to 22 the aim ("ok to 1"); the ending, a one-line subscribe ask then the comment ask last, as plumbing's P5 ("ok to 2, anad we say we read every comment": the comment line says he reads every comment). Default kept, not asked: the research pack is not used (the brief and the facts guide are the fact source).
 
+### Operator decisions, 2026-10-27, the electrical scripting chat (session 9): answers to E1-E6 and P12
+
+Asked as multiple choice; the operator picked:
+- **E1, P13's core checker fixes: "Yes, apply all".** The tenure bug (words and electrician phrasing), number words in the fact check, letter sets and two-way words judged once with a count ("live" added), the "3-in-1" false positive, voice tags in the script are fix-on-sight, `--final` fails a script under the length minimum, the scanner's ITEMS and SENTENCES report, `tools/verify_output.py` (run by the main session on every saved test output before the judge), the core evidence block's quoted lines (Items, Sentences, I-verdicts, Turns, Title word; every quote copied from the script), and **no sentence over 35 words on every channel** (fix-on-sight).
+- **E2, numbers in words: "Yes, words".** Electrical writes volts, amps, watts, wire and cable sizes and plug codes in words; years stay digits (overrides row in the electrical pack).
+- **E3, titles with another years figure: "No, title wins".** P13 item 7 is rejected: the locked "title numbers win" rule stands for Frederick too (a "30 years" title means 30 in that script).
+- **E4, named companies: "Yes to both".** Offer rules §5's named-company ban covers CTAs, pitches, descriptions and pinned comments; in the body, named companies follow the claims policy. Federal Pacific's independent test results may be said with the source named (facts guide 9.15).
+- **E5, Frederick's voice: ElevenLabs** (voice name and ID not given yet). **"Mark ready, check later"**, as Sam on 2026-10-24: Frederick is `ready`; the voice-check paragraph is in his profile for the operator to generate and report back.
+- **E6, the electrical ideation skill's "after all the houses I've worked in": "No, leave it".** The script pack's scanner still bans the line.
+- **P12, "doesn't X. It Y." as the one reframe: "No".** H21 stays as it is.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.
