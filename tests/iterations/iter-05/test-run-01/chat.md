@@ -39,7 +39,7 @@ I can't write it yet. Two things are still missing:
 Title: The REAL Reason Your Plug Won't Stay In The Outlet
 
 Brief:
-[the A12 brief, verbatim as in ../brief-A12.txt]
+[the BRIEF paragraph of ../brief-A12.txt, word for word; the "REFERENCE (judge only)" line was not pasted. The main session relayed exactly what the operator helper wrote.]
 
 ## Chat, turn 4
 Thanks, the title and the brief are both in.
