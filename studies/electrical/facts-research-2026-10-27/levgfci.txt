@@ -1,0 +1,288 @@
+                                                                                                              1. What is a GFCI?                                   2. The GFCI's features
+                                                                     ! CAUTION                                A GFCI receptacle is different from                                      FRONT VIEW                                                                                     BACK VIEW
+                                                             • To prevent severe shock or electrocution       conventional receptacles. In the event of a
+                                                               always turn the power OFF at the               ground fault, a GFCI will trip and quickly stop
+                                                                                                                                                                                                                                                                                                                      Screw (terminal) colors:
+                                                               service panel before working with wiring.      the flow of electricity to prevent serious injury.   Receptacle                                                                                                                                         Silver = WHITE terminals
+                                                             • Use this GFCI with copper or                   Definition of a ground fault:                                                                                                                                                                           Brass or Black = HOT terminals
+        Installing and                                         copper-clad wire. Do not use it with
+                                                               aluminum wire.
+                                                                                                              Instead of following its normal safe path,
+                                                                                                                                                                                                                                                                  *Back wire
+
+
+
+
+                                                                                                                                                                                                      FOLLOW INSTRUCTIONS
+                                                                                                              electricity passes through a person's body to
+
+
+
+
+                                                                                                                                                                                                       SUIVEZ INSTRUCTIONS
+       Testing a GFCI                                        • Do not install this GFCI receptacle            reach the ground. For example, a defective
+                                                                                                              appliance can cause a ground fault.
+                                                                                                                                                                                                                             Outlet           LINE
+                                                               on a circuit that powers life support                                                                                                                                          Hot terminal (Brass or Black):
+          Receptacle                                           equipment because if the GFCI trips it
+                                                               will shut down the equipment.                  A GFCI receptacle does NOT protect against
+                                                                                                                                                                   Guidelight
+                                                                                                                                                                   sensor
+                                                                                                                                                                                                                             RESET
+                                                                                                                                                                                                                             button:
+                                                                                                                                                                                                                                              Connection for the LINE
+                                                                                                                                                                                                                                              cable's black wire                                LINE
+                                                                                                                                                                                                                                                                                               LIGNE                  LINE
+                                                                                                              circuit overloads, short circuits, or shocks. For                              RESET
+                                                                                                                                                                                             RESET                           See step 8
+    Please read this leaflet                                 • For installation in damp or wet locations,                                                          Guidelight                                                                                                                                         White terminal (Silver):
+
+
+
+
+                                                                                                                                                                                                                                                                                                        WHITE WIRE
+                                                                                                                                                                                                                                                                                                        FIL BLANC
+                                                                                                              example, you can still be shocked if you touch                                                                                  LOAD
+
+
+
+
+                                                                                                                                                                                                                                                                                   HOT WIRE
+                                                                                                                                                                                                                                                                                   FIL ACTIF
+                                                               the GFCI receptacle must be Listed and                                                                                                                                                                                                                 Connection for the LINE
+completely before getting started.                                                                            bare wires while standing on a non-conducting
+                                                                                                                                                                   TEST button:
+                                                                                                                                                                                              TEST
+                                                                                                                                                                                              TEST
+                                                                                                                                                                                                                             Guidelight       Hot terminal (Brass or Black):                                          cable's white wire
+                                                               marked as Weather Resistant (WR)               surface, such as a wood floor.
+                                                                                                                                                                   See step 8                                                                 Connection for the LOAD
+
+
+
+
+                                                                                                                                                                                                      TEST MONTHLY
+                                                                                                                                                                                                      TEST MENSUEL
+                                                             • For installation in wet locations,                                                                                                                            Outlet           cable's black wire
+                                                                                                              NOTE:                                                                                                                                                                             LOAD                  LOAD
+        Avoid miswiring the GFCI.                               protect the GFCI receptacle with a                                                                                                                                                                                             CHARGE
+                                                                                                              GFCI's contain a lockout feature that will                                                                                      A yellow sticker covers                                                 White terminal (Silver):
+     See video link for help on wiring.                         weatherproof cover that will keep both
+                                                                the receptacle and any plugs dry.             prevent RESET if:                                                                                              White/           the LOAD terminals.                                                     Connection for the LOAD
+                                                                                                                                                                   Self-Ground                                               Red              DO NOT remove the                                                       cable's white wire
+                                                               - This GFCI Receptacle is not                  •   There is no power being supplied to
+                                                                                                                                                                   Clip                                                      Status           sticker at this time.
+                                                                 Weather-Resistant (WR) and                       the GFCI.
+                                                                                                              •   The GFCI is miswired due to reversal of                                                                    Indicator
+                                                                 should not be installed in damp or                                                                Mounting                                                  LED
+                                                                                                                  the LINE and LOAD leads.
+                                                                 wet locations.                                                                                    Bracket
+                                     PK-A3081-10-00-2J-W                                                      •   The GFCI cannot pass its internal test,
+                                                             • Must be installed in accordance with               indicating that it may not be able to provide
+                                                               national and local electric codes.                 protection in the event of a ground fault.
+
+
+3. Should you install it?                                  4. LINE vs. LOAD                                   5. Turn the power OFF                                6. Identify cables/wires                                               Procedure: box with two (2) cables (4-6 wires):
+                                                                                                                                                                                                                                                                                                        Placement in circuit:
+                                                                                                                                                                                                                                          (a) Detach one cable's white wire and hot                     The GFCI's place in the circuit determines if
+Installing a GFCI receptacle can be more                   A cable consists of 2 or 3 wires.                  Plug an electrical device, such as a lamp or         Important:                                                                                                                           it protects other receptacles in the circuit.
+                                                                                                                                                                                                                                              wires from the receptacle and cap each
+complicated than installing a conventional                                                                    radio, into the receptacle on which you are          DO NOT install the GFCI receptacle in an                                   one separately with a wire connector.
+receptacle.                                                              Cable           Wires                working. Turn the lamp or radio ON. Then, go         electrical box containing (a) more than four (4)                           Make sure that they are from the                          Sample circuit:
+                                                                                                              to the service panel. Find the breaker or fuse       wires (not including the grounding wires) or
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                 WEB VERSION
+                                                                                                                                                                                                                                              same cable.
+Make sure that you:                                                                                           that protects that receptacle. Place the breaker     (b) cables with more than two (2) wires (not
+                                                                                                              in the OFF position or completely remove the         including the grounding wire). Contact a                                                                                                                      A       B           C
+                                                                                                              fuse. The lamp or radio must turn OFF.               qualified electrician if either (a) or (b) are true.                   (b) Re-install the receptacle in the electrical                                 LINE       LINE        LINE
+•   Understand basic wiring principles and                                                                                                                                                                                                    box, attach faceplate, then turn the power
+    techniques                                                                                                                                                                                                                                ON at the service panel.                                      Service
+                                                           LINE cable:                                                                                             If you are replacing an old receptacle, pull it out                                                                                       Panel
+•   Can interpret wiring diagrams                          Delivers power from the service panel (breaker                                                          of the electrical box without disconnecting
+                                                                                                                                                                   the wires.                                                             (c) Determine if power is flowing to the
+                                                           panel or fuse box) to the GFCI. If there is only                                                                                                                                   receptacle. If so, the capped wires are the                                LOAD        LOAD
+
+•   Have circuit wiring experience                         one cable entering the electrical box, it is the                                                                                                                                   LOAD wires. If not, the capped wires are the
+                                                           LINE cable. This cable should be connected to                                                           •   If you see one cable (2-3 wires), it is the                            LINE wires.
+                                                           the GFCI's LINE terminals only.                                                                             LINE cable. The receptacle is probably in                                                                                        Placing the GFCI in position A will also
+•   Are prepared to take a few minutes to test                                                                                                                         position C (see diagram to the right).                                                                                           provide protection to "load side"
+    your work, making sure that you have wired                                                                                                                         Remove the receptacle and go to step 7A.                           (d) Turn the power OFF at the service panel,                  receptacles B and C. On the other hand,
+    the GFCI receptacle correctly                          LOAD cable:                                                                                                                                                                        label the LINE and LOAD wires, then
+                                                           Delivers power from the GFCI to another                                                                                                                                                                                                      placing the GFCI in position C will not
+                                                                                                                                                                                                                                              remove the receptacle.                                    provide protection to receptacles A or B.
+                                                           receptacle in the circuit. This cable should be    Next, plug in and turn ON the lamp or radio at       •   If you see two cables (4-6 wires), the
+                                                           connected to the GFCI's LOAD terminals only.       the receptacle's other outlet to make sure the           receptacle is probably in position A or B                                                                                        Remember that receptacles A, B, and C
+                                                                                                                                                                       (see diagram to the right). Follow steps a-e of                    (e) Go to step 7B.                                            can be in different rooms.
+                                                           The LOAD terminals are under the yellow            power is OFF at both outlets. If the power is not
+                                                           sticker. DO NOT remove the sticker at this time.   OFF, stop work and call an electrician to                the procedure to the right.
+                                                                                                              complete the installation.
+  7. Connect the wires (choose A or B)... only after reading other side completely                                                                                                                                                                                    8. Test your work
+                                                                                                                                                                                                                                                                      Why perform this test?
+     A: One Cable (2 or 3 wires) entering the box       OR       B: Two cables (4 or 6 wires) entering the box                                                                                                                                                        •      If you miswired the GFCI it may not prevent personal injury or death due to a ground fault (electrical shock).                                      RESET
+                                                                                                                                                                                                                                                                                                                                                                                                                                 RESET
+
+                                                                                                                                                                                                                                                                      •      If you mistakenly connect the LINE wires to the LOAD terminals, the GFCI will not reset and will not provide                                         TEST
+                                                                                                                                                                                                                                                                                                                                                                                                                                  TEST
+
+Grounding         LINE cable brings power to the GFCI                                                                                                               LINE cable brings power to the GFCI                                                                      power to either the GFCI receptacle face or any receptacles fed from the GFCI.
+                                                                                                                             Grounding connection
+connection to                                                                                                                                                                                                                                                         Procedure:
+                                                                                                                             to box (if box has a
+box (if box has a                                                                                                                                                               White                                                                                 (a) This GFCI is shipped from the factory in the tripped condition and cannot be reset until it is wired
+                                                                                                                             grounding terminal)
+grounding terminal)                  White                                                                                                                                                                                                                                correctly and power is supplied to the device. If you choose to relocate the GFCI, please return the outlet
+                                                                                              Yellow                                                                                                                                                                      to this configuration by pressing the TEST button before you move it. Plug a lamp or radio into the GFCI
+                                                                                              sticker                        Wire                                                                                                                                         (and leave it plugged in). Turn the power ON at the service panel. Ensure that the GFCI is still in the
+                                                                                              remains                        Connector                                                                                                                                    tripped condition by pressing the TEST button. If the lamp or radio is OFF, and the GFCI will not reset, go                                            RESET
+                                                                                                                                                                                                                                                                                                                                                                                                                                 RESET
+
+Wire                                                                                          in place                                                                                                                                                                    to the Troubleshooting section as the Line and Load connections are reversed.                                                                            ET ST
+                                                                                                                                                                                                                                                                                                                                                                                                                                  TEST
+
+Connector                                                                                     to cover                                                                        Black                         LINE
+                                                                                                                                                                                                           LIGNE                                                      (b) Press the RESET button fully and release. If the Status Indicator Light turns ON and the lamp or radio is
+                                                                                              the LOAD                                                                                                                                                                    ON, the GFCI has been installed correctly. If the Status Indicator Light turns or continuously blinks Red,
+
+
+
+
+                                                                                                                                                                                                                    WHITE WIRE
+                                             Black
+
+
+
+
+                                                                                                                                                                                                                    FIL BLANC
+                                                                                                                                                                                               HOT WIRE
+                                                                                                                                                                                               FIL ACTIF
+                                                                     LINE                                                    Electrical
+                                                                    LIGNE
+                                                                                              terminals                                                                                                                                                                   or the GFCI cannot be reset, go to the Self-Test Operation section.
+                                                                                                                             Box
+
+
+
+
+                                                                             WHITE WIRE
+                                                                             FIL BLANC
+                                                                                                                                                                              Black
+
+
+
+                                                        HOT WIRE
+                                                                                                                                                                                                                                                                      (c) If you installed your GFCI using step 7B, plug a lamp or radio into surrounding receptacles to see which
+
+                                                        FIL ACTIF
+                                                                                                                                                                                                            LOAD
+                                                                                                                                                                                                           CHARGE
+Electrical                                                                                                                                                                                                                                                                one(s), in addition to the GFCI, lose power when you press the GFCI TEST button. Place a "GFCI
+                                                                                                                                                                              White
+Box                                                                  LOAD                                                                                                                                                                                                 PROTECTED OUTLET" sticker on every receptacle that lost power, then press the RESET button to
+                                                                    CHARGE                                                                                                                                                                                                                                                                                                                                                       RESET
+                                                                                                                              LOAD cable feeds                                                                                                                            reset the GFCI. DO NOT plug life saving devices into any of the receptacles that lost power.                                                           RESET
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                  TEST
+                                                                                                                              power to other                                                                                                                          (d) Press the TEST button (then RESET button) every month to assure proper operation. If the Status                                                         TEST
+
+
+
+                                                                                                                              receptacle(s)                                                                                                                               Indicator Light does not turn White when the RESET button is depressed and then released, or the GFCI
+                                                                                                                                                                                                                                                                          cannot be reset, it must be replaced.
+                                                                                                                             About Wire Connections:                                                                                                                                                                                     TROUBLESHOOTING
+About Wire Connections:                                                                                                                                                                                                                                                   Turn the power OFF and check the wire connections against the appropriate wiring diagram in step 7A or 7B. Make sure that there are no loose
+                                                                                                                             Side Wire:                                                                                                                                   wires or loose connections. Also, it is possible that you reversed the LINE and LOAD connections. If the Status Indicator Light is not ON and the
+Side Wire:                           Back Wire:                                                                                         3/4" (1.9 cm)                                   Back Wire:                                                                        device is unable to reset, this could be a result of no power available. Start the test from the beginning of step 8 if you rewired any connections to
+           3/4" (1.9 cm)                             5/8" (1.6 cm)                                                              Wire                                                                                5/8" (1.6 cm)                                         the GFCI.
+   Wire                                  Wire                                                                                                                                              Wire
+                                                                                                                                                                                                                                                                                                                                         SELF-TEST OPERATION
+                                                                                                                                                                                                                                                                          • A Self-Test GFCI receptacle has all the features of a conventional GFCI receptacle. In addition, this receptacle tests itself periodically to confirm
+                                                                                                                            For Side wire -                                                                                                                                 the GFCI electronics are functional. The Status Indicator Light will be solid white when the GFCI is powered from Line side and working correctly.
+For Side wire - Loop clockwise      For Back wire -                                                                         Loop clockwise 2/3 of the way around screw.
+                                                                                                       LINE                                                                             For Back wire -                                          LINE                     • Self-Test Indications: If the Status Indicator Light is solid or flashing RED a problem may exist. Press the TEST button to trip the GFCI. If unable
+2/3 of the way around screw.        Insert bare wire fully and tighten                                LIGNE
+                                                                                                                            Tighten screws over wire loops to 14-18 in-lbs.
+                                                                                                                                                                                                                                                LIGNE
+                                                                                                                                                                                                                                                                            to Reset, replace the GFCI. NOTE: The status indicator may flash Red at power "ON" and Reset.
+                                                                                                                                                                                        Insert bare wire fully and
+                                                                                                               WHITE WIRE
+
+
+
+
+                                                                                                                                                                                                                                                         WHITE WIRE
+                                                                                                               FIL BLANC
+
+
+
+
+                                                                                                                                                                                                                                                         FIL BLANC
+Tighten screws over wire loops
+                                                                                          HOT WIRE
+
+
+
+
+                                                                                                                                                                                                                                    HOT WIRE
+                                    terminal clamp on conductor
+                                                                                          FIL ACTIF
+
+
+
+
+                                                                                                                                                                                                                                    FIL ACTIF
+                                                                                                                                                                                        tighten terminal clamp on
+to 14-18 in-lbs.                    ONLY. Tighten screws to
+                                                                                                                                                                                        conductor ONLY. Tighten                                                           Self Test Cat. No.          Description
+                                    14-18 in-lbs. Torque value can                                     LOAD                                                                                                                                      LOAD
+                                                                                                      CHARGE
+                                                                                                                                                                                        screws to 14-18 in-lbs.                                 CHARGE
+
+                                                                                                                                                                                                                                                                          GFNL1                       15A-125VAC, 60Hz Tamper Resistant GFCI w/Guidelight
+                                    also be found at
+                                                                                                                                                                                        Torque value can also
+                                    Leviton.com/torquevalue.                                                                                                                                                                                                              GFNL2                       20A-125VAC, 60Hz Tamper Resistant GFCI w/Guidelight
+                                                                                                                                                                                        be found at
+                                                                                                                             Torque value can also be found at                          Leviton.com/torquevalue.                                                          All devices rated 20A feed-through
+                                                                                                                             Leviton.com/torquevalue.
+Torque value can also be found at                                                                                                                                                                                                                                         COPYRIGHT AND TRADEMARK INFORMATION
+Leviton.com/torquevalue.                                                                                                                                                                                                                                                  SmartlockPro is a trademark of Leviton Manufacturing Co., Inc. registered in the United States, Canada, Mexico and China.
+                                                                                                                            Connect the LINE cable wires to the LINE terminals:
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                WEB VERSION
+                                                                                                                            • The white wire connects to the WHITE terminal (Silver)                                                                                      FCC STATEMENT
+                                                                                                                                                                                                                                                                          This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to part 15 of the FCC Rules. These limits are
+                                                                                                                            • The black wire connects to the HOT terminal (Brass or Black)                                                                                designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates, uses and can radiate radio
+Connect the LINE cable wires to the LINE terminals:                                                                         Connect the LOAD cable wires to the LOAD terminals:                                                                                           frequency energy and, if not installed and used in accordance with the instructions, may cause harmful interference to radio communications. However,
+• The white wire connects to the WHITE terminal (Silver)                                                                    • Remove the YELLOW sticker to reveal the LOAD terminals                                                                                      there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television
+• The black wire connects to the HOT terminal (Brass or Black)                                                                                                                                                                                                            reception, which can be determined by turning the equipment off and on, the user is encouraged to try to correct the interference by one or more of the
+                                                                                                                            • The white wire connects to the WHITE terminal (Silver)                                                                                      following measures:
+Connect the grounding wire (only if there is a grounding wire):                                                             • The black wire connects to the HOT terminal (Brass or Black)                                                                                • Reorient or relocate the receiving antenna.
+• For a box with no grounding terminal (diagram not shown): Connect the                                                                                                                                                                                                   • Increase the separation between the equipment and receiver.
+                                                                                                                            Connect the grounding wires (only if there is a grounding wire):                                                                              • Connect the equipment into an outlet on a circuit different from that to which the receiver is connected.
+  LINE cable's bare copper (or GREEN) wire directly to the grounding                                                        • Connect a 6-inch bare copper (or GREEN) 12 or 14 AWG wire to the grounding terminal on the                                                  • Consult the dealer or an experienced radio/TV technician for help.
+  terminal on the GFCI receptacle.                                                                                            GFCI. If the box has a grounding terminal, also connect a similar wire to the grounding terminal on                                         IC STATEMENT
+• For a box with a grounding terminal (diagram shown above): Connect                                                          the box. Connect the ends of these wires to the LINE or LOAD cable's bare copper (or GREEN)                                                 This device complies with Industry Canada licence-exempt RSS standard(s). Operation is subject to the following two conditions: (1) this device may not
+  a 6-inch bare copper (or GREEN) 12 or 14 AWG wire to the grounding                                                                                                                                                                                                      cause interference, and (2) this device must accept any interference, including interference that may cause undesired operation of the device.
+                                                                                                                              wire using a wire connector. If these wires are already in place, check the connections.
+  terminal on the GFCI. Also connect a similar wire to the grounding                                                        Complete the installation:                                                                                                                    PATENT STATEMENT
+  terminal on the box. Connect the ends of these wires to the LINE cable's                                                  • Fold the wires into the box, keeping the grounding wire away from the WHITE and HOT                                                         Patents covering this product, if any, can be found on Leviton.com/patents
+  bare copper (or GREEN) wire using a wire connector.                                                                         terminals. Screw the receptacle to the box and attach the faceplate.
+  If these wires are already in place, check the connections.                                                                                                                                                                                                         FOR CANADA ONLY
+                                                                                                                            • Go to step 8.                                                                                                                           For warranty information and/or product returns, residents of Canada should contact Leviton in writing at Leviton Manufacturing of Canada ULC to the
+Complete the installation:
+                                                                                                                                                                                                                                                                      attention of the Quality Assurance Department, 165 Hymus Blvd, Pointe-Claire (Quebec), Canada H9R 1E9 or by telephone at 1 800 405-5320.
+• Fold the wires into the box, keeping the grounding wire away from the
+  WHITE and HOT terminals. Screw the receptacle to the box and attach                                                                                                                                                                                                 LIMITED 2 YEAR WARRANTY
+  the faceplate.                                                                                                                                                                                                                                                      For Leviton’s limited 2 year product warranty, go to www.leviton.com. For a printed copy of the warranty, call 1-800-824-3005.
+• Go to step 8.                                                                                                                                                                                                                                                                                                                For Technical Assistance Call: 1-800-824-3005 (U.S.A. Only)
+                                                                                                                                                                                                                                                                                                                                     1 800 405-5320 (Canada Only) www.leviton.com
+                                    NOTE: LINE and LOAD wiring terminals accept #10 - #14 AWG solid or stranded copper wire.
+                                                                                                                                                                                                                                                                      © 2026 Leviton Mfg. Co., Inc.                                                                                                                 PK-A3081-10-00-2J-W
+

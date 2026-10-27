@@ -2,7 +2,7 @@
 
 The live note passed from one Claude Code chat to the next. A new chat reads `CLAUDE.md`, then this file, then `HANDOFF.md`, `README.md` and `PINNED.md`, and carries on from "Next actions". The outgoing chat rewrites this file before every handover.
 
-**Last updated:** 2026-10-23, session 7 (branch `claude/amazing-lamport-08irk0`, merged into `main`). Sessions 6 and 7 are summarised below; session 5's notes follow them.
+**Last updated:** 2026-10-27, session 8, the electrical scripting chat (branch `claude/intelligent-ride-v1at70`, merged into `main`). Session 8 is summarised first; sessions 5-7 follow.
 
 ---
 
@@ -51,6 +51,16 @@ Learned in session 5:
 ---
 
 ## Where things stand
+
+### Session 8 (2026-10-27), in short: the electrical pack and Frederick Barnes (branch `claude/intelligent-ride-v1at70`)
+
+The same chat finished the electrical ideation in `KPMYT/niche-research` (17 initial ideas with thumbnail instructions and briefs; the `electrical-ideation` skill, which the operator installed), then built the script skills here.
+
+1. **Operator decisions** (HANDOFF section 3, "Operator decisions, 2026-10-27"): Frederick is the electrical channel; 35 years; no book (a very short subscribe ask, then the comment ask, "we say we read every comment"); Talking Head; models from real channels with 1M+ views, recent; 12-minute minimum, 15-22 the aim; villain optional; the brief can add safety, never remove it; named panels only with CPSC or inspector words; no job stories; no swearing; **P11** (one value promise allowed in the electrical opening, "by the end of this video you'll know…", never items one to three; electrical only).
+2. **Built:** `electrical-scripts/` (SKILL.md, unit plan, facts guide of 277 checked rows with no prices, 37 model files E01-E38 with beat maps and "Emotion voicing", INDEX, voice samples, excerpts, model-file-spec); `personas/frederick-barnes.md` (status **pending**); `core/channels.md` row 7 (pending); build and install text for 13 skills (`tools/build_skills.py`); run_checks 46-52. Study files in `studies/electrical/` (model picks, transcripts, the 99-lesson file, the facts research and re-check, the seven review reports).
+3. **Reviewed by seven checker helpers** (formats, emotion, models, voice and scanner, safety and claims, persona and workflow fit, coverage of the 99 past problems; reports in `studies/electrical/pack-review-2026-10-27/`): 17 blockers, 73 major, 81 minor in all. Every pack- and persona-level fix is applied (CHANGELOG rows of 2026-10-27). The facts guide was re-checked row by row (214 rows: 165 confirmed, 35 adjusted, 9 thin). All 59 checks pass.
+4. **Not done yet:** the skills aren't rebuilt into `dist/` (build after the operator's answers below); no test script has been written; Frederick stays pending until his voice is confirmed.
+
 
 ### Session 7 (2026-10-23), in short: two new channels, research first
 
@@ -110,21 +120,40 @@ Learned in session 5:
 ### Not yet true
 
 - **No plumbing script has passed the judge yet** (run 03 was close; no run 04). Mark and Vintage haven't been tested.
-- **No HVAC or electrical pack, persona or channel entry exists.** The research in niche-research comes first.
+- **The electrical pack exists but hasn't been tested or built into `dist/`;** Frederick is pending. No HVAC pack exists yet (a separate chat).
 - **Werner's lines** in the plumbing ideation and thumbnails skills are not cleaned up (waits for a yes).
 - **The thumbnails skill** (not in the repo) still says Mark has "no tenure number fixed yet" and Vintage "45 years" (now correct); Werner is still unnamed there and in `core/channels.md` (no profile yet).
 
 ## Open questions for the operator
 
-1. **Frederick's background** (firefighter, electrician, lineman, none) and **his new book**: after the research.
+**Electrical (asked 2026-10-27, unanswered at handover; answer "1 yes, 2 yes…"):**
+- E1. **The core checker fixes in `PROPOSALS.md` P13** (shared by every channel): the tenure bug ("thirty-five years" and "forty-five" read as a wrong figure; "forty years as an electrician" slips through), number words in the fact check, letter sets judged once, voice tags in scripts, a real length fail, the item and sentence report, a verifier for delivered outputs, extra evidence lines that quote the script, a 35-word sentence limit. Apply all?
+- E2. **Numbers in words** for volts, amps, watts and wire sizes, against core "stats are digits" (P13 item 6).
+- E3. **Titles with another years figure** (two ideation titles say "30 years"): back to ideation unless 35 (P13 item 7).
+- E4. **Federal Pacific independent test results**: may they be said with the source named (P13 item 8, plus the offer-rules scope)?
+- E5. **Frederick's voice**: ElevenLabs or Minimax and which voice. Then the voice check in his profile, then status ready (Sam's precedent) so tests can run.
+- E6. **The electrical ideation skill** (niche-research) still allows "after all the houses I've worked in": change it?
+- Also open: **P12** (count "doesn't X. It Y." as the one reframe, every channel).
+
+**Older:**
+1. ~~Frederick's background and his new book~~: answered 2026-10-27 (retired electrician, 35 years; no book for now).
 2. **Roger the HVAC Guy against Ray Dutton's Garage:** how it stands apart (the 2026-10-22 research suggested old-house heat and the winter bill).
 3. **Whether the new packs need a script transcript study here** (`studies/<niche>/`, as `CLAUDE.md` "Adding a niche" says) on top of the research in niche-research: the scripting chats ask once.
 4. From session 3, still unanswered: the "title's strongest word" rule; the woodworking ideation and Hank script test outcomes; "avatar + object + text, always" in the woodworking ideation skill.
 
 ## Next actions (in order)
 
-1. **Now: the research, in `KPMYT/niche-research`,** not here. Two chats there, one per niche, follow its `CLAUDE.md`, `SESSION-HANDOVER.md` and `RESEARCH-BRIEF.md`. Nothing in this repository changes during the research.
-2. **After the research and the operator's conclusions: two scripting chats here,** one for Roger the HVAC Guy and one for Frederick Barnes. Each:
+**Electrical chat (next):**
+1. Read `CLAUDE.md`, this file, `HANDOFF.md` section 3 (2026-10-27), `PROPOSALS.md` P11-P13, `electrical-scripts/SKILL.md`, `personas/frederick-barnes.md` and the CHANGELOG rows of 2026-10-27.
+2. Get the operator's answers to E1-E6 above. Apply what's approved (P13's scanner patches are drafted and tested in the review reports R4-R7 and their scratch notes; re-test them here, add the run_checks lines that wait for them: R4's check 52 tenure and number parts).
+3. Once the voice is confirmed: the voice check in the profile, Frederick to ready, then the test cycle (`CLAUDE.md` "Testing with subagents"): a writer that sees only the library and one of the 17 briefs (niche-research `studies/electrical/ideation/briefs-2026-10-27.xlsx`; start with a fix or how-to title such as A12 or A1), an operator helper, and a judge against the rubric, the scanner and the reference video. Save it in `tests/iterations/iter-05/`.
+4. Rebuild the skills (`python3 tools/build_skills.py`) and send the operator the new and changed `.skill` files (electrical-scripts, frederick-barnes-persona, script-writer once Frederick is ready).
+
+**HVAC:** a separate scripting chat for Roger the HVAC Guy, as below.
+
+**Original plan (sessions 7-8):**
+1. ~~The research, in `KPMYT/niche-research`~~ (done for both niches).
+2. **Two scripting chats here,** one for Roger the HVAC Guy and one for Frederick Barnes (the electrical one ran in session 8). Each:
    - checks it started from `main`
    - reads the niche's `CONCLUSIONS.md` in niche-research
    - asks question 3 above
@@ -150,7 +179,7 @@ The spellings here are correct; where a skill differs, the skill has the typo.
 | Hank Hardwood | woodworking for profit | |
 | Norbert Daniels | home security: the retired Locksmith | |
 | Lance Kavanaugh | home security: the Navy veteran | |
-| Frederick Barnes | **moving to electrical DIY, electrical safety and fire prevention** (2026-10-23; was home security, the retired Fireman); background open | |
+| Frederick Barnes | home electrical (2026-10-27): retired electrician, 35 years, Talking Head, no book; profile built, **pending** (voice to confirm) | |
 | Roger the HVAC Guy | **new** (2026-10-23): HVAC, Roger's persona and triggers | |
 | Scarlet Sterling | style (50+ women): the affluent American | "Scarlett" |
 | Diane de Chambray | style: "the French way" | |

@@ -1,0 +1,260 @@
+# zgjo36-jaFY | What Wire Connector is the Best? Settling a Debate! Wire Nut VS Wago | GreatScott!
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:03] from time to time I do electrical house
+[0:05] wiring and what is always right beside
+[0:08] me while doing that are of course my
+[0:10] tools some spare wire and of course a
+[0:12] box with different Vargo
+[0:14] connectors those connectors are pretty
+[0:16] much the standard here in Germany when
+[0:18] it comes to connecting wires no matter
+[0:21] if it comes to DIY projects or house
+[0:24] wiring every electrician I personally
+[0:26] know including me loves using them but
+[0:30] when having a look at other parts of the
+[0:32] world and with that I primarily mean the
+[0:34] USA then the V connectors are not the
+[0:37] standard but instead such wire nuts
+[0:40] which I never used before so in this
+[0:43] video I want to find a definitive answer
+[0:45] which connector is the best and don't
+[0:48] worry there will be lots of objective
+[0:50] tests included which means my love for
+[0:52] Vago connectors will not influence the
+[0:54] final
+[0:55] results let's get started
+[0:59] [Music]
+[1:06] this video is sponsored by skillshare
+[1:09] which is an online learning community
+[1:10] with thousands of inspiring and useful
+[1:13] classes I first got interested in
+[1:16] skillshare when I was looking for more
+[1:17] in-depth videos about electrical power
+[1:20] engineering and found the videos from
+[1:22] Ahmed Mari there which offers a nice
+[1:25] collection of them and that was the
+[1:27] moment I joined so today I want to
+[1:30] recommend his class ultimate 2021 solar
+[1:33] energy course for electrical engineering
+[1:36] which not only comes with tons of useful
+[1:38] information but also a pleasing
+[1:41] presentation if you want to watch it or
+[1:44] one of the other classes on skillshare
+[1:46] then feel free to click the link in the
+[1:48] video description because the first
+[1:50] 1,000 subscribers of mine who do so will
+[1:53] get a one month free trial of
+[1:56] skillshare to start things off I got
+[1:59] myself a new kits with different kinds
+[2:01] of vaggo connectors and of course one
+[2:03] with different kinds of wi nuts which by
+[2:06] the way you can both easily get from
+[2:08] Amazon even here in
+[2:09] Germany and what I did next Was
+[2:12] preparing different kinds and sizes of
+[2:14] wires for connecting and then tried out
+[2:17] most of the connectors I got with them
+[2:19] while coming up with a list of
+[2:21] comparison criteria which are most
+[2:23] important to me so here's my list of
+[2:26] them and there can only be one winner
+[2:28] for each category
+[2:30] but before starting off let me tell you
+[2:33] that wire nuts work with solid core
+[2:34] conductors as well as trended wires
+[2:38] which the Vago 221 can also both handle
+[2:41] but the other popular kind of Vago
+[2:43] connectors the 2273 does only accept
+[2:47] solid core conductors which is why I
+[2:50] initially wanted to eliminate them from
+[2:52] this comparison but since I used them so
+[2:55] often I just had to keep them in and
+[2:58] with that out of the way let's start
+[3:00] with ease of use to find the winner
+[3:03] let's imagine I hand you these three
+[3:06] connectors the first thing you would
+[3:08] probably do is taking a closer look at
+[3:11] each and soon after you would realize
+[3:14] that there are tons of information
+[3:15] available on the Vago
+[3:17] 221 not only does it tell you how much
+[3:20] insulation you have to remove but also
+[3:23] what conductor cross-section it works
+[3:24] with and what voltage and current it is
+[3:27] rated for the other connector tells you
+[3:31] a little bit less with the current and
+[3:32] voltage rating missing and the wire nut
+[3:35] basically tells you nothing now granted
+[3:38] the Vaga ones also don't tell you what
+[3:41] kind of wi type they support but other
+[3:43] than that they come with lots of crucial
+[3:46] information for wire nuts however you
+[3:49] have to dig through the internet to find
+[3:51] out how many wires of which size fit
+[3:53] into one of the different colored wire
+[3:55] nuts and what voltage they're rated for
+[3:59] but what I couldn't find was a current
+[4:01] rating along with a recommendation on
+[4:03] how much insulation to remove but by
+[4:06] going with my guts I stripped off around
+[4:09] 10 mm of insulation placed the loud
+[4:12] amount of wires inside the nuts and
+[4:14] simply started twisting until it was all
+[4:16] nicely secured which all in all was
+[4:19] pretty intuitive to do if we remove the
+[4:23] plastic housing we can see how a metal
+[4:25] thread spites into the metals and thus
+[4:28] not only keeps the wires tight together
+[4:30] but also connects them
+[4:32] electrically Now using theago 2273 is
+[4:35] even more straightforward by simply
+[4:38] removing the insulation and pushing one
+[4:40] conductor in each hole and that's it if
+[4:44] we remove its plastic housing which was
+[4:47] harder to do than I thought we can see
+[4:50] that it uses metal Springs to the
+[4:52] conductors in place and push them onto a
+[4:54] bus bar and last but not least we got
+[4:57] the Vago 221 which like the 2273 is
+[5:01] super intuitive to use and its
+[5:03] functional principle is also similar and
+[5:06] only differs by including a lever
+[5:09] mechanism and with the first usage test
+[5:11] completed I have to give the first point
+[5:14] to Vago because you don't have to Google
+[5:17] anything they are more
+[5:18] self-explanatory and I feel like pushing
+[5:20] wires into something is way easier to do
+[5:23] overheads in comparison to twisting
+[5:25] wires
+[5:26] together next we come to possible
+[5:28] problems and for that I want you to
+[5:31] imagine that we want to connect this
+[5:33] light fixure that comes with stranded
+[5:35] wires with a solid core conductor using
+[5:37] a wire nuts just like shown before that
+[5:41] should be pretty easy to pull off and
+[5:43] after removing the wire nuts it seems
+[5:46] like the connection was pretty well done
+[5:49] but during a later test I had to do such
+[5:51] a mixed wire type connection again and
+[5:54] there you can see that the connection
+[5:56] turned out not so good now the main
+[5:59] problem for me here is that wire nuts
+[6:01] are not seethrough so you can never
+[6:04] truly confirm whether your connection is
+[6:06] as good as it can be vaggo connectors on
+[6:09] the other hand are seeth through and you
+[6:12] can always double check if your
+[6:13] conductor is in the right spots which is
+[6:16] why Vago gets an extra point here but
+[6:19] moving on next I want to see how fast I
+[6:22] can use the connectors because time is
+[6:24] money and as an example I will wire up a
+[6:28] lights for the Bago Contender I only
+[6:30] went with the 221 version which due to
+[6:33] its pushin and lever functionality was
+[6:36] super fast use and I finished this job
+[6:39] in under 1 minute on the other hand we
+[6:42] got the wire nuts which due to the long
+[6:45] twisting times were way slower to use
+[6:48] and thus I needed around the double
+[6:50] amount of time which means Point goes to
+[6:53] Vago next is reusability because
+[6:56] sometimes you want to change your house
+[6:58] installation and of course it is not
+[7:00] hard to see that Vago 221 is
+[7:03] reusable the 2273 kind is also reusable
+[7:07] by simply twisting the wires while
+[7:09] pulling them out wire nuts do come off
+[7:12] as well and theoretically can be reused
+[7:15] but since there's a lot of debate about
+[7:17] that on the internet I have to say that
+[7:20] this point also goes to Vago next we got
+[7:23] the size aspects because distribution
+[7:26] boxes are small and thus we want our
+[7:28] connectors to be as small as possible as
+[7:31] well now because of the available sizes
+[7:34] of connectors and what cross section of
+[7:36] conductor and how many they can hold I
+[7:39] would say that this is a tie meaning
+[7:41] both get a point so moving on to the
+[7:44] often very important price point and
+[7:47] here I have to say that after doing
+[7:49] research on USA and Germany based
+[7:51] websites it seems like the wire nuts are
+[7:54] at least four to five times cheaper than
+[7:56] bgo connectors which means Point goes to
+[7:59] them next we come to the pull test which
+[8:03] is important because inside a junction
+[8:05] box are similar the connectors are
+[8:07] pretty much always under a bit of
+[8:09] tension and they need to be able to
+[8:11] withstand that so I used my mini crane
+[8:14] scale in a pretty rudimentary test setup
+[8:17] to see what forces the wire nut can
+[8:19] withstand and it seems like more than I
+[8:22] can pull which was around 30
+[8:25] kg I then did the same test with the
+[8:28] Vago 227 FL
+[8:30] which also survived my Brute Force only
+[8:33] the Vargo 221 gave up at around 20 kg
+[8:37] which is still more than enough for all
+[8:39] electrical tasks but since there can
+[8:42] only be one winner it is this time the
+[8:44] wi nuts next we come to the resistance
+[8:47] test because the lower the contact
+[8:50] resistance of the connector is the less
+[8:52] power losses gets produced and thus the
+[8:55] connector stays cool which is favorable
+[8:58] in order to avoid
+[9:00] fires so to measure the resistance I
+[9:02] prepared six conductors with the same
+[9:04] length of which always two I put
+[9:07] together with a
+[9:08] connector then I used the power supply
+[9:11] to pump 20 amps through the test setups
+[9:13] and measured the complete voltage drop
+[9:15] across them now of course here we are
+[9:18] including the wire resistance as well
+[9:21] but we can easily measure that beforeand
+[9:23] and then subtract it and after
+[9:26] completing all the tests it seems like
+[9:28] the wire comes with the lowest
+[9:30] resistance followed by the Vago
+[9:33] 2273 and then the Vago 221 which with a
+[9:37] resistance of 2.2 milliohm almost
+[9:40] creates a power loss of 1 watt at 20
+[9:43] amps you can definitely feel that heat
+[9:45] when touching and see it through a
+[9:47] thermal imaging camera while the other
+[9:50] two connectors basically stayed at room
+[9:52] temperature with 20 amps flowing through
+[9:54] them so once again while all the
+[9:57] connector resistances work perfectly
+[9:59] fine for electrical tasks the wiut once
+[10:02] again won this test and last but not
+[10:05] least it was time for the flammable
+[10:07] tests in which I used my heat gun to
+[10:10] basically melt the connectors while
+[10:12] observing whether they are capable of
+[10:14] creating some kind of fire and it seems
+[10:17] like none of them do that which means a
+[10:19] point for both and with all the
+[10:22] important test being completed it seems
+[10:25] like it was a narrow victory for the V
+[10:27] connector which it really wasn't for me
+[10:30] though because in the categories the wut
+[10:33] one the Vaga ones also performed
+[10:36] excellent just not as good only if
+[10:39] you're looking for a super cheap wire
+[10:41] connector option I would recommend wire
+[10:43] nuts but for everything else I will
+[10:46] stick with my trusty Vago
+[10:48] connectors and with that being said
+[10:51] thanks for watching if you enjoyed the
+[10:53] video and want to see more then consider
+[10:55] supporting me through patreon don't
+[10:58] forget to like share subscribe and hit
+[11:01] the notification Bell stay creative and
+[11:04] I will see you next time

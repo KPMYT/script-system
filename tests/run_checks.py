@@ -513,6 +513,123 @@ check("45. plumbing hook: no promise block (P10); job 5 is the count line, which
       and "a promise block or any run-down of what later items hold" in op and "Promise straight after" not in pk
       and "- count line:" in up and "- promise block:" not in up, "")
 
+# ---- the electrical pack and Frederick Barnes (2026-10-27) ----
+EL=f"{ROOT}/electrical-scripts"; ELR=f"{EL}/SKILL.md"; FRED=f"{PERS}/frederick-barnes.md"
+EL_REFS=[ELR, f"{EL}/references/excerpts.md", f"{EL}/references/voice-samples.md"]+sorted(glob.glob(f"{EL}/references/models/*.md"))
+EL_REFS=[f for f in EL_REFS if os.path.isfile(f)]
+
+# 46. electrical inputs block: title, brief and rotation log required, the research pack not used
+ek=open(ELR).read()
+inp=re.search(r"```inputs\n(.*?)```",ek,re.S)
+rows=[[c.strip() for c in l.strip()[1:].split("|")] for l in inp.group(1).splitlines() if l.strip().startswith("-")] if inp else []
+check("46. electrical inputs block: 4 well-formed inputs, research pack not used",
+      len(rows)==4 and all(len(r)==3 for r in rows) and {r[0]:r[1] for r in rows}==want, str(rows))
+
+# 47. the electrical scanner block: every ban fires, a once-phrase twice fails, P11 lifts only "by the end of this video",
+#     and a clean electrical paragraph passes with Frederick's profile
+clean_el=textwrap.dedent("""\
+That outlet in the hallway that quit on you last night probably isn't broken at all.
+
+Does the bathroom outlet have two little buttons on it? Press reset on that one first. That's a GFCI, a safety outlet that cuts the power in a blink, and it often covers other outlets in the house.
+
+By the end of this video you'll be able to find the cause yourself, and you'll know exactly when it's a job for a licensed electrician instead.
+
+Step one. Turn the breaker off, then prove the outlet is dead with a tester you've checked on a working outlet first. I'd never skip that part.
+
+Most folks figure the panel is the first place to look. But a tripped GFCI two rooms away is the usual reason, and it takes ten seconds to check.
+
+So turn the breaker back on, press reset, and plug a lamp in. If it lights, you're done.
+
+Down in the comments, tell me which breaker in your panel trips the most. I read every one.
+""")
+planted={"first-person test claim":"I tested all three connectors side by side.","first-person demonstration":"Now watch me pull the outlet out.",
+         "pointing at the screen":"As you can see, the wire is loose.","job or customer story":"I once found a melted box in a basement.",
+         "trade as villain":"Electricians hate this simple trick.","money (no money framing on this channel)":"A new outlet runs about $5.",
+         "CTA \"no rush\" family":"No rush, take your time with it.",
+         "unit written as a symbol (write the word: 'fifteen amps')":"Use a 15 A breaker here.",
+         "wire gauge written as a code (write 'fourteen-gauge')":"Run 14 AWG copper.",
+         "cable name with a slash (write 'twelve-two cable')":"Pull a run of 12/2 through the wall.",
+         "code section read as a number (say 'the electrical code')":"NEC 406.4 says so."}
+code,out=run_scan(clean_el,[ELR,FRED])
+bad=[]
+for label,line in planted.items():
+    c,o=run_scan(f"Check the outlet.\n\n{line}\n",[ELR])
+    if c!=1 or f"NICHE/PERSONA BAN: {label}]" not in o: bad.append(label)
+code2,out2=run_scan("Between you and me, it is the GFCI.\n\nAnd between you and me, the breaker is fine.\n",[ELR])
+code3,out3=run_scan("Stick around, because the last one matters.\n",[ELR])
+check("47. electrical scanner block: each ban fires; a once-phrase twice fails; P11 lifts only 'by the end of this video'; a clean electrical paragraph passes",
+      code==0 and "FIX ON SIGHT (0)" in out and not bad and code2==1 and "NICHE/PERSONA LIMIT: between you and me] used 2 times" in out2
+      and code3==1 and "tease: stick around" in out3, f"missed: {bad} | "+out[:600])
+
+# 48. electrical units written for the voice: symbols fail, spoken forms pass
+bad_u=["It runs on 120V.","a 20 A circuit.","about 1,500 W.","as little as 5mA.","at 60Hz.","a 10kW generator."]
+good_u=["It runs on a hundred and twenty volts.","a twenty-amp circuit.","fifteen hundred watts.","fourteen-gauge wire and twelve-two cable."]
+fails=[l for l in bad_u if run_scan(l+"\n",[ELR])[0]!=1]
+passes=[l for l in good_u if run_scan(l+"\n",[ELR])[0]!=0]
+check("48. electrical units: 120V, 20 A, 1,500 W, 5mA, 60Hz and 10kW fail; the spoken forms pass", not fails and not passes,
+      f"not failing: {fails}; not passing: {passes}")
+
+# 49. copy guard over the electrical references: the clean paragraph passes against all of them; a line lifted from each is caught
+runs=sc.read_refs(EL_REFS)
+lifted=[]; nolift=[]
+for f in EL_REFS:
+    name=os.path.basename(f); got=None
+    for para in open(f).read().split("\n\n"):
+        toks=sc.copy_tokens(para)
+        for i in range(len(toks)-12):
+            if all(runs.get(tuple(toks[j:j+sc.COPY_RUN]))==name for j in range(i,i+5)):
+                got=" ".join(toks[i:i+12]); break
+        if got: break
+    (lifted.append((name,got)) if got else nolift.append(name))
+code,out=run_scan("\n\n".join(g.capitalize()+"." for _,g in lifted)+"\n",[ELR],refs=EL_REFS)
+uncaught=[n for n,_ in lifted if f"COPIED FROM REFERENCE: {n}]" not in out]
+code2,out2=run_scan(clean_el,[ELR,FRED],refs=EL_REFS+[FRED])
+check("49. copy guard: the clean electrical paragraph passes against the pack's SKILL.md, excerpts, voice samples and all 37 model files (E01-E38, no E06); a line from each is caught",
+      len(glob.glob(f"{EL}/references/models/E*.md"))==37 and len(EL_REFS)>=35 and not nolift and not uncaught and code==1 and code2==0 and "COPIED" not in out2,
+      f"refs={len(EL_REFS)} no line found in {nolift}; not caught {uncaught}; "+out2[:400])
+
+# 50. Frederick's profile: Talking Head, 195 wpm, no book (NO BOOK marker), subscribe only, name and tenure 35;
+#     a different tenure, a name intro and the firefighter framing fail
+fp=open(FRED).read(); ff=facts_of(FRED)
+code,out=run_scan("I have been at this for 25 years.\n",[ELR,FRED])
+code2,out2=run_scan("I have been at this for 35 years.\n",[ELR,FRED])
+code3,out3=run_scan("I'm Frederick Barnes, and as a retired firefighter I know this.\n",[ELR,FRED])
+check("50. Frederick's profile: Talking Head, 195 wpm, subscribe only (NO BOOK), name and tenure 35; 25 years, a name intro and the firefighter framing fail",
+      "Script type: Talking Head" in fp and "Words per minute (for runtime and the length minimum): 195" in fp and "Type: subscribe only" in fp
+      and "NO BOOK" in fp and "Mid-video CTA: no" in fp and "name: Frederick Barnes" in ff and "tenure: 35" in ff and not any(l.startswith("book:") for l in ff)
+      and code==1 and "PERSONA FACT: tenure" in out and code2==0 and code3==1 and "name intro" in out3 and "firefighter" in out3, out+out2+out3)
+
+# 51. the electrical pack's decisions are in place: no money, stakes, P11 in the opening, safety never removed,
+#     the comment ending, the 12-minute minimum, the seven video types
+check("51. electrical pack: no money, the stakes section, P11 opening promise, safety the brief can't remove, comment ending, 12 minutes, seven types",
+      "## The stakes (no money)" in ek and "5. **One value promise, when it fits** (P11" in ek and "**The brief can add safety but never remove it**" in ek
+      and "min-minutes: 12" in ek and "allow: I read every comment" in ek and "lift: tease: by the end of this video" in ek
+      and all(t in ek for t in ("**How-to / correct way**","**Fix this problem**","**Explainer**","**X vs Y**","**Mistakes list**","**Single big mistake**","**Know-this list**"))
+      and not re.search(r"\$\d", ek.split("```scanner")[0]), "")
+
+# 52. electrical voice (review R4, 2026-10-27): the brief's short forms fail; the spoken forms and years before a capital "A" pass;
+#     the P11 promise passes the copy guard and fails on a second use; Frederick's old sign-off fails; his old tics fail on the second use.
+#     (The tenure-in-words and number-check parts wait for the core scanner proposal P13.)
+bad_v=["Run 12-2 cable to the outlet.","A regular outlet is a NEMA 5-15.","It lasts 15-20 years.","Your panel is a 120/240 panel.",
+       "The heater pulls 1500w on high.","Most outlets run at 120v.","Use 14 awg copper.","Plug in the CO alarm.","Box fill is 2.25 cu in. per wire.",
+       "A new outlet runs about twenty dollars.","Your electric bill goes up.","Hey there, folks.","It's just 120 volts.","Ask me how I know."]
+good_v=["It was built in 2014. A lot of houses were.","The code changed in 2017. VA ratings came later.","Run twelve-two cable to the outlet.",
+        "A regular outlet is what the trade calls a five-fifteen.","Your panel is a one-twenty, two-forty panel.","A thirty-amp double-pole breaker feeds the dryer.",
+        "A three-way switch runs the stairs.","Leave at least six inches of wire and strip three-quarters of an inch.","Plug in the carbon monoxide alarm."]
+f_v=[l for l in bad_v if run_scan(f"Check the outlet.\n\n{l}\n",[ELR,FRED])[0]!=1]
+p_v=[l for l in good_v if run_scan(l+"\n",[ELR,FRED])[0]!=0]
+p11=run_scan("By the end of this video you'll know where the hidden reset sits and when it's a call for an electrician.\n",[ELR,FRED],refs=EL_REFS+[FRED])
+p11x2=run_scan("By the end of this video you'll know one thing.\n\nBy the end of this video you'll know another.\n",[ELR,FRED])
+shift=run_scan("Tell me which outlet gives you grief. I read every one, and I'll see you next shift.\n",[ELR,FRED])
+tics=run_scan("Rest your palm on the plate tonight.\n\nThen rest your palm on the switch tonight.\n",[ELR,FRED])
+stories=[l for l in ["I've watched a neighbor run a generator cord through a kitchen window.","A homeowner once asked me why the plug kept falling out.",
+         "That's the worst panel I've ever opened.","These are the seven I find in almost every older house.","We tested all three connectors.",
+         "I put a meter on it and it read zero."] if run_scan(l+"\n",[ELR,FRED])[0]!=1]
+check("52. electrical voice and claims: short forms fail, spoken forms and years pass; P11 passes the guard and is once-only; old sign-off, tics, job stories and test claims fail",
+      not f_v and not p_v and p11[0]==0 and p11x2[0]==1 and shift[0]==1 and "next shift" in shift[1]
+      and "the palm check" in tics[1] and "tonight" in tics[1] and not stories,
+      f"bad passing: {f_v}; good failing: {p_v}; p11: {p11[1][-300:] if p11[0] else ''}; stories passing: {stories}")
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")

@@ -1,0 +1,255 @@
+# CCZI512FsQc | 90% Don't Know About This Fatal Generator Connection | HAXMAN
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:00] Welcome back Hexmaniac. Today, I'm going
+[0:01] to show you two ways to connect a
+[0:03] generator
+[0:05] up to your house for backup power for
+[0:06] emergencies. One way could kill someone
+[0:09] and the other way is, of course, the
+[0:11] safe and proper way. So, choose wisely.
+[0:14] We live somewhere where we have the
+[0:15] occasional hurricane, the more than
+[0:17] occasional wind storm, and even just a
+[0:19] thunderstorm that can knock down limbs
+[0:21] off of any one of the billions of trees
+[0:23] around us and put out power for a while.
+[0:25] So, a couple years ago I decided we need
+[0:28] a backup generator. I got a quote on an
+[0:31] integrated system for the house and
+[0:33] after getting that, I decided what we
+[0:35] needed was a portable generator because
+[0:38] those prices are insane for the
+[0:40] integrated ones and a lot of that cost
+[0:42] is actually the installation which just
+[0:43] kind of doesn't make sense to me. Now, I
+[0:46] did a video a couple years ago showing
+[0:47] how we set our system up and I didn't
+[0:51] want to do this myself. I wanted to make
+[0:52] sure I did it right. So, I actually
+[0:53] hired an electrician to set it up for us
+[0:56] after I found the cheap generator that
+[0:58] we were going to use. And a lot of
+[1:00] people attacked me in the comments
+[1:02] saying, "Oh, you're going to kill
+[1:02] someone trying to be cheap." I was
+[1:04] trying to be cheap on the generator, not
+[1:05] cheap on the connection. That's why I
+[1:07] hired an electrician. When the
+[1:09] electricians came out, they installed
+[1:10] this power inlet box for a 50 amp cable.
+[1:14] This is where you plug the cable running
+[1:15] from the generator in so it can deliver
+[1:17] power to the house. What he should have
+[1:19] installed next was an interlock kit, but
+[1:21] he didn't. What I have to do right now
+[1:23] to make this work safely is I have to
+[1:24] flip the breaker to the main house off
+[1:27] and then I flip the breaker for the
+[1:29] generator on. If I were to forget to do
+[1:31] that or let's say we sold the house and
+[1:33] somebody else moved in and they weren't
+[1:34] aware how this worked and you forgot to
+[1:36] turn that main breaker off, the
+[1:38] generator can backfeed power and if
+[1:40] there's a lineman working on the power
+[1:42] lines after an outage, they could
+[1:44] actually shock or, worse, kill him. So,
+[1:47] I'm going to install that interlock kit
+[1:49] on today. In order to make that
+[1:50] interlock work, I have to move this
+[1:53] breaker right here which is actually for
+[1:54] the well down here and move the breaker
+[1:58] for the generator up to the top. It's
+[2:00] frustrating that the electrician didn't
+[2:02] do it correctly to begin with. That's
+[2:03] why I pay a professional to do it. And
+[2:06] after many calls, I haven't been able to
+[2:07] get another electrician to come out
+[2:09] here, so I'm going to do it myself.
+[2:17] That's scary.
+[2:18] That was not fun.
+[2:20] That was not fun. You did not tell me
+[2:22] that was going to happen.
+[2:38] Okay, they got slack. That's right.
+[2:47] Yo, he was just looking for some place
+[2:49] that was warm and dry. I think he found
+[2:51] it.
+[2:56] Yeah, that one's longer.
+[2:57] Yep, look at her right here.
+[3:04] With the breakers moved, time to drill
+[3:06] into the front of the panel box. And
+[3:08] make sure you take it off of the box to
+[3:10] do this, or I think you'll be shocked at
+[3:13] what could happen.
+[3:23] Okay, okay, get out. Get out of the
+[3:24] truck. Go ahead and get Yeah, let me let
+[3:26] me finish it.
+[3:28] Now that I've got it in, let me show you
+[3:30] how this is going to work. Come on in
+[3:31] closer.
+[3:32] I can flip the generator
+[3:34] breaker on, and you can see that the
+[3:36] main breaker is off. So, I can cut the
+[3:39] generator off,
+[3:41] this slides down, and then
+[3:45] I can cut the main breaker on. With the
+[3:47] main breaker on, I cannot cut the
+[3:49] generator on.
+[3:51] So,
+[3:52] anybody working on the power lines is
+[3:54] totally safe.
+[3:56] Well, at least safe from me, I should
+[3:57] say.
+[3:59] We're actually working on a bunch of
+[3:59] electrical out here, so before I test
+[4:02] the generator,
+[4:03] I've got to do some other connections in
+[4:05] here. But, as far as you're concerned,
+[4:07] let's go test the generator. The
+[4:08] generator that I'm going to connect is
+[4:10] this Duramax XP9000.
+[4:13] It's a 9000 W inverter generator.
+[4:15] The original generator that I hooked had
+[4:17] hooked up was a 13,000 W, but it wasn't
+[4:19] an inverter generator. And honestly, I
+[4:22] don't know what the real risk is of like
+[4:24] dirty power coming through a traditional
+[4:27] generator into into your house with like
+[4:29] sensitive electronics. I guess you get
+[4:30] like power surges and everything that
+[4:32] could potentially harm your electronics.
+[4:34] That doesn't happen with an inverter
+[4:35] generator because it puts out pure sine
+[4:38] wave energy. We'll see how well it
+[4:40] works. I I honestly don't know if this
+[4:42] one's going to be big enough to power
+[4:44] the house.
+[4:45] But, you know, we're going to give it
+[4:46] our best shot. One of the reasons I went
+[4:48] with this one was because it was also
+[4:49] dual fuel.
+[4:51] The original one that I used was also
+[4:52] dual fuel, but dual fuel
+[4:56] that I put ethanol gas in it and I let
+[4:58] it set. You shouldn't let any gas set in
+[5:00] anything for a long period of time, but
+[5:02] especially not ethanol.
+[5:04] So, that had to be fixed and I don't
+[5:07] want to I don't want to even deal with
+[5:08] that anymore. This one's never going to
+[5:09] have a drop of gas put in it. This one
+[5:11] is going to run off of propane because
+[5:14] we happen to have a buried propane tank
+[5:16] and the outlet on the other side, so
+[5:19] that's going to run cleaner and
+[5:20] everything.
+[5:21] One of the other reasons why I bought
+[5:23] this one was because
+[5:24] if it's not powerful enough, I can run
+[5:27] these in parallel if I wanted to get a
+[5:28] second one.
+[5:39] Then I have to connect the battery.
+[5:47] All right. Well, it's starting to get
+[5:48] kind of gloomy out and thunder, so let's
+[5:51] go see if this thing will actually work.
+[6:16] Tempted to put bigger tires on here.
+[6:22] I'm going to go ahead and connect my
+[6:24] propane line.
+[6:26] Bobby.
+[6:29] I noticed a little bit of a
+[6:32] gas smell
+[6:34] from right here this connection, so I'm
+[6:36] going to put a little soapy water on
+[6:37] that and see what happens.
+[6:41] And you see that there is definitely
+[6:43] a slow leak right there.
+[6:53] Let's try it again.
+[7:08] LPG got gas or LPG, we'll pick LPG fuel
+[7:11] to run.
+[7:13] Low idle.
+[7:15] Off. Breakers are off. Start button.
+[7:29] Come on now.
+[7:30] Oh, you know what? It'd help if I turn
+[7:32] the gas on.
+[7:37] Yeah, yeah, yeah, there we go. There we
+[7:39] go.
+[7:43] We know that runs.
+[7:45] Next step, come over here to the box.
+[7:48] Join me. Join me at the box, won't you?
+[7:50] I'm going to cut the main outlet off.
+[7:54] There we go.
+[7:55] Now I can raise the inner lock up.
+[7:59] And now power is allowed to travel
+[8:02] through here and up into the panel.
+[8:05] Let's get this going again.
+[8:13] All right.
+[8:14] Now I'm going to connect it
+[8:15] to the house first.
+[8:23] I'll plug it in here.
+[8:37] Okay, what I did there was I turned the
+[8:38] breakers on.
+[8:40] And now it's delivering power. The load
+[8:42] right now
+[8:44] 3,800 W.
+[8:47] Approximately, it jumped to like 5.2 a
+[8:50] second ago. All right, let's go see what
+[8:52] the inside of the house looks like. One
+[8:53] thing that kind of makes it unique for
+[8:55] us is that my mom's part of the house is
+[8:57] like wired up separately. So that makes
+[8:59] it really easy to power her smaller
+[9:02] house even though it's part of our
+[9:03] house.
+[9:04] So that simplifies this process for us a
+[9:06] little bit.
+[9:07] Secondly,
+[9:09] if you know, you want to be careful
+[9:10] connecting all this stuff up.
+[9:12] Luckily, I had a stunt nephew that did
+[9:14] it for me.
+[9:19] All right, let's see. Oh.
+[9:21] Adjust. Adjust.
+[9:23] All right, let's see.
+[9:24] The lights are on.
+[9:27] Refrigerator's on.
+[9:30] Stove's on.
+[9:33] We don't even have any flicker
+[9:35] in the lights.
+[9:38] And
+[9:43] Perhaps most importantly
+[9:47] The air will probably take just a second
+[9:49] to come on. Let's see if that works.
+[9:51] Any second now.
+[9:53] I'd actually like to see what the
+[9:56] water does when this thing cuts on.
+[10:03] It always takes a few minutes.
+[10:06] Any minute.
+[10:08] Any minute now.
+[10:13] Oh yes. Oh yes, of course. Of course.
+[10:16] That's Yeah. All right.
+[10:19] Now it cuts on. How long I How long did
+[10:20] I sit here for? 10 minutes waiting for
+[10:22] that thing to cut on. I walk off for 30
+[10:24] seconds and it cuts on. Just for
+[10:26] reference, this is a 3 and 1/2 ton unit
+[10:28] right here.
+[10:29] Now I'm curious to see
+[10:30] how many watts it's pulling.
+[10:42] All right, we can cut that off.
+[10:44] Now
+[10:46] to get everything back to normal
+[10:48] I'm just going to switch that breaker
+[10:50] off.
+[10:52] And then I can turn the main breaker on
+[10:54] for the house.
+[10:57] Everything's back on.
+[10:58] Did you know that like something as
+[10:59] simple as a solar flare could cause the
+[11:01] power to go out? And in fact, it would
+[11:03] just probably make this generator
+[11:05] useless. But if you watch this video
+[11:08] right here
+[11:09] I'll show you some ways that you can be
+[11:10] prepared for that. So you know, you
+[11:13] don't die.
+[11:15] See you next time.

@@ -1,0 +1,1342 @@
+CPSC GUIDE TO
+
+HOME WIRING
+HAZARDS
+   Tnls guide describes warnings of potential nazards. Eacn part of tne nome electrical system 1s
+listed along wltn warning signs tnat may Indicate current or future problems. Eacn section
+describes problems and tells you wnat to do
+
+
+
+
+        CONTENTS
+
+
+               Overview                                                               1
+               Warnings                                                               5
+               Electrical Service Equipment                                           6
+               Electrical Panel Box                                                   9
+               Appliance Power Budget                                                11
+               Fuses/Circuit Breakers                                                13
+               Lighting/Lamps                                                        17
+               Receptacle Outlets/Switches                                           19
+               Cords/Plugs                                                          25
+               Extension Cords                                                      29
+               Shock Protectors                                                     34
+               Home Wiring Protectors                                               36
+OVERVIEW
+
+
+  The consumer Product Safetycomm1ss1on     <CPSClestimatesthat there are about 46ooo fires
+involving the home electrical d1stribut1onsystem each year Thesefires result m 440 deaths 1,420
+mJuriesand S434m1111on   1nproperty lossesIt 1sestimated that there are approximately 760
+electrocutions from all causeseach year Of these electrocutions 310 involve consumer products
+<basedon Nationalcenter for Health stat1st1cs data>
+  ThisGuideto Home wiring Hazardswaswritten to help you find electrical dangersm your
+home before they causefires or electrical shock It provides guidance for pmpo1nt1ngthe
+locations of problems within your electrical system before you seek professionalassistance.It can
+also help you avoid potential problems.
+  This booklet 1snot an 1nstruct1onmanualfor repairing defective electrical systems F1nd1ng
+spec1f1c defects 1nelectrical systemsand repamng them are Jobsfor qual1f1edelectrical
+professionals.For your safety have them make an assessmentof the problems and carry out the
+repairs needed to assurethe electrical safety of your home.
+
+
+
+
+                                                                                               1
+  ELECTRICITY IS USEFULBUTCANBEDANGEROUS        Your home electrical system provides energy to
+heat or cool your home cook drive power tools and perform many other useful functions
+However this same energy can start fires or cause electrical shock If problems with this system
+are ignored
+
+
+
+
+                  _,,:)
+            WATTHOUR
+            METER
+
+
+
+
+  ELECTRICAL SYSTEMS  WEAROUTThis system should not be taken for granted It ages and wears
+out the same as other parts of your home. This system can provide service and convenience
+provided that you check Its cond1t1onregularly and have It improved and repaired when
+problems are found
+
+
+
+2
+  HAVEYOURELECTRICAL         SYSTEMINSPECTEDConsumer Product safety comm1ss1onstudies Of
+res1dent1a1 electrical fires show that the majority of serious fires need not have occurred The
+cond1t1onsthat caused the fires probably would have been detected by an electrical 1nspect1on
+These problems were not detected or corrected because no Inspection had been made for
+several years. In a number of cases Invest1gated by CPSChomes ranging from 40 to 100 years old
+had not been inspected since they were built A safety Inspection should be performed by a
+qualified eIectrlc1an or licensed electrical Inspector
+  To Insure the electrical safety of your home your electrical Inspection should be up to date and
+defects corrected There are no hard and fast rules about frequency of Inspection but here are
+some suggestions
+  To determine when your electrical system was last inspected examine the door and cover of
+your electrical paneUs>The panel should contain a label or tag with a date a signature or 1rntlals
+on 1t If there 1smore than one date the most recent one should be the date of the last
+1nspect1on DO NOTremove the service-panel cover This is a Job for a qualified electrician
+
+
+
+
+                           0
+
+
+                                          I 12o~l\~~s .CI
+                                           ~~''
+
+
+
+                                           --- ,-­--
+                                                - '
+                                                            CIRCUITBREAKER
+                                                            PANEL
+
+
+
+
+  If your last Inspection was-
+  •   40 or more years ago Inspection 1soverdue.
+  •   1Cr40 years ago inspection 1sadvisable especially If substantial electrical loads <highwattage
+    appliances, lights and receptacle outlets or extension cords>have been added or 1f some of
+    the warning signs discussed in the next section are present
+  • Lessthan 10 years ago Inspection should not be needed, unless some of the warning signs.
+    described in the next section, are present or temporary wiring has been added
+You mav live In an area that 1snot served by state or local electrical Inspectors so that no record
+will be found on your electrical panel In that case. use the age of the house as a guide to the
+probable need for an inspection
+
+                                                                                                       3
+  HAVEDEFECTS   FIXED If an electrical professional Identifies dangerous defects In your electrical
+system have changes or repairs made promptly At the same time have him Inspect the wiring
+system for other problems.
+
+
+
+   INSTALLSMOKEDETECTORS    The most Important thing you can do to prevent home fire deaths
+Is to have operating smoke detectors Installed to warn people If a fire starts.
+  Fires In the home are most dangerous at night when people are sleeping Be sure that you
+have alarms that guard escape routes and can be heard In bedrooms Your local building lnspec
+tor or fire department can provide additional 1nformat1on on protecting your home with smoke
+detectors. Test them every month and keep spare batteries on hand
+
+
+
+   PRACTICEESCAPINGPlan the emergency escape routes for your family Practice using them un
+tll everyone knows what to do In case a fire occurs. Don t forget that upper-story bedrooms may
+reQuire fire escapesor chain ladders to permit escape If normal routes are blocked by fire.
+
+
+
+
+4
+WARNINGSOF
+POTENTIALHAZARDS
+
+POWEROUTAGES           -   fuses need replacement or circuit breakers need resetting
+                           frequently
+
+OVERRATED
+        PANEL          -   electrical panel contains fuses or circuit breakers rated at higher
+                           currents than the ampacltv 1current capac,tvl of their branch cir
+                           cults sometimes called overamped or overfused
+
+DIM/FLICKERINGLIGHTS   -   !lghts dim or the size Of your televlsion picture shrinks often
+
+
+ARCS/SPARKS            -   bright llght flashes or showers of sparks anywhere In your elec
+                           trlcal system
+
+SIZZLES/BUZZES         -   unusual sounds from the electrical system
+
+OVERHEATING            -   parts of your electrical system such as switch plates receptacle
+                           outlet covers cords and plugs may be warm but should never be
+                           hot-painful to touch or discolored from heat
+
+ODORS                  -   burned or overheated wires often give off an odor of hot
+                           msulatlon
+
+PERMANENTLYINSTALLED -     used to extend the home wiring system for a long period Instead
+EXTENSIONCORDS             of being used temporarily to connect some appliance with a cord
+                           too short to reach the receptacle outlet
+
+LOOSEPLUGS             -   attachment plugs that wobble or pull out of a receptacle easlly
+
+DAMAGEDINSULATION      -   cut, broken or cracked Insulation
+
+ELECTRICAL
+         SHOCKS        -   any shock even a mild tingle, may be a warning of
+                           danger-electrocution
+
+
+
+
+                                                                                                 5
+ELECTRIC
+       SERVICE
+             EQUIPMENT
+warnings Arcs/Sparks, D1m/Fl1ckenng Lights
+
+
+
+
+  Electric service eQulpment carries electrlc power from the electric companys llnes to your
+home's electrlcal panel In a typical above-ground lnstallatlon the 'Service drop connects the
+low voltage 1120/240volts> utllltv llnes to the service entrance cable.
+                                          ~---t-WEATHER     HEAD
+
+
+
+
+                                                    SERVICE
+                                                          ENTRANCE
+                                                                 CABLE
+
+
+
+
+                             '-... THREEWIRECABLE
+                                   SERVICE
+                                         DROP
+
+
+
+  ~
+
+I~
+ ~             .
+ -.•
+ ,7•       -
+
+,_-:_;-;-..s-
+~--    2       .1,.
+
+
+ it:·      • <i    <
+
+
+
+
+                   ~-
+                       ·•
+                    .- •:.
+                    . ~'
+                       '-'
+
+
+
+
+                                                                         7
+    PROBLEM Arcing or sparking can occur anywhere in this system Rubbing between parts
+    of the house or trees and the electric service equipment can cause damage that leads to
+    sparking
+
+
+
+
+          Do not attempt to correct the problem yourself or touch any of the equip
+          ment. can the electric power company 1mmed1atelyThev or emergency
+          personnel such as firemen are the only ones authorized to turn off the
+          power 1nthis part of your electrical system
+
+
+
+
+    PROBLEM Flickering of your home lights and variation of the size of your TV picture when
+    the wind blows can be caused by bad contacts at the 1unct1onot the service entrance
+    cable and the service drop
+
+
+
+
+          Do not attempt to correct the problem yourself or touch any of the equip
+          ment. can the electric power company lmmedlately
+
+
+
+
+8
+ELECTRICAL
+         PANEL/BOX
+warnings sizzles/Buzzes,
+                      overheating, Odors,Power outages
+
+
+  Electrical power enters the home through the electrical panel A service entrance cable carries
+electrical power from the meter to this panel In multi family dwellings e1ectrlal power 1s
+distributed from the bu1ld1ngpanel to dwelling unit panels Slngle family dwelling panels
+distribute electnc1tv to the branch circuits
+  Branch circuits provide electricity to receptacle outlets lights and appliances throughout the
+home. They are fed by the wirescoming from the electrical panel
+  An electrical panel may contain fuses or circuit breakers,or both Fusesand circuit breakers
+with proper current ratings protect branch circuits from potential fire hazards.When used at the
+proper current ratings they disconnect electric current when 1t exceeds the safe level for each
+branch c1rcu1tThis is usually referred to as opening a fuse or a circuit breaker c blowing or
+ tnpping >
+
+
+
+
+         0
+
+
+                                 I         225 AMPS
+                                                                   1
+                                 ~    120/Z40VOLTS
+                                                 AC
+                                       P\1115[         :IWl"l
+                                      ll-"11.Mll'oll
+
+
+
+                              '}-- ~\=­
+                              ]~ r.J--
+                              .,,_f                 ui
+                                r""'
+                                ~
+                                                    t•J---
+                                               .. 1,.,,..
+                              ,._..,                u,.-
+                                 c      <II,      It~-
+                              >'ll'f---11,                  ,..,,,.,
+                              1 ,_,               11
+                                     .,,,... ""-u
+
+
+
+
+                                                                       FUSEPANEL<CARTRIDGE
+                                                                            AND PLUGJ
+
+
+
+
+               CIRCUIT
+                     BREAKER
+                           PANEL
+
+
+
+   Many electrical panels also have main fuses or circuit breakers that can disconnect power
+from the entire home or from some group of branch circuits
+
+
+
+                                                                                                   9
+     PROBLEM Power may be out on one branch cIrcuIt because too many appliances are
+     connected
+
+
+
+
+           Before replacing the fuse or recloslng the circuit breaker check to see which
+           fuse or circuit breaker Is blown or tripped and which appliances are
+           without power
+           Find the power <watts>ratings of these appliances on their ratings labels and
+           add up the total {SeeAPPLIANCE  POWERBUDGETon page 11) The total
+           wattage on a branch circuit at one time should be less than1soo or 2000 as
+           called for on the Appliance Power Budget page 11
+           If total watts in use exceed the amount allowed on that branch move an
+           appliance from the overloaded branch to another branch circuit with fewer
+           appliances. If this is not possible, get help from a qualified eIectncIan
+           Once the overload condItIon Is corrected replace the burned-out fuse with
+           a 15 ampere one <unlessyou are certain that the branch circuit Is wired for
+           20 amperes>or reclose the circuit breaker
+
+
+           Aboveall neverput anythingother than a fuse In a fuse holder
+
+
+
+
+10
+APPLIANCEPOWERBUDGET
+
+                      15 ampere branch cIrcuIt can carry 1500 watts•
+                      20 ampere branch circuit can carry 2000 watts
+
+                      Find nameplate :
+                                         \   BLESMIT
+
+
+                                         '----------'
+                                                        ~   _         Iwith power <wattsl rating
+                      Add up total watts tor appllances that you may
+                      use at the same time on the same branch circuit
+
+        Hair Dryer
+
+
+
+                            1400 watts
+                          + 1000 watts                            Portable Heater
+                           2400 watts
+                      too much for
+                        15Aor20A
+
+
+                                                     1200 watts ----..i.i:
+                                                   + 600 watts
+                                                        1800 watts
+                                              OK for 20A
+                                         too much for 15 A
+        Deep Fat Fryer
+
+
+
+
+                           1300 watts
+                      +     150 watts
+                          1450 watts
+                                                                vacuum Cleaner
+                              OK for
+                          20A or 15A
+
+
+       Portable Fan
+                               • Most home lIghtIng and receptacle outlet branch
+                                 circuits may carry as much as 1500 watts <15ampere
+                                 branch) some kitchen cIrcuIts as much as 2000
+                                 watts <20amperel
+
+
+                                                                                                   11
+     PROBLEM one appliance repeatedly blows fuse or tnps a c1rcu1tbreaker 1nd1cat1ng
+                                                                                   an
+     appliance defect that could cause a fire or shock hazard
+
+
+
+
+            Obtain help from a qualified appliance repairman or replace the appliance
+            which may be faulty
+
+
+
+
+     PROBLEM Fuse blows or circuit breaker tnps when a particular switch light or
+     receptacle outlet Is used
+
+
+
+
+            Obtain help from a qualified electrlc1an Do not put in a higher ampere fuse
+            or circuit breaker
+
+
+
+
+12
+FUSES/CIRCUIT
+            BREAKERS
+warning overrated panel
+
+
+                         FUSES                                 CIRCUITBREAKERS
+                                                                                    ro
+                                                                                     I
+    EDISONBASE          EDISONBASE
+   PWG FUSEIOPENl      PLUGFUSEINEWl
+
+
+
+                                                                                       SINGLE
+                                                                                        POLE
+
+
+
+                                            CAl!TRIDGE
+                                                     FUSE
+     5-TYPEPLUG        5-TYPESOCKET
+        FUSE              INSEl?T
+
+
+
+
+                                                                 DOUBLE
+
+              88             FOUR-FUSE
+                             PANEL
+                                                                  POLE
+
+
+
+
+              88,
+                                         PULL-OUTFUSEBLOCK                         GROUNDFAULT
+                                                                                CIRCUITINTERRUPTER
+
+
+
+
+   Fusesand circuit breakers are safety devices located on your electrical panel to prevent over
+loading and fires They stop the electrical current If 1t exceeds the safe level for some portion of
+the home electncal system overloading means that the appliances and lighting In the home
+regularly demand more electrical current than the home electrical system can safely deliver
+   If the demand for electrical current exceeds the safe level a fuse opens once and must be
+replaced to reconnect the c1rcu1tA circuit breaker trips Its switch to open the circuit and the
+circuit 1sreconnected by closing the switch manually
+  There are at least two different types of circuit breakers one has a control handle that swings
+all the way to OFF when 1t 1stripped The other has an Intermediate pos1t1onclose to ON
+(sometimes 1t 1sd1ff1cult to see that It has tripped>
+   Both types of c1rcu1tbreakers must be reset with the hand control after the problem has been
+eliminated The first type should simply be moved back to ON the second moved first to OFF
+and then to ON
+
+
+                                                                                                     13
+     PROBLEMIf your name nas a four fuse panel (60-ampere>service, most of tne fuses snould
+     be rated at 15 or at most 20 amperes. If It nas one or more fuses rated above 20 amperes
+     someone may nave tried to avoid power outages by substituting n1gner amperage fuses.
+     Your wiring may be exposed to overloading tnat can lead to fire.
+
+
+
+
+            Reduce tne fuses to 15 ampere rated ones unless you are absolutely certain
+            tnat a special circuit 1swired for 20 amperes.
+            If fuses continue to blow keep track of wn1cn brancn circuits are affected
+            and wn1cn appliances are In use wnen tne power outage occurs. consult a
+            qualified electrician to resolve tne problem
+            At least, nave your electrical panel inspected to determine wn1cn brancnes
+            snould be protected at a 15 ampere level and wn1cn If any are adequate for
+            20 ampere safety devices
+
+
+
+
+                              ~~~o~
+                                    4                O
+                                                                    FOURFUSE
+                                              '
+
+
+                                     ~~
+                                                                      PANEL
+
+
+
+
+14
+PROBLEM Your fuse panel has Edison base plug fuses 1screw base like a light bulbl
+Installed Fuses of different ratings will flt In Edison sockets.
+  consumers sometimes replace a fuse that repeatedly blows with a higher ampere
+rated fuse. Although the new fuse may not open It also may not protect the branch
+circuit overloading that leads to fire can occur
+
+
+
+
+      To prevent future Installation of fuses that allow currents too high for your
+      wiring your fuse panel should be converted to s type sockets that accept
+      only fuses of the correct amperage rating If you have Edison base fuse
+      sockets have them fitted with the s type socket Inserts.
+
+
+                             EDISONBASE/STYPE FUSES
+
+
+
+
+                        EDISONBASE                    EDISONBASE
+                      PLUGFUSE(OPEN)                PLUGFUSEINEWl
+
+
+
+
+                         STYPEPLUG                   STYPESOCKET
+                           FUSE                         INSERT
+
+
+
+                                                                                      15
+     PROBLEM Your electrical panel has 25 ampere or higher rated fuses or circuit breakers
+     installed that control 15 or 20-ampere rated lighting and receptacle outlet circuits. These
+     overrated devices allow overloading of your branch circuits that can lead to fire.
+
+
+
+
+           Reduce the lighting and receptacle outlet branch circuit safety devices to 15
+           amperes unless you are certain that a special circuit Is wired for 20 amperes.
+           If fuses continue to blow keep track of which branch circuits are affected
+           and which appliances are In use when the power outage occurs Consult a
+           qualIfIed electrician to resolve the problem
+           At least have your electrical panel Inspected to determine which branches
+           should be protected at a 15 ampere level and which If any are adequate for
+           20 ampere fuses or breakers.
+
+
+
+
+16
+LIGHTING/LAMPS
+warnings 01m/Fl1ckeringLights,sizzles/Buzzes
+
+
+
+This section concerns home wall and celling mounted surface and recessed lighting
+
+
+
+
+           Illustration   IA>
+
+
+
+
+                                                              SURFACEMOUNTEOWALL
+                                                              LAMPWITH BULBSOF TOO
+                                                              HIGH WATTAGE
+
+
+
+
+                                       INSULATEDRECESSED
+                                                       LAMP
+           lllustratlon   !Bl
+
+
+
+
+                                                                                     17
+     PROBLEM tamp bulbs of too high wattage are useCIanCIcause overheating of the lamp
+     Insulation
+
+
+
+
+           Turn off the llght fixture. Do not use until a quallf1eC1electrlc1an has
+           correcteCI the problem
+           In other light fixtures check the bulbs that you are using Do they have the
+           correct power ratings <watts>calleCIfor on the lighting fixtures? OICler
+           fixtures may not state what the number of watts shoulCI be. Sixty watt bulbs
+           are usually useCIwith olCler fixtures
+
+                                                                          see Illustration IA>
+                                                                          on the preceding page
+
+
+
+
+     PROBLEM Arcing buzzing oClors or Cllscolorat1on of lamp parts signal overheating causeCI
+     by f1ll1ngthe space over the fixture with heat insulation such as fiberglass or cellulose.
+     Most 11ght1ngfixtures are CleslgneCIanCIrateCI to operate safely ,n open spaces
+
+
+
+
+            Turn off the light fixture 1mmeC11atelyHave a qual1fleC1electrician Cletermine
+            1f heat insulation has been aCICleCI
+                                              arounCI the recesseCIlight fixture after 1t
+            was lnstalleCI
+            The electrician may aClvlseyou that some Insulation arounCI the original
+            fixture neeClsto be removeCI or that a fixture that can be useCIwith
+            1nsulat1onneeClsto be 1nstalleCI
+            RecesseCIlight fixtures are now prov1CleC1with a C1ev1cethat Interrupts
+            electrical power to the fixture when 1t overheats for any reason
+
+                                                                         See Illustration IB>
+                                                                         on the preceding page
+
+
+
+
+18
+RECEPTACLE
+        OUTLETS/SWITCHES
+warnings Shock,Poweroutage,overheating,Arcs/Sparks
+
+
+
+
+                       '
+
+                                                                                 0
+                                     0
+                                ""       0
+
+
+
+
+                           I
+                           I
+                               0'
+                               -     0   ...
+                                                                                Bl
+                                                                                 0
+
+                           l                                                I
+                                                                            ~
+
+
+
+
+                                                                                TOCGLE
+                               PUSH BUTTON                                      SWITCH
+                                 SWITCM
+
+
+
+
+ switches are used to turn the power on and off Receptacleoutlets are usually mounted on a
+wall or floor to supply electricity to appliances through a cord and plug
+
+
+
+                                                               OUTLETS
+                                                       RECEPTACLE
+
+
+         "I                                        I                                 I
+
+
+          I
+                                                                                     I
+               8   0
+                                                   I ~        0
+                                                                                     I
+                                                                                     i   8   0
+                                                   I
+
+               8                                   ! ~                                   8
+                                                                                     I
+
+                                                                                     i
+          '
+                                                   I                                 I
+                                               "
+                TWO POLE                                    TWOPOLE                       TWO POLE
+               POLARIZED                               THREEWIREGROUNDING                NONPOLARIZED
+
+
+
+
+                                                                                                        19
+     PROBLEM You get a shock when you touch a metal faceplate or metal screws of a
+     receptacle outlet or switch
+
+
+
+
+            Turn off the branch circuit at the electrical panel unless It affects an
+            essential appliance
+            Avoid touching the faceplate or using the device until you get help from a
+            Qualified electrician
+
+
+
+
+     PROBLEM You get a shock when you touch the outer shell of an electric lamp socket
+
+
+
+
+            Unplug the lamp
+
+            Check the receptacle outlet and the plug of the lamp cord to be sure that
+            they are polarized cone blade wider than the othen If not they should be
+            replaced with polarized ones caswell as any other unpolarized plugs or
+            receptacle outlets In your home> by a Qualified electrician
+            If the lamp plug 1spolarized and you received a shock either the lamp or
+            your receptacle outlet Is mlswlred The problem should be Identified and
+            corrected by a Qualified electrician
+
+
+
+
+20
+PROBLEM When you use a particular receptacle outlet or switch, the fuse blows or the
+circuit breaker trips.
+
+
+
+
+       Do not put in a higher ampere fuse or circuit breaker Obtain the help of a
+       Qualified electrlclan to correct the problem
+
+
+
+PROBLEM Faceplatesof switches or receptacle outlets In use feel hot-uncomfortable       to
+touch unused receptacle outlets may also feel hot because the electric power delivered
+to one receptacle outlet often passesthrough the connections of one or more other
+receptacle outlets This 1nd1catesa potential fire hazard In the receptacle outlet switch or
+wiring
+
+
+
+
+      Discontinue use of the hot receptacle outlet or switch Immediately Obtain
+      help from a Qualified electrician as soon as possible.
+
+
+
+
+                                                                                              21
+     PROBLEM If an appllance plug sllps In and out of receptacle outlets easily or tends to pull
+     out from the weight of the cord the electrical connection may be loose and llkely to
+     overheat
+
+
+
+
+            Insert plugs <preferably new ones>from two or three other cords. If all or
+            most of them flt flrmly, the first appliance cord Is worn out or defective
+            Do not bend the blades of a plug because this usually causesworse
+            overheating later
+            The receptacle outlet probably needs to be replaced by a Quallfled
+            electrician If most of the plugs flt loosely
+
+
+
+     PROBLEM Aluminum wires connected to receptacle outlets and switches. These
+     connections tend to loosen during use lose good electrical contact and overheat
+
+
+
+
+            contact a Quallfled electrician to determine a reliable way of repairing
+            aluminum wiring
+
+
+
+
+22
+PROBLEM Newer homes may have t>ackwire push In wire connections to receptacle
+outlets and switches rather than connections made l>Ytightening a metal screw down on
+a loop of the wire. These connections may tend to loosen and overheat
+
+
+
+
+       If you know that you have t>ackwire push in connections feel your
+       receptacle outlet and switch faceplates regularly for overheating If you
+       detect this consult a qualified electrician
+
+
+
+                                    RECEPTACLE
+                                            OUTLETS
+
+
+
+
+                             SIDEWIRED                BACKWIRED
+                                                       PUSHIN
+
+
+
+
+PROBLEM Operation of a switch causesv1s11>1e
+                                          arcing or sparking
+
+
+
+
+      The switch should be checked by a qualified electrician
+
+                                                                                        23
+     PROBLEM Removal of plug from receptacle outlet causesv1s1blearcing or sparking This
+     usually means that there 1selectrical current flowing through the Plug when you remove 1t
+
+
+
+
+            If possible turn off appliances bY using their switch before unplugging
+            them Avoid using the plug to turn appltances off because this can damage
+            the plug and the receptacle outlet If the faceplate feels hot consult a
+            qualified electrician
+
+
+
+
+     PROBLEM Missing faceplates expose electrical parts of receptacle outlets ano switches
+     creating a potential shock hazard
+
+
+
+
+           Obtain the type of faceplate that fits the particular receptacle outlet or
+           switch and replace the m1ss1ngcover
+
+
+
+
+     PROBLEM Switches or receptacle outlets do not work
+
+
+
+
+           Failure to operate should not be ignored Obtain the help of a qua11f1ed
+           electrician The failure may not seem dangerous in itself but 1t can be a
+           warning sign of a more serious problem
+
+
+
+
+24
+CORDS/PLUOS
+warningsDamaged1nsulat1on,
+                        Arcs/Sparks,
+                                  overheating
+
+
+
+
+                                         OOZJ (ID
+
+
+
+
+  An appliance cord connects an appliance to a receptacle outlet lWo wire cords connect to the
+ hot and neutral connections of the power supply Three wire cords have an additional conduc
+tor to connect to ground as a safety measure.
+
+                                                                                             25
+     PROBLEM1nsulat1onIs damaged (cut crushed melted hardened cracked etc> exposing
+     the wire and presenting a shock or fire hazard
+
+
+
+
+           Unplug the appliance. Do not use 1t until the cord can be replaced Have a
+           auallfied repair shop replace the cord with the proper one for the
+           appliance.
+
+
+
+     PROBLEMsparking and/or smoking occurs close to the plug when the cord is used to pull
+     1t out of the receptacle outlet
+
+
+
+
+           Do not pull on the cord
+
+           Disconnect the appliance first by its switch 1f 1t has one. Remove the cord
+           from the receptacle outlet by pulling on the plug If the cord has been
+           pulled out often or shows any signs of damage at the plug stop using the
+           appliance. Have the cord or plug replaced bY a aual1f1edrepairman
+
+
+
+
+                                                   ~
+
+
+
+
+                                                  DO NOT PULL ON THE CORD
+
+
+
+
+26
+PROBLEMWhile a hand held appllance such as a hair dryer or electric drill 1sIn use smoke
+or sparks come from the cord, near the body of the appliance or the plug The appliance
+stops working
+
+
+
+
+      Unplug the appliance. Replacethe appllance or have the cord replaced by a
+      aua11f1edrepairman Never wrap the cord tightly around the appliance when
+      you put it away Arrange the cord with no sharp bends
+
+
+
+PROBLEMoverheating occurs ,n the plug of an appliance cord The plug feels unusually
+warm or hot to touch It may melt smoke or give off odors
+
+
+
+
+      unplug and stop using the appliance. Have the appliance cord replaced by a
+      Qualified repairman
+      Observe the performance of the new plug with full power on the appliance.
+      If 1t still overheats the receptacle outlet ,s probably worn or defective and
+      should be replaced by a auallf1ed electrician
+
+
+
+
+                                                                                           27
+     PROBLEMcords may be improperly placed and become damaged rn1s can cause
+     overneating and fire.
+
+
+
+
+            oo not fasten cords In place wltn staples nails etc
+            Do not place cords permanently In n,gn traffic floor areas or plncned In
+            doorways
+            Do not cover cords w,tn rugs carpets furniture, etc
+
+
+
+
+                                                                      '
+                                                                     ''
+                                                                     '
+                                                  I"'---'~-:.        I
+                             0                                       II
+                                                            IU\1~-1
+                                                                ''
+                                                                 '
+
+
+
+
+28
+EXTENSIONCORDS
+warnings Shocks,overheating, Permanentuse
+
+
+  An extension cord is an electrical cord with an attachment plug at one end, and one or more
+receptacles at the other They are available in two conductor <polarized no groundl and three
+conductor <polarized with grounding conductor) versions.
+
+
+
+
+                                                                           LARGEFACE
+                                      NEW No 16
+
+
+
+                                                        HEAVY#16 CORO
+         SAFETYCLOSURE
+         TO PREVENT
+                  SHOCK
+         AND MOUTH BURNS
+                                                                        15-AMPEREMARKINGON
+                                                                        PLUGDOESNOT APPLYTO
+                                                                        OVERALLEXTENSIONCORD
+
+
+
+
+                                      OLD No 18
+
+
+
+           \
+      15 AMPEREMARKINGON
+      RECEPTACLEDOESNOT APPLYTO
+      OVERALL
+            EXTENSION
+                    CORO
+
+
+
+
+                                                                                                29
+     PROBLEMSOlder extension cords with small plugs and without safety closures expose
+     young children to shocl<hazards and mouth burn lnJurles.Young children can contact a
+     live blade with a finger or tongue.
+
+
+
+
+           Replacethe older extension cords with new cords that have large plugs and
+           convenient finger grips large faces and safety closures for the receptacle
+           end
+
+
+
+
+     PROBLEM cords have dry and brittle Insulation which can cause shocl<and burn 1n1uries.
+
+
+
+
+           Get new cords to replace the ones that have damaged Insulation
+
+
+
+
+     PROBLEM Older extension cords made with small <No 18 gauge>wire that overheat at 15
+     or 20 amperes
+
+
+
+
+           Replacewith new extension cords having heavier No 16 gauge wire <the
+           lower the gauge number, the heavier the wire and the more electrical
+           current the cord can safely carry>
+           The difference between these cords Is not obvious but the new No 16 cords
+           usually have 16/2 or 16/3 stamped on the cord and will have the wire size
+           printed on the pacl<age.
+
+
+
+30
+PROBLEMsome older small wire extension cords <No 18>that have 15 amperes (15-Al
+markings on the plugs and sockets. The 15-Amarkings were Intended to apply only to the
+amount of electric current that the plugsand socketscould carry and not to the cords.
+These No 18 cords will overheat If they carry 15 amperes.
+
+
+
+
+      Replacethese older extension cords.
+
+
+PROBLEMOverheating of extension cords can occur at the plug at the socket or over the
+entire length of the cord Hot plugs and sockets are caused by deteriorated connections
+to the cord wires. overheating of the entire cord Is usually caused by overloading
+<connecting appliances that need too many watts for the wire size of the cord>
+
+
+
+
+      Feel the cords when they are In use. If hot, disconnect the appllance<s>
+      Replaceextension cords. Be sure that the total number of watts connected
+      to the extension cord are no more than the new cord rating
+      Refer to the Appliance Power Budget for how to determine wattage of the
+      appliances.
+
+
+
+
+                                                                                         31
+     PROBLEMExtensioncords are InstalledInsteadof permanent wiring to provide more
+     receptacleoutlets for your home system
+
+
+
+
+           Extensioncords are Intended only for short term use.Discontinueuseof the
+           extensioncords.Get a auallfled electr1c1an
+                                                    to Install permanent wiring to
+           extend your home system
+
+
+
+     PROBLEM    Extensioncords have been repaired or Joinedby meansof weak or exposed
+     wire splices.
+
+
+
+
+           Replacethese patched cords with new ones Destructivefires have been
+           causedby home-madesplices.
+
+
+
+
+32
+PROBLEM Extension cords may be Improperly placed to Pinch or bend the cord and
+damage Its Insulation or wires. This can cause overheating and fire.
+
+
+
+
+      Do not fasten cords In place with staples nalls etc.
+      Do not place cords permanently In high traffic floor areas or pinched In
+      doorways.
+      Do not cover cords with rugs carpets furniture etc.
+
+
+
+
+                                                                                 33
+SHOCKPROTECTORS
+warning Shock
+
+
+
+                           GROUNDFAULTCIRCUITINTERRUPTERS
+
+
+
+
+                                                 !'    ITT          "1/
+
+                                            !
+                                            '
+                                            '
+                                             I
+                                                /
+
+
+
+
+                                                       ['l~I   I
+                                                                    II
+
+
+
+
+                                                                   !!
+                                                                   II
+                                                                   ,,
+                                                                   "
+                                           iI
+                                           /I            a:1       /'!
+                                           ii
+     CIRCUITBREAKER                                   RECEPTACLE                    PLUGIN
+
+
+
+
+  A Ground Fault c1rcu1tInterrupter <GFCD    detects any loss <leakage>of electrical current 1nthis
+circuit that might be flowing through a person When such a loss 1sdetected the GFCIturns
+electricltv off before severe Injuries or electrocution can occur <However you may receive a
+painful shock during the time that It takes for the GFCIto cut off the electricity>
+  Test the GFCIonce a month To check the unit press the TESTbutton The GFCIshould indicate
+ open or off and should disconnect the power from the GFCIprotected c1rcu1t Pressthe RESE
+switch to restore power
+   GFCIreceptacle outlets can be installed In place of standard receptacle outlets to protect
+against electrocution for Just that receptacle outlet or a series of receptacle outlets 1nthe same
+branch
+  A GFCIcircuit Breaker can be Installed on some circuit breaker electrical panels to protect
+against electrocution excessiveleakage current and overcurrent for an entire branch c1rcu1t
+   Plug 1nGFClscan be plugged Into receptacle outlets where appliances w111be used
+
+
+
+
+34
+PROBLEMElectric shocks can be more serious In certain 1ocat1onsof the home, such as
+bathrooms, kitchens basements and garages where people can contact heating radiators
+water pipes electric heaters electric stoves and water In sinks and bathtubs. If a person
+touches one of these and a faulty electrical appliance they can receive a shock and mav
+be electrocuted
+
+
+
+
+       If you have a home without GFCls,consult with a qualified electrician about
+       adding this protection
+       If you want to Install some GFCIprotection yourself use plug In units to
+       protect ind1vldua1receptacle outlets. Both two-conductor and three­
+       conductor receptacle outlets can be protected with plug 1nunits.
+       You may have a newer home that Is equipped with GFClsIn the areas
+       mentioned above.
+
+
+
+
+                                                                                            3S
+HOME WIRING PROTECTORS
+Warning: Fire
+
+
+PreventingHome Fires:                                             Should
+                                                                       YouInstallAFCls?
+AFCls                                                             Youmaywant to oons:ideradding AFCIprotection
+Prol.lh:n1sin hofoe wiring, like arcing and spru:kil)g,an:        for bolh new and existing brunet. Older homes
+~<$()(.ialcdwith more tl,an •10.000home fires each \·eax.         with ordinary circuit brealce" e,pedally may bcne­
+l'hc::se fires dai,u O'-'<W
+                          350 lives and injure 1,400 vi;cioos     fi< from. Ibo added pro""'tion against lhe al'cing
+an1lu.\lly.                                                       fa.1,tltsthat can occur in    •s
+                                                                                                wiring S)'StCJ11$,
+   A nc:welectrical s.1Ietyde,1ce for homes, ctlled an arc            For more ioformationabout AFCb, contact an
+faull ci.t·cuili.1w:m.1ptcror AFCI. i.sexpe<:led \◊ pro1,,ide     e1ectrical!lupplystore, an e1eurician,or the manu­
+enh:mccd prntc.-c.,1ionfrom fu'e$ i-esu.ltingfrom tl1esc uO•      facturer of I.hecircuir breakeQIalrad)· imtalled in
+safe home wiri1)gconditions.                                      )'OW' home. Sometimes
+                                                                                      thesecomponenlScan be
+   1~'J)iO'llhousehold fust's aod cifcl•it. br¢:tkcrs do not      replaced \\ith AFCh in the exisdng elcctric;alpanel
+rcspnnd    to early ateil\g and sparking conditioos        iu     box.
+home vni'ifi.g.By lhc lime a fuse or circuit bl'e:.\l:eropens         Be::Mire to have a qualifiedelectrician i,um.U
+a circuit to defuse tJ1ese coodicions, a fire may already         AFCh; do not atW':lllJ)tthis wort yourxlf. The in­
+have begui\.                                                      stall:atioo im-oh'(Sworking within elec:ltical paneJ
+   Sev(:r:,.lyears ago, a CPSC smdy identi.fie<larc fuull         boxes that are o.ually elecuicolly Uw:,
+                                                                                                       ""'n wilh the
+detection as a proJll.is.i.ognew tcchnol<>l,")',Since then,       main c;ifcuitbreakers h,lJ1lCdoff.
+CPSC eleclfioll engineers have t<.-st.ed
+                                       the new AFCls on
+lhe nmrkc:t and found these ptod\1(:~$10 he cffccti\'C.
+
+RequiringAFCls
+ AFGLs::ire alrc:ady recogoiied fot thc;ir c:lfcc:ti,·cness i1l
+ pre,•e1uir)g lites. The most rccenl e<litioo of the
+ N;1tiooal f.lcc:tri<:al Code. dle -...idely.✓.1doptcd model        ARC-FAULT CIRCUITINTERRUPTERS
+ code for electrical wi.ring, will require 1\FC!s for bed·
+ room circuit$ in new residential C◊~lScn.1c:.tion, cffccci.,.e
+.J:tnl,CU')' 2002.
+      Futm·e e<Litioosof the c:odc, which is opdated e,•ery
+ t.htee yea!'$, c:ould c.xp.tl'1dco~-e~ge.
+
+AFClsvs. GFCls
+AFCl.:sshQ•l)l<lnot be col\fused with gfotmd fault circuit
+interrupters or GFCJs..Th<: popular CFC! de"ices al'e de­
+                                                                                            /
+                                                                                           //
+                                                                                                  _
+                                                                                                 ...
+                                                                                                 "I>   ,'
+
+signed to pro,idc: pro1cctiou from 1..heserious consc­                                 i~,"                    t'
+q-uc;nc:csof electric :shock.                                                          i-              \ ./,
+   Wl,ile bo(l) AFCls and GFCJsare imp,ottMt safeC)·dc­
+                                                                                                       I. '
+vic~. thC)' have differeot functions. A~Cls arc intended
+m add1'd:s fo-e h:nards; CFCls address shock b:."tz:a.rds.
+CoJUb.i.oaciondc,iccs that include both AFCIand CFCI                                   '
+prol.(:c:1ionin one tulit will become a.\':tilable.W◊ft,                                   '~·
+   AFCls C;,'11l be installed in ao.y 15 ot 20-amperc
+branch circuit in Ju:>rnestod~y ;md arc~currently a"ail­
+<1ble as cira1.i.tbn::a.kers with built•in.AFCl fean1res.. In                    CIRCUITBREAKERTYPE
+tbe nc;ar future, other t;•pe:sof de,/4ces with AfCl protcC•
+tion will be avaifable.
+
+
+
+36
+To report a product hazard or a product related inJury wnte to the U S Consumer Product Safety
+Comm1ss1onWashington DC 20207 In the United States call the toll free hotline 800-638 CPSC
+(2772) A teletypewriter for the deaf Is available on the following numbers National (including
+Alaska and Hawa11)800 638 8270 CPSC news releases Public Calendar and other information
+can be obtained v,a the Internet from the agency s Web Site http //www cpsc gov Agency
+staff may be contacted by e mail E mail Address 1nfo@cpsc gov
+
+This document ,s m the public domain It may be reproduced m part or ,n whole by an ind1v1dualor
+organization without permIssIon If 11,s reproduced however the Comm1ss1onwould appreciate
+knowing how ,t ,s used Wnte the U S Consumer Product Safety Comm,ss,on Office of information
+and Public Affairs Washington D C 20207
+
+The U S Consumer Product Safety CommIss1on (CPSC) ,s an independent regulatory agency
+charged with reducing unreasonable nsks of InJuryassociated with consumer products CPSC Is
+headed by three CommIss1oners appointed by the President with the advice and consent of the
+Senate
+
+
+
+
+                            PRODUCT
+                                  SAFETYITS NO ACCIDENT
+
+
+
+
+                                      Regionalcenters
+
+U.SConsumerProdud
+                SafetyCommission                U.SConsumer Produd
+                                                                 SafetyCommission
+Eastern
+      Region                                    CentralRegion
+Eastern Reewnal Center                          Central Regional Center
+001 Vanek Streel Room 903                       0 30 South Dearborn Street Room 2944
+
+'lew York NY 10014481 J                         Chicago IL 60604 160I
+(212) 6°0 41°0                                  (312) 151 81 60
+
+                            U.SConsumer
+                                      ProdudSafetyCommlss1an
+                            Western
+                                  Region
+                            Weslern Reg10naJCenter
+                            1301Clav Street Su1te6J0 "I
+                            Oakland C >,.946 P
+                            (510)637 4050
+

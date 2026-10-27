@@ -1,0 +1,367 @@
+# 0loXukB302Q | How to use a multimeter like a pro, the ultimate guide | Anthony Mendez
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:00] a multimeter at first could seem
+[0:02] intimidating but by the end of this
+[0:04] video you'll know everything you need to
+[0:06] know to fully use your multimeter from
+[0:09] what every sign means to what they do
+[0:11] we'll also look at some examples and
+[0:13] demonstrations on how each feature could
+[0:16] be used finally we'll take a quick look
+[0:18] at different multimeters and compare
+[0:20] their features to decide which is best
+[0:22] for
+[0:23] you now every multimeter has different
+[0:25] features but there are standard
+[0:27] measurements and symbols across most
+[0:29] units
+[0:30] so let's take a look at that first first
+[0:32] off we have voltage represented by a
+[0:35] capital V this will allow you to measure
+[0:37] voltage of power lines and devices the
+[0:40] power in your home is alternating
+[0:42] current also known as AC and is
+[0:45] represented by a wave sign then we have
+[0:47] DC current which is also known as direct
+[0:50] current and this is represented by two
+[0:53] lines one solid and the other dotted
+[0:55] you'll usually have two voltage
+[0:57] selectors on your meter one for
+[0:59] alternating current and one for direct
+[1:02] current the most devices that are
+[1:04] intended to be plugged in or charged
+[1:06] will have a label indicating their
+[1:08] voltage and current type this battery
+[1:10] for example outputs 18 volts direct
+[1:12] current this jigsa for example has an
+[1:15] input of 20 volts so let's use our
+[1:17] multimeter and test this battery at the
+[1:19] top of the battery we have labels which
+[1:21] tells us which terminal is which after
+[1:23] setting our multimeter to voltage direct
+[1:26] current we then place our red wire on
+[1:28] the positive and the black one on on the
+[1:30] negative if the voltage is not matching
+[1:32] the device requirements there's likely
+[1:34] something wrong with your battery or
+[1:35] your device in this case our range is
+[1:38] pretty good and we have a good battery
+[1:39] here now alternating current is what
+[1:41] you'll usually find in the outlets of
+[1:44] your house so before testing our Outlet
+[1:46] proceed with Extreme Caution high
+[1:48] voltage can cause death and serious
+[1:51] injuries so to test this set your meter
+[1:53] to voltage alternating current then
+[1:55] place your probes in the socket when
+[1:57] placing the probes the other could
+[1:59] become instantly electrified so do not
+[2:02] come in contact with the probes after
+[2:04] placing them in the socket when testing
+[2:06] deadly high voltage like this many
+[2:09] recommend just using one hand as opposed
+[2:11] to two by using two hands you're at risk
+[2:13] of completing a circuit through your
+[2:14] chest leaving you at greater risk of
+[2:16] death from current passing through your
+[2:18] body depending where you are in the
+[2:19] world you'll read between 100 and 240
+[2:23] volts this multimeter shows us the
+[2:25] results automatically by ranging by
+[2:27] itself later in the video we'll talk
+[2:28] about manual range ing multimeters which
+[2:30] are these that have a bunch of numbers
+[2:32] our next feature is ohms this is a
+[2:35] measurement of resistance essentially
+[2:37] how difficult it is for an electrical
+[2:38] current to pass through a material if we
+[2:41] place the probes on a copper wire for
+[2:43] example we'll get a resistance of nearly
+[2:45] zero this is because it's very easy for
+[2:47] current to flow through the copper wire
+[2:49] if we place the Probe on the rubber
+[2:51] however we get o meaning open loop this
+[2:55] is because little to no current can flow
+[2:57] through the rubber which is why we use
+[2:59] it to protect the from the wires and we
+[3:01] use it to insulate wires in other words
+[3:03] it's very difficult for electricity to
+[3:05] pass through rubber we then have
+[3:07] resistors these are devices that help us
+[3:09] precisely regulate resistance to test
+[3:12] these again it's quite simple we set our
+[3:14] meter to ohms and place the probes on
+[3:16] the leads this resistor for example is
+[3:19] 21,600 ohms we'll talk about letter
+[3:21] values later on in the video but this is
+[3:24] 21.6 k k meaning Kila so this is
+[3:28] 21,600 ohms an important thing to
+[3:30] mention is that if you're testing a
+[3:32] resistor on a circuit for example you
+[3:34] can and will likely get a false reading
+[3:37] this is because there's other paths with
+[3:39] less resistance on the circuit that
+[3:40] could give you a false reading leading
+[3:42] you to believe that the resistor is
+[3:44] damaged so you should always isolate
+[3:46] what you're testing when possible the
+[3:48] next common feature is continuity and
+[3:50] this is one of the simplest and
+[3:52] surprisingly useful features on a
+[3:54] multimeter so this feature essentially
+[3:56] just makes a tone when continuity is
+[3:58] found with low enough resistance this
+[4:00] feature can be used for example if we
+[4:02] have a large row of wire like this and
+[4:04] we want to verify that the wire inside
+[4:06] is not broken anywhere now verifying
+[4:08] that the wire inside is connected and
+[4:10] functioning is virtually impossible
+[4:12] without cutting it open except with a
+[4:14] multimeter using the continuity we
+[4:16] simply place our leads on each side of
+[4:18] the wire if we get a tone we can verify
+[4:20] that this wire is good it's unbroken and
+[4:23] it's all good within this wire this
+[4:25] feature is also helpful for finding wire
+[4:27] positions let's say for example we want
+[4:29] to know what pin this circuit goes to we
+[4:32] place the Probe on the circuit and then
+[4:33] with the other probe we touch each one
+[4:35] of the pins to see which one it is we'll
+[4:38] finally get a tone and now we know that
+[4:39] this pin corresponds to this circuit
+[4:42] these three features voltage ohms and
+[4:44] continuity are the most common but we
+[4:47] have a lot more things that multimeters
+[4:49] can do next we have capacitance which is
+[4:51] represented by this symbol capacitors
+[4:54] are devices that store energy for later
+[4:56] use in high demand applications to test
+[4:59] these we set our meter to the option and
+[5:01] in our case we have to press the
+[5:02] selector button to switch to capacitance
+[5:05] here at the top we get a capital f
+[5:07] meaning farad which is what we need now
+[5:09] before we test this capacitors are
+[5:11] extremely dangerous exercise Extreme
+[5:14] Caution these capacitors can be charged
+[5:16] with high voltages that are very
+[5:18] dangerous we have capacitors that are
+[5:20] both polarized and non-polarized most
+[5:22] capacitors should be labeled with their
+[5:24] voltage and capacitance ratings by
+[5:27] farads now usually farads are measured
+[5:29] in micro scale so you'll usually have
+[5:31] this symbol meaning micro this capacitor
+[5:34] is reading 230 microfarads which is
+[5:37] pretty standard it will usually have
+[5:38] some tolerances we then have this one
+[5:40] which is non-polarized at 7.5
+[5:43] microfarads with a 5% tolerance if we
+[5:46] test it we get a reading Which is higher
+[5:48] but it is within that 5% range moving on
+[5:51] in our case on the same setting we have
+[5:53] a diode symbol this is a diode and this
+[5:55] device simply allows for current to pass
+[5:57] in One Direction but not the other to
+[5:59] test this we place our leads on the
+[6:01] diode and get a reading if we reverse it
+[6:04] however we should get no reading or open
+[6:06] loop this diode is working properly as
+[6:09] voltage can pass in One Direction but
+[6:11] not the other if you get a reading in
+[6:12] both directions or no reading in both
+[6:14] directions then your diode is damaged
+[6:16] our next feature is Herz or also known
+[6:19] as frequency this is simply the speed of
+[6:22] an electrical generator meaning the
+[6:23] frequency of this alternating curve wave
+[6:26] depending on where you are in the world
+[6:28] you'll have somewhere between 50 and 60
+[6:30] HZ in your outlet and as usual whenever
+[6:32] working with electricity exercise
+[6:34] Extreme Caution so what we'll do is
+[6:36] simply place our leads in the terminals
+[6:38] of the outlet and we'll get 59.98 Herz
+[6:41] now this is just barely off the 60 HZ
+[6:44] standard of the United States many
+[6:46] multimeters will also say Duty or have a
+[6:49] percentage sign this is known as duty
+[6:51] cycle and this tells us what percentage
+[6:53] of the time there's positive current so
+[6:55] when an alternating current is spinning
+[6:57] you'll usually have 50% % on and 50% off
+[7:01] in this case we have dead on 50% there's
+[7:04] other applications where you have square
+[7:06] waves that aren't on 50% of the time
+[7:09] another common feature is the
+[7:10] temperature probe this will either be
+[7:12] represented by Celsius or Fahrenheit or
+[7:15] a temperature symbol like this this
+[7:17] one's pretty simple and straightforward
+[7:19] it tells us either surface or ambient
+[7:21] temperature meters with this feature
+[7:22] will usually come with a separate probe
+[7:24] that we have to connect to our meter and
+[7:26] this should give us temperature this
+[7:28] probe should not be wet another less
+[7:30] common feature is
+[7:32] HF this stands for hybrid parameter
+[7:34] forward current gain common emitter it
+[7:37] essentially measures transistors and in
+[7:39] this case we have to use an adapter and
+[7:41] place it on our input we then get our
+[7:43] diode and have to figure out whether
+[7:44] it's PNP or npn if we don't know what
+[7:48] kind it is we look at the number and
+[7:49] look for the data sheet on this
+[7:50] transistor and it'll tell us which is
+[7:53] the emitter base and collector we then
+[7:55] align our transistor on the adapter and
+[7:57] connect it to the board this should give
+[7:59] us a current gain which we could verify
+[8:01] again on the data sheet clearly this is
+[8:03] a bit more of a specialized and
+[8:05] complicated feature but it's good to
+[8:07] know it's there here at the bottom we
+[8:08] have amperage to test amperage we have
+[8:10] two main options which is clamp and in
+[8:13] series most meters will have a separate
+[8:16] input for amperage testing this is often
+[8:18] times because it's fused inside and has
+[8:19] to take different paths also testing
+[8:21] amperage in Series has its limitations
+[8:24] from not exceeding 10 amps to not doing
+[8:26] it for longer than 10 20 seconds if you
+[8:28] exceed the limit of your meter a fuse
+[8:30] inside will pop and you'll need to
+[8:31] replace it by disassembling the unit and
+[8:34] changing the
+[8:36] fuse so to test amperage like this
+[8:39] you'll have to break the connection of
+[8:41] the device and reconnect it with your
+[8:43] probes so I'm going to show you by
+[8:45] connecting this in series with my power
+[8:47] line to this charger now exercise
+[8:48] Extreme Caution and do not repeat this
+[8:50] demonstration without a thorough
+[8:52] understanding and the necessary safety
+[8:54] precautions so we'll change our probe to
+[8:55] the amperage setting we'll connect the
+[8:57] wires and complete the loop with the
+[8:59] meter and our meter will display how
+[9:01] many amps are being drawn by the device
+[9:03] and that's how you test amps but a much
+[9:05] safer way to test amps is with the clamp
+[9:07] option to test with the clamp you must
+[9:09] isolate one of the wires if you put both
+[9:12] wires in the clamp the charges will
+[9:13] cancel themselves out and give you no
+[9:15] results to demonstrate this we'll use
+[9:17] our welder which allows us to PL the
+[9:19] clamps on the anode or in other words
+[9:21] the positive wire we could set our
+[9:22] amperage on the device and see if what
+[9:24] we're getting is the correct amount so
+[9:26] we'll simply set our meter to amps and
+[9:28] put the clamp on the PO positive wire
+[9:29] and that's how we get amperage readings
+[9:31] from the clamp and of course this is a
+[9:33] much simpler safer way to read amperage
+[9:35] another feature common on these clamp
+[9:37] devices is ncv which is no contact
+[9:40] voltage this is a setting that the
+[9:42] device will alert you when you approach
+[9:44] voltage with the tip of the device this
+[9:47] is just an extra safety feature for
+[9:49] finding live wires I wouldn't usually
+[9:51] rely on this feature and those are the
+[9:53] most common features on a multimeter but
+[9:55] there's a few more things we have to
+[9:57] learn to fully understand everything on
+[9:59] on a meter another important thing to
+[10:00] learn is measurement units those
+[10:03] measurement units are capital M which is
+[10:05] million capital K which is kilo which is
+[10:08] 1,000 lowercase M which is Millie which
+[10:11] is 1 1,000 and this symbol which is
+[10:14] micro which is 1 one millionth rarely
+[10:17] you'll also see a lowercase n meaning
+[10:19] Nano which is 1 one billionth we've
+[10:22] created a multimeter cheat sheet which
+[10:24] we're giving away for free this cheat
+[10:26] sheet has all the essential information
+[10:27] on learning how to use your me met and
+[10:29] it's a quick reference for the values
+[10:30] and what each feature does you can
+[10:32] download this for free in the
+[10:34] description below so by understanding
+[10:36] these measurement units we can Now
+[10:38] understand a lot more things on our
+[10:39] meter for example this is a manual
+[10:42] ranging meter a meter with no numbers is
+[10:44] auto ranging and will automatically
+[10:46] switch between values though these
+[10:48] meters still allow you to manually
+[10:50] select the range with this button but
+[10:52] then we have other meters that don't
+[10:54] have Auto ranging with meters like this
+[10:56] you have to select the correct range to
+[10:58] get a result and as we could see we have
+[11:00] a lot of our units here M for million k
+[11:03] for kilo the symbol for micro the
+[11:05] lowercase M for Millie and so on now
+[11:07] this may seem a bit complicated but
+[11:09] selecting the correct range is not
+[11:11] difficult so let's use our multimeter
+[11:12] and test this battery to test it we
+[11:14] simply set the value at the highest
+[11:16] range we then turn the dial down until
+[11:19] we get a reading if we get a one we've
+[11:21] gone too far and we need to go to a
+[11:23] higher range and that's it it's as
+[11:25] simple as that so now you pretty much
+[11:26] know everything but besides this there's
+[11:28] a few more more quirks and features of
+[11:30] multimeters you should know for example
+[11:32] on many meters you have a Max minimum
+[11:35] and average option when this feature is
+[11:37] activated you simply get displayed the
+[11:39] stored maximum or minimum or average
+[11:42] voltage reached since activating the
+[11:44] feature the hold button pretty simple it
+[11:46] just stops the display where it is
+[11:48] allowing you to hold values for
+[11:49] reference if needed besides this most
+[11:52] meters also have a light which can be
+[11:53] turned on and off and a final thing to
+[11:56] mention is never to exceed the voltage
+[11:58] ratings on your device device now this
+[11:59] is unlikely as most ratings go up to 500
+[12:03] volts and it's rare that you'll ever
+[12:04] work with anything more than that but
+[12:06] it's important to ensure and know the
+[12:08] limits of your meter anyway and finally
+[12:10] how do you select a multimeter to buy
+[12:12] the first thing to consider is what
+[12:14] features are you going to need that were
+[12:15] mentioned another aspect is whether the
+[12:17] meter is true RMS this means root means
+[12:22] Square now some currents can often have
+[12:24] waves that distort the readings and
+[12:25] cause up to a 40% error rate when
+[12:28] reading however meters that have true
+[12:30] RMS correct for this so that's an
+[12:32] important aspect to consider the next
+[12:34] thing to consider is whether your meter
+[12:35] has Auto ranging this feature greatly
+[12:38] increases the ease of use though really
+[12:40] it's not necessary and if you're just
+[12:41] going to occasionally use a meter then
+[12:43] maybe it's okay to go with a less
+[12:45] expensive manual ranging meter now in
+[12:47] the description below I've linked
+[12:49] multiple options from quality to budget
+[12:52] so if you're interested in buying you
+[12:53] can check it out there

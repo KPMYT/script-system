@@ -1,0 +1,552 @@
+# BGD-oSwJv3E | Is it the volts or amps that kill? | styropyro
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:00] electricity is dangerous but what is it
+[0:03] that makes some sources lethal and
+[0:04] others not one way to find
+[0:12] [Music]
+[0:16] out but seriously this is an important
+[0:20] question and it's one that gets more
+[0:21] wrong answers than right ones now there
+[0:24] are a few reasons why I'm making this
+[0:25] video for one I want to clear up some
+[0:28] common misconceptions about electricity
+[0:30] and I want to do it with some not so
+[0:31] safe demos but the main reason is
+[0:33] somebody called me wrong on the Internet
+[0:36] is it the volts or amps that kill a
+[0:38] while ago I made a short video on the
+[0:40] topic and in summary I said that you
+[0:42] can't pin all electrical hazards on a
+[0:44] short answer like volter amps and boy
+[0:47] this made a lot of people mad all these
+[0:49] people flaunting their professional
+[0:51] qualifications telling me that I'm wrong
+[0:54] well I say no you if I'm wrong about
+[0:57] something I do want to be corrected but
+[1:00] one of my biggest pet peeds is when
+[1:01] somebody flaunts their fancy
+[1:02] qualifications while also giving out
+[1:04] incorrect information now I'll be honest
+[1:07] I'm not an electrician or an engineer
+[1:09] but I do have a bunch of terrifying
+[1:11] electrical devices as well as the fancy
+[1:13] equipment needed to put some numbers
+[1:15] behind my claims most importantly is
+[1:17] that I'm willing to do some crazy stuff
+[1:18] to prove a point and in fact I'm willing
+[1:21] to put myself into circuits that should
+[1:22] be lethal by their logic so yeah let's
+[1:25] get started oh yeah before I go on I
+[1:28] should warn you that all the crazy stuff
+[1:29] you're you're about to see was done
+[1:30] completely for educational purposes and
+[1:33] in fact if you were to try any of this
+[1:34] stuff at home you'd probably die so yeah
+[1:37] please don't try this a home taming
+[1:39] electricity is one of Mankind's biggest
+[1:41] achievements using electricity we can
+[1:44] light our homes cook our food and use
+[1:46] these nightmare bricks to watch Horrors
+[1:48] happen in real time electricity isn't
+[1:50] all sunshine and Roses though it can
+[1:53] shock you it can burn you it can even
+[1:55] kill you but what is it exactly about
+[1:57] electricity that makes it dangerous well
+[2:00] this is a complicated question and the
+[2:02] answer depends highly on the source of
+[2:04] that
+[2:05] electricity first let's consider our
+[2:07] biggest design vulnerability when it
+[2:08] comes to electricity and that's the
+[2:10] nervous system nerve cells work on
+[2:12] electrical signals that are a small
+[2:14] fraction of a single volt so it really
+[2:16] doesn't take much to override these with
+[2:17] outside memes I mean anybody who elect a
+[2:20] 9volt battery knows how easily a mere 9
+[2:22] volts overpowers all the signals going
+[2:24] to your
+[2:28] tongue now if the there's any electrical
+[2:30] system in your body that you don't want
+[2:32] to mess with it's in the heart the heart
+[2:34] has its own set of pacemaker cells that
+[2:36] work separately from the brain like
+[2:38] other nerve cells in the body they deal
+[2:40] with voltages of less than a tenth of a
+[2:42] single volt it doesn't take much of a
+[2:44] shock to mortally interfere with the
+[2:46] signals that set the heart rhythm and
+[2:47] this is why most electrical fatalities
+[2:49] are cardiac related even if the heart
+[2:52] does manage to get spared by a shock
+[2:54] electricity can still cause Burns nerve
+[2:56] damage flash blindness and plenty of
+[2:59] other not so fun on experiences har puny
+[3:01] bodies are simply no match for angry
+[3:03] electrons now that we've looked at our
+[3:05] design vulnerabilities holy let's start
+[3:08] playing with some phun electrical
+[3:09] sources to see if it's the volts or amps
+[3:11] that play a bigger role going off of my
+[3:14] previous comments it seems that most
+[3:16] people with professional experience that
+[3:18] it's just the current that kills it
+[3:20] turns out there are some problems with
+[3:22] that here I've hooked up a car battery
+[3:24] up to these steel rods now this battery
+[3:26] can dump up to 1,000 amps yet touching
+[3:29] these bar Rod doesn't do anything to me
+[3:31] oh you think the battery's dead
+[3:35] nope the thing is that battery can dump
+[3:38] 1,000 amps but not through me it's only
+[3:41] a 12vt source after all and my Skin's
+[3:43] resistance is high enough to block all
+[3:45] but a minuscule amount of current from
+[3:47] going through my body this is ohms law
+[3:50] in action you can't always use this
+[3:52] logic when judging the hazard of an
+[3:53] electrical source but does work for low
+[3:55] voltages like
+[3:57] this here I have a different flavor of
+[3:59] High current power supply it's a Step
+[4:02] Down Transformer I wound years ago and
+[4:04] it's held up surprisingly well in this
+[4:05] ice cream bucket being a Transformer
+[4:08] it's AC unlike the battery but the
+[4:10] voltage is still way too low to shock me
+[4:13] check out the current when I drop a
+[4:14] quarter across it that's over 1,000 amps
+[4:17] of course just because these low voltage
+[4:20] High current sources can't shock doesn't
+[4:22] mean they're completely safe they can
+[4:24] still burn you by simply heating things
+[4:26] up it's also possible to get shocked in
+[4:29] directly like by rapidly disconnecting
+[4:32] them from an inductive load like this
+[4:33] electromagnet because you get a big
+[4:35] voltage Spike by doing
+[4:37] this so this all makes it seem like it's
+[4:39] the volts that matter here right let's
+[4:42] take a look at this electrical shock
+[4:43] hazard chart there's actually nothing
+[4:45] about voltage on here at all only
+[4:47] current what gives this assumes that
+[4:50] that Source can put that current through
+[4:52] you which means it has to have a
+[4:53] sufficiently high voltage to do so as
+[4:55] well as a low enough impedance but what
+[4:57] kind of voltages are we talking about
+[4:59] here
+[5:00] according to the Chart less than 100
+[5:02] milliamps of current can be lethal my
+[5:04] body's resistance is about 250,000 ohms
+[5:08] so according to ohms law I need a
+[5:10] voltage of about 25,000 volts to kill me
+[5:13] seems simple enough right let's go ahead
+[5:16] and put that idea to practice let me use
+[5:18] this apple as a model of the human body
+[5:21] it has an even higher resistance than me
+[5:23] about 10 million ohms in order to put a
+[5:26] lethal current of 100 milliamps through
+[5:28] it ohms l says I need a million volts
+[5:31] why don't we test that out you can watch
+[5:33] the voltage here and the current here a
+[5:36] couple notes about the setup I'm using a
+[5:38] voltage divider so I don't kill my meter
+[5:40] which means the actual voltage is 10
+[5:42] times higher than what the meter shows
+[5:44] as for the current I'm measuring the
+[5:46] voltage drop across a 1 ohm resistor
+[5:49] which means the voltage measured is the
+[5:51] current going through it in amps all
+[5:53] right let's slowly crank up the voltage
+[5:57] there oh it's condu
+[6:03] ing H look at that the Apple's dead ohms
+[6:07] lost it out need a million volts yet it
+[6:09] was passing 100 milliamps at barely over
+[6:11] 1,000 volts what gives it turns out you
+[6:15] can throw ohms law out the window in
+[6:17] situations like this because the Apple
+[6:19] experienced something called dialectric
+[6:21] breakdown when the voltage across an
+[6:23] insulator reaches a high enough point
+[6:25] the molecules in it get shredded by the
+[6:27] electric field this means the insulator
+[6:30] suddenly becomes a conductor and will
+[6:32] allow a huge amount of current to pass
+[6:34] through it Oh's law does not tell you
+[6:36] when this happens for human skin this
+[6:39] point is roughly about 500 volts or so
+[6:42] but this varies considerably of course
+[6:45] if you get poked by a live wire it won't
+[6:47] take nearly as much voltage to be a
+[6:49] problem of interesting note is that the
+[6:51] electric chair only has a voltage of
+[6:53] about 2,000 volts based on Ohm's law on
+[6:56] a skin resistance of 100,000 ohms this
+[6:58] shouldn't be lethal
+[7:00] but this logic doesn't work here because
+[7:01] the skin can't hold off that kind of
+[7:04] voltage it's funny because 's law is
+[7:07] hardly a law in the physical sense
+[7:09] because it fails all the time many
+[7:11] simple devices violate omic Behavior
+[7:14] LEDs many light bulbs even the full
+[7:17] Bridge rectifier do not obey M's law if
+[7:20] you want to play it safe stick with
+[7:22] voltages under 50 volts because that's
+[7:24] the limit where OSHA says the voltage is
+[7:26] not high enough to electrocute there's
+[7:29] another issue relying on Resistance when
+[7:30] you're dealing with AC if you've ever
+[7:33] been shocked by a live wire without
+[7:34] touching ground at the same time you've
+[7:36] experienced this what's completing the
+[7:39] circuit here a capacitor of course
+[7:42] notice how the resistance of this
+[7:43] capacitor is so high that it can't be
+[7:45] measured by my meter yet it still can
+[7:47] pass a bunch of current that's because
+[7:49] AC can pass through a capacitor you have
+[7:52] a capacitance too which is why you can
+[7:54] feel a shock from touching a single live
+[7:56] wire at this point in the video know
+[7:59] there will still be people out there
+[8:01] that argue it's just the current that
+[8:02] kills because that's what shown in those
+[8:04] graphs right or maybe they'll conceive
+[8:06] the idea that voltage does play a role
+[8:08] but still current in the end doing the
+[8:10] damage well this is the point where I
+[8:12] start putting myself into circuits that
+[8:14] should be lethal under that premise even
+[8:16] this very chart acknowledges it's more
+[8:18] than just the current that kills there's
+[8:20] a whole axis in time and the chart is
+[8:22] only valid for a small range of
+[8:24] frequencies as well so let's switch it
+[8:27] up a bit using something else we
+[8:28] experience static electricity anytime
+[8:31] you receive a static shock the voltage
+[8:33] you're being exposed to is quite High
+[8:36] much higher than what you get out of an
+[8:37] outlet in fact going off the distance
+[8:40] The Arc can jump in open air this
+[8:42] voltage is several thousand volts most
+[8:45] people will tell you the reason it
+[8:46] doesn't kill you is because it's low
+[8:47] current but let's put that to the test
+[8:50] right here I have a Vandy graph
+[8:52] generator it's capable of generating
+[8:54] very high DC voltages similar to what
+[8:56] you get from a static shock just on
+[8:58] steroids this is a mechanical device
+[9:01] that uses a rubber belt to transfer
+[9:02] charge to the spherical topload the
+[9:05] voltages generated here are enormous
+[9:07] over 100,000 volts although the voltages
+[9:11] are huge the charge that accumulates on
+[9:13] the sphere is still pretty tiny only a
+[9:15] couple millionths of AUM even so this
+[9:18] minuscule amount of charge is able to
+[9:20] produce a force that overcomes the
+[9:22] gravitational pull of the entire planet
+[9:25] the charges are small but what about the
+[9:26] currents I mean they must be small if I
+[9:28] can touch them with without dying
+[9:30] right
+[9:33] ow let's go ahead and test that out once
+[9:36] again I'll be measuring current via a 1
+[9:39] ohm resistor but this time with an extra
+[9:41] fancy resistor that I built based on a
+[9:43] video by Vi it minimiz his inductance to
+[9:46] get an accurate reading I should note
+[9:48] that I've referenced VI's videos more
+[9:50] than anyone else on my channel you
+[9:52] should definitely check him out for some
+[9:54] cool high voltage experiments all right
+[9:56] let's measure the current of that pulse
+[10:03] look at that that was 40 amps
+[10:06] considering the voltage here was on the
+[10:08] order of 100,000 volts the electrical
+[10:10] power there was over a million Watts the
+[10:13] idea that static shocks are low current
+[10:15] is a myth when you get shocked by Static
+[10:18] you're eating amps of current
+[10:23] ow so why don't you go to heaven when
+[10:25] you get a static shock because you've
+[10:27] been naughty but seriously if you look
+[10:30] at the DC shock hazard chart you'll see
+[10:32] that currents of a fraction of an amp
+[10:34] can be lethal what gives well the chart
+[10:38] clearly suggests there is a strong time
+[10:39] dependence here the shorter the duration
+[10:41] of the shock the more current your body
+[10:43] can handle which makes sense really
+[10:46] current alone doesn't tell you how much
+[10:47] charge is transferred or for how long it
+[10:49] happens current is just a rate of charge
+[10:52] transfer after all it's just like how
+[10:54] your speed on a highway doesn't tell you
+[10:55] how far you've gone or for how long
+[10:57] you've traveled when it comes to a
+[10:59] static shock those huge currents are
+[11:01] happening for an extremely short
+[11:02] duration on the order of a
+[11:05] microsecond this simply isn't enough
+[11:07] time to cause significant damage to a
+[11:09] person so no it's not just the current
+[11:11] that kills and these 40 amp static
+[11:14] shocks are proof of that ow I know that
+[11:18] even this isn't going to be enough for
+[11:19] some people microsc pulse that's
+[11:23] cheating well if I'm going to go through
+[11:25] the trouble of making this video I might
+[11:27] as well murder the idea that it's just
+[11:28] the current that kills so I'm going to
+[11:30] do something clinically insane to prove
+[11:32] my point so I've built this Tesla coil
+[11:35] here now this is not an ordinary Tesla
+[11:37] coil it's switched with a monster Soviet
+[11:40] vacuum tube and with a power draw of 15
+[11:42] KW it's one of the most powerful vacuum
+[11:45] tube driven coils in existence this
+[11:47] unusual combination of raw power and
+[11:49] vacuum tube technology gives it some
+[11:51] unique properties now aays most Tesla
+[11:54] coils are switched with solid state
+[11:56] circuits these are more efficient and
+[11:58] they're typically L pulsed operation
+[12:00] allows them to make longer arcs for a
+[12:01] given power draw than a vacuum tube coil
+[12:04] my giant tube driven coil doesn't stand
+[12:06] out at Raw Arc Length as the longest Arc
+[12:08] it'll make is only about 2 m or so where
+[12:11] it does shine is in its ability to make
+[12:13] a white hot Arc to a grounded object it
+[12:16] straight up looks and sounds like a
+[12:17] substation fault when it's running it
+[12:19] also melts the steel screwdrivers I use
+[12:21] as breakout electrodes it truly is a
+[12:24] terrifying sight to behold I know what
+[12:27] you're thinking it must be hard to
+[12:28] resist is touching something that looks
+[12:30] as crazy as that right well I have given
+[12:33] into to the Temptation and no I'm not
+[12:35] very sane for doing this however I do
+[12:38] use a steel file to distance myself from
+[12:40] that white hot Ark but of course I'm
+[12:43] still conducting pretty much the full
+[12:44] current there besides it doesn't stop
+[12:47] the ark from jumping directly to me
+[12:49] occasionally so why doesn't it kill me
+[12:52] most people will tell you it's because
+[12:53] Tesla coils operate with gigantic
+[12:55] voltages but very little current it's
+[12:57] funny because when it comes to
+[12:59] electricity there's no bigger
+[13:01] mythological Beast than the Tesla coil
+[13:04] all aspects of Tesla coils are filled
+[13:05] with misconceptions in the public eye
+[13:08] their operation their history their
+[13:10] hazards they're all littered with myths
+[13:12] now to be fair they are mysterious
+[13:14] devices and although their construction
+[13:17] can be simple the details of how they
+[13:19] operate can get quite sticky let's try
+[13:21] and put some numbers behind this coil is
+[13:23] the current really that low what's the
+[13:26] output voltage like let's start with
+[13:28] current I've wound this current
+[13:30] Transformer with as many wire turns as
+[13:32] there are ohms of resistance across it
+[13:34] that way its voltage readout is
+[13:36] identical to the current in amps of a
+[13:38] wire going through the middle feeding
+[13:40] the grounded wire of my secondary coil
+[13:42] through this will give the current
+[13:43] output of my Tesla coil well here we
+[13:50] go all right it triggered look at that
+[13:53] that's 3.2 amps of current that's not
+[13:56] low current at all in fact that's
+[13:59] actually terrifying if you doubt my
+[14:01] measurements let's try that again with
+[14:03] this ancient RF ammeter this nearly 100y
+[14:07] old meter is quite simple it's just
+[14:08] based on a thermocouple which actually
+[14:10] means it'll measure lower frequency and
+[14:12] even DC current just fine too let's run
+[14:15] it hooked up to the Tesla coil all right
+[14:18] here we
+[14:22] go well there's an amp at least now I
+[14:25] don't want to kill the meter so I'm
+[14:27] probably just going to stop it here I
+[14:29] ended up buying an even bigger meter so
+[14:31] let's give this one a go all right here
+[14:34] we
+[14:35] [Music]
+[14:38] go okay I'm at full power now it's
+[14:41] reading only a little over an amp now I
+[14:43] measured 3.2 amps earlier which is the
+[14:46] correct measurement here actually
+[14:49] they're both right this old meter reads
+[14:51] the RMS current and I looked at the peak
+[14:53] current using my current Transformer
+[14:55] since the output is a sine wave at 50%
+[14:57] duty cycle that that means that these
+[14:59] measurements line up pretty much
+[15:00] perfectly pretty cool right all right so
+[15:03] the current is actually quite high but
+[15:06] what about the voltage let's try to
+[15:08] measure the output voltage with this
+[15:09] vacuum capacitor voltage divider here we
+[15:14] go H I'm only at a couple percent of max
+[15:17] power here and it's already at 50,000
+[15:18] volts now I don't want to cook myself
+[15:20] with x-ray so I'm not going to push it I
+[15:23] can still estimate the voltage at max
+[15:25] power if I make the admittedly rough
+[15:27] approximation that the coil is p
+[15:29] inductive this gives a result of about
+[15:31] 100,000 volts which is about what I
+[15:34] expect really The Arc itself clamps the
+[15:36] voltage pretty well so that's why the
+[15:38] voltage doesn't rise that much with
+[15:40] considerably higher input power hold up
+[15:43] 100,000 volts at 3 amps does that make
+[15:46] sense that's like 300,000 Watts that's
+[15:49] 20 times more power than I'm giving it
+[15:52] yes it actually checks out but the
+[15:54] kicker is that that power is nearly all
+[15:55] reactive Tesla quels are resonators
+[15:58] after all all slushing charge back and
+[16:00] forth and ringing up huge voltages at
+[16:02] significant current you still can
+[16:05] extract more energy than you put into
+[16:06] them however since the current and
+[16:08] voltage are nearly completely out of
+[16:10] phase even so the real power output is
+[16:13] still significant and that Arc there is
+[16:15] still burning many thousands of real
+[16:17] Watts so back to the original question
+[16:20] why doesn't it kill me when I touch it
+[16:22] the current is not low and although that
+[16:24] power is mostly reactive I'm still
+[16:26] conducting amps of current for a
+[16:28] substantial amount of time when I do
+[16:29] this what's going on here many Tesla
+[16:33] coil Builders will tell you what's the
+[16:34] skin effect at play here at high
+[16:36] frequencies currents in a conductor are
+[16:38] magnetically pushed to the edges and
+[16:40] this effect is a critical consideration
+[16:42] when it comes to designing a Tesla coil
+[16:44] in fact the currents in this thick cable
+[16:46] are almost completely restricted to the
+[16:48] outer 200 microns because of this so
+[16:51] does this mean the current just travels
+[16:53] along my skin when I touch it nope the
+[16:56] skin effect is only significant at these
+[16:58] frequencies when with a good conductor
+[16:59] like copper when the material is
+[17:01] resistive like flesh that goes out the
+[17:03] window you can see this by cooking food
+[17:06] in the microwave the frequency there is
+[17:08] over 10,000 times higher than my Tesla
+[17:11] coil yet it can still warm food quite a
+[17:13] bit below the surface so no it's not the
+[17:16] skin effect either so what is it then
+[17:19] well it turns out our nerves aren't
+[17:21] quite so susceptible to high frequencies
+[17:24] and somewhere beyond 10 khz the polarity
+[17:26] flips too fast to to polarize a nerve
+[17:28] cell membran this means your nerves
+[17:30] pretty much don't register it and that's
+[17:32] why it doesn't electrocute electroboom
+[17:35] actually mapped out his own response to
+[17:37] different electrical frequencies and
+[17:39] published this chart with his results of
+[17:42] course just because it doesn't kill
+[17:44] instantly does not make it safe touching
+[17:46] a Tesla coil output is never really safe
+[17:49] you can get severe internal burns when
+[17:51] conducting big RF currents I don't make
+[17:53] a habit of touching arcs and I keep my
+[17:55] contacts brief I should point out that
+[17:58] the power Supply driving the coil is
+[18:00] absolutely lethal and touching that
+[18:02] would kill you before you hit the floor
+[18:04] the funny thing is that the Tesla coil
+[18:06] steps up the voltage and current of the
+[18:08] supply while also making it less lethal
+[18:10] due to the higher frequency high
+[18:13] frequency is also part of what keeps you
+[18:14] from getting Zapped by touching a plasma
+[18:16] globe the voltage on the outside is
+[18:18] actually quite significant but a
+[18:20] combination of the high frequency output
+[18:23] as well as the fact that it's a high
+[18:24] impedance Source prevents you from
+[18:25] getting Zapped now of course high
+[18:28] frequency won't protect you from
+[18:29] something driven by a lethal high
+[18:31] voltage source lacking isolation my
+[18:33] demon circuit is a classic example of
+[18:35] this the flame Mark there is running at
+[18:38] over 13 mahz yet touching it would still
+[18:40] kill you via the DC Supply running it
+[18:43] since there's no isolation there so what
+[18:45] is it that makes exposure to some
+[18:47] electrical sources lethal and others not
+[18:50] well it's a combination of volts and
+[18:52] amps and frequency and duration as well
+[18:54] as some other stuff that determine
+[18:56] whether it's dangerous or not and for
+[18:58] the
+[18:59] that's exactly what I said in my
+[19:00] original 40c video to elaborate on the
+[19:03] other stuff part The Source impedance as
+[19:06] well as where on your body you get
+[19:07] shocked are big players as well now I
+[19:10] don't intend this video to be an
+[19:11] all-encompassing guide to electrical
+[19:12] hazards but I do hope it clears up some
+[19:14] common misconceptions out there I will
+[19:17] say that high voltage low impedant
+[19:19] sources are ruthless when it comes to
+[19:20] user error there's a reason why the
+[19:23] microwave oven Transformer kills more
+[19:25] science hobbyists than anything else
+[19:27] there's no room for a mistake
+[19:29] one final thing I'd like to address is
+[19:31] all the comments I get from people that
+[19:33] are surprised I'm still alive every time
+[19:34] I upload like come on I realize I work
+[19:37] with a lot of extremely dangerous stuff
+[19:39] but I really do take considerable
+[19:41] precautions and that's why I'm still
+[19:43] uploading I will say that if it is
+[19:45] electricity that ends up taking me out
+[19:47] it's probably not going to be this kind
+[19:48] of stuff it's going to be my favorite
+[19:50] power supply of all clouds
+[19:59] I got to get out of
+[20:07] [Applause]
+[20:10] here that was pretty cool oh one more
+[20:13] thing I'd like to shout out the YouTuber
+[20:15] tested to destruction he's a high
+[20:18] voltage YouTuber that embarked on using
+[20:19] the monster gu 39b Tetro to build a
+[20:22] Tesla coil the same time I did we tested
+[20:24] a bunch of different designs and shared
+[20:26] our results with each other he's got a
+[20:28] lot of crazy high voltage stuff on his
+[20:30] channel so you should check him out I'd
+[20:32] also like to thank all my patrons on
+[20:34] patreon especially for supporting me
+[20:36] when I was in the middle of a move and
+[20:37] unable to make new content finally I'd
+[20:40] like to thank all those professionals
+[20:42] out there that encouraged me to make
+[20:43] this video thank you you silly gar loids
+[20:47] stay safe out there

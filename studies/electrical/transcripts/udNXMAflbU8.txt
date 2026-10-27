@@ -1,0 +1,493 @@
+# E17 Holey Plugs, Batman! But... what are they for? / Technology Connections
+# https://www.youtube.com/watch?v=udNXMAflbU8
+# Source: NexLev get_bulk_video_transcripts (same data as get_video_transcript, checked on yBHdCsVRle0), pulled 2026-10-27. Raw captions, one segment per line: [start] text. Not edited.
+
+[0:00] oh boy it's TC does something electrical
+[0:02] time again today we are answering the
+[0:05] age-old question why do us plugs have
+[0:08] holes in them that's a great question
+[0:10] and many people have asked that
+[0:12] especially people who have noticed that
+[0:14] plugs have holes in them let's ask
+[0:16] everyone's begrudgingly favorite search
+[0:18] engine oh that's a perfectly logical
+[0:21] explanation of course why didn't I think
+[0:23] of that the outlet side must have some
+[0:25] sort of squeezy thing to grab the blades
+[0:27] of the plug and putting a little hole in
+[0:30] the plug for it to index to sure would
+[0:31] be helpful I bet that makes the plug
+[0:34] less likely to fall out of the
+[0:36] receptacle except it doesn't and that's
+[0:39] not what it's for at least not
+[0:42] intentionally while the commonly cited
+[0:44] explanation makes logical sense it seems
+[0:47] few people are taking the next step
+[0:49] which is of course to test this claim
+[0:51] and no you don't need to do what I'm
+[0:53] about to do and rip an outlet apart to
+[0:55] see its insides that's dangerous and you
+[0:57] should not do that but what you
+[0:59] absolutely can do and probably have done
+[1:02] several times in your life is plug
+[1:04] something in and pay attention now as
+[1:07] I've said many times at this point the
+[1:09] Nema plug design that we are stuck with
+[1:11] here is objectively terrible and among
+[1:14] the worst in the world in terms of
+[1:15] safety just a friendly reminder that
+[1:18] this pin is live and yet really easy to
+[1:22] touch uh but we've been over that what I
+[1:24] want you to notice is what it feels like
+[1:26] when you insert the plug here we have a
+[1:29] standard polarized lamp cord oh right
+[1:33] side note there is one thing that our
+[1:35] plug does to try and make up for its
+[1:37] General haphazardness I haven't brought
+[1:39] it up because I assumed it was fairly
+[1:41] Universal across the globe but much to
+[1:43] my surprise it isn't apparently our
+[1:46] plugs are polarized look at practically
+[1:49] any outlet and you'll see that one of
+[1:50] the slots is wider than the other and on
+[1:53] many two pin plugs like this one blade
+[1:56] is fittingly wider than the other
+[1:58] meaning it can only be inserted into the
+[2:00] receptacle one way this is to enforce
+[2:03] polarity between live and neutral of
+[2:05] course this only works if the reticle
+[2:08] was wired correctly but assuming it was
+[2:10] the narrow blade is live and The Wider
+[2:12] blade is neutral grounded plugs usually
+[2:15] don't bother making the neutral blade
+[2:17] wider because the position and presence
+[2:19] of the ground pin enforces polarity on
+[2:21] its own similar to how many other
+[2:23] countries do it you might think that
+[2:25] since we're dealing with AC power here
+[2:27] polarity doesn't matter and yeah
+[2:29] everything will work if it's wired
+[2:31] backwards but that introduces danger in
+[2:34] certain situations take for example an
+[2:37] antique toaster with a single pull
+[2:40] switch if polarity isn't enforced in the
+[2:43] plug and the switch happens to be on the
+[2:45] neutral side when you plug it in then
+[2:48] all of the heating elements and bus bars
+[2:50] that are literally right there and in
+[2:52] Easy reach would be live at 120 volts
+[2:56] even when the toaster isn't toasting
+[2:58] that's shockingly unpl Pleasant a
+[3:01] simpler but no less important use for a
+[3:03] polarized plug is in a common lamp with
+[3:06] an Edison socket these are dangerous all
+[3:08] the time because child fingers and
+[3:11] indeed full-size human fingers can get
+[3:14] right in there but making sure that the
+[3:16] outer sleeve is neutral makes it at
+[3:18] least marginally safer and ideally
+[3:21] prevents you from getting Zapped off a
+[3:23] light bulb where a bit of the screw
+[3:25] surface is exposed and that's pretty
+[3:27] common still need the outlet and lamp to
+[3:31] be wired correctly though so don't go
+[3:33] testing that one for yourself anyway not
+[3:35] everything needs a polarized plug things
+[3:38] that are double insulated for instance
+[3:40] pose very little risk of leakage current
+[3:42] happening and so either blade is free to
+[3:45] be whatever it wants to be as an example
+[3:48] tons of electronic stuff like USB power
+[3:50] supplies or other power supplies don't
+[3:54] bother with polarization but most
+[3:57] General electrical devices especially
+[3:59] the with a power switch will use a
+[4:02] polarized plug to ensure the switched
+[4:04] leg is the Hot Leg it's one of the few
+[4:07] objectively good ideas in this plug
+[4:09] design and oddly enough we all seem used
+[4:11] to it and aren't constantly playing
+[4:13] schrodingers USB of course we could just
+[4:16] put a ground pin on everything but
+[4:19] where's the fun in that then these
+[4:21] things wouldn't just be dangerous they'd
+[4:23] be
+[4:24] useless okay so back to the holes I've
+[4:26] got a lamp here with a holy plug and you
+[4:29] know what I'm going to do I'm going to
+[4:30] plug it in
+[4:32] slowly if these holes are used as a
+[4:35] point for some sort of mechanical Pinchy
+[4:37] dude to grab on surely I should feel the
+[4:41] plug sort of give as it's fully inserted
+[4:44] right that would be when the holes would
+[4:47] align with whatever this Pinchy thing is
+[4:49] at least you'd hope so okay so here we
+[4:53] go H there doesn't seem to be any sort
+[4:56] of change in resistance here it's just a
+[4:59] firm but smooth push the whole way same
+[5:02] with
+[5:03] removal but I've got a bunch of
+[5:05] different Outlets I can test I've got
+[5:07] more of these than any other cuz I'm
+[5:08] fancy but here's a tamper resistant GFCI
+[5:12] outlet H same as before all right and
+[5:16] another one with a switch built in still
+[5:18] no obvious interaction with those
+[5:21] holes uh all right here's a more generic
+[5:23] one in my garage nope still smooth uh
+[5:27] the basement there's more in the
+[5:29] basement there's this GFCI receptacle
+[5:31] here by the electric panel and nope
+[5:34] nothing uh this one over here nope okay
+[5:39] but there's these there's these the gray
+[5:41] tamper resistant ones on a switch by the
+[5:42] way I knew you'd want to know uh nothing
+[5:44] on the white one okay okay the gray one
+[5:47] help me out the gray one you're my only
+[5:49] hope ah no is there not a purpose for
+[5:53] these holes has my life been a lie oh
+[5:57] wait there's a 20 amp GFCI in the garage
+[5:59] I forgot about here goes At Last At Last
+[6:04] the plug gave way after I first
+[6:06] encountered resistance something's
+[6:08] engaged with the holes but wait that's
+[6:12] not inserted
+[6:13] fully well that's silly indeed it is so
+[6:17] was that whole sequence anyway to see
+[6:21] what's going on we need to look at
+[6:22] what's inside some receptacles luckily
+[6:25] through the magic of buying several and
+[6:27] viciously tearing their faces off we can
+[6:30] see I have four different kinds today
+[6:33] the cheap kind that comes in a big old
+[6:35] box with like a hundred of them just
+[6:37] Loosely thrown around a slightly less
+[6:40] cheap one that purports to be heavy duty
+[6:43] a so-called commercial grade fell and
+[6:47] this one that's old and I have a bunch
+[6:49] of them and I couldn't really tell you
+[6:50] why exactly they're offwhite not my jam
+[6:55] I suppose mayonnaise is an off-white Jam
+[6:58] so these are the happy things they
+[7:00] actually grab onto the plugs blades and
+[7:02] make electrical contact with them and
+[7:05] they're all different luckily we can
+[7:07] remove these from the plastic to get a
+[7:09] closer look at them of these designs
+[7:12] there are two that might kind of sort of
+[7:15] make use of those holes but let's start
+[7:17] with the two that obviously don't that's
+[7:20] these two the mystery one and the cheap
+[7:23] one in the cheap one we have two
+[7:25] perfectly flat brass pieces pressing
+[7:28] into each other there isn't any kind of
+[7:31] protrusion or bump or anything to even
+[7:33] hope to engage with the hole and indeed
+[7:36] the hole will simply Glide right on
+[7:38] through in fact the flat surfaces are
+[7:41] longer than the hole's diameter so
+[7:43] there's no possible way for the hole to
+[7:45] have any sort of impact this is purely a
+[7:48] friction fit with the old mystery one we
+[7:51] have the same deal although the
+[7:52] construction is a little different here
+[7:54] the brass is formed into a u- shape and
+[7:57] the blade goes in the middle of the U
+[8:00] now the blade is wider than that Gap so
+[8:02] there is quite a lot of friction
+[8:03] produced here but it is notable that in
+[8:06] the other design the blades actually
+[8:08] Touch without a plug in place it's a
+[8:11] very different design here with the
+[8:13] spring tension being delivered from this
+[8:15] lower joint and not the end perhaps it's
+[8:19] more durable but I'm not about to sit
+[8:21] here for months and find out so now the
+[8:24] heavyduty one this is a little strange
+[8:27] we have a somewhat similar arrange m to
+[8:29] the cheap one with two angled tabs
+[8:32] meeting to form a pinch point but the
+[8:34] brass pieces aren't straight one is very
+[8:37] slightly curved and the other also
+[8:40] deviates slightly from straight to meet
+[8:42] it with a blade between them the
+[8:44] resulting deformation gives two not
+[8:47] quite flat contact areas on either side
+[8:50] of the blade now this Kink spot here
+[8:53] seems to sometimes land in the hole
+[8:55] without a plug in place you can see that
+[8:57] the two sides actually only touch a to
+[8:59] the top almost making a tent shape sadly
+[9:03] I did not buy two of these a terrible
+[9:05] oversight on my part so I can't see how
+[9:08] the plug fits in here and its face is
+[9:11] too mangled to get an accurate idea but
+[9:14] I have to say that of these designs this
+[9:16] one seems to be the absolute worst the
+[9:19] width of a plugs blades isn't enough to
+[9:21] deform these into straight parallel
+[9:23] lines they're simply too far apart so
+[9:26] you don't get a flat contact patch with
+[9:28] the blade on either side instead you get
+[9:31] two smallish points don't like that but
+[9:34] because of that depending on how you
+[9:36] insert the plug those points might land
+[9:39] where the hole is and sort of grab onto
+[9:41] it but I sincerely don't think that's
+[9:43] intentional in fact if that happens
+[9:45] you'd get an even worse electrical
+[9:47] connection because there'd be less
+[9:49] pressure on the blades where the hole is
+[9:52] and so now we are down to the commercial
+[9:54] version this one's got weird looking
+[9:57] sideways blade Grabbers because this
+[9:59] same design is used in 20 amp
+[10:01] receptacles and likely the even weirder
+[10:04] looking Nema 615 and 620r 240 volt
+[10:09] receptacles yes friendly reminder 240
+[10:12] volt circuits exist here but they're
+[10:14] weird I made a video about them anyway
+[10:17] the actual contacts are able to accept
+[10:20] either the normal vertical blade or the
+[10:22] less normal sideways ones and that's why
+[10:25] they look like this taking a closer look
+[10:28] we can see see that once again there's
+[10:30] nothing in there that looks as if it's
+[10:32] intentionally engaging with the hole in
+[10:34] the plug the inboard contact is
+[10:37] completely flat with nothing so much as
+[10:39] a bump and the side contacts well maybe
+[10:43] they might drop into the hole a bit I
+[10:46] suppose but again doesn't look to be
+[10:48] intentional at all and if we go back to
+[10:51] this here Outlet which undoubtedly has
+[10:53] the same internal connections at least
+[10:55] on the left hand side we'll remember
+[10:58] that while the plug does seem to get
+[11:00] caught as it's inserted that happens
+[11:02] before it's fully inserted which is just
+[11:05] silly the fact of the matter is this is
+[11:08] just a friction
+[11:10] fit that's it the presence of the hole
+[11:13] in the plug if anything makes the
+[11:15] connection slightly worse but here's the
+[11:18] thing if a plug is fully inserted those
+[11:22] holes end up way past the actual point
+[11:25] of contact and you don't even need to
+[11:27] look in here to see that just grab a
+[11:29] plug after a few insertions and removals
+[11:32] there will probably be witness marks
+[11:34] left on the blades and sure enough they
+[11:37] don't stop at the hole they go well
+[11:39] beyond it one of the other holes in this
+[11:42] whole hole argument is that lots of
+[11:44] plugs don't even have them this timer
+[11:49] doesn't and this is the only thing I
+[11:51] could immediately find but I can think
+[11:53] of at least two other Unholy things I've
+[11:56] had a nightlight and a lamp also I'm
+[11:59] pretty sure I have a power supply cord
+[12:00] somewhere without holes also it should
+[12:03] be noted this is from Ikea it's not just
+[12:05] some weird random timer from the dollar
+[12:07] store or whatever despite not having
+[12:10] holes in its plug blades it fits just
+[12:13] fine into all my outlets and whatever
+[12:15] nice and snug so what's the deal with
+[12:19] the holes then why do so many in fact
+[12:22] nearly all plugs have these holes in the
+[12:26] exact same places if they're not
+[12:28] actually doing anything useful well the
+[12:31] Toads over at Nema actually do tell us
+[12:34] what the deal is with the holes the
+[12:36] holes are and I quote optional and it is
+[12:40] intended for manufacturing purposes only
+[12:43] however if used it must be located as
+[12:46] per Dimensions shown above interesting
+[12:49] you know manufacturing purposes makes a
+[12:52] lot of sense now that I think about it
+[12:54] take this incredibly common plug design
+[12:57] the leads of the cord are are simply
+[12:59] soldered or perhaps crimped to the
+[13:01] blades and then a big old glob of
+[13:03] plastic is molded around it these clear
+[13:06] ones reveal that quite clearly putting
+[13:08] holes in the blade would allow for a
+[13:10] very simple mold alignment procedure
+[13:13] using nothing but some sort of stick in
+[13:16] fact here's that exact thing happening
+[13:18] in a factory which manufactures these
+[13:21] the worker simply has to thread an
+[13:22] alignment Rod through this holder place
+[13:25] the blades and wires in there while
+[13:27] pushing the rod through as they go get
+[13:29] give a tug to ensure it's aligned and
+[13:31] boom plugs made to spec but why is the
+[13:35] location so important well as far as I
+[13:38] can tell the answer appears to be pretty
+[13:40] simple Nema just wants to be sure that
+[13:43] the hole is far forward enough that it
+[13:45] won't land where the contacts touch the
+[13:47] blade when the plug is fully inserted we
+[13:50] saw from the witness marks that the hole
+[13:52] should go past the contacts and none of
+[13:54] these receptacles engage with the hole
+[13:56] in any deliberate Manner and those which
+[13:58] appear to to do it do it badly again
+[14:02] this is not fully inserted while editing
+[14:06] this video I ran across some mention of
+[14:08] old patents which do show using the hole
+[14:10] as part of a locating mechanism I didn't
+[14:13] confirm these but another person claimed
+[14:16] to have seen some old receptacles in the
+[14:18] wild which had a locking lever
+[14:20] presumably utilizing those holes however
+[14:23] it seems pretty clear that these are
+[14:25] long deprecated uses for them whether
+[14:28] Nema is on ing these Legacy devices in
+[14:30] codifying the location of the holes is
+[14:32] not known to me but I guess it's
+[14:35] possible however I think in the end it's
+[14:37] not a good idea to encourage contact
+[14:40] designs which use the holes for indexing
+[14:42] because of a problem I'm about to bring
+[14:44] up now I suppose there could be
+[14:46] receptical designs out there which do
+[14:48] have some sort of bump on the contacts
+[14:50] which indexes the hole but that seems
+[14:53] like it would introduce other problems
+[14:55] if that were the case the pins would
+[14:57] have to bend Beyond their resting point
+[15:00] to allow for plug insertion and they'd
+[15:02] wear out more quickly at least it seems
+[15:04] that way to me maybe there was an old
+[15:07] design that Nema wants to ensure
+[15:09] compatibility with but that still seems
+[15:11] unlikely to me all signs seem to point
+[15:13] to it just needs to be at least this far
+[15:16] forward and also making it too large
+[15:18] would affect structural integrity and
+[15:20] current carrying ability if the plug
+[15:22] weren't fully seated so we codified the
+[15:25] hole's size and position whether you
+[15:27] want to use it and for what is up to you
+[15:30] well I think that's about it this video
+[15:32] has a lot of speculation in it if you
+[15:34] couldn't tell but I'd welcome any of the
+[15:36] nematodes out there to fill us in on any
+[15:38] details I might have missed like for
+[15:41] instance are there historical designs
+[15:43] out there that use these holes for
+[15:45] something and why is it so common for
+[15:47] devices to have them even things like
+[15:50] these is there a factory somewhere that
+[15:53] just makes zillions of these blades and
+[15:55] they put the holes in not knowing what
+[15:56] they're going to be used in will I ever
+[15:59] stop asking questions yes though I have
+[16:01] to wonder if part of their prevalence
+[16:03] comes from people feeling that they just
+[16:06] need to be there I'll admit that the
+[16:08] rare plugs I find without holes all seem
+[16:12] kind of wrong and so maybe this is just
+[16:16] a huge cultural or manufacturing inertia
+[16:19] thing we've slipped into somehow people
+[16:21] have seen the holes and so when specking
+[16:23] out whatever thing they want to
+[16:25] manufacture they just put them there or
+[16:27] maybe there is a factory that just pumps
+[16:29] out these blades day in and day out so
+[16:32] it's not even easy to get a solid blade
+[16:34] in the end though it doesn't really
+[16:36] matter this is a pretty silly video huh
+[16:39] oh but before I go I want to push back
+[16:41] on a very common sentiment that the rest
+[16:43] of the world has about our plugs I've
+[16:46] seen over and over again this notion
+[16:48] that they don't stay put that plugs will
+[16:51] just fall out of the wall I can assure
+[16:54] you that I absolutely think our plugs
+[16:56] are flawed in Myriad ways but this isn't
+[16:59] really that common sure receptacles will
+[17:02] wear out with time and actually if you
+[17:04] have one in your home that barely holds
+[17:06] on to a plug you really ought to get
+[17:08] that replaced because that can lead to
+[17:10] fires by way of poor connections and
+[17:12] high resistance but it typically takes
+[17:15] decades for a receptacle to wear to that
+[17:17] point most Outlets require a firm
+[17:20] pulling Force to unplug things and big
+[17:22] nasty wall warts don't have trouble
+[17:24] hanging on however not all receptacles
+[17:27] are created equal and I think a big part
+[17:30] of this perception can be traced to the
+[17:32] worlds of hotels airplanes airports
+[17:35] travel and in particular this style of
+[17:38] receptacle the kind that often gets
+[17:40] integrated into bedside lamps I tried
+[17:43] looking for something in the hardware
+[17:45] store that had this so I could take it
+[17:46] apart but I couldn't find one that's why
+[17:49] this is at the end but I suspect that
+[17:52] these are made to much lower standards
+[17:54] than the equipment that actually gets
+[17:56] placed in a wall I myself have
+[17:59] encountered plenty of outlets like these
+[18:01] that are barely holding on to something
+[18:03] I've plugged in and many are so damaged
+[18:06] they don't even work anymore but it has
+[18:08] been quite rare that a real duplex
+[18:11] outlet has this issue at least not to
+[18:13] that extreme now even if this weren't a
+[18:16] bad design there's the simple fact that
+[18:19] in a travel scenario something's getting
+[18:21] plugged into those Outlets far more
+[18:23] frequently than is typical there's a
+[18:26] finite lifespan on any connector and in
+[18:29] a setting where people are going to be
+[18:30] using them daily or perhaps more
+[18:32] frequently than that they're going to
+[18:34] wear out quickly in a home setting many
+[18:37] outlets get used maybe weekly some have
+[18:41] something get plugged into them and then
+[18:42] aren't touched for a decade or more
+[18:45] anyway I'm just bringing this up because
+[18:46] this criticism is really quite
+[18:48] situational every time I hear it I'm
+[18:51] like no that's not a thing I deal with
+[18:54] but then I remember that actually yes in
+[18:56] hotels that's quite common in my
+[18:59] experience and so I think a lot of you
+[19:01] are experiencing badly designed worn out
+[19:04] receptacles and then assuming that's the
+[19:06] norm and I feel that I must on behalf of
+[19:09] my Nemo compatriots inform you that this
+[19:11] is incorrect but yeah it's still a
+[19:14] pretty bad design all around the mere
+[19:16] fact that this is possible is
+[19:18] unforgivable just tremendously bad oh
+[19:22] well at least it's not 240 volts coming
+[19:24] out of there
+[19:25] [Music]
+[19:30] let's ask everybody's favorite
+[19:33] begrudgingly well we were doing so well
+[19:37] especially people who
+[19:39] have meaning it can only be inserted
+[19:41] into the receptacle I don't like how
+[19:43] that went this only works if the
+[19:45] receptacle was white yeah I'm going to
+[19:46] start over cuz I misread that and I
+[19:49] don't want to fa with that later the
+[19:51] cheap kind that comes in a big box with
+[19:53] a 100 or so just L oops Nema just wants
+[19:57] to be sure that the whole is far forward
+[20:00] enough that it won't land where the
+[20:02] contacts
+[20:04] touch the
+[20:06] blade sentence wasn't over like when you
+[20:09] insert the plug here we have a standard
+[20:12] po
+[20:15] [Music]
+[20:25] [Applause]

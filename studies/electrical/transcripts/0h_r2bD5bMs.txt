@@ -1,0 +1,309 @@
+# 0h_r2bD5bMs | Plug Won't Stay In Outlet | Everyday Home Repairs
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [startTime] text. Raw auto-captions, unedited.
+[0:00] hey guys how's it going it's scott with
+[0:01] everyday home repairs and i want to talk
+[0:03] a little bit about
+[0:05] a very common problem in your home and
+[0:07] that is when you have an
+[0:09] outlet that just won't hold the plugs in
+[0:12] and they just want to fall out now this
+[0:14] is usually not as
+[0:16] common if you have a three prong plug
+[0:18] like this one
+[0:19] usually that ground plug provides you a
+[0:22] little bit more tension
+[0:23] to hold into even a worn out outlet
+[0:27] but if you have a two pronger
+[0:30] really even the weight of the cord wants
+[0:32] to pull that
+[0:33] plug out of the outlet now this can
+[0:37] obviously be a safety hazard because you
+[0:39] start to expose
+[0:40] a connected hot side piece of metal
+[0:44] the blade from that plug going in so
+[0:46] that is a big safety hazard and also
+[0:48] it's just a pain
+[0:49] in the butt you probably if you've been
+[0:51] at a hotel
+[0:52] and you try to plug in your phone and
+[0:54] the outlet just literally will not hold
+[0:57] the plug at all that's because that's
+[0:58] probably the outlet
+[1:00] that is where the vacuum's being plugged
+[1:02] in every day so vacuums being plugged in
+[1:04] every day
+[1:04] it's pulling quite a bit of current
+[1:06] creating heat so it really
+[1:08] wears out those outlets so i'm going to
+[1:11] show you what's going on inside i'm
+[1:12] actually going to remove this
+[1:14] and break it open and show you what's
+[1:16] going on inside and then obviously also
+[1:18] how to fix that what kind of outlet
+[1:20] should you be putting in place so you
+[1:22] don't have this issue going forward
+[1:23] so let's jump into it so first thing
+[1:25] when removing this outlet one we want to
+[1:27] make sure the power is cut off so we're
+[1:29] going to hit the circuit
+[1:30] breaker or the fuse depending on what
+[1:32] your setup is
+[1:34] now you can use either use a non-contact
+[1:37] voltage tester and you can tell the
+[1:39] outlet is still hot
+[1:41] now through many many hundreds of
+[1:43] comments through some of my videos
+[1:45] most licensed electricians or at least
+[1:47] some of them really don't like
+[1:49] the non-contact they don't prefer the
+[1:51] non-contact to
+[1:52] give you a strong indication whether or
+[1:54] not the plug is still hot so you can get
+[1:57] a simple
+[1:58] outlet tester now both of these links
+[2:00] will be down in the description if you
+[2:02] want to reference what i'm using here
+[2:04] and then i have two amber color lights
+[2:06] on that means the outlet is working and
+[2:07] it's powered
+[2:08] but now i need to go hit the breaker to
+[2:10] make sure i cut power both to the top
+[2:13] and bottom outlets
+[2:17] all right so now we can see that all
+[2:19] lights are off so this is
+[2:21] this is no longer powered from our
+[2:24] outlet tester
+[2:25] and then also the non-contact
+[2:29] would give us the same so now we're safe
+[2:31] to remove this outlet
+[2:33] and then i'll cut this open and show you
+[2:35] what's going on all right so removal is
+[2:37] going to be easy enough we'll take the
+[2:38] two screws out so we can
+[2:40] remove the outlet from the electrical
+[2:42] box then you'll start to loosen up
+[2:44] all the different screw terminals now
+[2:46] you might not
+[2:47] have two hots and two neutrals coming in
+[2:50] and also your wire colors might be
+[2:53] different red
+[2:54] is the hot side for me black might be
+[2:56] your hot side
+[2:57] and white is my neutral most likely
+[2:59] yours is also white
+[3:01] and then i have a green wire for ground
+[3:03] you'll probably have a bare copper wire
+[3:06] you'll probably have to open up those j
+[3:08] hooks or shepard hooks a little bit to
+[3:09] get them from
+[3:10] out around the screw terminal and do be
+[3:13] careful if you have
+[3:14] short wires and not much extra wire be
+[3:16] careful not to damage
+[3:18] the insulation because you're going to
+[3:19] need to reuse as much wire as possible
+[3:21] so you don't make it too short to make
+[3:23] it difficult to rewire the new outlet
+[3:27] so we'll finish off removing the two
+[3:29] neutrals here
+[3:33] and then we'll open up this old outlet
+[3:37] so i wanted to open up that outlet just
+[3:38] to give you a closer look of what's
+[3:40] going on here
+[3:41] and overall the construction of this
+[3:45] uh out that i i like uh it's much better
+[3:48] than the cheaper ones these days
+[3:50] this is a leviton that's the the same
+[3:52] replacement i'll be using
+[3:54] but what happened is the clearances here
+[3:57] that would hold the blades on a plug
+[3:59] have really opened up so i can pass
+[4:02] this wire between those now if i
+[4:06] were to take a new commercial spec
+[4:11] outlet right and try to pass that same
+[4:13] wire
+[4:14] it ain't happening so it's much tighter
+[4:17] this is brand new
+[4:18] obviously not used so from heat and just
+[4:21] use over time it's
+[4:22] really opened up and that is why it's
+[4:25] not
+[4:26] holding here's an example two prong
+[4:29] from an apple charger and even putting
+[4:32] that
+[4:32] in there i mean it's not holding it at
+[4:35] all so you can pass it through so this
+[4:38] is why
+[4:39] at hotels maybe some outlets around your
+[4:41] house are having that issue
+[4:44] as they've just been used over time and
+[4:46] they're worn out and they can no longer
+[4:48] hold the neutral and hot side
+[4:51] of the plug so it's time to swap that
+[4:54] out
+[4:55] now what should you swap that out with
+[4:58] i did a video breaking down these two
+[5:00] different outlets
+[5:01] and you can see that link right here if
+[5:03] you want to go deeper this is a standard
+[5:05] residential grade it's not tamper
+[5:07] resistant
+[5:08] so this one would be about 50 cents this
+[5:10] is a commercial spec
+[5:11] made by leviton both of these made by
+[5:13] love time both of these 15 amp
+[5:15] and this is about two dollars i
+[5:17] recommend this guy
+[5:19] now in your area to the code you're most
+[5:22] likely going to need tamper resistant
+[5:25] pretty much everywhere now you need
+[5:26] tamper resistant where you're not able
+[5:28] to
+[5:28] introduce any sort of object to one side
+[5:31] where somebody could get shocked you
+[5:33] have to
+[5:33] apply to both sides for that to open up
+[5:36] this is the equivalent residential here
+[5:40] and i do not recommend that it's it's
+[5:42] just
+[5:43] overall pretty cheaply made if you're
+[5:45] taking the time to replace whether
+[5:47] that's you
+[5:47] or you're hiring that out go ahead and
+[5:49] get yourself
+[5:50] at least one step up with just a
+[5:52] commercial grade
+[5:54] tamper resistant like i said most likely
+[5:56] for your application and also to follow
+[5:58] the coding area
+[6:00] one additional nice thing about this
+[6:01] commercial is it has the feature where
+[6:03] you can do back wire
+[6:05] so you're not going to have to do those
+[6:06] shepard hooks which would usually
+[6:09] if you're going to do it if you're going
+[6:10] to do a shepherd hook
+[6:12] or a j-hook around the screw remember it
+[6:15] goes clockwise
+[6:17] around and then you want all copper no
+[6:20] insulation being pinched between the
+[6:22] screw as you tighten it down
+[6:25] but we're going to use back wire which
+[6:28] there's always a strip gauge
+[6:30] here so you can match up to the strip
+[6:32] gauge to know sorry it's on the other
+[6:34] side
+[6:35] you can match up to the strip gauge and
+[6:36] know how much copper you need
+[6:38] and then you can pass that right
+[6:41] straight in
+[6:41] and then screw that down and that plate
+[6:43] is going to hold that in place
+[6:45] and it's going to securely hold your hot
+[6:48] neutral side
+[6:49] and then you will have to do a
+[6:50] shepherd's hook for the ground so let me
+[6:53] show you how to install that
+[6:55] okay so now with the outlet remember
+[6:57] that
+[6:58] gold is your hot side and then the
+[7:01] silver it's going to be your
+[7:02] neutral side so i'm going to use back
+[7:04] wire
+[7:05] so i'll quickly go through and i'm going
+[7:07] to cut and strip these i have plenty of
+[7:09] wire
+[7:10] so i'm not worried about cutting these
+[7:11] too short but i'm going to cut them
+[7:13] and re-strip them to the correct size so
+[7:16] i can get them ready to back wire
+[7:30] [Music]
+[7:32] now one note when you're using this the
+[7:34] strippers you you're probably
+[7:36] comfortable with them but if not you're
+[7:37] going to have your gauge of wire listed
+[7:39] on the left hand side if it's solid core
+[7:42] so this would be used for 12 gauge which
+[7:44] is what i used
+[7:45] if you used a 14 you're going to also
+[7:48] damage the copper which is going to
+[7:50] weaken it and that's going to cause you
+[7:52] problems long term so make sure that
+[7:54] you're using the correct
+[7:55] hole for the size of wire that you have
+[7:58] and it should also be noted that you you
+[8:01] want to
+[8:02] make sure you're matching up the same
+[8:05] outlet so this is a 15 amp
+[8:06] many outlets are 20 amp so
+[8:10] i didn't talk about earlier but i did
+[8:12] confirm that the old
+[8:14] outlet that i'm replacing is 15 amp
+[8:18] so first i'm going to put the ground on
+[8:19] there what i'm going to do is close up
+[8:21] that shepherd's hook a little bit
+[8:27] around the screw so there's good contact
+[8:30] all the way around and then i'll go
+[8:31] ahead and tighten that remember
+[8:33] clockwise direction for your wire
+[8:37] all right so now that i have two hots
+[8:39] and two neutrals that i need to install
+[8:41] i'm gonna put the two hots on the same
+[8:44] screw terminal
+[8:45] these are made to fit two wires one on
+[8:47] each side
+[8:48] and then the two neutrals on the on the
+[8:50] top on the opposite side remember gold
+[8:52] for hot
+[8:53] silver for neutral
+[9:17] okay and then i am you probably have a
+[9:19] plastic electrical box i actually have a
+[9:21] metal one
+[9:22] but best practice any unused terminals
+[9:24] you do want to go ahead and screw those
+[9:26] all the way in
+[9:28] just to make sure you have less
+[9:29] likelihood especially on the hot side
+[9:32] if you had a metal box that that you
+[9:34] would hit a screw terminal on something
+[9:36] that it could go short it could short
+[9:38] across that
+[9:42] so just check your work make sure
+[9:43] everything's secure everything looks
+[9:45] right there's no weak points and then
+[9:47] start to tuck your wires back into the
+[9:49] box so then you can
+[9:51] tighten down your mounting screws
+[10:04] so it should be noted here the wall has
+[10:07] some wood paneling on it so
+[10:08] the standard three quarters of an inch
+[10:11] mounting screw did not
+[10:13] work so i had to upgrade
+[10:16] do a little comparison here to a
+[10:20] one inch now while i put on the cover
+[10:23] plate if you do need those longer screws
+[10:25] that are 6-32
+[10:27] pan head machine screw you can pretty
+[10:28] much get them at any
+[10:30] ace hardware right so the power is back
+[10:33] on so we'll do a quick check with our
+[10:34] outlets tester both on the bottom
+[10:37] looks good and top also looks good
+[10:42] and then the true test the issue where
+[10:43] the two prong plugs or even really three
+[10:46] plug
+[10:46] prong plugs were basically falling out
+[10:50] so now we have a nice secure hold and we
+[10:52] won't have any issues for years to come
+[10:55] hopefully that helped you out and also
+[10:56] gave you a little bit more details on
+[10:57] what's going on on the inside of the
+[10:59] outlet
+[11:00] when you have those plugs basically
+[11:02] falling out now before you take off
+[11:04] don't forget to subscribe to our channel
+[11:05] if you haven't already
+[11:07] we have weekly videos coming out to help
+[11:08] you with your repairs and improvements
+[11:10] around the house and we'll catch you on
+[11:11] the next one take care
