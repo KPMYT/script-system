@@ -63,7 +63,7 @@ Electrical scripts are written from the title and the brief; there is no researc
 
 - **The brief is the fact source,** with the facts guide behind it. The brief wins on facts; it never wins on removing safety (see "Safety").
 - **Where the brief is silent, the script fills in** (P7, adapted):
-  - **Code rules, sizes, distances and safety facts** come from `references/facts-guide.md` only, said plainly. A row marked "reading" is never said as fact.
+  - **Code rules, sizes, distances and safety facts** come from `references/facts-guide.md` only, said plainly. A row marked "reading" or "thin" is never said as fact; a row marked "kept" (one checker, no second source) is said only with "in most cases" or the source's name.
   - **Everyday settings and intervals** (press TEST once a month, a tester checked on a live outlet first) may come from everyday knowledge, marked "general knowledge".
   - **No wiring method, code claim or "this is legal for you to do" beyond the brief and the facts guide.** When neither says it, the script says it's a question for the local inspector or a licensed electrician.
   - The run stops with NOT READY when the brief can't carry the title's main promise, or a safety fact the script needs is in neither the brief nor the facts guide.
@@ -74,7 +74,7 @@ The viewer is a 50+ American homeowner, often in an older house, who would rathe
 
 **What they bring (from the electrical study and the model comments):**
 - **A problem in front of them right now.** The best openings name it the way they'd say it ("the outlet that just quit", "the plug that won't stay put").
-- **A real fear of getting it wrong,** and a real pride in getting it right. Pride led about 46% of the niche's titles (462 of 1,007); safety fear was common but rarely led. The viewer leaves feeling able, not scared.
+- **A real fear of getting it wrong,** and a real pride in getting it right. Pride appeared in about 46% of the niche's titles (462 of 1,007) and was the first emotion in more than any other (about 29%); safety fear appeared in 293 and led in outlet and switch titles only once in 9. The viewer leaves feeling able, not scared.
 - **Trust in electricians, inspectors and firefighters.** They treat them as the experts. "Electricians HATE This" titles flopped (31K and 375 views). Never set them up as the enemy.
 - **Impatience with the wait.** The most-liked praise on how-to winners is the pace: no intro, straight to it.
 - **The doing questions:** which wire is hot, what size breaker, do I need a GFCI here, will this pass inspection, is my tester lying. Answer the ones that apply inside the script, at the step where they'd ask.
@@ -92,13 +92,13 @@ The viewer is a 50+ American homeowner, often in an older house, who would rathe
 
 ## The stakes (no money)
 
-This channel says no prices and no savings (operator, 2026-10-24). Where plumbing put a price line, every item here carries **one stake line**: what it risks, once, in plain words. Rotate the stake devices across a channel's scripts (the rotation log's `stakes:` field):
+This channel says no prices and no savings (operator, 2026-10-24). Where plumbing put a price line, **every list item carries one stake line**: what it risks, once, in plain words. **In how-to and fix videos, the stake goes only in the steps where the risk really is** (the power-off step, the connection that can loosen, the sign that it's a call), usually two to four in a video; a step with no real risk carries none. The calmest how-to winners name almost no danger (E01, E05). Rotate the stake devices across a channel's scripts (the rotation log's `stakes:` field):
 
 - **Fire,** plainly and briefly: heat at a loose connection, arcing behind the plate, the scorch mark nobody sees. Said once where it belongs, never as a scare reel.
 - **Shock:** the live metal, the wire that's still hot when the switch is off, the tester that gave a false "dead".
 - **The hidden bad work in the wall:** what the last owner or handyman left behind.
 - **The cheap part:** the knock-off connector, the bargain tester, the device that's never been listed.
-- **"You've been doing it wrong":** the habit almost everyone has, and why it matters.
+- **"You've been doing it wrong":** the habit almost everyone has, why it looks right, and why it matters. Never a scold.
 - **The nuisance that won't stop:** the breaker that trips every night, the flicker, the outlet that works when it feels like it.
 - **The inspector and the sale of the house:** work that won't pass, said as a fact, never as a threat.
 
@@ -106,12 +106,13 @@ This channel says no prices and no savings (operator, 2026-10-24). Where plumbin
 - **In proportion.** One stake per item, said once, then the fix. "That's how a loose wire turns into heat inside the wall" lands; piling fire, death and lawsuits into one item reads as a scare tactic.
 - **Fire is the stakes, never the topic** (operator, 2026-10-26). No item exists only to frighten.
 - **The worst case only when it's real and common enough to matter,** with the fix right after it.
+- **How much fire.** Fire is the stake on about one item in three at most, and fire words (fire, burn, melt, ignite) come up about twice per 1,000 words at most, about six in a 3,000-word script. The models use 0 to 6 per video, and 14 of 31 never say one. Death words (kill, die, deadly, fatal) only where the title or a generator, panel or shock item makes them real, and at most twice. "Possibly worse" often does the job.
 - **Numbers on danger** (how little current is dangerous, how far a generator sits from the house) come from the brief or the facts guide, and named sources keep their figures exactly.
 
 ## The villain (optional)
 
 The operator (2026-10-27): "villain does not need to be necessary". Most winning electrical videos (70-80%) have none. Use one only where the topic carries it:
-- **The last owner's or handyman's wiring,** found in the box or the panel: "Whoever wired this was in a hurry."
+- **The last owner's or handyman's wiring,** found in the box or the panel: "A splice buried in the wall with no box around it."
 - **The cheap product:** the unlisted part, the knock-off connector, the cord that should never have been sold.
 - **Named problem panels** (Federal Pacific Stab-Lok, Zinsco) only with what CPSC or inspectors actually say, from the brief or the facts guide (operator, 2026-10-27); otherwise "some older panel brands".
 
@@ -123,7 +124,7 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 
 1. **The point in the first sentence:** the problem the viewer has right now, and wherever the title allows, the fix or the answer itself, by about 15 seconds. Never hold the answer back to the middle.
 2. **A question, when it fits,** that the viewer can answer in their own house ("Does the plug sag the moment you let go?"), answered within about 15 seconds.
-3. **The stake, once,** in plain words (see "The stakes"), and the villain line only if the topic has one.
+3. **The stake, once,** in plain words: the title's own stake (see "The stakes"). Fire or shock comes into the opening only when the title is about a danger (a generator, a panel called dangerous, a WARNING title) or the fix-video order asks "is it dangerous". Otherwise the opening's stake is the nuisance, the habit or the hidden work, and the first fire or shock line waits for the item where the risk is real (the models bring danger in at a median of about 1:37; only 8 of 27 do it in the first 45 seconds). The villain line only if the topic has one.
 4. **Honest scope or reassurance,** in one line: what this fixes and what it doesn't, or that most of the job is safe for a careful homeowner and which part isn't. It never takes back the title.
 5. **One value promise, when it fits** (P11, operator 2026-10-27): one sentence that either promises the escalation ("we'll go from the two-minute check to the one sign that means you stop and call") or what the viewer will know or be able to do by the end ("By the end of this video you'll know how to tell a tired breaker from a real fault, and the one sign that means you leave the panel alone"). It names only things paid after item three (or after the third step, check or block), never item one, two or three (operator: "as long as they are not iteams one 2 and 3"), and it isn't always three things ("doesnt have to be 3 items also"). An escalation may name its starting rung, since the operator allowed "a simple promise of escalation" on its own terms. In a list of three, it names what the viewer will be able to do, not an item. Never "First I'll show you… then…". Never a vague tease ("stick around", "you won't believe"). Or, in a list, **the count line** naming the whole list and what it does for the viewer. Never "today we're going to".
 6. **The first real tip, check or step** by about 45 seconds; in a list, item one by about 30 seconds.
@@ -140,19 +141,32 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 
 ## Emotion, all the way through
 
-The operator (2026-10-21): "simpler and stronger on emotions... using strong words and targetting the exact pain points of this audience like reference scripts do. more work on emotion triggering throughout." The plumbing tests showed what happens without it: the pain named once, then explanation; "you" 21 per 1,000 words against 41 in the hit; "but" once per 1,000; no questions; 11 of 15 items ending on an instruction. The electrical winners run on **pride and capability first**, with safety fear, "you've been doing it wrong", myth-busting, how-it-works curiosity and the nuisance underneath (each model file's "Emotion voicing" shows the words they use).
+The operator (2026-10-21): "simpler and stronger on emotions... using strong words and targetting the exact pain points of this audience like reference scripts do. more work on emotion triggering throughout." The plumbing tests showed what happens without it: the pain named once, then explanation; "you" 21 per 1,000 words against 41 in the hit; "but" once per 1,000; no questions; 11 of 15 items ending on an instruction. The electrical titles lead with **pride and capability** (research: pride in 462 of 1,007 titles). The winning scripts carry it like this: capability or reassurance by about 30 seconds; one spine feeling at nearly every item (rule 2); how-it-works curiosity in 24 of the 31 models; safety fear quiet, said in a sentence or two at a median of about 1:37, answered straight away; and pride as the landing at the wins and the close. Each model file's "Emotion voicing" shows the words they use.
 
-1. **Put the viewer in it.** Say "you" and open each item or step on what they see, hear, smell or feel in their own house: the flicker, the buzz, the warm cover plate, the plug that droops, the faint smell near the panel. Not on how the thing works.
-2. **Aim at one real feeling per item:** the fear of getting shocked or starting something in the wall; the frustration of the problem that keeps coming back; the worry about what the last owner did; the doubt about their own tester; the pride of getting it right; the relief that it's a simple fix.
-3. **Strong, plain words.** Physical verbs and pictures: loose, scorched, buzzing, arcing, sagging, cooked, brittle, "live", "still hot". Short sentences mostly; join two with "but" to keep it moving. At most one picture-phrase per item, only when it teaches.
+1. **Put the viewer in it.** Say "you", and tie every item, step or block to the viewer's own house. In lists, how-to and fix videos, open each item or step on what they see, hear, smell or feel there (the flicker, the buzz, the warm cover plate, the plug that droops, the faint smell near the panel), not on how the thing works. In explainers and X vs Y, a block may open on the question the viewer has or on the plain picture, as the winners do at nearly every block. Either way, the block ends on what it means in the viewer's house.
+2. **One spine feeling, all the way through, and one real feeling per item on top of it.** The spine comes from the video type and comes back at nearly every item, step or block in fresh words (13 of the 31 models do this):
+   - **Mistakes lists and single big mistake:** "you've been doing it wrong", said kindly: why the habit looks right, then the turn.
+   - **Explainers and X vs Y:** "so that's why", with the belief it flips.
+   - **Fix videos:** the nuisance named at the start and paid off as relief at the end.
+   - **How-to:** capability: you can do this, and here's how you'll know it's right.
+   - **Know-this lists:** the "I wish I'd known", landing on pride.
+
+   Pride and capability are where every item lands (the win), whatever the spine. On top of the spine, each item aims at one real feeling: the fear of getting shocked or starting something in the wall; the frustration of the problem that keeps coming back; the worry about what the last owner did; the doubt about their own tester; the "so that's why" of seeing how it works; wanting to keep the people in the house safe; the pride of getting it right; the relief that it's a simple fix.
+3. **Strong, plain words.** Physical verbs and pictures: loose, scorched, buzzing, arcing, sagging, cooked, brittle, "live", "still hot". Danger is said plainly with "can" or "could" and its cause ("a loose wire can heat up and char the plastic around it"), the way the winners say it; the strong words go on what the viewer sees, hears and feels, never piled onto the disaster. Short sentences mostly; join two with "but" to keep it moving. At most one picture-phrase per item, only when it teaches.
 4. **"But", inside items and between them.** Inside every item, at least one turn: what people think or do, then "but", then the truth. Between items, bridges that turn ("That one's a five-minute fix. The next one isn't."). Rotate how the belief is named ("most folks figure", "the package says", "you've probably been told"); "Most people…" opens a sentence at most once per script (`humanizer.md` H20), and never the "it's not X, it's Y" reframe more than once (H21).
-5. **Ask the viewer** a question they can answer about their own house, answered straight away, about every two items or steps.
-6. **Sensory warning signs** where plumbing used disgust: the brown mark on the plate, the smell like hot plastic, the crackle when the plug moves, the warm switch. Said as what to notice, never as horror.
-7. **End every item or step on a win:** relief, pride, or the before-and-after ("Now that plug clicks in and stays."). Never end on an instruction.
-8. **Reaffirm the title's feeling and key word** every few items, in nouns and verbs (the mistake, the real reason, the safe way), not "-ly" adverbs; not every item, never robotic.
+5. **Ask the viewer,** 4 to 8 times in the script (about every two items): a question about their own house, answered straight away ("Does the plug sag the moment you let go?"), or the turn question the next line answers. Never a question only the footage can answer.
+6. **Sensory warning signs,** where the winners would show the damage on camera: the brown mark on the plate, the smell like hot plastic, the crackle when the plug moves, the warm switch. At most one per item, only where it's the real sign of that problem, said as what to notice and what it means, never as horror.
+7. **End every item or step on a win:** relief, pride, the before-and-after ("Now that plug clicks in and stays."), or, in explainers, the "so that's why" or the protection that's already there. Never end on an instruction.
+8. **Reaffirm the title's feeling and key word** every few items, in nouns and verbs (the mistake, the real reason, the safe way), not "-ly" adverbs; not every item, never robotic. **When the title's feeling is fear** ("WARNING", "Dangerous", "Can Kill", "Worst", "BEWARE"), what comes back is the title's noun (the mistake, the backfeed, the panel, the lineman), not the danger word. The danger itself is said about three times in the whole video: in the opening, at the item where it's real, and once near the end as the reason the fix matters. Each time, the next line puts control back (rule 10). Fear never becomes the script's lead feeling: pride and capability lead every title.
 9. **Let the narrator speak.** One short "I" opinion or verdict in most items ("I'd replace that one today."), and once per video a line of insistence where it matters ("Please, test it first. Every time.").
-10. **Capability over fear.** For every fear line, a line that puts control back in the viewer's hands: the check they can run, the sign that it's fine, the point where they stop.
+10. **Capability over fear, straight after it.** Every fear line is answered in the same item, within a sentence or two, by a line that puts control back: the check they can run, the sign that it's fine, the point where they stop, or the protection already in the house doing its job (the breaker that trips, the GFCI that cuts the power, the ground wire that gives a fault somewhere to go), named only where the brief or the facts guide confirms it. The winners bracket every danger this way (E13, E14, E15, E16, E22).
 11. **Finish on relief and capability, not danger.** The last item before the ending closes on reassurance or something to do tonight.
+
+**Targets** (measured in the 31 models with labels stripped, 2026-10-27; a judge measures the finished script the same way. These are floors, never quotas: a sentence never gets a "you" or a "but" just to hit a number.)
+- **"you"** (you, your, yourself and their contractions): at least 35 per 1,000 words in fix, mistakes, single-big-mistake and know-this scripts (model medians: fix 43, mistakes 37, know-this 33, single 28); at least 30 in how-to (every step is "you" here, because there is no on-camera "I"); at least 20 in explainers and X vs Y (model medians 16 and 30). Frederick's old scripts: 26.6.
+- **"but":** at least 5 per 1,000 (models: median 5.5, middle half 4.1 to 7.2, top 11.5), spread across the items rather than stacked in one. Frederick's old scripts: 1.0.
+- **Questions to the viewer:** 4 to 8 in the script. Frederick's old scripts: 0.
+- **"I":** "I/me/my" about 6 to 12 per 1,000 (the models that don't demonstrate run 5.1 to 8.7). Verdict lines ("I'd…", "I won't…") in most items, about 2 to 4 per 1,000. No demonstration "I" at all.
 
 **Never, still:** invented facts or events, guaranteed outcomes ("this will never happen again"), anyone's motives, vague teases, scare-reel lines ("this could kill your whole family tonight"), worst-case exaggeration, jokes.
 
@@ -215,7 +229,7 @@ In a know-this list, each item runs: the moment in the viewer's house when it ma
 
 1. what to do, as an instruction to the viewer (on a licensed electrician's job, what is done and what you check: see below)
 2. the reason, in one sentence
-3. the mistake people make at this step, with "but"
+3. the turn, with "but": the mistake people make at this step where there is a common one (in about half the steps; a how-to's spine is capability, not correction), otherwise the reason it's done this way rather than the way it looks ("You'd think any screw will hold it, but…")
 4. how to know it's right (what you'll see, hear or feel)
 5. the win or the bridge to the next step
 
@@ -408,6 +422,10 @@ once: trust me
 once-regex: \bplease,? test it\b | the insistence line
 once-regex: \bthat'?s a call\b | that's a call
 once-regex: \bpalm (?:on|against) the (?:plate|cover)\b | Frederick's old tic: palm on the plate
+ban-regex: \bkill(?:s|ing)? (?:you in your sleep|your (?:whole )?family|everyone)\b|\bburn(?:s|ed|ing)? (?:your|the|a) (?:house|home) (?:down|to the ground)\b|\bdeath ?traps?\b | scare-reel line (fire is the stakes, never the topic)
+once-regex: \bwhile you(?:'re)? (?:sleep|sleeping)\b | Frederick's old fire-channel tic: while you sleep
+once-regex: \btrapped heat\b | Frederick's old fire-channel tic: trapped heat
+once-regex: \bso what do you do instead\b | the item shape's turn question (word it fresh each time)
 ```
 
 ## Before handing over
@@ -417,7 +435,8 @@ Check that:
 - the opening follows the video type's order, with at most one value promise that never runs down the first items in order, and no intro, greeting, vague tease or recap
 - every item or step puts the viewer in the scene, aims at one feeling, has at least one "but" turn and ends on a win; bridges turn between items; a question about every two items; the title's feeling and key word come back every few items; an "I" verdict in most items and one insistence line; capability balances every fear line; the last item closes on relief
 - items follow the item shape (lists), the step shape (how-to) or the rung shape (fix), each at the words the plan's length estimate gave it, item one by about 30 seconds in lists, and no more than two in a row without a forward line (an item's own stake line doesn't count)
-- every item carries one stake, once, in proportion; fire is never the topic; no prices, savings or money words anywhere
+- every list item carries one stake, once, in proportion; how-to and fix steps carry one only where the risk is; fire is never the topic; fire words about twice per 1,000 at most; death words only where real, at most twice; no prices, savings or money words anywhere
+- the spine feeling comes back at nearly every item; "you", "but", questions and "I" meet the targets in "Emotion"; danger enters where it's real and is answered within a sentence or two
 - the villain, if any, is the old work or the cheap part, never electricians, inspectors, firefighters or the utility; named panels only with sourced facts
 - every forward line is paid within about five minutes; no stretch runs past five minutes without a forward line or a payoff; every callback matches a real promise
 - the tenure appears at most once, as 35 or the title's number; no job or customer story; no "I tested", no pointing

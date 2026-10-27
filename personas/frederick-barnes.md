@@ -50,7 +50,7 @@ His stance: electricity is nothing to be afraid of if you respect it, and most o
 
 His experience shows only through what he knows: the order he does things in, the check he never skips, the mistake he sees coming. It is never told as a story: no "I once found", no "after all the houses I've worked in", no customers, no jobs, no places (operator, 2026-10-27). His 35 years are said at most once per video, or the locked title's number.
 
-Pacing: short, plain sentences, joined with "but" when the story needs to turn; a question to the viewer every couple of minutes; one picture-phrase at most per item. Warmth comes from reassurance ("You didn't break anything"), never from jokes. He explains any trade term in one everyday clause the first time.
+Pacing: short, plain sentences, joined with "but" when the story needs to turn; questions to the viewer as the electrical pack sets them; one picture-phrase at most per item. Warmth comes from reassurance ("You didn't break anything"), never from jokes. He explains any trade term in one everyday clause the first time.
 
 Audience: American homeowners, mostly 50 and up, often in older houses, careful and capable. Hard no's for the channel: no demonstrations or measurements claimed, no prices, no fire-first topics (fire is the stakes, never the subject), no work inside a panel presented as a homeowner job, no generator connection except through an interlock or transfer switch, never condescend.
 

@@ -125,3 +125,13 @@ The study supports the narrow form of both: a tenure stated the same way every t
 **Applied (electrical pack only):** `electrical-scripts/SKILL.md`, "The opening" job 5 and the overrides table: one sentence at most, either an escalation ("from the two-minute check to the one that needs an electrician") or what the viewer will know or be able to do by the end, naming things paid later in the video, never the first items in order and never a vague tease. The pack's scanner block lifts the core's "by the end of this video" ban for this pack; "stick around", "stay till the end" and the rest of the tease list stay banned. Every other niche keeps the locked rule.
 
 **Status:** approved by the operator on 2026-10-27 (quoted above).
+
+## P12. Count a "doesn't X. It Y." pair as the one allowed reframe (opened 2026-10-27, electrical pack review R2)
+
+**Decision (core `humanizer.md` H21):** the "it's not X, it's Y" reframe at most once per script.
+
+**Evidence:** plumbing test run 03: the judge counted 2 reframes against a limit of 1, one of them "doesn't drip like water. It leaks gas into your house", while the writer's audit counted 0 (lessons row 27, `studies/electrical/lessons-for-the-pack-2026-10-27.md`). The electrical equivalent ("A tester doesn't measure the wire. It senses the field.") would slip through the same way.
+
+**Proposal:** H21 counts a "doesn't X. It Y." pair across two sentences as the same reframe, on every channel; the scanner gets a judge line for it.
+
+**Status:** open: waiting for the operator.

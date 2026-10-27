@@ -18,7 +18,7 @@ MODELS                             [from references/models/INDEX.md; none used i
 OPENING                            [order this time, from the video type: ...]
 - the point, first sentence:       [the problem the viewer has right now, and the fix or answer named; strong, plain words]
 - question (optional):             [one the viewer answers in their own house; answered within ~15 s]
-- the stake, once:                 [fire / shock / hidden bad work / cheap part / doing it wrong / nuisance / inspection]
+- the stake, once:                 [the title's own stake: nuisance / doing it wrong / hidden bad work / cheap part / inspection; fire or shock only for a danger title]
 - villain line (optional):         [none / the old work / the cheap part; never the trade]
 - scope or reassurance:            [what a careful homeowner can do, and which part is a call; never takes back the title]
 - value promise or count line:     [one sentence: an escalation, or what they'll know by the end (nothing from items, steps or blocks one to three; an escalation may name its first rung); or the count line in a list; or none]
@@ -27,14 +27,18 @@ OPENING                            [order this time, from the video type: ...]
 
 TITLE PROMISES                     [each promise in the title -> where paid; any absolute word and the one case it doesn't cover]
 
-ITEMS OR STEPS                     [lists: scene -> what's happening -> the stake once -> the turn -> the right way -> the check -> the win; know-this: the moment -> the thing -> why it matters -> what to do -> the check -> the win; how-to: do -> why -> the mistake ("but") -> how to know it's right -> the win; fix: notice or check -> what it tells you -> the belief turned -> the fix -> how to know it worked -> the sign it's a call -> the win; words each from SKILL.md "Length per item, step or block"]
+ITEMS OR STEPS                     [lists: scene -> what's happening -> the stake once -> the turn -> the right way -> the check -> the win; know-this: the moment -> the thing -> why it matters -> what to do -> the check -> the win; how-to: do -> why -> the turn ("but": the common slip where there is one, otherwise why it's done this way) -> how to know it's right -> the win; fix: notice or check -> what it tells you -> the belief turned -> the fix -> how to know it worked -> the sign it's a call -> the win; words each from SKILL.md "Length per item, step or block"]
 - [item or step] -> scene: ... | feeling: ... | the belief turned ("but"): ... | stake: ... | check: ... | win: ... | safety line? | bridge into the next (a forward line; the stake line doesn't count) | words: N
 - priority flag ("if you only check one thing") on:
 - terms to explain:                [first use of each; facts-guide §14]
 - "I" verdict in:                  [most items]
 
 EMOTION                            [all the way through; see each model's "Emotion voicing"]
-- the lead feeling:                [pride and capability, unless the title says otherwise]
+- the lead feeling:                [always pride and capability (the viewer leaves able, not scared). If the title's feeling is fear (WARNING, Dangerous, Kill, Worst, BEWARE), write it here as the title's feeling, carried by the title's noun, never as the lead]
+- the spine feeling (back at nearly every item):  [doing it wrong / so that's why / the nuisance, then relief / capability / I wish I'd known]
+- first fire or shock line at:     [the item where the risk is real; in the opening only for a danger title]
+- fire words planned / death words: [about 2 per 1,000 at most / at most 2, only where real]
+- targets:                         ["you" floor for this type (35 / 30 / 20); "but" 5+ per 1,000; questions 4-8; "I" 6-12 per 1,000, verdicts in most items, no demo "I"]
 - the title's feeling and key word, where it comes back:   [every few items, in nouns and verbs]
 - fear lines and the capability line that answers each:
 - sensory warning signs on:        [the buzz, the smell, the warm plate, the scorch mark]

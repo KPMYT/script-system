@@ -381,6 +381,8 @@ For every fear line, a line that puts control back in the viewer's hands. Notice
 8. "at this point you should feel like a total Pro a total boss when it comes to knowing all of these different features and functions" (E04 · LRN2DIY · [13:35] · 126.62x)
    **Shape:** pride at the close. **Watch:** the slang ("total boss") isn't Frederick's; the pride is.
 
+- **Shape only (no line quoted):** the protection already in the wall named straight after the danger (E15 · [5:44]; E13 · [6:37]).
+
 ## 17. One-line subscribe asks
 
 Frederick's only CTA: one short subscribe line at the end, about 15 to 25 words, naming Frederick Barnes and tied to what the channel delivers, inside the NO BOOK markers. **No model has this exact shape:** the real channels ask for likes, bells and patrons, and several run long. The closest tie the ask to what the channel delivers; take that, and leave the rest. Wording is never copied: the copy guard flags any run of 8 or more words shared with this file.
