@@ -17,8 +17,8 @@ Niche pack: plumbing-scripts
 THE BASICS
 Script type: Talking Head [W9] (his 14 uploads used the CTA markers; the relaunch briefs plan face segments)
 Voice provider: ElevenLabs (Herrmann - Professional and Measured, voice ID au7Q2pqB7wdio9LWlvt7) [from Notion]
-Words per minute (optional, for runtime estimates): not set (as the other plumbing profiles; operator 2026-10-25: "do not change 3 yet"). For the record, his 14 voiceovers in this voice: see studies/plumbing/werner-baseline-2026-10/counts.md
-Contractions: none [W10] (his register: "It is a washer. It is nine cents."); the scanner block below bans them, as Mark Silverbridge's does
+Words per minute (optional, for runtime estimates): not set (as the other plumbing profiles; operator 2026-10-25: "do not change 3 yet"). For the record, his 14 voiceovers in this voice ran about 184 words a minute (138 to 250, counted against the whole video length; studies/plumbing/werner-baseline-2026-10/counts.md)
+Contractions: none [W10] (his register: "It is a washer. It is nine cents."; his 14 old scripts have none); the scanner block below bans them, as Mark Silverbridge's does
 
 THE PERSONA
 Name: Werner Finkbeiner

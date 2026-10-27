@@ -22,10 +22,12 @@ Answer like "W1 yes, W2 b, …". Each question says what happens with each answe
 **What his old scripts did that the library now bans** (from the toilet-unclog script, his best video; the full counts for all 14 are in `studies/plumbing/werner-baseline-2026-10/counts.md`):
 - a name and channel intro in the second paragraph: "I am Werner Finkbeiner, and this channel is for anyone in an American house who would rather understand a thing than pay to have it done."
 - teases in the opening: "one of them has a number that decides whether your toilet clears or cracks", "that number comes right after the soap", "at the very end, this same idea turns up in rooms that have nothing to do with a toilet"
-- the mid-video book pitch before step one, at about 10% of the way in (the plumbing rule: a third of the way in, never before the end of item 3)
+- the mid-video book pitch before step one, about a fifth of the way in (across the 14: a fifth to two fifths in, about a quarter typically), at about 150 to 240 words (160 typically) against the plumbing shape's 60 to 80, and an end CTA of about 110 to 160 words with a subscribe ask (the plumbing rule: a third of the way in, never before the end of item 3; a one-line reminder at the end)
 - a halfway recap ("So. Halfway, and worth one look back. Four steps, and not one of them was force…") and an end recap ("Eight steps, two mistakes, four reasons, and looked at all together, they were never separate tricks.")
 - a three-item list of jobs for the week after the last step
 - "Feierabend." as the last line, after the comment ask
+
+**Across all 14** (`counts.md`, `scanner.md`): a name intro in 13 ("I am Werner Finkbeiner" or "My name is…"; the 14th opens on a bare "Werner Finkbeiner."), "this channel is for…" in 9, a tease of a later item in all 14, a halfway checkpoint, a "they were never N things" recap, a week's assignment and "Feierabend" as the last line in all 14; no years figure in any of them, even the "30 Years" title; no contractions in any. Words per minute about 184 typically (138 to 250, counted against the whole video length). The plumbing scanner fails 11 of the 14.
 
 **What carries over well:** the price gap ("The visit for one runs a hundred and fifty to three hundred dollars. The auger… is twenty-five to forty dollars."), honest early limits ("One honest word, early. Soap and hot water work on the soft clog…"), the stop line, the German word glossed in its own sentence ("Pfusch. Botched work, the kind of fix that leaves a bigger job behind it."), no contractions, the "So." turns, and the steps written as instructions.
 
@@ -43,7 +45,7 @@ Answer like "W1 yes, W2 b, …". Each question says what happens with each answe
 
 **W5. The sign-off (P15).** Notion's fixed last line is "Enough for today. Feierabend." The plumbing ending is locked (P5): the comment line is the last line, nothing after it. (a) drop it; (b) "Enough for today." opens the turn into the comment ask, and the comment line still ends the video; (c) "Feierabend." after the comment line, Werner only. I'd pick (b).
 
-**W6. CTAs.** The profile uses Roger's and Mark's shape: a 60-80 word mid-video ask about a third of the way in (never before the end of item 3), naming a chapter of the book and both the description link and the QR code, then a one-line book reminder at the end and the comment ask. His old scripts put the pitch about 10% in and added a subscribe ask at the end ("Subscribe to Werner Finkbeiner for the old German house habit set next to the American one"). **Yes** keeps the Roger and Mark shape with no subscribe ask; or say if the end line should also ask for the subscribe (he has 11 subscribers).
+**W6. CTAs.** The profile uses Roger's and Mark's shape: a 60-80 word mid-video ask about a third of the way in (never before the end of item 3), naming a chapter of the book and both the description link and the QR code, then a one-line book reminder at the end and the comment ask. His old scripts put a pitch of about 160 words a quarter of the way in, and an end CTA of about 130 words with a subscribe ask at the end ("Subscribe to Werner Finkbeiner for the old German house habit set next to the American one"). **Yes** keeps the Roger and Mark shape with no subscribe ask; or say if the end line should also ask for the subscribe (he has 11 subscribers).
 
 **W7. The book file.** Werner's *101 Free Repairs* isn't in the library: the channel's `3_EBOOKS` folder in Drive is empty to me, and a search for the title found nothing. The other books are in `personas/books/` so a CTA can name the exact repair that covers the video and quote a real Money Saved figure. Until it's in, his CTAs name only a chapter and its repair range (from the Notion facts, e.g. "chapter six, repairs forty-two to fifty-one"). Can you share or upload the PDF?
 
@@ -51,7 +53,7 @@ Answer like "W1 yes, W2 b, …". Each question says what happens with each answe
 
 **W9. Talking Head.** Notion leaves "(Classic/ Talking head)" blank. His old scripts used the CTA markers and the relaunch briefs plan face segments, so the profile says Talking Head. **Yes** or Classic.
 
-**W10. No contractions.** His Notion voice ("It is a washer. It is nine cents.") and his old scripts barely use them, so the profile bans them, as Mark's does. **Yes** or allow them.
+**W10. No contractions.** His Notion voice ("It is a washer. It is nine cents.") and his 14 old scripts use none, so the profile bans them, as Mark's does. **Yes** or allow them.
 
 **W11. The scanner gap (P16).** "30 years as a German plumber" isn't read as a years figure: with "German" before "plumber" the scanner misses it in the title (so a script for his uploaded title fails as a wrong tenure) and in a script (so a wrong figure passes). The fix is one word list in the core scanner, tested in a scratch copy. It's a core change, so it needs your yes; it can go in with P13 item 1 (the same lines). **Yes** or no.
 
