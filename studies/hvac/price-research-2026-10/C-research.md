@@ -21,7 +21,7 @@ Researched 2026-10-27 by researcher C. National US figures, for rounded on-scree
 | 1-inch fiberglass filter | $1-$3 each (bigger sizes up to about $5) | n/a | agree |
 | 1-inch pleated MERV 8 | $6-$9 each in a multipack; a single Filtrete about $10 | n/a | agree |
 | 1-inch MERV 11-13 "allergen" | $12-$15 each in a multipack; $15-$25 for a single | n/a | agree (brief's $20-$35 too high) |
-| 4-5 inch media filter | $30-$35 store brand (Filtrete); $50-$90 for Aprilaire or Honeywell OEM; lasts 6-12 months | n/a | agree |
+| 4-5 inch media filter | $30-$35 Filtrete; about $55 for an Aprilaire-compatible filter; about $90 for the Aprilaire OEM filter on sale; lasts 6-12 months | n/a | agree |
 | Washable / electrostatic | $25-$40 once | n/a | agree |
 | HEPA room purifier | most $70-$180; big-room models $200-$400 | n/a | thin (one retailer plus undated review prices) |
 | **Shelf** | | | |
