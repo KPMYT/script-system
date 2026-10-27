@@ -1,6 +1,6 @@
 # Installing the skills
 
-**Version:** 2026-10-27 (library commit 16c359e)
+**Version:** 2026-10-27 (library commit 44bcea6)
 
 Thirteen skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
 
@@ -16,7 +16,7 @@ Thirteen skill files, one per layer (`script-writer` also comes as `script-write
 | `mark-silverbridge-persona.skill` | Channel | Mark's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
 | `vintage-pipefitter-persona.skill` | Channel | The Vintage Pipefitter's profile and its one-line subscribe ask (no book). | **Replace** the copy on the account (delete it, upload this). |
 | `electrical-scripts.skill` | Niche | The electrical rules (inputs: title and brief, no research pack; the stakes with no money; the opening with one value promise; the seven video types; the one-line subscribe ask and the comment ending; 12 minutes minimum; units written for the voice; safety), the facts guide and the model scripts. | **New:** upload it. |
-| `frederick-barnes-persona.skill` | Channel | Frederick Barnes's profile (retired electrician, 35 years, Talking Head, a one-line subscribe ask, no book). **Pending:** START answers NOT READY for him until the operator marks him ready. | **New:** upload it (it does nothing until he's ready). |
+| `frederick-barnes-persona.skill` | Channel | Frederick Barnes's profile (retired electrician, 35 years, Talking Head, a one-line subscribe ask, no book). Ready (2026-10-27); his ElevenLabs voice check is still to report back. | **New:** upload it. |
 | `werner-finkbeiner-persona.skill` | Channel | Werner Finkbeiner's profile (the German way, plumbing, Talking Head, *Werner's 101 Free Repairs*). Ready since 2026-10-27; his book index (chapters, every repair with page and Money Saved) is inside. | **New:** upload it. |
 | `woodworking-ideation.skill` | Ideation | The Etsy-first product scan (30 products), title and thumbnail-text options, fact briefs, the optional research pack. | **Replace** the copy on the account (delete it, upload this). |
 | `plumbing-ideation.skill` | Ideation | Plumbing titles and briefs for Roger, Mark, Vintage and Werner; briefs now give each item its cost and the right way (the script fills gaps from the plumbing price guide). | **Replace** the copy on the account (delete it, upload this). |
@@ -34,7 +34,7 @@ All of the script skills must be installed together: `script-writer` stops with 
 ## Using them (in Cowork)
 
 - **Ideation:** "Woodworking ideation for Hank" (or Dale). It scans Etsy, shows 30 products, then title options. You pick by number, and it writes the briefs. Ask for the research pack if you want it.
-- **Script:** type **START** in the chat where that channel's scripts are written, so each new script reads the rotation log lines of the earlier ones (in a fresh chat, paste the last five ROTATION LOG ENTRY lines, or "none"). Pick the channel, then paste what it asks for: for woodworking, the title, the brief, the research pack (or "none", and the chat builds one) and, in a fresh chat, the rotation log; for plumbing, the title, the brief and, in a fresh chat, the rotation log (no research pack); for electrical (Frederick, once ready), the title, the brief and, in a fresh chat, the rotation log (no research pack).
+- **Script:** type **START** in the chat where that channel's scripts are written, so each new script reads the rotation log lines of the earlier ones (in a fresh chat, paste the last five ROTATION LOG ENTRY lines, or "none"). Pick the channel, then paste what it asks for: for woodworking, the title, the brief, the research pack (or "none", and the chat builds one) and, in a fresh chat, the rotation log; for plumbing, the title, the brief and, in a fresh chat, the rotation log (no research pack); for electrical (Frederick), the title, the brief and, in a fresh chat, the rotation log (no research pack).
 - **Upload rule:** only upload a script whose output says **VERDICT: PASS**. Anything that starts "NOT READY: DO NOT UPLOAD" goes back.
 
 ## Updating

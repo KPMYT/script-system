@@ -381,6 +381,7 @@ One clause each, in plain words. The script explains each the first time it's us
 | 14.47 | Multimeter | a meter with two probes that reads the actual voltage | general knowledge | reading |
 | 14.48 | Listed, UL listed | tested and certified by a lab such as UL, ETL (Intertek) or CSA | CPSC Pub. 5032 | one source |
 | 14.49 | Inspector, AHJ | the local official who enforces the electrical code and has the final say | IAEI (13.1) | one source |
+| 14.50 | Open ground (on a plug-in tester) | the light pattern that means no ground wire is connected at that outlet; the missing wire causes it, not a GFCI | plug-in tester labels (general knowledge); 4.17 | reading |
 
 ## Notes for the operator and the next researcher
 

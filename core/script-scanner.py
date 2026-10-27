@@ -7,7 +7,7 @@ fix-on-sight. Everything else is a candidate for a human or model to judge with
 the shape test in voice-anchoring.md.
 
 Usage:
-  python3 script-scanner.py SCRIPT [--rules FILE ...] [--pack FACT_SOURCE ...] [--title TITLE] [--refs FILE ...]
+  python3 script-scanner.py SCRIPT [--rules FILE ...] [--pack FACT_SOURCE ...] [--title TITLE] [--refs FILE ...] [--final]
 
   SCRIPT       the script file (plain text or markdown).
   --rules      niche pack and/or persona profile files. Any ```scanner block in them
@@ -24,11 +24,18 @@ Usage:
                    tenure: years in the trade as a number, or "none" (any other tenure figure is flagged)
                  and, in a niche pack, its length minimum if it raises the core's 8 minutes:
                    min-minutes: 12
+                 and, optionally, report settings (the ITEMS and SENTENCES lines; report only):
+                   item-words: 120-180        (each item's words against this band)
+                   first-item-seconds: 30     (item one later than this is marked)
+                   sentence-max: 35           (the sentence cap; 35 if unset, fix on sight on every channel)
+                 and, to guard the pack's own quoted example lines with a shorter run than the copy guard's 8:
+                   example-guard: 5           (any 5 words in a row from a "quoted example" in that file, fix on sight)
                A profile's "Words per minute ...: N" line sets the runtime estimate (150 if unset).
   --pack       the fact source: the research pack, or the brief where the niche pack doesn't use one.
                Every number in the script is checked against it.
   --title      the locked title. A years-in-the-trade figure in it ("A 30-Year Plumber's Verdict")
                is allowed in the script alongside the profile's tenure: title numbers win.
+  --final      the delivered text: a script under the length minimum is fix-on-sight.
   --refs       optional reference files (the niche pack's copy-guard files, as its SKILL.md lists them).
                Any run of 8 or more consecutive words in the spoken script that also appears
                in a reference file is fix-on-sight "copied from reference". Case, punctuation
@@ -38,10 +45,14 @@ Every script is also checked for production notes read aloud ("CTA", "stinger", 
 "continuing with the final sections"), the same sentence twice in a row, (judge) the script
 talking about its own thumbnail or title, and forms the voice misreads (`[SPOKEN: ...]`, fix on
 sight: 2x4, 8 ft, 3/8, 19%, symbols, two numbers side by side, $4.00, KD19, "haha"; judged:
-capital-letter runs such as AAV, and words with two pronunciations such as "lead").
+capital-letter runs such as AAV, and words with two pronunciations such as "lead" or "live",
+each judged once with a count), voice tags or brackets left in the script, and sentences over 35 words.
+It also prints an ITEMS line (the spoken signposts "Number one." ... in order: item one's word and
+seconds, each item's words, items with no "I" line or no "but") and a SENTENCES line (report only).
 
 Exit code: 1 if any fix-on-sight problem is found (hard ban, mechanical, spoken, niche ban,
-production note, repeated sentence, persona fact, copied from reference), else 0.
+production note, repeated sentence, sentence over 35 words, persona fact, copied from reference,
+and with --final the length minimum), else 0.
 """
 import re, sys, argparse, difflib
 from collections import Counter
@@ -120,7 +131,7 @@ MECHANICAL = [
 SPOKEN = [
     (r"\b\d+(?:\.\d+)?(?:\s?[xX\u00d7]\s?\d+)+s?\b|\b\d+[xX]\b", "size written with x (write 'two by four')"),
     (r"\b\d+[- ]by[- ]\d+s?\b", "size written in digits (write 'two by four')"),
-    (r"\b\d+(?:\.\d+)?(?:\s|-)?(?:ft|in\.|oz|lbs?|gal|mm|cm|psi|yds?)(?![A-Za-z])|\b\d+-?in\b", "unit abbreviation (write the word)"),
+    (r"\b\d+(?:\.\d+)?(?:\s|-)?(?:ft|in\.|oz|lbs?|gal|mm|cm|psi|yds?)(?![A-Za-z])|\b\d+-?in\b(?!-)", "unit abbreviation (write the word)"),
     (r"(?i)\bpsi\b", "'psi' (say 'pounds of pressure' or 'pounds per square inch')"),
     (r"(?<![$\d.,])\d+(?:\.\d+)?\s?(?:\"|'')|(?<![$\d.,])\d+'(?![a-z])", "inch or foot mark (write the word)"),
     (r"\b\d+/\d+\b", "fraction with a slash (write 'three-eighths')"),
@@ -136,7 +147,7 @@ SPOKEN = [
 # judged: letters the voice may skip or read as a word, and words with two pronunciations
 SPOKEN_LETTERS = re.compile(r"\b[A-Z]{2,5}s?\b")
 SPOKEN_LETTERS_OK = {"OK", "TV", "QR", "DIY", "US", "USA"}
-SPOKEN_TWO_WAYS = re.compile(r"(?i)\b(?:lead|bow|bows|bowed|bowing|wound)\b")
+SPOKEN_TWO_WAYS = re.compile(r"(?i)\b(?:lead|bow|bows|bowed|bowing|wound|live|lives)\b")
 OTHER_NON_ASCII = re.compile(r"[^\x00-\x7F\u2014\u2013\u2018\u2019\u201C\u201D\u2026\U0001F300-\U0001FAFF\u2600-\u27BF]")
 
 # ---------------------------------------------------------------- trailer-voice tells (judge each)
@@ -184,6 +195,18 @@ ECHO_STOP = set(("the a an and or but so of to in on at for from with that this 
 STOP_SECTION = re.compile(r"^\s*(?:VERDICT|HOUSE FORMAT|ROTATION LOG|VO COPY|BUILD SHEET|UNIT PLAN)\b", re.I)
 SKIP_LINE = re.compile(r"^\s*(?:#|[-*>|]|\d+\.\s|```|===|SCRIPT TYPE:|TYPE CONFIRMED|VOICE CONFIRMED|\*\*)")
 INLINE_TAG = re.compile(r"\[[^\]]{1,40}\]")
+VOICE_TAG_LINE = re.compile(r"(?m)^(?!\s*===).*?(\[[^\]]{1,40}\])")
+SENTENCE_MAX = 35      # words; a longer sentence is fix-on-sight on every channel (run 03's judge fix, P13)
+
+def script_part(text):
+    """The script itself: everything before the verdict, the log or the VO copy (tags belong only in the VO copy)."""
+    out = []
+    for line in text.splitlines():
+        if STOP_SECTION.match(line):
+            break
+        if not SKIP_LINE.match(line):
+            out.append(line)
+    return "\n".join(out)
 
 def spoken_paragraphs(text):
     """Only the spoken script: stop at the verdict/log/VO copy, skip markers, headings, lists, tags."""
@@ -209,7 +232,8 @@ def sentences(para):
 def read_rules(paths):
     """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
-    facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None}
+    facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None,
+             "item_words": None, "first_item_seconds": None, "sentence_max": None, "examples": []}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         w = re.search(r"^Words per minute[^:\n]*:\s*(\d+)", txt, re.M)
@@ -245,6 +269,15 @@ def read_rules(paths):
                     facts["tenure"] = pat.lower()
                 elif key.strip() == "min-minutes":
                     facts["min"] = int(pat)
+                elif key.strip() == "item-words":
+                    lo, _, hi = pat.partition("-")
+                    facts["item_words"] = (int(lo), int(hi))
+                elif key.strip() == "first-item-seconds":
+                    facts["first_item_seconds"] = int(pat)
+                elif key.strip() == "sentence-max":
+                    facts["sentence_max"] = int(pat)
+                elif key.strip() == "example-guard":
+                    facts["examples"].append((int(pat), p))
     return bans, lifts, allows, facts
 
 # ---------------------------------------------------------------- numbers
@@ -253,12 +286,20 @@ TENS = {w: 10 * i for i, w in enumerate("_ _ twenty thirty forty fifty sixty sev
 SCALES = {"hundred": 100, "thousand": 1000, "million": 1000000}
 UNIT_WORDS = {"dollar", "dollars", "buck", "bucks", "cent", "cents", "year", "years", "month", "months", "week", "weeks", "day", "days",
               "hour", "hours", "minute", "minutes", "gallon", "gallons", "ounce", "ounces", "pound", "pounds", "foot", "feet",
-              "inch", "inches", "percent", "degree", "degrees", "to", "old"}
+              "inch", "inches", "percent", "degree", "degrees", "to", "old",
+              "amp", "amps", "volt", "volts", "watt", "watts", "gauge", "milliamp", "milliamps", "kilowatt", "kilowatts", "hertz"}
 FRACTIONS = {"a half": .5, "a quarter": .25, "three-quarters": .75, "three quarters": .75, "one-half": .5}
 
 def word_numbers(text):
     vals = []
-    toks = re.findall(r"[a-z]+(?:-[a-z]+)?|and", text.lower())
+    toks = []
+    for t in re.findall(r"[a-z]+(?:-[a-z]+)?|[,;:.!?]", text.lower()):   # punctuation ends a number ("one-twenty, two-forty")
+        ps = t.split("-")
+        # only "twenty-five" (tens then one to nine) is one number; "twelve-two", "one-twenty", "fourteen-thirty" are two
+        if len(ps) == 2 and all(p in WORD_NUM or p in TENS for p in ps) and not (ps[0] in TENS and ps[1] in WORD_NUM and 0 < WORD_NUM[ps[1]] < 10):
+            toks.extend([ps[0], "|", ps[1]])
+        else:
+            toks.append(t)
     i = 0
     while i < len(toks):
         t = toks[i]
@@ -382,16 +423,59 @@ def copy_check(text, ref_runs, allows=None):
             hits.append((src, " ".join(toks[start:end])))
     return hits
 
+# the pack's own quoted example lines: a shorter run is enough, because a writer copies their shape and wording
+# (woodworking's Lazy Susan lines; electrical run 01's "If you only check one thing..." and "that plug clicks in and holds")
+EXAMPLE_SKIP = set("hundred thousand twenty thirty forty fifty sixty fifteen twelve fourteen ten one two three four five six seven eight nine "
+                   "amp amps volt volts watt watts gauge minute minutes year years inch inches i i'd i'm you you're your it's that's".split())
+
+def example_runs(n, path):
+    """Every n-word run inside a quoted example sentence in the rules file (outside its scanner block: a quote that
+    starts with a capital and ends on . ? or !) that carries at least three content words (not common words,
+    numbers or units). Quoted wording the pack asks for ("a licensed electrician's job") isn't a sentence, so it's left out."""
+    txt = re.sub(r"```scanner.*?```", " ", open(path, encoding="utf8", errors="ignore").read(), flags=re.S)
+    runs = {}
+    quotes = []
+    for line in txt.splitlines():
+        marks = [i for i, c in enumerate(line) if c == '"']
+        quotes += [line[a + 1:b] for a, b in zip(marks[0::2], marks[1::2])]
+    for q in quotes:
+        q = q.strip()
+        if not re.match(r"[A-Z]", q) or q[-1:] not in ".?!":
+            continue
+        toks = copy_tokens(q)
+        for i in range(len(toks) - n + 1):
+            g = tuple(toks[i:i + n])
+            if sum(1 for w in g if w not in ECHO_STOP and w not in EXAMPLE_SKIP) >= 3:
+                runs.setdefault(g, q)
+    return runs
+
+def example_check(text, examples, allows=None):
+    hits = []
+    for n, path in examples or []:
+        runs = example_runs(n, path)
+        name = path.replace("\\", "/").rsplit("/", 1)[-1]
+        for para in spoken_paragraphs(text):
+            toks = mask_allowed(copy_tokens(para), allows)
+            i = 0
+            while i <= len(toks) - n:
+                g = tuple(toks[i:i + n])
+                if g in runs:
+                    hits.append(f"[EXAMPLE LINE REUSED: {name}] \"{' '.join(g)}\" (the pack's example: \"{runs[g][:70]}\"; say it in fresh words)")
+                    i += n
+                else:
+                    i += 1
+    return hits
+
 # ---------------------------------------------------------------- persona facts (fix on sight)
 NUM_WORD = r"(?:\d{1,2}|(?:twenty|thirty|forty|fifty|sixty|seventy)(?:[- ](?:one|two|three|four|five|six|seven|eight|nine))?|ten|eleven|twelve|fifteen|five|six|seven|eight|nine)"
-_TRADE = r"(?:experience|trade|trades|plumbing|plumber|pipefitt\w*|pipe ?fitter|tools|bench|shop|job|field|business|woodworking|woodworker|carpentry|craft|career|wrenching|fixing \w+|doing this|in this line)"
+_TRADE = r"(?:experience|trade|trades|plumbing|plumber|pipefitt\w*|pipe ?fitter|tools|bench|shop|job|field|business|woodworking|woodworker|carpentry|craft|career|wrenching|fixing \w+|doing this|in this line|(?:master |journeyman |licensed )?electricians?|electrical (?:work|trade|contracting)|wiring(?: houses| homes)?|lineman|wireman)"
 TENURE_RX = [
     # "45 years in the trade", "35 years of experience", "40 years as a plumber"
-    re.compile(r"\b(" + NUM_WORD + r")[- ]years?\s+(?:(?:of|in|on|at|as|behind|under)\s+)?(?:(?:the|a|an|my)\s+)?" + _TRADE + r"\b", re.I),
+    re.compile(r"(?<![\w-])(" + NUM_WORD + r")[- ]years?\s+(?:(?:of|in|on|at|as|behind|under)\s+)?(?:(?:the|a|an|my)\s+)?" + _TRADE + r"\b", re.I),
     # "been a plumber for over 35 years", "fixing pipe for 30 years", "on the tools for 30 years"
-    re.compile(r"\b(?:been|spent|worked|working|plumbing|fixing|on the tools|in the trade|doing this|at the bench)\b[^.!?]{0,40}?\bfor (?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
+    re.compile(r"\b(?:been|spent|worked|working|wired|wiring (?:houses|homes)|plumbing|fixing|on the tools|in the trade|doing this|at the bench)\b[^.!?]{0,40}?\bfor (?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
     # "a 45-year plumber", "45-year veteran"
-    re.compile(r"\b(" + NUM_WORD + r")-year\s+(?:plumber|pipefitter|veteran|master|tradesman|woodworker|carpenter|pro|career)\b", re.I),
+    re.compile(r"(?<![\w-])(" + NUM_WORD + r")-year\s+(?:plumber|electrician|lineman|journeyman|pipefitter|veteran|master|tradesman|woodworker|carpenter|pro|career)\b", re.I),
 ]
 
 def _num(tok):
@@ -415,7 +499,7 @@ def title_tenure(title):
 def tenure_check(para, tenure, title_n=None):
     """Any years-in-the-trade figure that differs from the profile's tenure (or any at all, for "none").
     A figure the locked title states is allowed instead (title numbers win)."""
-    out, seen = [], set()
+    out, seen, spans = [], set(), []
     if not tenure and title_n is None:
         return out
     tenure = tenure or "none"
@@ -426,15 +510,15 @@ def tenure_check(para, tenure, title_n=None):
             if not m:
                 break
             pos = m.start() + 1          # overlapping: a skipped "been ..." match mustn't hide a later one
-            if m.start(1) in seen:
-                continue
+            if m.start(1) in seen or any(a <= m.start(1) < b for a, b in spans):
+                continue           # "Thirty five years": the "five" inside an earlier figure isn't a second one
             near = para[max(0, m.start() - 40):m.end() + 40]
-            if rx is TENURE_RX[0] and not re.search(r"\b(?:I|I'?ve|I'?m|me|my|we|we'?ve)\b", near):
+            if rx is TENURE_RX[0] and not re.search(r"\b(?:I|I'?ve|I'?m|[Mm]e|[Mm]y|[Ww]e|[Ww]e'?ve)\b", near):
                 continue
             # "been ... for N years" counts only with the persona as its subject ("I've been...", not "the heater has been...")
-            if rx is TENURE_RX[1] and m.group(0).lower().startswith("been") and not re.search(r"(?:\b(?:I|I'?ve|I have|I had|I'?d|we|we'?ve|we have)\s+(?:\w+\s+){0,2}|\bmy\s+\w+\s+(?:have|has|had)\s+|(?:^|[.!?]\s+))$", para[max(0, m.start() - 30):m.start()], re.I):
+            if rx is TENURE_RX[1] and m.group(0).lower().startswith(("been", "wired", "wiring")) and not re.search(r"(?:\b(?:I|I'?ve|I have|I had|I'?d|we|we'?ve|we have)\s+(?:\w+\s+){0,2}|\bmy\s+\w+\s+(?:have|has|had)\s+|(?:^|[.!?]\s+))$", para[max(0, m.start() - 30):m.start()], re.I):
                 continue
-            seen.add(m.start(1))
+            seen.add(m.start(1)); spans.append((m.start(1), m.end(1)))
             n = _num(m.group(1))
             if title_n is not None and n == title_n:
                 continue
@@ -510,12 +594,65 @@ def repeated_sentences(paras):
             prev = norm
     return out
 
+# ---------------------------------------------------------------- items and sentences (report only)
+ORDINALS = "one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty".split()
+SIGNPOST = re.compile(r"(?:^|(?<=[.!?]\s))(?:And |So |Now,? )?(?:[Nn]umber|Step|Mistake|Item|Reason|Sign|Rung|Fix|Check|Tip|Thing) (" + "|".join(ORDINALS) + r"|\d{1,2})\b")
+I_LINE = re.compile(r"\bI(?:'d|'m|'ve|'ll)?\b")
+
+def item_report(text, facts, wpm):
+    """Finds the spoken signposts in order ("Number one." ... "Step two."), and returns report lines:
+    item one's word, each item's words against the pack's band, items with no "I" line or no "but", and the sentence stats."""
+    full = " ".join(spoken_paragraphs(text))
+    starts, want = [], 1
+    for m in SIGNPOST.finditer(full):
+        g = m.group(1).lower()
+        n = int(g) if g.isdigit() else ORDINALS.index(g) + 1
+        if n == want:
+            starts.append(m.start()); want += 1
+    out = []
+    if starts:
+        lo, hi = facts.get("item_words") or (0, 10 ** 6)
+        first_word = len(full[:starts[0]].split())
+        secs = first_word / wpm * 60
+        cap = facts.get("first_item_seconds")
+        out.append(f"  ITEMS: {len(starts)} | item one at word {first_word} (about {secs:.0f} seconds at {wpm})"
+                   + (f"  << later than {cap} seconds" if cap and round(secs) > cap else ""))
+        sizes, no_i, no_but, no_short = [], [], [], []
+        for k, a in enumerate(starts):
+            chunk = full[a:starts[k + 1]] if k + 1 < len(starts) else full[a:]
+            n = len(chunk.split())
+            sizes.append(f"{k + 1} = {n}" + (" <<" if facts.get("item_words") and not lo <= n <= hi else ""))
+            if not I_LINE.search(chunk):
+                no_i.append(str(k + 1))
+            if not re.search(r"\bbut\b", chunk, re.I):
+                no_but.append(str(k + 1))
+            if not any(len(x.split()) <= 6 for x in sentences(chunk)):
+                no_short.append(str(k + 1))
+        band = sum(1 for k, a in enumerate(starts)
+                   if lo <= len((full[a:starts[k + 1]] if k + 1 < len(starts) else full[a:]).split()) <= hi)
+        out.append("  item words: " + ", ".join(sizes) + " (the last runs to the end of the script)")
+        if facts.get("item_words"):
+            out.append(f"  in band {lo}-{hi}: {band} of {len(starts)}")
+        out.append(f"  no 'I' line: {', '.join(no_i) or 'none'} | no 'but': {', '.join(no_but) or 'none'} | no sentence of 6 words or fewer: {', '.join(no_short) or 'none'}")
+    else:
+        out.append("  ITEMS: no spoken signposts found (\"Number one.\", \"Step one.\" ...)")
+    lens = [len(s.split()) for p in spoken_paragraphs(text) for s in sentences(p)]
+    if lens:
+        cap = facts.get("sentence_max") or SENTENCE_MAX
+        out.append(f"  SENTENCES: {len(lens)} | mean {sum(lens) / len(lens):.1f} words | 6 or fewer {100 * sum(1 for n in lens if n <= 6) / len(lens):.1f}%"
+                   f" | over 25: {sum(1 for n in lens if n > 25)} | longest {max(lens)} | over {cap}: {sum(1 for n in lens if n > cap)}")
+    return out
+
 # ---------------------------------------------------------------- scan
 def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=None):
     fix, judge = [], []
+    once_judged = {}       # letter sets and two-way words: judged once, at the first use, with a count
+    for m in VOICE_TAG_LINE.finditer(script_part(text)):
+        fix.append(f"[MECHANICAL: bracket or voice tag in the script (tags go only in the VO copy)] {m.group(1)}")
     facts = facts or {"name": [], "book": [], "tenure": None, "once": []}
     for src, run in copy_check(text, ref_runs, allows):
         fix.append(f"[COPIED FROM REFERENCE: {src}] \"{run}\" ({len(run.split())} words in a row)")
+    fix.extend(example_check(text, (facts or {}).get("examples"), allows))
     paras = spoken_paragraphs(text)
     hard = [(re.compile(rx, re.I), name) for rx, name in HARD_BANS
             if not any(l in name.lower() or re.search(rx, l, re.I) for l in lifts)]
@@ -542,9 +679,17 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
                 fix.append(f"[SPOKEN: {name}] ...{ctx(m)}...")
         for m in SPOKEN_LETTERS.finditer(para):
             if m.group(0).rstrip("s") not in SPOKEN_LETTERS_OK and m.group(0) not in SPOKEN_LETTERS_OK:
-                judge.append(f"[SPOKEN, judge: letters '{m.group(0)}' (keep only if people say it as letters; otherwise the words)] ...{ctx(m)}...")
+                key = "L:" + m.group(0).rstrip("s")
+                if key not in once_judged:
+                    once_judged[key] = [len(judge), 0]
+                    judge.append(f"[SPOKEN, judge: letters '{m.group(0)}' (keep only if people say it as letters; otherwise the words)] ...{ctx(m)}...")
+                once_judged[key][1] += 1
         for m in SPOKEN_TWO_WAYS.finditer(para):
-            judge.append(f"[SPOKEN, judge: '{m.group(0)}' can be said two ways; reword if both fit] ...{ctx(m)}...")
+            key = "W:" + m.group(0).lower()
+            if key not in once_judged:
+                once_judged[key] = [len(judge), 0]
+                judge.append(f"[SPOKEN, judge: '{m.group(0)}' can be said two ways; reword if both fit] ...{ctx(m)}...")
+            once_judged[key][1] += 1
         for m in OTHER_NON_ASCII.finditer(para):
             fix.append(f"[MECHANICAL: non-standard character '{m.group(0)}'] ...{ctx(m)}...")
         for rx, name in TELLS:
@@ -557,7 +702,13 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
                                                 "back to", "quick", "right", "all right", "alright"))]
         if len(shorts) >= 2:
             judge.append(f"[staccato x{len(shorts)}] " + " | ".join(f'"{s}"' for s in shorts[:4]))
+    for i, n in once_judged.values():
+        judge[i] += f" (x{n} in the script)"
     fix.extend(repeated_sentences(paras))
+    for para in paras:
+        for s in sentences(para):
+            if len(s.split()) > (facts.get("sentence_max") or SENTENCE_MAX):
+                fix.append(f"[SENTENCE OVER {facts.get('sentence_max') or SENTENCE_MAX} WORDS] ({len(s.split())} words) \"{s[:90]}...\" (split it; join two with \"but\" only where it turns)")
     for rx, name in facts.get("once", []):
         n = sum(len(rx.findall(para)) for para in paras)
         if n > 1:
@@ -604,6 +755,7 @@ def main():
     ap.add_argument("--pack", nargs="+", default=[], help="the fact source; several files are read as one (the plumbing brief plus its price guide)")
     ap.add_argument("--refs", nargs="+", default=[])
     ap.add_argument("--title", help="the locked title; a years-in-the-trade figure in it is allowed in the script")
+    ap.add_argument("--final", action="store_true", help="the delivered text: running under the length minimum is fix-on-sight")
     a = ap.parse_args()
     text = open(a.script, encoding="utf8", errors="ignore").read()
     bans, lifts, allows, facts = read_rules(a.rules)
@@ -621,6 +773,10 @@ def main():
     wpm, minimum = facts.get("wpm") or 150, facts.get("min") or 8
     mins = words / wpm
     print(f"  spoken words: {words} (about {mins:.1f} minutes at {wpm} words a minute; minimum {minimum})" + ("  << under the minimum" if mins < minimum else ""))
+    for line in item_report(text, facts, wpm):
+        print(line)
+    if a.final and mins < minimum:
+        fix.append(f"[LENGTH] {words} spoken words = about {mins:.1f} minutes at {wpm} words a minute; the minimum is {minimum}")
     print(f"\nFIX ON SIGHT ({len(fix)})")
     for f in fix: print("  " + f)
     print(f"\nJUDGE WITH THE SHAPE TEST ({len(judge)})")

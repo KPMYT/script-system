@@ -134,7 +134,7 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Proposal:** H21 counts a "doesn't X. It Y." pair across two sentences as the same reframe, on every channel; the scanner gets a judge line for it.
 
-**Status:** open: waiting for the operator.
+**Status:** rejected by the operator on 2026-10-27 ("No"). H21 stays as it is.
 
 ## P13. Core and audit changes the electrical review asks for (opened 2026-10-27, reviews R4-R7)
 
@@ -149,7 +149,7 @@ The study supports the narrow form of both: a tenure stated the same way every t
 7. **Titles with another tenure (R5 M14c):** "title numbers win" is locked; two ideation titles carry "30 years". Proposal: for Frederick, a locked title with any years figure other than 35 goes back to ideation.
 8. **Named companies (R5 M1):** `core/offer-rules.md` §5 bans negative claims about named companies; the operator approved Federal Pacific and Zinsco with what CPSC or inspectors say. Proposal: §5 applies to CTAs, pitches and descriptions; in the body, named companies follow the claims policy. And: may Federal Pacific's independent test results be said, with the source named?
 
-**Status:** open: waiting for the operator (asked 2026-10-27).
+**Status:** decided by the operator on 2026-10-27 (HANDOFF section 3, session 9). Items 1-5 approved and applied ("Yes, apply all"); item 6 approved ("Yes, words"); item 7 rejected ("No, title wins": the locked rule stands); item 8 approved ("Yes to both": §5 scoped to CTAs, pitches, descriptions and pinned comments; Federal Pacific's independent test results with the source named).
 
 ## P14. Werner's German background against the claims policy (opened 2026-10-27, Werner relaunch)
 

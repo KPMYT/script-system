@@ -44,4 +44,4 @@ The promise must be true and specific, and drawn from the profile's facts.
 - Manufactured urgency or scarcity ("only a few left," "ends tonight").
 - False intimacy in a pitch (a made-up personal bond used to sell). Saying the narrator reads every comment is allowed (operator, 2026-10-20).
 - Guarantees of any result, and any health, treatment or prevention claim.
-- Negative claims about named companies.
+- Negative claims about named companies in a CTA, pitch, description or pinned comment. In the script body, named companies follow "Named companies and people" below and `claims-policy.md` (P13, operator 2026-10-27).
