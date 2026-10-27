@@ -17,17 +17,17 @@
 | 1:25-1:34 | CHECK | his wires against the rule: no sheath showing, about an inch past the box | recognition | 24 |
 | 1:34-1:58 | QUESTION + PROMISE | the ladder: three options, the first two get more wire into the box, the last uses connectors, and the last is the one he'll need | hope | 89 |
 | 1:58-2:47 | ITEM 1 + CODE | look for a service loop: pull gently on the bare copper with pliers, using the box edge for leverage; if slack comes, you meet code | hope (easiest first) | 143 |
-| 2:47-2:52 | FORWARD | if that fails, option two | - | 11 |
+| 2:47-2:52 | FORWARD | if that fails, option two | none | 11 |
 | 2:52-4:04 | ITEM 2 | replace the cable if you can reach its run (attic, basement, crawl space, a junction box, the panel): tie the new cable to the old, tape it smooth, pull it through | capability | 217 |
 | 4:04-4:26 | SCOPE | the honest limit: an old cable stapled to the studs won't pull | honest limit | 78 |
-| 4:26-4:42 | FORWARD | both failures named, then option three, the one used here | - | 55 |
+| 4:26-4:42 | FORWARD | both failures named, then option three, the one used here | none | 55 |
 | 4:42-5:52 | ITEM 3 | extend the wires with pigtails; wire nuts on short wires are hard for a DIYer, so a small lever connector instead | empathy → capability | 154 |
 | 5:52-6:32 | ITEM 3 (cont.) + CHECK | seat each wire fully to the end of the housing, close the lever; repeat for neutral and ground | capability | 95 |
 | 6:32-7:53 | STEPS 1-4 + END | ground hook clockwise; back-wire the hot and neutral; fold the wires in, don't cram them; mount flush, plate on, done | doing it right → done | 227 |
-| 7:53-8:01 | RECAP (banned) | the ladder said again: options one and two preferred, three when you must | - | 27 |
-| 8:01-8:17 | COMMENT + ASIDE | asks for an option he missed; the connector praised again | - | 57 |
+| 7:53-8:01 | RECAP (banned) | the ladder said again: options one and two preferred, three when you must | none | 27 |
+| 8:01-8:17 | COMMENT + ASIDE | asks for an option he missed; the connector praised again | none | 57 |
 | 8:17-8:31 | CTA | a link to his outlet basics video, framed as getting comfortable and safe | capability | 50 |
-| 8:31-8:35 | CLOSE | sign-off | - | 18 |
+| 8:31-8:35 | CLOSE | sign-off | none | 18 |
 
 - **Items or steps:** 3 options as an escalation ladder, then 4 install steps. Option 1 (service loop) runs 143 words, about 50 seconds; option 2 (pull a new cable) is the longest at about 295 words with its limit, about 1:35; option 3 (pigtail with connectors) about 250 words, about 1:50 with the demonstration. The install steps run 36 to 81 words each (15 to 30 seconds). Order: easiest and best first, last resort last, and he says up front that the last is the one this box needs, so the viewer keeps watching for it.
 - **Promise devices:** the rule that protects everything (the code, promised 0:44, paid 1:01-1:25 and again at 2:39 when option one meets it); the escalation ladder (three options, promised 1:34 with the order and the one he'll use, paid at 1:58, 2:52 and 4:42); a question opening the first promise (0:35). No step count for the install, no myth flag.

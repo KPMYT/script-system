@@ -1,0 +1,350 @@
+REPAIRING
+ALUMINUM WIRING
+
+
+
+
+U.S. Consumer Product Safety Commission
+Bethesda, MD
+www.cpsc.gov
+www.SaferProducts.gov
+Publication 516
+ALUMINUM WIRING
+The U.S. Consumer Product Safety Commission (CPSC) staff and other government
+officials have investigated numerous hazardous incidents and fires throughout the na-
+tion involving aluminum branch circuit wiring. A national survey conducted by Franklin
+Research Institute for CPSC showed that homes built before 1972, and wired with
+aluminum, are 55 times more likely to have one or more wire connections at outlets reach
+“Fire Hazard Conditions”1 than homes wired with copper. That survey encompassed only
+the wire connections at outlets. It did not address other types of aluminum wire connec-
+tions and splices in homes that are also prone to fail. No information was developed for
+aluminum-wired homes built after 1972.
+The fire hazard investigated by CPSC occurs at connections with aluminum wire, including
+receptacles or switches and junction boxes; or the hazards occur with major appliances,
+including dishwashers or furnaces, for example. There are several deterioration processes in
+aluminum wire connections that cause increased resistance to the flow of electric current,
+resulting in damage that is cumulative in effect. That increased resistance causes overheat-
+ing, sometimes at hazardous levels, when current is flowing in the circuit.
+A shortage of copper in the mid 1960s caused builders to increase the use of aluminum
+wire in residential electrical distribution systems from the few large-power circuits (i.e., for
+electric clothes dryers and ranges), to general purpose 15- and 20-ampere-rated circuits.
+Homes built before 1965 are unlikely to have aluminum branch circuit wiring. Electrical
+cables installed between 1965 and the mid 1970s in new homes, in additions, and as part
+of rewired/new circuits may contain aluminum wiring. On April 28, 1974, two people died
+in a home in Hampton Bays, N.Y. Fire officials determined that the fire was caused by an
+overheating aluminum wire connection at a wall receptacle.
+
+
+
+
+1
+    The survey conducted by the Franklin Research Institute defined “Fire Hazard Conditions” to occur when receptacle
+    cover plate mounting screws reached 149°C (300°F), or sparks were emitted from the receptacle, or materials around the
+    receptacle were charred.
+
+
+Publication
+  1         516 • June 2011
+TROUBLE SIGNS                                                      or “Aluminum” and other information
+                                                                   marked on one side of the cable jacket
+Unfortunately, failing aluminum-wired                              every few feet along its length. (Note: be
+connections seldom provide easily detected                         sure to read as much of the marking as
+warning signs. Aluminum-wired connec-                              possible because the marking “CU-clad”
+tions and splices have been reported to fail                       or “Copper-clad,” in addition to the “Al”
+and overheat without any prior indications                         or “Aluminum,” means that the cable uses
+or problems.                                                       copper-coated aluminum wire and is not
+If you notice any signs of a problem, have                         covered by the repair recommendations
+a qualified electrician determine the cause.                       outlined in this publication).2,3
+DO NOT TRY TO DO IT YOURSELF.                                      If you are unable to identify the type of
+You could be electrocuted, or you could                            wire in your home by this method, but
+make the problem worse. Signs of electri-                          you suspect that you have aluminum
+cal system problems include hot-to-the                             wire, have a qualified electrician make the
+touch face plates on receptacles or switches;                      determination.
+flickering lights; circuits that don’t work;
+or the smell of burning plastic at outlets or                      If your home has aluminum wiring that has
+switches.                                                          not been remediated, CPSC recommends
+                                                                   a permanent repair of the connections, as
+                                                                   described in the following sections.
+IDENTIFYING ALUMINUM WIRING
+Virtually all of the aluminum wiring was
+installed as plastic-sheathed cable (type                          FIXING THE PROBLEM
+NM, often called “Romex”) with no readily                          Aluminum wiring can be replaced or
+discernable distinction from a cable with                          repaired to effectively and permanently re-
+copper conductors. Look at the printed                             duce the possibility of fire and injury due to
+or embossed markings on the outer jacket                           failing (overheating) wire connections and
+of the electric cables, which are visible in                       splices. It is highly recommended that you
+unfinished basements, attics, or garages.                          hire a qualified electrician to perform this
+If necessary, use a flashlight shining on                          remediation.
+the surface at a low angle to help make
+                                                                   Other than complete replacement of alu-
+the embossed markings readable. Cable
+                                                                   minum wire with copper wire, there may
+with aluminum conductors will have “Al”
+
+
+2
+    Aluminum and copper-clad aluminum cables are sized at No.10 and No.12 AWG for 20-ampere and 15-ampere rated circuits,
+    respectively, as opposed to No.12 and No.14 AWG for copper conductors.
+3
+    The repairs outlined in this publication do not apply to larger gauge aluminum wire circuits and connections used for
+    service entrance cables, electric clothes dryers, and cooking ranges.
+
+
+     2
+be numerous potential solutions for the                            1) Complete Replacement with Copper
+permanent repair of hazardous aluminum                                Cable
+wire connections and splices. However,
+                                                                   Replacement of the aluminum branch cir-
+CPSC can recommend repair methods or
+                                                                   cuit conductors with copper wire eliminates
+products only where there is satisfactory,
+                                                                   the primary cause of the potential hazards,
+documented evidence that the methods or
+                                                                   the aluminum wire itself. Depending on
+products meet the following criteria:
+                                                                   the architectural style of your home and
+• Safe. The method or product must be                              the number and locations of unfinished
+  safe and not increase the risk of fire or                        spaces (e.g., basements and attics), it may
+  other hazards.                                                   be relatively easy for a qualified electrician
+                                                                   to rewire your home. A new copper wire
+• Effective. The method or product must
+                                                                   branch circuit system would be installed,
+  be effective and successfully eliminate or
+                                                                   and the existing aluminum wire could be
+  substantially mitigate the fire hazard.
+                                                                   abandoned inside the walls. This is the best
+• Permanent. The method or product                                 method available; but for many homes,
+  must affect a permanent repair. Methods                          rewiring with copper is impractical and/or
+  or products designed to address tempo-                           prohibitively expensive.
+  rary or emergency repair situations, but
+  which may fail over time, are not consid-
+  ered permanent.
+Based on these standards, as of the date
+of this publication, CPSC approves of only
+three methods for a permanent repair.4
+         1) Complete Replacement of Copper
+            Cable
+         2) COPALUM Method of Repair
+         3) Acceptable Alternative Repair
+            Method/AlumiConn Connector
+
+
+
+4
+    Any individual or company that develops a method or product that meets these CPSC standards for a safe, effective,
+    and permanent repair of aluminum wire connections and splices and desires that the CPSC consider recommending the
+    method or product may submit documentation of compliance with such standards to: CPSC, 4330 East West Highway,
+    Bethesda, MD 20814. Recommendation of products or methods is rare and is solely within the discretion of the CPSC. The
+    burden and costs of establishing compliance with such standards is the responsibility of the requestor. Consideration of a
+    product or method is not intended and does not create any right or benefit, substantive or procedural, enforceable at law
+    or in equity, by any party against the U.S. Consumer Product Safety Commission or the United States, its officers, employ-
+    ees, or agents, or any other person.
+
+
+     3
+2) COPALUM Method of Repair                     Every connection of aluminum-to-alumi-
+                                                num or aluminum-to-copper wire should be
+As an alternate to rewiring with copper,
+                                                repaired in order to obtain the maximum
+CPSC recommends attaching a short
+                                                benefit from such repair work. All appli-
+section of copper wire to the ends of the
+                                                ances connected directly to No.12 or No.10
+aluminum wire at connection points (a
+                                                AWG aluminum branch circuit wiring (e.g.,
+technique commonly referred to as “pig-
+                                                dishwashers, cooling equipment, heaters,
+tailing”), using a special connector named
+                                                air conditioners, and light fixtures) must be
+COPALUM to join the wires. CPSC staff
+                                                repaired in addition to wall outlets, switch-
+considers pigtailing with a COPALUM con-
+                                                es, junction boxes, and panel boxes.
+nector to be a safe and permanent repair of
+the existing aluminum wiring. The repair        The COPALUM connector is a specially
+should include every connection or splice       designed system that includes a metal sleeve
+involving aluminum wire in the home, in-        intended to be installed only with a dedi-
+cluding outlets, dimmers, switches, fixtures,   cated power tool and crimping die to make
+appliances, and junction boxes. The re-         a permanent connection, that is, in effect,
+paired system, with short copper wire exten-    a cold weld (the precision dies in the CO-
+sions at every termination throughout the       PALUM tool compress the connector and
+home, permits the use of standard wiring        wires using upwards of 10,000 pounds of
+devices, including receptacles and switches.    force, as required to make the permanent
+                                                aluminum wire connection).
+The COPALUM repair method is recom-
+mended by CPSC on the basis of CPSC-
+sponsored research, laboratory tests, and
+demonstration projects. This repair method
+has been thoroughly proven by more than
+a quarter of a century of field experience to
+provide a permanent, low-resistance elec-
+trical connection to aluminum wire. The
+COPALUM repair method eliminates the
+aluminum connection failure problems and
+still uses the existing, installed aluminum
+wire. The COPALUM repair method has
+been shown to be practical for installation
+in an occupied and furnished home.
+
+
+
+
+ 4
+The tool is shown in the illustration below.   Only electricians who are trained by the
+An insulating sleeve is placed around the      manufacturer to use the tool properly are
+crimp connector to complete the repair.        authorized to install COPALUM con-
+The copper wire pigtail is then connected      nectors. CPSC staff emphasizes that this
+to the switch, receptacle, or other termina-   training is necessary to ensure that the
+tion device. An example of a repaired recep-   electrician uses the careful, professional
+tacle outlet is also illustrated below.        workmanship and thoroughness required to
+                                               make the crimp connector repair safe and
+                                               permanent.
+
+
+
+
+         COPALUM Crimp Connector and its Specialized Installation Tooling
+
+
+
+
+                     Recommended COPALUM Connector Repair
+
+
+ 5
+To determine if there is a COPALUM in-
+staller in your region, visit: http://tooling.
+tycoelectronics.com/copalum/copalum_
+home.asp, or contact the manufacturer at
+(800) 722-1111 or at the following address:
+TE Connectivity
+Attn: COPALUM Aluminum Wire Repair
+Program
+P.O. Box 3608
+Harrisburg, Pa. 17105                                                       The AlumiConn Connector
+
+3) Acceptable Alternative Repair Method                           For additional information on the
+                                                                  AlumiConn connector, visit:
+CPSC staff recognizes that copper replace-
+                                                                  http://www.kinginnovation.com/products/
+ment may be cost prohibitive and that the
+                                                                  alumiconn, or contact the manufacturer at
+COPALUM repair may be unavailable in
+                                                                  (800) 633-0232, or write to the firm at the
+a locality. Based upon an evaluation that
+                                                                  following address:
+was, in part, CPSC supported,5 consumers
+are advised that, if the COPALUM repair                           King Innovation
+is not available, the AlumiConn connector                         42 N. Central Drive
+may be considered the next best alternative                       O’Fallon, Mo. 63366
+for a permanent repair. This repair method
+involves pigtailing using a setscrew type                         RECOMMENDATIONS AGAINST
+connector instead of the COPALUM crimp                            USING OTHER REPAIR METHODS
+connector in the repaired connections.
+The AlumiConn connector has performed                             Non-COPALUM Crimp Connectors
+well in initial tests, but is too new to have                     There are many other brands and types of
+developed a significant long-term safe                            crimp connectors — including those in-
+performance history as the COPALUM                                tended to be installed with a pliers-type of
+repair. The repair should be conducted by a                       handtool — which are readily available to
+qualified electrician because careful, profes-                    consumers at common retailers.
+sional workmanship and thoroughness are
+required to make the AlumiConn connec-                            No other crimp connectors have been evalu-
+tor repair safe and permanent.                                    ated for connecting copper and aluminum
+                                                                  conductors. CPSC staff strongly recom-
+                                                                  mends against their use as a repair method.
+
+5
+    CPSC’s contractor self-funded the fundamental part of this research. The CPSC contract provided funds for additional
+    longer term testing and recommendations requested in the CPSC contract.
+
+
+     6
+                                               of twist-on connectors with aluminum
+                                               wire. It is possible that some pigtailing
+                                               “repairs” made with twist-on connec-
+                                               tors may be prone to even more failures
+                                               than the original aluminum wire connec-
+                                               tors. Accordingly, CPSC staff believes
+                                               that this method of repair does not solve
+                                               the problem of overheating present in
+                                               aluminum-wired branch circuits.
+
+
+
+
+     Do Not Use Common Hand-Crimped
+      Connectors with Aluminum Wire
+
+Two other repair methods described
+below are often recommended by some
+electricians because they are substantially
+less expensive than COPALUM crimp
+connectors. CPSC staff does not con-
+sider either of these repairs an acceptable
+permanent repair.
+                                                “Pigtailing” with Twist-on Connectors
+Twist-on Connectors                                 Is Not a Recommended Repair
+The first temporary repair involves
+pigtailing with a twist-on connector. The
+                                               “CO/ALR” Switches and Receptacles
+effectiveness of “pigtailing” using twist-on
+connectors has been evaluated by CPSC          The other repair recommended by the
+staff. In CPSC-sponsored laboratory testing    industry is to use switches and receptacles
+and life tests, substantial numbers of these   labeled “CO/ALR.” These devices are
+connectors overheated severely.                intended for direct connection to alumi-
+                                               num wire, although they can be used with
+Surveys of and statements made by electri-
+                                               copper or copper-clad wire. CO/ALR
+cians and electrical inspectors confirm the
+                                               devices perform better with aluminum
+highly variable and often poor performance
+                                               wire than non-CO/ALR devices when
+
+
+
+ 7
+installed carefully and according to best        Recommendations on Temporary Repairs
+electrical practices. However, CO/ALR
+                                                 AL/CU twist-on connector pigtails or
+wiring devices have failed in laboratory tests
+                                                 CO/ALR devices may be used as an emer-
+when connected to aluminum wire typical
+                                                 gency, temporary repair for a failed alumi-
+of that installed in existing homes. The test
+                                                 num termination. Should such a repair be
+conditions simulated actual use conditions;
+                                                 performed, CPSC staff recommends that
+no “overstress” type of testing was used.
+                                                 a complete repair of the aluminum-wired
+Further, CO/ALR connectors are not
+                                                 system be performed using the CPSC-
+available for all parts of the wiring system
+                                                 recommended methods as soon as possible.
+(e.g., for the permanently wired appliances
+and ceiling mounted light fixtures). In the
+opinion of CPSC staff, CO/ALR devices            CODE COMPLIANCE AND INSPECTION
+must be considered, at best, an incomplete
+                                                 All modifications and additions to installed
+repair.
+                                                 wiring should be performed and inspected
+                                                 in accordance with local regulations.
+
+
+
+
+ 8
+This pamphlet is available on the Web at: www.cpsc.gov/CPSCPUB/PUBS/516.pdf.
+
+The U.S. Consumer Product Safety Commission is charged with protecting the public from
+unreasonable risks of serious injury or death from thousands of types of consumer products under
+the agency’s jurisdiction. CPSC is committed to protecting consumers and families from products that
+pose a fire, electrical, chemical, or mechanical hazard. CPSC’s work to ensure the safety of consumer
+products—such as toys, cribs, power tools, cigarette lighters, and household chemicals—contributed
+significantly to the decline in the rate of deaths and injuries associated with consumer products over
+the past 30 years.
+
+To report a dangerous product or a product-related injury, visit: www.SaferProducts.gov, call CPSC’s
+hotline at (800) 638-2772, or CPSC’s teletypewriter at (301) 595-7054. To join a CPSC email subscription
+list, please go to: https://www.cpsc.gov/cpsclist.aspx. Consumers can obtain this release and recall
+information at the CPSC’s website at: www.cpsc.gov.
+

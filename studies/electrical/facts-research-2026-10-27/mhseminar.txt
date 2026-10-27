@@ -1,0 +1,87 @@
+   This article contains the requirements for branch circuits, such as conductor sizing and identification, GFCI receptacle protection, and
+   receptacle and lighting outlet requirements. It consists of three parts:
+   • PART I. GENERAL PROVISIONS
+   • PART II. BRANCH-CIRCUIT RATINGS
+   • PART III. REQUIRED OUTLETS
+   Table 210.2 of this article identifies specific purpose branch circuits. When people complain that the Code “buries stuff in the last few
+   chapters and doesn’t provide you with any way of knowing where to find things,” that is because they didn’t pay attention to this table.
+   The following Sections and Tables contain a few key items to spend extra time on as you study Article 210:
+       • 210.4. Multiwire Branch Circuits. The conductors of these circuits must originate from the same panel. These circuits can
+         supply only line-to-neutral loads.
+       • 210.8. GFCI Protected Receptacles. Crawl spaces, unfinished basements, and boathouses are just some of the eight locations
+         that require GFCI protection.
+       • 210.11. Branch Circuits Required. With three subheadings, 210.11 gives summarized requirements for the number of branch
+         circuits in a given system, states that a load computed on a VA/area basis must be evenly proportioned, and covers rules for
+         dwelling units.
+       • 210.12. Arc-Fault Circuit-Interrupter Protection. An AFCI isn’t a GFCI, though combination units do exist. The purpose of an AFCI
+         (trips at 30 mA) is to protect equipment. The purpose of a GFCI (trips at 4 to 6 mA) is to protect people.
+       • 210.19. Conductors—Minimum Ampacity and Size. This gets complicated in a hurry, but we’ll guide you through it.
+       • Table 210.21(B)(2) shows that the maximum load on a given circuit is 80 percent of the receptacle rating and circuit rating.
+         We’ll explain more about the implications of this later.
+       • 210.23. Permissible Loads. This is intended to prevent a circuit overload from occurring just because someone plugs in a lamp
+         or vacuum cleaner. We’ll show you how to conform.
+       • 210.52. Dwelling Unit Receptacle Outlets. An area rife with confusion is receptacle spacing. We cut through the confusion, and
+         you’ll understand the meaning of 210.52 and how to apply it correctly.
+   The rest of the material is also important. But mastering these key items will give you a decided edge in your ability to do work free of Code
+   violations.
+
+
+
+PART I. GENERAL PROVISIONS                                                       Author’s Comments:
+210.1 Scope. Article 210 contains the requirements for con-                      • See Article 100 for the definition of “Branch Circuit.”
+ductor sizing, overcurrent protection, identification, and GFCI                  • Article 100 defines a “branch circuit” as the conductors
+protection of branch circuits, as well as receptacle outlets and                   between the final overcurrent device and the receptacle out-
+lighting outlet requirements.
+                                                                                   lets, lighting outlets, or other outlets. Figure 210–1
+
+
+                                                                                                                                              59
+210.2                                                                                Understanding the National Electrical Code, Volume 1
+
+                                                                        Author’s Comment: For example, the branch-circuit ampere
+                                                                        rating of 10 THHN (rated 30A at 60°C in Table 310.16) on a
+                                                                        20A circuit breaker is 20A. Figure 210–2
+
+
+                                                                     210.4 Multiwire Branch Circuits.
+                                                                     (A) General. A multiwire branch circuit can be considered a
+                                                                     single circuit or a multiple circuit.
+
+                                                                        Author’s Comments:
+                                                                        • See Article 100 for the definition of “Multiwire Branch Circuit.”
+                                                                        • Two small-appliance circuits are required for receptacles that
+                                                                          serve countertops in dwelling unit kitchens [210.11(C)(1) and
+                                                                          210.52(B)]. One 3-wire, single-phase, 120/240V branch cir-
+                                                                          cuit could be used for this purpose. In such a case it’s con-
+                                                                          sidered a multiwire branch circuit.
+                                                                     To prevent inductive heating and to reduce conductor impedance
+Figure 210–1                                                         for fault currents, all multiwire branch-circuit conductors must
+                                                                     originate from the same panelboard or distribution equipment.
+
+210.2 Other Articles. Other NEC sections that have specific             Author’s Comment: For more information on inductive heating
+requirements for branch circuits include:                               of metal parts, see 300.3(B), 300.5(I), and 300.20.
+   • Air Conditioning and Refrigeration, 440.6, 440.31,
+                                                                        FPN: Unwanted and potentially hazardous harmonic currents
+     and 440.32                                                         can cause additional heating of the neutral conductor of a 4-
+   • Appliances, 422.10                                                 wire three-phase 120/208V or 277/480V wye-connected
+   • Data-Processing (Information Technology)                           system, which supplies nonlinear loads. To prevent fire or
+     Equipment, 645.5                                                   equipment damage from excessive harmonic neutral current,
+   • Electric Space Heating, 424.3(B)                                   the designer should consider: (1) increasing the size of the neu-
+                                                                        tral conductor, or (2) installing a separate neutral for each
+   • Motors, 430.22
+                                                                        phase. Also see 220.61(C)(2) FPN 2, and 310.15(B)(4)(c).
+   • Signs, 600.5                                                       Figure 210–3
+
+210.3 Branch-Circuit Rating. The rating of a branch cir-                Author’s Comments:
+cuit is determined by the rating of the branch-circuit overcurrent
+                                                                        • See Article 100 for the definition of “Nonlinear Load.”
+protection device, not the conductor size.
+
+
+
+
+Figure 210–2                                                         Figure 210–3
+
+
+  60
+
