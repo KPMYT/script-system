@@ -7,7 +7,7 @@ Winning videos sorted by video type, each one file with a beat map (what each st
 
 **How to use them** (SKILL.md, "Using the models: never a copy"): at the planning step, where a model fits, pick one or two for the video type that weren't used in the channel's last five scripts, read their beat maps first, and name at least three things this script does differently. Never copy wording; the copy guard flags 8 words in a row. Each file's "Doesn't transfer" section lists the on-camera moves, unsafe steps and claims to leave behind.
 
-**Read with care:** R26 and R39 (Technology Connections) hold only the stretches they're picked for. R37 (Project Farm) is filmed tests: only its ranking structure transfers. R30, R31 and R41 work on live parts or wiring: take their openings and symptoms, never their hands-on steps. R21 holds the drywall video's two opening moves only, with no script.
+**Read with care:** R26 and R39 (Technology Connections) hold only the stretches they're picked for. R30, R31 and R41 work on live parts or wiring: take their openings and symptoms, never their hands-on steps. R21 holds the drywall video's two opening moves only, with no script.
 
 ## Single-product fix (4 models)
 
@@ -39,11 +39,10 @@ Winning videos sorted by video type, each one file with a beat map (what each st
 | [R24](R24-the-funny-carpenter-furnace-filter-mistakes.md) | 5 Furnace Filter Mistakes That Will Cost You Money! | The Funny Carpenter | 5.81x | 5:33 | The shortest mistakes list in the set: 5:33, each item one rule with its reason in a sentence or two. |
 | [R25](R25-hvac-guide-for-homeowners-winter-mistakes.md) | 5 BIGGEST Winter HVAC Mistakes Homeowners Don't Know! | HVAC Guide for Homeowners | 190.77x | 6:43 | The safety item is held to last and flagged as the biggest in the opening, so the list climbs from habits to safety. |
 
-## Head-to-head or ranked verdict (3 models)
+## Head-to-head or ranked verdict (2 models)
 
 | File | Title | Channel | Views / normal | Length | What sets it apart |
 |---|---|---|---|---|---|
-| [R37](R37-project-farm-furnace-filter-test.md) | Best Furnace Filter Brand? 3M Filtrete vs HoneyWell BestAir, Nordic Pure, Flanders EZ Flow | Project Farm | 2.51x | 12:54 | The scale is taught before the first product, so every later number means something to the viewer. |
 | [R39](R39-technology-connections-heat-pumps.md) | Heat Pumps: the Future of Home Heating | Technology Connections | 2.51x | 35:15 | The reveal reframes something the viewer already owns (the air conditioner) as the new thing, so the new thing feels familiar before it is explained. |
 | [R04](R04-roger-wakefield-tank-vs-tankless.md) | 🔥 Don't Buy a New Water Heater Until You Watch This! Tank vs  Tankless – The TRUTH | Roger Wakefield Plumbing Education | 39.66x | 9:13 | The verdict comes in one line at 4:26 (48% through), then is split by household, so every viewer gets an answer for their own case. |
 

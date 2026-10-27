@@ -8,7 +8,7 @@ TYPES = [  # the SKILL.md video-types table; a model may serve more than one typ
     ("N things about one product", ["R33", "R34"]),
     ("Never-do list", ["R26", "R16"]),
     ("Mistakes or habits list", ["R24", "R25"]),
-    ("Head-to-head or ranked verdict", ["R37", "R39", "R04"]),
+    ("Head-to-head or ranked verdict", ["R39", "R04"]),
     ("Banned / rule explainer", []),
     ("How-to / correct way", ["R23", "R13", "R21", "R06", "R15"]),
     ("Product swap", ["R42", "R43", "R05", "R18"]),
@@ -32,7 +32,7 @@ out = ["# Model library: HVAC", "",
        "- **Every model is a real person on camera** (operator, 2026-10-27: \"we dont want any ai or faceless for reference\"): borrow structure and voice. No faceless or AI-voiced video, our own channels' included, is a model.",
        "- **R22 onward** are HVAC videos from the HVAC study (`studies/hvac/`). **R04-R21** are the ten plumbing and home-repair models kept from the plumbing pack (Silver Cymbal, Roger Wakefield, Arrow Pest Service, Nailed it) for shapes HVAC has no proven script for.", "",
        "**How to use them** (SKILL.md, \"Using the models: never a copy\"): at the planning step, where a model fits, pick one or two for the video type that weren't used in the channel's last five scripts, read their beat maps first, and name at least three things this script does differently. Never copy wording; the copy guard flags 8 words in a row. Each file's \"Doesn't transfer\" section lists the on-camera moves, unsafe steps and claims to leave behind.", "",
-       "**Read with care:** R26 and R39 (Technology Connections) hold only the stretches they're picked for. R37 (Project Farm) is filmed tests: only its ranking structure transfers. R30, R31 and R41 work on live parts or wiring: take their openings and symptoms, never their hands-on steps. R21 holds the drywall video's two opening moves only, with no script.", ""]
+       "**Read with care:** R26 and R39 (Technology Connections) hold only the stretches they're picked for. R30, R31 and R41 work on live parts or wiring: take their openings and symptoms, never their hands-on steps. R21 holds the drywall video's two opening moves only, with no script.", ""]
 for t, ids in TYPES:
     out += [f"## {t} ({len(ids)} model{'s' if len(ids) != 1 else ''})", ""]
     if not ids:
