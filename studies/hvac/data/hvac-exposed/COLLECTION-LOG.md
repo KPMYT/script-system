@@ -39,5 +39,5 @@ None of the calls failed. The top lists are shorter than ~60 because of the pagi
 - **Quote re-check against transcript.txt:**
   - l2yyfYpcwpQ [12:46] "It's a marketing story dressed up as a health product." Transcript: "[12:46] exchanger. It's a marketing story" / "[12:48] dressed up as a health product." Matches.
   - QKPPm6M0__o [10:21] "Bosch broke the lock." Transcript: "[10:21] Bosch broke the lock." Matches.
-  - l2yyfYpcwpQ [8:04] "Your HVAC system is not a medical device." Matches the lines at [8:02]–[8:06].
+  - l2yyfYpcwpQ [8:04] "Your HVAC system is not a medical device." Transcript: "[8:04] Your HVAC system is not a medical" / "[8:07] device." Matches.
 - All transcript quotes and quoted comments in both notes were also checked by script, with 0 misses.
