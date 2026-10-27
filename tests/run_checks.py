@@ -5,7 +5,7 @@
 # copy guard (--refs) against the niche pack's reference files, production notes read aloud,
 # repeated sentences, persona facts (tenure, near-miss names, title numbers win), the tease phrasings and once-per-script phrases,
 # and the plumbing pack: its inputs block, scanner block, Mark's contraction ban, the copy guard over every model file,
-# the plumbing profiles' fixed facts and the channel list.
+# the plumbing profiles' fixed facts and the channel list, and the HVAC pack (checks 60+).
 import re, os, glob, subprocess, sys, tempfile, textwrap
 sys.dont_write_bytecode = True
 ROOT=os.environ.get("LIB_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -634,6 +634,113 @@ check("52. electrical voice and claims: short forms fail, spoken forms and years
       not f_v and not p_v and p11[0]==0 and p11x2[0]==1 and shift[0]==1 and "next shift" in shift[1]
       and "the palm check" in tics[1] and "tonight" in tics[1] and not stories,
       f"bad passing: {f_v}; good failing: {p_v}; p11: {p11[1][-300:] if p11[0] else ''}; stories passing: {stories}")
+# ---- the HVAC pack and Roger the HVAC Guy (2026-10-27; numbered 60+ to stay clear of the other branches' checks) ----
+HV=f"{ROOT}/hvac-scripts"; HVR=f"{HV}/SKILL.md"; ROGER_HVAC=f"{PERS}/roger-the-hvac-guy.md"; ROGER_PIPE=f"{PERS}/roger-the-pipe-guy.md"
+HV_REFS=[HVR,f"{HV}/references/excerpts.md",f"{HV}/references/voice-samples.md"]+sorted(glob.glob(f"{HV}/references/models/*.md"))
+HV_REFS=[r for r in HV_REFS if os.path.exists(r)]
+
+# 60. every file reference in the HVAC pack and its profile resolves (placeholders in the spec and templates aside)
+HV_PLACEHOLDER={"references/models/R04-...md","R44-...md","<ID>-<channel-slug>-<short-topic-slug>.md","references/audience.md",
+                "CONCLUSIONS.md","niche-research/studies/hvac/CONCLUSIONS.md"}  # the last two live in the niche-research repository
+hv_files=[f for f in glob.glob(f"{HV}/**/*.md",recursive=True)]+[ROGER_HVAC]
+missing=[]
+for f in hv_files:
+    for ref in re.findall(r"`([^`\s]+?\.(?:md|py)|[a-z-]+/)`", open(f).read()):
+        if ref in HV_PLACEHOLDER: continue
+        ok = any(os.path.isdir(os.path.join(b,ref)) for b in (ROOT,HV,PERS,os.path.dirname(f))) if ref.endswith("/") else (os.path.basename(ref) in repo_names or ref in repo_rels or os.path.isfile(os.path.join(HV,ref)))
+        if not ok: missing.append(f"{os.path.relpath(f,ROOT)} -> {ref}")
+check("60. every file reference in the HVAC pack and Roger the HVAC Guy's profile resolves", not missing, "; ".join(sorted(set(missing))))
+
+# 61. HVAC inputs block: title, brief and rotation log required, the research pack not used
+hvs=open(HVR).read(); ib=re.search(r"```inputs\n(.*?)```",hvs,re.S)
+rows={l.split("|")[0].strip("- ").strip():l.split("|")[1].strip() for l in (ib.group(1).splitlines() if ib else []) if "|" in l}
+check("61. HVAC inputs block: title, brief, rotation log required; research pack not used",
+      rows.get("title")=="required" and rows.get("brief")=="required" and rows.get("rotation-log")=="required" and rows.get("research-pack")=="not used", str(rows))
+
+# 62. the HVAC scanner block: every ban fires; spoken forms and a clean HVAC paragraph pass
+bad=["Today we're going to fix your furnace.","I tested all four filters.","Set it to 24 V.","That runs $75-$200.","Your A/C needs air.",
+     "Old R-22 units are rare.","Get a CO alarm.","Your furnace will thank you.","Keep your cool out there.","None of this is hidden because it's hard.",
+     "If this saved you a call, subscribe.","Same companies, same story.","Stay tuned for the last one."]
+fails=[l for l in bad if run_scan(l+"\n",[HVR,ROGER_HVAC])[0]!=1]
+clean_hv=("When the furnace fires up and then shuts off again, the usual culprit is a dirty flame sensor, the small rod that tells it the burner caught. "
+          "Turn the power off at the furnace switch, check it's dead with a non-contact tester, and close the gas valve. "
+          "A tech charges anywhere from $100 to $250 to clean it, depending on where you live. A MERV 13 filter on an older HVAC system "
+          "can choke the blower, and your AC coil can freeze. Old R-twenty-two units are getting rare, and a carbon monoxide alarm goes on every floor.\n")
+code,out=run_scan(clean_hv,[HVR,ROGER_HVAC])
+once2=run_scan("It goes quietly. It fails quietly.\n",[HVR,ROGER_HVAC])[0]
+check("62. HVAC scanner block: every ban fires (units, hyphen ranges, slashes, refrigerant codes, CO, stock lines, the faceless leader's catchphrases); spoken forms pass; 'quietly' once",
+      not fails and code==0 and once2==1, f"not failing: {fails}; clean: {out[-600:] if code else ''}")
+
+# 63. tenure in HVAC words: a wrong figure fails in every form; equipment ages and other people's years pass; title numbers win
+wrong=["After forty years in HVAC, I can tell you this.","I spent 40 years as an HVAC tech.","Take it from a 40-year HVAC man.",
+       "I've been doing this 40 years.","In my 40 years in heating and cooling, I've seen it all.","I've been working on furnaces for 40 years."]
+fine=["That old compressor kept working for 20 years.","My furnace has been running for 20 years.","Techs with 20 years of experience told me the same thing.",
+      "Most furnaces last 15 to 20 years.","A 20-year-old furnace can still run fine.","A 10-year parts warranty is normal.","I've been doing this 45 years."]
+miss=[l for l in wrong if "PERSONA FACT: tenure" not in run_scan(l+"\n",[HVR,ROGER_HVAC])[1]]
+false=[l for l in fine if "PERSONA FACT: tenure" in run_scan(l+"\n",[HVR,ROGER_HVAC])[1]]
+tt=run_scan("After 50 years in HVAC, here's my warning.\n",[HVR,ROGER_HVAC],title="Don't Replace Your Furnace Yet: A 50-Year HVAC Tech's Warning")[1]
+pipe=run_scan("That old water heater kept working for 20 years.\n",[PLR,ROGER])[1]
+check("63. tenure in HVAC words: wrong figures fail; equipment ages and other people's years pass; an HVAC title's years win; plumbing's heater age passes too",
+      not miss and not false and "PERSONA FACT: tenure" not in tt and "PERSONA FACT: tenure" not in pipe, f"missed: {miss}; false: {false}")
+
+# 64. letter words the HVAC pack says every day aren't judged one by one (letters-ok); without the pack they still are
+withp=run_scan("Check the HVAC filter, the MERV rating and the AC coil.\n",[HVR,ROGER_HVAC])[1]
+without=run_scan("Check the HVAC filter, the MERV rating and the AC coil.\n",[ROGER_HVAC])[1]
+check("64. letters-ok: HVAC, MERV and AC aren't judge lines with the HVAC pack, and still are without it",
+      "letters 'HVAC'" not in withp and "letters 'MERV'" not in withp and "letters 'HVAC'" in without, withp[-400:])
+
+# 65. the two Roger channels never mention each other (operator, 2026-10-27)
+a1=run_scan("Over on the Pipe Guy channel I cover drains.\n",[HVR,ROGER_HVAC])[0]
+a2=run_scan("Grab One Hundred Old-House Fixes from the link.\n",[HVR,ROGER_HVAC])[0]
+a3=run_scan("My friend Roger the HVAC Guy covers furnaces.\n",[PLR,ROGER])[0]
+a4=run_scan("Subscribe to Roger the HVAC Guy for more.\n",[HVR,ROGER_HVAC])[0]
+check("65. the two Rogers: each profile fails the other channel's name (and the HVAC one the plumbing book); its own name passes",
+      a1==1 and a2==1 and a3==1 and a4==0, f"{a1}{a2}{a3}{a4}")
+
+# 66. HVAC references are real people on camera only (operator, 2026-10-27): no S files, every model tagged real; the copy guard
+#     runs over every HVAC reference file and catches a line lifted from a model
+models=sorted(glob.glob(f"{HV}/references/models/[RS]*.md"))
+sfiles=[os.path.basename(m) for m in models if os.path.basename(m).startswith("S")]
+untagged=[os.path.basename(m) for m in models if "**Tag:** [real]" not in open(m).read()]
+lift=""
+for m in models:
+    sc_=re.search(r"## Script.*?\n(.*?)\n## ",open(m).read(),re.S)
+    if sc_:
+        w=re.sub(r"\[[^\]]*\]","",sc_.group(1)).split()
+        if len(w)>40: lift=" ".join(w[20:32]); break
+code_l,out_l=run_scan(lift+".\n",[HVR,ROGER_HVAC],refs=HV_REFS) if lift else (0,"")
+code_c,out_c=run_scan(clean_hv,[HVR,ROGER_HVAC],refs=HV_REFS)
+check("66. HVAC models: real people only (no S files, every model tagged real); the copy guard catches a lifted model line and passes the clean paragraph",
+      len(models)>=15 and not sfiles and not untagged and code_l==1 and "copied from reference" in out_l.lower() and code_c==0,
+      f"models={len(models)} S={sfiles} untagged={untagged} lift={code_l} clean={code_c} {out_c[-300:] if code_c else ''}")
+
+# 67. wiring: the channel row and the profile agree (pending until a test passes), on hvac-scripts; the builder ships both skills
+ch=open(f"{CORE}/channels.md").read(); pr=open(ROGER_HVAC).read(); bs=open(f"{ROOT}/tools/build_skills.py").read()
+row=re.search(r"^\| \d+ \| Roger the HVAC Guy \| `hvac-scripts` \| `personas/roger-the-hvac-guy.md` \| (\w+) \|",ch,re.M)
+pst=re.search(r"^Status: (\w+)",pr,re.M)
+check("67. Roger the HVAC Guy: channel row and profile status agree, on hvac-scripts; the builder ships hvac-scripts and his persona skill with an HVAC scanner command",
+      bool(row) and bool(pst) and row.group(1)==pst.group(1) and "Niche pack: hvac-scripts" in pr
+      and '"hvac-scripts": ("archive", "model-file-spec.md")' in bs and '"roger-the-hvac-guy":' in bs and "--refs <hvac-scripts>/SKILL.md" in bs,
+      f"row={row.group(1) if row else None} profile={pst.group(1) if pst else None}")
+
+# 68. the HVAC price guide: every row rounded (no cents) and check-marked; the gas-leak and carbon monoxide rows carry every step;
+#     the stale brief figures are warned off; the pack points to it and the builder ships it with the HVAC scanner command
+HPG=f"{HV}/references/price-guide.md"
+hpg=open(HPG).read() if os.path.isfile(HPG) else ""
+hrows=[l for l in hpg.splitlines() if l.startswith("| ") and not l.startswith(("| Item","| Fact")) and not set(l) <= set("|- ")]
+hcents=[l for l in hrows if re.search(r"\$\d[\d,]*\.\d", l)]
+hnocheck=[l for l in hrows if l.rstrip(" |").split("|")[-1].strip() not in ("confirmed","adjusted","thin","in words")]
+gas=next((l for l in hrows if l.startswith("| A gas leak |")),"")
+co=next((l for l in hrows if l.startswith("| A carbon monoxide alarm sounds |")),"")
+gas_need=["get everyone out","light switches","garage door opener","don't light anything","don't start the car","call 911 and the gas company","don't assume someone else","don't go back in","can't smell"]
+co_need=["never ignore it","get everyone out","count heads","call 911","stay out until","don't run it again","medical help","four quick beeps"]
+hmiss=[n for n in gas_need if n not in gas]+[n for n in co_need if n not in co]
+warn=["Never \"9 out of 10\" or \"88%\"","federal tax credits for new heat pumps","\"pure sine\"","Don't quote a whole system at"]
+hwarn=[w for w in warn if w not in hpg]
+check("68. HVAC price guide: 100+ rows, none in cents, each marked; gas-leak and CO rows carry every step; stale figures warned off; the pack and builder use it",
+      len(hrows)>=100 and not hcents and not hnocheck and not hmiss and not hwarn
+      and "references/price-guide.md" in open(HVR).read() and "<hvac-scripts>/references/price-guide.md" in open(f"{ROOT}/tools/build_skills.py").read(),
+      f"rows={len(hrows)} cents={hcents[:3]} nocheck={hnocheck[:3]} missing={hmiss} warn={hwarn}")
 
 # ---- P13: the core checker fixes (operator, 2026-10-27: E1 "apply all") ----
 # 53. tenure (R4 B1-B2, R5 M14): "thirty-five years in the trade" passes for tenure 35, the same for Mark's "forty-five";
@@ -725,11 +832,11 @@ check("59. run 02 fixes: each half lit then dark; two-slot read live then dead; 
       and "If the new device is a two-prong outlet, the check is the two-probe tester across the slots" in ek
       and "after the test that ends the step (the power back on and the tester's lights)" in ek and "as an instruction that points at a sense" in ek, "")
 
-# 60. run 03 fixes N7-N10: the two-slot / won't-seat fallback required in outlet scripts; "open ground" explained (term list, rule 7,
+# 69. run 03 fixes N7-N10 (numbered 69 at the merge with the HVAC branch, whose checks are 60-68): the two-slot / won't-seat fallback required in outlet scripts; "open ground" explained (term list, rule 7,
 #     facts guide 14.50); the buying step answers its rules and a GFCI's incoming power goes on the line screws; open-box "I" lines on
 #     the evidence block
 ek=open(ELR).read(); fg=open(f"{ROOT}/electrical-scripts/references/facts-guide.md").read()
-check("60. run 03 fixes: two-slot / won't-seat fallback required; 'open ground' explained (terms, rule 7, facts 14.50); buying step and GFCI line screws on the checklist; open-box 'I' lines on the evidence block",
+check("69. run 03 fixes: two-slot / won't-seat fallback required; 'open ground' explained (terms, rule 7, facts 14.50); buying step and GFCI line screws on the checklist; open-box 'I' lines on the evidence block",
       "what to do when the plug-in tester can't be used" in ek and "open ground (on a plug-in tester: no ground wire connected)" in ek
       and "never the GFCI)" in ek and "| 14.50 | Open ground" in fg and "the incoming power goes on the line screws" in ek and "open-box: none" in ek, "")
 

@@ -1,0 +1,583 @@
+[0:00] Well, I’m pumped.
+[0:02] What if I were to tell you that all of the energy you need to heat your home on a cold
+[0:06] winter day
+[0:06] could be found… outside?
+[0:09] And that if you could capture the heat energy out there and move it inside your home,
+[0:14] you could make yourself comfortable using a fraction of the energy of other methods?
+[0:18] Sounds impossible at first, doesn’t it?
+[0:20] If it’s colder outside than in,
+[0:22] what heat is there to take?
+[0:24] But it’s very possible, and thanks to heat pumps
+[0:27] we can do it right now.
+[0:29] And that’s what this video is all about.
+[0:31] Heat pumps are simultaneously a very old
+[0:34] yet also emerging home heating technology.
+[0:37] Using a heat pump under ideal conditions
+[0:40] requires as little as one fifth the energy of ordinary electric heat.
+[0:45] With a coefficient of performance of 2.5 or greater,
+[0:48] a heat pump will produce more heat for you per unit of fuel burned in a power plant
+[0:53] than you could get by burning that fuel onsite in your home.
+[0:57] This tremendous efficiency all but guarantees that the heat pump
+[1:01] is the heating technology of the future.
+[1:03] But what is a heat pump?
+[1:05] Ah, well here’s where we need to talk about some terminology
+[1:09] and also who the primary audience of this video is.
+[1:12] I’m making this video mostly for an American audience
+[1:16] because we’ve gone about this in a weird order.
+[1:19] We’ve had air conditioning in a lot of homes (and cars, for that matter)
+[1:23] for a very long time now.
+[1:25] Air conditioning has been more or less standard equipment in American homes
+[1:28] for more than 50 years,
+[1:30] even in a climate like mine where winters can be brutally cold.
+[1:34] And in places like the Southern US,
+[1:36] air conditioning is practically a requirement for basic survival.
+[1:40] And the thing is, air conditioners ARE heat pumps.
+[1:44] Yet heat pumps, especially in regions like mine,
+[1:46] are a rather new thing.
+[1:49] Confused yet?
+[1:50] Well, in some other parts of the world what we call a heat pump
+[1:54] is referred to as a reverse cycle air conditioner,
+[1:56] and that should give you a pretty solid idea of what’s going on.
+[1:59] But, because this wouldn’t be Technology Connections without an explanation of the refrigeration cycle,
+[2:04] let’s get down and dirty in the nitty gritty of latent heat and the magic of refrigerants.
+[2:09] If you’d like to skip this part, skip to
+[2:12] [a computer voice reads 7:38]
+[2:14] Let’s start with a refrigerator -
+[2:16] nearly everyone has one of those.
+[2:18] What does your refrigerator or freezer do exactly?
+[2:22] Well, it needs to make its insides colder than its outsides.
+[2:26] That’s trickier to accomplish than it seems at first glance.
+[2:29] It has to get heat energy out of itself.
+[2:32] See, that’s the thing about temperature.
+[2:35] What we call temperature is really the concentration of heat energy in a given space.
+[2:40] If there’s a lot of energy crammed in a space, it’s hot.
+[2:43] If the energy is really spread out, it’s cold.
+[2:46] And thanks to entropy, energy always wants to spread out,
+[2:49] or move from areas of high concentration to low concentration.
+[2:54] This freezer’s insides are at about 5 degrees below zero.
+[2:58] But the room it’s sitting in is much warmer than that, about 65 degrees.
+[3:02] Because the energy around the freezer is more concentrated,
+[3:06] ambient energy wants to spill into it.
+[3:09] Wherever there’s a temperature gradient,
+[3:11] nature is hot and bothered, frankly, and would very much like it to achieve equilibrium.
+[3:16] So eventually the insides of the freezer will warm up.
+[3:20] We can slow that down by adding a whole bunch of insulation
+[3:23] or tweaking its design
+[3:24] (in fact, this freezer and this footage was featured in a video discussing that very topic)
+[3:29] but eventually we need to work to reverse this process
+[3:33] and keep its insides cold relative to its outsides.
+[3:37] And to do that, we use a heat pump.
+[3:39] A refrigeration system collects heat energy in one place
+[3:43] and disperses it in another.
+[3:45] It pumps heat.
+[3:47] We’ll get into how it does that shortly but the key thing I want you to recognize here
+[3:51] is that even though the inside is very cold,
+[3:55] there is heat energy in there.
+[3:57] The freezer’s heat pump is collecting it from a very cold place,
+[4:01] yet in doing so it creates warmth.
+[4:04] The sides of the freezer get warm when it’s running,
+[4:07] and that’s the heat it pulled from inside itself being rejected into the surrounding air.
+[4:12] What makes this possible is a refrigerant.
+[4:16] Refrigerants are gaseous chemical compounds with a particularly useful property:
+[4:20] easy to manipulate boiling points.
+[4:23] For example, R-134a boils at 15 below zero,
+[4:26] or -26 Celsius.
+[4:29] That’s quite cold.
+[4:31] But here’s a can of it.
+[4:33] It’s a liquid in here.
+[4:35] How can that be?
+[4:37] Well, like any chemical, its boiling point is affected by ambient pressure.
+[4:42] You know how the boiling point of water is defined at sea level?
+[4:45] That’s because higher up in the atmosphere where there’s less atmospheric pressure,
+[4:49] it’s easier for water to boil.
+[4:51] A rather crude way to think about it is that being under pressure squeezes all the molecules together,
+[4:57] and that force provides an additional barrier to changing phases from liquid to gas.
+[5:02] When there’s less pressure, it can change phases a bit more easily
+[5:05] which lowers the amount of heat energy it needs to start boiling
+[5:09] and thus its boiling point.
+[5:11] When there’s more pressure, everything is held tightly together and the opposite occurs;
+[5:16] its boiling point goes up.
+[5:18] Because this is trapped in this can,
+[5:20] it's under higher pressure and can remain a liquid.
+[5:24] But when anything changes phases, it needs to absorb or release heat as it does so.
+[5:29] This latent heat isn’t something we can feel directly,
+[5:33] but it is a tremendous amount of energy.
+[5:35] For example, getting a given quantity of water to vaporize
+[5:39] takes about seven times as much energy as it does to bring it from room temperature to its boiling point.
+[5:46] In other words, if it took 10 minutes to bring a pot of water to boil on high heat,
+[5:51] it will take 70 minutes on top of that for it to all boil away.
+[5:56] That extra energy is being used to free the molecules
+[5:59] from their liquid phase into the vapor phase,
+[6:01] but it doesn’t make the water any hotter.
+[6:04] This is, incidentally, the principle on which automatic rice cookers work.
+[6:08] Another plug?
+[6:09] Why yes!
+[6:11] How ‘bout a third one?
+[6:12] We just saw what the release of latent heat is like
+[6:15] in the reusable hand warmer video.
+[6:17] Simply by falling from the liquid phase into the solid,
+[6:20] the sodium acetate gets hot.
+[6:23] Its latent heat of fusion is being released as it crystalizes,
+[6:26] which means it gets warm - about as warm as its melting point.
+[6:30] To reset it, you put a solid hand warmer in boiling water where,
+[6:34] now that it’s colder than its surroundings,
+[6:36] heat will spill into it, causing it to melt.
+[6:39] As it does so, it re-absorbs its latent heat of fusion,
+[6:42] and thanks to the fact that it can be supercooled without freezing it can store it for later use.
+[6:47] Refrigerants, just like water and sodium acetate,
+[6:51] have to absorb and release latent heat to change phases.
+[6:55] What makes them useful is that thanks to their flexible boiling points,
+[6:59] we can force this to happen and use it to our advantage.
+[7:02] All we need to do is create a machine which allows us to manipulate the ambient pressure the refrigerant experiences.
+[7:09] Refrigeration systems are nothing more than a closed loop of piping filled with a refrigerant
+[7:15] that exploits its latent heat of vaporization to move energy.
+[7:19] Using a compressor to create a pressure gradient
+[7:22] allows us to force the refrigerant to condense thus releasing its latent heat of vaporization.
+[7:28] We can then force it to evaporate and reabsorb its latent heat.
+[7:32] Do this in two different locations and you pump heat across a thermal barrier.
+[7:38] Now I’d like to show you what this looks like.
+[7:41] Those of you that skipped to here, welcome back!
+[7:43] We’re still talking about how refrigeration works but I wanted you back for this.
+[7:48] Thanks to a student at Front Range Community College's Center for Integrated Manufacturing
+[7:52] who had hands-on learning with these I have some great footage to share of a refrigeration demo rig.
+[7:58] This is used to demonstrate all sorts of refrigeration technologies
+[8:02] and learn how to troubleshoot them,
+[8:04] but for now I just want to highlight the basics.
+[8:06] Inside these pipes is a refrigerant.
+[8:09] If you follow them, you’ll see that they form a circuit.
+[8:12] The compressor is the heart of any refrigeration system
+[8:14] (it does pump, after all)
+[8:16] and it’s right here.
+[8:18] Hermetic refers to the fact that the black canister
+[8:20] hermetically seals an envelope for the mechanical compressor and its motor to sit inside
+[8:24] without letting the refrigerant escape.
+[8:27] On the left and right are two heat exchangers.
+[8:30] These are the evaporator and the condenser.
+[8:32] They are also the condenser and the evaporator.
+[8:36] See, they’re labeled both.
+[8:38] Because they are.
+[8:39] This rig’s operation is reversible,
+[8:41] meaning whether the heat exchanger is an evaporator or a condenser is arbitrary.
+[8:46] We’ll see how that works in practice shortly
+[8:49] but what’s really neat about this rig is that we can see liquid refrigerant traveling through it.
+[8:54] Many refrigeration systems will have a sight glass like this which is useful for diagnostics,
+[8:58] but glass piping? That’s a rarity.
+[9:01] The refrigerant is only able to liquify because the pressure in this pipe is fairly high.
+[9:07] It first entered the compressor as a low pressure gas,
+[9:10] but being squeezed into the high pressure side raised its boiling point well above the ambient temperature.
+[9:16] The act of compression also made it quite hot.
+[9:19] The job of the condenser is to cool it back down,
+[9:22] and it does this by forcing air through densely packed metal fins attached to the copper piping.
+[9:28] This forms a heat exchanger with a large surface area to help transfer heat in the refrigerant to the air.
+[9:34] At this pressure, if the refrigerant were R134a,
+[9:37] its boiling point would be raised to about 130°F,
+[9:41] much higher than the ambient air temperature.
+[9:44] After exiting the compressor it’s hotter than even that,
+[9:47] but airflow through the heat exchanger helps cool it down.
+[9:51] Once the refrigerant has cooled to its artificially raised boiling point,
+[9:54] it will start to condense.
+[9:56] And as it does that, it releases its latent heat of vaporization.
+[10:00] Now even more energy is being released from the refrigerant,
+[10:03] and it will stay near its boiling point until the gas has condensed into a liquid.
+[10:08] The upshot is that the condenser gets very hot.
+[10:12] But where did that heat energy come from?
+[10:15] Well, some of it came from the act of compression itself;
+[10:19] simply compressing a gas makes it hot because you’ve squeezed its thermal energy into a smaller space,
+[10:24] but most of it came from the refrigerant itself mere moments ago.
+[10:28] See, after it’s all a liquid
+[10:31] it gets held back by some sort of metering device at the end of the condenser.
+[10:35] There are various types of metering device out there,
+[10:38] the simplest of which is a capillary tube,
+[10:40] and their job is to create a restriction in the refrigerant flow
+[10:43] and thus maintain the pressure gradient we rely on to make this all work.
+[10:48] Once the liquid refrigerant makes it through the metering device,
+[10:51] it finds itself in another heat exchanger, just like the condenser.
+[10:55] But here, the pressure is very low thanks to the suction on the input side of the compressor.
+[11:01] What exactly the pressure is will depend on the refrigerants used and also conditions,
+[11:06] but the pressure is low enough that the boiling point of the refrigerant will plummet to below ambient temperature.
+[11:12] For sake of explanation we’ll assume it’s zero degrees.
+[11:15] And here’s the key: to boil, the refrigerant has to absorb its latent heat of vaporization.
+[11:21] And now that its boiling point is below ambient temperature,
+[11:25] it will spontaneously start boiling and get very cold.
+[11:29] To boil, it initially gets the latent heat it needs from itself which brings the remaining liquid down to the new boiling point.
+[11:36] From there, it will pull energy from ambient air.
+[11:40] See, now that it’s colder than ambient air,
+[11:42] energy from the air will flow into the refrigerant.
+[11:46] Remember, energy always wants to spread out,
+[11:49] and now there’s a place that’s colder than its surrounding for that to happen.
+[11:53] Thus the refrigerant is absorbing the energy from its surroundings as it boils.
+[11:58] This heat exchanger is called the evaporator because that’s what the refrigerant does.
+[12:03] It evaporates here,
+[12:05] and condenses over there.
+[12:07] So, finally, here’s where we get into how we make this work for us
+[12:11] and why heat pumps are so cool.
+[12:13] I mean hot.
+[12:14] Hotly cool,
+[12:15] or cooly hot.
+[12:16] And why many American audiences may find this whole idea a little perplexing.
+[12:21] See, a lot of us are used to energy flow in a refrigeration system going one way.
+[12:26] We have refrigerators which make their insides colder.
+[12:30] And we have air conditioners which make our living spaces colder.
+[12:33] Refrigeration is for cold!
+[12:35] See, here’s an air conditioner.
+[12:37] This is the condenser,
+[12:39] that’s the evaporator.
+[12:40] The evaporator goes inside.
+[12:42] Condenser goes outside
+[12:44] (unless of course you have a portable air conditioner).
+[12:46] But, but but the job of the air conditioner is to take heat out.
+[12:49] Duh.
+[12:50] Here’s a central air conditioner.
+[12:52] This is the condensing unit.
+[12:54] It has the compressor and the condenser.
+[12:56] Heat comes out of here, and that’s - that's just the way it is.
+[12:59] The evaporator sits above my furnace and makes the air colder
+[13:02] and seven months out of the year, uh, sits pretty.
+[13:05] Here’s a mini-split air conditioner.
+[13:07] This is the condensing unit,
+[13:08] and inside is a self-contained evaporator and blower.
+[13:12] Ah but this is also the evaporating unit,
+[13:16] and inside is a self-contained condenser and blower!
+[13:20] This is reversible, and so is also a heat pump.
+[13:24] This mini-split heat pump system has a different form factor from the central air conditioning system next to it,
+[13:30] but mechanically they're something like 95% identical.
+[13:35] There are some technological improvements in the mini-split
+[13:38] like a variable-speed compressor and more intelligent controls which help it gain efficiency,
+[13:43] but fundamentally the heat pump is no different from the air conditioner.
+[13:48] It’s a compressor, a metering device, a refrigerant lineset, two heat exchangers,
+[13:52] and a fan of some sort to force air through each heat one.
+[13:56] The main difference is that the central system uses the furnace as its indoor blower motor,
+[14:00] and the mini-split has one of its own in the wall-mounted unit.
+[14:04] But the minisplit has one additional component
+[14:07] that changes it from a cooling-only device to efficient year-round climate control.
+[14:13] Let’s start with a closer look at it.
+[14:15] This is a 1.5 ton unit, or 18,000 BTU or about 5250 watts.
+[14:21] The outside unit contains most of its guts and unfortunately
+[14:24] is not very easy to take apart.
+[14:27] That’s not that important, though, as we can see the heat exchanger and refrigerant hoses.
+[14:31] They’re here.
+[14:32] And here.
+[14:34] The fan forces air through the heat exchanger which wraps around the side so we can see its piping and fins.
+[14:40] The inside unit is practically the same thing
+[14:42] but it doesn’t have the compressor and the fan’s a linear blower type thing.
+[14:47] Lift this up and there’s the other heat exchanger, plain as day.
+[14:50] The fan forces air through it and exhausts through this swinging vent guide thingy.
+[14:56] The metering device also lives here, I believe it’s a simple capillary tube -
+[15:00] uh, please correct me if I’m wrong.
+[15:02] In any case, it lives at the end of the liquid line,
+[15:05] that’s the smaller of the two,
+[15:06] and is the very last thing the refrigerant goes through before it enters this heat exchanger.
+[15:13] Sometimes.
+[15:14] Let’s get out the thermal camera and observe this thing.
+[15:17] Note that the displayed temperature is likely inaccurate due to different emissivities of materials,
+[15:22] but it’s the visuals that are more important anyway.
+[15:24] When it’s not running, there is no pressure gradient
+[15:28] and the refrigerant pressures in both heat exchangers are roughly equal.
+[15:31] In cooling mode, the compressor works to pull gas out of this heat exchanger
+[15:36] and lower the pressure inside of it.
+[15:38] This lowers the boiling point of the refrigerant,
+[15:41] and any liquid refrigerant remaining in the heat exchanger boils away.
+[15:44] This causes the heat exchanger to get very cold -
+[15:47] in this mode, it’s the evaporator and the refrigerant absorbs latent heat to boil.
+[15:53] It has become a thermal sink and energy in the room is naturally moving into it,
+[15:57] sped up with the help of the fan.
+[16:00] That ultimately makes the air colder.
+[16:02] Meanwhile the outside unit is getting warm.
+[16:05] The compressor is forcing the gas it just pulled out of the evaporator into the condenser.
+[16:11] Under this higher pressure, its boiling shoots up -
+[16:14] way above the ambient temperature out here, so the refrigerant will condense inside the pipes.
+[16:20] That makes this the condenser, and the very energy that just got absorbed inside as the refrigerant boiled
+[16:27] is now being expelled out here as it recondenses.
+[16:30] That heat energy was pumped from inside to outside,
+[16:34] and that’s what air conditioners do.
+[16:37] But here’s where things get interesting.
+[16:39] Let’s ask a simple question.
+[16:41] What if the roles could be reversed?
+[16:43] Is it possible to collect heat energy in the outside unit and expel it from the inside unit?
+[16:49] That would be pumping heat but in the other direction.
+[16:53] Well, of course, it is absolutely possible and frankly stupidly easy to accomplish.
+[16:59] All you need to do with a basic system like this
+[17:02] is move the refrigerant through it backwards.
+[17:05] That’s it.
+[17:06] Now, you can’t just run the compressor backwards.
+[17:09] Refrigerant can only go through it in one direction.
+[17:12] But with just a little bit of extra piping and a special valve,
+[17:15] you can change the direction it flows through the rest of the system.
+[17:19] Virtually the only difference between this mini-split unit and the central air conditioner next to it
+[17:24] (aside from the variable speed compressor and a few other particulars)
+[17:27] is that the mini-split has a reversing valve and its associated piping.
+[17:32] This allows refrigerant to flow in the opposite direction,
+[17:36] and that flips the system on its head.
+[17:39] Remember how in cooling mode the restriction was just before the evaporator?
+[17:43] High-pressure liquid refrigerant built up right before it entered this space at the capillary tube.
+[17:49] It would then evaporate in this coil once it made it through
+[17:52] because the pressure in here was quite low.
+[17:55] But, if refrigerant is going the other way,
+[17:58] well now the restriction is at the end of this coil!
+[18:02] High-pressure liquid refrigerant will build up inside of here,
+[18:06] turning this into the condenser where the refrigerant will reject latent heat.
+[18:11] Once it makes it through, it finds itself on its way back outside in a low-pressure environment
+[18:16] where it will boil and absorb latent heat from the air.
+[18:19] That makes the outside unit the evaporator.
+[18:23] Take a look.
+[18:23] Here, the mini-split is operating in cooling mode.
+[18:26] The inside unit is the evaporator, absorbing heat,
+[18:29] and the outside unit is the condenser, rejecting it.
+[18:33] This is how we expect air conditioning to work.
+[18:36] But switch it into heating mode and after a few minutes of idle time to allow the pressures to equalize,
+[18:41] the reversing valve switches the direction of the refrigerant flow
+[18:44] and the roles become reversed.
+[18:46] When the compressor starts up again,
+[18:48] the outside unit becomes the evaporator, absorbing heat in the refrigerant,
+[18:53] and the inside unit becomes the condenser, rejecting that heat and warming the space.
+[18:59] In a sense, it’s air conditioning the outside air
+[19:02] and using the heat collected from that process to warm the space.
+[19:06] Here’s why this is a big deal.
+[19:08] The actual work being done here is compressing a gas.
+[19:13] Yeah a little energy is being used by the fans but nearly all the electrical energy this unit consumes
+[19:19] goes into the electric motor which drives the compressor.
+[19:22] The refrigerant changes phases in a natural, spontaneous process.
+[19:27] We just create the right conditions for that to occur.
+[19:30] Because of this, this heat pump is able to move up to five and a half times as much heat energy
+[19:36] as it actually consumes in electricity.
+[19:39] That’s frankly amazing.
+[19:41] It’s like running five space heaters for the cost of one.
+[19:46] And why does it work even when it’s cold outside?
+[19:48] Well, remember that heat energy always wants to spread out.
+[19:52] And also remember that the boiling point of refrigerants is very, very cold at low pressures.
+[19:58] So long as you can get the evaporator colder than the air around it,
+[20:02] it will be able to capture heat energy as the refrigerant boils.
+[20:06] Here the ambient temperature was about 40 degrees,
+[20:09] but the evaporator coil is much colder than that so it becomes a place ambient energy wants to go.
+[20:16] Once the refrigerant is compressed and brought to the inside unit,
+[20:19] it will condense and release that acquired energy which warms the space.
+[20:24] It doesn’t matter that the outside air has less energy in it than inside.
+[20:28] All we’re doing when we heat or cool a room is affect energy concentration in that room.
+[20:33] The outside air may have a lower energy concentration,
+[20:36] but the refrigerant’s energy concentration can be made even lower than that.
+[20:40] That’s all it takes - make a region colder than another and heat energy will always flow into the colder one.
+[20:47] Since the refrigerant will hold onto that energy and release it when it condenses,
+[20:52] just compress it to raise its boiling point, move it inside and boom!
+[20:57] Heat from the cold.
+[20:59] But it's not all sunshine and rainbows.
+[21:01] The trickiest thing about heat pumps like this (this is known as an air-source heat pump)
+[21:06] is that as it gets colder outside, their effectiveness is reduced.
+[21:10] The Coefficient of Performance, or COP, describes how much heat energy the heat pump moves
+[21:16] compared to how much it consumes.
+[21:18] A COP of 1 is… bad.
+[21:22] That’s just a one to one ratio, the same as resistive heating.
+[21:26] But a COP of 4 is easily attainable under decent conditions.
+[21:30] That’s pretty much any time it’s a few degrees above freezing.
+[21:33] Once you’re close to freezing, though, well there’s a complication.
+[21:38] You probably know that an air conditioner removes moisture from inside your home.
+[21:42] This happens because the evaporator’s cold surface causes water in the air to condense on it.
+[21:48] Well, if the evaporator is outside...
+[21:52] then it’s probably gonna collect some moisture.
+[21:56] It does.
+[21:57] Now, that actually helps with heating since water releases latent heat when it condenses,
+[22:02] but if it’s close to or below freezing outside…
+[22:06] well that water turns to ice once the heat pump has gobbled up its heat energy.
+[22:12] Over time, heat pumps like this build up a coating of frost on the outside unit.
+[22:17] How quickly this happens depends a lot on environmental conditions -
+[22:21] if it’s a dry day, it’ll happen slowly.
+[22:23] But if it’s humid, it happens pretty fast.
+[22:26] And this reduces its effectiveness.
+[22:28] Not only does ice on the coils provide a layer of insulation which slows the process
+[22:33] of scavenging heat from the air,
+[22:35] but eventually the ice impedes the airflow through the coil entirely by filling the gaps between the fins.
+[22:43] How do we deal with this?
+[22:44] Well, it’s actually pretty easy.
+[22:46] You can defrost the coil simply by briefly reversing the refrigerant flow.
+[22:50] That will melt the frost that’s built up
+[22:52] at the expense of pulling a little energy back outside.
+[22:56] Since this unit has no other means of defrosting, it has to do it fairly cleverly.
+[23:01] Sensors help it determine when it needs to defrost -
+[23:04] a huge benefit of the unit being self contained like this
+[23:07] is that it knows both the inside and outside temperature,
+[23:11] and by monitoring refrigerant pressure it can determine how well it’s working.
+[23:15] Observe here that prior to defrosting, it kept increasing the speed of the compressor
+[23:20] to counteract the slowing effects of the ice.
+[23:24] [a mechanical buzzing which successively increases in pitch and intensity]
+[23:43] Eventually, though, it decides to defrost.
+[23:47] [buzzing stops]
+[23:49] When it defrosts, it first stops the compressor and then stops both fans.
+[23:54] That makes sure it doesn’t blow cold air inside
+[23:57] and allows the outside coil to get hotter.
+[24:00] It then restarts the compressor in cooling mode,
+[24:03] once again turning the outside coil into the condenser.
+[24:06] The heat it’s pulling from inside quickly melts the ice.
+[24:11] [compressor buzzing again]
+[24:16] Once it’s concluded that it’s done,
+[24:18] it stops, reverses the refrigerant flow again
+[24:21] and starts the outdoor fan and compressor to begin collecting heat once more.
+[24:26] But it waits to turn the indoor blower back on until the inside coil has warmed up a bit.
+[24:32] To the user, a defrost simply seems like a pause in heating,
+[24:36] but as you’ve seen it’s actually much more complicated than that.
+[24:40] However, this reduces its efficiency and ultimately its effectiveness.
+[24:44] On cold, humid days it has to defrost rather frequently, limiting its output, and reducing efficiency.
+[24:51] How do we measure efficiency?
+[24:54] Well, because this is the US, we use weird units like SEER and HSPF.
+[25:00] This unit has a SEER of 19, which is pretty great actually!
+[25:04] That’s equivalent to a COP of 5.5.
+[25:07] But the seasonal energy efficiency ratio describes cooling.
+[25:12] Its HSPF, heating seasonal performance factor,
+[25:16] is 10.
+[25:17] Luckily we can convert that to the COP, and that means this thing’s average coefficient of performance for heating is,
+[25:23] at least according to how it’s tested, 2.9.
+[25:27] So over a typical heating season,
+[25:29] you can expect this to deliver almost 3 times as much heat energy as it cost to run.
+[25:35] Some days it’ll be better, others worse.
+[25:38] Over time, though, it would need roughly a third the electricity of a plain resistive heater
+[25:44] to produce the same amount of heat.
+[25:46] But there’s a catch.
+[25:47] This thing is only rated to work down to 5 degrees.
+[25:51] Now, it will work below that temperature!
+[25:54] In fact, here’s some footage I made when it was ten below zero.
+[25:58] [camera audio] Oh my goodness it's cold out here.
+[26:01] Like it's, it's dangerously cold out here especially to be standing in front of it
+[26:04] blowing colder than ambient air at me!
+[26:09] Yeah, so I'm gonna go inside.
+[26:11] I know this is a terrible tool for this job but it’s what I had.
+[26:16] It was still running and producing some heat, but to be fair it was pretty tepid.
+[26:21] It was also running its guts out
+[26:23] so its coefficient of performance in this scenario may have been just 1,
+[26:28] or maybe slightly better.
+[26:30] This particular heat pump just isn’t equipped to handle weather this cold.
+[26:34] Which, to be clear, is fine for me.
+[26:37] This thing is in my garage and the heating is mostly a bonus.
+[26:40] I installed it mainly to remove moisture because summers here are stupid humid.
+[26:46] Seriously, I left the leather seats from my family’s old minivan’s in here
+[26:49] my first summer and by the fall they were completely covered in mold.
+[26:55] Some other stuff got damaged, too, so if I wanted to keep anything in here of value
+[27:01] air conditioning was practically a must.
+[27:04] But it certainly is handy on milder winter days to be able to use this as a workspace.
+[27:09] When it’s above freezing, the air this thing blows is proper hot!
+[27:13] Like, it genuinely surprised me.
+[27:16] In retrospect it shouldn’t have, 18,000 BTU is more than three US-spec space heaters.
+[27:22] But knowing that the heat it produces is coming from outside makes that feel almost like magic.
+[27:28] And even when it’s colder and not that efficient,
+[27:31] it has a freeze protection mode that keeps the temperature at 45 degrees,
+[27:35] which is enough to melt the snow off my car after a drive and, well,
+[27:39] that is a very nice luxury, I'll tell ya that.
+[27:42] I usually leave it in that mode.
+[27:44] However, it’s true that on its own this could not reliably provide me with sufficient heat throughout the winter.
+[27:50] I would need a backup source of heat when conditions weren’t ideal for a heat pump.
+[27:54] That’s often electric resistive heating which will always work but needs a ton of energy to do so.
+[28:00] But it could also be natural gas or another fuel.
+[28:04] In whole-home systems with heat pumps, the backup heat is often called emergency heat
+[28:08] or auxiliary heat, and many thermostats are designed to control these systems as one.
+[28:14] But, even in my climate, on many days a heat pump would be all I need.
+[28:19] In fact, that’s the case for the vast majority of the winter.
+[28:24] It’s not actually all that often that it dips below 5 degrees here.
+[28:28] And still, some heat pumps like this are rated down to 20 below zero!
+[28:32] It’s extremely rare for it to get colder than that here.
+[28:36] Heat pumps can be made to work in colder temperatures through different refrigerants, altered designs,
+[28:40] or through electric defrost coils where the outside unit has dedicated heaters
+[28:44] to allow it to defrost while still operating in heating mode.
+[28:48] But let’s set aside those potential fixes.
+[28:50] Here’s a question I’ve been asking a lot lately:
+[28:54] Why isn’t this thing also a heat pump?
+[28:57] This HVAC system isn’t even two years old
+[29:00] but no one even bothered giving me the option for a heat pump.
+[29:03] Yes, it’s cold enough where I live that a gas-fired furnace is the norm,
+[29:08] but I’ve got 95% of a reversible heat pump sitting right here!
+[29:13] This 2.5 ton air conditioner may only be able to put out half of what my furnace can with its fire tubes,
+[29:20] but on mild days - so the ones a heat pump would be best at -
+[29:24] that’s more than I need anyway.
+[29:26] Heck, even when it was -10 outside, my 70,000 BTU furnace only ran for about 10 hours a day.
+[29:33] 30,000 BTU continuously would have covered that,
+[29:36] but yes I know that output wouldn’t have been possible at that ambient temp.
+[29:40] I'm just spitballin’ here.
+[29:42] And it’s not like heat pumps systems are unheard of in my neck of the woods.
+[29:46] In fact, a patron of the channel has one and
+[29:48] they’re actually a little farther North than I am!
+[29:51] This outdoor unit is practically the exact same thing as the condensing unit
+[29:56] for my A/C system, save for the reversing valve and a more complicated compressor setup.
+[30:01] It functions exactly as the mini-split does, doing the same periodic reversing to defrost.
+[30:07] I mean, there’s snow on the ground yet it’s still working!
+[30:11] Since this is almost the exact same machine as mine, it annoys me endlessly
+[30:16] that reversibility isn’t just standard at this point.
+[30:21] In fact, in the South reversible heat pumps in this form factor are pretty common,
+[30:25] and have been for years.
+[30:27] Since heating demand is usually mild if any in the South,
+[30:30] relatively few folks have natural gas for heating.
+[30:33] When you’re all-electric and have air conditioning,
+[30:35] you might as well have a heat pump to save money on heating costs.
+[30:39] And since all it really takes is a reversing valve and a few other particulars
+[30:43] to make that happen, I see it as a no-brainer.
+[30:46] Well, usually.
+[30:48] When a large, disruptive weather event takes hold that causes an entire region
+[30:52] to suddenly need resistive heat because it’s too cold for their heat pumps to work effectively,
+[30:57] that can put an untenable strain on the electric grid.
+[31:01] When this video was published, Texas had just gone through one of these extreme events.
+[31:06] Heat pumps certainly were not the cause of the grid failures, to be clear,
+[31:10] as a lot of issues occurred on the generation side of things
+[31:14] and based on what I’ve read, natural gas backup heat is more common than I thought.
+[31:19] But the occasional need for an energy-intensive backup heat source is good to keep in mind.
+[31:25] But so far, we’ve just been talking about air source heat pumps.
+[31:29] These are definitely the most common because, well, they’re easy and simple to make.
+[31:34] But there are other sources of heat to be tapped into.
+[31:37] And heat pump technology is finding itself in more and more places
+[31:41] as we discover the benefits of moving heat rather than creating it.
+[31:45] In part 2, we’ll look at some of these solutions
+[31:48] and discuss where heat pumps have to go from here.
+[31:51] We’ll also look at some cost/benefit comparisons both from a financial perspective
+[31:55] and from a climate change perspective.
+[31:58] And that’s a key reason heat pumps will undoubtedly see more widespread use
+[32:02] as time goes on.
+[32:03] I said earlier that with a COP of 2.5 you’ll get more heating out of a heat pump
+[32:09] than you would burning natural gas onsite.
+[32:13] Let me explain that.
+[32:14] In 2019 the average efficiency of a natural gas power plant in the US was 44 percent
+[32:19] according to the Energy Information Administration.
+[32:22] Now, if you run electric resistive heat from this source of energy,
+[32:26] after transmission losses you’ll end up getting about 40% of the energy out of the natural gas.
+[32:32] Not bad, but you can also burn natural gas in an onsite furnace
+[32:36] and get more than 90% of the energy out of it.
+[32:39] It’s for that reason that areas like mine tend to have natural gas infrastructure
+[32:44] capable of delivering it directly to homes.
+[32:47] Historically it’s been cheaper, easier, and more efficient.
+[32:50] But, when a heat pump is running at a COP of 2.5,
+[32:54] sure you’re still only getting 40% of the energy from the natural gas,
+[32:58] but with it you’re moving 2.5 times that amount.
+[33:03] That means that in the end, you’re getting the equivalent of 100% out of the natural gas.
+[33:08] And you can even get more than that!
+[33:11] A heat pump is frankly the most effective way to turn electricity into heat,
+[33:15] so even on today’s fossil-fired power grid, they’re a wiser use of limited resources
+[33:21] and can help lower emissions.
+[33:23] And they also make renewable energy sources much more feasible in cold climates.
+[33:28] While you certainly can use the output from wind or solar to heat your home resistively,
+[33:33] that takes a lot of output and makes storage hard to manage.
+[33:37] If everyone had very efficient heat pumps, that energy demand could be cut into a quarter
+[33:42] or perhaps a little less.
+[33:44] And while heat pumps like this struggle in cold weather,
+[33:47] there is an alternative.
+[33:48] The ground-source or geothermal heat pump is a way to attain year-round, near-constant peak efficiency
+[33:55] with heat pumps even in cold climates.
+[33:58] And we’ll talk about those, some other novel uses for heat pumps,
+[34:01] as well as the need for more climate-friendly refrigerants in the next video.
+[34:06] For now, stay warm!
+[34:09] ♫ coefficient of smooth jazz ♫
+[34:13] and that, if you could capture the heat energy out of...
+[34:18] [goofy noise]
+[34:19] well we're gonna restart this line because. Oh cripe.
+[34:23] Eurggh!
+[34:25] Just my terrible teleprompter causing me problems again.
+[34:28] And the thing is, air condish...
+[34:31] and the..pff
+[34:32] heh.
+[34:33] Ehehhe.
+[34:33] ...allows us to manipulate the ambient pressure the refrigerants experience.
+[34:38] The S is on the wrong word.
+[34:40] That line needs an on-the-fly re-write!
+[34:42] Those are always great.
+[34:44] ...boiling point shoots way up. Wayyu...
+[34:48] the, there are words missing!
+[34:50] This is, incidentally, the principle on which automatic rice cookers work.
+[34:54] Another plug?
+[34:56] Dammit!
+[35:01] I hope you're pumped for part 2.
+[35:05] I know I am.
+[35:08] Gonna talk about them coolant pipes.
+[35:10] Digging wells.
+[35:12] All that.

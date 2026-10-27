@@ -1,0 +1,350 @@
+[0:00] Sometime in the next few weeks, on the
+[0:01] first cold night, you're going to walk
+[0:03] to the thermostat, slide it from cool to
+[0:06] heat, and wake up a machine you haven't
+[0:08] thought about since March. And you'll do
+[0:10] it the way almost everybody does.
+[0:12] Nothing first. No look, no test, no 5
+[0:16] minutes with the door off. You'll just
+[0:18] trust it. That trust is the most
+[0:20] profitable week in the heating business.
+[0:23] The phones ring until the schedule
+[0:25] breaks, and the trucks roll out to fix
+[0:27] five things that were never really
+[0:29] broken. I know, because for 25 years I
+[0:32] was in one of those trucks, running the
+[0:34] no heat calls for the same companies
+[0:36] that build their whole winter around
+[0:37] that week. So, here are the five furnace
+[0:39] mistakes they'd rather I kept to myself.
+[0:42] Two are 10-minute fixes. The last one is
+[0:45] why a furnace that should last 20 years
+[0:47] dies at 12, right about when the quote
+[0:49] says $8,000.
+[0:52] Number one is the call they make the
+[0:53] most, and the cheapest one they'll ever
+[0:55] bill you for. 2:00 in the morning, and
+[0:58] the furnace clicks, runs about 10
+[1:00] seconds, and quits. Trys again, quits
+[1:03] again, and on the third try it locks
+[1:05] out. That's mistake number one. You
+[1:08] reset it instead of reading it. You flip
+[1:10] the power off and on, it fires, and you
+[1:13] go back to bed. But that pattern, the
+[1:16] click, the 10 seconds, the three tries,
+[1:19] the lockout, comes from one small part
+[1:22] nearly every time. It's called the flame
+[1:24] sensor, a thin metal rod sitting right
+[1:27] in the flame, and its only job is to
+[1:30] confirm to the furnace that the gas is
+[1:32] burning. If it can't, the furnace shuts
+[1:35] the gas off on purpose, so unburned gas
+[1:38] never fills your house. Over a season or
+[1:40] two, that rod picks up a thin coating
+[1:43] you can barely see, and once it's
+[1:44] coated, it can't sense the flame. So,
+[1:46] the furnace cuts the gas even though the
+[1:48] fire was fine. Nothing is broken. The
+[1:51] sensor is dirty. Cleaning it costs
+[1:54] nothing. A new one is 10 to 20 dollars.
+[1:57] And the visit to have somebody wipe it
+[1:59] off for you runs 150 to 300. Quick one
+[2:03] before we keep going. Every fix in this
+[2:06] video, and all of it, including the
+[2:08] whole heating section, is written down
+[2:10] in one plain guide over at
+[2:12] raydutton.com.
+[2:14] No pressure, it sits there if you want
+[2:16] it. Okay, back to that sensor. So, stop
+[2:20] resetting. When it clicks and quits,
+[2:22] look at the little blinking light on the
+[2:24] control board, the small computer that
+[2:26] runs the furnace through the window in
+[2:28] the furnace door. It's counting out a
+[2:30] code, and that code tells you which part
+[2:33] is complaining. Before you pay anyone to
+[2:35] guess. And when the code points at the
+[2:38] flame sensor, the fix is one screw. The
+[2:41] rod slides out, you wipe the film off
+[2:44] with a fine scouring pad, and it slides
+[2:47] back in. 10 minutes, with the power off
+[2:50] first. And one rule that never bends, if
+[2:54] you ever smell gas, you don't reset
+[2:57] anything, and you don't open anything.
+[3:00] You leave the house and call from
+[3:01] outside. That's the mistake they bill
+[3:04] the most. The next one is the mistake
+[3:07] they bill the highest because of when it
+[3:09] happens. Mistake number two, you never
+[3:12] test fired it in September. Every
+[3:15] furnace goes through the same five steps
+[3:17] when it starts. The thermostat calls for
+[3:20] heat. A small fan spins up inside the
+[3:23] furnace and clears the exhaust pipe.
+[3:25] Then an orange glow appears down by the
+[3:27] burners, like the element inside a
+[3:29] toaster, about the size of your thumb.
+[3:32] Then a click, and that's the gas valve
+[3:34] opening. Then the flame catches with a
+[3:37] soft whump, and the big blower kicks on.
+[3:40] Fan, glow, click, flame, blower. That
+[3:44] orange glow is the igniter, a small
+[3:46] piece of ceramic that gets white hot to
+[3:49] light the gas. And ceramic doesn't wear
+[3:51] out slowly. It cracks. When it cracks,
+[3:54] you get every one of those five steps
+[3:56] except the glow. So, the gas never
+[3:58] lights and the furnace locks out. The
+[4:00] part is $20 to $60. On the first cold
+[4:03] night, that same part rides in on an
+[4:07] after-hours ticket at $250 to $400. The
+[4:10] only thing that changed is the date. And
+[4:13] the date is the whole bill. So, give it
+[4:16] 5 minutes in September with the front
+[4:18] panel off. Pick a warm afternoon, turn
+[4:21] the heat on, and watch it start. Fan,
+[4:24] glow, click, flame, blower. If one of
+[4:27] those steps never happens, you found
+[4:30] your problem while the part is still
+[4:31] cheap. Now, stop and look at what we've
+[4:34] got. Two in and both are 10-minute looks
+[4:38] that turn into a $300 call on a schedule
+[4:41] the dispatcher can predict to the day.
+[4:44] None of this fails on the cold night. It
+[4:46] fails in August quietly, and the cold
+[4:50] night is only when it tells you. If
+[4:52] you'd rather hear it from me than from
+[4:53] the bill, the subscribe button is right
+[4:56] there because the next three don't get
+[4:58] cheaper. They get bigger. And this is
+[5:01] where it turns into a real bill. Mistake
+[5:04] number three, choking the airflow on
+[5:06] purpose because somebody told you it
+[5:08] saves money. You close the vents in the
+[5:11] rooms you don't use and push the heat
+[5:13] where you live. It's the fastest way I
+[5:15] know to cook a furnace from the inside
+[5:18] because a furnace is a hairdryer the
+[5:20] size of a refrigerator. It makes heat in
+[5:23] one spot, and it needs a steady flow of
+[5:25] air moving past that spot to carry the
+[5:28] heat away. Close half the vents, park a
+[5:31] couch over the return, run the thickest,
+[5:33] tightest filter on the shelf, and you've
+[5:35] put a sock over the nozzle of the
+[5:37] hairdryer. And the furnace knows there's
+[5:40] a safety switch sitting above the
+[5:42] burners, and when the metal in there
+[5:44] gets hotter than it was built for, it
+[5:46] slams the gas off. Then it cools. The
+[5:49] switch resets, the gas comes back, and
+[5:52] it overheats again. All winter. That's
+[5:55] the short cycling you hear, the furnace
+[5:58] starting and stopping every few minutes.
+[6:01] Every one of those overheat cycles
+[6:03] flexes the heat exchanger, the sealed
+[6:05] metal chamber where the fire burns, with
+[6:08] your household air passing over the
+[6:10] outside to pick up the warmth. It's the
+[6:12] wall between the fire and the air you
+[6:14] breathe, and metal that flexes enough
+[6:16] times cracks. A cracked heat exchanger
+[6:19] is the one thing a tech is trained to
+[6:21] red tag on site, which means he shuts
+[6:23] the gas off, tags the furnace unsafe,
+[6:26] and hands you a quote for a new one.
+[6:29] That's where the $8,000 comes from. It
+[6:31] doesn't come from a broken part. It
+[6:34] comes from a habit. Now, I'm going to
+[6:36] argue against myself for a minute,
+[6:39] because you deserve the whole truth. One
+[6:42] closed vent in a guest room won't hurt
+[6:44] anything. The problem is the pattern,
+[6:46] half the house closed off, and
+[6:48] especially the returns, the big grills
+[6:51] that pull air back into the furnace.
+[6:53] Those you never block. Cover a return
+[6:56] with a couch, and the furnace is trying
+[6:58] to breathe through a coffee stirrer. So,
+[7:00] the fix is free. Walk the house, open
+[7:03] every vent, and drag the couch off the
+[7:06] return. That's the $8,000 quote that
+[7:09] never gets written. The next one is the
+[7:11] opposite problem. Plenty of air moving
+[7:14] around inside the house, and not enough
+[7:16] getting into the furnace from outside.
+[7:19] Mistake number four. The two white
+[7:21] pipes. If you've got a newer furnace,
+[7:24] the high efficiency kind, it doesn't use
+[7:26] a chimney. It breathes through two white
+[7:29] plastic pipes that come out through the
+[7:32] wall, or sometimes up through the roof.
+[7:35] One pulls fresh air in for the fire, and
+[7:37] the other pushes the exhaust out. And
+[7:40] right now, in September, this is what's
+[7:42] sitting in front of them. Leaves, mulch
+[7:45] pushed up against the house, the shrub
+[7:48] that grew all summer, and more often
+[7:50] than you'd think, a wasp nest packed
+[7:53] into the pipe. The furnace can't breathe
+[7:55] through any of that. So, on the coldest
+[7:57] morning of the year, a small safety
+[7:59] switch inside decides it isn't getting
+[8:01] enough air and shuts the whole furnace
+[8:03] down, and you pay 150, sometimes 300,
+[8:07] for a man to drive over and pull out a
+[8:09] leaf. The fix is a flashlight in 10
+[8:11] minutes. Clear a couple of feet around
+[8:14] both pipes, look up into each one, and
+[8:16] clear the screen if there is one. And
+[8:18] once it snows, keep them clear, because
+[8:21] a drift that buries those pipes shuts
+[8:24] the furnace down the same way a leaf
+[8:26] does. And the serious reason this one
+[8:29] matters,
+[8:30] that exhaust pipe carries the fumes from
+[8:32] the fire out of your house, and if it's
+[8:34] blocked, those fumes can back up inside.
+[8:37] That's why every furnace needs a carbon
+[8:40] monoxide alarm within earshot of the
+[8:42] bedrooms, and why you check the date on
+[8:44] the back, because those sensors wear out
+[8:46] on their own after 5 to 10 years. And a
+[8:49] fair line, because not every house has
+[8:52] these pipes, if your furnace vents into
+[8:54] a metal pipe that goes up a chimney,
+[8:57] that's the older kind, and that metal
+[8:59] pipe isn't yours to touch. That one is a
+[9:02] tech's job, once a year, with a meter
+[9:06] four in, all catchable in one afternoon.
+[9:09] Here's the part that got me, because the
+[9:12] last one you can't fix yourself at all.
+[9:14] You can only catch it, and almost nobody
+[9:17] does. Mistake number five, assuming
+[9:20] somebody set it up. Open the front panel
+[9:24] of your furnace and look at the inside
+[9:26] of the door. There's a sticker, and on
+[9:28] it are two numbers that decide how long
+[9:30] your furnace lives, and I'd bet nobody
+[9:33] has ever checked yours. The first is
+[9:35] called the temperature rise, and it'll
+[9:37] say something like 40° to 70°.
+[9:41] That's how much warmer the air is
+[9:43] supposed to get as it passes through the
+[9:45] furnace. If the air goes in at 68, it
+[9:49] should come out somewhere between 108
+[9:52] and 138.
+[9:54] The second is the gas pressure, how much
+[9:56] gas the burners are supposed to be fed,
+[9:59] and it gets set at the gas valve with
+[10:01] instruments.
+[10:03] Those two numbers are the recipe. The
+[10:05] engineers who built your furnace printed
+[10:07] exactly how it supposed to run inside
+[10:09] the door and assumed the installer would
+[10:11] set the machine to match. Most of them
+[10:14] never did, and the installer isn't
+[10:16] crooked. Setting those two numbers takes
+[10:19] instruments and a half hour nobody gets
+[10:21] paid for. So, the furnace gets bolted
+[10:23] in, wired up, and the truck leaves. The
+[10:26] temperature rise is whatever it happened
+[10:29] to land on, and the gas pressure is
+[10:31] whatever the factory shipped, never
+[10:33] adjusted for your house. If that rise
+[10:36] sits above the top of the range, the
+[10:38] furnace runs too hot every cycle and
+[10:41] nobody notices because the house gets
+[10:43] warm. But, that heat exchanger is
+[10:45] flexing harder than it was ever designed
+[10:48] to thousands of times a winter. That's
+[10:51] the furnace that should last 20 years
+[10:53] and dies at 12, and it died because of
+[10:56] one number nobody set on day one.
+[10:59] You can check this yourself today with
+[11:01] two $10 thermometers. And once you've
+[11:04] got your number, there's one sentence to
+[11:06] say to the next tech who comes to your
+[11:08] house. I'll give it to you in a minute
+[11:10] because it changes who's in charge of
+[11:12] that conversation. The test is simple.
+[11:15] Buy two cheap probe thermometers, under
+[11:18] $20 for the pair. Run the furnace a full
+[11:21] 15 minutes. Put one probe into the
+[11:24] return duct, the big duct that pulls air
+[11:27] into the furnace, and the other into the
+[11:29] supply duct, the one carrying warm air
+[11:32] out a couple of feet up from the
+[11:33] furnace. Subtract the lower number from
+[11:36] the higher one. That's your temperature
+[11:38] rise. Now, look at the sticker.
+[11:41] If your number sits inside the range,
+[11:43] you're fine. If it's above the top of
+[11:46] the range, you found the thing nobody
+[11:49] found. The fix is a blower speed change
+[11:51] or a gas pressure adjustment, a half
+[11:54] hour with the right instruments. And
+[11:55] that half hour is a tech's job, not
+[11:58] yours. And the difference between that
+[12:00] half hour and the $99 visit where a man
+[12:04] vacuums the cabinet and changes your
+[12:07] filter is the difference between a
+[12:09] tune-up and a tune-up that measures.
+[12:12] Which brings me to that one sentence.
+[12:14] The next time a tech is standing in
+[12:16] front of your furnace, you say this,
+[12:19] "I'd like the temperature rise, the gas
+[12:21] pressure, and the carbon monoxide
+[12:23] reading written on the invoice." A tech
+[12:25] who measured those three things has them
+[12:28] on a meter in his hand, and it takes 10
+[12:31] seconds to write them down.
+[12:33] A tech who didn't measure them has a
+[12:35] choice to make in front of you. Either
+[12:38] way, you've turned a vacuum and a filter
+[12:41] into a real service. So, here's where
+[12:43] the line sits between what's yours to do
+[12:46] and what you leave to a tech. Everything
+[12:49] I've walked you through today has one
+[12:51] thing in common.
+[12:53] None of it touches the gas, and all of
+[12:55] it is yours this weekend in your socks.
+[12:59] And this is what you leave to a tech.
+[13:01] Anything on the gas side, the gas valve
+[13:03] and the pressure setting. Anything to do
+[13:06] with a heat exchanger, the metal chimney
+[13:08] pipe on an older furnace. And if you
+[13:11] ever smell gas or a carbon monoxide
+[13:13] alarm goes off, you don't troubleshoot
+[13:16] anything. Everyone out of the house, and
+[13:19] you call from outside. You don't walk
+[13:22] back in to hunt for the reason. Because
+[13:24] every one of these five mistakes hides
+[13:26] behind a furnace that seems fine right
+[13:29] up until the week it isn't. Let me run
+[13:31] the receipts back. A $15 flame sensor
+[13:35] billed at 300. A $40 igniter billed at
+[13:39] 400 after dark. A free walk through the
+[13:42] house instead of an $8,000 quote. A leaf
+[13:46] billed at 300. And two numbers on a
+[13:48] sticker that decide whether you get 20
+[13:51] years or 12. That's your Saturday. Panel
+[13:54] off. Watch it start. Open the vents.
+[13:57] Clear the pipes. Take the reading. One
+[13:59] afternoon and that week's phone calls
+[14:02] never happen at your house. And to be
+[14:04] fair, none of this is the fault of the
+[14:06] man at your door. He was handed a price
+[14:09] sheet and a number to hit. None of it is
+[14:12] hidden because it's hard, either.
+[14:15] It's hidden because a furnace that keeps
+[14:17] running is a truck that never rolls and
+[14:20] the trucks are the business. Drop your
+[14:22] state in the comments. How old your
+[14:24] furnace is and which of the five you're
+[14:26] guilty of. Where you live changes which
+[14:29] one hits first and I read every one. If
+[14:32] this saved you a call, subscribe because
+[14:35] winter is only getting started. I'm Ray
+[14:37] Dutton. Keep your cool and I'll see you
+[14:40] in the next one.

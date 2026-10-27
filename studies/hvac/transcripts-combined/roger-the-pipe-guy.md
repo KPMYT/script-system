@@ -1,0 +1,589 @@
+# Roger the Pipe Guy: combined transcripts (1 videos)
+
+---
+
+## Pour One Cup of Vinegar Down Your AC's Drain Line Today (Before It Floods Your Ceiling)
+
+Video `cFYptbCvNjI` · 23:29 · 37,083 views · 13.64x normal · https://www.youtube.com/watch?v=cFYptbCvNjI
+
+[0:00] Go stand in the middle of your house and
+[0:02] count the things that make water.
+[0:05] You will get the water heater, the
+[0:08] washing machine, the dishwasher, the ice
+[0:11] maker in the freezer door.
+[0:13] Four or five appliances and every one of
+[0:16] them has a hose or valve you have looked
+[0:19] at at least once.
+[0:21] Now, here is the one you missed.
+[0:24] Right now, on a muggy August afternoon,
+[0:27] the appliance moving the most water in
+[0:30] your house is your air conditioner.
+[0:34] Five to 20 gallons a day, pulled
+[0:36] straight out of the air you are
+[0:38] breathing. And all of it leaves through
+[0:41] one skinny plastic pipe nobody living
+[0:44] here has ever laid eyes on.
+[0:47] Nobody thinks of the air conditioner as
+[0:49] a plumbing appliance. Now, that is
+[0:51] exactly why ceilings come down in
+[0:54] August.
+[0:55] I am Roger.
+[0:57] I work on old houses
+[0:59] and I'm going to show you a job that
+[1:01] takes 90 seconds, costs about $4 for the
+[1:05] whole cooling season, and prevents one
+[1:07] of the more expensive accidents a house
+[1:10] can have.
+[1:12] I will also show you a 10-second test
+[1:15] you can run from your own yard in your
+[1:18] slippers that tells you whether it is
+[1:20] already going wrong.
+[1:22] And before we are done, I am going to
+[1:25] tell you about a small part, cheaper
+[1:27] than filling your gas tank,
+[1:30] that makes the flooded ceiling version
+[1:33] of this story impossible. Most older
+[1:36] systems were never given one. Yours
+[1:38] probably was not.
+[1:41] Let us start with where all that water
+[1:43] comes from because once you see the
+[1:45] path, the rest of this is obvious.
+[1:49] Your air conditioner does two jobs and
+[1:52] almost everybody only knows about the
+[1:54] first one.
+[1:55] It cools the air.
+[1:57] Fine. [snorts]
+[1:59] The second job is that it dries the air.
+[2:02] And the drying is not a bonus feature.
+[2:05] It is a physical consequence of how the
+[2:07] machine works.
+[2:09] Inside your indoor unit, there's a set
+[2:11] of very cold coils. That box has a name
+[2:15] worth knowing. It is called the air
+[2:17] handler.
+[2:18] Because it handles the air. As opposed
+[2:21] to the loud box outside.
+[2:24] That handles the refrigerant.
+[2:26] Your house air gets pulled across those
+[2:29] cold coils. And the moment warm, damp
+[2:32] air touches something cold, the water in
+[2:35] it condenses. Same thing that happens to
+[2:37] a glass of iced tea on a porch table in
+[2:40] July.
+[2:41] The glass is not leaking.
+[2:43] The air is giving up its water onto the
+[2:46] cold surface.
+[2:47] Your coils are that glass.
+[2:50] Except much bigger.
+[2:51] Running for hours at a stretch.
+[2:55] So, water beads up, runs down the coil
+[2:57] fins, and drips into a shallow metal or
+[3:00] plastic tray underneath called the drain
+[3:03] pan. From the pan, it goes into the
+[3:05] condensate line. That is the drain. And
+[3:09] it is usually a 3/4 inch piece of white
+[3:12] PVC pipe. Which is to say it is about as
+[3:15] wide as your thumb. Sit with that for a
+[3:17] second.
+[3:19] Every gallon your system pulls out of
+[3:21] the air on the stickiest day of the year
+[3:23] has to leave through
+[3:25] a pipe the width of your thumb.
+[3:28] And unlike every other drain in the
+[3:30] building,
+[3:32] this one has no fixture on it. No sink.
+[3:35] No trap you can reach.
+[3:37] It just runs through a joist bay to the
+[3:39] outside. And it has been doing that all
+[3:42] summer.
+[3:43] Without a word to you.
+[3:45] Here is why it fails.
+[3:48] That pipe is warm, dark, and wet
+[3:50] essentially all the time from May to
+[3:53] September.
+[3:54] If you sat down and tried to design the
+[3:56] perfect greenhouse for algae,
+[3:59] you would build that pipe.
+[4:01] So, algae grows, slime grows, and dust
+[4:05] off your coil settles in and gives it
+[4:07] something to hold on to.
+[4:10] It does not close all at once.
+[4:13] It closes the way plaque closes an
+[4:15] artery.
+[4:16] A film, then a layer, then a ring.
+[4:20] And the water keeps getting through the
+[4:21] whole time, so you never notice.
+[4:24] The bore just quietly gets smaller.
+[4:27] Then on some Thursday in the worst heat
+[4:29] of the year, when the system is making
+[4:31] the most water it will make all summer,
+[4:34] the opening finally gets small enough
+[4:37] that water backs up faster than it
+[4:39] drains. Now the pan fills, and the pan
+[4:42] is shallow. It was never built to be a
+[4:45] reservoir. It was built to be a gutter.
+[4:48] When it goes over the edge, whatever is
+[4:51] under your air handler starts getting
+[4:54] rained on from above. If the unit is in
+[4:57] the attic, that is your bedroom ceiling.
+[5:00] And this is where the arithmetic gets
+[5:02] ugly, so let me lay it out plain.
+[5:04] Vinegar is about $4 for a store brand
+[5:08] gallon. And 1 gallon covers the whole
+[5:11] cooling season
+[5:12] with plenty left over.
+[5:15] Getting a technician out to clear that
+[5:17] line runs about $75 to $250
+[5:21] in most of the country.
+[5:24] Call on a weekend or after hours or with
+[5:27] the unit in a miserable attic,
+[5:29] and expect the high end or better.
+[5:33] Repairing a water damaged ceiling runs
+[5:36] $500 to $2500
+[5:39] because it is not a patch.
+[5:42] They cut the wet section out, pull the
+[5:44] soaked insulation,
+[5:46] check the framing,
+[5:48] hang new board,
+[5:50] And then somebody has to match your
+[5:51] ceiling texture,
+[5:53] which is its own small nightmare.
+[5:56] And if that drywall sat wet long enough
+[5:58] to grow mold,
+[6:00] remediation commonly runs 1,200 to about
+[6:03] 3,750.
+[6:06] $4 on one side, thousands on the other.
+[6:11] Same pipe.
+[6:13] I told you at the top there is a part
+[6:14] that makes the ceiling version
+[6:16] impossible,
+[6:18] and I have not said what it is yet.
+[6:20] I am holding it because it changes the
+[6:23] whole calculation, and I want you to
+[6:25] have the habit first.
+[6:27] Before I put the cup in your hand,
+[6:30] you ought to know where a job like this
+[6:32] comes from.
+[6:34] None of it is mine.
+[6:36] It is the ordinary working knowledge of
+[6:38] the trade, written down at last where a
+[6:41] homeowner can reach it.
+[6:43] I gathered it into a digital book called
+[6:46] 100 Old House
+[6:48] Fixes That Save You Thousands.
+[6:52] 100 of them, written plain, with at-home
+[6:55] checklists and a seasonal maintenance
+[6:57] calendar
+[6:59] in the back.
+[7:01] This drain line sits on that calendar
+[7:03] under the cooling months, which is why
+[7:06] it is on your mind in August and not
+[7:09] January.
+[7:10] If you want it, pick up your phone, open
+[7:13] the camera the way you would to
+[7:14] photograph the dog, and hold it toward
+[7:17] the square code on screen until a bar
+[7:20] slides up. Tap that.
+[7:23] If the code fights you, the link is in
+[7:25] the description.
+[7:27] Go at your own speed. Nothing here is
+[7:29] going anywhere, and neither am I.
+[7:33] All right.
+[7:34] Cup in hand.
+[7:35] Go find your air handler.
+[7:37] Attic? Utility closet? Basement? Garage?
+[7:42] Look for the PVC pipe leaving the bottom
+[7:45] of it.
+[7:46] And then for a fitting on that pipe
+[7:47] shaped like a capital T standing up
+[7:50] with a cap on top.
+[7:52] That is your access T.
+[7:55] It exists for this purpose and no other.
+[7:59] Somebody put it there
+[8:00] so a person could pour something into
+[8:02] the line without cutting it.
+[8:05] Before you touch anything, shut the
+[8:07] system off.
+[8:09] Not the temperature setting, the actual
+[8:11] off.
+[8:12] Go to the thermostat and switch the
+[8:14] system to off. And if you want to be
+[8:17] thorough,
+[8:18] kill the breaker to the air handler.
+[8:21] You are about to put liquid into a drain
+[8:23] that runs past your coil and you do not
+[8:26] want the blower pulling on that line
+[8:29] while you work.
+[8:31] Take the cap off the T. It usually turns
+[8:34] by hand.
+[8:36] If it has been on since the system was
+[8:38] installed, it may want a gentle twist
+[8:41] with a rag for grip, but it is not glued
+[8:44] and you are not fighting it.
+[8:46] Now, one cup of distilled white vinegar.
+[8:50] The plain, cheap, clear kind.
+[8:53] Not apple cider vinegar.
+[8:55] And I want to be specific about why.
+[8:58] Cider vinegar has sugars and sediment in
+[9:00] it and you would be pouring food into a
+[9:03] pipe where the whole problem is that
+[9:06] things are growing.
+[9:08] Pour it slowly.
+[9:10] Not a dump, a pour.
+[9:13] You want it running down the inside wall
+[9:15] of that pipe and coating the surface
+[9:17] because the surface is where the growth
+[9:21] lives.
+[9:22] A cheap funnel or the top half of a cut
+[9:24] water bottle makes it far less annoying.
+[9:28] Cap it back on.
+[9:29] Give it 30 minutes,
+[9:31] then run warm tap water through the same
+[9:34] T to move everything along.
+[9:36] Warm, not boiling.
+[9:39] Because you are pouring into plastic
+[9:41] pipe with glued joints.
+[9:44] Turn your system back on.
+[9:46] That is the entire job.
+[9:48] Once a month through cooling season.
+[9:51] Now, let me be honest about what that
+[9:53] cup does and does not do. Because people
+[9:56] oversell this.
+[9:58] Vinegar is a preventative. It
+[10:01] discourages growth and keeps a young
+[10:04] film from turning into a mat.
+[10:08] What it is not is a drain cleaner. If
+[10:11] your line is already properly plugged, a
+[10:13] cup of vinegar will not blast through
+[10:16] it.
+[10:17] And anybody who says otherwise is
+[10:19] selling you a disappointment.
+[10:22] Vinegar keeps a clean line clean.
+[10:26] It does not rescue a closed one, and we
+[10:29] will get to the closed one shortly.
+[10:32] Two more things while you have the cap
+[10:34] in your hand.
+[10:35] And both of them matter.
+[10:37] Do not use bleach.
+[10:39] I know you have heard it your whole life
+[10:41] and a neighbor swears by it.
+[10:44] The manufacturers themselves write
+[10:46] against it.
+[10:48] Rheem and Ruud put it right in the air
+[10:50] handler
+[10:51] installation instructions.
+[10:53] Telling you not to put caustic household
+[10:56] drain cleaners such as bleach
+[10:58] in the condensate pan or near the indoor
+[11:01] coil.
+[11:02] Because it will quickly damage the coil.
+[11:05] Bleach eats aluminum and copper.
+[11:08] And your coil is made of aluminum and
+[11:11] copper.
+[11:12] It works on the cement in your glued PVC
+[11:15] joints, too.
+[11:16] You are not saving a service call
+[11:19] with bleach.
+[11:20] You are shopping for a bigger one.
+[11:23] And here is the safety line I need you
+[11:25] to lock in.
+[11:27] Because this one can put you on the
+[11:29] floor.
+[11:30] Never combine bleach and vinegar.
+[11:33] Not in the pan, not in the tee, not one
+[11:36] after the other.
+[11:38] Bleach mixed with an acid gives off
+[11:41] chlorine gas.
+[11:42] Health departments publish hazard alerts
+[11:44] about this exact mistake.
+[11:47] Low levels burn your eyes and throat.
+[11:50] Higher levels do real damage to your
+[11:52] lungs.
+[11:54] If you have been using bleach in that
+[11:56] line,
+[11:57] flush it thoroughly with plain water and
+[12:00] give it time before switching to a
+[12:03] vinegar.
+[12:04] Do not chase one with the other.
+[12:07] Fair enough?
+[12:08] Good.
+[12:09] And while we are on the subject, there
+[12:12] is one more honest note I owe you.
+[12:15] Vinegar is gentler than bleach by a wide
+[12:18] margin and it is what most technicians
+[12:20] will tell you to use, but it is still a
+[12:23] mild acid and a handful of manufacturers
+[12:26] now write against putting either one in
+[12:30] their equipment.
+[12:33] So, do two things. Pour into the tee,
+[12:36] which sends it down the line in a way
+[12:38] rather than sloshing it around in the
+[12:40] metal pan where the coil lives. And if
+[12:43] you still have your manual, spend two
+[12:46] minutes looking.
+[12:48] If your manufacturer says water only,
+[12:51] listen to them over me.
+[12:53] There are also slow dissolving pan
+[12:55] tablets made for this, $5
+[12:59] a pack, for anybody who would rather not
+[13:02] put acid near the machine.
+[13:06] Now, let us follow the water all the way
+[13:09] out of the house because the other end
+[13:11] of this pipe is where your best
+[13:13] diagnostic lives.
+[13:15] Somewhere outside your house, usually
+[13:18] low, usually near the foundation,
+[13:21] usually behind a shrub that has been
+[13:23] quietly swallowing it for years,
+[13:26] there is a little white pipe stub coming
+[13:29] out of the wall.
+[13:30] That is the far end of your condensate
+[13:33] line. Go find it and give yourself a
+[13:36] minute because it is less obvious than
+[13:38] it sounds.
+[13:40] Here is your test and it costs nothing.
+[13:45] On a hot, humid day with the air
+[13:46] conditioning running, that stub should
+[13:49] be dripping steadily.
+[13:51] A drip every few seconds, sometimes a
+[13:55] thin trickle
+[13:56] and a damp patch on the ground under it.
+[14:00] That is a healthy system doing its
+[14:02] second job.
+[14:04] If it is a genuinely muggy afternoon,
+[14:07] your system has been running for hours
+[14:10] and that stub is bone dry with dry
+[14:13] ground beneath it, you have a problem
+[14:15] right now.
+[14:17] The water is being made.
+[14:19] It has to be.
+[14:20] So, if it is not coming out here, it is
+[14:23] going somewhere else and there is only
+[14:25] one somewhere else.
+[14:27] That is your early warning
+[14:29] and it is free.
+[14:31] Look at that stub once a week in summer
+[14:33] when you're already outside.
+[14:36] 10 seconds
+[14:37] and it is the most useful thing in this
+[14:39] video.
+[14:40] Now, let us say you looked and it is
+[14:43] dry.
+[14:44] Do not panic and do not call anybody
+[14:46] yet.
+[14:47] Get a wet-dry vacuum.
+[14:49] Almost everybody has one in the garage
+[14:52] and if you do not,
+[14:53] a neighbor does.
+[14:55] Take the paper filter out
+[14:57] because you are about to pull water
+[14:59] and paper turns to mush.
+[15:01] Set it to vacuum, not blow.
+[15:04] Take the hose to that outside stub and
+[15:06] seal it over the end.
+[15:08] The seal is the whole game.
+[15:10] A rag wrapped around the joint, duct
+[15:13] tape, your hand in a wet cloth,
+[15:16] anything that closes the gap between
+[15:17] hose and pipe.
+[15:19] If air gets in around the outside,
+[15:23] you are just making noise in the yard.
+[15:26] Hold the seal and run it 1 to 2 minutes.
+[15:29] You are pulling from the clean end
+[15:31] toward the clog, which drags the plug
+[15:34] backward into your tank, instead of
+[15:37] pushing it deeper.
+[15:40] Then shut it off and look in the tank.
+[15:43] You will know.
+[15:44] It comes out as a slug of gray-brown
+[15:47] slime you would rather not describe with
+[15:50] dinner, and it is deeply satisfying.
+[15:53] That is what has been growing above your
+[15:56] ceiling all summer.
+[15:58] Go back inside, run warm water through
+[16:01] the tee,
+[16:02] then check the stub again.
+[16:04] If it is dripping,
+[16:06] you fixed it.
+[16:07] Give it two or three honest tries first,
+[16:10] because nine times out of 10 a failure
+[16:13] is a failed seal,
+[16:16] not a failed method.
+[16:18] Let me run through the things that go
+[16:20] sideways, since this is where people get
+[16:22] stuck.
+[16:23] Nothing came out and the stub is still
+[16:25] dry. First suspect is always the seal,
+[16:29] so wrap it tighter and go again.
+[16:32] Second,
+[16:33] make sure the system is actually off,
+[16:36] because a running blower changes the
+[16:38] pressure in that line.
+[16:41] Third,
+[16:42] if three good attempts get you nothing,
+[16:45] the blockage is farther in than a vacuum
+[16:47] reaches,
+[16:48] and that is a legitimate service call.
+[16:51] You cannot find an access tee anywhere.
+[16:55] This happens more than you would think
+[16:57] on older installs.
+[16:59] Have one added next time a technician
+[17:02] is in the house for a tune-up.
+[17:05] It is a small piece of PVC and a few
+[17:07] minutes of work.
+[17:09] Your air conditioner shut itself off
+[17:12] and will not restart.
+[17:15] And there's water in the pan.
+[17:17] Do not fight it and do not look for a
+[17:19] way to override it. Something just did
+[17:22] its job on purpose and I will explain
+[17:24] what
+[17:25] in a minute.
+[17:27] A musty smell around the vents means
+[17:30] standing water in the pan or the line.
+[17:33] Same story as the dry stub, same fix.
+[17:37] Water is already coming through the
+[17:38] ceiling. Stop.
+[17:41] Shut the system off at the thermostat
+[17:43] and the breaker.
+[17:44] Get a bucket and towels under it and
+[17:47] call somebody.
+[17:49] Water and ceiling and electrical in one
+[17:52] place is not a homeowner job and never
+[17:55] will be.
+[17:57] Knowing where that line is drawn is
+[17:59] worth more than any tip in this video.
+[18:02] Same rule for the rest of it.
+[18:06] Do not open your air handler.
+[18:08] Do not poke at the coil.
+[18:10] Do not pull apart a condensate pump if
+[18:13] you have one, which is the little box
+[18:15] some systems use to push water uphill
+[18:19] when there's no gravity path out.
+[18:22] Anything with refrigerant in it,
+[18:24] anything behind an electrical panel,
+[18:27] that is somebody else's work.
+[18:30] You are here for the drain and the drain
+[18:33] is genuinely yours.
+[18:35] All right?
+[18:37] I promised you the part
+[18:38] and here it is. It is called a float
+[18:40] switch.
+[18:41] Sometimes a condensate overflow switch
+[18:44] or a safety switch.
+[18:46] It is a small plastic device that sits
+[18:49] in the drain pan or clips onto the drain
+[18:51] line and it does one thing.
+[18:54] It watches the water level.
+[18:57] If the water rises past where it should
+[18:59] be,
+[19:00] a little float lifts and the switch cuts
+[19:03] the control circuit shutting your air
+[19:06] conditioner off.
+[19:07] That is the entire technology. A float
+[19:10] in a cup, same working principle as the
+[19:13] fill valve in your toilet tank.
+[19:16] Think about what that means. With one in
+[19:19] place, the flooded ceiling cannot happen
+[19:22] the usual way. The line clogs, the pan
+[19:25] fills, the switch trips, and the system
+[19:29] stops making water.
+[19:31] You get a hot house and a mystery
+[19:33] instead of a ruined ceiling.
+[19:36] And a hot house is an inconvenience
+[19:38] while a ceiling is a $500
+[19:43] renovation with a mold bill possibly
+[19:46] stapled to it.
+[19:48] The part is $20 to $50.
+[19:51] If you have a technician out for a
+[19:54] tune-up anyway, adding one is usually
+[19:58] under $100 installed because they are
+[20:01] already standing there with the panel
+[20:03] open. So, why doesn't your house have
+[20:06] one?
+[20:07] Because for a long time, nobody was
+[20:10] required to put them in. And on an older
+[20:13] install,
+[20:15] the person doing the work put in what
+[20:17] the job called for
+[20:19] and moved on. Not a scandal, just what
+[20:22] got built.
+[20:23] Newer work and attic installs are far
+[20:26] more likely to have one.
+[20:28] Here is how to check.
+[20:30] Look at the drain pan and at the drain
+[20:33] line right where it leaves the air
+[20:35] handler
+[20:36] for a small plastic device, usually
+[20:40] white or gray, with two thin wires
+[20:43] running out of it.
+[20:45] If you see it, you have one. If you see
+[20:48] nothing but bare pipe and a bare pan,
+[20:51] you do not.
+[20:52] And that is the best $20 to $50 you can
+[20:55] spend on that machine.
+[20:57] And if your air handler is in the attic,
+[21:01] I will be blunt.
+[21:03] It is not optional.
+[21:05] An attic unit sits directly above your
+[21:08] finished ceilings with nothing in
+[21:10] between.
+[21:12] And that pan is the only thing between a
+[21:14] clogged pipe and your bedroom.
+[21:17] Get the switch.
+[21:19] Now notice what just happened.
+[21:22] If the float switch prevents the
+[21:24] disaster,
+[21:25] why pour vinegar every month at all?
+[21:28] Because they protect two different
+[21:30] things.
+[21:31] The switch protects your ceiling.
+[21:34] The vinegar protects your air
+[21:35] conditioning.
+[21:37] A clogged line with a float switch means
+[21:41] your system shuts off in August and
+[21:43] stays off until somebody comes out.
+[21:46] That is a hot weekend and a service
+[21:48] call.
+[21:49] A clean line means it keeps running and
+[21:52] nobody has to come at all.
+[21:54] One protects the house. The other
+[21:56] protects the summer.
+[21:59] You want both?
+[22:00] And together they run about $4 a season
+[22:03] and one small part.
+[22:06] That is the whole thing. You know where
+[22:08] the water comes from, why the pipe
+[22:10] closes, how to keep it open, how to test
+[22:14] it from the yard, how to clear it when
+[22:16] it goes, and the name of the part to ask
+[22:19] for.
+[22:20] If you want the rest of what I know
+[22:22] written down in order,
+[22:24] it is in that digital book 100 old house
+[22:28] fixes that save you thousands.
+[22:32] A good chunk of it is about telling the
+[22:34] difference between a cheap patch that
+[22:36] actually holds and a cheap patch that is
+[22:40] just hiding a bill.
+[22:42] And there is a section on what to ask a
+[22:45] contractor so you are steering the
+[22:47] conversation instead of nodding along to
+[22:50] it.
+[22:52] Same two ways in as before.
+[22:54] Camera app pointed at the code on your
+[22:56] screen or the link down in the
+[22:58] description,
+[22:59] whichever is easier from where you are
+[23:02] sitting.
+[23:03] And if you want more old house fixes
+[23:06] that keep your money in your pocket
+[23:08] instead of somebody's invoice, subscribe
+[23:11] to Roger the plumber guy because that is
+[23:14] what we do here.
+[23:16] Go find that stub in the yard. Do it
+[23:19] today
+[23:20] while it is hot out and the system is
+[23:22] running
+[23:23] because today is when it will tell you
+[23:26] the truth. I will see you next time.

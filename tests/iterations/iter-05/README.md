@@ -1,6 +1,6 @@
 # TEST: iter-05, the first electrical test (Frederick Barnes)
 
-All material here is TEST. Run 2026-10-27 by the electrical scripting chat (session 9), after P13 was applied and Frederick marked ready.
+All material here is TEST. Run 2026-10-27 by the electrical scripting chat (session 10), after P13 was applied and Frederick marked ready.
 
 | File | What it is |
 |---|---|

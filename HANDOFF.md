@@ -249,6 +249,28 @@ From the review of the seven newest uploads and two VA chats (`studies/recent-up
 - **The voiceover copy's tags stay as they are** ("the VO copy tags sound fine for now. leave as is").
 - **Sawdust Sam goes into `main`** (the 2026-10-23/24 branch `claude/determined-darwin-3u43bh`, already on the account).
 
+### Operator decisions, 2026-10-27 (Roger the HVAC Guy: the diagnosis questions)
+
+From the operator's answers to the 11 questions in `drafts/hvac-pack-diagnosis-DRAFT.md` §9 (the HVAC chat, branch `claude/hvac-research-czb2hy`).
+- **Same man, same voice:** "roger is same voie same man." Roger the HVAC Guy is the same Roger as Roger the Pipe Guy (45 years), with the same ElevenLabs voice. *Reading recorded:* his profile copies the Pipe Guy's persona; only the trade, the villains' targets and the safety rules change.
+- **No book for now:** "no book for now." Read as option (a): no mid-video CTA, a one-line subscribe ask at the end, then the comment ask (the Vintage Pipefitter's pattern).
+- **His personal detail:** "3 yes": he checks his own furnace filter on the first of the month, with his coffee (at most one per script).
+- **The test voiceover** (how the voice says HVAC, MERV and AFUE; words per minute): "we will do this later."
+- **Where DIY stops:** "depends the title." *Reading recorded:* no fixed DIY line in the profile (the Pipe Guy's "never gas, electrical" hard no doesn't carry as it is); each title and brief sets what the viewer does, and the HVAC safety defaults still apply where the brief is silent (the brief wins, as in plumbing).
+- **The two channels never mention each other:** "6 never." Each profile gets a ban on the other channel's name, short forms included; this changes Roger the Pipe Guy's profile too, applied when the HVAC profile is built.
+- **No dated-facts rule:** "no need."
+- **The HVAC script and comment study first:** "yes please very imp."
+- **Everything marked KEEP** in the diagnosis is copied from the plumbing pack as it is (the opening, emotion, villain rules, ending, length, money, banned list, the escalation line): "11 yes."
+- **Asked back by the operator:** what the brand-verdict rules are (question 8) and what the seven scanner gaps are (question 10); explained in chat, waiting.
+- **The HVAC study's 12 suggestions** (`studies/hvac/comparison/README.md` §2), the operator's answers: 1 "potentially not always" (opening on the breakdown moment or the quote is an option, not every script); 2-9 "agree" (the villain rule with "you need a whole new unit" as the upsell's signature and the honest tech as the out; the four HVAC feelings; the same part priced by the clock and the quote against the part as money devices; **HVAC list items may run about 150-250 words**, a guide with no fluff; safety inside every hands-on item, including confirming the power is off with a tester; the comment question about the viewer's own numbers or house; Ray Dutton's catchphrases banned; both sides on split topics); 10 "agree but not always needed" (*reading recorded:* the HVAC model library is built from the picks, and a script uses a model where one fits, not on every script); 11 "we will decide this ourselves later" (the voice samples); 12 "agree" (the 12-minute minimum stays). Still open: whether "I read every one" (also Ray's line) stays in the ending.
+
+### Operator decisions, 2026-10-27 (building the HVAC pack)
+
+- **Build everything:** "please doe everything you can still do. get it ready. make the persona profile, the reference files, the price guide and so on. i want everything from your end done." *Reading recorded:* this covers the seven scanner gaps found in the diagnosis (core changes, each with a test), and "I read every one" stays in the ending as the plumbing pack has it (the KEEP list) until the operator says otherwise.
+- **Roger the HVAC Guy's profile:** "adapt the persona profile of roger just so its the same but only diff is it appleis to hvac now." Built from Roger the Pipe Guy's profile with only the trade, the no-book CTA, the filter-check detail, the "depends the title" DIY line and the name bans changed.
+- **No AI or faceless references:** "we dont want any ai or faceless for reference." No model, excerpt or voice sample in the HVAC pack comes from a faceless or AI-voiced video: not Ray Dutton's Garage, HVAC Exposed, Vent Exposed, Lost Survival Knowledge, grayfurnaceman (off camera), Got2Learn (a faceless voice-over), the operator's own channels or TheCheapFix. The pack keeps ten plumbing models from real people on camera (Silver Cymbal, Roger Wakefield, Arrow Pest Service, Nailed it).
+- **More Silver Cymbal:** "why is there no silver cymbal also?" His AC-not-cooling video (`_b6p0fkWhCY`, 4.3M) was added as model R44 (with the techs' corrections from its comments labelled), and his AC drain video is a voice sample.
+- **The reference list** (titles and channels) was shown to the operator for confirmation, as asked ("confirm with me which scripts u use as reference also").
 
 ### Operator decisions, 2026-10-27 (the electrical pack and Frederick Barnes)
 
@@ -261,7 +283,7 @@ From the review of the seven newest uploads and two VA chats (`studies/recent-up
 - **P11, the opening may carry one value promise** (an escalation, or "by the end of this video you'll know X and Y", never the first items in order): see `PROPOSALS.md` P11. Electrical only.
 - **Confirmed later the same day:** the 12-minute minimum with 15 to 22 the aim ("ok to 1"); the ending, a one-line subscribe ask then the comment ask last, as plumbing's P5 ("ok to 2, anad we say we read every comment": the comment line says he reads every comment). Default kept, not asked: the research pack is not used (the brief and the facts guide are the fact source).
 
-### Operator decisions, 2026-10-27, the electrical scripting chat (session 9): answers to E1-E6 and P12
+### Operator decisions, 2026-10-27, the electrical scripting chat (session 10): answers to E1-E6 and P12
 
 Asked as multiple choice; the operator picked:
 - **E1, P13's core checker fixes: "Yes, apply all".** The tenure bug (words and electrician phrasing), number words in the fact check, letter sets and two-way words judged once with a count ("live" added), the "3-in-1" false positive, voice tags in the script are fix-on-sight, `--final` fails a script under the length minimum, the scanner's ITEMS and SENTENCES report, `tools/verify_output.py` (run by the main session on every saved test output before the judge), the core evidence block's quoted lines (Items, Sentences, I-verdicts, Turns, Title word; every quote copied from the script), and **no sentence over 35 words on every channel** (fix-on-sight).

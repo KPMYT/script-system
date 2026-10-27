@@ -1,0 +1,471 @@
+# The Provident Prepper: combined transcripts (1 videos)
+
+---
+
+## 6 Lifesaving Tips to Keep Warm During a Winter Power Outage
+
+Video `erq-QuCN0G0` · 15:09 · 1,216,737 views · 73.43x normal · https://www.youtube.com/watch?v=erq-QuCN0G0
+
+[0:00] do you know how to stay warm during a
+[0:02] winter power outage
+[0:16] hi i'm jonathan and i'm ben and we are
+[0:18] the provident preppers
+[0:20] the grid has become increasingly
+[0:22] unreliable and the threat of
+[0:23] power outage in the dead of winter is
+[0:25] real we turned off
+[0:27] our power in the middle of winter just
+[0:29] to see if we could survive
+[0:31] this experience taught us six secrets
+[0:34] that just might save your life someday
+[0:36] in this video we will share these tips
+[0:38] with you and show that they can be used
+[0:40] no matter where you are
+[0:41] stay with us we have had a lot of
+[0:44] concern expressed by people about the
+[0:46] fragile nature of our power grid
+[0:48] and the possibility of having a winter
+[0:49] power outage we have created this video
+[0:52] to provide you with six life-saving
+[0:54] winter power outage tips
+[0:57] the first secret is to secure your home
+[1:01] to prevent heat loss
+[1:02] our goal is to keep the heat in and the
+[1:05] cold out
+[1:06] and we need to do this by blocking cold
+[1:09] air entry points you want to look at
+[1:12] your home and see
+[1:13] where you might have cold drafts coming
+[1:16] in
+[1:17] and we want to block those we also want
+[1:19] to insulate the windows because your
+[1:21] windows are a place where you
+[1:22] lose a lot of heat so take some time and
+[1:26] put some plastic up in front of your
+[1:27] windows you can put cardboard in them
+[1:29] you can even spray water on that window
+[1:32] and stick some bubble wrap up
+[1:34] on them but one way or another we want
+[1:36] to
+[1:37] prevent heat from being lost through
+[1:40] that window
+[1:41] as far as tape goes it's best to use
+[1:44] painters tape
+[1:45] you can use duct tape or packing tape
+[1:48] but the problem is
+[1:49] when the power comes back on and you've
+[1:51] got to pull that tape off the wall if
+[1:53] you've used duct tape
+[1:54] you're going to pull the paint off your
+[1:56] wall too the next step in this process
+[1:58] is to select a designated living area
+[2:01] obviously you don't want to try and heat
+[2:02] your entire home
+[2:04] so you're going to isolate yourselves
+[2:05] into a little smaller area
+[2:07] you can shut doors you can block off
+[2:09] areas using sheets or blankets
+[2:11] but you want to confine the activity and
+[2:13] the heat to a small
+[2:14] area in doing that you may want to
+[2:16] choose an area that has your kitchen
+[2:18] facilities in it or if you've got some
+[2:20] place with a built-in heat source
+[2:23] that's a great choice basements are
+[2:25] often very good because they have
+[2:27] ground insulation that helps keep them a
+[2:29] little bit more moderated
+[2:30] if possible you may want to choose an
+[2:32] interior area that's not
+[2:34] against an exterior wall and you may
+[2:36] want to choose a place where you can get
+[2:37] some strong sun in through the windows
+[2:40] secret number two is to create a
+[2:42] microclimate
+[2:43] a microclimate is a smaller area where
+[2:46] you can
+[2:47] build up some heat from your body or
+[2:50] other sources
+[2:51] and maintain it for instance in this
+[2:54] tent you will be amazed inside this tent
+[2:57] we've set up the bed there's chairs it's
+[2:59] comfortable
+[3:00] they can play games they can do
+[3:02] activities inside there
+[3:04] and it is significantly warmer than the
+[3:06] surrounding area
+[3:08] inside the home this is my pitch for a
+[3:10] tent
+[3:11] every prepper needs a good tent whether
+[3:14] it's so that you have shelter
+[3:15] if you need to evacuate or so that you
+[3:19] can survive
+[3:19] a winter powder outage a tent is an
+[3:22] amazing tool
+[3:23] that can provide you with that micro
+[3:25] environment or even some privacy
+[3:28] if you are bugging out in somebody
+[3:30] else's home
+[3:31] we had mentioned that we had turned our
+[3:33] power off in january and that was when
+[3:34] these guys were little
+[3:36] this is actually a picture from that
+[3:39] experiment
+[3:40] so as you can see we had little kids now
+[3:42] i wasn't willing to give up my bed
+[3:44] so we had set up these two little tents
+[3:46] there was a little tent for the boys and
+[3:47] a little tent for the girls and i put
+[3:49] them in their sleeping bags
+[3:50] and zip them in and tucked them good
+[3:52] night and i went to bed
+[3:54] in my bed with jonathan with five
+[3:56] blankets
+[3:57] piled on top of me and in the middle of
+[4:00] the night
+[4:01] i sat up terrified that i had killed my
+[4:04] children because of this stupid
+[4:06] experiment that i had wanted to do
+[4:08] and i went running out into the family
+[4:10] room and i unzipped one of the tents and
+[4:13] i was hit
+[4:13] in the face with this whoosh of hot air
+[4:17] and the kids were inside of there laying
+[4:20] on top of their sleeping bags
+[4:22] sweating the little tents a 15
+[4:25] tent did a fantastic job of creating a
+[4:28] micro
+[4:29] environment that could keep them warm in
+[4:32] spite of how
+[4:32] cold it had gotten inside of our home
+[4:35] tip number three
+[4:36] is incredibly obvious but very important
+[4:39] you need to dress warmly and dressing in
+[4:42] layers is ideal
+[4:43] you have a base layer that's against
+[4:45] your skin
+[4:46] that wicks the moisture away from your
+[4:48] body then you have a mid layer that is
+[4:51] intended to provide insulation this
+[4:53] could be a wool sweater
+[4:54] a flannel shirt or even a hoodie my
+[4:57] favorite is a hoodie because i can put
+[4:58] my hands in and keep my hands warm that
+[5:00] way
+[5:00] and then an outer shell usually your
+[5:02] outer shell is used to protect you from
+[5:05] the wind or the snow or the rain
+[5:07] but in this circumstance where you're
+[5:08] indoors the outer
+[5:10] shell is just to provide additional
+[5:12] warmth when the temperature drops
+[5:14] and when you warm up you just peel off
+[5:16] those layers or add more
+[5:18] in that experiment one of the things
+[5:20] that i learned was the importance of
+[5:22] wearing a hat
+[5:23] so for the first couple days i was all
+[5:25] worried about having hat hair right
+[5:27] because i'm
+[5:28] still operating in normal society but
+[5:31] then finally when i put on hat
+[5:33] i was so much warmer so make sure that
+[5:36] you think about hat
+[5:37] gloves socks and shoes the picture of
+[5:39] ben on the right if you look at his
+[5:41] hands
+[5:41] his little hands are just bright red
+[5:44] because
+[5:45] he's a two-year-old and he just won't
+[5:47] leave gloves on so
+[5:49] he was really cold while a minor blanket
+[5:52] may have
+[5:53] some benefit in reflecting some of that
+[5:55] heat back in
+[5:57] we're actually losing heat five
+[5:58] different ways and
+[6:00] it is so important that we use real
+[6:02] blankets
+[6:03] these have their place but nothing
+[6:05] replaces real blankets
+[6:07] tip number four is to drink warm liquids
+[6:09] and eat hot foods
+[6:11] these things help to warm you up from
+[6:13] the inside out
+[6:14] in order to do that you need to have
+[6:16] some kind of safe
+[6:18] indoor cooking equipment if you click
+[6:20] the card in the corner it will direct
+[6:22] you to a post that talks about
+[6:24] safe fuels and safe heating appliances
+[6:27] that you can use indoors
+[6:29] make sure that you stock a good supply
+[6:31] of shelf stable
+[6:32] easy to prepare foods that you can warm
+[6:35] up very easily
+[6:36] during a power outage tip number five is
+[6:39] to get up and move
+[6:40] being active will help you stay warm we
+[6:42] want to do moderate exercise
+[6:44] but we don't want to sweat because the
+[6:46] sweat will pull the heat
+[6:48] out of our bodies 20 minutes of exercise
+[6:50] will keep you warm for an hour
+[6:52] it doesn't have to be exercise per se
+[6:54] just playing
+[6:55] games with each other and interacting
+[6:57] can be enough
+[6:58] activity to warm you up but once again
+[7:01] you look at these little kids and look
+[7:02] at benjamin's little hands
+[7:04] they are so red he is so cold and sam is
+[7:07] so cold that he's tucking his arms
+[7:09] up under his side and yet they're
+[7:12] smiling and they're playing
+[7:14] and they're having a good time so moving
+[7:16] around can also
+[7:17] help you forget about the cold tip
+[7:19] number six is find
+[7:20] good potential heat sources in this
+[7:22] picture you can see a couple of really
+[7:24] good heat sources
+[7:25] a hot water bottle and a canning jar
+[7:27] full of hot water
+[7:28] both act as good heaters and will last
+[7:31] quite a long time
+[7:32] and let's not underestimate the value of
+[7:34] pet warmers
+[7:35] a nice pet on your lap can go a long way
+[7:38] to keeping you warm
+[7:39] and people warmers snuggling up together
+[7:42] and sharing the warmth
+[7:43] can provide a lot of comfort and
+[7:45] security as well as heat
+[7:47] and commercial hand warmers are a great
+[7:48] way to stay warm they make these for
+[7:50] bodies
+[7:51] feet and hands you can put these on the
+[7:53] shelf they'll last
+[7:54] several years these are really cool but
+[7:56] they're actually really hot
+[7:57] all you do is open the package and
+[7:59] they're activated in a chemical reaction
+[8:01] with the air
+[8:02] i really like the body warmers because
+[8:04] they have an adhesive back that you can
+[8:05] just pull off
+[8:06] and you can stick it to your undershirt
+[8:08] put your other clothing on top of it
+[8:10] and for eight to ten hours you have a
+[8:12] really nice heat source
+[8:14] one concern that jonathan and i have
+[8:16] talked about a lot is
+[8:17] how our people who don't have the money
+[8:20] or the space
+[8:21] to store really cool alternative heat
+[8:24] sources going to stay warm
+[8:26] and we're going to show you two of our
+[8:28] favorite ways the first
+[8:29] is with these simple tea lights this is
+[8:32] a tea light can heater
+[8:33] i think this can was just a can that we
+[8:36] had nuts
+[8:37] that came in and it was just the perfect
+[8:39] size and if you look at the bottom
+[8:41] there are seven or eight tea lights you
+[8:43] light them they can burn in there safely
+[8:45] but it provides a lot of
+[8:47] nice warmth it's not going to warm the
+[8:49] whole room
+[8:50] but it's a nice little space heater to
+[8:52] warm your hands
+[8:54] the tea lights and the matches and
+[8:55] everything can just tuck away really
+[8:57] nicely into this can
+[8:59] and just be stuck away somewhere until
+[9:02] you need it it takes up very little
+[9:04] space
+[9:04] you can also use tea lights to cook your
+[9:06] food in this example
+[9:08] we have this rack that's on top bricks
+[9:10] it will work better
+[9:11] if you put the pan closer to the tea
+[9:14] lights
+[9:15] and it doesn't bring it to a full
+[9:16] rolling boil it takes a little while
+[9:18] it's a
+[9:18] slow heat but you can definitely warm
+[9:22] your food using these tea lights
+[9:24] we often underestimate candles as a fuel
+[9:26] source
+[9:27] in this number 10 can we have 121 tea
+[9:31] lights
+[9:31] that will burn between three and six
+[9:34] hours each depending on the kind of tea
+[9:36] lights that you buy they produce about a
+[9:38] hundred btus an
+[9:39] hour and 13 lumens of light and up to
+[9:44] 2552 degrees
+[9:46] fahrenheit and yet they are perfectly
+[9:49] safe to store indoors a second option
+[9:52] is to create your own little heater
+[9:55] this is safety safe heat is a variety of
+[9:59] canned heat that is safe to burn indoors
+[10:01] not all canned heat is safe for indoor
+[10:04] use so make sure
+[10:05] that you get the right one these cans of
+[10:07] safe heat will burn for
+[10:09] six hours each so that's a lot of fuel
+[10:11] in that little can
+[10:12] we buy the portable folding camp stoves
+[10:15] to use as a base and put the safe heat
+[10:17] in them
+[10:18] you can use it to cook your food or you
+[10:20] can make it into a terra cotta pot
+[10:22] heater
+[10:23] and the way that you do that is just to
+[10:25] take a small
+[10:26] terra cotta pot put a little piece of
+[10:28] foil
+[10:29] above the hole so that that hole is
+[10:31] blocked and then you put a larger pot
+[10:33] on the top and this creates a nice
+[10:36] little heater that can warm your hands
+[10:37] it's too hot to touch it will burn your
+[10:39] hands
+[10:40] but kind of a nice little space heater
+[10:42] it's important to note that
+[10:43] just because you put those pots on top
+[10:46] it doesn't create any more heat
+[10:48] what it does is it just makes the heat a
+[10:51] little bit more
+[10:51] usable one case of safe heat has 12 cans
+[10:55] in it
+[10:56] which equals 72 hours of burn time
+[10:59] that can get you through a pretty
+[11:01] substantial emergency
+[11:02] the cheapest place that we've found to
+[11:04] purchase this is at sam's club in the
+[11:06] catering section
+[11:07] you can also purchase it on amazon and
+[11:09] we'll leave a link to it in the
+[11:10] description of this video
+[11:12] if you click the card in the corner it
+[11:13] will take you to a post that will teach
+[11:15] you exactly
+[11:16] how to create your own terra cotta pot
+[11:18] heater another great idea is to visit a
+[11:20] friend
+[11:21] or share the warmth if you've got the
+[11:23] ability to stay warm at home
+[11:24] invite others in we have a wood burning
+[11:26] stove that if our neighbors were cold
+[11:28] we'd definitely invite them in
+[11:30] and we would just make it a fun time
+[11:32] you've got your six
+[11:33] important tips to help keep you warm but
+[11:35] there are a few items that you really
+[11:38] should make sure that
+[11:39] you plan ahead and stock up on them you
+[11:42] should have
+[11:43] warm clothing coats hats gloves socks
+[11:46] and boots
+[11:46] for every member of your household one
+[11:49] of the big takeaways from the experiment
+[11:51] that we did when we turned off our power
+[11:53] is that you can never have enough
+[11:55] blankets and because of that experience
+[11:57] i don't
+[11:58] ever throw blankets out anymore anytime
+[12:01] a blanket is
+[12:02] no longer acceptable for household use
+[12:04] it gets folded up and put in one of
+[12:06] these boxes in the garage
+[12:08] because i know how many blankets it
+[12:10] takes to stay warm
+[12:12] and how valuable they really can be
+[12:14] during a power outage
+[12:15] let's not forget about tents and good
+[12:17] quality sleeping bags every family
+[12:19] should have these
+[12:20] whether you're going to be going
+[12:21] outdoors or whether you're using them
+[12:24] inside good quality plastic sheeting is
+[12:26] a
+[12:27] basic prepper tool that you don't ever
+[12:28] want to be without
+[12:30] but it's especially valuable during a
+[12:32] winter power outage
+[12:33] so make sure that you have some plastic
+[12:35] sheeting and painters tape now duct tape
+[12:38] and packing tape can also be used and
+[12:41] can be very handy
+[12:42] but the painters tape is really nice not
+[12:45] to damage your walls when that power
+[12:47] outage finally ends
+[12:48] stock up on warm foods for me
+[12:52] it's hot cocoa herbal teas and apple
+[12:55] cider
+[12:56] and for me it's chili and soups and make
+[12:58] sure that you have a good
+[13:00] indoor safe cooking device and the fuel
+[13:03] to go with it
+[13:04] here we're using an alcohol burner and
+[13:06] we are cooking using denatured alcohol
+[13:08] you could also use everclear
+[13:10] but those are some really good things to
+[13:12] use when you cook indoors
+[13:14] and my favorite mr buddy heater
+[13:17] this is the little propane heater that i
+[13:19] fell in love with
+[13:21] during our winter power outage it comes
+[13:24] in several sizes choose the one that
+[13:25] works best for you
+[13:27] power outage not a problem you've got
+[13:29] this covered
+[13:30] but make sure that you teach your
+[13:31] children so that they can stay warm
+[13:33] if you're not there okay you don't have
+[13:35] to be as crazy as we are and do it for
+[13:37] an extended period
+[13:38] but how about just turn off your power
+[13:41] for one night
+[13:42] see how your family does see what you
+[13:44] can learn where you need to improve
+[13:46] and really teach your family the skills
+[13:48] that they need to know
+[13:50] in order to stay warm we encourage you
+[13:52] to go to the prominent prepper and check
+[13:54] out six life-saving tips
+[13:56] to keep warm during a winter power
+[13:57] outage this post has more details
+[13:59] to help you on your path and on our
+[14:01] youtube channel
+[14:03] best heat sources this is a great video
+[14:05] to show you some of our favorite options
+[14:07] that will help keep you warm if the
+[14:10] power goes out
+[14:11] and surviving a winter power outage this
+[14:13] video is long but it walks you through
+[14:16] our experience where we turned off our
+[14:18] power in the middle of january
+[14:20] just to see if we could survive it and
+[14:23] yes we survived but it definitely
+[14:25] changed my life and we do things
+[14:27] differently now
+[14:29] because of that experience check them
+[14:31] out
+[14:32] advanced preparation can make a big
+[14:34] difference in your level of comfort when
+[14:36] surviving a power outage
+[14:37] today's tips can help you survive in the
+[14:40] dead of winter even if you don't have
+[14:41] all the comforts that you wish you had
+[14:44] and now for the question of the day what
+[14:46] experience do you have
+[14:47] living through a winter power outage and
+[14:50] what advice can you give to our viewers
+[14:52] to help them be more prepared
+[14:53] comment below and thanks for being part
+[14:56] of the solution
+[15:02] [Music]
