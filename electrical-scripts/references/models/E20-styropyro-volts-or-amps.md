@@ -106,13 +106,13 @@ The most-liked comment is an endorsement from a bigger electrical channel: "Ever
 [ITEM] (1) [FIRST-PERSON DEMO: banned]
 [3:22] here I've hooked up a car battery up to these steel rods now this battery can dump up to 1,000 amps yet touching these bar Rod doesn't do anything to me oh you think the battery's dead nope the thing is that battery can dump 1,000 amps but not through me it's only a 12vt source after all and my Skin's resistance is high enough to block all but a minuscule amount of current from going through my body
 
-[MECHANISM]
+[MECHANISM] [POINTING: banned]
 [3:47] this is ohms law in action you can't always use this logic when judging the hazard of an electrical source but does work for low voltages like this
 
 [ITEM] (2) [FIRST-PERSON DEMO: banned]
 [3:57] here I have a different flavor of High current power supply it's a Step Down Transformer I wound years ago and it's held up surprisingly well in this ice cream bucket being a Transformer it's AC unlike the battery but the voltage is still way too low to shock me check out the current when I drop a quarter across it that's over 1,000 amps
 
-[STAKES]
+[STAKES] [POINTING: banned]
 [4:17] of course just because these low voltage High current sources can't shock doesn't mean they're completely safe they can still burn you by simply heating things up it's also possible to get shocked in directly like by rapidly disconnecting them from an inductive load like this electromagnet because you get a big voltage Spike by doing this
 
 [ITEM] (3) [MYTH] [POINTING: banned]
@@ -121,7 +121,7 @@ The most-liked comment is an endorsement from a bigger electrical channel: "Ever
 [ITEM] (4) [FIRST-PERSON DEMO: banned]
 [5:13] seems simple enough right let's go ahead and put that idea to practice let me use this apple as a model of the human body it has an even higher resistance than me about 10 million ohms in order to put a lethal current of 100 milliamps through it ohms l says I need a million volts why don't we test that out you can watch the voltage here and the current here a couple notes about the setup I'm using a voltage divider so I don't kill my meter which means the actual voltage is 10 times higher than what the meter shows as for the current I'm measuring the voltage drop across a 1 ohm resistor which means the voltage measured is the current going through it in amps all right let's slowly crank up the voltage there oh it's condu ing H look at that the Apple's dead ohms lost it out need a million volts yet it was passing 100 milliamps at barely over 1,000 volts what gives
 
-[MECHANISM]
+[MECHANISM] [POINTING: banned]
 [6:11] it turns out you can throw ohms law out the window in situations like this because the Apple experienced something called dialectric breakdown when the voltage across an insulator reaches a high enough point the molecules in it get shredded by the electric field this means the insulator suddenly becomes a conductor and will allow a huge amount of current to pass through it Oh's law does not tell you when this happens
 
 [STAKES]

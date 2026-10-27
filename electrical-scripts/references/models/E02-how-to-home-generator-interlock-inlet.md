@@ -15,15 +15,15 @@
 | 0:19-0:41 | CALL AN ELECTRICIAN + SCOPE + FORWARD | if you're not comfortable around that much power, there's no shame in hiring an electrician; then into the job | reassurance | 77 |
 | 0:41-2:15 | ITEM (1) + FIRST-PERSON DEMO (banned) + MONEY (banned) | the inlet box: why a wider box (less strain on the wires), the manual lid, the power light, knockouts that must be drilled; bought cheap online and compared with a brand he owned | how-it-works, mild consumer nuisance | 349 |
 | 2:15-2:56 | ITEM (2)-(3) + CODE + CTA | wire sized to the amp rating (a 30 amp box wires the same, smaller wire); liquid-tight conduit; links | care | 143 |
-| 2:56-3:23 | STEP (1) + SAFETY | drill the box; main breaker off, then a meter check under the main | calm safety | 124 |
+| 2:56-3:23 | STEP (1) + SAFETY + UNSAFE (banned) | drill the box; main breaker off, then a meter check under the main | calm safety | 124 |
 | 3:23-4:38 | STEP (2)-(4) | mount the inlet with a screw into a stud; fittings in to measure the conduit; tape the wires together and push them through the bend | capability | 294 |
 | 4:38-6:26 | STEP (5)-(6) + MECHANISM | at the inlet: how the box is already grounded and where the panel ground lands; colour-coded terminals, neutral, red, black, each tightened and pull-tested | care, ease | 434 |
 | 6:26-6:48 | FORWARD + CTA | on to the panel, with a like ask in the middle | none | 81 |
-| 6:48-7:36 | STEP (7) + MECHANISM + SCOPE | the 50 amp two-pole breaker: the on-off for generator power and the overload trip, sized to the inlet and the generator; a 30 amp setup gets a 30 amp breaker | how-it-works curiosity | 186 |
-| 7:36-8:08 | STEP (8) + CHECK | ground to the ground bar, neutral to the neutral bar; look where the panel already puts them | care | 127 |
-| 8:08-9:22 | STEP (9)-(10) | the two hots into the breaker lugs, each pull-tested; hook the breaker on its tabs and snap it in | capability | 276 |
+| 6:48-7:36 | STEP (7) + ELECTRICIAN'S JOB + MECHANISM + SCOPE | the 50 amp two-pole breaker: the on-off for generator power and the overload trip, sized to the inlet and the generator; a 30 amp setup gets a 30 amp breaker | how-it-works curiosity | 186 |
+| 7:36-8:08 | STEP (8) + CHECK + ELECTRICIAN'S JOB | ground to the ground bar, neutral to the neutral bar; look where the panel already puts them | care | 127 |
+| 8:08-9:22 | STEP (9)-(10) + ELECTRICIAN'S JOB | the two hots into the breaker lugs, each pull-tested; hook the breaker on its tabs and snap it in | capability | 276 |
 | 9:22-9:34 | FORWARD | the interlock is still to come, then power on and a test | anticipation | 53 |
-| 9:34-10:36 | STEP (11) | drill the panel cover and fit the interlock plates so the slide still moves | care | 208 |
+| 9:34-10:36 | STEP (11) + ELECTRICIAN'S JOB | drill the panel cover and fit the interlock plates so the slide still moves | care | 208 |
 | 10:36-11:15 | CHECK + FIRST-PERSON DEMO (banned) | the lockout shown: generator breaker on, main can't go on; main on, generator breaker can't | relief (the safety works) | 125 |
 | 11:15-12:15 | STEP (12)-(13) + CHECK | panel stickers; the storm-night order (start the generator, plug in at the house, plug in at the generator, breaker on); the inlet's light | capability | 201 |
 | 12:15-12:54 | END + ASIDE + CTA + END | the whole house running, even a big air conditioner with a soft start (a plug for his video on it); not too hard to do | security, pride | 149 |
@@ -116,7 +116,7 @@ The search is urgent and seasonal, and the video answers it plainly. The most-li
 [STEP] (1) [FIRST-PERSON DEMO: banned]
 [2:56] all right so let's get this thing installed now before i go out and shut off the power in order to install all of this i'm going to go ahead and again with this particular box the holes can't be punched so i'm going to drill it out with my drill press all right so now that i've got that hole cut in that box now i can get started with the wiring
 
-[SAFETY]
+[SAFETY] [UNSAFE: banned]
 [3:10] so the first thing i want to do is make sure that i've got the main breaker shut off and then after i've got the breaker shut off then i'm going to take a multimeter just to confirm that there is in fact no power flowing underneath of that main breaker
 
 [STEP] (2)
@@ -137,7 +137,7 @@ The search is urgent and seasonal, and the video answers it plainly. The most-li
 [STEP] (5, cont.)
 [5:20] so i'm just going to unscrew it and then after it's loosened i'm just going to take my green ground that's coming from the main panel put it underneath of that piece of metal and then i'm going to re-tighten the screw and then clamp both of the green grounds down give it a pull and now this box is completely set up to be grounded
 
-[STEP] (6)
+[STEP] (6) [POINTING: banned]
 [5:36] all right so on this plug it's pretty dummy proof they've actually color coded everything to designate which wire goes where so i'm going to start with the white neutral wire and i'm going to put it into the white hole on the plug then after it's put into the hole there's this lug over here on the side i'm just going to tighten it all the way down as hard as i can and then after it's all tightened down then i'll give it a nice pull just to make sure it won't come out and then i'll try to tighten it down a little bit more all right so now my white wire is in place so i'm just going to take my red wire and put it in the red hole on the plug push it all the way in until it's seated and then tighten it down and then last but not least i'll take my black wire and put it into the hole that's marked black and then tighten it down all right so my power inlet box is now completely hooked up so now i can put it together
 
 [FORWARD]
@@ -146,7 +146,7 @@ The search is urgent and seasonal, and the video answers it plainly. The most-li
 [CTA]
 [6:26] so while i'm getting that backup power all set up you can give this video some power yourself if you're liking the video or you're finding it be helpful and informative please do me a big favor and give it a thumbs up right down below it really does help the video out to spread out to more people and hopefully be able to help them out as well i really appreciate it
 
-[STEP] (7)
+[STEP] (7) [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [6:48] let's get back into it so now i need to take all of my wires and some of them will get attached to the box itself and then the hot wires will get attached into this 50 amp double pole breaker
 
 [MECHANISM]
@@ -155,22 +155,22 @@ The search is urgent and seasonal, and the video answers it plainly. The most-li
 [SCOPE]
 [7:25] now of course if someone was installing a 30 amp power inlet box you would want to go with a 30 amp double pole breaker just have to install what's needed for your particular installation
 
-[STEP] (8)
+[STEP] (8) [ELECTRICIAN'S JOB: explain, never the viewer's step] [POINTING: banned]
 [7:36] so as always i'm going to start off with my green ground wire i'm going to attach it over here to this ground bus bar that's over here on the right side so then once i've got it into the ground bus bar then all i do is just tighten down that lug right on top of it as tight as it can go next i'm going to take my white neutral wire and it's going to go down here where this other white neutral wire is
 
-[CHECK]
+[CHECK] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [7:55] so always want to pay attention to the panels if you see neutrals on one side on a bus bar and you see the grounds on the other side then of course that's designated as to where they should go
 
-[STEP] (9) [POINTING: banned]
+[STEP] (9) [ELECTRICIAN'S JOB: explain, never the viewer's step] [POINTING: banned]
 [8:08] all right so now all i've got left is my black and my red wires so if you take the double pole breaker and you flip it to the bottom side you'll see these two holes here this is where the wires go up inside once they are seated all the way up then there are these lugs right in here that need to be tightened down that are going to clamp that wire into place so i'm going to take my red wire i'm going to insert it up into this hole here and it doesn't matter which one it goes into once it's fully seated then i'll just tighten down that lug until i can't tighten it down anymore give it a good pull all right so i'm just going to take my black wire and put it into this last remaining hole on the double pole breaker push it all the way up till it's nice and seated and then tighten it down all the way
 
-[STEP] (10)
+[STEP] (10) [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [8:54] all right so now all the wiring is attached now i just need to install the breaker and it acts like a hinge you've got these two spots here on the bottom where the bottom of the circuit breaker makes contact with first and it goes in at an angle so i'm just going to go ahead and put the breaker on those bottom tabs there so then once i'm able to rock it on those two tabs then all i have to do is just push up on the circuit breaker and it'll snap into place up here at the top so now it is installed
 
 [FORWARD]
 [9:22] all right so now the power inlet box is completely hooked up and wired up to the main panel but i still need to install the interlock kit in order to make this installation complete turn all the power back on and test everything out so let's go ahead and install that now
 
-[STEP] (11)
+[STEP] (11) [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [9:34] all right so now that we've got our panel cover in the garage we can now drill our holes and we're going to use an 11 64 drill bit in order to drill this and we're going to use these pre-drilled holes that were already in the back plate so at this point we're able to reattach the front plate to the back plate and we do this by using the binder screws that come in the kit and they'll insert in through the back part of this panel cover up through the holes in the back plate and then of course through the holes then in the front plate and then we'll tighten them down using the binder post or the nuts that come in the kit we'll tighten them down to where it's tight but and everything's together but this front plate is still able to slide back and forth all right so now that we've gotten everything tightened down and this front plate is still able to slide freely that's exactly how we want it to be now we'll go back out to the main panel and put the panel cover back up on there and test the interlock kit out on the circuit breakers
 
 [CHECK] [FIRST-PERSON DEMO: banned]
@@ -208,6 +208,7 @@ The search is urgent and seasonal, and the video answers it plainly. The most-li
 
 ## Doesn't transfer
 
+- **The panel half of the job is the presenter's own work inside a live panel** (with the main off, the service wires above it stay live): [7:39] "i'm going to attach it over here to this ground bus bar"; [8:08] "all right so now all i've got left is my black and my red wires"; [9:36] "now that we've got our panel cover in the garage". For Frederick this is the licensed electrician's part, put in with a permit: the script says what the electrician fits and why (the interlock makes it impossible to have the main and the generator breaker on together), and gives the homeowner only the outside jobs (the storm-night order, the inlet, the cord, the generator's place outdoors).
 - **Greeting with a name:** [0:00] "hey y'all adam here"
 - **First-person shopping and money** (no money framing on this channel): [0:54] "i went on amazon"; [0:58] "least expensive power inlet boxes"; [2:11] "it was at least half the price"
 - **Product verdicts from his own boxes:** [1:41] "i think it's more of a gimmick"
@@ -220,3 +221,4 @@ The search is urgent and seasonal, and the video answers it plainly. The most-li
   - The verify-dead line is right as far as it goes, but with the main off the service wires coming into the panel are still live; the video doesn't say so, and Frederick must: [3:17] "i'm going to take a multimeter just to confirm that there is in fact no power flowing underneath of that main breaker"
   - The reason for the interlock (never the main and the generator on together, so generator power can't feed back out to the street lines) is never said; only [0:14] "is just simply a must not just from a code standpoint but from a safety standpoint as well"
   - Nothing on the generator's neutral-to-ground bond (the most-liked complaint, 195 likes) or on a permit; the storm-night order starts straight at the generator: [11:33] "the first thing i do is i start up my generator"
+  - No carbon monoxide line and nothing on where the generator stands while it runs: [11:33] "the first thing i do is i start up my generator". Every Frederick script with a running generator says both, from facts guide §11 (11.1 to 11.7).

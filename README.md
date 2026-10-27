@@ -57,7 +57,7 @@ Built 2026-10-27 for Frederick Barnes from the plumbing pack, with electrical's 
 | `references/facts-guide.md` | Well-established US electrical facts (code rules, sizes, safety facts, the emergency steps, the terms to explain), each marked confirmed, adjusted, one source, reading or thin; researched and re-checked by two helpers (evidence in `studies/electrical/facts-research-2026-10-27/`). No prices. |
 | `references/voice-samples.md` | Verbatim stretches of real human narration from the models: the voice anchor. |
 | `references/excerpts.md` | Real lines from the models grouped by job, with model ID and timestamp. |
-| `references/models/` | 31 model files (E01-E32, no E06): real channels, 1M+ views, mostly 2022 on; each a beat map, emotion voicing, why it works, the full labelled script and what doesn't transfer. `INDEX.md` sorts them by video type. |
+| `references/models/` | 37 model files (E01-E38, no E06; E33-E38 added after review R3, E38 a pre-2022 idea reference for A14): real channels, 1M+ views, mostly 2022 on; each a beat map, emotion voicing, why it works, the full labelled script and what doesn't transfer. `INDEX.md` sorts them by video type. |
 | `model-file-spec.md` | How the model files were built. Not in the installed skill. |
 
 ## ideation/

@@ -192,7 +192,7 @@ The title's promise is the viewer's own pride: a tool they already own does thin
 [CHECK] [FIRST-PERSON DEMO: banned]
 [8:43] and then as we get it out check this out now all those threads are intact and I can just thread this right into something it's not going to be broken off or stubborn on that end there it's really just ready to go which is pretty great
 
-[ITEM] (8)
+[ITEM] (8) [POINTING: banned]
 [8:54] on a set of wire strippers like this that's really the end of the functionality for it there's really nothing else other than our little tab here that will keep the handles closed and it makes sure that it's easy to slip this inside and outside of your bag repeatedly all day if you want to keep those clothes it takes up less space and it's less likely to snag on things
 
 [FORWARD]
@@ -216,7 +216,7 @@ The title's promise is the viewer's own pride: a tool they already own does thin
 [ITEM] (10) [POINTING: banned]
 [10:33] now these ones you can see are a little bit different than the others but one of the things I love is the blades on these are amazing these do a really good job they're are overlapping blades and they do a great job at cutting anything you need to I thought it would be good to show a different set of wire strippers so you can see a lot of the same functions and features are there it's just laid out a little bit differently we have our needle nose pliers up here we have the wire Grabber in there this one goes from 10 to 26 on the solid and and then 12 to 28 on the stranded and again marked solid and stranded there we have our bolt shears down here we have the shepherd's hook or the hook hole right down here
 
-[ITEM] (10, cont.)
+[ITEM] (10, cont.) [POINTING: banned]
 [11:08] and one thing that we didn't see on the other sets is that this one has a crimper right here so the crimper is pretty handy and if you see on this side it shows insulated for crimping it will do from 10 to 22 gauge and it's got non-insulated over here
 
 [FORWARD]
@@ -237,7 +237,7 @@ The title's promise is the viewer's own pride: a tool they already own does thin
 [FIRST-PERSON DEMO: banned]
 [12:35] funny little cutter built in up here that again does an okay job at least there we go it just pops that right off and there it goes and then this is the stranded wire again and regardless of what size I can just put it in there it's got kind of a little alligator mouth in here and then it's going to pull that off now this one depending on the length it may or may not actually remove all of the extra sheathing it might just cut it off like it did there then I I can take some solid core for example like the 12 gauge here feed that in and then off it goes so it does a great job with that no worrying about different sizes or gauges or anything like that just put it in squeeze the trigger and you're good to go
 
-[ITEM] (11, cont.)
+[ITEM] (11, cont.) [POINTING: banned]
 [13:15] the other cool thing is on this one it does have your millimeter depth here so it can remove as much or as little as you need and then you've got your plus and minus on here to show exactly how much pressure that it's going to use essenti with it so typically you're going to keep it a little higher for solid wire and then a little lower for stranded wire so definitely a pretty handy little tool right here
 
 [END]

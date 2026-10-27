@@ -174,7 +174,7 @@ It turns a dull tool question into a hunt with a twist, and viewers who already 
 [SCOPE]
 [13:36] you do still have to use a slotted screwdriver and a Filip Screwdriver from time to time but if you carry this these three tools this little kit here as your packout you are in good shape you can do pretty much everything that you need to get to no matter what this is what I would go
 
-[CHECK] [SCOPE]
+[CHECK] [SCOPE] [POINTING: banned]
 [13:56] with that said don't go out and run and buy new tools unless you're already in the market for them mostly you probably already have what you need any bit uh set like this one here typically comes with Robertson number ones right here and Robertson number twos right here you're going to find these in your house most likely if you've ever bought any of these kits like this if you want to use an impact driver or a drill for doing your electrical work which a lot of us do then there's tons of bits um right in front of me I've got dewalts I've got bosches I've got makitas and I know that pretty much every other brand makes these too the only downside I found is that when you go to the hardware store you cannot find a Phillips and a slotted plus a Robertson number one it's always Robertson number two I don't know why the Robertson number two is like the reigning champ of sizes it works great for your bigger stuff for your electrical panel work it's really no good for when you're trying to work with outlets and light switches which we as diyers tend to use so often so keep an eye out for the different sizes but you can buy everything that you need you can you can buy insulated you can buy bits and so on
 
 [COMMENT]

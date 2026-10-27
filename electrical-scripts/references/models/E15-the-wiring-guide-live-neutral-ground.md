@@ -122,7 +122,7 @@ It promises to end years of confusion and does it in under nine minutes, and the
 [MECHANISM] [POINTING: banned]
 [4:41] Now, this metal is connected to the earth wire. The earth wire from there is connected to neutral somewhere upstream, somewhere closer to the source, to the transformer.
 
-[MECHANISM] [FIRST-PERSON DEMO: banned]
+[MECHANISM] [FIRST-PERSON DEMO: banned] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [4:53] It can be connected inside the breaker panel. I'll open the breaker panel and show you. So, this bus bar is where all the earth wires from the house wiring are connected to. And this can be connected to neutral, but before circuit breakers. In that case, you wouldn't need this thick earth wire going anywhere further. Or it could be connected just before the meter. This box represents our meter. So, the earth wire will be connected to neutral just here and wouldn't go any further. Or it could go all the way to the transformer and be connected to the neutral there.
 
 [MECHANISM]

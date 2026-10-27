@@ -121,7 +121,7 @@ The mistake is one viewers have made without knowing, and the pull test makes it
 [CHECK] [FIRST-PERSON DEMO: banned]
 [4:30] all right so now once we have that folding on we can look down inside you can see the stranded is much higher up and is biting into that wire nut so that same pull test is not going to pull the wire out like it did last time so you can kind of yank on these all you want and it's just not going to happen
 
-[MECHANISM] [FORWARD]
+[MECHANISM] [FORWARD] [MONEY: banned for this channel]
 [4:53] now a correctly installed wire nut is really hard to beat in terms of price and the proven durability the challenge is it does take a little getting used to so if you're starting off on your electrical project i actually have a better solution and it is the connector i've been using for the last year let me show you
 
 [CTA]

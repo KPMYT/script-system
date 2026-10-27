@@ -24,7 +24,7 @@
 | 7:07-8:42 | ITEMS (5-6) + MECHANISM + CHECK | downside one, the plain outlet version does less; downside two, nuisance tripping, what causes it, and how to read a trip (a real problem or a noisy device) | nuisance ("make it stop") → understanding | 310 |
 | 8:42-9:33 | ITEM (7) + MONEY (banned) + CODE | downside three, the biggest: about ten times the price, with outlet and breaker prices, and it adds up in a remodel or new build | doubt (is it worth it?) | 177 |
 | 9:33-10:19 | QUESTION + STAKES + CODE | the worth-it question asked in the viewer's voice; a house-fire figure, the people you live with; the national code now asks for it in most rooms | protective love, fire fear | 158 |
-| 10:19-10:34 | POINT + END | the verdict: worth it, and the price should fall as it spreads | resolution, relief | 49 |
+| 10:19-10:34 | POINT + END + MONEY (banned) | the verdict: worth it, and the price should fall as it spreads | resolution, relief | 49 |
 | 10:34-10:42 | CTA + CLOSE | like, subscribe, see you in the next one | none | 37 |
 
 - **Items or steps:** 7 blocks. Four contenders (the shock protector, the arc protector, the combination arc protector, the dual-function breaker), then three downsides of the arc protector. Contender blocks run 1:30 to 2:00 with their stakes (the first runs 0:12-2:03 with its forms; the arc protector 3:00-4:46); the downsides are shorter: about 24 seconds (7:07-7:31), 1:11 (nuisance tripping, 7:31-8:42, the longest because it carries the how-to-read-a-trip check) and 51 seconds (the price, 8:42-9:33). Order: the familiar one first (it's "the most common"), then the ordinary breaker as a baseline, then the arc protector against that baseline, then its upgrade, then the device that does both, then the catches, then the worth-it verdict. Each contender is built the same way: what the name means, what it detects, the danger it stops (with a picture from the house), where you'd find it.
@@ -60,7 +60,7 @@
   - [6:25] "but thankfully, you don't have to choose"
 - **Protective love** (at 9:57; once, at the decision).
   - [9:57] "if you're raising a family, and you have more than just yourself in your house"
-- **Arc:** look-alike curiosity → how each one works → the danger each one stops (shock, then fire inside the wall) → the catches (nuisance trips, price) → "is it worth it?" → yes, for the people you live with.
+- **Arc:** look-alike curiosity → how each one works → the danger each one stops (shock, then fire inside the wall) → the catches (nuisance trips; price: banned for us) → "is it worth it?" → yes, for the people you live with.
 
 ## Why it works
 
@@ -110,7 +110,7 @@ Experienced viewers vouch for it and beginners thank it for clarity: "I am an el
 [ITEM] (3, cont.)
 [6:00] So, a CAFI is designed to detect and react to those situations as well. So, really if you're wanting to detect and protect against all situations that are possible, at least that we have the ability to protect against now, you really need to have a CAFI in place to protect against an arcing situation.
 
-[ITEM] (4) [SCOPE]
+[ITEM] (4) [SCOPE] [MONEY: banned for this channel]
 [6:21] Now, to protect against a ground fault situation, you still have to have GFCI in place, but thankfully, you don't have to choose between whether or not you want CAFI or AFI or GFCI protection for a circuit. You can actually go with what they call a dual function CAFI/GFCI breaker. So, if you want the ultimate level of protection in your home against any type of a fault or arcing situation, look for dual interrupt breakers. And if you install these in your breaker box, if your breaker box is new enough to handle these, and if you have the budget that will allow for these, these will give you the highest level of protection that you can get for your home.
 
 [FORWARD]
@@ -131,7 +131,7 @@ Experienced viewers vouch for it and beginners thank it for clarity: "I am an el
 [MONEY: banned for this channel] [CODE]
 [9:23] So, this can be a significant expense, especially if you're going through a remodel of your home or if you're looking at, you know, building a new construction home, depending on what the codes are, the electrical codes are for your area.
 
-[QUESTION]
+[QUESTION] [MONEY: banned for this channel]
 [9:33] So, at this point you might be thinking to yourself, "Is it really worth the extra expense for AFCI?"
 
 [STAKES]
@@ -140,7 +140,7 @@ Experienced viewers vouch for it and beginners thank it for clarity: "I am an el
 [CODE]
 [10:09] The other thing I want to mention is that the NEC has actually adopted AFCI as a standard. And I'm not talking about just protecting like bedrooms. I'm talking about protecting all common areas.
 
-[POINT] [END]
+[POINT] [END] [MONEY: banned for this channel]
 [10:19] So, because of these two things, I think AFCI is worth the extra cost, and at the same time, once more and more houses start having AFCI built into them, once these things start becoming more mainstream, the cost should go down because of the supply and demand issue.
 
 [CTA] [CLOSE]
@@ -150,6 +150,7 @@ Experienced viewers vouch for it and beginners thank it for clarity: "I am an el
 
 - **Pointing at the footage:** [0:00] "Both of these receptacles look identical", [1:41] "in a receptacle format like this here", [4:36] "in the form of a receptacle like this one right here"
 - **Money** (no money framing on this channel): [8:57] "you're going to spend like two or three dollars" and [9:19] "those are going to range between probably about 50 to 70 dollars per breaker"
+- **The verdict is a cost verdict** (no money framing on this channel): [9:36] "Is it really worth the extra expense for AFCI?" and [10:21] "I think AFCI is worth the extra cost"; [6:54] "if you have the budget that will allow for these". Ours takes the catches as nuisance trips and what the local code requires, and ends on where each device belongs in the house, with no cost.
 - **A first-person source line:** [9:42] "I found a study that says" (say the figure from the brief, as the source gives it)
 - **Factual slips to check against the brief:**
   - [3:09] "these are designed to detect and respond to sudden spikes of power that can occur" (an arc-fault device listens for the electrical signature of arcing, not power spikes; the top comment, 300 likes, says the same)

@@ -1,8 +1,8 @@
 # Excerpt library: how the winners say each kind of thing (electrical)
 
-Short lines from the 31 electrical model winners, grouped by the job the line does. Each one shows its source as model ID · channel · [timestamp] · the video's views against its channel normal, plus UK or other where the channel isn't American.
+Short lines from 31 of the electrical model winners (E01 to E32, no E06), grouped by the job the line does. Each one shows its source as model ID · channel · [timestamp] · the video's views against its channel normal, plus UK or other where the channel isn't American.
 
-**Sources:** the labelled scripts in `references/models/` (E01 to E32, no E06), all from real, on-camera channels with 1M+ views. Views against normal come from each file's header and `references/models/INDEX.md`. Normals differ hugely between channels (3,950 on The Wiring Guide, 4,800,000 on styropyro), so compare a ratio only with others on the same channel.
+**Sources:** the labelled scripts in `references/models/` (E01 to E32, no E06), all from real, on-camera channels with 1M+ views. The six models added after review R3 (E33 to E38) are not quoted here yet. Views against normal come from each file's header and `references/models/INDEX.md`. Normals differ hugely between channels (3,950 on The Wiring Guide, 4,800,000 on styropyro), so compare a ratio only with others on the same channel.
 
 **How quotes are given:** verbatim from the model file's script, checked by script against it: every quoted line appears word for word in its model file. The timestamp is the start of the caption block where the quote begins. Nothing is cut and nothing is fixed: caption slips, missing capitals and missing punctuation are kept as the captions have them (several channels' captions run without punctuation, so their lines read as one long sentence).
 
@@ -41,7 +41,7 @@ Short lines from the 31 electrical model winners, grouped by the job the line do
 The opening's first job: the problem the viewer has right now and, wherever the title allows, the fix or the answer, by about 15 seconds. Notice that the best ones put the viewer in the job ("you're jumping into"), name the problem and define it in the next breath, or give item one inside ten seconds. Borrow the placement and the length; never hold the answer back. Wording is never copied: the copy guard flags any run of 8 or more words shared with this file.
 
 1. "so you're jumping into what should be a quick little electrical update project you just want to swap out this outlet" (E09 · Everyday Home Repairs · [0:00] · 15.11x)
-   **Shape:** the viewer in the middle of the job, in the second person, before the problem; the short wires land at 0:10.
+   **Shape only** (drop "this outlet": name it, "an outlet"): the viewer in the middle of the job, in the second person, before the problem; the short wires land at 0:10.
 2. "So, a fairly common issue that many DIYers will come across at some point or another are sunken electrical outlets. And a sunken electrical outlet is where the receptacle sits too far back from the wall surface." (E11 · How To Home · [0:00] · 8.20x)
    **Shape:** the problem named, then defined in plain words in the second sentence.
 3. "the number one mistake people make when wiring up an outlet is they connect the wrong wire to the wrong terminal" (E26 · Silver Cymbal · [0:10] · 55.74x)
@@ -76,6 +76,8 @@ A question the viewer can answer about their own house, answered within about 15
    **Shape:** the question everyone has argued about, as sentence one, with "but" inside it.
 7. "but how do we know whether to hook up the black or the red wire coming out of the ceiling to the black or the blue wire that's on the fan" (E30 · How To Home · [3:50] · 5.70x)
    **Shape:** the viewer's own next question, asked at the step where they'd ask it. A body line, not an opening one.
+8. "But the other thing you need to pay attention to is what is your wall made of?" (E11 · How To Home · [3:12] · 8.20x)
+   **Shape:** a question about the viewer's own wall, answered in the next breath (wood paneling burns, so the rule matters).
 
 - **Problem:** "so does anybody see the mistake with this wire on this terminal screw" (E24 · How To Home · [3:48] · 64.55x)
   The viewer can only answer by watching his hands. Ours asks about the viewer's house, never about the footage.
@@ -91,7 +93,7 @@ One line per item on what it risks: fire, shock, the hidden bad work, the cheap 
 3. "if polarity isn't enforced in the plug and the switch happens to be on the neutral side when you plug it in then all of the heating elements and bus bars that are literally right there and in Easy reach would be live at 120 volts even when the toaster isn't toasting" (E17 · Technology Connections · [2:23] · 3.60x)
    **Shape (shock):** live metal when the switch says off, on a toaster everyone owns. **Watch:** the pun after it is a joke; ours has none, and the voltage is written in words.
 4. "we have extremely short wires coming into this box and they do not meet code" (E09 · Everyday Home Repairs · [0:10] · 15.11x)
-   **Shape (hidden bad work):** what's found in the box, said as a plain fact, with no one blamed.
+   **Shape only (hidden bad work)** (drop "this box": name it, "the box"): what's found in the box, said as a plain fact, with no one blamed.
 5. "but many people wire up outlets incorrectly and the outlet still seems to work fine but they've created a reverse polarity condition" (E26 · Silver Cymbal · [0:39] · 55.74x)
    **Shape (doing it wrong):** the habit nobody notices because the outlet still works; two "but"s in one sentence.
 6. "Like this can happen for several reasons, but the most commonly cited one is a poor quality receptacle." (E18 · Technology Connections · [26:10] · 1.08x)
@@ -135,7 +137,7 @@ The opening may carry one value promise (an escalation, or what the viewer will 
 3. "there's a big mistake that I see people making which is getting the live and neutral the wrong way around in other words reverse polarity and I'll tell you why they do that and how it's easy to avoid" (E27 · Artisan Electrics · [2:45] · 11.88x · UK)
    **Shape:** the why promised with the mistake, paid within a minute. ("live" is UK; ours says hot.)
 4. "a lot of people have told me though that these tend to cam out or slip and again I'm going to circle back to that one in just a little bit" (E31 · LRN2DIY · [6:43] · 38.07x)
-   **Shape:** the viewer's doubt named and promised an answer; paid at 12:30.
+   **Shape only** (drop "people have told me": Frederick has no audience history; name the doubt as the typical case): the viewer's doubt named and promised an answer; paid at 12:30.
 5. "Now that we know the advantages of AFI, let's talk about some of the disadvantages of AFI." (E22 · Top Homeowner · [7:00] · 105.75x)
    **Shape:** a bridge that turns from the good news to the catches.
 6. "but if that doesn't work let's go on to step two" (E09 · Everyday Home Repairs · [2:47] · 15.11x)
@@ -235,7 +237,7 @@ A check the viewer can do at home, safely, with what they'll see either way. Not
 3. "once you've tightened up the screw just give a little pull on the backs of the wires to make sure that they don't pull out of the terminals" (E27 · Artisan Electrics · [8:59] · 11.88x · UK)
    **Shape:** the tug test on a finished connection, with the power off. The words are not UK-specific.
 4. "compared to all of the rest of the breakers around it the handle just doesn't really feel like it's got any mechanical strength in the spring anymore" (E12 · Electrician U · [2:56] · 21.16x)
-   **Shape:** a check on the outside of the panel, by feel, against its neighbours.
+   **Shape:** a check on the outside of the panel, by feel, against its neighbours. **Watch:** use only if the brief gives this check; the facts guide doesn't.
 5. "use a plug-in tester like this this will confirm that the polarity is correct and your ground wire has also been connected properly" (E26 · Silver Cymbal · [0:49] · 55.74x)
    **Shape only** (drop the pointing, "like this"): name the plug-in tester and say what its lights tell you.
 6. "And to be safe, I would periodically feel how warm the plug is after your car has been charging for an hour or so. If it's hot, there's a problem." (E18 · Technology Connections · [27:39] · 1.08x)
@@ -246,7 +248,7 @@ A check the viewer can do at home, safely, with what they'll see either way. Not
 
 ## 10. Power off and prove it
 
-The rule that protects everything: breaker off, then prove it's off with a tester that's been checked on a live outlet first, inside the first step that needs it. Notice that the models that do it best put it at the moment the cover comes off, in one or two plain sentences, and that only a few prove the tester works first. Borrow the placement and the plainness; ours always names the breaker and the tester. Sample 2 in `references/voice-samples.md` (E08, 1:23-2:33) is the fullest US example. Wording is never copied: the copy guard flags any run of 8 or more words shared with this file.
+The rule that protects everything: breaker off, then prove it's off with a tester that's been checked on a live outlet first, inside the first step that needs it. Notice that the models that do it best put it at the moment the cover comes off, in one or two plain sentences, and that only a few prove the tester works first. Borrow the placement and the plainness; ours always names the breaker and the tester. The fullest US sequence is E08 1:23-2:33 (the tester shown working on the live outlet, the breaker, the tester again), but it proves only the outlet's slots: ours also checks the tester on a known live outlet first and proves the wires dead before anything is touched (SKILL "Safety" 1). Wording is never copied: the copy guard flags any run of 8 or more words shared with this file.
 
 1. "But like always, anytime we're making any kind of an electrical repair or install, the first thing we always want to do is make sure that we turn off the circuit breaker that is supplying the power to the circuit we're going to work on." (E11 · How To Home · [1:00] · 8.20x)
    **Shape:** the breaker as the first thing in the first step. Ours says "you", not "we".
@@ -282,7 +284,7 @@ Breaker back on, then the check that it works: the tester, the TEST button, the 
 
 ## 12. Call-an-electrician lines with a named trigger
 
-The line that says exactly when the job stops being the viewer's. **The models are thin here:** almost every call-an-electrician line is vague ("if you're not confident"), which our rules ban. Only E18 names a trigger. The shape in plain words: the sign the viewer can see or feel (the wire is scorched or brittle, the breaker trips again the moment it's reset, the panel has no room), then "stop", then who does it and why, in one or two lines. Wording is never copied: the copy guard flags any run of 8 or more words shared with this file.
+The line that says exactly when the job stops being the viewer's. **The models are thin here:** almost every call-an-electrician line is vague ("if you're not confident"), which our rules ban. Only E18 and E12 name a trigger. The shape in plain words: the sign the viewer can see or feel (the wire is scorched or brittle, the breaker trips again the moment it's reset, the panel has no room), then "stop", then who does it and why, in one or two lines. Wording is never copied: the copy guard flags any run of 8 or more words shared with this file.
 
 1. "If yours is full, there's a pretty good chance you can consolidate existing circuits and free up space, but you're going to need to consult a professional to find out whether or not that's possible in your situation." (E18 · Technology Connections · [6:53] · 1.08x)
    **Shape:** the named trigger (a full panel), the hope, then who decides. The only one in the set.
@@ -292,6 +294,8 @@ The line that says exactly when the job stops being the viewer's. **The models a
    **Shape:** the honest limit that makes the call: what can't be seen from outside the panel.
 4. "there is absolutely no shame in giving a call to your local electrician and having them come out and install it for you that way you know it's done right" (E02 · How To Home · [0:19] · 18.47x)
    **Shape:** the warm permission to hire out, with the reason. **Watch:** its trigger is comfort ("you don't feel comfortable"), which is vague; and "no shame in" is on our once-list.
+5. "if the breaker won't actually reset if it's off and you try to flip it on and it just won't go into the on position or it hits the on position but trips immediately and you don't have any load hooked up" (E12 · Electrician U · [2:30] · 21.16x)
+   **Shape:** a sign the viewer can feel at the handle, named exactly. In the source it leads to replacing the breaker; for us that's the trigger for the call.
 
 - **Problem:** "if there's guesswork if you're unsure if you don't have that confidence that you know you're doing it right and you've done your research then maybe call an electrician" (E25 · LRN2DIY · [3:31] · 107.53x)
   Vague, with "maybe", and said as the panel cover comes off: for us that moment is a call every time.
@@ -338,7 +342,7 @@ What people believe, then "but", then the truth, inside an item or as its first 
 7. "a lot of people misuse this terminology a short circuit is when you have a circuit that has a shortcut in it" (E16 · Electrician U · [5:26] · 29.39x)
    **Shape:** the mixed-up words flagged, then each one explained.
 8. "A startling number of people aren't aware of that, so I'm going to repeat that." (E18 · Technology Connections · [2:25] · 1.08x)
-   **Shape:** the surprising fact said twice on purpose, and the reason for repeating it said out loud.
+   **Shape:** the surprising fact said twice on purpose, and the reason for repeating it said out loud. **Watch:** ours says it once; repeating a fact on purpose counts as padding.
 
 ## 15. The win at the end of a step
 
@@ -390,7 +394,7 @@ Frederick's only CTA: one short subscribe line at the end, about 15 to 25 words,
 1. "now before you take off don't forget to subscribe to our channel if you haven't already we have weekly videos coming out to help you with your repairs and improvements around the house" (E08 · Everyday Home Repairs · [11:02] · 7.09x)
    **Shape:** the ask tied to what the channel delivers. **Watch:** ours is shorter and names the narrator, and the source adds a sign-off after it.
 2. "and if you did enjoy this video why not like And subscribe to see some really high skilled electrical work done" (E27 · Artisan Electrics · [11:12] · 11.88x · UK)
-   **Shape:** one line, with the reason to subscribe in it.
+   **Shape:** one line, with the reason to subscribe in it. **Watch:** "to see some really high skilled electrical work done" promises demonstrations; ours ties the ask to plain answers.
 3. "if you liked it please give me a thumbs up and be sure to subscribe to my channel with the bell on so that you'll know about all my videos as soon as they're released" (E26 · Silver Cymbal · [5:03] · 55.74x)
    **Shape:** the ask with its reason (never miss one). **Watch:** too long, and the like and bell asks are extra.
 4. "Subscribe to the channel if you haven't already, and I will see you in the next one." (E22 · Top Homeowner · [10:34] · 105.75x)
@@ -410,9 +414,9 @@ The last line of every video: a short turn to the viewer, an outright ask to com
 2. "so let me know what you guys think was there another option i missed that's helped you in the past" (E09 · Everyday Home Repairs · [8:01] · 15.11x)
    **Shape:** asks for the viewer's own fix to the same problem.
 3. "now if you know the name of this I'd love to hear that I can't seem to find anything about that anywhere so if you do know that please leave that in the comments below" (E04 · LRN2DIY · [4:07] · 126.62x)
-   **Shape:** a specific question from an honest gap. Mid-video in the source; ours is last.
+   **Shape:** a specific question from an honest gap. Mid-video in the source; ours is last. **Watch:** ours never asks the viewer for what Frederick should know (E04's own file: "Frederick knows his tools"); the honest gap has to be a real one, such as what the viewer found in their own house.
 4. "I'd welcome any of the nematodes out there to fill us in on any details I might have missed like for instance are there historical designs out there that use these holes for something" (E17 · Technology Connections · [15:30] · 3.60x)
-   **Shape:** the honest-limits block turned into a real question; the video drew about 17,000 comments.
+   **Shape:** the honest-limits block turned into a real question; the video drew about 17,000 comments. **Watch:** "nematodes" is a joke; keep the honest-gap question, drop the joke.
 5. "and I'd love to hear your opinion on this but don't give me your opinion until you've tried it" (E31 · LRN2DIY · [15:01] · 38.07x)
    **Shape:** the comment ask as a challenge to try it first.
 

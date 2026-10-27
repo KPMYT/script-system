@@ -84,7 +84,7 @@ The comments are split between thanks for the clear, fast list and alarm at how 
 [ITEM] (1, cont.)
 [1:18] but there's a hundred easier ways to do it as well you can just turn on a loud radio that's plugged in you can have someone yell you can do the cell phone walkie-talkie thing whatever you need to do but make sure you get these labeled appropriately
 
-[ITEM] (2) [FIRST-PERSON DEMO: banned]
+[ITEM] (2) [FIRST-PERSON DEMO: banned] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [1:32] mistake number two is overloading your circuit breaker panel now you can see on this particular panel this thing is pretty chock full we have our entire house running on this including the basement which was unfinished when we moved in so this really can't handle any more than it's got right here
 
 [MECHANISM]
@@ -96,7 +96,7 @@ The comments are split between thanks for the clear, fast list and alarm at how 
 [TEASE: banned]
 [2:35] and if you need to create a separate sub panel I'll have a whole video coming out about that next week
 
-[ITEM] (3)
+[ITEM] (3) [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [2:40] mistake number three on our list is not protecting the sheathing of the wires on the inside and letting them rub up against The Knockouts inside the panel
 
 [UNSAFE: banned] [FIRST-PERSON DEMO: banned]
@@ -108,7 +108,7 @@ The comments are split between thanks for the clear, fast list and alarm at how 
 [SAFETY] [CALL AN ELECTRICIAN]
 [3:31] now this is a great time as we remove the panel cover here for you to pause for a second and think am I ready to do this is this something that I'm qualified and trained to do do I have confidence in what I'm doing or is this a little bit of guesswork if there's guesswork if you're unsure if you don't have that confidence that you know you're doing it right and you've done your research then maybe call an electrician and get them to help you there is some serious voltage and amperage running through here that you want to treat with respect
 
-[ITEM] (4) [POINTING: banned]
+[ITEM] (4) [ELECTRICIAN'S JOB: explain, never the viewer's step] [POINTING: banned]
 [3:56] mistake number four is having an imbalance between your circuit breaker amperage and your wire gauge if you look up to top here we'll see that we've got multiple colors of wires coming in we've got these white sheathed Romex here and then we've also got some yellows as well now the white typically indicates a 14 gauge wire remember with gauges the higher the number the thinner the wire is and over here these yellows represent a 12 gauge wire so it's a little bit thicker now that makes a big difference on what they're connected to what we don't want to do is allow a thinner gauge wire to have an amperage of circuit breaker that exceeds its capacity
 
 [MECHANISM] [CODE]
@@ -117,16 +117,16 @@ The comments are split between thanks for the clear, fast list and alarm at how 
 [STAKES]
 [4:46] now the issue you might run into is let's say you have a 20 or a 30 amp circuit breaker in here and you've got 14 gauge wire that's actually capable of producing a lot more electricity pushing A Lot More Voltage essentially or amperage really Through the Wire than a 14 gauge wire is designed to handle and what could happen is that heats up and that creates again a potential for fault or issues fire different things like that so we don't want that overheating to occur so we want to make sure that you match up the gauge of wire with the amperage of each circuit
 
-[ITEM] (5) [FIRST-PERSON DEMO: banned]
+[ITEM] (5) [FIRST-PERSON DEMO: banned] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [5:17] number five on our list is improper grounding and there's several ways that I've seen this happen I just saw a box the other day actually where someone actually snipped the main ground coming in from the source and they just cut it right here nothing in the whole panel was grounded at all have no idea honestly why they would do that or what they thought they were trying to accomplish here but that is a huge mistake
 
-[ITEM] (5, cont.) [CODE]
+[ITEM] (5, cont.) [CODE] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [5:37] another one that I've seen before is when they take a bunch of these different ground wires here and then they twist them all together and then they run one pigtail down into the ground bus bar that's also not okay it can be okay depending on the area for you to use a wire nut there and you can match a bunch of them up there put a wire nut with a pigtail going off that's actually all right in most areas but again check with your local code on that what's not not okay is just to Twist them together assume they're going to have good enough contact and then run a pigtail off of that
 
 [CHECK] [POINTING: banned] [UNSAFE: banned]
 [6:09] so make sure that everything is properly grounded and you can easily tell for example in mine if I move these wires out of the way over here you can see that the main ground comes in right here and then it's attached to the bus bar and then this bus bar is attached to the other ground bus bar by the panel itself you don't need to have a wire running from here over to here for grounding or making that connection with the ground it's actually the metal panel that's making that connection there and that's perfectly okay
 
-[ITEM] (6) [FIRST-PERSON DEMO: banned]
+[ITEM] (6) [FIRST-PERSON DEMO: banned] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [6:36] number six on our list is doubling up on your wiring within the same hole on the bus bar I found an example of that here on this neutral right down here at the end I've got two neutrals going into the exact same hole which is kind of silly because there are plenty of available neutral holes on this bus bar there's no good reason to do that other than maybe a bit of laziness or a misunderstanding there
 
 [STAKES]
@@ -138,16 +138,16 @@ The comments are split between thanks for the clear, fast list and alarm at how 
 [FIRST-PERSON DEMO: banned] [TRADE BASHING: banned]
 [7:49] so what I noticed in my panel right here the electrician who wired this house up before we bought this wired up a neutral as a secondary hot or what appears to be a neutral
 
-[ITEM] (7, cont.)
+[ITEM] (7, cont.) [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [8:01] now that would be okay if we made one little will change to this so what we need to do is just take some electrical tape that's red and use that to wrap around and indicate that that is not in fact neutral but is a secondary hot and there we go now that lets anybody who's working on this in the future know that this is a secondary hot not a neutral line you can kind of figure that out if you're looking at it but let's not make it any more difficult than it needs to be
 
-[ITEM] (8) [CODE]
+[ITEM] (8) [CODE] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [8:26] number eight on our list is what are called double tapped circuit breakers now this is illegal or against code at least in some areas and then in other circumstances and situations it's actually totally okay to do so you have to know when you can use this and when you cannot
 
 [POINTING: banned] [MECHANISM]
 [8:41] now you can see for example if I were to feed two different Hots or two different lines into this one circuit breaker that may or may not be against code it depends on how this one was designed you can see on this Eaton circuit breaker for example this 20 amp really is designed just for one wire to be fed in if you look at the specs on the side it shows a 14 to 10 gauge an eight gauge or even a six to four gauge and it has all the specs for that that's okay but it doesn't say anything about applying two different wires to the same circuit breaker that's because it's not up to manufacturer's specs to land two different wires into this thing however if you look at the Square D home line series for example these typically tend to allow for that if we take a look on the side here you can see there's a very clear illustration of mounting one wire in or two wires so we can follow those guidelines and again if you flip over to the side and see the lug here it's got two plates where you can clearly receive two different wires based on the curvature of those plates
 
-[ITEM] (8, cont.)
+[ITEM] (8, cont.) [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [9:41] now double tapping is kind of a frown upon practice mostly because it means you've got two home runs or two lines running off the same circuit breaker it makes it a little bit trickier sometimes to troubleshoot especially if those two areas of the home or the business are not right next to each other that can be problematic to troubleshoot as well
 
 [ITEM] (9)
@@ -159,7 +159,7 @@ The comments are split between thanks for the clear, fast list and alarm at how 
 [TEASE: banned] [CTA]
 [10:50] now we're almost on our last one but I do want to remind you that I will have a video coming out about how to install a new sub panel I'm putting one in my garage for example and I'll walk you through step by step all of that you can check that out using the link at the end of the video or in the description below and as always every product that I show in this video you can check out that little shopping bag in the lower left corner to see those from Home Depot or Lowe's or other stores like that or you can check out the links in the description below
 
-[ITEM] (10) [CODE]
+[ITEM] (10) [CODE] [ELECTRICIAN'S JOB: explain, never the viewer's step] [POINTING: banned]
 [11:19] now on to number 10 which is not torquing your screws down to the right tension all of the lugs or screws inside this panel have a specific tension that they need to be torqued down to and if you look for example on our different circuit breakers just like we saw earlier it shows how much pressure these need to have in fact we've got a breakdown right here for example that this says 36 inch pounds or 4 newton meters so that same thing applies to the lugs on here but then there are different measurements or ratings for our bigger lugs over here and those are typically located on the inside of the panel so you want to make sure to do that up to code and make sure you're following those specifications
 
 [FIRST-PERSON DEMO: banned] [POINTING: banned]
@@ -171,7 +171,7 @@ The comments are split between thanks for the clear, fast list and alarm at how 
 [MONEY: banned for this channel] [CTA]
 [12:34] now I will say I think most of the time diy-ers especially like myself we're not necessarily going around and saying okay I've got to get it right to 36 inch pounds but believe it or not these only cost about 40 bucks I know it's not super cheap but to make sure that you're getting it just right I think it's a good little investment and again I'll put links to that in the description below so that you can make sure that you're getting all of these set to just the right torque
 
-[ITEM] (11) [POINTING: banned]
+[ITEM] (11) [ELECTRICIAN'S JOB: explain, never the viewer's step] [POINTING: banned]
 [12:57] now just one last little bonus issue that I want to throw out there here's an example of a beautifully wired and and beautifully patterned panel I love looking at something like this to me it's a form of art it's done well it's easy to recognize it's easy to trace the lines and it's easy to add on more here's an example of what we want to avoid a tangled Rat's Nest like this can be really difficult to find out what's what and it makes it easy to accidentally touch wires when you don't mean to or to remove the wrong one because it's hard to trace so the more organization you have the more of a pattern that you apply to your layout inside your panel the better off you'll be in the future as well as anyone working after you
 
 [CTA] [POINTING: banned] [CLOSE]
@@ -180,6 +180,7 @@ The comments are split between thanks for the clear, fast list and alarm at how 
 ## Doesn't transfer
 
 - **Working in a live panel on camera:** [2:48] "now I'm going to take this cover off" and [6:13] "if I move these wires out of the way over here you can see that the main ground comes in right here". Never in a Frederick script: the main lugs stay live with every breaker off, and opening the panel is a call-an-electrician line.
+- **Every fix in items 2 to 8 and 10 happens inside the panel** (bushings, a breaker or wire swap, grounds and neutrals moved on the bars, re-marking a wire, torquing lugs): [8:06] "just take some electrical tape that's red and use that to wrap around"; [11:24] "all of the lugs or screws inside this panel have a specific tension". For Frederick each item gives the sign a homeowner can see with only the panel door open (the label, the number on the handle, an open slot, rust or water stains, a scorch mark, buzzing, a hot breaker, a burning smell; facts guide 9.5 and 12.18) and says the fix is a licensed electrician's. Only the filler-plate item (9) has an outside answer, and only as the brief or facts guide gives it.
 - **First-person stories and his own house:** [1:38] "we have our entire house running on this including the basement", [5:23] "I just saw a box the other day actually where someone actually snipped the main ground"
 - **The trade as the villain:** [7:54] "the electrician who wired this house up before we bought this wired up a neutral as a secondary hot"
 - **Pointing at the footage:** [0:17] "only to find this", [0:57] "now I have a circuit breaker Finder right here", [3:04] "you can see up here we've got a pretty good job", [12:00] "most people don't have something like this"

@@ -111,7 +111,7 @@ The viewer's question is the hook, and the answer comes in plain field terms. Co
 [ITEM] (3)
 [4:12] another thing to look out for are actual like physical damage to Breakers so sometimes breaker handles will be busted people will still leave them installed which you can't turn the breaker on or off that kind of seems silly replace the thing
 
-[CHECK]
+[CHECK] [UNSAFE: banned] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [4:25] um but you can notice too if you ever pull out a breaker and inspect it whether or not there's any arcing happening between the contacts on the back of the breaker and the bus bar um from any arcing or overheating sometimes you can see the backside of a breaker melting or the case of a breaker if it gets way too hot you know that there's something going on inside of that breaker and it should probably be replaced uh other points where you can kind of see some like charring or arcing happening are actually at the terminal where the branch circuit leaves where the conductor leaves and goes out into the field
 
 [MECHANISM]
@@ -126,7 +126,7 @@ The viewer's question is the hook, and the answer comes in plain field terms. Co
 [ITEM] (5) [CHECK]
 [7:34] some other specialty Breakers where they might have problems are things like dual function Breakers in residential settings uh or arc fault or ground fault breakers they have a little test button on them and if you ever go to test uh one of these Breakers which I recommend anytime you put in a new arc fault ground fault or dual function breaker make sure that you test the buttons on them you don't want to install a brand new breaker and just assume that from the Factory it's good most times it is but sometimes you run into some bad ones so when you install a new uh breaker like that you need to test the button sometimes when you push that little button it's supposed to simulate a fault and a lot of times it doesn't not a lot of times sometimes it doesn't
 
-[ITEM] (6) [CHECK] [UNSAFE: banned]
+[ITEM] (6) [CHECK] [UNSAFE: banned] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [8:13] and lastly this is probably the first thing that you're going to do out in the field to figure out whether or not a breaker is bad if it's just a standard General use breaker is using your multimeter if you go from the terminal where the conductor is hooked up to ground or neutral and you don't get voltage or if you have like a two- pole breaker you know like a 220 load and you go between each one of those you should have 240 volts or 208 depending on what kind of wiring system that you're you're on but if you don't if you get like 120 volts or something weird you're like whoa why am I getting that and then you take one of them and go to ground and you find that you have zero volts
 
 [MECHANISM]

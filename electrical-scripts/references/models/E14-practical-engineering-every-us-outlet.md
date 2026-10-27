@@ -121,7 +121,7 @@ The comments treat it as a fun reference: "Oh, you're an electrical engineer? Na
 [MECHANISM]
 [6:03] The NEMA 5-15 plug and outlet were designed to be backward compatible with the older 1-15 standard. 1-15 plugs work just fine in the modern 5-15 outlets, and there are quite a few interesting compatibility cases like that in the NEMA standards.
 
-[ITEM] (3) [CODE]
+[ITEM] (3) [CODE] [POINTING: banned]
 [6:21] For example, the 15 in 5-15 refers to the current rating. Nearly every household device and appliance that runs on 120 V is designed so that it never draws more than 15 amps. And actually, if the device is meant to run for more than 3 hours continuously, like a space heater, it can only draw 80% of that, which is 12 amps if you're keeping score at home. That limit is obviously fine for most household appliances, but especially in commercial spaces, it's not quite enough power for certain devices like kitchen mixers, treadmills, copy machines, and power tools. Of course, we could just change the codes to require 20 amp circuits everywhere, but that has huge implications: larger circuit breakers, heavier gauge wiring, and more expensive receptacles. And in many cases, it's just not necessary. So instead, NEMA created a different receptacle and plug for 120 V 20 amp circuits, the 5-20. I have a bunch of these here in the studio. You can see they have that T shape on the neutral slot. And 20 amp devices have the neutral blade rotated 90° on the plug. But here's the backward compatibility. Regular 15 amp plugs fit into the 5-20 receptacle as well.
 
 [ITEM] (4)

@@ -121,7 +121,7 @@ The title sells pride and a count, the first line repeats the count, and each ti
 [ITEM] (2, cont.) [UNSAFE: banned]
 [2:40] slide over the heat shrink tubing and then melt it a little bit with a lighter the two wires have now become one again they're sealed and protected with a good contact signal and they're not going anywhere this is a super strong bond
 
-[CHECK]
+[CHECK] [UNSAFE: banned]
 [2:50] now you can give those a good pull and they're not going to come loose no matter what
 
 [ITEM] (3) [MONEY: banned for this channel]
@@ -163,7 +163,7 @@ The title sells pride and a count, the first line repeats the count, and each ti
 [MECHANISM] [POINTING: banned]
 [5:14] so on a screw like this for example on this light switch when you turn the screw clockwise the top of the screw turns to the right and that's where the righty tighty lefty loosey comes into play
 
-[ITEM] (4, cont.)
+[ITEM] (4, cont.) [POINTING: banned]
 [5:25] when you're using a hook like this ideally you always want the open end of that hook to be towards the right
 
 [STAKES] [FIRST-PERSON DEMO: banned]
@@ -181,13 +181,13 @@ The title sells pride and a count, the first line repeats the count, and each ti
 [ITEM] (4, cont.) [POINTING: banned]
 [6:19] but if you use a tighter hook you're going to have better results no matter what in fact you can see there's a little ledge or a little drop off so that it tends to hold that hook or that wire captive inside there so these are really designed to work as best as possible even if you do it wrong but by doing it right you're going to get better contact and a better signal every time
 
-[ITEM] (4, cont.) [STAKES]
+[ITEM] (4, cont.) [STAKES] [POINTING: banned]
 [6:39] this same tip applies even more so to stranded wires like this one if you place the wire in the wrong orientation or against the grain as you tighten the screw it will tend to push all of those little strands out and away from the screw itself making an even poorer connection when you place it with the grain it's going to tend to pull those wires along with the tightening of the screw and make a much better connection
 
 [ITEM] (4, cont.)
 [7:02] better yet tighten up those threads as much as you can by twisting them into one solid piece wrap it around with the grain tighten it and you'll get a much better connection overall
 
-[ITEM] (4, cont.)
+[ITEM] (4, cont.) [POINTING: banned]
 [7:12] if you do have to connect a stranded wire like this to a screw terminal one of the best ways is to use a u-type or a fork connector with the stranded wire and then just insert that under the screw
 
 [ITEM] (5) [FORWARD]
@@ -205,7 +205,7 @@ The title sells pride and a count, the first line repeats the count, and each ti
 [ITEM] (5, cont.) [FIRST-PERSON DEMO: banned]
 [8:05] the crazy thing is this works on any size wire i can do this on 20 gauge or 18 gauge like i've got here i can do it on 14 gauge wire and still not having touched a thing i can do this on even 10 gauge or even 8 gauge wire it doesn't care and it doesn't matter what size wire i'm putting in there now those were all solid wire but you can see that this actually works just fine with stranded wire as well
 
-[ITEM] (5, cont.) [MECHANISM]
+[ITEM] (5, cont.) [MECHANISM] [POINTING: banned]
 [8:30] the best part is it doesn't actually cut into the wires themselves a lot of times when you're using a sharp blade and you're trying to cut it precisely you end up cutting some of the wires and that weakens the signal and gives you less area to make contact with so whether it's a thicker stranded wire like we just did or even a really thin and delicate one like this it can handle it no problem
 
 [CHECK] [POINTING: banned]
@@ -220,7 +220,7 @@ The title sells pride and a count, the first line repeats the count, and each ti
 [FIRST-PERSON DEMO: banned]
 [9:13] let's take a look for example at this ethernet wire typically to open this up you're going to have to make a little slit somewhere and then pull that sheathing back but with these universal wire strippers place them in there anywhere you want and it will just break that right off piece of cake this also works super well on multi-wire cables like romex here's some 14 2 cable for example that it handles no problem it even works on 14 3 which is wider than the jaws themselves but as you can see i can grab onto it pull it apart and then i can either yank the rest of that off or just flip it around and cut that as well
 
-[ITEM] (5, cont.)
+[ITEM] (5, cont.) [POINTING: banned]
 [9:50] remember earlier when we were trying to replace that plug on that power cord well those little three cables that are in there are pretty delicate and we don't want to cut into those so rather than snipping the end and then pulling the sheathing back you can just use some universal wire strippers and it will pull that outside sheathing off without a problem then without touching a thing you can also strip the three small wires inside as you can see here
 
 [ITEM] (5, cont.) [FIRST-PERSON DEMO: banned]

@@ -85,16 +85,16 @@ The comments come from electricians and line workers confirming the danger: "I w
 [STAKES] [MECHANISM]
 [1:29] If I were to forget to do that or let's say we sold the house and somebody else moved in and they weren't aware how this worked and you forgot to turn that main breaker off, the generator can backfeed power and if there's a lineman working on the power lines after an outage, they could actually shock or, worse, kill him.
 
-[STEP] (1) [FIRST-PERSON DEMO: banned]
+[STEP] (1) [FIRST-PERSON DEMO: banned] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [1:44] So, I'm going to install that interlock kit on today. In order to make that interlock work, I have to move this breaker right here which is actually for the well down here and move the breaker for the generator up to the top.
 
 [TRADE BASHING: banned]
 [1:58] It's frustrating that the electrician didn't do it correctly to begin with. That's why I pay a professional to do it. And after many calls, I haven't been able to get another electrician to come out here, so I'm going to do it myself.
 
-[FIRST-PERSON DEMO: banned]
+[FIRST-PERSON DEMO: banned] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [2:17] That's scary. That was not fun. That was not fun. You did not tell me that was going to happen. Okay, they got slack. That's right. Yo, he was just looking for some place that was warm and dry. I think he found it. Yeah, that one's longer. Yep, look at her right here.
 
-[STEP] (2) [SAFETY]
+[STEP] (2) [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [3:04] With the breakers moved, time to drill into the front of the panel box. And make sure you take it off of the box to do this, or I think you'll be shocked at what could happen.
 
 [FIRST-PERSON DEMO: banned]
@@ -148,11 +148,13 @@ The comments come from electricians and line workers confirming the danger: "I w
 - **First-person story as the whole frame** (his house, his storms, his earlier video, his family): [0:14] "We live somewhere where we have the occasional hurricane", [0:43] "Now, I did a video a couple years ago", [8:55] "my mom's part of the house is like wired up separately"
 - **Money** (no money framing on this channel): [0:38] "those prices are insane for the integrated ones"
 - **The electrician as the villain:** [1:17] "What he should have installed next was an interlock kit, but he didn't." and [1:58] "It's frustrating that the electrician didn't do it correctly to begin with."
-- **Panel work done by the presenter himself, with no power-off line:** [2:09] "so I'm going to do it myself" and [1:50] "I have to move this breaker right here". For Frederick, fitting an interlock inside the panel is an electrician's job, said plainly.
+- **Panel work done by the presenter himself, with no power-off line:** [2:09] "so I'm going to do it myself" and [1:50] "I have to move this breaker right here"; the dead front comes off by his own hand: [3:04] "drill into the front of the panel box. And make sure you take it off of the box to do this". For Frederick, fitting an interlock inside the panel is an electrician's job, said plainly.
 - **On-camera tests and footage-led beats:** [3:28] "Now that I've got it in, let me show you how this is going to work", [6:41] "you see that there is definitely a slow leak right there", [8:40] "The load right now 3,800 W."
 - **Brand and product talk:** [4:10] "this Duramax XP9000"
 - **Jokes and puns** (no jokes on this channel): [3:10] "or I think you'll be shocked at what could happen", [9:12] "Luckily, I had a stunt nephew that did it for me", [3:56] "Well, at least safe from me, I should say."
 - **Tease of another video:** [11:05] "But if you watch this video right here I'll show you some ways that you can be prepared for that."
+- **No carbon monoxide line and nothing on where the generator stands while it runs:** [6:53] "Let's try it again. LPG got gas or LPG, we'll pick LPG fuel to run." Every Frederick script with a running generator says both, from facts guide §11 (11.1 to 11.7).
+- **A guaranteed outcome:** [3:51] "So, anybody working on the power lines is totally safe." Ours says what the interlock prevents, never "totally safe".
 - **Factual slips to check against the brief:**
   - [4:19] "And honestly, I don't know what the real risk is of like dirty power" (he says he doesn't know; use only what the brief confirms about inverter and standard generators)
   - [10:58] "something as simple as a solar flare could cause the power to go out" and [11:01] "it would just probably make this generator useless" (speculation, off topic)

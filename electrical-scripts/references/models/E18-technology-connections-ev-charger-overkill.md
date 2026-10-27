@@ -152,13 +152,13 @@ It tells a large group of people that the expensive option is unnecessary, and t
 [CALL AN ELECTRICIAN]
 [6:53] If yours is full, there's a pretty good chance you can consolidate existing circuits and free up space, but you're going to need to consult a professional to find out whether or not that's possible in your situation.
 
-[FIRST-PERSON DEMO: banned]
+[FIRST-PERSON DEMO: banned] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [7:06] Luckily for us, the previous owner of this home had installed this 100 amp sub panel, likely when they finished the basement, and there were tons of open slots in here. Plus, there was plenty of capacity. These 20 amp breakers feed baseboard heaters that all told only draw about 12 amps. So, it would be no problem at all to add another 24 amp load to this panel.
 
-[FIRST-PERSON DEMO: banned] [MONEY: banned]
+[FIRST-PERSON DEMO: banned] [MONEY: banned] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [7:32] So, a quick trip to the hardware store to pick up 25 ft of 10 gauge MC cable, a 30 amp square D homeline circuit breaker, a junction box, and a few fittings, and we were off to the races. All told, the materials cost for this job was about 200 bucks, and that includes a set of spade bits, which we absolutely knew we were going to need before we got started," he said sarcastically.
 
-[FIRST-PERSON DEMO: banned]
+[FIRST-PERSON DEMO: banned] [ELECTRICIAN'S JOB: explain, never the viewer's step]
 [7:58] In the span of an hour or two, we had power out to this junction box, which we tucked underneath the stairs that lead into the house.
 
 [FIRST-PERSON DEMO: banned] [FORWARD]
@@ -251,7 +251,7 @@ It tells a large group of people that the expensive option is unnecessary, and t
 [ASIDE]
 [22:56] It shouldn't take a Midwesterner to tell you that our priorities here are just all wrong.
 
-[ASIDE]
+[ASIDE] [MONEY: banned for this channel]
 [22:59] And speaking of weird priorities, well, here comes my deferred rant on smart charging stations. If a charging station requires the use of an app to configure it for a smaller circuit, my first instinct is to throw it into the ocean. I mean, I wouldn't really, but the mere idea of a charging station like this having an app or worse getting software updates just rubs me the wrong way. A lot of this is because I understand what these things actually are, power cables. And because of that fact, many of the smart features more expensive charging equipment can provide can also be handled by the car. You want scheduled charging, the car can do that. You want energy reports, most cars will give them to you in some form or another. You want to lower charging current even more for whatever reason, lots of cars let you do that. Even demand response can be done by the car, though I will say I have privacy and security concerns there. But I have those same concerns about internet connected charging stations.
 
 [ASIDE]
@@ -293,7 +293,7 @@ It tells a large group of people that the expensive option is unnecessary, and t
 [ASIDE]
 [30:04] But anyway, this is largely just speculation on my part. And if you're worried about this, well, here's an idea. Do what I did and install a 32 amp charger on your Nema 1450. I'm following the extra safe 64% rule.
 
-[ASIDE]
+[ASIDE] [MONEY: banned for this channel]
 [30:19] To be honest though, that's just because I wanted something a little more trustworthy than this Amazon special and the HCS40 was on sale. And now Clipper Creek was gobbled up by Nphase, which makes me sad.
 
 [COMMENT] [CLOSE]

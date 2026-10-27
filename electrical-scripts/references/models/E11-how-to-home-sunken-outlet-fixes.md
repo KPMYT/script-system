@@ -58,7 +58,7 @@
   - [2:37] "And for very important safety reasons"
   - [3:34] "if you were to get any kind of arcing, then there's a possibility that it could actually ignite that combustible wall material and then start a fire"
   - [3:55] "it is extending the box. It is going to be protecting those sides"
-- **Reassurance:** at 2:13 and 3:09: it's cheap, it's easy, and the bigger-gap case won't be skipped.
+- **Reassurance:** at 2:13 and 3:09: it's cheap, it's easy, and the bigger-gap case won't be skipped ("cheap" is money framing: banned for us; keep the ease).
   - [2:13] "very easily and very inexpensively fix this"
   - [3:09] "I'm not going to leave you hanging here"
 - **Wonder (the clever part nobody mentions):** promised at 2:23, paid at 9:32-9:41. Said as the narrator's own delight.
@@ -105,7 +105,7 @@ It takes a small, long-ignored annoyance and gives four ways out, one of them ne
 [MECHANISM] [POINTING: banned]
 [1:28] All right. So, as you can see here, this is almost always going to be the case for when you have a sunken receptacle. Generally speaking, what happens is the person that cuts the holes in the drywall or whatever surface you're using for your wall, maybe it's a wall panel, you got tile, maybe you added tile to a kitchen, whatever it is, the hole for the receptacle is too large. So, the yolks, that's what these metal straps are on the top and the bottom of the outlet or receptacle, they should be touching the face of whatever your wall is. that is what holds it out and flush with the wall so you get that nice finished look.
 
-[PROMISE]
+[PROMISE] [MONEY: banned for this channel]
 [2:09] But regardless of how it was done, I'm going to show you a few different ways in order to very easily and very inexpensively fix this. And one of the ways I'm going to show you is one that not very many people have talked about, but it's actually a pretty ingenious invention to take care of this problem.
 
 [STEP] (2)
@@ -156,10 +156,10 @@ It takes a small, long-ignored annoyance and gives four ways out, one of them ne
 [ITEM] (3, cont.) [POINTING: banned]
 [7:42] All right, so it would just have to be like that, loosened away from the box and out away from the wall. And the material in this case I can use that makes it so quick is this right here. These are made by Reiko. Of course, there are other knockoffs, but Reiko is the name brand a lot of electricians use. And this is called a flush fit.
 
-[ITEM] (3, cont.) [FIRST-PERSON DEMO: banned]
+[ITEM] (3, cont.) [FIRST-PERSON DEMO: banned] [POINTING: banned]
 [7:59] The way that this works, this won't take very long at all. We take a look at our metal piece here up here in the top right corner. It says up. So, you know that this is the top of it. Then all we need to do is we need to take this groove right here. Slide it in behind this metal strap or yolk here. And then on top of the screw that is going through the yolk. So, just like that. We still got it at an angle and it's almost like it's on a hinge. All we have to do then is take the bottom portion and hinge it or slide it up underneath of the bottom portion down here at the bottom. And then at this point, in many cases, but I'll show you here in a moment why I would not use it for this one. In many cases, this is done. You can go ahead start tightening up the screws, put the cover plate on, and everything will be flush.
 
-[SCOPE] [CHECK]
+[SCOPE] [CHECK] [POINTING: banned]
 [8:50] Now, I could make this work for this receptacle, but I don't know if any of you can tell, but I don't have a lot of overlap up here at the top between the metal and the face of my wall. Down here at the bottom, this actually started to go in. So, this one also can have some limitations to it, but if it is one where it can fit in there and maybe you just have damage from the ears, but you still have plenty of wall space here, you saw it's not going to get any quicker or easier than using this right here. So, this is another option, but again, it just depends on your particular situation.
 
 [ITEM] (4) [PROMISE]
@@ -168,7 +168,7 @@ It takes a small, long-ignored annoyance and gives four ways out, one of them ne
 [ASIDE]
 [9:51] Now, I am not sponsored by anybody in this video including UniSim. They did reach out to me. They made me aware of this I don't know maybe a year or two ago. and I've just been having these sit in the garage.
 
-[ITEM] (4, cont.)
+[ITEM] (4, cont.) [POINTING: banned]
 [10:02] But I have to say, these things really are ingenious with how they work, and how they can work in almost any application. And they're just as simple as this one piece right here. So, let me just quickly show you how these are used, how they work, and why they can work in so many different situations.
 
 [MECHANISM]
@@ -180,13 +180,13 @@ It takes a small, long-ignored annoyance and gives four ways out, one of them ne
 [FIRST-PERSON DEMO: banned]
 [11:16] All right. So, as you can see, I've got my unis shim on the top and bottom screws, which I did elect to go with longer screws, as the ones that usually come with it in many cases are just going to be too short. So, now what I want to do is I want to take my screws and I want to insert them into the holes of the box and start tightening them down.
 
-[MECHANISM] [CHECK]
+[MECHANISM] [CHECK] [POINTING: banned]
 [11:35] All right, so here's the key though. We don't want to tighten it down all the way into the box. That's not how this works. So, I'm really focusing on this top one right now. If you can see that uni- shim is right in behind the yolk right there. We want to get that unis shim the face of it flush with the front of our wall face.
 
 [FIRST-PERSON DEMO: banned]
 [11:54] So in my case, I've pretty much got it right about there.
 
-[MECHANISM]
+[MECHANISM] [POINTING: banned]
 [11:56] This is where now that little nodule I talked about earlier, that's where this comes into play. We want to then take our receptacle and push it up against the uni shim. What this is going to do is as we go to tighten this down, that little nodule is going to fit in the hole around our screw right here in this gap right here and it's going to get caught. When it gets caught there, it's no longer going to twist and keep going deeper into the box. It's going to stay right there and then tighten it down to the unisim like a vice.
 
 [FIRST-PERSON DEMO: banned]
@@ -198,7 +198,7 @@ It takes a small, long-ignored annoyance and gives four ways out, one of them ne
 [CHECK]
 [13:48] All right. So, now this is perfect. This is perfectly flush with the wall face like it should have been if this wasn't overcut on the top and the bottom. It's in there nice and tight. I can't push on that receptacle to where it sinks in. I can't pull out away from it either. That unis shim has completely sandwiched it between the uniim and the screw head.
 
-[END]
+[END] [POINTING: banned]
 [14:09] And so now at this point, all that there is left to do is take my face plate again, put it over my receptacle, and tighten down the face plate screw to the receptacle. But as you can see now, there is no gap whatsoever between my cover plate and my wall face. My receptacle is just barely sticking out of my cover plate like it should be. It's not sunken anymore like I showed you in the very beginning. And again, this looks exactly how it should have been installed in the first place. Nobody's going to ever be able to tell that at one time this was a sunken outlet. If we push on it, it's not going anywhere. So, if we're putting in cords, it's not sinking either.
 
 [ASIDE]
@@ -218,6 +218,7 @@ It takes a small, long-ignored annoyance and gives four ways out, one of them ne
 
 ## Doesn't transfer
 
+- **Money** (no money framing on this channel): [2:13] "very easily and very inexpensively fix this"
 - **Announcement opening:** [0:18] "So, in this video, I'm going to show you how this issue looks"
 - **Pointing at the footage:**
   - [0:37] "All righty. So, as you can see here, we have a classic example"

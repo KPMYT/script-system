@@ -96,7 +96,7 @@ It takes a "can't be done" and does it calmly. The title promises the obstacle b
 [STAKES]
 [1:15] but what I don't want to do is go cutting in a hole for those down lights before I know where the joists are above because above the ceiling there's going to be joists and if we go drilling holes we might hit one and if we hit one there's more ceiling repair work to do
 
-[STEP] (2)
+[STEP] (2) [MONEY: banned for this channel]
 [1:30] so let's have a look and see where the joists are the quickest and easiest way to find the joists in the ceiling is to use one of these this is called a stud buddy they're very cheap very effective
 
 [MECHANISM]

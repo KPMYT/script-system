@@ -95,10 +95,10 @@ It works as a complete, calm fan install, with the "mistake" as the title's hook
 [STEP] (2) [POINTING: banned]
 [1:29] now I need to install my ceiling fan bracket and what's interesting about this is it has this big hook on here and that's going to come in handy on the next step because it's going to make things a whole lot easier than they used to be but if you see this Notch out here and this Notch out here this is where those bolts that are already in the Box are going to slide into each one of these holes then once the wiring and bolts are through their designated places and we slide it into place then we can tighten down the bolts into the light box
 
-[STEP] (3)
+[STEP] (3) [POINTING: banned]
 [1:55] all right so now we're ready to mount our fan motor assembly and as you can see up here at the top of the brackets we've got four screws and if you see this little slit right here that's where we're going to put that little hook into to hold this into place to just make installing this and wiring it up a whole lot easier and since it's on that hook it also makes it very easy to swivel up into place and then tighten down those four screws into the ceiling fan bracket
 
-[STEP] (4) [SCOPE]
+[STEP] (4) [SCOPE] [POINTING: banned]
 [2:21] all right so this is where we start wiring our fan to the wires coming out of the box in the ceiling as you can see the wires I have coming out of the box in the ceiling are a white neutral I've got a red wire a bare copper ground and then a black wire my black wire and my red wires are both going to be hot wires and usually when you see this and in this case they are going to separate switches that's how we're going to be able to operate the fan lights and the fan itself onto separate switches but a lot of you will only have the black wire a ground wire and then the white neutral wire and I'll show you exactly how to install it either way
 
 [STEP] (4, cont.) [MECHANISM]
@@ -119,7 +119,7 @@ It works as a complete, calm fan install, with the "mistake" as the title's hook
 [STEP] (5) [FIRST-PERSON DEMO: banned]
 [6:00] all right so let's go ahead and start wiring up our wires and I'm going to start off with this bare copper wire and that's going to get connected to this green wire that's going to the ceiling fan I'm going to open up one of the levers on the lever connector I'm just going to insert that ground wire into that Wago connector flip it over to the bottom we can clearly see that we've got copper seated all the way up at the top so now that we've seen that we can now flip the lever down and now that's locked into place now I'll flip up the lever on the other side take my green ground wire put that into the other side of the inline connector and once we verify that it's seated we see that it's all the way up at the top we see a little bit of the wiring down below the bus bar there once we verified that now we can flip down that lever and now these grounds are connected together all right so now I'm going to take my white neutral wire I'm going to take the white neutral wire coming from the fan we're going to connect those together flip up the other lever on the other side and then insert it into the other side of the inline connector and then flip down that lever and now our neutral wires are connected
 
-[STEP] (6) [SCOPE]
+[STEP] (6) [SCOPE] [POINTING: banned]
 [7:08] all right so now this is where it gets a little bit more confusing and where there will be a couple of different installation choices over here on the fan side we have a black wire and a blue wire now for those of you that do not have a black and a red wire and you're not planning on operating your fan and your lights separately on two different switches and in that case let's ignore that the red wire even exists and what switch it goes to you know that the black wire is the only hot wire that's going to be coming in from the lone light switch which means you'll be operating the fan using the pull chains and in this case you don't really need to worry between the black and the blue wire as to where they get connected they will both be getting connected to that lone hot wire coming in so in that case you would just take the blue and the black wire and the black wire coming out of the ceiling put them all together you can use a wire nut to do this in order to twist them all together or again you could use this three port Wago and just use the levers like we have with the inline splices so super easy for those of you that just have the one hot wire coming in
 
 [STEP] (6, cont.)
@@ -131,7 +131,7 @@ It works as a complete, calm fan install, with the "mistake" as the title's hook
 [STEP] (6, cont.) [FIRST-PERSON DEMO: banned]
 [8:47] alright so the black wire operates the fan the black wire coming out of the ceiling is the switch on my right which I want to operate the fan so we're going to connect in this case the black wire to the black wire now take the black wire coming from the fan insert it into the other side of the inline splice flip that down now our black wires that operate the fan are connected and so last but not least we're going to take our red wire that's coming out of the ceiling put it into our Wago inline connector flip down the lever take the blue wire coming from the fan put it into the other side of the Wago and then flip down that lever as well
 
-[POINT] [STAKES] [CODE]
+[POINT] [STAKES] [CODE] [POINTING: banned]
 [9:30] all right so now all of our wiring is connected together and this is where a lot of di wires go wrong they will just leave their splice points just like this sitting in here in the fan assembly itself it just looks natural it fits well but unfortunately this is not to code and it could create a dangerous situation in the future
 
 [STEP] (7) [CODE]

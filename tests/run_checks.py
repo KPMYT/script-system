@@ -584,8 +584,8 @@ for f in EL_REFS:
 code,out=run_scan("\n\n".join(g.capitalize()+"." for _,g in lifted)+"\n",[ELR],refs=EL_REFS)
 uncaught=[n for n,_ in lifted if f"COPIED FROM REFERENCE: {n}]" not in out]
 code2,out2=run_scan(clean_el,[ELR,FRED],refs=EL_REFS+[FRED])
-check("49. copy guard: the clean electrical paragraph passes against the pack's SKILL.md, excerpts, voice samples and all 31 model files; a line from each is caught",
-      len(glob.glob(f"{EL}/references/models/E*.md"))==31 and len(EL_REFS)>=35 and not nolift and not uncaught and code==1 and code2==0 and "COPIED" not in out2,
+check("49. copy guard: the clean electrical paragraph passes against the pack's SKILL.md, excerpts, voice samples and all 37 model files (E01-E38, no E06); a line from each is caught",
+      len(glob.glob(f"{EL}/references/models/E*.md"))==37 and len(EL_REFS)>=35 and not nolift and not uncaught and code==1 and code2==0 and "COPIED" not in out2,
       f"refs={len(EL_REFS)} no line found in {nolift}; not caught {uncaught}; "+out2[:400])
 
 # 50. Frederick's profile: Talking Head, 195 wpm, no book (NO BOOK marker), subscribe only, name and tenure 35;

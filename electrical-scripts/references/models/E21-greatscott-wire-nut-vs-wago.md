@@ -136,7 +136,7 @@ The comments mostly argue the science, which is the engagement a settle-the-deba
 [ITEM] (9) [FIRST-PERSON DEMO: banned]
 [10:02] and last but not least it was time for the flammable tests in which I used my heat gun to basically melt the connectors while observing whether they are capable of creating some kind of fire and it seems like none of them do that which means a point for both
 
-[POINT] [END]
+[POINT] [END] [MONEY: banned for this channel]
 [10:19] and with all the important test being completed it seems like it was a narrow victory for the V connector which it really wasn't for me though because in the categories the wut one the Vaga ones also performed excellent just not as good only if you're looking for a super cheap wire connector option I would recommend wire nuts but for everything else I will stick with my trusty Vago connectors
 
 [CTA] [CLOSE]
@@ -156,7 +156,7 @@ The comments mostly argue the science, which is the engagement a settle-the-deba
   - [9:08] "then I used the power supply to pump 20 amps through the test setups"
   - [10:07] "in which I used my heat gun to basically melt the connectors"
 - **Pointing at the footage:** [2:23] "so here's my list of them", [4:19] "if we remove the plastic housing we can see", [5:54] "there you can see that the connection turned out not so good", [9:45] "see it through a thermal imaging camera"
-- **Money** (no money framing on this channel): [6:22] "because time is money" and [7:51] "the wire nuts are at least four to five times cheaper than bgo connectors"
+- **Money** (no money framing on this channel): [6:22] "because time is money" and [7:51] "the wire nuts are at least four to five times cheaper than bgo connectors" and [10:36] "only if you're looking for a super cheap wire connector option I would recommend"
 - **Metric units and German practice:** [4:06] "around 10 mm of insulation", [8:22] "which was around 30 kg", [0:14] "those connectors are pretty much the standard here in Germany"
 - **Sign-off and support page:** [10:53] "consider supporting me through patreon" and [11:01] "stay creative and I will see you next time"
 - **Factual slips to check against the brief:**

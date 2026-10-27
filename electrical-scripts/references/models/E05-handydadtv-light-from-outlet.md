@@ -135,13 +135,13 @@ It is the clearest picture of the job, not the most exciting video: a practice b
 [MECHANISM]
 [4:02] okay this is the hot you always switch the hot and that way when the switch is off the circuit is broken and when the switch goes on it's as if these two were connected and it just lets power go right up to the the light
 
-[STEP] (7)
+[STEP] (7) [POINTING: banned]
 [4:17] so the neutrals are the easiest and i'm going to do those first there's many ways to connect them i could twist them and use a wire nut but i like to use these wego lever nuts these are really pretty cool you lift up this latch you put the wire underneath it and you can see the wire goes all the way in and then you just flip down that little switch that tightens it on the wire and the wire doesn't come loose so i'm going to do the same thing on this side
 
 [CHECK] [FIRST-PERSON DEMO: banned]
 [4:43] and i don't know if that's too long i'm going to take a look it's a little bit too long because it's sticking out so i'm just going to take a little bit of hair off of that and then i'm going to put it under here and now it's in good i can see them both are in there all the way to the top and that's fine and then i'm going to push these back in the box because i'm not i'm done with that
 
-[STEP] (8)
+[STEP] (8) [POINTING: banned]
 [5:07] now let's talk about the ground now i can do a similar thing with the ground i can take the lever nuts like this or a wire nut whatever you want and i could do that and create what's known as a pigtail and this is a pigtail it's a little piece of wire that has a little j hook on the end and i could put that under here and that would work fine i just attached this to my switch green screw
 
 [STEP] (8, cont.)
@@ -153,7 +153,7 @@ It is the clearest picture of the job, not the most exciting video: a practice b
 [CHECK] [POINTING: banned]
 [6:32] hook okay here you can see i've got the two black wires one on each screw and i have my ground on the other side so now i'm just going to push these in and i'm done with the switch
 
-[STEP] (10)
+[STEP] (10) [POINTING: banned]
 [6:47] so now i'm going to turn my attention to this outlet and what we have here is we have the white on the silver screws and the black goes to the brass screws i'm introducing a new ground so i'm going to do the same thing i did before and i'm going to use one of these grounding wire connectors all right here you can see i have connected both of those grounds together they're under this grounding wire connector and this wire comes out the top and goes on the ground screw
 
 [STEP] (11) [POINTING: banned]
