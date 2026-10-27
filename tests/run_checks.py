@@ -5,7 +5,7 @@
 # copy guard (--refs) against the niche pack's reference files, production notes read aloud,
 # repeated sentences, persona facts (tenure, near-miss names, title numbers win), the tease phrasings and once-per-script phrases,
 # and the plumbing pack: its inputs block, scanner block, Mark's contraction ban, the copy guard over every model file,
-# the plumbing profiles' fixed facts and the channel list, and the HVAC pack (checks 60+).
+# the plumbing profiles' fixed facts and the channel list, the HVAC pack (checks 60-68), Werner's profile (70) and the plumbing escalation line (46b).
 import re, os, glob, subprocess, sys, tempfile, textwrap
 sys.dont_write_bytecode = True
 ROOT=os.environ.get("LIB_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -860,6 +860,36 @@ c5,o5=run_scan("That mistake won't show up on a repair bill. At its worst, it sh
 c6,o6=run_scan("Don't touch the igniter. It's fragile. If it still shuts down, don't try to get around that switch. It's telling you something.\n",[HVR,ROGER_HVAC])
 check("72. reframe floor: a same-verb flip across two sentences is caught; instructions starting \"don't\" are not",
       "REFRAME FLOOR (H21): 1" in o5 and "REFRAME FLOOR (H21): 0" in o6, o5[-300:]+o6[-300:])
+
+# 70. Werner's profile (61 on its own branch; renumbered at the merge, as HVAC holds 60-68) (relaunched 2026-10-27, ready the same day): plumbing pack, Talking Head, the Herrmann voice; name, book, tenure 30; his book index;
+#     channels.md row 9 ready (8 on its own branch; Roger the HVAC Guy holds 8); the build knows him; a clean German-way paragraph passes (copy guard included);
+#     contractions, a name intro, any relative, the book's own stories (Bertha, Marcus), an arrival story, a euro price, comedy German, his old recap
+#     lines and sign-off, a subscribe ask and a second tenure fail; the mentor line and the 30 years pass (operator's answers, 2026-10-27)
+WERN=f"{PERS}/werner-finkbeiner.md"; wp=open(WERN).read(); wf=facts_of(WERN)
+clean_w=("Right now, behind the toilet in your bathroom, a rubber flapper the size of a coaster is letting clean water slip into the bowl, and you pay for every gallon of it. "
+         "So. In Germany it is usual to wipe the valve seat with a little citric acid every spring, and most American houses never do it. "
+         "But the physics is the same on both sides of the ocean. That is Wartung, plain maintenance, nothing more.\n")
+cw=run_scan(clean_w+"\nQuick thing before number four. My old mentor taught me this trade, and before he passed, I wrote down everything he showed me. It is all in Werner's One Hundred and One Free Repairs, at the link in the description and the QR code. Now, the trap.\n\nIn 30 years as a plumber I have not seen a better habit.\n",[PLR,WERN],refs=PL_REFS+[WERN])
+bad_w=["It's the flapper.","I am Werner Finkbeiner, and this is my channel.","My grandfather showed me this.","When I came to America, the pipes surprised me.",
+       "A bottle costs about one euro.","Enough for today.","Subscribe for more of these.","My father showed me this.","Bertha kept a coffee can by the sink.","My neighbor Marcus tried it.","In 25 years as a plumber I never saw this.","Achtung, this is important.","Three small things for this week, then.","Werner Finkbinder wrote it down."]
+w_pass=[l for l in bad_w if run_scan(f"Check the flapper.\n\n{l}\n",[PLR,WERN])[0]!=1]
+chan=open(f"{CORE}/channels.md").read(); bs=open(f"{ROOT}/tools/build_skills.py").read()
+check("70. Werner's profile: plumbing pack, Talking Head, Herrmann voice, ready; name, book, tenure 30; row 9 ready; the book index; in the build; a clean paragraph with the mentor line and 30 years passes, his banned lines fail",
+      "Niche pack: plumbing-scripts" in wp and "Script type: Talking Head" in wp and "au7Q2pqB7wdio9LWlvt7" in wp and "Status: ready" in wp
+      and "name: Werner Finkbeiner" in wf and "book: Werner's One Hundred and One Free Repairs" in wf and "tenure: 30" in wf
+      and "| 9 | Werner Finkbeiner | `plumbing-scripts` | `personas/werner-finkbeiner.md` | ready |" in chan
+      and '"werner-finkbeiner": ("Werner Finkbeiner", "personas/werner-finkbeiner.md"' in bs
+      and os.path.exists(f"{PERS}/books/werner-finkbeiner-book.md") and "| 54 | Silence a Running Toilet by Replacing the Flapper | 7 | 277 |" in open(f"{PERS}/books/werner-finkbeiner-book.md").read()
+      and cw[0]==0 and not w_pass, f"clean: {cw[1][-500:] if cw[0] else ''}; banned lines passing: {w_pass}")
+# 46b. the escalation line (plumbing P17, numbered P11 on its own branch; operator 2026-10-27): an option in the plumbing opening, not a rule, rotated, never naming
+#     a single item; P10's never list stands; R21 (drywall, not plumbing) holds the two moves only, no script or beat map
+r21=open(f"{ROOT}/plumbing-scripts/references/models/R21-nailed-it-drywall-repair-beginners.md").read()
+idx=open(f"{ROOT}/plumbing-scripts/references/models/INDEX.md").read()
+check("46b. plumbing hook: the escalation line is an option, not a rule, rotated, never naming an item; R21 is marked not plumbing with no script or beat map",
+      "**The escalation line: an option, not a rule**" in op and "rotate it like any opening shape" in op
+      and "never what an item holds or its fix" in op and "a promise block or any run-down of what later items hold" in op
+      and "apart from the count line or the escalation line" in pk
+      and "NOT PLUMBING" in r21 and "## Beat map" not in r21 and "## Script" not in r21 and "R21-nailed-it-drywall-repair-beginners.md" in idx, "")
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
