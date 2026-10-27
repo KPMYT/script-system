@@ -1,0 +1,269 @@
+# pPMm0reEBPM | Cheap & Easy Way to Connect a Generator to Your House - Legal Too! | Silver Cymbal
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:00] in today's video we're going to be
+[0:01] installing one of the easiest and most
+[0:02] affordable methods that you can connect
+[0:04] a generator to your house now the best
+[0:06] part of this install is you can use it
+[0:08] for both gasoline power generators or
+[0:10] solar generators as well the most
+[0:12] important part of the system is going to
+[0:13] be the generator Inlet now you can
+[0:15] install this on the inside or the
+[0:17] outside of your home for inlets there
+[0:18] are two ratings 30 amp and 50 amp
+[0:21] usually if your generator 7,000 Watts or
+[0:23] less you'll use a 30 amp which is what
+[0:25] I'm doing here and now for the star of
+[0:27] the show that makes this system work
+[0:28] it's called the generator loock kit now
+[0:31] while it sounds fancy it's literally
+[0:32] just a piece of metal that prevents you
+[0:34] accidentally turning two circuit
+[0:36] breakers on at the same time but here's
+[0:38] where many people get into trouble you
+[0:39] do need a specific location for the
+[0:42] interlock kit has to generally be next
+[0:44] to your main circuit breaker so that the
+[0:46] mechanical levers can work your
+[0:47] directions for your specific interlock
+[0:49] kit will tell you precisely which
+[0:51] locations you need this kit requires the
+[0:53] two spots just below my main breaker to
+[0:55] be open but just like your panel at home
+[0:57] you're likely to already have circuit
+[0:59] breakers in those position so we do need
+[1:00] to make some changes to make sure this
+[1:02] thing can fit the first step of any
+[1:04] electric project is to turn off the
+[1:06] power now you might not be comfortable
+[1:07] doing this so you can use this video as
+[1:09] a guide so that you understand the steps
+[1:10] involved now one good surprise is you
+[1:12] will generally find that there is enough
+[1:14] slack on your circuit breaker wires to
+[1:16] move them slightly so with the power off
+[1:18] I'm simply going to move each one of the
+[1:19] breakers down until I free up that
+[1:21] location if your wire doesn't have
+[1:23] enough slack you do have a couple of
+[1:24] options you can use wire nuts inside
+[1:26] your panel to extend the wire further so
+[1:28] you can move the breaker somewhere else
+[1:30] and here's our all powerful 30 amp
+[1:32] interlock breaker well in fact this is
+[1:34] just a regular circuit breaker sells for
+[1:35] $12 it's a dual pull meaning to can
+[1:38] accept 240 volts this is how our
+[1:40] electricity from our generator will be
+[1:42] back fed into the panel now I did say
+[1:44] back fed because in this situation you
+[1:46] are doing a legal form of back feeding
+[1:49] because of the Interlock system next
+[1:51] we've got our generator Inlet box this
+[1:52] one is rated for 30 amps to 240 volts so
+[1:55] this will be perfect for most gas
+[1:57] generators or battery powered units
+[1:59] there are a million different different
+[2:00] models of these online right now that
+[2:01] you can buy but this Reliance one has
+[2:03] been around forever so I'm pretty
+[2:04] comfortable with it I also like the fact
+[2:05] it's got knockouts on both sides the
+[2:07] bottom and the back if your panel is
+[2:09] exposed or you've just got drywall the
+[2:11] steps will be a lot easier a bit of a
+[2:13] screwy situation here this panel is
+[2:15] recessed into the wall and that
+[2:16] generally isn't an issue but the walls
+[2:18] are actually covered with plywood so I'm
+[2:20] going to cut this small section Out
+[2:22] Below and this will give me an access
+[2:23] panel for more work in the future and
+[2:25] you're going to need access and that's
+[2:27] where you're going to use one of these
+[2:28] Knockouts I can drill a hole through
+[2:30] this wood beam and I'll be able to fish
+[2:31] my cable
+[2:32] up I'm using the knockout on the back of
+[2:35] the inlet to feed my wire additionally
+[2:37] I'm going to use this cable clamp the
+[2:38] threads inside and this will hold the
+[2:40] wire securely once it's mounted you want
+[2:42] to be certain to use one of these on
+[2:44] your electric panel as well because if
+[2:45] the wire just touched the edges of that
+[2:47] hole it could get cut or broken and it
+[2:49] could cause a short circuit one good tip
+[2:51] is to do some of the wiring beforehand
+[2:53] that way you can just feed it into the
+[2:55] wall but it's already secured into the
+[2:56] clamp for this installation I'm happy to
+[2:58] have the outlet right next next to my
+[3:00] panel but if you want to extend this
+[3:01] wire further you can they generally
+[3:03] recommend going up to about 50 ft before
+[3:05] you have to consider upgrading the size
+[3:07] of the wire make sure that the wire that
+[3:08] you pull into your electric panel can
+[3:10] reach at least all the way to the top
+[3:12] because by the time you bend it around
+[3:14] you are going to use some of it up and
+[3:15] you don't want to run short now just
+[3:18] secure this access panel back to the
+[3:19] wall and mount the inlet box it's worth
+[3:21] making sure that it's level as well
+[3:23] super simple to install you just use
+[3:25] three wood screws to mount it to either
+[3:26] your siding your wallboard or whatever
+[3:28] you've got now why are in these inlets
+[3:30] it's surprisingly easy you've just got
+[3:32] to deal with four wires you've got two
+[3:34] Hots which are indicated by the red and
+[3:35] the black the white which is your
+[3:37] neutral and of course the copper ground
+[3:39] the copper ground wire is the only one
+[3:41] that goes in differently it simply
+[3:43] attaches to the Box because they've
+[3:44] pre-wired that green wire into the inlet
+[3:46] just unscrew the green screw and Slide
+[3:49] the copper wire right into the opposite
+[3:50] end of the connector and tighten it down
+[3:52] the black and the red are considered
+[3:54] identical electrically they are both hot
+[3:56] wires now when you look at the back of
+[3:58] the inlet there is one hole that's
+[4:00] labeled W and that of course is for the
+[4:01] white but then you've got an X and A Y
+[4:04] those are the standard designations on
+[4:06] this model for both of the hot wires and
+[4:08] it does not matter which one of them
+[4:09] gets the red or the black you'll just
+[4:11] want to make certain that you get the
+[4:13] white into the W terminal and here's the
+[4:15] part you really don't want to get wrong
+[4:16] so many people mess this up insert it
+[4:19] into the hole and then see how much
+[4:21] insulation is showing you do not want to
+[4:23] have a lot of copper exposed beyond that
+[4:25] hole as we can see in this closeup here
+[4:28] this is really the perfect amount it's
+[4:29] cut just below the entrance of the hole
+[4:32] you want to make sure you're getting a
+[4:33] good connection but you don't want extra
+[4:34] wire that could short out on something
+[4:36] else once you get each of these wires
+[4:38] tightened down you're going to think the
+[4:39] job is done but you'd be completely
+[4:40] wrong once you start to move this thing
+[4:42] around the terminals will loosen up
+[4:44] slightly so just before you assemble the
+[4:46] Box completely on the wall go ahead and
+[4:49] recheck each one of those screws and
+[4:51] you're going to be shocked to see that
+[4:52] there is a little bit of slack I like to
+[4:54] bend these wires a bit to make some
+[4:55] curves so that when I push that outlet
+[4:57] against the wall it goes together easily
+[5:06] now on to the interlock breaker itself
+[5:08] where you need to First strip some of
+[5:10] the insulation off of The Wire that's
+[5:11] going into our electric panel you can go
+[5:13] ahead and cut off the excess and now
+[5:15] we're left with the same four wires that
+[5:17] we can connect into our
+[5:19] panel I'll begin by connecting my Ground
+[5:21] Terminal but I don't have any open
+[5:23] ground spots to connect the wire to but
+[5:25] fortunately you are allowed to connect
+[5:26] multiple ground terminals under one
+[5:28] screw you're not allowed to do that with
+[5:30] neutrals but here I'm able to slip two
+[5:32] grounds together and tighten this
+[5:34] terminal down next I need to connect my
+[5:36] neutral wire now fortunately I've got an
+[5:38] open spot here so I can simply insert
+[5:40] the wire and tighten it down
+[5:48] securely now I've got to connect my red
+[5:50] and my black wires to the interlock
+[5:52] breaker and again these wires are
+[5:54] identical it makes no difference as to
+[5:56] what position you put them in the
+[5:57] breaker and don't be one of those
+[5:58] electric slots s when you're inside this
+[6:00] panel the breaker connections are
+[6:01] critically important strip the amount of
+[6:03] wire that you need insert them into the
+[6:05] breaker but you want to make sure they
+[6:07] look like this when you're done you
+[6:08] never want to have any insulation
+[6:10] underneath the screw of course but you
+[6:12] also don't want to have a lot of exposed
+[6:13] wire it's okay to have about a 16th of
+[6:16] an inch sticking out of the edge of the
+[6:17] terminal but that's it any more than
+[6:19] that you do risk getting a short circuit
+[6:22] now we can install our interlock kit
+[6:24] remember the interlock is completely
+[6:25] mechanical it just needs to be installed
+[6:27] onto our electric panel cover now even
+[6:30] though my panel's 35 years old I could
+[6:32] still get an inchel loock kit that will
+[6:33] fit it perfectly most of them work the
+[6:35] same they will include a type of
+[6:37] template this kit might look a little
+[6:38] bit complicated but it's surprisingly
+[6:40] easy that upper bracket just allows me
+[6:42] to position it perfectly now once I
+[6:44] tighten that screw down I've just got to
+[6:46] Mark these four mounting holes but they
+[6:48] all work generally the same you're going
+[6:50] to typically drill two or four holes
+[6:52] into your electric panel cover and then
+[6:54] you'll insert some screws that they
+[6:55] provide in the kit to secure everything
+[6:57] down the upper portion was just to make
+[6:59] sure that I drilled everything perfectly
+[7:01] then it can be removed and discarded and
+[7:03] with everything reassembled I can
+[7:04] install it back on my electric panel and
+[7:06] I should be ready to go and now it's
+[7:08] time to test this thing out and make
+[7:09] sure that everything's working now we're
+[7:11] going to simulate a power failure power
+[7:13] is out you'll want to start by switching
+[7:15] off your main breaker but you can see
+[7:17] that your generator breaker your
+[7:18] interlock one cannot be turned on so
+[7:21] when we switch off the main that panel
+[7:23] can be slid up and now we're able to
+[7:25] physically turn on our interlock breaker
+[7:28] at this point our pan is disconnected
+[7:30] from utility power and we can safely
+[7:32] connect our
+[7:34] generator and because my Inlet is on the
+[7:36] inside of the building of course I've
+[7:38] got to run a longer cord if I'm using a
+[7:39] gas model but in the future if I use a
+[7:41] battery I can plug that thing right in
+[7:43] front of the
+[7:44] panel it's a good idea to let you
+[7:46] generate a warmup for a few minutes
+[7:48] before turning that breaker on but some
+[7:50] models will say it's safe to do other
+[7:52] people will say it's a good idea to keep
+[7:53] all your Breakers in the off position
+[7:55] fire up your generator and turn them on
+[7:57] one by one so that you don't stress the
+[7:59] thing up for just over $100 I've now got
+[8:01] a safe and legal way to connect my
+[8:03] generator anytime I need to and this
+[8:05] thing is going to last the life of my
+[8:06] house so it's definitely worth the
+[8:08] effort and I hope this video was helpful
+[8:10] if you've got different ideas or better
+[8:11] ideas be sure to leave me a comment
+[8:12] below and subscribe to my channel if
+[8:14] you're not already for more videos
+[8:15] coming
+[8:17] up

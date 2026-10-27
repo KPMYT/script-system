@@ -5,6 +5,7 @@ Writes dist/<skill>/ (the folder) and dist/<skill>.skill (the same folder zipped
   script-writer          START -> finished script: the core rules (it finds the other skills by name)
   woodworking-scripts    the woodworking niche pack
   plumbing-scripts       the plumbing niche pack (without its archive/ and model-file-spec.md)
+  electrical-scripts     the electrical niche pack (without its model-file-spec.md)
   <channel>-persona      one per channel: the persona profile (as SKILL.md) and the channel's book text
   woodworking-ideation the edited woodworking ideation skill (needs ideation-core installed too)
   plumbing-ideation    the edited plumbing ideation skill (needs ideation-core too)
@@ -48,6 +49,8 @@ The script system is split into separate skills, one per layer. They're all inst
 | the persona profile `personas/roger-the-pipe-guy.md` | the **roger-the-pipe-guy-persona** skill: its `SKILL.md` is the profile |
 | the persona profile `personas/mark-silverbridge.md` | the **mark-silverbridge-persona** skill: its `SKILL.md` is the profile |
 | the persona profile `personas/vintage-pipefitter.md` | the **vintage-pipefitter-persona** skill: its `SKILL.md` is the profile (this channel has no book) |
+| the niche pack `electrical-scripts` | the **electrical-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder (with `references/models/`) |
+| the persona profile `personas/frederick-barnes.md` | the **frederick-barnes-persona** skill: its `SKILL.md` is the profile (this channel has no book) |
 | a book text `personas/books/<channel>-book.md` | inside that channel's persona skill, at the same path |
 
 If a skill the chosen channel needs isn't installed, stop with the NOT READY block (`core/workflow.md`, section 5) and name the missing skill.
@@ -76,13 +79,19 @@ Plumbing (the pack's copy-guard files: the pack's own SKILL.md, the excerpts, th
 ```
 python3 core/script-scanner.py SCRIPT --rules <plumbing-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF <plumbing-scripts>/references/price-guide.md --title "LOCKED TITLE" --refs <plumbing-scripts>/SKILL.md <plumbing-scripts>/references/excerpts.md <plumbing-scripts>/references/voice-samples.md <plumbing-scripts>/references/models/*.md <channel-persona>/SKILL.md
 ```
+
+Electrical (copy-guard files: the pack's own SKILL.md, the excerpts, the voice samples and every model file; the facts guide is a fact source, so it goes with the brief, never in --refs):
+
+```
+python3 core/script-scanner.py SCRIPT --rules <electrical-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF <electrical-scripts>/references/facts-guide.md --title "LOCKED TITLE" --refs <electrical-scripts>/SKILL.md <electrical-scripts>/references/excerpts.md <electrical-scripts>/references/voice-samples.md <electrical-scripts>/references/models/*.md <channel-persona>/SKILL.md
+```
 """
 
 INSTALL = """# Installing the skills
 
 **Version:** {stamp}
 
-Eleven skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
+Thirteen skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
 
 | File | Layer | What it does | On your account now |
 |---|---|---|---|
@@ -95,6 +104,8 @@ Eleven skill files, one per layer (`script-writer` also comes as `script-writer.
 | `roger-the-pipe-guy-persona.skill` | Channel | Roger's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
 | `mark-silverbridge-persona.skill` | Channel | Mark's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
 | `vintage-pipefitter-persona.skill` | Channel | The Vintage Pipefitter's profile and its one-line subscribe ask (no book). | **Replace** the copy on the account (delete it, upload this). |
+| `electrical-scripts.skill` | Niche | The electrical rules (inputs: title and brief, no research pack; the stakes with no money; the opening with one value promise; the seven video types; the one-line subscribe ask and the comment ending; 12 minutes minimum; units written for the voice; safety), the facts guide and the model scripts. | **New:** upload it. |
+| `frederick-barnes-persona.skill` | Channel | Frederick Barnes's profile (retired electrician, 35 years, Talking Head, a one-line subscribe ask, no book). **Pending:** START answers NOT READY for him until the operator marks him ready. | **New:** upload it (it does nothing until he's ready). |
 | `woodworking-ideation.skill` | Ideation | The Etsy-first product scan (30 products), title and thumbnail-text options, fact briefs, the optional research pack. | **Replace** the copy on the account (delete it, upload this). |
 | `plumbing-ideation.skill` | Ideation | Plumbing titles and briefs for Roger, Mark, Vintage and Werner; briefs now give each item its cost and the right way (the script fills gaps from the plumbing price guide). | **Replace** the copy on the account (delete it, upload this). |
 | `ideation-core.skill` | Ideation | The shared base every ideation skill needs. | **Unchanged:** only install it where it's missing (for example a new VA account). |
@@ -104,14 +115,14 @@ All of the script skills must be installed together: `script-writer` stops with 
 ## Steps
 
 1. **Delete** the old copies of `plumbing-ideation`, `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona` and `vintage-pipefitter-persona`.
-2. **Upload all eleven from this build together**: those nine, `script-writer` and the new `sawdust-sam-persona` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
+2. **Upload all thirteen from this build together**: those nine, `script-writer`, `sawdust-sam-persona` and the new `electrical-scripts` and `frederick-barnes-persona` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
 3. **Upload `ideation-core`** only if the account doesn't have it.
 4. **Turn them all on.**
 
 ## Using them (in Cowork)
 
 - **Ideation:** "Woodworking ideation for Hank" (or Dale). It scans Etsy, shows 30 products, then title options. You pick by number, and it writes the briefs. Ask for the research pack if you want it.
-- **Script:** type **START** in the chat where that channel's scripts are written, so each new script reads the rotation log lines of the earlier ones (in a fresh chat, paste the last five ROTATION LOG ENTRY lines, or "none"). Pick the channel, then paste what it asks for: for woodworking, the title, the brief, the research pack (or "none", and the chat builds one) and, in a fresh chat, the rotation log; for plumbing, the title, the brief and, in a fresh chat, the rotation log (no research pack).
+- **Script:** type **START** in the chat where that channel's scripts are written, so each new script reads the rotation log lines of the earlier ones (in a fresh chat, paste the last five ROTATION LOG ENTRY lines, or "none"). Pick the channel, then paste what it asks for: for woodworking, the title, the brief, the research pack (or "none", and the chat builds one) and, in a fresh chat, the rotation log; for plumbing, the title, the brief and, in a fresh chat, the rotation log (no research pack); for electrical (Frederick, once ready), the title, the brief and, in a fresh chat, the rotation log (no research pack).
 - **Upload rule:** only upload a script whose output says **VERDICT: PASS**. Anything that starts "NOT READY: DO NOT UPLOAD" goes back.
 
 ## Updating

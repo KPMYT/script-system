@@ -1,0 +1,306 @@
+# RmYwIt0RHnI | Whole House Power Backup Solution | Generator Inlet Box Install | Everyday Home Repairs
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:00] how's it going you guys it's Scott with
+[0:01] everyday home repairs and I want to do a
+[0:03] project today that I've been putting off
+[0:04] for a little bit I want the ability to
+[0:06] power the whole house with something
+[0:08] other than the grid now this is most
+[0:10] critical obviously in a power outage and
+[0:12] I want to use either a gen set or a
+[0:15] setup like portable power stations where
+[0:17] I can get 240 volts going into my main
+[0:20] panel and power my critical appliances
+[0:22] and circuits now this type of project is
+[0:25] approachable to most diy-ers that are
+[0:27] comfortable doing electrical work but if
+[0:29] you don't feel comfortable this is still
+[0:31] going to give you a good idea of your
+[0:33] options so you are a more educated
+[0:35] consumer working with a licensed
+[0:37] electrician in your area so let's jump
+[0:39] into it and I'll show you both how to
+[0:40] install the power Inlet box and also a
+[0:43] critical component called an interlock
+[0:45] so I'm going to start off by taking the
+[0:46] cover off I remove the four screws here
+[0:50] and then
+[0:51] the top rope applying pressure removing
+[0:54] the last one and then rocking the panel
+[0:56] away from the surface now how do you
+[0:58] know
+[0:59] 30 amp or a 50 amp which one's going to
+[1:03] actually power your home and get your
+[1:04] critical appliances up and running so
+[1:06] let's jump into that and show you how to
+[1:08] actually test and see what's going to
+[1:10] fit your home needs so if you do not
+[1:13] feel comfortable doing this do not
+[1:14] approach this project call in a
+[1:17] professional at least you'll know the
+[1:18] steps now that you should be going
+[1:20] through with your professional to get
+[1:21] the right setup for your home but what
+[1:24] I'm going to do is I'm going to take my
+[1:26] two conductors my main conductors coming
+[1:28] in from my meter base on the right and
+[1:30] left hand side here and then I'm just
+[1:32] going to take my current clamp and set
+[1:34] it to the 2 to 20 amp range at least to
+[1:37] start off what I want to do is clamp
+[1:40] that around that conductor
+[1:42] and I see that I'm drawing about three
+[1:44] amps from one phase
+[1:48] and I have about 12 amps from the other
+[1:51] phase so your phases can be unbalanced
+[1:54] and what that is specifically in my
+[1:56] instance is one of my critical
+[1:58] appliances is running on one side on 120
+[2:02] volt circuit and that is my furnace so
+[2:05] the furnace has taken about eight to
+[2:07] nine amps on this side and that is not
+[2:11] seen on the other side because it's just
+[2:13] on one of those phases so what I want to
+[2:16] do is I'm going to go inside turn on the
+[2:18] lights
+[2:19] power up a few appliances to the outlets
+[2:22] make sure that furnace keeps running and
+[2:25] then also I would want to see a buffer
+[2:27] to run my sump pump so those are my
+[2:29] critical appliances and circuits that I
+[2:31] want to keep running so what I want to
+[2:33] see is I don't exceed 30 amps now if
+[2:35] you're going past 30 amps maybe you want
+[2:37] to run your AC and you have a soft start
+[2:41] system you might be able to go up to
+[2:43] that 50 amp and that's going to be able
+[2:45] to also power your AC if that's
+[2:47] something that's important to you so
+[2:49] lights are now on I'm powering up my
+[2:52] laptop the furnace is running and I also
+[2:55] have the small burner on our electric
+[2:57] stove top running as well because that
+[2:59] might be something we want in a storm
+[3:01] where you can heat up some soup or boil
+[3:03] some water
+[3:06] so let's test our amperage again
+[3:10] I have nine amps going through our right
+[3:12] side phase that used to be three
+[3:18] in about 17.5 amps going through the
+[3:21] left hand side
+[3:22] now all I would want to check is now
+[3:25] what is my sump pump load I know my sump
+[3:27] pump load is 8 amps to get water up and
+[3:31] out of my home so right now I'm good I'm
+[3:35] going to be able to power the sump pump
+[3:36] power the furnace power up laptops and
+[3:40] cell phones I have lights on and I also
+[3:43] have a burner running inside the house
+[3:44] so a 30 amp plug is going to work for me
+[3:47] just now with the same current clamp you
+[3:50] also can test individual circuits that
+[3:53] are powering things like your furnace if
+[3:56] you don't feel comfortable or don't want
+[3:58] to test at the main conductors that are
+[4:00] coming in your house now if you need a
+[4:02] current clamp like this you can check
+[4:03] down in the description and you'll see
+[4:05] the link to our Amazon store which is
+[4:07] where we keep all the recommended items
+[4:09] like this which you'll find in the
+[4:11] electrical section and we're now
+[4:13] starting to spend out in 2023 to solar
+[4:16] battery backup so you'll see that
+[4:18] additional list out there which we'll
+[4:20] start off with the Reliance 30 amp plug
+[4:22] listed but will build out over time as
+[4:25] we continue to do more projects around
+[4:26] our own house so with that confirmation
+[4:29] I am confident that the 30 amp is going
+[4:31] to work for me so it's time to wire it
+[4:33] up we'll start off by positioning the
+[4:34] inlet box the stud buddy is marking the
+[4:37] stud on the outside and I have a torpedo
+[4:39] level just to make sure everything's
+[4:40] leveled up marking the hole so I can do
+[4:43] some drywall anchors and the center of
+[4:45] the knockout so I can drill a hole that
+[4:47] will allow the Romex and clamp through
+[4:51] I'll set two of these easy anchors
+[4:53] they're the metal ones those are my
+[4:55] preferred type of drywall anchor in
+[4:57] addition to toggle bolts I really like
+[5:01] now I'll just easily cut this hole out
+[5:04] not driving too far in and then that
+[5:06] will allow me to pass not only the 10-3
+[5:08] Romex but also this clamp so I make sure
+[5:12] everything's protected coming into the
+[5:14] box
+[5:16] now up at our load Center or the panel
+[5:19] I'll go ahead and take out that knockout
+[5:21] all the way on the edge
+[5:23] and take a fiberglass fishing tape
+[5:27] pushing it from the top down and using a
+[5:30] little piece of wire here to go fishing
+[5:32] and hook that so now I can connect up to
+[5:35] 10-3 using the bare copper double back
+[5:39] this isn't the prettiest one I've ever
+[5:41] done but now I'm going to just tape that
+[5:42] up with my 3M Super 33 electrical tape
+[5:48] trying to reduce any of the bumps that
+[5:51] might get caught as you try to pull that
+[5:53] up through the wall cavity and into your
+[5:56] electrical cabinet
+[5:58] now one pro tip here is I'm gonna
+[6:02] pre-install and tighten down this clamp
+[6:05] without the Locking nut I have the exact
+[6:08] amount of wire that I need so now when I
+[6:10] pull it up through that's already
+[6:13] mounted so we'll start pulling that just
+[6:15] taking our time
+[6:18] and then once we get up to the top
+[6:21] now we'll start to be able to pull the
+[6:23] 10 3 out
+[6:25] and we'll see the thread start to poke
+[6:28] out here after getting a little
+[6:30] insulation off then once we get the
+[6:32] threads I can just work that lock
+[6:34] nut on and I've been starting to use
+[6:37] these little wrenches to tighten down a
+[6:40] pose of just using like a flathead
+[6:41] screwdriver and my clients to tap that
+[6:44] tight this makes them much tighter and I
+[6:47] just think it's easier overall to
+[6:48] tighten that up
+[6:50] now going to mount the inlet box but
+[6:52] first we want to make sure we have that
+[6:54] connector or clamp on The Wire
+[6:58] take off the sheathing cut that back
+[7:02] and now we'll start to mount the box
+[7:04] I'll just Loosely put the lock nut on
+[7:08] but we'll not do the final tightening
+[7:10] quite yet
+[7:12] so this will be held with two screws top
+[7:15] one's a drywall anchor left side one is
+[7:17] also a drywall anchor and then I will
+[7:20] sink one screw into the stud making sure
+[7:23] everything is still Level and then that
+[7:25] will easily securely hold this Inlet box
+[7:28] on the wall
+[7:30] now here is our overall connections we
+[7:33] got the left and right which will be X
+[7:36] and Y those are your two hot conductors
+[7:38] so black and red and then W will go to
+[7:41] White your neutral conductor first off
+[7:43] best practice to get our grounds
+[7:45] connected up so the one pigtail ground
+[7:48] going to the actual plug and then the
+[7:50] one going to our 10-3 Romex stripping
+[7:54] off our three conductors I'll do the
+[7:56] neutral first and I am using my Torx
+[7:58] screwdriver there's a pretty cheap one
+[8:00] for thirty dollars you'll see it on my
+[8:02] Amazon store but I'm adjusting it to the
+[8:05] 20 inch pounds of torque which is called
+[8:07] out by the manufacturer
+[8:10] now once those are all tightened up
+[8:12] don't want to forget to do the final
+[8:13] tightening here to hold the Romex in
+[8:16] place
+[8:17] and then we'll go ahead and Tuck all the
+[8:19] wires and then slide the housing down
+[8:23] tighten it up and now the 30 amp Inlet
+[8:25] box on this side is completely wired up
+[8:28] and now will make our connections Inside
+[8:30] the Box we'll start off with the neutral
+[8:32] in the ground and since it's the main
+[8:34] electrical panel those will both land on
+[8:37] the same bus bars if it was a sub panel
+[8:39] we'd want to obviously keep those
+[8:41] separate
+[8:43] so go ahead and try to Route them around
+[8:45] the perimeter out of the way
+[8:47] and then once those are in place then
+[8:49] we'll go to our two faces here red and
+[8:52] black going into that 30 amp breaker
+[8:54] which is used for input coming from the
+[8:57] generator we'll tighten those down to 36
+[9:00] inch pounds and now the wiring is
+[9:02] completed moving on to the interlock kit
+[9:05] we'll remove this bolt and then place a
+[9:08] retaining bracket on that 30 amp breaker
+[9:11] tightening up the new bolt in place
+[9:13] before moving on to modifications that
+[9:16] need to be made for the cover starting
+[9:18] off we'll just use this little template
+[9:21] then drill three Thirty second pilot
+[9:24] holes into the back side of the cover
+[9:26] once those pilot holes are drilled then
+[9:29] you'll take the template off and you can
+[9:31] use a 3 16 inch bit
+[9:34] to increase that diameter of those holes
+[9:36] and that will be what three shoulder
+[9:39] bolts go through to keep the actual
+[9:42] interlock bracket in place
+[9:44] placing those three bolts through then
+[9:47] you'll put some locking nuts on the back
+[9:49] side
+[9:52] and start to tighten everything up
+[9:56] once those are tightened up now we're
+[9:58] ready to mount the cover back on our
+[10:00] electrical panel
+[10:02] now we'll put the panel back on and just
+[10:04] a cloud there is a small label or
+[10:06] sticker that gives additional
+[10:08] instructions for the interlock that
+[10:10] should be placed on your cover for
+[10:12] anyone's reference in the future
+[10:22] so the question is why the interlock
+[10:24] well in this position now we have our
+[10:27] main 200 amp feeding power from the grid
+[10:30] to our load Center or our electrical
+[10:33] panel right that's where the power is
+[10:35] coming from so we would not want our 30
+[10:38] amp breaker on because now if you
+[10:40] remember that Inlet box is more like a
+[10:43] plug with exposed prongs so if the main
+[10:47] was on and also your 30 amp for your
+[10:50] generator in that was on those problems
+[10:52] would be electrified and would be a
+[10:54] safety hazard furthermore if we turn our
+[10:58] main off
+[11:00] now we can turn on our Inlet from our
+[11:04] gen set and in that case so if we had
+[11:07] power coming from a 10 000 watt
+[11:09] generator through this 30 amp now if we
+[11:13] also hit our main disconnect we could be
+[11:15] back feeding power onto the grid and
+[11:18] that would be an unsafe condition for
+[11:20] the utility companies when they cut your
+[11:22] power you could be back feeding a line
+[11:25] and they don't know about that so
+[11:27] obviously that could be an unsafe
+[11:28] condition for them so that is the reason
+[11:31] we have this interlock so only one of
+[11:35] these can be on at any given time so
+[11:37] that's it for this one everything's
+[11:39] installed I'm ready to go I'm gonna be
+[11:41] testing out some gen sets in the future
+[11:42] and also looking at those power stations
+[11:45] I do have my eyes on the ecoflow Delta
+[11:48] Pro two of those units coming together
+[11:50] to provide a 240 that I need but
+[11:53] interest to hear your feedback if you
+[11:55] guys have any feedback on what you're
+[11:57] using at home and what has worked well I
+[12:00] really appreciate down in the comments
+[12:01] that you would let me know now if you
+[12:03] want to see a really cost effective way
+[12:05] if you have the real estate here next to
+[12:07] your panel to get a 240 volt 50 amp Nema
+[12:11] 1450 Outlet check out this video right
+[12:13] here I'll walk you through the complete
+[12:15] process which might not cost as much as
+[12:17] you think so thanks for joining me on
+[12:19] this video and we'll catch you on that
+[12:20] next one take care

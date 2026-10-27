@@ -48,7 +48,7 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 
 ## electrical-scripts/ (the electrical niche pack)
 
-Built 2026-10-27 for Frederick Barnes from the plumbing pack, with electrical's own formats, emotions and models (research in the niche-research repository, `studies/electrical/`). Under review; Frederick's status stays pending until a test run passes.
+Built 2026-10-27 for Frederick Barnes from the plumbing pack, with electrical's own formats, emotions and models (research in the niche-research repository, `studies/electrical/`). Reviewed by seven checkers (2026-10-27; reports in `studies/electrical/pack-review-2026-10-27/`); Frederick's status stays pending until his voice provider is confirmed.
 
 | File | What's in it |
 |---|---|
@@ -90,7 +90,7 @@ One persona profile per channel, written from `core/persona-profile-template.md`
 | `books/dale-oakfield-book.md` | The same for Dale's ebook, "The Ultimate DIY Woodworking Guide", with a chapter page map (the book prints no page numbers, so it uses PDF pages). |
 | `sawdust-sam.md` | Sawdust Sam's profile (built 2026-10-23, **pending** until his personal details are picked and a test run passes): woodworking for profit the old-world way (every video a heritage build), Talking Head, 174 words a minute, the Jon voice, Hank's CTA structure (two short CTAs naming the QR code and the top link) for *The Old Ways*, and scanner bans on invented trips, encounters and teachers. |
 | `books/sawdust-sam-book.md` | The text of Sam's book *The Old Ways* to printed page 80 (all Drive's extraction gives), with a chapter page map, the secrets by style (Japanese, Amish, Chinese and the rest) and a secret index; CTAs cite nothing past page 80. |
-| `frederick-barnes.md` | Frederick Barnes's profile (built 2026-10-27, **pending** until a test run passes): home electrical, retired electrician, 35 years, Talking Head, 195 words a minute, no book (a one-line subscribe ask in NO BOOK markers), voice to confirm, scanner bans on the name intro, the old firefighter framing and invented personal details. |
+| `frederick-barnes.md` | Frederick Barnes's profile (built 2026-10-27, **pending** until the voice provider is confirmed, then ready so the operator's test scripts can run, as Sam's was; the tests decide any changes): home electrical, retired electrician, 35 years, Talking Head, 195 words a minute, no book (a one-line subscribe ask in NO BOOK markers), voice to confirm, scanner bans on the name intro, the old firefighter framing and invented personal details. |
 | `roger-the-pipe-guy.md`, `mark-silverbridge.md`, `vintage-pipefitter.md` | The three plumbing profiles, approved 2026-10-21, ready since the plumbing pack entered the library: settings, voices, fixed tenures 45/40/45, the personality kept close to Notion, CTA rules (Roger and Mark: a short mid-video book ask and a one-line end reminder, naming the link and the QR code; Vintage: a one-line subscribe ask), and scanner blocks (Mark's also bans contractions). |
 | `books/roger-the-pipe-guy-book.md`, `books/mark-silverbridge-book.md` | Roger's "100 Old-House Fixes That Save You Thousands" (124 pages, 100 fixes) and Mark's "50 Easy Plumbing Fixes That Will Save You $10,000" (122 pages, 50 fixes), with printed page markers, chapter maps and fix indexes. |
 

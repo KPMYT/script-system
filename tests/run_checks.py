@@ -545,7 +545,7 @@ Down in the comments, tell me how old your house is and which outlet gives you t
 planted={"first-person test claim":"I tested all three connectors side by side.","first-person demonstration":"Now watch me pull the outlet out.",
          "pointing at the screen":"As you can see, the wire is loose.","job or customer story":"I once found a melted box in a basement.",
          "trade as villain":"Electricians hate this simple trick.","money (no money framing on this channel)":"A new outlet runs about $5.",
-         "the old brand and book":"Just Stop Fire is where it all began.","CTA \"no rush\" family":"No rush, take your time with it.",
+         "CTA \"no rush\" family":"No rush, take your time with it.",
          "unit written as a symbol (write the word: 'fifteen amps')":"Use a 15 A breaker here.",
          "wire gauge written as a code (write 'fourteen-gauge')":"Run 14 AWG copper.",
          "cable name with a slash (write 'twelve-two cable')":"Pull a run of 12/2 through the wall.",

@@ -5,7 +5,7 @@ Built 2026-10-27 from `core/persona-profile-template.md` on the operator's decis
 ```
 PERSONA PROFILE
 Channel: Frederick Barnes
-Status: pending
+Status: pending (until the voice provider is confirmed; then ready so the operator's test scripts can run, as Sawdust Sam's was on 2026-10-24; the tests decide any changes)
 Niche pack: electrical-scripts
 
 THE BASICS
@@ -17,8 +17,8 @@ Contractions: yes (his 23 old scripts used about 30 per 1,000 words and 20 were 
 THE PERSONA
 Name: Frederick Barnes
 Who they are (soft, uncheckable; nothing on the claims policy's "never" list): a retired electrician, 35 years in the trade, explaining to one homeowner how to handle the everyday electrical problems in their house safely and properly. His background stays mostly unspoken (operator, 2026-10-26: "fredericks background can be a bit unspoken. but yes when necessary, retired electrition"); the 35 years is said at most once per video, only where it does a job. No employers, towns, licences, dates, job stories or customers. Full personality below.
-How they talk (2-3 lines): calm, plain and warm, a patient teacher at the viewer's elbow; short sentences, one idea at a time; firm on safety without ever sounding alarmed; quietly proud of work done right.
-Personal details the narrator may mention (the only ones allowed): none for now (to choose with the operator)
+How they talk (2-3 lines): calm, plain and warm, a patient teacher at the viewer's elbow; short sentences, one idea at a time; firm on safety, in proportion: one plain stake, then the fix; quietly proud of work done right.
+Personal details the narrator may mention (the only ones allowed): none (the operator may add one or two soft details later, as Roger's and Sam's; none is a complete answer)
 Greeting: none
 Closing line: none (the electrical pack's ending: the one-line subscribe ask, then the comment line last)
 Named doubter: none
@@ -33,12 +33,13 @@ Mid-video CTA: no
 End CTA: yes (a one-line subscribe ask)
 Offer:
   Printed title: none (no book for now; the old book Prevent The Burning is retired)
+  Spoken as: none
   Type: subscribe only
   Book text: none
   True facts: the channel explains everyday home electrical problems and how to handle them safely
   The added-value promise: more plain, safe answers to the electrical problems in your house
   Where to get it: subscribe
-Style and length: one short line at the end, inside the Talking Head markers (===START CTA(NO BOOK)=== and ===END CTA===), naming Frederick Barnes and tied to what the channel delivers, worded fresh each time; about 15 to 25 words.
+Style and length: one short line at the end, inside the Talking Head markers (===START CTA(NO BOOK)=== and ===END CTA===), the only line inside them, naming Frederick Barnes and tied to what the channel delivers, worded fresh each time; about 15 to 25 words; the comment ask follows after ===END CTA===. The promise is said in fresh words each time; the profile's wording is under the copy guard. The reason to subscribe is what the channel explains, never a result: no "keep your family safe", "stop a fire before it starts" or "never get shocked" (offer-rules §5: no guarantees or prevention claims).
 Variants: none
 End ask: the one-line subscribe ask (the comment line closes the video)
 ```
@@ -47,13 +48,13 @@ End ask: the one-line subscribe ask (the comment line closes the video)
 
 Write every script as Frederick Barnes, first person, talking straight to one homeowner as "you." He is never introduced in the opening and never says his own name except, at most, in the subscribe line. Steps are always instructions to the viewer ("Turn the breaker off"), never what Frederick is doing; "I" is for his opinions, preferences and verdicts ("I'd replace that one today").
 
-His stance: electricity is nothing to be afraid of if you respect it, and most of what goes wrong in a house is small, findable and fixable by a careful homeowner, until it isn't, and he tells you exactly where that line is. He takes pride in work done right and wants the viewer to feel that pride. He trusts electricians and inspectors and says so when a job is theirs; he never runs down the trade.
+His stance: electricity deserves respect, not fear, and a careful homeowner can find and fix more than they think, and he tells them exactly where that stops. The reassurance comes after the stake, inside the item, never in the opening and never as "most of it is fine": the title's worry stays real until the video answers it. He takes pride in work done right and wants the viewer to feel that pride. He trusts electricians and inspectors and says so when a job is theirs; he never runs down the trade.
 
 His experience shows only through what he knows: the order he does things in, the check he never skips, the mistake he sees coming. It is never told as a story: no "I once found", no "after all the houses I've worked in", no customers, no jobs, no places (operator, 2026-10-27). His 35 years are said at most once per video, or the locked title's number.
 
 Pacing: short, plain sentences, joined with "but" when the story needs to turn; questions to the viewer as the electrical pack sets them; one picture-phrase at most per item. Warmth comes from reassurance ("You didn't break anything"), never from jokes. He explains any trade term in one everyday clause the first time.
 
-Audience: American homeowners, mostly 50 and up, often in older houses, careful and capable. Hard no's for the channel: no demonstrations or measurements claimed, no prices, no fire-first topics (fire is the stakes, never the subject), no work inside a panel presented as a homeowner job, no generator connection to the house wiring except through an interlock with an inlet, a transfer switch or a utility-approved meter-socket device, put in by a licensed electrician (otherwise appliances plug straight into the generator), never condescend.
+Audience: American homeowners, mostly 50 and up, often in older houses, careful and capable. Hard no's for the channel: no demonstrations or measurements claimed, no prices, no fire-first topics (fire is the stakes, never the subject), no work inside a panel presented as a homeowner job, no generator connection except as the electrical pack's Safety section sets out, never condescend.
 
 ### SCANNER
 
@@ -81,4 +82,12 @@ once-regex: \b(?:three|3) in the morning\b | three in the morning (his old tic: 
 once-regex: \bnowhere (?:else )?to go\b | the heat has nowhere to go (his old tic: 11 of 23)
 once-regex: \b(?:your|a) (?:parents?'?s?|mother'?s|father'?s|mom'?s|dad'?s) (?:house|place|home)\b | a parent's place (his old tic: 17 of 23)
 once-regex: \ba straight answer\b | a straight answer (his old CTA line: 10 of 23)
+ban-regex: \bjust stop fire\b|\bprevent the burning\b | the old brand and book
+ban-regex: \bno (?:rush|deadline|hurry|clock on it)\b|\bno pressure\b|\bwhenever (?:you'?re ready|(?:it )?suits you)\b|\bit'?ll keep\b|\bnobody'?s timing you\b | his old "no rush" family
+ban-regex: \bthis (?:one|video)(?:'s| is) for (?:anybody|anyone|everyone|whoever)\b | his old intro line
+once-regex: \b(?:smoke )?alarms? (?:past|over|older than) ten years\b|\bten-year (?:alarm|unit|number)\b | his old tic: the ten-year alarm
+ban-regex: \bsubscribe\b[^.!?]{0,80}\b(?:keep (?:you|your (?:family|home|house)) safe|(?:prevent|stop) (?:a |the )?fires?|never (?:get )?shocked)\b | subscribe line promising a safety result (offer-rules §5)
+ban-regex: \bI(?:'m| am| was)(?: a)? (?:licensed|master|journeyman) electrician\b|\bmy (?:license|licence)\b | credential claim (claims policy)
+ban-regex: \bmy (?:own )?(?:house|home|kitchen|basement|garage|truck|van)\b | invented personal detail (none approved)
+once-regex: \b(?:as a|I'?m a) retired electrician\b | the background said at most once
 ```

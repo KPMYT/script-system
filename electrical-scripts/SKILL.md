@@ -39,16 +39,17 @@ The core base rules apply wherever this pack is silent. These are the places it 
 |---|---|---|
 | `workflow.md` §2, the default inputs | The `inputs` block below: the title, the brief and the rotation log. The research pack is `not used`: the brief is the fact source, with `references/facts-guide.md` behind it. | 2026-10-27 (default, as plumbing) |
 | `retention-mechanics.md` §2 and §6, the value line and "short range only"; the hard-banned "by the end of this video" | The opening may carry one value promise (job 5 of "The opening"): an escalation, or what the viewer will know or be able to do by the end, naming things paid later, never the first items in order. Concrete named forward lines are allowed in the body. Vague teases stay hard-banned. The scanner lifts only "by the end of this video". | P11, operator 2026-10-27 |
-| `cta-and-endings.md` §4, `workflow.md` §4 ("the closing line is exactly one sentence"), `retention-mechanics.md` §14, `greenlight-audit.md` F3, `variety-rotation.md` slot 9 | The ending is the one-line subscribe ask, then the comment ask (a turn to the viewer, an outright ask to comment, a specific question and "I read every one"), which ends the script. Two or three sentences; nothing after it. FORMAT CHECK's closing field reads `[comment line, last line of the script]`; rotation slot 9 rotates the comment question. | 2026-10-27 (default, as plumbing's P5) |
-| `workflow.md` §3, the 8-minute minimum; `greenlight-audit.md` F2 | At least 12 minutes at the profile's words per minute; 15 to 22 is the sweet spot. See "Length". | Operator 2026-10-27: "even 15-22 is sweet spot" |
-| `variety-rotation.md`, the rotation log line | Six more fields at the end of the line: `\| model: [IDs] \| type: [video type, or new: shape] \| topic: [3-5 words] \| stakes: [device] \| promises: [devices] \| comment: "[the comment question]"`. | 2026-10-27 (as plumbing) |
+| `cta-and-endings.md` §4 and §1 ("one ask per moment"), `retention-mechanics.md` §1.4, `workflow.md` §4 ("the closing line is exactly one sentence"), `retention-mechanics.md` §14, `greenlight-audit.md` F3, `variety-rotation.md` slot 9 | The ending is the one-line subscribe ask, then the comment ask (a turn to the viewer, an outright ask to comment, a specific question and "I read every one"), which ends the script. Two or three sentences; nothing after it. The two asks are separated by the turn line to the viewer; the practical next action closes the last item (Emotion rule 11). FORMAT CHECK's closing field reads `[comment line, last line of the script]`; rotation slot 9 rotates the comment question. | 2026-10-27 (default, as plumbing's P5) |
+| `workflow.md` §3, the 8-minute minimum; `greenlight-audit.md` F2 | At least 12 minutes at the profile's words per minute; 15 to 22 is the sweet spot. See "Length". The evidence block's Length line reads "(minimum 12)". | Operator 2026-10-27: "even 15-22 is sweet spot" |
+| `variety-rotation.md`, the rotation log line | Six more fields at the end of the line: `\| model: [IDs] \| type: [video type, or new: shape] \| topic: [3-5 words] \| stakes: [device] \| promises: [devices] \| comment: "[the comment question]"`. For Frederick, the core fields read: return: n/a \| mid-CTA: n/a \| cta variant: n/a \| adversary: none, or the old work / the cheap part with how it was voiced \| swears: none \| details: none \| book: none \| closing: comment line. The opening field also records the order: opening: [move], order [type default \| changed: …] "[first 6-10 words]". | 2026-10-27 (as plumbing) |
 | `workflow.md` §3 step 4 and `greenlight-audit.md` D3, the `--refs` files | The copy guard runs against this file, `references/excerpts.md`, `references/voice-samples.md` and every file in `references/models/`, plus the persona profile. The facts guide is left out (as plumbing's price guide is): its facts are said in the script's own words, and a plain fact can't be guarded word for word. | 2026-10-27 (as plumbing) |
 | `research-and-sourcing.md` §6, "each number said alongside whoever counted it" | Sources don't have to be said. A source is named only where it really helps (CPSC, the electrical code); when it is named, its figure is said exactly as the source gives it. | 2026-10-27 (as plumbing) |
-| `greenlight-audit.md` E1, the originality score | Signal 1 counts facts from the brief or the facts guide that most videos on the topic don't use; signal 4 (three named sources) doesn't apply. Out of 6, passes at 4. | 2026-10-27 (as plumbing) |
-| `retention-mechanics.md` §6 and `greenlight-audit.md` B5, signposts | The sections are the opening, each item, step or contender, and the ending. "Number four." or "Step three." is the signpost. In an explainer, each block opens on the question it answers ("So where does that current actually go?"). | 2026-10-27 (as plumbing) |
+| `greenlight-audit.md` E1, the originality score | Signal 1 counts facts from the brief or the facts guide that most videos on the topic don't use; signal 4 (three named sources) doesn't apply. Out of 6, passes at 4. The evidence block reads "Originality: [n]/6 (missing: …)". | 2026-10-27 (as plumbing) |
+| `retention-mechanics.md` §6 and `greenlight-audit.md` B5, signposts | The sections are the opening, each item, step or contender, and the ending. "Number four." or "Step three." is the signpost. In an explainer, each block opens on the question it answers ("So where does that current actually go?"). Core B5's 90-second payoff limit stands; the five-minute limit is for forward lines. | 2026-10-27 (as plumbing) |
 | `greenlight-audit.md` D4, "every number traces to the fact source" | The fact source is the brief plus `references/facts-guide.md`. A number from neither (a setting, an interval) is allowed only when it is everyday knowledge and is marked "general knowledge" on the evidence block's Numbers line. No code number, wire size, breaker size or distance is ever filled in from memory. | 2026-10-27 (P7 adapted) |
-| `retention-mechanics.md` §2, the hook; `greenlight-audit.md` A1b | The electrical opening is the hook (see "The opening"), checked as the same three jobs: the transformation is the fix or answer named in the first sentence; the pain or wish is the problem the viewer has right now; the curiosity is the question, or the surprising fact the video answers. | 2026-10-27 (as plumbing) |
-| `humanizer.md` H22 and `greenlight-audit.md` C2, prices | Not used: this channel says no prices at all (operator 2026-10-24: "we dont really need to use money in electrical"). | 2026-10-24 |
+| `retention-mechanics.md` §2, the hook; `greenlight-audit.md` A1b | The electrical opening is the hook (see "The opening"), checked as the same three jobs: the transformation is the fix or answer named in the first sentence; the pain or wish is the problem the viewer has right now; the curiosity is the question, or the surprising fact the video answers. The Hook line records those three lines and the value promise ("value line: '[line]'" or none). The "first payoff" in A1b is the point: the problem with its fix or answer, by about 15 seconds; the opening's six jobs run to about 45 seconds, and in a list item one starts by about 30. The value promise (P11) replaces retention §2's value line: at most one, on any video where it fits (not "one in three"), placed as job 5, never the first sentence. | 2026-10-27 (as plumbing) |
+| `humanizer.md` H22 and `greenlight-audit.md` C2, prices | C2's price clauses and H22 don't apply: the script says no prices at all (operator 2026-10-24: "we dont really need to use money in electrical"), and the C2 check quotes any money word or dollar figure as a failure. The rest of C2 (plain words, every term explained the first time, numbers easy to follow) stands. | 2026-10-24 |
+| `variety-rotation.md` slots 1, 2, 3, 5 and 6, the money moves | Not used: the promise with a number (when the number is money), the cost-to-result, the result as a life reward, the surprise about a price, the cost turn, the cost bridge, the price-tag comparison and the reaction to a price. Use instead: slot 1 the problem at its worst, the question the viewer is already asking, the surprise (a fact, never a price), the pain then the good news, the unnamed object ("There's a part in most outlet boxes that…"); slot 2 the double take, the overlooked detail, the question turn; slot 3 effort or time ("This next one takes about a minute and a screwdriver"); slot 5 the objection said outright; slot 6 a verdict, a tradeoff, a preference with a reason. | 2026-10-24 (no money) |
 
 ## Inputs
 
@@ -292,7 +293,17 @@ When two locked titles share a topic, each script takes the part its title promi
 Frederick Barnes (and any channel whose profile says subscribe only):
 - **No mid-video CTA.**
 - **At the end, a very short subscribe ask** (operator, 2026-10-27: "CTA will literally just be a very short subscribe one"): one line, in the persona profile's shape, tied to what the channel delivers, worded fresh each time. Shape: one sentence of 15 to 25 words: the ask, Frederick Barnes or the channel, and what it brings next in the viewer's terms (the plain, safe answer to the next thing in the house that won't behave). No like or bell ask, no "if you want" hedging, no sign-off; the comment ask follows straight after.
-- **Talking Head** scripts wrap it in markers exactly as core `workflow.md` sets out, with `===START CTA(NO BOOK)===` and `===END CTA===`. One block only.
+- **Talking Head** scripts wrap it in markers exactly as core `workflow.md` sets out, with `===START CTA(NO BOOK)===` and `===END CTA===`. One block only. The block holds the subscribe line only. The comment ask comes after ===END CTA===, after one blank line, as ordinary narration and the last line of the script:
+
+```
+[the last line of the last item]
+
+===START CTA(NO BOOK)===
+[the one-line subscribe ask]
+===END CTA===
+
+[the comment ask: two or three sentences, the last words of the script]
+```
 - **Never** a long pitch, the "no rush" family (`cta-and-endings.md` §5), a QR walkthrough, or a production label read aloud.
 
 If a future electrical channel has a book or a mid-video CTA, its placement follows plumbing's rule (about a third of the way in, never before the end of item 3, at the end of an item's win), added here with the operator's yes.
@@ -396,7 +407,7 @@ Never "pull them off the wire", "throw water on it" or "turn the main off and ba
 - **First-person tests, measurements and demonstrations; pointing at the screen; job and customer stories; anyone's motives.**
 - **Money:** prices, savings, "save hundreds", the bill (operator, 2026-10-24).
 - **Electricians, inspectors, firefighters or the utility as the villain;** "electricians hate", "what they don't want you to know".
-- **Frederick's old template:** the long CTA, the "no rush" family, the firefighter framing, "Just Stop Fire", the old book.
+- **An old channel template:** the long CTA and the "no rush" family (each channel's own old lines are banned in its persona profile).
 - **Edit notes, cues, labels or directions** of any kind.
 - **Hype that gets mocked:** "horror movie", "brutal tests", and any "every", "never" or "forever" the script then walks back.
 - **Copying 8 or more words in a row** from a reference file.
@@ -427,8 +438,6 @@ ban-regex: \belectricians? (?:hate|don'?t want)\b|\bwhat (?:they|electricians|th
 ban-regex: \$\s?\d|\b(?:dollars?|bucks|cents)\b|\bsave (?:you )?(?:hundreds|thousands|money)\b|\b(?:electric|electricity|power|energy|utility) bills?\b | money (no money framing on this channel)
 ban-regex: \bthis channel (?:is for|exists|is all about)\b | template stock line: channel promise
 ban-regex: \bno rush\b|\bno pressure\b|\bwhenever you'?re ready\b | CTA "no rush" family
-ban-regex: \bjust stop fire\b|\bprevent the burning\b | the old brand and book
-ban-regex: \bas a (?:former |retired )?firefighter\b|\bfire (?:department|service) taught me\b | the old firefighter framing
 ban: horror movie | hype that got mocked
 ban-regex: \bbrutal tests?\b | hype that got mocked
 ban-regex: \b(?:it'?s|that'?s|it is|that is) (?:only|just) (?:a hundred and twenty|one hundred (?:and )?twenty|120|one-twenty|household|house)(?: volts?| current| power)?\b|\b(?:it|that|this|a hundred and twenty|120|one-twenty)(?: volts)? won'?t kill you\b | unsafe line
@@ -483,7 +492,7 @@ Check that:
 - no first-person test or measurement; no job story or claimed experience ("I find", "I've seen", "I've pulled"); a first-person title said as the typical case; an absolute title delivered as its strongest true version, never as a guarantee and never walked back
 - every code rule, size, distance and danger figure traces to the brief or the facts guide; settings from everyday knowledge are marked "general knowledge"
 - every unit, wire size and number is written for the voice; every term on the list is explained the first time
-- the CTA follows the persona profile: no mid-video CTA, the one-line subscribe ask in its NO BOOK markers at the end
+- the CTA follows the persona profile: no mid-video CTA, the one-line subscribe ask alone inside its NO BOOK markers; the comment ask after ===END CTA===, ending the script
 - the video ends on the comment ask, with nothing after it
 - each once-phrase appears at most once; the opening shape, stake device and comment question differ from the rotation log
 - the plan names its models with at least three differences, and no model was used in the channel's last five scripts
