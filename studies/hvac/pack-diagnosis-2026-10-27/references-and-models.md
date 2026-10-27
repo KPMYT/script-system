@@ -2,13 +2,13 @@
 
 Read-only diagnosis for the Roger the HVAC Guy pack, to be built by copying `plumbing-scripts`. It says, file by file, what in plumbing's `references/` transfers as-is, what must be adapted, and what HVAC needs instead. Nothing in either repository was changed except this file.
 
-**Sources.** Plumbing pack as installed: `/root/.claude/skills/synced/82c74450-.../plumbing-scripts/` (`SKILL.md`, `references/`), shortened below to `PS/`. HVAC research: `/home/user/niche-research/studies/hvac/` (`HV/`). Views, dates and lengths for HVAC videos come from `HV/data/raw/topvideos-exact-2026-10-26.json` (the same exact pull as `HV/top-100.csv` and `HV/recent-winners.md`, innertube `/next`, 2026-10-26); a `~` marks a census tab-rounded figure (`HV/data/raw/census-videos-2026-10-26.csv`), whose date is also approximate; `P3` marks a figure from `HV/data/raw/top-real-person-3y-2026-10-26.csv`. Channel types are the study's readings (`HV/data/raw/census-types-{A,B,C}-2026-10-26.csv`, `HV/channels.csv`); "not found" means the study has no type for that channel.
+**Sources.** `PS/` = the installed plumbing pack, `/root/.claude/skills/synced/82c74450-.../plumbing-scripts/`. `HV/` = `/home/user/niche-research/studies/hvac/`. HVAC views, dates and lengths: `HV/data/raw/topvideos-exact-2026-10-26.json` (the exact pull behind `HV/top-100.csv` and `HV/recent-winners.md`, 2026-10-26). `~` = census tab-rounded figure and approximate date (`HV/data/raw/census-videos-2026-10-26.csv`). `P3` = `HV/data/raw/top-real-person-3y-2026-10-26.csv`. Channel types are the study's readings (`HV/data/raw/census-types-{A,B,C}-2026-10-26.csv`, `HV/channels.csv`).
 
 **Short answer.**
-1. The plumbing pack's *structure* references mostly transfer: about 30 of its 39 model files have a beat map that fits an HVAC title of the same type. Its *content* references (voice samples, excerpts, price guide) are plumbing through and through and must be rebuilt, not copied.
-2. Only 4 plumbing models are HVAC or next to it already: S18 (HVAC peroxide), S13 (furnace condensate), R05 (spray foam, a drafts video) and R17 (generator in an outage).
-3. HVAC has strong real-person candidates for most types, but proven faceless HVAC models are thin outside Ray Dutton's 6 videos and the two brand verdicts. Ranked verdict, decision versus, "doing it wrong" and cheap-fixes-vs-quote have **no** proven faceless candidate.
-4. Only 4 HVAC transcripts are on disk, all AI-voiced (Ray Dutton x2, HVAC Exposed x2). No real-person HVAC transcript has been pulled, so the voice samples cannot be written yet.
+1. Plumbing's *structure* references mostly transfer (23 of 39 model files yes, 15 partly, 1 no). Its *content* references (voice samples, excerpts, price guide) are plumbing through and through: rebuild, don't copy.
+2. Only 4 plumbing models are HVAC or next to it: S18 (HVAC peroxide), S13 (furnace condensate), R05 (spray foam, drafts), R17 (generator).
+3. Real-person HVAC candidates are strong for most types; proven faceless ones are thin outside Ray Dutton and two brand verdicts. Ranked verdict, decision versus, "doing it wrong" and cheap-fixes-vs-quote have **no** proven faceless candidate.
+4. The 4 HVAC transcripts on disk are all AI-voiced (Ray x2, HVAC Exposed x2). No real HVAC voice is pulled, so voice samples can't be written yet.
 
 ---
 
@@ -16,7 +16,7 @@ Read-only diagnosis for the Roger the HVAC Guy pack, to be built by copying `plu
 
 ### 1a. Plumbing's 39 model files: does the structure serve HVAC?
 
-Types and tags from `PS/references/models/INDEX.md`. R = real channel (structure and voice), S = AI-voiced (structure only). "HVAC use" names the batch-1 title (number from `HV/ideation/greenlit-log.md`) the structure fits.
+Types and tags from `PS/references/models/INDEX.md`. R = real channel (structure and voice), S = AI-voiced (structure only). "#n" in the last column is the batch-1 title (numbered as in `HV/ideation/greenlit-log.md`) the structure fits.
 
 | File | Video type | R/S | HVAC? | Why (one line) |
 |---|---|---|---|---|
@@ -60,7 +60,7 @@ Types and tags from `PS/references/models/INDEX.md`. R = real channel (structure
 | S17 | N things | S | yes | correction item fits #7 |
 | S18 | N things (HVAC) | S | yes | already HVAC; keep its `[UNSAFE: banned]` labels (coil misting) |
 
-**Verdict:** structure yes for 25, partly for 13, no for 1 (R12). But every file's content, script and "Doesn't transfer" notes are plumbing, so the HVAC pack should keep only the ones it uses and add HVAC models beside them (see 1c and risk 3).
+**Verdict:** yes 23, partly 15, no 1 (R12). Every file's script and "Doesn't transfer" notes are plumbing, so keep only the structure models used and add HVAC models beside them.
 
 ### 1b. The 16 batch-1 titles mapped to types
 
@@ -95,12 +95,11 @@ Who: **R** = real person on camera (voice and structure); **FV** = faceless, nar
 |---|---|---|---|---|---|---|---|---|
 | K2jCz3D5z_0 | The 5 Thermostat Habits That Wear Out Your AC Years Early | Ray Dutton's Garage | 1,129,891 | 2026-08-18 | 14:28 | F | yes | no |
 | qbWN3OViWxQ | 5 AC Mistakes HVAC Companies Hope You Keep Making | Ray Dutton's Garage | 589,530 | 2026-07-31 | 14:06 | F | yes | `RT/tx_ray2.txt` |
-| wZk06FJWMlM | 5 Energy Bill Mistakes Utility Companies Hope You Keep Making | Ray Dutton's Garage | 405,898 | 2026-08-29 | 14:20 | F | yes | no |
 | _g8gQ1gg1FM | 5 Furnace Filter Mistakes That Will Cost You Money! | The Funny Carpenter | 2,898,729 | 2024-02-15 | 5:34 | R | yes | no |
 | V-jmSjy2ArM | Space Heater Nonsense | Technology Connections | 5,388,888 | 2019-02-13 | 17:43 | R | yes | no |
 | HnMuNCl7tZ8 | The clever feature that makes cheap heaters safe — and why they're actually dangerous | Technology Connections | 2,950,693 | 2025-02-01 | 28:56 | R | yes | no |
 
-Near miss: "5 BIGGEST Winter HVAC Mistakes Homeowners Don't Know!" (`Unx9Ze10N98`, HVAC Guide for Homeowners, 982,052, 6:44, R), just under 1M. Plumbing S03/S04 cover the item shape.
+Near miss: "5 BIGGEST Winter HVAC Mistakes Homeowners Don't Know!" (`Unx9Ze10N98`, HVAC Guide for Homeowners, 982,052, 6:44, R).
 
 **Seasonal checklist (#2)**
 
@@ -110,9 +109,8 @@ Near miss: "5 BIGGEST Winter HVAC Mistakes Homeowners Don't Know!" (`Unx9Ze10N98
 | fHAlfm21vYw | Before You Turn On Your Heat This Fall, Do This (Or Pay for It the First Cold Night) | Ray Dutton's Garage | 943,315 | 2026-09-14 | 14:42 | F | yes | no |
 | mP0IjyvQtxw | Before You Turn On Your Heat This Fall, Watch This (Or Pay For It All Winter) | The DIY HVAC Guy | 1,220,217 | 2026-09-26 | 14:56 | R | yes | no |
 | --A2I2s7aNw | Yearly Furnace Cleaning And Maintenance Pro Tips | Everyday Home Repairs | 2,169,980 | 2022-11-07 | 8:56 | FV | yes | no |
-| pBBnXHse-T0 | 15 Air Conditioner Maintenance Tips | Word of Advice TV | 1,969,301 | 2019-05-11 | 32:00 | R | yes (cooling) | no |
 
-This fixes plumbing's weakest type: its four seasonal models are 0.55x, 0.16x, 4:06 long, and 7 days old.
+This fixes plumbing's weakest type (its seasonal models are 0.55x, 0.16x, 4:06 long, and 7 days old).
 
 **Substance mystery / "pour X and watch" (#5, #6, #8)** — **too few HVAC candidates.**
 
@@ -123,7 +121,7 @@ This fixes plumbing's weakest type: its four seasonal models are 0.55x, 0.16x, 4
 | Kny-VwwzTn8 | How to Unclog AC Drain Line Fast (3 Seconds), Avoid Repairman | jeffostroff | 1,676,241 | 2019-03-22 | 8:47 | ? | yes if real | no |
 | dRL13JlclhM | BEST AC Drain Line Cleaning Tool \| 92 % DON'T Know This | Deanin' It Yourself | 1,595,451 | 2023-01-25 | 5:51 | R | yes | no |
 
-The only faceless HVAC substance video over 300K is TheCheapFix's (already S18). The real ones are condensate how-tos, not substance videos. The operator's own HVAC data point, "Pour One Cup of Vinegar Down Your AC's Drain Line Today (Before It Floods Your Ceiling)" (`cFYptbCvNjI`, Roger the Pipe Guy, 37,000, 23:30, 9.04x; `HV/data/raw/plumbing-own-channels-2026-10-26/videos_roger.csv`), isn't proven by the rule and has no transcript on disk. Keep plumbing's S06, S08, S14, S15 and S13 as this type's models.
+Only TheCheapFix's (already S18) is a faceless HVAC substance video over 300K; the real ones are condensate how-tos. The operator's own "Pour One Cup of Vinegar Down Your AC's Drain Line Today (Before It Floods Your Ceiling)" (`cFYptbCvNjI`, 37,000, 23:30, 9.04x, `HV/data/raw/plumbing-own-channels-2026-10-26/videos_roger.csv`) isn't proven and has no transcript. Keep plumbing S06, S08, S14, S15, S13 as this type's models.
 
 **Ranked verdict, "Ranks All 4" (#9)**. **No faceless candidate.**
 
@@ -133,7 +131,7 @@ The only faceless HVAC substance video over 300K is TheCheapFix's (already S18).
 | RdbFAG5xbyY | The ULTIMATE Air Filter Test [Engineer Tested] | Brand Ranks | 1,351,786 | 2024-10-31 | 13:20 | ? | ? | no |
 | sQGfO4hNb60 | We Tested Every Air Purifier! One Clear Winner! | Project Farm | 1,147,219 | 2026-03-08 | 21:15 | ? | yes if real | no |
 
-All three are filmed tests, which our scripts can't claim (`PS/SKILL.md`, "A title that promises tests"). The faceless 3-way "Window AC vs Mini-Split vs Central: The Math Nobody Shows You (The Real Cost Over 10 Years)" (`auUvh-k5ja4`, Coil Exposed, 212,736, 8:12, F) is under 300K. Use plumbing S02 (857.86x) and S11 for structure.
+All are filmed tests our scripts can't claim (`PS/SKILL.md`). The faceless "Window AC vs Mini-Split vs Central: The Math Nobody Shows You (The Real Cost Over 10 Years)" (`auUvh-k5ja4`, Coil Exposed, 212,736, 8:12) is under 300K. Use plumbing S02 and S11.
 
 **Brand verdict, "The Only N Brands Worth Buying" (batch 2)**
 
@@ -144,7 +142,7 @@ All three are filmed tests, which our scripts can't claim (`PS/SKILL.md`, "A tit
 | r_uP9itJ0HQ | STOP Buying the WRONG Air Conditioner Brands | Atlas AC | 1,873,961 | 2022-11-28 | 15:24 | R | yes | no |
 | x2BK-zr4raE | STOP Buying This HVAC Brand | The DIY HVAC Guy | 1,295,963 | 2024-04-13 | 9:30 | R | yes | no |
 
-Plumbing has no model of this type at all. Every proven one is about AC or HVAC in general. No furnace-brand video is proven: the biggest found is "The Only 4 Furnace Brands Worth Buying in 2026 (The 20-Year List)" (`m85JmJWFt7U`, HVAC Mike, 7,240).
+Plumbing has no model of this type. All proven ones are AC or general; the biggest furnace one is "The Only 4 Furnace Brands Worth Buying in 2026 (The 20-Year List)" (`m85JmJWFt7U`, HVAC Mike, 7,240).
 
 **Symptom diagnostic, "Why your furnace keeps..." (#14)**
 
@@ -153,10 +151,9 @@ Plumbing has no model of this type at all. Every proven one is about AC or HVAC 
 | sRvH-io-ZtA | The Most Common Reason Why A Gas Furnace Won't Turn On | Everyday Home Repairs | 2,777,727 | 2022-09-15 | 8:25 | FV | yes | no |
 | 3Jonl_TLkpE | Furnace Not Working - The Most Common Fix | Word of Advice TV | 2,567,766 | 2018-10-20 | 8:57 | R | yes | no |
 | _b6p0fkWhCY | #1 Problem & Quick Fix with Central Air Conditioning Not Cooling | Silver Cymbal | 4,307,792 | 2018-07-20 | 8:53 | R | yes | no |
-| stZs8Co80vk | 8 Reasons Why Your AC is Freezing Up | Word of Advice TV | 2,034,948 | 2018-08-12 | 8:54 | R | yes | no |
 | yJxDc90hs4g | Furnace wont start.  What to do before calling the repair man. | grayfurnaceman | 1,215,132 | 2012-09-12 | 10:11 | FV | yes | no |
 
-No faceless persona video passes: Ray's "Why 70 Degrees Feels Cold in Your House Every Winter (It's Not the Furnace)" (`GKizclJLSq0`, ~155,000, 13:15) is the best. Symptom-fix is a weak persona format (0.98x, `HV/formats.md`).
+No faceless persona video passes (best: Ray's `GKizclJLSq0`, ~155,000); symptom-fix is a weak persona format (0.98x, `HV/formats.md`).
 
 **Cheap-part repair (#14)**
 
@@ -165,10 +162,9 @@ No faceless persona video passes: Ray's "Why 70 Degrees Feels Cold in Your House
 | Is0pv2Qnza0 | HVAC Contractors Practically Make Their Living On These | The DIY HVAC Guy | 2,449,985 | 2024-05-25 | 11:26 | R | yes | no |
 | i8nDBZo6XyE | Was Quoted $400. I Fixed It For $11.72! AC Capacitor Testing and Replacement | How To Home | 2,195,593 | 2023-04-22 | 11:41 | R | yes | no |
 | 1bRsFAMgZRQ | Furnace Not Igniting - How to Check and Replace Ignitor | Word of Advice TV | 1,366,846 | 2018-11-29 | 13:08 | R | yes | no |
-| R7AKPgBB_R4 | How To Clean Your Furnace Flame Sensor | HouseImprovements | ~1,000,000 | ~2014 | 9:46 | ? | yes if real | no |
 | y07w1hiKIrI | Keep Your Family Warm During A Power Outage By Installing This $5 Part | The DIY HVAC Guy | 4,291,080 | 2023-10-15 | 11:47 | R | yes | no |
 
-No faceless candidate: Ray's "$X part" reruns all stayed under 50K (`HV/ray-dutton-sources.md` §4).
+No faceless candidate: Ray's "$X part" reruns stayed under 50K (`HV/ray-dutton-sources.md` §4).
 
 **Decision versus, heat pump vs gas furnace (later batch)**. **Too few: no head-to-head is proven.**
 
@@ -176,12 +172,11 @@ No faceless candidate: Ray's "$X part" reruns all stayed under 50K (`HV/ray-dutt
 |---|---|---|---|---|---|---|---|---|
 | 7J52mDjZzto | Heat Pumps: the Future of Home Heating | Technology Connections | 4,845,958 | 2021-02-28 | 35:15 | R | yes (explainer, not a versus) | no |
 | GhAKMAcmJFg | This is Why Heat Pumps May NOT Be The Future | Skill Builder | 2,541,987 | 2021-07-19 | 13:12 | R | yes (UK) | no |
-| wbY3n5ofevU | Heat Pump vs Gas Furnace - Which is the Best Choice For You? | HVACDirect | ~248,000 | ~2023 | 6:16 | ? | no | no |
 | OAok8omYqSY | Heat Pump Vs. Furnace - Which is BETTER? | Atlas AC | ~212,000 | ~2025 | 14:00 | R | no | no |
 
 Use plumbing R04 and S12 (tank vs tankless) for the shape.
 
-**N things about one product (#7)**: plumbing S01, S05, S17, S18 already fit. The HVAC real-person "N things they don't want you to know" lists: "Top 5 Things AC Companies Don't Want You To Know How To Do!" (`AQQH9QwC46A`, How To Home, 2,980,312, 2023-04-29, 12:40, R, no transcript) and "3 Things HVAC Contractors Don't Want You To Know About." (`SkLMRM9NnBY`, The DIY HVAC Guy, 2,770,350, 2022-08-05, 13:17, R, no transcript). Both are task lists, not one product, so they help with structure only in part.
+**N things about one product (#7)**: plumbing S01, S05, S17, S18 fit. Real HVAC "they don't want you to know" lists (task lists, not one product, so partly): "Top 5 Things AC Companies Don't Want You To Know How To Do!" (`AQQH9QwC46A`, How To Home, 2,980,312, 2023-04-29, 12:40, R) and "3 Things HVAC Contractors Don't Want You To Know About." (`SkLMRM9NnBY`, The DIY HVAC Guy, 2,770,350, 2022-08-05, 13:17, R). No transcripts.
 
 **Hidden cause / product myth-bust (#3, #10, #11)**
 
@@ -190,7 +185,6 @@ Use plumbing R04 and S12 (tank vs tankless) for the shape.
 | _ZgVjFpBnQA | The $30 AC Filter Is Destroying Your HVAC System (Here's Why) | Ray Dutton's Garage | 773,572 | 2026-08-02 | 15:10 | F | yes | `RT/tx_ray3.txt` |
 | l2yyfYpcwpQ | Why the $30 Filter Is Destroying Your HVAC System (The Airflow Lie) | HVAC Exposed | 351,124 | 2026-03-30 | 13:38 | F | yes | `RT/tx_hvacexposed_filter.txt` |
 | J95l9Ue4224 | THIS is Why Your Heat Bill is So High! Rim Joist Insulation Technique! | Home RenoVision DIY | 5,842,373 | 2024-12-07 | 18:21 | R | yes | no |
-| MFGRsWoSf4w | The Most Common Furnace Filter Issue And How To Fix It | Everyday Home Repairs | 1,351,765 | 2021-12-27 | 10:07 | FV | yes | no |
 
 For #10, plumbing S07 is the format source and stays the main model.
 
@@ -203,33 +197,32 @@ For #10, plumbing S07 is the format source and stays the main model.
 | ID | Title | Channel | Views | Uploaded | Length | Who | Proven | Transcript |
 |---|---|---|---|---|---|---|---|---|
 | Qx3cC1y23JY | Why Buy A Generator? You Have One Parked In Your Driveway. | The DIY HVAC Guy | 2,450,035 P3 | 2025-10-25 | 7:08 | R | yes | no |
-| y07w1hiKIrI | (as above, the $5 part) | The DIY HVAC Guy | 4,291,080 | 2023-10-15 | 11:47 | R | yes | no |
 | rX4eyZaHAjw | 15 Cheap Walmart Items That Become WORTH GOLD When Your Furnace Dies | Lost Survival Knowledge | 1,327,280 | 2026-10-14 | 22:21 | F | yes | no |
 | erq-QuCN0G0 | 6 Lifesaving Tips to Keep Warm During a Winter Power Outage | The Provident Prepper | 1,216,524 | 2020-10-23 | 15:10 | R | yes | no |
 
 Plumbing R17 (generator) also transfers, though it runs only 4:06.
 
-**Pattern from the electrical pack** (`origin/claude/intelligent-ride-v1at70`): one CSV of picks (`studies/electrical/model-picks-2026-10-27.csv`, 32 rows with id, video_id, views, posted, length, video_type, why, transcript_ok), real 1M+ channels only, and an adapted spec (`electrical-scripts/model-file-spec.md`) that adds "Stakes", "Safety lines", a "US or UK" line and an "Emotion voicing" section. HVAC should copy the CSV and the transcript_ok check. Its stakes and safety-lines fields suit HVAC (CO, gas, the cold night) better than plumbing's spec does.
+**Electrical pattern** (branch `claude/intelligent-ride-v1at70`): a picks CSV (`studies/electrical/model-picks-2026-10-27.csv`, 32 rows, with `transcript_ok`), real 1M+ channels only, and a spec (`electrical-scripts/model-file-spec.md`) adding "Stakes", "Safety lines" and "Emotion voicing". HVAC should copy the CSV and those fields (CO, gas, the cold night).
 
 ---
 
 ## 2. Voice samples
 
-**Plumbing's voices** (`PS/references/voice-samples.md`): three verbatim stretches from Got2Learn (faceless voice-over over diagrams, `pmN88UvZfDI`), Silver Cymbal (on camera, a windshield video, `fseq9NvO_zw`) and Roger Wakefield (on camera, an older master plumber, `WXJGaGtXrgY`). The "Borrow / Don't borrow" block (pointing at the picture, own demos, the trade's motives, hype, single prices, banned phrases, personal life) is topic-free and transfers as-is. The three samples are plumbing (and one is windshields) and get replaced.
+**Plumbing's voices** (`PS/references/voice-samples.md`): verbatim stretches from Got2Learn (faceless voice-over, `pmN88UvZfDI`), Silver Cymbal (on camera, windshields, `fseq9NvO_zw`) and Roger Wakefield (on camera, master plumber, `WXJGaGtXrgY`). The "Borrow / Don't borrow" block is topic-free and transfers as-is; the three samples get replaced.
 
-**HVAC candidates for 2-3 verbatim clips** (register to match: plain, practical, older tradesman; none has been listened to, so the age and register are readings from thumbnails and About pages):
+**HVAC candidates for 2-3 clips** (target: plain, practical, older tradesman; none listened to, so age and register are readings):
 
 | Channel | Video to clip | Why | Watch for |
 |---|---|---|---|
 | **Everyday Home Repairs** (FV, 2.78M top) | `sRvH-io-ZtA` (2,777,727) or `--A2I2s7aNw` (2,169,980) | voice over hands, the format closest to ours, like Got2Learn in plumbing | confirm it's a human voice |
 | **grayfurnaceman** (FV, 167K subs) | `yJxDc90hs4g` (1,215,132) | furnace-only, plain "before you call the repair man" framing; also has "The your heat exchanger is cracked so your furnace must be replaced scam" (`X3Y-yA42UBk`, ~299,000), Roger's upsell villain | 2012 audio quality; confirm the voice and age |
 | **Word of Advice TV** (R, 661K subs, appliance repairman per About) | `3Jonl_TLkpE` (2,567,766) | step-by-step, plain, "most common fix" | points at the camera a lot |
-| **Silver Cymbal** (R) | `_b6p0fkWhCY` (4,307,792) or `qAxJb0J1HH0` (3,773,264) | already plumbing's sample 2 voice, so the house sound stays the same across trades | has a transcript on disk only for non-HVAC videos |
+| **Silver Cymbal** (R) | `_b6p0fkWhCY` (4,307,792) or `qAxJb0J1HH0` (3,773,264) | already plumbing's sample 2 voice, so the house sound stays the same across trades | on disk: only spray foam and generator transcripts (`SP/competitors/silver-cymbal/`) |
 | Atlas AC (R, Kenneth Carpenter, co-owner) | `r_uP9itJ0HQ` (1,873,961) | the only real brand-verdict voice | contractor sales register |
 
-Not for voice: **The DIY HVAC Guy** (the biggest real HVAC channel, but "real young man in red cap" by the thumbnail reading, `HV/channels.csv`; use for structure), **How To Home** (high energy), **Technology Connections** (distinctive essay voice; CONCLUSIONS §6.6 says "structure more than tone"), and every Ray Dutton, HVAC Exposed or John The HVAC Guy video (AI-voiced).
+Not for voice: **The DIY HVAC Guy** (biggest real channel, but "real young man in red cap", `HV/channels.csv`; structure only), **How To Home** (high energy), **Technology Connections** (essay voice; CONCLUSIONS §6.6), and all Ray Dutton, HVAC Exposed and John The HVAC Guy videos (AI).
 
-**On disk:** no transcript of any real HVAC voice. The four HVAC transcripts (`RT/`) are all AI-voiced. Pull 3-4 of the videos above through NexLev's transcript tool (it doesn't count against the search cap, per the niche-research CLAUDE.md) before writing `voice-samples.md`.
+**On disk:** no real HVAC voice transcript. Pull 3-4 of the above with NexLev's transcript tool (outside the search cap) before writing `voice-samples.md`.
 
 ---
 
@@ -237,11 +230,11 @@ Not for voice: **The DIY HVAC Guy** (the biggest real HVAC channel, but "real yo
 
 **What's there** (`PS/references/excerpts.md`, about 11,300 words): 16 groups of verbatim lines by job (the point in the first sentence, opening questions, villain lines, scope, promises, priority flags, item lines, mechanism, home checks, money, honest limits, safety, call-a-pro, forward lines, CTAs, comment questions), about 200 quotes in all, with 11 marked **Problem:**. Sources: 60 plumbing-study transcripts (Silver Cymbal 32 lines, TheCheapFix 30, Got2Learn 29, The Vintage Pipefitter 28, Mark Silverbridge 23, Roger Wakefield 23, Roger the Pipe Guy 21, Arrow Pest Service 18).
 
-**Plumbing-only:** almost every quote's content (p-traps, flappers, sediment, solder, sewer gas, the main line). Group 8 (mechanism), group 9 (home checks), group 13 (call-a-pro: "two drains at once is the main line") and the money lines in group 10 are all plumbing facts. Only 3 lines are HVAC already (group 13 #7, group 15 #2, group 10 #9, all from S18).
+**Plumbing-only:** almost every quote's content (p-traps, flappers, sediment, solder, sewer gas, the main line). Group 8 (mechanism), group 9 (home checks), group 13 (call-a-pro: "two drains at once is the main line") and the money lines in group 10 are all plumbing facts. Only 5 lines come from an HVAC video, all S18 (`yIh1HAlbhc0`: groups 9, 10, 13, 14, 15).
 
 **Topic-free, can carry:** the intro text (tags, how to use it, what to leave behind), each group's "Shape:" notes, and the CTA and comment-question groups (15, 16), whose wording is about the viewer, not the pipe.
 
-**What an HVAC version needs:** the same 16 groups filled from HVAC transcripts. That means pulling roughly 20-30 HVAC transcripts first (the real channels in 1c and 2, plus Ray's top 5 and the brand verdicts as structure only). Add two groups plumbing doesn't need: **season and clock lines** (the first cold night, the after-hours call) and **CO and gas safety lines said in proportion**, since CONCLUSIONS §2 finds safety fear a weak lead (0.94x). The pack can ship without it at first (the electrical branch's `electrical-scripts/references/` has no excerpts file), but then the writer has no HVAC lines to shape from.
+**What an HVAC version needs:** the same 16 groups from 20-30 HVAC transcripts (the real channels in 1c and 2; Ray's top 5 and the brand verdicts as structure only), plus two new groups: **season and clock lines** (the first cold night, the after-hours call) and **CO and gas lines in proportion** (safety fear is a weak lead, 0.94x, CONCLUSIONS §2). The electrical branch ships no excerpts file, but then the writer has no HVAC lines to shape from.
 
 ---
 
@@ -347,14 +340,14 @@ From `PS/references/unit-plan-template.md`:
 
 ## 6. Top risks in carrying the reference material over
 
-1. **Plumbing facts leaking in.** The copy guard catches only 8-word runs. It won't stop a writer reusing a plumbing *fact or price* ("a drain call starts around $150", the main-line call-a-pro trigger) seen in SKILL.md, the excerpts or the models. Worse, if the plumbing price guide is copied, the scanner's D4 check ("every number traces to the brief + price guide") will pass plumbing numbers, and the two service-call figures conflict.
-2. **The copy guard set.** The HVAC pack's `--refs` list must name its own files. If it keeps the plumbing excerpts in the guard but not in the pack (or the reverse), the guard either misses lines or flags harmless ones. If Ray Dutton's transcripts are added as models, they must be in the guard. Ray's own method was near-copying (`HV/ray-dutton-sources.md` §3), and Roger must stand apart from him (CONCLUSIONS §5).
-3. **Models are nearly all plumbing.** Only 4 of 39 are HVAC or next to it. The no-repeat rule (no model reused within the last five scripts) will run dry fast on types with 1-2 HVAC models (brand verdict, decision versus, doing-it-wrong) unless the plumbing structure models stay in the library.
-4. **Thin, unpulled HVAC voice.** No real HVAC voice transcript is on disk. The biggest real channel reads as a young man, and the older-tradesman register is unconfirmed for every candidate.
-5. **Structure only, but AI-voiced.** All four HVAC transcripts on disk are AI-voiced (Ray, HVAC Exposed). S18 carries `[UNSAFE: banned]` passages (coil misting, disputed by technicians in the comments) that must keep their labels.
-6. **Safety rules are plumbing.** The SKILL.md defaults and the voice-samples' "never claims a house" clash with HVAC needs: CO, gas, refrigerant and limit switches (§6.8), and the first-person routine titles (#8, #10).
-7. **Footage-bound sources.** The real-person giants (WINNI 9.2M, Home RenoVision 5.8M, Technology Connections 71:11) are on-camera builds or essays. Their structure needs footage a faceless channel doesn't have, so their beat maps must mark what doesn't transfer.
-8. **Title numbers without a row.** The $5,000 insulation quote has no figure, so the script must say it in words or the title changes.
+1. **Plumbing facts leaking in.** The copy guard catches only 8-word runs, not a reused plumbing *fact or price* ("a drain call starts around $150", the main-line call-a-pro trigger) from SKILL.md, the excerpts or models. If the plumbing price guide is copied, the D4 check ("every number traces to the brief + price guide") passes plumbing numbers, and the service-call figures conflict.
+2. **The copy guard set.** The HVAC pack's `--refs` must list its own files. Any Ray Dutton transcript added as a model must be guarded: Ray near-copies (`HV/ray-dutton-sources.md` §3) and Roger must stand apart (CONCLUSIONS §5).
+3. **Models nearly all plumbing.** The no-repeat rule (none of the last five scripts' models) runs dry on types with 1-2 HVAC models unless plumbing structure models stay.
+4. **Thin HVAC voice.** No real HVAC voice on disk; the older-tradesman register is unconfirmed for every candidate.
+5. **AI-voiced sources.** All four HVAC transcripts on disk are AI. S18's `[UNSAFE: banned]` passages (coil misting) must keep their labels.
+6. **Plumbing safety rules.** SKILL.md's defaults and the voice file's "never claims a house" don't cover CO, gas, refrigerant or limit switches (§6.8), or the first-person titles (#8, #10).
+7. **Footage-bound giants.** WINNI (9.2M), Home RenoVision (5.8M) and Technology Connections (71:11) are on-camera builds or essays; their beat maps must mark what can't transfer.
+8. **Title numbers without a row.** The $5,000 quote (#12) has no figure: say it in words or change the title.
 
 ---
 
