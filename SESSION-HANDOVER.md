@@ -2,7 +2,7 @@
 
 The live note passed from one Claude Code chat to the next. A new chat reads `CLAUDE.md`, then this file, then `HANDOFF.md`, `README.md` and `PINNED.md`, and carries on from "Next actions". The outgoing chat rewrites this file before every handover.
 
-**Last updated:** 2026-10-27, session 9, the HVAC chat (branch `claude/hvac-research-czb2hy`, merged into `main`). Session 9 is summarised first; sessions 5-8 follow.
+**Last updated:** 2026-10-27, session 10, the electrical scripting chat (branch `claude/electrical-scripting-session-ayrkjc`, merged into `main`). Session 10 is summarised first; sessions 5-9 follow.
 
 ---
 
@@ -47,12 +47,26 @@ Learned in session 5:
 - Session 5's branch `claude/exciting-lamport-jasm2p` was merged at its handover.
 - **`claude/pensive-gates-4c5yrt` (the parallel chat's woodworking tests iter-01 to iter-03) was merged in this session** with both sides kept (`CHANGELOG.md` has every row of both), so it's in `main` now.
 - **Session 9's branch `claude/hvac-research-czb2hy` (the HVAC pack) is merged into `main` at its handover,** with `main`'s session 8 (electrical) merged in first and both sides kept in every shared file (`core/channels.md` rows 7 and 8, `tools/build_skills.py`, `tests/run_checks.py` checks 46-52 and 60-68, `README.md`, `HANDOFF.md`, `personas/README.md`).
-- **Not in `main` yet (other chats' branches, seen 2026-10-27):** `claude/electrical-scripting-session-ayrkjc` (the electrical tests iter-05, Frederick marked ready) and `claude/vigilant-keller-um63cs` (Werner's profile). The account already has skills from both, so **don't upload a `script-writer` built from `main` until both are merged:** it would drop Werner and show Frederick as pending.
+- **Session 10's branch `claude/electrical-scripting-session-ayrkjc` is merged into `main` at its handover,** with `main` (session 9, HVAC) merged in first and both sides kept: `core/script-scanner.py` (the electrician tenure words and P13's fixes together with the HVAC tenure words, the "no for" pattern, third-party years and `letters-ok`; letter sets judged once, with the niche's `letters-ok` skipped), `core/channels.md` (Frederick **ready**, row 7; Roger the HVAC Guy, row 8), `tools/build_skills.py` (both channels; `--final` on every scanner command, HVAC's included), `README.md`. One collision fixed: session 10's check 60 is now **69** (HVAC's are 60-68). 76 checks pass.
+- **Still not in `main` (seen 2026-10-27):**
+  - `claude/vigilant-keller-um63cs` (Werner's profile; 21 commits). It was built on top of session 10's branch, and the **account's `script-writer` comes from it** (Frederick and Werner both ready, but no Roger the HVAC Guy row). **Don't upload a `script-writer` built from `main` until it's merged:** it would drop Werner.
+  - `claude/festive-planck-2e8f22` (plumbing: the escalation line in the plumbing opening, model R21; 3 commits). The **account's `plumbing-scripts` comes from it**, so don't upload `plumbing-scripts` from `main` either until it's merged. It calls its proposal "P11", which is taken (P11 is the electrical value promise): renumber it at its merge.
+- **`dist/` is not rebuilt at this merge** (on purpose, as above). The account's `electrical-scripts` and `frederick-barnes-persona` match session 10's last build exactly; the HVAC skills aren't on the account yet.
 - Earlier branches are contained in `main`. Leave them.
 
 ---
 
 ## Where things stand
+
+### Session 10 (2026-10-27), in short: the electrical tests, Frederick ready (branch `claude/electrical-scripting-session-ayrkjc`)
+
+1. **The operator's answers** (HANDOFF section 3, "the electrical scripting chat (session 10)"): E1 apply all of P13; E2 numbers in words; E3 **no**, title numbers win (P13 item 7 rejected); E4 yes to both (offer-rules §5 scoped to CTAs, pitches, descriptions and pinned comments; Federal Pacific's independent test results with the source); E5 **ElevenLabs** (voice name and ID not given yet), "mark ready, check later"; E6 leave the ideation skill; **P12 rejected.**
+2. **P13 applied (core, every channel):** the tenure check reads "thirty-five years" and catches electrician wording; amp, volt, watt and gauge words are number-checked; letter sets and two-way words judged once with a count ("live", "lives"); voice tags in the script and **sentences over 35 words are fix-on-sight**; `--final` fails a script under the minimum; ITEMS and SENTENCES report lines (keys `item-words`, `first-item-seconds`, `sentence-max`, and `example-guard`, a 5-word guard on a pack's quoted example sentences); the audit's evidence block quotes the script (Items, Sentences, I-verdicts, Turns, Title word); **`tools/verify_output.py`** re-counts a saved output against its evidence (the main session runs it before every judge: `CLAUDE.md`).
+3. **Frederick Barnes is ready** (`core/channels.md` row 7); his profile has the 92-word voice-check paragraph for the operator to generate.
+4. **Three test runs** (`tests/iterations/iter-05/`, brief A12 "The REAL Reason Your Plug Won't Stay In The Outlet", writer, VA and judge kept apart): 101, 110, 111 of 130. The chat refused "just write it" and a missing rotation log. Each run's library fixes were applied before the next (L1-L8, N1-N5, N7-N10; the operator: "answer the questions yourself based on what you think is best"), above all the prove-dead order at a device, "look before you shop", the two-slot fallback, "open ground" explained, a short-sentence floor (12%, one per item), and the pack's example lines moved off locked topics. The run 03 judge: ready to deploy once N7 and N8 were in (they are); check the prove-dead step on the first real script.
+5. **The model library:** the operator removed the five models before 2022 and the science channel (E08, E12, E17, E20, E23, E38; kept in `studies/electrical/models-removed-2026-10-27/`); 31 remain, all 2022 on, structure only.
+6. **Uploaded by the operator:** `script-writer`, `electrical-scripts`, `frederick-barnes-persona` (session 10's build). The Werner chat has since uploaded its own `script-writer` on top of it (see "Branches").
+7. **Google Sheet:** the 17 electrical ideas (title, brief, thumbnail text, thumbnail instructions with reference links, reference video) added to the operator's "FREDERICK BARNES" sheet, rows 41-59, below the old fire-prevention ideas (left untouched).
 
 ### Session 9 (2026-10-27), in short: the HVAC pack and Roger the HVAC Guy (branch `claude/hvac-research-czb2hy`)
 
@@ -132,7 +146,7 @@ The same chat finished the electrical ideation in `KPMYT/niche-research` (17 ini
 ### Not yet true
 
 - **No plumbing script has passed the judge yet** (run 03 was close; no run 04). Mark and Vintage haven't been tested.
-- **The electrical pack exists but hasn't been tested or built into `dist/`;** Frederick is pending. The HVAC pack is built and tested (session 9); Roger the HVAC Guy is ready.
+- **Frederick Barnes is ready and on the account** (three test runs, session 10); his ElevenLabs voice name, ID and voice check are still to come. The HVAC pack is built and tested (session 9); Roger the HVAC Guy is ready but not on the account yet.
 - **Werner's lines** in the plumbing ideation and thumbnails skills are not cleaned up (waits for a yes).
 - **The thumbnails skill** (not in the repo) still says Mark has "no tenure number fixed yet" and Vintage "45 years" (now correct); Werner is still unnamed there and in `core/channels.md` (no profile yet).
 
@@ -140,20 +154,16 @@ The same chat finished the electrical ideation in `KPMYT/niche-research` (17 ini
 
 **HVAC (asked 2026-10-27; answer "1 yes, 2 no…"):**
 - H1. **The villain example line** in the HVAC and plumbing packs joins its two facts with "so" ("The trade is paid by the visit and the install, so a cheap check that ends the visits is nobody's business to mention"), and the HVAC writer copied it with "since", one step from a motive. Reword it as two separate sentences?
-- H2. **Core scanner checks** (every channel): list sentences over about 35 words; catch "it's not X, it's Y" split across two sentences; check every carbon monoxide step is there. (Overlaps P13; decide together.)
+- H2. **Core scanner checks** (every channel): list sentences over about 35 words; catch "it's not X, it's Y" split across two sentences; check every carbon monoxide step is there. *Partly settled in session 10:* sentences over 35 words are now fix-on-sight (P13); the split reframe was rejected (P12 "No"); the carbon monoxide step check is still open.
 - H3. **A brief price that disagrees with the price guide:** should the input gate flag it? Today the brief wins.
 - H4. **The rotation log** has no field for the subscribe line's opening words, though the profiles say they go there (plumbing too).
 - H5. **Batch 1 title notes:** #3 "The $5 Filter ... Better Than the $30 One" (a MERV 8 runs $6-$10, a MERV 11-13 $10-$25) and #14's "$300" (the top, at night or on a weekend); niche-research `batch1-brief-corrections-2026-10-27.md`.
 - H6. **Voice samples and words per minute** for Roger the HVAC Guy: the operator listens (provisional samples in `hvac-scripts/references/voice-samples.md`).
 
-**Electrical (asked 2026-10-27, unanswered at handover; answer "1 yes, 2 yes…"):**
-- E1. **The core checker fixes in `PROPOSALS.md` P13** (shared by every channel): the tenure bug ("thirty-five years" and "forty-five" read as a wrong figure; "forty years as an electrician" slips through), number words in the fact check, letter sets judged once, voice tags in scripts, a real length fail, the item and sentence report, a verifier for delivered outputs, extra evidence lines that quote the script, a 35-word sentence limit. Apply all?
-- E2. **Numbers in words** for volts, amps, watts and wire sizes, against core "stats are digits" (P13 item 6).
-- E3. **Titles with another years figure** (two ideation titles say "30 years"): back to ideation unless 35 (P13 item 7).
-- E4. **Federal Pacific independent test results**: may they be said with the source named (P13 item 8, plus the offer-rules scope)?
-- E5. **Frederick's voice**: ElevenLabs or Minimax and which voice. Then the voice check in his profile, then status ready (Sam's precedent) so tests can run.
-- E6. **The electrical ideation skill** (niche-research) still allows "after all the houses I've worked in": change it?
-- Also open: **P12** (count "doesn't X. It Y." as the one reframe, every channel).
+**Electrical (open at the session 10 handover):**
+- E7. **Frederick's ElevenLabs voice:** the voice name and ID, then the clip of the voice-check paragraph in his profile: how it says GFCI, AFCI and UL, whether the contractions and "live" are clean, and the clip's seconds (sets his real words per minute; scripts are sized at 195).
+- E8. **The old fire-prevention rows** (1-38) in the FREDERICK BARNES sheet: keep, move to another tab, or mark retired?
+- The ideation-side items in niche-research's handover (the registry; A29's "I Find"; two "30 years" titles, which now keep 30 in their scripts since title numbers win).
 
 **Older:**
 1. ~~Frederick's background and his new book~~: answered 2026-10-27 (retired electrician, 35 years; no book for now).
@@ -163,11 +173,13 @@ The same chat finished the electrical ideation in `KPMYT/niche-research` (17 ini
 
 ## Next actions (in order)
 
-**Electrical chat (next):**
-1. Read `CLAUDE.md`, this file, `HANDOFF.md` section 3 (2026-10-27), `PROPOSALS.md` P11-P13, `electrical-scripts/SKILL.md`, `personas/frederick-barnes.md` and the CHANGELOG rows of 2026-10-27.
-2. Get the operator's answers to E1-E6 above. Apply what's approved (P13's scanner patches are drafted and tested in the review reports R4-R7 and their scratch notes; re-test them here, add the run_checks lines that wait for them: R4's check 52 tenure and number parts).
-3. Once the voice is confirmed: the voice check in the profile, Frederick to ready, then the test cycle (`CLAUDE.md` "Testing with subagents"): a writer that sees only the library and one of the 17 briefs (niche-research `studies/electrical/ideation/briefs-2026-10-27.xlsx`; start with a fix or how-to title such as A12 or A1), an operator helper, and a judge against the rubric, the scanner and the reference video. Save it in `tests/iterations/iter-05/`.
-4. Rebuild the skills (`python3 tools/build_skills.py`) and send the operator the new and changed `.skill` files (electrical-scripts, frederick-barnes-persona, script-writer once Frederick is ready).
+**Electrical (next, on the operator's call):**
+1. Read `CLAUDE.md`, this file, `HANDOFF.md` section 3 (the 2026-10-27 blocks), `tests/iterations/iter-05/README.md` and the three judge reports there.
+2. When the operator sends the voice details: fill in the profile's voice provider line and the voice check, adjust words per minute if the clip says so, rebuild and send `frederick-barnes-persona` (and `script-writer` only after the Werner branch is in `main`).
+3. Check the first real Frederick script the operator pastes back: the prove-dead step against Safety rules 1 and 2, then the run 03 judge's non-blocking notes (open-box "I" lines, sentence length creeping up, procedure-first step openings).
+4. A14 (the LED glow) has no topic model since E38 went: use the closest explainer, as INDEX says.
+
+**Merging the other branches (whichever chat merges next):** merge `main` into the branch first and keep both sides; the scanner's tenure code and `core/channels.md` are the likely conflicts (Werner: row 9 in `channels.md` if Frederick and Roger the HVAC Guy keep 7 and 8); renumber any run_checks number that collides (in use: 1-69); renumber festive-planck's "P11". Only then rebuild `dist/` and send the operator the skills that differ from the account.
 
 **HVAC chat (next):** read `tests/iterations/iter-06/CHANGES.md` and the HANDOFF blocks of 2026-10-27; get H1-H6; the operator's own test scripts on batch 1 (the corrected briefs) decide further fixes. Rebuild `dist/` only once the electrical-scripting-session and Werner branches are in `main`, then send `hvac-scripts.skill`, `roger-the-hvac-guy-persona.skill` and the new `script-writer`. Batch 2 needs the brand-verdict rules first (a brand verdict stops NOT READY today).
 
@@ -194,13 +206,13 @@ The spellings here are correct; where a skill differs, the skill has the typo.
 | Roger The Pipe Guy | plumbing (45 years) | |
 | Mark Silverbridge | plumbing (40 years) | |
 | Vintage Pipefitter | plumbing (45 years) | |
-| Werner Finkbeiner | **stopped** (2026-10-22) | his lines still in plumbing ideation and the thumbnails skill |
+| Werner Finkbeiner | stopped 2026-10-22; a later chat built his profile (branch `claude/vigilant-keller-um63cs`, not in `main` yet) and his persona skill is on the account | his lines still in plumbing ideation and the thumbnails skill |
 | Dale Oakfield | woodworking for profit | |
 | Hank Hardwood | woodworking for profit | |
 | Norbert Daniels | home security: the retired Locksmith | |
 | Lance Kavanaugh | home security: the Navy veteran | |
-| Frederick Barnes | home electrical (2026-10-27): retired electrician, 35 years, Talking Head, no book; profile built, **pending** (voice to confirm) | |
-| Roger the HVAC Guy | **new** (2026-10-23): HVAC, Roger's persona and triggers | |
+| Frederick Barnes | home electrical (2026-10-27): retired electrician, 35 years, Talking Head, no book; **ready** and on the account (session 10; ElevenLabs voice name to add) | |
+| Roger the HVAC Guy | HVAC (2026-10-23): Roger's persona and triggers; **ready** (session 9), not on the account yet | |
 | Scarlet Sterling | style (50+ women): the affluent American | "Scarlett" |
 | Diane de Chambray | style: "the French way" | |
 | Helena Hart | air travel: the former flight attendant | air-travel skill says "name TBC" |

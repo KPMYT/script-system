@@ -1,7 +1,7 @@
 # E37. Are Holes in Plugs Totally Useless? Not Anymore!
 
 - **Channel:** LRN2DIY · **Video:** I0-7N9pQzL8 · https://www.youtube.com/watch?v=I0-7N9pQzL8
-- **Tag:** [real] (structure and voice; never wording). Added after review R3 (M10): B3's recent second model beside E17 (2021). It answers the same question with a different verdict, so the brief decides what is said.
+- **Tag:** [real] (structure and voice; never wording). Added after review R3 (M10): B3's recent second model beside E17 (2021; removed 2026-10-27, now in `studies/electrical/models-removed-2026-10-27/`). It answers the same question as E17 with a different verdict, so the brief decides what is said.
 - **Views / normal:** 62.99x (2,204,724 on 2026-10-27 / channel normal 35,000, from the study's videos-with-multiples.csv; the study's 2026-10-24 count was 2,204,661)
 - **Posted:** 2025-02-08 · **Length:** 10:05 · 2,073 spoken words · **Video type:** explainer
 - **US or UK:** US (NEMA plugs); the British plug comes in once at the end, as a comparison
@@ -30,7 +30,7 @@
 - **CTA placement:** no like or subscribe ask; only the closing plug for the British plug video (pointing) and a name sign-off.
 - **Ending:** thanks to the inventor, the British plug comparison, sign-off. No recap, no comment ask.
 - **What sets it apart from other models of its type:**
-  - The same question as E17 with a different verdict: E17 says the holes aren't for locking; this one says they were, a century ago, and are again on locking cords (the 774-like comment notices). Two models for B3 that disagree: the brief settles the facts.
+  - The same question as E17 (removed 2026-10-27) with a different verdict: E17 says the holes aren't for locking; this one says they were, a century ago, and are again on locking cords (the 774-like comment notices). The brief settles the facts.
   - Myths first, three of them, each knocked down in a line or two; then a long history before the payoff. The most-liked comment (822 likes) mocks the "without further ado" line arriving six minutes in: ours pays the promise sooner.
   - An object every viewer owns, two looks with no tools (the blades, the holes) and a modern product as the payoff; no wiring at all.
 
@@ -58,7 +58,7 @@
 
 ## Why it works
 
-The comments enjoy the history and tease the pace. The most-liked viewer comment (822 likes) mocks the "without further ado" line coming "6 minutes into a 10 minute video". Second (774 likes) compares it with the older Technology Connections answer (E17): "It's also neat to find out that it still is used for locking when the application calls for it." Then the history: "Outlets and plugs originating from light bulb sockets is one of the most fascinating things I'd never learned." (226 likes), and trust from the trade: "As a retired electrical engineer, I appreciate the way you presented the topic in an educational and entertaining way." (101 likes). Two comments raise the safety side the video skips: a welder's crew wants to be able "to power down an edge grinder or other tool, welder, etc. from a safe distance by unplugging from the extension cord" (73 likes), and another notes locking cords don't suit "tools that need a quick release option for safety" (14 likes). One corrects the history: "Well you missed something." (8 likes). The opening asks the puzzle in five seconds and promises the twist by 0:30; the pace is steady (about 206 words a minute). What viewers did after: they share their own knots, locking plugs and old screw-in outlets.
+The comments enjoy the history and tease the pace. The most-liked viewer comment (822 likes) mocks the "without further ado" line coming "6 minutes into a 10 minute video". Second (774 likes) compares it with the older Technology Connections answer (E17, removed 2026-10-27): "It's also neat to find out that it still is used for locking when the application calls for it." Then the history: "Outlets and plugs originating from light bulb sockets is one of the most fascinating things I'd never learned." (226 likes), and trust from the trade: "As a retired electrical engineer, I appreciate the way you presented the topic in an educational and entertaining way." (101 likes). Two comments raise the safety side the video skips: a welder's crew wants to be able "to power down an edge grinder or other tool, welder, etc. from a safe distance by unplugging from the extension cord" (73 likes), and another notes locking cords don't suit "tools that need a quick release option for safety" (14 likes). One corrects the history: "Well you missed something." (8 likes). The opening asks the puzzle in five seconds and promises the twist by 0:30; the pace is steady (about 206 words a minute). What viewers did after: they share their own knots, locking plugs and old screw-in outlets.
 
 ## Script (verbatim, labelled)
 
@@ -160,6 +160,6 @@ The comments enjoy the history and tease the pace. The most-liked viewer comment
 - **Metric units and the British plug:** [6:57] "withstand up to 80 lb or 36 kg of force" and [9:57] "the brilliant type G plug used over in Britain". Ours uses US units in words and never ranks another country's plug.
 - **The safety side of locking cords, missing from the video:** the 73-like and 14-like comments say a plug that can't be pulled free is a problem when a tool must be cut off fast. If ours mentions locking cords, the brief decides what's safe to say.
 - **Check against the brief:**
-  - The history and its dates are his, and E17 tells the holes' purpose differently: [0:17] "the truth is for the last 75 years these holes haven't really served a purpose at all"
+  - The history and its dates are his, and E17 (removed 2026-10-27) tells the holes' purpose differently: [0:17] "the truth is for the last 75 years these holes haven't really served a purpose at all"
   - [4:06] "okay so Hubble's patents included" (the inventor is Harvey Hubbell; the caption spells it Hubble)
   - [8:47] "clearly states that plugs are not required to have a hole in them" (a 79-like comment quotes the standard on screen at 8:49 as saying the hole "is intended for manufacturing purposes only"; use the standard's wording only as the brief gives it)

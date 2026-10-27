@@ -76,7 +76,7 @@ Run these steps in order. Never ask "shall I continue?" Never stop to check in.
 3. **Write,** following the niche pack (or the fallback structure) and every core rule. **The quality bar** (operator, 2026-10-20): the script follows the core unless the niche pack overrides it (the pack always wins), is tailored to the audience's emotions, gives real value, opens on a strong hook that plays on their pain points, is solution-driven, and is easy to follow on one listen.
 4. **Sweep.**
    - Run the `humanizer.md` pass.
-   - Run `script-scanner.py` with the niche pack and persona profile as rules files, the fact source as the pack, the locked title with `--title` (a years figure in it is allowed: title numbers win), and the niche pack's copy-guard files (woodworking: `excerpts.md` and `reference-scripts.md`; a pack may name others, as plumbing does) plus the persona profile with `--refs` (the copy guard: any run of 8 or more words shared with them is fix-on-sight, except lines the profile's scanner block marks `allow:`, such as a fixed sign-off). Where Python isn't available, do the same checks by hand. Run it last on the exact text that will be delivered (quotes straightened, every fix applied), never on an earlier draft.
+   - Run `script-scanner.py` with the niche pack and persona profile as rules files, the fact source as the pack, the locked title with `--title` (a years figure in it is allowed: title numbers win), and the niche pack's copy-guard files (woodworking: `excerpts.md` and `reference-scripts.md`; a pack may name others, as plumbing does) plus the persona profile with `--refs` (the copy guard: any run of 8 or more words shared with them is fix-on-sight, except lines the profile's scanner block marks `allow:`, such as a fixed sign-off). Where Python isn't available, do the same checks by hand. Run it last, with `--final`, on the exact text that will be delivered (quotes straightened, every fix applied), never on an earlier draft: with `--final`, a script under the length minimum is fix-on-sight. Its ITEMS and SENTENCES lines are what the evidence block's Items and Sentences lines copy.
 5. **Audit.** Run `greenlight-audit.md`, at most three rounds.
 6. **Output,** in the format in section 5.
 
@@ -90,7 +90,9 @@ Run these steps in order. Never ask "shall I continue?" Never stop to check in.
 
 There's one format: clean voiceover prose for the auto-edit tool.
 
-**Never in the script:** headings, section labels, brackets, stage directions, timestamps, links or emoji. The only exception is the CTA markers in Talking Head scripts.
+**Never in the script:** headings, section labels, brackets (voice tags such as `[chuckles]` go only in the VO copy; the scanner flags any in the script), stage directions, timestamps, links or emoji. The only exception is the CTA markers in Talking Head scripts.
+
+**No sentence over 35 words** (every channel; the scanner flags it as fix-on-sight; P13, 2026-10-27). Split it, or join two with "but" only where the story turns. Short sentences carry most of the script.
 
 **Writing for the voice:**
 - **Contractions,** and no em or en dashes (`humanizer.md`, H15).
@@ -107,7 +109,7 @@ There's one format: clean voiceover prose for the auto-edit tool.
   - **No symbols in the narration:** x, /, %, &, +, #, =, ~, @, °. Write the word ("and", "plus", "about").
   - **Money:** whole-dollar prices stay as digits ("$50", "$2,500", "$4 to $10", with the dollar sign on both ends of a range), the forms every recent voiceover read correctly. Never "$4.00", cents, "$1.4M" or "50k" (write "$1.4 million", "50 thousand dollars").
   - **No laugh or filler sounds written as words** ("haha", "hmm", "ugh"): the voice says them as words. Delivery belongs in the voiceover copy's tags ([chuckles]).
-  - **Words with two pronunciations:** where "lead" (the metal), "bow" or "bowed" (a bent board) or "wound" could be read the other way, reword so only one reading fits: "lead paint" is clear; "under their lead limit" isn't ("under their limit for lead in paint").
+  - **Words with two pronunciations:** where "lead" (the metal), "bow" or "bowed" (a bent board), "wound", "live" or "lives" ("where the hair dryer lives") could be read the other way, reword so only one reading fits: "lead paint" is clear; "under their lead limit" isn't ("under their limit for lead in paint").
   - The scanner fails a script on the mechanical forms above (`[SPOKEN: ...]`) and lists capital-letter runs and the two-pronunciation words to judge.
 - **Introduce each named person by full name once.** After that, use the surname, a pronoun, or their role.
 
