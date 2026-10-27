@@ -17,6 +17,7 @@ The workflow shows this list at START. A channel can only be scripted when its s
 | 6 | Sawdust Sam | `woodworking-scripts` | `personas/sawdust-sam.md` | ready |
 | 7 | Frederick Barnes | `electrical-scripts` | `personas/frederick-barnes.md` | ready |
 | 8 | Roger the HVAC Guy | `hvac-scripts` | `personas/roger-the-hvac-guy.md` | ready |
+| 9 | Werner Finkbeiner | `plumbing-scripts` | `personas/werner-finkbeiner.md` | ready |
 
 ## Adding a channel
 
