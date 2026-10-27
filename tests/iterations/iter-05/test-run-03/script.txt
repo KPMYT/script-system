@@ -1,0 +1,234 @@
+If your plug won't stay in the outlet, or drops out every time the cord gets bumped, your outlet is usually worn out inside.
+You'd figure the plug is the problem, or that a loose outlet just comes with an older house.
+But each slot holds a brass spring that grips the plug's blade, and once that spring wears out, nothing holds your plug in.
+Is that dangerous?
+It can be.
+That same grip is what makes a tight electrical connection, and the Consumer Product Safety Commission, CPSC, says loose-fitting plugs can cause overheating and fires.
+The fix is a new outlet, and if you're careful, you can put one in yourself.
+By the end of this video you'll know which outlet to buy for your spot, and the signs behind the cover plate that mean you stop and call an electrician.
+
+Step one.
+Before you blame your outlet, take that same plug to another outlet, one that holds your other plugs just fine, and push it in.
+I'd do this one before you open anything.
+Does it hold tight there?
+Then your plug is fine, and the outlet you started with is the worn one.
+If it falls out of every outlet you try, the trouble is the plug itself.
+Look closely at its two flat blades.
+Blades that are bent, or thin and flimsy, can't press back against the springs, so they slip out of a perfectly good outlet.
+You'll run into that a lot on cheap phone chargers.
+It feels like an outlet problem, but it's the charger.
+Now, the trick you've probably heard is to pry the blades apart a little so they fit tighter.
+It even seems to work for a while.
+But a bent blade only touches the springs at a couple of points, and CPSC says bending the blades usually makes the overheating worse.
+So that's not a fix.
+I'd retire a charger with bent or flimsy blades and get one that's listed, which means a lab such as UL has tested and certified it.
+If it's a lamp or an appliance with a bad plug, I'd stop using it until that plug is properly repaired or the cord is replaced.
+And if the blades come out with brown marks on them, or your plug feels warm when you pull it, that's more than wear, and step three covers exactly what to do.
+Either way, you now know which side of the connection is worn, and you haven't opened a thing.
+
+So let's say your plug holds everywhere else, and it's the outlet.
+Step two.
+Find the outlets in your house that work the hardest, because those are the ones that wear out first.
+Which outlet does your vacuum always go into?
+Then there's the one by your bathroom sink that takes the hair dryer every morning.
+Those are your suspects.
+I'd test the bathroom one first.
+From the front they can look perfectly normal, but the springs behind the slots can be spread wide open.
+The springs are brass, bent into shape at the factory so they squeeze the blades from both sides.
+Every time you push a plug in, the springs open up, and every time you pull it out, they're supposed to spring back.
+After thousands of plugs going in and out, the metal gets tired.
+A cord yanked out at an angle bends the springs further than they were ever meant to go.
+And appliances that pull a lot of power, like vacuums, space heaters and hair dryers, warm those contacts every time they run, and that heat wears on the spring metal too.
+Little by little, the springs spread apart until they can't grip anything.
+That's the real reason your plug won't stay in.
+Plenty of folks assume a plug that falls out is just a cheap plug.
+But notice which plugs fall out first in your house.
+It's the two-prong ones, the plugs with no round third pin, the ground pin, which connects to a safety wire that gives stray current a way back.
+That round pin works like a brace, so a three-prong plug can hang on in a worn outlet a while longer.
+A two-prong plug has nothing to lean on, so it's the first to tell you the springs are gone.
+That's why the loose outlets you remember are in hotels, kitchens and bathrooms, where plugs go in and out all day.
+There's one more reason not to put up with it.
+A plug hanging halfway out leaves a strip of bare metal blade showing between the plug and the cover plate, and that metal still has power on it, right where a child's fingers can reach.
+A new outlet grips your plug all the way in, so those blades stay covered.
+That alone is reason enough for me.
+So take a lamp plug, the two-prong kind, around to your hardest-working outlets.
+Push it all the way in and let go.
+If it sags or slides out, that outlet's springs are done.
+I'd put every one of those on your list, even if only one of them is bugging you today.
+Now you've got a short list instead of a mystery.
+But before you replace anything on it, there's something that matters more than the grip, and that's whether your outlet is getting hot.
+
+Step three.
+Look over every outlet on your list for damage, without taking anything apart, and think about how each one has behaved in everyday use.
+Has the cover plate ever felt warm when you went to unplug something?
+It still works, so it's easy to shrug that off.
+But a worn spring does more than drop plugs.
+That loose fit is a warning.
+When the spring goes slack, it only touches the blade in a few small spots.
+When less metal is touching, the resistance goes up, which just means the current has a harder time getting through, and current pushing through resistance turns into heat.
+CPSC puts it plainly: a loose connection can't carry much current without getting hot.
+Run your vacuum or a space heater off that outlet, and those few small spots heat up under the load.
+And it feeds on itself.
+Heat softens the spring metal, so the grip gets looser, so the next plug touches even less metal and runs even hotter.
+Over time, arcing, which is electricity jumping across a tiny gap, can scorch the plastic body of the outlet.
+So here's what you watch and listen for.
+Plugs that droop or drop out.
+Power that cuts in and out when you move the cord.
+A cover plate that feels warm when you go to unplug something.
+Brown or melted marks around the slots.
+Crackling or buzzing.
+Or a smell like hot plastic.
+The first two mean the springs are worn, and that outlet goes on your list to replace.
+Until then, I wouldn't run anything heavy off it.
+But the last four are different.
+They mean heat has already been at work, and that's where you stop.
+If the plate feels warm, or you see brown or melted marks, stop using that outlet now, unplug whatever's in it, and get a licensed electrician to look at it soon.
+If you hear crackling or buzzing, or smell hot plastic, unplug what's in it or quit using it.
+Then, if you can safely get to your panel, the breaker box, switch off the breaker for that outlet, which cuts its power.
+After that, call a licensed electrician.
+And if that smell is coming from the panel itself, don't touch the panel.
+Just call.
+Heat damage like that can reach past the outlet into the wires and the box behind it, and that repair belongs to an electrician.
+I'd treat a warm plate as a stop sign every time.
+I won't plug anything back into an outlet that's been warm, not even a phone charger.
+But if all you found was a plug that droops, or a flicker when you move the cord, that's the job the rest of this video walks you through.
+Either way, you know exactly what your loose outlet has been telling you.
+The next step is the one people skip, and it's the one that keeps your hands safe.
+
+Step four.
+Before you buy anything, turn the power off, prove it's off, and look inside the box.
+What you find in there decides which outlet you buy, and it might tell you this one isn't yours to do.
+You'll want two testers.
+One is a plug-in outlet tester, the little plug with three lights that shows whether an outlet is wired right.
+The other is a non-contact voltage tester, the pen that beeps when it's near a wire that has power.
+Start with the power still on.
+Push your plug-in tester into the top half of the worn outlet and watch it light up, then do the bottom half.
+In a worn outlet your tester can sag and lose contact, so hold it in while you check the lights, because a tester that won't seat proves nothing.
+Now go to your panel and switch off the breaker for that outlet.
+A breaker is the switch that shuts off one circuit, which is everything that one breaker feeds.
+You've switched it off, but the labels in a panel can be wrong, so let the tester decide.
+Put a piece of tape over that breaker and a note on the panel door, so nobody flips it back on while you work.
+Back at the outlet, your plug-in tester should stay dark in both halves.
+Then plug it into a working outlet on another circuit and make sure it still lights.
+Now the pen.
+Hold it to that working outlet first and make sure it beeps.
+Please, don't skip that check, before and after.
+A pen with a dead battery stays just as quiet as a dead wire.
+The screwdriver's right there in your hand, but this order is what keeps you safe.
+Take the cover plate off and hold the pen near the screws on each side of the outlet.
+Then take out the two mounting screws, ease the outlet forward by its metal strap, and keep your fingers off the wires.
+Hold the pen to every wire and every cable you can see now, not just the ones on the outlet.
+If the little brass tab between the side screws has been snapped off, the top and bottom halves may be fed from two different breakers, so test every wire on both sides.
+A quiet pen feels like the answer.
+But a pen can stay quiet next to a wire that still has power, especially inside a metal box.
+If your box is metal, or the cable has a metal jacket, use a two-probe tester on the wires instead, checking each pair.
+That's the kind with two probes on wires that reads the actual voltage, and it gets its own check on the working outlet before and after.
+Then go back to the working outlet and make sure your pen still beeps.
+If anything still shows power, take your hands away, track down which breaker powers it, then test once more.
+If you can't find it, that's where an electrician takes over.
+I wouldn't trust a quiet pen on its own anywhere.
+I'd rather you spend the extra minute here than anywhere else in this job.
+Now the box is dead, and you've proved it more than one way.
+So you can safely see what you're working with.
+
+Step five.
+Take a good look, without pulling on anything.
+Look for a bare copper or green wire.
+That's the ground wire, the one that round pin connects to, and it's the path that lets stray current trip the breaker.
+Count the cables coming into your box.
+Notice whether the wires sit on the side screws, or are pushed into small holes in the back, what the trade calls backstabbing.
+None of that is a problem, but each one changes what you buy.
+Before I'd pick up a new outlet, I'd want to know all of it.
+Was your house built between 1965 and the mid-1970s?
+Then check the color of the wire itself.
+If the bare ends look dull silver rather than copper-colored, or the cable jacket is printed with the letters A L or the word aluminum, that's aluminum wiring.
+That's a stop.
+An ordinary outlet never goes on aluminum, and aluminum repairs are a licensed electrician's job.
+The same goes for insulation that's brittle, cracked or cloth-covered, for wires that are scorched, and for a box that's melted.
+If you find any of those, put the outlet back with the breaker still off, leave the tape on, and call a licensed electrician before that circuit comes back on.
+It's not the news you wanted, but you found it at the right time.
+I'd much rather you find that with the breaker off than find it later behind a brand-new outlet.
+If it all looks clean, fold the outlet back in, screw it in, and put the plate on.
+Then take the tape off and turn that breaker on again so the rest of the circuit works, and leave that one outlet empty until your new one goes in.
+Now you know exactly what's behind that plate, and you haven't bought a thing yet.
+And what you just saw decides what goes in your cart.
+
+Step six.
+Buy a new outlet of the same rating, and make sure it's the kind your spot needs today.
+Start with the slots on the old one.
+If one slot has a little sideways T shape, it's a twenty-amp outlet, and your new one needs that T too.
+An amp is just how much current is flowing.
+If both slots are plain, buy the plain kind.
+Next, tamper-resistant.
+That's an outlet with little shutters inside the slots that only open when both blades push in at once, so a hairpin or a key can't go in.
+Your replacement has to be tamper-resistant wherever the code calls for it, and in a home that's most places.
+Is your outlet in a bathroom, a kitchen, a garage, a basement, a laundry area or outdoors, or within six feet of a sink?
+Then your new outlet has to be GFCI protected.
+A GFCI, a ground-fault circuit interrupter, is the outlet with the test and reset buttons that shuts off in a split second if current leaks, to protect people from shock.
+Your old outlet may not have needed one when it went in.
+But the rule follows the replacement, so the new one does.
+You can buy a GFCI outlet, or your outlet may already be protected by a GFCI further up the line.
+Outlets protected that way often carry a small sticker that says GFCI Protected.
+In those spots, I'd rather you buy the GFCI outlet than guess.
+A GFCI outlet has two pairs of screws.
+The ones marked line take the power coming in, and the ones marked load feed the outlets beyond it.
+If your box has two or more cables and you can't tell which one brings the power in, that's where you stop and call an electrician.
+The maker's own sheet says to install one only if you understand basic wiring and can read a wiring diagram.
+In bedrooms, living rooms and a lot of other rooms, newer code may also want AFCI protection, an arc-fault circuit interrupter that shuts off when it senses the arcing of a loose connection.
+Your local inspector can tell you what applies in your house.
+I'd make that phone call before you buy.
+And if there was no ground wire in your box, don't buy a plain three-prong outlet.
+Your choices there are a two-prong outlet, a GFCI outlet marked No Equipment Ground, or a three-prong outlet fed from a GFCI and labeled GFCI Protected and No Equipment Ground.
+A GFCI there protects people from shock, but it doesn't add a ground.
+Outdoors, your new one has to be the weather-resistant kind as well, built to stand up to outdoor damp and cold.
+I'd snap a picture of the old outlet and the inside of the box and take it to the store with you.
+Get those right, and the outlet you bring home fits your spot the first time.
+Now for the part you came for, getting your plug to stay put.
+
+Step seven.
+Back from the store, run the whole check again before you touch a wire.
+Plug-in tester in, and lit in both halves.
+Pen beeping on a working outlet.
+Breaker off and taped.
+The plug-in tester goes dark top and bottom, and still lights in an outlet you know works.
+Cover off, pen near the screws, outlet eased out by its strap, every wire tested.
+Pen back on that good outlet, still beeping.
+Only then do your hands go near the wires.
+Move the wires one at a time, so each one goes to the same spot on your new outlet that it had on the old one.
+The black wire is the hot, the one that carries power from the breaker, and it goes on a brass screw.
+The white wire is the neutral, which carries the current back to the panel, and it goes on a silver screw.
+The bare or green ground goes on the green screw.
+If your old wires were pushed into the holes in the back, it's tempting to do the same, because it's quicker.
+But those push-in holes hold the wire with a small spring, and that spring can loosen as the outlet heats and cools.
+A screw grips better.
+I'd use the screws every time, even on a brand-new outlet that has the holes.
+If you need to strip a wire fresh, the strip gauge molded on the back of your outlet shows how much.
+Hook each wire clockwise, about three-quarters of the way around its screw, so tightening the screw pulls the loop in instead of pushing it out.
+One wire under each screw.
+If two wires shared one screw, the fix is a pigtail, a short extra wire joined to those two with a listed connector, so only one wire goes on the screw.
+If the brass tab on your old outlet was snapped off, snap it off the same way on the new one.
+Tighten the screws snug, to the figure in the instructions if they give one.
+Fold the wires back in, mount the outlet by its strap, and put the plate on.
+Now take the tape off and flip the breaker on.
+You'll want to rush this last part, but the test after is what tells you it's right.
+Push in your plug-in tester and check its lights against the pattern the label calls correct.
+On a GFCI outlet, press the test button, and the tester goes dark.
+Press reset, and it lights again.
+Where the box has no ground wire, a GFCI will make the tester show an open ground, and that's expected, so the test button is your test there.
+If you put in a two-prong outlet, check it with the two-probe tester across the slots, which should show power, then plug in a lamp.
+If the tester shows anything you didn't expect, turn the breaker off again, prove it dead the same way, and check each wire against its screw.
+Then take that plug that kept falling out and push it in.
+It takes a firm push now.
+Let go of the cord.
+It stays.
+Those new springs are gripping the blades all the way in, and that tight connection is back where it belongs.
+You did that yourself, and you did it in the right order.
+Now that's an outlet I'd trust.
+
+===START CTA(NO BOOK)===
+Subscribe to Frederick Barnes for plain, careful answers whenever an outlet, a switch or a breaker in your house starts acting up.
+===END CTA===
+
+Now I'd like to hear from you.
+Which outlet in your house drops plugs the most, and what usually gets plugged into it?
+Leave it in the comments, because I read every one.

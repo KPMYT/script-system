@@ -1,0 +1,29 @@
+SCAN: tests/iterations/iter-05/test-run-03/script.txt
+  lifted bans in effect: tease: by the end of this video
+  persona facts: names ['Frederick Barnes'], book [], tenure 35
+  spoken words: 3361 (about 17.2 minutes at 195 words a minute; minimum 12)
+  ITEMS: 7 | item one at word 142 (about 44 seconds at 195)
+  item words: 1 = 288, 2 = 460, 3 = 489, 4 = 548, 5 = 317, 6 = 502, 7 = 615 (the last runs to the end of the script)
+  no 'I' line: none | no 'but': none | no sentence of 6 words or fewer: none
+  SENTENCES: 223 | mean 15.1 words | 6 or fewer 15.7% | over 25: 25 | longest 35 | over 35: 0
+
+FIX ON SIGHT (0)
+
+JUDGE WITH THE SHAPE TEST (10)
+  [SPOKEN, judge: letters 'CPSC' (keep only if people say it as letters; otherwise the words)] ...the Consumer Product Safety Commission, CPSC, says loose-fitting plugs can cause ove... (x3 in the script)
+  [SPOKEN, judge: letters 'UL' (keep only if people say it as letters; otherwise the words)] ...hat's listed, which means a lab such as UL has tested and certified it. If it's a ... (x1 in the script)
+  [staccato x2] "Step two." | "Those are your suspects."
+  [staccato x3] "Step three." | "Crackling or buzzing." | "Just call."
+  [staccato x3] "Step four." | "You'll want two testers." | "Now the pen."
+  [staccato x2] "Step five." | "That's a stop."
+  [SPOKEN, judge: letters 'GFCI' (keep only if people say it as letters; otherwise the words)] ... a sink? Then your new outlet has to be GFCI protected. A GFCI, a ground-fault circu... (x13 in the script)
+  [SPOKEN, judge: letters 'AFCI' (keep only if people say it as letters; otherwise the words)] ...f other rooms, newer code may also want AFCI protection, an arc-fault circuit interr... (x1 in the script)
+  [staccato x2] "Step six." | "Next, tamper-resistant."
+  [staccato x4] "Step seven." | "Breaker off and taped." | "A screw grips better." | "It stays."
+
+"MOST ..." OPENERS: 0 (allowed: 1)
+REFRAME FLOOR (H21): 0 machine-caught (allowed: 1; the audit's count may never be lower)
+FILLER PHRASES OVER THE LIMIT (H23): 0
+ECHO (H18): 0
+
+NUMBERS NOT FOUND IN THE FACT SOURCE (0)  (invented, or derived: confirm the math)
