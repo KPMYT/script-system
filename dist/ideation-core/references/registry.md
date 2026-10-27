@@ -1,6 +1,6 @@
 # Registry — every niche skill and channel
 
-Updated: 2026-09-26 (animals niche launch — four face channels: chickens, backyard birds, dogs, cats). Previous: 2026-09-24 (air-travel niche launch — one face channel); 2026-09-14 (style niche launch); 2026-09-11 (home-security niche launch — three face channels); 2026-09-09 (Dale Oakfield pivot to woodworking-for-profit; Hank Hardwood launch); 2026-09-07 (Werner Finkbinder launch). Dial values: presence / demand shape / register. Footage: what the channel can actually produce (`framework.md` §7). Profile pointers refer to `audience-profiles.md`.
+Updated: 2026-10-27 (HVAC niche launch — one faceless channel, Roger the HVAC Guy). Previous: 2026-09-26 (animals niche launch — four face channels: chickens, backyard birds, dogs, cats). Previous: 2026-09-24 (air-travel niche launch — one face channel); 2026-09-14 (style niche launch); 2026-09-11 (home-security niche launch — three face channels); 2026-09-09 (Dale Oakfield pivot to woodworking-for-profit; Hank Hardwood launch); 2026-09-07 (Werner Finkbinder launch). Dial values: presence / demand shape / register. Footage: what the channel can actually produce (`framework.md` §7). Profile pointers refer to `audience-profiles.md`.
 
 ## plumbing-ideation
 - **Path:** `/mnt/skills/plugins/plumbing-ideation`
@@ -101,3 +101,12 @@ Updated: 2026-09-26 (animals niche launch — four face channels: chickens, back
 
 ## thumbnails
 - **Path:** `/mnt/skills/plugins/thumbnails` — universal; loads a channel's NICHE PACK from `<niche>/references/niche-packs.md` when a channel is named (Stage C patch).
+
+## hvac-ideation
+- **Path:** `/mnt/skills/plugins/hvac-ideation` (source: `KPMYT/niche-research`, `ideation/hvac-ideation/`)
+- **Profile:** A (50+ American DIY homeowner, shared with plumbing)
+- **Channels:**
+  - **Roger the HVAC Guy (ch. 1)**: faceless (persona in voiceover: veteran HVAC tradesman, 45 years, "same as rogers pipe guy in most aspects", operator 2026-10-27) / browse / veteran-tradesman. Footage: compiled b-roll, knowledge only. Thumbnails show the Roger character (the thumbnail artist's design; never Ray Dutton's face, navy shirt or "RAY" patch). A new channel beside Roger the Pipe Guy, who carries on.
+- **Standing test-default channel:** Roger the HVAC Guy (the only channel).
+- **Batches:** 2026-10-26: batch 1, 16 titles greenlit for November 2026 (4 Ray Dutton remakes, 6 own plumbing formats, 6 real-person topics), fact-checked briefs. Views pending.
+- **Evidence base:** the HVAC study in `niche-research/studies/hvac/` (rounds 1-7, `CONCLUSIONS.md`); the faceless leader is Ray Dutton's Garage. Brand verdicts (F28) are the biggest gap.
