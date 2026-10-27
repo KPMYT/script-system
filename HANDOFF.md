@@ -249,6 +249,18 @@ From the review of the seven newest uploads and two VA chats (`studies/recent-up
 - **The voiceover copy's tags stay as they are** ("the VO copy tags sound fine for now. leave as is").
 - **Sawdust Sam goes into `main`** (the 2026-10-23/24 branch `claude/determined-darwin-3u43bh`, already on the account).
 
+
+### Operator decisions, 2026-10-27 (the electrical pack and Frederick Barnes)
+
+- **Frederick Barnes is the electrical channel** ("we will do frederick for this"); Jack Redfield stays pinned as a possible second lane (niche-research `studies/electrical/`). **35 years** in the trade. **No book for now:** "CTA will literally just be a very short subscribe one". **Talking Head** script type.
+- **Build the pack like plumbing, with electrical's own formats, emotions and reference scripts;** "core structures can be taken from plumbing as long as the necessary changes are made"; every variable reviewed in detail by checker subagents; "all our problems we faced in our plumbing and woodowrking script iteration sessions of scripting. account for them from now" (`studies/electrical/lessons-for-the-pack-2026-10-27.md`).
+- **Model scripts:** "from the winners in recent months/years from the real channels that have over 1m views" (`studies/electrical/model-picks-2026-10-27.csv`).
+- **Length:** "even 15-22 is sweet spot" (read as: the minimum stays 12 minutes, as plumbing; 15 to 22 is where to aim).
+- **Villain:** "villain does not need to be necessary": used only where it fits.
+- **Agreed as proposed (2026-10-27):** the brief can add safety but never remove power-off, verify-dead or the call-an-electrician line; named panel brands only with what CPSC or inspectors actually say; no "after all the houses I've worked in" lines, the tenure at most once; no swearing.
+- **P11, the opening may carry one value promise** (an escalation, or "by the end of this video you'll know X and Y", never the first items in order): see `PROPOSALS.md` P11. Electrical only.
+- **Not answered, defaults kept (state them at the next check-in):** the ending (one-line subscribe ask, then the comment ask last, as plumbing's P5); the research pack is not used (the brief and the facts guide are the fact source).
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

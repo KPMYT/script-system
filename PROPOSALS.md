@@ -115,3 +115,13 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Status:** approved by the operator on 2026-10-25 with a change: "in the hook of plumbing instead of saying 1 and 2 it owuld be better to say something like today i am going to show you the eight things you must check (if it doesnt already)". Applied with a count line in place of the promise block (job 5 of "The opening"), without "today", which the plumbing scanner bans in openings.
 
+
+## P11. A value promise in the electrical opening (opened and approved 2026-10-27)
+
+**Decision (HANDOFF.md section 3):** long-range promises are banned in every niche but plumbing (P3), "by the end of this video" is a hard-banned tease (`core/retention-mechanics.md` §2, `core/script-scanner.py`), and since P10 the plumbing opening carries no promise block.
+
+**Evidence:** the operator, building the electrical pack (2026-10-27), asked whether named promises are allowed in the body only: "allowed in opening if its a simple promise of escalation in the video or a promise to 'by the end of the video you will know x, y and z' as a basic example as long as they are not iteams one 2 and 3 (doesnt have to be 3 items also)". This keeps P10's lesson (an opening that runs down items one and two and then simply starts item one) and allows a promise of what the viewer will be able to do or know by the end.
+
+**Applied (electrical pack only):** `electrical-scripts/SKILL.md`, "The opening" job 5 and the overrides table: one sentence at most, either an escalation ("from the two-minute check to the one that needs an electrician") or what the viewer will know or be able to do by the end, naming things paid later in the video, never the first items in order and never a vague tease. The pack's scanner block lifts the core's "by the end of this video" ban for this pack; "stick around", "stay till the end" and the rest of the tease list stay banned. Every other niche keeps the locked rule.
+
+**Status:** approved by the operator on 2026-10-27 (quoted above).
