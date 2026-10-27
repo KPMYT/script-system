@@ -49,20 +49,25 @@ EMOTION                            [all the way through; see each model's "Emoti
 
 FACTS                              [every code rule, size, distance and danger figure]
 - from the brief:
-- from the facts guide (row):      [never a row marked "reading"]
+- from the facts guide (row):      [a "reading" row only for a caution, in general words; never for a number or a code claim; never a "thin" row]
 - general knowledge (settings and intervals only):
 - named source said, with its exact figure:  [none / which]
 
 TESTS AND RESULTS                  [only those the brief gives; explained, never "I tested"]
 
 SAFETY
-- power off and prove it, in step:
-- how the power comes back, and the test after, in step:
-- call-an-electrician trigger:     [a named sign]
-- panel / generator / permit lines needed:
+- power off and prove it (live, every wire, live again), in step:
+- the viewer's part / the electrician's part:      [anything behind the dead front, a breaker, aluminum, a new circuit or a generator hookup is the electrician's]
 - who does each step:             [the viewer / a licensed electrician (explained, never instructed): which steps]
-- emergency sequence needed:       [none / shock / burning smell: every step from facts-guide §12]
+- how the power comes back, and the test after, in step:   [or "stays off: stop sign in step N"]
+- call-an-electrician trigger:     [a named sign]
+- old-wiring line (aluminum, brittle insulation, knob-and-tube):   [in step]
+- parts and methods lines:         [listed parts only / never a bigger breaker / no NM outdoors / ungrounded box]
+- panel / generator / permit lines needed:
+- emergency sequences needed:      [none / shock / hot outlet / burning smell / smoke / downed line / carbon monoxide / backfeed: every step, facts-guide §11-§12]
+- risky lines and the picture each draws:   [no hands in a live box or panel; the wrong way named, never taught]
 - safety the brief adds:           [kept]
+- brief against facts guide:       [any safety disagreement or "Never say" line, and which was said]
 
 CTA AND ENDING
 - end CTA:                         one-line subscribe ask, in ===START CTA(NO BOOK)=== / ===END CTA=== markers; no mid CTA

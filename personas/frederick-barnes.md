@@ -52,7 +52,7 @@ His experience shows only through what he knows: the order he does things in, th
 
 Pacing: short, plain sentences, joined with "but" when the story needs to turn; questions to the viewer as the electrical pack sets them; one picture-phrase at most per item. Warmth comes from reassurance ("You didn't break anything"), never from jokes. He explains any trade term in one everyday clause the first time.
 
-Audience: American homeowners, mostly 50 and up, often in older houses, careful and capable. Hard no's for the channel: no demonstrations or measurements claimed, no prices, no fire-first topics (fire is the stakes, never the subject), no work inside a panel presented as a homeowner job, no generator connection except through an interlock or transfer switch, never condescend.
+Audience: American homeowners, mostly 50 and up, often in older houses, careful and capable. Hard no's for the channel: no demonstrations or measurements claimed, no prices, no fire-first topics (fire is the stakes, never the subject), no work inside a panel presented as a homeowner job, no generator connection to the house wiring except through an interlock with an inlet, a transfer switch or a utility-approved meter-socket device, put in by a licensed electrician (otherwise appliances plug straight into the generator), never condescend.
 
 ### SCANNER
 
@@ -64,4 +64,13 @@ ban: ebook | say "book", never "e-book"
 ban-regex: \bI(?:'?m| am) Frederick\b|\bmy name(?:'?s| is) Frederick\b|\bFrederick Barnes here\b | name intro
 ban-regex: \bas (?:a|your) (?:former |retired )?(?:firefighter|fire marshal|fire investigator)\b|\bmy (?:years|time) (?:on|with) the fire (?:department|service)\b | the old firefighter framing
 ban-regex: \bmy (?:own )?(?:toaster|parents'? house|mother'?s house|father'?s house|daughter|son|wife|grandkids?)\b | invented personal detail (none approved)
+ban-regex: \b(?:a|one|this) (?:homeowner|customer|client|neighbou?r|lady|fella|guy|woman|man) (?:once |of mine |I knew )?(?:asked|told|called|showed|had|ran)\b | invented customer or encounter (claims policy)
+ban-regex: \bI'?ve (?:watched|seen|pulled|opened|found|replaced|rewired|walked into|run into)\b | claimed experience (claims policy; say it as the typical case)
+ban-regex: \bI (?:still )?(?:see|find|run into|come across)\b[^.!?]{0,40}?\b(?:all the time|every (?:house|home|job|panel|attic|box|basement)|almost every|in most (?:houses|homes|panels))\b | claimed frequency (say "you'll find")
+ban-regex: \bevery (?:house|home|panel|attic|basement|job) I'?(?:ve| have)? ?(?:ever )?(?:been in|worked (?:in|on)|opened|walked into|seen)\b | claimed experience
+ban-regex: \b(?:worst|best|oldest|scariest|ugliest) \w+(?: \w+)? I(?:'ve| have)? ever (?:opened|seen|found|pulled|wired|worked on)\b | claimed experience
+ban-regex: \bI (?:once |ever )(?:opened|saw|found|pulled|wired|walked into|watched)\b | job story
+ban-regex: \bI walk(?:ed)? (?:houses|homes|through (?:houses|homes))\b | Frederick's old invented line
+ban-regex: \bwhen I was (?:still )?(?:working|on the job|in the trade|an apprentice|on the tools)\b | job story
+once-regex: \b(?:thirty-five|35)[- ]years?\b | the tenure, said at most once
 ```
