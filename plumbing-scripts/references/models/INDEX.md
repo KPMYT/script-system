@@ -7,7 +7,7 @@ Winning videos sorted by video type, each one file with a beat map (what each st
 
 **How to use them** (SKILL.md, "Using the models: never a copy"): at the planning step, pick one or two models for the video type that weren't used in the channel's last five scripts, read their beat maps first, and name at least three things this script does differently (the opening order, the number or order of items, the promise devices, the money device, the comment question). Blend where it helps. Never keep a model open while writing; the wording comes fresh from the brief. The copy guard flags any run of 8 or more words shared with a model file.
 
-**Read with care:** R11, R12 and S13 did below or near their channel's normal and are here only because the study has few seasonal or emergency models. R15, R16, R17 and S13, S18 aren't plumbing; R07, R19 and R20 are pest control. Each file says what transfers.
+**Read with care:** R11, R12 and S13 did below or near their channel's normal and are here only because the study has few seasonal or emergency models. R15, R16, R17, R21 and S13, S18 aren't plumbing (R21 is drywall repair, kept for its opening); R07, R19 and R20 are pest control. Each file says what transfers.
 
 ## Single-product fix (8 models, plus 1 that also fit)
 
@@ -64,7 +64,7 @@ Winning videos sorted by video type, each one file with a beat map (what each st
 | [R01](R01-got2learn-s-traps-not-allowed.md) | Here's Why "S-TRAPS" Are NOT ALLOWED Anymore! (And 3 Ways To Fix It) | Got2Learn | 95.02x | 5:49 | real | The why carries the video: almost two thirds of the words explain before the first fix, using pictures the viewer can imagine rather than anything they must wat |
 | [S10](S10-mark-silverbridge-s-traps.md) | The REAL Reason S-Traps Are No Longer ALLOWED In Any Home! | Mark Silverbridge Plumbing | 756.84x | 19:48 | structure only | It explains for half the script before any fix; R01 (Got2Learn's S-trap video) does the same job in under 6 minutes with two pictures the viewer can try in thei |
 
-## How-to / correct way (5 models, plus 2 that also fit)
+## How-to / correct way (6 models, plus 2 that also fit)
 
 | File | Title | Channel | Views / normal | Length | Tag | What sets it apart |
 |---|---|---|---|---|---|---|
@@ -72,6 +72,7 @@ Winning videos sorted by video type, each one file with a beat map (what each st
 | [R08](R08-got2learn-solder-correct-way.md) | How to Solder Copper Pipe The CORRECT Way | Got2Learn | 67.08x | 5:04 | real | The shortest how-to model (5:04, about 227 words a minute): every tool and step gets one job and one reason, nothing more. |
 | [R13](R13-roger-wakefield-flush-water-heater.md) | FLUSHING A Water Heater The RIGHT WAY Step by Step | Roger Wakefield Plumbing Education | 47.41x | 10:04 | real | The honest limit comes before the first step: who should not do this at all, with the reason. |
 | [R14](R14-roger-wakefield-solder-like-a-pro.md) | How to Solder Copper Pipe Like a PRO in 5 Minutes | Roger Wakefield Plumbing Education | 37.52x | 13:12 | real | Scripted rule lines at the top of each step, short enough to remember, with long unscripted bench talk under them. |
+| [R21](R21-nailed-it-drywall-repair-beginners.md) | How to Repair Drywall For Beginners | Nailed it | about 60x | 9:37 | real, not plumbing | The range opening: the task, the smallest case to the biggest, the kit and the transfer in about 20 seconds, then a myth flipped into reassurance. Beat map and the opening only; no full script. |
 | [R18](R18-silver-cymbal-compression-valves.md) (also fits) | Move Over Sharkbites...Solder-Free Plumbing just got Easier with Compression Valves | Silver Cymbal | 15.00x | 6:37 | real | The popular shortcut is judged fairly before it's beaten: praised, used at home, given three specific weaknesses, and still called a good choice at the end. |
 | [S09](S09-roger-the-pipe-guy-never-clogged-drain.md) | In 45 Years of Plumbing, I've Never Had a Clogged Drain: Here's Exactly What I Do | Roger the Pipe Guy | 169.87x | 19:04 | structure only | The correct way here is a routine laid out as a schedule (daily, weekly, monthly, twice a year) rather than one task in steps; each item is a habit with a frequ |
 | [S13](S13-mark-silverbridge-furnace-condensate-line.md) (also fits) | How to Unclog Your Furnace Condensate Drain Line (Before It Shuts Off Your Heat) | Mark Silverbridge | 1.36x | 18:33 | structure only | The opening runs the full seasonal order in about 40 seconds: clock and crisis, stop sign with the price, the reassurance that nothing is broken, the cause in o |
