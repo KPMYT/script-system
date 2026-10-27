@@ -3,7 +3,7 @@ name: vintage-pipefitter-persona
 description: The channel profile for The Vintage Pipefitter: persona, personal details, CTA rules and ending (this channel has no book). Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-27 (library commit 5070261)
+**Version:** 2026-10-27 (library commit 44bcea6)
 
 # Persona profile: The Vintage Pipefitter
 

@@ -2,7 +2,7 @@
 
 The live note passed from one Claude Code chat to the next. A new chat reads `CLAUDE.md`, then this file, then `HANDOFF.md`, `README.md` and `PINNED.md`, and carries on from "Next actions". The outgoing chat rewrites this file before every handover.
 
-**Last updated:** 2026-10-27, session 10, the electrical scripting chat (branch `claude/electrical-scripting-session-ayrkjc`, merged into `main`). Session 10 is summarised first; sessions 5-9 follow.
+**Last updated:** 2026-10-27, session 10, the electrical scripting chat (branch `claude/electrical-scripting-session-ayrkjc`, merged into `main`). Session 10 is summarised first; sessions 5-9 follow. **Session 11** (2026-10-27, branch `claude/wonderful-curie-0puxc3`) only merged the Werner and festive-planck branches into `main` (see "Branches").
 
 ---
 
@@ -48,10 +48,8 @@ Learned in session 5:
 - **`claude/pensive-gates-4c5yrt` (the parallel chat's woodworking tests iter-01 to iter-03) was merged in this session** with both sides kept (`CHANGELOG.md` has every row of both), so it's in `main` now.
 - **Session 9's branch `claude/hvac-research-czb2hy` (the HVAC pack) is merged into `main` at its handover,** with `main`'s session 8 (electrical) merged in first and both sides kept in every shared file (`core/channels.md` rows 7 and 8, `tools/build_skills.py`, `tests/run_checks.py` checks 46-52 and 60-68, `README.md`, `HANDOFF.md`, `personas/README.md`).
 - **Session 10's branch `claude/electrical-scripting-session-ayrkjc` is merged into `main` at its handover,** with `main` (session 9, HVAC) merged in first and both sides kept: `core/script-scanner.py` (the electrician tenure words and P13's fixes together with the HVAC tenure words, the "no for" pattern, third-party years and `letters-ok`; letter sets judged once, with the niche's `letters-ok` skipped), `core/channels.md` (Frederick **ready**, row 7; Roger the HVAC Guy, row 8), `tools/build_skills.py` (both channels; `--final` on every scanner command, HVAC's included), `README.md`. One collision fixed: session 10's check 60 is now **69** (HVAC's are 60-68). 76 checks pass.
-- **Still not in `main` (seen 2026-10-27):**
-  - `claude/vigilant-keller-um63cs` (Werner's profile; 21 commits). It was built on top of session 10's branch, and the **account's `script-writer` comes from it** (Frederick and Werner both ready, but no Roger the HVAC Guy row). **Don't upload a `script-writer` built from `main` until it's merged:** it would drop Werner.
-  - `claude/festive-planck-2e8f22` (plumbing: the escalation line in the plumbing opening, model R21; 3 commits). The **account's `plumbing-scripts` comes from it**, so don't upload `plumbing-scripts` from `main` either until it's merged. It calls its proposal "P11", which is taken (P11 is the electrical value promise): renumber it at its merge.
-- **`dist/` is not rebuilt at this merge** (on purpose, as above). The account's `electrical-scripts` and `frederick-barnes-persona` match session 10's last build exactly; the HVAC skills aren't on the account yet.
+- **Session 11 (2026-10-27, branch `claude/wonderful-curie-0puxc3`) merged Werner's branch `claude/vigilant-keller-um63cs` into `main`,** which also carried the plumbing branch `claude/festive-planck-2e8f22` (the escalation line, model R21; merged into Werner's branch there). Both sides kept. Collisions fixed: Werner's channel row is **9** (Roger the HVAC Guy keeps 8); Werner's check 61 is now **70** (HVAC holds 60-68); the plumbing escalation line's "P11" is now **P17** (P11 is the electrical value promise, P14-P16 are Werner's). No branch with unmerged work is left outside `main`.
+- **`dist/` is not rebuilt at this merge** (on purpose). A build of `main` checked against the account on 2026-10-27 (session 11): every script skill matches apart from frontmatter quote marks, except `script-writer`, which differs only by Roger the HVAC Guy's row (Werner moves to row 9) and the HVAC scanner changes (HVAC tenure words, `letters-ok`, third-party years, the "been/spent/worked" subject fix). The HVAC chat (finishing in its own chat) rebuilds and sends `script-writer`, `hvac-scripts` and `roger-the-hvac-guy-persona` together, so Roger the HVAC Guy is never on the channel list before his pack is on the account.
 - Earlier branches are contained in `main`. Leave them.
 
 ---
@@ -76,7 +74,7 @@ The HVAC research chat (it also did the HVAC study in `KPMYT/niche-research`, ba
 2. **Built:** `hvac-scripts/` (SKILL.md from the plumbing pack, changed only where HVAC differs; the unit plan; voice samples, provisional; 151 real on-camera excerpts; 31 model files R04-R44 with INDEX; the **price guide**, 125 rows, four researchers and four checkers plus a fifth pair for three shelf items, research in `studies/hvac/price-research-2026-10/`); `personas/roger-the-hvac-guy.md`; `core/channels.md` row 8; scanner changes (HVAC trade words in tenure, a `letters-ok` key, third-party years skipped); run_checks 60-68. The study is in `studies/hvac/`.
 3. **Tested** (`tests/iterations/iter-06/`, the writer, VA and judge kept apart): two rounds on batch 1 #4 and #14. Round 1 was safe and clean but flat; the cause was the pack's own emotion section missing the plumbing rule's examples, now put back. Round 2: "you"/"your" about 40 and "but" 6.5-7.3 per 1,000 words, level with the passed plumbing script; both **fix, then pass** (about six lines each, writer slips). Every library gap the judges named is fixed (`iter-06/CHANGES.md`). **Roger the HVAC Guy is ready** (as Sam was: the operator's own tests decide next).
 4. **niche-research:** batch 1's briefs corrected from the price research (35 figures in 15 briefs; the signed-off originals kept), `studies/hvac/ideation/batch1-briefs-2026-10-27-corrected.*`.
-5. **Not done:** `dist/` isn't rebuilt (see "Branches": wait for Werner's branch). **After the tests the operator answered H1-H3, H5 and H6** (HANDOFF "after the HVAC tests"): the villain example reworded in both packs, the `require-if` scanner key (every carbon monoxide and gas-leak step), split reframes counted and "don't" instructions not, brief and title always win, the ElevenLabs voice the same as Roger the Pipe Guy's (already so; the voice samples stay provisional). Merged with session 10 again afterwards (the HVAC checks renumbered 71-72; 78 pass).
+5. **Not done:** `dist/` isn't rebuilt (see "Branches": Werner's branch is in `main` since session 11; the HVAC chat rebuilds). **After the tests the operator answered H1-H3, H5 and H6** (HANDOFF "after the HVAC tests"): the villain example reworded in both packs, the `require-if` scanner key (every carbon monoxide and gas-leak step), split reframes counted and "don't" instructions not, brief and title always win, the ElevenLabs voice the same as Roger the Pipe Guy's (already so; the voice samples stay provisional). Merged with session 10 again afterwards (the HVAC checks renumbered 71-72; 78 pass).
 
 ### Session 8 (2026-10-27), in short: the electrical pack and Frederick Barnes (branch `claude/intelligent-ride-v1at70`)
 
@@ -148,7 +146,7 @@ The same chat finished the electrical ideation in `KPMYT/niche-research` (17 ini
 - **No plumbing script has passed the judge yet** (run 03 was close; no run 04). Mark and Vintage haven't been tested.
 - **Frederick Barnes is ready and on the account** (three test runs, session 10); his ElevenLabs voice name, ID and voice check are still to come. The HVAC pack is built and tested (session 9); Roger the HVAC Guy is ready but not on the account yet.
 - **Werner's lines** in the plumbing ideation and thumbnails skills are not cleaned up (waits for a yes).
-- **The thumbnails skill** (not in the repo) still says Mark has "no tenure number fixed yet" and Vintage "45 years" (now correct); Werner is still unnamed there and in `core/channels.md` (no profile yet).
+- **The thumbnails skill** (not in the repo) still says Mark has "no tenure number fixed yet" and Vintage "45 years" (now correct); Werner is still unnamed there (he is row 9 in `core/channels.md`, ready).
 
 ## Open questions for the operator
 
@@ -175,13 +173,13 @@ The same chat finished the electrical ideation in `KPMYT/niche-research` (17 ini
 
 **Electrical (next, on the operator's call):**
 1. Read `CLAUDE.md`, this file, `HANDOFF.md` section 3 (the 2026-10-27 blocks), `tests/iterations/iter-05/README.md` and the three judge reports there.
-2. When the operator sends the voice details: fill in the profile's voice provider line and the voice check, adjust words per minute if the clip says so, rebuild and send `frederick-barnes-persona` (and `script-writer` only after the Werner branch is in `main`).
+2. When the operator sends the voice details: fill in the profile's voice provider line and the voice check, adjust words per minute if the clip says so, rebuild and send `frederick-barnes-persona` (and `script-writer` only together with the HVAC chat's `hvac-scripts` and `roger-the-hvac-guy-persona`, or once they are on the account).
 3. Check the first real Frederick script the operator pastes back: the prove-dead step against Safety rules 1 and 2, then the run 03 judge's non-blocking notes (open-box "I" lines, sentence length creeping up, procedure-first step openings).
 4. A14 (the LED glow) has no topic model since E38 went: use the closest explainer, as INDEX says.
 
-**Merging the other branches (whichever chat merges next):** merge `main` into the branch first and keep both sides; the scanner's tenure code and `core/channels.md` are the likely conflicts (Werner: row 9 in `channels.md` if Frederick and Roger the HVAC Guy keep 7 and 8); renumber any run_checks number that collides (in use: 1-69); renumber festive-planck's "P11". Only then rebuild `dist/` and send the operator the skills that differ from the account.
+**Merging branches:** done in session 11 (Werner and festive-planck are in `main`). Any chat that merges later: merge `main` into its branch first and keep both sides; check numbers in use are 1-72 (plus letter suffixes such as 46b; 71-72 are the HVAC chat's); proposals in use are P1-P17.
 
-**HVAC chat (next):** read `tests/iterations/iter-06/CHANGES.md` and the HANDOFF blocks of 2026-10-27; get H1-H6; the operator's own test scripts on batch 1 (the corrected briefs) decide further fixes. Rebuild `dist/` only once the electrical-scripting-session and Werner branches are in `main`, then send `hvac-scripts.skill`, `roger-the-hvac-guy-persona.skill` and the new `script-writer`. Batch 2 needs the brand-verdict rules first (a brand verdict stops NOT READY today).
+**HVAC chat (next):** read `tests/iterations/iter-06/CHANGES.md` and the HANDOFF blocks of 2026-10-27; get H1-H6; the operator's own test scripts on batch 1 (the corrected briefs) decide further fixes. Both of those branches are in `main` now (session 11): merge `main` into the HVAC branch first (Werner is channel row 9, his check is 70, the plumbing escalation line is P17), then rebuild `dist/` and send `hvac-scripts.skill`, `roger-the-hvac-guy-persona.skill` and the new `script-writer`. Batch 2 needs the brand-verdict rules first (a brand verdict stops NOT READY today).
 
 **Original plan (sessions 7-8):**
 1. ~~The research, in `KPMYT/niche-research`~~ (done for both niches).
@@ -206,7 +204,7 @@ The spellings here are correct; where a skill differs, the skill has the typo.
 | Roger The Pipe Guy | plumbing (45 years) | |
 | Mark Silverbridge | plumbing (40 years) | |
 | Vintage Pipefitter | plumbing (45 years) | |
-| Werner Finkbeiner | stopped 2026-10-22; a later chat built his profile (branch `claude/vigilant-keller-um63cs`, not in `main` yet) and his persona skill is on the account | his lines still in plumbing ideation and the thumbnails skill |
+| Werner Finkbeiner | plumbing, the German way: **relaunched** 2026-10-27, 30 years, Talking Head, *Werner's 101 Free Repairs*; **ready** (channel row 9), merged into `main` in session 11 | his old lines still in plumbing ideation and the thumbnails skill |
 | Dale Oakfield | woodworking for profit | |
 | Hank Hardwood | woodworking for profit | |
 | Norbert Daniels | home security: the retired Locksmith | |
