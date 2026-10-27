@@ -41,11 +41,11 @@ The core base rules apply wherever this pack is silent. These are the places it 
 | `retention-mechanics.md` §2 and §6, the value line and "short range only"; the hard-banned "by the end of this video" | The opening may carry one value promise (job 5 of "The opening"): an escalation, or what the viewer will know or be able to do by the end, naming things paid later, never the first items in order. Concrete named forward lines are allowed in the body. Vague teases stay hard-banned. The scanner lifts only "by the end of this video". | P11, operator 2026-10-27 |
 | `cta-and-endings.md` §4, `workflow.md` §4 ("the closing line is exactly one sentence"), `retention-mechanics.md` §14, `greenlight-audit.md` F3, `variety-rotation.md` slot 9 | The ending is the one-line subscribe ask, then the comment ask (a turn to the viewer, an outright ask to comment, a specific question and "I read every one"), which ends the script. Two or three sentences; nothing after it. FORMAT CHECK's closing field reads `[comment line, last line of the script]`; rotation slot 9 rotates the comment question. | 2026-10-27 (default, as plumbing's P5) |
 | `workflow.md` §3, the 8-minute minimum; `greenlight-audit.md` F2 | At least 12 minutes at the profile's words per minute; 15 to 22 is the sweet spot. See "Length". | Operator 2026-10-27: "even 15-22 is sweet spot" |
-| `variety-rotation.md`, the rotation log line | Four more fields at the end of the line: `\| model: [file numbers] \| stakes: [device] \| promises: [devices] \| comment: "[the comment question]"`. | 2026-10-27 (as plumbing) |
+| `variety-rotation.md`, the rotation log line | Six more fields at the end of the line: `\| model: [IDs] \| type: [video type, or new: shape] \| topic: [3-5 words] \| stakes: [device] \| promises: [devices] \| comment: "[the comment question]"`. | 2026-10-27 (as plumbing) |
 | `workflow.md` §3 step 4 and `greenlight-audit.md` D3, the `--refs` files | The copy guard runs against this file, `references/excerpts.md`, `references/voice-samples.md` and every file in `references/models/`, plus the persona profile. The facts guide is left out (as plumbing's price guide is): its facts are said in the script's own words, and a plain fact can't be guarded word for word. | 2026-10-27 (as plumbing) |
 | `research-and-sourcing.md` §6, "each number said alongside whoever counted it" | Sources don't have to be said. A source is named only where it really helps (CPSC, the electrical code); when it is named, its figure is said exactly as the source gives it. | 2026-10-27 (as plumbing) |
 | `greenlight-audit.md` E1, the originality score | Signal 1 counts facts from the brief or the facts guide that most videos on the topic don't use; signal 4 (three named sources) doesn't apply. Out of 6, passes at 4. | 2026-10-27 (as plumbing) |
-| `retention-mechanics.md` §6 and `greenlight-audit.md` B5, signposts | The sections are the opening, each item, step or contender, and the ending. "Number four." or "Step three." is the signpost. | 2026-10-27 (as plumbing) |
+| `retention-mechanics.md` §6 and `greenlight-audit.md` B5, signposts | The sections are the opening, each item, step or contender, and the ending. "Number four." or "Step three." is the signpost. In an explainer, each block opens on the question it answers ("So where does that current actually go?"). | 2026-10-27 (as plumbing) |
 | `greenlight-audit.md` D4, "every number traces to the fact source" | The fact source is the brief plus `references/facts-guide.md`. A number from neither (a setting, an interval) is allowed only when it is everyday knowledge and is marked "general knowledge" on the evidence block's Numbers line. No code number, wire size, breaker size or distance is ever filled in from memory. | 2026-10-27 (P7 adapted) |
 | `retention-mechanics.md` §2, the hook; `greenlight-audit.md` A1b | The electrical opening is the hook (see "The opening"), checked as the same three jobs: the transformation is the fix or answer named in the first sentence; the pain or wish is the problem the viewer has right now; the curiosity is the question, or the surprising fact the video answers. | 2026-10-27 (as plumbing) |
 | `humanizer.md` H22 and `greenlight-audit.md` C2, prices | Not used: this channel says no prices at all (operator 2026-10-24: "we dont really need to use money in electrical"). | 2026-10-24 |
@@ -125,10 +125,14 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 2. **A question, when it fits,** that the viewer can answer in their own house ("Does the plug sag the moment you let go?"), answered within about 15 seconds.
 3. **The stake, once,** in plain words (see "The stakes"), and the villain line only if the topic has one.
 4. **Honest scope or reassurance,** in one line: what this fixes and what it doesn't, or that most of the job is safe for a careful homeowner and which part isn't. It never takes back the title.
-5. **One value promise, when it fits** (P11, operator 2026-10-27): one sentence that either promises the escalation ("we'll go from the two-minute check to the one sign that means you stop and call") or what the viewer will know or be able to do by the end ("By the end of this video you'll know why it trips and how to tell a tired breaker from a real fault"). It names things paid later in the video, never the first items in order (no "First I'll show you… then…"), and it isn't always three things. Never a vague tease ("stick around", "you won't believe"). Or, in a list, **the count line** naming the whole list and what it does for the viewer. Never "today we're going to".
+5. **One value promise, when it fits** (P11, operator 2026-10-27): one sentence that either promises the escalation ("we'll go from the two-minute check to the one sign that means you stop and call") or what the viewer will know or be able to do by the end ("By the end of this video you'll know how to tell a tired breaker from a real fault, and the one sign that means you leave the panel alone"). It names only things paid after item three (or after the third step, check or block), never item one, two or three (operator: "as long as they are not iteams one 2 and 3"), and it isn't always three things ("doesnt have to be 3 items also"). An escalation may name its starting rung, since the operator allowed "a simple promise of escalation" on its own terms. In a list of three, it names what the viewer will be able to do, not an item. Never "First I'll show you… then…". Never a vague tease ("stick around", "you won't believe"). Or, in a list, **the count line** naming the whole list and what it does for the viewer. Never "today we're going to".
 6. **The first real tip, check or step** by about 45 seconds; in a list, item one by about 30 seconds.
 
 **Simpler and stronger** (operator, 2026-10-21, for every niche): the first line hits the viewer's own problem in strong, plain words; it doesn't have to be the worst case.
+
+**One figure at most in the opening** (a distance, a voltage, a wire size or a statistic); the rest belong to the step or item that uses them, and the opening never repeats item one's figure.
+
+**The title's promise, word by word.** The plan lists every promise in the locked title (the fix, "the right way", "no patching", "never again", "is yours one?", "it's not the breaker", "I find") and where each is paid. The electrical code and the device's own instructions always win over the title: nothing in the script promises a shortcut either one forbids. An absolute word in the title ("Never Fall Out Again", "Never Solder Wires Again") is kept honest, never taken back: the scope line says what it rests on and the one case it doesn't cover, once, as a check ("If the plug's blades are bent or thin, it's the plug, not the wall."). A title written in the first person ("I Find") is paid as the typical case plus an "I" verdict ("In a house that age, I'd expect at least three of these."), never as a story. A question in the title ("Is Yours One?", "Can You Run Romex in Conduit?") is answered in the opening and turned into a check the viewer can run. If the brief can't pay a promise honestly, the run stops with NOT READY.
 
 **Never in an opening:** a name or channel intro, a greeting, "today we're going to", a run-down of the first items in order, a first-person test or demonstration ("I tested", "watch me"), or a tenure number other than the profile's or the locked title's.
 
@@ -167,30 +171,32 @@ Two or three per video, in the body (the opening carries at most the one value p
 - **A numbered item with its stake in words:** "Number six is the one that leaves the light fixture live when the switch is off."
 - **The escalation ladder:** the two-minute check, then the fix a careful homeowner can do, then the sign that it's a call for a licensed electrician. The default for fix videos.
 - **The rule that protects everything:** turn it off, then prove it's off. Named at the first step it touches, paid straight after.
-- **A check the viewer can run:** the plug-in tester's lights, the TEST button, the tug test on a connection, the warm-plate check with the back of a hand. Only checks that are safe and that the brief or facts guide confirm.
+- **A check the viewer can run:** the plug-in tester's lights, the TEST button, the tug test on a connection, noticing a cover plate that feels warm (facts guide 5.9). Only checks that are safe and that the brief or facts guide confirm.
 - **A problem the viewer didn't know they had,** promised and then shown.
 - **A myth flag** that names the belief it flips in the same line: "Number three is the one everybody gets backwards: a three-prong outlet doesn't mean you have a ground." Never a bare "the one everybody gets backwards".
 - **The "why" promised:** "And I'll tell you why that wire got short in the first place."
 
 ## The video types
 
-Pick the type from the title. Each type has its own opening order and item or step shape. The models column names the model IDs in `references/models/` (all real channels: structure and voice, never wording); `references/models/INDEX.md` lists every file. Follow "Using the models".
+Pick the type from what the title promises, not its first words. "How to fix [a problem]", "The REAL reason your…" and "Why does my X keep Y" are **fix this problem**. "How to [add, install, connect, replace] X" is **how-to** (and a licensed electrician's job is explained, never instructed: see below). "Why do [things everyone owns] have/do X?", with nothing wrong in the house, is **explainer**; a "why does it do that" about a fault the viewer has (the glow, the trip) is **fix**. A title that names one mistake is **single big mistake** even when the brief gives several causes: they become the related slips. A "vs" inside a how-to title is the how-to with one X vs Y block at the step where the choice is made. These are the most common types, not the only ones. Each type has its own opening order and item or step shape. The models column names the model IDs in `references/models/` (all real channels: structure and voice, never wording); `references/models/INDEX.md` lists every file. Follow "Using the models".
 
 | Type | Title shape | Opening, in order | First tip by | Item or step shape | Models |
 |---|---|---|---|---|---|
-| **How-to / correct way** | "How to [do the job] (the Safe Way)", "The RIGHT Way to…" | The job and the problem it solves → "you can do this" with the one part that's a call → the value promise or the step count → power off and prove it, named as the rule that protects everything | 30-45 s | The step, the reason, the mistake to avoid, how to know it's right | E01, E02, E03, E04, E05, E07 |
-| **Fix this problem** | "The REAL Reason Your…", "Why Does My X Keep Y?", "Plug Won't Stay In?" | The symptom in the viewer's words → the usual wrong guess → the real cause in one line → is it dangerous (honest, in proportion) → the fix ladder | 20-40 s | The check, what it tells you, the fix, the sign it's a call | E08, E09, E10, E11, E12 |
-| **Explainer** | "What X Actually Does", "Why Do Plugs Have Holes?", the test topics explained | The question everyone's wondered → the common wrong answer → the real answer in one line → what it means in your house → the value promise | 20-40 s | The idea, the plain picture that explains it, what it means for you | E13, E14, E15, E16, E17, E18, E19 |
-| **X vs Y** | "AFCI vs GFCI", "Wire Nut vs Lever Connector: Which One?" | The moment of choice in the viewer's house → the two contenders in a line each → the argument everyone has → "each one has a job" → the value promise | 30-45 s | Each contender: what it does, where it's right, where it's wrong; then which to use where | E20, E21, E22, E23 |
+| **How-to / correct way** | "How to [do the job] (the Safe Way)", "The RIGHT Way to…" | The job and the problem it solves → "you can do this" with the one part that's a call → the value promise or the step count (the power-off rule is named at the first step that touches wiring, as the rule that protects everything, never in the opening) | 30-45 s | The step, the reason, the mistake to avoid, how to know it's right | E01, E02, E03, E04, E05, E07 |
+| **Fix this problem** | "The REAL Reason Your…", "Why Does My X Keep Y?", "Plug Won't Stay In?" | The symptom in the viewer's words → the usual wrong guess → the real cause in one line → is it dangerous (honest, in proportion) → the fix ladder | the real cause by about 15 s (it counts as the point); the first check by 30-45 s | The check, what it tells you, the fix, the sign it's a call | E08, E09, E10, E11, E12 |
+| **Explainer** | "What X Actually Does", "Why Do Plugs Have Holes?", the test topics explained | The question everyone's wondered → the common wrong answer, turned in one line → the real answer's first layer in one line (what it is, or what it isn't) → what it means in your house → the value promise | 20-40 s | The idea, the plain picture that explains it, what it means for you | E13, E14, E15, E16, E17, E18, E19 |
+| **X vs Y** | "AFCI vs GFCI", "Wire Nut vs Lever Connector: Which One?" | The moment of choice in the viewer's house → the contenders in a line each (two, or a third as the reference: E22's ordinary breaker) → the argument everyone has → "each one has a job" → the value promise | 30-45 s | Each contender: what it does, where it's right, where it's wrong (E22); or each test or criterion with both contenders side by side (E21); then which to use where, as new information, never a restatement of each one | E20, E21, E22, E23 |
 | **Mistakes list** | "N Wiring Mistakes…", "N Breaker Box Mistakes…" | The symptom or the hidden work → the stake → one credibility line (tenure here if anywhere) → the count line | 15-30 s | The mistake, what it risks, the right way, the check | E24, E25, E26, E27 |
 | **Single big mistake** | "The Generator Mistake That…", "The Dead Outlet Mistake Everyone Makes" | The mistake named in the first sentence → why almost everyone makes it → the stake in plain words → the value promise | 20-40 s | One mistake explored: how it happens, what it does, the right way, the check, the related slips | E29, E30, E31, E32 |
-| **Know-this list** | "N Electrical Things Every Homeowner Should Know" | The moment the viewer wished they'd known → the stake → the count line | 15-30 s | The thing, why it matters in your house, what to do with it, the win | E28; E24 and E25 for list pacing |
+| **Know-this list** | "N Electrical Things Every Homeowner Should Know" | The moment the viewer wished they'd known → the stake → the count line | 15-30 s | The thing, why it matters in your house, what to do with it, the win | E28 (read its warning: one unsafe tip cost the list its trust); E04; E24 and E25 for list pacing |
+
+**Explainers are a chain of whys.** The first layer of the answer comes in the opening (point first); each block then answers the next question the last one raised ("So why are the holes always in that spot?"), every block pays something, and the deepest layer lands by about the middle, never later. The models do this: E17 turns the myth by 0:39 and builds to the real reason; E13 answers yes-or-no at 1:04 and the why at 7:49. In an explainer, each block opens on the question it answers.
 
 A title that promises tests or demonstrations is written as explanation and results from the brief, never as "I tested" (see "Proof").
 
 ### The item shape in lists
 
-In every list type (mistakes, single big mistake's related slips, know-this), each item runs in this order:
+In the mistakes list and a single big mistake's related slips, each item runs in this order (the table's item shape says what goes into it):
 1. the scene in the viewer's house
 2. what's really happening in the wall, the box or the device (one or two lines)
 3. what it risks, once (see "The stakes")
@@ -199,29 +205,67 @@ In every list type (mistakes, single big mistake's related slips, know-this), ea
 6. the check that tells them it's right, when there is one
 7. the win
 
-### The step shape in how-to and fix videos
+In a know-this list, each item runs: the moment in the viewer's house when it matters, the thing in one plain line, why it matters there (the stake, once), what to do with it (the safety line inside), the check when there is one, the win.
 
-1. what to do, as an instruction to the viewer
+**Order:** the way the viewer meets them in the job or the house (which screw, how much to strip, which way to hook; or what you can see with the cover on before what the electrician finds inside), each item setting up the next, with the most capable, lowest-stakes item last (E24 ends on the screwdriver bit, E26 on the clamp outlet).
+
+**Small counts.** When the title's count is small (three to five), each item is split into its named parts (one mistake on the outlet, the same mistake on the switch), and each part gets its own scene, turn and check; the signpost stays the title's number ("Number one, part two"). Never add items that change the title's count. One extra item may close the list only when it's called a bonus as it arrives, never promised in the opening (that's a tease).
+
+### The step shape in how-to videos
+
+1. what to do, as an instruction to the viewer (on a licensed electrician's job, what is done and what you check: see below)
 2. the reason, in one sentence
 3. the mistake people make at this step, with "but"
 4. how to know it's right (what you'll see, hear or feel)
 5. the win or the bridge to the next step
 
-- **Length per item or step:** about 120-180 words is the guide in lists of 7 to 10; a bit longer is fine when nothing is fluff (operator, after plumbing run 03). Cut repeated warnings and restated points first.
-- **Bridges:** never more than two items or steps in a row without a forward line or a stake line.
+No aside or side story inside a step where the box is open or the panel cover is off; asides go between steps.
+
+### The rung shape in fix videos
+
+Each rung of the fix ladder, easiest first, call last:
+1. what the viewer notices or checks, as an instruction ("Plug a lamp in and wiggle the plug.")
+2. what that tells them: the cause it points to, in one line
+3. the belief it turns, with "but"
+4. the fix for that cause, with the safety line inside it
+5. how to know it worked
+6. the sign it's a call (a named trigger), then the win or the bridge to the next rung
+
+### When the job is a licensed electrician's
+
+When the brief or the facts guide says the work is a licensed electrician's job (anything inside the panel, a generator interlock, inlet or transfer switch, a meter-socket adapter, aluminum wiring repairs, a new outdoor run that needs a permit), no step is an instruction to the viewer. Each step says what is done and why, as what the electrician does ("The electrician fits a two-pole breaker sized to the inlet, so…"). Then it says what the homeowner sees, checks or asks for: the kit listed for that exact panel, the permit and the inspection, the routine on a storm night, the sign it was done right. The opening's scope line says so plainly ("This is the part you hire out. Here's what right looks like, so you know it when you see it."). In a mistakes list about the panel, "the right way" is what the electrician does, and "the check" is what the viewer can see without opening anything: the label and the directory, the filler plates, a breaker that's warm or buzzing, scorch on the cover, the brand on the panel label. A "How to" title is paid as how it's done right and what to ask for, never as panel work the viewer does.
+
+**Code in its place.** A code rule, permit note or other code background goes inside the step that needs it, in two or three plain sentences. It may come before the first fix only when every fix is judged against it, and then in under about 40 seconds (E09 gives the free-wire rule in 37 seconds before its ladder); never a block of code before the fix.
+
+- **Length per item, step or block: set by the 12-minute minimum, never below it.** At 195 words a minute, about 2,100 words sit inside the items at 12 minutes and about 2,700 at 15 (the opening and the ending take about 220). So the guide per item is:
+
+  | Items | Words each at 12 min | at 15 min | at 22 min |
+  |---|---|---|---|
+  | 3 | about 700 (split into named parts: see "Small counts") | 900 | 1,350 |
+  | 5 | 420 | 540 | 810 |
+  | 7 | 300 | 390 | 580 |
+  | 9 | 235 | 300 | 450 |
+  | 10 | 210 | 270 | 405 |
+
+  How-to steps and fix rungs can be shorter (60 to 150 words) when the job has many steps; an explainer block runs about 150 to 250 words (E13, E14, E16, E17). The winners' 12-minute lists ran items of about 170 to 430 words (E24, E25). The minimum never wins over value: a longer item carries more of the brief (the reason, the check, the sign it's a call, the related slip), never a warning said twice or a point restated. Cut those first.
+- **Bridges:** never more than two items or steps in a row without a forward line: a line naming what comes next, a question the next item answers, or a check the viewer is about to run. An item's own stake line doesn't count.
 - **Item one by about 30 seconds** in lists (plumbing run 03 put it at word 139: too late).
 
-**A title that fits none of the seven:** build the opening from the six jobs in "The opening", in the order the closest type uses, and pick the shape that best suits the content. Note it in the plan as "new type"; after three, it's proposed for this table and added only with the operator's yes.
+**A title that fits none of the seven:** build the opening from the six jobs in "The opening", in the order the closest type uses, and pick the shape that best suits the content. Note it in the plan as "new type: [the shape in a few words]". When the same new shape comes up on three or more scripts (the rotation log's `type:` field shows it), it's proposed for this table and added only with the operator's yes.
 
 ## Using the models: never a copy
 
-1. **Name the models and the differences.** The plan names one or two models for the video type and at least three things done differently: the opening order, the number or order of items, the promise devices, the stake device, the comment question.
+1. **Name the models and the differences.** The plan names one or two models for the video type, or a model filed under another type whose beat map fits the content (INDEX "also fits"; E09 or E12 for a single big mistake whose related slips are a diagnose ladder; E21 or E22 for a how-to with a choice in its title), and at least three things done differently: the opening order, the number or order of items, the promise devices, the stake device, the comment question.
 2. **No repeats.** The same model never appears in the channel's last five rotation log lines (`| model: [IDs]`).
 3. **Blending is encouraged:** one model's opening shape, another's step pacing.
 4. **Planning only.** Model files are read at the planning step, never kept open while writing. Wording comes fresh from the brief, in the persona's voice.
 5. **Read "Doesn't transfer" first.** Every model was made by a real person on camera: their demonstrations, meter readings, job stories, prices, sponsor reads and UK wording never transfer.
 
 The copy guard flags any run of 8 or more words shared with a model file.
+
+## Two titles on one topic
+
+When two locked titles share a topic, each script takes the part its title promises and leaves the rest to the other. "How to fix" and "the real reason" titles carry the diagnosis and the ladder. "The mistake" and "pull this out" titles carry the one mistake or the one fix, explored in depth with its related slips. A danger title on a shared topic carries the chain of what happens; a product title carries the part itself and why it's sold. The plan's SIBLING line names the other title and what this script leaves to it. When the brief's facts are mostly the sibling's, the run stops with NOT READY and asks for this title's own material.
 
 ## CTAs
 
@@ -247,7 +291,8 @@ No recap, no tease of a future video, no sign-off after the comment line.
 
 - **Never pad.** The same warning said twice, the promise restated, or a step explained twice is padding.
 - **If the brief can't fill 12 minutes with real value,** even with the facts guide, the run stops with NOT READY and asks for a fuller brief. The fix belongs at the ideation stage.
-- **For calibration:** the 31 models run 5 to 32 minutes; the niche's in-lane videos typically 8 to 17. Winners' lengths come from the content.
+- **For calibration:** the 31 models run 5 to 32 minutes; the niche's in-lane videos typically 8 to 17. At 195 words a minute, 13 of the models would run under 12 minutes even with their demonstrations and CTAs (E01, E05, E08, E09, E10, E15, E19, E21, E22, E23, E26, E29, E32). A script modelled on one of them needs more content than the model, never slower or longer sentences.
+- **The length check comes before any prose.** The plan gives each item, step or block its words from what the brief and the facts guide give it: each distinct fact, check, step or slip, said with its reason and its win, carries about 60 to 120 spoken words. If the total is under 2,340 without any restatement, the run stops with NOT READY and names what the brief is missing (more causes, the warning signs, the related slips, the second method).
 
 ## Voice
 
@@ -326,6 +371,7 @@ The scanner (core `script-scanner.py`) reads this block. `allow` lines are wordi
 ```scanner
 min-minutes: 12
 lift: tease: by the end of this video
+once-regex: \bby the end of (?:this|the) video\b | the one value promise (P11, opening only)
 allow: I read every one
 allow: I read every comment
 ban-regex: \btoday,? (?:we'?re|we are|I'?m|I am) going to\b | opening: "today we're going to"
@@ -370,7 +416,7 @@ Check that:
 - the point comes in the first sentence, with the problem the viewer has and the fix or answer named by about 15 seconds
 - the opening follows the video type's order, with at most one value promise that never runs down the first items in order, and no intro, greeting, vague tease or recap
 - every item or step puts the viewer in the scene, aims at one feeling, has at least one "but" turn and ends on a win; bridges turn between items; a question about every two items; the title's feeling and key word come back every few items; an "I" verdict in most items and one insistence line; capability balances every fear line; the last item closes on relief
-- items follow the item shape (lists) or the step shape (how-to and fix), at about 120-180 words, item one by about 30 seconds in lists, and no more than two in a row without a forward line or a stake line
+- items follow the item shape (lists), the step shape (how-to) or the rung shape (fix), each at the words the plan's length estimate gave it, item one by about 30 seconds in lists, and no more than two in a row without a forward line (an item's own stake line doesn't count)
 - every item carries one stake, once, in proportion; fire is never the topic; no prices, savings or money words anywhere
 - the villain, if any, is the old work or the cheap part, never electricians, inspectors, firefighters or the utility; named panels only with sourced facts
 - every forward line is paid within about five minutes; no stretch runs past five minutes without a forward line or a payoff; every callback matches a real promise

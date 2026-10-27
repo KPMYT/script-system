@@ -6,7 +6,8 @@ Fill this in from the title and brief before writing any prose. It decides what 
 UNIT PLAN
 Title:
 Channel:
-Video type:                        [one of the seven in SKILL.md, or "new type; closest is ..."]
+Video type:                        [one of the seven in SKILL.md, or "new type: [shape]; closest is ..."]
+Sibling title:                     [none / the other title on this topic, and what this script leaves to it]
 Years figure:                      [none / the title's number / the profile's number (35)]
 
 MODELS                             [from references/models/INDEX.md; none used in the channel's last five scripts]
@@ -20,12 +21,14 @@ OPENING                            [order this time, from the video type: ...]
 - the stake, once:                 [fire / shock / hidden bad work / cheap part / doing it wrong / nuisance / inspection]
 - villain line (optional):         [none / the old work / the cheap part; never the trade]
 - scope or reassurance:            [what a careful homeowner can do, and which part is a call; never takes back the title]
-- value promise or count line:     [one sentence: an escalation, or what they'll know by the end (things paid later, never the first items in order); or the count line in a list; or none]
+- value promise or count line:     [one sentence: an escalation, or what they'll know by the end (nothing from items, steps or blocks one to three; an escalation may name its first rung); or the count line in a list; or none]
 - first real tip, check or step by: [seconds; in a list, item one by ~30 s]
 - tenure:                          [not used / where, and the job it does there]
 
-ITEMS OR STEPS                     [lists: scene -> what's happening -> the stake once -> the turn -> the right way -> the check -> the win; how-to and fix: do -> why -> the mistake ("but") -> how to know it's right -> the win; about 120-180 words each]
-- [item or step] -> scene: ... | feeling: ... | the belief turned ("but"): ... | stake: ... | check: ... | win: ... | safety line? | bridge into the next (turning, or a forward or stake line)
+TITLE PROMISES                     [each promise in the title -> where paid; any absolute word and the one case it doesn't cover]
+
+ITEMS OR STEPS                     [lists: scene -> what's happening -> the stake once -> the turn -> the right way -> the check -> the win; know-this: the moment -> the thing -> why it matters -> what to do -> the check -> the win; how-to: do -> why -> the mistake ("but") -> how to know it's right -> the win; fix: notice or check -> what it tells you -> the belief turned -> the fix -> how to know it worked -> the sign it's a call -> the win; words each from SKILL.md "Length per item, step or block"]
+- [item or step] -> scene: ... | feeling: ... | the belief turned ("but"): ... | stake: ... | check: ... | win: ... | safety line? | bridge into the next (a forward line; the stake line doesn't count) | words: N
 - priority flag ("if you only check one thing") on:
 - terms to explain:                [first use of each; facts-guide §14]
 - "I" verdict in:                  [most items]
@@ -52,6 +55,7 @@ SAFETY
 - how the power comes back, and the test after, in step:
 - call-an-electrician trigger:     [a named sign]
 - panel / generator / permit lines needed:
+- who does each step:             [the viewer / a licensed electrician (explained, never instructed): which steps]
 - emergency sequence needed:       [none / shock / burning smell: every step from facts-guide §12]
 - safety the brief adds:           [kept]
 
@@ -61,12 +65,13 @@ CTA AND ENDING
 
 PROMISES CHECK
 - the opening's value promise -> where paid:
+- the value promise names none of items one to three: [yes]
 - each forward line -> where paid  [within ~5 min]
 - longest stretch without a forward line or a payoff:
 
-LENGTH ESTIMATE
-- items or steps, rough words -> minutes at the profile's wpm (Frederick 195)   [12 minimum; 15-22 the sweet spot]
-- can't reach 12 minutes with real value? -> NOT READY: ask for a fuller brief; never pad
+LENGTH ESTIMATE                    [at the profile's wpm (Frederick 195): 12 min = 2,340 words; 15 = 2,925; 22 = 4,290]
+- opening (~146) + each item, step or block (words from its content, as in ITEMS) + ending (~70) = total:
+- total under 2,340 with no restatement? -> NOT READY: name what the brief is missing; never pad
 
 VARIATION CHECK                    [against the rotation log]
 - models (not in the last five):
