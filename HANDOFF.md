@@ -261,6 +261,11 @@ From the review of the seven newest uploads and two VA chats (`studies/recent-up
 - **P11, the opening may carry one value promise** (an escalation, or "by the end of this video you'll know X and Y", never the first items in order): see `PROPOSALS.md` P11. Electrical only.
 - **Confirmed later the same day:** the 12-minute minimum with 15 to 22 the aim ("ok to 1"); the ending, a one-line subscribe ask then the comment ask last, as plumbing's P5 ("ok to 2, anad we say we read every comment": the comment line says he reads every comment). Default kept, not asked: the research pack is not used (the brief and the facts guide are the fact source).
 
+### Operator decisions, 2026-10-27 (Werner relaunch)
+
+- **Werner Finkbeiner is relaunched:** "we are relaunching werner. this means we have to get it into the current scripting format and give it a personality profile." This replaces "Werner Finkbeiner is stopped" (2026-10-22). His lines in the plumbing ideation skill and the thumbnails skill stay; the cleanup that waited for a yes is no longer needed.
+- **Built the same day, pending:** `personas/werner-finkbeiner.md` on the plumbing pack, from his Notion page with the locked plumbing rules applied (no intro, no teases in the opening, no recaps, the comment line last, prices as P7); row 8 in `core/channels.md`; check 53. The questions that decide the open lines (W1-W12) and proposals P14 (his German background against the claims policy), P15 (the "Feierabend" sign-off) and P16 (the scanner's "German plumber" tenure gap) are in `drafts/werner-relaunch-DRAFT.md` and `PROPOSALS.md`. Baseline: `studies/plumbing/werner-baseline-2026-10/`.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

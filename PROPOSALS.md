@@ -150,3 +150,33 @@ The study supports the narrow form of both: a tenure stated the same way every t
 8. **Named companies (R5 M1):** `core/offer-rules.md` §5 bans negative claims about named companies; the operator approved Federal Pacific and Zinsco with what CPSC or inspectors say. Proposal: §5 applies to CTAs, pitches and descriptions; in the body, named companies follow the claims policy. And: may Federal Pacific's independent test results be said, with the source named?
 
 **Status:** open: waiting for the operator (asked 2026-10-27).
+
+## P14. Werner's German background against the claims policy (opened 2026-10-27, Werner relaunch)
+
+**Decision (`core/claims-policy.md`, above everything):** never allowed: "ages, named relatives, heritage or identity membership", "places worked or lived", and credentials. Packs and profiles can tighten the policy, never loosen it; the only exceptions are the one approved family detail (P2) and the fixed years (P4).
+
+**Evidence:** the whole channel is "the German way". Every one of his 14 uploads and all six relaunch titles say it in the title ("The German Kitchen Trick", "Every German Drain Has", "The $5 Grease Every German Plumber Carries", "How to Unclog a Toilet For Beginners (The German Way)"). His YouTube description says "I grew up in Germany, where water and heating cost real money and you fix things before you replace them." The plumbing ideation skill's steering (§4) makes him "a German Meister plumber… the way I was trained" with "soft uncheckable backstory only". His Notion page says the opposite on the trade: "no years of experience, no arrival date, no hometown, no trade, no license". As the policy reads now, a script can't say he is German or that he was trained, so the scripts can't deliver the titles.
+
+**Proposal:** a third exception in the claims policy, worded like P2's: a persona profile may name one fixed, soft heritage line that the operator has approved, used only as the profile words it and as often as it allows, never with a town, a date, an employer, a licence or a named teacher. For Werner: (a) he grew up in Germany, where water and heating cost real money and you fix a thing before you replace it; (b) he was trained the German way ("the way I was trained"), with no where, when or who. His profile already bans hometowns, arrival stories, relatives and credential claims, and holds each line to once per script.
+
+**Status:** open: waiting for the operator (W1 in `drafts/werner-relaunch-DRAFT.md`).
+
+## P15. Werner's sign-off, "Enough for today. Feierabend." (opened 2026-10-27, Werner relaunch)
+
+**Decision (HANDOFF section 3, 2026-10-21, P5):** "ALWAYS these channels should have the ending lines like berthas where were trying to get a comment." On every plumbing channel the comment line is the video's last line, with no fixed last line or sign-off after it.
+
+**Evidence:** Werner's Notion page sets "the one line that never rotates": "Enough for today. Feierabend." His 14 old scripts all ended on "Feierabend" after the comment ask (see `studies/plumbing/werner-baseline-2026-10/counts.md`). No view data says whether it helped: his best video had 1,000 views and the channel 11 subscribers.
+
+**Proposal, three options:** (a) drop the sign-off; the pack's ending stands (the default in his profile now); (b) "Enough for today." becomes the short turn into the comment ask ("Enough for today. Before you go, …"), and the comment line still ends the video; (c) an exception for Werner only: "Feierabend." after the comment line. Recommended: (b), which keeps his flavour and the locked ending.
+
+**Status:** open: waiting for the operator (W5).
+
+## P16. "30 years as a German plumber": the scanner misses a years figure with a word before the trade (opened 2026-10-27, Werner relaunch)
+
+**Decision:** core `script-scanner.py` changes only with the operator's yes; "title numbers win" is locked (2026-10-21).
+
+**Evidence (tested 2026-10-27):** the scanner's tenure pattern allows only "the", "a", "an" or "my" before the trade word. So (1) Werner's uploaded title "In 30 Years as a German Plumber, I've Never Had a Clogged Drain — Here's Exactly What I Do" isn't read as a title figure, and a script for it that says "In 30 years as a plumber" fails as a wrong tenure; (2) a script line "In 25 years as a German plumber" isn't read as a years claim at all, and passes. Electrical has the same shape ("a retired electrician" is P13 item 1's business; this is the adjective).
+
+**Proposal:** in `TENURE_RX[0]`, after the article, allow one of "German", "master", "licensed" or "retired" before the trade word. In a scratch copy, the title then reads 30, the script's "30 years as a plumber" passes with that title, and "25 years as a German plumber" fails. All other checks to be re-run before it's applied; P13 item 1 touches the same lines and can go in with it.
+
+**Status:** open: waiting for the operator (W11).

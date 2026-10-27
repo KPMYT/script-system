@@ -630,6 +630,25 @@ check("52. electrical voice and claims: short forms fail, spoken forms and years
       and "the palm check" in tics[1] and "tonight" in tics[1] and not stories,
       f"bad passing: {f_v}; good failing: {p_v}; p11: {p11[1][-300:] if p11[0] else ''}; stories passing: {stories}")
 
+# 53. Werner's profile (relaunched 2026-10-27): plumbing pack, Talking Head, the Herrmann voice, pending; name, book and tenure none;
+#     channels.md row 8 pending; the build knows him; a clean German-way paragraph passes (copy guard included);
+#     contractions, a name intro, a relative, an arrival story, a euro price, comedy German and his old recap lines fail
+WERN=f"{PERS}/werner-finkbeiner.md"; wp=open(WERN).read(); wf=facts_of(WERN)
+clean_w=("Right now, behind the toilet in your bathroom, a rubber flapper the size of a coaster is letting clean water slip into the bowl, and you pay for every gallon of it. "
+         "So. In Germany it is usual to wipe the valve seat with a little citric acid every spring, and most American houses never do it. "
+         "But the physics is the same on both sides of the ocean. That is Wartung, plain maintenance, nothing more.\n")
+cw=run_scan(clean_w,[PLR,WERN],refs=PL_REFS+[WERN])
+bad_w=["It's the flapper.","I am Werner Finkbeiner, and this is my channel.","My grandfather showed me this.","When I came to America, the pipes surprised me.",
+       "A bottle costs about one euro.","Achtung, this is important.","Three small things for this week, then.","Werner Finkbinder wrote it down."]
+w_pass=[l for l in bad_w if run_scan(f"Check the flapper.\n\n{l}\n",[PLR,WERN])[0]!=1]
+chan=open(f"{CORE}/channels.md").read(); bs=open(f"{ROOT}/tools/build_skills.py").read()
+check("53. Werner's profile: plumbing pack, Talking Head, Herrmann voice, pending; name, book, tenure none; row 8 pending; in the build; a clean paragraph passes, his banned lines fail",
+      "Niche pack: plumbing-scripts" in wp and "Script type: Talking Head" in wp and "au7Q2pqB7wdio9LWlvt7" in wp and "Status: pending" in wp
+      and "name: Werner Finkbeiner" in wf and "book: Werner's One Hundred and One Free Repairs" in wf and "tenure: none" in wf
+      and "| 8 | Werner Finkbeiner | `plumbing-scripts` | `personas/werner-finkbeiner.md` | pending |" in chan
+      and '"werner-finkbeiner": ("Werner Finkbeiner", "personas/werner-finkbeiner.md"' in bs
+      and cw[0]==0 and not w_pass, f"clean: {cw[1][-500:] if cw[0] else ''}; banned lines passing: {w_pass}")
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")

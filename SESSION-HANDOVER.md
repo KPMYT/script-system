@@ -174,7 +174,7 @@ The spellings here are correct; where a skill differs, the skill has the typo.
 | Roger The Pipe Guy | plumbing (45 years) | |
 | Mark Silverbridge | plumbing (40 years) | |
 | Vintage Pipefitter | plumbing (45 years) | |
-| Werner Finkbeiner | **stopped** (2026-10-22) | his lines still in plumbing ideation and the thumbnails skill |
+| Werner Finkbeiner | plumbing, the German way: **relaunched** 2026-10-27; profile built, **pending** (questions W1-W12 in `drafts/werner-relaunch-DRAFT.md`) | |
 | Dale Oakfield | woodworking for profit | |
 | Hank Hardwood | woodworking for profit | |
 | Norbert Daniels | home security: the retired Locksmith | |
