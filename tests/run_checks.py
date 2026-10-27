@@ -5,7 +5,7 @@
 # copy guard (--refs) against the niche pack's reference files, production notes read aloud,
 # repeated sentences, persona facts (tenure, near-miss names, title numbers win), the tease phrasings and once-per-script phrases,
 # and the plumbing pack: its inputs block, scanner block, Mark's contraction ban, the copy guard over every model file,
-# the plumbing profiles' fixed facts and the channel list.
+# the plumbing profiles' fixed facts and the channel list, and the plumbing escalation line (test 46).
 import re, os, glob, subprocess, sys, tempfile, textwrap
 sys.dont_write_bytecode = True
 ROOT=os.environ.get("LIB_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -650,6 +650,15 @@ check("53. Werner's profile: plumbing pack, Talking Head, Herrmann voice, ready;
       and '"werner-finkbeiner": ("Werner Finkbeiner", "personas/werner-finkbeiner.md"' in bs
       and os.path.exists(f"{PERS}/books/werner-finkbeiner-book.md") and "| 54 | Silence a Running Toilet by Replacing the Flapper | 7 | 277 |" in open(f"{PERS}/books/werner-finkbeiner-book.md").read()
       and cw[0]==0 and not w_pass, f"clean: {cw[1][-500:] if cw[0] else ''}; banned lines passing: {w_pass}")
+# 46b. the escalation line (plumbing P11, operator 2026-10-27): an option in the plumbing opening, not a rule, rotated, never naming
+#     a single item; P10's never list stands; R21 (drywall, not plumbing) holds the two moves only, no script or beat map
+r21=open(f"{ROOT}/plumbing-scripts/references/models/R21-nailed-it-drywall-repair-beginners.md").read()
+idx=open(f"{ROOT}/plumbing-scripts/references/models/INDEX.md").read()
+check("46b. plumbing hook: the escalation line is an option, not a rule, rotated, never naming an item; R21 is marked not plumbing with no script or beat map",
+      "**The escalation line: an option, not a rule**" in op and "rotate it like any opening shape" in op
+      and "never what an item holds or its fix" in op and "a promise block or any run-down of what later items hold" in op
+      and "apart from the count line or the escalation line" in pk
+      and "NOT PLUMBING" in r21 and "## Beat map" not in r21 and "## Script" not in r21 and "R21-nailed-it-drywall-repair-beginners.md" in idx, "")
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

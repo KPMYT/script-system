@@ -180,3 +180,21 @@ The study supports the narrow form of both: a tenure stated the same way every t
 **Proposal:** in `TENURE_RX[0]`, after the article, allow one of "German", "master", "licensed" or "retired" before the trade word. In a scratch copy, the title then reads 30, the script's "30 years as a plumber" passes with that title, and "25 years as a German plumber" fails. All other checks to be re-run before it's applied; P13 item 1 touches the same lines and can go in with it.
 
 **Status:** open: waiting for the operator (W11, not answered on 2026-10-27; asked again). With his tenure now 30 (W2), the uploaded "30 Years as a German Plumber" title passes; the gap that remains is a wrong figure said as "N years as a German plumber", which passes unflagged.
+
+## P11 (plumbing). The escalation line, from the drywall video (opened 2026-10-27 in the plumbing chat, branch `claude/festive-planck-2e8f22`; numbered P11 there, alongside the electrical P11 above)
+
+**Decision it touches (HANDOFF.md section 3, "Operator decisions, 2026-10-25", P10):** no promise block in the plumbing hook. `plumbing-scripts/SKILL.md` says "Nothing is promised in the opening" ("Point then promise"), and job 5, the count line, "never says what any single item holds".
+
+**Evidence:** the operator (2026-10-27), on Nailed it's "How to Repair Drywall For Beginners" (7AczE-EA1Is, 1.03M views, about 60x the channel's median upload): "i love his hook. can you build that in please", then "the hook just the hook not the naming himself", then "i simply like the way he clearly introduces the problem and explains the escalation of the video very clear and simple". Model R21 holds the two moves. Saying where the video starts and where it ends up names the smallest and the biggest case, so it sits on the edge of P10's wording, though not of what P10 was for (stopping "the first part I'll teach you this, the second thing I'll teach you this").
+
+**Proposal: add this to "The opening" in `plumbing-scripts/SKILL.md`, after job 5:**
+
+> **The escalation line** (operator, 2026-10-27, from model R21, not plumbing: "i simply like the way he clearly introduces the problem and explains the escalation of the video very clear and simple"). When the video runs from a small case to a big one (sizes of clog, levels of leak, the cheap fix up to the stronger one), the opening does two things, plainly:
+> 1. **Introduce the problem clearly,** in one sentence: what the viewer has and what the video fixes, in a beginner's words, with no build-up.
+> 2. **Explain the escalation simply,** in one sentence: where the video starts and where it ends up, as pictures from the viewer's house. The shape (never wording to reuse): "We'll start with a sink that's draining slow and work up to a toilet that won't go down at all."
+>
+> The escalation line stands in for the count line, or carries it ("and four fixes cover every one of them"). It names the two ends of the problem, never what an item holds or its fix, and the body keeps that order, smallest first. Not in every script: rotate it like any opening shape.
+
+**Also, to match:** "Point then promise" reads "Nothing is promised in the opening, apart from the count line or the escalation line (operator, 2026-10-25 and 2026-10-27)"; a check (test 46) that the escalation line is in the pack; a HANDOFF section 3 entry.
+
+**Status:** approved by the operator on 2026-10-27: "yes its good as long as its not a hard rule and it can vary based on topic and format and there is still rotation in the hooks". Applied as an option, not a rule, with the rotation stated in the text. (Replaces the first draft of 2026-10-27, "the range opening", which also had a kit line, a transfer line and a myth flip; the operator narrowed it to the two moves.)

@@ -268,6 +268,11 @@ From the review of the seven newest uploads and two VA chats (`studies/recent-up
 
 - **The operator's answers to the relaunch questions (2026-10-27,** `drafts/werner-relaunch-DRAFT.md`**):** P14 approved ("allow it": the claims policy's "One approved heritage line"); 30 years ("good"); a trained plumber "but he doesnt need to mention it"; two soft details ("yes why not": the spring check, the screw tin); no sign-off, P15 (a) ("we just want a comment line"); "CTA to his book, no subscribe ask. we just want a basic quick CTA of what his german father old mentor taught him before passing" (a fixed father line, his one family detail, in a mid-video CTA of about 40-55 words); no topic limit ("its not relevant really"); no ideation edits ("we just need scripts here"). *Readings recorded:* "german father old mentor" read as his father, who taught him; "contractions can be allowed like BUT" read as joining words like "but" (already wanted), contractions staying off; both asked to confirm. The book PDF is shared but unreadable here (no text layer from Drive, over the download limit). P16 unanswered.
 
+### Operator decisions, 2026-10-27 (the drywall video)
+
+- **R21, a drywall repair video, is a plumbing model, marked not plumbing** ("add as reference script in skills of plumbing with the caveat its not plumbing but we can take inspo from it"). It holds only the two opening moves the operator likes, with no script and no beat map ("i dont wnat these").
+- **The escalation line (P11), an option, not a rule:** "i simply like the way he clearly introduces the problem and explains the escalation of the video very clear and simple"; "yes its good as long as its not a hard rule and it can vary based on topic and format and there is still rotation in the hooks". Where a video runs from a small case to a big one, the opening can introduce the problem in one plain sentence and say in one more where the video starts and where it ends up. It names the two ends, never what an item holds, so P10 stands; it stands in for or carries the count line, and rotates like any opening shape. No name intro ("the hook just the hook not the naming himself"). Applied to `plumbing-scripts/SKILL.md` (test 46).
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.
