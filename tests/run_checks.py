@@ -540,7 +540,7 @@ Most folks figure the panel is the first place to look. But a tripped GFCI two r
 
 So turn the breaker back on, press reset, and plug a lamp in. If it lights, you're done.
 
-Down in the comments, tell me how old your house is and which outlet gives you the most grief. I read every one.
+Down in the comments, tell me which breaker in your panel trips the most. I read every one.
 """)
 planted={"first-person test claim":"I tested all three connectors side by side.","first-person demonstration":"Now watch me pull the outlet out.",
          "pointing at the screen":"As you can see, the wire is loose.","job or customer story":"I once found a melted box in a basement.",

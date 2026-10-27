@@ -13,6 +13,7 @@ Script type: Talking Head
 Voice provider: to confirm with the operator (his old voiceovers used one voice throughout; name it here)
 Words per minute (for runtime and the length minimum): 195 (his 20 published voiceovers ran 169 to 209, typically about 195; `studies/home-diy/frederick-baseline-2026-10/views.md`)
 Contractions: yes (his 23 old scripts used about 30 per 1,000 words and 20 were voiced with no recorded misreads); confirm on the voice test clip
+Voice check (before Status: ready): read one test paragraph in the chosen voice with GFCI, AFCI, UL, "fourteen-gauge", "twelve-two", "a hundred and twenty volts", "fifteen hundred watts" and five contractions; write here which letter sets it says right (any it fumbles are written as words or with spaces) and whether contractions are fine; re-measure words per minute from that voice.
 
 THE PERSONA
 Name: Frederick Barnes
@@ -90,4 +91,7 @@ ban-regex: \bsubscribe\b[^.!?]{0,80}\b(?:keep (?:you|your (?:family|home|house))
 ban-regex: \bI(?:'m| am| was)(?: a)? (?:licensed|master|journeyman) electrician\b|\bmy (?:license|licence)\b | credential claim (claims policy)
 ban-regex: \bmy (?:own )?(?:house|home|kitchen|basement|garage|truck|van)\b | invented personal detail (none approved)
 once-regex: \b(?:as a|I'?m a) retired electrician\b | the background said at most once
+ban-regex: \bFrederi(?:c|k)\b|\bFred Barnes\b|(?-i:\bBarns\b) | near-miss name (the core near-miss check misses these)
+ban-regex: \bI (?:once )?(?:met|helped|visited|walked through|wired|rewired)\b(?=[^.!?]{0,60}\b(?:house|home|basement|kitchen|neighbou?r|customer|family|lady|man|woman)\b) | invented encounter (claims policy; none approved)
+ban-regex: \bnone of (?:this|these|tonight'?s \w+) started with me\b | his old disclaimer
 ```
