@@ -530,9 +530,9 @@ check("46. electrical inputs block: 4 well-formed inputs, research pack not used
 clean_el=textwrap.dedent("""\
 That outlet in the hallway that quit on you last night probably isn't broken at all.
 
-Does the bathroom outlet have two little buttons on it? Press RESET on that one first, because a GFCI, the outlet with the test and reset buttons, often protects the other outlets down the line.
+Does the bathroom outlet have two little buttons on it? Press RESET on that one first. That's a GFCI, a safety outlet that cuts the power in a blink, and it often covers other outlets in the house.
 
-By the end of this video you'll know why it tripped and when a dead outlet means it's time to call a licensed electrician.
+By the end of this video you'll be able to find the cause yourself, and you'll know exactly when it's a job for a licensed electrician instead.
 
 Step one. Turn the breaker off, then prove the outlet is dead with a tester you've checked on a working outlet first. I'd never skip that part.
 
