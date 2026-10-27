@@ -1,0 +1,24 @@
+SCAN: /home/user/script-system/tests/iterations/iter-06/test-run-04/script.txt
+  copy guard: 8+ words in a row shared with hvac-scripts/SKILL.md, hvac-scripts/references/excerpts.md, hvac-scripts/references/voice-samples.md, hvac-scripts/references/models/INDEX.md, hvac-scripts/references/models/R04-roger-wakefield-tank-vs-tankless.md, hvac-scripts/references/models/R05-silver-cymbal-spray-foam-duct-seal.md, hvac-scripts/references/models/R06-silver-cymbal-led-bulbs-enclosed-fixtures.md, hvac-scripts/references/models/R13-roger-wakefield-flush-water-heater.md, hvac-scripts/references/models/R15-silver-cymbal-windshield-inside-clean.md, hvac-scripts/references/models/R16-silver-cymbal-string-trimmer-hacks.md, hvac-scripts/references/models/R17-silver-cymbal-generator-interlock-step.md, hvac-scripts/references/models/R18-silver-cymbal-compression-valves.md, hvac-scripts/references/models/R20-arrow-pest-service-roach-bait.md, hvac-scripts/references/models/R21-nailed-it-drywall-repair-beginners.md, hvac-scripts/references/models/R22-the-diy-hvac-guy-before-heat-this-fall.md, hvac-scripts/references/models/R23-everyday-home-repairs-yearly-furnace-maintenance.md, hvac-scripts/references/models/R24-the-funny-carpenter-furnace-filter-mistakes.md, hvac-scripts/references/models/R25-hvac-guide-for-homeowners-winter-mistakes.md, hvac-scripts/references/models/R26-technology-connections-space-heater-safety.md, hvac-scripts/references/models/R27-everyday-home-repairs-furnace-wont-turn-on.md, hvac-scripts/references/models/R28-word-of-advice-tv-furnace-most-common-fix.md, hvac-scripts/references/models/R30-the-diy-hvac-guy-capacitor-contractors-living.md, hvac-scripts/references/models/R31-how-to-home-ac-capacitor-quoted-400.md, hvac-scripts/references/models/R32-word-of-advice-tv-furnace-igniter.md, hvac-scripts/references/models/R33-how-to-home-top-5-ac-companies.md, hvac-scripts/references/models/R34-the-diy-hvac-guy-3-things-contractors.md, hvac-scripts/references/models/R35-silver-cymbal-unclog-ac-drain.md, hvac-scripts/references/models/R36-deanin-it-yourself-ac-drain-tool.md, hvac-scripts/references/models/R38-atlas-ac-wrong-ac-brands.md, hvac-scripts/references/models/R39-technology-connections-heat-pumps.md, hvac-scripts/references/models/R40-the-diy-hvac-guy-car-as-generator.md, hvac-scripts/references/models/R41-the-diy-hvac-guy-furnace-plug-for-outages.md, hvac-scripts/references/models/R42-home-renovision-diy-rim-joist-heat-bill.md, hvac-scripts/references/models/R43-the-provident-prepper-warm-in-winter-outage.md, hvac-scripts/references/models/R44-silver-cymbal-ac-not-cooling.md, personas/roger-the-hvac-guy.md
+  persona facts: names ['Roger the HVAC Guy'], book [], tenure 45
+  spoken words: 2315 (about 15.4 minutes at 150 words a minute; minimum 12)
+
+FIX ON SIGHT (0)
+
+JUDGE WITH THE SHAPE TEST (8)
+  [staccato x2] "Cold vents." | "Quiet burners."
+  [talks about its own packaging] ... this is where it stings. That $12 part in the title is the flame sensor, and a new one runs...
+  [staccato x2] "Step one." | "Next, the gas."
+  [staccato x2] "Step two." | "Don't touch the igniter."
+  [staccato x2] "Step three." | "Take the sensor out."
+  [staccato x3] "Step four." | "Polish it, lightly." | "That's all."
+  [staccato x10] "Step five." | "Snug the screw." | "Burner door back on." | "The hum."
+  [staccato x2] "First, the rod itself." | "Second, your filter."
+
+"MOST ..." OPENERS: 0 (allowed: 1)
+REFRAME FLOOR (H21): 1 machine-caught (allowed: 1; the audit's count may never be lower)
+  ... gets there. But that lockout isn't your furnace dying. It's your furnace refusing to keep...
+FILLER PHRASES OVER THE LIMIT (H23): 0
+ECHO (H18): 0
+
+NUMBERS NOT FOUND IN THE FACT SOURCE (0)  (invented, or derived: confirm the math)
