@@ -19,8 +19,10 @@ Usage:
 It reports:
   - curly quotes in the script against the evidence's "mechanical n"
   - spoken words and minutes against the evidence's Length line
-  - the scanner's ITEMS and SENTENCES lines (item one's word, each item's words, items with no "I" line)
-  - every quoted line in the AUDIT EVIDENCE block that the script doesn't contain
+  - the scanner's ITEMS and SENTENCES lines (item one's word, each item's words, items with no "I" line), report only
+  - every quoted script line in the AUDIT EVIDENCE block (Promise map, Hook, Signposts, Voice, Originality,
+    I-verdicts, Turns, Title word, Emergency) that the script doesn't contain; quotes of a model's line or a
+    brief line (the Numbers line) are left alone
   - the reframe floor against the evidence's "reframes n"
 Exit 1 when any claim doesn't match the script. It reads; it never edits.
 """
@@ -36,7 +38,7 @@ scanner = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(scanner)
 
 CURLY = re.compile("[‘’“”]")
-QUOTED = re.compile("[\"“]([^\"“”]{12,}?)[\"”]")
+SCRIPT_QUOTING = {"Promise map", "Hook", "Signposts", "Voice", "Originality", "I-verdicts", "Turns", "Title word", "Emergency"}
 
 def norm(s):
     s = s.replace("’", "'").replace("‘", "'").lower()
@@ -94,9 +96,7 @@ def main():
 
     # items and sentences
     for line in scanner.item_report(script, facts, wpm):
-        print(line)
-        if "<< later than" in line:
-            problems.append("ITEM ONE late: " + line.strip())
+        print(line)       # report only: a late item one is a rule to judge (lists ~30 s, fix and how-to ~45 s), not a false claim
 
     # reframes
     reframes = scanner.scan(script, [], lifts, facts=facts)[3]
@@ -104,18 +104,29 @@ def main():
     if m and len(reframes) > int(m.group(1)):
         problems.append(f"REFRAMES CLAIMED {m.group(1)}, the scanner's floor is {len(reframes)}")
 
-    # quoted evidence lines that aren't in the script
+    # quoted evidence lines that aren't in the script: only the lines that quote the script (Numbers quotes the
+    # brief, Rules (F) and Verdict may quote anything); a quote right after a model ID ("E09 [0:00] "...") is the model's
     body = norm(script)
-    missing = []
-    for q in QUOTED.findall(ev):
-        if "[" in q:          # a pattern such as "Number [two to fifteen] is...", not a quoted line
+    missing, quoted = [], 0
+    for line in ev.splitlines():
+        label = line.split(":", 1)[0].strip()
+        if label not in SCRIPT_QUOTING:
             continue
-        parts = [p for p in re.split(r"\.\.\.|…", q) if len(norm(p).split()) >= 3]
-        for p in parts:
-            if norm(p) and norm(p) not in body:
-                missing.append(q.strip()); break
-    quoted = len(QUOTED.findall(ev))
-    print(f"  quoted lines in the evidence: {quoted} | not found in the script: {len(missing)}")
+        line = line.replace("\u201c", '"').replace("\u201d", '"')
+        marks = [i for i, c in enumerate(line) if c == '"']
+        for a_, b_ in zip(marks[0::2], marks[1::2]):     # quotes pair in order, short ones included
+            q = line[a_ + 1:b_]
+            if " " not in q.strip():
+                continue      # a label such as "I/me/my", not a quoted line
+            if "[" in q or re.search(r"\bE\d\d\b[^\"]{0,15}$", line[max(0, a_ - 20):a_]):
+                continue      # a pattern ("Number [two] is..."), or a model's line
+            parts = [p for p in re.split(r"\.\.\.|\u2026|\s/\s", q) if len(norm(p).split()) >= 3]
+            if not parts:
+                continue
+            quoted += 1
+            if any(norm(p) not in body for p in parts):
+                missing.append(q.strip())
+    print(f"  quoted script lines in the evidence: {quoted} | not found in the script: {len(missing)}")
     for q in missing:
         print(f"    NOT IN THE SCRIPT: \"{q[:100]}\"")
         problems.append(f"QUOTE NOT IN THE SCRIPT: \"{q[:60]}\"")
