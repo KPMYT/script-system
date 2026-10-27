@@ -132,4 +132,4 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Also, to match:** "Point then promise" reads "Nothing is promised in the opening, apart from the count line or the escalation line (operator, 2026-10-25 and 2026-10-27)"; a check (test 46) that the escalation line is in the pack; a HANDOFF section 3 entry.
 
-**Status:** open, waiting for the operator's yes. (Replaces the first draft of 2026-10-27, "the range opening", which also had a kit line, a transfer line and a myth flip; the operator narrowed it to the two moves.)
+**Status:** approved by the operator on 2026-10-27: "yes its good as long as its not a hard rule and it can vary based on topic and format and there is still rotation in the hooks". Applied as an option, not a rule, with the rotation stated in the text. (Replaces the first draft of 2026-10-27, "the range opening", which also had a kit line, a transfer line and a myth flip; the operator narrowed it to the two moves.)

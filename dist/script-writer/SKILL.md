@@ -5,7 +5,7 @@ description: Writes YouTube scripts for the operator's channels. Runs whenever s
 
 # Script writer (the core)
 
-**Version:** 2026-10-25 (library commit fa06b6c)
+**Version:** 2026-10-27 (library commit dedf3d3)
 
 When someone types **START**, open `core/workflow.md` (in this skill's folder) and follow it exactly, from section 1. Everything else is loaded from there.
 
