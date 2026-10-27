@@ -92,7 +92,7 @@ One persona profile per channel, written from `core/persona-profile-template.md`
 | `sawdust-sam.md` | Sawdust Sam's profile (built 2026-10-23, **pending** until his personal details are picked and a test run passes): woodworking for profit the old-world way (every video a heritage build), Talking Head, 174 words a minute, the Jon voice, Hank's CTA structure (two short CTAs naming the QR code and the top link) for *The Old Ways*, and scanner bans on invented trips, encounters and teachers. |
 | `books/sawdust-sam-book.md` | The text of Sam's book *The Old Ways* to printed page 80 (all Drive's extraction gives), with a chapter page map, the secrets by style (Japanese, Amish, Chinese and the rest) and a secret index; CTAs cite nothing past page 80. |
 | `roger-the-pipe-guy.md`, `mark-silverbridge.md`, `vintage-pipefitter.md` | The three plumbing profiles, approved 2026-10-21, ready since the plumbing pack entered the library: settings, voices, fixed tenures 45/40/45, the personality kept close to Notion, CTA rules (Roger and Mark: a short mid-video book ask and a one-line end reminder, naming the link and the QR code; Vintage: a one-line subscribe ask), and scanner blocks (Mark's also bans contractions). |
-| `roger-the-hvac-guy.md` | Roger the HVAC Guy's profile (2026-10-27, **pending** until a test passes): Roger the Pipe Guy's profile with only the trade changed (the same man and voice, 45 years), no book for now (a one-line subscribe ask), his filter check on the first of the month, and a ban on the other Roger channel's name. Roger the Pipe Guy's profile carries the matching ban. |
+| `roger-the-hvac-guy.md` | Roger the HVAC Guy's profile (2026-10-27; **ready** after two rounds of tests, `tests/iterations/iter-06/`): Roger the Pipe Guy's profile with only the trade changed (the same man and voice, 45 years), no book for now (a one-line subscribe ask), his filter check on the first of the month, and a ban on the other Roger channel's name. Roger the Pipe Guy's profile carries the matching ban. |
 | `books/roger-the-pipe-guy-book.md`, `books/mark-silverbridge-book.md` | Roger's "100 Old-House Fixes That Save You Thousands" (124 pages, 100 fixes) and Mark's "50 Easy Plumbing Fixes That Will Save You $10,000" (122 pages, 50 fixes), with printed page markers, chapter maps and fix indexes. |
 
 ## studies/
@@ -119,7 +119,7 @@ Drafts waiting for the operator's yes go here; nothing in it is part of the libr
 
 ## tests/iterations/
 
-One folder per round of changes (`refs-01/`, `iter-00/`, `iter-01/`, …), each with `CHANGES.md` (file | what changed | why) and `before/` copies of every file it modified. `iter-01/` is the first real script test (Hank, the lazy Susan): its inputs and output in `test-run/`, the findings and the operator's decisions in `REVIEW.md`.
+One folder per round of changes (`refs-01/`, `iter-00/`, `iter-01/`, …), each with `CHANGES.md` (file | what changed | why) and `before/` copies of every file it modified. `iter-01/` is the first real script test (Hank, the lazy Susan): its inputs and output in `test-run/`, the findings and the operator's decisions in `REVIEW.md`. `iter-06/` (TEST, 2026-10-27) is the first HVAC test: Roger the HVAC Guy, batch 1 #4 and #14, two rounds (runs 01-02, then 03-04 after the fixes), each with the chat, output, script, the main session's scanner run and a judge report; `CHANGES.md` holds the findings, the fixes and the questions for the operator; `judge-rubric.md` and `refs/` are the judge's.
 
 ## SESSION-HANDOVER.md
 

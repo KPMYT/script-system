@@ -39,3 +39,40 @@ The door-switch fact, the trap trigger, the pressure switch left out of "never b
 2. The profiles say the subscribe line's opening words go in the rotation log, but the log line has no field for them (plumbing too).
 3. Scanner: a reframe split across two sentences isn't caught; no limit on a repeated word like "figure" (4 times in run 02, as in plumbing run 03).
 4. The channel menu shows "8. Roger the HVAC Guy" with no 7: row 7 (electrical) is on the electrical branch, so the gap closes when the branches merge.
+
+---
+
+# Round 2 (runs 03 and 04, skills rebuilt at aa5f0b8 with the fixes above)
+
+Both runs: **fix, then pass**, each about six lines from upload (judge reports in `test-run-03/` and `test-run-04/`). The emotion fix worked:
+
+| Script | "you"/"your" family per 1,000 | "but" per 1,000 | questions per 1,000 | minutes |
+|---|---|---|---|---|
+| Plumbing run 03 (passed) | 39.2 | 6.9 | 2.3 | 20.2 |
+| HVAC run 01 → run 03 (#4) | 30.0 → 39.9 | 3.6 → 6.5 | 2.6 → 3.5 | 20.2 → 22.6 |
+| HVAC run 02 → run 04 (#14) | 27.0 → 40.6 | 4.1 → 7.3 | 2.6 → 2.2 | 17.8 → 15.4 |
+
+Fixed from round 1: the false and motive-leaning bridges (run 03), the title's feeling coming back ("mistake" nine times), scenes opening every item, the tester tried on a live outlet, the cool-down, "never bypass" covering the pressure switch, the night price, the door-switch fact. Scanner clean on both (0 fix-on-sight, 0 copied, 0 untraced numbers).
+
+The main session's check of the judge reports, confirmed against the scripts: run 04's opening is 177 words and run 03's 99 before "Number one"; run 04's replacement line is one 55-word sentence; run 04's invoice line ("The invoice will say something like flame sensor service") is in neither the brief nor the guide; both list runs (01 and 03) wrote "If they find the furnace is the cause", dropping the guide's "or another appliance"; the pack's own villain example joins its two facts with "so", and run 03 copied that shape with "since".
+
+## Library changes after round 2 (`hvac-scripts/SKILL.md`)
+
+1. The opening's time limits in words: about 110 spoken words before the first real tip, and "Number one" within about 75 in a list (in "The opening" and the handover checklist). Both rounds overran the seconds.
+2. A carbon monoxide or gas step may be said shorter, never narrower.
+3. A part the brief leaves to a tech is never set up as the viewer's job ("keep a spare igniter").
+4. Item closes vary: one frame on no more than about a third of the items (run 03 used one on nine of eleven).
+5. "nine-one-one", never "911" (spoken forms, and a scanner ban).
+6. Where a metal-armoured cable blocks the tester, a second, tool-free check (thermostat up, no hum or click, the board's light out).
+7. The persona device: one detail, at most twice (the profile and the pack read differently before).
+
+Writer slips left (the rules were there): the unsupported lines (the invoice line, "you can often spot it through the little window", "switch it off and back on ... it'll try again" with no limit, "Most of the furnace calls..."), the 55-word sentence, and the audit blocks still saying "Rules (F): clean" over a narrowed safety step.
+
+## For the operator (not changed)
+
+5. The villain rule's example line ("The trade is paid by the visit and the install, so a cheap check that ends the visits is nobody's business to mention") joins the two facts with "so", and the writer copied that shape with "since", one step from a motive. Reword it so the two facts stand as separate sentences? It's the plumbing pack's line too.
+6. Scanner (core, every channel): list sentences over about 35 words; catch an "it's not X, it's Y" split across two sentences; check the seven carbon monoxide steps are all there.
+
+## Status
+
+Roger the HVAC Guy is marked **ready** (as Sawdust Sam was on 2026-10-24: the profile and pack are complete, so the operator's own test scripts can run, and those tests decide any further changes). Round 2's remaining faults are writer slips of the kind every niche's tests have shown, and every library gap the judges named is fixed above.

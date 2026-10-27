@@ -118,7 +118,7 @@ Every opening, whatever the video type, does these jobs in about the first 45 se
 3. **The villain line,** as a price, the quote or a silence (above).
 4. **Honest scope or reassurance,** in one line: what it won't do, which systems it's for, or why it's safe ("This one's for the high-efficiency furnaces with the white plastic pipes." "Nothing here means opening the gas line."). This keeps the title's strongest word honest.
 5. **The count line, when the video has a count.** One sentence naming the whole list and what it does for the viewer: "I'm going to walk you through the nine things to check before the first hard freeze." Skip it when the opening has already said the count. It never says what any single item holds: no "Number one is... Number two is...". Never "today" in front of it.
-6. **The first real tip** by about 45 seconds; in a list, item one by about 30 seconds.
+6. **The first real tip** by about 45 seconds; in a list, item one by about 30 seconds. At about 150 words a minute that's about 110 spoken words, and in a list "Number one" within about 75. The first HVAC tests ran 177 and 187 words before the first section (`tests/iterations/iter-06/`).
 
 **The breakdown moment: an option, not a rule** (operator, 2026-10-27: "potentially not always"). The study's commonest viewer story is the moment it quits: the cold night, the heat wave, the quote, the company that can't come till Tuesday. The opening may start on it, in one or two plain sentences, then reach the point by about 15 to 30 seconds. Rotate it with the other opening shapes; never use it two scripts running.
 
@@ -157,7 +157,7 @@ The plumbing pack's rule, carried over whole with its examples (operator, 2026-1
    - **comfort, felt in the body:** warm floors, the back bedroom finally warm, a cool night's sleep
    - **the machine's sounds:** the click, the hum, the rattle, the silence when it should be running
 7. **Use disgust only where the topic has it.** HVAC has less of it than plumbing: the slime in a condensate line or drain pan, mould, a dust-caked blower wheel. Use it there, in proportion, never as a default.
-8. **End every item on a win.** A short line of relief, pride, comfort or the contrast; the item's one price can sit here ("That's a $5 part doing a $300 visit's job.").
+8. **End every item on a win.** A short line of relief, pride, comfort or the contrast; the item's one price can sit here ("That's a $5 part doing a $300 visit's job."). Vary the shape: one frame ("[a small effort], and [the good result]") closes no more than about a third of the items. HVAC test run 03 closed nine of eleven that way.
 9. **Reaffirm the title's feeling all the way through** (operator, 2026-10-21: "we must reaffirm throughout the emotions we are trying to trigger from the title and concept"). Come back to the title's idea and its key word, one way or another, every few items: for "11 Furnace Mistakes HVAC Companies Hope You Keep Making", the mistake and the visit nobody needed to make. HVAC test run 01 said "mistake" only in its first line. Not on every item, and never so often it turns robotic. Carry it in nouns and verbs ("while you sleep", "inside the cabinet"), not "-ly" adverbs (`humanizer.md` H12a).
 10. **The villain and the outrage come back** all the way through (see "The villain").
 11. **Let the narrator speak.** One short "I" opinion or verdict in most items ("I'd set it to auto and leave it there"), and once per video a line of insistence where it matters (the shape "I need you to hear me on this one"). HVAC test run 02 had a verdict in 4 of its 13 sections.
@@ -269,7 +269,7 @@ There's no fixed last line or sign-off after the comment ask. No recap, no tease
 - **Honest candor.** Say the limits plainly ("Cleaning it won't fix a sensor that's cracked." "Nothing in a furnace lasts forever."). These are the lines viewers call honest. Never an invented mishap.
 - **Warmth comes from reassurance, not humour.** "You're fine." "Nothing's broken." "There's no shame in calling a tech." No jokes (a portfolio-wide decision).
 - **Swearing: none.**
-- **A persona device only if the profile has one** (Roger the HVAC Guy: his filter check on the first of the month, with his coffee). At most twice per video, under about 40 words, to teach or warn, never as proof that something works. Its facts come from the profile and never change.
+- **A persona device only if the profile has one** (Roger the HVAC Guy: his filter check on the first of the month, with his coffee). One detail (the profile's "at most one"), said at most twice per video, under about 40 words, to teach or warn, never as proof that something works. Its facts come from the profile and never change.
 - **A phrase is voice once; in the same slot every video, it's a tic.** Each stock phrase at most once per video, and rotate what opens an item and what closes the video. (The list comes with "Banned in these scripts".)
 - **Written for the voice** (core `workflow.md` §4, with the HVAC forms):
   - ratings with a space and words: "MERV 13", "a 16 SEER two unit", "96 percent efficient"
@@ -277,6 +277,7 @@ There's no fixed last line or sign-off after the comment ask. No recap, no tease
   - units in words: "twenty-four volts", "fifteen amps", "fifteen hundred watts", "eighty thousand BTUs"
   - filter sizes in words: "a twenty by twenty-five by one filter"
   - ranges with "to": "$75 to $200", "seven to ten degrees"
+  - "nine-one-one", never the digits (a voice can read "911" as "nine eleven")
   - always "carbon monoxide", never CO; "AC" and "HVAC" are fine as letters; AFUE is said as "the efficiency rating" unless the letters are explained
   - no slashes between words: "heating and cooling", never "heating/cooling"
 
@@ -338,7 +339,7 @@ HVAC is where money framing holds up best (the 2026-10-22 findings; the faceless
 The facts and methods come from the brief, and **the brief always wins**. Where a job crosses from the homeowner's to a licensed tech's depends on the title and the brief (operator, 2026-10-27: "depends the title"). There's no separate fact bank: contradictions between one video and another are acceptable; unsafe advice never is.
 
 **Defaults, only where the brief is silent.** The study's viewers corrected these more than anything else (about 62 corrections, `studies/hvac/comparison/01-viewers.md` §4), and the hands-on videos that skipped them drew the most-liked comments:
-1. **Power off, and proved off.** Before any panel comes off: the furnace's power switch or the outdoor disconnect off, then checked with a non-contact tester (tried first on something you know is live, so you know it works); the gas valve off for any burner work, and the burners and metal let cool. Say it again wherever a later step opens the furnace again (a new part after a test run). Say how it comes back on, and the check after.
+1. **Power off, and proved off.** Before any panel comes off: the furnace's power switch or the outdoor disconnect off, then checked with a non-contact tester (tried first on something you know is live, so you know it works; where the cable is metal-armoured and the tester can't read through it, add a second check: the thermostat turned up, no hum, no click, and the control board's light out); the gas valve off for any burner work, and the burners and metal let cool. Say it again wherever a later step opens the furnace again (a new part after a test run). Say how it comes back on, and the check after.
 2. **Refrigerant is licensed work.** No charging, "topping up" or opening the refrigerant lines.
 3. **Never bypass a safety switch:** a limit switch, pressure switch, rollout switch or float switch is telling you something.
 4. **Capacitors hold a charge** after the power is off: a call for a tech unless the brief gives a safe, named procedure.
@@ -351,10 +352,11 @@ The facts and methods come from the brief, and **the brief always wins**. Where 
 11. **Air sealing near a natural-draft furnace or water heater** needs a combustion safety test.
 12. **The fireplace damper closes only when the fire is fully out and cold,** and never on gas logs.
 
-**A gas leak, whenever a script mentions one, gets every step** in the gas-leak row of `references/price-guide.md` section 9, whatever the brief leaves out, in the script's own words. **A carbon monoxide alarm, whenever a script mentions one going off, gets every step** in that section's carbon monoxide row the same way. Carbon monoxide is a safety line, never the hook (safety fear is a weak lead: niche-research `CONCLUSIONS.md` §2).
+**A gas leak, whenever a script mentions one, gets every step** in the gas-leak row of `references/price-guide.md` section 9, whatever the brief leaves out, in the script's own words. **A carbon monoxide alarm, whenever a script mentions one going off, gets every step** in that section's carbon monoxide row the same way. A step may be said shorter, never narrower: "the furnace or another appliance" stays both (HVAC test runs 01 and 03 both dropped "another appliance"). Carbon monoxide is a safety line, never the hook (safety fear is a weak lead: niche-research `CONCLUSIONS.md` §2).
 
 **How safety sounds:**
 - **One short line inside the step where the risk is,** with the reason, in proportion. Vague danger reads as a scare tactic.
+- **A part the brief leaves to a tech stays the tech's.** Never set it up as the viewer's job by the back door ("I'd keep a spare igniter on the shelf").
 - **The call-a-tech line names its trigger:** the shape "If it trips again the minute you reset it, that's a call." Never the vague "if it's outside your comfort zone", and never a long list of stop signs.
 
 ## Banned in these scripts
@@ -401,6 +403,7 @@ ban-regex: \bif (?:you'?re|you are) finding this helpful\b|\bif this is helping\
 ban-regex: \blet'?s (?:continue|keep going)\b | template stock line
 ban: common problems you might run into | template stock line
 ban: stay tuned | tease
+ban-regex: \b911\b | say "nine-one-one": a voice can read the digits as "nine eleven"
 ban: horror movie | hype that got mocked
 ban-regex: \bbrutal tests?\b | hype that got mocked
 ban: keep your cool | the faceless leader's catchphrase (Ray Dutton)
@@ -435,6 +438,7 @@ once: quietly
 ## Before handing over
 
 Check that:
+- the opening is about 110 spoken words at most before the first real tip, and in a list "Number one" comes within about 75
 - the point comes in the first sentence, with the fix or product named by about 15 seconds, and the first line hits the viewer's pain in strong, plain words
 - every item puts the viewer in the scene, aims at one real pain, has at least one "but" turn and ends on a win; bridges turn between items; a question about every two items; the title's feeling comes back every few items; the villain comes back all the way through, with disgust at the big prices as an opinion (never a company, a motive or the honest tech); the last item before the end CTA closes on relief
 - in a list, every item follows the item shape at about 150-250 words (a bit longer is fine, fluff never is), and no more than two items in a row go without a forward line or a price line

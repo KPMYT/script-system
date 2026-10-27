@@ -1,6 +1,6 @@
 # Persona profile: Roger the HVAC Guy
 
-Written 2026-10-27 from `personas/roger-the-pipe-guy.md`, at the operator's request: "adapt the persona profile of roger just so its the same but only diff is it appleis to hvac now". Roger the HVAC Guy is the same man as Roger the Pipe Guy, with the same voice ("roger is same voie same man", 2026-10-27). Written from `core/persona-profile-template.md`. **Status: pending** until a test script passes.
+Written 2026-10-27 from `personas/roger-the-pipe-guy.md`, at the operator's request: "adapt the persona profile of roger just so its the same but only diff is it appleis to hvac now". Roger the HVAC Guy is the same man as Roger the Pipe Guy, with the same voice ("roger is same voie same man", 2026-10-27). Written from `core/persona-profile-template.md`. **Status: ready** (2026-10-27), after two rounds of HVAC test scripts (`tests/iterations/iter-06/`): the operator's own test scripts now decide any further changes.
 
 **Changed from Roger the Pipe Guy's profile, by decision (`HANDOFF.md` §3, 2026-10-27):**
 - the trade is HVAC, and the niche pack is `hvac-scripts`
@@ -14,7 +14,7 @@ Everything else is the Pipe Guy's profile as it stands.
 ```
 PERSONA PROFILE
 Channel: Roger the HVAC Guy
-Status: pending
+Status: ready
 Niche pack: hvac-scripts
 
 THE BASICS
