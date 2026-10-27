@@ -710,10 +710,20 @@ lv=run_scan("Check the outlet where the hair dryer lives.\n")
 emo=ek.split("## Emotion, all the way through")[1].split("## Point then promise")[0]
 check("58. run 01 fixes: prove-dead order, look before you shop, no ordinal sub-lists, 12% short sentences, 'I' lines with the box open; the example guard catches run 01's echoes; 'lives' judged",
       "**The order at a device, said in this order**" in ek and "**In any swap, look before you shop**" in ek and "**No \"first, second, third\" inside a numbered step or item**" in ek
-      and "at least 12% across the script" in ek and "never mid-step (Safety" in ek and "example-guard: 5" in ek
+      and "at least 12% across the script" in ek and "never while the box is open (Safety" in ek and "example-guard: 5" in ek
       and "\"if you only check one\"" in old_run and "\"now that plug clicks in\"" in old_run and "EXAMPLE LINE REUSED" not in new_run
       and "no sentence of 6 words or fewer: 2, 5" in new_run and not any(x in ek for x in ("plug clicks in","plug sag","plug droop","If you only check one thing","grip like new","wiggle the plug")) and "'lives' can be said two ways" in lv[1],
       old_run[-600:]+new_run[-300:]+lv[1][-200:])
+
+# 59. run 02 fixes N1-N5 (operator 2026-10-27: "answer the questions yourself"): the plug-in tester lit and dark in each half; the two-slot
+#     outlet read with power on, then off; the two-probe tester's own live check; any later re-check runs the same order; a two-prong
+#     outlet's check after power-back-on; the open-box "I" line after the step's closing test; a fix rung opens on a sense or a scene line
+ek=open(ELR).read()
+check("59. run 02 fixes: each half lit then dark; two-slot read live then dead; two-probe tester checked live; re-checks repeat the order; two-prong check; rule 9 wording; rungs open on a sense",
+      "seen lit in each half before the breaker goes off, then dark in each half after" in ek and "read with the power on first (it shows power)" in ek
+      and "The two-probe tester gets its own live check too" in ek and "**Any later re-check**" in ek
+      and "If the new device is a two-prong outlet, the check is the two-probe tester across the slots" in ek
+      and "after the test that ends the step (the power back on and the tester's lights)" in ek and "as an instruction that points at a sense" in ek, "")
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
