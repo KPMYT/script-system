@@ -50,9 +50,9 @@ None spoken beyond the sign-off "cheers till next time" [18:17]. Discord, store 
 - [18:05] "it's the weakest link in your home"
 
 ## Comments
-38 unique of 3.5K (20 top, 20 newest, 2 in both).
+44 unique of 3.5K (26 top, 20 newest, 2 in both; top from 3 pages).
 - Spray-foam downsides (mortgages, rot, termites, insurance): ~8 ("a lot of mortgage companies will refuse to mortgage a house with spray foam insulation", 1.6K).
-- Safety corrections: ~6 ("Isocyanates and their catalysts are toxic, carcinogenic", 2K; "You’ll need to pick up a full face respirator that has replaceable cartridges.", 907; "Love those safety contact lenses for using that spray foam", 13).
+- Safety corrections: ~8 ("this guy is insane spray foaming with no PPE.", 0; "Isocyanates and their catalysts are toxic, carcinogenic", 2K; "You’ll need to pick up a full face respirator that has replaceable cartridges.", 907; "Love those safety contact lenses for using that spray foam", 13).
 - Alternatives (Rockwool, cellulose, ICF): ~4 ("Rockwool is an excellent compromise between cheap fiberglass insulation and expensive spray foam.", 411). Questions: ~8, mostly newest. Praise: ~5.
-- Saved or avoided: "My total heating gas bill is now ~$700 per year on a 3000sqft house" (62); "I'm looking at the humidity gauge, it's sitting at 50%. Was it worth all the work? You betcha." (508).
+- Saved or avoided: "My utility bills are now half of what there were." (99); "My total heating gas bill is now ~$700 per year on a 3000sqft house" (62); "I'm looking at the humidity gauge, it's sitting at 50%. Was it worth all the work? You betcha." (508).
 - "Sounds like AI": 0.

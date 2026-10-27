@@ -48,8 +48,8 @@ Fixed formula per product: price, brand, claims, country, layers or pleats, read
 - [12:37] "going with a filter with a lower MERV rating and more filter pleats is probably going to deliver a lot better air flow."
 
 ## Comments
-46 unique of 10K (28 top, 20 newest, 2 in both).
-- Trust in the tester: ~16 ("Dude, I can't imagine the terror that the marketing staff must feel when they find out that you analyzed their products!", 2.6K; "I’ve waited my entire adult homeowner life for this.", 2.8K).
+48 unique of 10K (30 top, 20 newest, 2 in both; top from 3 pages).
+- Trust in the tester: ~18 ("Honestly this channel is incredible.", 233; "Dude, I can't imagine the terror that the marketing staff must feel when they find out that you analyzed their products!", 2.6K; "I’ve waited my entire adult homeowner life for this.", 2.8K).
 - Change-interval surprise: 2 ("Everyone in the comments: oh shit I'm supposed to change that", 1.1K; "Every 30 days? I thought it was every 3 months!", 154).
 - Which-one-to-buy questions: ~4 ("I was a bit confused with the results...so which filter do you recommend we buy??", 66). Asks for a chart or an update: ~4 ("PLEASE add a grid chart with all of the data", 434). New test requests: ~7.
 - Trade voices: Best Air rep (218), HVAC pro (20), "Your home A/C IS NOT DESIGNED TO PURIFY THE AIR INSIDE YOUR HOUSE." (0). One affiliate jab ("You can hardly tell this guy makes money off Amazon referrals.", 0).

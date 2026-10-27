@@ -1,0 +1,687 @@
+[0:00] you've probably heard from all sorts of
+[0:02] people that electric space heaters are
+[0:04] dangerous things which are likely to
+[0:06] cause a fire and it is true they can be
+[0:10] dangerous and they can start
+[0:12] fires however likely not in the ways you
+[0:16] imagine they can even this cheap plastic
+[0:19] heater which cost less than 20 bucks has
+[0:22] multiple safety devices which make many
+[0:24] of the dangerous scenarios you might
+[0:26] imagine nearly impossible and in this
+[0:30] video I'll show you the clever bit of
+[0:32] engineering and logic that went into
+[0:34] making these things safe despite their
+[0:36] Bargain Basement
+[0:38] cost now before I continue I need you to
+[0:41] know that I'm going to be demonstrating
+[0:43] some very stupid things which nobody
+[0:46] should ever repeat the written warnings
+[0:49] on a space heater or really any product
+[0:51] should never be ignored they were
+[0:53] written in
+[0:55] blood however I don't think we do
+[0:57] ourselves any favors when all we know is
+[1:01] oh this is dangerous but we don't
+[1:03] understand why and how it's dangerous
+[1:07] that's a kind of ignorance which leads
+[1:08] to unfounded fears and
+[1:10] paranoia I quite happily use these
+[1:13] Bargain Basement heaters whenever I need
+[1:15] a source of supplemental heat and not
+[1:17] simply because I'm a Midwestern chap
+[1:19] skate and that's the one I would buy
+[1:20] anyway but because I understand the ways
+[1:24] these might fail and the protections
+[1:26] they have against those
+[1:27] failures I love nothing better than than
+[1:30] when more people understand more things
+[1:31] more completely so let's take a peek
+[1:34] inside there really isn't a whole lot
+[1:36] going on in these things we have two
+[1:38] nichrome wire heating elements sitting
+[1:40] behind a fan driven by an electric
+[1:43] motor and well that's it AC power from
+[1:48] the wall gets sent through those wire
+[1:50] elements and they start getting really
+[1:51] hot and the spinning fan forces air
+[1:54] movement through those hot wires to
+[1:56] transfer their heat output into the air
+[1:58] and then spread it around the the room
+[2:01] and thus explains the entirety of its
+[2:04] basic principle of operation the
+[2:06] controls and how power is routed through
+[2:09] the device are where things get more
+[2:11] interesting if we follow the power cord
+[2:14] we'll see that incoming power is first
+[2:16] sent through this tip over switch that
+[2:19] switch is actuated by a little plastic
+[2:22] foot sticking out of the heater's bottom
+[2:24] and it must be depressed by the weight
+[2:26] of the heater in order for the switch to
+[2:28] close and the heater to function that's
+[2:31] the first safety device and it ensures
+[2:33] the heater will shut itself off if for
+[2:36] some reason it gets knocked
+[2:38] over next to that switch are a few steel
+[2:41] plates which simply serve to make the
+[2:43] heater more bottom heavy and less likely
+[2:45] to be tipped over in the first place
+[2:48] this is a pretty recent addition to
+[2:49] these cheap heaters and it's a very
+[2:51] welcome one it makes them far more
+[2:53] stable after making its way through the
+[2:56] tip over switch power then finds itself
+[2:59] at the thermostat
+[3:00] even these cheap heaters have actual
+[3:03] thermostats which react to the room
+[3:05] temperature and will shut the heater off
+[3:07] once it's warm enough allowing it to
+[3:08] maintain a consistent temperature by
+[3:11] itself these are basic things just a
+[3:14] biim metallic switch that the control
+[3:15] knob applies varying pressure to in
+[3:17] order to affect its trip point so
+[3:19] they're not accurate enough for the
+[3:21] manufacturer to print actual temperature
+[3:24] values on the control but they are more
+[3:26] accurate than you may imagine if you run
+[3:29] the heater on its maximum setting until
+[3:31] the room is as warm as you want it to be
+[3:33] and then you slowly turn this back down
+[3:36] until it clicks
+[3:38] off it's going to maintain that room
+[3:41] temperature fairly well you might even
+[3:43] put a little Mark with a Sharpie on
+[3:45] where it's pointing that way you can put
+[3:47] it there again who needs fancy digital
+[3:50] thermostats when you've got a brain at
+[3:51] your
+[3:52] disposal once it's through the
+[3:54] thermostat power then finds itself at
+[3:56] the main selector switch this thing is a
+[4:00] little complicated because the heater
+[4:01] has two heating elements of different
+[4:04] sizes to allow for three levels of heat
+[4:07] output the 600 watt or the 900 watt
+[4:10] element can be run individually as a low
+[4:13] and medium setting called Eco here for
+[4:16] annoying reasons or they can be run
+[4:19] together on the high setting to produce
+[4:21] 1,500 watts of total heat output the
+[4:25] switch selects between powering one the
+[4:28] other both or neither on its fan setting
+[4:32] a setting which turns this into either a
+[4:34] pretty crappy desk fan or a decent white
+[4:37] noise machine depending on how you want
+[4:39] to think of it anyway power gets sent
+[4:42] out of this switch through these wires
+[4:44] which land on this terminal block on the
+[4:47] heating element assembly the heating
+[4:49] elements and the fan receive their power
+[4:51] from here these two terminals are for
+[4:55] the heating elements themselves as you
+[4:57] can see each element is simply a y which
+[5:00] is wound around a circular slotted
+[5:02] temperature resistance support structure
+[5:04] a whole bunch of times until it's back
+[5:06] at the start of the circle and on the
+[5:08] other side of the terminal block and on
+[5:11] that other side you'll notice there's a
+[5:13] little something extra going on we still
+[5:16] haven't completed a circuit here
+[5:18] everything we've looked at so far has
+[5:21] come from the incoming hot wire and we
+[5:23] have to connect it to the outgoing
+[5:25] neutral wire for the heater to actually
+[5:28] function and this terminal here is where
+[5:31] the neutral wire of the power cord
+[5:33] attaches to but the heating elements as
+[5:36] well as the fan and the neon power
+[5:38] indicator don't connect directly to
+[5:41] neutral first they go through this
+[5:44] switch this is a high temperature limit
+[5:47] switch it's an unassuming little fella
+[5:50] but it's the reason why this plastic
+[5:52] heater can be made cheaply yet also
+[5:56] safely this switch is normally closed
+[5:59] and so it will allow the heating
+[6:00] elements in fan to become powered and
+[6:03] under ordinary circumstances it will
+[6:05] stay closed forever but if anything
+[6:08] should happen which causes that switch
+[6:11] to get hotter than 75° C that's 167 fhe
+[6:16] a bimetallic snap disc will force the
+[6:18] switch to open breaking the circuit and
+[6:21] shutting off the heater say for example
+[6:24] the fan motor had failed the fan in
+[6:27] these things is critical not only to
+[6:30] help move the rooms air around to
+[6:32] distribute the heat they produce more
+[6:33] evenly but also simply to get that heat
+[6:37] out of its plastic body the 1500 watts
+[6:40] coming from this is a lot of heat and
+[6:43] even with the open front and back
+[6:45] without that fan spinning this thing
+[6:47] will quickly start melting and perhaps
+[6:50] catch fire but this limit switch will
+[6:54] intervene if the fan stops turning for
+[6:56] any reason to show you this I completely
+[7:00] removed the fan from this heater it's
+[7:02] gone so when I switched it on it started
+[7:05] drawing full power yet couldn't move any
+[7:07] air through itself that could be a
+[7:10] disaster but not even 15 seconds later
+[7:13] this switch opened and the heater shut
+[7:15] off here's a closeup and for the record
+[7:18] I cut the fan motor out of the circuit
+[7:21] here so that arcing is entirely down to
+[7:23] the switch breaking the current from the
+[7:25] heating elements the heater was pretty
+[7:28] quick to shut itself down wasn't isn't
+[7:29] it that's due to its design look at
+[7:32] where the terminal block is it's at
+[7:35] roughly the 10:00 position of the
+[7:37] circular heating element assembly as
+[7:39] installed in the fan and that places the
+[7:41] limit switch directly above the heating
+[7:44] elements with the fan functioning enough
+[7:48] air is pulled through to keep the limit
+[7:50] switch cool but if the fan stops or just
+[7:53] isn't working the air next to the
+[7:55] heating elements will quickly heat up
+[7:57] and Rise right into the limit switch
+[8:00] that's why it reacted so quickly but 75°
+[8:04] C is cool enough for that switch to open
+[8:07] in lots of other scenarios too for
+[8:10] instance say the heater becomes blocked
+[8:13] by something like this random gridle
+[8:15] insert I have lying around while the fan
+[8:18] is still functioning normally it's not
+[8:21] able to get that much air out of the
+[8:23] heater with the griddle in front of it
+[8:25] and that means the temperature inside is
+[8:27] climbing some air is still getting
+[8:30] around the griddle so the temperature
+[8:31] doesn't climb that rapidly but about 90
+[8:34] seconds after placing it there the limit
+[8:36] switch open and shut off the heater good
+[8:39] job want to see something even more
+[8:42] dangerous every heater out there has a
+[8:45] very explicit do not cover printed on it
+[8:48] somewhere but what if oh a very
+[8:51] flammable beach towel were to be thrown
+[8:53] on top of it again don't ever do this I
+[8:58] had a fire EXP extinguisher at the ready
+[9:00] just in case but in just under a minute
+[9:03] the air inside the heater had exceeded
+[9:05] 75° C so that limit switch opened and
+[9:08] the heater shut itself down the towel
+[9:11] wasn't even that hot when I took it off
+[9:13] but perhaps you notice something a
+[9:15] little strange in the clips I've just
+[9:17] shown you when the heater shut itself
+[9:20] down its power consumption didn't drop
+[9:23] to zero it was drawing about one watt
+[9:27] despite that limit switch being open un
+[9:29] thus the circuit being broken what's
+[9:32] consuming that power well and here's the
+[9:35] twist the limit switch itself take a
+[9:39] look in the thermal imaging camera that
+[9:41] limit switch is still hot despite the
+[9:44] rest of the heater having cooled off and
+[9:47] that's because this limit switch
+[9:49] actually has a small PTC heater embedded
+[9:52] within itself and connected across the
+[9:55] switch from the incoming hot to a second
+[9:57] neutral connection down below below the
+[9:59] main switch you don't need to know what
+[10:02] PTC means it's a kind of self-regulating
+[10:04] heating element and they can be made
+[10:06] very small the upshot is with the limit
+[10:09] switch closed that PTC heater is
+[10:12] bypassed and it doesn't do anything but
+[10:15] if that switch on top opens suddenly
+[10:18] there's 120 volts across the heater so
+[10:21] it starts functioning and it gets warm
+[10:25] the purpose of this is to keep the
+[10:27] heater disabled indefinitely
+[10:30] the moment that switch opens because of
+[10:32] that PTC heater kicking in the limit
+[10:35] switch will remain above its trip
+[10:37] temperature so it cannot reset therefore
+[10:41] it prevents the heater from working
+[10:42] again so long as it has power going to
+[10:44] it and that means a single instance of
+[10:47] overheating will effectively lock out
+[10:50] the heater from functioning until
+[10:53] someone tends to it resetting that limit
+[10:56] switch is as easy as unplugging the
+[10:58] heater for a while shutting off that PTC
+[11:01] heater and allowing it to cool and close
+[11:03] again and it has written instructions on
+[11:05] the heater to explain this
+[11:07] procedure but until you actually do that
+[11:11] the heater will remain locked out and it
+[11:14] cannot turn itself back on this is
+[11:18] fascinating and I only discovered this
+[11:20] behavior when I filmed this test I fully
+[11:24] expected the heater to reset on its own
+[11:26] start functioning and then just trip
+[11:28] again with which is a reasonable
+[11:30] approach to safety but a lockout is even
+[11:34] safer whatever might have caused one of
+[11:36] these things to overheat say someone
+[11:38] tossing and turning in bed and throwing
+[11:40] a blanket on top of it in their sleep
+[11:42] still presents a potential danger if the
+[11:45] heater can start back up on its own so
+[11:48] by ensuring it can't until the user
+[11:50] takes positive action to reset that
+[11:52] lockout it lowers the risk of fire even
+[11:56] further this is such an elegant solution
+[11:59] made using ridiculously simple
+[12:01] components and that's the sort of
+[12:03] problem solving and Ingenuity that
+[12:05] really floats my bread butters my fancy
+[12:07] tickles my boat now this lockout
+[12:10] mechanism isn't quite perfect for one if
+[12:13] while it's locked out there was a power
+[12:15] Interruption for about a minute or
+[12:17] longer then the switch will reset and
+[12:20] the heater will start working again when
+[12:22] the power comes back but also while the
+[12:25] reset instructions imply that you need
+[12:27] to unplug the heater to reset it you
+[12:30] actually don't and that presents one
+[12:32] scenario where it could potentially
+[12:35] reset on its own even with a steady
+[12:37] source of power keeping the lockout
+[12:39] functional if while it was in the locked
+[12:42] out condition the room temperature were
+[12:44] to rise enough to trip the heater's
+[12:46] thermostatic switch the opening of that
+[12:49] switch will remove power from the PTC
+[12:51] heater in the limit switch and before
+[12:54] long it will cool down and close again
+[12:57] with the thermostat tripped it's not
+[12:59] going to start heating again but if the
+[13:01] room temperature then cools enough to
+[13:04] close the thermostatic switch the heater
+[13:06] will resume
+[13:07] functioning but in case it's not
+[13:10] apparent that's not a very likely
+[13:12] scenario speaking of the thermostat
+[13:15] though I've uncovered another surprise
+[13:18] back when I started writing this script
+[13:20] I said there were multiple safety
+[13:22] devices and there R2 the limit switch
+[13:25] and the tip over switch and I was going
+[13:28] to include ude the thermostat as a third
+[13:31] line of defense against dangerous
+[13:33] situations see I figured at its highest
+[13:36] setting it might maintain a room
+[13:38] temperature of I don't know 90° 32 C so
+[13:43] even if the limit switch somehow didn't
+[13:46] trip in an overheating situation the
+[13:48] thermostat should shut it off eventually
+[13:51] and at least limit its heat output but I
+[13:54] wanted to test that so I stuck the
+[13:56] heater in a closed highly flammable
+[13:58] cardboard box set it to Max and poked a
+[14:01] thermometer in the side again don't do
+[14:04] that uh it turns out it got real hot
+[14:07] real fast which tripped the limit switch
+[14:10] which I mean good but that doesn't
+[14:13] answer my question thinking that was
+[14:15] just a case of things getting too hot
+[14:17] too quickly I tried it again but with
+[14:20] the heater set to its low heat setting
+[14:22] and the thermostat still set to the
+[14:24] Max and the limit switch still tripped
+[14:27] on me so I put a different heat
+[14:30] producing device with its own ability to
+[14:32] regulate the temperature inside the Box
+[14:34] along with the space heater and kept the
+[14:37] inside of the Box near
+[14:39] 150° the thermostat still functions as
+[14:42] normal when the heater is in fan mode so
+[14:44] I was watching the kilowatt to see when
+[14:46] the thermostat would switch it off but
+[14:49] it just didn't after more than 10
+[14:53] minutes of being in a 150° hot box
+[14:56] that's 65 C it was still happily running
+[15:00] and when I checked to see just how much
+[15:02] I'd have to move the thermostat dial
+[15:04] back from Max to make it shut
+[15:06] off it was a lot farther than I would
+[15:09] have expected I knew these thermostats
+[15:11] aren't calibrated very well but that's
+[15:14] ridiculous so count the thermostat out
+[15:16] as a safety device if it's set to its
+[15:19] highest setting it's just never going to
+[15:21] intervene that may very well be unique
+[15:24] to this model of heater and the limit
+[15:27] switch in the heating element assembly
+[15:28] is much more important anyway but yeah
+[15:31] so now let's Circle back to the start
+[15:34] where I said space heaters are dangerous
+[15:36] and can cause fires I hope by now you
+[15:40] can see that the design of the heater
+[15:42] makes it extremely unlikely that the
+[15:44] thing itself will catch fire but that is
+[15:47] absolutely not the only way things can
+[15:49] go wrong the simplest and most
+[15:52] straightforward fire hazard to explain
+[15:55] is uh flammable items near a hot thing
+[16:00] the warnings about keeping flammable
+[16:02] stuff at least 3 feet away from the
+[16:03] heater are all about minimizing that
+[16:05] risk and by the way 3 feet is a yard
+[16:09] which fun fact is pretty close to a
+[16:11] meter keep that in your back pocket
+[16:14] however that risk is situational and
+[16:17] Depends a lot on the kind of space
+[16:19] heater you're using IF potentially
+[16:22] setting fire to objects in the room is
+[16:24] your concern you might be surprised but
+[16:27] these cheap heaters are actually among
+[16:29] the safest options the device itself
+[16:32] doesn't get very hot at all because the
+[16:34] fan does a very good job moving air
+[16:37] through it and that also means the air
+[16:39] that's leaving isn't actually all that
+[16:42] hot in a room temperature environment
+[16:44] the highest temperature reading I
+[16:46] observed with a thermometer right in
+[16:48] front of this was 155° not quite 70 c so
+[16:53] unless something highly flammable
+[16:55] manages to get through the grills and
+[16:57] actually touch the heating
+[16:59] elements this isn't likely to set fire
+[17:01] to
+[17:02] anything that doesn't mean you should
+[17:04] tempt fate but it should hopefully put
+[17:07] your mind at ease however other kinds of
+[17:10] heaters have much hotter surfaces
+[17:12] particularly those with heating elements
+[17:14] that glow so again that risk is very
+[17:17] situational but it's easy to understand
+[17:20] and to mitigate the larger reason space
+[17:23] heaters are known to be a fire hazard
+[17:25] actually has nothing to do with the
+[17:27] heaters themselves and everything to do
+[17:30] with your home's electrical wiring most
+[17:32] of these things which are on the market
+[17:34] regardless of type will put out 1500
+[17:37] watts of heat and that requires 12 amps
+[17:40] of current at 120 volts that is the
+[17:43] maximum allowed to be drawn continuously
+[17:46] from a typical 15a circuit and that
+[17:49] means plugging in a space heater becomes
+[17:51] an instant stress test for whatever
+[17:54] circuit it's on and that can reveal
+[17:57] electrical issues you didn't know about
+[17:59] and potentially with awful
+[18:01] consequences for instance if there's a
+[18:04] very slightly loose wire nut in a
+[18:06] junction box somewhere in your walls or
+[18:09] maybe there's a connection Point
+[18:10] somewhere that's got a little corrosion
+[18:12] on it that's usually not a problem while
+[18:16] it might introduce a little bit of
+[18:18] electrical resistance at that point in
+[18:19] the circuit if all you're using that
+[18:21] circuit for is charging a laptop or a
+[18:24] phone not much current will go through
+[18:26] that connection so the issue won't ever
+[18:29] present
+[18:30] itself but if you plug a space heater in
+[18:33] that can quickly change that marginal
+[18:36] connection point will start heating up
+[18:39] because of the large current the heater
+[18:40] is drawing through the circuit and if it
+[18:43] heats up too much that can start a fire
+[18:47] this is made even worse by the fact that
+[18:49] technically a space heater should be the
+[18:51] only thing on a 15 amp circuit if it's
+[18:54] going to be drawing 12 amps but in real
+[18:57] life it's to be sharing that circuit
+[18:59] with some other stuff perhaps a TV and a
+[19:02] sound system in the living room or a
+[19:04] desktop computer in a
+[19:05] bedroom that means when the heater's
+[19:08] running at its full power you're really
+[19:10] pushing that circuit and so if there are
+[19:13] any problems with the wiring they're
+[19:15] more likely to become an issue but I
+[19:17] don't wish to fear Monger that scenario
+[19:20] is realistically quite rare the wiring
+[19:23] that's in your walls mostly doesn't get
+[19:25] touched unless you're doing remodeling
+[19:27] or something so so spontaneous
+[19:30] development of issues while that can
+[19:32] happen is quite rare however the
+[19:36] receptacles that you plug stuff into
+[19:39] including a space heater those things
+[19:42] get touched all the time and each time a
+[19:44] plug is inserted and then removed from a
+[19:47] receptacle a teeny tiny bit of wear
+[19:50] occurs the springiness of the contacts
+[19:53] inside there can weaken and if the
+[19:55] outlet is really worn it might barely be
+[19:58] able to hold on to a plug receptacles
+[20:01] like that are primed to become a major
+[20:04] issue when you plug a 12 amp load into
+[20:06] them and let it rip and they are a major
+[20:09] reason electrical fires start when
+[20:11] people use space heaters a poor
+[20:13] connection between the plug and
+[20:14] receptacle can introduce enough
+[20:16] electrical resistance to make the plug
+[20:18] extremely hot to the point of melting
+[20:21] wires and burning
+[20:23] insulation if you have loose receptacles
+[20:25] in your home they really should be
+[20:27] replaced which by the way is quite easy
+[20:29] to do but you're going to have to look
+[20:31] for your own information and guidance
+[20:33] there but then even with a perfectly
+[20:36] cromulent electrical system with
+[20:38] everything in hunky dory tiptop shape
+[20:41] there's the problem of extension cords
+[20:43] and power strips although it is
+[20:46] sometimes inconvenient a space heater
+[20:48] should always be plugged directly into a
+[20:51] wall outlet no Splitters no power Taps
+[20:54] directly into a wall outlet extension
+[20:57] cords power power strips and all those
+[20:59] adapters and whatnot are not built to
+[21:01] the same standards that actual
+[21:03] receptacles are so although those
+[21:05] products May technically be rated to
+[21:07] pass more current than a space heater
+[21:09] needs their often poor construction
+[21:12] means each individual connection might
+[21:14] not be so great and it introduces an
+[21:17] element of risk which you might as well
+[21:18] just not introduce in fact the voltage
+[21:21] drop introduced by the extric
+[21:22] connections between the space heater and
+[21:24] the wall outlet on the other end of that
+[21:26] power tap is part of the reason that the
+[21:28] he were only drawing 12 to 1300 watts in
+[21:31] my
+[21:32] testing plenty of power strips have
+[21:34] ended up very melted because someone
+[21:37] plugged a space heater into them so just
+[21:40] don't I hope you can see though that the
+[21:42] space heater itself is not scary even
+[21:46] these really cheap ones are designed and
+[21:48] built to be extremely safe the danger in
+[21:52] using them is actually just because most
+[21:55] people don't have a very thorough
+[21:57] understanding of electrical safy
+[21:59] most of the scenarios where a space
+[22:01] heater can become dangerous are quite
+[22:03] easy to spot long before that occurs but
+[22:07] you need to know what a poor electrical
+[22:09] connection is and how to detect it if
+[22:12] you plug a space heater into an outlet
+[22:15] which is holding it firmly you're
+[22:17] probably fine but if that outlet can
+[22:20] barely hold on to the plug find a
+[22:22] different one and if you want to be
+[22:24] extra safe feel how warm the plug is
+[22:28] getting after the heater's been running
+[22:29] for 10 minutes or so it's completely
+[22:32] normal for it to be a little warm to the
+[22:33] touch but if it's hot something's very
+[22:37] wrong and you need to shut off the
+[22:38] heater and unplug it as a closing
+[22:41] message if you live in a place which is
+[22:43] cold enough that a failure of your
+[22:45] heating system could freeze your pipes I
+[22:48] think it's very wise to have some space
+[22:51] heaters on hand for
+[22:52] emergencies 60 bucks can get you three
+[22:55] of these things and while they won't be
+[22:57] able to match your main systems heat
+[22:59] output they can probably keep your home
+[23:02] significantly above freezing and at
+[23:04] least one room can stay comfortable and
+[23:07] if you're on the heat pump train but you
+[23:08] don't have a dedicated resistive heat
+[23:10] backup such as if you went with a
+[23:12] multi-head minisit system these can do
+[23:15] the trick just fine the heat strips in a
+[23:18] centrally ducted heat pump system are
+[23:20] just a bigger version of this thing so a
+[23:23] few of these heaters can absolutely be
+[23:25] used to fill in the Gap when and if the
+[23:28] outside temp is so cold that the heat
+[23:30] pump can't quite keep up on its own if
+[23:33] you're ever in a scenario where you need
+[23:35] to use multiple space heaters at the
+[23:37] same time you're going to need to
+[23:39] identify which Outlets are on what
+[23:41] circuits because two space heaters
+[23:44] running on the same circuit will quickly
+[23:46] trip the circuit breaker although
+[23:49] another fun benefit of these cheap fan
+[23:51] Force heaters is that two of them
+[23:53] actually can share a circuit so long as
+[23:55] they're both set to low or one's on low
+[23:58] and the others on medium strategic
+[24:01] placement of these fellas can probably
+[24:03] be your only heat Source in a pinch as
+[24:05] those of you who saw my video on HVAC
+[24:08] system sizing already
+[24:09] know that would be a very expensive way
+[24:12] to heat your home in most cases but hey
+[24:15] the actual heaters are quite cheap so
+[24:17] it's a compelling backup option however
+[24:21] as much as I like these cheap fan forced
+[24:23] heaters and think they're unquestionably
+[24:25] the most reasonable option to keep on
+[24:27] hand as a back back up this baseboard
+[24:30] style of heater has become my new
+[24:32] favorite when I actually want
+[24:34] supplemental heat
+[24:35] somewhere this places the heating
+[24:37] elements in open air and relies solely
+[24:40] on the convection currents which form as
+[24:42] the air inside heats up expands and then
+[24:46] floats out the top these things are
+[24:48] completely silent but they can also
+[24:51] sustain their full 1500 watts of output
+[24:54] something those oil filled heaters
+[24:56] simply cannot do
+[24:58] because of how this works it has much
+[25:00] hotter surfaces and that makes them more
+[25:02] dangerous in some ways but it also
+[25:05] doesn't have any moving Parts which can
+[25:07] fail still sure enough take a peek
+[25:10] inside and we find the same exact limit
+[25:13] switch that we do in the fan Forest
+[25:15] heater so if someone were to I don't
+[25:18] know throw a beach towel over one of
+[25:19] these things it will eventually lock
+[25:22] itself out just like the fan heater does
+[25:25] actually I better test that again don't
+[25:28] ever do this yourself the limit switch
+[25:31] did kick in when it was completely
+[25:33] covered by the towel but I wondered what
+[25:36] would happen if it was mostly covered
+[25:39] but the area above the limit switch
+[25:42] wasn't yeah here things aren't so Rosy
+[25:46] because the limit switch is below the
+[25:48] heating elements which it has to be
+[25:50] otherwise it would trip in normal
+[25:52] operation so long as there's enough of
+[25:54] the heater uncovered to supply
+[25:56] sufficient air flow through those vents
+[25:58] down there the limmit switch stays cool
+[26:01] enough that it doesn't trip I stuck a
+[26:04] thermometer under the towel to see how
+[26:06] hot things were getting and I kept
+[26:08] creeping the towel further and further
+[26:10] to the right to block more and more of
+[26:12] the heater
+[26:13] venting by the end we had exceeded the
+[26:16] thermometer maximum temperature reading
+[26:18] of 200 C 392 F and the heater was still
+[26:24] running for the icing on the cake I set
+[26:26] a timer at that point for 5 minutes to
+[26:29] end the test before things got out of
+[26:31] hand and while it did shut off before
+[26:34] that timer ran out it wasn't the limit
+[26:36] switch that shut it off it was the
+[26:39] thermostat that's why power consumption
+[26:41] went to zero and not a watt or two once
+[26:44] I removed the towel it quickly turned
+[26:46] back
+[26:47] on not so great and the adhesive on that
+[26:50] little hot sticker sure was destroyed
+[26:54] but on the other hand some of you have
+[26:56] kitchen stoves which emit o open
+[27:00] Flames that might seem like a non Seer
+[27:03] but my point there is that we aren't so
+[27:05] scared of objectively dangerous things
+[27:08] when we understand what those dangers
+[27:10] actually are and how we can avoid them
+[27:13] in the case of this heater sure it might
+[27:17] start a fire if someone throws their
+[27:19] jacket on top of it but so long as
+[27:22] you're careful enough to not do that the
+[27:25] fact that there are no moving Parts in
+[27:27] this thing means it can't really fail in
+[27:30] a way which presents a danger on its own
+[27:33] so as with so many things in life there
+[27:35] are tradeoffs and those are up to you to
+[27:39] figure out once you've done that you can
+[27:42] make informed decisions for your own
+[27:44] benefit and that's a kind of empowerment
+[27:47] that we all
+[27:49] [Music]
+[27:52] deserve and not simply because I'm
+[27:55] midw I'm a Midwestern that's hard the
+[27:59] springiness of the springiness
+[28:02] springiness the springiness springiness
+[28:06] springiness
+[28:07] oh
+[28:11] that's I picked the wrong one you mean I
+[28:14] have to put this back apart right now
+[28:17] back apart this is a great use of camera
+[28:20] resources memory this is this whole
+[28:23] thing is going to be backed up in two
+[28:25] places and it's just me putting a thing
+[28:28] back together that I forgot to do before
+[28:30] I started recording the switch selects
+[28:33] between powering one the other both or
+[28:35] I'm not even pointing at it
+[28:38] [Music]
+[28:46] [Applause]
+[28:48] [Music]
+[28:48] [Applause]
+[28:55] [Music]

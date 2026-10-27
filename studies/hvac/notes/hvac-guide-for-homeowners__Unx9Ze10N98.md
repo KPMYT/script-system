@@ -49,9 +49,9 @@ Numbered, one breath per item ("number two is an interesting one"). Items 28 s /
 - [5:36] "well Josh moving more air is a good thing not when it comes to heating"
 
 ## Comments
-36 unique of 393 (20 top, 20 newest, 4 in both).
-- Covering the outdoor unit: ~20, most disagreeing ("This guy is wrong", 11; "I cover the top to keep leaves and crap out and that's all you need", 43). Pinned [OWNER] reply links a cover on Amazon (7).
-- Distrust of HVAC companies: ~5 ("We've purchased maintenance plans in the past and each time, it's a scam.", 63). Questions (snow on the unit, below 27°, closing vents): ~4.
+46 unique of 393 (30 top, 20 newest, 4 in both; top from 3 pages).
+- Covering the outdoor unit: ~26, most disagreeing ("This guy is wrong", 11; "I cover the top to keep leaves and crap out and that's all you need", 43); a split between "I've never once covered my AC" (HVAC mechanic, 122) and "I’ve covered my outside condenser for 18 years" (175). Pinned [OWNER] reply links a cover on Amazon (7).
+- Distrust of HVAC companies: ~6 ("We've purchased maintenance plans in the past and each time, it's a scam.", 63). Questions (snow on the unit, below 27°, closing vents): ~4.
 - Safety corrections: none on carbon monoxide or gas; one on ice ("the coils could be cracked and damaged from ice expansion", 0).
 - Saved or avoided: "try changing the batteries before calling a service tech." (3); "A couple dollar filter could cost me could had caused me thousands in repair." (0).
 - "Sounds like AI": 0.
