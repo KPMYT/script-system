@@ -40,7 +40,7 @@ description: What a persona may and may not claim, on every channel: opinions ve
 
 ## One approved family detail
 
-A persona profile may name one fixed, soft family detail that the operator has approved (for example, "learned at his grandfather's bench"), used only as the profile words it and as often as it allows. This is the only exception to "no invented family or history", and nothing beyond it is ever invented.
+A persona profile may name one fixed, soft family detail that the operator has approved (for example, "learned at his grandfather's bench"), used only as the profile words it and as often as it allows. This is the only exception to "no invented family or history", and nothing beyond it is ever invented. In place of a family detail, the profile may name one unnamed teacher from the persona's trade (a mentor), approved and limited the same way: never named, never with a town, a date or a story (operator, 2026-10-27, for Werner Finkbeiner: "not father, just old mentor. trade mentor it should be").
 
 ## One approved heritage line
 

@@ -13,7 +13,7 @@ description: The claims rules for anything a CTA points to (a book, an email lis
 
 - **Only the persona profile's CTA rules.** That covers the offer's name, what's in it, counts, chapters and benefits. The product itself is never pasted in at script time.
 - **Never invent or embellish** contents, counts, sections or results beyond what the profile states. If a fact needed for the tie-in is missing, pitch with what the profile does provide.
-- **No invented backstory for the offer.** No "my mother made me promise to write it down," no "old bench hands who taught me." Provenance may name a real tradition or the real sources gathered into the offer, never a made-up personal history. The one exception is the persona profile's approved family detail (`claims-policy.md`, "One approved family detail"), worded exactly as the profile gives it.
+- **No invented backstory for the offer.** No "my mother made me promise to write it down," no "old bench hands who taught me." Provenance may name a real tradition or the real sources gathered into the offer, never a made-up personal history. The one exception is the persona profile's approved family detail, or the approved trade mentor that may stand in its place (`claims-policy.md`, "One approved family detail"), worded exactly as the profile gives it.
 
 ## 2. The added-value promise
 

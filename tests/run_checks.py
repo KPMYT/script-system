@@ -630,24 +630,25 @@ check("52. electrical voice and claims: short forms fail, spoken forms and years
       and "the palm check" in tics[1] and "tonight" in tics[1] and not stories,
       f"bad passing: {f_v}; good failing: {p_v}; p11: {p11[1][-300:] if p11[0] else ''}; stories passing: {stories}")
 
-# 53. Werner's profile (relaunched 2026-10-27): plumbing pack, Talking Head, the Herrmann voice, pending; name, book and tenure none;
+# 53. Werner's profile (relaunched 2026-10-27, ready the same day): plumbing pack, Talking Head, the Herrmann voice; name, book, tenure 30; his book index;
 #     channels.md row 8 pending; the build knows him; a clean German-way paragraph passes (copy guard included);
-#     contractions, a name intro, a relative other than the fixed father line, an arrival story, a euro price, comedy German, his old recap
-#     lines and sign-off, a subscribe ask and a second tenure fail; the father line and the 30 years pass (operator's answers, 2026-10-27)
+#     contractions, a name intro, any relative, the book's own stories (Bertha, Marcus), an arrival story, a euro price, comedy German, his old recap
+#     lines and sign-off, a subscribe ask and a second tenure fail; the mentor line and the 30 years pass (operator's answers, 2026-10-27)
 WERN=f"{PERS}/werner-finkbeiner.md"; wp=open(WERN).read(); wf=facts_of(WERN)
 clean_w=("Right now, behind the toilet in your bathroom, a rubber flapper the size of a coaster is letting clean water slip into the bowl, and you pay for every gallon of it. "
          "So. In Germany it is usual to wipe the valve seat with a little citric acid every spring, and most American houses never do it. "
          "But the physics is the same on both sides of the ocean. That is Wartung, plain maintenance, nothing more.\n")
-cw=run_scan(clean_w+"\nQuick thing before number four. My father taught me everything he knew about looking after a house before he passed, and I wrote all of it down. It is all in Werner's One Hundred and One Free Repairs, at the link in the description and the QR code. Now, the trap.\n\nIn 30 years as a plumber I have not seen a better habit.\n",[PLR,WERN],refs=PL_REFS+[WERN])
+cw=run_scan(clean_w+"\nQuick thing before number four. My old mentor taught me this trade, and before he passed, I wrote down everything he showed me. It is all in Werner's One Hundred and One Free Repairs, at the link in the description and the QR code. Now, the trap.\n\nIn 30 years as a plumber I have not seen a better habit.\n",[PLR,WERN],refs=PL_REFS+[WERN])
 bad_w=["It's the flapper.","I am Werner Finkbeiner, and this is my channel.","My grandfather showed me this.","When I came to America, the pipes surprised me.",
-       "A bottle costs about one euro.","Enough for today.","Subscribe for more of these.","In 25 years as a plumber I never saw this.","Achtung, this is important.","Three small things for this week, then.","Werner Finkbinder wrote it down."]
+       "A bottle costs about one euro.","Enough for today.","Subscribe for more of these.","My father showed me this.","Bertha kept a coffee can by the sink.","My neighbor Marcus tried it.","In 25 years as a plumber I never saw this.","Achtung, this is important.","Three small things for this week, then.","Werner Finkbinder wrote it down."]
 w_pass=[l for l in bad_w if run_scan(f"Check the flapper.\n\n{l}\n",[PLR,WERN])[0]!=1]
 chan=open(f"{CORE}/channels.md").read(); bs=open(f"{ROOT}/tools/build_skills.py").read()
-check("53. Werner's profile: plumbing pack, Talking Head, Herrmann voice, pending; name, book, tenure 30; row 8 pending; in the build; a clean paragraph with the father line and 30 years passes, his banned lines fail",
-      "Niche pack: plumbing-scripts" in wp and "Script type: Talking Head" in wp and "au7Q2pqB7wdio9LWlvt7" in wp and "Status: pending" in wp
+check("53. Werner's profile: plumbing pack, Talking Head, Herrmann voice, ready; name, book, tenure 30; row 8 ready; the book index; in the build; a clean paragraph with the mentor line and 30 years passes, his banned lines fail",
+      "Niche pack: plumbing-scripts" in wp and "Script type: Talking Head" in wp and "au7Q2pqB7wdio9LWlvt7" in wp and "Status: ready" in wp
       and "name: Werner Finkbeiner" in wf and "book: Werner's One Hundred and One Free Repairs" in wf and "tenure: 30" in wf
-      and "| 8 | Werner Finkbeiner | `plumbing-scripts` | `personas/werner-finkbeiner.md` | pending |" in chan
+      and "| 8 | Werner Finkbeiner | `plumbing-scripts` | `personas/werner-finkbeiner.md` | ready |" in chan
       and '"werner-finkbeiner": ("Werner Finkbeiner", "personas/werner-finkbeiner.md"' in bs
+      and os.path.exists(f"{PERS}/books/werner-finkbeiner-book.md") and "| 54 | Silence a Running Toilet by Replacing the Flapper | 7 | 277 |" in open(f"{PERS}/books/werner-finkbeiner-book.md").read()
       and cw[0]==0 and not w_pass, f"clean: {cw[1][-500:] if cw[0] else ''}; banned lines passing: {w_pass}")
 
 for name,ok,detail in results:

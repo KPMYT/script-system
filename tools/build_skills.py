@@ -26,7 +26,7 @@ STAMP = f"{datetime.date.today().isoformat()} (library commit {commit()})"
 
 SCRIPT_WRITER_SKILL = """---
 name: script-writer
-description: Writes YouTube scripts for the operator's channels. Runs whenever someone types START (alone or followed by inputs), asks for a new script, or pastes a title with a brief (and, where the niche uses one, a research pack) for a script. It asks which channel, collects exactly the inputs that channel needs, refuses to write until every input is valid, then runs straight through to the finished, audited script and voiceover copy. Holds the core rules; it reads the channel's niche-pack skill and persona skill. Channels ready now: Hank Hardwood, Dale Oakfield's Workshop and Sawdust Sam (woodworking for profit); Roger the Pipe Guy, Mark Silverbridge and The Vintage Pipefitter (plumbing).
+description: Writes YouTube scripts for the operator's channels. Runs whenever someone types START (alone or followed by inputs), asks for a new script, or pastes a title with a brief (and, where the niche uses one, a research pack) for a script. It asks which channel, collects exactly the inputs that channel needs, refuses to write until every input is valid, then runs straight through to the finished, audited script and voiceover copy. Holds the core rules; it reads the channel's niche-pack skill and persona skill. Channels ready now: Hank Hardwood, Dale Oakfield's Workshop and Sawdust Sam (woodworking for profit); Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter and Werner Finkbeiner (plumbing).
 ---
 
 # Script writer (the core)
@@ -51,7 +51,7 @@ The script system is split into separate skills, one per layer. They're all inst
 | the persona profile `personas/vintage-pipefitter.md` | the **vintage-pipefitter-persona** skill: its `SKILL.md` is the profile (this channel has no book) |
 | the niche pack `electrical-scripts` | the **electrical-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder (with `references/models/`) |
 | the persona profile `personas/frederick-barnes.md` | the **frederick-barnes-persona** skill: its `SKILL.md` is the profile (this channel has no book) |
-| the persona profile `personas/werner-finkbeiner.md` | the **werner-finkbeiner-persona** skill: its `SKILL.md` is the profile (his book text isn't in the library yet) |
+| the persona profile `personas/werner-finkbeiner.md` | the **werner-finkbeiner-persona** skill: its `SKILL.md` is the profile, plus his book index |
 | a book text `personas/books/<channel>-book.md` | inside that channel's persona skill, at the same path |
 
 If a skill the chosen channel needs isn't installed, stop with the NOT READY block (`core/workflow.md`, section 5) and name the missing skill.
@@ -107,7 +107,7 @@ Thirteen skill files, one per layer (`script-writer` also comes as `script-write
 | `vintage-pipefitter-persona.skill` | Channel | The Vintage Pipefitter's profile and its one-line subscribe ask (no book). | **Replace** the copy on the account (delete it, upload this). |
 | `electrical-scripts.skill` | Niche | The electrical rules (inputs: title and brief, no research pack; the stakes with no money; the opening with one value promise; the seven video types; the one-line subscribe ask and the comment ending; 12 minutes minimum; units written for the voice; safety), the facts guide and the model scripts. | **New:** upload it. |
 | `frederick-barnes-persona.skill` | Channel | Frederick Barnes's profile (retired electrician, 35 years, Talking Head, a one-line subscribe ask, no book). **Pending:** START answers NOT READY for him until the operator marks him ready. | **New:** upload it (it does nothing until he's ready). |
-| `werner-finkbeiner-persona.skill` | Channel | Werner Finkbeiner's profile (the German way, plumbing, Talking Head, *Werner's 101 Free Repairs*). **Pending:** START answers NOT READY for him until the operator answers the relaunch questions and marks him ready. | **New:** upload it (it does nothing until he's ready). |
+| `werner-finkbeiner-persona.skill` | Channel | Werner Finkbeiner's profile (the German way, plumbing, Talking Head, *Werner's 101 Free Repairs*). Ready since 2026-10-27; his book index (chapters, every repair with page and Money Saved) is inside. | **New:** upload it. |
 | `woodworking-ideation.skill` | Ideation | The Etsy-first product scan (30 products), title and thumbnail-text options, fact briefs, the optional research pack. | **Replace** the copy on the account (delete it, upload this). |
 | `plumbing-ideation.skill` | Ideation | Plumbing titles and briefs for Roger, Mark, Vintage and Werner; briefs now give each item its cost and the right way (the script fills gaps from the plumbing price guide). | **Replace** the copy on the account (delete it, upload this). |
 | `ideation-core.skill` | Ideation | The shared base every ideation skill needs. | **Unchanged:** only install it where it's missing (for example a new VA account). |
@@ -163,7 +163,7 @@ PERSONAS = {
     "mark-silverbridge": ("Mark Silverbridge", "personas/mark-silverbridge.md", "personas/books/mark-silverbridge-book.md"),
     "vintage-pipefitter": ("The Vintage Pipefitter", "personas/vintage-pipefitter.md", None),  # no book for now
     "frederick-barnes": ("Frederick Barnes", "personas/frederick-barnes.md", None),  # no book for now (operator 2026-10-27)
-    "werner-finkbeiner": ("Werner Finkbeiner", "personas/werner-finkbeiner.md", None),  # relaunched 2026-10-27; book text to add once the PDF is found
+    "werner-finkbeiner": ("Werner Finkbeiner", "personas/werner-finkbeiner.md", "personas/books/werner-finkbeiner-book.md"),  # relaunched 2026-10-27; an index, not the full text
 }
 
 # niche packs: folder -> what the installed skill leaves out
