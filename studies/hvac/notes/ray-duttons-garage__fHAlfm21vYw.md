@@ -47,10 +47,10 @@ Each item hands off to the next ("That's the mistake they bill the most. The nex
 - "I'd like the temperature rise, the gas pressure, and the carbon monoxide reading written on the invoice." [12:19]
 
 ## Comments
-28 top + 20 newest (245 shown).
+31 top + 20 newest (245 shown).
 - Old furnaces still running: ~6 ("My 39 years old furnace from Carrier still running !!", 119).
 - Former techs, a retired plumber agreeing: ~4 ("As a retired HVAC tech, this man is totally Right!", 36).
 - Quoting the sentence: "I want the temperature rise, the gas pressure, and the Carbon Monoxide readings written on the invoice." (63)
-- Safety correction: "Never touch that igniter with bare hands or anything greasy or oily!" (57); "flame sensor issue sometimes is due to a bad ground" (0).
+- Safety corrections: "Never touch that igniter with bare hands or anything greasy or oily!" (57); "you need to force on the master safety switch" with the cover off (10); "flame sensor issue sometimes is due to a bad ground" (0).
 - Acted on it: "immediately got up, walked to my furnace exhaust vent and made certain it was clear" (14).
 - "Sounds like AI": 0; persona comparison 1 ("Ellias Yoder is now Ray", 3).

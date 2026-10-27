@@ -8,7 +8,7 @@
 ## Structure map
 - Hook: ~134 w, 35 s (ends [0:35] "how to troubleshoot them")
 - First real value: [0:37] "a key to troubleshooting is getting a baseline what is it supposed to look like"
-- Segments: [0:00] hook, rentals, "$10 in parts" ~134 w · [0:35] baseline, cover off ~179 w · [1:30] normal six-step cycle ~200 w · [2:48] failure demo, lockout ~253 w · [4:12] cause ~109 w · [4:47] removal, screwdriver plug ~161 w · [5:40] cleaning ~91 w · [6:21] replace, orientation ~174 w · [7:15] test ~76 w · [7:43] spares tip ~76 w · [8:06] CTA, outro ~78 w
+- Segments: [0:00] hook, rentals, $10 in parts ~134 w · [0:35] baseline, cover off ~179 w · [1:30] normal six-step cycle ~200 w · [2:48] failure demo, lockout ~253 w · [4:12] cause ~109 w · [4:47] removal, screwdriver plug ~161 w · [5:40] cleaning ~91 w · [6:21] replace, orientation ~174 w · [7:15] test ~76 w · [7:43] spares tip ~76 w · [8:06] CTA, outro ~78 w
 
 ## Pacing
 Normal sequence first, then the fault replayed against it ("we're getting to step four but we're not getting the step five" [3:32]). Segments 28 s–1:24; typical ~45 s.

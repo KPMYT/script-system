@@ -43,7 +43,7 @@ None on electricity or refrigerant handling. The mouse check: "take one good loo
 - "It waits, it sits quiet through the whole winter and then it hands you the bill in the spring." [10:46]
 
 ## Comments
-35 top + 20 newest (476 shown).
+43 top + 20 newest (476 shown).
 - Viewers reporting decades of covering or cutting power with no trouble: ~16 ("30 plus year unit, no cover and never cut the power!", 121; "I used a cover for the last 22 years", 77).
 - Plywood or top-only cover: ~8 ("a piece of plywood just on the top", 58).
 - Saved or regretted: "I covered it completely three years ago. The following spring, I needed a whole new unit!" (0).

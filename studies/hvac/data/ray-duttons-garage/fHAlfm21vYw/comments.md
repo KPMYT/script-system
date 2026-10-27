@@ -1,11 +1,11 @@
 # Comments — fHAlfm21vYw
 
 Collected 2026-10-27 via NexLev youtube_video_comments. Top-level comments only. Text and like counts only; no usernames or channel IDs. Line breaks inside a comment are joined with spaces. Blank like counts are recorded as 0. No replies from the channel owner appeared in either list (authorIsChannelOwner was false on every comment returned), so nothing is marked [OWNER].
-API commentsCount (total shown): 245. Collected: 28 unique by relevance + 20 newest (3 of the newest also appear in the top list).
-Paging note: page 1 of the top sort returned 20; the continuation token returned page 2, but further pages repeated page 2 (tested to page 4 on K2jCz3D5z_0), so the top list stops at the unique comments of pages 1-2 (fewer than the ~60 asked for). One page of the newest sort (20) was taken.
+API commentsCount (total shown): 245. Collected: 31 unique by relevance + 20 newest (3 of the newest also appear in the top list).
+Paging note: the top sort was read as page 1 plus continuation pages (page 2 for every video; page 3 where page 2 still added new comments; pages 3-4 on K2jCz3D5z_0). Continuation pages mostly repeat earlier pages, so the top list is the unique comments across those pages (fewer than the ~60 asked for). One page of the newest sort (20) was taken. Pages and new comments per page are in COLLECTION-LOG.md.
 Spam skipped: 0. Promotional-looking comments are kept and marked where they name a contractor.
 
-## Top by relevance (28)
+## Top by relevance (31)
 
 1. (63 likes) 12:20 The thing to say to the technician towards the end of the service call is "I want the temperature rise, the gas pressure, and the Carbon Monoxide readings written on the invoice."
 2. (44 likes) Great information Ray. As a former HVAC technician, everything you said rings true and is worth the time to check. It’s easy to become complacent when you want heat now.
@@ -35,6 +35,9 @@ Spam skipped: 0. Promotional-looking comments are kept and marked where they nam
 26. (5 likes) Mine is 40 years old I do most of maintenance myself .
 27. (3 likes) Well imagine this Ellias Yoder is now Ray😂
 28. (0 likes) This is SO weird that I just came across this video while scrolling !!  It’s Oct. 17, and 40 degrees outside, 60 degrees inside.  I figure I’ll put on the furnace just to take the chill off.  Fan starts up, and that’s it.  I try again, same thing.  And it actually IS a Saturday too.  I’ve been through this before and been ok.  Looks like it’s my job for today.  Thankfully it’s not 15 degrees out yet.  Thanks for posting ! 👍👍
+29. (33 likes) I have replaced my flame sensor at least twice in the last 10 years or so. I always keep a spare on hand for a "just in case". If I use my spare I immediately order another spare.
+30. (10 likes) You missed one of first things to set in order to check your furnace operation with the cover off, you need to force on the master safety switch. Without the master switch pressed on your furnace gets no electrical power.
+31. (18 likes) KANSAS ..... 23-year-old Lennox ...... I clean the flame sensor every year before winter .... put a new filter in every 3 months ...... but have never messed with the ignitor (something I need to look into).  Thanks for the information !
 
 ## Newest (20)
 

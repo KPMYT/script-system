@@ -43,10 +43,10 @@ None in the narration: no subscribe, comment or book line. The e-book is in the 
 - "Bosch broke the lock." [10:21]
 
 ## Comments
-31 top + 20 newest, 2 overlapping (1K shown).
+38 top + 20 newest, 3 overlapping (1K shown).
 - Old units still running: ~14 ("the 40 year old system is still working great", 221).
 - Long-time techs adding their own rules: ~6 ("60 years as an AC technician… Copeland or Tecumseh only!", 337; installation day "the most important day", 115).
-- Disputes: ~5 ("95 percent of this video is a lie", 1; "This is such BS.", 0).
+- Dismay: "This is depressing as hell." (196). Disputes: ~5 ("95 percent of this video is a lie", 1; "This is such BS.", 0).
 - Upsell distrust: "Every single HVAC company… ALWAYS say, 'You need a new system'" (2).
 - One top comment names ARS / Rescue Rooter as a quote option (29).
 - "Sounds like AI": 0; voice remark 1 ("Did the narrator get a cold halfway through? No, he's sucking helium.", 65).

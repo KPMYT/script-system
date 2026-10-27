@@ -34,7 +34,7 @@ None.
 
 ## HVAC: the emotions voiced
 - [0:07] "Okay, wake up in the morning. It's cold." (cold morning)
-- [5:30] "if you see after a minute or so that it starts, life is good" (relief)
+- [5:28] "if you see after a minute or so that it starts, life is good" (relief)
 - [6:48] "the service guy out and he says, 'I'll turn on the light switch for you.'" (embarrassment)
 
 ## HVAC: the season and the clock

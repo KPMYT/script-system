@@ -8,7 +8,7 @@
 ## Structure map
 - Hook: ~81 w, ~37 s (first segment [0:06]; ends [0:43] "this is what this is about")
 - First real value: [0:55] "now there's some truth in this if your heat exchanger is cracked you you have two choices"
-- Segments: [0:06] series framing, villain ~81 w · [0:43] the two choices, warranty ~147 w · [1:53] "often times this is a scam" ~45 w · [2:08] how it is checked ~139 w · [3:03] what to demand ~171 w · [4:08] be suspicious, upgrade case ~124 w · [4:56] outro ~37 w
+- Segments: [0:06] series framing, villain ~81 w · [0:43] the two choices, warranty ~147 w · [1:48] "often times this is a scam" ~45 w · [2:08] how it is checked ~139 w · [3:03] what to demand ~171 w · [4:08] be suspicious, upgrade case ~124 w · [4:56] outro ~37 w
 
 ## Pacing
 Claim, then the honest version, then the test to ask for. Segments 15 s–1:10; typical ~1 min. Spoken slowly with pauses (744 words in 5:19).
@@ -16,7 +16,7 @@ Claim, then the honest version, then the test to ask for. Segments 15 s–1:10; 
 ## Content habits
 - Prices: 0; labor flagged ("it's going to cost you some labor" [1:44]).
 - Where to buy: none.
-- Show and tell: medium ("the burners are right here the heat exchanger is behind there" [2:15]).
+- Show and tell: medium ("the burners are right here the heat exchanger is behind there" [2:10]).
 
 ## Voice
 - Personal: yes, 2 ("I was a service tech for 35 years" [0:10]; "the minimum I've seen is about 15 years" [1:23]).

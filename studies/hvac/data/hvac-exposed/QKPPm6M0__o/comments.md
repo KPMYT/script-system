@@ -1,11 +1,11 @@
 # Comments — QKPPm6M0__o
 
 Collected 2026-10-27 via NexLev youtube_video_comments. Top-level comments only. Text and like counts only; no usernames or channel IDs. Line breaks inside a comment are joined with spaces. Blank like counts are recorded as 0. No replies from the channel owner appeared in either list (authorIsChannelOwner was false on every comment returned), so nothing is marked [OWNER].
-API commentsCount (total shown): 1K. Collected: 31 unique by relevance + 20 newest (2 of the newest also appear in the top list).
-Paging note: page 1 of the top sort returned 20; the continuation token returned page 2, but further pages repeated page 2 (tested to page 4 on K2jCz3D5z_0), so the top list stops at the unique comments of pages 1-2 (fewer than the ~60 asked for). One page of the newest sort (20) was taken.
+API commentsCount (total shown): 1K. Collected: 38 unique by relevance + 20 newest (3 of the newest also appear in the top list).
+Paging note: the top sort was read as page 1 plus continuation pages (page 2 for every video; page 3 where page 2 still added new comments; pages 3-4 on K2jCz3D5z_0). Continuation pages mostly repeat earlier pages, so the top list is the unique comments across those pages (fewer than the ~60 asked for). One page of the newest sort (20) was taken. Pages and new comments per page are in COLLECTION-LOG.md.
 Spam skipped: 0. Promotional-looking comments are kept and marked where they name a contractor.
 
-## Top by relevance (31)
+## Top by relevance (38)
 
 1. (29 likes) [names a contractor: ARS / American Residential Services] The brand debate is real but honestly the Manual J point is the one that actually matters. Oversizing is probably responsible for more premature system deaths than any coil metallurgy argument. A system that short cycles because a contractor guessed on load calc is going to wear out fast regardless of the nameplate. Before signing anything, ask for the load calc in writing, ask what refrigerant the system uses and what that means for your next service call, and get a full parts-and-labor scope before approving the job. For a comparison quote on a replacement, ARS/Rescue Rooter is one option worth checking, though branch availability varies and you should still push them on sizing methodology the same way you'd push any contractor. The install quality and proper sizing conversation matters more than which five brands this video blesses.
 2. (15 likes) When I needed a new A/C system I called the local wholesaler and asked who they recommend to install a new system. When deciding which brand to put in the a/c tech told me each brand had their Achilles heel. We decided on a brand with the cheapest Achilles heal to repair. American Standard, 20 years in Houston heat and no problems at all.
@@ -38,6 +38,13 @@ Spam skipped: 0. Promotional-looking comments are kept and marked where they nam
 29. (1 likes) We bought a house last summer and the owner claimed the hvac was only a few years old and from the looks of it I had no reason to doubt it. 2 months after we moved in it stopped working. Had someone come look at it and come to find out it was 18 years old and had been patched together multiple times and the heating elements were completely shot. We had a homeowners warranty and tried to go through them to help with the cost of replacement. I honestly didnt expect them to help cover it and I was correct. We went with a new Bosch system. So far it's been great and the part I really like is that it's really quiet. Our patio is right next to it and it doesn't bother us at all when we are out there.
 30. (3 likes) Through the years I’ve purchased several HVAC units (from different local contractors) and have never had one do a load calculation.
 31. (0 likes) Been doing this for 45 years.  Moved into new home.  Builder’s hvac contractor uses rheem.  Should be called ream.  I have replaced 14 microchannel evaporators including my own.  Mahle was the manufacturer of coil.  They are now using a different one.  Hopefully they work better.  New refrigerant flammable.  Leak detector should be installed near equipment.
+32. (196 likes) This is depressing as hell.
+33. (5 likes) Nothing but thieves they need to be held accountable
+34. (22 likes) My neighbor has a high SEER Trane with a variable speed compressor. The service tech practically lives there.
+35. (43 likes) Our Lennox system is still doing what it's supposed to do going on 22 years.
+36. (1 likes) Loved this video, keep up the great work!
+37. (0 likes) We just replaced a Carrier System that was install in 1997, It lasted all most 30yrs. I replaced it with a Lennox and couldn't be happier.
+38. (0 likes) Thank you!  This information comes at the perfect time for me.
 
 ## Newest (20)
 

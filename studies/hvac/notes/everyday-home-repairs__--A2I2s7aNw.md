@@ -8,7 +8,7 @@
 ## Structure map
 - Hook: ~90 w, 25 s (ends [0:25] "so you can have that knowledge and take this project on yourself")
 - First real value: [0:28] "regardless of where your furnace is the general layout is going to be the same"
-- Segments: [0:00] intro, "$75 to $125" ~90 w · [0:25] layout, tools ~137 w · [1:13] step 1 safety ~71 w · [1:38] step 2 filter arrow ~281 w · [3:09] step 3 flame sensor ~396 w · [5:42] cleaning, blower ~138 w · [6:24] step 4 full cycle, flames ~325 w · [8:21] fall batteries ~67 w · [8:39] CO detector ~57 w
+- Segments: [0:00] intro, $75–$125 saving ~90 w · [0:25] layout, tools ~137 w · [1:13] step 1 safety ~71 w · [1:38] step 2 filter arrow ~281 w · [3:09] step 3 flame sensor ~396 w · [5:42] cleaning, blower ~138 w · [6:24] step 4 full cycle, flames ~325 w · [8:21] fall batteries ~67 w · [8:39] CO detector ~57 w
 
 ## Pacing
 Numbered: "step number two is very quick and simple" [1:38]. Steps 25 s (step 1) to ~3:15 (step 3 with cleaning); typical ~1:30.

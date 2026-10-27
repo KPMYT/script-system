@@ -2,7 +2,7 @@
 
 Collected 2026-10-27 via NexLev youtube_video_comments. Top-level comments only. Text and like counts only; no usernames or channel IDs. Line breaks inside a comment are joined with spaces. Blank like counts are recorded as 0. No replies from the channel owner appeared in either list (authorIsChannelOwner was false on every comment returned), so nothing is marked [OWNER].
 API commentsCount (total shown): 68. Collected: 20 unique by relevance + 20 newest (10 of the newest also appear in the top list).
-Paging note: page 1 of the top sort returned 20; the continuation token returned page 2, but further pages repeated page 2 (tested to page 4 on K2jCz3D5z_0), so the top list stops at the unique comments of pages 1-2 (fewer than the ~60 asked for). One page of the newest sort (20) was taken.
+Paging note: the top sort was read as page 1 plus continuation pages (page 2 for every video; page 3 where page 2 still added new comments; pages 3-4 on K2jCz3D5z_0). Continuation pages mostly repeat earlier pages, so the top list is the unique comments across those pages (fewer than the ~60 asked for). One page of the newest sort (20) was taken. Pages and new comments per page are in COLLECTION-LOG.md.
 Spam skipped: 0. Promotional-looking comments are kept and marked where they name a contractor.
 
 ## Top by relevance (20)

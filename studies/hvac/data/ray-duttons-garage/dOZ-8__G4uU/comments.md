@@ -1,11 +1,11 @@
 # Comments — dOZ-8__G4uU
 
 Collected 2026-10-27 via NexLev youtube_video_comments. Top-level comments only. Text and like counts only; no usernames or channel IDs. Line breaks inside a comment are joined with spaces. Blank like counts are recorded as 0. No replies from the channel owner appeared in either list (authorIsChannelOwner was false on every comment returned), so nothing is marked [OWNER].
-API commentsCount (total shown): 476. Collected: 35 unique by relevance + 20 newest (3 of the newest also appear in the top list).
-Paging note: page 1 of the top sort returned 20; the continuation token returned page 2, but further pages repeated page 2 (tested to page 4 on K2jCz3D5z_0), so the top list stops at the unique comments of pages 1-2 (fewer than the ~60 asked for). One page of the newest sort (20) was taken.
+API commentsCount (total shown): 476. Collected: 43 unique by relevance + 20 newest (4 of the newest also appear in the top list).
+Paging note: the top sort was read as page 1 plus continuation pages (page 2 for every video; page 3 where page 2 still added new comments; pages 3-4 on K2jCz3D5z_0). Continuation pages mostly repeat earlier pages, so the top list is the unique comments across those pages (fewer than the ~60 asked for). One page of the newest sort (20) was taken. Pages and new comments per page are in COLLECTION-LOG.md.
 Spam skipped: 0. Promotional-looking comments are kept and marked where they name a contractor.
 
-## Top by relevance (35)
+## Top by relevance (43)
 
 1. (77 likes) I used a cover for the last 22 years. Never maintained it and it still runs like a beast.
 2. (27 likes) Just put a piece of plywood over the top with some weight to keep it secure. Helps prevent most snow from getting into the condenser but also allows everything to breathe.
@@ -42,6 +42,14 @@ Spam skipped: 0. Promotional-looking comments are kept and marked where they nam
 33. (3 likes) We use a heat pump for a mid Atlantic house so the unit is never covered. In CT we covered the unit beginning the second winter the new unit was installed. Won’t cover completely this winter. Thank you for the information✔️👍🏽
 34. (1 likes) Turn off power . Cover just the top so it can't fill up with snow . Let oil warm a couple days before using . No heat mo mice
 35. (1 likes) Plywood and brick here, 20 years, power left on. Only had to replace a start capacitor on it. It's also not on the ground due to slope, but on a bracket.
+36. (4 likes) live in the deep south, AC runs 11.5 months a year, this is for the snow area folks
+37. (4 likes) In the 12 years we’ve been in our house, we’ve never covered it for winter. Here in Kansas there are times that we turn AC on in winter because it gets hot. There have been days this year that we’ve had AC and heat on in the same day.
+38. (2 likes) I cover mine every year and put a mice bait station by the base of the unit
+39. (1 likes) 35yr old unit, cover top only, never cut the power, one mouse dead on contactors, cleaned the mouse guts off the points started up with no issues. I learned these tips from a HVAC guy 30+ yrs ago-they work.
+40. (0 likes) Mine is over 30 years old and I have always covered it each year and cut the power off and it runs great.
+41. (9 likes) Thanks!  No cover this winter!!
+42. (3 likes) I only cover the top to keep the leaves out. I also flush the fins out of what grass gets into it mowing the lawn at the end of the season. I don't know the age of the unit, but it came with the home when I bought it 25 years ago.
+43. (0 likes) Have covered mine over the winter months here in Wisconsin for the last 12 years and neverhad a problem doing so.
 
 ## Newest (20)
 

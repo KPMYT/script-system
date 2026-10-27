@@ -14,5 +14,5 @@
 - Age at collection: 241 days
 - Format: FACELESS PERSONA, possibly an AI avatar or AI narration (not visually verified). Basis: selection label F; description first-person persona ("After 20 years in the field", e-book at askfrankhvac.com, "The HVAC Owner's Bible"), plus "All third-party footage used for commentary under Fair Use"; NexLev check_faceless_channel (cached 2026-10-27) returns isFaceless=false, confidence 0.97, format "educational"; channel joined 2026-02-27. The video itself was not viewed.
 - Transcript: NexLev get_bulk_video_transcripts, 332 segments, 0:00–12:05 (English, auto-generated track)
-- Comments: API commentsCount 1K; collected 31 top + 20 newest (2 overlap)
+- Comments: API commentsCount 1K; collected 38 top + 20 newest (3 overlap)
 - Description CTA line: "📘 THE HVAC OWNER'S BIBLE - everything I check on a system, and on a quote before you sign it: askfrankhvac.com"
