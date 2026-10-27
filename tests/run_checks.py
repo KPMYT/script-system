@@ -602,6 +602,25 @@ check("67. Roger the HVAC Guy: channel row and profile status agree, on hvac-scr
       and '"hvac-scripts": ("archive", "model-file-spec.md")' in bs and '"roger-the-hvac-guy":' in bs and "--refs <hvac-scripts>/SKILL.md" in bs,
       f"row={row.group(1) if row else None} profile={pst.group(1) if pst else None}")
 
+# 68. the HVAC price guide: every row rounded (no cents) and check-marked; the gas-leak and carbon monoxide rows carry every step;
+#     the stale brief figures are warned off; the pack points to it and the builder ships it with the HVAC scanner command
+HPG=f"{HV}/references/price-guide.md"
+hpg=open(HPG).read() if os.path.isfile(HPG) else ""
+hrows=[l for l in hpg.splitlines() if l.startswith("| ") and not l.startswith(("| Item","| Fact")) and not set(l) <= set("|- ")]
+hcents=[l for l in hrows if re.search(r"\$\d[\d,]*\.\d", l)]
+hnocheck=[l for l in hrows if l.rstrip(" |").split("|")[-1].strip() not in ("confirmed","adjusted","thin","in words")]
+gas=next((l for l in hrows if l.startswith("| A gas leak |")),"")
+co=next((l for l in hrows if l.startswith("| A carbon monoxide alarm sounds |")),"")
+gas_need=["get everyone out","light switches","garage door opener","don't light anything","don't start the car","call 911 and the gas company","don't assume someone else","don't go back in","can't smell"]
+co_need=["never ignore it","get everyone out","count heads","call 911","stay out until","don't run it again","medical help","four quick beeps"]
+hmiss=[n for n in gas_need if n not in gas]+[n for n in co_need if n not in co]
+warn=["Never \"9 out of 10\" or \"88%\"","federal tax credits for new heat pumps","\"pure sine\"","Don't quote a whole system at"]
+hwarn=[w for w in warn if w not in hpg]
+check("68. HVAC price guide: 100+ rows, none in cents, each marked; gas-leak and CO rows carry every step; stale figures warned off; the pack and builder use it",
+      len(hrows)>=100 and not hcents and not hnocheck and not hmiss and not hwarn
+      and "references/price-guide.md" in open(HVR).read() and "<hvac-scripts>/references/price-guide.md" in open(f"{ROOT}/tools/build_skills.py").read(),
+      f"rows={len(hrows)} cents={hcents[:3]} nocheck={hnocheck[:3]} missing={hmiss} warn={hwarn}")
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")
