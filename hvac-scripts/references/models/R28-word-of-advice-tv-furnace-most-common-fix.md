@@ -161,4 +161,4 @@ The multiple is 140.71x on a small channel (`notes/INDEX.md`). `comparison/04-mo
 - **Next-video pointer:** [8:38] "this video is a condensed version. I have another video"
 - **No call-a-pro trigger:** nothing says what to do if a clean sensor doesn't keep the flame on (a newest comment found the rollout switch instead; Roger names the trigger, and never suggests resetting or bypassing a rollout switch).
 - **No carbon monoxide line on a gas furnace job** (our default gives the CO steps in full whenever burners and gas are in the script).
-- **Caption slips kept verbatim, not facts:** [0:19] "train" (Trane); [6:16] "ream" (Rheem); [6:54] "80enters" (80-percenters); [6:27] "needlense" (needle-nose pliers); [4:27] "scotch spray pad" (Scotch-Brite pad).
+- **Caption slips kept verbatim, not facts:** [0:19] "train" (Trane); [6:16] "ream" (Rheem); [6:54] "80enters" (80-percenters); [6:28] "needlense" (needle-nose pliers); [4:27] "scotch spray pad" (Scotch-Brite pad).

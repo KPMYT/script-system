@@ -48,6 +48,8 @@ The script system is split into separate skills, one per layer. They're all inst
 | the persona profile `personas/roger-the-pipe-guy.md` | the **roger-the-pipe-guy-persona** skill: its `SKILL.md` is the profile |
 | the persona profile `personas/mark-silverbridge.md` | the **mark-silverbridge-persona** skill: its `SKILL.md` is the profile |
 | the persona profile `personas/vintage-pipefitter.md` | the **vintage-pipefitter-persona** skill: its `SKILL.md` is the profile (this channel has no book) |
+| the niche pack `hvac-scripts` | the **hvac-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder (with `references/models/`) |
+| the persona profile `personas/roger-the-hvac-guy.md` | the **roger-the-hvac-guy-persona** skill: its `SKILL.md` is the profile (this channel has no book for now) |
 | a book text `personas/books/<channel>-book.md` | inside that channel's persona skill, at the same path |
 
 If a skill the chosen channel needs isn't installed, stop with the NOT READY block (`core/workflow.md`, section 5) and name the missing skill.
@@ -76,13 +78,19 @@ Plumbing (the pack's copy-guard files: the pack's own SKILL.md, the excerpts, th
 ```
 python3 core/script-scanner.py SCRIPT --rules <plumbing-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF <plumbing-scripts>/references/price-guide.md --title "LOCKED TITLE" --refs <plumbing-scripts>/SKILL.md <plumbing-scripts>/references/excerpts.md <plumbing-scripts>/references/voice-samples.md <plumbing-scripts>/references/models/*.md <channel-persona>/SKILL.md
 ```
+
+HVAC (the same shape as plumbing, with the HVAC pack's files):
+
+```
+python3 core/script-scanner.py SCRIPT --rules <hvac-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF <hvac-scripts>/references/price-guide.md --title "LOCKED TITLE" --refs <hvac-scripts>/SKILL.md <hvac-scripts>/references/excerpts.md <hvac-scripts>/references/voice-samples.md <hvac-scripts>/references/models/*.md <channel-persona>/SKILL.md
+```
 """
 
 INSTALL = """# Installing the skills
 
 **Version:** {stamp}
 
-Eleven skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
+Thirteen skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
 
 | File | Layer | What it does | On your account now |
 |---|---|---|---|
@@ -95,6 +103,8 @@ Eleven skill files, one per layer (`script-writer` also comes as `script-writer.
 | `roger-the-pipe-guy-persona.skill` | Channel | Roger's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
 | `mark-silverbridge-persona.skill` | Channel | Mark's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
 | `vintage-pipefitter-persona.skill` | Channel | The Vintage Pipefitter's profile and its one-line subscribe ask (no book). | **Replace** the copy on the account (delete it, upload this). |
+| `hvac-scripts.skill` | Niche | The HVAC rules for Roger the HVAC Guy (built from the plumbing rules: the opening, emotion, villain, video types, CTAs, the ending, length, voice, proof, money, HVAC safety), the HVAC model scripts, the HVAC price guide and the copy guard's files. | **New:** upload it. |
+| `roger-the-hvac-guy-persona.skill` | Channel | Roger the HVAC Guy's profile (the same Roger, in HVAC) and his one-line subscribe ask (no book for now). The channel shows as not ready until its first test passes. | **New:** upload it. |
 | `woodworking-ideation.skill` | Ideation | The Etsy-first product scan (30 products), title and thumbnail-text options, fact briefs, the optional research pack. | **Replace** the copy on the account (delete it, upload this). |
 | `plumbing-ideation.skill` | Ideation | Plumbing titles and briefs for Roger, Mark, Vintage and Werner; briefs now give each item its cost and the right way (the script fills gaps from the plumbing price guide). | **Replace** the copy on the account (delete it, upload this). |
 | `ideation-core.skill` | Ideation | The shared base every ideation skill needs. | **Unchanged:** only install it where it's missing (for example a new VA account). |
@@ -104,7 +114,7 @@ All of the script skills must be installed together: `script-writer` stops with 
 ## Steps
 
 1. **Delete** the old copies of `plumbing-ideation`, `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona` and `vintage-pipefitter-persona`.
-2. **Upload all eleven from this build together**: those nine, `script-writer` and the new `sawdust-sam-persona` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
+2. **Upload all thirteen from this build together**: those nine, `script-writer`, the new `sawdust-sam-persona`, and the new `hvac-scripts` and `roger-the-hvac-guy-persona` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
 3. **Upload `ideation-core`** only if the account doesn't have it.
 4. **Turn them all on.**
 
@@ -149,12 +159,14 @@ PERSONAS = {
     "roger-the-pipe-guy": ("Roger the Pipe Guy", "personas/roger-the-pipe-guy.md", "personas/books/roger-the-pipe-guy-book.md"),
     "mark-silverbridge": ("Mark Silverbridge", "personas/mark-silverbridge.md", "personas/books/mark-silverbridge-book.md"),
     "vintage-pipefitter": ("The Vintage Pipefitter", "personas/vintage-pipefitter.md", None),  # no book for now
+    "roger-the-hvac-guy": ("Roger the HVAC Guy", "personas/roger-the-hvac-guy.md", None),  # no book for now (2026-10-27)
 }
 
 # niche packs: folder -> what the installed skill leaves out
 PACKS = {
     "woodworking-scripts": ("archive",),
     "plumbing-scripts": ("archive", "model-file-spec.md"),
+    "hvac-scripts": ("archive", "model-file-spec.md"),
 }
 
 def build_script_writer():

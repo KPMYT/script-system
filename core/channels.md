@@ -15,6 +15,7 @@ The workflow shows this list at START. A channel can only be scripted when its s
 | 4 | Mark Silverbridge | `plumbing-scripts` | `personas/mark-silverbridge.md` | ready |
 | 5 | The Vintage Pipefitter | `plumbing-scripts` | `personas/vintage-pipefitter.md` | ready |
 | 6 | Sawdust Sam | `woodworking-scripts` | `personas/sawdust-sam.md` | ready |
+| 8 | Roger the HVAC Guy | `hvac-scripts` | `personas/roger-the-hvac-guy.md` | pending |
 
 ## Adding a channel
 

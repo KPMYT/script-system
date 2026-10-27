@@ -401,7 +401,7 @@ ban: stay tuned | tease
 ban: horror movie | hype that got mocked
 ban-regex: \bbrutal tests?\b | hype that got mocked
 ban: keep your cool | the faceless leader's catchphrase (Ray Dutton)
-ban-regex: \bthe same companies\b | the faceless leader's catchphrase (Ray Dutton)
+ban-regex: \bsame companies\b | the faceless leader's catchphrase (Ray Dutton)
 ban-regex: \bnone of this is hidden\b | the faceless leader's catchphrase (Ray Dutton)
 ban-regex: \bif this (?:video )?saved you (?:a|the|one) (?:call|visit|service call|trip)\b | the faceless leader's catchphrase (Ray Dutton)
 ban-regex: \bargue against myself\b | the faceless leader's catchphrase (Ray Dutton)
