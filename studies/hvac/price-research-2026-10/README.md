@@ -5,8 +5,8 @@ The evidence behind `hvac-scripts/references/price-guide.md`. Collected for the 
 ## How it was done
 
 1. **Job lists** (`jobs.md`): four groups (A calling a tech and furnace parts; B AC, heat pumps and replacement quotes; C filters, the shelf, drafts and the outage; D facts and safety), drawn from batch 1's 16 briefs, the HVAC study's comments and the pack diagnosis.
-2. **First pass** (`A-research.md` to `D-research.md`): one researcher per group, two or more independent publishers or retailers per figure, each source with its URL, figure and date, tagged "read live", "fetched" or "via search". Each also flagged batch-1 brief figures that didn't hold up.
-3. **Second pass** (`A-verify.md` to `D-verify.md`): a different researcher per group checked the figures against publishers the first researcher didn't use, with a verdict (confirmed, adjust, disputed, unverified), a suggested script range, live spot-checks and flags for old or easy-to-dispute figures. Each had 12 web searches; page reads didn't count.
+2. **First pass** (`A-research.md` to `D-research.md`; `E-research.md` added three shelf items the first HVAC test needed): one researcher per group, two or more independent publishers or retailers per figure, each source with its URL, figure and date, tagged "read live", "fetched" or "via search". Each also flagged batch-1 brief figures that didn't hold up.
+3. **Second pass** (`A-verify.md` to `E-verify.md`): a different researcher per group checked the figures against publishers the first researcher didn't use, with a verdict (confirmed, adjust, disputed, unverified), a suggested script range, live spot-checks and flags for old or easy-to-dispute figures. Each had 12 web searches; page reads didn't count.
 4. **The guide** takes each verifier's suggested range. Its Check column maps the verdicts: confirmed → confirmed; adjust → adjusted; unverified (not re-checked, or one source) → thin; a range the verifier said to keep in words → in words. Section 8 (water damage) and three shelf rows are carried over from the plumbing research with their plumbing marks.
 
 ## Counts
@@ -17,6 +17,7 @@ The evidence behind `hvac-scripts/references/price-guide.md`. Collected for the 
 | B (AC, heat pumps, quotes) | 25 | 13 | 2 | 0 | 10 |
 | C (filters, shelf, drafts, outage) | 39 | 16 | 2 | 0 | 18 (+3 carried over) |
 | D (facts and safety) | 29 | 25 | 3 | 0 | 1 |
+| E (tester, emery cloth, scrub pads; added after the first HVAC test) | 3 | 3 | 0 | 0 | 0 |
 
 Most unverified rows in B and C are minor items the verifier didn't re-check, to keep the search budget for the rows scripts use most.
 

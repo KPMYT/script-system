@@ -1,6 +1,6 @@
 # HVAC price guide
 
-Typical US prices for the jobs, parts, replacement quotes and shelf items these channels talk about, plus the safety facts. Researched 2026-10-27 by four researchers (two or more independent publishers or retailers per figure), then re-checked job by job by four other researchers against publishers the first ones didn't use. The full research, every source and every verdict are in `studies/hvac/price-research-2026-10/`. Re-check the guide once a year: prices drift, and refrigerant rules change.
+Typical US prices for the jobs, parts, replacement quotes and shelf items these channels talk about, plus the safety facts. Researched 2026-10-27 by four researchers (a fifth added three shelf items after the first test) (two or more independent publishers or retailers per figure), then re-checked job by job by four other researchers against publishers the first ones didn't use. The full research, every source and every verdict are in `studies/hvac/price-research-2026-10/`. Re-check the guide once a year: prices drift, and refrigerant rules change.
 
 ## How to use it
 
@@ -116,6 +116,9 @@ Store-brand prices, October 2026, across at least two retailers. Vinegar, peroxi
 | Basic programmable thermostat | in words: "a basic one is about $50" | in words |
 | Smart thermostat | about $100 to $250 | thin |
 | Space heater | $30 to $100 for an ordinary 1,500-watt heater | confirmed |
+| Non-contact voltage tester (pen type) | about $15 to $25; a Klein about $20 | confirmed |
+| Very fine emery cloth (a roll) | about $7 to $15; small stores may have to order the very fine grit | confirmed |
+| Green scrub pads (Scotch-Brite type) | a few dollars a pack, about $3 to $6 | confirmed |
 
 Don't name a carbon monoxide alarm model on screen: the maker has dropped some of the best-known ones.
 
