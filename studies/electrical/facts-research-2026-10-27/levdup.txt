@@ -1,0 +1,160 @@
+                                                                               Duplex Receptacle
+                                                                                      Cat. No. AC215
+                                                                                        15A-125V
+                                                                                      Cat. No. AC220
+PK-93601-10-00-0B
+                                                                                        20A-125V
+                                                                        INSTALLATION INSTRUCTIONS
+WARNINGS AND CAUTIONS:                                                                           WARNINGS AND CAUTIONS:
+• To be installed and/or used in accordance with appropriate electrical codes                    • Disconnect power at circuit breaker or fuse when servicing, installing or
+  and regulations.                                                                                 removing device.
+• If you are unsure about any part of these instructions, consult a qualified                    • Use this device only with copper or copper clad wire. With aluminum wire use
+  electrician.                                                                                     only devices marked CO/ALR or CU/AL.
+• The Acenti™ Duplex Receptacle uses a multi-function self-grounding clip
+  that provides an automatic ground connection in a properly grounded metal
+  wall box.
+
+ Tools needed to install your                                        Step 3 Installing your Alignment Plate:                  Step 3 cont'd
+ Receptacle:
+                                                                                                                                   Alignment Plate Held By Mounting Screw
+ Slotted/Phillips Screwdriver
+ Pliers
+ Cutters
+                                                                              Important Notice for Installer
+                                                                                                                                                                 Mounting
+                                                                     To achieve proper aesthetic installation of the                                             Screw
+                                                                                                                                                    TOP
+                                                                     Acenti products, the wall surface surrounding
+ INSTALLING YOUR RECEPTACLE                                          the wall box opening must be fairly flat and free                                           Alignment
+                                                                                                                                                                 Plate
+ NOTE: Use check boxes         √ when Steps are                      of irregularities. The wall box must be level and
+ completed.                                                          recessed or flush to the wall surface. The Acenti
+                                                                     installation system allows for adjustments that
+  Step 1 WARNING: TO AVOID FIRE, SHOCK,                              will correct minor flaws that may be present in
+             OR DEATH; TURN OFF POWER at circuit                     the installation area.
+             breaker or fuse and test that power is off
+             before wiring!                                          This device must be installed with the Acenti™
+                                                                     Alignment Plate. The Alignment Plate is
+                                                                                                                                       Alignment Plate Held By Wires
+                                                                     packaged with the Acenti™ Wallplate, which is
+       OFF   ON   OFF   ON
+       OFF   ON   OFF   ON
+                                                                     sold separately from this device.
+       OFF   ON   OFF   ON
+                  OFF   ON
+                                                                     The Alignment Plate will function properly only if
+       OFF   ON
+       OFF   ON   OFF   ON
+                                                                     it is mounted to a flat wall surface as described
+       OFF   ON   OFF   ON                                           above.                                                                           TOP
+
+
+
+                                                                     • Leviton recommends to temporarily position
+                                                                       the Alignment Plate prior to wiring the device.
+  Step 2 Preparing wires:                                              If the wall box wires extend at least 6 inches
+             This receptacle can be wired using                        out of the wall box, it is also possible to install
+             side wire terminal screws or through                      the Alignment Plate after the device has been
+             backwire openings. Choose appropriate                     wired (refer to Wallplate instruction sheet).
+             wire stripping specifications accordingly.
+                                                                     • The Alignment Plate must be installed with                       Alignment Plate Held By Tape
+                                            Strip 1/2" (Back wire)     the tab towards the bottom.
+                                            Strip 3/4" (Side wire)
+                              Cut                                    • Leviton recommends the following 3 methods                                               Electrical
+                    (if necessary)
+                                                                       to temporarily hold the Alignment Plate –                                   TOP          Tape
+                                                                       use of device mounting screw, use of wall box
+                                                                       wires, or use of electrical tape (refer to the
+                                                                       following figures):
+                                     • Make sure that the ends
+      3/4"                             of the wires from the
+    (1.9 cm)           1/2"            wall box are straight
+   Side Wire         (1.3 cm)          (cut if necessary).
+                    Back Wire
+                                     • Remove insulation from
+                                       each wire in the wall
+                                       box as shown.                                                                          • For Single Feed Wiring, go to Step 4a.
+Strip Gage (measure bare wire here)                                                                                           • For Separate Feed Wiring, go to Step 4b.
+                                                                                                              Step 4
+                                                                                                              cont'd
+
+
+Step 4a Installing your Receptacle                                                                             Step 4b Installing your Receptacle –                                                                            Step 4b cont'd
+                      (15A device depicted) –                                                                                         Separate Feed Wiring:
+                      Single Feed Wiring:                                                                              Our receptacle is provided with a break-off fin                                                         • White (Neutral 2) wall box wire to remaining
+                                                                                                                       located between each of the two pairs of                                                                  Silver screw.
+                                                                                                                       terminal screws on both sides of the device. If                                                         • Tighten terminal screws to 14-16 in.-lbs. of
+                                                                                                                       you want to have the top outlet and the bottom                                                            torque.
+                                                                                                                       outlet controlled by two different hot wires (two                                                       TO BACK WIRE:
+                                                                                                                       circuits), remove the break-off fins between the
+                                                                                                                       two Brass screws and between the two Silver                                                             NOTE: Back wire terminals accept up to #10 AWG
+                                         Neutral
+                                                                                                                       screws before wiring. With needlenose                                                                   wire.
+                                           Hot                                                                         pliers, bend fin back and forth until it breaks off.
+                                                                                                                                                                                                                               • Insert straight wires into holes next to appropriate
+                                                                                                                                                                                                                                  terminal screws.
+                                                                                                                                                                                                                               • Loop Green or bare copper wall box wire
+                                        Ground                                                                                                                                                                                    (Ground) clockwise 3/4 turn around Green
+                                                                                                                                                         (2 sides)                                                                terminal screw.
+                                                                                                                                                                                                                               • Line 1 Black (Hot) wall box wire to Brass screw hole.
+                                                                                                                                                                                                                               • Line 2 Black (Hot) wall box wire to remaining
+                                                                                                                                                                                                                                  Brass screw hole.
+                                                                                                                                                                                                                               • White (Neutral 1) wall box wire to Silver screw
+                                                                                                                                                                                                                                  hole.
+                                                                                                                                                                                                                               • White (Neutral 2) wall box wire to remaining
+                                                                                                                                                                                                                                  Silver screw hole.
+                                                                                                                                                                                                                               • Tighten terminal screws to 14-16 in.-lbs. of torque.
+                                                                                                                                                                                                                               NOTE: The Acenti™ Duplex Receptacle uses a
+                                                                                                                                                                  Neutral                                                      multi-function self-grounding clip that provides an
+                                                                                                                                                                    Hot
+                                                                                                                                                                                                                               automatic ground connection in a properly grounded
+                                                                                                                                                                                          Neutral                              metal wall box.
+
+                                                                                                                           Fin                                                              Hot
+
+                                                                                                                                                                                                                               Step 5 Receptacle Mounting:
+                                                                                                                     removed                                     Ground
+Connect wires per WIRING DIAGRAM as follows:                                                                         (2 sides)
+TO SIDE WIRE:
+NOTE: Side wire terminals accept up to #10 AWG
+                                                                                                                                                                                                                                                     TOP
+wire.
+• Loop wires clockwise 3/4 turn around terminal                                                                                                                                                                                                                  To complete the Acenti™
+   screws.                                                                                                                                                                                                                                                       Receptacle and Wallplate
+• Green or bare copper wall box wire (Ground) to                                                                                                                                                                                                                 installation, please refer to the
+   Green screw.                                                                                                                                                                                                                                                  instructions included with the
+• Black (Hot) wall box wire to Brass screw.                                                                                                                                                                                                                      Acenti™ Wallplate and
+• White (Neutral) wall box wire to Silver screw.                                                                                                                                                                                                                 Alignment Plate.
+• Tighten terminal screws to 14-16 in.-lbs. of torque.
+• Proceed to Step 5.
+TO BACK WIRE:
+NOTE: Back wire terminals accept up to #10 AWG
+wire.
+• Insert straight wires into holes next to appropriate
+                                                                                                                                                                                                                              For additional information, contact the Acenti™
+   terminal screws.
+• Loop Green or bare copper wall box wire (Ground)                                                                                                                                                                            Information Hotline at 1-888-4-ACENTI or visit
+                                                                                                              Connect wires per WIRING DIAGRAM as follows:                                                                    Leviton's website at www.leviton.com/acenti
+   clockwise 3/4 turn around Green terminal screw.                                                            NOTE: Side wire terminals accept up to #10 AWG
+• Black (Hot) wall box wire to Brass screw hole.                                                              wire.                                                                                                                        U.S. & Foreign Patents Pending
+• White (Neutral) wall box wire to Silver screw
+                                                                                                              TO SIDE WIRE:                                                                                                       Copyright© 2004 Leviton Manufacturing Co., Inc.
+   hole.
+                                                                                                              • Loop wires clockwise 3/4 turn around terminal                                                                     All Rights Including Trade Dress Rights Reserved
+• Tighten terminal screws to 14-16 in.-lbs. of torque.
+• Proceed to Step 5.                                                                                             screws.
+                                                                                                              • Green or bare copper wall box wire (Ground)
+NOTE: The Acenti™ Duplex Receptacle uses a multi-                                                                to Green screw.
+function self-grounding clip that provides an                                                                 • Line 1 Black (Hot) wall box wire to Brass screw.
+automatic ground connection in a properly grounded                                                            • Line 2 Black (Hot) wall box wire to remaining
+metal wall box.                                                                                                  Brass screw.
+                                                                                                              • White (Neutral 1) wall box wire to Silver screw.
+
+                                                                                                                                            LIMITED 5 YEAR WARRANTY AND EXCLUSIONS
+Leviton warrants to the original consumer purchaser and not for the benefit of anyone else that this product at the time of its sale by Leviton is free of defects in materials and workmanship under normal and proper use for five years from the purchase date. Leviton’s only obligation is to correct such defects by
+repair or replacement, at its option, if within such five year period the product is returned prepaid, with proof of purchase date, and a description of the problem to Leviton Manufacturing Co., Inc., Att: Quality Assurance Department, 59-25 Little Neck Parkway, Little Neck, New York 11362-2591. This
+warranty excludes and there is disclaimed liability for labor for removal of this product or reinstallation. This warranty is void if this product is installed improperly or in an improper environment, overloaded, misused, opened, abused, or altered in any manner, or is not used under normal operating conditions or not
+in accordance with any labels or instructions. There are no other or implied warranties of any kind, including merchantability and fitness for a particular purpose, but if any implied warranty is required by the applicable jurisdiction, the duration of any such implied warranty, including merchantability and
+fitness for a particular purpose, is limited to five years. Leviton is not liable for incidental, indirect, special, or consequential damages, including without limitation, damage to, or loss of use of, any equipment, lost sales or profits or delay or failure to perform this warranty obligation. The remedies
+provided herein are the exclusive remedies under this warranty, whether based on contract, tort or otherwise.                                                                                                                                                                                     PK-93601-10-00-0B
+

@@ -1,0 +1,181 @@
+# IkQ35ebwQeY | How to Extend Short Wires | Easy Fix Anyone Can Do | The DIY Guy
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [startTime] text. Raw auto-captions, unedited.
+[0:00] all right guys so you've clicked on this
+[0:02] video because you want to learn how to
+[0:04] extend electrical cables just like this
+[0:07] one because maybe someone's cutting Too
+[0:09] Short like this one or maybe you're
+[0:11] moving a socket or something like that
+[0:13] and you haven't got a lot of room and
+[0:14] you need to know how to extend them
+[0:16] cables well I've got a couple of simple
+[0:17] little techniques that'll teach you how
+[0:19] to do this job really really easily
+[0:21] first of all I've got the most
+[0:22] traditional method for you and then
+[0:24] later on in the video there's a much
+[0:26] much simpler and more modern way of
+[0:28] doing this job so stick around to the
+[0:29] end because you're not going to want to
+[0:31] miss it
+[0:35] foreign
+[0:36] [Music]
+[0:41] now before you do anything on electrical
+[0:43] circuits do make sure that you're
+[0:45] confident and more importantly competent
+[0:47] to work on basic electrical circuits and
+[0:50] if you're not do give an electrician a
+[0:52] call now before you go doing any work on
+[0:54] the electrical system do make sure that
+[0:56] the circuit you're working on is
+[0:57] isolated and that there's no power going
+[0:59] to the cable that you're working on so
+[1:01] when the first fix was done and the
+[1:03] wires were put in somebody left this
+[1:05] cable far too short and I need to extend
+[1:07] that so that I can wire it into the back
+[1:09] of this socket and then put that socket
+[1:11] back to the wall so as you can see we
+[1:13] can't pull any more wire through we do
+[1:15] need to strip these wires back so if you
+[1:18] can just about get a set of wire
+[1:19] strippers in there just strip the wire
+[1:22] back can be a little bit fiddly because
+[1:24] there's not a lot of room to work
+[1:27] we'll just pop a little bit of a
+[1:28] sleeving on that Earth wire so for our
+[1:30] first method of fixing this short cable
+[1:33] what we're going to do is use some 2.5
+[1:36] mil blue crimps so you want to grab
+[1:38] yourself three of those because we've
+[1:40] got three conductors that we need to
+[1:42] extend and grab yourself a length of 2.5
+[1:45] mil twin enough now cut off a length
+[1:48] suitable for your application in this
+[1:51] case I only need to extend them a very
+[1:53] short amount so I'll just cut off a
+[1:55] short amount of wire
+[1:57] like that and then strip that back so
+[2:00] that I reveal the conductors inside you
+[2:03] can just pull out the wires from the
+[2:06] outer sheath again when you're doing
+[2:07] this you just want to strip them back
+[2:09] and do that on both veins do the same
+[2:12] with the neutral conductor and with your
+[2:14] Earth cable that's the bare wire just
+[2:16] add a piece a Verve sleeving
+[2:20] so you now have your three extensions
+[2:22] you've got the live the neutral and the
+[2:25] Earth in no particular order let's start
+[2:27] with the live conductor grab one of the
+[2:29] 2.5 mil crimps the links to these are
+[2:32] below in the description if you want to
+[2:34] grab some slide that onto one end of the
+[2:36] conductor take hold of the crimping tool
+[2:38] and where you can see that blue dot just
+[2:40] place the crimp into the Jaws so that it
+[2:43] looks something like that and then you
+[2:45] can crimp one end of the crimp onto the
+[2:49] cable you heard it click that means it
+[2:52] has reached the required pressure and
+[2:54] you can then let go of the crimping tool
+[2:57] and you'll see there that one side of
+[2:59] that crimp has been crimped onto the
+[3:03] conductor now go ahead and place the
+[3:05] other end of that crimp onto the live
+[3:08] conductor and then line up one edge of
+[3:10] your crimping tool with the middle Mark
+[3:13] and lock that crimping tool down over
+[3:16] the crimp again when you hear the click
+[3:19] you'll know that quiet pressure has been
+[3:22] reached and you can let go of the
+[3:23] crimping tool so give that a squeeze you
+[3:26] hear that click just let go
+[3:28] and you'll see
+[3:30] that I'll crimp has been locked on to
+[3:33] the cable and it should look something
+[3:36] like that you can now repeat that
+[3:38] process for the neutral cable that's the
+[3:40] blue one and the Earth cable which is
+[3:42] the yellow and green one and then we'll
+[3:44] take a look at much more modern and
+[3:47] simpler method to doing this job but
+[3:49] before we do that if you like the video
+[3:51] hit that like button for me because that
+[3:53] really helps the video to reach and help
+[3:55] more people on YouTube and hit the
+[3:57] Subscribe button if you like DIY content
+[3:59] there's loads more to come on the
+[4:01] channel so you can see that using the
+[4:02] crimps we've now extended those cables
+[4:04] and they know plenty long enough to wire
+[4:07] up that socket I'm going to take them
+[4:08] all off again because I like to give
+[4:10] myself work not and show you all a much
+[4:13] easier method so now on to what I think
+[4:15] is a much quicker easier and simpler way
+[4:18] of extending these cables and that is
+[4:22] the inline splice connector now they are
+[4:26] a push fit connector rated up to 32 amps
+[4:30] and then absolutely perfect for joining
+[4:32] cables like these together in a tight
+[4:34] confined space because if you look at
+[4:36] them compared to a crimp yes okay they
+[4:40] are a little bit bigger but not enough
+[4:42] to make a difference it's not like
+[4:44] you're not going to be able to fit these
+[4:45] in your Knockout Box they will fit nice
+[4:48] and easily so let's go ahead and I'll
+[4:50] show you how to fit the inline splice
+[4:53] all you need to do is grab one end of
+[4:55] the stripped back cable and push the
+[4:58] connector onto the cable and you can see
+[5:01] that is locked on there solid now grab
+[5:03] your extension and push that into the
+[5:06] other end of the connector and you can
+[5:08] see there that's perfectly connected we
+[5:10] can do that with the other two cables as
+[5:12] well push that live wire in there
+[5:14] [Applause]
+[5:16] and we'll do the same with the neutral
+[5:18] wire as well
+[5:21] how much easier and quicker was that
+[5:25] I don't think there's much of a contest
+[5:26] since using these I haven't gone back to
+[5:29] the crimps because for me these do a
+[5:32] much better job they're much easier so
+[5:34] the links in the description if you want
+[5:35] to go grab yourself some I highly
+[5:37] recommend them
+[5:39] and I can now go ahead and wire up my
+[5:41] new socket of course the brown wire
+[5:43] which is a live wire goes into the live
+[5:45] terminal do that nice and tight give it
+[5:48] a pull just to check it doesn't come out
+[5:50] the neutral wire which is the blue wire
+[5:52] goes into the neutral terminal and the
+[5:55] amp wire goes into the F terminal
+[5:58] so you can see our socket is now wide up
+[6:00] and our wires are extended successfully
+[6:03] and look how little space these actually
+[6:05] take up we can now push those wires into
+[6:08] the corners of the box and we've got
+[6:11] plenty of room in there to screw our
+[6:13] socket back to the wall
+[6:19] the wires are extended the socket's been
+[6:21] fitted nice and easily and that quick
+[6:23] and easy little job has got me out of a
+[6:25] real model that loads of people get
+[6:27] really worried about guys I hope the
+[6:28] video has helped some of you out if it
+[6:30] has hit like hit subscribe because you
+[6:32] don't want to miss out on all the great
+[6:34] content I've got to come oh and check
+[6:36] out the patreon we've got Discord over
+[6:38] there we all help each other out if
+[6:40] you're doing a little job on a Saturday
+[6:41] or Sunday you're getting a muddle you
+[6:43] can stick a little text on the Discord
+[6:45] group someone will come back to you and
+[6:46] give you a hand go check it out and I'll
+[6:49] see you guys in the next one

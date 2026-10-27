@@ -1,0 +1,397 @@
+# fB6uI7NPxRs | The BEST Way To Connect A Generator To Your House - Interlock Kit With Power Inlet Box Install | How To Home
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:00] hey y'all adam here and today i'm going
+[0:02] to be installing a new 50 amp power
+[0:04] inlet box with an interlock kit so that
+[0:07] in the event of a power outage i'm able
+[0:09] to power my entire house using my
+[0:12] portable generator and an interlock kit
+[0:14] with this installation is just simply a
+[0:16] must not just from a code standpoint but
+[0:19] from a safety standpoint as well and of
+[0:21] course if you're planning on having one
+[0:23] of these installed on your house and you
+[0:25] don't feel comfortable around
+[0:26] electricity or especially around that
+[0:28] much electricity and there is absolutely
+[0:30] no shame in giving a call to your local
+[0:33] electrician and having them come out and
+[0:35] install it for you that way you know
+[0:37] it's done right and you know that you're
+[0:39] also going to be safe so let's go ahead
+[0:41] and jump into it so this is going to be
+[0:43] mostly what i'm going to be installing
+[0:44] today and also some of the tools i'm
+[0:46] going to be using to do it so this is
+[0:49] the power inlet box this is a 50 amp
+[0:51] power inlet box and what i ended up
+[0:54] doing is i went on amazon and was
+[0:56] looking for one of the highest rated but
+[0:58] also least expensive power inlet boxes
+[1:00] that i could find so this one had some
+[1:02] really good reviews and what i like
+[1:04] about this one
+[1:05] is that it's just bigger than most of
+[1:08] the power inlet boxes or i should say at
+[1:10] least it's wider than a lot of the power
+[1:12] inlet boxes that you can buy and that's
+[1:15] going to make it easier to then wire all
+[1:17] of this up and then also it's going to
+[1:19] create less strain on those wires as
+[1:21] they just sit in there i've had one of
+[1:23] the reliance boxes that are like this
+[1:25] one and the really the only difference
+[1:27] that i can really tell between this and
+[1:29] that one is
+[1:31] the lid is not spring loaded so this one
+[1:34] you have to open and close manually and
+[1:36] on this they've got this little green
+[1:37] light that lights up when power is
+[1:39] flowing through it i guess to let you
+[1:41] know that power is flowing through it i
+[1:43] think it's more of a gimmick but some
+[1:45] people really seem to like it
+[1:47] now one of the negatives or complaints
+[1:49] that i found with this box and it seems
+[1:51] like a lot of the boxes that look like
+[1:52] this one
+[1:53] is that these knockouts that are all
+[1:56] around the box they're not actually
+[1:58] knockouts you can't just bust these out
+[2:01] like you normally would on a box these
+[2:03] are actually going to have to be drilled
+[2:04] so that is just one of the knocks if you
+[2:06] will of not having actual knockouts on
+[2:09] this but like i said this was a lot less
+[2:11] expensive i believe it was at least half
+[2:14] the price
+[2:15] of one of the reliance boxes but since
+[2:17] this is a 50 amp power inlet box i'm
+[2:20] going to be going with number six or six
+[2:22] gauge wire in order to be able to handle
+[2:24] that amperage
+[2:25] the wiring for a 50 amp power inlet box
+[2:28] and say a 30 amp power analog box is
+[2:31] pretty much going to be the exact same
+[2:32] as far as how it's wired but the wiring
+[2:35] size is going to differ so whatever is
+[2:38] being installed make sure that you're
+[2:39] getting the right size wiring for your
+[2:41] particular installation
+[2:43] and then i'm going to be using some
+[2:45] three-quarter inch liquid tight to use
+[2:47] as conduit i found with many of my
+[2:50] installations that this works really
+[2:51] really well and it's also easy to
+[2:53] install and of course i'll have links
+[2:55] down in the description down below where
+[2:56] you can find all of this all right so
+[2:58] let's get this thing installed now
+[2:59] before i go out and shut off the power
+[3:01] in order to install all of this i'm
+[3:02] going to go ahead and again with this
+[3:04] particular box the holes can't be
+[3:06] punched so i'm going to drill it out
+[3:07] with my drill press all right so now
+[3:09] that i've got that hole cut in that box
+[3:10] now i can get started with the wiring so
+[3:12] the first thing i want to do is make
+[3:13] sure that i've got the main breaker shut
+[3:15] off and then after i've got the breaker
+[3:17] shut off then i'm going to take a
+[3:18] multimeter just to confirm that there is
+[3:20] in fact no power flowing underneath of
+[3:23] that main breaker so i'm just going to
+[3:24] mount my power inlet box up onto the
+[3:27] wall and when i'm doing this i always
+[3:29] like to make sure that i'm putting at
+[3:31] least one screw into a stud in this case
+[3:34] since i already had a power inlet box
+[3:35] here i know that there's a stud in my
+[3:37] center hole so i'm just going to reuse
+[3:39] that hole and then put my other two
+[3:41] screws in as added support now i'm going
+[3:43] to take my conduit fittings and i'm
+[3:45] going to insert them into the knockouts
+[3:48] this way with these in place i can get a
+[3:50] more accurate measurement for how long i
+[3:52] need my actual conduit to be
+[3:54] now i'm going to take all of my wires
+[3:56] and put them up together
+[3:57] and then just take some electrical tape
+[3:59] and tape them all together that way they
+[4:01] all stay together as i try to feed it
+[4:02] through everything and also it just
+[4:04] makes it a little bit easier to feed it
+[4:06] through everything and then i'm just
+[4:07] going to take that taped end and shove
+[4:09] it through the 90 and then after i get
+[4:11] through that 90 everything's going to be
+[4:12] super easy
+[4:15] now i'm just going to take my little
+[4:16] short piece of conduit and then run my
+[4:18] wiring all the way through the conduit
+[4:20] once the wiring is run all the way
+[4:22] through then i'll just reconnect it to
+[4:23] the connector coming out of the main
+[4:25] panel so now i'm just going to run my
+[4:27] wiring
+[4:28] through this connector and into the
+[4:30] power inlet box then after i've got all
+[4:32] my wiring run through the power inlet
+[4:33] box i'll just take my conduit and
+[4:35] reattach it to the connector on the
+[4:37] power inlet box
+[4:38] all right so the first place i want to
+[4:40] start working is on my power inlet box
+[4:42] so i can go ahead and cut these wires
+[4:44] down to the length that i need them at
+[4:45] to be able to fit into this box
+[4:47] comfortably so i'm going to start with
+[4:49] my green ground wire now a lot of times
+[4:51] when you're installing a ground wire it
+[4:52] mounts directly to the device in this
+[4:54] case with this power inlet box they've
+[4:56] already got a green ground going into
+[4:58] the plug itself it is already grounded
+[5:00] to the front portion of the power inlet
+[5:02] box and then they've got a green ground
+[5:04] going from the front portion of the
+[5:06] power inlet box then connecting to the
+[5:08] rest of the power inlet box here that
+[5:10] way the entire box is grounded so where
+[5:13] i'm going to be connecting my green
+[5:14] ground wire is going to be right here
+[5:16] where this green ground wire coming from
+[5:18] the plug is mounted in underneath of
+[5:20] this piece of metal so i'm just going to
+[5:22] unscrew it and then after it's loosened
+[5:24] i'm just going to take my green ground
+[5:25] that's coming from the main panel put it
+[5:28] underneath of that piece of metal and
+[5:29] then i'm going to re-tighten the screw
+[5:31] and then clamp both of the green grounds
+[5:33] down give it a pull and now this box is
+[5:36] completely set up to be grounded all
+[5:38] right so on this plug it's pretty dummy
+[5:40] proof they've actually color coded
+[5:41] everything to designate which wire goes
+[5:43] where so i'm going to start with the
+[5:45] white neutral wire and i'm going to put
+[5:47] it into the white hole on the plug then
+[5:50] after it's put into the hole there's
+[5:51] this lug over here on the side i'm just
+[5:53] going to tighten it all the way down as
+[5:55] hard as i can and then after it's all
+[5:57] tightened down then i'll give it a nice
+[5:59] pull just to make sure it won't come out
+[6:01] and then i'll try to tighten it down a
+[6:02] little bit more
+[6:03] all right so now my white wire is in
+[6:04] place so i'm just going to take my red
+[6:06] wire and put it in the red hole on the
+[6:08] plug push it all the way in until it's
+[6:10] seated and then tighten it down
+[6:13] and then last but not least i'll take my
+[6:14] black wire and put it into the hole
+[6:17] that's marked black and then tighten it
+[6:19] down all right so my power inlet box is
+[6:22] now completely hooked up so now i can
+[6:24] put it together
+[6:26] now to move on to the main panel so
+[6:28] while i'm getting that backup power all
+[6:30] set up
+[6:31] you can give this video some power
+[6:33] yourself if you're liking the video or
+[6:35] you're finding it be helpful and
+[6:36] informative please do me a big favor and
+[6:39] give it a thumbs up right down below it
+[6:41] really does help the video out to spread
+[6:43] out to more people and hopefully be able
+[6:45] to help them out as well i really
+[6:48] appreciate it let's get back into it so
+[6:50] now i need to take all of my wires and
+[6:52] some of them will get attached to the
+[6:53] box itself and then the hot wires will
+[6:55] get attached into this 50 amp double
+[6:58] pole breaker now this 50 amp double pole
+[7:00] breaker serves a couple of different
+[7:02] purposes of course it's going to be my
+[7:04] on off controlling whether or not power
+[7:06] can go into the house from the generator
+[7:07] or not and then of course in the event
+[7:09] of a surge it's going to protect
+[7:11] everything by tripping the breaker if it
+[7:13] exceeds 50 amps and the reason i'm going
+[7:15] to be using a 50 amp double pull breaker
+[7:17] is because i've installed 50 amp power
+[7:19] inlet box and my generator is capable of
+[7:21] producing 50 amps so i want to be able
+[7:23] to get the maximum amount of power
+[7:25] possible from my generator now of course
+[7:28] if someone was installing a 30 amp power
+[7:30] inlet box you would want to go with a 30
+[7:33] amp double pole breaker just have to
+[7:34] install what's needed for your
+[7:36] particular installation so as always i'm
+[7:38] going to start off with my green ground
+[7:39] wire i'm going to attach it over here to
+[7:42] this ground bus bar that's over here on
+[7:44] the right side so then once i've got it
+[7:46] into the ground bus bar then all i do is
+[7:48] just tighten down that lug right on top
+[7:50] of it as tight as it can go next i'm
+[7:52] going to take my white neutral wire and
+[7:54] it's going to go down here where this
+[7:55] other white neutral wire is so always
+[7:57] want to pay attention to the panels if
+[7:59] you see neutrals on one side on a bus
+[8:01] bar and you see the grounds on the other
+[8:04] side then of course that's designated as
+[8:06] to where they should go
+[8:08] all right so now all i've got left is my
+[8:09] black and my red wires so if you take
+[8:12] the double pole breaker and you flip it
+[8:14] to the bottom side you'll see these two
+[8:16] holes here this is where the wires go up
+[8:19] inside once they are seated all the way
+[8:21] up then there are these lugs right in
+[8:25] here that need to be tightened down that
+[8:26] are going to clamp that wire into place
+[8:29] so i'm going to take my red wire i'm
+[8:31] going to insert it up into this hole
+[8:33] here and it doesn't matter which one it
+[8:35] goes into once it's fully seated then
+[8:37] i'll just tighten down that lug until i
+[8:40] can't tighten it down anymore
+[8:42] give it a good pull
+[8:44] all right so i'm just going to take my
+[8:45] black wire and put it into this last
+[8:47] remaining hole on the double pole
+[8:48] breaker
+[8:50] push it all the way up till it's nice
+[8:51] and seated and then tighten it down all
+[8:53] the way
+[8:54] all right so now all the wiring is
+[8:56] attached now i just need to install the
+[8:57] breaker and it acts like a hinge you've
+[9:00] got these two spots here on the bottom
+[9:02] where the bottom of the circuit breaker
+[9:04] makes contact with first and it goes in
+[9:06] at an angle so i'm just going to go
+[9:08] ahead and put the breaker on those
+[9:10] bottom tabs there
+[9:12] so then once i'm able to rock it on
+[9:13] those two tabs then all i have to do is
+[9:16] just push up on the circuit breaker
+[9:18] and it'll snap into place up here at the
+[9:20] top so now it is installed
+[9:22] all right so now the power inlet box is
+[9:24] completely hooked up and wired up to the
+[9:26] main panel but i still need to install
+[9:29] the interlock kit in order to make this
+[9:31] installation complete turn all the power
+[9:32] back on and test everything out so let's
+[9:34] go ahead and install that now all right
+[9:36] so now that we've got our panel cover in
+[9:38] the garage we can now drill our holes
+[9:41] and we're going to use an 11 64 drill
+[9:43] bit in order to drill this and we're
+[9:45] going to use these pre-drilled holes
+[9:47] that were already in the back plate so
+[9:50] at this point we're able to reattach the
+[9:51] front plate to the back plate and we do
+[9:53] this by using the binder screws that
+[9:56] come in the kit and they'll insert in
+[9:58] through the back part of this panel
+[10:01] cover up through
+[10:02] the holes in the back plate and then of
+[10:05] course through the holes then in the
+[10:07] front plate and then we'll tighten them
+[10:09] down
+[10:10] using
+[10:11] the
+[10:12] binder post or the nuts that come in the
+[10:15] kit we'll tighten them down to where
+[10:18] it's tight but and everything's together
+[10:20] but this front plate is still able to
+[10:22] slide back and forth all right so now
+[10:24] that we've gotten everything tightened
+[10:25] down and this front plate is still able
+[10:27] to slide freely that's exactly how we
+[10:29] want it to be now we'll go back out to
+[10:31] the main panel and put the panel cover
+[10:33] back up on there and test the interlock
+[10:36] kit out on the circuit breakers all
+[10:38] right so now we've got our panel cover
+[10:40] back on we can test to make sure that
+[10:41] this goes back and forth freely which it
+[10:43] does so let's pretend like we're going
+[10:46] to be running our generator we got this
+[10:49] over to the left so now this main
+[10:50] breaker
+[10:51] it can't be turned on it won't allow me
+[10:53] to turn it on but i am able to turn on
+[10:57] the generator breaker let's pretend like
+[11:00] our power has come back and we're
+[11:02] turning off our generator so we'll turn
+[11:03] off the generator breaker we'll turn
+[11:05] this over to the right and so now i
+[11:08] can't turn that generator breaker on
+[11:10] anymore it's stuck but i can turn on
+[11:13] the main breaker to the house
+[11:15] you can also add stickers now to your
+[11:18] panel these and for instance are the
+[11:22] instructions in order to switch
+[11:24] everything over to generator power what
+[11:26] to do and then there's also stickers for
+[11:30] each of the circuit breakers so in order
+[11:33] to run my house using the generator the
+[11:35] first thing i do is i start up my
+[11:37] generator let it warm up
+[11:39] then i will take the female end of the
+[11:41] plug and plug it into the generator
+[11:44] power inlet box that was just installed
+[11:46] and then when it's pushed in and seated
+[11:48] then i just twist it and then it locks
+[11:49] into place then i go to the male end
+[11:52] side of the cord and then i plug it into
+[11:54] the generator itself once it's plugged
+[11:57] in then i turn on the actual breaker and
+[11:59] now power is being supplied to the cord
+[12:02] and to the power inlet box and as you
+[12:04] can see on this particular power inlet
+[12:06] box this is that green light i was
+[12:08] talking about letting us know that the
+[12:09] power is coming into the box now it's
+[12:11] blinking in this picture but that is
+[12:13] just the camera it is actually a steady
+[12:15] light and just like that my entire house
+[12:17] or the breakers that i've selected in my
+[12:19] sub panel are now all being powered and
+[12:22] thanks to my larger generator and my
+[12:24] soft start kit that's made by micro air
+[12:27] i'm also able to power my larger 4 ton
+[12:30] ac unit which is a really big plus being
+[12:33] down in the south now if you don't know
+[12:35] what a soft start kit is or you're
+[12:37] wanting to run your ac unit i have a
+[12:39] video on my channel that shows exactly
+[12:41] what it does and also how i installed it
+[12:44] i'll have a link down in the description
+[12:45] and also one at the end of the video so
+[12:47] i'm all set up now i'm able to use my
+[12:49] generator to power my house in the event
+[12:51] of a power outage and as you saw it was
+[12:54] not too difficult to do now if you like
+[12:56] electrical content or generator related
+[12:58] videos i'm gonna post some videos and
+[13:00] some playlists right over here that you
+[13:02] can click on of some projects that i've
+[13:04] done in the past i hope that you found
+[13:06] this video be helpful if it was please
+[13:08] let me know by giving the video a thumbs
+[13:09] up and of course if you have any
+[13:11] questions or comments at all you can
+[13:13] leave those right down below and i'll
+[13:15] catch you all in the next one see ya

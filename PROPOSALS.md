@@ -115,3 +115,38 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Status:** approved by the operator on 2026-10-25 with a change: "in the hook of plumbing instead of saying 1 and 2 it owuld be better to say something like today i am going to show you the eight things you must check (if it doesnt already)". Applied with a count line in place of the promise block (job 5 of "The opening"), without "today", which the plumbing scanner bans in openings.
 
+
+## P11. A value promise in the electrical opening (opened and approved 2026-10-27)
+
+**Decision (HANDOFF.md section 3):** long-range promises are banned in every niche but plumbing (P3), "by the end of this video" is a hard-banned tease (`core/retention-mechanics.md` §2, `core/script-scanner.py`), and since P10 the plumbing opening carries no promise block.
+
+**Evidence:** the operator, building the electrical pack (2026-10-27), asked whether named promises are allowed in the body only: "allowed in opening if its a simple promise of escalation in the video or a promise to 'by the end of the video you will know x, y and z' as a basic example as long as they are not iteams one 2 and 3 (doesnt have to be 3 items also)". This keeps P10's lesson (an opening that runs down items one and two and then simply starts item one) and allows a promise of what the viewer will be able to do or know by the end.
+
+**Applied (electrical pack only):** `electrical-scripts/SKILL.md`, "The opening" job 5 and the overrides table: one sentence at most, either an escalation ("from the two-minute check to the one that needs an electrician") or what the viewer will know or be able to do by the end, naming things paid later in the video, never the first items in order and never a vague tease. The pack's scanner block lifts the core's "by the end of this video" ban for this pack; "stick around", "stay till the end" and the rest of the tease list stay banned. Every other niche keeps the locked rule. Concrete named forward lines are allowed in the body too (the operator's question was about the body; the answer extended it to the opening).
+
+**Status:** approved by the operator on 2026-10-27 (quoted above).
+
+## P12. Count a "doesn't X. It Y." pair as the one allowed reframe (opened 2026-10-27, electrical pack review R2)
+
+**Decision (core `humanizer.md` H21):** the "it's not X, it's Y" reframe at most once per script.
+
+**Evidence:** plumbing test run 03: the judge counted 2 reframes against a limit of 1, one of them "doesn't drip like water. It leaks gas into your house", while the writer's audit counted 0 (lessons row 27, `studies/electrical/lessons-for-the-pack-2026-10-27.md`). The electrical equivalent ("A tester doesn't measure the wire. It senses the field.") would slip through the same way.
+
+**Proposal:** H21 counts a "doesn't X. It Y." pair across two sentences as the same reframe, on every channel; the scanner gets a judge line for it.
+
+**Status:** open: waiting for the operator.
+
+## P13. Core and audit changes the electrical review asks for (opened 2026-10-27, reviews R4-R7)
+
+**Decision:** core files (`core/script-scanner.py`, `core/greenlight-audit.md`, `core/offer-rules.md`, `core/workflow.md`) and locked rules change only with the operator's yes. The seven electrical reviews (`studies/electrical/pack-review-2026-10-27/`) found these, each tested in a scratch copy of the library with all checks passing:
+
+1. **Tenure check bug (R4 B1, R5 M14, R6 B2):** "thirty-five years in the trade" fails (the scanner reads the "five" again as a second figure; Mark's and Vintage's "forty-five" have the same bug), and a wrong tenure said the electrician way ("forty years as an electrician", "a 40-year electrician") passes. Fix: `(?<![\w-])` in place of `\b` in `TENURE_RX`, electrician words in `_TRADE` and the "-year" pattern, and no re-match inside an earlier number.
+2. **Number check can't read word forms (R4 M2):** "a forty-amp breaker on eight-gauge wire" isn't checked against the brief. Fix: amp, volt, watt, gauge and similar words in `UNIT_WORDS`, and a tokenizer that reads "twelve-two" as two numbers.
+3. **Letter sets judged once (R4 M5):** every GFCI gets its own judge line and pushes the real ones off the list. Fix: judge each set once, with a count. Also "live" as a two-way word (M6) and the "3-in-1" false positive (m7).
+4. **Voice tags inside the script (R6 M12):** "[chuckles]" in the script passes (Frederick's old scripts had them in 16 of 23). Fix: flag brackets in the script part.
+5. **The audit can't be trusted (R7 F6-F8, F11; lessons §4.1):** a `--final` length check that fails a short script; an ITEMS and SENTENCES report from the scanner; a `tools/verify_output.py` that re-counts a delivered output; seven extra evidence lines (scanner line, items, "I" verdicts, turns, title word, originality, emergency) that quote the script. Plus a 35-word sentence limit (run 03's judge fix, never applied).
+6. **Numbers in words (R4 M9):** the electrical pack writes volts, amps, watts and wire sizes in words, against core `workflow.md` §4 "stats are digits": an overrides row to approve.
+7. **Titles with another tenure (R5 M14c):** "title numbers win" is locked; two ideation titles carry "30 years". Proposal: for Frederick, a locked title with any years figure other than 35 goes back to ideation.
+8. **Named companies (R5 M1):** `core/offer-rules.md` §5 bans negative claims about named companies; the operator approved Federal Pacific and Zinsco with what CPSC or inspectors say. Proposal: §5 applies to CTAs, pitches and descriptions; in the body, named companies follow the claims policy. And: may Federal Pacific's independent test results be said, with the source named?
+
+**Status:** open: waiting for the operator (asked 2026-10-27).

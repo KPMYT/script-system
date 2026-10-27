@@ -1,0 +1,375 @@
+# -jeP1d8PC1I | 7 FATAL Wiring Mistakes Most DIYers Don't Know They Are Making | Most Are Guilty of 3 | How To Home
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:00] we are going to be going over some of
+[0:01] the biggest mistakes that diy-ers and
+[0:03] yes some electricians make when
+[0:06] connecting wires together and of course
+[0:07] we'll be going over how to properly
+[0:09] connect them together and also some
+[0:10] better practices so let's go ahead and
+[0:12] Jump Right In let's go all right so
+[0:14] because this is the most common
+[0:15] connection that's made we're going to
+[0:17] start off with solid core to solid core
+[0:19] so what the majority of people do when
+[0:21] they're connecting wires together is
+[0:22] they'll take their two wires they'll put
+[0:23] them up next to each other and then
+[0:25] they'll just take their wire nut put it
+[0:27] in on top and then they'll just tighten
+[0:29] it down to where they're getting some
+[0:31] resistance and then they'll call this
+[0:33] good well the problem with this is while
+[0:35] these two wires are up inside of the
+[0:37] wire nut they are connected currently
+[0:39] this was not done by the manufacturer's
+[0:42] instructions but when you only just
+[0:43] barely twist it on you're not going to
+[0:46] get that connection and you could run
+[0:48] the risk of it being actually a loose
+[0:50] connection and over time one of these
+[0:52] wires just being able to fall out so to
+[0:55] give you a demonstration while nobody's
+[0:57] going to be in your wall pulling on your
+[0:58] wires wires do vibrate due to the
+[1:01] current flowing through them and that's
+[1:03] why eventually they can fall out over
+[1:04] time if you don't have a nice tight
+[1:06] connection using a wire nut this is what
+[1:09] can happen so while both of these wires
+[1:12] were connected underneath of this wire
+[1:14] nut the problem again is the
+[1:16] instructions were not followed as to how
+[1:18] they should have been installed and we
+[1:19] were completely relying on the wire nut
+[1:21] in order to make the connection and hold
+[1:24] these wires together so if you're not a
+[1:26] believer in pre-twisting let me show you
+[1:28] at least what the manufacturer says it
+[1:30] should look like when you just use the
+[1:32] wire nut to twist it on you see how the
+[1:34] two wires are up next to each other now
+[1:36] that's a solid cord and that's a
+[1:37] stranded but it's the same for the solid
+[1:39] core where you're going to have them up
+[1:41] next to each other and then you want to
+[1:42] have this nice twisting going on down
+[1:45] below the wire nut and the reason for
+[1:47] that is this so let's go ahead and put
+[1:49] the wire nut back on and let's twist
+[1:51] this on per the instructions we saw on
+[1:53] the packaging
+[1:54] all right so as you can see I've got
+[1:57] some nice braiding going on down below
+[1:59] the wire nut not only are you going to
+[2:01] get support holding the wires together
+[2:03] down here below but if we take this wire
+[2:06] nut off or for whatever reason this wire
+[2:07] nut was to just fall off once we take
+[2:10] the wire nut off as you can see due to
+[2:13] us twisting it the way that we did it
+[2:16] has formed a joint between these two
+[2:18] wires to where they are essentially
+[2:21] fastened together they are not relying
+[2:23] on the wire nut to hold them together
+[2:24] they are completely braided together
+[2:26] underneath of the wire nut so you know
+[2:28] you're going to have a really good
+[2:29] connection and again there's no way that
+[2:32] they are just going to fall apart so
+[2:34] this is a good and acceptable method but
+[2:36] let me show you what is a more preferred
+[2:38] method by many electricians so this is
+[2:41] what a lot of electricians will do they
+[2:43] will strip just a little bit more
+[2:45] insulation off than you normally would
+[2:47] they'll take their lineman pliers and
+[2:49] they will do what I've already referred
+[2:51] to but they will do what is called
+[2:53] pre-twisting and and the reason that
+[2:55] they do this is again they know that
+[2:57] this is going to form a nice tight joint
+[2:59] to where those wires are not depending
+[3:02] on the wire nut to hold it together and
+[3:04] you know that you're going to have
+[3:05] plenty of surface contact between the
+[3:07] wires and also by doing this before
+[3:09] putting the wire nut on they're able to
+[3:11] verify that they do in fact have a very
+[3:14] tight bond between the wires and then
+[3:16] just cut off the top
+[3:18] that's when then they would take a wire
+[3:20] nut and then put it in on top so in this
+[3:23] case with pre-twisting the wire nut is
+[3:25] primarily used as an insulator to make
+[3:28] sure that those hot leads don't touch
+[3:29] anything that they shouldn't and while
+[3:31] these wires don't necessarily need the
+[3:33] help of the wire nut holding them
+[3:35] together it does still help to reinforce
+[3:38] that nice tight Bond underneath of the
+[3:40] wire nut now this mistake is one that I
+[3:42] see almost all the time and that's using
+[3:45] the wrong wire nut for the job so in
+[3:48] this case I've got this yellow Ideal
+[3:49] wire nut and I've got four number 12
+[3:52] wires and what somebody will do is
+[3:53] they'll take wires that are too large
+[3:55] and the quantity is too many for the
+[3:58] wire nut that they're using but they
+[4:01] will somehow find a way to be able to
+[4:03] shove all those wires up into that wire
+[4:05] nut like so so we've got all of our
+[4:08] wires nothing's just falling out but I
+[4:10] can guarantee you that this wire nut is
+[4:12] way over loaded and one of these wires
+[4:15] is going to be extremely easy to pull
+[4:17] out and there it is that one right there
+[4:20] the first clue that you're overloading a
+[4:22] wire nut is it's going to be very hard
+[4:24] to get all of the wires to actually see
+[4:27] up inside of the wire nut and then once
+[4:29] you get a wire nut on you should always
+[4:30] give the wires a pull and if you've
+[4:33] overloaded a wire nut more than likely
+[4:34] you're going to get the result that I
+[4:36] did where this one was able to be pulled
+[4:37] out extremely easy now on the flip side
+[4:39] of that somebody might be using one of
+[4:41] these bigger blue wire nuts and say they
+[4:43] have two 12 gauge wires well they'll go
+[4:46] they'll put their wires up into the wire
+[4:48] nut they'll go and they'll tighten it
+[4:50] down as you can see they're not just
+[4:53] falling out but with any Force at all
+[4:56] pulling on one of these wires they're
+[4:59] just going to fall right out so the
+[5:01] minimum size that can go in this blue
+[5:03] wire nut is 12 gauge wire but with a
+[5:06] minimum of at least three wires and it's
+[5:09] incredibly easy to know what your wire
+[5:11] nut is capable of almost on every single
+[5:13] package that you can buy in the store of
+[5:15] wire nuts they're going to have this bar
+[5:17] graph on the back back or sometimes it's
+[5:19] on the side that's going to list exactly
+[5:21] what size of wire will fit in that
+[5:24] particular color and that kind of wire
+[5:27] nut and then also the quantities of that
+[5:30] size and then it's going to give you the
+[5:32] minimums and the maximums of each of the
+[5:35] different wire nuts on the packaging now
+[5:37] I'm about to get into a really important
+[5:39] tip so don't go anywhere but really
+[5:41] quickly if you could do me a huge favor
+[5:42] if you're finding value in this video so
+[5:44] far if you could hit that thumbs up
+[5:46] button right down below or leave me a
+[5:48] comment down in the comment section
+[5:49] about what you think about it it really
+[5:51] does help the video out to spread out to
+[5:52] other people and hopefully be able to
+[5:54] help them out as well I really
+[5:56] appreciate it let's get back into it so
+[5:58] this next one is an incredibly common
+[6:00] connection that has to be made and
+[6:02] that's between solid core and Stranded I
+[6:05] would say that this is probably the
+[6:07] hardest one to get right and probably
+[6:09] one of the most common ones to fail so
+[6:12] most of the time you've got your solid
+[6:13] core wire running throughout your house
+[6:15] and then you might be installing like a
+[6:17] light fixture or ceiling fan and almost
+[6:19] every time they're going to come with
+[6:21] this stranded wire and with the fixture
+[6:23] they usually include some sort of crappy
+[6:25] wire nut like this one here which
+[6:27] oftentimes are not necessarily designed
+[6:29] to help promote twisting the wires
+[6:31] together underneath of the wire nut so
+[6:33] what most people will do is they'll take
+[6:35] their two wires and they'll just put
+[6:36] them up right next to each other and
+[6:38] then they'll take their crappy wire nut
+[6:39] and then they'll put that in on top now
+[6:42] this is where it's really not that
+[6:44] uncommon that we see issues pop up so
+[6:47] let's twist this wire nut back off and
+[6:49] as you can see while we had the two
+[6:51] wires up next to each other when the
+[6:53] wire nut was being put on you can see
+[6:56] that that stranded wire is now down
+[6:58] below the solid core wire and this
+[7:01] almost always happens and is why it's so
+[7:04] important to make sure that you follow
+[7:05] the instructions because the
+[7:07] instructions would have told you to do
+[7:09] something a little bit differently and
+[7:11] so while we might think that we have a
+[7:12] good connection here because we tighten
+[7:13] it on pretty tightly it's really not
+[7:16] that hard for that stranded wire to just
+[7:18] be pulled out of there and as you can
+[7:20] see on the stranded wire itself it never
+[7:22] even tried to make an attempt to wrap
+[7:25] itself around the solid core wire so the
+[7:28] easiest way that this should be done is
+[7:31] if we take our two conductors here we
+[7:33] want our stranded wire to be a little
+[7:36] bit longer than the solid core wire at
+[7:39] our starting point before we get the
+[7:41] wire nut put on so now let's go ahead
+[7:43] and instead of using a crappy wire nut
+[7:46] like this one it's always better to use
+[7:49] a name brand wire nut like this one
+[7:50] that's made by ideal because they just
+[7:53] do a better job of wrapping the wires so
+[7:55] let's go ahead put those in there and
+[7:58] tighten it down
+[8:00] and like we've done before we want to
+[8:02] make sure that we keep tightening it
+[8:03] down to where we have some nice winding
+[8:06] going on down below the wire nut all
+[8:08] right so we got a little bit of nice
+[8:09] winding going on down below the wire nut
+[8:11] there's just no way that that wire is
+[8:14] ever going to be pulled out of that wire
+[8:16] nut it's getting support from the
+[8:18] winding here below the wire nut and then
+[8:20] let's go ahead and take the wire nut off
+[8:22] and you see this time the stranded wire
+[8:25] is right on up there as long as the
+[8:29] solid core conductor is and it's also
+[8:32] attempting to wrap itself around that
+[8:35] solid core conductor for the most part
+[8:38] you will probably never have an issue
+[8:40] with this connection here but especially
+[8:42] when it comes to connecting stranded to
+[8:44] solid core another really good option to
+[8:46] use would be these Wago lever nuts here
+[8:49] and these are great especially for this
+[8:51] circumstance because you don't have to
+[8:53] worry about those wires being Twisted
+[8:55] together and while these can be
+[8:57] incredibly easy to use we're going to go
+[8:58] over some mistakes that I've seen and
+[9:00] some of the issues that come with those
+[9:02] mistakes and then also how to fix them
+[9:04] so of course the way that these work is
+[9:06] they've got these levers on them that
+[9:07] you just flip up in order to insert the
+[9:10] wires into the ports here so we'll go
+[9:12] ahead and insert our wires once the wire
+[9:15] is in there you can just flip it down
+[9:16] and now at this point these wires would
+[9:18] be ready to be pushed back into a box
+[9:20] and that's where I've seen a huge issue
+[9:22] come in is when people go to push these
+[9:25] into the back of the box all they're
+[9:26] focused on is trying to get all their
+[9:28] wires into the box sometimes it can be
+[9:31] difficult to do there have been
+[9:33] instances where these levers get caught
+[9:34] on wires and because you're pushing so
+[9:36] hard it will pull the lever up and
+[9:39] unbeknownst to the installer they think
+[9:41] everything is connected and they're
+[9:42] ready to install their new device when
+[9:44] really one of their wires is not secured
+[9:46] at all and can just fall out so it's
+[9:49] really important that when you go to
+[9:51] push these into the back of a box I like
+[9:54] to put my fingers over the levers as I'm
+[9:56] pushing it back into that box and I
+[9:58] won't take my thumb off of those levers
+[10:00] until I have my wires placed the way
+[10:02] that I want them to now another option
+[10:04] that can be taken is to take some
+[10:06] electrical tape and just wrap it around
+[10:08] the Wago making sure that you're going
+[10:10] over those levers and this way the
+[10:12] levers can't be pulled up even if you
+[10:14] wanted to the next mistake I see being
+[10:16] made is people will go to install their
+[10:18] wiring so we'll just go ahead and push
+[10:20] those into each of the ports flip down
+[10:23] the levers now those wires are connected
+[10:25] but as you can see we've got too much
+[10:27] insulation removed from the wires and
+[10:29] this can be dangerous in a box to where
+[10:31] it could lead to arcing this is an
+[10:34] unsafe installation here that could
+[10:35] actually lead to a fire conversely I've
+[10:38] seen where somebody's removed far too
+[10:40] little insulation from one or both of
+[10:42] the wires then they put their wires into
+[10:45] the Wago and while nothing's exposed out
+[10:48] here and everything seems to be secure
+[10:50] and we probably won't have any fires
+[10:52] that start from this I'll show you what
+[10:53] can happen all right so we've got our
+[10:55] connection made and this Wago here and
+[10:57] this is the wire where not enough
+[10:58] insulation was cut off of it so what
+[11:00] will happen is somebody thinks that
+[11:02] they've installed everything properly
+[11:04] they'll turn their circuit breaker on
+[11:06] maybe they'll take a non-contact voltage
+[11:09] detector and just see if they've got
+[11:10] power there which look at there we've
+[11:13] got power going to that conductor there
+[11:15] but then they wonder why when the
+[11:17] receptacle that they've connected to
+[11:19] this wire or the light switch that's
+[11:20] connected to this wire why things don't
+[11:23] work they're not getting power to it or
+[11:25] maybe it's just working intermittently
+[11:27] well while this non-contact voltage
+[11:29] detector tells us that hey we've got
+[11:31] power here let's use a Multimeter and
+[11:33] see what's actually there so again our
+[11:36] non-contact voltage detector is telling
+[11:38] us that we've got active voltage there
+[11:40] but when we go to test it with a
+[11:42] multimeter
+[11:44] it's showing that we're only getting
+[11:46] like four and a half volts so you can
+[11:49] have active power flowing through the
+[11:51] wires and your non-contact voltage
+[11:53] detector might tell you that you've got
+[11:55] power flowing through it which you do
+[11:56] but you do not have enough voltage or at
+[12:00] least a consistent enough voltage
+[12:01] depending on how the wires are to power
+[12:04] up the things that you're wanting to
+[12:05] power so how can we avoid these problems
+[12:07] all together well if we flip it over
+[12:09] here to the side on these wagos you'll
+[12:12] see there's a strip gauge right here and
+[12:15] as long as you strip off the insulation
+[12:17] to be as long as this strip gauge is
+[12:19] showing then you know for sure that
+[12:21] you're stripping off the proper amount
+[12:22] of insulation and guaranteeing a good
+[12:25] connection so obviously in electrical
+[12:27] it's very important to make sure that
+[12:28] you're making good connections and that
+[12:30] isn't just with wires it's also with any
+[12:32] devices that you're going to be
+[12:33] installing such as receptacles or light
+[12:35] switches so if you'd like to learn more
+[12:37] about some of the biggest mistakes that
+[12:38] are made when installing those devices
+[12:39] and of course then also how to better
+[12:41] install them I'll post a link to a video
+[12:44] right over here here if you click on it
+[12:46] now it will take you directly to it if
+[12:47] not I hope that you found value in this
+[12:49] video and if you did if you could do me
+[12:50] a huge favor hit that thumbs up button
+[12:52] right down below and of course if you
+[12:54] have any questions or comments still you
+[12:56] can leave those down in the comment
+[12:57] section and I'll catch you all in the
+[12:59] next one see ya

@@ -272,6 +272,17 @@ From the operator's answers to the 11 questions in `drafts/hvac-pack-diagnosis-D
 - **More Silver Cymbal:** "why is there no silver cymbal also?" His AC-not-cooling video (`_b6p0fkWhCY`, 4.3M) was added as model R44 (with the techs' corrections from its comments labelled), and his AC drain video is a voice sample.
 - **The reference list** (titles and channels) was shown to the operator for confirmation, as asked ("confirm with me which scripts u use as reference also").
 
+### Operator decisions, 2026-10-27 (the electrical pack and Frederick Barnes)
+
+- **Frederick Barnes is the electrical channel** ("we will do frederick for this"); Jack Redfield stays pinned as a possible second lane (niche-research `studies/electrical/`). **35 years** in the trade. **No book for now:** "CTA will literally just be a very short subscribe one". **Talking Head** script type.
+- **Build the pack like plumbing, with electrical's own formats, emotions and reference scripts;** "core structures can be taken from plumbing as long as the necessary changes are made"; every variable reviewed in detail by checker subagents; "all our problems we faced in our plumbing and woodowrking script iteration sessions of scripting. account for them from now" (`studies/electrical/lessons-for-the-pack-2026-10-27.md`).
+- **Model scripts:** "from the winners in recent months/years from the real channels that have over 1m views" (`studies/electrical/model-picks-2026-10-27.csv`).
+- **Length:** "even 15-22 is sweet spot" (read as: the minimum stays 12 minutes, as plumbing; 15 to 22 is where to aim).
+- **Villain:** "villain does not need to be necessary": used only where it fits.
+- **Agreed as proposed (2026-10-27):** the brief can add safety but never remove power-off, verify-dead or the call-an-electrician line; named panel brands only with what CPSC or inspectors actually say; no "after all the houses I've worked in" lines, the tenure at most once; no swearing.
+- **P11, the opening may carry one value promise** (an escalation, or "by the end of this video you'll know X and Y", never the first items in order): see `PROPOSALS.md` P11. Electrical only.
+- **Confirmed later the same day:** the 12-minute minimum with 15 to 22 the aim ("ok to 1"); the ending, a one-line subscribe ask then the comment ask last, as plumbing's P5 ("ok to 2, anad we say we read every comment": the comment line says he reads every comment). Default kept, not asked: the research pack is not used (the brief and the facts guide are the fact source).
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

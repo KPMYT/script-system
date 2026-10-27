@@ -1,0 +1,452 @@
+           ARTICLE
+
+        210 BRANCH CIRCUITS
+    Introduction to Article 210—Branch Circuits
+    This article contains the general requirements for branch circuits which extend from the last point of overcurrent protection to the utili-
+    zation equipment. Branch circuits account for most circuits run in any electrical installation, so you must be sure you are familiar with
+    these rules. Some topics covered in this material for Article 210 include:
+       }   Identification of branch circuits
+       }   Multi-wire branch circuits
+       }   Voltage limitations
+       }   Required branch circuits
+       }   GFCI and AFCI requirements
+       }   Branch-circuit ratings
+       }   Permitted loads
+       }   Receptacle and lighting outlet requirements
+
+    This article consists of three parts:
+       }   Part I. General Provisions
+       }   Part II. Branch-Circuit Ratings
+       }   Part III. Required Outlets
+
+
+
+                     210.8 GFCI Protection
+
+A GFCI device must provide protection as required in 210.8(A) through
+(F). Figure 210–17 and Figure 210–18
+GFCI protective devices must be in a readily accessible location.
+
+According to Article 100, “GFCI” is a device intended to protect people
+by de-energizing a circuit when ground-fault current exceeds the value
+established for a “Class” A device. Figure 210–19
+
+According to Article 100, “Readily Accessible” means capable of
+being reached quickly for operation, renewal, or inspection without
+requiring the use tools (other than keys), climb over or under obstruc-
+tions, remove obstacles, resort to using portable ladders, and so forth.    }Figure 210–17
+Figure 210–20 and Figure 210–21
+
+
+
+2nd Printing                                         Understanding the 2023 National Electrical Code, Volume 1 | MikeHolt.com | 1
+210.8    | Branch Circuits
+
+
+
+
+}Figure 210–18                                                }Figure 210–21
+
+                                                              The GFCI protection required by 210.8(A) and (B) can be provided
+                                                              by using either a circuit breaker with GFCI protection or a recep-
+                                                              tacle with GFCI protection. For the application of 210.8(A)(8) or (10),
+                                                              210.8(B)(7), (13), and (15), the distance from the sink or bathtub/
+                                                              shower is measured as the shortest path the power-supply cord
+                                                              connected to the receptacle will follow without piercing a floor, wall,
+                                                              ceiling, or fixed barrier. Figure 210–22
+
+
+
+
+}Figure 210–19
+
+
+
+
+                                                              }Figure 210–22
+
+
+                                                                     Author’s Comment:
+
+                                                                 }    The reference to windows and doors was removed to ensure
+                                                                      receptacles within the measured distance as required in
+                                                                      210.8, even if passing through a window or door, are afforded
+                                                                      GFCI protection.
+}Figure 210–20
+
+
+
+
+2 | Mike Holt Enterprises | Understanding the 2023 National Electrical Code, Volume 1                                      2nd Printing
+                                                                                                                           Branch Circuits | 210.8
+
+   }   The GFCI circuit breaker provides ground-fault protection
+       starting at the breaker, so the entire circuit has ground-fault
+       protection. A GFCI receptacle provides ground-fault protection
+       for whatever is plugged into it and has load-side terminals
+       that provide downstream protection for any other recepta-
+       cle(s) or device(s) on the circuit. Figure 210–23
+
+
+
+
+                                                                                }Figure 210–25
+
+                                                                                (1) Bathrooms. GFCI protection is required for receptacles in dwelling
+                                                                                unit bathroom areas. Figure 210–26
+
+
+
+
+}Figure 210–23
+
+(A) Dwelling Units. Receptacles rated 125V through 250V installed in
+the following dwelling unit locations must be GFCI protected. Figure
+210–24
+
+
+
+
+                                                                                }Figure 210–26
+
+
+                                                                                According to Article 100, “Bathroom Area” is an area that includes a
+                                                                                sink (basin) and one or more of the following: toilet, urinal, tub, shower,
+                                                                                bidet, or similar plumbing fixture. Figure 210–27
+
+                                                                                (2) Garages and Accessory Buildings. GFCI protection is required
+                                                                                for receptacles in dwelling unit garages and dwelling unit accessory
+}Figure 210–24                                                                  buildings. These buildings are not intended as habitable rooms and
+                                                                                limited to storage, work, and other areas of similar use. Figure 210–28
+According to Article 100, “Dwelling Unit” is a single unit that provides
+independent living facilities with permanent provisions for living, sleeping,
+cooking, and sanitation. Figure 210–25
+
+
+
+
+2nd Printing                                             Understanding the 2023 National Electrical Code, Volume 1 | MikeHolt.com | 3
+210.8      | Branch Circuits
+
+
+
+
+}Figure 210–27                                                             }Figure 210–29
+
+
+
+
+}Figure 210–28                                                             }Figure 210–30
+
+
+       Author’s Comment:
+
+   }    All receptacles installed for the connection of electric vehicle
+        supply equipment must be GFCI protected. Figure 210–29
+
+(3) Outdoors. GFCI protection is required for receptacles located
+outdoors of a dwelling unit. Figure 210–30
+(4) Crawl Spaces. GFCI protection is required for receptacles in
+dwelling unit crawl spaces at or below grade. Figure 210–31
+(5) Basements. GFCI protection is required for receptacles in dwelling
+unit basements. Figure 210–32
+(6) Kitchens. GFCI protection is required for receptacles in dwelling
+unit kitchens. Figure 210–33                                              }Figure 210–31
+
+
+
+
+4 | Mike Holt Enterprises | Understanding the 2023 National Electrical Code, Volume 1       2nd Printing
+                                                                                                                    Branch Circuits | 210.8
+
+
+                                                                           (8) Sinks. GFCI protection is required for receptacles within 6 ft of
+                                                                           the top inside edge of the bowl of a dwelling unit sink.
+                                                                           (9) Boathouses. GFCI protection is required for receptacles in a boat-
+                                                                           house for a dwelling unit. Figure 210–34
+
+
+
+
+}Figure 210–32
+
+
+
+
+                                                                           }Figure 210–34
+
+
+                                                                                  Author’s Comment:
+
+                                                                              }    The Code does not require a receptacle to be installed in
+                                                                                   a boathouse, but if any are, they must be GFCI protected.
+
+                                                                           (10) Bathtubs or Shower Stalls. GFCI protection is required for
+                                                                           receptacles within 6 ft of the outside edge of a bathtub or shower
+                                                                           stall not installed within a bathroom. Figure 210–35
+}Figure 210–33
+
+
+According to Article 100, A “Kitchen” is an area with a sink and
+permanent provisions for food preparation and cooking.
+
+
+       Author’s Comment:
+
+   }    Traditionally this requirement only applied to kitchen coun-
+        tertop receptacles, but now any cord-and-plug-connected
+        appliance in the kitchen such as the range receptacle,
+        refrigerator receptacle, disposal receptacle, and microwave
+        receptacle will require GFCI protection.
+
+(7) Food Preparation Areas. GFCI protection is required for recepta-
+cles in areas with sinks with permanent provisions for food preparation,   }Figure 210–35
+beverage preparation, or cooking.
+
+
+
+
+2nd Printing                                         Understanding the 2023 National Electrical Code, Volume 1 | MikeHolt.com | 5
+210.8     | Branch Circuits
+
+(11) Laundry Areas. GFCI protection is required for receptacles
+installed in the laundry area of a dwelling unit. Figure 210–36
+
+
+
+
+                                                                            }Figure 210–38
+
+                                                                                   Author’s Comment:
+}Figure 210–36
+                                                                               }    The receptacle for exhaust fans is internal to the exhaust
+(12) Damp and Wet Locations Indoors. GFCI protection is required                    fan. They are not accessible as a convenience cord-and-
+for receptacles installed in indoor damp and wet locations.                         plug receptacle, therefore GFCI protection is not required.
+Ex 1: GFCI protection is not required for a receptacle dedicated to fixed      }    In accordance with “UL Guide Information GPWX,” exhaust
+electric snow-melting equipment if the receptacle is not readily acces-             fans installed in the area directly above the footprint (width
+sible and ground-fault protection of equipment (GFPE) is provided as                and depth of the equipment) of the bathtub or shower must
+required by 426.28 and 427.22. Figure 210–37                                       be GFCI protected.
+
+                                                                            (B) Other Than Dwellings. GFCI protection is required for 125V
+                                                                            through 250V receptacles supplied by single-phase branch circuits
+                                                                            50A (or less) or three-phase branch circuits 100A (or less) installed
+                                                                            in the following locations:
+                                                                            (1) Bathrooms. GFCI protection is required for 125V through 250V
+                                                                            receptacles in bathroom areas. Figure 210–39
+
+
+
+
+}Figure 210–37
+
+Ex 2: A receptacle supplying only a permanently installed premises
+security system is permitted to omit GFCI protection.
+Ex 4: GFCI protection is not required for receptacles in dwelling unit
+bathroom exhaust fans, unless specified by the fan instructions.
+Figure 210–38
+                                                                            }Figure 210–39
+
+
+
+6 | Mike Holt Enterprises | Understanding the 2023 National Electrical Code, Volume 1                                                     2nd Printing
+                                                                                                        Branch Circuits | 210.8
+
+
+According to Article 100, “Bathroom” is an area that includes a sink
+(basin) and one or more of the following: toilet, urinal, tub, shower,
+bidet, or similar plumbing fixture.
+
+(2) Kitchens. GFCI protection is required for 125V through 250V
+receptacles in kitchens. Figure 210–40
+
+
+
+
+                                                                         }Figure 210–41
+
+
+
+
+}Figure 210–40
+
+(3) Food Preparation Areas. GFCI protection is required for 125V
+through 250V receptacles in areas containing sinks with permanent
+provisions for food preparation, beverage preparation, or cooking.
+(4) Buffet Serving Areas. GFCI protection is required for 125V
+through 250V receptacles in buffet serving areas with permanent
+provisions for food serving, beverage serving, or cooking.
+
+                                                                         }Figure 210–42
+       Author’s Comment:
+
+   }    This requires GFCI protection for receptacles in the break
+        area of a commercial occupancy.
+
+(5) Rooftops. GFCI protection is required for 125V through 250V
+receptacles on rooftops. Figure 210–41
+(6) Outdoors. GFCI protection is required for 125V through 250V
+receptacles outdoors. Figure 210–42
+(7) Sinks. GFCI protection is required for 125V through 250V recep-
+tacles and receptacles for cord-and-plug-connected appliances within
+6 ft from the top inside edge of the bowl of a sink. Figure 210–43
+
+
+
+                                                                         }Figure 210–43
+
+
+
+
+2nd Printing                                        Understanding the 2023 National Electrical Code, Volume 1 | MikeHolt.com | 7
+210.8     | Branch Circuits
+
+       Author’s Comment:                                                 (11) Crawl Spaces. GFCI protection is required for 125V through
+                                                                         250V receptacles in crawl spaces at or below grade level.
+   }    A faulted appliance in proximity to sinks presents a shock
+                                                                         (12) Unfinished Areas of Basements. GFCI protection is required
+        hazard whether the receptacle is within 6 feet or not.
+                                                                         for 125V through 250V receptacles in unfinished areas of basements.
+(8) Indoor Damp or Wet Locations. GFCI protection is required            (13) Aquatic Tanks or Bowls. GFCI protection is required for 125V
+for 125V through 250V receptacles in indoor damp or wet locations.       through 250V receptacles within 6 ft from the top inside edge or rim.
+(9) Locker Rooms. GFCI protection is required for 125V through 250V      It is also required from the conductive support framing of the vessel or
+receptacles in locker rooms with showering facilities. Figure 210–44    container for aquariums, bait wells, and similar open aquatic vessels
+                                                                         or containers, such as tanks or bowls. Figure 210–46
+
+
+
+
+}Figure 210–44
+                                                                         }Figure 210–46
+(10) Garages and Similar Areas. GFCI protection is required for
+125V through 250V receptacles in garages, accessory buildings, and       (14) Laundry Areas. GFCI protection is required for 125V through
+similar areas. Figure 210–45                                            250V receptacles in a laundry area. Figure 210–47
+
+
+
+
+}Figure 210–45                                                           }Figure 210–47
+
+According to Article 100, a “Garage” is a building (or portion of a
+building) in which one or more self-propelled vehicles can be kept for
+use, sale, storage, rental, repair, exhibition, or demonstration.
+
+
+8 | Mike Holt Enterprises | Understanding the 2023 National Electrical Code, Volume 1                                                 2nd Printing
+                                                                                                        Branch Circuits | 210.8
+
+
+(15) Bathtubs and Shower Stalls. GFCI protection is required for
+125V through 250V receptacles installed within 6 ft of the outside
+edge of a bathtub or shower stall not installed in a bathroom.
+Ex 2: Rooftop GFCI receptacles are only required to be readily acces-
+sible from the rooftop itself. Figure 210–48
+
+
+
+
+                                                                         }Figure 210–49
+
+
+
+
+}Figure 210–48
+
+(C) Crawl Space Lighting Outlets. GFCI protection is required for
+120V lighting outlets in crawl spaces.
+
+       Author’s Comment:
+
+   }    A lighting outlet is not required for a dwelling unit crawl
+        space unless the space is used for storage or has equip-
+        ment requiring servicing [210.70(C)].
+                                                                         }Figure 210–50
+(D) Specific Appliance. GFCI protection is required for the following
+appliances rated 150V or less to ground, rated 60A or less, single- or
+three-phase, either cord-and-plug or hardwired connected:
+(1) Automotive vacuum machines. Figure 210–49
+(2) Drinking water coolers and bottle fill stations. Figure 210–50
+(3) High-pressure spray washing machines.
+(4) Tire inflation machines. Figure 210–51
+(5) Vending machines. Figure 210–52
+(6) Sump pumps. Figure 210–53
+(7) Dishwashers Figure 210–54
+(8) Electric ranges. Figure 210–55
+                                                                         }Figure 210–51
+
+
+
+
+2nd Printing                                        Understanding the 2023 National Electrical Code, Volume 1 | MikeHolt.com | 9
+210.8    | Branch Circuits
+
+
+
+
+}Figure 210–52                                                }Figure 210–55
+
+                                                              (9) Wall-mounted electric ovens.
+                                                              (10) Counter-mounted electric cooking units.
+                                                              (11) Clothes dryers.
+                                                              (12) Microwave ovens.
+
+                                                                     Author’s Comment:
+
+                                                                 }    The appliances in list items 210.8(D)(8) through (12) are
+                                                                      commonly installed as hardwired outlets, and the GFCI
+                                                                      protection requirements of 210.8(A) and (B) only apply to
+                                                                      receptacles. The shock hazards exist whether appliances
+                                                                      are hardwired or cord-and-plug connected, and therefore
+                                                                      GFCI protection must be provided for the appliance branch
+}Figure 210–53
+                                                                      circuit or outlet.
+
+                                                              (E) Equipment Requiring Servicing.
+                                                              Air-Conditioning Equipment. GFCI protection is required for the 125V,
+                                                              15A or 20A service receptacle outlet installed within 25 ft of the
+                                                              air-conditioning equipment as required in 210.63(A). Figure 210–56
+                                                              Indoor Service Equipment. GFCI protection must be provided for
+                                                              the 125V, 15A or 20A service receptacle outlet installed within
+                                                              25 ft of the indoor service equipment as required by 210.63(B)(1).
+                                                              Figure 210–57
+
+                                                              Indoor Switchboards, Switchgear, Panelboards, and Motor Control
+                                                              Centers. GFCI protection must be provided for 125V, 15A or 20A
+                                                              service receptacle outlets as required by 210.63(B)(2) for indoor
+                                                              switchboards, switchgear, panelboards, and motor control centers.
+}Figure 210–54
+
+
+
+
+10 | Mike Holt Enterprises | Understanding the 2023 National Electrical Code, Volume 1                                  2nd Printing
+                                                                                                         Branch Circuits | 210.8
+
+
+
+
+}Figure 210–56                                                             }Figure 210–58
+
+
+
+
+}Figure 210–57                                                             }Figure 210–59
+
+(F) Outdoor Dwelling Outlets. GFCI protection is required for all
+outlets rated 50A or less located outside the following dwelling
+spaces: Figure 210–58
+(1) Garages
+(2) Accessory Buildings
+(3) Boathouses
+
+According to Article 100, an “Outlet” is a point on the wiring system at
+which current is taken to supply utilization equipment. Figure 210–59
+
+If equipment connected to any of the above outlets is replaced, the
+circuit to the outlet must be GFCI protected.
+Ex 2: GFCI protection is not required for listed HVAC equipment, such      }Figure 210–60
+as motor compressors or heat pumps. Figure 210–60
+
+
+
+2nd Printing                                        Understanding the 2023 National Electrical Code, Volume 1 | MikeHolt.com | 11
+

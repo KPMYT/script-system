@@ -1,0 +1,55 @@
+                                                                   375 Jackson Street, Suite 220
+                                                                  St. Paul, Minnesota 55101-1806
+                                                             Phone: 651-266-8989 Fax: 651-266-8951
+                                                             Visit our website at www.stpaul.gov/dsi
+
+
+                                 AFCI Protection Requirements
+Dwellings
+NEC 210.12(B) of the 2023 National Electrical Code (NEC) requires Arc-Fault Circuit Interrupter (AFCI)
+protection for branch circuits supplying all newly installed 120-volt, 15 & 20 amp outlets or devices in
+kitchens, laundry areas, family rooms, dining rooms, living rooms, parlors, libraries, dens, bedrooms,
+sunrooms, recreation rooms, closets, hallways, or similar rooms or areas of a dwelling. The AFCI shall be
+installed in a readily accessible area. Some examples of these “outlets” include, but are not limited to,
+receptacles, luminaires (light fixtures), smoke detectors, dishwashers, and disposals. This article also
+requires extensions and modifications to a branch circuit, in these areas, to be arc fault protected.
+St. Paul will enforce this as follows:
+1. All new or extended branch circuit wiring in dwellings will be required to have AFCI protection where
+required in NEC 210.12.
+2. New branch circuit wiring in existing areas of a dwellings will also need AFCI protection for new outlets if required
+by NEC 210.12.
+
+Dormitories
+AFCI protection is required per 210.12 (C) & (E) in dormitory units for new, extended, or modified branch circuits
+supplying 120V, 15 & 20 amp outlets and devices in the following areas: Bedrooms, living rooms, hallways, closets,
+and bathrooms.
+
+Guest Rooms, Guest Suites, Patient Sleeping Rooms in Nursing Homes and Limited-Care Facilities, Fire
+Stations, Police Stations, Ambulance Stations, Rescue Stations, Ranger Stations, and similar.
+AFCI protection is required per 210.12 (D) & (E) in guest rooms and guest suites in hotels and motels, patient
+sleeping rooms in nursing homes and limited-care facilities, and areas for sleeping quarters in fire stations, police
+stations, ambulance stations, rescue stations, ranger stations, and similar, for new, extended, or modified branch
+circuits supplying newly installed 120V, 15- & 20-amp outlets and devices.
+
+AFCI Protection - Receptacle Replacement
+NEC 406.4 (D)(4) of the 2023 NEC requires replacement receptacles in dwelling units, dormitory units,
+guest rooms and guest suites, and patient sleeping rooms in nursing homes and limited-care facilities, to
+be AFCI protected as stated in areas listed in 210.12(A),(B), and (C). There are also additional requirements
+in NEC 406.4(D) for GFCI, tamper-resistant protection, and/or weather-resistant protection with receptacle
+replacement. Please refer to this code section for additional requirements. AFCI protection for
+replacement receptacles can be accomplished by one of the following:
+  (1) A listed outlet branch circuit type arc-fault circuit-interrupter receptacle.
+  (2) A receptacle protected by a listed outlet branch circuit type arc-fault circuit-interrupter type
+  receptacle.
+  (3) A receptacle protected by a listed combination type arc-fault circuit-interrupter type circuit breaker.
+  (4) Replacement of a 2-prong ungrounded receptacle can be accomplished with a combination
+  AFCI/GFCI type receptacle.
+
+Note: Please see Article 210.12 and/or Article 406.4 and other pertinent sections of the
+2020 National Electrical Code for further information on this and other requirements. We do not have
+copies available, check online resources, your local library, or electrical supply store.
+                                                                                          Revised: 2023
+
+
+                                       An Equal Opportunity Employer                                    1/1
+

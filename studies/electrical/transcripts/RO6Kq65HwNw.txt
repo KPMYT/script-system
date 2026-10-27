@@ -1,0 +1,348 @@
+# RO6Kq65HwNw | The BIGGEST Mistakes DIYers Don't Know They Are Making When Wiring Receptacles | How To | How To Home
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:00] now when it comes to installing
+[0:00] receptacles or other devices like them
+[0:03] i've seen a lot of very common mistakes
+[0:06] or at the very least some very poor
+[0:08] practices when installing these types of
+[0:11] devices so there's quite a few of them
+[0:13] so let's go ahead and jump right in
+[0:15] let's go alright so the first mistake
+[0:16] i'm going to go over when discussing
+[0:18] installing these receptacles this may
+[0:20] seem very basic but you might be
+[0:22] surprised how many people don't know the
+[0:24] difference as far as where the wires are
+[0:26] supposed to go so on this side here
+[0:29] you'll see we've got these gold colored
+[0:30] terminals if we flip it over the other
+[0:32] side we've got these silver colored
+[0:34] terminals the gold colored terminals are
+[0:36] going to be for your hot wire typically
+[0:38] it's going to be a black wire that's
+[0:40] coming in that's supplying the power and
+[0:42] that's going to be connected over here
+[0:43] to the gold side the neutral wire which
+[0:46] is the white wire is always going to go
+[0:48] over here on the side with the silver
+[0:50] colored terminal screws if you were to
+[0:53] put your black line wire on the silver
+[0:55] terminal and your white neutral wire on
+[0:57] the gold terminals this is referred to
+[0:59] as reverse polarity now the reason why
+[1:02] that's so dangerous to where if you have
+[1:04] the line or the electricity wired into
+[1:07] the neutral side with these silver
+[1:08] screws is because it's going to create
+[1:11] an unsafe receptacle it may work but you
+[1:14] are running a risk of having a short
+[1:16] circuit or a shock or even possibly a
+[1:19] fire
+[1:20] so just remember that black is always to
+[1:23] gold the white neutral wires are always
+[1:25] to the silver terminals and green wires
+[1:27] and bare copper wires like this one here
+[1:29] are always the ground wires and they
+[1:31] will always go to this green ground
+[1:33] screw here all right so for this next
+[1:34] mistake this is a very common
+[1:36] residential receptacle these type
+[1:38] receptacles require for a hook to go
+[1:41] around the terminal screws and then it
+[1:42] gets tightened down but one of the
+[1:44] really big mistakes i see when people
+[1:46] are installing these types of
+[1:47] receptacles is when they take their
+[1:49] wiring they're stripping off way too
+[1:51] much insulation so when they take their
+[1:53] hook and they wrap it around the
+[1:55] terminal screw and then they go to
+[1:56] tighten it down you can see this copper
+[1:59] that's extending on
+[2:00] past the terminal screw by quite a bit
+[2:03] and then also past the back of the
+[2:05] receptacle the problem with this is once
+[2:07] this is all tightened up and pushed into
+[2:08] the back of the box what could happen is
+[2:11] possibly your bare copper your ground
+[2:13] wire could rub up against this hot wire
+[2:15] here and then it's going to cause
+[2:17] everything to shore out you could also
+[2:19] have instances with arcing depending on
+[2:22] how everything is in your box which is
+[2:24] obviously something that you don't want
+[2:26] that could ultimately cause a fire
+[2:28] conversely i've seen people and this is
+[2:30] a little bit of a dramatization but i
+[2:31] have seen them like this where they cut
+[2:33] too little insulation off that hook when
+[2:36] they wrap it around that terminal screw
+[2:38] as you can see even though that hook is
+[2:40] around that terminal screw once we would
+[2:42] tighten down the terminal screw on top
+[2:44] of it if we flip it here to the bottom
+[2:46] side
+[2:47] you can see that insulation is
+[2:49] underneath of the head of that terminal
+[2:51] screw
+[2:52] well when that terminal screw gets
+[2:54] tightened down and it clamps down this
+[2:56] wire it's going to be making a lot of
+[2:58] contact with that insulation which is
+[3:00] obviously wider than the copper portion
+[3:02] of the wire and you're not going to get
+[3:04] a good connection there so you also are
+[3:07] going to have a bunch of issues here the
+[3:09] outlet itself may not work or it may
+[3:11] work intermittently or you could have a
+[3:13] case of where it short circuits or
+[3:14] causes overheating and a really easy way
+[3:17] to check and make sure that you have the
+[3:18] correct amount of insulation stripped
+[3:20] off of the wiring is you can use a strip
+[3:23] gauge they're on pretty much all of the
+[3:25] receptacles that are out there and you
+[3:27] can just put your wiring up into that
+[3:30] strip gauge just to either confirm that
+[3:32] you've stripped off the proper amount or
+[3:34] if this wire wasn't stripped already you
+[3:36] can just lay it up in there make a mark
+[3:38] and then strip it from that mark off and
+[3:40] you know that you're going to have the
+[3:42] perfect amount of insulation removed
+[3:44] from the wiring in order to have that
+[3:45] good connection and so this is what a
+[3:48] good connection would look like all
+[3:50] right so talking about the wiring being
+[3:51] connected to the receptacles that leads
+[3:53] me to the next mistake that i'm going to
+[3:55] talk about
+[3:56] and that has to do with these hooks
+[3:57] again and so i'm just going to put this
+[3:59] hook over this terminal screw
+[4:02] and then i'm just going to go ahead and
+[4:04] tighten that down all right so does
+[4:06] anybody see the mistake with this wire
+[4:08] on this terminal screw yeah it's put on
+[4:12] in the wrong direction it's being put on
+[4:14] in a counterclockwise direction and the
+[4:16] problem with that is if you can see all
+[4:18] this copper up here at the top
+[4:20] and then here at the bottom it's not
+[4:22] awful but what ends up happening if you
+[4:24] put your wiring on in a counterclockwise
+[4:26] direction you may have seen it as i was
+[4:27] tightening that down it's actually going
+[4:30] to promote the wire being pushed away
+[4:33] from the terminal screw so it's not
+[4:35] going to be in nice and tight in the
+[4:37] middle of this terminal screw which
+[4:39] could lead to
+[4:40] not as good of a connection as you would
+[4:42] want so what you'd actually want to do
+[4:44] is you'd actually want to take that hook
+[4:46] and instead of wrapping it around in a
+[4:48] counterclockwise direction we want that
+[4:50] hook or that loop to go around the
+[4:52] terminal screw in a clockwise direction
+[4:56] as i tighten down the terminal screw
+[4:58] it's going to promote pulling that wire
+[5:00] in closer to the center of that terminal
+[5:03] screw which is going to give us a much
+[5:05] better connection
+[5:06] so as you can see it's pulled in here
+[5:08] nice and tight and we have a really nice
+[5:11] solid connection here and this is
+[5:13] especially true for this stranded wire
+[5:15] here it's going to be promoting or
+[5:17] pushing each one of those strands out
+[5:19] away from the terminal screw
+[5:21] but if we take that same strand of wire
+[5:23] and wrap it around in the correct
+[5:24] direction the clockwise direction you'll
+[5:27] see that it actually wants to pull it in
+[5:29] closer
+[5:32] so as you can see all those strands are
+[5:35] in there much tighter we don't have any
+[5:37] of those stray strands that are
+[5:38] basically reaching up to this second
+[5:40] terminal up here everything's in there
+[5:42] nice and tight by going around in a
+[5:44] clockwise direction now really quickly
+[5:46] if you're finding value in this video if
+[5:48] you could do me a huge favor all that i
+[5:49] ask is that you hit that thumbs up
+[5:51] button right down below or leave a
+[5:53] comment down the comment section letting
+[5:54] me know what you think of the video so
+[5:56] far it really does help the video out to
+[5:58] spread out to other people and hopefully
+[6:00] be able to help them out as well i
+[6:02] really appreciate it let's get back into
+[6:04] it all right so for this next mistake or
+[6:06] really a very poor practice and this is
+[6:09] one that i've seen electricians do
+[6:11] because my house was wired in some
+[6:13] places like this since then i have
+[6:15] corrected it because i really think that
+[6:17] this is a really poor way of doing it is
+[6:20] on these residential outlets if we flip
+[6:22] it over here to the back if you see
+[6:24] these four holes here
+[6:25] this is where you can insert up to 14
+[6:28] gauge wire into these holes to connect
+[6:31] the wiring to the receptacle itself
+[6:34] this is known as speed wiring also known
+[6:37] as backstabbing and the way that this
+[6:39] works we've got our silver terminals
+[6:40] here and a white wire all you have to do
+[6:43] in order to make this connection is push
+[6:46] the wiring into one of those holes
+[6:48] and once it seats as you can see it
+[6:51] doesn't just pull out and while this
+[6:53] seems like a really great way of doing
+[6:55] things because it is so quick and easy
+[6:57] to do there's a lot of problems that can
+[6:59] come from this now if you're going to
+[7:00] have a problem and you have a defective
+[7:02] device you may see issues right away
+[7:05] other times it may take time in order
+[7:08] for issues to develop and the reason
+[7:10] that it may take a while is that the
+[7:12] more that the device is used the more
+[7:14] that it warms and cools the more that
+[7:16] it's moved around that little piece of
+[7:19] metal that's inside that's making
+[7:20] connection and holding this wiring in
+[7:22] may become loose and if it becomes loose
+[7:24] over time what can end up happening is
+[7:26] the wire starts to back out and may fall
+[7:28] out completely if it doesn't fall all
+[7:30] the way out and it just starts to have a
+[7:32] really poor connection well then you
+[7:33] could have arcing and heating and a
+[7:36] bunch of other issues and to kind of
+[7:38] illustrate this wire being backed out as
+[7:40] you can see it's in there nice and tight
+[7:41] you need to depress there's a little tab
+[7:43] inside of here usually use a screwdriver
+[7:45] to depress it and then pull it out if
+[7:47] you wanted to remove the wire i'm going
+[7:49] to show you right here where i can
+[7:50] remove this wire without depressing that
+[7:52] tab just by pulling on it and twisting
+[7:54] the receptacle back and forth and it's
+[7:56] just that easy for that wire to come out
+[7:58] so for this next mistake this is a big
+[8:01] one as you can see here i've got two
+[8:03] terminal screws and just imagine that
+[8:05] the whites both of these terminal screws
+[8:07] are taken up as well and they're wanting
+[8:09] to connect another receptacle or another
+[8:11] device of some sort and they want to use
+[8:13] this as a way to tap into the circuit
+[8:16] well what they'll end up doing
+[8:18] is they'll loosen one of the terminal
+[8:21] screws
+[8:22] they'll leave that wire in place they'll
+[8:24] take their new wire and they'll put it
+[8:27] in on top of the wiring that's already
+[8:30] there so that's what they do they leave
+[8:33] their wires that are already there in
+[8:34] place they take their new wire coming in
+[8:36] so they can connect to something in
+[8:38] order to power a new device and then
+[8:40] they just sandwich the two together
+[8:42] underneath of one terminal screw these
+[8:45] devices are not made to have more than
+[8:47] one wire under the terminal screw so
+[8:49] this is against code and it's also
+[8:51] incredibly dangerous to do over time
+[8:54] what can end up happening is since we
+[8:55] don't have proper pressure from the
+[8:57] terminal screw on the wiring and there's
+[9:00] variables to where these wires can move
+[9:03] one of these wires can eventually fall
+[9:05] out from underneath of the terminal
+[9:06] screw which then also has the other wire
+[9:08] being loose and then that can cause all
+[9:10] kinds of problems with the minimum of
+[9:12] the receptacle not working or damaging
+[9:15] it all the way up to causing a fire it
+[9:18] would be far better to avoid doing this
+[9:20] at all and just use some pigtails in
+[9:23] order to connect all of your devices and
+[9:26] the new device that you're wanting to
+[9:28] install the next thing i want to talk
+[9:29] about as far as installing these
+[9:31] receptacles or devices that are like
+[9:33] them that is really going to make things
+[9:35] a whole lot faster
+[9:36] easier and make sure that your
+[9:38] connections are going to be as tight as
+[9:40] they should be
+[9:41] is it comes down to the tools that you
+[9:43] use now a lot of people are using their
+[9:46] standard phillips head screwdriver in
+[9:49] order to
+[9:50] loosen and tighten the terminal screws
+[9:53] on the receptacles and while a phillips
+[9:56] head will work it can also cause issues
+[10:01] if you get down to the point of where
+[10:02] it's becoming hard to turn if you go to
+[10:04] keep trying to turn it look at what
+[10:06] happens the phillips head wants to just
+[10:08] kind of come out of that terminal screw
+[10:10] and that terminal screw can still be
+[10:12] tightened down a little bit more so with
+[10:15] a phillips head you can't always get
+[10:17] this tightened down as much as you
+[10:19] should
+[10:20] and then there is the robertson bit or a
+[10:22] lot of people call it the square bit the
+[10:25] robertson bit is what i've been using
+[10:26] for quite a while now because it is
+[10:28] extremely effective at tightening down
+[10:30] these terminal screws but there are a
+[10:32] couple of options out there that are
+[10:34] actually better than the robertson bit
+[10:36] so what i'm using now are these two bits
+[10:38] right here over here is milwaukee's ecx
+[10:41] bit and over here is klein's combination
+[10:44] bit if you see here you've got this long
+[10:46] blade here kind of mimics a flat head so
+[10:49] you can get a lot of nice torque on that
+[10:52] terminal screw if we flip it up here to
+[10:54] the top side you can see it's kind of
+[10:56] squared off so it's more like that
+[10:58] robertson bit so you can get right into
+[11:00] the middle of that terminal screw and
+[11:02] also help to add to that torque and get
+[11:04] a nice grip on that terminal screw so
+[11:07] just to kind of give you a visual as to
+[11:08] how much better these work this is a
+[11:10] standard phillips head so i'm going to
+[11:11] get it down to where i can tighten as
+[11:13] much as possible with this
+[11:15] and now it's popping out so let's see if
+[11:17] we can't take one of these newer bits
+[11:20] put it in there and get it to tighten
+[11:21] down a little bit more
+[11:26] so as you can see i was able to rotate
+[11:28] it a little bit further than i was able
+[11:30] to with the phillips head and it was
+[11:31] pretty easy to do so i have links for
+[11:34] both of these down in the description
+[11:35] down below now if you like electrical
+[11:37] projects or other projects for around
+[11:38] the home i'll post some links right over
+[11:40] here of some videos and playlists that
+[11:43] you might be interested in now i hope
+[11:45] this video was helpful and maybe you
+[11:46] found it to be interesting and if you
+[11:48] did if you could do me a huge favor hit
+[11:49] that thumbs up button right down below
+[11:51] and of course if you have any questions
+[11:53] or comments at all you can leave those
+[11:55] down in the comment section and i'll
+[11:56] catch you all in the next one see ya

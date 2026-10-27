@@ -1,0 +1,499 @@
+# Tu8RBQ0ChaI | Avoid Disaster! 8 FATAL Outlet Mistakes Most DIYers Unknowingly Make! | How To Home
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [start] text.
+[0:00] so when it comes to electrical work it
+[0:01] often times does not come down to the
+[0:02] tools you're using or even the materials
+[0:04] that you're installing it comes down to
+[0:06] you as the installer as to whether or
+[0:07] not you installed them properly so in
+[0:09] this video I'm going over some of the
+[0:11] biggest mistakes that not only diyers
+[0:13] make but also some electricians make
+[0:15] when installing these receptacles so I'm
+[0:17] going to be showing you exactly what
+[0:18] they are and I'm also going to be
+[0:19] showing you how they should be done or
+[0:21] some better practices in order to make
+[0:23] sure that these are not going to be a
+[0:24] safety hazard and they're going to last
+[0:25] for a very long time so let's go ahead
+[0:28] and Jump Right In All right so for this
+[0:29] first mistake it comes down to selecting
+[0:32] the proper receptacle for the circuit
+[0:34] you're installing it on now this is a 15
+[0:36] amp receptacle this is a 20 amp
+[0:39] receptacle well when you go to select
+[0:41] which receptacle you're going to install
+[0:43] on a circuit you need to know what
+[0:46] wiring is running in that wall and what
+[0:48] circuit breaker is on that circuit so
+[0:51] where the big mistake comes in is often
+[0:53] times people don't know any better
+[0:55] they'll just pick up one of these 20 amp
+[0:56] receptacles and they just add it to
+[0:58] their circuit well the problem is if you
+[1:00] have a 15 amp circuit breaker with a 20
+[1:03] amp receptacle like this which is able
+[1:04] to accept 20 amp cords you run the risk
+[1:07] of pulling too much power for that
+[1:08] circuit and tripping the breaker but
+[1:11] that is actually the good news in that
+[1:12] that breaker is doing its job and it's
+[1:15] disconnecting the power so that it does
+[1:17] not start a fire where the problem comes
+[1:19] in is often times on a 15 amp circuit it
+[1:22] is wired using 14 gauge wire well that
+[1:25] 14 gauge wire is only rated for up to 15
+[1:29] amps so if you plug something into this
+[1:31] 20 amp receptacle that's pulling more
+[1:33] than 15 amps it's going to heat this
+[1:35] wiring up if the circuit breaker does
+[1:37] not do its job then you run a very
+[1:40] serious risk of causing this wiring not
+[1:42] only to heat up but get so hot that it
+[1:44] causes a fire so super important that
+[1:47] you choose the proper receptacle for the
+[1:49] circuit that you are installing it on
+[1:51] you can put 15 amp receptacles on a 20
+[1:54] amp circuit with 12 gauge wire but you
+[1:56] can never put a 20 amp recepticle on a
+[1:59] 15 damp circuit with 14 gauge wire or
+[2:02] you run the risk of starting a fire all
+[2:04] right so for this next really big
+[2:05] mistake it comes down to reverse
+[2:08] polarity and that is where when you're
+[2:09] installing your wires onto the
+[2:11] receptacle if we flip it over here to
+[2:12] this side we've got our gold terminal
+[2:14] screws over here and we've got our white
+[2:16] neutral wire connected to those screws
+[2:18] if we flip it over here to this other
+[2:20] side where we have these silver colored
+[2:21] screws that is where some people will
+[2:23] mistakenly take their hot or black line
+[2:25] wire and put it around that terminal
+[2:27] screw and tighten it down on this side
+[2:30] this is completely backwards and that's
+[2:32] why it's referred to as reverse polarity
+[2:34] and the big issues that can come from
+[2:36] doing this is when you plug an appliance
+[2:38] into this receptacle it is now being fed
+[2:42] the power on the neutral side or the
+[2:44] incorrect side of this receptacle on
+[2:47] this hole right here when that happens
+[2:49] that means that power is not only
+[2:50] flowing into this receptacle the wrong
+[2:52] way but it's then flowing into whatever
+[2:54] you're plugging into this the wrong
+[2:56] direction as well and that can lead to
+[2:58] damaging whatever it is that you're
+[3:00] installing it into but it can also
+[3:02] create a shock or electrocution Hazard
+[3:04] that can all be completely negated just
+[3:06] by putting the wires on the proper
+[3:08] terminal screws so this is what it
+[3:10] should look like your black or hot wire
+[3:12] should be going to the Brass colored
+[3:15] screws in some cases they look very gold
+[3:18] either way hot goes to Brass or gold and
+[3:20] white or neutral always goes to the
+[3:23] light side which is silver so as long as
+[3:25] you connect these properly you won't
+[3:27] have an issue with that all right so for
+[3:29] this next really big mistake this comes
+[3:31] down to not getting the terminal screws
+[3:33] tightened down properly if it's not
+[3:35] tightened down properly over time this
+[3:38] wire could become very loose and
+[3:40] eventually come off of that terminal
+[3:42] screw or if it doesn't come off the
+[3:44] terminal screw all it has to do is be
+[3:46] loose just like that and this can
+[3:48] actually cause arcing to happen in that
+[3:50] box arcing can lead to all kinds of
+[3:53] things including a fire so often times
+[3:55] what happens is either people are in a
+[3:56] hurry or they are using the wrong kind
+[3:58] of screwdriver they try to tighten it
+[4:00] down it keeps camming out so they're not
+[4:03] able to get it tightened down the way
+[4:04] that it should and it just allows for
+[4:06] that wire to be a little bit loose and
+[4:08] again over time it's just going to get
+[4:10] looser depending on the manufacturer of
+[4:12] the receptacle as they're all going to
+[4:14] vary but typically speaking the terminal
+[4:16] screws will need to be tightened down to
+[4:18] between 9 and 14 inbs and now I'm going
+[4:21] to show you with this torque screwdriver
+[4:23] what that looks like so I tighten these
+[4:25] down pretty well so let's go ahead and
+[4:26] start turning
+[4:28] it so as you can see I have about 8 inch
+[4:33] pounds on this when I tighten it down so
+[4:35] per almost every manufacturer that is
+[4:38] not enough so I'm going to go ahead and
+[4:39] keep turning
+[4:40] it and I'm going to get it to around
+[4:43] there we go I have it set for 12 inch
+[4:45] pounds so this is a perfect example of
+[4:47] while it was tight it could have been
+[4:49] tighter and depending on the screwdriver
+[4:51] that you're using a lot of times
+[4:52] Phillips head bits when you start
+[4:53] getting it down tight they start to cam
+[4:55] out and you might not always be able to
+[4:56] get it down as tight as you should so
+[4:58] super important that you make sure that
+[4:59] these are getting torqued down properly
+[5:01] so that they are not loose at all
+[5:03] causing any kind of arcing and causing a
+[5:05] possible fire now obviously pretty much
+[5:07] nobody is using a torque screwdriver but
+[5:09] per these examples as you can see as
+[5:11] long as you tighten it down pretty hard
+[5:13] then you're just not really going to
+[5:14] have any issues at all if you're
+[5:16] interested in having a torque
+[5:17] screwdriver this one is actually really
+[5:19] good for the money I'll have links for
+[5:21] all of this and anything else you see in
+[5:22] this video I'll have links for it down
+[5:23] in the description down below and when
+[5:25] you click on those links it'll take you
+[5:26] directly to whatever you're looking for
+[5:28] so you can check them all out for
+[5:29] yourself and the mistake that comes in
+[5:30] when using these residential grade
+[5:32] receptacles is when we turn it over here
+[5:34] to the back there are these speed wiring
+[5:36] or backstabbing holes right here but I
+[5:38] know too many electricians and I've seen
+[5:40] it for myself where these are prone to
+[5:42] fail there's a very thin piece of metal
+[5:45] inside of this Outlet here that when you
+[5:47] go and you insert your 14 gauge wire cuz
+[5:49] that's the max that they usually accept
+[5:50] and you push it in to one of those speed
+[5:52] wiring holes so now it's in there it's
+[5:55] locked into place that very thin piece
+[5:57] of metal is holding that down and over
+[5:58] time do to the heating that comes with
+[6:00] using a receptacle they get loose over
+[6:02] time and sometimes it's fairly quickly
+[6:04] to where you might start seeing your
+[6:06] receptacles are working intermittently
+[6:08] that causes that arcing it gets very hot
+[6:11] and fires can happen so this is one of
+[6:13] the number one service calls that a lot
+[6:14] of electricians get so I myself and
+[6:17] every electrician that I've personally
+[6:18] talked to recommend do not use the speed
+[6:21] wirring or backstabbing holes it is far
+[6:23] better to use the side wiring which is
+[6:26] the terminal screws making sure you have
+[6:28] that nice mechanical connection and once
+[6:30] you have that nice mechanical connection
+[6:31] you're going to have that good
+[6:32] connection for many many years and you
+[6:34] don't have to worry about it and look at
+[6:36] how easy I can remove this wire just by
+[6:38] twisting
+[6:39] it and it comes right out so just goes
+[6:42] to show you that that thin piece of
+[6:43] metal is not doing much all right so for
+[6:45] this next really big mistake this is
+[6:47] also incredibly incredibly common and
+[6:50] that's when somebody takes their
+[6:51] receptacle they take their freshly
+[6:53] stripped wiring they put it around the
+[6:55] terminal screw they go and they tighten
+[6:57] it down and they think this is good well
+[7:00] do you see the issue with this yeah the
+[7:02] big mistake here is they stripped off
+[7:04] way too much insulation this is going to
+[7:07] be energized when power is Flowing to
+[7:09] this receptacle and with this wiring
+[7:11] just being exposed that can pose a
+[7:13] serious risk for arcing which then can
+[7:15] lead to overheating it can lead to short
+[7:18] circuits and it can lead to fire now
+[7:20] conversely if I go ahead and I take this
+[7:22] wire off of this terminal screw and then
+[7:24] I flip it over here to this other side
+[7:27] then I tighten that one down well do do
+[7:29] you see the issue with this one yeah not
+[7:31] enough insulation was removed and if we
+[7:34] look up underneath of that terminal
+[7:36] screw there we can see that that
+[7:38] insulation is up underneath of that
+[7:40] terminal screw which means that we're
+[7:41] not getting a good connection with the
+[7:43] wiring either and if this wire was to
+[7:46] move it all because the terminal screw
+[7:47] was not clamped down all the way onto
+[7:49] the wiring if that was to move it all
+[7:51] now it becomes super loose and again a
+[7:53] loose wire has the potential for leading
+[7:56] to overheating and possible fir so it is
+[7:59] in incredibly important to make sure
+[8:01] that you are stripping off the proper
+[8:03] amount of insulation to where you do not
+[8:05] have any exposed coming out of the back
+[8:07] but where you do have enough cut off to
+[8:09] where the copper that's on that wire is
+[8:11] completely underneath of this terminal
+[8:13] screw and making contact with it now as
+[8:15] a tip with these on a lot of these
+[8:17] receptacles if you flip it over to the
+[8:20] back you will see here this little
+[8:21] indentation in the recepticle and it
+[8:24] actually says strip gauge but be careful
+[8:27] because a lot of times on these
+[8:28] residential graders recepticles that
+[8:30] strip gauge is actually for your speed
+[8:32] wiring holes so can't stress it enough
+[8:35] super super important to make sure that
+[8:37] you get the proper amount of insulation
+[8:39] removed from the wiring before it gets
+[8:41] connected to the device so that it lasts
+[8:43] for a very long time and it does not
+[8:45] create a safety issue or a fire hazard
+[8:47] all right so for this next really big
+[8:49] mistake this is probably the most common
+[8:52] mistake that diyers make when installing
+[8:55] these receptacles so the issue with this
+[8:57] is I wrapped my J hook around around
+[8:59] this terminal screw in the incorrect
+[9:02] Direction I wrapped it around it in a
+[9:04] counterclockwise Direction so what it's
+[9:06] naturally going to want to do as we're
+[9:08] tightening this down is it's going to
+[9:10] want to push that wire out and away from
+[9:14] the terminal screw which is going to
+[9:15] create a suboptimal connection now this
+[9:18] is especially true with stranded wire so
+[9:20] if I wrap that stranded wire around that
+[9:22] terminal screw in a counterclockwise
+[9:25] Direction and I start to tighten that
+[9:26] terminal screw down watch it what happen
+[9:29] to all of those strands see how it's
+[9:32] pushing it away from the terminal screw
+[9:36] it is pushing all of those strands out
+[9:38] and away from that terminal screw to
+[9:41] where we've got loose strands that are
+[9:43] no longer underneath of that terminal
+[9:45] screw because that terminal screw was
+[9:47] being turned in the opposite direction
+[9:50] as those strands were going around it
+[9:52] all right so now this time let's take
+[9:53] our stranded wire wrap it around in the
+[9:55] correct or clockwise Direction and see
+[9:58] if we don't get better results by
+[10:01] putting around in that clockwise
+[10:02] Direction it should cause those strands
+[10:05] and that wiring to be pulled in tighter
+[10:08] to that terminal screw and so as you can
+[10:11] see just like that it did exactly that
+[10:13] it did not push the strands out in a way
+[10:15] to where they would be loose it grabbed
+[10:17] onto those wires especially the tighter
+[10:19] it got and it helped to wrap it around
+[10:21] the center of that terminal screw to
+[10:23] where it's nice and tight and there's
+[10:25] going to be a very good connection here
+[10:26] for a very long time all right so for
+[10:28] this next really big mistake I call this
+[10:30] one the double stacker and that's when
+[10:32] people are wanting to tie into a circuit
+[10:35] somewhere whether they want to install
+[10:36] lights with a light switch or they want
+[10:38] to add a receptacle somewhere and
+[10:40] they're going to use a receptacle as a
+[10:42] means for supplying that power so they
+[10:44] take the existing receptacle out they
+[10:45] see that both terminal screws already
+[10:47] have wires underneath of them they will
+[10:49] then just take one of the terminal
+[10:51] screws they will loosen it up they will
+[10:53] then take their new wiring that they're
+[10:55] wanting to tie into this receptacle here
+[10:58] and on this circuit and they will wrap
+[11:00] it up underneath of that terminal screw
+[11:02] just like that and then they will go and
+[11:05] they will tighten it down well this is a
+[11:08] huge no no not only is this against code
+[11:10] because no manufacturer allows for more
+[11:13] than one wire to be underneath of each
+[11:15] individual terminal screw but this is
+[11:17] also very very dangerous because over
+[11:20] time it does not take much for one of
+[11:21] these wires to shift a little bit and if
+[11:23] just one of these wires gets a little
+[11:25] bit loose well then the other one is too
+[11:27] you could run the risk of one of the
+[11:28] wires completely coming off of the
+[11:30] terminal screw or them just being in
+[11:32] there loose and again here we are
+[11:34] talking about a loose connection again
+[11:35] which can lead to overheating and
+[11:38] possible fire hazard so again never ever
+[11:40] ever double stack a terminal screw
+[11:42] because not only is it against code it's
+[11:44] also very dangerous all right so for
+[11:47] this next big mistake this is another
+[11:48] really common one of course and that
+[11:50] comes down to when you go to replace a
+[11:52] receptacle with a new one or you're just
+[11:54] wanting to install a different device
+[11:57] you remove the receptacle out of the box
+[11:59] you go and you take your wiring off of
+[12:01] that receptacle and then whether you're
+[12:03] installing a new receptacle and you want
+[12:05] to use the same wiring again and
+[12:07] especially this comes in if you go to
+[12:10] more of a commercial grade or a GFCI
+[12:12] which I highly recommend they're just
+[12:14] made a lot better these commercial grade
+[12:16] receptacles do not require you to wrap
+[12:18] it around the terminal screw to make the
+[12:19] connection instead again they have
+[12:21] what's called back wirring and that's
+[12:22] where there's a little metal plate
+[12:23] inside that as you tighten down the
+[12:25] terminal screw and you put your wire in
+[12:27] there that plate is going to sandwich
+[12:29] down on it like a vice or a clamp but
+[12:31] what often times happens is when you're
+[12:33] installing a device like this instead of
+[12:35] having the hooks on them what a lot of
+[12:37] people will do is they will just take
+[12:39] that hook cuz they know that it needs to
+[12:41] be straightened out and then they'll go
+[12:42] to install this into the receptacle
+[12:45] tighten it down and they will think this
+[12:48] is good well here's the problem with
+[12:50] that if I go ahead and I remove this
+[12:51] wire from this receptacle that I just
+[12:53] put in there when I went and I
+[12:55] straightened this wire out I weakened
+[12:58] this wire
+[12:59] well when the original hooks were made
+[13:01] when this Copper got bent it actually
+[13:03] weakened the copper but just bending it
+[13:05] that one way is totally fine problem
+[13:08] comes in especially with copper when you
+[13:10] go and start bending it other directions
+[13:12] it causes it to become work hardened and
+[13:14] when it becomes work hardened it becomes
+[13:16] very brittle and very easy for it to
+[13:19] then break off especially at the point
+[13:22] as to where that hook originally started
+[13:24] at because that's where the majority of
+[13:25] the force was put and this is especially
+[13:28] true if you've got a wire that's got
+[13:30] Nicks on it already when you go to
+[13:32] straighten this out it's going to make
+[13:33] it extremely brittle to where over time
+[13:36] it really would not be surprising for
+[13:38] that copper to just break off this wire
+[13:40] is going to come out obviously the
+[13:41] receptacle is not going to work cuz
+[13:42] there's no longer a wire connected to it
+[13:45] but now you've got a loose wire in the
+[13:46] box that could cause all kinds of issues
+[13:48] again arcing fire shock hazard so it's
+[13:51] extremely important that when you go and
+[13:53] take these J Hooks off of terminal
+[13:55] screws especially ones that have been
+[13:56] there for a while it is really important
+[13:58] that you cut that original J hook off
+[14:01] restrip the wire and if it's going into
+[14:03] a commercial grade and it just needs to
+[14:05] be straight like this well perfect then
+[14:07] you just put it in and then tighten it
+[14:08] down or if you need Loops again for the
+[14:11] new receptacle then you can make a new J
+[14:13] hook and you're not going to have any
+[14:14] issues there at all because this has not
+[14:16] been work hardened to where it's going
+[14:18] to cause it to snap off so always always
+[14:20] always if you remove wiring from a
+[14:23] receptacle or a light switch or any kind
+[14:25] of terminal screw cut off the hook and
+[14:27] start with fresh wire again and that
+[14:29] leads us to another bonus tip if you
+[14:32] want to try and avoid almost all of the
+[14:34] mistakes and issues that I showed you in
+[14:36] this video you can eliminate so many of
+[14:39] them by using one of these newer
+[14:41] receptacles not this one here but this
+[14:43] one here by Levitin no longer do
+[14:45] Shepherd's hooks need to be made to go
+[14:47] around terminal screws don't need to
+[14:49] worry about torquing those terminal
+[14:50] screws down properly they've got these
+[14:52] little levers on them much like the Wago
+[14:54] 221s you can just take your wire put it
+[14:56] into the hole flip that lever down
+[14:58] that's locked in into the place then you
+[15:00] go over to your neutral side flip that
+[15:01] white lever up put your neutral wire in
+[15:04] flip the lever down now that's locked
+[15:05] into place and then your ground wire
+[15:07] same thing flip the lever up insert the
+[15:09] ground wire in flip that lever down and
+[15:12] now this receptacle is completely wired
+[15:14] up and ready to be used and you don't
+[15:16] have to worry about a lot of the issues
+[15:17] that I talked about in this video and
+[15:19] for the most part I do trust these in
+[15:21] lower amperage situations just like when
+[15:23] it comes to using the Wago connectors I
+[15:26] really like them for some of your 15 amp
+[15:28] applications and while I do recommend
+[15:30] this for the DIY and again someone
+[15:32] that's not real familiar with installing
+[15:34] receptacles I still personally think the
+[15:36] best receptacle still on the market
+[15:38] today is your commercial grade
+[15:40] receptacle because while it doesn't have
+[15:42] the levers on it it does have those
+[15:44] clamps very easy to install very
+[15:46] reliable so totally up to you but these
+[15:49] are some added options and of course
+[15:51] again like always I'll have links for
+[15:52] these along with everything else you saw
+[15:54] in this video down in the description
+[15:56] down below when you click on those links
+[15:58] it will take you directly to whatever
+[15:59] you clicked on so you can check them all
+[16:01] out for yourself now while we covered
+[16:02] some of the biggest mistakes when it
+[16:04] comes to installing receptacles there's
+[16:06] a lot of other electrical connections
+[16:07] that are made a lot of it comes down to
+[16:09] connecting wires together and when it
+[16:11] comes down to connecting those wires
+[16:13] together there are also a lot of
+[16:15] mistakes that a lot of people just do
+[16:16] not realize that they're making when
+[16:18] making what they think are very easy
+[16:20] connections well if you'd like to learn
+[16:22] what some of those mistakes are identify
+[16:24] whether or not you're making some of
+[16:25] them and also learn what are the proper
+[16:28] and better ways of making those
+[16:29] connections so that they also last for a
+[16:31] very long time then click on this video
+[16:33] right over here you can find all that
+[16:34] information in that video and when you
+[16:36] click on it it will take you directly to
+[16:38] it so I hope you found value in this
+[16:39] video and if you did if you could do me
+[16:40] a huge favor hit that thumbs up button
+[16:42] right down below and of course if you
+[16:44] have any questions or comments still you
+[16:45] can leave those down in the comment
+[16:47] section and I'll catch you all in the
+[16:48] next one see you

@@ -1,0 +1,559 @@
+# E14 Every US Electrical Outlet Explained / Practical Engineering
+# https://www.youtube.com/watch?v=n_1wzYQwnts
+# Source: NexLev get_bulk_video_transcripts (same data as get_video_transcript, checked on yBHdCsVRle0), pulled 2026-10-27. Raw captions, one segment per line: [start] text. Not edited.
+
+[0:00] I love the periodic table of the
+[0:02] elements. I love it because it reveals
+[0:04] the deeper order of what seems like an
+[0:07] otherwise wildly disparate collection of
+[0:10] atoms with different physical forms,
+[0:12] chemical properties, and nuclear
+[0:14] stabilities. I love it because even
+[0:16] before we actually found the elements
+[0:19] that fit into each box, we knew [music]
+[0:21] that something did and could even
+[0:23] predict some things about those elements
+[0:25] before they were ever discovered. And
+[0:27] finally, I love it because it's a bit
+[0:29] messy. Not everything lines up perfectly
+[0:31] and in some ways it's still a work in
+[0:34] progress. In many ways, human-created
+[0:37] standards follow that same form and I
+[0:40] want to try to convince you that they
+[0:41] deserve the same affection. Let me
+[0:44] present the periodic table of standard
+[0:46] North American electrical connections.
+[0:49] Isn't it beautiful? I'm fascinated by
+[0:52] stuff like this. A diversity of needs
+[0:54] and purposes put into a relatively nice,
+[0:57] neat order. But why do we need so many
+[1:00] and where do any of these actually get
+[1:03] used? Well, I've spent [music] the past
+[1:05] month reading just about everything I
+[1:07] could find on electrical plugs and
+[1:09] receptacles to figure those questions
+[1:11] out and I even have a few of them here
+[1:13] so I can show you what I learned. I'm
+[1:16] Grady and this is Practical [music]
+[1:17] Engineering.
+[1:26] Electricity is something we really don't
+[1:29] want to be proprietary. It's one thing
+[1:31] if your charger doesn't work on your
+[1:32] buddy's cell phone. It's another thing
+[1:34] entirely when you have to rewire your
+[1:37] house because you bought a different
+[1:38] brand of toaster.
+[1:40] The National Electrical Manufacturers
+[1:42] Association or NEMA was founded in 1926
+[1:46] as [music] a coalition of companies
+[1:48] making electrical equipment. Their
+[1:50] members realized that life would be
+[1:52] better with [music] some standards so
+[1:54] that any company making an electrical
+[1:56] device could be reasonably confident
+[1:59] [music] that the people who might want
+[2:00] to buy that device would be able to use
+[2:02] it and more importantly use it safely.
+[2:05] This didn't happen overnight. It took a
+[2:07] diverse group of manufacturers,
+[2:09] engineers, and testing labs to form a
+[2:12] consensus around the system we use today
+[2:14] >> [music]
+[2:15] >> and it's far from a perfect system. My
+[2:17] friends Medhi and Alec have covered
+[2:19] receptacle related topics on their
+[2:21] channels including the merits and
+[2:23] disadvantages of the NEMA designs, but
+[2:26] it works pretty well. Well enough that
+[2:28] the NEMA connector standards have been
+[2:30] adopted not just in the US, but all of
+[2:32] North America, Central America, parts of
+[2:35] South America, Japan, Taiwan, the
+[2:37] Philippines, and beyond. Here's that
+[2:40] table again. You probably noticed that
+[2:42] every type of plug and receptacle has
+[2:44] its own special number. They seem a bit
+[2:47] arcane at first glance, but it's
+[2:48] actually a handy naming scheme that's
+[2:50] pretty straightforward to understand.
+[2:53] The first number is the configuration
+[2:55] that defines the combination of voltage
+[2:57] rating, wire count, and grounding style.
+[3:00] These numbers are a bit arbitrary, but
+[3:03] they kind of represent a certain class
+[3:05] of receptacles and plugs. [music] For
+[3:07] example, NEMA 1 receptacles are rated
+[3:09] for 125 volts
+[3:11] >> [music]
+[3:11] >> and have just two poles, a hot and a
+[3:13] neutral with no ground. The NEMA 1-15
+[3:16] was the classic North American outlet
+[3:19] until the 1960s and you still see these
+[3:21] in older buildings. [music]
+[3:23] Lots of devices made today can still use
+[3:25] them, especially low voltage equipment
+[3:27] like chargers and critically those
+[3:29] without external metal parts. If an
+[3:32] energized wire inside the device comes
+[3:35] loose [music] and contacts the case,
+[3:37] there's still an insulating barrier
+[3:39] protecting someone from being shocked.
+[3:41] The reason NEMA 1 receptacles are mostly
+[3:44] a thing of the past is what could happen
+[3:46] when equipment didn't have that
+[3:48] protection. If a device with a metal
+[3:50] enclosure or exposed metal parts had an
+[3:53] energized wire come loose, that metal
+[3:55] would be energized, too. But,
+[3:57] critically, it might not create a short
+[3:59] circuit. With nowhere for current to
+[4:01] flow, the device could just sit there,
+[4:04] indefinitely dangerous, until someone
+[4:06] happened to touch it, allowing current
+[4:08] to flow through them to a lower
+[4:10] potential. The ground wire we see in
+[4:12] nearly all plugs and receptacles today
+[4:14] fixes that specific hazard. Bonding
+[4:17] exposed [music] conductive elements and
+[4:18] connecting them to ground make
+[4:21] they somehow become energized, current
+[4:23] [music] will flow, a short circuit will
+[4:25] form, and protective devices like
+[4:27] breakers will activate. Today, we use
+[4:30] the NEMA 5 standard for the vast
+[4:32] majority of receptacles and plugs. Even
+[4:35] if you've never heard of NEMA or seen
+[4:37] the other plugs on the periodic table,
+[4:39] you're almost certainly familiar with
+[4:41] this design. They have a 125-V rating to
+[4:44] handle the standard 120-V service for
+[4:47] most electrical devices with a little
+[4:49] buffer. They have an energized pole
+[4:52] called the hot, a neutral pole to
+[4:54] provide a return path, and a separate
+[4:56] ground return that's bonded to the
+[4:58] neutral line in the main electrical
+[5:00] panel. The ground pin on most outlets is
+[5:02] round instead of flat, and that's the
+[5:04] reason why nearly all electrical outlets
+[5:07] kind of look like they're screaming. Or
+[5:09] at least they do to me.
+[5:11] One thing about NEMA 5, and actually
+[5:13] most of the NEMA configurations, is that
+[5:16] the outlets have polarity. On the NEMA
+[5:18] 5-15, the neutral slot is a bit wider
+[5:21] than the hot, making it so the plug can
+[5:23] only go in one way. In function,
+[5:25] polarity often doesn't matter for AC
+[5:28] circuits. Current travels in both
+[5:30] directions, so the equipment inside the
+[5:31] device can't really tell the difference.
+[5:34] And some devices, like switch-mode power
+[5:36] supplies, don't care which direction
+[5:38] they're plugged in. Both blades are the
+[5:40] same size. For safety, though, a lot of
+[5:43] devices do.
+[5:45] You really don't want heating elements,
+[5:47] motor coils, and circuit boards
+[5:49] energized and waiting for a ground. It's
+[5:51] less hazardous to put [music] the switch
+[5:53] on the hot wire so that nothing beyond
+[5:56] the cord is energized until it's turned
+[5:58] on. Enforcing polarity at the plug
+[6:01] prevents switched neutrals along with
+[6:03] other issues like electrical noise. The
+[6:06] NEMA 5-15 plug and outlet were designed
+[6:08] to be backward compatible with the older
+[6:11] 1-15 standard. 1-15 plugs work just fine
+[6:15] in the modern 5-15 outlets, and there
+[6:17] are quite a few interesting
+[6:19] compatibility cases like that in the
+[6:21] NEMA standards. For example, the 15 in
+[6:24] 5-15 refers to the current rating.
+[6:27] Nearly every household device and
+[6:29] appliance that runs on 120 V is designed
+[6:33] so that it never draws more than 15
+[6:35] amps. And actually, if the device is
+[6:37] meant to run for more than 3 hours
+[6:38] [music] continuously, like a space
+[6:40] heater, it can only draw 80% of that,
+[6:43] which is 12 amps if you're keeping score
+[6:45] at home. That limit is obviously fine
+[6:48] for most household appliances, but
+[6:50] especially in commercial spaces, it's
+[6:52] not quite enough power for certain
+[6:54] devices like kitchen mixers,
+[6:56] >> [music]
+[6:56] >> treadmills, copy machines, and power
+[6:58] tools. Of course, we could just change
+[7:00] the codes to require 20 amp circuits
+[7:02] everywhere, but that has huge
+[7:04] implications: [music] larger circuit
+[7:06] breakers, heavier gauge wiring, and more
+[7:08] expensive receptacles. And in [music]
+[7:10] many cases, it's just not necessary. So
+[7:12] instead, NEMA created a different
+[7:15] receptacle and plug for 120 V 20 amp
+[7:18] circuits, the 5-20. I have a bunch of
+[7:21] these here in the studio. You can see
+[7:22] they have that T shape on the neutral
+[7:24] [music] slot. And 20 amp devices have
+[7:27] the neutral blade rotated 90° on the
+[7:30] plug. But here's the backward
+[7:31] compatibility. Regular 15 amp plugs fit
+[7:34] into the [music] 5-20 receptacle as
+[7:36] well. NEMA 5 has 30 and 50 amp
+[7:39] receptacles, too, although they aren't
+[7:41] used very often these days because of a
+[7:43] quirk about the historic [music]
+[7:45] availability of voltage. Today,
+[7:47] split-phase electrical service is
+[7:49] basically standard for residential
+[7:51] power. You get 220-V hot lines, which
+[7:54] can be used individually [music] for
+[7:56] smaller circuits or combined to get 240
+[7:59] V for circuits that need more oomph. In
+[8:02] the early 20th century, 240-V service
+[8:05] wasn't always available, so you have
+[8:07] these very high-current 120-V
+[8:10] receptacles that could power heavy
+[8:12] commercial cleaning equipment like floor
+[8:14] burnishers and blowers,
+[8:15] >> [music]
+[8:16] >> kitchen equipment like warming cabinets
+[8:18] and steam tables, and large shop tools
+[8:20] like table saws and compressors. Also,
+[8:23] not all portable generators run at 240
+[8:25] [music] V, so older models use the
+[8:27] larger NEMA 5 receptacles as well. These
+[8:30] are still available and installed in
+[8:32] places where, for whatever reason, a
+[8:35] higher-voltage circuit is hard to come
+[8:37] by. But in most cases, the more power-
+[8:40] hungry devices are going to run on 240
+[8:42] V. That brings us to NEMA 2. Like NEMA
+[8:46] 1, these are ungrounded receptacles, but
+[8:49] instead of a hot neutral, they have two
+[8:51] hots. Each is 180° out of phase with its
+[8:54] neighbor, so you get 240 V across them,
+[8:57] handled with a little cushion by the
+[8:59] 250-V rating. There were 20 and 30-A
+[9:03] receptacles, but also like NEMA 1, these
+[9:05] are mostly obsolete [music] now that a
+[9:07] ground is required by code. They've been
+[9:10] replaced with NEMA 6, which has 15, 20,
+[9:13] 30, and 50-A receptacles [music] and
+[9:15] plugs. Of course, with double the
+[9:17] voltage, you also get double the power
+[9:20] compared to the NEMA [music] 5
+[9:21] equivalents at the same current rating.
+[9:24] The 6-15 is common for window or
+[9:26] wall-mounted air conditioners. The 6-20
+[9:29] [music] is used for heavier-duty air
+[9:30] conditioners, plus commercial kitchen
+[9:32] equipment and shop tools. The 6-30 is
+[9:35] used with large heaters, kilns, and
+[9:37] heavy power tools. The 650 is kind of
+[9:40] the standard welder outlet. Plus, it's
+[9:43] pretty common [music] these days for
+[9:44] level two EV chargers capable of
+[9:47] delivering nearly 10 kW of continuous
+[9:49] power through the receptacle. [music]
+[9:51] Like NEMA 5, the NEMA 6 has some
+[9:53] backward compatibility allowing the 615
+[9:56] plugs to fit into the 620 receptacles.
+[9:59] This is kind of clever, but it doesn't
+[10:01] work all the way up the different
+[10:03] current ratings. Of course, a 50-amp
+[10:06] outlet could easily handle a 15-amp
+[10:08] device, and it would certainly be
+[10:10] possible to design a series of outlets
+[10:12] where each successive jump in current
+[10:15] rating allowed those smaller devices to
+[10:17] plug in, but there are two main reasons
+[10:20] why they don't.
+[10:22] One is practicality. The blades on plugs
+[10:25] aren't all the same thickness. Designing
+[10:27] a single receptacle slot that can safely
+[10:30] grip both a thin 15-amp blade and a
+[10:33] massive 50-amp one would make
+[10:35] manufacturing more difficult and
+[10:37] increase the chances of developing loose
+[10:39] connections inside the receptacle over
+[10:42] time. Two [music] is safety. Circuit
+[10:44] breakers are sized to protect everything
+[10:47] downstream, including the plugs and
+[10:49] appliance cord. If a thin cord on a
+[10:52] low-current device develops an [music]
+[10:54] internal short, the resistance of that
+[10:56] thin wire itself will cap the fault
+[10:59] current so that a larger breaker might
+[11:01] take longer to trip or not trip at all.
+[11:04] That could allow the wire to reach high
+[11:06] enough temperatures to start a fire.
+[11:08] Of course, you don't want a high-current
+[11:10] device plugged into a lower-current
+[11:12] rated circuit, but if you trace out the
+[11:14] things that can go wrong, it turns out
+[11:16] that you also don't want lower-current
+[11:19] devices plugged into a high-capacity
+[11:22] circuit. So, the plugs and outlets are
+[11:24] designed to prevent both cases, except
+[11:27] for the 15- and 20-amp situation where
+[11:29] the current is close enough that a
+[11:32] breaker should still work as intended.
+[11:34] 240 volts are useful to supply more
+[11:36] power at the same current rating, but of
+[11:39] course it comes at a cost. Higher
+[11:41] voltage means more [music] potential,
+[11:43] literally, for arcs to occur. Equipment
+[11:45] designed to handle the higher voltage
+[11:47] needs better [music] insulation and more
+[11:49] careful design. Take a clothes dryer,
+[11:51] for example. You want the extra voltage
+[11:54] for the power-hungry heating elements,
+[11:56] but all the other stuff inside, like
+[11:58] timers, controllers, and clocks, can
+[12:00] easily run on 120, and those lower
+[12:03] voltage components are more affordable.
+[12:05] That's where NEMA 10 came in. You get
+[12:08] three poles, two hots and a neutral.
+[12:10] [music] In that way, you get dual
+[12:12] voltage, 240 between the hots and 120
+[12:15] between each hot and neutral. Of course,
+[12:17] NEMA 10 receptacles also lack a ground
+[12:20] connection, so they're mostly obsolete.
+[12:22] Plenty of houses still have them
+[12:24] installed for clothes dryers and kitchen
+[12:26] ranges, but since the 1990s, they've
+[12:28] been supplanted with the NEMA 14
+[12:31] configuration. This is the most widely
+[12:34] used 240-V standard in North America
+[12:36] today. It's versatile, providing both
+[12:39] voltages, and there are a full range of
+[12:41] current capacities, allowing you to
+[12:43] design a circuit that's well suited for
+[12:46] a device, from 15 all the way up to 60
+[12:49] amps. The 14-15 is pretty rare. I
+[12:52] couldn't even find someone making the
+[12:53] receptacle. The 14-20 is also not that
+[12:56] common. Some food service equipment uses
+[12:59] this, like certain coffee makers. The
+[13:01] warmers rely on 240 volts, while the
+[13:03] fans and timers run on 120. Same with
+[13:06] some job site heaters and specialized
+[13:08] laboratory equipment. The 14-30 is the
+[13:11] standard residential electric clothes
+[13:13] dryer plug, and is often used for EV
+[13:15] chargers. Some server and mainframe
+[13:18] equipment use it as well. The 14-50 is
+[13:21] the standard residential cooking range
+[13:23] and oven plug. It's also widely used for
+[13:25] EV chargers, and pretty common at RV
+[13:27] campgrounds as well. The 14-60 is more
+[13:31] of a commercial or industrial receptacle
+[13:33] used for large kitchen appliances and
+[13:36] distribution of power at events like
+[13:38] concerts. Single-phase electrical
+[13:40] service covers nearly all residential
+[13:42] and lots of commercial buildings, but
+[13:45] the grid runs on three phases and it's
+[13:47] pretty common for larger commercial
+[13:49] buildings and essentially all industrial
+[13:51] facilities [music]
+[13:52] to have three-phase service. It's
+[13:55] particularly useful for devices that use
+[13:57] large motors and of course, if you have
+[14:00] the service, you're going to need the
+[14:01] receptacles and plugs for those devices
+[14:04] or at least the ones that aren't
+[14:05] hardwired. NEMA 11 was the standard for
+[14:08] up to 250 volts with receptacles and
+[14:11] plugs ranging from 15 to 50 amps. Those
+[14:14] have been replaced by the new NEMA 15,
+[14:17] again because of grounding requirements.
+[14:19] And this is going to almost always be
+[14:21] relatively specialized industrial
+[14:24] devices. Wood shop tools, laboratory
+[14:27] testing equipment, grinders, pumps, dust
+[14:30] collectors, heavy welders, plasma
+[14:32] cutters, and so on. It's not stuff most
+[14:34] people see in everyday life and in many
+[14:36] cases, each receptacle is going to be
+[14:38] custom installed for [music] a specific
+[14:41] piece of equipment. And since hardwiring
+[14:44] equipment directly to the service panel
+[14:46] is typically the default, that makes
+[14:48] receptacles like these even more rare.
+[14:51] You really only see them in places that
+[14:52] need a high degree of modularity,
+[14:55] allowing for rapid reconfiguration of
+[14:57] workspaces like job sites, certain
+[14:59] manufacturing facilities, and short life
+[15:02] cycle equipment that needs to be easily
+[15:04] swapped out. There are two main
+[15:06] three-phase service classes used in most
+[15:09] commercial and industrial buildings in
+[15:11] the US. [music] The most common is 208
+[15:13] volts phase-to-phase, which uses the
+[15:15] NEMA 15 configuration. There's also 480
+[15:19] volts phase-to-phase, but like I
+[15:21] mentioned before, you can get a lower
+[15:23] voltage between phase and neutral, in
+[15:26] this case 277 volts. So, NEMA 7 has
+[15:30] plugs [clears throat] and receptacles
+[15:31] specifically for using just one phase
+[15:34] from buildings wired with 480-volt
+[15:36] three-phase service. A lot of commercial
+[15:39] and industrial lights use these
+[15:41] receptacles, like warehouses, factories,
+[15:43] and arenas, making them easy to swap out
+[15:45] without hardwiring. Commercial
+[15:47] ventilation and air-conditioning systems
+[15:49] [music] use them, too. And just like the
+[15:51] dual-voltage 240-volt plugs, there are
+[15:54] also dual-voltage three-phase plugs,
+[15:57] delivering equipment with all three hot
+[15:59] phases plus a neutral, [music] so
+[16:01] different components can run at
+[16:03] different voltages. NEMA 18 has
+[16:05] receptacles for 208-volt service,
+[16:08] although they don't have a ground, so
+[16:09] they're mostly obsolete. There are no
+[16:12] straight-blade plugs that have replaced
+[16:14] NEMA 18. Aligning and inserting a
+[16:17] five-blade plug would be tricky and take
+[16:20] a lot of force. And I've kind of buried
+[16:22] the lead here, only talking about the
+[16:25] straight-blade NEMA standards. The
+[16:27] reality is that a large number of the
+[16:29] NEMA receptacles and plugs have an
+[16:32] equivalent locking version. These use
+[16:34] curved blades that twist inside the
+[16:37] receptacle, so they can't easily be
+[16:39] pulled out. Actually, the locking
+[16:42] versions are more common than the
+[16:43] straight-blade equivalents in many
+[16:45] cases, especially when it comes to
+[16:47] portable generators, job site equipment,
+[16:50] and events where things are always
+[16:52] moving around. If your vacuum cleaner
+[16:54] unplugs itself cuz you've gone too far
+[16:57] in the hallway, that's usually not a big
+[16:59] deal, but if a three-phase 600-volt
+[17:02] plasma cutter does the same thing,
+[17:04] you can get some serious damage from
+[17:07] arcing. That's why the locking standards
+[17:09] extend beyond the voltage ratings of the
+[17:11] straight-blade ones up to three-phase
+[17:14] 600-volt circuits. They even have
+[17:16] receptacles for 400 Hz power [music]
+[17:19] used in aerospace, submarine, and
+[17:21] military systems. Of course, sometimes
+[17:23] the standards make themselves. When it
+[17:26] comes to RVs and travel trailers, from
+[17:28] what I can gather, the industry had
+[17:30] already developed a 120 V 30 amp
+[17:33] receptacle before NEMA formalized its
+[17:36] catalog of standards. Instead of forcing
+[17:39] an entire industry to retool, NEMA just
+[17:42] adopted what everyone was already using,
+[17:45] calling it the TT-30. TT for travel
+[17:48] trailer and 30 for the current capacity.
+[17:50] In function, it's not any different than
+[17:52] the NEMA 5-30 receptacle and plug, but
+[17:55] you'll almost never see one of those
+[17:57] because the TT-30 is far more common.
+[18:01] It's a face only an outlet enthusiast
+[18:03] could love. I haven't really talked
+[18:05] about the smaller versions of the
+[18:07] locking connectors [music] used where
+[18:09] space is an issue, and there are even
+[18:11] more specialized standards like
+[18:12] ship-to-shore power, aircraft, and
+[18:14] military uses. Of course, when you look
+[18:17] beyond NEMA, there are way more
+[18:19] standards out there, but I feel like
+[18:21] this is enough to get you excited about
+[18:23] the weird, wide world of electrical
+[18:25] receptacle standardization. There are
+[18:28] all kinds of practical considerations
+[18:31] that make it much more complicated than
+[18:33] just a 2D chart with voltage on one side
+[18:36] and current on the other. Just like the
+[18:38] periodic table of the elements, the NEMA
+[18:40] connection standards are a bit messy,
+[18:43] and that's what I love about them.
+[18:46] Receptacles and plugs may not
+[18:48] technically be considered
+[18:49] infrastructure, but I love them because
+[18:52] they're our interface to it. I've
+[18:54] covered a lot of topics on the grid,
+[18:56] including some high-profile failures
+[18:59] resulting from overgrown trees in
+[19:01] transmission [music]
+[19:02] line corridors. If you look at these on
+[19:04] a map, they stand out for that exact
+[19:06] reason.
+[19:07] >> [music]
+[19:07] >> They have to be kept clear of large
+[19:09] trees that could cause a short circuit,
+[19:11] and they have to be accessible for crews
+[19:14] to do maintenance or repairs. But, that
+[19:16] doesn't mean they have to be completely
+[19:19] bare in stripes through the landscape.
+[19:22] My friends at Planet Wild did a mission
+[19:24] in Switzerland to prove it. Rewilding a
+[19:27] 30-ha transmission line corridor to
+[19:29] [music] improve biodiversity and create
+[19:32] an insect highway. I've been a Planet
+[19:34] Wild member for a year now, and I'm
+[19:36] happy to have them as today's sponsor,
+[19:38] because projects [music]
+[19:39] like this are exactly why I joined in
+[19:42] the first place. If you never heard of
+[19:44] them, they're a not-for-profit
+[19:45] organization focused on [music]
+[19:47] environmental restoration, but they do
+[19:49] things differently. Every month, their
+[19:51] community [music] of over 25,000 members
+[19:54] funds a mission related to protecting
+[19:56] endangered species, oceans, or forests,
+[19:59] and then they produce a video and
+[20:01] release it on YouTube, so you can
+[20:03] [music] see what your contributions
+[20:05] actually achieve. They're one of my
+[20:07] favorite partners. With Planet [music]
+[20:09] Wild, I feel much more like a part of a
+[20:11] group, and I look forward to the monthly
+[20:13] videos when I get to see how my
+[20:15] contributions are doing something
+[20:17] positive. [music]
+[20:18] They do a lot of infrastructure-related
+[20:21] missions, like the one rewilding a
+[20:23] transmission [music] line, and
+[20:24] introducing beavers to a farm to convert
+[20:27] a degraded stream [music] into better
+[20:28] habitat for plants and wildlife. And
+[20:31] they don't just document [music] each
+[20:33] mission once, they go back and revisit
+[20:35] later to give 1, 3, [music] and 10-year
+[20:38] updates. If you've been looking for a
+[20:40] neat way to give back, I think Planet
+[20:41] Wild is a very cool way to do it.
+[20:43] [music] And to prove it, for the first
+[20:45] 100 people who sign up, I'll cover your
+[20:47] first month. Just scan the QR code or
+[20:50] click the link in the description, and
+[20:52] use my code practical29 to get your
+[20:55] first month free. No catches, you can
+[20:57] cancel anytime, you can give whatever
+[20:59] amount that feels right to you. [music]
+[21:01] Check out some of their missions, like
+[21:02] the transmission line rewilding video
+[21:04] linked below, and I hope you'll consider
+[21:06] joining. [music]
+[21:07] Thank you for watching, and let me know
+[21:09] what you think.
+[21:14] >> [music]
+[21:21] [music]

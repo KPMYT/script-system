@@ -1,0 +1,451 @@
+# satUNKeD0EI | Ingenious Sunken Outlet Fixes That Most Don't Know About! | How To Home
+# Source: NexLev get_video_transcript, pulled 2026-10-27. One caption segment per line: [startTime] text. Raw auto-captions, unedited.
+[0:00] So, a fairly common issue that many
+[0:02] DIYers will come across at some point or
+[0:04] another are sunken electrical outlets.
+[0:07] And a sunken electrical outlet is where
+[0:08] the receptacle sits too far back from
+[0:11] the wall surface. And not only does it
+[0:13] not look professional, but it can also
+[0:16] violate electrical codes and create
+[0:18] safety hazards. So, in this video, I'm
+[0:20] going to show you how this issue looks.
+[0:22] I'm also going to show you how to easily
+[0:23] and quickly fix a sunken electrical
+[0:26] outlet. And then also along the way, I
+[0:28] will also be pointing out some very
+[0:30] common mistakes that are made when
+[0:32] making this essential and easy repair.
+[0:35] So, let's go ahead and jump right in.
+[0:37] All righty. So, as you can see here, we
+[0:39] have a classic example of a sunken
+[0:43] outlet. Now, these can be to varying
+[0:45] degrees. A lot of times, you can't tell
+[0:47] that they actually have the same issue
+[0:49] because they might be a little bit more
+[0:50] flush, but then when you go to plug
+[0:52] something in, the outlet then sinks in.
+[0:54] It completely depends on the installer
+[0:56] when they put the hole in the wall and
+[0:58] how they installed it as to how bad this
+[1:00] is actually going to look. But like
+[1:02] always, anytime we're making any kind of
+[1:04] an electrical repair or install, the
+[1:07] first thing we always want to do is make
+[1:08] sure that we turn off the circuit
+[1:10] breaker that is supplying the power to
+[1:12] the circuit we're going to work on. All
+[1:13] right. Now that I've got that circuit
+[1:15] breaker off with the cover plate still
+[1:16] on, I can take my outlet tester, plug it
+[1:19] in, and make sure I don't get any lights
+[1:21] coming on, which I do not. So, I know
+[1:24] that the power is in fact off. And now
+[1:26] that the power is off, now I can remove
+[1:28] my cover plate to the receptacle. All
+[1:30] right. So, as you can see here, this is
+[1:33] almost always going to be the case for
+[1:35] when you have a sunken receptacle.
+[1:38] Generally speaking, what happens is the
+[1:41] person that cuts the holes in the
+[1:42] drywall or whatever surface you're using
+[1:44] for your wall, maybe it's a wall panel,
+[1:47] you got tile, maybe you added tile to a
+[1:49] kitchen, whatever it is, the hole for
+[1:52] the receptacle is too large. So, the
+[1:55] yolks, that's what these metal straps
+[1:57] are on the top and the bottom of the
+[1:59] outlet or receptacle, they should be
+[2:02] touching the face of whatever your wall
+[2:05] is. that is what holds it out and flush
+[2:07] with the wall so you get that nice
+[2:09] finished look. But regardless of how it
+[2:11] was done, I'm going to show you a few
+[2:13] different ways in order to very easily
+[2:15] and very inexpensively fix this. And one
+[2:18] of the ways I'm going to show you is one
+[2:19] that not very many people have talked
+[2:22] about, but it's actually a pretty
+[2:23] ingenious invention to take care of this
+[2:26] problem. But first thing we want to do,
+[2:28] again, we've already verified the power
+[2:29] is off. Once that's done, all we need to
+[2:31] do is remove the screws on the top and
+[2:33] the bottom of the receptacle. and pulled
+[2:35] this receptacle out and away from the
+[2:37] box per code. And for very important
+[2:40] safety reasons, a thing that you want to
+[2:42] really keep in mind and make sure of is
+[2:44] that the gap between the front of the
+[2:47] box and your wall is not more than a/4
+[2:51] of an inch. If it's at a/4 in or less,
+[2:54] your repair in most cases is going to be
+[2:57] a lot easier. And I don't know if you
+[2:59] can see that or not, but I'm pretty much
+[3:00] right at that one/4 in gap. And that
+[3:03] would be my limit for the steps that I
+[3:05] would have to take. Now, for those of
+[3:07] you that are going to have a larger gap
+[3:08] than that, which is going to be probably
+[3:09] many of you, I'm not going to leave you
+[3:10] hanging here. I'm not going to skip over
+[3:12] what you would need to do. But the other
+[3:14] thing you need to pay attention to is
+[3:15] what is your wall made of? And that's
+[3:17] why there are these rules. If you've got
+[3:20] a wall that's a combustible material,
+[3:22] say it's wood paneling. The reason why
+[3:24] the gap matters is because if these
+[3:28] receptacles are too far out and away
+[3:30] from the box and they're not being
+[3:32] covered over where the terminal screws
+[3:34] are, if you were to get any kind of
+[3:35] arcing, then there's a possibility that
+[3:38] it could actually ignite that
+[3:40] combustible wall material and then start
+[3:42] a fire. So, if you have over a/4 of an
+[3:46] inch and or you have combustible wall
+[3:48] material, that's when you're going to
+[3:50] want to use some sort of a box extender.
+[3:53] The reason for that is obviously since
+[3:55] it's called a box extender, it is
+[3:57] extending the box. It is going to be
+[3:59] protecting those sides so that there's
+[4:01] any kind of arcing that comes from the
+[4:02] receptacle, it's still going to be
+[4:04] contained inside of an enclosed box. So,
+[4:08] these are probably one of the most
+[4:09] common types of box extenders. However,
+[4:12] there are some other options out there.
+[4:14] And in my opinion, I personally think
+[4:16] that these are better or I like to use
+[4:18] these better, I should say. And these
+[4:20] can really come in handy if the specific
+[4:22] size or gap that's there that these fit
+[4:25] it almost perfectly. So this particular
+[4:27] one, this one's yellow. Color doesn't
+[4:29] really mean anything, but this yellow
+[4:30] one is a/4in box extender. And this
+[4:33] black one is a halfin box extender. So
+[4:36] in my case, what I would need to do is
+[4:38] take my quarterinch box extension, put
+[4:40] it over my receptacle like I did with
+[4:42] the other one, put that box extender in
+[4:44] the wall, and then I could go and
+[4:47] tighten this down. and then everything
+[4:49] would be flush or very close to it. I
+[4:51] would have to make some very minor
+[4:52] adjustments possibly with some shims.
+[4:55] Same thing with the 1/2 in. You just put
+[4:56] it over the receptacle, push the box
+[4:58] extender up against the face of the box
+[5:00] in the wall, and then you can then
+[5:02] tighten it down. Now, in my case, the
+[5:04] 1/2 in is a little bit too large, so
+[5:06] it's protruding out away from the wall.
+[5:08] So, for me, that wouldn't look good
+[5:09] either, but it just depends on your
+[5:11] particular situation. And just something
+[5:13] to note, if you're using a box extender,
+[5:16] the first one I showed you came with
+[5:18] longer screws. But if you're using one
+[5:20] of these, a lot of times they do not
+[5:21] come with longer screws, so you're going
+[5:23] to want to buy a bag of these longer
+[5:25] screws like this one right here. And
+[5:27] like always, for your convenience, I'm
+[5:29] going to have links for everything you
+[5:31] see in this video. from the box
+[5:33] extenders to the shims, these screws to
+[5:35] all the tools that I use, everything you
+[5:37] see in this video, I'm going to have
+[5:38] links for all of it down in the
+[5:40] description down below that at any time
+[5:42] you can just click on them and it'll
+[5:43] take you directly to whatever it is
+[5:45] you're wanting to check out. All right,
+[5:46] so I've shown you a couple of different
+[5:48] options for the box extensions. And
+[5:50] again, you will have to use them if your
+[5:52] gap is over a quarter of an inch. What
+[5:54] I'm about to introduce to you now are a
+[5:57] few different ways of then leveling
+[5:58] everything regardless of whether you
+[6:01] have a box extension or you don't need
+[6:03] one. So, starting with one of the first
+[6:04] ways and one of the most common ways
+[6:06] that people know of in order to then
+[6:08] bring these receptacles level, whether
+[6:10] you're using a box extender or you don't
+[6:12] have to are these types of shims right
+[6:16] here. Now, the way that these work are
+[6:18] you can tear these off to where
+[6:20] depending on how thick you need it to
+[6:22] be, you can just bend it over like so
+[6:25] and push it in like that. And then it's
+[6:26] together. And then you can just dry fit
+[6:29] them by then taking that gap right
+[6:31] there, putting it on that screw, and
+[6:34] then you push it in up against the box
+[6:36] to figure out how much of a gap that you
+[6:39] need to make up for and how many times
+[6:40] you need to fold these over. So for me
+[6:42] in my gap, I think I'm going to need to
+[6:44] do it one more time. So, I did two
+[6:46] folds. I've got three total pieces here.
+[6:48] At that point, I can then rip those away
+[6:51] from the rest of them. And I'm going to
+[6:52] need it for the bottom as well. So, I
+[6:54] just need to fold them over just like I
+[6:56] did for the top ones. And then rip them
+[6:58] away. Then again, I just take this
+[7:00] groove, put it over the screw, and then
+[7:03] same thing at the bottom, push it into
+[7:06] the box, and then I can tighten down my
+[7:09] screws. Once you've verified that the
+[7:10] receptacle is straight, it's nice and
+[7:13] flush with where it was supposed to be
+[7:15] with the wall, then I could just take my
+[7:17] cover again, and then tighten down that
+[7:19] cover screw. Just like that. Everything
+[7:21] is nice and flush. The receptacle looks
+[7:24] exactly the way that it should have, and
+[7:26] nobody is the wiser as to how this was
+[7:29] done. All right, so this next one I'm
+[7:31] going to show you, in my opinion, is
+[7:33] probably the fastest way of doing it.
+[7:35] Not always the best way of doing it, but
+[7:37] if it will work for your situation, it
+[7:39] doesn't really get any easier than this.
+[7:42] All right, so it would just have to be
+[7:43] like that, loosened away from the box
+[7:45] and out away from the wall. And the
+[7:48] material in this case I can use that
+[7:50] makes it so quick is this right here.
+[7:52] These are made by Reiko. Of course,
+[7:54] there are other knockoffs, but Reiko is
+[7:57] the name brand a lot of electricians
+[7:59] use. And this is called a flush fit. The
+[8:03] way that this works, this won't take
+[8:04] very long at all. We take a look at our
+[8:06] metal piece here up here in the top
+[8:08] right corner. It says up. So, you know
+[8:10] that this is the top of it. Then all we
+[8:12] need to do is we need to take this
+[8:14] groove right here. Slide it in behind
+[8:17] this metal strap or yolk here. And then
+[8:20] on top of the screw that is going
+[8:23] through the yolk. So, just like that. We
+[8:25] still got it at an angle and it's almost
+[8:27] like it's on a hinge. All we have to do
+[8:29] then is take the bottom portion and
+[8:32] hinge it or slide it up underneath of
+[8:35] the bottom portion down here at the
+[8:37] bottom. And then at this point, in many
+[8:40] cases, but I'll show you here in a
+[8:41] moment why I would not use it for this
+[8:43] one. In many cases, this is done. You
+[8:46] can go ahead start tightening up the
+[8:48] screws, put the cover plate on, and
+[8:50] everything will be flush. Now, I could
+[8:53] make this work for this receptacle, but
+[8:56] I don't know if any of you can tell, but
+[8:58] I don't have a lot of overlap up here at
+[9:01] the top between the metal and the face
+[9:03] of my wall. Down here at the bottom,
+[9:05] this actually started to go in. So, this
+[9:08] one also can have some limitations to
+[9:11] it, but if it is one where it can fit in
+[9:14] there and maybe you just have damage
+[9:16] from the ears, but you still have plenty
+[9:18] of wall space here, you saw it's not
+[9:20] going to get any quicker or easier than
+[9:23] using this right here. So, this is
+[9:25] another option, but again, it just
+[9:26] depends on your particular situation.
+[9:30] All right, so I've now shown you a few
+[9:32] different shim methods. This next one
+[9:34] though is one I just think is ingenious.
+[9:37] You don't need to worry about how wide
+[9:39] the hole is because it will have no
+[9:41] effect on it whatsoever. And it's one
+[9:44] that I've seen very few people actually
+[9:46] talk about. And that comes down to this
+[9:49] little sprocket looking material. And
+[9:51] this is called a UniSim. Now, I am not
+[9:54] sponsored by anybody in this video
+[9:55] including UniSim. They did reach out to
+[9:57] me. They made me aware of this I don't
+[9:59] know maybe a year or two ago. and I've
+[10:01] just been having these sit in the
+[10:02] garage. But I have to say, these things
+[10:05] really are ingenious with how they work,
+[10:08] and how they can work in almost any
+[10:10] application. And they're just as simple
+[10:12] as this one piece right here. So, let me
+[10:15] just quickly show you how these are
+[10:17] used, how they work, and why they can
+[10:19] work in so many different situations.
+[10:22] But what makes these things so special
+[10:25] is this little nodule up here that you
+[10:28] see in the side of this UniSim. It just
+[10:31] sticks out ever so slightly out and away
+[10:34] from the metal. And that is where their
+[10:36] patent really comes in. So all you got
+[10:39] to do with the UniSim is you want to
+[10:41] make sure that little nodule or circle
+[10:43] is facing towards you or towards the
+[10:45] receptacle yolk. And then we just want
+[10:47] to go ahead put it on the screw. And
+[10:50] we're going to have to put it on the
+[10:50] bottom and the top screws. And then
+[10:52] we're just going to start feeding that
+[10:54] on there. And we want to get it
+[10:55] tightened on here to where it's about
+[10:58] 1/4 of an inch that there's a 1/4 in gap
+[11:01] between the unis shim and then this
+[11:03] metal strap on the receptacle or the
+[11:05] yolk. And of course, you're going to
+[11:07] have to adjust this depending on what
+[11:10] your gap is like. And then, like I said,
+[11:12] I'm going to take a second one and put
+[11:14] it on the bottom one. And I'm going to
+[11:16] do the exact same thing. All right. So,
+[11:18] as you can see, I've got my unis shim on
+[11:20] the top and bottom screws, which I did
+[11:22] elect to go with longer screws, as the
+[11:24] ones that usually come with it in many
+[11:26] cases are just going to be too short.
+[11:28] So, now what I want to do is I want to
+[11:30] take my screws and I want to insert them
+[11:32] into the holes of the box and start
+[11:35] tightening them down. All right, so
+[11:37] here's the key though. We don't want to
+[11:39] tighten it down all the way into the
+[11:41] box. That's not how this works. So, I'm
+[11:43] really focusing on this top one right
+[11:45] now. If you can see that uni- shim is
+[11:47] right in behind the yolk right there. We
+[11:49] want to get that unis shim the face of
+[11:51] it flush with the front of our wall
+[11:54] face. So in my case, I've pretty much
+[11:56] got it right about there. This is where
+[11:58] now that little nodule I talked about
+[12:00] earlier, that's where this comes into
+[12:02] play. We want to then take our
+[12:05] receptacle and push it up against the
+[12:08] uni shim. What this is going to do is as
+[12:11] we go to tighten this down, that little
+[12:13] nodule is going to fit in the hole
+[12:16] around our screw right here in this gap
+[12:18] right here and it's going to get caught.
+[12:20] When it gets caught there, it's no
+[12:22] longer going to twist and keep going
+[12:24] deeper into the box. It's going to stay
+[12:26] right there and then tighten it down to
+[12:28] the unisim like a vice. So, I'll go
+[12:31] ahead and start doing that, twisting it
+[12:33] to the right. Eventually, it's going to
+[12:35] get stuck in that hole there, which it
+[12:37] already is. So, I'm just going to go
+[12:39] ahead finish tightening that down. So,
+[12:41] now my top one's done. Now, I just have
+[12:43] to do the same thing with the bottom
+[12:44] one. So, as you can see there, right
+[12:46] above my pointer finger, that little
+[12:48] nodule sticking through the hole there
+[12:50] next to the screw, that's where it gets
+[12:52] caught at. And then when I go to
+[12:53] continue rotating the screw, why it
+[12:55] can't continue to rotate and tighten
+[12:58] down deeper and why the screw is then
+[12:59] going to sandwich up against it and
+[13:01] tighten it down. So, I'll go ahead start
+[13:03] tightening [snorts] this down.
+[13:06] And that's pretty close to perfect. My
+[13:08] top one is perfect. My bottom one is
+[13:11] still a little bit sticking out down
+[13:13] here at the bottom. I have a tiny little
+[13:15] gap here, but that's not a problem at
+[13:16] all. All I need to do is keep pressure
+[13:19] on my receptacle up against the UNISM.
+[13:21] I'm going to go ahead loosen my screw
+[13:23] just slightly. And what I need to do is
+[13:26] I actually need to make my gap just
+[13:28] slightly larger so that the UNISM is
+[13:31] just a little bit more below the front
+[13:33] surface of my wall face. So, I'll just
+[13:35] go ahead and do that really quickly.
+[13:36] These minor adjustments are super easy
+[13:38] to make. And at this point, I can
+[13:40] actually dry fit it and see how close
+[13:42] I'm going to be. So, right about there
+[13:44] is perfect. So, I can go ahead now and
+[13:46] continue tightening my screw down and
+[13:48] pulling it down into the box. All right.
+[13:50] So, now this is perfect. This is
+[13:52] perfectly flush with the wall face like
+[13:54] it should have been if this wasn't
+[13:56] overcut on the top and the bottom. It's
+[13:58] in there nice and tight. I can't push on
+[14:01] that receptacle to where it sinks in. I
+[14:03] can't pull out away from it either. That
+[14:04] unis shim has completely sandwiched it
+[14:07] between the uniim and the screw head.
+[14:09] And so now at this point, all that there
+[14:11] is left to do is take my face plate
+[14:13] again, put it over my receptacle, and
+[14:16] tighten down the face plate screw to the
+[14:19] receptacle. But as you can see now,
+[14:20] there is no gap whatsoever between my
+[14:24] cover plate and my wall face. My
+[14:26] receptacle is just barely sticking out
+[14:28] of my cover plate like it should be.
+[14:31] It's not sunken anymore like I showed
+[14:33] you in the very beginning. And again,
+[14:35] this looks exactly how it should have
+[14:37] been installed in the first place.
+[14:38] Nobody's going to ever be able to tell
+[14:40] that at one time this was a sunken
+[14:42] outlet. If we push on it, it's not going
+[14:44] anywhere. So, if we're putting in cords,
+[14:46] it's not sinking either. So, those UNI
+[14:48] shims, I'm going to have those in my
+[14:49] electrical box at all times. They barely
+[14:52] take up any space at all. This is one of
+[14:54] the containers they come in, and this
+[14:55] one has 50 in it. But that being said,
+[14:58] for your convenience, I will have links
+[14:59] for everything you saw in this video,
+[15:01] from the uni shims to all the other
+[15:03] shims, the box extenders, all the tools
+[15:06] and materials I used. I'll have links
+[15:07] for everything down in the video's
+[15:10] description down below. So, when you
+[15:11] click on those links, it will take you
+[15:13] directly to whatever you clicked on, so
+[15:15] you can check out all of this for
+[15:16] yourself. Now, really quickly, if you
+[15:18] found value in this video, then you will
+[15:21] definitely want to check out some other
+[15:22] videos that I've done in the past where
+[15:24] I talk about some of the biggest
+[15:25] mistakes that DIYers unknowingly make
+[15:28] when installing light switches or
+[15:30] receptacles. In those videos, I show you
+[15:32] what those mistakes are and then I also
+[15:34] show you what the correct way is or
+[15:36] better practices to ensure that they are
+[15:39] safe and also last for a very long time.
+[15:42] So, I will post links to both of those
+[15:44] right over here. whichever one interests
+[15:46] you the most. All you have to do is
+[15:47] click on it and it will take you
+[15:49] directly to it. But I hope that you
+[15:51] found value in this video and if you
+[15:52] did, if you could do me a huge favor,
+[15:54] hit that thumbs up button right down
+[15:55] below. And of course, if you have any
+[15:57] questions or comments still, you can
+[15:59] leave those down in the comment section.
+[16:00] And I'll catch you all in the next

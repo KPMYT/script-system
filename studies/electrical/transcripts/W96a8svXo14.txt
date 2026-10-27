@@ -1,0 +1,797 @@
+# E18 The "standard" car charger is usually overkill—but your electrician might not know that / Technology Connections
+# https://www.youtube.com/watch?v=W96a8svXo14
+# Source: NexLev get_bulk_video_transcripts (same data as get_video_transcript, checked on yBHdCsVRle0), pulled 2026-10-27. Raw captions, one segment per line: [start] text. Not edited.
+
+[0:00] Need can be a funny word. If you're in
+[0:04] the US and are considering an electric
+[0:06] car, at some point someone is likely to
+[0:08] tell you that if you want to charge it
+[0:10] at home, you're going to need one of
+[0:11] these in your garage, a Nema 1450
+[0:15] receptacle. Over time, this has become
+[0:18] almost the de facto standard for
+[0:20] electric car charging, as it can provide
+[0:22] a healthy 9.6 kW of power. But unless
+[0:26] your household drives a ton, I'm talking
+[0:30] 200 miles each and every day,
+[0:34] you don't need this. Having this much
+[0:36] power available is nice to have, and if
+[0:39] you can swing it, by all means, go
+[0:41] ahead. But installing one of these isn't
+[0:43] always feasible. Maybe you're limited by
+[0:46] your home's electrical service, or maybe
+[0:48] you don't have a garage and you want
+[0:49] something a little more waterproof.
+[0:52] The good news is that electricity is
+[0:54] incredibly versatile. And in that same
+[0:57] vein, electric vehicle charging is
+[0:59] incredibly flexible.
+[1:01] However, based on conversations I keep
+[1:04] having, way too many electricians don't
+[1:07] quite understand just how flexible
+[1:09] electric car charging is. Now, to be
+[1:12] clear, it's not my intention to throw
+[1:15] electricians under the bus here. I don't
+[1:17] have to deal with running a business
+[1:19] which interacts with the public. I just
+[1:21] make YouTube videos and it makes perfect
+[1:24] sense to offer what is generally a
+[1:26] one-sizefits-all solution to I want a
+[1:29] charging station.
+[1:31] But since I often answer questions
+[1:34] people have about electric cars and
+[1:36] what's needed to charge them,
+[1:39] well, I just can't shake the feeling
+[1:41] that not enough folks, and this includes
+[1:43] both professionals and clients, are
+[1:46] aware that charging stations can be
+[1:48] installed on a branch circuit of any
+[1:51] size, and many models available can be
+[1:54] field commissioned for the installed
+[1:55] circuit capacity. This means there are
+[1:58] countless options for running power to
+[2:01] charge a car, and many of them are much
+[2:04] easier and cheaper than what an electric
+[2:06] car enthusiast is likely to promote,
+[2:09] especially when more modest charging
+[2:11] avoids a costly electrical service
+[2:13] upgrade. For an example of a less
+[2:16] intensive option, let's go on a little
+[2:18] field trip to my parents house. My folks
+[2:21] moved last year and this house didn't
+[2:23] have a charging station, but they did
+[2:25] have their Chevy Bolt to charge. Now,
+[2:28] like all electric vehicles, the Chevy
+[2:30] Bolt can be charged with a standard
+[2:32] household outlet like this one. A
+[2:35] startling number of people aren't aware
+[2:37] of that, so I'm going to repeat that.
+[2:40] All electric cars can be charged from a
+[2:43] standard household outlet, and many of
+[2:45] them come with the cable you need to do
+[2:48] that. And if it didn't come with this,
+[2:50] you can get them inexpensively.
+[2:53] It's very slow, but a lot more useful
+[2:55] than many people think. If you drive 40
+[2:58] m a day and have a small to midsized
+[3:00] car, this outlet will probably take care
+[3:03] of your needs overnight. But having a
+[3:06] faster charging station is useful and
+[3:09] has other benefits, too, especially when
+[3:11] you have variable electric rates. So, my
+[3:14] parents wanted to go for a 240 volt
+[3:16] charging station. While their new home
+[3:19] didn't have a charging station yet, its
+[3:21] layout was quite fortuitous for adding
+[3:24] one. The attached garage is adjacent to
+[3:27] the electrical room in the basement, and
+[3:28] the breaker panel itself is less than 25
+[3:31] ft away from the shared wall.
+[3:34] Now, of course, not everybody has such
+[3:36] an easy situation, but in this case, the
+[3:38] work and materials required for the
+[3:40] installation of a charging station were
+[3:43] pretty trivial. I'm not afraid of a
+[3:45] little electrical work and I've
+[3:47] installed several charging stations at
+[3:49] this point, so I offered to help.
+[3:51] However, this house happens to be in
+[3:54] Chicagoland where the outlets are
+[3:55] sideways and all electrical work has to
+[3:58] go in conduit like you see here, which
+[4:02] is uh annoying.
+[4:05] However, we do get to use MC cable in
+[4:08] certain situations. I am glossing over
+[4:11] which situations because codes are
+[4:13] highly local and very annoying to parse.
+[4:15] But the important thing is it's the
+[4:17] closest thing we get to ROMX and the
+[4:20] largest wire size it comes in is 10
+[4:22] gauge. That would limit us to a 30 amp
+[4:25] circuit. And thanks to the 80% rule, a
+[4:28] car charging on that circuit would be
+[4:30] limited to 24 amps of charging current.
+[4:34] But at 240 volts, that's 5.8 8 kW, which
+[4:38] is a lot of power. And since everyone in
+[4:41] my family actually knows what living
+[4:43] with an electric car is like, we all
+[4:46] agreed that would be much more than
+[4:49] fine. So, we opted for cheap and easy.
+[4:53] Now, I'm about to show you everything we
+[4:55] did to install the charging station, but
+[4:58] I want to be clear here that the purpose
+[5:00] of this is for illustration only. Doing
+[5:03] electrical work yourself is very
+[5:05] dangerous if you don't know what you're
+[5:07] doing. And in many locations, it's
+[5:09] flatout illegal. So, do not take this as
+[5:13] a guide. I just want to illustrate the
+[5:16] scope of work here because it's a lot
+[5:19] simpler than I think many people
+[5:21] understand.
+[5:22] On that note, before I continue, I want
+[5:25] to repeat that charging stations can be
+[5:27] installed on a branch circuit of any
+[5:29] size, meaning cars can charge from 20
+[5:32] amp and even pitily little 15 amp
+[5:35] circuits, too.
+[5:37] Of course, that limits power and slows
+[5:39] down charging speeds. But it means if
+[5:41] you're in a situation where you've only
+[5:43] got 100 amp service or maybe even just
+[5:46] 60 amp service, you can almost certainly
+[5:49] still have a pretty capable 240 volt
+[5:51] charging station. If load calculations
+[5:54] reveal that you've got the wiggle room
+[5:56] to add just a 16 amp load, you can have
+[5:59] a 3.8 kW charging station that will add
+[6:02] about 70 or 80 miles of driving range
+[6:05] every day with a 10-hour overnight
+[6:08] charging session. And that's a
+[6:09] conservative estimate based on winter
+[6:11] driving efficiency and a midsize car
+[6:13] like mine. If you're worried about the
+[6:16] unpredictable nature of life, I would
+[6:18] encourage you to look into the rapid
+[6:20] charging options that are available in
+[6:22] your area. Those fast charging networks
+[6:25] are growing quickly and they can be your
+[6:27] backup in emergencies and on the odd
+[6:29] days you have extra errands to run. So,
+[6:32] try to stick to just your typical daily
+[6:35] needs when thinking about installing a
+[6:37] charging station. I promise a slow one
+[6:40] at home that's just for you is so much
+[6:44] nicer than a fast one which is down the
+[6:46] street. So to run a new 240 volt
+[6:50] circuit, you need to have two free slots
+[6:53] in your breaker panel. If yours is full,
+[6:56] there's a pretty good chance you can
+[6:58] consolidate existing circuits and free
+[7:00] up space, but you're going to need to
+[7:02] consult a professional to find out
+[7:03] whether or not that's possible in your
+[7:05] situation.
+[7:06] Luckily for us, the previous owner of
+[7:08] this home had installed this 100 amp sub
+[7:11] panel, likely when they finished the
+[7:12] basement, and there were tons of open
+[7:16] slots in here. Plus, there was plenty of
+[7:18] capacity. These 20 amp breakers feed
+[7:22] baseboard heaters that all told only
+[7:24] draw about 12 amps. So, it would be no
+[7:27] problem at all to add another 24 amp
+[7:29] load to this panel.
+[7:32] So, a quick trip to the hardware store
+[7:34] to pick up 25 ft of 10 gauge MC cable, a
+[7:37] 30 amp square D homeline circuit
+[7:39] breaker, a junction box, and a few
+[7:42] fittings, and we were off to the races.
+[7:44] All told, the materials cost for this
+[7:47] job was about 200 bucks, and that
+[7:49] includes a set of spade bits, which we
+[7:53] absolutely knew we were going to need
+[7:55] before we got started," he said
+[7:56] sarcastically.
+[7:58] In the span of an hour or two, we had
+[8:00] power out to this junction box, which we
+[8:02] tucked underneath the stairs that lead
+[8:04] into the house. But of course, we'd also
+[8:07] need a charging station. I'm of the mind
+[8:10] that electric car charging stations for
+[8:12] the home should be as simple as
+[8:14] possible. So, we elected to go with the
+[8:16] Grizzly Classic. I will withhold my
+[8:19] rant, which explains why until later.
+[8:21] Anyway, when you buy a Grizzly Classic,
+[8:23] it's going to come with a Nema 1450 or
+[8:26] 650 plug on it because this charging
+[8:28] station can supply up to 40 amps of
+[8:31] charging current.
+[8:33] But we only installed a 30 amp circuit.
+[8:36] Oh no, what a blunder. Except no mistake
+[8:40] was made, folks, because the Grizzly
+[8:42] Classic has this little bit of high
+[8:44] technology inside of there called DIP
+[8:46] switches. And when you put them in the
+[8:49] correct positions, as outlined in the
+[8:50] installation instructions, you can lower
+[8:53] the charging current to match the
+[8:55] capacity of the circuit it will be
+[8:56] connected to. By default, it's set for
+[9:00] installation on 50 amp circuits, but
+[9:02] there's a setting for 40 amp circuits,
+[9:04] 30 amp circuits, and 20 amp circuits.
+[9:08] Since we are going with a 30 amp
+[9:09] circuit, I configured it for 24 amps of
+[9:12] charging current, the maximum allowed
+[9:14] continuous load, thanks to the 80% rule.
+[9:17] And that was that. Are you wondering how
+[9:20] dip switches are all that's needed for
+[9:22] this charging station to match the
+[9:23] circuit?
+[9:25] Well, if you've seen some of my earlier
+[9:27] videos, you probably already know. But
+[9:28] for those who haven't, here's the thing
+[9:31] about AC car charging. This device is
+[9:34] not a battery charger. It is simply a
+[9:37] power supply. In fact, the proper term
+[9:39] for this is electric vehicle supply
+[9:42] equipment or EVSE.
+[9:44] All these things do is send a signal to
+[9:47] the car which says, "Hey, I'm a charging
+[9:49] station. Here's how many amps I can
+[9:51] supply."
+[9:53] The DIP switches on the Grizzlies
+[9:55] circuit board simply change the signal.
+[9:58] By adjusting their positions, this
+[10:00] charging station will now announce that
+[10:02] it's capable of delivering 24 amps. And
+[10:05] once connected, a car will send a signal
+[10:07] back which says, "Hi, I'm a car. Please
+[10:10] give me power." And then the charging
+[10:12] station will close this large relay
+[10:14] which simply sends the incoming AC line
+[10:17] voltage right down the charging cable
+[10:20] and to the car. That's how all AC
+[10:23] charging stations work. All this device
+[10:26] does is connect these wires to those
+[10:28] wires, delivering the same AC power
+[10:31] that's coming into the unit directly to
+[10:34] the car. Then the car will use its own
+[10:37] onboard battery charger to convert AC
+[10:40] line voltage to the proper DC voltages
+[10:42] it needs to charge its battery pack.
+[10:45] That's why the charging station needs to
+[10:47] tell the car how many amps it can pull.
+[10:50] The car is the electrical load on the
+[10:52] circuit, not the charging station. And a
+[10:55] car like mine, a Hyundai Ionic 5, can
+[10:58] draw up to 48 amps, which would very
+[11:01] much overload this circuit and trip the
+[11:03] breaker quite quickly. But so long as
+[11:05] the charging station is putting out that
+[11:07] signal which says you can only take 24
+[11:10] amps, well, that's all the current my
+[11:12] car is going to take. Every electric car
+[11:15] that's been sold since the J1772
+[11:17] standard was released in 2009
+[11:19] understands the signals that come from
+[11:21] these charging stations. And so even
+[11:23] though plenty of cars can charge at a
+[11:25] higher power level than this circuit can
+[11:27] safely provide, they'll all know when
+[11:30] they're connected to this charging
+[11:32] station that they are only allowed to
+[11:34] pull 24 amps. That will keep the circuit
+[11:37] within safe operating limits and will
+[11:39] prevent the circuit breaker from
+[11:40] tripping. And for those asking, well,
+[11:43] what if the car ignores the signal and
+[11:45] pulls too much current? Well, should
+[11:48] that happen, the charging station's
+[11:49] going to notice, deenergize the cable,
+[11:51] and enter a fault condition. And if for
+[11:54] some reason that doesn't happen, that's
+[11:56] what the circuit breaker is for. Don't
+[11:59] overthink this. So, with this charging
+[12:02] station now configured to send the 24
+[12:04] amp signal, all that was left to
+[12:06] complete the installation was to remove
+[12:08] the NEMA plug from the charging station
+[12:10] and attach a wire whip, the sort often
+[12:13] used for air conditioners. Then I
+[12:15] connected the wire whip to the junction
+[12:17] box. Connected the wires together using
+[12:19] the appropriate wire nuts. Yes, I used
+[12:21] wire nuts. Please enjoy the show in the
+[12:23] comments. And finally, I closed the
+[12:25] breaker in to actually energize the
+[12:27] circuit. And aside from securing the
+[12:30] cables and wire whip, we were finished.
+[12:33] This was just an afternoon project
+[12:35] knocked out by a couple of knuckleheads.
+[12:37] And by far the most timeconuming part
+[12:40] was figuring out a mounting solution for
+[12:42] the charging station itself.
+[12:44] But I am a knucklehead with a thermal
+[12:47] imaging camera. And just to be sure
+[12:49] everything was copathetic, before we
+[12:51] buttoned it all up, I let my car charge
+[12:53] for a half hour and then took a thermal
+[12:56] peak at every connection point to see if
+[12:58] anything was getting too hot. Every
+[13:01] connection was just a bit above ambient
+[13:03] temperature and essentially the exact
+[13:05] same temperature as the wires
+[13:06] themselves. In fact, the warmest thing
+[13:09] was the circuit breaker itself, which
+[13:11] illustrates why the 80% rule exists.
+[13:15] So, with everything hunky dory, I closed
+[13:18] it all up and it was happily ever after.
+[13:21] Now, I want to touch on the fact that we
+[13:23] hardwired this installation and explain
+[13:25] why. In the wonderful world of Nema
+[13:28] connectors, there does exist a 30 amp
+[13:30] 240 volt receptacle and plug. electric
+[13:34] clothes dryers use them. And actually,
+[13:36] there are a few varieties out there. In
+[13:39] theory, we could have installed one of
+[13:41] those receptacles under the stairs and
+[13:43] either replaced the cord on the charger
+[13:45] with a dryer cord or purchased a 24 amp
+[13:48] charger which was equipped with a dryer
+[13:50] plug, which are readily available.
+[13:52] And side note, if you've got an electric
+[13:55] dryer and it's in or close to your
+[13:58] garage, you're already completely set
+[14:01] for electric car charging. There are
+[14:03] intelligent splitter boxes available
+[14:06] which will allow you to plug in a car
+[14:07] charger and the dryer into the same
+[14:10] receptacle and it will prevent them from
+[14:12] operating at the same time. I would
+[14:14] highly recommend looking into that if
+[14:16] you're in that lucky but fairly common
+[14:18] boat. But for new installations, there's
+[14:22] some potential code weirdness regarding
+[14:25] the need for ground fault protection in
+[14:27] garages. In some jurisdictions, all
+[14:30] receptacles in a garage need to be GFCI
+[14:33] protected, which can be very annoying to
+[14:36] make work with high power receptacles.
+[14:39] Truthfully, I don't know whether that's
+[14:41] required in their area yet, but EVSSEs
+[14:44] have their own built-in ground fault
+[14:46] detection and will deenergize the cable
+[14:48] in the case of a fault. So, hardwiring
+[14:51] it seemed the best way to ensure code
+[14:53] was respected. And it also eliminates
+[14:56] the weak point that is the receptacle
+[14:58] and plug, though I'm going to touch on
+[15:00] that more in a bit. It's uh
+[15:02] controversial. Since installation, this
+[15:05] charging station's been dutifully
+[15:07] charging my mom and dad's Chevy Bolt,
+[15:09] and it has never been too slow. My
+[15:13] parents haven't even noticed the
+[15:14] downgrade from their old 7.2 kW charging
+[15:17] station. See, if the car were completely
+[15:21] dead, it would take about 13 hours to
+[15:23] charge back to full rather than 10. But
+[15:27] since that has never once actually
+[15:29] happened in the car's life, and it
+[15:30] usually gets plugged in around 40% or
+[15:32] higher, the real world charge time is at
+[15:36] most about 8 hours, an essentially
+[15:38] perfect overnight charge taking place
+[15:40] when the humans are asleep. And even
+[15:43] still, that only happens once or twice a
+[15:46] week for them. For a different example,
+[15:49] my car has got a slightly bigger battery
+[15:51] pack than the Bolt, so it takes a little
+[15:53] longer to charge. But even still, on
+[15:55] this 24 amp charging station, the car
+[15:58] reports that will only need 7 hours and
+[16:01] 40 minutes to get back to 80% when I
+[16:03] plugged it in at 29%.
+[16:06] In other words, on this charging
+[16:07] station, my car needs about 7 and 1/2
+[16:10] hours to recoup half of its battery pack
+[16:12] capacity, which is enough charge to go
+[16:15] about 120 m in the summer and between 80
+[16:18] and 100 in the winter. This is the main
+[16:21] reason I want more people to know about
+[16:24] and consider smaller charging circuits.
+[16:27] They are much easier to install, yet
+[16:29] still extremely capable.
+[16:32] But until people have firhand experience
+[16:34] with an electric car, range anxiety can
+[16:38] be a stubborn mental block. I have
+[16:40] struggled quite a lot to communicate
+[16:42] that there's no need to get an empty to
+[16:45] full charge every single night. Almost
+[16:48] nobody's real world usage pattern
+[16:50] requires that. I mean, are you topping
+[16:53] up your car at a gas station every day?
+[16:56] Unless you're a professional driver,
+[16:58] probably not. So, if you have a charging
+[17:01] station like this, it can almost
+[17:03] certainly be your exclusive source of
+[17:05] energy for day-to-day driving. It
+[17:07] definitely would be for me, even back
+[17:09] when I had a 70mile daily commute. And
+[17:13] as I said before, thanks to the fact
+[17:14] that public fast charging networks are
+[17:17] growing rapidly, if you have a surprise
+[17:19] errand popup, you can run over to your
+[17:22] local DC fast charging station, and
+[17:24] there's probably one on the way to
+[17:26] wherever you're going. The only vehicle
+[17:29] class that will truly be limited by 5.8
+[17:31] kilowatts of charging power is large
+[17:34] trucks. Something like a Silverado EV
+[17:37] with its gigantic 210 kWh battery pack
+[17:41] would need 36 hours to charge from empty
+[17:44] to full using this charging station. And
+[17:47] that's assuming perfect efficiency.
+[17:50] On the other hand, that truck has a
+[17:53] bonkers driving range of about 450 miles
+[17:56] so long as it's not towing anything. So,
+[17:58] if we go by its energy efficiency, which
+[18:00] is reported to be about 2 m per kilowatt
+[18:02] hour, well, then you could still expect
+[18:05] to get at least 10 miles of range per
+[18:07] hour it's plugged into this thing, which
+[18:09] certainly isn't nothing. A 12-h hour
+[18:11] charging session may only replenish a
+[18:13] third of its battery pack charge, but
+[18:15] when that's still over a 100 miles, is
+[18:18] that really so bad?
+[18:20] Only you can answer that question, but I
+[18:22] want you to ask it and think about it. I
+[18:25] mean, that's more driving range than
+[18:27] lots of early EVs had, period. So,
+[18:30] that's the main mission I had with this
+[18:32] video. Increase awareness of smaller
+[18:35] charging circuits and how much they can
+[18:37] actually do.
+[18:39] The thing is, unless you live and
+[18:41] breathe electric car charging, you may
+[18:43] not have realized how many charging
+[18:45] stations can be field commissioned to
+[18:47] match different circuit sizes. And now
+[18:50] that I've gone over that, well, feel
+[18:52] free to stop watching. Bye. And for the
+[18:55] rest of you, this is what I love about
+[18:57] electricity. It's so dang flexible.
+[19:00] There's wires in them buildings already,
+[19:02] and in nearly all cases, there's at
+[19:04] least some spare capacity to go around.
+[19:08] Getting access to it is the main
+[19:10] challenge, but in the end, it's always a
+[19:12] simple matter of running wires from the
+[19:14] electrical panel to wherever you want a
+[19:16] charging station to go. And when
+[19:19] deciding where you want it to go, keep
+[19:21] in mind that one of those places can be
+[19:24] outside. Plenty of inexpensive charging
+[19:27] stations, including the Grizzly, have
+[19:29] enclosures which are rated for outdoor
+[19:31] installation. And that might be a great
+[19:34] option for you if you have, say, a
+[19:37] detached garage with limited power, but
+[19:39] your driveway is adjacent to the house.
+[19:42] It's going to be way more expensive to
+[19:44] trench new power lines out to the garage
+[19:47] than it is to install a charging station
+[19:49] on the side of the house. And with
+[19:51] today's EVs that pretty much all have a
+[19:53] range of 200 miles at a minimum, I mean,
+[19:56] the Chevy Bolt does, and it's an
+[19:58] eight-year-old car now, you seriously
+[20:01] don't have to charge it every day. If
+[20:03] you're okay with charging it outside
+[20:05] when you need to and then putting it in
+[20:07] the garage the rest of the time, then I
+[20:10] would highly suggest just doing that. I
+[20:13] think a lot of people see so-called best
+[20:15] practices as rules when there are no
+[20:18] rules. You can charge an EV however you
+[20:20] need to. And having a charger at home is
+[20:23] awesome, no matter where exactly it
+[20:25] happens to be. Now, I know that plenty
+[20:28] of you are out there who would love to
+[20:30] drive an electric car, but can't install
+[20:32] a charger for it because you live in an
+[20:35] apartment building or perhaps a
+[20:36] neighborhood with on street parking.
+[20:38] When I talk about how easy it is to
+[20:40] install one of these, I don't wish to
+[20:42] dismiss your situation. In fact, I am
+[20:45] just as frustrated as you are because
+[20:47] the simple fact is all you need is
+[20:50] wires. Multif family housing does have
+[20:53] unique challenges, but really there are
+[20:55] only two. Who pays for the electricity
+[20:58] which is consumed and how do you get
+[21:00] that power from where it is in the
+[21:02] building to the parking lot or garage?
+[21:05] I would love for utility companies to
+[21:08] start spinning up programs to solve
+[21:09] those problems. Especially because right
+[21:12] now the answer we seem to be going with
+[21:13] is well DC fast charging can take care
+[21:16] of those folks which is just stupid.
+[21:18] It's very stupid. It's not only unfair
+[21:20] to expect renters to shoulder the cost
+[21:22] of that redonkulously expensive
+[21:25] infrastructure which homeowners like me
+[21:27] with private chargers rarely use, but
+[21:30] it's a worse experience. I never notice
+[21:33] the five or 6 hours my car spends
+[21:35] charging because I'm sleeping when that
+[21:37] happens. But you will notice how long a
+[21:40] fast charging session takes because
+[21:42] you're waiting for the car to charge.
+[21:45] Honestly, I think that's what makes
+[21:47] electric cars such a contentious issue.
+[21:50] I spend way less time charging my car
+[21:53] than I did at gas stations. I just plug
+[21:56] it in when I get home and go inside. And
+[22:00] because that's such a great experience,
+[22:02] I don't mind that it takes a little
+[22:04] longer to go on a road trip. But if you
+[22:06] have to live with an EV as if it's a gas
+[22:09] car, then routine 20 or 30 minute
+[22:12] charging sessions suck and are a
+[22:14] legitimate downgrade.
+[22:16] While DC fast charging times are
+[22:18] improving, I am very annoyed that we're
+[22:21] spending so much oxygen covering that
+[22:23] progress rather than explaining the
+[22:25] simple fact that slow charging when your
+[22:27] car is parked and you're not using it is
+[22:30] where it's at. Ideally, that happens at
+[22:32] home, but it could also happen at work.
+[22:35] Electric cars can be used differently
+[22:37] from gas cars, and we should be leaning
+[22:39] into that difference and not trying to
+[22:41] replicate the liquid fueling paradigm.
+[22:44] And as a bonus, the infrastructure for
+[22:46] AC charging is orders of magnitude
+[22:48] cheaper to deploy. This whole setup
+[22:51] wasn't even 600 bucks and it's going to
+[22:53] work for years and years.
+[22:56] It shouldn't take a Midwesterner to tell
+[22:58] you that our priorities here are just
+[22:59] all wrong. And speaking of weird
+[23:02] priorities, well, here comes my deferred
+[23:04] rant on smart charging stations. If a
+[23:08] charging station requires the use of an
+[23:10] app to configure it for a smaller
+[23:12] circuit, my first instinct is to throw
+[23:14] it into the ocean.
+[23:17] I mean, I wouldn't really, but the mere
+[23:20] idea of a charging station like this
+[23:22] having an app or worse getting software
+[23:25] updates just rubs me the wrong way. A
+[23:28] lot of this is because I understand what
+[23:30] these things actually are, power cables.
+[23:33] And because of that fact, many of the
+[23:35] smart features more expensive charging
+[23:37] equipment can provide can also be
+[23:40] handled by the car. You want scheduled
+[23:43] charging, the car can do that. You want
+[23:45] energy reports, most cars will give them
+[23:48] to you in some form or another. You want
+[23:50] to lower charging current even more for
+[23:52] whatever reason, lots of cars let you do
+[23:55] that. Even demand response can be done
+[23:58] by the car, though I will say I have
+[24:00] privacy and security concerns there. But
+[24:03] I have those same concerns about
+[24:04] internet connected charging stations.
+[24:06] Look, for a charging station, I desire
+[24:09] simplicity and reliability more than
+[24:11] anything else. The more features you try
+[24:14] to build into one of these things, the
+[24:16] more can go wrong. Even with relatively
+[24:19] simple equipment like this Seaman's
+[24:21] charger, I've experienced weird bugs
+[24:24] where the charging station needs to be
+[24:25] power cycled to work again. One thing I
+[24:28] love about the Grizzly Classic is that
+[24:30] it will repeatedly attempt a self-reset
+[24:33] if it encounters an error. A feature I
+[24:35] first learned about from my old Clipper
+[24:37] Creek install. That's why those things
+[24:39] are so bulletproof.
+[24:40] I consider this a must-have feature
+[24:42] because, you know, you need the car to
+[24:45] charge. But pretty much every other
+[24:48] feature that EVSC's try to pack in, I
+[24:51] consider superfluous in a private
+[24:53] setting. Like as cool as it is to be
+[24:56] able to monitor how much energy your car
+[24:57] is pulling from the wall,
+[25:00] there's not really anything you can do
+[25:01] with that information, is there? Your
+[25:04] car is going to need the same amount of
+[25:05] energy no matter how smart the charging
+[25:07] station is. But that's just me. Feel
+[25:09] free to disagree. And complexity is
+[25:12] going to have to increase assuming
+[25:14] vehicleto grid and vehicle to home
+[25:16] technology really takes off. But for
+[25:19] now, keep it simple, stupid, is a decent
+[25:22] principle to live by.
+[25:24] Oh, and I should touch on charging
+[25:26] connectors. I've not brought up the
+[25:28] transition to the Knack connector
+[25:30] because honestly, for level two
+[25:32] charging, it hardly matters. You can
+[25:35] install a charging station with either a
+[25:37] Tesla connector or a J1772 connector and
+[25:40] use an inexpensive adapter if your car
+[25:42] has the wrong one.
+[25:44] The transition does seem to be full
+[25:46] steam ahead. So, I would probably lean
+[25:48] towards installing a Knack charging
+[25:50] station at this point, but they're not
+[25:53] as widely available yet. So, if you get
+[25:55] a good deal on a J1772 unit, I would
+[25:58] probably go for that and just pop on an
+[26:00] adapter. Oh, and remember that thing I
+[26:03] said earlier about hardwiring the
+[26:05] charging station and eliminating the
+[26:07] weak point that is the receptacle and
+[26:08] plug?
+[26:10] Yeah. Well, by now you've probably seen
+[26:12] photos of an electric car charging
+[26:14] station making its plug all melty. Like
+[26:18] this can happen for several reasons, but
+[26:20] the most commonly cited one is a poor
+[26:23] quality receptacle. In fact, this is
+[26:25] such a widely known issue that my
+[26:27] Clipper Creek HCS40 at home came with a
+[26:30] new Hubble brand 1450 receptacle and
+[26:34] documentation which all but demanded I
+[26:36] replace the one which was already in the
+[26:38] wall with the one they gave me, which I
+[26:41] did. Honestly, I had no idea they came
+[26:43] in white. However, there's a lot which
+[26:46] can go wrong besides quality control.
+[26:49] For a start, none of these receptacles
+[26:52] are designed for frequent plug insertion
+[26:54] and removal, and they'll wear out
+[26:56] quickly if you say use a portable
+[26:59] charging cable and take it with you
+[27:01] regularly.
+[27:02] Prior to electric cars, these things
+[27:04] were mainly known for hooking up a
+[27:06] kitchen range, which would be plugged in
+[27:08] once during installation and then left
+[27:11] plugged in for years. This means that
+[27:14] essentially no wear happens, and so the
+[27:17] design never needed to account for that.
+[27:19] The most common highware application of
+[27:21] the Nema 1450 is at campsites as it's a
+[27:24] common connector for hooking up travel
+[27:26] trailers and RVs. But even if they start
+[27:30] getting worn out and can't safely carry
+[27:32] as much current as they used to, your
+[27:35] typical RV isn't trying to pull 40 amps
+[27:37] through it nonstop.
+[27:39] This is a long way of saying if you have
+[27:41] one of these and you use a car charger
+[27:43] with it, leave it plugged in. And to be
+[27:46] safe, I would periodically feel how warm
+[27:48] the plug is after your car has been
+[27:50] charging for an hour or so. If it's hot,
+[27:54] there's a problem. But the other thing
+[27:56] which can go wrong, which to be honest,
+[27:58] I think is far more common, is simply
+[28:01] improper installation of the receptacle.
+[28:04] A lot of the photos I've seen where they
+[28:06] get burned up make it clear that they
+[28:08] were installed with aluminum wiring,
+[28:11] which is not quite a big no no, but it
+[28:13] is a big yikes. Aluminum electrical
+[28:16] wiring requires very careful handling
+[28:19] and it needs anti-corrosion treatment.
+[28:21] If that's not done, it can become a big
+[28:24] problem, and maxing it out, as charging
+[28:26] a car will do, will quickly reveal the
+[28:29] problem. Aluminum loves to oxidize,
+[28:31] which increases electrical resistance at
+[28:33] the points of contact, and that leads to
+[28:36] overheating, which leads to melting, and
+[28:39] possibly worse. Even with copper wiring
+[28:42] though, if the lugs on the receptacle,
+[28:44] which clamp onto that wire, aren't
+[28:45] torqued to spec, a poor connection can
+[28:48] result, and the same problems will
+[28:50] happen. If a professional electrician
+[28:53] installs a 1450, I don't think you're
+[28:56] likely to find improperly torqued lugs.
+[28:58] But do-it-yourselfers or fly by night
+[29:01] handymen might not have done such a
+[29:03] bangup job. I'm bringing this up because
+[29:06] a common refrain is that the 1450 was
+[29:10] never designed to have its full current
+[29:12] rating drawn through it non-stop,
+[29:15] which is absolutely correct. But the
+[29:18] thing is, a properly installed and
+[29:20] commissioned electric car charging
+[29:21] station will never ever do that. These
+[29:25] are rated for 50 amps. That's why
+[29:27] they're called a 1450. But a continuous
+[29:30] load should be limited to 80% or 40
+[29:33] amps.
+[29:35] To be honest, I suspect some folks
+[29:37] discovered that their chosen EVSSE can
+[29:39] be commissioned as a 48 amp charger
+[29:41] meant for installation on a 60 amp
+[29:43] circuit. Tesla's wall connectors are a
+[29:46] great example.
+[29:48] And since 48 is less than 50, people who
+[29:51] know enough to be dangerous might change
+[29:54] it to send a 48 amp output signal, not
+[29:57] knowing about the importance of the 80%
+[29:59] rule. And then they truly will be
+[30:01] pushing this beyond its design limits.
+[30:04] But anyway, this is largely just
+[30:06] speculation on my part. And if you're
+[30:08] worried about this, well, here's an
+[30:10] idea. Do what I did and install a 32 amp
+[30:12] charger on your Nema 1450. I'm following
+[30:16] the extra safe 64% rule.
+[30:19] To be honest though, that's just because
+[30:21] I wanted something a little more
+[30:22] trustworthy than this Amazon special and
+[30:24] the HCS40 was on sale. And now Clipper
+[30:28] Creek was gobbled up by Nphase, which
+[30:30] makes me sad. Okay, well I think that's
+[30:33] everything. As usual, scope creep got
+[30:36] the best of me and this video became a
+[30:39] lot longer than it probably needed to
+[30:40] be. But uh well, I got a question for
+[30:44] you. Given how much has changed about
+[30:47] the charging landscape and how wrong I
+[30:49] was about CCS winning out over the Tesla
+[30:51] connector, I've been considering a
+[30:54] remake on my older EV charging guides.
+[30:57] Do you think that's a good idea? Would
+[30:58] you like to see that? It would be fairly
+[31:00] easy to do, but I wanted this video out
+[31:04] there specifically because a lot more EV
+[31:07] nerds need to make friends with
+[31:08] Midwesterners. Do you know how much
+[31:11] easier life gets when you reject FOMO
+[31:13] and decide to be happy with good enough?
+[31:16] It's pretty awesome. You might want to
+[31:17] try it sometime. And bring a hot dish.
+[31:20] [Music]
+[31:24] First take worked without a problem.
+[31:27] Today is going good. Especially when
+[31:30] more modest.
+[31:32] [Music]
+[31:34] Well, now we're having a problem. This
+[31:36] is a long way of saying if you have one
+[31:37] of these and you use a charger. I said
+[31:41] charger.
+[31:45] My folks moved last year and this house
+[31:47] didn't have a charging station, but they
+[31:49] did have a U-Haul driving by. Though I
+[31:53] will say I have privacy and security
+[31:55] concern.
+[31:57] [Music]
+[31:59] consonant jam. But that's just me. Feel
+[32:02] free to disagree. And complexity will
+[32:05] have to increase. Now, how bad was that
+[32:07] elbow click? We'll find out in the edit.
+[32:10] [Music]
+[32:20] [Applause]
+[32:21] [Music]
+[32:24] [Applause]

@@ -1,0 +1,74 @@
+# _bgUy6zA0ts | Why Cheap LED Lights Keep Glowing | ElectroBOOM
+# Source: NexLev get_video_transcript (and get_bulk_video_transcripts, identical), pulled 2026-10-27. One caption segment per line: [start] text. NOTE: the video's only English captions (creator-uploaded) stop at 3:25 of 10:26; the English track is blank after that and no English auto-captions exist. A full Chinese (zh-CN) caption track is saved beside this file as _bgUy6zA0ts.zh-CN.txt.
+[0:00] Hi! One of my friends Steve Mould
+[0:02] Which is also a great Science Youtuber told me about an issue with LED lights
+[0:07] Most my friends are called Steve. Helps me remember their name.
+[0:10] Like and subscribe if you are also a Steve!
+[0:12] Basically Steve describes in his video, which is a companion to my video
+[0:16] that when you turn off the light switch, some of the LED lights never quite turn off.
+[0:21] [Switch noise]
+[0:22] Steve: And it stays on. Can you see it still glowing?
+[0:24] I have heard of this problem in different forms, like some people said
+[0:28] when they touch the body of their desklamp
+[0:30] the LED lights starts glowing. But the problem is
+[0:33] that i have the LED lights all over the place at home
+[0:36] and i've never seen this problem.
+[0:37] So i had to go buy these lightbulbs, that have such problem. Let's get them to glow.
+[0:42] These lights won't fit my light socket, so i'll connect them
+[0:45] using my alligator clip.
+[0:47] [Pop] F***!
+[0:49] You shouldn't forget to turn the light off, or open the breaker before working on your electricity.
+[0:54] Okay, so i can turn it on, but when i turn it off..
+[0:58] Doesn't glow at all.
+[0:59] [Flicks the switch again]
+[1:01] Ah.. what am i.. it's not made for my socket anyway.
+[1:04] Oh! Hehey! Look at this!
+[1:06] S***!
+[1:07] [Flicks the switch]
+[1:09] [Flicks the switch again]
+[1:11] Okay.. apparently that's connected to the live wire
+[1:14] but i'm not connected anywhere and
+[1:16] probably that's why it didn't shock me.
+[1:19] Yep! No! Wha.. Look at this!
+[1:23] it's glowing!
+[1:24] Hahahahaha
+[1:25] I love discovering by accident!
+[1:27] See I'm isolated from the ground, but there is a super small capacitance
+[1:31] between my body surface to Earth that when i touch the
+[1:34] other terminal of the LED a *super* small current runs through
+[1:38] my body and makes the LED glow.
+[1:40] So in those cases where the LED still glows there must be some capacitance
+[1:44] in the house wiring, and Steve helps me uncover
+[1:47] that mistery in his video which you should watch
+[1:49] following the card here, or link in the description.
+[1:52] After I'm done here!
+[1:53] And you should definitely subscribe to him.
+[1:55] His science voice is so soothing I watch him for Therapeutic purposes.
+[1:59] Steve: If you like him.. think about subscribing.
+[2:03] Do You know what? Just subscribe. It's a good channel-
+[2:05] Okay, okay. But now we know these lamps are super sensitive and are different from the other type
+[2:10] These lights are so sensitive, that if i connect one terminal to ground
+[2:13] through my faucet and hold the other terminal
+[2:16] and rub my foot on the carpet..
+[2:19] it glows from the static i'm creating.
+[2:22] Let's measure the current. You never touch the live wires
+[2:26] I'm what you call.. a professional dumbass.
+[2:29] Now here the LED light is only connected to the live wire
+[2:32] and the other terminal goes through the Amp meter where i touch.
+[2:36] And my feet are off the ground, and if i touch it..
+[2:40] You see a tad bit of glow there
+[2:42] and the current is around 2 Microamps.
+[2:45] Now if i put my feet on the tile ground you see it goes much brighter.
+[2:49] I still don't feel anything.
+[2:51] The ground provides a much higher capacitance but it is still not conductive
+[2:54] and the current is around 40 Microamps
+[2:57] Now what if i touch the ground wire with my pinky and close the circuit.
+[3:01] This might give me a shock.. Oh, oh, okay
+[3:05] Okay, It's not shocking me.
+[3:07] And the current is around.. 130 - 140 microamps.
+[3:11] Very small.
+[3:12] Now let's measure the voltage across the lamp in these different modes.
+[3:15] Right now my foot is off the ground and the voltage is around 60 volts.
+[3:19] And with my feet on the ground..
+[3:22] it is around 70 volts, and through my finger..
+[3:25] Is like.. 73 - 74 volts.
