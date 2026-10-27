@@ -53,3 +53,6 @@ Title and brief received. One thing is still needed before I can write:
 
 ## VA, turn 5
 none
+
+## Chat, turn 5
+The full output, delivered: saved word for word as `output.md` (the script alone is `script.txt`).
