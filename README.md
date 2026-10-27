@@ -1,6 +1,6 @@
 # Script System: what's in each file
 
-The whole system is one library. `core/` holds the rules every channel uses. Each niche gets its own pack (so far, `woodworking-scripts/` and `plumbing-scripts/`). Each channel gets a persona profile in `personas/`. Typing **START** runs `core/workflow.md`, which pulls in everything else.
+The whole system is one library. `core/` holds the rules every channel uses. Each niche gets its own pack (so far, `woodworking-scripts/`, `plumbing-scripts/` and `hvac-scripts/`). Each channel gets a persona profile in `personas/`. Typing **START** runs `core/workflow.md`, which pulls in everything else.
 
 ## core/ (every channel)
 
@@ -46,6 +46,20 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 | `archive/` | The four real channels' transcripts (Silver Cymbal, Roger Wakefield, Got2Learn, Arrow Pest Service). Calibration only; not in the installed skill. |
 | `model-file-spec.md` | How the model files were built, for adding models later. Not in the installed skill. |
 
+## hvac-scripts/ (the HVAC niche pack, built 2026-10-27)
+
+For Roger the HVAC Guy. Built from the plumbing pack (as installed on the account, with the escalation line) and changed only where HVAC differs, on the evidence of the HVAC study (`studies/hvac/`) and the operator's answers of 2026-10-27 (`HANDOFF.md` §3). Every reference is a real person on camera (operator: "we dont want any ai or faceless for reference").
+
+| File | What's in it |
+|---|---|
+| `SKILL.md` | The HVAC rules: the overrides table (the plumbing pack's, carried over), inputs (title, brief, rotation log), the viewer (from 1,483 HVAC comments), the villain (the trade's prices, the upsell and the silence; never the honest tech), the opening (the breakdown moment and the escalation line as options), emotion all the way through (plus the HVAC feelings: the clock, the dial that won't reach, comfort, the machine's sounds), point then promise, the video types and item shape (about 150-250 words an item), the models, CTAs (no book for now), the ending, length (12 minutes), voice (HVAC spoken forms), proof, money framing, the HVAC safety defaults (gas leak and carbon monoxide every step), the banned list (with the faceless leader's catchphrases) and the scanner block. |
+| `references/unit-plan-template.md` | The plan, with season and system-scope lines and the HVAC safety defaults. |
+| `references/voice-samples.md` | Three provisional voice stretches from real tradesmen on camera (The Funny Carpenter, Word of Advice TV, Silver Cymbal), until the operator listens and picks. |
+| `references/excerpts.md` | Real HVAC lines grouped by job, from real people on camera only. |
+| `references/price-guide.md` | HVAC prices and the safety facts, two-source checked (research in `studies/hvac/price-research-2026-10/`). |
+| `references/models/INDEX.md`, `R04-...md` to `R44-...md` | The model library (built by `tools/build_hvac_model_index.py`): HVAC winners from R22 on, and ten plumbing and home-repair models kept from the plumbing pack. |
+| `model-file-spec.md` | How the HVAC model files are built (not part of the skill). |
+
 ## ideation/
 
 Copies of the operator's claude.ai ideation skills, brought in to be edited here with the operator's approval. The operator uploads the edited version back to claude.ai.
@@ -62,6 +76,7 @@ Copies of the operator's claude.ai ideation skills, brought in to be edited here
 |---|---|
 | `tools/build_skills.py` | Builds the installable skills from the library into `dist/` (one `.skill` file each, `script-writer` also as a `.zip`, plus the full bundle as one zip). Run it after any change, then re-upload. |
 | `tools/verify_plumbing_models.py` | Checks every plumbing model file's labelled script against its study transcript, word for word (session 4). |
+| `tools/verify_hvac_models.py`, `tools/build_hvac_model_index.py` | The same check for the HVAC model files, and the builder of the HVAC model index (2026-10-27). |
 | `dist/` | **Generated, never edited by hand.** One skill per layer: `script-writer.skill` (the core, START), `woodworking-scripts.skill` and `plumbing-scripts.skill` (the niche packs), `hank-hardwood-persona.skill`, `dale-oakfield-persona.skill`, `roger-the-pipe-guy-persona.skill` and `mark-silverbridge-persona.skill` (profile plus book), `vintage-pipefitter-persona.skill` (profile only), `woodworking-ideation.skill`, `ideation-core.skill`; the unzipped folders; `script-writer.zip` (the same skill as `script-writer.skill`); and `INSTALL.md` (how to install them, not itself a skill). The build checks claude.ai's upload rules (one SKILL.md, frontmatter, name, description up to 1,024 characters). |
 
 ## personas/
@@ -77,6 +92,7 @@ One persona profile per channel, written from `core/persona-profile-template.md`
 | `sawdust-sam.md` | Sawdust Sam's profile (built 2026-10-23, **pending** until his personal details are picked and a test run passes): woodworking for profit the old-world way (every video a heritage build), Talking Head, 174 words a minute, the Jon voice, Hank's CTA structure (two short CTAs naming the QR code and the top link) for *The Old Ways*, and scanner bans on invented trips, encounters and teachers. |
 | `books/sawdust-sam-book.md` | The text of Sam's book *The Old Ways* to printed page 80 (all Drive's extraction gives), with a chapter page map, the secrets by style (Japanese, Amish, Chinese and the rest) and a secret index; CTAs cite nothing past page 80. |
 | `roger-the-pipe-guy.md`, `mark-silverbridge.md`, `vintage-pipefitter.md` | The three plumbing profiles, approved 2026-10-21, ready since the plumbing pack entered the library: settings, voices, fixed tenures 45/40/45, the personality kept close to Notion, CTA rules (Roger and Mark: a short mid-video book ask and a one-line end reminder, naming the link and the QR code; Vintage: a one-line subscribe ask), and scanner blocks (Mark's also bans contractions). |
+| `roger-the-hvac-guy.md` | Roger the HVAC Guy's profile (2026-10-27, **pending** until a test passes): Roger the Pipe Guy's profile with only the trade changed (the same man and voice, 45 years), no book for now (a one-line subscribe ask), his filter check on the first of the month, and a ban on the other Roger channel's name. Roger the Pipe Guy's profile carries the matching ban. |
 | `books/roger-the-pipe-guy-book.md`, `books/mark-silverbridge-book.md` | Roger's "100 Old-House Fixes That Save You Thousands" (124 pages, 100 fixes) and Mark's "50 Easy Plumbing Fixes That Will Save You $10,000" (122 pages, 50 fixes), with printed page markers, chapter maps and fix indexes. |
 
 ## studies/
@@ -98,7 +114,7 @@ Drafts waiting for the operator's yes go here; nothing in it is part of the libr
 
 ## tests/
 
-`run_checks.py`: 52 automated checks across the whole library, including the copy guard, the fraction-word scanner check, the "e-book" ban on every profile, and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over its own SKILL.md and every model file, the emotion rules, item shape, CTA template and number cap, the plumbing profiles and the channel list), and the core's straight-quotes and real-scanner-line rules, the written-for-the-voice scanner check (44) and the plumbing count line in place of the promise block (45). Run it after any edit.
+`run_checks.py`: automated checks across the whole library (60 or more; the HVAC pack's are numbered from 60, clear of the other branches), including the copy guard, the fraction-word scanner check, the "e-book" ban on every profile, and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over its own SKILL.md and every model file, the emotion rules, item shape, CTA template and number cap, the plumbing profiles and the channel list), and the core's straight-quotes and real-scanner-line rules, the written-for-the-voice scanner check (44), the plumbing count line in place of the promise block (45), and the HVAC pack (60 on: file references, its inputs and scanner block, tenure in HVAC words, letter words, the two Rogers' name bans, real-people-only models with the copy guard, the channel row and build entries, the price guide). Run it after any edit.
 
 ## tests/iterations/
 
