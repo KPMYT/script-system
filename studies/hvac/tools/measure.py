@@ -132,7 +132,6 @@ FV_RECHECK = {
     "UdyqMC1GVxQ": "1:42",   # "That patch is now damaged" (notes 1:44, slats at 1:49)
     "dOZ-8__G4uU": "0:58",   # "do not just leave the thermostat set to cool" (notes 0:53 = "Number one")
     "fHAlfm21vYw": "1:08",   # "You reset it instead of reading it." (notes 0:53, flame sensor 1:22)
-    "x2BK-zr4raE": "0:21",   # the two ways to buy (kept; first figure 0:49)
     "1bRsFAMgZRQ": "0:08",   # "four types of igniters" starts 0:08 (notes 0:11)
 }
 
@@ -298,7 +297,8 @@ def measure():
         if "fv" in row:
             row["dollars_open"] = count_dollars(" ".join(t for s_, t in segs if s_ < row["fv"]))[0]
         if "hook_s" in row:
-            row["hook_w_recount"] = len(words(" ".join(t for s_, t in segs if s_ < row["hook_s"])))
+            start = segs[0][0]  # grayfurnaceman's speech starts at 0:06-0:07; the notes time the hook from there
+            row["hook_w_recount"] = len(words(" ".join(t for s_, t in segs if s_ < start + row["hook_s"])))
         rows.append(row)
     return rows
 
