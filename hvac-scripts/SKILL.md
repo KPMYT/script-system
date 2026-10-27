@@ -138,26 +138,29 @@ It stands in for the count line, or carries it. It names the two ends of the pro
 
 ## Emotion, all the way through
 
-The plumbing pack's rule, carried over whole (operator, 2026-10-21: "simpler and stronger on emotions... using strong words and targetting the exact pain points of this audience"; 2026-10-27: "11 yes"). Every item makes the viewer feel something, in plain, strong words. In HVAC the lead feelings are distrust of the shelf and the quote, and the pride of doing it yourself; the bill, the cold night and the damage are the stakes inside the video (niche-research `CONCLUSIONS.md` §2).
+The plumbing pack's rule, carried over whole with its examples (operator, 2026-10-21: "simpler and stronger on emotions... using strong words and targetting the exact pain points of this audience like reference scripts do. more work on emotion triggering throughout."; 2026-10-27: "11 yes"). The first HVAC test scripts (2026-10-27, `tests/iterations/iter-06/`) were safe and clean but flat: about 27-30 "you"/"your" and 4 "but" per 1,000 words, against 39 and 7 in the plumbing script the operator passed (`iter-04/test-run-03`). Every item makes the viewer feel something, in plain, strong words. In HVAC the lead feelings are distrust of the shelf and the quote, and the pride of doing it yourself; the bill, the cold night and the damage are the stakes inside the video (niche-research `CONCLUSIONS.md` §2).
 
 1. **Put the viewer in it.** Say "you" and open each item on what they see, hear, feel or smell in their own house, not on how the thing works: the furnace clicking and not lighting, one bedroom that never warms up, the burning-dust smell of the first heat, water in the drain pan, a draft you can feel at the door.
+   - Did it: "you should smell that first of the year... a little bit of dust burning off" (The DIY HVAC Guy, 30x); "You finish cooking up some bacon on a Saturday morning" (Roger the Pipe Guy, 453x).
+   - Didn't: "A flame sensor sends a tiny electrical current through the flame." and "Number five is about water, and it only applies to one kind of furnace." (HVAC test runs 02 and 01: the item opens on how it works.)
 2. **Aim at one real pain per item,** the ones this audience lives with: the cold house on the coldest night; the AC quitting in a heat wave; the after-hours visit; the replacement quote; being sold a system you didn't need; the bill creeping up; making it worse; the old house losing heat; the family's comfort and safety; the pride of doing it yourself.
 3. **Strong, plain words.** Physical verbs and pictures over explanations: choking, starving for air, short-cycling, iced over, caked, rattling, sweating, freezing up, burning through, "while you sleep". Simple words, never clever metaphors (at most one picture-phrase per item). Short sentences mostly, but two can and should sometimes be joined with "but" to keep the story flowing.
-4. **"But", much more of it, inside items and between them.**
-   - **Inside every item, at least one turn:** say what people think or do, then "but", then the truth.
-   - **Between items, bridges that turn:** the shape "But that one costs you nothing. The next one costs you a visit."
+4. **"But", much more of it, inside items and between them** (operator, 2026-10-21: "we want much more buts. both within sections and from section to section"). Aim for about 7 per 1,000 words, as the passed plumbing script; the HVAC test scripts ran about 4.
+   - **Inside every item, at least one turn:** say what people think or do, then "but", then the truth. Did it: "if you can hear your gas valve opening, but the igniter was never glowing" (Word of Advice TV, 75x); "most people think they are actually helping their pipes" (Roger the Pipe Guy, 453x).
+   - **Between items, bridges that turn:** the shape "But that one costs you nothing. The next one costs you a visit." HVAC test run 01 turned none of its ten bridges.
+   - **A bridge that sums up the items so far** ("those first four are all about air") must be true of the items in the order the script has them.
    - Rotate how the belief is named ("you've probably heard", "the box says", "a lot of folks figure"): "Most people…" opens a sentence at most once per script (`humanizer.md` H20), and a "but" turn is never the "it's not X, it's Y" reframe (H21, at most one).
-5. **Ask the viewer.** A question they can answer about their own house, answered straight away, about every two items.
+5. **Ask the viewer.** A question they can answer about their own house, answered straight away, about every two items. Did it: "Sounds impossible at first, doesn't it?" (Technology Connections, 2.5x), answered in the next line; "Problem solved, right? Not even close." (Roger the Pipe Guy, 453x).
 6. **The HVAC feelings plumbing has no word for** (`studies/hvac/comparison/03-body-safety-ctas.md` §2; operator, 2026-10-27: "agree"):
    - **the clock:** the part that wears out quietly in summer and only tells you on the first cold night
    - **the dial that won't reach:** the thermostat says 70 and the house never gets there
    - **comfort, felt in the body:** warm floors, the back bedroom finally warm, a cool night's sleep
    - **the machine's sounds:** the click, the hum, the rattle, the silence when it should be running
 7. **Use disgust only where the topic has it.** HVAC has less of it than plumbing: the slime in a condensate line or drain pan, mould, a dust-caked blower wheel. Use it there, in proportion, never as a default.
-8. **End every item on a win.** A short line of relief, pride, comfort or the contrast; the item's one price can sit here.
-9. **Reaffirm the title's feeling all the way through.** Come back to the title's idea and its key word, one way or another, every few items. Not on every item, and never so often it turns robotic. Carry it in nouns and verbs ("while you sleep", "inside the cabinet"), not "-ly" adverbs (`humanizer.md` H12a).
+8. **End every item on a win.** A short line of relief, pride, comfort or the contrast; the item's one price can sit here ("That's a $5 part doing a $300 visit's job.").
+9. **Reaffirm the title's feeling all the way through** (operator, 2026-10-21: "we must reaffirm throughout the emotions we are trying to trigger from the title and concept"). Come back to the title's idea and its key word, one way or another, every few items: for "11 Furnace Mistakes HVAC Companies Hope You Keep Making", the mistake and the visit nobody needed to make. HVAC test run 01 said "mistake" only in its first line. Not on every item, and never so often it turns robotic. Carry it in nouns and verbs ("while you sleep", "inside the cabinet"), not "-ly" adverbs (`humanizer.md` H12a).
 10. **The villain and the outrage come back** all the way through (see "The villain").
-11. **Let the narrator speak.** One short "I" opinion or verdict in most items, and once per video a line of insistence where it matters.
+11. **Let the narrator speak.** One short "I" opinion or verdict in most items ("I'd set it to auto and leave it there"), and once per video a line of insistence where it matters (the shape "I need you to hear me on this one"). HVAC test run 02 had a verdict in 4 of its 13 sections.
 12. **Finish on relief, not danger.** The last item before the end CTA closes on reassurance or something to do tonight, even when it's a safety item.
 
 **Never, still:** invented facts or events, guaranteed savings, the trade's motives, teases, mocked hype, worst-case exaggeration, jokes.
@@ -178,7 +181,7 @@ Use two or three per video, in the body only (never as a list in the opening), a
 - **A numbered item with its money stake:** "Number six can save you an after-hours call."
 - **A numbered item with its stake in words:** "Number eight is the one that keeps the blower motor alive."
 - **The escalation ladder:** the cheap fix, then the stronger fix, then the point to call a tech, with the trade's typical price as the top rung. The default for fix videos.
-- **The same part, two prices by the clock** (operator, 2026-10-27: "agree"): what the part costs on the shelf, what it costs on a weekday visit, and what it costs at two in the morning in January.
+- **The same part, two prices by the clock** (operator, 2026-10-27: "agree"): two prices for the same part, what it costs on the shelf against what it costs on a night or weekend call (the study's Ray Dutton line: an igniter at $20-$60, or $250-$400 after hours). With the weekday visit added it is the three-prices device below, not this one.
 - **The quote against the part:** what the viewer may be quoted against what the part really costs, said as ranges, never as a guarantee.
 - **The rule that protects everything:** a safety or method rule, named at the first item it touches, paid straight after the first fix or as the last item.
 - **A second use for the same product,** or "while you've got the panel off".
@@ -313,7 +316,7 @@ HVAC is where money framing holds up best (the 2026-10-22 findings; the faceless
 
 **4. Rotate the money devices** across the channel's scripts, so no two videos count money the same way:
 - **three prices side by side** (the shelf, the weekday visit, the night visit)
-- **the same part, two prices by the clock**
+- **the same part, two prices by the clock** (the shelf against the night call; two prices only)
 - **the quote against the part**
 - **the trade's price at the end of each item**
 - **a running total,** closed at the last item
@@ -335,7 +338,7 @@ HVAC is where money framing holds up best (the 2026-10-22 findings; the faceless
 The facts and methods come from the brief, and **the brief always wins**. Where a job crosses from the homeowner's to a licensed tech's depends on the title and the brief (operator, 2026-10-27: "depends the title"). There's no separate fact bank: contradictions between one video and another are acceptable; unsafe advice never is.
 
 **Defaults, only where the brief is silent.** The study's viewers corrected these more than anything else (about 62 corrections, `studies/hvac/comparison/01-viewers.md` §4), and the hands-on videos that skipped them drew the most-liked comments:
-1. **Power off, and proved off.** Before any panel comes off: the furnace's power switch or the outdoor disconnect off, then checked with a non-contact tester; the gas valve off for any burner work. Say how it comes back on, and the check after.
+1. **Power off, and proved off.** Before any panel comes off: the furnace's power switch or the outdoor disconnect off, then checked with a non-contact tester (tried first on something you know is live, so you know it works); the gas valve off for any burner work, and the burners and metal let cool. Say it again wherever a later step opens the furnace again (a new part after a test run). Say how it comes back on, and the check after.
 2. **Refrigerant is licensed work.** No charging, "topping up" or opening the refrigerant lines.
 3. **Never bypass a safety switch:** a limit switch, pressure switch, rollout switch or float switch is telling you something.
 4. **Capacitors hold a charge** after the power is off: a call for a tech unless the brief gives a safe, named procedure.
