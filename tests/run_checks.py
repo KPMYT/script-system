@@ -725,6 +725,14 @@ check("59. run 02 fixes: each half lit then dark; two-slot read live then dead; 
       and "If the new device is a two-prong outlet, the check is the two-probe tester across the slots" in ek
       and "after the test that ends the step (the power back on and the tester's lights)" in ek and "as an instruction that points at a sense" in ek, "")
 
+# 60. run 03 fixes N7-N10: the two-slot / won't-seat fallback required in outlet scripts; "open ground" explained (term list, rule 7,
+#     facts guide 14.50); the buying step answers its rules and a GFCI's incoming power goes on the line screws; open-box "I" lines on
+#     the evidence block
+ek=open(ELR).read(); fg=open(f"{ROOT}/electrical-scripts/references/facts-guide.md").read()
+check("60. run 03 fixes: two-slot / won't-seat fallback required; 'open ground' explained (terms, rule 7, facts 14.50); buying step and GFCI line screws on the checklist; open-box 'I' lines on the evidence block",
+      "what to do when the plug-in tester can't be used" in ek and "open ground (on a plug-in tester: no ground wire connected)" in ek
+      and "never the GFCI)" in ek and "| 14.50 | Open ground" in fg and "the incoming power goes on the line screws" in ek and "open-box: none" in ek, "")
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")
