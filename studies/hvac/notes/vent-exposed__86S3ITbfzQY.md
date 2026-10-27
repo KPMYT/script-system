@@ -14,7 +14,7 @@
 Four brands in three blocks; each opens with "Number…" and a hook line ("the brand everybody's father-in-law swears by" [1:09]). Blocks 85–105 s; typical ~95 s / ~250 w. The caveat is framed as "the single most important sentence in this entire video" [6:24].
 
 ## Content habits
-- Prices: ~15: "two to three thousand dollars less installed" [1:51]; "$200 service call and a $1,600 part swap" [2:37]; "$7,000 Carrier… $4,000 Payne" [3:28]; Infinity "12 to $15,000" [4:31]; Goodman "$5 to $7,000" [5:56]; "$3.7 billion" purchase [4:56].
+- Prices: ~15: "two to three thousand dollars less installed" [1:51]; "$200 service call and a $1,600 part swap" [2:37]; "$7,000 Carrier… $4,000 Payne" [3:28]; Infinity "12 to $15,000" [4:31]; Goodman "$5 to $7,000" [5:56]; "$3.7 billion" purchase [5:03].
 - Where to buy: none; brands and models named (XR, Silver Series, GSXH5).
 - Show and tell: none.
 
@@ -37,7 +37,7 @@ None.
 - Superiority: "You now know something… doesn't know yet." [7:44]
 
 ## HVAC: the season and the clock
-"in 2026" [0:42]; "your system runs 2,000 hours a year" [4:04]; "the most expensive mistake he makes this year" [7:55].
+"in 2026" [0:55]; "your system runs 2,000 hours a year" [4:04]; "the most expensive mistake he makes this year" [7:55].
 
 ## Standout lines
 - "Nine brand names, one parts bin." [3:39]

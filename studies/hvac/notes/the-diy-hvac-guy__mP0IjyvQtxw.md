@@ -20,7 +20,7 @@
 
 ## Voice
 - Personal: yes, ~3 ("Me personally, I love that smell" [7:46]).
-- Personality and information mixed; tool and detector pitches run long.
+- Personality and information mixed; tool and detector pitches take up long stretches (see the segment word counts).
 - Adversary: none named; self-cast insider: "I have to go out and charge people to to clean their flame sensor" [10:56].
 
 ## CTAs

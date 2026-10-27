@@ -11,7 +11,7 @@
 - Segments: [0:00] hook ~100 w · [0:31] like ask ~35 w · [0:39] climate disclaimer ~55 w · [0:59] "our primary brand ... is carrier" disclosure ~45 w · [1:17] six parent companies ~215 w · [2:34] Carrier, Bryant, Payne history ~490 w · [5:19] ICP's six brands, three tiers, pick the brand most common locally ~395 w · [7:31] faster pass promised ~90 w · [7:58] Trane group ~300 w · [9:48] Daikin, Lennox groups ~250 w · [11:16] Rheem/Ruud, Johnson Controls ~130 w · [12:01] would not buy: Lennox ~190 w · [13:00] top picks premium (Carrier over Trane) ~270 w · [14:27] middle and budget picks ~140 w · [15:13] next video ~40 w
 
 ## Pacing
-Company-by-company tiering (premier / middle of the road / budget). "So you might be asking" ×4 as bridges. The verdict is held to [12:01] (78% in): "closer to the end of the video I'm going to give you my top picks so you are going to want to watch this to the end" [2:28]. Blocks 30 s–2:45; Carrier block longest.
+Company-by-company tiering (premier / middle of the road / budget). "So you might be asking" ×3 ([3:52], [4:30], [5:16]) as bridges. The verdict is held to [12:01] (78% in): "closer to the end of the video I'm going to give you my top picks so you are going to want to watch this to the end" [2:28]. Blocks 30 s–2:45; Carrier block longest.
 
 ## Content habits
 - Prices: 0 figures; "price was not an issue" [13:51]; cost video teased [15:16].
@@ -20,7 +20,7 @@ Company-by-company tiering (premier / middle of the road / budget). "So you migh
 
 ## Voice
 - Personal: yes, ~5 ("down here in Texas I see largely carrier being sold" [4:00]; "when we hire new techs sometimes they can get turned around on a train" [14:03]).
-- Hedged, candid ("I'm just being honest I'm not entirely sure what train is trying to do" [9:06]; "take it with a grain of salt" [10:11]).
+- Hedged, with admitted uncertainty ("I'm just being honest I'm not entirely sure what train is trying to do" [9:06]; "take it with a grain of salt" [10:11]).
 - Adversary: Lennox, "riddled with uh quality control problems ... a class action lawsuit" [12:20]; contractors "telling you which brand is the best" [0:07].
 
 ## CTAs

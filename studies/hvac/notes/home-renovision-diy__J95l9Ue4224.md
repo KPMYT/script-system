@@ -6,7 +6,7 @@
 - Views / normal: 24.92 (5,848,497 / 234,697) · 18:20 · ON CAMERA (NexLev not faceless 0.98; "hey guys Jeff here" on site; comments react to what he wears) · hidden cause: the bill and drafts
 
 ## Structure map
-- Hook: 75 w, 16 s (ends [0:11] "we're going to show you the good the better and the best option")
+- Hook: 60 w, 13 s (ends [0:13] "we're going to show you the good the better and the best option"; the intro segment runs on to 75 w at [0:16])
 - First real value: [0:22] "one piece of insulation that filled the space"
 - Segments: [0:00] intro, 1974 "forever home" 75 w · [0:16] good: 1974 batt, no code 173 w · [1:06] better: R20 code batt, vapor barrier 228 w · [2:23] rigid foam plus can foam 245 w · [3:52] thermal break vs bridging 131 w · [4:27] DIY two-part kit, checkout trap 152 w · [5:15] warnings, setup, gear, cold-day caveat 546 w · [7:41] where the air leaks 463 w · [9:49] first spray, gun care 348 w · [11:42] flash and batt; why full foam 328 w · [13:13] pay now or pay forever 197 w · [14:06] parallel joists, nozzles, layering 467 w · [16:32] costs and close 439 w
 

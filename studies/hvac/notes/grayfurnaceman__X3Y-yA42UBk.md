@@ -11,7 +11,7 @@
 - Segments: [0:06] series framing, villain ~81 w · [0:43] the two choices, warranty ~147 w · [1:48] "often times this is a scam" ~45 w · [2:08] how it is checked ~139 w · [3:03] what to demand ~171 w · [4:08] be suspicious, upgrade case ~124 w · [4:56] outro ~37 w
 
 ## Pacing
-Claim, then the honest version, then the test to ask for. Segments 15 s–1:10; typical ~1 min. Spoken slowly with pauses (744 words in 5:19).
+Claim, then what he says is really the case, then the test to ask for. Segments 15 s–1:10; typical ~1 min. Spoken slowly with pauses (744 words in 5:19).
 
 ## Content habits
 - Prices: 0; labor flagged ("it's going to cost you some labor" [1:44]).
@@ -20,7 +20,7 @@ Claim, then the honest version, then the test to ask for. Segments 15 s–1:10; 
 
 ## Voice
 - Personal: yes, 2 ("I was a service tech for 35 years" [0:10]; "the minimum I've seen is about 15 years" [1:23]).
-- Plain, fair to the trade ("a lot of people that did good work").
+- Plain; credits some of the trade ("a lot of people that did good work").
 - Adversary: "those few that take advantage of people's lack of knowledge sell them things they don't need" [0:24].
 
 ## CTAs
