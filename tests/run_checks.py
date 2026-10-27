@@ -687,9 +687,28 @@ check("56. scanner ITEMS/SENTENCES report and verify_output.py: run 03 shows ite
 orr=open(f"{CORE}/offer-rules.md").read(); ga=open(f"{CORE}/greenlight-audit.md").read(); wf=open(f"{CORE}/workflow.md").read(); ek=open(ELR).read()
 check("57. P13 text: offer rules §5 scoped to offers; Federal Pacific test results with the source; numbers-in-words row; audit's quoted evidence lines; --final; 35-word limit",
       "Negative claims about named companies in a CTA, pitch, description or pinned comment" in orr
-      and "Federal Pacific's independent test results may be said" in ek and "P13 item 6, operator 2026-10-27" in ek and "first-item-seconds: 30" in ek
+      and "Federal Pacific's independent test results may be said" in ek and "P13 item 6, operator 2026-10-27" in ek and "first-item-seconds: 45" in ek
       and "Items: [paste the scanner's ITEMS line" in ga and "A quoted line the script doesn't contain fails the audit" in ga and "`--final`" in wf
       and "**No sentence over 35 words**" in wf, "")
+
+# ---- iter-05 run 01 fixes (operator 2026-10-27: "answer the questions yourself") ----
+# 58. the electrical pack: the prove-dead order at a device, look before you shop, no ordinal sub-lists, the short-sentence floor,
+#     "I" lines with the box open; the example guard catches run 01's two echoes of the old example lines and passes the new pack
+#     on run 01; no plug or outlet example lines left in "Emotion"; "lives" judged; ITEMS names items with no short sentence
+ek=open(ELR).read()
+R01=f"{ROOT}/tests/iterations/iter-05/test-run-01/script.txt"
+old_ek=subprocess.run(["git","-C",ROOT,"show","98f92de:electrical-scripts/SKILL.md"],capture_output=True,text=True).stdout
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write(old_ek.replace("first-item-seconds: 30\n","first-item-seconds: 45\nexample-guard: 5\n")); old58=t.name
+old_run=subprocess.run([sys.executable,SCAN,R01,"--rules",old58,FRED],capture_output=True,text=True).stdout
+new_run=subprocess.run([sys.executable,SCAN,R01,"--rules",ELR,FRED],capture_output=True,text=True).stdout
+lv=run_scan("Check the outlet where the hair dryer lives.\n")
+emo=ek.split("## Emotion, all the way through")[1].split("## Point then promise")[0]
+check("58. run 01 fixes: prove-dead order, look before you shop, no ordinal sub-lists, 12% short sentences, 'I' lines with the box open; the example guard catches run 01's echoes; 'lives' judged",
+      "**The order at a device, said in this order**" in ek and "**In any swap, look before you shop**" in ek and "**No \"first, second, third\" inside a numbered step or item**" in ek
+      and "at least 12% across the script" in ek and "never mid-step (Safety" in ek and "example-guard: 5" in ek
+      and "\"if you only check one\"" in old_run and "\"now that plug clicks in\"" in old_run and "EXAMPLE LINE REUSED" not in new_run
+      and "no sentence of 6 words or fewer: 2, 5" in new_run and not any(x in ek for x in ("plug clicks in","plug sag","plug droop","If you only check one thing","grip like new","wiggle the plug")) and "'lives' can be said two ways" in lv[1],
+      old_run[-600:]+new_run[-300:]+lv[1][-200:])
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

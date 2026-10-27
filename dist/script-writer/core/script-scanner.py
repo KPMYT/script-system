@@ -28,6 +28,8 @@ Usage:
                    item-words: 120-180        (each item's words against this band)
                    first-item-seconds: 30     (item one later than this is marked)
                    sentence-max: 35           (the sentence cap; 35 if unset, fix on sight on every channel)
+                 and, to guard the pack's own quoted example lines with a shorter run than the copy guard's 8:
+                   example-guard: 5           (any 5 words in a row from a "quoted example" in that file, fix on sight)
                A profile's "Words per minute ...: N" line sets the runtime estimate (150 if unset).
   --pack       the fact source: the research pack, or the brief where the niche pack doesn't use one.
                Every number in the script is checked against it.
@@ -145,7 +147,7 @@ SPOKEN = [
 # judged: letters the voice may skip or read as a word, and words with two pronunciations
 SPOKEN_LETTERS = re.compile(r"\b[A-Z]{2,5}s?\b")
 SPOKEN_LETTERS_OK = {"OK", "TV", "QR", "DIY", "US", "USA"}
-SPOKEN_TWO_WAYS = re.compile(r"(?i)\b(?:lead|bow|bows|bowed|bowing|wound|live)\b")
+SPOKEN_TWO_WAYS = re.compile(r"(?i)\b(?:lead|bow|bows|bowed|bowing|wound|live|lives)\b")
 OTHER_NON_ASCII = re.compile(r"[^\x00-\x7F\u2014\u2013\u2018\u2019\u201C\u201D\u2026\U0001F300-\U0001FAFF\u2600-\u27BF]")
 
 # ---------------------------------------------------------------- trailer-voice tells (judge each)
@@ -231,7 +233,7 @@ def read_rules(paths):
     """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
     facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None,
-             "item_words": None, "first_item_seconds": None, "sentence_max": None}
+             "item_words": None, "first_item_seconds": None, "sentence_max": None, "examples": []}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         w = re.search(r"^Words per minute[^:\n]*:\s*(\d+)", txt, re.M)
@@ -274,6 +276,8 @@ def read_rules(paths):
                     facts["first_item_seconds"] = int(pat)
                 elif key.strip() == "sentence-max":
                     facts["sentence_max"] = int(pat)
+                elif key.strip() == "example-guard":
+                    facts["examples"].append((int(pat), p))
     return bans, lifts, allows, facts
 
 # ---------------------------------------------------------------- numbers
@@ -417,6 +421,49 @@ def copy_check(text, ref_runs, allows=None):
                     start, end, src = i, i + COPY_RUN, ref_runs[g]
         if start is not None:
             hits.append((src, " ".join(toks[start:end])))
+    return hits
+
+# the pack's own quoted example lines: a shorter run is enough, because a writer copies their shape and wording
+# (woodworking's Lazy Susan lines; electrical run 01's "If you only check one thing..." and "that plug clicks in and holds")
+EXAMPLE_SKIP = set("hundred thousand twenty thirty forty fifty sixty fifteen twelve fourteen ten one two three four five six seven eight nine "
+                   "amp amps volt volts watt watts gauge minute minutes year years inch inches i i'd i'm you you're your it's that's".split())
+
+def example_runs(n, path):
+    """Every n-word run inside a quoted example sentence in the rules file (outside its scanner block: a quote that
+    starts with a capital and ends on . ? or !) that carries at least three content words (not common words,
+    numbers or units). Quoted wording the pack asks for ("a licensed electrician's job") isn't a sentence, so it's left out."""
+    txt = re.sub(r"```scanner.*?```", " ", open(path, encoding="utf8", errors="ignore").read(), flags=re.S)
+    runs = {}
+    quotes = []
+    for line in txt.splitlines():
+        marks = [i for i, c in enumerate(line) if c == '"']
+        quotes += [line[a + 1:b] for a, b in zip(marks[0::2], marks[1::2])]
+    for q in quotes:
+        q = q.strip()
+        if not re.match(r"[A-Z]", q) or q[-1:] not in ".?!":
+            continue
+        toks = copy_tokens(q)
+        for i in range(len(toks) - n + 1):
+            g = tuple(toks[i:i + n])
+            if sum(1 for w in g if w not in ECHO_STOP and w not in EXAMPLE_SKIP) >= 3:
+                runs.setdefault(g, q)
+    return runs
+
+def example_check(text, examples, allows=None):
+    hits = []
+    for n, path in examples or []:
+        runs = example_runs(n, path)
+        name = path.replace("\\", "/").rsplit("/", 1)[-1]
+        for para in spoken_paragraphs(text):
+            toks = mask_allowed(copy_tokens(para), allows)
+            i = 0
+            while i <= len(toks) - n:
+                g = tuple(toks[i:i + n])
+                if g in runs:
+                    hits.append(f"[EXAMPLE LINE REUSED: {name}] \"{' '.join(g)}\" (the pack's example: \"{runs[g][:70]}\"; say it in fresh words)")
+                    i += n
+                else:
+                    i += 1
     return hits
 
 # ---------------------------------------------------------------- persona facts (fix on sight)
@@ -569,8 +616,8 @@ def item_report(text, facts, wpm):
         secs = first_word / wpm * 60
         cap = facts.get("first_item_seconds")
         out.append(f"  ITEMS: {len(starts)} | item one at word {first_word} (about {secs:.0f} seconds at {wpm})"
-                   + (f"  << later than {cap} seconds" if cap and secs > cap else ""))
-        sizes, no_i, no_but = [], [], []
+                   + (f"  << later than {cap} seconds" if cap and round(secs) > cap else ""))
+        sizes, no_i, no_but, no_short = [], [], [], []
         for k, a in enumerate(starts):
             chunk = full[a:starts[k + 1]] if k + 1 < len(starts) else full[a:]
             n = len(chunk.split())
@@ -579,12 +626,14 @@ def item_report(text, facts, wpm):
                 no_i.append(str(k + 1))
             if not re.search(r"\bbut\b", chunk, re.I):
                 no_but.append(str(k + 1))
+            if not any(len(x.split()) <= 6 for x in sentences(chunk)):
+                no_short.append(str(k + 1))
         band = sum(1 for k, a in enumerate(starts)
                    if lo <= len((full[a:starts[k + 1]] if k + 1 < len(starts) else full[a:]).split()) <= hi)
         out.append("  item words: " + ", ".join(sizes) + " (the last runs to the end of the script)")
         if facts.get("item_words"):
             out.append(f"  in band {lo}-{hi}: {band} of {len(starts)}")
-        out.append(f"  no 'I' line: {', '.join(no_i) or 'none'} | no 'but': {', '.join(no_but) or 'none'}")
+        out.append(f"  no 'I' line: {', '.join(no_i) or 'none'} | no 'but': {', '.join(no_but) or 'none'} | no sentence of 6 words or fewer: {', '.join(no_short) or 'none'}")
     else:
         out.append("  ITEMS: no spoken signposts found (\"Number one.\", \"Step one.\" ...)")
     lens = [len(s.split()) for p in spoken_paragraphs(text) for s in sentences(p)]
@@ -603,6 +652,7 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
     facts = facts or {"name": [], "book": [], "tenure": None, "once": []}
     for src, run in copy_check(text, ref_runs, allows):
         fix.append(f"[COPIED FROM REFERENCE: {src}] \"{run}\" ({len(run.split())} words in a row)")
+    fix.extend(example_check(text, (facts or {}).get("examples"), allows))
     paras = spoken_paragraphs(text)
     hard = [(re.compile(rx, re.I), name) for rx, name in HARD_BANS
             if not any(l in name.lower() or re.search(rx, l, re.I) for l in lifts)]

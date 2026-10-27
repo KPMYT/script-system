@@ -109,7 +109,7 @@ There's one format: clean voiceover prose for the auto-edit tool.
   - **No symbols in the narration:** x, /, %, &, +, #, =, ~, @, °. Write the word ("and", "plus", "about").
   - **Money:** whole-dollar prices stay as digits ("$50", "$2,500", "$4 to $10", with the dollar sign on both ends of a range), the forms every recent voiceover read correctly. Never "$4.00", cents, "$1.4M" or "50k" (write "$1.4 million", "50 thousand dollars").
   - **No laugh or filler sounds written as words** ("haha", "hmm", "ugh"): the voice says them as words. Delivery belongs in the voiceover copy's tags ([chuckles]).
-  - **Words with two pronunciations:** where "lead" (the metal), "bow" or "bowed" (a bent board) or "wound" could be read the other way, reword so only one reading fits: "lead paint" is clear; "under their lead limit" isn't ("under their limit for lead in paint").
+  - **Words with two pronunciations:** where "lead" (the metal), "bow" or "bowed" (a bent board), "wound", "live" or "lives" ("where the hair dryer lives") could be read the other way, reword so only one reading fits: "lead paint" is clear; "under their lead limit" isn't ("under their limit for lead in paint").
   - The scanner fails a script on the mechanical forms above (`[SPOKEN: ...]`) and lists capital-letter runs and the two-pronunciation words to judge.
 - **Introduce each named person by full name once.** After that, use the surname, a pronoun, or their role.
 

@@ -3,7 +3,7 @@ name: sawdust-sam-persona
 description: The channel profile for Sawdust Sam: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-27 (library commit 518f0ea)
+**Version:** 2026-10-27 (library commit a478096)
 
 # Persona profile: Sawdust Sam
 
