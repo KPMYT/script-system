@@ -149,12 +149,14 @@ PERSONAS = {
     "roger-the-pipe-guy": ("Roger the Pipe Guy", "personas/roger-the-pipe-guy.md", "personas/books/roger-the-pipe-guy-book.md"),
     "mark-silverbridge": ("Mark Silverbridge", "personas/mark-silverbridge.md", "personas/books/mark-silverbridge-book.md"),
     "vintage-pipefitter": ("The Vintage Pipefitter", "personas/vintage-pipefitter.md", None),  # no book for now
+    "frederick-barnes": ("Frederick Barnes", "personas/frederick-barnes.md", None),  # no book for now (operator 2026-10-27)
 }
 
 # niche packs: folder -> what the installed skill leaves out
 PACKS = {
     "woodworking-scripts": ("archive",),
     "plumbing-scripts": ("archive", "model-file-spec.md"),
+    "electrical-scripts": ("model-file-spec.md",),
 }
 
 def build_script_writer():

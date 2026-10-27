@@ -1,6 +1,6 @@
 # Script System: what's in each file
 
-The whole system is one library. `core/` holds the rules every channel uses. Each niche gets its own pack (so far, `woodworking-scripts/` and `plumbing-scripts/`). Each channel gets a persona profile in `personas/`. Typing **START** runs `core/workflow.md`, which pulls in everything else.
+The whole system is one library. `core/` holds the rules every channel uses. Each niche gets its own pack (so far, `woodworking-scripts/`, `plumbing-scripts/` and `electrical-scripts/`). Each channel gets a persona profile in `personas/`. Typing **START** runs `core/workflow.md`, which pulls in everything else.
 
 ## core/ (every channel)
 
@@ -46,6 +46,20 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 | `archive/` | The four real channels' transcripts (Silver Cymbal, Roger Wakefield, Got2Learn, Arrow Pest Service). Calibration only; not in the installed skill. |
 | `model-file-spec.md` | How the model files were built, for adding models later. Not in the installed skill. |
 
+## electrical-scripts/ (the electrical niche pack)
+
+Built 2026-10-27 for Frederick Barnes from the plumbing pack, with electrical's own formats, emotions and models (research in the niche-research repository, `studies/electrical/`). Under review; Frederick's status stays pending until a test run passes.
+
+| File | What's in it |
+|---|---|
+| `SKILL.md` | All electrical rules: where the pack overrides the core, inputs (title and brief; no research pack), the viewer, the stakes (no money: fire and shock as stakes, never the topic), the villain (optional), the opening (with P11's one value promise), emotion all the way through (pride and capability first), point then promise, the seven video types with the item and step shapes and their models, using the models, the CTA (one-line subscribe ask, NO BOOK markers), the ending (comment line last, "I read every one"), length (12 minutes minimum, 15 to 22 the aim), voice (units and wire sizes written for the voice), proof, safety (the brief can add, never remove), the banned list, the scanner block and the checklist. |
+| `references/unit-plan-template.md` | The plan filled in from the title and brief before writing, with MODELS, EMOTION, FACTS and SAFETY blocks. |
+| `references/facts-guide.md` | Well-established US electrical facts (code rules, sizes, safety facts, the emergency steps, the terms to explain), each marked confirmed, adjusted, one source, reading or thin; researched and re-checked by two helpers (evidence in `studies/electrical/facts-research-2026-10-27/`). No prices. |
+| `references/voice-samples.md` | Verbatim stretches of real human narration from the models: the voice anchor. |
+| `references/excerpts.md` | Real lines from the models grouped by job, with model ID and timestamp. |
+| `references/models/` | 31 model files (E01-E32, no E06): real channels, 1M+ views, mostly 2022 on; each a beat map, emotion voicing, why it works, the full labelled script and what doesn't transfer. `INDEX.md` sorts them by video type. |
+| `model-file-spec.md` | How the model files were built. Not in the installed skill. |
+
 ## ideation/
 
 Copies of the operator's claude.ai ideation skills, brought in to be edited here with the operator's approval. The operator uploads the edited version back to claude.ai.
@@ -76,6 +90,7 @@ One persona profile per channel, written from `core/persona-profile-template.md`
 | `books/dale-oakfield-book.md` | The same for Dale's ebook, "The Ultimate DIY Woodworking Guide", with a chapter page map (the book prints no page numbers, so it uses PDF pages). |
 | `sawdust-sam.md` | Sawdust Sam's profile (built 2026-10-23, **pending** until his personal details are picked and a test run passes): woodworking for profit the old-world way (every video a heritage build), Talking Head, 174 words a minute, the Jon voice, Hank's CTA structure (two short CTAs naming the QR code and the top link) for *The Old Ways*, and scanner bans on invented trips, encounters and teachers. |
 | `books/sawdust-sam-book.md` | The text of Sam's book *The Old Ways* to printed page 80 (all Drive's extraction gives), with a chapter page map, the secrets by style (Japanese, Amish, Chinese and the rest) and a secret index; CTAs cite nothing past page 80. |
+| `frederick-barnes.md` | Frederick Barnes's profile (built 2026-10-27, **pending** until a test run passes): home electrical, retired electrician, 35 years, Talking Head, 195 words a minute, no book (a one-line subscribe ask in NO BOOK markers), voice to confirm, scanner bans on the name intro, the old firefighter framing and invented personal details. |
 | `roger-the-pipe-guy.md`, `mark-silverbridge.md`, `vintage-pipefitter.md` | The three plumbing profiles, approved 2026-10-21, ready since the plumbing pack entered the library: settings, voices, fixed tenures 45/40/45, the personality kept close to Notion, CTA rules (Roger and Mark: a short mid-video book ask and a one-line end reminder, naming the link and the QR code; Vintage: a one-line subscribe ask), and scanner blocks (Mark's also bans contractions). |
 | `books/roger-the-pipe-guy-book.md`, `books/mark-silverbridge-book.md` | Roger's "100 Old-House Fixes That Save You Thousands" (124 pages, 100 fixes) and Mark's "50 Easy Plumbing Fixes That Will Save You $10,000" (122 pages, 50 fixes), with printed page markers, chapter maps and fix indexes. |
 
@@ -87,6 +102,7 @@ Research data: collect and describe only, never edited to fit a conclusion.
 |---|---|
 | `woodworking/` | The woodworking-for-profit study (2026-10-17): Hank, Dale and two competitors, 45 videos. Transcripts, comments, views against each channel's normal, one descriptive notes file per video, and combined transcripts. Method in `study-brief.md`, every step in `log.md`. |
 | `plumbing/` | The plumbing study (started 2026-10-20): Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter and five competitors (one a pest-control parallel niche, one an AI channel), 5 most recent plus 5 most-viewed (last 24 months) per channel. Same layout and method as woodworking; see its `study-brief.md` and `log.md`. Got2Learn's second group is its all-time top 5 (it stopped uploading). `price-research-2026-10/` holds the price research and re-checks behind the plumbing price guide. `comparison/` holds the analysis: measured numbers, own hits against recent uploads, competitor profiles, a side-by-side on 12 dimensions, and a summary with suggestions for the plumbing script rules (none applied). |
+| `electrical/` | The electrical pack's own study files (2026-10-27): `model-picks-2026-10-27.csv` (the 32 picked model videos), `transcripts/` (raw NexLev transcripts behind the 31 model files), `lessons-for-the-pack-2026-10-27.md` (99 problems from the plumbing and woodworking script tests and how each was fixed: the checklist the electrical pack is reviewed against) and `facts-research-2026-10-27/` (the facts guide's research and re-check notes). The niche research itself is in the niche-research repository. |
 | `recent-uploads-2026-10-25/` | The newest upload on each of the seven channels (Roger twice), 2026-10-25: the caption transcripts (what the voice really said), lengths and views, before-and-after video lengths per channel, and the main session's analysis (the voice's misreads, the plumbing promise blocks, a review against the studies, and the average view duration question). |
 | `home-diy/frederick-baseline-2026-10/` | Frederick Barnes before the library (2026-10-22): his 23 scripts as written with the old system (verbatim, from Drive), which became which video and the public views (one 434k hit, the rest 23 to 5.3k), counts per script, the scanner's output and the main session's analysis against the library. The baseline for his move from home security and fire prevention to home DIY. |
 
