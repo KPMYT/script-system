@@ -28,7 +28,7 @@
 - Shaming: none found.
 
 ## The age in speech
-"over 50" once ("inspired by stylish women over 50"). "youthful" 4 times as a benefit ("exemplifies this neutral combination making you appear more youthful"). "without looking old" once.
+"over 50" once ("inspired by stylish women over 50"). "youthful" 3 times as a benefit ("exemplifies this neutral combination making you appear more youthful"). "without looking old" once.
 
 ## Visuals in words
 The narration names example outfits rather than on-screen items: "pairing a beige trench coat with deep brown leather boots"; "a white shirt paired with a navy A-line skirt and cinched with a belt".
