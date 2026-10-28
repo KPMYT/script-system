@@ -1,0 +1,58 @@
+# Round 2, helper 4: log
+
+Worklist: `round2/worklist-4.csv` (59 channels: 33 kept, 26 to-screen). Run date 2026-10-28.
+
+## NexLev calls (running count)
+
+- 01 Justin Hickox: outliers + videos = 2 calls (total 2)
+- 02 Style with Cathy: 2 calls (total 4)
+- 03 Boys And Girls Hairstyles: 2 calls (total 6)
+- 04 Risa Does Makeup: 2 calls (total 8)
+- 05 Dominique Sachse: 2 calls (total 10); outlier tool returned 0 outliers
+- 06 Jodi Mannes: 2 calls (total 12)
+- 07 Kim Sullins: 2 calls (total 14)
+- 08 Mature Makeup Masterclass: 2 calls (total 16)
+- 09 Camille Cowher: 2 calls (total 18); outlier tool returned 0 outliers
+- 10 Julie Catherine: 2 calls (total 20)
+- 11 SimplySharon: 2 calls (total 22)
+- 12 Tamara's Timeless Beauty: 2 calls (total 24)
+- 13 Beauty and the Boutique: 2 calls (total 26); outlier tool returned 0 outliers
+- 14 Stung by Samantha: 2 calls (total 28)
+- 15 Claudia Glows: 2 calls (total 30)
+- 16 Elegántica: 2 calls (total 32)
+- 17 The Beauty Armor: 2 calls (total 34)
+- 18 TRENDS SPOTTED FASHION: 2 calls (total 36). Note: 2 earlier attempts used the wrong parameter name and were rejected by the tool schema before reaching NexLev; not counted. proc.py now excludes 0-view uploads from normal and says so in normal_basis (from row 18 on).
+- 19 Glow At Any Age: 2 calls (total 38)
+- 20 Sachiko Mori: 2 calls (total 40)
+- 21 Belleza Sin Edad 60+: 2 calls (total 42)
+- 22 Over 60 Lifestyle: 2 calls (total 44)
+- 23 The Style Edit: 2 calls (total 46)
+- 24 Ageless Glow: 2 calls (total 48)
+- 25 Stil Mit 50+: 2 calls (total 50)
+- 26 ELEGANCE AFTER 60.: 2 calls (total 52)
+- 27 Second Bloom: 2 calls (total 54)
+- 28 Chic & Timeless: 2 calls (total 56)
+- 29 Age with Style: 2 calls (total 58)
+- 30 Ageless Style 50s & 60s: 2 calls (total 60)
+- 31 Haircut for Women Over 45: 2 calls (total 62)
+- 32 Elegancia Atemporal: 2 calls (total 64)
+- 33 Older Line Podcast With Penelope: 2 calls (total 66)
+- 34 Casual Comfort: 3 calls (total 69)
+- 35 Stylish Beyond 60: 3 calls (total 72)
+- 36 Stylish haircuts: 3 calls (total 75)
+- 37 Chic60Plus: 3 calls (total 78)
+- 38 Mature Women's Style: 3 calls (total 81)
+- 39 Stylish Over 60 Plus: 3 calls (total 84)
+- 40 Traci Jeske: 3 calls (total 87)
+- 41 After 60 wardrobe: 3 calls (total 90)
+- 42 ziliottodesign: 3 calls (total 93); outliers result was saved to a tool-results file by the harness and parsed from there
+- 43 Timeless Style After 60: 3 calls (total 96)
+- 44 Ageless Chic: 3 calls (total 99)
+- 45 Michelle Shelly / Fashion over 60: 3 calls (total 102)
+- 46 The Style Insider: 3 calls (total 105)
+- 47 Glow at Every Age: 3 calls (total 108)
+- 48 Chic Over 60: 3 calls (total 111)
+- 49 Melanin Majesty: 3 calls (total 114)
+- 50 Feminine Over 50 With Mia: 3 calls (total 117); faceless check was a fresh analysis (not cached)
+- 51 Wraparound Plus: 3 calls (total 120); faceless check was a fresh analysis
+- 52 Daily Black Glow: 3 calls (total 123)
