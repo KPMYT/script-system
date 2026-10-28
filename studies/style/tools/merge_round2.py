@@ -9,9 +9,12 @@ AUDIENCE = {
              'Loya the Fashion Queen': 'general and celebrity trends', 'Prime of your life': 'menopause nutrition',
              'Whispers Fashion & Styles': 'switched to Old West stories in September 2026',
              'Older Line Podcast With Penelope': 'posed photos in stockings and short dresses, framed as 50+ fashion (helper 4 reading; against the niche hard rule on suggestive framing)',
+             'Only Fame': 'hosiery photo compilations of named women (helper 1: all outliers off)',
+             '10 Years Younger': 'TV makeover show built on cosmetic surgery (all outliers off)',
+             'Tina Yong': 'no mature-skin content in the newest 30 videos',
              'Feminine Over 50 With Mia': 'posed photos in stockings and short dresses, framed as 50+ fashion (helper 4 reading; against the niche hard rule on suggestive framing)'},
     'partly': {'All Fashion Milano': 'street style, no age marker', 'Curiosity Street Style': 'street style, no age marker',
-               'Lisa Eldridge': 'broad makeup', 'Style With Serena': 'one "over 40" hit', 'Glam Guide': 'one 3:39 over-50 compilation'},
+               'Lisa Eldridge': 'broad makeup', 'Style With Serena': 'one "over 40" hit', 'Glam Guide': 'one 3:39 over-50 compilation', 'Hindash': 'male artist on models; one mature-skin title'},
 }
 GROUP = {'real_on_camera': 'real', 'faceless_narrated': 'faceless-ai', 'ai_avatar': 'faceless-ai', 'ai_clone': 'faceless-ai'}
 

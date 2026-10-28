@@ -152,3 +152,35 @@ Method: study-brief.md "Round 2". NexLev budget: 180 calls.
 | 143 | Confident Beauty 50+ | youtube_channel_outliers | ok |
 | 144 | Confident Beauty 50+ | youtube_channel_videos newest | ok |
 | 145 | Confident Beauty 50+ | check_faceless_channel | ok |
+| 146 | Tina Yong | youtube_channel_outliers | ok |
+| 147 | Tina Yong | youtube_channel_videos newest | ok |
+| 148 | Tina Yong | check_faceless_channel | ok |
+| 149 | Hindash | youtube_channel_outliers | ok |
+| 150 | Hindash | youtube_channel_videos newest | ok |
+| 151 | Hindash | check_faceless_channel | ok |
+
+## Summary
+
+- Channels done: 60 of 60 (33 kept, 27 to-screen on the worklist). No channel skipped.
+- Keep result: 45 yes, 15 no. All 33 `kept` channels still pass the keep rule; 12 of the 27 `to-screen` channels pass and 15 do not.
+- Type split (all 60): faceless_narrated 28, real_on_camera 20, ai_avatar 7, unclear 4, mixed 1. Among the 45 kept: real_on_camera 19, faceless_narrated 16, ai_avatar 6, unclear 3, mixed 1.
+- Outlier rows: 387 (core 280, adjacent 68, off 39).
+- NexLev calls: 151 of 180 (outliers 60, videos 64 of which 4 are extra popular-sort calls, check_faceless 27). Failures: none; no retries; no limit or credit error.
+
+## Notes on the data
+
+- Views are as NexLev shows them, rounded to K or M, so normals and ratios carry that rounding.
+- Dates come from YouTube's relative text ("3 years ago"), which is floored, and NexLev buckets them to the same day of the month or year (many dates read as 28 Oct). `uploads_last_90d` counts "N months ago" only when N is 2 or less. `since_2022` is yes for "3 years ago" or newer, unclear for "4 years ago".
+- The newest list is the Videos tab only; Shorts are not in it, so `shorts_in_newest30` counts only short videos (under 5:00) that sit in the Videos tab.
+- 0-view videos are kept as null and left out of the normal: Go Gray Be CHIC, CougarFashion, Timeless Wisdom Path, Bridget Fisher (a Q&A).
+- Outputs too large to read inline were saved to a file and parsed: Diana GOSS and Bridget Fisher outliers (all outliers recorded).
+- Extra popular-sort calls, used only for the 100K+ keep test: Elegant Looks After Sixty, Senior Wellness Elevate, Style Aura, Timeless Wisdom Path.
+- Timeless Wisdom Path has no normal: all 30 newest uploads are under 7 days old.
+- Silver Foxy is typed `unclear`: its 2 outlier thumbnails are hairstyle collages with no presenter, but recent titles are first-person. The World Of Craig has a male presenter. Hindash is a male make-up artist working on models.
+- Only Fame (hosiery photo compilations) and 10 Years Younger (TV makeover show) have every outlier marked `off`, with the reason in topic_note.
+- Hindash outliers without age framing are marked `adjacent` with "nearest label adjacent" in the note; only "MAKEUP ON MATURE SKIN PART 2" is mature-skin by title. The worklist hint video (6.9M, 7 years ago) was outside the newest-100 outliers window.
+- Type readings are from 2 downloaded thumbnails per channel and are marked "reading" in `type_basis`.
+
+## Screened out (keep = no)
+
+Senior Wellness Elevate; The Timeless Wardrobe; Modern Muse 60Plus; Ever chic women; Fashion Style Over 60; Elegant At 60; Ageless Elegance (bucIT); Style Aura; Fashion over 60 (o2RN); BCsells - Casual Over 60; Style & Elegance; Timeless Wisdom Path; Aging With Elegance; Solo After Sixty; Confident Beauty 50+. Reasons are in `keep_reason` in channels-1.csv.

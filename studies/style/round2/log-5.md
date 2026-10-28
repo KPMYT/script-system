@@ -63,3 +63,5 @@ Date: 2026-10-28. Thumbnails in the helper's scratchpad folder (round2-h5/thumbs
 | 54 | Living Your Best Life | 4 | 134 | ok; 4th call popular sort (under 10K subs, scan max 96K, 176 videos); found 319K video, so kept; added 3 popular-sort videos at 2x+ NexLev avg with blank NexLev ratio; about lists an email flag (not stored) |
 | 55 | Hairstyleslife | 3 | 137 | ok; all newest-30 under 5:00 and dated '1 year ago' |
 | 56 | Hair Cut | 3 | 140 | ok |
+| 57 | Blowout Professor | 3 | 143 | ok; 61 outliers (result saved to file, parsed); presenter is a man, unnamed |
+| 58 | Nina Ubhi | 4 | 147 | ok; first faceless-check call failed on a wrong parameter name (channel_id instead of channelId), counted as a call to be safe, retried correctly; about lists a business email flag (not stored) |
