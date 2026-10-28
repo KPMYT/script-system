@@ -1,0 +1,23 @@
+# I WIsh I Knew This BEFORE Washing My Gray Natural Hair!
+
+- Channel: Karen of Curl House (@KarenofCurlHouse, channel ID UC5--S4d74YH5E2TfsC6CUlg)
+- Video ID: A8llK8GsSD0
+- URL: https://www.youtube.com/watch?v=A8llK8GsSD0
+- Study group and why it was picked: model script, M03 (hair), picked 2026-10-28 from models/candidates-for-review.md row 7
+- Title in approved-models.csv: I WIsh I Knew This BEFORE Washing My Gray Natural Hair! (views listed there: 297,655)
+- Upload date: 2026-10-10 (15:00:19-07:00)
+- Duration: 10:08 (608 s)
+- Views: 297,760 (as of 2026-10-28)
+- Likes: 3,708 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 9,300 (from `round2/channels-all.csv`: median of 15 most recent uploads >=5:00 and >=7 days old)
+- Views / normal: 32.02
+- Age at collection: 18 days (0.0 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: Karen, in the first person: "Hey guys, Karen with Curl House. I'm a licensed cosmetologist, certified trichologist, and the owner of the fabulous Curl House Collection of products"; she demonstrates on her own gray, coily hair at home. No age is given, and the word gray is never spoken.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 222 segments; 1,431 words (spoken words only: bracket tags and ">>" excluded); one speaker; "[music]" and ">>" tags; about 70 seconds without speech (7:02-8:11)
+- Comments: API commentsCount 290; collected 22 top + 20 newest = 41 unique (1 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Education; isShortsEligible: false
+- Description notes (quoted): "🛒 SHOP OUR SCALP & HAIR GROWTH PRODUCTS (Promo code: YT15 - excludes bundles)". "As a licensed cosmetologist, I am sharing the exact pre-shampoo hair care regimen I use to protect my strands before washing." Chapters: 0:00 Why I Never Skip My Pre-Shampoo Routine / 1:05 What Exactly Is A Pre-Poo? / 3:49 Step-By-Step Application Guide / 8:09 The Results Of My Consistent Routine. Keywords are about pre-poo and natural hair; none names an age or gray hair.
+- Notes: The details call's languageMenu field reads "Ukrainian (auto-generated)", but the selected and collected track is "English (auto-generated)" and the speech is English.

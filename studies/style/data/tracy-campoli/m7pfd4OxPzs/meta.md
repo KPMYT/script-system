@@ -1,0 +1,22 @@
+# 7 Items That Make You Look FRUMPY After 50 (Stop Wearing These!)
+
+- Channel: Tracy Campoli (@TracyCampoli, channel ID UC2sXkXBWd51cpk_5nyUha2w)
+- Video ID: m7pfd4OxPzs
+- URL: https://www.youtube.com/watch?v=m7pfd4OxPzs
+- Study group and why it was picked: model script, M15 (fashion), picked 2026-10-28 from models/candidates-for-review.md row 17
+- Title in approved-models.csv: 7 Items That Make You Look FRUMPY After 50 (Stop Wearing These!) (views listed there: 170,000)
+- Upload date: 2026-04-16 (03:30:26-07:00)
+- Duration: 17:25 (1045 s)
+- Views: 170,229 (as of 2026-10-28)
+- Likes: 5,698 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 48,000 (from `round2/channels-all.csv`: median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views / normal: 3.55
+- Age at collection: 195 days (0.5 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: Tracy, a woman in the first person, filmed in New York; her name is said by commenters, not by her in the speech. She gives her height ("only 5'2"), lives in Miami, mentions a husband, a daughter and having been a dancer, and calls herself Gen X. No age number is spoken.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 463 segments; 3,294 words (spoken words only: bracket tags and ">>" excluded); one speaker; first caption at 0:13; a few "[music]" and "[laughter]" tags
+- Comments: API commentsCount 490; collected 24 top + 20 newest = 43 unique (1 in both lists); owner comments 1; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Howto & Style; isShortsEligible: false
+- Description notes (quoted): "✨Thanks to Negative for sponsoring today’s video!" "Sometimes we don’t notice when our style gets a little stuck. I’m breaking down 7 items that might be making you look a little more “frumpy” after 50 than fabulous!" Links for capris, trousers, jeans, loafer slides, tees, coats, lip combo; her shop and a fitness program ("Limited time only, 40% off!!"); a medical disclaimer; "FTC: Sometimes I use affiliate links above." No chapters. Keywords include "fashion over 50", "style over 50", "negative apparel review".

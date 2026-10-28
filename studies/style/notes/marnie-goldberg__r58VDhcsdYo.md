@@ -31,13 +31,13 @@
 About 8 age phrases: "turning 50" (0:22); "the over 45 over 50 over 60 set" (1:09); "especially our age girl group" (6:41); "this one is not just for us older ladies" (7:21); "I don't care what age you are" (7:52); "I'm old enough to say no" (10:44); "around women my age" (17:03). The 80s, "1986" and "1985" come up as the era of the styles being retired.
 
 ## Visuals in words
-Yes: "let's take another look at the photo that inspired me to make this video" (4:15); "I'm just going to say stand up really quickly this is an incredibly inexpensive fine gauge knit sweater" (5:43); "these black studded loafer mules are very cool" (12:04).
+Yes: "let's take another look at the photo that inspired me to make this video" (4:15); "I'm just going to say stand up really quickly this is an incredibly inexpensive fine gauge knit sweater" (5:43); "these black studded loafer mules are very cool" (11:59).
 
 ## Products, brands, stores and prices
 Barefoot Dreams cardigans; "shackets"; Chico's (faux leather pants, studded loafer mules, "this is not sponsored" 11:59); Walmart (peplum sweater, a loafer); Daily Ritual "tinsel joggers"; Ponte knit; Dean Davidson and Uncommon James jewellery ("I do have a 25 off code for that" 9:48); Dolce Vita hidden-wedge sneaker; bronzer and eyeliner in general. No prices.
 
 ## Promises and payoffs
-- "ways to avoid looking old looking frumpy" (0:47): nine tips, each with an alternative (chunkier looser cardigan; full sleeves rolled to bracelet length; tuck, peplum, asymmetric, one loose item; an inch above the ankle; delicate pieces; a small heel or pointed flat; bold abstract prints; colours you feel good in; a makeup refresh).
+- "ways to avoid looking old looking frumpy" (0:43): nine tips, each with an alternative (chunkier looser cardigan; full sleeves rolled to bracelet length; tuck, peplum, asymmetric, one loose item; an inch above the ankle; delicate pieces; a small heel or pointed flat; bold abstract prints; colours you feel good in; a makeup refresh).
 - "suggestions they are not rules": repeated in the close ("those were nine tips suggestions for just having fun").
 
 ## CTAs and the ending

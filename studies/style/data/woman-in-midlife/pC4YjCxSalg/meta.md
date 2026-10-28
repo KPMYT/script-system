@@ -1,0 +1,22 @@
+# I Stopped Dyeing My Hair at 49 — Here’s What Really Happened
+
+- Channel: Woman in midlife (@Woman-in-midlife, channel ID UC1exmI_KJ-zXoKQAdhhzc3Q)
+- Video ID: pC4YjCxSalg
+- URL: https://www.youtube.com/watch?v=pC4YjCxSalg
+- Study group and why it was picked: model script, M02 (hair), picked 2026-10-28 from models/candidates-for-review.md row 5
+- Title in approved-models.csv: I Stopped Dyeing My Hair at 49 — Here’s What Really Happened (views listed there: 322,520)
+- Upload date: 2025-12-04 (15:01:14-08:00)
+- Duration: 9:04 (544 s)
+- Views: 322,520 (as of 2026-10-28)
+- Likes: 5,910 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 5,300 (from `round2/channels-all.csv`: median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views / normal: 60.85
+- Age at collection: 328 days (0.9 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: a woman telling her own story in the first person; her name is not said. She was 49 when she stopped dyeing and says it is "exactly 2 years" since; a senior Wall Street job; a husband. A short clip at 0:54 has her saying "I have not yet told my husband" (an earlier recording).
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 225 segments; 1,608 words (spoken words only: bracket tags and ">>" excluded); one speaker; "[music]" tags near the end
+- Comments: API commentsCount 1K; collected 22 top + 20 newest = 41 unique (1 in both lists); owner comments 1; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Howto & Style; isShortsEligible: false
+- Description notes (quoted): "If you’re a woman over 45 navigating gray hair, perimenopause, or the changes that come with midlife, this video breaks down the five lessons that helped me through my gray hair transition." "#grayhairtransition #womenover50 #midlifewomen". Email sign-up ("Midlife Motivations") and affiliate hair, gray-hair, skin and wellness products; "FTC: Some links are affiliate." No chapters. Keywords include "over 50", "women over 50", "over 40", "menopause".

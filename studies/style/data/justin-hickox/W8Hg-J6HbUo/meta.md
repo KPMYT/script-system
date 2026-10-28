@@ -1,0 +1,23 @@
+# Women That LOOK 10 YEARS YOUNGER Know THIS About Their Hair!
+
+- Channel: Justin Hickox (@justinhickox, channel ID UCTfRM6bqWXYyCcs_78ywftQ)
+- Video ID: W8Hg-J6HbUo
+- URL: https://www.youtube.com/watch?v=W8Hg-J6HbUo
+- Study group and why it was picked: model script, M06 (hair), picked 2026-10-28 from models/candidates-for-review.md row 39
+- Title in approved-models.csv: Women That LOOK 10 YEARS YOUNGER Know THIS About Their Hair! (views listed there: 1,292,619)
+- Upload date: 2026-05-12 (06:45:10-07:00)
+- Duration: 16:14 (974 s)
+- Views: 1,292,732 (as of 2026-10-28)
+- Likes: 42,217 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 51,000 (from `round2/channels-all.csv`: median of 15 most recent long-form uploads (5:00+, 7+ days old); dates from NexLev relative times (approx.))
+- Views / normal: 25.35
+- Age at collection: 169 days (0.5 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: male hairstylist in the first person ("I've been a professional hairstylist for over 30 years"), alone on camera; his name is not said in the speech. He addresses his editor ("Joseph") once.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 456 segments; 3,065 words (spoken words only: bracket tags and ">>" excluded); one speaker; "[laughter]" off camera, a sung overlay ("[singing]") 6:52-7:27, and an outtake after the sign-off (16:00-16:12)
+- Comments: API commentsCount 2.2K; collected 35 top + 20 newest = 53 unique (2 in both lists); owner comments 1; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Howto & Style; isShortsEligible: false
+- Description notes (quoted): "If you’re over 50 and your hair suddenly feels older, flatter, duller, or harder to style… some of the habits causing it might surprise you." "WATCH PART 2 HERE". Products: Laifen Swift Blow Dryer ("JUSTIN12 for 12% off"), K18 Molecular Repair Hair Oil. "In this video, I break down 5 common hair mistakes that can make women look older faster" and "After 30 years behind the chair, I’ve learned that youthful hair is less about trends". Chapters: 00:00 Bringing You Up To Speed / 01:13 Mistake 01 / 03:36 Mistake 02 / 07:28 Mistake 03 / 10:58 Mistake 04 / 13:20 Mistake 05 / 15:13 Final Thoughts, followed by a stray pair: 13:20 Mistake #6 / 15:23 Closing Thoughts. Affiliate note as on his other videos ("*Some links are affiliate"). Keywords: none.
+- Notes: The description lists five mistakes and the speech has five; the stray "Mistake #6" chapter line has no sixth item behind it.

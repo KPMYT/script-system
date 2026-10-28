@@ -1,0 +1,22 @@
+# Why Your Haircut Never Looks Right (It's Not You)
+
+- Channel: Summer Beauty (@SummerBeautyc, channel ID UCl4iYvuUhw3DIRyYtV1Twig)
+- Video ID: i5jFYNeCHGM
+- URL: https://www.youtube.com/watch?v=i5jFYNeCHGM
+- Study group and why it was picked: model script, M01 (hair), picked 2026-10-28 from models/candidates-for-review.md row 2
+- Title in approved-models.csv: Why Your Haircut Never Looks Right (It's Not You) (views listed there: 665,240)
+- Upload date: 2026-06-19 (05:30:10-07:00)
+- Duration: 15:03 (903 s)
+- Views: 665,238 (as of 2026-10-28)
+- Likes: 14,335 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 45,000 (from `round2/channels-all.csv`: median of 15 newest uploads 5:00+ and 7+ days old (videos tab, newest page; views as NexLev rounds them))
+- Views / normal: 14.78
+- Age at collection: 131 days (0.4 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: female hairstylist and image consultant in the first person ("after 19 years as a hair stylist"); her name is not said; she uses her own heart-shaped face, a wig and photos as examples. No age is given.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 374 segments; 2,617 words (spoken words only: bracket tags and ">>" excluded); one speaker; "[music]" tags only
+- Comments: API commentsCount 576; collected 22 top + 20 newest = 39 unique (1 in both lists); owner comments 1; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Howto & Style; isShortsEligible: false
+- Description notes (quoted): Opens with her paid service: "Learn your exact face shape and get custom haircut recommendations by booking a Face Shape Analysis with me!" and "Use code SAVE12 to save an extra 12% off". Affiliate product lists (fine and coarse hair, Sutra, Voloom with code STYLESBYSUMMER20, Dyson Airwrap): "*These links are affiliate meaning I earn a small commission on any sale." Chapters: 00:00 - Intro / 00:51 - Part 1: Why You're Unsure Of Your Shape / 1:50 - Part 2 : The Face Shape Breakdown / 5:45 - Part 3 : Playing WIth Proportions / 8:21 - Part 4 :  Determining Your Facial 3rds / 12:38 - Part 5 : The Power Of The Part / 14:21 - Outro. Keywords include "face shape", "fine hair", "thin hair"; none names an age.

@@ -1,0 +1,22 @@
+# Ditch the Shorts: 7 Things to Wear Instead | Fashion Over 50
+
+- Channel: Adore Your Wardrobe (@AdoreYourWardrobe, channel ID UCiCk9YOdjY8zZMUvMCGurCQ)
+- Video ID: 7ecJWmEQ3Ks
+- URL: https://www.youtube.com/watch?v=7ecJWmEQ3Ks
+- Study group and why it was picked: model script, M13 (fashion), picked 2026-10-28 from models/candidates-for-review.md row 15
+- Title in approved-models.csv: Ditch the Shorts: 7 Things to Wear Instead / Fashion Over 50 (views listed there: 814,141)
+- Upload date: 2026-04-05 (17:00:06-07:00)
+- Duration: 13:18 (798 s)
+- Views: 814,141 (as of 2026-10-28)
+- Likes: 31,174 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 24,000 (from `round2/channels-all.csv`: median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views / normal: 33.92
+- Age at collection: 206 days (0.6 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: Kelly Snyder, in the first person ("Hey everybody, it's Kelly Snyder from Adore Your Wardrobe."), talking to camera; outfits are shown on models. She counts herself among women over 50 ("we hate this season") but gives no age.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 342 segments; 2,397 words (spoken words only: bracket tags and ">>" excluded); one speaker; "[music]" tags
+- Comments: API commentsCount 1.6K; collected 20 top + 20 newest = 39 unique (1 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: People & Blogs; isShortsEligible: false
+- Description notes (quoted): "Most women over 50 dread summer because it means showing their legs." "No capris. No maxi dresses. Just real options that work for your body." Free "Summer Ready Guide". Chapters: 0:00 - Introduction + Why We Dislike Shorts / 02:15 - Why Capris and Maxi Dresses Are The Devil / 03:40 - Cropped Pants In A Summer Fabric / 04:35 - The Misunderstood Skort / 6:10 - Making Wide-Leg Linen Pants Effortless / 7:25 - Tailored Cropped Straight-Leg Linen Pant / 8:30 - Midi (not Maxi) Sundress / 9:25 - Athletic Dress / 10:35 - Modern Bermuda Short / 12:00 - Free Summer Ready Guide + Final Thoughts. "I'm Kelly Snyder, and for the last 10 years I've run Adore Your Wardrobe". Music credit (CC BY 4.0). Keywords include "fashion for women over 50", "style over 50".

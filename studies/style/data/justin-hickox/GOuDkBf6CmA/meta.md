@@ -1,0 +1,23 @@
+# Double Chin or Sagging Neck? NEVER WEAR These Hairstyles! DO THIS INSTEAD…
+
+- Channel: Justin Hickox (@justinhickox, channel ID UCTfRM6bqWXYyCcs_78ywftQ)
+- Video ID: GOuDkBf6CmA
+- URL: https://www.youtube.com/watch?v=GOuDkBf6CmA
+- Study group and why it was picked: model script, M10 (hair), picked 2026-10-28 from models/candidates-for-review.md row 46
+- Title in approved-models.csv: Double Chin or Sagging Neck? NEVER WEAR These Hairstyles! DO THIS INSTEAD… (views listed there: 1,261,135)
+- Upload date: 2025-05-06 (06:46:13-07:00)
+- Duration: 16:18 (978 s)
+- Views: 1,261,132 (as of 2026-10-28)
+- Likes: 37,051 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 51,000 (from `round2/channels-all.csv`: median of 15 most recent long-form uploads (5:00+, 7+ days old); dates from NexLev relative times (approx.))
+- Views / normal: 24.73
+- Age at collection: 540 days (1.5 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: male hairstylist in the first person ("I've been doing hair since 1995 professionally"), talking over edited photos of one female model ("This is my model"); he says he photoshopped the styles himself. His name is not said in the speech.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 456 segments; 3,376 words (spoken words only: bracket tags and ">>" excluded); one speaker; no tags
+- Comments: API commentsCount 1.4K; collected 24 top + 20 newest = 43 unique (1 in both lists); owner comments 1; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Howto & Style; isShortsEligible: false
+- Description notes (quoted): "Avoid haircuts that age you!" "🔴Watch THIS NEXT". "In this video, we break down the worst haircut and hairstyle mistakes that can make your chin look saggy, emphasize a double chin, or create unflattering face shapes." Hair and other favorites with codes (JUSTIN12, DIONNALED, HICKOX20). Chapters: 0:00 What You Need To Know! / 1:00 The Importance Of Focus / 1:52 Hairstyle 01 To Avoid! / 3:43 Hairstyle 02 To Avoid! / 7:15 Hairstyle 03 To Avoid! / 11:56 Feature 01 To Avoid / 13:28 Feature 02 To Avoid / 14:09 Feature 03 To Avoid. Affiliate note ("*Some links are affiliate"). Keywords: none.
+- Notes: The chapters list three features; the speech covers four (center parts, flat or one-length hair, strong angular lines, an exposed neck).

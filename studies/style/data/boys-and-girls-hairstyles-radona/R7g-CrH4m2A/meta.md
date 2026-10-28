@@ -1,0 +1,23 @@
+# The Most Requested Haircut for Women Over 70 | She Drove All the Way From Idaho for This Haircut! ✨
+
+- Channel: Boys And Girls Hairstyles (RaDona) (@BoysAndGirlsHairstyles, channel ID UCwWEsSuYKPmqGwIlQSww-gg)
+- Video ID: R7g-CrH4m2A
+- URL: https://www.youtube.com/watch?v=R7g-CrH4m2A
+- Study group and why it was picked: model script, M05 (hair), picked 2026-10-28 from models/candidates-for-review.md row 12
+- Title in approved-models.csv: The Most Requested Haircut for Women Over 70 / She Drove All the Way From Idaho for T (views listed there: 353,042)
+- Upload date: 2026-06-25 (14:26:38-07:00)
+- Duration: 24:23 (1463 s)
+- Views: 353,040 (as of 2026-10-28)
+- Likes: 3,826 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 8,300 (from `round2/channels-all.csv`: median of 15 most recent long-form uploads (5:00+, 7+ days old); dates from NexLev relative times (approx.))
+- Views / normal: 42.53
+- Age at collection: 125 days (0.3 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: female stylist cutting a client's hair in the salon; she does not say her own name in the speech (the description names RaDona). The client, Sharon, from Boise, Idaho, speaks a few lines (marked ">>"); her age is not said in the speech.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 556 segments; 3,250 words (spoken words only: bracket tags and ">>" excluded); stylist plus client; "[music]", "[laughter]" and ">>" tags; first speech at 0:18
+- Comments: API commentsCount 190; collected 20 top + 20 newest = 35 unique (5 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Howto & Style; isShortsEligible: false
+- Description notes (quoted): "Meet Sharon, 76, who made a special trip all the way from Idaho to sit in RaDona's chair for a fresh new look! 💕" "For her transformation, RaDona created a beautiful piecey short haircut". "💬 Tell us in the comments: How far would YOU travel for the perfect haircut?" Monat product links; "RaDona's videos are specifically for those that are wanting to learn how to cut hair, learn new skills as a hair stylist and to be able to show your own hair stylist, the hairstyle and cut you would like." Hashtags include "#womenover70" and "#haircutover70". No chapters.
+- Notes: Format: a salon cut-along with a real client, explained while cutting; not a narrated advice script (no hook, no list, no spoken CTA).
