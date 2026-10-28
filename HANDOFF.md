@@ -330,6 +330,9 @@ From the operator's answers to the six questions in `drafts/style-study-plan-DRA
 - **Floors as electrical:** videos from 2022 on; models from 1M+ views on real channels, 300K+ on faceless.
 - **Two packs later:** hair and fashion as one pack; makeup and skincare as their own pack later ("that would make most sense"). Makeup and skincare channels are scanned in this study, labelled `adjacent`.
 
+- **The script and comment study's mix is approved** (2026-10-28, "yes thats good for us to study"): about 40 videos by video type (style mistakes, hair mistakes and haircuts, thin hair, gray hair, body shape, single items, look expensive, the French angle, makeovers), real and faceless or AI both, plus **three copycat pairs** (the same title, one copy that broke out and one that didn't).
+- **Purely style:** "so here were looking purley style. no makeup right?" The study and the coming pack cover hair and fashion (accessories and colors included); makeup and skincare videos are left out of the study. Both channels already publish some makeup titles; those wait for the makeup pack.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.
