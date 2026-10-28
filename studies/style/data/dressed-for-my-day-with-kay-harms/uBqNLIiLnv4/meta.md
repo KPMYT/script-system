@@ -1,0 +1,24 @@
+# How to Tie a Scarf this Winter - Feel Confident & Look Stylish in Scarves
+
+- Channel: Dressed for My Day with Kay Harms (@DressedforMyDaywithKayHarms, channel ID UCHubo8ZyomMaVqlumn5-TXg)
+- Video ID: uBqNLIiLnv4
+- URL: https://www.youtube.com/watch?v=uBqNLIiLnv4
+- Study group and why it was picked: model script, M30 (fashion), picked 2026-10-28 from models/item-list-search-2026-10-28.md (real-presenter item list)
+- Title in approved-models.csv: How to Tie a Scarf this Winter - Feel Confident & Look Stylish in Scarves (views listed there: 78,090)
+- Upload date: 2025-12-18 (04:31:17-08:00)
+- Duration: 20:28 (1228 s)
+- Views: 78,099 (as of 2026-10-28, first details call)
+- Likes: 2,703 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 25,000 (from `round2/channels-all.csv` via `models/approved-models.csv`; basis: median of 15 newest uploads 5:00+ and 7+ days old (videos tab, newest page; views as NexLev rounds them))
+- Views / normal: 3.12
+- Age at collection: 314 days (0.9 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: female, on camera, first person: "My name is Kay and this is Dress for My Day" (caption; the channel is Dressed for My Day); "My goal really is just to help women over 50 to get dressed for our day". Says she lives where it has been "in the single digits lately and even below zero". No age of her own is said.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 537 segments; 4,063 words (bracket tags and ">>" excluded)
+- Comments: API commentsCount 227; collected 29 top + 20 newest = 45 unique (4 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found
+- Category: Howto & Style; isShortsEligible: false; hasCaption (details): false
+- Description notes (quoted): "I'm sharing some fabulous ways to wear a scarf, focusing on how to tie a scarf with 5 different types of scarves."; "Thanks for watching! ~ xxox, Kay"; "The links below and above are affiliate links. I will make a small commission if you shop through them."; ShopMy links for the outfit and scarves (two items marked "c/o"); related videos; newsletter with "my FREE e-book full of style tips for women over 40"; website and social links; signed "~ Kay". No chapters.
+- The title carries no age; keywords include "fashion over 50" and "French scarf tying".
+- The speech says "This is my final video for 2025" (uploaded 2025-12-18); the last 1:47 is channel housekeeping (membership levels, a Bible study).

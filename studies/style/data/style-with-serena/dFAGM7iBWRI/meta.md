@@ -1,0 +1,24 @@
+# Wear THIS, Not THAT: 5 Outdated Fall Shoes to Ditch in 2026
+
+- Channel: Style With Serena (@StylewithSerena, channel ID UCpsZd3lQayBjdFHEu2rPbvA)
+- Video ID: dFAGM7iBWRI
+- URL: https://www.youtube.com/watch?v=dFAGM7iBWRI
+- Study group and why it was picked: model script, M29 (fashion), picked 2026-10-28 from models/item-list-search-2026-10-28.md (real-presenter item list)
+- Title in approved-models.csv: Wear THIS, Not THAT: 5 Outdated Fall Shoes to Ditch in 2026 (views listed there: 640,045)
+- Upload date: 2026-09-20 (06:00:15-07:00)
+- Duration: 26:49 (1609 s)
+- Views: 640,094 (as of 2026-10-28, first details call)
+- Likes: 8,602 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 48,000 (from `round2/channels-all.csv` via `models/approved-models.csv`; basis: median of 15 most recent uploads >=5:00 and >=7 days old)
+- Views / normal: 13.34
+- Age at collection: 38 days (0.1 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: female, on camera, first person; her name is not said in the speech (the description is signed "XO, Serena" and lists her own sizes: "Height 5'2"", "Shoe size 6.5 (usually)"). No age is said; she tries the shoes on in quick clips and holds them up.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 646 segments; 4,594 words (bracket tags and ">>" excluded)
+- Comments: API commentsCount 1.3K; collected 28 top + 20 newest = 46 unique (2 in both lists); owner comments 1; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found
+- Category: Howto & Style; isShortsEligible: false; hasCaption (details): false
+- Description notes (quoted): "Which fall shoes are looking outdated in 2026—and what should you wear instead? From flats and loafers to sneakers, ankle boots and knee-high boots, I'm breaking down the shoe styles that can make an outfit feel dated and showing you the modern alternatives worth wearing now."; "XO, Serena"; newsletter; seven shopping collections (flats and loafers, sneakers, wedges, tall boots, mules, ankle boots) with Nordstrom, ShopMy and Magik links; "MY STATS" (height, weight, sizes); "Stock photos and video courtesy of Canva."; "FTC Disclaimer: Some links may be affiliate links"; hashtags #stylewithserena #midlifestyle #fallfashion #fallshoes. No chapters.
+- Round 2 status for this channel is "to-screen" (not "kept"); type real_on_camera.
+- The title promises 5 outdated styles; the speech covers flats, loafers, sneakers, tall boots and ankle boots, plus wedges, mules, textures and animal print as trends.
