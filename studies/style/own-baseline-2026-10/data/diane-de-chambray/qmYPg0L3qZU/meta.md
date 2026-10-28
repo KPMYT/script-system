@@ -1,0 +1,21 @@
+# The French Bob After 60 — 3 Versions That Take 10 YEARS Off (And the 5 Bobs to Avoid)
+
+- Channel: Diane de Chambray (@DianedeChambray, UC2z5yffdjwr3xpr-iDp9Yvw)
+- Video ID: qmYPg0L3qZU
+- URL: https://www.youtube.com/watch?v=qmYPg0L3qZU
+- Upload date: 2026-10-03 (youtube_video_details publishDate: 2026-10-03T13:30:06-07:00)
+- Duration: 18:37 (1117 s)
+- Views (exact, youtube_video_details): 607
+- Likes (exact, youtube_video_details): 4
+- Collection date: 2026-10-28 (details pulled about 03:28-03:30 UTC)
+- Age at collection: 24.3 days (24 full days)
+- Views ÷ channel normal: 1.00 (normal = 607)
+- Comment count shown by YouTube: 2
+- Comments collected: 2 top-level (1 viewer, 1 [OWNER]); replies not returned by the tool
+- Comment sorts pulled: top, newest (no continuation token returned on any page)
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 447
+- Transcript words: 3,354 (180 words per minute)
+- Description first line: 📘 Get my full French beauty guide to look 20 years younger before small style mistakes turn into expensive salon fixes → https://www.dianedechambray.com/
+- Description carries the "fictional character with an AI-generated name, face, and voice" line: no
+- Collection note: top sort returned 1 comment; newest returned 2 (owner comment appeared only under newest)

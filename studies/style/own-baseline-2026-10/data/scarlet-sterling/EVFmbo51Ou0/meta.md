@@ -1,0 +1,21 @@
+# Why You Look Frumpy After 60 — It's NOT Your Weight, It's These 5 Things
+
+- Channel: Scarlet Sterling (@ScarletSterlingYT, UCTMwV-uy20eaRwFfc4Sx13g; display title on YouTube: "Scarlet Starling")
+- Video ID: EVFmbo51Ou0
+- URL: https://www.youtube.com/watch?v=EVFmbo51Ou0
+- Upload date: 2026-10-24 (youtube_video_details publishDate: 2026-10-24T11:00:17-07:00)
+- Duration: 16:37 (997 s)
+- Views (exact, youtube_video_details): 537
+- Likes (exact, youtube_video_details): 3
+- Collection date: 2026-10-28 (details pulled about 03:28-03:30 UTC)
+- Age at collection: 3.4 days (3 full days)
+- Views ÷ channel normal: 1.01 (normal = 532)
+- Comment count shown by YouTube: 0 on the top call, 1 on the newest call
+- Comments collected: 1 top-level (1 viewer, 0 [OWNER]); replies not returned by the tool
+- Comment sorts pulled: top, newest (no continuation token returned on any page)
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 405
+- Transcript words: 2,663 (160 words per minute)
+- Description first line: Get my full budget style guide: https://www.scarletesterling.com/
+- Description carries the "fictional character with an AI-generated name, face, and voice" line: yes (uses "He")
+- Collection note: commentsCount read 0 on the top call although 1 comment was returned; the newest call read 1.
