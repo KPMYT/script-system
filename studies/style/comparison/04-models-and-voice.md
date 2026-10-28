@@ -15,21 +15,21 @@ For Scarlet Sterling (the affluent American, "look younger, polished, expensive"
 
 ## 1. The video types in this niche
 
-Twelve types show up across the 45 study videos and our 38, plus one gap (makeup, which the study left out). The breakout-map columns are its keyword reading of 1,118 core outlier titles (`round2/BREAKOUT-MAP.md`), so they are rough.
+Twelve types show up across the 45 study videos and our 38, plus one gap (makeup, which the study left out). Each video is counted once by its main type; "shared" means a second type fits too. The breakout-map columns are its keyword reading of 1,118 core outlier titles (`round2/BREAKOUT-MAP.md`), so they are rough.
 
 | # | Type | Study videos | Ours | Breakout map (real / faceless-AI), where a row fits |
 |---|---|---|---:|---|
 | T1 | Whole-look mistakes that age you ("N things that scream old lady", "remove from your wardrobe") | 6 | 4 | mistakes × whole look: 60 / 23 |
-| T2 | Single-item mistakes ("7 blouse mistakes", "10 shoe mistakes", "pants to avoid") | 5 + pair A | 2 | mistakes × tops 10 / 21; × shoes 8 / 6; × jeans 14 / 6 |
+| T2 | Single-item mistakes ("7 blouse mistakes", "10 shoe mistakes", "pants to avoid") | 4 + pair A | 1 (3 more shared) | mistakes × tops 10 / 21; × shoes 8 / 6; × jeans 14 / 6 |
 | T3 | The item list ("N glasses / necklaces that make you look younger or expensive", "NEVER wear these 3, wear these instead") | 1 | 7 | glasses 1 / 10; jewelry 0 / 15 |
 | T4 | How to wear X over 60 (leggings, wide-leg jeans, the scarf) | 2 | 2 | look expensive × jeans 1 / 15; × dresses 0 / 16 |
 | T5 | The colour list (colours or combinations that look expensive or younger) | 3 + pair C | 4 | colours 9 / 31 |
-| T6 | The haircut list ("don't get the granny cut", N cuts, pixie mistakes, gray styles) | 4 | 8 | look younger × haircut 4 / 25 |
-| T7 | "You're styling it wrong": N secrets, fine hair | 4 + pair B | 3 | mistakes × thin/fine hair 7 / 7 |
-| T8 | Body-shape fixes (slimmer, tummy, petite, jeans for your figure) | 5 | 4 | slimmer / body shape 31 / 32 |
+| T6 | The haircut list ("don't get the granny cut", N cuts, pixie mistakes, gray styles, face shape) | 6 | 8 | look younger × haircut 4 / 25 |
+| T7 | "You're styling it wrong": N secrets, fine hair | 3 + pair B | 2 | mistakes × thin/fine hair 7 / 7 |
+| T8 | Body-shape fixes (slimmer, tummy, petite, jeans for your figure) | 5 (one shared with T2) | 3 | slimmer / body shape 31 / 32 |
 | T9 | The pieces list (capsule, "the only N you need", the French essentials, trends) | 4 | 1 | national lens × whole look 12 / 26 |
 | T10 | The rules of a woman who gets it right ("She's 68 in Paris — 5 rules", the wealthy women's habits) | 1 | 2 | (no row; national lens and "look expensive" overlap) |
-| T11 | The gray journey (a story, or the methods) | 3 | 0 | gray hair 45 / 4; personal story 33 / 0 |
+| T11 | The gray journey (a story, or the methods) | 2 | 0 | gray hair 45 / 4; personal story 33 / 0 |
 | T12 | The makeover story (consultation and reveal) | 3 | 0 | makeover 7 / 0 |
 | — | Makeup (lipstick, concealer, makeup rules) | 0 (left out) | 4 | adjacent, not mapped |
 
@@ -47,7 +47,7 @@ Examples: MM Personal Styling `gfbWOw00Y-M` (R), Diana GOSS `eKCl-bRx8wg` (R), M
 Examples: Ever Chic At 50 `kKjLX7Q6wc8` (F), Age with Style `6byOPawCepI` and `K6N1EFo7oec` (F, pair A), Golden Melanin Lifestyle `dn3mNRtYTY4` (F), Elegance At 60 `XByilJlme5Y` (F), Marie-Anne Lecoeur `MWQ6T1wURJU` (R).
 
 - **The opening move is the reveal that the item is the culprit:** "My friends, it's usually not you, it's the blouse" [0:11] (`6byOPawCepI`); "It was your shoes, sis." [0:29] (`dn3mNRtYTY4`); "Ladies, can I be brutally honest?" [0:00] (`kKjLX7Q6wc8`).
-- Then the channel welcome and an early subscribe ask (1:04-1:33 in three of the four faceless videos), sometimes a "why this item matters" section (Ever Chic's runs 337 words, so the first mistake lands at 4:35).
+- Then the channel welcome and an early subscribe ask (1:04-1:33 in three of the four faceless videos), sometimes a section on why the item matters (Ever Chic's runs 337 words, so the first mistake lands at 4:35).
 - **Each item:** why women do it, "Here's the problem", a picture, "So, what's the solution?", 2-5 fixes, a one-line rule ("Your blouse should frame you, not drown you." [2:54] (`6byOPawCepI`)). Golden Melanin heads off pushback four times ("Now, do not come for me." [2:14]) and holds its last mistake ("Here it is. The one I told you to stay for.").
 - **Close:** a recap (184-203 words in the two blouse winners), a comment ask about which mistake.
 - **The real version** (Marie-Anne): a 56-word hook, then bad examples pictured and a found "yes" dress for each; items front-loaded (the first and fifth are the longest); "Let me know what you think in the comments."
@@ -57,7 +57,7 @@ Examples: Ever Chic At 50 `kKjLX7Q6wc8` (F), Age with Style `6byOPawCepI` and `K
 One study example: Vivian Sinclair `2q_6Qf69Ywc` (F/A, 910,914, 140.1×). The breakout map has 15 jewelry and 11 glasses outliers, all but one faceless; no real one is in the study.
 
 - **Vivian's beats:** a series recap and a claim ("A pair of glasses can put 10 years on a face faster than any line ever did"), the three parts, the thesis ("A frame either lifts the eye or drags it down. There is no neutral." [1:01]), the name, a credential and a limit, the mechanism (why faces and frames interact, 179 words), then 5 shapes of 210-260 words in one order: why it works, "Who it suits?", "What to avoid?", a named client. Mid-video comment ask (7:30), the design details, frame colour, caveats, a recap, a next-week tease. The first item lands at 3:02.
-- **Ours** follow the same "N good + N that age you" frame, with a "Picture..." outfit scene and a one-line wrap per item ("Simple, warm, and impossible to argue with" [3:04] (`w6w_ktMBHXM`)).
+- **Ours** follow the same frame of N good items plus N that age you, with a "Picture..." outfit scene and a one-line wrap per item ("Simple, warm, and impossible to argue with" [3:04] (`w6w_ktMBHXM`)).
 
 ### T4. How to wear X over 60
 
@@ -70,7 +70,7 @@ Examples: Chic After 60 `h6Y1RZzOlzg` (A), Adore Your Wardrobe `vBsFMkGDbhA` (R)
 
 Examples: AnniePicks `YLiz8tlx9g4` (F), Ageless Melanin `qFLenue5BBI` (A), Diana GOSS `NMvN5bjcwks` (R), Chic After 60 `YeKT0zkdIrw` (A, pair C winner), Elegant After 60 `ZFx3yIrJqO0` (F, pair C copy).
 
-- **Faceless and AI:** a claim hook ("The richest women in the world don't always wear diamonds or designer logos." [0:00] (`YeKT0zkdIrw`); "Let me tell you something that's going to shock you." [0:00] (`qFLenue5BBI`)), sometimes a "why colour matters after 60" section with "studies", then N colours or pairs in one shape: what the colour says, why it helps after 60 (skin, silver hair), outfit formulas, accessories, a scene or a nickname, then "choosing yours" by undertone, then the CTA.
+- **Faceless and AI:** a claim hook ("The richest women in the world don't always wear diamonds or designer logos." [0:00] (`YeKT0zkdIrw`); "Let me tell you something that's going to shock you." [0:00] (`qFLenue5BBI`)), sometimes a section on why colour matters after 60, citing "studies", then N colours or pairs in one shape: what the colour says, why it helps after 60 (skin, silver hair), outfit formulas, accessories, a scene or a nickname, then "choosing yours" by undertone, then the CTA.
 - **The short version:** AnniePicks runs 6:46, with 7 pairs of 110-150 words each and celebrity examples (Meryl Streep, Carolina Herrera, the Princess of Wales).
 - **Real** (Diana): a belief hook ("a woman is beautiful at every age"), a free colour test before any content, then 5 rules, each with a wrong outfit on herself, the swap and the result in age words.
 
@@ -309,11 +309,11 @@ No faceless gray-journey video exists in the breakout map (personal story: 33 re
 | Age phrases said, median count | 0 | 5.5 | 2 / 4 |
 | "subscribe" said | in 6 of 21 | in 21 of 24 | in 38 of 38 |
 | "I read every" | 0 | 5 of 24 | 0 |
-| An item held for the end | 1 of 21 (`n9ICHZq3_tY`; Summer Beauty's "later in the video" is mid) | 8 of 24 (12 counting mid-video holds) | in all 14 noted |
+| An item held for the end | 1 of 21 (`n9ICHZq3_tY`; Summer Beauty's "later in the video" is mid) | 8 of 24 (12 counting mid-video holds) | a tease or held item in 12 of the 14 noted |
 
 ### 3b. What the faceless/AI winners share
 
-- **A longer hook built on a scene or a verdict.** Mirror and reflection openers: "You just caught your reflection in the hallway mirror" [0:00] (`_OQsPYjIfsQ`); "Have you ever stood in front of the mirror wearing a blouse" (`6byOPawCepI`). Verdicts: "It is not your age. It is the cut." Hooks run 120-345 words in 14 of 18; the exceptions are French Fashion (29), Elegance At 60 (32), Age with Style's winner (86) and AnniePicks (120).
+- **A longer hook built on a scene or a verdict.** Mirror and reflection openers: "You just caught your reflection in the hallway mirror" [0:00] (`_OQsPYjIfsQ`); "Have you ever stood in front of the mirror wearing a blouse" (`6byOPawCepI`). Verdicts: "It is not your age. It is the cut." Hooks run 120-345 words in 16 of 18; the exceptions are French Fashion (29) and Elegance At 60 (32). Pair A's winner has 86.
 - **"It's not you" reassurance up front, then the culprit:** "it's usually not you, it's the blouse"; "Not your age, not your genes, the styling"; "The dress failed you." "it's not you" is said 5 times in 4 faceless videos, never by a real presenter.
 - **Even items in one fixed shape** (the measures' tightest spreads: AnniePicks 110-150, Rock Your Fashion 142-199, Age with Style 273-337, Chic Over 60 230-290), joined by teasers ("But, the next cut is the one most women get wrong").
 - **A held item or open loop:** the mirror test, the stylist's words, posture, the "one word", rule five. 8 of 24 hold something to the end, against 1 of 21 real.
@@ -325,7 +325,7 @@ No faceless gray-journey video exists in the breakout map (personal story: 33 re
 ### 3c. What the real creators do instead
 
 - **Short hooks and fast starts** (a median of 90 words, the first item by 0:45), often with no welcome: Marie-Anne starts item one at 0:13.
-- **Show and tell.** "as you see here", the try-on, the model in the chair, the garment held up. The notes mark the narration as naming the visuals in 16 of 21.
+- **Show and tell.** "as you see here", the try-on, the model in the chair, the garment held up. The notes mark the narration as naming what is on screen in 17 of 21 (lightly in the other 4).
 - **Opinions and hedges spoken as their own:** "I think" 30 times in 7 videos (3 in faceless/AI); "I love" 23 times; "okay" or "all right" 150 times in 12; "um" or "uh" 72 times in 7.
 - **Little age said.** Most never say an age; Gabi, Summer Beauty, Justin and Adore name none. Marie-Anne counts herself in ("neck areas we women over 60 want to elongate" [1:47] (`ixlexruRC6c`)).
 - **Their own business as the CTA:** courses (Diana GOSS), a free colour test, a body-type calculator, sponsors (Justin, Tracy, Aliceinparis), a shirt line, a book (MAKEOVERGUY). The comment asks are general or absent; Marie-Anne's 1.0M video has none.
@@ -334,7 +334,7 @@ No faceless gray-journey video exists in the breakout map (personal story: 33 re
 ### 3d. Where our 38 sit
 
 Ours take the faceless/AI template and push some of it further:
-- **Lengths and hooks:** 16-17 minutes, 158-word hooks, a held item in every noted video, and a self-introduction by name inside 0:20-0:58.
+- **Lengths and hooks:** 16-17 minutes, 158-word hooks, a tease or held item in 12 of the 14 noted videos, and a self-introduction by name inside 0:20-0:58.
 - **CTAs:** a book plug mid-video (4:19-6:48; Scarlet's `UXXfCp_HS6g` puts it at 2:18, before the first habit) and again at the end, a subscribe ask in all 38, a comment ask in most, and a fixed sign-off ("stay polished and stay Sterling" in all 25 of Scarlet's; "À bientôt" in 10 of Diane's 13).
 - **Stock words:** "quietly" 74 times in 32 of 38 (20 in 6 of 24 faceless/AI, 0 real); "reads as" 65 times in 24 (22 in 8; 0 real); "picture" 104 times in 35 (22 in 9; 7 in 5 real); "expensive" 175 times in 33; "Whenever suits you" in 10.
 - **Fewer turns, questions and "I" than either side:** "but" 1.0-1.1 per 1,000 words (real 6.5, faceless/AI 4.9), questions 0.4-1.4 (3.6 and 2.9), "I" 4.1-5.6 (23.4 and 8.1).
@@ -374,7 +374,7 @@ The re-upload is a new script, not a re-cut. Its audience had already been offer
 | Items | 5 rules of 397-851 w, in order; each a received rule, "the science", the fix, her result; the fifth held | 5 secrets of 180-255 w, counted down from five; about 1,000 words of wrapping |
 | Villain | salons, magazines, "the beauty industry", product companies | nobody named ("and nobody ever explained why") |
 | Asks before 7:00 | none (the book plug at 10:30) | three: subscribe at 3:19, comment at 3:35, "Quick pause" subscribe at 6:28 |
-| Recap | 276 w, all five named | none; a "why it happens" section instead |
+| Recap | 276 w, all five named | none; a section on why it happens instead |
 | Close | "You did not lose your fullness. It was taken from you one rule at a time" [24:13]; which rule you followed longest; where you are watching from | come back and report; share it; "It isn't. And now you both know it." |
 | Comments | 46 collected; 18 ages given (61-84) | 1 |
 
@@ -385,7 +385,7 @@ The re-upload is a new script, not a re-cut. Its audience had already been offer
 | Views, × normal | 960,045, 25.9 (normal 37,000) | 2,229, 0.77 (normal 2,900; the channel's 698K granny-cut video was 6 days earlier) |
 | Length, words, wpm | 29:49, 4,084, 137 | 14:14, 2,484, 175 |
 | Hook | 220 w, a claim about the richest women and aphorisms ("Because color speaks before you do, it whispers luxury." [0:07]) | 191 w, "Most women over 60 are told to blend in" then an on-screen cue, "But look at her." |
-| Before item one | a 245-word "why colour matters" with "studies"; first pair at 3:07 | the channel intro and "It's not you, it's your palette"; first pair at 1:05 |
+| Before item one | 245 words on why colour matters, with "studies"; first pair at 3:07 | the channel intro and "It's not you, it's your palette"; first pair at 1:05 |
 | Items | 8 of 395-450 w: symbolism, why after 60, four outfit formulas, accessories, imagined scenes, a luxury-house line | 8 of 214-295 w: a nickname ("the old money classic"), a skin or hair reason, a texture tip, jewelry, a teaser question into the next |
 | Asks | none until 29:32 (like, share, subscribe) | "I read every single one", like, subscribe and the bell at 13:27 |
 | Closing section | "choosing yours" by undertone, 340 w | recap 68 w |
@@ -495,7 +495,7 @@ The re-upload is a new script, not a re-cut. Its audience had already been offer
 
 ### Reserve: Kelly Snider, Adore Your Wardrobe (`vBsFMkGDbhA`, 397K)
 
-Plain American permission lines, and a "don't" that lets the viewer off the trend. Her age is not said; "guys", "God bless" and "the proprietary body type calculator" are hers.
+Plain American permission lines, and a "don't" that lets the viewer off the trend. Her age is not said; "guys", "God bless" and "our proprietary body type calculator" are hers.
 
 > (9:19) if you have tried all of these tips and still don't like the way wideleg jeans look on you that is okay
 
@@ -601,7 +601,7 @@ The real side's markers are the speech habits of a person thinking aloud ("I thi
   - Mind-change lines: "I'll be honest with you, a fringe on a woman over 60 used to strike me as a gamble" [7:21] (`egJ5B6d879c`).
   - The book carries invented women (Marie, Sophie and Claudette).
 - **Against both sides:** "I" at 4.1-5.6 per 1,000 words, below the faceless and AI side (8.1) and far below the real women (23.4). No age said by either persona, while the AI winners above say theirs ("I'm over 60 myself", "through my 50s").
-- **The disclosure:** the descriptions of our 22 newer uploads say the presenter is "a fictional character with an AI-generated name, face, and voice". Viewers ask anyway: "Are you Scarlet Sterling, Vivienne Morgan or A.I.?" (5 likes, the most-liked viewer comment on `w6w_ktMBHXM`); "Wait! Stop with the A.I." (2); "AI.  What a stupid video." (0).
+- **The disclosure:** the descriptions of our 22 newer uploads say the presenter is "a fictional character with an AI-generated name, face, and voice" (20 of them go on "He is not a real person", per `own-baseline-2026-10/SUMMARY.md`). Viewers ask anyway: "Are you Scarlet Sterling, Vivienne Morgan or A.I.?" (5 likes, the most-liked viewer comment on `w6w_ktMBHXM`); "Wait! Stop with the A.I." (2 likes, `Z13YRFrGF2w`); "AI.  What a stupid video." (0, `3JBVSs9ETu4`).
 
 ---
 
