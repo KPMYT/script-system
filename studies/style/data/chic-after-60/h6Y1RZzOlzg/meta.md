@@ -1,0 +1,25 @@
+# How to Wear LEGGINGS Over 60 Without Looking Sloppy | Plus 7 Easy Outfit Ideas
+
+- Channel: Chic After 60 (@chicafter60, UCx0R9bHfEmdyysh9pW0XPIg)
+- Video ID: h6Y1RZzOlzg
+- URL: https://www.youtube.com/watch?v=h6Y1RZzOlzg
+- Study group: Single items (videos.csv row 29); why: leggings; 7 days old
+- Upload date: 2026-10-20 (youtube_video_details publishDate: 2026-10-20T10:45:37-07:00)
+- Duration: 13:29 (809 s)
+- Views (exact, youtube_video_details): 552,974
+- Likes (exact, youtube_video_details): 6,163
+- Collection date: 2026-10-28 (details pulled about 06:2x UTC)
+- Age at collection: 7.5 days
+- Channel normal: 37,000 (round2/channels-all.csv; basis: median of 15 newest long-form (5:00+) uploads 7+ days old; views as shown by NexLev (rounded to K))
+- Views ÷ normal: 14.9
+- Type (round 2): ai_avatar (videos.csv: AI presenter). Round 2 basis: reading: 2 thumbnails (h6Y1RZzOlzg, GH8sRp75_ZQ) show photoreal rendered gray-haired women in staged settings (Paris cafe, marble hall), different faces, with large yellow/white text; no recurring human presenter seen; earlier round ai_avatar
+- Presenter as heard in the transcript: No name said. "I'm over 60 myself"; describes wearing each outfit ("I'm wearing black ponte leggings").
+- Presenter note: Round 2 reading: generated presenter (ai_avatar); videos.csv type "AI presenter".
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 326
+- Transcript words: 2,079 (154 words per minute; bracketed tags such as [Music] counted)
+- Comment count shown by YouTube: 217
+- Comments collected: 41 unique top-level (41 viewer, 0 [OWNER]); 0 skipped as spam; replies not returned by the tool
+- Comment sorts pulled: top page 1, top page 2 (continuation token), newest page 1
+- Description first line: How to wear leggings over 60 without looking sloppy, plus 7 easy outfit ideas for women over 60. Learn the 5 simple leggings rules, the best shoes to wear with leggings, and the mistakes that can age you, so you can feel comfortable and look stylish at any age.
+- AI disclosure line in the description: None found (no line about AI, a generated presenter or voice, or a fictional character).

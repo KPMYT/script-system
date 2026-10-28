@@ -1,0 +1,25 @@
+# Pants to Avoid with a Large Tummy & Lower Belly Pooch - Apple Shapes, Short Legs - Mature Women!
+
+- Channel: Elegance At 60 (@EleganceAt60, UCGhT9pJVlUY0SwhDRkQoyKg)
+- Video ID: XByilJlme5Y
+- URL: https://www.youtube.com/watch?v=XByilJlme5Y
+- Study group: Single items (videos.csv row 27); why: pants and tummy
+- Upload date: 2025-07-05 (youtube_video_details publishDate: 2025-07-05T06:15:04-07:00)
+- Duration: 12:44 (764 s)
+- Views (exact, youtube_video_details): 903,952
+- Likes (exact, youtube_video_details): 22,648
+- Collection date: 2026-10-28 (details pulled about 06:2x UTC)
+- Age at collection: 479.7 days
+- Channel normal: 14,000 (round2/channels-all.csv; basis: median of 15 newest uploads 5:00+ and 7+ days old (videos tab, newest page; views as NexLev rounds them); 6 upload(s) on page 1 showed no view count (blank) and were skipped)
+- Views ÷ normal: 64.6
+- Type (round 2): faceless_narrated (videos.csv: faceless). Round 2 basis: thumbnails XByilJlme5Y, vATkBSPjQmc: cut-out photos of several different women modelling outfits with red X / green tick marks, channel name as a side banner; no consistent presenter (reading). About names 'Rose - a personal stylist' but no face shown
+- Presenter as heard in the transcript: No name said. First person ("that's exactly what I'll be breaking down for you"); no age, job or gender stated.
+- Presenter note: About text names Rose, stylist (round 2). No presenter seen.
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 316
+- Transcript words: 2,042 (160 words per minute; bracketed tags such as [Music] counted)
+- Comment count shown by YouTube: 528
+- Comments collected: 39 unique top-level (38 viewer, 1 [OWNER]); 0 skipped as spam; replies not returned by the tool
+- Comment sorts pulled: top page 1, top page 2 (continuation token), newest page 1
+- Description first line: Struggling to find pants that flatter your large tummy, lower belly pooch, or apple shape? You’re not alone! In this video, we break down the exact pants styles mature women should avoid if they want to smooth and slim their midsection, create a longer leg line, and feel confident at any age.
+- AI disclosure line in the description: None found (no line about AI, a generated presenter or voice, or a fictional character).

@@ -1,0 +1,22 @@
+# 10 PETITE Style SECRETS That’ll Change Everything - 50+ Women's Fashion
+
+- Channel: Rock Your Fashion (@rockyourfashion, channel ID UCeW6gtrT1ojeODaFyATlx_Q)
+- Video ID: KNwk391XyIY
+- URL: https://www.youtube.com/watch?v=KNwk391XyIY
+- Study group: Body shape (videos.csv row n=22); why picked: petite
+- Title in videos.csv: 10 PETITE Style SECRETS That’ll Change Everything - 50+ Women's Fashion
+- Upload date: 2025-12-19 (13:30:11-08:00)
+- Duration: 13:13 (793 s)
+- Views: 372,217 (as of 2026-10-28)
+- Likes: 9,000 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 7,600 (from `round2/channels-all.csv`: median of the 15 most recent long-form uploads, 5:00+, at least 7 days old; views as NexLev rounds them)
+- Views / normal: 48.98
+- Age at collection: 313 days (0.9 years)
+- Type (round 2): faceless_narrated (videos.csv: faceless)
+- Presenter as heard in the transcript: one unnamed narrator ("Hi and welcome to Rock Your Fashion"); counts herself among the audience ("petite women our age", "us petites"), so female by implication; no name.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 320 segments; 1,995 words
+- Comments: API commentsCount 280; collected 24 top + 20 newest = 41 unique (3 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Howto & Style; isShortsEligible: false
+- Description notes (quoted): "If you're 5 feet 4 inches or under, this video offers solid petite tips." "Tell me in the comments: which secret are you ready to embrace in 2026?" Fair-use line: "Some visuals in this video are used under YouTube’s Fair Use policy for commentary, critique, and educational purposes." Tagline: "style isn’t an age… it’s a mindset."

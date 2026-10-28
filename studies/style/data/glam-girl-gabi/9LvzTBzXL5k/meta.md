@@ -1,0 +1,25 @@
+# Best Bangs for your Face Shape (At Any Age!)
+
+- Channel: Glam Girl Gabi (@GlamGirlGabi, UCYoiYowIowF7tYYel9NHpKQ)
+- Video ID: 9LvzTBzXL5k
+- URL: https://www.youtube.com/watch?v=9LvzTBzXL5k
+- Study group: Hair mistakes and haircuts (videos.csv row 9); why: "at any age", not 50+ only
+- Upload date: 2025-07-20 (youtube_video_details publishDate: 2025-07-20T07:00:13-07:00)
+- Duration: 11:19 (679 s)
+- Views (exact, youtube_video_details): 1,902,659
+- Likes (exact, youtube_video_details): 31,385
+- Collection date: 2026-10-28 (details pulled about 06:2x UTC)
+- Age at collection: 464.7 days
+- Channel normal: 153,000 (round2/channels-all.csv; basis: median of 15 most recent long-form (>=5:00, >=7 days old) from newest list)
+- Views ÷ normal: 12.4
+- Type (round 2): real_on_camera (videos.csv: real). Round 2 basis: reading: thumbnails 9LvzTBzXL5k and _QP4IH4Bp7s show the same photographic woman; about text names Gabi, makeup & hair artist ~20 yrs
+- Presenter as heard in the transcript: Says "my name is Gaby, and I've been a hairstylist and makeup artist for 20 years". Speaks of her own face ("I actually have really similar proportions myself").
+- Presenter note: Round 2 reading: Gabi, on camera, reads younger than 50. Track is a non-auto "English" caption track.
+- Transcript source: NexLev get_bulk_video_transcripts, track "English" (youtube_video_details hasCaption: false)
+- Transcript segments: 431
+- Transcript words: 2,067 (183 words per minute; bracketed tags such as [Music] counted)
+- Comment count shown by YouTube: 628
+- Comments collected: 43 unique top-level (42 viewer, 1 [OWNER]); 1 skipped as spam; replies not returned by the tool
+- Comment sorts pulled: top page 1, top page 2 (continuation token), newest page 1
+- Description first line: Best Bangs for your Face Shape at any age!
+- AI disclosure line in the description: None found (no line about AI, a generated presenter or voice, or a fictional character).

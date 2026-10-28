@@ -1,0 +1,22 @@
+# DON’T Get a "Granny" Cut! 3 Haircuts That Actually Make You Look 10 Years Younger At 60
+
+- Channel: Elegant After 60 (@ElegantAfter60, channel ID UC1eIOMYX7jZveQT3ezH59rw)
+- Video ID: XR3IwlcIcCY
+- URL: https://www.youtube.com/watch?v=XR3IwlcIcCY
+- Study group: Hair mistakes and haircuts (videos.csv row n=10); why picked: the top "Granny cut" copy (about 20 copies)
+- Title in videos.csv: DON’T Get a "Granny" Cut! 3 Haircuts That Actually Make You Look 10 Years Younger At 60
+- Upload date: 2026-04-28 (07:51:42-07:00)
+- Duration: 11:24 (684 s)
+- Views: 698,146 (as of 2026-10-28)
+- Likes: 9,393 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 2,900 (from `round2/channels-all.csv`: median of the 15 most recent long-form uploads, 5:00+, at least 7 days old; views as NexLev rounds them)
+- Views / normal: 240.74
+- Age at collection: 183 days (0.5 years)
+- Type (round 2): faceless_narrated (videos.csv: faceless)
+- Presenter as heard in the transcript: one unnamed narrator in the first person ("I"); no name, no channel name spoken; speaks as one of the women ("We spend a fortune on skin care"), so female by implication. Opens with a short two-voice salon skit (stylist and client).
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 307 segments; 2,067 words
+- Comments: API commentsCount 570; collected 23 top + 20 newest = 42 unique (1 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: People & Blogs; isShortsEligible: false
+- Description notes (quoted): "In today’s video, we are staging a hair intervention. I’m breaking down why the traditional \"Granny Cut\" is the #1 style mistake women over 60 make". Placeholder links left unfilled: "[Link to Volumizing Mousse]", "[Link to Shine Serum for Silver Hair]", "[Link to your \"Classic Chic\" Wardrobe Guide]". "If you’re ready to stop being invisible and start being iconic, hit SUBSCRIBE!"

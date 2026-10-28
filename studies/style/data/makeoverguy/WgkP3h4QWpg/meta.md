@@ -1,0 +1,25 @@
+# “Fine at 69.” Her Husband Was Almost Speechless | MAKEOVERGUY
+
+- Channel: MAKEOVERGUY (@MAKEOVERGUY, UCPbPMpLLXu45J_K1mWyXXCQ)
+- Video ID: WgkP3h4QWpg
+- URL: https://www.youtube.com/watch?v=WgkP3h4QWpg
+- Study group: Makeovers (videos.csv row 38); why: (blank in videos.csv)
+- Upload date: 2026-08-28 (youtube_video_details publishDate: 2026-08-28T13:00:21-07:00)
+- Duration: 9:26 (566 s)
+- Views (exact, youtube_video_details): 2,395,153
+- Likes (exact, youtube_video_details): 26,462
+- Collection date: 2026-10-28 (details pulled about 06:2x UTC)
+- Age at collection: 60.4 days
+- Channel normal: 34,000 (round2/channels-all.csv; basis: median of 7 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; only 7 qualified in the newest 30 returned; views as returned (rounded, e.g. 85K))
+- Views ÷ normal: 70.4
+- Type (round 2): real_on_camera (videos.csv: real). Round 2 basis: reading: both thumbnails checked (WgkP3h4QWpg outlier; pfov3rxPLRI, the next-biggest recent upload, since only one outlier was returned) are real studio photos of real older women clients (a before shot with an after face faded behind; a profile shot with a quote 'The transition from 50 to 60 has been difficult') with a 'Makeover Studio' logo. NexLev agrees: not faceless
+- Presenter as heard in the transcript: Several voices: the client ("My name is Susan Surency. I am 69 years old."), her husband, and a voice-over narrator who analyses her in the third person and says "if you don't have my book, Staging Your Comeback". The narrator does not say his name; the description credits Christopher Hopkins. Susan names "Joanne".
+- Presenter note: Round 2 reading: real stylist Christopher Hopkins (a man) with real clients. Several top comments speak of missing Christopher (see notes).
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 237
+- Transcript words: 1,392 (148 words per minute; bracketed tags such as [Music] counted)
+- Comment count shown by YouTube: 1K
+- Comments collected: 43 unique top-level (43 viewer, 0 [OWNER]); 0 skipped as spam; replies not returned by the tool
+- Comment sorts pulled: top page 1, top page 2 (continuation token), newest page 1
+- Description first line: “Fine at 69.” Her Husband Was Almost Speechless | MAKEOVERGUY
+- AI disclosure line in the description: None found (no line about AI, a generated presenter or voice, or a fictional character).

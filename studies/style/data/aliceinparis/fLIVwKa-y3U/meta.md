@@ -1,0 +1,22 @@
+# 10 Fashion Trends You’ll See Everywhere in Paris in 2026
+
+- Channel: Aliceinparis (@Aliceinparisofficial, channel ID UC4MBo52ZvRib_GZav-ZpOcg)
+- Video ID: fLIVwKa-y3U
+- URL: https://www.youtube.com/watch?v=fLIVwKa-y3U
+- Study group: French angle (videos.csv row n=35); why picked: real presenter in Paris
+- Title in videos.csv: 10 Fashion Trends You’ll See Everywhere in Paris in 2026
+- Upload date: 2025-12-06 (08:01:12-08:00)
+- Duration: 15:05 (905 s)
+- Views: 125,357 (as of 2026-10-28)
+- Likes: 3,519 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 28,000 (from `round2/channels-all.csv`: median of the 15 most recent long-form uploads, 5:00+, at least 7 days old; views as NexLev rounds them)
+- Views / normal: 4.48
+- Age at collection: 326 days (0.9 years)
+- Type (round 2): real_on_camera (videos.csv: real)
+- Presenter as heard in the transcript: woman presenting on camera in the first person ("I wear", "I absolutely love them"), French-accented English; her name is not said in the transcript (channel: Aliceinparis; about text: Alice).
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 298 segments; 1,966 words
+- Comments: API commentsCount 157; collected 21 top + 20 newest = 31 unique (10 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Howto & Style; isShortsEligible: false
+- Description notes (quoted): Sponsored pearl jewellery ("Use code Alice15 for 15% off!"; LUME STRAND, ÉLAN, BLOOM GLOW, OPAL THREAD 'Aurora Pearl' pieces; the brand is not named in the description). "Disclaimer: this video is sponsored and I might received a small commission when clicking on the affiliated links. This does not impact my opinion and my reviews which are French and 100% authentic :)". Links a French-language channel @MademoiselleAliceofficial. "Fair use: This video may contain other video materials for educational and illustration purpose."

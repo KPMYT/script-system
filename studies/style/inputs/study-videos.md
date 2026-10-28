@@ -64,3 +64,5 @@ The video list, drafted 2026-10-28 from `../round2/BREAKOUT-MAP.md` and the oper
 
 **Our own videos are already collected** (`../own-baseline-2026-10/`): all 38, as the comparison side.
 
+
+**Swap (2026-10-28):** row 11 (Camino de los Ancianos, `SdbAfqmUwJ0`) was dropped. It is a Spanish channel: NexLev returns its title in Spanish (the English title was a translation) and its only caption track is Arabic auto-generated. Its meta and comments are kept. It is replaced by row 46: Stylish60plus, "7 Modern Haircuts That Instantly Make You Look Younger 60+", 216K, `8p2y_Yk0pNQ`, a version of a title on the operator's list.

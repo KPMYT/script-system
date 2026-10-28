@@ -1,0 +1,22 @@
+# 7 Blouse Mistakes Women Over 60 Should STOP Making NOW!
+
+- Channel: Age with Style (@agewithstyle, channel ID UCsiBzifgu6vwRubtmdIcOzA)
+- Video ID: 6byOPawCepI
+- URL: https://www.youtube.com/watch?v=6byOPawCepI
+- Study group: Pair A: same channel, same title (videos.csv row n=40); why picked: the winner; 1y ago
+- Title in videos.csv: 7 Blouse Mistakes Women Over 60 Should STOP Making NOW!
+- Upload date: 2025-08-23 (09:02:50-07:00)
+- Duration: 16:00 (960 s)
+- Views: 1,107,951 (as of 2026-10-28)
+- Likes: 19,359 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 3,800 (from `round2/channels-all.csv`: median of the 15 most recent long-form uploads, 5:00+, at least 7 days old; views as NexLev rounds them)
+- Views / normal: 291.57
+- Age at collection: 431 days (1.2 years)
+- Type (round 2): faceless_narrated (videos.csv: faceless/AI)
+- Presenter as heard in the transcript: one unnamed narrator ("Welcome, my beautiful friends, to Age with Style"); female by implication ("we've been told for years"); no name in speech; the description is signed "Sarah".
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 396 segments; 2,658 words
+- Comments: API commentsCount 823; collected 22 top + 20 newest = 42 unique (0 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: People & Blogs; isShortsEligible: false
+- Description notes (quoted): Signed "With love and style, / Sarah ♥️". "SUBSCRIBE for new videos everyday". "Let me know which mistake you’re saying goodbye to—I read every single comment!"

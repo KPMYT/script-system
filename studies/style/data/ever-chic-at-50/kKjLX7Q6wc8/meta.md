@@ -1,0 +1,22 @@
+# 7 Blouse Mistakes Quietly Aging Women Over 60 (And How to Fix Them)
+
+- Channel: Ever Chic At 50 (@EverChicAt50, channel ID UCBCCodrcrSRDgF0GrEuAMbg)
+- Video ID: kKjLX7Q6wc8
+- URL: https://www.youtube.com/watch?v=kKjLX7Q6wc8
+- Study group: Single items (videos.csv row n=30); why picked: blouses
+- Title in videos.csv: 7 Blouse Mistakes Quietly Aging Women Over 60 (And How to Fix Them)
+- Upload date: 2026-09-22 (13:55:24-07:00)
+- Duration: 23:58 (1438 s)
+- Views: 536,110 (as of 2026-10-28)
+- Likes: 4,697 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 5,300 (from `round2/channels-all.csv`: median of the 15 most recent long-form uploads, 5:00+, at least 7 days old; views as NexLev rounds them)
+- Views / normal: 101.15
+- Age at collection: 36 days (0.1 years)
+- Type (round 2): faceless_narrated (videos.csv: faceless)
+- Presenter as heard in the transcript: one unnamed narrator ("welcome to Ever Chic at 50"); speaks as one of the women ("many of us"); no name.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 556 segments; 3,446 words
+- Comments: API commentsCount 174; collected 21 top + 20 newest = 37 unique (4 in both lists); owner comments 1; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Howto & Style; isShortsEligible: false
+- Description notes (quoted): "In this video, Ever Chic at 50 breaks down 7 common blouse mistakes"; "Tell us in the comments: which blouse mistake did you not realize you were making? I read every single comment. Let us know where you're watching from". Also: "Plus a smart-shopping guide so every blouse you buy actually earns a place in your closet."

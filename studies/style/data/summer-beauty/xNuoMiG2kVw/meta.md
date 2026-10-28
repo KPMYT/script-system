@@ -1,0 +1,25 @@
+# Are You Going GRAY? Don't Pick The WRONG Method
+
+- Channel: Summer Beauty (@SummerBeautyc, UCl4iYvuUhw3DIRyYtV1Twig)
+- Video ID: xNuoMiG2kVw
+- URL: https://www.youtube.com/watch?v=xNuoMiG2kVw
+- Study group: Gray hair (videos.csv row 17); why: (blank in videos.csv)
+- Upload date: 2025-08-08 (youtube_video_details publishDate: 2025-08-08T04:31:02-07:00)
+- Duration: 13:21 (801 s)
+- Views (exact, youtube_video_details): 263,054
+- Likes (exact, youtube_video_details): 3,412
+- Collection date: 2026-10-28 (details pulled about 06:2x UTC)
+- Age at collection: 445.8 days
+- Channel normal: 45,000 (round2/channels-all.csv; basis: median of 15 newest uploads 5:00+ and 7+ days old (videos tab, newest page; views as NexLev rounds them))
+- Views ÷ normal: 5.8
+- Type (round 2): real_on_camera (videos.csv: real). Round 2 basis: thumbnails UUS1R9oWx4o, i5jFYNeCHGM: same photographic auburn-haired woman in both, with celebrity faces / diagrams; about text names a stylist with 19 years behind the chair (reading)
+- Presenter as heard in the transcript: No name said ("Hello beauties"). Authority line: "As a hair stylist of 18 years". Speaks of her mom, her mother-in-law and "my clients".
+- Presenter note: Round 2 reading: Summer, on camera, looks under 50.
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 321
+- Transcript words: 2,281 (171 words per minute; bracketed tags such as [Music] counted)
+- Comment count shown by YouTube: 367
+- Comments collected: 42 unique top-level (41 viewer, 1 [OWNER]); 0 skipped as spam; replies not returned by the tool
+- Comment sorts pulled: top page 1, top page 2 (continuation token), newest page 1
+- Description first line: Not sure how to go gray? If you want to choose the best transition to gray hair, this video will explain all you need to know! Whether you have a little or a lot of gray hair, this video is the perfect guide for what you can expect during this process!
+- AI disclosure line in the description: None found (no line about AI, a generated presenter or voice, or a fictional character).

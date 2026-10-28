@@ -1,0 +1,22 @@
+# 8 COLOR COMBINATIONS That Make Older WOMEN Look EXPENSIVE, Younger and Turn Heads!
+
+- Channel: Elegant After 60 (@ElegantAfter60, channel ID UC1eIOMYX7jZveQT3ezH59rw)
+- Video ID: ZFx3yIrJqO0
+- URL: https://www.youtube.com/watch?v=ZFx3yIrJqO0
+- Study group: Pair C: same title, a channel that can break out (videos.csv row n=45); why picked: a copy on Elegant After 60, which has its own 698K hit; 5mo ago
+- Title in videos.csv: 8 COLOR COMBINATIONS That Make Older WOMEN Look EXPENSIVE, Younger and Turn Heads
+- Upload date: 2026-05-04 (10:05:56-07:00)
+- Duration: 14:14 (854 s)
+- Views: 2,229 (as of 2026-10-28)
+- Likes: 105 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 2,900 (from `round2/channels-all.csv`: median of the 15 most recent long-form uploads, 5:00+, at least 7 days old; views as NexLev rounds them)
+- Views / normal: 0.77
+- Age at collection: 177 days (0.5 years)
+- Type (round 2): faceless_narrated (videos.csv: faceless/AI)
+- Presenter as heard in the transcript: one unnamed narrator; introduces the channel, not a person ("This is Elegant After 60"); gender not stated in speech.
+- Transcript: NexLev `get_video_transcript` (track name not returned); 375 segments; 2,484 words
+- Comments: API commentsCount 13; collected 8 top + 8 newest = 8 unique (8 in both lists); owner comments 0; spam skipped 0; NexLev calls 2
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: People & Blogs; isShortsEligible: false
+- Description notes (quoted): "From the \"Old Money\" elegance of Navy & Champagne to the \"Luminous Queen\" glow of Silver & Lavender"; "reclaim your visibility"; hashtags include #SilverEconomy #ClassicChicLab.

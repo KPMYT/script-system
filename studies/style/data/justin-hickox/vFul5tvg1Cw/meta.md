@@ -1,0 +1,22 @@
+# You're Styling Your Bob Haircut WRONG! Do THIS Instead- 5 SECRETS
+
+- Channel: Justin Hickox (@justinhickox, channel ID UCTfRM6bqWXYyCcs_78ywftQ)
+- Video ID: vFul5tvg1Cw
+- URL: https://www.youtube.com/watch?v=vFul5tvg1Cw
+- Study group: Hair mistakes and haircuts (videos.csv row n=7); why picked: the biggest video in the niche since 2022
+- Title in videos.csv: You're Styling Your Bob Haircut WRONG! Do THIS Instead- 5 SECRETS
+- Upload date: 2024-07-09 (06:47:09-07:00)
+- Duration: 10:07 (607 s)
+- Views: 3,222,185 (as of 2026-10-28)
+- Likes: 45,699 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 51,000 (from `round2/channels-all.csv`: median of the 15 most recent long-form uploads, 5:00+, at least 7 days old; views as NexLev rounds them)
+- Views / normal: 63.18
+- Age at collection: 841 days (2.3 years)
+- Type (round 2): real_on_camera (videos.csv: real)
+- Presenter as heard in the transcript: male hairstylist speaking in the first person; his own name is not said in the transcript (channel and description: Justin Hickox). The model he styles also speaks; he calls her "Di" (the pinned owner comment lists "My Wife's Beauty Favorites"; description: Dionna).
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 315 segments; 2,476 words
+- Comments: API commentsCount 1.3K; collected 20 top + 19 newest = 36 unique (3 in both lists); owner comments 1; spam skipped 1; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Howto & Style; isShortsEligible: false
+- Description notes (quoted): Sponsor: "Thanks to @laifen_tech, #laifen for sponsoring this video!" (Laifen blowdryer, code JUSTIN13). Opens: "I learned these styling tricks over 30 years as a professional hairstylist." Affiliate note: "*Some links are affiliate which means if you make a purchase, I may earn a commission at no additional cost to you". Names Dionna (Instagram, sponsorships email).

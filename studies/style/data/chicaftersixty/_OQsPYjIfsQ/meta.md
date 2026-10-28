@@ -1,0 +1,22 @@
+# Stop Styling Your Fine Hair Like This After 60! 5 Secrets for Instantly Fuller Volume in 2026
+
+- Channel: ChicAfterSixty (@chicaftersixty77995, channel ID UC0pG7_l0u1C8HydQwR3DYYg)
+- Video ID: _OQsPYjIfsQ
+- URL: https://www.youtube.com/watch?v=_OQsPYjIfsQ
+- Study group: Pair B: same title, same month (videos.csv row n=42); why picked: the winner (the title is on about 20 channels); 3mo ago
+- Title in videos.csv: Stop Styling Your Fine Hair Like This After 60! 5 Secrets for Instantly Fuller V…
+- Upload date: 2026-07-23 (13:00:38-07:00)
+- Duration: 26:35 (1595 s)
+- Views: 493,468 (as of 2026-10-28)
+- Likes: 10,177 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 2,400 (from `round2/channels-all.csv`: median of the 15 most recent long-form uploads, 5:00+, at least 7 days old; views as NexLev rounds them)
+- Views / normal: 205.61
+- Age at collection: 97 days (0.3 years)
+- Type (round 2): ai_avatar (videos.csv: faceless/AI)
+- Presenter as heard in the transcript: one unnamed narrator in the first person, a woman over 60 by her own story ("I cut my hair shorter and shorter through my 50s", "my mother's old bathroom", "my sister"); no name.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 640 segments; 4,432 words
+- Comments: API commentsCount 869; collected 27 top + 20 newest = 46 unique (1 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: People & Blogs; isShortsEligible: false
+- Description notes (quoted): Opens with a book link ("📘 This book helps you build a timeless, elegant wardrobe with confidence." chicafter60.com) and "Join The Timeless Elegance Circle". Says the old rules "were designed to sell salon visits and heavy products rather than to flatter you". "This is for every woman over sixty who has been told her best hair days are behind her. They're not."

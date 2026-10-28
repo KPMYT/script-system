@@ -1,0 +1,22 @@
+# Evita Estos Cortes de Pelo de “Señora Mayor” que te Hacen Ver Más Mayor — ¡El #5 es Muy Común!
+
+- Channel: Camino de los Ancianos (@CaminodelosAncianos, channel ID UCy0Y3ykT36UiCZBEDpXmUnw)
+- Video ID: SdbAfqmUwJ0
+- URL: https://www.youtube.com/watch?v=SdbAfqmUwJ0
+- Study group: Hair mistakes and haircuts (videos.csv row n=11); why picked: (blank in videos.csv)
+- Title in videos.csv: Avoid These "Old Lady" Hairstyles That Make You Look Older — #5 Is Super Common! (NexLev details return the Spanish title above)
+- Upload date: 2026-09-23 (16:00:08-07:00)
+- Duration: 14:45 (885 s)
+- Views: 670,236 (as of 2026-10-28)
+- Likes: 11,494 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 18,000 (from `round2/channels-all.csv`: median of the 15 most recent long-form uploads, 5:00+, at least 7 days old; views as NexLev rounds them)
+- Views / normal: 37.24
+- Age at collection: 35 days (0.1 years)
+- Type (round 2): faceless_narrated (videos.csv: faceless)
+- Presenter as heard in the transcript: not determined: the only transcript NexLev returned is an Arabic track (see transcript source); no notes written.
+- Transcript: NexLev `get_bulk_video_transcripts`, selected track "Arabic (auto-generated)" (languageMenu: "Spanish (auto-generated)"); a retry with `get_video_transcript` returned the same Arabic text. No English or Spanish transcript was available, so no notes were written; 608 segments; 2,081 words
+- Comments: API commentsCount 587; collected 20 top + 20 newest = 37 unique (3 in both lists); owner comments 0; spam skipped 0; NexLev calls 2
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: People & Blogs; isShortsEligible: false
+- Description notes (quoted): Title and description returned by youtube_video_details are in Spanish (videos.csv carries the English title 'Avoid These "Old Lady" Hairstyles That Make You Look Older — #5 Is Super Common!'). Keywords: #CortesDeCabello #PeinadosParaMujeresMayores #MujeresDe60. Description speaks as 'we' ("En este video revelamos 5 cortes").

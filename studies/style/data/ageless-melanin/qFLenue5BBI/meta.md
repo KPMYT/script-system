@@ -1,0 +1,25 @@
+# 8 COLORS THAT MAKE BLACK WOMEN OVER 50 LOOK YOUNG, RADIANT, AND TURN HEADS
+
+- Channel: Ageless Melanin (@AgelessMelanin, UCxvKeo4XCACuU6Zd1aQzhmA)
+- Video ID: qFLenue5BBI
+- URL: https://www.youtube.com/watch?v=qFLenue5BBI
+- Study group: Look expensive or elegant (videos.csv row 33); why: colours; the Black women over 50 angle
+- Upload date: 2025-12-30 (youtube_video_details publishDate: 2025-12-30T14:50:50-08:00)
+- Duration: 15:56 (956 s)
+- Views (exact, youtube_video_details): 438,863
+- Likes (exact, youtube_video_details): 16,525
+- Collection date: 2026-10-28 (details pulled about 06:2x UTC)
+- Age at collection: 301.3 days
+- Channel normal: 1,300 (round2/channels-all.csv; basis: median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views ÷ normal: 337.6
+- Type (round 2): ai_avatar (videos.csv: AI presenter). Round 2 basis: reading: both thumbnails checked (qFLenue5BBI, rcCjP4bOyJY) show a similar generated-looking Black woman with a dark bob (burgundy dress walking; navy top portrait); both thumbnails have a video-length badge baked into the image (14:09, 10:31) that does not match the listed lengths (15:56, 16:32); about uses 'we'; on-screen use in the videos not checked
+- Presenter as heard in the transcript: No name said. "Welcome to Ageless Melanin, where we celebrate black women over 50"; includes herself in the group at the close ("black women over 50 are not fading away. We're shining brighter").
+- Presenter note: Round 2 reading: recurring-looking generated Black woman with a bob, unnamed (ai_avatar).
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 355
+- Transcript words: 2,241 (141 words per minute; bracketed tags such as [Music] counted)
+- Comment count shown by YouTube: 1.1K
+- Comments collected: 44 unique top-level (44 viewer, 0 [OWNER]); 0 skipped as spam; replies not returned by the tool
+- Comment sorts pulled: top page 1, top page 2 (continuation token), newest page 1
+- Description first line: Color has the power to transform how you look and how you feel especially after 50. In this video, I’m sharing 8 colors that make Black women over 50 look young, radiant, and turn heads. These are shades that brighten the skin, soften features, and instantly elevate your overall appearance.
+- AI disclosure line in the description: None found (no line about AI, a generated presenter or voice, or a fictional character).

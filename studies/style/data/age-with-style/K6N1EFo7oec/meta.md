@@ -1,0 +1,22 @@
+# 7 Blouse Mistakes Women Over 60 Should STOP Making NOW!
+
+- Channel: Age with Style (@agewithstyle, channel ID UCsiBzifgu6vwRubtmdIcOzA)
+- Video ID: K6N1EFo7oec
+- URL: https://www.youtube.com/watch?v=K6N1EFo7oec
+- Study group: Pair A: same channel, same title (videos.csv row n=41); why picked: the same channel's re-upload; 11mo ago
+- Title in videos.csv: 7 Blouse Mistakes Women Over 60 Should STOP Making NOW!
+- Upload date: 2025-11-22 (11:41:19-08:00)
+- Duration: 18:47 (1127 s)
+- Views: 7,133 (as of 2026-10-28)
+- Likes: 132 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 3,800 (from `round2/channels-all.csv`: median of the 15 most recent long-form uploads, 5:00+, at least 7 days old; views as NexLev rounds them)
+- Views / normal: 1.88
+- Age at collection: 340 days (0.9 years)
+- Type (round 2): faceless_narrated (videos.csv: faceless/AI)
+- Presenter as heard in the transcript: one unnamed narrator ("Welcome back to Age with Style"); no name in speech; the description is signed "Sarah". Gender not stated in speech.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 465 segments; 2,852 words
+- Comments: API commentsCount 53; collected 20 top + 20 newest = 29 unique (11 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: People & Blogs; isShortsEligible: false
+- Description notes (quoted): Same template as 6byOPawCepI, signed "Sarah ♥️"; unfilled placeholder "SUBSCRIBE for new videos every week ► [Insert Channel Link Here]". Lists the seven mistakes: "Too Boxy" fit, "High-Water" sleeve, "Overly-Busy" prints, stiff fabrics, too-high necklines, "Over-Embellished" details, "Mismatched Length". Asks "tell me where in the world you are watching from!"

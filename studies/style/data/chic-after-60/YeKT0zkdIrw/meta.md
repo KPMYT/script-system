@@ -1,0 +1,25 @@
+# 8 COLOR COMBINATIONS That Make Older WOMEN Look EXPENSIVE, Younger and Turn Heads!
+
+- Channel: Chic After 60 (@chicafter60, UCx0R9bHfEmdyysh9pW0XPIg)
+- Video ID: YeKT0zkdIrw
+- URL: https://www.youtube.com/watch?v=YeKT0zkdIrw
+- Study group: Pair C: same title, a channel that can break out (videos.csv row 44); why: the winner; 1y ago
+- Upload date: 2025-09-15 (youtube_video_details publishDate: 2025-09-15T09:05:01-07:00)
+- Duration: 29:49 (1789 s)
+- Views (exact, youtube_video_details): 960,045
+- Likes (exact, youtube_video_details): 11,622
+- Collection date: 2026-10-28 (details pulled about 06:2x UTC)
+- Age at collection: 407.6 days
+- Channel normal: 37,000 (round2/channels-all.csv; basis: median of 15 newest long-form (5:00+) uploads 7+ days old; views as shown by NexLev (rounded to K))
+- Views ÷ normal: 25.9
+- Type (round 2): ai_avatar (videos.csv: faceless/AI). Round 2 basis: reading: 2 thumbnails (h6Y1RZzOlzg, GH8sRp75_ZQ) show photoreal rendered gray-haired women in staged settings (Paris cafe, marble hall), different faces, with large yellow/white text; no recurring human presenter seen; earlier round ai_avatar
+- Presenter as heard in the transcript: No name said. First person ("I'll share eight powerful color combinations"); includes herself with viewers ("after 60, our style needs to work harder for us"). No presenter shown in words.
+- Presenter note: Round 2 channel type ai_avatar; videos.csv type for this video "faceless/AI".
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 675
+- Transcript words: 4,084 (137 words per minute; bracketed tags such as [Music] counted)
+- Comment count shown by YouTube: 261
+- Comments collected: 43 unique top-level (43 viewer, 0 [OWNER]); 0 skipped as spam; replies not returned by the tool
+- Comment sorts pulled: top page 1, top page 2 (continuation token), newest page 1
+- Description first line: Discover the 8 best clothing color combinations that make women over 60 look instantly younger, more radiant, and effortlessly stylish.
+- AI disclosure line in the description: None found (no line about AI, a generated presenter or voice, or a fictional character).

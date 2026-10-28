@@ -1,0 +1,22 @@
+# You're Styling Your THIN/FINE Hair WRONG! Do THIS Instead- 5 SECRETS
+
+- Channel: Justin Hickox (@justinhickox, channel ID UCTfRM6bqWXYyCcs_78ywftQ)
+- Video ID: rU56_ly6l2s
+- URL: https://www.youtube.com/watch?v=rU56_ly6l2s
+- Study group: Thin or fine hair (videos.csv row n=13); why picked: (blank in videos.csv)
+- Title in videos.csv: You're Styling Your THIN/FINE Hair WRONG! Do THIS Instead- 5 SECRETS
+- Upload date: 2024-12-10 (06:45:04-08:00)
+- Duration: 14:38 (878 s)
+- Views: 1,493,819 (as of 2026-10-28)
+- Likes: 24,191 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 51,000 (from `round2/channels-all.csv`: median of the 15 most recent long-form uploads, 5:00+, at least 7 days old; views as NexLev rounds them)
+- Views / normal: 29.29
+- Age at collection: 687 days (1.9 years)
+- Type (round 2): real_on_camera (videos.csv: real)
+- Presenter as heard in the transcript: male hairstylist in the first person; his name is heard only in the discount code ("Justin 13"). A client with fine gray hair answers his questions; her name is not said.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 438 segments; 3,342 words
+- Comments: API commentsCount 1K; collected 20 top + 19 newest = 38 unique (1 in both lists); owner comments 1; spam skipped 1; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Entertainment; isShortsEligible: false
+- Description notes (quoted): Sponsor: "Thanks to @laifen_tech #laifen for sponsoring this video!" Chapters: 0:00 Introduction / 0:48 Before and After / 1:14 Using Products Correctly / 3:32 Blowdry for Volume / 5:25 Create Less Volume on Sides / Back / 6:52 Create More Volume on Top / 10:22 Style With Your Hands / 11:38 Bonus: Use The Correct Wax / 13:14 Bonus 2: Thin Area Fix. Affiliate note as on vFul5tvg1Cw. Also: "I learned these styling tricks over 30 years as a professional hairstylist."

@@ -1,0 +1,25 @@
+# 7 Dresses That Hide a Tummy After 60 (No Shapewear, No Guessing)
+
+- Channel: Glow After 60 (@GlowAfter60, UC2u8sjLECpdV5IWTZrheusA)
+- Video ID: G5y1gFHWPIA
+- URL: https://www.youtube.com/watch?v=G5y1gFHWPIA
+- Study group: Body shape (videos.csv row 21); why: (blank in videos.csv)
+- Upload date: 2026-03-18 (youtube_video_details publishDate: 2026-03-18T05:56:32-07:00)
+- Duration: 30:28 (1828 s)
+- Views (exact, youtube_video_details): 363,889
+- Likes (exact, youtube_video_details): 8,036
+- Collection date: 2026-10-28 (details pulled about 06:2x UTC)
+- Age at collection: 223.7 days
+- Channel normal: 730 (round2/channels-all.csv; basis: median of 15 most recent long-form (>=5:00, >=7 days old) from newest list)
+- Views ÷ normal: 498.5
+- Type (round 2): faceless_narrated (videos.csv: faceless). Round 2 basis: reading: thumbnails G5y1gFHWPIA and Cn6gem7g-9k show a different gray-haired woman each (shop interior / street scene, generated- or stock-looking) under big yellow-white caps text; no recurring presenter; about is brand-only, no name
+- Presenter as heard in the transcript: No name said. First person ("here's what I've discovered after years of looking at what actually works for women's bodies after 60"); addresses "My friends". No age or gender stated.
+- Presenter note: Round 2: no presenter, different model images per thumbnail. Viewer comments say the voice and images are AI (see comments).
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 781
+- Transcript words: 4,864 (160 words per minute; bracketed tags such as [Music] counted)
+- Comment count shown by YouTube: 288
+- Comments collected: 38 unique top-level (37 viewer, 1 [OWNER]); 1 skipped as spam; replies not returned by the tool
+- Comment sorts pulled: top page 1, top page 2 (continuation token), newest page 1
+- Description first line: There’s something quietly freeing about realizing that, as an older woman, it’s not your body that needs fixing — it’s the way clothes are designed. In life after 60, so many of us have stood in front of a mirror wondering why something beautiful on the hanger suddenly feels… off. I’ve been there too. And what I’ve learned is this: the right dress doesn’t fight your shape — it works with it.
+- AI disclosure line in the description: None found (no line about AI, a generated presenter or voice, or a fictional character).

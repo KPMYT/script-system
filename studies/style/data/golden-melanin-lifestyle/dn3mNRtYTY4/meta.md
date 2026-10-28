@@ -1,0 +1,25 @@
+# 10 SHOE Mistakes That Are Aging Black Women Over 50 (And The Beautiful Alternatives)
+
+- Channel: Golden Melanin Lifestyle (@GoldenMelaninLifestyle, UCR1GuiIaEiaqaWp20PT5K8w)
+- Video ID: dn3mNRtYTY4
+- URL: https://www.youtube.com/watch?v=dn3mNRtYTY4
+- Study group: Single items (videos.csv row 28); why: shoes; the Black women over 50 angle
+- Upload date: 2026-03-04 (youtube_video_details publishDate: 2026-03-04T13:47:38-08:00)
+- Duration: 15:15 (915 s)
+- Views (exact, youtube_video_details): 882,034
+- Likes (exact, youtube_video_details): 10,578
+- Collection date: 2026-10-28 (details pulled about 06:2x UTC)
+- Age at collection: 237.4 days
+- Channel normal: 1,700 (round2/channels-all.csv; basis: median of 15 most recent uploads >=5:00 and >=7 days old)
+- Views ÷ normal: 518.8
+- Type (round 2): faceless_narrated (videos.csv: faceless). Round 2 basis: thumbnails (2 outliers: two different generated-looking Black older women, different hair, no recurring presenter; one has a text typo 'THEES') (reading)
+- Presenter as heard in the transcript: No name said. First person, includes herself with viewers over 50 ("We do not suffer for style anymore. We have graduated from that season of life", "after 50, we are done"); calls the viewer "sis", "honey", "queen".
+- Presenter note: Round 2: no presenter; about speaks as "we".
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 385
+- Transcript words: 2,274 (149 words per minute; bracketed tags such as [Music] counted)
+- Comment count shown by YouTube: 713
+- Comments collected: 36 unique top-level (36 viewer, 0 [OWNER]); 0 skipped as spam; replies not returned by the tool
+- Comment sorts pulled: top page 1, top page 2 (continuation token), newest page 1
+- Description first line: STOP Wearing These Shoes After 50 | Elegant Fashion Over 50 for Black Women
+- AI disclosure line in the description: None. The description has a general disclaimer: "This video is for educational and entertainment purposes only. All opinions shared are my own."

@@ -1,0 +1,25 @@
+# 5 Ways to Avoid Looking Heavy and Outdated After 50 and 60! - Fashion Mistakes Mature Women Make!
+
+- Channel: Elegance At 60 (@EleganceAt60, UCGhT9pJVlUY0SwhDRkQoyKg)
+- Video ID: vATkBSPjQmc
+- URL: https://www.youtube.com/watch?v=vATkBSPjQmc
+- Study group: Style mistakes that age you (videos.csv row 5); why: (blank in videos.csv)
+- Upload date: 2024-08-17 (youtube_video_details publishDate: 2024-08-17T09:02:56-07:00)
+- Duration: 9:58 (598 s)
+- Views (exact, youtube_video_details): 754,127
+- Likes (exact, youtube_video_details): 9,474
+- Collection date: 2026-10-28 (details pulled about 06:2x UTC)
+- Age at collection: 801.6 days
+- Channel normal: 14,000 (round2/channels-all.csv; basis: median of 15 newest uploads 5:00+ and 7+ days old (videos tab, newest page; views as NexLev rounds them); 6 upload(s) on page 1 showed no view count (blank) and were skipped)
+- Views ÷ normal: 53.9
+- Type (round 2): faceless_narrated (videos.csv: faceless). Round 2 basis: thumbnails XByilJlme5Y, vATkBSPjQmc: cut-out photos of several different women modelling outfits with red X / green tick marks, channel name as a side banner; no consistent presenter (reading). About names 'Rose - a personal stylist' but no face shown
+- Presenter as heard in the transcript: No name said. Speaks in the first person ("I recommend opting for a top...", "I want to take a moment to say how much you all inspire me"); no age, job or gender stated in the narration.
+- Presenter note: No presenter seen in round 2 (about text names Rose, stylist). One viewer comment calls the narrator "This man" (no likes).
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 231
+- Transcript words: 1,459 (146 words per minute; bracketed tags such as [Music] counted)
+- Comment count shown by YouTube: 183
+- Comments collected: 36 unique top-level (36 viewer, 0 [OWNER]); 0 skipped as spam; replies not returned by the tool
+- Comment sorts pulled: top page 1, top page 2 (continuation token), newest page 1
+- Description first line: Whether curvy, petite, or tall—this series helps you dress your shape beautifully at any age: https://youtube.com/playlist?list=PL5Q3-RJ82FuHjZJkCIG5ahcR0eAOvhfa3&si=p4dw7lxaTOLEO3Id
+- AI disclosure line in the description: None found (no line about AI, a generated presenter or voice, or a fictional character).

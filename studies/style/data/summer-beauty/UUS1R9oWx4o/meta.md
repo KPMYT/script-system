@@ -1,0 +1,25 @@
+# STOP Styling Your Hair WRONG For Your Face & Head Shape!
+
+- Channel: Summer Beauty (@SummerBeautyc, UCl4iYvuUhw3DIRyYtV1Twig)
+- Video ID: UUS1R9oWx4o
+- URL: https://www.youtube.com/watch?v=UUS1R9oWx4o
+- Study group: Hair mistakes and haircuts (videos.csv row 8); why: (blank in videos.csv)
+- Upload date: 2025-04-11 (youtube_video_details publishDate: 2025-04-11T04:30:23-07:00)
+- Duration: 15:15 (915 s)
+- Views (exact, youtube_video_details): 1,224,258
+- Likes (exact, youtube_video_details): 32,078
+- Collection date: 2026-10-28 (details pulled about 06:2x UTC)
+- Age at collection: 564.8 days
+- Channel normal: 45,000 (round2/channels-all.csv; basis: median of 15 newest uploads 5:00+ and 7+ days old (videos tab, newest page; views as NexLev rounds them))
+- Views ÷ normal: 27.2
+- Type (round 2): real_on_camera (videos.csv: real). Round 2 basis: thumbnails UUS1R9oWx4o, i5jFYNeCHGM: same photographic auburn-haired woman in both, with celebrity faces / diagrams; about text names a stylist with 19 years behind the chair (reading)
+- Presenter as heard in the transcript: No name said in this video ("Hello beauties"). Authority line: "As a hair stylist of 18 years". Gender not stated in words; she refers to her own hair ("fine thick straight hair like myself") and shows it on screen.
+- Presenter note: Round 2 reading: Summer, hairstylist and image consultant, on camera; presenter looks under 50.
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 351
+- Transcript words: 2,547 (167 words per minute; bracketed tags such as [Music] counted)
+- Comment count shown by YouTube: 1.4K
+- Comments collected: 42 unique top-level (41 viewer, 1 [OWNER]); 0 skipped as spam; replies not returned by the tool
+- Comment sorts pulled: top page 1, top page 2 (continuation token), newest page 1
+- Description first line: Want to find out your face shape and cranial top? Check out my website https://www.thesummeranalysis.com to book a Face Shape Analysis with me. Use code SAVE12 to save an extra 12% off of your Face Shape Analysis or other services! I'll measure your exact face shape and features and give you custom haircut recommendations. 
+- AI disclosure line in the description: None found (no line about AI, a generated presenter or voice, or a fictional character).
