@@ -1,6 +1,6 @@
 # Ageless Confidence: UTpC6n7KKi0
 
-"Stop Styling Your FINE HAIR Like This After 60! 5 Secrets for Instantly Fuller Volume". 14:37, 1,048 views, 13 likes, uploaded 2026-07-16, 104 days old, 2.6 × normal (409, computed fresh: the channel is not in round 2). Type: not checked in round 2; no thumbnail reading was done for this round. Group: Pair B, same title, same month (the copy that did not take off). Transcript: English auto-generated, 389 segments, 2,489 words, about 170 wpm.
+"Stop Styling Your FINE HAIR Like This After 60! 5 Secrets for Instantly Fuller Volume". 14:37, 1,048 views, 13 likes, uploaded 2026-07-16, 103 days old, 2.6 × normal (409, computed fresh: the channel is not in round 2). Type: not checked in round 2; no thumbnail reading was done for this round. Group: Pair B, same title, same month (the copy that did not take off). Transcript: English auto-generated, 389 segments, 2,489 words, about 170 wpm.
 
 **Presenter as heard:** a first-person hairstylist ("almost every week in my chair"), gender never stated in the speech, no name. The description calls the narrator "A longtime hairstylist". Two clients are named in stories: "Susan" ("I'll call her Susan") and "Diane". The captions open on a stray word, "Top."
 

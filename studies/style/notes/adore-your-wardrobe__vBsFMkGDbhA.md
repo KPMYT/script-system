@@ -1,6 +1,6 @@
 # Adore Your Wardrobe: vBsFMkGDbhA
 
-"STOP Feeling Frumpy in Wide Leg Jeans!". 11:26, 396,929 views, 11,485 likes, uploaded 2024-10-25, 733 days old, 16.5 × normal (24,000). Type: real_on_camera (round 2). Group: Single items (jeans). Transcript: English auto-generated with no punctuation or capitals (an older caption style), 255 segments, 1,883 spoken words plus 2 "[Music]" tags, about 165 wpm. Quotes below keep the captions as they are, unpunctuated.
+"STOP Feeling Frumpy in Wide Leg Jeans!". 11:26, 396,929 views, 11,485 likes, uploaded 2024-10-25, 732 days old, 16.5 × normal (24,000). Type: real_on_camera (round 2). Group: Single items (jeans). Transcript: English auto-generated with no punctuation or capitals (an older caption style), 255 segments, 1,883 spoken words plus 2 "[Music]" tags, about 165 wpm. Quotes below keep the captions as they are, unpunctuated.
 
 **Group note:** neither the title, the description nor the speech names an age or an over-50 phrase. The only age signals are in the comments (45 to 70).
 

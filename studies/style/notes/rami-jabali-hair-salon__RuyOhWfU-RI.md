@@ -1,6 +1,6 @@
 # Rami Jabali Hair Salon: RuyOhWfU-RI
 
-"✨ The Hair Effect: The Fastest Way to Transform Your Face ✨". 11:00, 714,306 views, 10,601 likes, uploaded 2026-05-03, 178 days old, 14.9 × normal (48,000). Type: real_on_camera (round 2). Group: Makeovers. Transcript: English auto-generated, 324 segments, about 1,940 spoken words (1,956 tokens including 14 tags such as "[laughter]" and "[music]"), about 176 wpm. Speaker turns are not reliably marked, so some lines below could belong to either voice; where it is clear, it is said.
+"✨ The Hair Effect: The Fastest Way to Transform Your Face ✨". 11:00, 714,306 views, 10,601 likes, uploaded 2026-05-03, 177 days old, 14.9 × normal (48,000). Type: real_on_camera (round 2). Group: Makeovers. Transcript: English auto-generated, 324 segments, about 1,940 spoken words (1,956 tokens including 14 tags such as "[laughter]" and "[music]"), about 176 wpm. Speaker turns are not reliably marked, so some lines below could belong to either voice; where it is clear, it is said.
 
 **Format note:** the same format as qwM0s0Q3Rjw: a filmed consultation, a cut under music, and a reveal. Here the client talks more: a woman with greying hair who swims and cycles, has had stress-related hair loss, and wants no fringe and no blow-drying. Neither speaker is named.
 

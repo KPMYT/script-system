@@ -1,6 +1,6 @@
 # Marie-Anne Lecoeur: ixlexruRC6c
 
-"7 Things That Scream 'Old Lady' (Harsh But True): Style Over 50". 8:02, 1,038,117 views, 16,665 likes, uploaded 2025-08-17, 437 days old, 12.4 × normal (84,000). Type: real_on_camera (round 2). Group: Style mistakes that age you. Transcript: English auto-generated, 138 segments, 929 words, about 116 wpm (the slowest of the H1 set; the video has pauses and sound effects).
+"7 Things That Scream 'Old Lady' (Harsh But True): Style Over 50". 8:02, 1,038,117 views, 16,665 likes, uploaded 2025-08-17, 436 days old, 12.4 × normal (84,000). Type: real_on_camera (round 2). Group: Style mistakes that age you. Transcript: English auto-generated, 138 segments, 929 words, about 116 wpm (the slowest of the H1 set; the video has pauses and sound effects).
 
 ## Structure map
 - Hook, 0:00-0:13, about 30 words, quoted in full: "Are you ready for little tough love? Today I'm revealing seven things that instantly scream old lady. And what to wear instead to look instantly modern, fabulous, and chic."

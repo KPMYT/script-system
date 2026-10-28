@@ -1,6 +1,6 @@
 # Marie-Anne Lecoeur: G-RW7ih19Y4
 
-"How To Look Slimmer: The MOST EFFECTIVE Style Tips For Women Over 50". 16:28, 547,210 views, 14,523 likes, uploaded 2025-06-15, 500 days old, 6.5 × normal (84,000). Type: real_on_camera (round 2). Group: Body shape. Transcript: English auto-generated, 315 segments, 2,199 words, about 134 wpm.
+"How To Look Slimmer: The MOST EFFECTIVE Style Tips For Women Over 50". 16:28, 547,210 views, 14,523 likes, uploaded 2025-06-15, 499 days old, 6.5 × normal (84,000). Type: real_on_camera (round 2). Group: Body shape. Transcript: English auto-generated, 315 segments, 2,199 words, about 134 wpm.
 
 ## Structure map
 - Hook, 0:00-0:36, about 78 words, quoted in full: "If you want to look 10 lbs thinner, you're in the right place. Virtual French fic ladies, as a professionally trained stylist, I get asked many times how to look slimmer. Whether you are a plus-siz lady or not, you will benefit from each and every techniques. The most important thing is for you to accept and love your body. No matter your shape, no matter your size, and this will help your style and yourself enormously." ("Virtual French fic ladies" is the captions' rendering of her greeting.)

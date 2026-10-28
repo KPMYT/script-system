@@ -1,6 +1,6 @@
 # French Fashion: -eTr9aVSWlM
 
-"The Only 10 Clothes You Need All Winter (The French Way, 50+)". 14:42, 451,523 views, 3,581 likes, uploaded 2026-10-19, 9 days old at collection, 32.3 × normal (14,000). Type: ai_avatar (round 2; the about text, per round 2, names a persona, Valérie). Group: French angle ("(The French Way, 50+)", the closest copy of Diane's title pattern). Transcript: English auto-generated, 377 segments, about 2,303 spoken words (2,339 tokens including 36 "[music]" tags), about 157 wpm. The description carries no AI disclosure line.
+"The Only 10 Clothes You Need All Winter (The French Way, 50+)". 14:42, 451,523 views, 3,581 likes, uploaded 2026-10-19, 8 days old at collection (8.6 days), 32.3 × normal (14,000). Type: ai_avatar (round 2; the about text, per round 2, names a persona, Valérie). Group: French angle ("(The French Way, 50+)", the closest copy of Diane's title pattern). Transcript: English auto-generated, 377 segments, about 2,303 spoken words (2,339 tokens including 36 "[music]" tags), about 157 wpm. The description carries no AI disclosure line.
 
 **Presenter as heard:** a woman speaking in the first person with French greetings ("Bonjour", "À bientôt, mes chers amis"), never naming herself in the speech. She gives herself a husband, a granddaughter and a history ("I still wear a pair I bought when Chirac was president.").
 
@@ -53,7 +53,7 @@ Dense, mostly unhedged: "That's why in France, this is where the money goes."; "
 - "That's why sheep don't carry umbrellas."
 - "Stilettos and ice have never been friends."
 
-## Comments (39 collected, all viewer; the video was 9 days old)
+## Comments (39 collected, all viewer; the video was 8 days old)
 - Climate pushback, about 11 (the top theme): "Winter here is -20C or colder, so a wool coat is not warm enough." (84, the most-liked); "A wool coat soaked with rain hardly a fashion item!" (67); "In Canada we must add a parka for deep cold." (27); "This might work in France, but in the US we get some serious winters." (4); "Obviously does’nt live in Canadian weather." (0); "Does not apply to Florida" (0).
 - The beret, 3: "A beret is more elegant than a beanie but it does not cover the ears" (31); "I thought the beret was out, not something French women wear anymore" (0).
 - Wool problems, 3: "It gives me hives." (15); "Wool coats are too heavy for my small frame" (0).

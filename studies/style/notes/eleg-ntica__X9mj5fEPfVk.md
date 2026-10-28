@@ -1,6 +1,6 @@
 # Elegántica: X9mj5fEPfVk
 
-YouTube title (Spanish): "10 Errores que Te Hacen Ver 'Anciana' Después de los 60 (Y Cómo Evitarlos con Elegancia)". `videos.csv` lists it as "10 Mistakes That Make You Look 'Old' After 60 (And How to Avoid Them with Grace)", which reads as YouTube's translated title. 21:54, 1,193,524 views, 22,010 likes, uploaded 2026-03-28, 214 days old, 702 × normal (1,700). Type: faceless_narrated (round 2). Group: Style mistakes that age you.
+YouTube title (Spanish): "10 Errores que Te Hacen Ver 'Anciana' Después de los 60 (Y Cómo Evitarlos con Elegancia)". `videos.csv` lists it as "10 Mistakes That Make You Look 'Old' After 60 (And How to Avoid Them with Grace)", which reads as YouTube's translated title. 21:54, 1,193,524 views, 22,010 likes, uploaded 2026-03-28, 213 days old, 702 × normal (1,700). Type: faceless_narrated (round 2). Group: Style mistakes that age you.
 
 **Language: the narration, title, description and comments are all Spanish.** The transcript is Spanish auto-generated (490 segments, 2,594 tokens including 34 "[música]" tags, so about 2,560 spoken words, about 117 wpm). Quotes below are Spanish as transcribed; the English glosses outside the quotes are mine.
 

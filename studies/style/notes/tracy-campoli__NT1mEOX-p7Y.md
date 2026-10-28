@@ -1,6 +1,6 @@
 # Tracy Campoli: NT1mEOX-p7Y
 
-"The Over 40 Capsule Wardrobe That Makes You Look EXPENSIVE (without even trying!)". 25:54, 506,694 views, 12,646 likes, uploaded 2025-12-18, 314 days old, 10.6 × normal (48,000). Type: real_on_camera (round 2). Group: Look expensive or elegant (capsule wardrobe). Transcript: English auto-generated, 716 segments, 5,265 spoken words (plus 2 "[music]" tags), about 203 wpm (the fastest and longest in the H1 set). Sponsored (Lumineux).
+"The Over 40 Capsule Wardrobe That Makes You Look EXPENSIVE (without even trying!)". 25:54, 506,694 views, 12,646 likes, uploaded 2025-12-18, 313 days old, 10.6 × normal (48,000). Type: real_on_camera (round 2). Group: Look expensive or elegant (capsule wardrobe). Transcript: English auto-generated, 716 segments, 5,265 spoken words (plus 2 "[music]" tags), about 203 wpm (the fastest and longest in the H1 set). Sponsored (Lumineux).
 
 ## Structure map
 - Hook, 0:00-0:12, 29 words, quoted in full: "If you are over 40, and you are tired of opening your closet and thinking, I have nothing to wear, this is the video that's going to fix that."

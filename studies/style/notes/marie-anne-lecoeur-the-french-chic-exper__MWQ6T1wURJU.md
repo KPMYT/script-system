@@ -1,6 +1,6 @@
 # Marie-Anne Lecoeur: MWQ6T1wURJU
 
-"How Not To Wear Summer Dresses Over 50: Fashion Mistakes Women Over 50 Make With Summer Dresses". 12:59, 628,761 views, 14,383 likes, uploaded 2025-04-13, 563 days old, 7.5 × normal (84,000). Type: real_on_camera (round 2). Group: Single items (dresses). Transcript: English auto-generated, 278 segments, 2,035 words, about 157 wpm.
+"How Not To Wear Summer Dresses Over 50: Fashion Mistakes Women Over 50 Make With Summer Dresses". 12:59, 628,761 views, 14,383 likes, uploaded 2025-04-13, 562 days old, 7.5 × normal (84,000). Type: real_on_camera (round 2). Group: Single items (dresses). Transcript: English auto-generated, 278 segments, 2,035 words, about 157 wpm.
 
 ## Structure map
 - Hook, 0:00-0:22, about 56 words, quoted in full: "Here are the top fashion mistakes that women over 50 make when wearing summer dresses. Bonjour friendship ladies are often get asked how to wear summer dresses and I see so many fashion mistakes made by women over 50 and they are so easy to remedy. So here is your ultimate frenzy guide to wearing summer dresses." ("friendship" and "frenzy" are the captions' rendering of "French chic".)

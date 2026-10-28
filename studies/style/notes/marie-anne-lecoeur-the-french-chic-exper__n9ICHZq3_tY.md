@@ -1,6 +1,6 @@
 # Marie-Anne Lecoeur: n9ICHZq3_tY
 
-"AI Gets French Style WRONG! Here's What Real French Women Actually Wear". 14:18, 138,649 views, 5,810 likes, uploaded 2025-11-30, 332 days old, 1.7 × normal (84,000). Type: real_on_camera (round 2). Group: French angle (a French stylist answering AI "French way" channels). Transcript: English auto-generated, 296 segments, about 2,175 spoken words (2,191 tokens including 9 tags such as "[clears throat]"), about 152 wpm.
+"AI Gets French Style WRONG! Here's What Real French Women Actually Wear". 14:18, 138,649 views, 5,810 likes, uploaded 2025-11-30, 331 days old, 1.7 × normal (84,000). Type: real_on_camera (round 2). Group: French angle (a French stylist answering AI "French way" channels). Transcript: English auto-generated, 296 segments, about 2,175 spoken words (2,191 tokens including 9 tags such as "[clears throat]"), about 152 wpm.
 
 ## Structure map
 - Hook, 0:00-0:36, about 90 words (in part): "If you want to know the 10 essential pieces that French women have in their wardrobe, you're in the right place." Then the AI framing, "I see so many AI [snorts] videos who show you what French women wear. Invariably, they get it wrong.", the credential, two holds ("Stay to the end for the French staple that everybody gets wrong" and "there will be a surprise announcement").
