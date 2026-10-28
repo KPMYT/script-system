@@ -16,6 +16,7 @@ AUDIENCE = {
     'partly': {'All Fashion Milano': 'street style, no age marker', 'Curiosity Street Style': 'street style, no age marker',
                'Lisa Eldridge': 'broad makeup', 'Style With Serena': 'one "over 40" hit', 'Glam Guide': 'one 3:39 over-50 compilation', 'Hindash': 'male artist on models; one mature-skin title', 'Blowout Professor': 'broad haircare, no age marker'},
 }
+TYPE_FIX = {'Vivian Sinclair': ('ai_avatar', 'main session, 2026-10-28: the narrator names herself and comments describe a generated woman on screen (round 3, H2); round 2 read faceless')}
 GROUP = {'real_on_camera': 'real', 'faceless_narrated': 'faceless-ai', 'ai_avatar': 'faceless-ai', 'ai_clone': 'faceless-ai'}
 
 ANGLES = [  # first match wins, so the order matters
@@ -64,6 +65,13 @@ def num(s):
     try: return float(s)
     except: return None
 
+LANG = {}
+import os
+if os.path.exists('round2/language-check.csv'):
+    for r in csv.DictReader(open('round2/language-check.csv', newline='', encoding='utf-8')):
+        v = r['verdict'].strip().lower()
+        if v.startswith('non-english') or r['channel_name'].strip() == 'Hairstyles cutting fashion':
+            LANG[r['channel_id']] = r['nexlev_language_description'] or v
 chans = []
 for f in sorted(glob.glob('round2/channels-[0-9].csv')):
     for x in csv.DictReader(open(f, newline='', encoding='utf-8')):
@@ -71,6 +79,10 @@ for f in sorted(glob.glob('round2/channels-[0-9].csv')):
         name = x['channel_name'].strip()
         aud = next((k for k, d in AUDIENCE.items() if name in d), 'pass')
         x['audience_check'] = aud + (': ' + AUDIENCE[aud][name] if aud != 'pass' else '')
+        if x['channel_id'] in LANG and aud != 'fail':
+            aud = 'fail'; x['audience_check'] = 'fail: not English (' + LANG[x['channel_id']] + '; titles auto-translated)'
+        if name in TYPE_FIX:
+            x['type'], why = TYPE_FIX[name]; x['type_basis'] = why + '; ' + x['type_basis']
         x['group'] = GROUP.get(x['type'].strip(), 'unclear')
         x['final_keep'] = 'yes' if x['keep'].strip().lower() == 'yes' and aud != 'fail' else 'no'
         chans.append(x)
