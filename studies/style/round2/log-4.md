@@ -62,3 +62,4 @@ Worklist: `round2/worklist-4.csv` (59 channels: 33 kept, 26 to-screen). Run date
 - 56 The Life Of Hair: 3 calls (total 135); faceless check was a fresh analysis
 - 57 Styles By Summer: 3 calls (total 138); faceless check was a fresh analysis
 - 58 Pampered Wolf: 3 calls (total 141); faceless check was a fresh analysis
+- 59 Stylish Curves: 3 calls (total 144); faceless check was a fresh analysis

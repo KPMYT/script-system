@@ -146,3 +146,6 @@ Method: study-brief.md "Round 2". NexLev budget: 180 calls.
 | 137 | Solo After Sixty | youtube_channel_outliers | ok |
 | 138 | Solo After Sixty | youtube_channel_videos newest | ok |
 | 139 | Solo After Sixty | check_faceless_channel | ok |
+| 140 | 10 Years Younger | youtube_channel_outliers | ok |
+| 141 | 10 Years Younger | youtube_channel_videos newest | ok |
+| 142 | 10 Years Younger | check_faceless_channel | ok |

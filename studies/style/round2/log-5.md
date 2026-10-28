@@ -60,3 +60,4 @@ Date: 2026-10-28. Thumbnails in the helper's scratchpad folder (round2-h5/thumbs
 | 51 | Ageless Elegance 60+ | 3 | 124 | ok; newest list holds all 7 videos |
 | 52 | Fashion Mantika | 3 | 127 | ok |
 | 53 | Kristi Allure | 3 | 130 | ok; about lists an email flag (not stored) |
+| 54 | Living Your Best Life | 4 | 134 | ok; 4th call popular sort (under 10K subs, scan max 96K, 176 videos); found 319K video, so kept; added 3 popular-sort videos at 2x+ NexLev avg with blank NexLev ratio; about lists an email flag (not stored) |
