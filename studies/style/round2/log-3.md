@@ -135,3 +135,6 @@ Date: 2026-10-28. Method: study-brief.md "Round 2". Budget: 180 NexLev calls max
 | 127 | Joli Campbell ~ QuickSilverHair | youtube_channel_outliers | ok, 5 outliers |
 | 128 | Joli Campbell ~ QuickSilverHair | youtube_channel_videos newest | ok, 30 videos |
 | 129 | Joli Campbell ~ QuickSilverHair | check_faceless_channel | ok, not faceless 98% (fresh) |
+| 130 | Only Hairstyles | youtube_channel_outliers | ok, 20 outliers (8 recorded) |
+| 131 | Only Hairstyles | youtube_channel_videos newest | ok, 30 videos |
+| 132 | Only Hairstyles | check_faceless_channel | ok, faceless 99% (cached) |

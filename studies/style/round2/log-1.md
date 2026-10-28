@@ -128,3 +128,6 @@ Method: study-brief.md "Round 2". NexLev budget: 180 calls.
 | 119 | Bloom After 60 | youtube_channel_outliers | ok |
 | 120 | Bloom After 60 | youtube_channel_videos newest | ok |
 | 121 | Bloom After 60 | check_faceless_channel | ok |
+| 122 | Only Fame | youtube_channel_outliers | ok |
+| 123 | Only Fame | youtube_channel_videos newest | ok |
+| 124 | Only Fame | check_faceless_channel | ok |
