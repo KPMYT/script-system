@@ -61,3 +61,4 @@ Worklist: `round2/worklist-4.csv` (59 channels: 33 kept, 26 to-screen). Run date
 - 55 Timeless After 50 (now 'The Receipts And Reality'): 3 calls (total 132); 0 outliers returned
 - 56 The Life Of Hair: 3 calls (total 135); faceless check was a fresh analysis
 - 57 Styles By Summer: 3 calls (total 138); faceless check was a fresh analysis
+- 58 Pampered Wolf: 3 calls (total 141); faceless check was a fresh analysis
