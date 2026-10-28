@@ -66,3 +66,5 @@ The video list, drafted 2026-10-28 from `../round2/BREAKOUT-MAP.md` and the oper
 
 
 **Swap (2026-10-28):** row 11 (Camino de los Ancianos, `SdbAfqmUwJ0`) was dropped. It is a Spanish channel: NexLev returns its title in Spanish (the English title was a translation) and its only caption track is Arabic auto-generated. Its meta and comments are kept. It is replaced by row 46: Stylish60plus, "7 Modern Haircuts That Instantly Make You Look Younger 60+", 216K, `8p2y_Yk0pNQ`, a version of a title on the operator's list.
+
+**Swap (2026-10-28):** row 4 (Elegántica, `X9mj5fEPfVk`) was dropped. It is entirely in Spanish (title, narration, description and comments), and the English title was YouTube's translation. Its files are kept. It is replaced by row 47: Ageless Style 50s & 60s, "7 Things That Scream 'Old Lady' (Harsh But True): Style Over 50", 267K, `Fs17Qc6l8Ug`. That channel uses the exact title of Marie-Anne Lecoeur's real-presenter original (row 3, 1.0M), which gives a fourth pair: a real original against a faceless copy. A language check over every study transcript found no other non-English one.
