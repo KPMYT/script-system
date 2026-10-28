@@ -131,3 +131,18 @@ Method: study-brief.md "Round 2". NexLev budget: 180 calls.
 | 122 | Only Fame | youtube_channel_outliers | ok |
 | 123 | Only Fame | youtube_channel_videos newest | ok |
 | 124 | Only Fame | check_faceless_channel | ok |
+| 125 | Aging With Elegance | youtube_channel_outliers | ok |
+| 126 | Aging With Elegance | youtube_channel_videos newest | ok |
+| 127 | Aging With Elegance | check_faceless_channel | ok |
+| 128 | Bridget Fisher | youtube_channel_outliers | ok (saved to file, parsed) |
+| 129 | Bridget Fisher | youtube_channel_videos newest | ok |
+| 130 | Bridget Fisher | check_faceless_channel | ok |
+| 131 | Infinite Garden by Beth K | youtube_channel_outliers | ok |
+| 132 | Infinite Garden by Beth K | youtube_channel_videos newest | ok |
+| 133 | Infinite Garden by Beth K | check_faceless_channel | ok |
+| 134 | The New Narrative | youtube_channel_outliers | ok |
+| 135 | The New Narrative | youtube_channel_videos newest | ok |
+| 136 | The New Narrative | check_faceless_channel | ok |
+| 137 | Solo After Sixty | youtube_channel_outliers | ok |
+| 138 | Solo After Sixty | youtube_channel_videos newest | ok |
+| 139 | Solo After Sixty | check_faceless_channel | ok |

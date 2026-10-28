@@ -55,3 +55,8 @@ Date: 2026-10-28. Thumbnails in the helper's scratchpad folder (round2-h5/thumbs
 | 46 | SuppleChicTV | 3 | 108 | ok; about lists an email flag (not stored); outliers mostly pre-2024 with year-level dates |
 | 47 | Melanin & Style After 60 | 3 | 111 | ok |
 | 48 | Susan's Sweet Life | 4 | 115 | ok; 4th call popular sort (under 10K subs, scan max 40K, 346 videos); found 143K video, so kept; added 14 popular-sort videos at 2x+ NexLev avg with blank NexLev ratio; about lists an email flag (not stored) |
+| 49 | Gracefully Dressed | 3 | 118 | ok |
+| 50 | BIG WOW | 3 | 121 | ok |
+| 51 | Ageless Elegance 60+ | 3 | 124 | ok; newest list holds all 7 videos |
+| 52 | Fashion Mantika | 3 | 127 | ok |
+| 53 | Kristi Allure | 3 | 130 | ok; about lists an email flag (not stored) |

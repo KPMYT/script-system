@@ -138,3 +138,50 @@ Date: 2026-10-28. Method: study-brief.md "Round 2". Budget: 180 NexLev calls max
 | 130 | Only Hairstyles | youtube_channel_outliers | ok, 20 outliers (8 recorded) |
 | 131 | Only Hairstyles | youtube_channel_videos newest | ok, 30 videos |
 | 132 | Only Hairstyles | check_faceless_channel | ok, faceless 99% (cached) |
+| 133 | Hairstyles cutting fashion | youtube_channel_outliers | ok, 0 outliers at 2x |
+| 134 | Hairstyles cutting fashion | youtube_channel_videos newest | ok, 30 videos |
+| 135 | Hairstyles cutting fashion | check_faceless_channel | ok, faceless 98% (fresh) |
+| 136 | Life Styled After 50 | youtube_channel_outliers | ok, 3 outliers |
+| 137 | Life Styled After 50 | youtube_channel_videos newest | ok, 27 videos (all on tab) |
+| 138 | Life Styled After 50 | check_faceless_channel | ok, not faceless 99% (fresh) |
+| 139 | Stay Fabulous with Nisha | youtube_channel_outliers | ok, 0 outliers at 2x |
+| 140 | Stay Fabulous with Nisha | youtube_channel_videos newest | ok, 30 videos |
+| 141 | Stay Fabulous with Nisha | check_faceless_channel | ok, not faceless 99% (fresh) |
+| 142 | Audrey Coyne | youtube_channel_outliers | ok, 1 outlier |
+| 143 | Audrey Coyne | youtube_channel_videos newest | ok, 30 videos |
+| 144 | Audrey Coyne | check_faceless_channel | ok, not faceless 98% (fresh) |
+| 145 | Smitha Deepak | youtube_channel_outliers | ok, 1 outlier |
+| 146 | Smitha Deepak | youtube_channel_videos newest | ok, 30 videos |
+| 147 | Smitha Deepak | check_faceless_channel | ok, not faceless 98% (fresh) |
+
+**Total NexLev calls: 147 of 180.** No call failed, no retries, no limit or credit errors.
+
+## Results
+
+- 60 of 60 channels done (33 listed "kept", 27 "to-screen"). Keep rule result: 46 yes, 14 no. All 33 "kept" channels still pass; of the 27 to-screen channels, 13 pass and 14 do not.
+- Type split (all 60): faceless_narrated 26, real_on_camera 24, unclear 6, ai_avatar 4. Kept only: real_on_camera 21, faceless_narrated 21, ai_avatar 3, unclear 1.
+- outliers-3.csv: 386 rows (core 250, adjacent 68, off 68).
+- Thumbnails were downloaded only where needed to set the type of a channel that could be kept; channels that fail the keep rule on numbers whatever their type were left as NexLev's call or "unclear", and the basis says so.
+
+## Notes on the data
+
+- Dates come from NexLev's relative text ("3 months ago" becomes exactly 3 months before 2026-10-28). They are approximate: a "4 years ago" or "5 years ago" date can be up to a year earlier than shown, which matters for the since-2022 test (Honestly Plus Size is kept on a 103K video dated 2022-10-28 from "4 years ago"; it may be from late 2021).
+- uploads_last_90d counts dates within 90 days; "3 months ago" maps to 2026-07-28, which is 92 days back, so those are not counted.
+- View counts are NexLev's rounded figures (e.g. 1.2M, 9.8K).
+- Uploads with a blank view count (members-only or not shown) are recorded as NA and left out of the normal; the normal_basis says how many.
+- The videos tab excludes Shorts; shorts_in_newest30 counts videos under 5:00 on that tab, not the Shorts tab.
+- Where fewer than 15 page-1 uploads are 5:00+ and 7+ days old, the normal uses those and normal_basis says so. Two channels (Only Hairstyles, Hairstyles cutting fashion) have no 5:00+ uploads on page 1, so no normal and ratio_vs_normal is blank.
+- NexLev counts a generated presenter as "not faceless", so a "not faceless" result on a brand-style channel was not taken as real_on_camera without other evidence.
+- No comments were read. No commenter names stored.
+
+## Odd things seen (descriptions, not judgements)
+
+- The same titles and title shapes recur across many faceless and AI channels in this list: "DON'T Get a Granny Cut! 5 Haircuts...", "The ONLY 5 Handbag Rules Women Over 60 Should NEVER Break", "10 Elegant Shoes For Women Who HATE Heels", "How To Wear Leggings Like A Mature Woman Over 60", "7 Modern Haircuts...", French-women-over-60 wardrobe lists, "brands better than Chico's", fine-hair volume.
+- Several channels have very large outliers against a tiny normal: Ageless Glamour 1M vs normal 114; Fashion For Seniors 263K vs 366; Style & Grace Over 60 141K at about 7 weeks old; Golden Ebony lifestyle 103K vs 294.
+- Old accounts (2011, 2013, 2019, 2023) carry only 2026 uploads on page 1 (reading: account reuse or restart).
+- Whispers Fashion & Styles switched from fashion to Old West romance stories in Sep 2026.
+- Pretty Over 60 posts identical titles twice and says it uses a "talking avatar".
+- Hairstyles cutting fashion mixes Spanish and English hashtag-stuffed titles; one is tagged #valorant.
+- Heather Anderson's biggest "core" item (3.4M) is a 0:53 upload on the videos tab and is titled "Over 40".
+- Earlier channels: see channels-3.csv notes (copied thumbnail layouts between Style In Her Prime and AgelessStyleTips; near-copied about texts; named "Linda Wright" persona on three channels; celebrity-likeness portraits and four-language sister channels on Dress like a Queen).
+- Labelling note: Heather Anderson (a "Fashion Over 40" channel) outliers were labelled core by channel audience, while Style Over 40's "over 40" titles were labelled off by title. Unlabelled haircut titles on Only Hairstyles were labelled off; unlabelled gray-hair titles on Joli Campbell were labelled core (gray hair taken as the age signal, reading). These are judgement calls a reviewer may want to align.

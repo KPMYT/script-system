@@ -63,3 +63,49 @@ Budget: at most 180 NexLev calls. Planned: 2 per kept channel, 3 per to-screen c
 - 54 MAKEOVERGUY: 3 calls (total 129)
 - 55 Loving Our Age: 3 calls (total 132)
 - 56 Good Dreams Only: 3 calls (total 135)
+- 57 Prime of your life: 3 calls (total 138)
+- 58 Little Miss Fashion: 3 calls (total 141)
+- 59 Busbee Style: 3 calls (total 144)
+- 60 Brittanybearmakeup: 3 calls (total 147)
+
+## Totals
+
+- Channels done: 60 of 60 (33 kept, 27 to-screen). Rows: channels-2.csv 60, outliers-2.csv 407.
+- NexLev calls used: 147 of 180 (2 per kept channel, 3 per to-screen channel). No failed calls, no retries, no limit or credit errors.
+- Keep result: 44 yes, 16 no. All 33 kept channels still pass; 11 of 27 to-screen channels pass.
+  - To-screen passes: WISE ELDER'S INSIGHT, Historias de Adobe, Adore Your Wardrobe, TIMELESS PEARL, Refined After 50, Loya the Fashion Queen, MAKEOVERGUY, Loving Our Age, Good Dreams Only, Prime of your life, Busbee Style.
+  - Four of these are off the 50+ style niche (WISE ELDER'S INSIGHT, Historias de Adobe, Loya the Fashion Queen, Prime of your life). The rule is metrics only, so they stay "yes" with the topic noted in keep_reason.
+  - TIMELESS PEARL and Refined After 50 pass only through the faceless-under-1-year-50K rule, and NexLev reads both as not faceless. The faceless call comes from the thumbnail reading.
+- Type split (reading): faceless_narrated 32, real_on_camera 21, ai_avatar 5, mixed 2, unclear 0.
+
+## Odd findings (descriptive)
+
+- Shared titles across channels on this list:
+  - 'The ONLY 5 Handbag Rules Women Over 60 Should Follow'
+  - '5 Glasses That Make Women Over 60 Look Instantly Younger'
+  - 'French Women Get More Beautiful With Age'
+  - '7 Dresses That Hide a Tummy After/Over 60'
+  - 'DON'T Cut Your Hair Short UNLESS...'
+  - 'How to Wear Leggings Like a Mature Woman Over 60'
+  - '5 Affordable Women's Brand(s) Everyone Ignores'
+  - 'Old Person Smell'
+  - 'Granny' glasses/lipstick
+  - 'STOP Wearing These 5 Earrings After 60'
+- The thumbnail wording 'Makes You 10x Younger!' appears on EverWise Older Women, Ageless Style Secrets, Fabulous After 50 and Evergreen Styles.
+- Repurposed or switched channels:
+  - Lisa beauty (joined 2019).
+  - French Fashion (chess upload).
+  - Melanin Elegance: joined 2015; all 25 uploads date from 2026.
+  - Historias de Adobe: the handle and about text are still a 60+ style channel ('Timeless Grace 60+'), but since ~2026-10-14 it posts Spanish/English drama stories. Its 59K keep-qualifying video is a story.
+- Videos tab nearly empty: Fashion Over 60 (1 of 12) and Gigi Your Stylist (2 of 86). The rest are presumably Shorts, which were not fetched.
+- Members-only uploads have no view count and are excluded from the normal (Prime of your life, and earlier rows).
+- Activity unclear:
+  - Little Miss Fashion: all newest 30 uploads read '1 year ago'.
+  - Brittanybearmakeup: newest Videos-tab upload is ~4 years old (Shorts not checked).
+- Worklist row UCBeEI6IogaHOvlVB47GKrcA had a garbled name field; NexLev returns 'Loya the Fashion Queen'.
+- Celebrity press photos are used as thumbnails (Little Miss Fashion; Loya the Fashion Queen uses runway/celebrity collages).
+- Extreme ratio_vs_normal values where the normal is low or built from collapsed recent uploads:
+  - All About Fashion 1229x
+  - Prime of your life 1202x (a 2023 video against a members-heavy recent feed)
+  - Classic Style 60+, Timeless Black Fashion, TIMELESS PEARL 443x
+- MAKEOVERGUY's outliers call returned only one 2x video because NexLev's average is 292K; several other 2026 uploads were 86K-114K.

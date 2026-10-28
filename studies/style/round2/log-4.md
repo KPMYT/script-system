@@ -56,3 +56,8 @@ Worklist: `round2/worklist-4.csv` (59 channels: 33 kept, 26 to-screen). Run date
 - 50 Feminine Over 50 With Mia: 3 calls (total 117); faceless check was a fresh analysis (not cached)
 - 51 Wraparound Plus: 3 calls (total 120); faceless check was a fresh analysis
 - 52 Daily Black Glow: 3 calls (total 123)
+- 53 Erica Taylor Beauty: 3 calls (total 126); faceless check was a fresh analysis
+- 54 Gray Hair Transition and Beyond: 3 calls (total 129); faceless check was a fresh analysis; keep set to no by hand (last upload '1 year ago', on the 12-month line)
+- 55 Timeless After 50 (now 'The Receipts And Reality'): 3 calls (total 132); 0 outliers returned
+- 56 The Life Of Hair: 3 calls (total 135); faceless check was a fresh analysis
+- 57 Styles By Summer: 3 calls (total 138); faceless check was a fresh analysis
