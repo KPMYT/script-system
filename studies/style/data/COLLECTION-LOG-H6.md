@@ -68,3 +68,38 @@ Normals are from `models/approved-models.csv` (taken from `round2/channels-all.c
    - First runs, note by note: 8 strings not found (three of my own labels in quote marks, such as over 50 and Americans do wash there; three quotes that crossed a music tag, including a last-40-words quote; one quote with a height mark inside it, which split into two strings) and 11 timestamp offsets over 3 seconds (mostly from reading a pasted transcript view one segment late; three were ambiguous price strings such as "$32" matched at their first occurrence). All were fixed by re-quoting clean parts, removing quote marks from labels or prices, or correcting the timestamp.
    - Final run: 710 quoted strings checked, 0 not found, 0 timestamp offsets over 3 s.
 3. **Username check.** A script compared all 373 commenter handles seen in the raw responses against every file I wrote: 0 matches. A search for "@" found only the channels' own handles in `meta.md`, Diana Goss's contact address in her description notes, and the header word "@handles" in each `comments.md`.
+
+## Second batch (2026-10-28, on the coordinator's request)
+
+Videos: the rows of `models/approved-models.csv` with helper = next: M29 Style With Serena (dFAGM7iBWRI) and M30 Dressed for My Day with Kay Harms (uBqNLIiLnv4), both picked from `models/item-list-search-2026-10-28.md` (real-presenter item list). Same method, folders and note sections as the first batch.
+
+### NexLev calls: 10 of 10 (running total 55)
+
+| Tool | Calls | Notes |
+|---|---|---|
+| youtube_video_details | 2 + 1 self-check = 3 | all succeeded |
+| get_bulk_video_transcripts | 1 | 2 IDs, 2 of 2 returned ("English (auto-generated)"); saved to a file by the harness and parsed with `python3 -I`; not a failure |
+| youtube_video_comments | 6 | top + newest + top page 2 for each |
+
+### Videos collected (2 of 2, both with transcripts)
+
+| Model | Channel | Video | Upload date | Views | ÷ normal | Duration | Transcript | Comments shown / collected |
+|---|---|---|---|---|---|---|---|---|
+| M29 | Style With Serena | dFAGM7iBWRI | 2026-09-20 | 640,094 | 13.34 (48,000) | 26:49 | yes, 646 seg | 1.3K / 46 |
+| M30 | Dressed for My Day with Kay Harms | uBqNLIiLnv4 | 2025-12-18 | 78,099 | 3.12 (25,000) | 20:28 | yes, 537 seg | 227 / 45 |
+
+Normals are the csv values (48,000 and 25,000, from `round2/channels-all.csv`); views ÷ normal uses the exact views from the first details call. Missing transcripts: none.
+
+### Notes for the main session
+
+- Both presenters are real women on camera (first-person speech, try-on narration, comments addressing "Serena" and "Kay"); 0 AI remarks on either.
+- M29 says no age at all in speech (the description hashtag is #midlifestyle). Its round-2 channel status is "to-screen", not "kept". The title promises 5 outdated styles; the speech covers five categories plus wedges, mules, textures and animal print as trends. It is product-dense (dozens of named shoes, a Kizik code, a $398 Frye boot) and has no subscribe ask.
+- M30 is a how-to demonstration (5 scarf types, 10 ties, 6 tips), not a mistakes list; "women over 50" is said once (0:41). The last 1:47 is channel housekeeping (memberships, a members-only Bible study, holiday break). Two of the five scarf types get one tie each, against the "at least two or three ways" promise.
+- Comments: M29's are dominated by "wear what you want" pushback (top comment 1K likes) and foot-comfort objections to flats; M30's by viewers who own scarves they never wear, plus thanks. No spam on either.
+- Notes run 1,406 and 1,256 words by `wc -w`, like the first batch.
+
+### Self-checks
+
+1. One fresh details call: dFAGM7iBWRI matched exactly (640,094 views, 8,602 likes, 1,609 s, 2026-09-20).
+2. Quote verification (same `python3 -I` script, same rules): first runs found 3 strings not found (one quote crossing a "[clears throat]" tag, one with an ellipsis joining two spans, one nested quote) and 0 timestamp offsets; all fixed by re-quoting clean parts. Final run: 120 quoted strings across the two notes, 0 not found, 0 timestamp offsets over 3 s.
+3. Username check: none of the 90 commenter handles from these two videos appears in any file written; "@" appears only in the channels' own handles in `meta.md` and the "@handles" header word.
