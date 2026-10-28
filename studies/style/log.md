@@ -68,3 +68,9 @@
 ## Handover (2026-10-28)
 
 - Session 12 ends here. Open: the operator's model picks (S1), the three packs (S2), the name in scripts (S3), age brackets (S4), production points (S5); see `SESSION-HANDOVER.md`.
+
+## Round 6: the models (session 13, 2026-10-28)
+
+- The operator's answers (HANDOFF §3, session 13 block): picks left to Claude; a faceless section of 5-10 outliers on other topics; hair and fashion one pack for now ("the emotions are the same right? compare scripts"); S3, S4, S5 settled. P18 records the model floors.
+- **The picks** (`models/approved-models.csv`): 28 real-presenter models (M01-M28; 12 hair, 15 fashion, 1 French angle), 13 of them already collected; 8 faceless structure-only models (F01-F08: glasses, earrings, shoes, colors, the French way, the national lens, hacks, blouses; all 300K+), 5 already collected. Row 15 of `candidates-for-review.md` was marked "already in the study" but isn't (the study has Adore Your Wardrobe's `vBsFMkGDbhA`); corrected.
+- Helpers started: H5 and H6 collect the 18 new videos (details, transcripts, comments, notes; at most 45 and 55 calls); H7 searches for real-presenter jewelry, glasses and earring videos (at most 30 calls); sweeps A (the library against the style evidence) and B (the two persona profiles) write notes into `pack-diagnosis-2026-10-28/` for the diagnosis draft (no calls).

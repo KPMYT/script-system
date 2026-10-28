@@ -347,6 +347,17 @@ From the operator's reply to `studies/style/comparison/README.md`.
 
 - **Model sources widened (2026-10-28, same day):** "we can include him for sure. hes really good to understand what they like, understand hes a hair stylist himself" (Justin Hickox, a male hairdresser for women over 50); "for our study we can broaden to 24 months and even more for a few big outliers." *Reading recorded:* real people presenting to women over 50, men included, from the last 24 months, plus a few big older outliers. Voice samples stay with real women (a man's voice doesn't carry to a woman persona). Each model is still verified by the operator.
 
+### Operator decisions, 2026-10-28, session 13 (the style models and the pack split)
+
+From the operator's reply to S1-S5 and Q0 (`SESSION-HANDOVER.md`, session 12): "ok good, your call on the rest … We can also have a feceless section in this on 5-10 faceless outliers on other topics … hair fashion makeup seperate packs but for now hair and fashion will be one pack. the emotions are the same right? compare scripts … s3 - we dont mention the name anyway in the scripts … s4 - yes thats fine … s5 - ignore all for now, not your problem".
+- **The model floors (Q0, P18):** "your call" read as a yes. Real-presenter style models are outliers (about 2.5x normal or more), 5:00+, about 70K+ views, last 24 months plus a few big older outliers, nothing before 2022. This replaces "1M+ views" for real style models; faceless keeps 300K+.
+- **The picks (S1):** left to Claude. 28 real-presenter models (12 hair, 15 fashion, 1 French angle), `studies/style/models/approved-models.csv` (M01-M28); Rami Jabali and MAKEOVERGUY out; a targeted search for real jewelry, glasses and earring videos run (S1b).
+- **A faceless section (new):** 5-10 faceless outliers on topics the real models don't cover (glasses, earrings, shoes, colors, the national lens, hacks, blouses), 300K+; F01-F08 in the same file. *Reading recorded:* structure only, never voice or wording, like plumbing's structure-only models; the real presenters stay the source for voice and emotion.
+- **Packs (S2):** hair, fashion and makeup are separate packs in the end, but **for now hair and fashion are one pack** (as the study plan first had it). The operator asks whether the emotions are the same for hair and fashion: answered by comparing the scripts before the pack is drafted.
+- **The name (S3):** the scripts never say the channel's name, so no spelling is needed in them.
+- **Age brackets (S4):** one shared emotion set with a light over-70 lean (comfort, mobility, the older client), as `studies/style/comparison/07` suggests.
+- **Production (S5):** "ignore all for now, not your problem". The accents, the disclosure line's "He" and the website link are not this library's work.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

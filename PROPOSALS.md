@@ -198,3 +198,13 @@ The study supports the narrow form of both: a tenure stated the same way every t
 **Also, to match:** "Point then promise" reads "Nothing is promised in the opening, apart from the count line or the escalation line (operator, 2026-10-25 and 2026-10-27)"; a check (test 46) that the escalation line is in the pack; a HANDOFF section 3 entry.
 
 **Status:** approved by the operator on 2026-10-27: "yes its good as long as its not a hard rule and it can vary based on topic and format and there is still rotation in the hooks". Applied as an option, not a rule, with the rotation stated in the text. (Replaces the first draft of 2026-10-27, "the range opening", which also had a kit line, a transfer line and a myth flip; the operator narrowed it to the two moves.)
+
+## P18. Style model floors: the later model instructions replace "1M+ views, 2022 on" (opened and decided 2026-10-28, session 13)
+
+**Decision it touches (HANDOFF.md §3, "Operator decisions, 2026-10-28 (the style niche study)"):** "Floors as electrical: videos from 2022 on; models from 1M+ views on real channels, 300K+ on faceless."
+
+**Evidence:** the operator's later answers the same day asked for models from "outliers of the last 12 months, 20-30 of them", then "broaden to 24 months and even more for a few big outliers", real people only. Of the 72 candidates built on those words (`studies/style/models/candidates-for-review.md`), 17 have 1M+ views, most of them older, and one (row 72, Busbee Style) is from 2020. 20-30 recent models can't meet a 1M floor.
+
+**Proposal:** for style model scripts from real presenters, the floor is an outlier (about 2.5x the channel's normal or more), 5:00 or longer, about 70K views or more, from the last 24 months plus a few big older outliers; nothing before 2022. The faceless floor (300K+) stays, for the faceless section the operator added the same day.
+
+**Status:** decided by the operator on 2026-10-28: asked as Q0 with S1, answered "ok good, your call on the rest". Read as a yes; recorded in HANDOFF §3 (session 13 block).
