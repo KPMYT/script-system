@@ -45,3 +45,35 @@ Each helper also writes `discovery/raw/<lane>-log.md`: every search run (tool, q
 Outliers against each kept channel's normal, the video-type map, then the script and comment study (the HVAC method, `studies/hvac/study-brief.md`). Briefs for those follow once the master channel list is approved.
 
 **Normal (for later phases):** the median of exact views of a channel's 15 most recent long-form uploads (5:00 or longer, not Shorts) that are at least 7 days old.
+
+## Round 2 (2026-10-28, after the NexLev top-up): finish the screen and collect the outliers
+
+Every channel in `round2/worklist-N.csv` gets the same treatment: the 198 kept channels (`status` kept) and the 159 found but not screened (`status` to-screen, from the lane logs and the operator's list). Six helpers, one worklist each.
+
+**Calls per channel (NexLev is now paid, $0.02 a call: stay at or under 180 calls per helper):**
+1. `youtube_channel_outliers` (`max_videos` 100, `min_outlier_threshold` 2): the channel's about data (subscribers, total views, joined date, video count, NexLev's average views) and its outlier videos.
+2. `youtube_channel_videos`, sort `newest`: last upload, uploads in the last 90 days, and the **normal** (the median views of the 15 most recent uploads of 5:00 or longer that are at least 7 days old; if fewer qualify, use all that do and say so). Also record how many of the newest 30 are under 5:00 (the Shorts share).
+3. `check_faceless_channel` only for to-screen channels. **NexLev reads a generated presenter as "not faceless"**, so its answer can't tell real women from AI.
+4. Then the **thumbnail reading** (free, no NexLev call). Download two outlier thumbnails (`https://i.ytimg.com/vi/<id>/hqdefault.jpg`) with curl into a new folder under the scratchpad, and look at them with the Read tool. Set `type` from what is visible:
+   - `real_on_camera`: the same photographic woman, consistent across videos, plus a named presenter in the about text or title
+   - `ai_avatar`: a generated-looking presenter
+   - `faceless_narrated`: no presenter (outfit collages, models, stock)
+   - `mixed` or `unclear` otherwise
+
+   Always give the basis.
+
+**Output** (append a row after each channel, so nothing is lost if the run is cut short):
+- `round2/channels-N.csv`:
+  ```
+  channel_id,channel_name,handle,status_in,subscribers,total_views,joined,video_count,nexlev_avg_views,normal,normal_basis,last_upload,uploads_last_90d,shorts_in_newest30,type,type_basis,nexlev_faceless,presenter_note,lane,audience_fit,keep,keep_reason,notes
+  ```
+  `keep` applies the Phase 2 rule (active in the last 12 months; 10K+ subscribers or a 100K+ video since 2022; a faceless or AI channel under a year old with a 50K+ video). Kept rows are re-checked by the same rule.
+- `round2/outliers-N.csv`: every outlier video the tool returns, one row each:
+  ```
+  channel_id,channel_name,video_id,title,views,publish_date,length,nexlev_ratio,ratio_vs_normal,since_2022,on_topic,topic_note
+  ```
+  - `on_topic` is `core` (hair, fashion, accessories or color for women 50+), `adjacent` (makeup or skincare for mature women), or `off` (anything else, such as health, fitness or lifestyle).
+  - `ratio_vs_normal` is views divided by the normal from call 2. `nexlev_ratio` is the tool's own figure (views against the channel's mean).
+- `round2/log-N.md`: calls used, failures, anything odd.
+
+The helpers never edit `discovery/`, `inputs/` or another helper's files.
