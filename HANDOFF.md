@@ -319,6 +319,17 @@ Asked as multiple choice; the operator picked:
 - **R21, a drywall repair video, is a plumbing model, marked not plumbing** ("add as reference script in skills of plumbing with the caveat its not plumbing but we can take inspo from it"). It holds only the two opening moves the operator likes, with no script and no beat map ("i dont wnat these").
 - **The escalation line (P17; P11 on its own branch), an option, not a rule:** "i simply like the way he clearly introduces the problem and explains the escalation of the video very clear and simple"; "yes its good as long as its not a hard rule and it can vary based on topic and format and there is still rotation in the hooks". Where a video runs from a small case to a big one, the opening can introduce the problem in one plain sentence and say in one more where the video starts and where it ends up. It names the two ends, never what an item holds, so P10 stands; it stands in for or carries the count line, and rotates like any opening shape. No name intro ("the hook just the hook not the naming himself"). Applied to `plumbing-scripts/SKILL.md` (test 46).
 
+### Operator decisions, 2026-10-28 (the style niche study: Scarlet Sterling and Diane de Chambray)
+
+From the operator's answers to the six questions in `drafts/style-study-plan-DRAFT.md` §4.
+- **The plan is approved** ("yes good").
+- **The repository question is still open:** the operator asked what it meant ("is this not main?"). Explained in chat; the discovery is collected in `studies/style/` here for now and moves to `KPMYT/niche-research` if the operator says so.
+- **Faceless and AI channels:** "both we just study for now then we can come to conclusions after." Real and faceless channels are both collected and labelled; which ones may serve as models is decided after the study.
+- **Our own channels:** "scrape then". The baseline comes from public data (uploads, views, transcripts, comments); no NexLev channel connection or old scripts.
+- **English-language channels only.**
+- **Floors as electrical:** videos from 2022 on; models from 1M+ views on real channels, 300K+ on faceless.
+- **Two packs later:** hair and fashion as one pack; makeup and skincare as their own pack later ("that would make most sense"). Makeup and skincare channels are scanned in this study, labelled `adjacent`.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.
