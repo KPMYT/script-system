@@ -61,3 +61,5 @@ Date: 2026-10-28. Thumbnails in the helper's scratchpad folder (round2-h5/thumbs
 | 52 | Fashion Mantika | 3 | 127 | ok |
 | 53 | Kristi Allure | 3 | 130 | ok; about lists an email flag (not stored) |
 | 54 | Living Your Best Life | 4 | 134 | ok; 4th call popular sort (under 10K subs, scan max 96K, 176 videos); found 319K video, so kept; added 3 popular-sort videos at 2x+ NexLev avg with blank NexLev ratio; about lists an email flag (not stored) |
+| 55 | Hairstyleslife | 3 | 137 | ok; all newest-30 under 5:00 and dated '1 year ago' |
+| 56 | Hair Cut | 3 | 140 | ok |

@@ -149,3 +149,6 @@ Method: study-brief.md "Round 2". NexLev budget: 180 calls.
 | 140 | 10 Years Younger | youtube_channel_outliers | ok |
 | 141 | 10 Years Younger | youtube_channel_videos newest | ok |
 | 142 | 10 Years Younger | check_faceless_channel | ok |
+| 143 | Confident Beauty 50+ | youtube_channel_outliers | ok |
+| 144 | Confident Beauty 50+ | youtube_channel_videos newest | ok |
+| 145 | Confident Beauty 50+ | check_faceless_channel | ok |

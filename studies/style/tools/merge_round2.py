@@ -7,7 +7,9 @@ import csv, glob, re, collections, statistics
 AUDIENCE = {
     'fail': {"WISE ELDER'S INSIGHT": 'retirement money', 'Historias de Adobe': 'drama stories since mid-October 2026',
              'Loya the Fashion Queen': 'general and celebrity trends', 'Prime of your life': 'menopause nutrition',
-             'Whispers Fashion & Styles': 'switched to Old West stories in September 2026'},
+             'Whispers Fashion & Styles': 'switched to Old West stories in September 2026',
+             'Older Line Podcast With Penelope': 'posed photos in stockings and short dresses, framed as 50+ fashion (helper 4 reading; against the niche hard rule on suggestive framing)',
+             'Feminine Over 50 With Mia': 'posed photos in stockings and short dresses, framed as 50+ fashion (helper 4 reading; against the niche hard rule on suggestive framing)'},
     'partly': {'All Fashion Milano': 'street style, no age marker', 'Curiosity Street Style': 'street style, no age marker',
                'Lisa Eldridge': 'broad makeup', 'Style With Serena': 'one "over 40" hit', 'Glam Guide': 'one 3:39 over-50 compilation'},
 }

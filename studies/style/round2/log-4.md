@@ -63,3 +63,50 @@ Worklist: `round2/worklist-4.csv` (59 channels: 33 kept, 26 to-screen). Run date
 - 57 Styles By Summer: 3 calls (total 138); faceless check was a fresh analysis
 - 58 Pampered Wolf: 3 calls (total 141); faceless check was a fresh analysis
 - 59 Stylish Curves: 3 calls (total 144); faceless check was a fresh analysis
+
+## Summary
+
+- Channels done: 59 of 59 (rows 1-59 in `channels-4.csv`, same order as the worklist; no duplicates). Outlier rows: 373 in `outliers-4.csv` (core 253, adjacent 89, off 31).
+- NexLev calls used: 144 of 180 (33 kept rows x 2, 26 to-screen rows x 3). No call failed and no limit or credit error came back. Two calls at row 18 were rejected by the tool schema before reaching NexLev (wrong parameter name) and are not counted.
+- Keep result: 41 kept, 18 not kept. Of the 33 worklist 'kept' rows, 31 stayed kept; of the 26 'to-screen' rows, 10 were kept.
+- Type split (all 59): faceless_narrated 29, real_on_camera 25, ai_avatar 3, mixed 2. Kept only: faceless_narrated 19, real_on_camera 18, ai_avatar 3, mixed 1.
+
+### Not kept, with reasons
+
+| # | Channel | Reason |
+|---|---|---|
+| 23 | The Style Edit | 3,710 subs, top 28K |
+| 31 | Haircut for Women Over 45 | 989 subs, top 8.5K |
+| 37 | Chic60Plus | 685 subs, top 33K (young faceless, needs 50K) |
+| 38 | Mature Women's Style | 60 subs, top 1.4K |
+| 39 | Stylish Over 60 Plus | 191 subs, top 8K |
+| 40 | Traci Jeske | 468 subs, top since 2022 1.2K |
+| 41 | After 60 wardrobe | 8 subs, top 284 |
+| 42 | ziliottodesign | 3,090 subs, top 14K |
+| 43 | Timeless Style After 60 | 625 subs, top 6.1K |
+| 44 | Ageless Chic | 12 subs, top 1.1K |
+| 45 | Michelle Shelly / Fashion over 60 | 6,490 subs, top since 2022 41K |
+| 49 | Melanin Majesty | 9,740 subs (just under 10K), top 64K; joined 2025-02, so the young rule does not apply |
+| 51 | Wraparound Plus | 5,980 subs, top 39K |
+| 52 | Daily Black Glow | 31 subs, top 729 |
+| 53 | Erica Taylor Beauty | no upload in 12 months (last about 2024-10) |
+| 54 | Gray Hair Transition and Beyond | newest upload shows '1 year ago' (on the 12-month line); keep set to no by hand, flagged borderline |
+| 55 | Timeless After 50 (now 'The Receipts And Reality') | 5,530 subs, single video 97K (just under 100K) |
+| 56 | The Life Of Hair | 119K subs but no upload in 12 months (last about 2024-10) |
+
+### Odd items
+
+- All dates come from NexLev relative times ('1 month ago' and so on), so they are approximate. Many uploads share the same date, and the since-2022 test is approximate for '4 years ago' videos.
+- Videos-tab metadata often reports '31' videos whatever the real count. Some channels put Shorts-length uploads on the videos tab (row 53 is entirely 1-3 min videos, so normal could not be computed). The Shorts tab was not checked.
+- Outlier scans cover only the 100 most recent videos. Four channels returned 0 outliers (rows 5, 9, 13, 55).
+- Some uploads returned 0 views and are left out of normal (noted in normal_basis).
+- Row 42's outlier result was too large for the tool output and was read from the saved result file.
+- A cluster of new over-60 faceless channels share titles word for word and use generated women in their thumbnails: rows 19, 24, 29, 30, 35, 37, 38, 39, 41, 43, 44, 47, 48, 49 and the single video on 55. Examples: 'How To Style Wide-Leg Pants and look Elegant', 'Stop Buying More Clothes: 7 Elegant Wardrobe Essentials for Women Over 60', '10 Elegant Shoes For Women Who HATE Heels', '9 Swaps to Make Your Fall Outfits Look Modern in 2026', 'DON'T Get a Granny Cut'. Row 43 uploads the same title several times under different ids.
+- NexLev's faceless check often reads generated faces as 'not faceless' (rows 35, 37, 38, 39, 43, 48, 49, 55). It reads row 56 (a hairdresser filming clients) as faceless.
+- Rows 33 and 50 rest on posed photos of women in stockings and short dresses framed as '50+ fashion'. All their outliers are marked off on an audience reading. Row 50 is kept on the 100K rule (129K). Both are flagged for main-session review.
+- Row 55's channel id now carries another name and topic (cost-of-living commentary) with one haircut video left.
+- Row 53 may be an older account of kept row UCTxMakpAk-pNwySUepxS3SQ (worklist note; not cross-checked).
+- Row 27 (Second Bloom) is kept only on the young-AI rule, so the keep depends on the ai_avatar reading.
+- Row 54's keep was set by hand against the script's 365-day arithmetic.
+- Several channels build thumbnails from other people's photos (rows 28, 36, 42, 46, 59, reading).
+- Thumbnail text does not match the title on rows 41, 52 and 58.
