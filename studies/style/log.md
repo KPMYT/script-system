@@ -31,3 +31,4 @@
 
 - The operator approved the mix and the copycat pairs ("yes thats good for us to study") and confirmed purely style, no makeup (HANDOFF §3).
 - Draft list: `inputs/study-videos-DRAFT.md`, 45 videos (39 by type: 21 real, 15 faceless, 3 AI presenter; plus three copycat pairs). Pair flops found through YouTube's public search: each pair title has about 20 near-identical copies in the first 20 results, and two channels posted the blouse title more than once (Age with Style 1,107,952 and 7,133; Chic After 60 490,791, 19,176 and 7,764). Waiting for the operator's yes.
+- **Approved by the operator ("yes go ahead").** The list is `inputs/study-videos.md`, with helper assignments in `inputs/videos.csv` (4 helpers, 11-12 videos each, one helper per channel). Brief: `study-brief.md` "Round 3".

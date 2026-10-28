@@ -1,6 +1,6 @@
-# Script and comment study: the video list (DRAFT for the operator's yes)
+# Script and comment study: the video list (approved 2026-10-28)
 
-The video list, drafted 2026-10-28 from `../round2/BREAKOUT-MAP.md` and the operator's approved mix: hair and fashion only, no makeup. Nothing is collected until the operator says yes.
+The video list, drafted 2026-10-28 from `../round2/BREAKOUT-MAP.md` and the operator's approved mix: hair and fashion only, no makeup. Approved by the operator on 2026-10-28 ("yes go ahead").
 
 - **Views and lengths** are NexLev's (rounded); the pairs' views are exact, from YouTube search. Dates are rough.
 - **Type** is the round-2 thumbnail reading. "Real" means a woman (or a stylist) on camera; "faceless" and "AI presenter" are the format peers of our channels.

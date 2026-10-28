@@ -77,3 +77,62 @@ Every channel in `round2/worklist-N.csv` gets the same treatment: the 198 kept c
 - `round2/log-N.md`: calls used, failures, anything odd.
 
 The helpers never edit `discovery/`, `inputs/` or another helper's files.
+
+## Round 3 (2026-10-28): the script and comment study
+
+The 45 approved videos are in `inputs/study-videos.md` and `inputs/videos.csv`. The `helper` column assigns each video; every channel belongs to one helper. The method is the HVAC study's (`../hvac/study-brief.md`), with style's own note sections.
+
+**Tools (NexLev, paid; at most 60 calls per helper):**
+- `youtube_video_details`: exact views, likes, date, duration, description
+- `get_bulk_video_transcripts`: up to 10 IDs per call; `get_video_transcript` if one is missing
+- `youtube_video_comments`: sort top and sort newest, one page each, plus one more page of top when it returns a continuation token
+
+The channel's **normal** comes from `round2/channels-all.csv` (look up the channel ID). Compute it fresh only if the channel isn't there (Ageless Confidence): use one `youtube_channel_videos` newest call and the rule above.
+
+If a video has **no transcript**, keep its meta and comments, write no notes, and say so in your log. The main session swaps in a reserve.
+
+**For every video, in `data/<channel_slug>/<video_id>/`:**
+- `meta.md`:
+  - title, channel, handle, video ID and URL
+  - the study group and why it was picked (from `videos.csv`)
+  - upload date, duration, exact views and likes, and the collection date
+  - the channel's normal, and views ÷ normal
+  - age at collection
+  - type (from round 2) and the presenter, as heard in the transcript (first-person name, gender)
+  - transcript source and segment count
+  - comments shown and collected
+  - the AI disclosure line in the description, if there is one, quoted
+- `transcript.txt`: one line per segment, `[m:ss] text`
+- `comments.md`: text and like counts only, **never usernames**. Mark the owner's replies `[OWNER]` and skip spam.
+
+**Notes (`notes/<channel_slug>__<video_id>.md`, about 500-800 words, describing only):**
+- **Basics:** title, views ÷ normal, duration, words, words per minute, type, group.
+- **Structure map:**
+  - the hook: its words and seconds, quoted in full if under 80 words
+  - when the first real item lands
+  - every segment with its start time and approximate word count
+  - the number of items and their typical length in words
+- **Voice:**
+  - the authority line (who she says she is), quoted
+  - "you" against "I"
+  - personal stories
+  - any group cast as the adversary, quoted (salons, stylists, "the fashion industry", "Americans", younger women, the viewer's past self)
+- **The feelings voiced:** up to six short quotes with timestamps, each labelled in a word or two (invisible, older than she feels, frumpy, confidence, being seen, money, belonging, rebellion, permission).
+- **Reassurance and shame:** "nothing is wrong with you" lines, and any lines that could read as shaming the viewer or other women. Quote both.
+- **The age in speech:** how often an age or "over 60" is said, quoted with examples.
+- **Visuals in words:** does the narration name what should be on screen? Two examples.
+- **Products, brands, stores and prices** named.
+- **Promises and payoffs:** what the opening promises, and where (or whether) each promise is paid.
+- **CTAs and the ending:** timestamps and wording quoted; the last 40 words quoted.
+- **The French or national lens**, where there is one: the claims made about French (or other) women, quoted, and how they are hedged.
+- **Standout lines:** up to three, two sentences each at most.
+- **Comments:**
+  - recurring themes with rough counts, and the questions viewers ask
+  - the ages viewers give
+  - what they say they'll change or have changed
+  - pushback or corrections, quoted with likes
+  - any "AI" or "fake" remarks, quoted with likes and counted
+
+**Each helper also writes `data/COLLECTION-LOG-H<n>.md`:** calls used, failures, swaps needed. Before finishing, run a self-check:
+- three fresh details calls
+- a script (`python3 -I`) that finds every quoted string in the notes in its transcript or comments file
