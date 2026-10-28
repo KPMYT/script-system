@@ -31,7 +31,7 @@ Failures: none. No retries. No limit or credit errors. Normals all taken from `r
 | WgkP3h4QWpg | MAKEOVERGUY | auto, 237 | 1K | 43 (43 + 0) | 0 |
 | YeKT0zkdIrw | Chic After 60 | auto, 675 | 261 | 43 (43 + 0) | 0 |
 
-Comments are top-level only (the tool returns no replies). Owner comments are marked `[OWNER]`. Comments from accounts whose names read like style or over-50 channel names are marked `[account named like a style channel]`; the names themselves are not stored. 30 such comments across my 11 videos, 11 of them on YeKT0zkdIrw. No usernames are stored anywhere.
+Comments are top-level only (the tool returns no replies). Owner comments are marked `[OWNER]`. Comments from accounts whose names read like style or over-50 channel names are marked `[account named like a style channel]`; the names themselves are not stored. 31 such comments across my 11 videos, 11 of them on YeKT0zkdIrw. No usernames are stored anywhere.
 
 ## Self-check
 
