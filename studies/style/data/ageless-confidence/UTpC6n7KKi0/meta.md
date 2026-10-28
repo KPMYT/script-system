@@ -1,0 +1,26 @@
+# Stop Styling Your FINE HAIR Like This After 60! 5 Secrets for Instantly Fuller Volume
+
+- Channel: Ageless Confidence (@AgelessConfidence-j2m, UCxw2jFWBftkpRkFE4EC9W-Q)
+- Video ID: UTpC6n7KKi0
+- URL: https://www.youtube.com/watch?v=UTpC6n7KKi0
+- Study group: Pair B: same title, same month (videos.csv row 43, type listed there: not checked; why: a copy that flopped; 3mo ago)
+- Title as listed in videos.csv: Stop Styling Your FINE HAIR Like This After 60! 5 Secrets for Instantly Fuller V…
+- Upload date: 2026-07-16 (youtube_video_details publishDate: 2026-07-16T11:30:17-07:00)
+- Duration: 14:37 (877 s)
+- Views (exact, youtube_video_details): 1,048
+- Likes (exact, youtube_video_details): 13
+- Category: People & Blogs
+- Collection date: 2026-10-28 (details pulled about 06:35 UTC)
+- Age at collection: 103.5 days (103 full days)
+- Channel normal: 409 (computed fresh 2026-10-28 from one youtube_channel_videos newest call: median of the 15 newest uploads that are 5:00+ and 7+ days old (all 16 listed are 5:00+; the newest, 10 hours old, excluded); views as NexLev rounds them)
+- Views ÷ normal: 2.56
+- Type: not checked in round 2 (channel not in round 2)
+- Presenter as heard in the transcript: one first-person narrator, a hairstylist by own account ("in my chair"); gender and name not stated in the speech; client stories name "Susan" and "Diane"
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 389
+- Comment count shown by YouTube: 1
+- Comments collected: 1 top-level (1 viewer, 0 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (1 kept), no continuation token, so no top page 2, newest page 1 (0 new after de-duplication)
+- Description first line: DESCRIPTION
+- Description notes: Description begins with the literal word 'DESCRIPTION' then hashtags. 'A longtime hairstylist breaks down the five daily habits secretly flattening fine hair after 60'; bullet list of six 'Inside this video' points incl. 'Two real client transformations, two weeks, same amount of hair, completely different result'; 'Drop a comment and tell me which of the five secrets surprised you the most, I read every single one.'; disclaimer 'isn't a substitute for advice from a licensed dermatologist or trichologist'.
+- AI disclosure line in the description: none (no disclosure line in the description)

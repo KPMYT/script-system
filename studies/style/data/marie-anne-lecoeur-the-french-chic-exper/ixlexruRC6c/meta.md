@@ -1,0 +1,26 @@
+# 7 Things That Scream 'Old Lady' (Harsh But True): Style Over 50
+
+- Channel: Marie-Anne Lecoeur - The French Chic Expert (@MarieAnneLecoeur, UC3iINwXX6oQ0DqfE1SQ-S-w)
+- Video ID: ixlexruRC6c
+- URL: https://www.youtube.com/watch?v=ixlexruRC6c
+- Study group: Style mistakes that age you (videos.csv row 3, type listed there: real; why: a real French stylist; also on 3 copycat channels)
+- Title as listed in videos.csv: 7 Things That Scream 'Old Lady' (Harsh But True): Style Over 50
+- Upload date: 2025-08-17 (youtube_video_details publishDate: 2025-08-17T12:00:38-07:00)
+- Duration: 8:02 (482 s)
+- Views (exact, youtube_video_details): 1,038,117
+- Likes (exact, youtube_video_details): 16,665
+- Category: Howto & Style
+- Collection date: 2026-10-28 (details pulled about 06:35 UTC)
+- Age at collection: 436.5 days (436 full days)
+- Channel normal: 84,000 (round2/channels-all.csv: median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views ÷ normal: 12.36
+- Type: real_on_camera (round 2; basis: reading: same photographic short-haired woman in both outlier thumbnails (ixlexruRC6c, MWQ6T1wURJU); channel named for presenter Marie-Anne Lecoeur)
+- Presenter as heard in the transcript: one woman, first person, on camera (round 2); she refers to herself as "Marian" in the captions (Marie-Anne); speaks as a French woman in France ("Here in France, we women")
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 138
+- Comment count shown by YouTube: 3K
+- Comments collected: 42 top-level (41 viewer, 1 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (20 kept), top page 2 via continuation token (3 new after de-duplication), newest page 1 (19 new after de-duplication)
+- Description first line: Are you ready for some tough love style advice? Here are the 7 things you are wearing  that age you faster than anything else. And what to wear instead for a more youthful appearance.
+- Description notes: Description links a free 'SHAPE UP!' ecourse, 15 affiliate 'LINKS TO YES PIECES', website and French Chic Masterclass, Style & Gratitude Journals, Amazon storefront. Self-description: 'Bonjour, I am Marie-Anne Lecoeur a fully trained personal stylist and member of The Federation of Image Professionals. I have written two best-selling Amazon books on style'. Disclaimer: 'This video is NOT SPONSORED and some of the above links are affiliate links, whereby I earn a small commission from any sale.'
+- AI disclosure line in the description: none

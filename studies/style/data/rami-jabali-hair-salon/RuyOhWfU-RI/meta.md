@@ -1,0 +1,26 @@
+# ✨ The Hair Effect: The Fastest Way to Transform Your Face ✨
+
+- Channel: Rami Jabali Hair Salon (@ramijabali-hairsalon, UCKrmuPD_1zWor70lKcCMxYw)
+- Video ID: RuyOhWfU-RI
+- URL: https://www.youtube.com/watch?v=RuyOhWfU-RI
+- Study group: Makeovers (videos.csv row 39, type listed there: real; why: blank)
+- Title as listed in videos.csv: ✨ The Hair Effect: The Fastest Way to Transform Your Face ✨
+- Upload date: 2026-05-03 (youtube_video_details publishDate: 2026-05-03T11:01:32-07:00)
+- Duration: 11:00 (660 s)
+- Views (exact, youtube_video_details): 714,306
+- Likes (exact, youtube_video_details): 10,601
+- Category: Howto & Style
+- Collection date: 2026-10-28 (details pulled about 06:35 UTC)
+- Age at collection: 177.5 days (177 full days)
+- Channel normal: 48,000 (round2/channels-all.csv: median of 15 newest uploads 5:00+ and 7+ days old (videos tab, newest page; views as NexLev rounds them))
+- Views ÷ normal: 14.88
+- Type: real_on_camera (round 2; basis: thumbnails qwM0s0Q3Rjw, RuyOhWfU-RI: same photographic male stylist with a different woman client each time (one with long silver hair); named salon/stylist in title (reading))
+- Presenter as heard in the transcript: two voices: a male stylist (Rami Jabali per the channel; not named in the speech) and one woman client with greying hair (not named; "At my age you've done everything")
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 324
+- Comment count shown by YouTube: 872
+- Comments collected: 41 top-level (41 viewer, 0 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (20 kept), top page 2 via continuation token (1 new after de-duplication), newest page 1 (20 new after de-duplication)
+- Description first line: ✨ The Hair Effect: The Fastest Way to Transform Your Face ✨
+- Description notes: Numbered essay (hair frames the face; removing damage; 'Many people go for Botox, fillers, or heavy makeup first'; holding onto damage; confidence shift). Booking via WhatsApp/phone/online; location W Hotel, Palm Jumeirah, Dubai; own Anti-Frizz Treatment ('Coming Soon: Retail-size version'); prices page ('Final prices are determined after seeing your hair in person'). Many hashtags incl. #grayblending #grayhair.
+- AI disclosure line in the description: none

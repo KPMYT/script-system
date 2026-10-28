@@ -1,0 +1,26 @@
+# How To Look Slimmer: The MOST EFFECTIVE Style Tips For Women Over 50
+
+- Channel: Marie-Anne Lecoeur - The French Chic Expert (@MarieAnneLecoeur, UC3iINwXX6oQ0DqfE1SQ-S-w)
+- Video ID: G-RW7ih19Y4
+- URL: https://www.youtube.com/watch?v=G-RW7ih19Y4
+- Study group: Body shape (videos.csv row 19, type listed there: real; why: blank)
+- Title as listed in videos.csv: How To Look Slimmer: The MOST EFFECTIVE Style Tips For Women Over 50
+- Upload date: 2025-06-15 (youtube_video_details publishDate: 2025-06-15T11:00:23-07:00)
+- Duration: 16:28 (988 s)
+- Views (exact, youtube_video_details): 547,210
+- Likes (exact, youtube_video_details): 14,523
+- Category: Howto & Style
+- Collection date: 2026-10-28 (details pulled about 06:35 UTC)
+- Age at collection: 499.5 days (499 full days)
+- Channel normal: 84,000 (round2/channels-all.csv: median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views ÷ normal: 6.51
+- Type: real_on_camera (round 2; basis: reading: same photographic short-haired woman in both outlier thumbnails (ixlexruRC6c, MWQ6T1wURJU); channel named for presenter Marie-Anne Lecoeur)
+- Presenter as heard in the transcript: one woman, first person; "Marian"/"Mariana" in the captions (Marie-Anne); "as a professionally trained stylist"
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 315
+- Comment count shown by YouTube: 769
+- Comments collected: 39 top-level (38 viewer, 1 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (20 kept), top page 2 via continuation token (0 new after de-duplication), newest page 1 (19 new after de-duplication)
+- Description first line: As a professional stylist here is the MOST EFFECTIVE advice on the most effective style tips for women over 50 to dress up to two sizes slimmer or 10lbs slimmer - IMMEDIATELY! FAST - EFFECTIVE - STYLISH AND CHIC!
+- Description notes: 9 affiliate 'LINKS TO YES ITEMS IN VIDEO (or alternatives)' (brown top, linen dress, tailored blazer, black tailored pants, wrap dress, grey ponte dress (Eloquii), denim dress, contrast shirt, black contrast pants); free SHAPE UP! ecourse; same stylist self-description and 'NOT SPONSORED' affiliate disclaimer as the channel's other videos.
+- AI disclosure line in the description: none

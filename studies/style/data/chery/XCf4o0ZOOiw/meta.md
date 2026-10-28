@@ -1,0 +1,26 @@
+# Your Fine Hair Doesn't Have to Look Older (Do This Instead)
+
+- Channel: chery 🍒 (@cherygibson, UCUA6gwmdDwsGH69W19u6kFQ)
+- Video ID: XCf4o0ZOOiw
+- URL: https://www.youtube.com/watch?v=XCf4o0ZOOiw
+- Study group: Thin or fine hair (videos.csv row 15, type listed there: real; why: "doesn't have to look older")
+- Title as listed in videos.csv: Your Fine Hair Doesn't Have to Look Older (Do This Instead)
+- Upload date: 2026-04-28 (youtube_video_details publishDate: 2026-04-28T15:46:01-07:00)
+- Duration: 11:53 (713 s)
+- Views (exact, youtube_video_details): 103,785
+- Likes (exact, youtube_video_details): 1,986
+- Category: Howto & Style
+- Collection date: 2026-10-28 (details pulled about 06:35 UTC)
+- Age at collection: 182.3 days (182 full days)
+- Channel normal: 7,400 (round2/channels-all.csv: median of 15 newest uploads 5:00+ and 7+ days old (videos tab, newest page; views as NexLev rounds them))
+- Views ÷ normal: 14.03
+- Type: real_on_camera (round 2; basis: thumbnails XCf4o0ZOOiw, _nqIIpZMwhk: same photographic blonde-bob woman in both; about text names Chery, hairstylist and salon owner (reading). The dark-haired older woman beside her in XCf4o0ZOOiw looks like a stock or generated 'before' model (reading))
+- Presenter as heard in the transcript: one woman, first person, a hairstylist and salon owner by her own words ("I see it in my salon all the time"); not named in the speech (the description and links name Chery Gibson)
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 291
+- Comment count shown by YouTube: 105
+- Comments collected: 31 top-level (31 viewer, 0 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (20 kept), top page 2 via continuation token (1 new after de-duplication), newest page 1 (10 new after de-duplication)
+- Description first line: 🍒 Download my FREE Fine Hair Blueprint: https://chery.myklpages.com/l/Vc8Dru
+- Description notes: Products mentioned: Virtue Volumizing Primer, Oribe Swept Up Volume Powder Spray, R+Co Balloon Dry Volume Spray (tinyurl links); own site, salon (charlestonhairandmakeup.com), own brand Gibson Girl Beauty with code YOUTUBE15, ShopMy. Chapters: 0:00 The 7 mistakes; 0:23 #1 Too Long; 1:15 #2 Short Choppy Layers; 3:35 #3 Harsh Dark Root Color; 5:30 #4 Flat Lifeless Hair; 6:27 #5 Skipping Trims; 7:52 #6 Not Updating Your Hairstyle; 9:54 #7 Extreme Side Part; 10:40 recap. Hashtags #over40hair #over40beauty.
+- AI disclosure line in the description: none

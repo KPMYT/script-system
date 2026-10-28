@@ -1,0 +1,26 @@
+# 10 Errores que Te Hacen Ver 'Anciana' Después de los 60 (Y Cómo Evitarlos con Elegancia)
+
+- Channel: Elegántica (@Elegantica, UCFvnkStDi_H1_y0w3bxNGqQ)
+- Video ID: X9mj5fEPfVk
+- URL: https://www.youtube.com/watch?v=X9mj5fEPfVk
+- Study group: Style mistakes that age you (videos.csv row 4, type listed there: faceless; why: blank)
+- Title as listed in videos.csv: 10 Mistakes That Make You Look 'Old' After 60 (And How to Avoid Them with Grace)
+- Upload date: 2026-03-28 (youtube_video_details publishDate: 2026-03-28T07:19:37-07:00)
+- Duration: 21:54 (1314 s)
+- Views (exact, youtube_video_details): 1,193,524
+- Likes (exact, youtube_video_details): 22,010
+- Category: People & Blogs
+- Collection date: 2026-10-28 (details pulled about 06:35 UTC)
+- Age at collection: 213.7 days (213 full days)
+- Channel normal: 1,700 (round2/channels-all.csv: median of 15 most recent long-form uploads (5:00+, 7+ days old); dates from NexLev relative times (approx.))
+- Views ÷ normal: 702.07
+- Type: faceless_narrated (round 2; basis: reading: both outlier thumbnails show a generated-looking older woman applying lipstick, a different woman in each, beside large Spanish text ('Hábitos que te hacen ver viejita después de los 60'); no consistent presenter; about text names no presenter)
+- Presenter as heard in the transcript: unnamed female narrator (Spanish grammatical forms: "juntas", "Lista"), first person rare ("Te contaré", "Te mostraré"); no presenter name or credential
+- Transcript source: NexLev get_bulk_video_transcripts, track "Spanish (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 490
+- Comment count shown by YouTube: 1.5K
+- Comments collected: 44 top-level (44 viewer, 0 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (20 kept), top page 2 via continuation token (5 new after de-duplication), newest page 1 (19 new after de-duplication)
+- Description first line: ¿Sientes que tu apariencia ya no refleja la vitalidad que llevas dentro?
+- Description notes: Title, description and keywords are all in Spanish (videos.csv lists an English title, '10 Mistakes That Make You Look 'Old' After 60 (And How to Avoid Them with Grace)', which reads as YouTube's translated title). Description uses 'En este video revelamos' (we). No links, no product, no presenter name.
+- AI disclosure line in the description: none

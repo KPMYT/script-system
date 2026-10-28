@@ -1,0 +1,26 @@
+# How Not To Wear Summer Dresses Over 50: Fashion Mistakes Women Over 50 Make With Summer Dresses
+
+- Channel: Marie-Anne Lecoeur - The French Chic Expert (@MarieAnneLecoeur, UC3iINwXX6oQ0DqfE1SQ-S-w)
+- Video ID: MWQ6T1wURJU
+- URL: https://www.youtube.com/watch?v=MWQ6T1wURJU
+- Study group: Single items (videos.csv row 24, type listed there: real; why: dresses)
+- Title as listed in videos.csv: How Not To Wear Summer Dresses Over 50: Fashion Mistakes Women Over 50 Make With Summer Dr
+- Upload date: 2025-04-13 (youtube_video_details publishDate: 2025-04-13T09:00:35-07:00)
+- Duration: 12:59 (779 s)
+- Views (exact, youtube_video_details): 628,761
+- Likes (exact, youtube_video_details): 14,383
+- Category: Howto & Style
+- Collection date: 2026-10-28 (details pulled about 06:35 UTC)
+- Age at collection: 562.6 days (562 full days)
+- Channel normal: 84,000 (round2/channels-all.csv: median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views ÷ normal: 7.49
+- Type: real_on_camera (round 2; basis: reading: same photographic short-haired woman in both outlier thumbnails (ixlexruRC6c, MWQ6T1wURJU); channel named for presenter Marie-Anne Lecoeur)
+- Presenter as heard in the transcript: one woman, first person; Marie-Anne (greeting captioned "Bonjour friendship ladies"); a western rider by her own account
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 278
+- Comment count shown by YouTube: 1.7K
+- Comments collected: 39 top-level (38 viewer, 1 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (20 kept), top page 2 via continuation token (0 new after de-duplication), newest page 1 (19 new after de-duplication)
+- Description first line: If you are finding it difficult to wear summer dresses Over 50 - here are the common mistakes I see clients and students making all the time.
+- Description notes: 'Discover what I do as a professional stylist and a woman over 50'; 'Stay to the end for my FREE Ultimate Guide To French Summer Fashion'; 13 affiliate 'LINKS TO YES DRESSES IN VIDEO' incl. 'MY GREEN DRESS'; same stylist self-description and 'NOT SPONSORED' affiliate disclaimer.
+- AI disclosure line in the description: none

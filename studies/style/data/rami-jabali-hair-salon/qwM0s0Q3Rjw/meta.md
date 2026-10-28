@@ -1,0 +1,26 @@
+# ✂️ Stop Saving Damaged Ends …. Start Building Real Hair Thickness
+
+- Channel: Rami Jabali Hair Salon (@ramijabali-hairsalon, UCKrmuPD_1zWor70lKcCMxYw)
+- Video ID: qwM0s0Q3Rjw
+- URL: https://www.youtube.com/watch?v=qwM0s0Q3Rjw
+- Study group: Thin or fine hair (videos.csv row 14, type listed there: real; why: blank)
+- Title as listed in videos.csv: ✂️ Stop Saving Damaged Ends …. Start Building Real Hair Thickness
+- Upload date: 2026-05-09 (youtube_video_details publishDate: 2026-05-09T09:01:28-07:00)
+- Duration: 9:58 (598 s)
+- Views (exact, youtube_video_details): 748,617
+- Likes (exact, youtube_video_details): 12,781
+- Category: Howto & Style
+- Collection date: 2026-10-28 (details pulled about 06:35 UTC)
+- Age at collection: 171.6 days (171 full days)
+- Channel normal: 48,000 (round2/channels-all.csv: median of 15 newest uploads 5:00+ and 7+ days old (videos tab, newest page; views as NexLev rounds them))
+- Views ÷ normal: 15.60
+- Type: real_on_camera (round 2; basis: thumbnails qwM0s0Q3Rjw, RuyOhWfU-RI: same photographic male stylist with a different woman client each time (one with long silver hair); named salon/stylist in title (reading))
+- Presenter as heard in the transcript: two voices: a male stylist (Rami Jabali per the channel; not named in the speech) and one woman client (not named, age not said)
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 320
+- Comment count shown by YouTube: 1.3K
+- Comments collected: 41 top-level (41 viewer, 0 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (20 kept), top page 2 via continuation token (1 new after de-duplication), newest page 1 (20 new after de-duplication)
+- Description first line: ✂️ Stop Saving Damaged Ends …. Start Building Real Hair Thickness
+- Description notes: Long numbered essay (1-9) restating the video; 'I’ve been doing this work for over 27 years, and I have seen thousands and thousands of clients.' No links, no products; 30 hashtags.
+- AI disclosure line in the description: none

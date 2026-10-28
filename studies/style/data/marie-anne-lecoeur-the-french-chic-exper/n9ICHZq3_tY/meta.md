@@ -1,0 +1,26 @@
+# AI Gets French Style WRONG! Here's What Real French Women Actually Wear
+
+- Channel: Marie-Anne Lecoeur - The French Chic Expert (@MarieAnneLecoeur, UC3iINwXX6oQ0DqfE1SQ-S-w)
+- Video ID: n9ICHZq3_tY
+- URL: https://www.youtube.com/watch?v=n9ICHZq3_tY
+- Study group: French angle (videos.csv row 34, type listed there: real; why: a French stylist calling out AI "French way" channels)
+- Title as listed in videos.csv: AI Gets French Style WRONG! Here's What Real French Women Actually Wear
+- Upload date: 2025-11-30 (youtube_video_details publishDate: 2025-11-30T12:00:47-08:00)
+- Duration: 14:18 (858 s)
+- Views (exact, youtube_video_details): 138,649
+- Likes (exact, youtube_video_details): 5,810
+- Category: Howto & Style
+- Collection date: 2026-10-28 (details pulled about 06:35 UTC)
+- Age at collection: 331.4 days (331 full days)
+- Channel normal: 84,000 (round2/channels-all.csv: median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views ÷ normal: 1.65
+- Type: real_on_camera (round 2; basis: reading: same photographic short-haired woman in both outlier thumbnails (ixlexruRC6c, MWQ6T1wURJU); channel named for presenter Marie-Anne Lecoeur)
+- Presenter as heard in the transcript: one woman, first person; "Marian" in the captions (Marie-Anne); "a French woman living in France"
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 296
+- Comment count shown by YouTube: 552
+- Comments collected: 39 top-level (38 viewer, 1 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (20 kept), top page 2 via continuation token (0 new after de-duplication), newest page 1 (19 new after de-duplication)
+- Description first line: I'm fed up with AI channels telling you LIES about what we French Women wear - so here are the 10 style essentials I as a real French Woman living in France have in my wardrobe.
+- Description notes: Chapters: 0:00 Intro; 0:49 Item 1; 1:24 Item 2; 2:20 Item 3; 3:21 Item 4; 6:32 Item 5; 8:19 Item 6; 9:16 Item 7; 10:25 Item 8; 11:40 Item 9; 12:42 Item 10. 14 affiliate 'LINKS TO ITEMS IN VIDEO' (Normandie shirts, white tee, straight-leg dark jeans, striped marinière, grey wool and cashmere cardigans, navy RL blazer, navy cashmere turtleneck, beige trenchcoat, silver tweed jacket, black knitted dress). Same stylist self-description and 'NOT SPONSORED' affiliate disclaimer.
+- AI disclosure line in the description: none (the video is about AI channels; no disclosure that this video uses AI)

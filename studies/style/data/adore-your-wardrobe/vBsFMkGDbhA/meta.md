@@ -1,0 +1,26 @@
+# STOP Feeling Frumpy in Wide Leg Jeans!
+
+- Channel: Adore Your Wardrobe (@AdoreYourWardrobe, UCiCk9YOdjY8zZMUvMCGurCQ)
+- Video ID: vBsFMkGDbhA
+- URL: https://www.youtube.com/watch?v=vBsFMkGDbhA
+- Study group: Single items (videos.csv row 25, type listed there: real; why: jeans)
+- Title as listed in videos.csv: STOP Feeling Frumpy in Wide Leg Jeans!
+- Upload date: 2024-10-25 (youtube_video_details publishDate: 2024-10-25T09:01:00-07:00)
+- Duration: 11:26 (686 s)
+- Views (exact, youtube_video_details): 396,929
+- Likes (exact, youtube_video_details): 11,485
+- Category: Howto & Style
+- Collection date: 2026-10-28 (details pulled about 06:35 UTC)
+- Age at collection: 732.6 days (732 full days)
+- Channel normal: 24,000 (round2/channels-all.csv: median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views ÷ normal: 16.54
+- Type: real_on_camera (round 2; basis: reading: both outlier thumbnails checked (7ecJWmEQ3Ks, diQ7AFM2HGM) show the same real woman (shoulder-length brown hair) photographed in a home set, expressive poses, beside short text. NexLev agrees: not faceless)
+- Presenter as heard in the transcript: one woman, first person: "I'm Kelly Snider from adore your wardrobe" (description spells it Snyder)
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 255
+- Comment count shown by YouTube: 499
+- Comments collected: 40 top-level (40 viewer, 0 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (20 kept), top page 2 via continuation token (4 new after de-duplication), newest page 1 (16 new after de-duplication)
+- Description first line: Wide-leg jeans are one of the hottest trends in denim, but without the right fit or styling,  they can easily go from stylish to frumpy.
+- Description notes: Presenter named: 'Kelly Snyder from Adore Your Wardrobe gets it!'. Free Body Type Calculator link; Body Type Boutique shop; 'Shopping Bag' in-video product tag. Chapters: 00:00 Intro; 01:45 What Are Wide-Leg Jeans?; 03:20 The Biggest Mistake People Make; 04:20 Choosing the Right Hem Circumference; 05:50 Length & Shoes Matter!; 07:20 Balancing Your Outfit; 09:15 Are You Out Of Style If You Don't Wear Wide-Leg Jeans?; 10:10 Final Thoughts & Subscribe. No age in title, description or keywords.
+- AI disclosure line in the description: none

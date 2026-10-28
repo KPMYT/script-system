@@ -1,0 +1,26 @@
+# The Only 10 Clothes You Need All Winter (The French Way, 50+)
+
+- Channel: French Fashion (@FrenchFashionValerie, UCCDxeYvF9t_XkLIawoSlmXQ)
+- Video ID: -eTr9aVSWlM
+- URL: https://www.youtube.com/watch?v=-eTr9aVSWlM
+- Study group: French angle (videos.csv row 36, type listed there: AI presenter; why: "(The French Way, 50+)": Diane's closest copy)
+- Title as listed in videos.csv: The Only 10 Clothes You Need All Winter (The French Way, 50+)
+- Upload date: 2026-10-19 (youtube_video_details publishDate: 2026-10-19T09:00:00-07:00)
+- Duration: 14:42 (882 s)
+- Views (exact, youtube_video_details): 451,523
+- Likes (exact, youtube_video_details): 3,581
+- Category: People & Blogs
+- Collection date: 2026-10-28 (details pulled about 06:35 UTC)
+- Age at collection: 8.6 days (8 full days)
+- Channel normal: 14,000 (round2/channels-all.csv: median of 10 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; only 10 qualified in the newest 16 returned; views as returned (rounded, e.g. 85K))
+- Views ÷ normal: 32.25
+- Type: ai_avatar (round 2; basis: reading: both thumbnails checked (-eTr9aVSWlM outlier, xDjCONJj5rA) show the same generated-looking silver-haired woman in a cream blazer and scarf in staged scenes; about: 'I'm Valérie, a French woman sharing simple style tips for women over 50')
+- Presenter as heard in the transcript: one female first-person voice with French greetings ("Bonjour", "À bientôt, mes chers amis"); unnamed in the speech; gives herself a husband and a granddaughter; round 2 type ai_avatar (persona Valérie in the about text)
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 377
+- Comment count shown by YouTube: 171
+- Comments collected: 39 top-level (39 viewer, 0 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (20 kept), top page 2 via continuation token (3 new after de-duplication), newest page 1 (16 new after de-duplication)
+- Description first line: Bonjour, my lovely ladies! ❤️ Do you ever open your closet on a chilly morning and feel like you have nothing to wear? Oh, believe me, you’re not alone! Here in France, we love keeping things simple yet elegant.
+- Description notes: Full description is two short paragraphs; second: 'Come discover a little French winter magic with me! And if you enjoy our chats, please like and subscribe. I’d love to have you here! 🌷'. Keywords: 'Fashion over 50', 'Woman Fashion'. No links, no products.
+- AI disclosure line in the description: none (no disclosure line in the description)

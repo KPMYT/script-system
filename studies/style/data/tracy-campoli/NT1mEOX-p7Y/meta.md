@@ -1,0 +1,26 @@
+# The Over 40 Capsule Wardrobe That Makes You Look EXPENSIVE (without even trying!)
+
+- Channel: Tracy Campoli (@TracyCampoli, UC2sXkXBWd51cpk_5nyUha2w)
+- Video ID: NT1mEOX-p7Y
+- URL: https://www.youtube.com/watch?v=NT1mEOX-p7Y
+- Study group: Look expensive or elegant (videos.csv row 31, type listed there: real; why: capsule wardrobe)
+- Title as listed in videos.csv: The Over 40 Capsule Wardrobe That Makes You Look EXPENSIVE (without even trying!)
+- Upload date: 2025-12-18 (youtube_video_details publishDate: 2025-12-18T03:30:32-08:00)
+- Duration: 25:54 (1554 s)
+- Views (exact, youtube_video_details): 506,694
+- Likes (exact, youtube_video_details): 12,646
+- Category: Howto & Style
+- Collection date: 2026-10-28 (details pulled about 06:35 UTC)
+- Age at collection: 313.8 days (313 full days)
+- Channel normal: 48,000 (round2/channels-all.csv: median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views ÷ normal: 10.56
+- Type: real_on_camera (round 2; basis: reading: same photographic woman in both outlier thumbnails (NT1mEOX-p7Y outfit grid, KQpogP8btLU close-up with '51' tag); channel named for presenter Tracy Campoli)
+- Presenter as heard in the transcript: one woman, first person: "hi, I'm Tracy. I'm 51 years old"; lives in Miami
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 716
+- Comment count shown by YouTube: 482
+- Comments collected: 40 top-level (39 viewer, 1 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (20 kept), top page 2 via continuation token (1 new after de-duplication), newest page 1 (19 new after de-duplication)
+- Description first line: My new SPRING/Summer Video: https://youtu.be/jqgMLTHaVto?si=dvJNmTczGIJA3zqu
+- Description notes: Sponsored: 'Thank you Lumineux for sponsoring today's video!' ($5 off 21 pack). 'Think 90s minimal, Victoria Beckham–inspired, timeless pieces'. geni.us affiliate links for white tee (incl. Madewell), black turtleneck, sweater, blazer, jeans (Hudson, Wrangler), slip skirt, wool coat, boots, bags, sunnies, earrings; Italy 2026 retreat; gift guide; storefront; ShopMy; lip combo (Milani, Maybelline); TBT fitness 40% off; Herbal Face Food code TRACYC30; MTE supplement code TRACY; medical disclaimer; FTC affiliate line.
+- AI disclosure line in the description: none
