@@ -25,7 +25,7 @@ Top page 2 (continuation token): 0 comment(s) not already on page 1 out of 20 re
 16. (2 likes) On whatever day you choose, wear what you like. The choice is yours!!
 17. (6 likes) 🤣🤣🤣🤣 here's our 'Plan' : #1 Call Scott's seed
 18. (4 likes) I've never cared for large dangles, hoops, or plastic. I love pearls, simple classic styles, and a stud you can see without a magnifying glass. I also have a ring my parents bought for me in 1953 when I was 3 years old. They wisely sized it so I could wear it as I  grew. A simple gold oval with my initial in script. As a child, it was a special occasion piece, fit to my finger with a pink ribbon that wrapped around my wrist. Now it's my everyday ring.
-19. (0 likes) I am a classic dresser, I like to hear what works. I have a friend who does not know what goes together and it shows. I enjoy hearing such information. D. Morris
+19. (0 likes) I am a classic dresser, I like to hear what works. I have a friend who does not know what goes together and it shows. I enjoy hearing such information. [name removed]
 20. (1 likes) definitely retiring my heavy dangles (#1), but I will always keep my trusty gold hoops! Thank you for the wonderful advice as always.
 
 ## Newest (20)
@@ -34,7 +34,7 @@ Top page 2 (continuation token): 0 comment(s) not already on page 1 out of 20 re
 2. (0 likes) What's up with the shots of the farmer.
 3. (0 likes) I am unable to put in the hoop and stud with back as my fingers are bad  I need just a simple hook
 4. (0 likes) I have gold hoops which I wear all the time, I have some dainty drop earrings also!   Wouldnt swap them for some cheap earrings!
-5. (0 likes) [also in top] I am a classic dresser, I like to hear what works. I have a friend who does not know what goes together and it shows. I enjoy hearing such information. D. Morris
+5. (0 likes) [also in top] I am a classic dresser, I like to hear what works. I have a friend who does not know what goes together and it shows. I enjoy hearing such information. [name removed]
 6. (0 likes) Is this person AI?
 7. (0 likes) The make up and hairstyles help her look younger not the EARRINGS 🤪
 8. (0 likes) I wear whatever I like, fun, classic whatever if somebody doesn't like it don't look❤
