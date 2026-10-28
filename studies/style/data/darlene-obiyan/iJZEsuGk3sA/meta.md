@@ -1,0 +1,23 @@
+# Stop Dressing Frumpy| Curvy Style Tips Over 50
+
+- Channel: Darlene Obiyan (@BeautyIsWhatIDo2.0, channel ID UCcvRTuhJHnMMCHB1Q4MmIaQ)
+- Video ID: iJZEsuGk3sA
+- URL: https://www.youtube.com/watch?v=iJZEsuGk3sA
+- Study group and why it was picked: model script, M17 (fashion), picked 2026-10-28, from models/candidates-for-review.md row 24
+- Title in approved-models.csv: Stop Dressing Frumpy/ Curvy Style Tips Over 50 (views listed there: 266,706)
+- Upload date: 2026-05-17 (13:07:36-07:00)
+- Duration: 22:43 (1363 s)
+- Views: 266,707 (as of 2026-10-28, first details call)
+- Likes: 12,489 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 27,000 (from `round2/channels-all.csv` via `models/approved-models.csv`; basis: median of 15 newest long-form (5:00+) uploads 7+ days old; views as shown by NexLev (rounded to K))
+- Views / normal: 9.88
+- Age at collection: 164 days (0.4 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: female, on camera, first person: "I am Darlene"; "I am by no means a stylist"; describes her sizes ("I was at my smallest, which was a size six", now "anywhere between like a a 14 to a 16"). No age is said in the speech; the title says "Over 50".
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 529 segments; 3,844 words (bracket tags and ">>" excluded)
+- Comments: API commentsCount 515; collected 27 top + 20 newest = 45 unique (2 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found
+- Category: Howto & Style; isShortsEligible: false; hasCaption (details): false
+- Description notes (quoted): "Stop dressing frumpy just because you’re fluffy. In this video, I’m sharing curvy style tips for midlife women who want to look polished, confident, and put together without waiting until they lose weight." Item links from Fashion Nova, Amazon, Shapellx, Walmart (no link), 12 PM Studios and kaftanated.com; "Links are commissionable."; a drafting line left in: "You can put this right under a section in your description like:"; a paid offer: "Need help starting YOUR YouTube channel? / Book a strategy session with me". No chapters.
+- Title as returned by the details call: "Stop Dressing Frumpy| Curvy Style Tips Over 50" (the csv has "Frumpy/ Curvy").

@@ -1,0 +1,24 @@
+# Fashion Hacks Every Stylish Woman Over 50 Should Know
+
+- Channel: Ageless Glamour (@AgelessGlamour10, channel ID UCLeSFpQyfnWvBi3lbFNDVqg)
+- Video ID: 060ynhA72T8
+- URL: https://www.youtube.com/watch?v=060ynhA72T8
+- Study group and why it was picked: model script, F07 (faceless), picked 2026-10-28; faceless section: structure only, a topic the real models don't cover
+- Title in approved-models.csv: Fashion Hacks Every Stylish Woman Over 50 Should Know (views listed there: 1,000,000)
+- Upload date: 2025-04-21 (02:30:01-07:00)
+- Duration: 7:07 (427 s)
+- Views: 1,097,485 (as of 2026-10-28, first details call)
+- Likes: 9,432 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 114 (from `round2/channels-all.csv` via `models/approved-models.csv`; basis: median of 15 newest uploads 5:00+ and 7+ days old (videos tab, newest page; views as NexLev rounds them))
+- Views / normal: 9,627
+- Age at collection: 555 days (1.5 years)
+- Type (round 2): faceless_narrated
+- Presenter as heard in the transcript: unnamed narrator, no gender stated, no claimed background; speaks for a "we" channel ("Welcome to our channel"; "we'll see you in the next video") and once as "I" ("I hope you enjoyed these style hacks"). Round 2 typed the channel faceless_narrated.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 83 segments; 445 words (bracket tags and ">>" excluded). Narration runs 0:00-2:38 (about 438 words); after that the track has only "By everybody," (2:56), "Heat." captions and [Music] tags to 6:59, so roughly 4.5 of the 7:07 minutes are music.
+- Comments: API commentsCount 169; collected 19 top + 19 newest = 34 unique (4 in both lists); owner comments 0; spam skipped 1; NexLev calls 3
+- AI disclosure in the description: none found (the whole description is one line: "Fashion Hacks Every Stylish Woman Should Know")
+- Category: Howto & Style; isShortsEligible: false; hasCaption (details): false
+- Description notes (quoted): "Fashion Hacks Every Stylish Woman Should Know" (nothing else; keywords the same phrase).
+- Views / normal is extreme because the channel's recent uploads draw about 70-300 views (round 2 notes); the details call shows 1,097,485 views against the csv's listed 1,000,000.
+- Format flag: not narrated talking advice for most of its length; the second part reads as a music-only slideshow (comments cite timestamps 3:37, 4:15, 4:20 about "the model").

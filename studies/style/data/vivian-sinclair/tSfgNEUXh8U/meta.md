@@ -1,0 +1,22 @@
+# STOP Wearing These 5 Earrings After 60! WEAR These INSTEAD
+
+- Channel: Vivian Sinclair (@VivianSinclairStyle, channel ID UCfDezkF4P9FNxrD6PFGCoPw)
+- Video ID: tSfgNEUXh8U
+- URL: https://www.youtube.com/watch?v=tSfgNEUXh8U
+- Study group and why it was picked: model script, F02 (faceless), picked 2026-10-28; faceless section: structure only, a topic the real models don't cover
+- Title in approved-models.csv: STOP Wearing These 5 Earrings After 60! WEAR These INSTEAD (views listed there: 321,000)
+- Upload date: 2026-08-08 (22:21:36-07:00)
+- Duration: 26:58 (1618 s)
+- Views: 321,228 (as of 2026-10-28, first details call)
+- Likes: 5,061 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 6,500 (from `round2/channels-all.csv` via `models/approved-models.csv`; basis: median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views / normal: 49.42
+- Age at collection: 81 days (0.2 years)
+- Type (round 2): ai_avatar
+- Presenter as heard in the transcript: named persona, female, first person: "My name is Vivian Sinclair"; claimed background: "I am not a jeweler, but I ran a boutique for 40 years" and "I sold these pieces"; addresses viewers as "my darlings"; British usage ("frocks", "jewellery" in the description). Round 2 typed the channel ai_avatar; comments call the on-screen woman AI (see notes).
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 629 segments; 4,401 words (bracket tags and ">>" excluded). The last segment stops mid-sentence ("and I will see you next") at 26:56.
+- Comments: API commentsCount 499; collected 20 top + 20 newest = 39 unique (1 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (description read in full; no line mentions AI, synthetic, generated or altered content)
+- Category: People & Blogs; isShortsEligible: false; hasCaption (details): false
+- Description notes (quoted): "I spent forty years running a boutique, which means forty years watching women try things on beside the mirror in unforgiving light."; lists "the 5 earrings worth retiring after 60" and "the 5 pieces that will never let you down"; "None of this is a rule you have to obey. It's the information most of us were never given."; "Tell me in the comments which of the five is in your jewellery box, and which of the keepers you already own — I read every single one."; "Subscribe for a new video every week on style, hair and elegance after 60." No links, no keywords.

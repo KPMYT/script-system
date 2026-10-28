@@ -1,0 +1,23 @@
+# 6 Styling Mistakes That Are Making You Look SHORTER (Fix These!)
+
+- Channel: Diana GOSS (@dianagoss, channel ID UCsCMk96I9GtBAS1TXjXCEAA)
+- Video ID: 6Yz0BKoKG-M
+- URL: https://www.youtube.com/watch?v=6Yz0BKoKG-M
+- Study group and why it was picked: model script, M24 (fashion), picked 2026-10-28, from models/candidates-for-review.md row 58
+- Title in approved-models.csv: 6 Styling Mistakes That Are Making You Look SHORTER (Fix These!) (views listed there: 541,039)
+- Upload date: 2025-06-26 (07:57:35-07:00)
+- Duration: 18:11 (1091 s)
+- Views: 541,064 (as of 2026-10-28, first details call)
+- Likes: 13,939 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 43,000 (from `round2/channels-all.csv` via `models/approved-models.csv`; basis: median of 15 newest long-form (5:00+) uploads 7+ days old; views as shown by NexLev (rounded to K); 6 of the 15 are 1+ year old (slow recent upload rate))
+- Views / normal: 12.58
+- Age at collection: 489 days (1.3 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: female, on camera, first person; her name is not said in the speech except in her Instagram handle (captioned "da double_gos"). Mentions "my son". No age is said; the video addresses "petite or average height" women.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 487 segments; 3,168 words (bracket tags and ">>" excluded)
+- Comments: API commentsCount 441; collected 26 top + 20 newest = 45 unique (1 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found
+- Category: Howto & Style; isShortsEligible: false; hasCaption (details): false
+- Description notes (quoted): "DISCOVER YOUR STYLE PERSONALITY — TAKE THE QUIZ & UNLOCK YOUR SIGNATURE LOOK: [content is not available]"; contact help@europeanfashionschool.com; "Petite Studio End Of Season Sale / Sale time: August 7–17 / Discount level: Up to 60% off"; 16 Petite Studio product links with affiliate parameters. The speech calls Petite Studio "the sponsor of today's video" and gives a "4th of July sale"; the description's sale dates (August 7–17) differ.
+- Keywords say "style over 40" / "fashion over 40"; no age is said in the speech.

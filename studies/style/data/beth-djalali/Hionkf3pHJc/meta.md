@@ -1,0 +1,22 @@
+# Why Linen Looks Frumpy After 50 (And How to Fix It)
+
+- Channel: Beth Djalali (@BethDjalali, channel ID UCGcVJdjxZsQlOFqkU06P47w)
+- Video ID: Hionkf3pHJc
+- URL: https://www.youtube.com/watch?v=Hionkf3pHJc
+- Study group and why it was picked: model script, M19 (fashion), picked 2026-10-28, from models/candidates-for-review.md row 34
+- Title in approved-models.csv: Why Linen Looks Frumpy After 50 (And How to Fix It) (views listed there: 158,326)
+- Upload date: 2026-05-17 (08:46:45-07:00)
+- Duration: 16:01 (961 s)
+- Views: 158,326 (as of 2026-10-28, first details call)
+- Likes: 4,465 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 20,000 (from `round2/channels-all.csv` via `models/approved-models.csv`; basis: median of 15 most recent long-form (>=5:00, >=7 days old) from newest list)
+- Views / normal: 7.92
+- Age at collection: 164 days (0.4 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: female, on camera, first person; her name is not said in the speech. Channel line: "welcome back to Style at a Certain Age where I bring you the trusted edit for women 50 plus"; "I'm 5'8""; sign-off to "Grits and Glamours".
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 442 segments; 2,716 words (bracket tags and ">>" excluded)
+- Comments: API commentsCount 321; collected 20 top + 20 newest = 36 unique (4 in both lists); owner comments 1; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found
+- Category: Howto & Style; isShortsEligible: false; hasCaption (details): false
+- Description notes (quoted): "Half the women I know have quietly given up on linen after 50 — and what they actually mean is they've been buying it wrong. Eleven pieces from Quince, three rules that work every time, three pitfalls to avoid, and the European flax sourcing that makes Quince linen worth the price. Honest review."; "SHOP THE LOOK" ShopMy links; 22 chapters from "0:00 Why Women Over 50 Give Up On Linen" to "15:00 Final Linen Rules To Remember"; "Affiliate links are used in this post, which means I receive a commission". No sponsorship statement.

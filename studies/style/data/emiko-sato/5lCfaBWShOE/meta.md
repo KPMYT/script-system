@@ -1,0 +1,25 @@
+# 11 Hygiene Rules Japanese Women Follow After 40 to Avoid “Old Person Smell
+
+- Channel: Emiko Sato (@SkincareWithEmiko, channel ID UCoKcN09gzaiw3krV-N5TCRQ)
+- Video ID: 5lCfaBWShOE
+- URL: https://www.youtube.com/watch?v=5lCfaBWShOE
+- Study group and why it was picked: model script, F06 (faceless), picked 2026-10-28; faceless section: structure only, a topic the real models don't cover
+- Title in approved-models.csv: 11 Hygiene Rules Japanese Women Follow After 40 to Avoid “Old Person Smell” (views listed there: 2,400,000)
+- Upload date: 2026-10-13 (15:47:46-07:00)
+- Duration: 16:08 (968 s)
+- Views: 2,413,996 (as of 2026-10-28, first details call)
+- Likes: 22,419 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 148,000 (from `round2/channels-all.csv` via `models/approved-models.csv`; basis: median of 8 uploads >=5:00 and >=7 days old (channel has only 12 videos, all uploaded in the last 2 weeks))
+- Views / normal: 16.31
+- Age at collection: 15 days (0.0 years)
+- Type (round 2): ai_avatar
+- Presenter as heard in the transcript: named persona, female, first person: "I'm Emiko. I'm Japanese. I'm 48, and for 22 years, I worked behind a beauty counter in a department store in Tokyo." Greets "konnichiwa", signs off "Matane". Round 2 typed the channel ai_avatar; comments call it AI (see notes).
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 374 segments; 2,362 words (bracket tags and ">>" excluded)
+- Comments: API commentsCount 1K; collected 26 top + 20 newest = 45 unique (1 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found. The only disclaimer is medical: "This video is general information, not medical advice. If a smell changes suddenly or comes with other symptoms, see a doctor."
+- Category: People & Blogs; isShortsEligible: false; hasCaption (details): false
+- Description notes (quoted): "In Japan, the smell of aging has a name: kareishū. A Japanese woman and former Tokyo beauty counter advisor shares the 11 hygiene rules Japanese women follow after 40"; "Plus the myths: you don't need a special soap, and "only citrus works" isn't backed by research."; 13 chapters ("00:00 It's not your armpits" to "16:00 Tonight's routine"); "Sources mentioned: Shiseido's 2-nonenal research (J Invest Dermatol, 2001), Mandom (2013), Kao (2012), a 2014 textile odor study, the Monell Chemical Senses Center (2012)."; hashtags #kareishu #japanesehabits #oldpersonsmell. No links.
+- Title as returned by the details call ends without a closing quote mark: "11 Hygiene Rules Japanese Women Follow After 40 to Avoid “Old Person Smell".
+- The speech dates the Shiseido study "In 1999"; the description cites 2001.
+- Topic is hygiene and body odour, not hair or fashion (the faceless section's reason: a topic the real models don't cover).

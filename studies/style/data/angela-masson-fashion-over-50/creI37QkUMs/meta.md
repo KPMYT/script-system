@@ -1,0 +1,22 @@
+# Get Out Of YOUR Frumpy Style RUT! 10 Things to Change After 50
+
+- Channel: Angela Masson - Fashion Over 50 (@angelamasson-fashionover50, channel ID UCnR8bw5jZkQj3uoK3ms1Y9w)
+- Video ID: creI37QkUMs
+- URL: https://www.youtube.com/watch?v=creI37QkUMs
+- Study group and why it was picked: model script, M16 (fashion), picked 2026-10-28, from models/candidates-for-review.md row 20
+- Title in approved-models.csv: Get Out Of YOUR Frumpy Style RUT! 10 Things to Change After 50 (views listed there: 253,627)
+- Upload date: 2026-01-22 (12:00:36-08:00)
+- Duration: 17:59 (1079 s)
+- Views: 253,628 (as of 2026-10-28, first details call)
+- Likes: 11,074 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 64,000 (from `round2/channels-all.csv` via `models/approved-models.csv`; basis: median of 15 newest uploads 5:00+ and 7+ days old (videos tab, newest page; views as NexLev rounds them))
+- Views / normal: 3.96
+- Age at collection: 279 days (0.8 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: female, on camera, first person; her name is not said in the speech (the channel name and comments say Angela). Age as heard: "Finally, in my 50s" and "I was seven when I saw that for the first time" (Grease). Place: "especially down here in the villages".
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 413 segments; 3,027 words (bracket tags and ">>" excluded)
+- Comments: API commentsCount 1.4K; collected 20 top + 20 newest = 39 unique (1 in both lists); owner comments 1; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Entertainment; isShortsEligible: false; hasCaption (details): false
+- Description notes (quoted): "How many of these are you still doing?? Let's change these to become the best version of yourself in 2026!"; "NEW VIDEOS EVERY TUESDAY & THURSDAY AFTERNOONS"; product links: "My Favorite Laser cut underwear- from Amazon $23 for 5 pack", "Black Asymetrical top from Loft-" (no link), "My favorite Relaxed straight leg jeans- from Quince $50"; watch-next link to "10  New Fashion Trends for 2026...Will YOU be wearing these?"; "FTC Legal Disclaimer - Links found in my video description boxes may be affiliate links". No chapters.

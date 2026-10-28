@@ -1,0 +1,23 @@
+# How To Not Look Frumpy & Older Than You Are-Get Out of That Rut!!
+
+- Channel: Marnie Goldberg (@MsGoldgirl, channel ID UCmdtnBQJVvY9MNCpgrY0uFw)
+- Video ID: r58VDhcsdYo
+- URL: https://www.youtube.com/watch?v=r58VDhcsdYo
+- Study group and why it was picked: model script, M25 (fashion), picked 2026-10-28, from models/candidates-for-review.md row 66
+- Title in approved-models.csv: How To Not Look Frumpy & Older Than You Are-Get Out of That Rut!! (views listed there: 2,838,725)
+- Upload date: 2022-10-04 (05:00:25-07:00)
+- Duration: 17:44 (1064 s)
+- Views: 2,838,735 (as of 2026-10-28, first details call)
+- Likes: 53,505 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 82,000 (from `round2/channels-all.csv` via `models/approved-models.csv`; basis: median of 15 most recent uploads >=5:00 and >=7 days old)
+- Views / normal: 34.62
+- Age at collection: 1485 days (4.1 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: female, on camera, first person: "hi my name is Marnie"; "I'm just under six months away from turning 50"; "I am a brand ambassador" (Chico's); "my YouTube channel started as a beauty oriented Channel".
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 461 segments; 3,440 words (bracket tags and ">>" excluded)
+- Comments: API commentsCount 7.9K; collected 20 top + 20 newest = 20 unique (20 in both lists); owner comments 0; spam skipped 0; NexLev calls 4
+- AI disclosure in the description: none found
+- Category: Howto & Style; isShortsEligible: false; hasCaption (details): false
+- Description notes (quoted): "Take this all with a grain of salt-and know that I love you no matter what you’re wearing!! I’ve personally broken every single one of these tips-it’s sometimes just helpful to hear them to get yourself out of a rut!!"; nine "TIP" headings with links (long blazer, full-length sleeves, peplum, Dean Davidson and Uncommon James jewellery, Dolce Vita sneakers, Chico's loafers, Walmart loafer); discount codes; "All outbound links to retailers/products are affiliate links unless otherwise marked."; "© 2022 Marnie Goldberg".
+- Comment pulls: the sort=top call returned the newest-first list (its continuation token reads get_newest_first); one retry of sort=top and one continuation-page call returned the same 20 comments again. So the top list for this video is not a relevance list; see comments.md.

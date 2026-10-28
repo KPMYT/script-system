@@ -1,0 +1,22 @@
+# 10 Things French Women Never Buy (But Everyone Else Does)
+
+- Channel: Aliceinparis (@Aliceinparisofficial, channel ID UC4MBo52ZvRib_GZav-ZpOcg)
+- Video ID: saDURZc-pno
+- URL: https://www.youtube.com/watch?v=saDURZc-pno
+- Study group and why it was picked: model script, M28 (french), picked 2026-10-28, from models/candidates-for-review.md row 37
+- Title in approved-models.csv: 10 Things French Women Never Buy (But Everyone Else Does) (views listed there: 118,376)
+- Upload date: 2025-12-10 (09:01:41-08:00)
+- Duration: 14:51 (891 s)
+- Views: 118,369 (as of 2026-10-28, first details call)
+- Likes: 4,047 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 28,000 (from `round2/channels-all.csv` via `models/approved-models.csv`; basis: median of 15 newest long-form (5:00+) uploads 7+ days old; views as shown by NexLev (rounded to K))
+- Views / normal: 4.23
+- Age at collection: 322 days (0.9 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: female, on camera, first person; her name is not said in the speech ("Bonjour, I am French"; "as a French woman"). Lives in Paris ("here in Paris"). No age is said.
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 296 segments; 1,903 words (bracket tags and ">>" excluded)
+- Comments: API commentsCount 390; collected 21 top + 9 newest = 30 unique (0 in both lists); owner comments 0; spam skipped 11; NexLev calls 3
+- AI disclosure in the description: none found
+- Category: Howto & Style; isShortsEligible: false; hasCaption (details): false
+- Description notes (quoted): "10 things French Women NEVER Buy"; "SHOP SLEEP AND GLOW / Code ALICE for 15% off!"; chapters "0:00 Introduction" to "12:36  Bonus"; LTK, ShopMy and Klarna shops; "MY FRENCH CHANNEL"; "Disclaimer: this video is sponsored and I might received a small commission when clicking on the affiliated links. This does not impact my opinion and my reviews which are French and 100% authentic :)"; "Fair use: This video may contain other video materials for educational and illustration purpose."; "All Rights Reserved © 2024,  Aliceinparis" (the upload date is 2025-12-10).

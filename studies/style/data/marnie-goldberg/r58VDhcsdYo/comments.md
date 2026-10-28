@@ -2,8 +2,8 @@
 
 "How To Not Look Frumpy & Older Than You Are-Get Out of That Rut!!". Collected 2026-10-28 via NexLev `youtube_video_comments` (sort=top page 1, plus the page returned for its continuation token; sort=newest page 1). Top-level comments only. Text and like counts only: no usernames, no channel IDs. @handles inside comment text are replaced with "@[handle removed]"; line breaks inside a comment are shown as " / ". Blank like counts are recorded as 0; counts of 1,000+ are shown as the API rounds them. Replies from the channel owner (API `authorIsChannelOwner=true`) are marked [OWNER]. Newest comments that also appear in the top list are marked "[also in top]".
 
-API commentsCount: 7.9K. Collected: 20 top + 20 newest = 20 unique (20 of the newest also in the top list). Spam skipped: 0. Owner comments: 0.
-Top page 2 (continuation token): 0 comment(s) not already on page 1 out of 20 returned; the rest repeated page 1.
+API commentsCount: 7.9K. Collected: 20 unique comments. The sort=top list and the sort=newest list came back identical (the same 20 comments in the same order), so the "Top by relevance" heading below holds the newest-first order, not a relevance order; all 20 newest are marked "[also in top]". Spam skipped: 0. Owner comments: 0.
+NexLev calls for comments: 4. sort=top page 1 returned a continuation token that reads get_newest_first; one retry of sort=top (no token) returned the same 20; the continuation page also returned the same 20 (0 new). sort=newest page 1: the same 20.
 
 ## Top by relevance (20)
 

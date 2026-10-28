@@ -1,0 +1,23 @@
+# 10 Fashion Mistakes That Make You Look Years Older
+
+- Channel: Capsule Closet Stylist (@capsuleclosetstylist, channel ID UCgNkiUqEi0HfHrDN-5h6EPg)
+- Video ID: Rg_YiVy40fk
+- URL: https://www.youtube.com/watch?v=Rg_YiVy40fk
+- Study group and why it was picked: model script, M18 (fashion), picked 2026-10-28, from models/candidates-for-review.md row 30
+- Title in approved-models.csv: 10 Fashion Mistakes That Make You Look Years Older (views listed there: 98,658)
+- Upload date: 2025-12-07 (10:30:38-08:00)
+- Duration: 13:21 (801 s)
+- Views: 98,658 (as of 2026-10-28, first details call)
+- Likes: 2,337 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 3,500 (from `round2/channels-all.csv` via `models/approved-models.csv`; basis: median of 15 most recent long-form (>=5:00, >=7 days old) from newest list)
+- Views / normal: 28.19
+- Age at collection: 325 days (0.9 years)
+- Type (round 2): real_on_camera
+- Presenter as heard in the transcript: female, on camera, first person: "Hi, my name's Michelle Barrow. I've been a personal stylist for 26 years" (caption spelling; the description hashtag is #michellebarrett). British usage ("trousers", "pop socks", times in GMT in the description).
+- Transcript: NexLev `get_bulk_video_transcripts`, track "English (auto-generated)"; 363 segments; 2,536 words (bracket tags and ">>" excluded)
+- Comments: API commentsCount 211; collected 31 top + 20 newest = 43 unique (8 in both lists); owner comments 1; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found
+- Category: Howto & Style; isShortsEligible: false; hasCaption (details): false
+- Description notes (quoted): "Do you think some of your wardrobe is aging you now you are over 60?"; "Let me know in the comments what changes you made after watching!"; free "capsule wardrobe planner"; "Book in for a discovery call with me"; channel membership; a four-week live "Capsule Wardrobe Challenge 2026" schedule; about 30 hashtags (#styleover60 ... #michellebarrett #colourandbodytypeguide). No affiliate links, no chapters.
+- The description and keywords say "over 60"; the speech says "over 50" once ("aimed at over 50 age group").
