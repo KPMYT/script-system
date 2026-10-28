@@ -1,0 +1,22 @@
+# How To Look Instantly Younger | 5 Colour Hacks You Need To See
+
+- Channel: Diana GOSS (@dianagoss, channel ID UCsCMk96I9GtBAS1TXjXCEAA)
+- Video ID: NMvN5bjcwks
+- URL: https://www.youtube.com/watch?v=NMvN5bjcwks
+- Study group: Single items (videos.csv row 23); why picked: colours
+- Selection figures (videos.csv): 1.0M views, 23x, 11:14
+- Upload date: 2023-03-12 (13:00:54-07:00)
+- Duration: 11:14 (674 s)
+- Views: 1,012,871 (as of 2026-10-28)
+- Likes: 15,029 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 43,000, from round2/channels-all.csv (median of 15 newest long-form (5:00+) uploads 7+ days old; views as shown by NexLev (rounded to K); 6 of the 15 are 1+ year old (slow recent upload rate))
+- Views / normal: 23.6
+- Age at collection: 1326 days (3.6 years)
+- Type (round 2): real_on_camera. Basis: reading: 2 thumbnails (eKCl-bRx8wg, DgoQxtxNFgM) show the same photographic woman with short platinum hair; named presenter Diana Goss in about text
+- Presenter, as heard in the transcript: No name said in speech. Female, first person: "starting a career as a personal stylist"; "if you're cool type like me".
+- Transcript: NexLev get_bulk_video_transcripts, track "English (auto-generated)", 276 segments, 1,845 words (youtube_video_details hasCaption=false)
+- Comments: NexLev youtube_video_comments; shown (API commentsCount) 441; collected 20 top + 20 newest = 39 unique; channel-owner comments 0; spam skipped 0
+- AI disclosure in the description: none found (description checked in full on 2026-10-28)
+- Description notes: Self colour analysis offer; shop-my-outfits rstyle links (Calzedonia, Low Classic, Toteme, Mango, Massimo Dutti, Bottega Veneta, Balenciaga, Zara, Joseph, Cos, Baum und Pferdgarten, Boyy, New Balance, Prada, Dior); chapters 0:00 Intro, 0:46 A little surprise for you!, 1:50 Pay attention to the colors for the portrait zone, 3:50 Choose right hair color, 5:50 Be careful with black!, 8:13 Avoid wearing dark muted colors next to each other, 9:25 Avoid high contrast combinations. No AI disclosure.
+- Category: Howto & Style; isShortsEligible: false

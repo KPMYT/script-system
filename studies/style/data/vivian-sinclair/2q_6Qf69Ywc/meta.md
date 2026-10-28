@@ -1,0 +1,22 @@
+# 5 Glasses That Make Women Over 60 Look Instantly Younger
+
+- Channel: Vivian Sinclair (@VivianSinclairStyle, channel ID UCfDezkF4P9FNxrD6PFGCoPw)
+- Video ID: 2q_6Qf69Ywc
+- URL: https://www.youtube.com/watch?v=2q_6Qf69Ywc
+- Study group: Single items (videos.csv row 26); why picked: glasses (Scarlet and Diane both made glasses videos)
+- Selection figures (videos.csv): 910K views, 140x, 16:59
+- Upload date: 2026-08-22 (14:03:13-07:00)
+- Duration: 16:59 (1019 s)
+- Views: 910,914 (as of 2026-10-28)
+- Likes: 13,147 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 6,500, from round2/channels-all.csv (median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views / normal: 140.1
+- Age at collection: 67 days (0.2 years)
+- Type (round 2): faceless_narrated. Basis: reading: both outlier thumbnails (2q_6Qf69Ywc, tSfgNEUXh8U) show generated-looking gray-haired models in before/after pairs, a different woman in each; no consistent presenter seen; titles use a first-person ex-saleswoman persona ('I used to sell them'); about text only 'Daily Videos'
+- Presenter, as heard in the transcript: "My name is Vivian Sinclair." Female persona, first person: "40 years beside a fitting room mirror"; "I am not an optician". Comments say the on-screen woman is AI-generated (6 remarks); round 2 typed the channel faceless_narrated from thumbnails.
+- Transcript: NexLev get_bulk_video_transcripts, track "English (auto-generated)", 409 segments, 2,849 words (youtube_video_details hasCaption=false)
+- Comments: NexLev youtube_video_comments; shown (API commentsCount) 812; collected 20 top + 20 newest = 40 unique; channel-owner comments 0; spam skipped 0
+- AI disclosure in the description: none found (description checked in full on 2026-10-28)
+- Description notes: First-person persona: 'After forty years of watching women look at themselves in my fitting-room mirror'; refers to 'the last two videos' on colour; lists the 5 frames; 'Tell me in the comments which frame you are trying first — I read every single one.'; 'Subscribe for a new video every week on style, hair and elegance after 60.' No AI disclosure.
+- Category: People & Blogs; isShortsEligible: false

@@ -1,0 +1,22 @@
+# 7 Modern Haircuts That Instantly Make You Look Younger 60+
+
+- Channel: Stylish60plus (@Stylish60plus, channel ID UCf9O3MaUZAXbUeb5LllhekA)
+- Video ID: 8p2y_Yk0pNQ
+- URL: https://www.youtube.com/watch?v=8p2y_Yk0pNQ
+- Study group: Hair mistakes and haircuts (videos.csv row n=46; replaces row 11, SdbAfqmUwJ0, per the main session 2026-10-28); why picked: reserve for row 11; a version of a title on the operator's list (about 15 copies)
+- Title in videos.csv: 7 Modern Haircuts That Instantly Make You Look Younger 60+
+- Upload date: 2026-09-23 (10:00:22-07:00)
+- Duration: 23:24 (1404 s)
+- Views: 216,520 (as of 2026-10-28)
+- Likes: 1,642 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 8,500 (from `round2/channels-all.csv`: median of the 15 most recent long-form uploads, 5:00+, at least 7 days old; views as NexLev rounds them)
+- Views / normal: 25.47
+- Age at collection: 35 days (0.1 years)
+- Type (round 2): faceless_narrated (videos.csv: faceless)
+- Presenter as heard in the transcript: one unnamed narrator; introduces the channel, not a person ("Welcome to Stylish 60 Plus"); no name or credential; gender not stated in speech.
+- Transcript: NexLev `get_video_transcript` (track name not returned); 583 segments; 3,864 words
+- Comments: API commentsCount 70; collected 20 top + 20 newest = 26 unique (14 in both lists); owner comments 0; spam skipped 0; NexLev calls 3
+- AI disclosure in the description: none found (no line mentions AI, synthetic, generated or altered content)
+- Category: Howto & Style; isShortsEligible: false
+- Description notes (quoted): Opens: "Are you still wearing the same haircut you had ten years ago? It might be aging you more than your birthday ever could." "It is not your age. It is the cut." "In this video I count down the 7 best haircuts for women over 60". "The biggest secret is not the number-one cut—it is the language that gets you the result you want." Asks viewers to "drop your cut number and face shape in the comments, and subscribe to Stylish Sixty Plus". "for women who refuse to fade into the background."

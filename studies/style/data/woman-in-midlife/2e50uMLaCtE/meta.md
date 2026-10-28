@@ -1,0 +1,22 @@
+# I colored my Gray Hair after 18 months of no dye
+
+- Channel: Woman in midlife (@Woman-in-midlife, channel ID UC1exmI_KJ-zXoKQAdhhzc3Q)
+- Video ID: 2e50uMLaCtE
+- URL: https://www.youtube.com/watch?v=2e50uMLaCtE
+- Study group: Gray hair (videos.csv row 16); why picked: personal story
+- Selection figures (videos.csv): 629K views, 119x, 7:24
+- Upload date: 2025-06-18 (04:15:01-07:00)
+- Duration: 7:23 (443 s)
+- Views: 629,078 (as of 2026-10-28)
+- Likes: 5,747 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 5,300, from round2/channels-all.csv (median of 15 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; views as returned (rounded, e.g. 85K))
+- Views / normal: 118.7
+- Age at collection: 497 days (1.4 years)
+- Type (round 2): real_on_camera. Basis: reading: same photographic woman in both outlier thumbnails (2e50uMLaCtE salon colouring photos, pC4YjCxSalg before/after); first-person titles ('stopped dyeing my hair at 49'); NOTE no presenter name in the about text
+- Presenter, as heard in the transcript: No name said. Female, first person, the woman whose hair is coloured ("I'm definitely still going to be a gray hair lady"). A female colorist also speaks (about 2:20-3:37).
+- Transcript: NexLev get_bulk_video_transcripts, track "English (auto-generated)", 182 segments, 1,361 words (youtube_video_details hasCaption=false)
+- Comments: NexLev youtube_video_comments; shown (API commentsCount) 948; collected 19 top + 20 newest = 39 unique; channel-owner comments 0; spam skipped 1
+- AI disclosure in the description: none found (description checked in full on 2026-10-28)
+- Description notes: Midlife Motivations email sign-up (linacreations.com/midlife); 'MY FAVORITE THINGS' affiliate list: Briogeo mask, Revive serum, Nutrafol, red light cap, L'Oreal gloss, Fanola no yellow mask, Oribe Silverati shampoo, silk pillowcase, shower filter; FTC affiliate disclosure. No AI disclosure.
+- Category: Howto & Style; isShortsEligible: false

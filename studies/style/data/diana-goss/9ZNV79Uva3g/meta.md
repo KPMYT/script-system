@@ -1,0 +1,22 @@
+# How To Find Jeans For Your Figure | Jeans For Your Body Type
+
+- Channel: Diana GOSS (@dianagoss, channel ID UCsCMk96I9GtBAS1TXjXCEAA)
+- Video ID: 9ZNV79Uva3g
+- URL: https://www.youtube.com/watch?v=9ZNV79Uva3g
+- Study group: Body shape (videos.csv row 20); why picked: (blank in videos.csv)
+- Selection figures (videos.csv): 636K views, 15x, 12:41
+- Upload date: 2023-03-26 (10:42:23-07:00)
+- Duration: 12:41 (761 s)
+- Views: 636,957 (as of 2026-10-28)
+- Likes: 9,566 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 43,000, from round2/channels-all.csv (median of 15 newest long-form (5:00+) uploads 7+ days old; views as shown by NexLev (rounded to K); 6 of the 15 are 1+ year old (slow recent upload rate))
+- Views / normal: 14.8
+- Age at collection: 1312 days (3.6 years)
+- Type (round 2): real_on_camera. Basis: reading: 2 thumbnails (eKCl-bRx8wg, DgoQxtxNFgM) show the same photographic woman with short platinum hair; named presenter Diana Goss in about text
+- Presenter, as heard in the transcript: No name said in speech. Female, first person, trying the jeans on herself; viewers address her as "Diana" in comments.
+- Transcript: NexLev get_bulk_video_transcripts, track "English (auto-generated)", 310 segments, 2,180 words (youtube_video_details hasCaption=false)
+- Comments: NexLev youtube_video_comments; shown (API commentsCount) 235; collected 20 top + 20 newest = 38 unique; channel-owner comments 0; spam skipped 0
+- AI disclosure in the description: none found (description checked in full on 2026-10-28)
+- Description notes: Opens: 'If you tried 5 pair of jeans and none of them fit, it doesnt mean there's something wrong with your body'; free style portfolio; chapters 0:00 Intro, 0:40 Get your free style portfolio, 1:45 Which Jeans Fit Your Body Shape?, 3:57 Wide Hips Heavier Bottom, 5:05 Narrow Hips, 5:25 Slim fit, 6:35 A bit of Volume in the Midsection, 7:10 Choose Right Fabric, 8:30 Pick the Right Color, 9:30 Pick Right Length for Your Height, 11:05 Pay Attention to the Pockets; rstyle links by fit; hashtags #styleover40. No AI disclosure.
+- Category: Howto & Style; isShortsEligible: false

@@ -1,0 +1,22 @@
+# 7 Pixie Cut Mistakes Women Over 60 Should AVOID
+
+- Channel: Alice Luxe (@AliceLuxe, channel ID UC4l04C6A_dog3pHfxoHggBg)
+- Video ID: CkVrghocoPs
+- URL: https://www.youtube.com/watch?v=CkVrghocoPs
+- Study group: Hair mistakes and haircuts (videos.csv row 12); why picked: (blank in videos.csv)
+- Selection figures (videos.csv): 490K views, 817x, 24:34
+- Upload date: 2025-02-03 (05:00:15-08:00)
+- Duration: 24:34 (1474 s)
+- Views: 490,793 (as of 2026-10-28)
+- Likes: 3,704 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 600, from round2/channels-all.csv (median of 15 most recent long-form (>=5:00, >=7 days old) from newest list)
+- Views / normal: 818.0
+- Age at collection: 632 days (1.7 years)
+- Type (round 2): faceless_narrated. Basis: about states the channel uses AI voiceovers and is produced by a team; reading: thumbnails CkVrghocoPs and hgw_NJMdRRw show different generated-looking older women (pixie cut with arrow; gray hair before/after) under bold text; no presenter
+- Presenter, as heard in the transcript: No presenter. Narration only; no name and no gender stated in the words; round 2 notes the about text states AI voiceovers.
+- Transcript: NexLev get_bulk_video_transcripts, track "English (auto-generated)", 569 segments, 3,900 words (youtube_video_details hasCaption=false)
+- Comments: NexLev youtube_video_comments; shown (API commentsCount) 93; collected 20 top + 20 newest = 32 unique; channel-owner comments 0; spam skipped 0
+- AI disclosure in the description: none found (description checked in full on 2026-10-28)
+- Description notes: Speaks as 'we're revealing'; subscribe link; links to 3 other Alice Luxe videos (incl. aaDZuD5jIfs). No AI disclosure in the description (the channel about text states AI voiceovers, per round 2).
+- Category: Howto & Style; isShortsEligible: false

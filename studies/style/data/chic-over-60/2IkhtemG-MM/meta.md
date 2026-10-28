@@ -1,0 +1,22 @@
+# 10 Things Women Over 60 Should REMOVE From Their WARDROBE Right Now!
+
+- Channel: Chic Over 60 (@ChicsOver60, channel ID UCkbGQ6Snk83E-dKt9aG_vVw)
+- Video ID: 2IkhtemG-MM
+- URL: https://www.youtube.com/watch?v=2IkhtemG-MM
+- Study group: Style mistakes that age you (videos.csv row 6); why picked: recent; "remove from your wardrobe" shape
+- Selection figures (videos.csv): 180K views, 164x, 17:24
+- Upload date: 2026-09-09 (12:15:07-07:00)
+- Duration: 17:24 (1044 s)
+- Views: 180,571 (as of 2026-10-28)
+- Likes: 1,801 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 1,100, from round2/channels-all.csv (median of 15 most recent long-form uploads (5:00+, 7+ days old); dates from NexLev relative times (approx.))
+- Views / normal: 164.2
+- Age at collection: 49 days (0.1 years)
+- Type (round 2): faceless_narrated. Basis: reading: thumbnails are generated-looking older women (a brunette holding an armful of clothes beside a 'LET IT GO' bin; a silver-bob woman shown twice as 'DATED' vs 'ELEGANT'), a different woman each time, under large yellow/white text; no presenter; about text names no one. NexLev check disagrees (not faceless 98%) (reading: generated faces counted as presenters)
+- Presenter, as heard in the transcript: No presenter. Narrated in "we"/"I"; no name and no gender stated in the words.
+- Transcript: NexLev get_bulk_video_transcripts, track "English (auto-generated)", 461 segments, 3,060 words (youtube_video_details hasCaption=false)
+- Comments: NexLev youtube_video_comments; shown (API commentsCount) 138; collected 20 top + 20 newest = 32 unique; channel-owner comments 1; spam skipped 0
+- AI disclosure in the description: none found (description checked in full on 2026-10-28)
+- Description notes: Speaks as 'we'; promises 'a simple styling trick at number 6'; asks for thumbs up, comment ('which piece YOU need to remove'), subscribe; 'New style videos every week'. No AI disclosure.
+- Category: People & Blogs; isShortsEligible: false

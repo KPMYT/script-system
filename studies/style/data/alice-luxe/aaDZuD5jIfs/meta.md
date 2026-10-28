@@ -1,0 +1,22 @@
+# GRAY Hair Styles That Make You Look Expensive
+
+- Channel: Alice Luxe (@AliceLuxe, channel ID UC4l04C6A_dog3pHfxoHggBg)
+- Video ID: aaDZuD5jIfs
+- URL: https://www.youtube.com/watch?v=aaDZuD5jIfs
+- Study group: Gray hair (videos.csv row 18); why picked: one of the few faceless gray-hair hits
+- Selection figures (videos.csv): 129K views, 215x, 22:38
+- Upload date: 2025-01-24 (06:00:02-08:00)
+- Duration: 22:37 (1357 s)
+- Views: 129,735 (as of 2026-10-28)
+- Likes: 1,395 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 600, from round2/channels-all.csv (median of 15 most recent long-form (>=5:00, >=7 days old) from newest list)
+- Views / normal: 216.2
+- Age at collection: 642 days (1.8 years)
+- Type (round 2): faceless_narrated. Basis: about states the channel uses AI voiceovers and is produced by a team; reading: thumbnails CkVrghocoPs and hgw_NJMdRRw show different generated-looking older women (pixie cut with arrow; gray hair before/after) under bold text; no presenter
+- Presenter, as heard in the transcript: No presenter. Narration only; no name and no gender stated in the words; round 2 notes the about text states AI voiceovers.
+- Transcript: NexLev get_bulk_video_transcripts, track "English (auto-generated)", 529 segments, 3,568 words (youtube_video_details hasCaption=false)
+- Comments: NexLev youtube_video_comments; shown (API commentsCount) 37; collected 20 top + 19 newest = 25 unique; channel-owner comments 0; spam skipped 1
+- AI disclosure in the description: none found (description checked in full on 2026-10-28)
+- Description notes: Lists styles (sleek bobs, modern pixie, long layers, updos, natural curls, beachy waves, bangs); subscribe link; 3 links to other Alice Luxe videos. No AI disclosure in the description.
+- Category: Howto & Style; isShortsEligible: false

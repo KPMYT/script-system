@@ -1,0 +1,22 @@
+# 5 Style Mistakes That Make You Look Older Than You Are
+
+- Channel: Diana GOSS (@dianagoss, channel ID UCsCMk96I9GtBAS1TXjXCEAA)
+- Video ID: eKCl-bRx8wg
+- URL: https://www.youtube.com/watch?v=eKCl-bRx8wg
+- Study group: Style mistakes that age you (videos.csv row 2); why picked: (blank in videos.csv)
+- Selection figures (videos.csv): 1.3M views, 30x, 9:01
+- Upload date: 2022-12-06 (10:00:21-08:00)
+- Duration: 9:00 (540 s)
+- Views: 1,349,801 (as of 2026-10-28)
+- Likes: 15,985 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 43,000, from round2/channels-all.csv (median of 15 newest long-form (5:00+) uploads 7+ days old; views as shown by NexLev (rounded to K); 6 of the 15 are 1+ year old (slow recent upload rate))
+- Views / normal: 31.4
+- Age at collection: 1422 days (3.9 years)
+- Type (round 2): real_on_camera. Basis: reading: 2 thumbnails (eKCl-bRx8wg, DgoQxtxNFgM) show the same photographic woman with short platinum hair; named presenter Diana Goss in about text
+- Presenter, as heard in the transcript: No name said in speech. Female, first person, styling her own outfits ("the most feminine parts of my body"); "as a stylist" (2:02). The channel is Diana Goss (round 2 about text).
+- Transcript: NexLev get_bulk_video_transcripts, track "English (auto-generated)", 220 segments, 1,489 words (youtube_video_details hasCaption=false)
+- Comments: NexLev youtube_video_comments; shown (API commentsCount) 593; collected 21 top + 20 newest = 40 unique; channel-owner comments 0; spam skipped 0
+- AI disclosure in the description: none found (description checked in full on 2026-10-28)
+- Description notes: Instagram link; free style portfolio offer; support@threedaymakeover.com; per-look item lists with rstyle links (Toteme, Saint Laurent, Bottega Veneta, Dior, Iro, Mango, Zara, Monica Vinader, Khaite, Low Classic, Cesare Paciotti, Joseph, Calzedonia, Equipment, Prada, Cos, Baum und Pferdgarten, Massimo Dutti, adidas, By Malene Birger, Medea). No AI disclosure.
+- Category: Howto & Style; isShortsEligible: false

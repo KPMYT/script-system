@@ -1,0 +1,22 @@
+# She's 68 in Paris — 5 Style Rules She Never Breaks
+
+- Channel: TRENDS SPOTTED FASHION Timeless and Ageless (@TRENDSSPOTTEDFASHION, channel ID UCQ7Nd8tNX_xPGRhtjx4VivQ)
+- Video ID: HG2OJ0O3lxg
+- URL: https://www.youtube.com/watch?v=HG2OJ0O3lxg
+- Study group: French angle (videos.csv row 37); why picked: "She's 68 in Paris" shape
+- Selection figures (videos.csv): 260K views, 12x, 16:02
+- Upload date: 2026-06-01 (07:23:13-07:00)
+- Duration: 16:02 (962 s)
+- Views: 260,919 (as of 2026-10-28)
+- Likes: 6,134 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 21,000, from round2/channels-all.csv (median of 15 most recent long-form uploads (5:00+, 7+ days old); 3 upload(s) returned with no view count (0) excluded; dates from NexLev relative times (approx.))
+- Views / normal: 12.4
+- Age at collection: 149 days (0.4 years)
+- Type (round 2): faceless_narrated. Basis: reading: thumbnails show photographs of other women (a dark-haired older woman in blazer and white shirt on a red backdrop; a woman in a yellow dress in a stone street) with serif text overlays; no recurring presenter; about text speaks as 'this channel', names no presenter
+- Presenter, as heard in the transcript: No narrator name or gender stated ("I" twice). Subject: Inès de la Fressange, a real woman, named in speech ("At 68 in Paris"). One commenter mentions "your French accent"; two complain about the translated audio.
+- Transcript: NexLev get_video_transcript, track "not stated by the tool", 378 segments, 2,242 words (youtube_video_details hasCaption=true)
+- Comments: NexLev youtube_video_comments; shown (API commentsCount) 302; collected 20 top + 20 newest = 37 unique; channel-owner comments 1; spam skipped 0
+- AI disclosure in the description: none found (description checked in full on 2026-10-28)
+- Description notes: Subject named: Ines de la Fressange (Instagram and brand links); 'Five named techniques you can apply tomorrow morning — no shopping required'; FREE Neutrals Upgrade Checklist (trendsspottedfashion.com); The Elegant Wardrobe System (gumroad); bundle; membership $9.99/month; affiliate disclaimer; chapters 0:00 The mirror moment, 1:02 40 years of photographs, 1:22 Why the industry sells you the wrong thing, 2:29 Rule 1 The Ease Tell, 4:14 Rule 2 The Shoulder Verdict, 6:13 Rule 3 The Accent Ceiling, 7:52 Free resource, 8:19 Rule 4 The Undone Move, 10:56 The mistake most women make, 11:38 Rule 5 The Deliberate Clash, 14:15 The one word she refuses to use, 15:11 Your permission for tomorrow morning. About: 'the diagnostic style channel that names what's quietly aging your outfits'. No AI disclosure. Subtitles list: 'English' and 'English (auto-generated)' (variant=gemini).
+- Category: Howto & Style; isShortsEligible: false

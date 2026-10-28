@@ -1,0 +1,22 @@
+# 10 Style Mistakes That Instantly Make You Look Older with Personal Stylist Melissa Murrell
+
+- Channel: MM Personal Styling (@mmpersonalstyling, channel ID UCgmaIAMFvJunsgcHOBUM25g)
+- Video ID: gfbWOw00Y-M
+- URL: https://www.youtube.com/watch?v=gfbWOw00Y-M
+- Study group: Style mistakes that age you (videos.csv row 1); why picked: (blank in videos.csv)
+- Selection figures (videos.csv): 1.5M views, 27x, 30:51
+- Upload date: 2025-10-19 (09:01:12-07:00)
+- Duration: 30:51 (1851 s)
+- Views: 1,569,834 (as of 2026-10-28)
+- Likes: 43,553 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 55,000, from round2/channels-all.csv (median of 8 most recent long-form uploads (>=5:00, >=7 days old) from youtube_channel_videos newest; only 8 qualified in the newest 30 returned; 21 members-only/no-view-count uploads in the list excluded; views as returned (rounded, e.g. 85K))
+- Views / normal: 28.5
+- Age at collection: 374 days (1.0 years)
+- Type (round 2): real_on_camera. Basis: reading: photographic women in real rooms in both outlier thumbnails (gfbWOw00Y-M, OW5pCSXskhc), mirror-selfie try-ons; about and titles name Personal Stylist Melissa Murrell
+- Presenter, as heard in the transcript: Melissa Murrell, female, first person: "My name is Melissa Morel and I'm a personal stylist for the everyday woman" (captions spell the surname "Morel"; title says Murrell). A colleague, Amy (female), speaks in the too-tight item (9:09-12:59).
+- Transcript: NexLev get_bulk_video_transcripts, track "English (auto-generated)", 729 segments, 5,351 words (youtube_video_details hasCaption=false)
+- Comments: NexLev youtube_video_comments; shown (API commentsCount) 2.7K; collected 20 top + 20 newest = 39 unique; channel-owner comments 1; spam skipped 0
+- AI disclosure in the description: none found (description checked in full on 2026-10-28)
+- Description notes: Affiliate links disclosure; moonsift UK/US links; Instagram @ MelissaMurrellPersonalStyling; styling consultations and courses at mmpersonalstyling.co.uk. No AI disclosure.
+- Category: Howto & Style; isShortsEligible: false

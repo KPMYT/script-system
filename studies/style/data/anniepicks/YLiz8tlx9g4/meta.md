@@ -1,0 +1,22 @@
+# 7 Colour Combinations That Make You Look Expensive & Elegant | Women's Fashion Over 50
+
+- Channel: AnniePicks (@AnniePicks, channel ID UCkg2yprPSxXNDcuv77PFZeg)
+- Video ID: YLiz8tlx9g4
+- URL: https://www.youtube.com/watch?v=YLiz8tlx9g4
+- Study group: Look expensive or elegant (videos.csv row 32); why picked: colours; 6:47
+- Selection figures (videos.csv): 1.0M views, 1307x, 6:47
+- Upload date: 2024-10-19 (03:00:39-07:00)
+- Duration: 6:46 (406 s)
+- Views: 1,013,945 (as of 2026-10-28)
+- Likes: 22,280 (as of 2026-10-28)
+- Collection date: 2026-10-28
+- Channel normal: 765, from round2/channels-all.csv (median of 15 most recent uploads >=5:00 and >=7 days old)
+- Views / normal: 1325.4
+- Age at collection: 739 days (2.0 years)
+- Type (round 2): faceless_narrated. Basis: thumbnails (2 outliers: a celebrity photo (Helen Mirren-like) and a stock model photo with bold text; no consistent presenter) (reading)
+- Presenter, as heard in the transcript: No presenter. Narration only; no name and no gender stated in the words ("olive green is one of my favorite colors").
+- Transcript: NexLev get_bulk_video_transcripts, track "English (auto-generated)", 173 segments, 1,047 words (youtube_video_details hasCaption=false)
+- Comments: NexLev youtube_video_comments; shown (API commentsCount) 1K; collected 20 top + 19 newest = 36 unique; channel-owner comments 1; spam skipped 1
+- AI disclosure in the description: none found (description checked in full on 2026-10-28)
+- Description notes: Hashtags incl. #entertainment #womenover50; chapters 0:00 BEST Colour Combos, 0:50 Blue with White or Gray, 1:45 Beige and Brown, 2:42 Burgundy and Camel, 3:23 White and Navy, 4:07 Burgundy with Charcoal Gray, 4:53 Olive Green and Off-White, 5:41 Black and Gold, 6:25 Make You Look Expensive & Elegant; asks for share, comment, 'Leave a smiley face in the comments section', subscribe and bell. No AI disclosure.
+- Category: People & Blogs; isShortsEligible: false
