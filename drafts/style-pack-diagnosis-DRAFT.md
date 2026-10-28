@@ -44,7 +44,27 @@ So the plumbing pack's **structure** carries over (inputs, the overrides table, 
 
 ## 1. Hair and fashion: are the emotions the same?
 
-*(Filled in from `studies/style/comparison/08-hair-vs-fashion.md` when it lands.)*
+**Mostly the same, so one pack works, with a short hair note and a short fashion note inside it.** From `studies/style/comparison/08-hair-vs-fashion.md`: every transcript of 38 real-presenter videos (15 hair, 23 fashion) and 20 faceless ones read in full, and 2,138 comments coded by hand.
+
+**What's the same:**
+- **The feelings viewers voice:** 29% of hair comments and 29% of fashion comments voice a feeling about herself, and both lead with the same four: permission ("I wear what I want"), relief at an explanation, unhappiness with a body part, and "nobody shows women like me".
+- **How presenters voice them:** a feeling in the hook in about half the videos on both sides (7 of 15 hair, 14 of 23 fashion); the presenter's own feeling in about a third on both.
+- **The voice counts:** "you", "I" and questions don't differ. Fashion presenters say "but" a little more (8.3 against 6.6 per 1,000 words).
+
+**What differs (large and steady):**
+
+| | Hair | Fashion | How sure |
+|---|---|---|---|
+| **Who gets the blame** | the stylist: complaints on 12 of 15 hair videos (0 of 23 fashion); "not listened to" on 9 of 15 (2 of 23) | clothes that don't fit or aren't made for her: 12 of 23 fashion videos (0 of 15 hair) | strong (p ≤ 0.001) |
+| **The feeling the script names** | fear of the change and the process ("petrified" of a short cut, nervous about bangs, the patience of going gray): 10 of 21 hair feeling items | the body, comfort and confidence: 37 of 47 fashion feeling items | strong (p = 0.0002); the faceless scripts split the same way |
+| **Hard words** ("frumpy", "old lady", "mumsy", "dowdy") | 1 of 15 scripts; hair says "aging" and "older" | 13 of 23 scripts | strong (p = 0.002) |
+| **Topics of their own** | the gray grow-out (hiding it, being judged), styling it yourself at home | feet, shoes and health; petite sizing; heat | a handful of videos each |
+
+**What this means for the pack:** one emotion section for both (3.7), plus two short notes:
+- **Hair:** the pain is the salon that didn't listen and the fear of the change. The feeling line goes on the nerve before the cut ("if a short cut scares you…"), the fix includes what to say to the stylist, and the stylist is never the villain as a person (3.5). Hard words are rarely needed.
+- **Fashion:** the pain is the body changing and clothes not made for her. The feeling line goes on the body and comfort; hard words belong here, still at most once and flagged.
+
+**Caution:** one coder; format travels with the group (the salon cut-alongs and gray-hair stories are all hair, the "frumpy" titles all fashion); only 4 faceless hair videos; makeup isn't in the sample.
 
 ---
 
@@ -180,7 +200,7 @@ New rules the evidence adds:
 6. **Your three feelings, lightly:** "frumpy" where the title has it; "invisible" sparingly; "losing her spark" as a picture, rarely.
 7. **Targets** (floors, never quotas): "you" about 45 per 1,000 words; "but" about 5; questions 4-8 a script; "I" in ASK 11.
 
-*(Section 1's hair and fashion findings are added here where they change a rule.)*
+8. **Hair and fashion notes** (section 1): on hair titles the feeling is the fear of the change and the salon that didn't listen; on fashion titles it's the body, comfort and fit. One rule set; the examples and the item's feeling line follow the title's side.
 
 ### 3.8 Point then promise: ADAPT, smaller
 
@@ -398,6 +418,8 @@ Your answer to suggestion 4 ("a first-person voice and one soft credential", wit
 Each has a recommendation. "Yes to all recommended" is a fine answer; change any by number.
 
 **The pack**
+
+0. **Hair and fashion, one pack:** one emotion section, with a short hair note (the fear of the change; the salon that didn't listen) and a short fashion note (the body, comfort, fit; the hard words), as section 1 found. *Recommended.*
 1. **Its name:** `style-scripts` (matches `style-ideation`; the makeup pack later as `makeup-scripts`). *Recommended.*
 2. **Script type for both:** Talking Head (Notion says so; the QR code and markers are already used). *Recommended.*
 
