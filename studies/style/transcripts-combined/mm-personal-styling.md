@@ -1,0 +1,737 @@
+# MM Personal Styling: combined transcripts (1 videos)
+
+---
+
+## 10 Style Mistakes That Instantly Make You Look Older with Personal Stylist Melissa Murrell
+
+Video `gfbWOw00Y-M` · group: Style mistakes that age you · https://www.youtube.com/watch?v=gfbWOw00Y-M
+
+[0:00] Hello, welcome back to my channel. My
+[0:02] name is Melissa Morel and I'm a personal
+[0:04] stylist for the everyday woman, which
+[0:07] means I only style people like
+[0:09] yourselves. We don't style any models.
+[0:12] We style normal everyday women for their
+[0:14] normal everyday lifestyles. And today we
+[0:18] are recreating one of our most popular
+[0:20] videos for you, which is styling tips
+[0:23] around making you look more modern and
+[0:26] less dated. It isn't about making you
+[0:29] look trendy. That is not the point of
+[0:31] the video. But the point of the video is
+[0:34] to stop you looking sometimes mumsy and
+[0:37] a little bit outdated. So, I think we've
+[0:40] got about 10 or 11 styling tips for you
+[0:42] today. And before we start, all we ask
+[0:44] is if you can press that subscribe
+[0:46] button, you can share the video,
+[0:48] comment, whatever you can do to interact
+[0:51] is a really big benefit to us as a
+[0:53] channel and means that we can bring you
+[0:55] these videos on a more regular basis.
+[0:57] So, let's get started. So, one of the
+[0:59] biggest styling mistakes we see is that
+[1:02] people aren't bothered to use
+[1:04] accessories. And sometimes when they do
+[1:06] use accessories, particularly um
+[1:08] necklaces and jewelry, they go too fine.
+[1:12] When you go fine, a it's quite dating,
+[1:15] but more importantly, you can't see it.
+[1:18] So, it doesn't make up part of the
+[1:20] outfit. I've actually just shown this on
+[1:22] Instagram recently, but let me recreate
+[1:25] it here for you. So, first of all, in my
+[1:27] neckline here, you can see that I've got
+[1:29] two necklaces on. If I was just to have
+[1:32] that one on there, that is going to get
+[1:35] lost in the outfit. Two together make it
+[1:38] slightly more bolder. So, by changing my
+[1:41] necklace, I now only need to have one on
+[1:44] because that one is bold enough to be
+[1:46] part of the outfit. So, if we look at
+[1:48] the outfit right now, you can see
+[1:50] they've got the jewelry down here
+[1:51] showing. I've got a belt here. I've got
+[1:54] some coordinated shoes. It doesn't have
+[1:57] to be the same color. I'm obviously
+[1:58] picking up on the burgundy. You don't
+[2:00] have to pick up on the burgundy, but it
+[2:02] would be a coordinated shoe of some
+[2:04] sort. And that makes the whole outfit.
+[2:07] Watch what happens as soon as I take
+[2:10] away the jewelry. I even pull the arms
+[2:13] down. Let's strip off the belt. Let's
+[2:16] untuck the jumper, hide the necklace.
+[2:20] Now we have the same outfit where
+[2:23] somebody hasn't bothered to accessorize
+[2:26] it. And this not bothering to
+[2:28] accessorize it. It takes two minutes to
+[2:32] push your sleeves up, to add a necklace
+[2:35] on, to do some juzjing. And that is the
+[2:38] difference between being styled versus
+[2:42] unstyled. And we achieve that by adding
+[2:45] in your accessories. So next is this
+[2:48] notion that if you wear a blouse with
+[2:50] everything, it elevates an outfit. It
+[2:54] absolutely does not. particularly when
+[2:57] you wear a blouse with a fleece like
+[2:59] this. So, an outfit like this looks
+[3:02] incredibly dated. But I will show you in
+[3:04] a second how you can absolutely
+[3:06] transform this just by changing the top
+[3:10] alone. So, let's have a look at that
+[3:12] now. And there you go. Simple as that.
+[3:14] All I have done is change the blouse for
+[3:16] a white t-shirt and you get a lot more
+[3:18] of a crisper, more modern, less dated
+[3:22] look. Yes, you could wear a V-neck
+[3:24] t-shirt. Yes, you could wear a cream or
+[3:27] a white cashmere jumper or a cotton
+[3:29] jumper, but just something plain in the
+[3:32] middle and you're going to get the same
+[3:35] level of style. Um, just because you had
+[3:38] a blouse on doesn't mean it looked more
+[3:40] elevated. And the benefit of a base
+[3:42] layer like this means that I can add in
+[3:44] any of my jackets and all of them would
+[3:47] work. With the blouse, they wouldn't
+[3:49] work. So, let me just throw on a few
+[3:51] jackets to show you how all of them are
+[3:54] going to go and we will put the picture
+[3:56] at the side of me to show you the look
+[3:58] with the blouse in the middle. So, there
+[4:00] we go. A long wore one goes really nice.
+[4:02] This jacket comes in lots of different
+[4:04] colors. I'm wearing a size extra small
+[4:06] as it does come up very big. And as you
+[4:08] can see, it goes equally as well with
+[4:11] just this casual version of the jacket
+[4:13] on because the middle bit is plain and
+[4:16] the blouse has gone. And just one final
+[4:18] one just to prove that point there. So
+[4:20] hopefully you can see ditch the blouses,
+[4:23] just stay plain instead. So the next
+[4:25] styling mistake that I see a lot of is
+[4:29] one that I don't know why women these
+[4:30] days put themselves through it, but it
+[4:32] is women that are wearing really super
+[4:36] high heel shoes. A kitten heel is a lot
+[4:39] more sophisticated these days and
+[4:42] produces the same type of outfit. So, as
+[4:45] you can see here, these very casual
+[4:47] jeans have been elevated really nicely
+[4:50] with just this very small little kitten
+[4:53] heel. I've paired it with a really
+[4:56] beautiful cardigan from Bowden. This is
+[4:59] beautiful. There we go. If you can see
+[5:02] that fabric, it's a lot like the Lily
+[5:05] Silk jumper. Um, but it's beautiful. It
+[5:08] feels so nice and soft. And I know it
+[5:10] comes in a lot of different colors as
+[5:13] well. as soon as I swap these heels for
+[5:15] something higher. And we've got two
+[5:17] options here. We've got a super high
+[5:20] platform ones. These are incredibly
+[5:24] dated. Definitely leave these for your
+[5:26] fancy dress um box. I'm sure they will
+[5:29] come back at some point, but right now
+[5:32] you need to keep them in your wardrobe
+[5:33] or perhaps donate them. Something like
+[5:36] that is a classic. Absolutely. And I
+[5:39] think that will always have a place in
+[5:41] your wardrobe, especially because some
+[5:43] trousers um when you're short like
+[5:46] myself, I need to hide a higher heel. So
+[5:49] I suppose what I'm saying here with the
+[5:51] kitten heel is particularly if your shoe
+[5:53] is on show and you can see the height of
+[5:56] the heel. So something like that I would
+[5:58] keep in because it's neutral. But
+[6:00] something along those lines I would
+[6:02] absolutely get rid of. So there you go.
+[6:04] There are the dated ones on. I'm
+[6:07] struggling a little bit today because
+[6:08] I've actually got a broken little toe.
+[6:11] So, I can't keep these on for very long
+[6:14] cuz it's hurting. Um, but yeah,
+[6:16] hopefully you can see how that just
+[6:18] looks a little bit tacky in all honesty
+[6:21] with you. So, stick with the kitten
+[6:23] heels. And a true kitten heel would be
+[6:25] something on those lines. So, it's
+[6:28] barely an inch in height, which means a
+[6:31] lot of our ladies that we dress can
+[6:33] actually wear these. And often we will
+[6:35] get ladies who say that they can't wear
+[6:37] heels. And I'm saying, well, you
+[6:39] probably can wear a kitten heel, which
+[6:41] is going to elevate your whole outfit up
+[6:43] just by adding in a coordinated handbag
+[6:46] there. And you can see how that is
+[6:49] instantly elevated without the need for
+[6:53] such a big heel. And a lot more of a
+[6:55] sophisticated look, I believe. So, the
+[6:58] next styling tip actually focuses on
+[7:00] cardigans. So, I've left this beautiful
+[7:02] bow one on right now. Now, cardigans can
+[7:06] very easily look very dated. So, if we
+[7:10] just focus on how I'm styling this one
+[7:12] first of all, um I've just kept the same
+[7:15] um cropped jeans on for now, but a
+[7:16] widelegg long jean would look great. I
+[7:19] think the best way to wear these
+[7:20] cardigans is often done up, but if
+[7:23] you've got a larger chest, then of
+[7:25] course you can open them. It's almost
+[7:27] like you do it all up, then you undo a
+[7:30] little bit. When it's all done up and
+[7:32] it's a little bit um almost too twee
+[7:36] like that, you get no shape whatsoever.
+[7:39] So, by just opening it up a little bit,
+[7:42] maybe just leaving that bottom button
+[7:44] undone, that gives a lot more of a sort
+[7:47] of relaxed look with these cardigans.
+[7:49] You can obviously tuck it in if you
+[7:51] prefer a little bit of shape like that.
+[7:53] I could open that neckline up. You could
+[7:55] wear a white t-shirt underneath, but the
+[7:58] type of cardigan that will date you is a
+[8:01] waterfall type of cardigan. So,
+[8:04] typically they end about mid thigh,
+[8:07] sometimes longer. Um, and they've got a
+[8:10] waterfall relaxed collar, particularly
+[8:13] as well when those are in like a really
+[8:16] thin cotton fabric. Again, the jewelry
+[8:18] is at play here, so you can see that in
+[8:20] the neckline. Now, that's not to say
+[8:22] that you can't wear a mid-length
+[8:24] cardigan, but you need to take note of
+[8:26] the fabric and the drape of it. So, a
+[8:29] more modern I sorry, we're just being
+[8:31] interrupted by Monty. There we go. He
+[8:35] hasn't been on for a while, has he? He's
+[8:37] actually been on the other sofa with his
+[8:39] head on my bra this morning. So, sorry.
+[8:42] What I was saying there is that yes, you
+[8:45] can wear a mid thigh cardigan, but have
+[8:47] a look at the fabric. Have a look at the
+[8:49] drape. If you don't want it in this sort
+[8:51] of thin cotton, if it's in some sort of
+[8:55] nice woolly um effect like this, this is
+[8:58] like a a cashmere blend or one like
+[9:00] this. So, you can see how this one just
+[9:03] drapes down. It's very simple in its
+[9:06] design. It hasn't got any of the extra
+[9:09] collar detail and all of the details
+[9:11] that can actually make it date. Okay, so
+[9:14] as you can see, I've dragged on Amy for
+[9:16] this one because hopefully straight away
+[9:20] you can see two very similar outfits,
+[9:23] but with one major change, and that is
+[9:26] that Amy here is beautifully balanced
+[9:30] out. So, even though she's got the
+[9:32] tighter jacket on top, we've gone with a
+[9:35] wider leg underneath. And this leads us
+[9:37] nicely onto our next styling mistake
+[9:39] that we see a lot of and that is people
+[9:42] going too tight from head to toe. Um it
+[9:46] does nothing for your shape.
+[9:48] >> It doesn't does it?
+[9:48] >> No.
+[9:49] >> I actually look bigger.
+[9:50] >> Yeah. You're by going tighter.
+[9:52] >> But it just looks wrong.
+[9:54] >> Yes. And it's because it isn't balanced.
+[9:57] So the jacket is boxy on me and it's a
+[10:00] very similar jacket which is fine. But
+[10:02] the the fact that the jacket is boxy and
+[10:04] it's sticking out and then my legs look
+[10:06] a lot slimmer mean that I actually look
+[10:10] almost like an inverted triangle. I look
+[10:12] like I go like that rather than I'm
+[10:15] actually more of a pear stroke hourglass
+[10:18] in shape. But this doesn't do anything
+[10:20] for me. And this is very typical of how
+[10:23] a lady um often with an appleshape um
+[10:27] dresses. So they're trying to highlight
+[10:29] what they they think is their skinniest
+[10:31] part.
+[10:32] >> Absolutely.
+[10:32] >> Actually, they're throwing the rest of
+[10:34] their balance way out.
+[10:35] >> Yes. Yeah. And that's why we actually
+[10:37] introduce and trademark the hourglass
+[10:40] balancing method. And that is to say
+[10:42] that we always apply this method to any
+[10:45] body shape. And in this case here with
+[10:48] Amy, Amy, you are slightly thicker
+[10:51] around your sort of here area. Is it?
+[10:54] >> I have eaten two tubs of ice cream this
+[10:55] weekend. and she got very drunk, I tell
+[10:58] you.
+[10:59] >> We won't put that on.
+[11:01] >> And I might even put the video of her
+[11:03] dancing in a karaoke bar if she's not
+[11:06] very good this week.
+[11:09] >> Okay. So, anyway, anyway,
+[11:11] >> the best boss.
+[11:12] >> Yes.
+[11:14] So, you she's lovely and balanced here.
+[11:17] And even though this is where she feels
+[11:19] she carries a little bit of extra
+[11:20] weight, you can't see that at all. If
+[11:23] you were to wear these tight jeans to
+[11:25] show off your slimmer legs, then it's
+[11:28] going to accentuate your stomach and
+[11:29] everything.
+[11:30] >> And also, I've got quite I mean, I'll
+[11:31] try and pull it in, but I've got quite
+[11:33] shapely calves. I don't know if you can
+[11:35] see that on camera cuz it's dark. Um, so
+[11:37] then when I put these on, they make them
+[11:39] look even bigger than what they are.
+[11:41] >> Absolutely.
+[11:42] >> Which again, it's probably making you
+[11:43] feel more conscious of your hips.
+[11:45] >> Yes, totally. Um, and if we can draw
+[11:47] your attention down to the shoes here, a
+[11:50] black trainer is some or a black boot is
+[11:52] something that we see with this type of
+[11:54] look all the time. There's no flesh
+[11:56] showing. It just goes straight into the
+[11:59] trainer. Um, on Amy here, she's
+[12:01] naturally gone for a lighter trainer.
+[12:04] Now, I know a lot of you will say in the
+[12:06] comments, "Well, what happens if it's
+[12:07] raining or it's muddy?" Then obviously,
+[12:10] if it's raining and it's muddy, then we
+[12:12] wouldn't be wearing the lighter color
+[12:14] shoe. But it doesn't mean that we
+[12:16] automatically swap it out for a black
+[12:18] shoe. It might be your brown Adidas in
+[12:21] this case or it could be your black more
+[12:24] sturdier boots. But even those boots,
+[12:26] they're going to have a slimmer profile
+[12:28] on the front so it doesn't look as big
+[12:31] and bulbous and chunky as a trainer like
+[12:34] this does.
+[12:34] >> Yeah. Even putting black shoes with that
+[12:37] still it would all just blend.
+[12:39] >> Yes, absolutely.
+[12:39] >> You've got nothing bringing your leg to
+[12:42] open it up. No,
+[12:43] >> even if I was just to do that and just
+[12:48] show a little bit of ankle there, it's
+[12:50] actually
+[12:51] >> Well, you're 1% better.
+[12:53] >> But we could go more than that.
+[12:55] >> We can definitely go more than that by
+[12:58] putting a different type of jean on. So,
+[13:00] yeah, definitely going too tight across
+[13:03] the entire body is a mistake you want to
+[13:05] avoid. So, for our next styling mistake
+[13:08] that really dates an outfit, it's when
+[13:12] somebody has picked up the wrong bag for
+[13:15] the outfit. So, in this case, I've got
+[13:18] more of a smarter look, perhaps a work
+[13:20] look going on, and I've teamed it up
+[13:22] with this beautiful suede bag that is
+[13:26] actually big enough to house my laptop.
+[13:29] And I've actually got inside it a 14 in
+[13:32] Apple laptop. Now, there are not many
+[13:36] bags that actually hold a laptop like
+[13:39] that and that also have great
+[13:42] functionality and usability. So, what
+[13:45] sets this bag apart is that I've got
+[13:48] several different ways of carrying it.
+[13:50] I've got the shorter strap, as you can
+[13:51] see there. I've got the longer strap
+[13:55] like that, but also it comes with a
+[13:57] third strap that actually allows me to
+[14:00] wear it as a rucks sack. So when the bag
+[14:03] is feeling a little bit heavier because
+[14:05] you have got the laptop inside it, then
+[14:07] you can just adapt it to make it into a
+[14:10] rucks sack. So I suppose what I'm trying
+[14:12] to say is that there is no reason these
+[14:15] days why you should be wearing your Nike
+[14:19] rucks sack with an outfit like this. I
+[14:22] get a lot of comments like, "Oh, I don't
+[14:24] bother changing my bag because this one
+[14:26] fits my um laptop in or because um this
+[14:31] one I can wear as a rucks sack." You've
+[14:33] got bag options out there that work for
+[14:36] all occasions. This particular one is an
+[14:39] investment piece. It's from a company
+[14:41] called Fabri. It is absolutely
+[14:45] beautiful. And yes, you will pay a
+[14:47] little bit more for that, but we will
+[14:48] make sure that we put some alternatives
+[14:51] down for you that do the same job. And
+[14:53] just showing you other types of bags
+[14:55] that again would just complete that
+[14:58] outfit. If you don't have to take a
+[15:00] laptop with you and you've just got a
+[15:01] few little bits, a nice little suede bag
+[15:04] like that will work a treat. This is
+[15:06] from the same company. It's called
+[15:08] Fabri. It's lovely. Oh, in fact, I've
+[15:11] still got some of the packaging there on
+[15:13] the bottom. Hadn't actually used this
+[15:15] one yet, but this one came so well
+[15:18] packaged. Every single bit of hardware
+[15:22] there was protected. So, um, yeah, very,
+[15:25] very good quality. I am incredibly
+[15:27] impressed with those. But let's just
+[15:29] have a look at the difference between
+[15:31] this outfit when we use a generic bag
+[15:33] versus a nicer, more coordinated bag.
+[15:36] And this is what we tend to see. Now,
+[15:38] this is an extreme version. And this is
+[15:39] actually just my son's rucks sack I
+[15:41] picked up. But hopefully you can see at
+[15:43] the side of me how much more that outfit
+[15:46] looks more polished. But also doing this
+[15:49] or putting just any old navy bag for
+[15:53] example with an outfit and not
+[15:55] coordinating it is what will make you
+[15:58] look a lot more dated and a lot less
+[16:02] modern. Okay. The next styling mistake
+[16:04] that we see all the time which dates
+[16:07] people is when you fail to update your
+[16:10] wardrobe on a relatively regular basis.
+[16:13] And when I'm talking regular basis, a
+[16:16] couple every couple of years. We see
+[16:19] items like this in a lot of people's
+[16:22] wardrobes. So, the fabric is very dated.
+[16:27] We've got it paired with some dark black
+[16:29] boots. the jump you've updated and that
+[16:32] looks very modern, but you're pairing
+[16:34] them with something that you've only
+[16:36] kept in your wardrobe because of the
+[16:38] comfort factor. So, there are definitely
+[16:41] updated ways of wearing comfortable
+[16:44] trousers that give you lovely profiles.
+[16:47] Now, these ones are quite tight, but you
+[16:49] could just wear the long wider leg ones.
+[16:52] They've all got this elasticated
+[16:55] waistband on, so they're incredibly
+[16:56] comfy. And as you'll see hopefully down
+[16:59] here at the bottom, I've got just a
+[17:01] suede trainer on there. So flats could
+[17:04] walk around forever. And on this side, I
+[17:08] have got a little very little heel, but
+[17:11] it's a wedge heel. I'll just show you
+[17:13] these close up. Actually, I might have
+[17:14] shown them before, but that's a great
+[17:17] way of updating your wardrobe at the
+[17:20] moment cuz the wedge heel is very much
+[17:22] on trend. Um, but also it has the
+[17:25] practical side that you're not toting
+[17:27] around on a little thin heel, which
+[17:30] means that you can wear that heeled boot
+[17:32] for longer in the day. So whether you go
+[17:35] for that or the suede trainer, both
+[17:38] work. And you can probably see the very
+[17:40] obvious point here that I'm about to
+[17:42] make, and that is that they're in very
+[17:44] similar colors. So I can very easily go
+[17:48] from the one to the other without
+[17:50] changing the rest of my outfit. So the
+[17:52] point of this mistake is is that yes, it
+[17:55] is important to update your wardrobe
+[17:59] relatively frequently. And personally, I
+[18:02] actually believe that the older we get,
+[18:04] the more important it is to stay a
+[18:07] breast of trends or just updating your
+[18:10] wardrobe because staying in that rut
+[18:12] from 10 years ago with that widelegg,
+[18:15] really thin fabric of trouser will make
+[18:18] you look dated. And these comfortable
+[18:21] pieces here, they do not need to be
+[18:23] expensive. You can get some great ones
+[18:25] from Marts and Spencers, and we will
+[18:26] list a load of alternatives in the
+[18:29] description box. We always put the UK
+[18:31] links and then the US links as well. And
+[18:34] we also include alternatives to any of
+[18:36] the items that I've shown today. Another
+[18:38] styling mistake that we often see is
+[18:41] ill-fitting jeans, both in the length of
+[18:44] the jeans and also the size of the jeans
+[18:46] as well. So, these jeans are in my size.
+[18:50] They are meant to be the right length
+[18:53] for my 5 foot three and a half frame,
+[18:57] yet they make me look much bigger than I
+[19:00] actually am. Um, they are too short, so
+[19:03] they're showing too much of the front of
+[19:06] the trainers there. And the pairing of
+[19:08] them with the dark trainers just does
+[19:10] nothing. Everything is dated, which is a
+[19:13] shame because the white top is really
+[19:15] crisp and fresh, and put jackets over
+[19:18] that, it would look really nice, but the
+[19:20] whole look is just ruined because of an
+[19:23] ill-fitting trouser. So, let's swap this
+[19:26] out and show you what a good fitting
+[19:28] pair of jeans is meant to look like. So,
+[19:31] I've now changed up for a beautifully
+[19:33] fitting pair of jeans. These are the
+[19:35] Levis's rib cage jeans. Now what we have
+[19:38] been seeing is that if you are probably
+[19:42] a UK 14 16 and you are short then these
+[19:47] flared jeans are looking a little bit
+[19:49] overwhelming on you. So I would say if
+[19:52] you are a 14 and above and you're taller
+[19:56] than 5'4 then they look absolutely
+[19:59] fantastic. But if you are really petite
+[20:02] they're not working on you and I I will
+[20:04] show you what is working. So, we've
+[20:06] established that they're a really nice
+[20:08] fitting. So, they're giving me great
+[20:10] shape. They're giving me a good bum, but
+[20:12] focus down onto the trainers again. So,
+[20:16] I have kept on the same black trainers.
+[20:20] Um, it's very hard to see when we're so
+[20:22] far away from the camera here, but what
+[20:25] I'm seeing here is that the trainers at
+[20:27] the bottom are just ruining that look
+[20:29] completely. And let me try and explain
+[20:31] why. So a sporting trainer like that is
+[20:35] very rounded at the front, very voluous.
+[20:40] They should just be left for the gym,
+[20:42] for running outdoors. If you select a
+[20:45] more fashion focused trainer, you can
+[20:48] actually make sure that it's a slimmer
+[20:50] profile at the front there. So it's not
+[20:53] as round as that one. Can you see the
+[20:56] difference? And when you have got a
+[20:59] rounded one, then your legs are going to
+[21:01] look both shorter and wider. So in an
+[21:05] ideal world with a jean like this that
+[21:07] has got a flare on, you would just
+[21:09] actually have a point sticking out. So
+[21:12] on my right hand side there, you'll see
+[21:14] I've got a pointed shoe on and on the
+[21:17] left hand side there is the trainer.
+[21:20] This is going to update my overall look.
+[21:24] This is going to make it look very
+[21:26] dated. However, I do appreciate that not
+[21:28] a lot of people can wear a pointed shoe.
+[21:31] So, that's where this comes in. This is
+[21:34] the compromise in this situation. So,
+[21:37] instead of the sports trainer, that's
+[21:40] where we put in more of the fashionable
+[21:43] trainer. And I think that's a great
+[21:45] compromise to update the look. But if
+[21:48] you really want to update your look and
+[21:50] lengthen your leg, then you would go for
+[21:52] more of a pointed shoe. Now, if you are
+[21:55] shorter or taller, it works for both
+[21:58] petite and shorts, then a cropped ankle
+[22:01] jean is going to make you look a lot
+[22:04] more updated. Um, what happens when
+[22:06] you're short and you've got a lot of
+[22:08] fabric around the end is that there's
+[22:11] not much length between your thighs and
+[22:14] where the kick out of the jean is. So it
+[22:17] makes your legs look much shorter. So
+[22:19] you are actually better to go for a
+[22:22] cropped jean, which I know goes against
+[22:24] what you think because you think, "Well,
+[22:26] that makes my leg look shorter." It's
+[22:28] only going to make your leg look shorter
+[22:30] if you pair it with the wrong shoes and
+[22:34] if you don't tuck your top in. So if you
+[22:36] keep this top out like that, this top's
+[22:39] quite short anyway, then yes, of course,
+[22:41] my leg is going to look shorter. But
+[22:44] because I have stolen some inches from
+[22:46] the bottom there because it's cropped, I
+[22:49] need to tuck my top in here at the top.
+[22:52] And then you get the leg length back
+[22:54] again. And you can probably see here how
+[22:56] I'm showing it with two different types
+[22:58] of shoe. So I've got a boot that's got a
+[23:00] very tight shaft up the leg. If you go
+[23:04] too wide on the leg, that is also going
+[23:07] to make your legs look shorter and
+[23:08] wider. So you want a more modern style
+[23:11] of boot like that. Or you could go for
+[23:14] something like a moccasin which is a
+[23:16] very ontrend shoe at the moment. So that
+[23:19] type of shoe works well and make sure
+[23:21] that this very simple easy outfit
+[23:24] doesn't look dated. Now the one style of
+[23:26] jean guaranteed to update anybody's
+[23:29] wardrobe is the barrel type of jean. Now
+[23:32] within the barrel jean category you can
+[23:35] get various width of barrel. So I tend
+[23:39] to go for the relatively slimlegged
+[23:42] barrel. There are extreme versions. Why
+[23:46] we like the barrel jean in styling is
+[23:48] because it fits all different body
+[23:50] shapes. So if you are curvy on the hips,
+[23:53] it's fantastic. If you have no hips,
+[23:56] then it creates shape. So we like it for
+[23:58] that reason. And just generally
+[24:00] speaking, it's going to modernize any
+[24:03] really basic look. So, all I've got on
+[24:06] is this Uniqlo t-shirt and I've got on
+[24:08] some suede moccasins on the bottom, but
+[24:11] I could swap these shoes out for a
+[24:13] variety of shoes and pretty much every
+[24:17] pair will go where you can't say that
+[24:19] about many other lengths and styles of
+[24:22] jeans. So, the trainers go really well
+[24:25] as well. And if you find that the
+[24:27] trainers and the length of the jean are
+[24:29] competing, then simply just turn up the
+[24:32] jeans just by the hemsworth
+[24:36] just to give enough distance between the
+[24:38] trainer tongue and the actual end of the
+[24:42] jeans. A pair of ballet flats will also
+[24:45] work really well with this shape of
+[24:46] jean. And they're also the type of jean
+[24:49] that goes really well, as we saw earlier
+[24:51] on in the video, with a little kitten
+[24:54] heel. Now, I've just changed the jumper
+[24:56] just to elevate the look up to go with
+[24:59] the shoes. Um, it's a look that we saw
+[25:01] earlier on today, but that just shows
+[25:03] you how these jeans work really hard in
+[25:06] your wardrobe. But if you want to pair
+[25:08] that back down again and you're looking
+[25:10] to wear a much heavier boot, they're
+[25:13] also going to work. And on that note, we
+[25:15] found a couple of really good pairs in
+[25:19] H&M. I think they were $29.99, so a
+[25:24] really good price. They've got a really
+[25:27] um tight shaft there, which means that
+[25:30] it's sitting tight on the ankle, so it
+[25:32] doesn't add any bulk. And as you can
+[25:34] see, they come in the black and the
+[25:39] brown. I'm not really sure if you're
+[25:40] going to be able to tell the color
+[25:41] difference on the camera as it is very,
+[25:44] very subtle. Um, but the brown is nice
+[25:47] because it's toning in really nicely.
+[25:50] And we often find that if you've got a
+[25:53] washed gray jean on, then the brown
+[25:55] tones in better than a really dark
+[25:58] black. So, let's try these on and see if
+[26:00] these work. There you go. They work
+[26:02] really well. So, a barrel jean is the
+[26:04] way forward if you want to present
+[26:06] yourself in a more modern way, and it's
+[26:09] probably the one shape that fits the
+[26:12] majority of people. Now, if you're
+[26:14] doubting that, we have a curves course
+[26:16] where we dress women from a UK size 14
+[26:19] all the way up to a UK 24. And we tested
+[26:23] all of the jean styles on them. The
+[26:26] biggest thing that we found was that the
+[26:28] more elastic in the jean, the bigger the
+[26:31] stomach looked. So going more for a sort
+[26:35] of a 98 99% cotton jean actually
+[26:38] benefited you if you had curves over
+[26:41] something with a high percentage of
+[26:43] elastine in. So hopefully that helps.
+[26:45] Now my final styling tip to stop you
+[26:49] looking dated, a little bit mumsy, and
+[26:53] just a little bit old-fashioned is the
+[26:57] extra details. So, what I'm talking
+[27:00] about here, um, and this is a bit of a
+[27:02] controversial one, and it's not meant to
+[27:04] sound nasty, but it's about taking care
+[27:07] of yourself. So, um, we often see a lot
+[27:11] of chin hairs. Now, I have polycystic
+[27:14] ovaries, which means I'm plagued by
+[27:17] excess hair. So, I have to be very, very
+[27:20] careful because it only catches the
+[27:22] light and you can see the odd china
+[27:24] hair, or not even the odd one. There's
+[27:26] often a lot of them. So, I use this
+[27:29] device. I will put it on the screen now.
+[27:31] It's just from Amazon. It's only about
+[27:33] £105, something along those lines. But
+[27:36] just making sure that you haven't got
+[27:38] these stray hairs um hanging around,
+[27:42] then things like that will start to age
+[27:45] you. And it's often a very delicate one
+[27:47] to point out on people. So, I'm often
+[27:49] sharing, you know, my own woes in that
+[27:51] area. So, don't be afraid to do these
+[27:54] extra little things. It's things like
+[27:56] being mindful of the type of glasses
+[27:59] that you're wearing. So, if you only own
+[28:01] one pair of glasses, then try and make
+[28:03] sure that that pair of glasses is fairly
+[28:06] modern for the style of dressing that
+[28:09] you are wearing. So, my at home reading
+[28:12] glasses, for example, are just some
+[28:14] cheap ones from Boots. Um, you know,
+[28:16] based on my prescription, they're not
+[28:18] particularly stylish or anything. That's
+[28:20] fine. I only wear them at bed in bed at
+[28:22] night when I'm reading. But actually, if
+[28:25] I need my glasses to be part of my
+[28:27] outfit, then that was a much more
+[28:29] thoughtful um purchase. Now, I
+[28:32] appreciate that not a lot of people can
+[28:33] afford multiple pairs. So, that's where
+[28:36] we say when you are wearing glasses,
+[28:39] really think about your style that you
+[28:41] want to portray and make sure that that
+[28:44] pair goes with the majority of the type
+[28:46] of clothes that you wear. And finally,
+[28:50] it is keeping updated with your
+[28:52] hairstyle. There is nothing more aging
+[28:55] on a woman over sort of 50 years old
+[28:58] whereby you don't keep up with not
+[29:01] necessarily the trends, but just having
+[29:04] that regular haircut. It's not
+[29:06] necessarily about dying your hair. I'm
+[29:08] not talking about the grays, although I
+[29:10] obviously that does bother some people,
+[29:11] but it doesn't bother others. That's
+[29:13] absolutely fine. But just a more modern
+[29:15] haircut. Um, gone of the days where we
+[29:18] have set blow dries that are perfect in
+[29:22] appearance. We want them now flicked. We
+[29:25] want them to move. We don't want them
+[29:27] hair lacquered in a permanent state of
+[29:30] not moving. Um, you know, I'm I'm
+[29:33] looking at my own hair now in this
+[29:34] camera and I'm thinking, "Oh my
+[29:36] goodness, it's now pitch black and I
+[29:37] started this video at like 7:00 this
+[29:39] morning and it's now
+[29:43] 5 at night. So, my hair is definitely
+[29:46] not looking the best. So, I'm hoping
+[29:48] this isn't coming across as a lecture
+[29:49] around hair. But just being aware of
+[29:52] modern hairstyles, I think, is worth
+[29:55] noting. As we get older, our shape of
+[29:58] our face changes, and often it means a
+[30:00] haircut is perhaps more regularly needed
+[30:03] than it was when we were younger. So,
+[30:05] it's paying attention to the little
+[30:08] things that are always part of our
+[30:11] outfit, but on actual physical clothes.
+[30:14] So, that is it for today's video. Thank
+[30:16] you very much for watching. I hope you
+[30:19] found that useful. Um, we are looking at
+[30:21] suggestions of what you actually want to
+[30:24] see in these videos. So, please do put
+[30:26] some things in the comments. We always
+[30:29] read the comments as you know, we always
+[30:30] reply to them as well. And we collect a
+[30:33] suggestions box. But recently we've gone
+[30:35] through a lot of the suggestions. So if
+[30:37] you have anything else you want us to
+[30:39] cover, do let us know. And if you could
+[30:41] press that subscribe button, we are
+[30:43] forever grateful. And I will see you
+[30:46] again next week. Thanks very much for
+[30:48] watching.
