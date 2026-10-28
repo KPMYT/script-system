@@ -1,12 +1,12 @@
-# Model script candidates: real women, last 12 months (for the operator to verify)
+# Model script candidates (for the operator to verify)
 
-Drafted 2026-10-28. The rule (the operator, 2026-10-28): models come only from real women, from outliers of the last 12 months, 20-30 of them, and the operator verifies each before it is added.
+Drafted 2026-10-28. The rule (the operator, 2026-10-28): 20-30 models from real people presenting to women over 50, each verified by the operator before it is added. Real men count: "we can include him for sure" (Justin Hickox). The window: "broaden to 24 months and even more for a few big outliers". Rows 1-38 are the last 12 months, women only; 39-42 Justin Hickox's last 12 months; 43-64 are 12 to 24 months old; 65-72 are big older outliers. "Already in the study" means the transcript and comments are collected.
 
 **How these were picked:**
 - real women presenting, on hair or fashion for women 50+
 - outlier videos (at least about 2.5 times the channel's normal), 5:00 or longer, roughly 70K views or more
 - talking-advice formats that match our titles (lists, mistakes, how-tos, stories)
-- left out: hauls, try-ons, sponsored product reviews, videos with a man presenting (see the question below) and videos not aimed at 50+
+- left out: hauls, try-ons, sponsored product reviews and videos not aimed at 50+
 - at most four per channel
 
 **Dates:** "exact" dates come from a fresh details call. "~" dates are NexLev's rough ones (a month ending in -28 means "N months ago"). Exact dates are pulled for the approved ones before collection.
@@ -66,9 +66,59 @@ Mark each row **yes** or **no**.
 | 37 | Aliceinparis | 10 Things French Women Never Buy (But Everyone Else Does) | 118,376 | 2025-12-10 (exact) | 4.2 | "10 things French women never buy" (Paris presenter; not aimed at 50+) | https://youtu.be/saDURZc-pno | |
 | 38 | Aliceinparis | These 10 Wardrobe Essentials Are Why French Women ALWAYS Look Put Together | 72,000 | ~2026-01 | 2.6 | French wardrobe essentials (Paris presenter; not aimed at 50+) | https://youtu.be/SamZAnDoapA | |
 
-## Not on the list, for the operator's call
+## Justin Hickox, last 12 months (real man, hairdresser)
 
-- **Real men presenting to women:** these are among the biggest real videos of the last 12 months. Justin Hickox, a hairdresser: "Women That LOOK 10 YEARS YOUNGER Know THIS About Their Hair!" (1.29M, https://youtu.be/W8Hg-J6HbUo); "Over 40 Long Hair? DO THIS…" (611K); "5 Hair Trends to LEAVE in 2025…" (567K). Rami Jabali Hair Salon (749K, 714K, 361K). MAKEOVERGUY (2.4M). Are they allowed as models, or women only?
-- **Possibly paid views** (very few likes): Kathleen Benjamin's crown-split video (661K, 0.6% likes) and Heather Anderson's "7 Reasons Your Outfit Looks Cheap" (109K, 0.29%).
-- **Gaps:** no real-woman jewelry, glasses or earrings video in the window (15 of our 38 titles are item or haircut lists), and no real woman over 50 doing the French angle inside 12 months apart from Marie-Anne Lecoeur, who is on the list for fashion. A targeted search can fill these if wanted.
+| # | Channel | Title | Views | Date | × normal | Type | Link | Verdict |
+|---:|---|---|---:|---|---:|---|---|---|
+| 39 | Justin Hickox | Women That LOOK 10 YEARS YOUNGER Know THIS About Their Hair! | 1,292,619 | 2026-05-12 (exact) | 23.5 | "look 10 years younger" hair | https://youtu.be/W8Hg-J6HbUo | |
+| 40 | Justin Hickox | Over 40 Long Hair? DO THIS And INSTANTLY Look10 YEARS YOUNGER! | 611,000 | ~2025-11 | 12.0 | long hair, look younger | https://youtu.be/KwhlIt-dAkY | |
+| 41 | Justin Hickox | 5 Hair Trends to LEAVE in 2025 or THEY'LL  AGE YOU in 2026 | 567,000 | ~2025-12 | 11.1 | trends that age you | https://youtu.be/EsjZMEVUJ3s | |
+| 42 | Justin Hickox | Hair Trends That Will AGE YOU FASTER In 2026! | 510,000 | ~2025-12 | 10.0 | trends that age you | https://youtu.be/9kKUfWoz88c | |
+
+## 12 to 24 months old
+
+| # | Channel | Title | Views | Date | × normal | Type | Link | Verdict |
+|---:|---|---|---:|---|---:|---|---|---|
+| 43 | Glam Girl Gabi | Best Bangs for your Face Shape (At Any Age!) | 1,902,950 | 2025-07-20 (exact) | 12.4 | face-shape bangs (already in the study) | https://youtu.be/9LvzTBzXL5k | |
+| 44 | Justin Hickox | You're Styling Your THIN/FINE Hair WRONG! Do THIS Instead- 5 SECRETS | 1,493,787 | 2024-12-10 (exact) | 27.4 | thin/fine hair styled wrong (already in the study) | https://youtu.be/rU56_ly6l2s | |
+| 45 | Summer Beauty | STOP Styling Your Hair WRONG For Your Face & Head Shape! | 1,224,258 | 2025-04-11 (exact) | 26.7 | styling wrong for face shape (already in the study) | https://youtu.be/UUS1R9oWx4o | |
+| 46 | Justin Hickox | Double Chin or Sagging Neck? NEVER WEAR These Hairstyles! DO THIS INSTEAD… | 1,261,135 | 2025-05-06 (exact) | 23.5 | "never wear these" for neck and chin | https://youtu.be/GOuDkBf6CmA | |
+| 47 | Justin Hickox | Thinning Hair At The Temples/Hairline: AVOID THESE MISTAKES! | 1,096,498 | 2025-06-03 (exact) | 19.6 | thinning temples, mistakes | https://youtu.be/Hw4CYxhf61Y | |
+| 48 | Justin Hickox | Look 10 YEARS YOUNGER Instantly:  Medium/Short Haircuts | 963,000 | ~2025-10 | 18.9 | haircuts that look younger | https://youtu.be/Rl4rHC5t7ik | |
+| 49 | Justin Hickox | I Cut My Subscribers THIN/FINE Hair: THIS IS WHAT HAPPENED! | 793,000 | ~2025-10 | 15.6 | subscriber haircut story | https://youtu.be/L7f5x6Q9_xg | |
+| 50 | Woman in midlife | I colored my Gray Hair after 18 months of no dye | 629,160 | 2025-06-18 (exact) | 118.7 | gray-hair test, story (already in the study) | https://youtu.be/2e50uMLaCtE | |
+| 51 | Summer Beauty | The PERFECT Trending Cut For Your FACE SHAPE. Watch BEFORE Cutting Your Hair! | 525,673 | 2025-01-31 (exact) | 11.7 | trending cut for face shape | https://youtu.be/2uAZl-wWeYI | |
+| 52 | Grayawhile | Why Going Gray Isn't For You | 267,984 | 2024-12-22 (exact) | 31.4 | gray hair, "why it isn't for you" | https://youtu.be/PeL0nxf0eZE | |
+| 53 | Woman in midlife | Rock Gray Hair and screw the haters! | 254,779 | 2025-01-02 (exact) | 47.9 | gray hair, permission | https://youtu.be/hlytlQ9ZbSA | |
+| 54 | MM Personal Styling | 10 Style Mistakes That Instantly Make You Look Older with Personal Stylist Melissa Mu | 1,570,011 | 2025-10-19 (exact) | 27.3 | style mistakes that age you (already in the study) | https://youtu.be/gfbWOw00Y-M | |
+| 55 | Marie-Anne Lecoeur - The French Chic Expert | 7 Things That Scream 'Old Lady' (Harsh But True): Style Over 50 | 1,038,284 | 2025-08-17 (exact) | 11.9 | "scream old lady", harsh but true (already in the study) | https://youtu.be/ixlexruRC6c | |
+| 56 | Marie-Anne Lecoeur - The French Chic Expert | How Not To Wear Summer Dresses Over 50: Fashion Mistakes Women Over 50 Make With Summ | 628,760 | 2025-04-13 (exact) | 7.5 | summer dresses, mistakes (already in the study) | https://youtu.be/MWQ6T1wURJU | |
+| 57 | Marie-Anne Lecoeur - The French Chic Expert | How To Look Slimmer: The MOST EFFECTIVE Style Tips For Women Over 50 | 547,239 | 2025-06-15 (exact) | 6.5 | look slimmer (already in the study) | https://youtu.be/G-RW7ih19Y4 | |
+| 58 | Diana GOSS | 6 Styling Mistakes That Are Making You Look SHORTER (Fix These!) | 541,039 | 2025-06-26 (exact) | 12.6 | mistakes making you look shorter | https://youtu.be/6Yz0BKoKG-M | |
+| 59 | Marie-Anne Lecoeur - The French Chic Expert | 7 Style Mistakes That Age You INSTANTLY: Women Over 50 | 494,020 | 2025-03-02 (exact) | 5.9 | style mistakes that age you | https://youtu.be/Lp8oIsb_JpU | |
+| 60 | Diana GOSS | 5 Things To Leave Behind In 2024 And What To Wear Instead | 362,548 | 2024-12-09 (exact) | 8.4 | what to leave behind | https://youtu.be/aVmW_aQm9iI | |
+| 61 | MM Personal Styling | These Items Are Dating You! Dated Vs Modern Looks, Styling Mistakes & How to Fix Them | 326,383 | 2025-06-08 (exact) | 5.9 | dated vs modern | https://youtu.be/OW5pCSXskhc | |
+| 62 | Annemarie My Fashion Life | How Not To Wear Summer Dresses Over 50 & 60 👗 | 347,390 | 2025-04-06 (exact) | 20.4 | summer dresses over 50 and 60 | https://youtu.be/YktZiuLTQs8 | |
+| 63 | Angela Masson - Fashion Over 50 | 10 Trends That Are Making You Look OUTDATED! | 259,806 | 2025-04-03 (exact) | 4.0 | trends making you look outdated | https://youtu.be/HFCPm2RuSao | |
+| 64 | Marnie Goldberg | How To Wear Leggings Like A Grown Woman / 7 Outfit Ideas | 1,250,996 | ~1y ago |  | leggings "like a grown woman" (on your list) | https://youtu.be/dqUAsLMdMB0 | |
+
+## Big older outliers (over 24 months)
+
+| # | Channel | Title | Views | Date | × normal | Type | Link | Verdict |
+|---:|---|---|---:|---|---:|---|---|---|
+| 65 | Justin Hickox | You're Styling Your Bob Haircut WRONG! Do THIS Instead- 5 SECRETS | 3,221,942 | ~2y ago | 62.8 | the biggest hair video in the niche (2024) (already in the study) | https://youtu.be/vFul5tvg1Cw | |
+| 66 | Marnie Goldberg | How To Not Look Frumpy & Older Than You Are-Get Out of That Rut!! | 2,838,725 | ~4y ago |  | "not look frumpy and older" (on your list) | https://youtu.be/r58VDhcsdYo | |
+| 67 | Style With Serena | How To Not Look Older! Fashion Mistakes Making You Look Old #lookyounger#over40#over5 | 1,927,513 | ~3y ago |  | fashion mistakes that make you look old (on your list) | https://youtu.be/OXcvxtv5WXk | |
+| 68 | Stylish Curves | Do's & Don'ts To Hide A Large Tummy & Flattering Ways To Dress A Belly | 1,718,400 | ~3y ago |  | hide a large tummy (on your list) | https://youtu.be/pJBEXS37-wI | |
+| 69 | Diana GOSS | 5 Style Mistakes That Make You Look Older Than You Are | 1,300,000 | ~2023-10 | 30.2 | style mistakes, older than you are (2022) (already in the study) | https://youtu.be/eKCl-bRx8wg | |
+| 70 | Diana GOSS | How To Look Instantly Younger / 5 Colour Hacks You Need To See | 1,000,000 | ~2023-10 | 23.3 | colour hacks to look younger (already in the study) | https://youtu.be/NMvN5bjcwks | |
+| 71 | Justin Hickox | Hair Mistakes That Age You Faster // COMMON and SIMPLE TO FIX Problems! #bobhairstyle | 1,609,694 | ~3y ago |  | hair mistakes that age you (on your list) | https://youtu.be/Uc2EKo0cLro | |
+| 72 | Busbee Style | 5 Style Tips To Look 10 Years *YOUNGER*! (Over 40) | 4,328,426 | ~6y ago | 113.2 | 5 style tips to look 10 years younger (2020; on your list) | https://youtu.be/tiGfAnIU0J0 | |
+
+## Notes for the operator
+
+- **Other real men presenting to women** (not listed; say if you want them): Rami Jabali Hair Salon, filmed salon consultations (749K, 714K, 361K; no hook, no list), and MAKEOVERGUY, a makeover story (2.4M; viewers say the original stylist has gone).
+- **Possibly paid views** (very few likes; left out): Kathleen Benjamin's crown-split video (661K, 0.6% likes) and Heather Anderson's "7 Reasons Your Outfit Looks Cheap" (109K, 0.29%).
+- **Gaps:** no real-person jewelry, glasses or earrings video turned up in any window, though 15 of our 38 titles are item or haircut lists. A targeted search can fill these if wanted (about 20 calls).
+- **Already collected:** rows marked "already in the study" need no new calls. For the rest, the approved ones get exact dates, transcripts and comments.
 

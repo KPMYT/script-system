@@ -345,6 +345,8 @@ From the operator's reply to `studies/style/comparison/README.md`.
 - **Suggestions answered:** 1 not understood (explained in chat); 2 yes (the title's promise early, with a scanner check); 3 the emotion rules come from this niche's analysis; 4 yes (a first-person voice and one soft credential, no invented trade claims); 5 yes (ban the house vocabulary); 6 yes, but it depends on the title ("if the price mentions budget or cheap things"); 7 yes (comment questions about her); 8 per channel, set in the persona profiles; 9 yes (never shame; "old lady" or "granny" only as the feared look, flagged, at most once); 10 yes (no age slogans); 11 yes, "most of the time but we will touch on 50+ also sometimes"; 12 "potentially but maybe this comes from brief"; 13 real women only (above); 14 production noted.
 - **Names:** the channel's name is **Scarlet Starling** ("the name is that though so scarlet starling"). "Vivienne Morgan" is a competitor AI channel. *Open:* our scripts and descriptions say "Scarlet Sterling", and the ideation skill "Scarlett Sterling".
 
+- **Model sources widened (2026-10-28, same day):** "we can include him for sure. hes really good to understand what they like, understand hes a hair stylist himself" (Justin Hickox, a male hairdresser for women over 50); "for our study we can broaden to 24 months and even more for a few big outliers." *Reading recorded:* real people presenting to women over 50, men included, from the last 24 months, plus a few big older outliers. Voice samples stay with real women (a man's voice doesn't carry to a woman persona). Each model is still verified by the operator.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.
