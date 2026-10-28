@@ -2,16 +2,16 @@
 
 Date: 2026-10-28. Videos: the 12 rows of `inputs/videos.csv` with helper = 1. Method: `study-brief.md`, "Round 3". Written only to `data/<my channel slugs>/`, `notes/<my slug>__<id>.md` and this file. Scripts kept in the session scratchpad (`round3-h1/`).
 
-## NexLev calls: 53 of 60
+## NexLev calls: 58 of 60 (53 in the first pass, 5 for the swap)
 
 | Tool | Calls | Notes |
 |---|---|---|
-| youtube_video_details | 12 + 3 self-check = 15 | all succeeded |
-| get_bulk_video_transcripts | 2 | 10 IDs + 2 IDs; 12 of 12 returned. Both results were too large to show inline and were saved by the harness to a file, then parsed with `python3 -I`; not a failure |
+| youtube_video_details | 12 + 3 self-check + 1 swap = 16 | all succeeded |
+| get_bulk_video_transcripts | 3 | 10 IDs + 2 IDs + 1 ID (swap); 13 of 13 returned. Both results were too large to show inline and were saved by the harness to a file, then parsed with `python3 -I`; not a failure |
 | get_video_transcript | 0 | not needed |
-| youtube_video_comments | 35 | top + newest for all 12; top page 2 for the 11 videos that returned a continuation token (UTpC6n7KKi0 returned none) |
+| youtube_video_comments | 38 | top + newest for all 13; top page 2 for the 12 videos that returned a continuation token (UTpC6n7KKi0 returned none) |
 | youtube_channel_videos | 1 | Ageless Confidence normal (not in round 2) |
-| **Total** | **53** | no failures, no retries, no limit or credit errors |
+| **Total** | **58** | no failures, no retries, no limit or credit errors |
 
 ## Videos collected (12 of 12, all with transcripts)
 
@@ -29,14 +29,22 @@ Date: 2026-10-28. Videos: the 12 rows of `inputs/videos.csv` with helper = 1. Me
 | 36 | French Fashion | -eTr9aVSWlM | 451,523 | 32.25 (14,000) | en auto, 377 seg | 171 / 39 |
 | 39 | Rami Jabali Hair Salon | RuyOhWfU-RI | 714,306 | 14.88 (48,000) | en auto, 324 seg | 872 / 41 |
 | 43 | Ageless Confidence | UTpC6n7KKi0 | 1,048 | 2.56 (409, fresh) | en auto, 389 seg | 1 / 1 |
+| 47 | Ageless Style 50s & 60s | Fs17Qc6l8Ug | 267,196 | 55.67 (4,800) | en auto, 303 seg | 882 / 39 |
 
 Normals are from `round2/channels-all.csv` except Ageless Confidence (UCxw2jFWBftkpRkFE4EC9W-Q, @AgelessConfidence-j2m, 219 subscribers, 16 videos): one `youtube_channel_videos` newest call listed all 16 uploads; all are 5:00 or longer (0 under 5:00); the newest (10 hours old) was excluded; the median of the other 15 (views as NexLev rounds them: 53 to 21,000) is 409. Older upload dates in that listing are relative ("3 months ago"), so the 7-day rule only bit on the newest.
 
 Missing transcripts: none. Swaps needed for missing transcripts: none.
 
+## Swap (2026-10-28, on the main session's instruction)
+
+- **Row 4, X9mj5fEPfVk (Elegántica), dropped for being Spanish.** Its files are kept as they were: `data/eleg-ntica/X9mj5fEPfVk/` and `notes/eleg-ntica__X9mj5fEPfVk.md`.
+- **Replacement: row 47, Fs17Qc6l8Ug (Ageless Style 50s & 60s, UCiZC8_8E5MJ5_8aymXClr-w, @AgelessStyle50s60s).** It uses Marie-Anne Lecoeur's exact title. Language checked first: the title, description and transcript track ("English (auto-generated)") are English. Normal 4,800 from `round2/channels-all.csv`; 267,196 views, 55.67 × normal; uploaded 2026-04-25, 185 days old; type faceless_narrated (round 2). It was collected by the same method, and its note has an extra "Against the original" section comparing it with ixlexruRC6c.
+- Replacement oddities: the narrator is unnamed and never states a gender, but claims "I've worked with hundreds of women over 50". The description's "What We’re Covering" list (a "Matching" trap, fabrics) does not match the seven items spoken. The hook promises "the next 5 minutes", but the list runs about 8.5 minutes. There is no AI disclosure line. About 5 comments criticise the before/after and handbag pictures. Top page 2 returned the same 20 comments as page 1.
+- The replacement note runs about 1,720 words because of the comparison section.
+
 ## Things the main session may want to decide (possible swaps)
 
-- **X9mj5fEPfVk (Elegántica) is a Spanish-language video.** Title, description, narration (Spanish auto-generated track) and comments are all Spanish. `videos.csv` shows an English title, which reads as YouTube's translated title. Collected and noted in full (quotes in Spanish, glosses in English), but it does not meet the English-language rule in Phase 2.
+- **X9mj5fEPfVk (Elegántica) is a Spanish-language video** (now dropped and replaced; see above). Title, description, narration (Spanish auto-generated track) and comments are all Spanish. `videos.csv` shows an English title, which reads as YouTube's translated title. Collected and noted in full (quotes in Spanish, glosses in English), but it does not meet the English-language rule in Phase 2.
 - **vBsFMkGDbhA (Adore Your Wardrobe) has no age anywhere**: not in the title, description, keywords or speech. Commenters give ages 45 to 70.
 - **UTpC6n7KKi0 (Ageless Confidence)** has 1 comment in total, so the comment half of the study is thin for it (expected for the flopped copy in Pair B).
 
@@ -66,4 +74,5 @@ Missing transcripts: none. Swaps needed for missing transcripts: none.
 2. **Quote verification.** A `python3 -I` script extracted every double-quoted string in my 12 notes and searched for it, after lowercasing, collapsing whitespace and normalising curly quotes and ellipses, in the video's transcript (timestamps stripped, segments joined), then `comments.md`, then the title, `videos.csv` row, the details record and `meta.md`. It also checked that each `[m:ss]` given before a quote is within 12 seconds of where the quote starts in the transcript.
    - First runs, note by note: 14 strings not found in total. Nine were my own labels in quote marks ("transmits", "over 50/60", "over 50", "older", "most helpful", "same cut", "Paris/Parisian", "Valérie", and "women over 50" from the keywords, which the script does not search); five came from three quotes broken by inner quote marks or a backslash (two comments and one transcript line). All were fixed by removing the quote marks from labels or re-quoting a clean part. No timestamp was off.
    - Final run: 778 quoted strings checked, 0 not found, 0 timestamp offsets over 12 s.
-3. **Username check.** A search of all my written files for "@" found only channel handles in `meta.md` and one viewer's "@ 10:25" timestamp; a search for 20 commenter handles seen in the raw responses found none (one false match from a regex-like handle).
+   - Replacement note (Fs17Qc6l8Ug): the same script, extended so that quotes not found in this video's sources are also searched in ixlexruRC6c's transcript (timestamps are checked only against Fs17Qc6l8Ug's own transcript). The first run found 8 strings that failed, from four places where quotes were nested inside quotes; I fixed them by re-quoting clean parts. Final run: 101 quoted strings, 0 not found, 0 timestamp offsets over 12 s.
+3. **Username check** (repeated on the replacement's files: only the channel's own handle appears, in meta.md). A search of all my written files for "@" found only channel handles in `meta.md` and one viewer's "@ 10:25" timestamp; a search for 20 commenter handles seen in the raw responses found none (one false match from a regex-like handle).

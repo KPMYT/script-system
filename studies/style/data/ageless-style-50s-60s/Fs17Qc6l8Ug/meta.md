@@ -1,0 +1,26 @@
+# 7 Things That Scream 'Old Lady' (Harsh But True): Style Over 50
+
+- Channel: Ageless Style 50s & 60s (@AgelessStyle50s60s, UCiZC8_8E5MJ5_8aymXClr-w)
+- Video ID: Fs17Qc6l8Ug
+- URL: https://www.youtube.com/watch?v=Fs17Qc6l8Ug
+- Study group: Style mistakes that age you (videos.csv row 47, type listed there: unclear; why: reserve for row 4; a faceless channel using Marie-Anne Lecoeur's exact title (her original, row 3, 1.0M))
+- Title as listed in videos.csv: 7 Things That Scream 'Old Lady' (Harsh But True): Style Over 50
+- Upload date: 2026-04-25 (youtube_video_details publishDate: 2026-04-25T12:15:06-07:00)
+- Duration: 12:05 (725 s)
+- Views (exact, youtube_video_details): 267,196
+- Likes (exact, youtube_video_details): 6,009
+- Category: People & Blogs
+- Collection date: 2026-10-28 (details pulled about 06:58 UTC)
+- Age at collection: 185.5 days (185 full days)
+- Channel normal: 4,800 (round2/channels-all.csv: median of 15 most recent long-form uploads (5:00+, 7+ days old); dates from NexLev relative times (approx.))
+- Views ÷ normal: 55.67
+- Type: faceless_narrated (round 2; basis: reading: both outlier thumbnails show different generated/stock-looking older women (a blonde woman in a kitchen; a before/after grey pixie cut) behind large yellow/white text, one with a channel-logo badge of an older couple; no recurring presenter; about text speaks as 'our channel')
+- Presenter as heard in the transcript: one first-person narrator, unnamed, claims experience ("I've worked with hundreds of women over 50"); gender not stated in the speech; round 2 type faceless_narrated
+- Transcript source: NexLev get_bulk_video_transcripts, track "English (auto-generated)" (youtube_video_details hasCaption: false)
+- Transcript segments: 303
+- Comment count shown by YouTube: 882
+- Comments collected: 39 top-level (39 viewer, 0 [OWNER]); replies not returned by the tool
+- Comment pages pulled: top page 1 (20 kept), top page 2 via continuation token (0 new after de-duplication), newest page 1 (19 new after de-duplication)
+- Description first line: 7 Things That Scream 'Old Lady' (Harsh But True): Style Over 50 | @AgelessStyle50s60s
+- Description notes: Description in English, 'we' voice: 'In today's video, we’re breaking down the 7 common style mistakes that unintentionally scream "old lady"'. 'What We’re Covering' list: The 'Matching' Trap; 'Comfort Shoes' vs. Stylish Support; outdated Lipwear shapes; fabric choices that lack structure and look 'frumpy'; simple swaps to take 10 years off. Asks to LIKE, SUBSCRIBE, bell. Closing quote attributed to Rachel Zoe. Keywords: #fashion #style #over50. Same title as Marie-Anne Lecoeur's ixlexruRC6c.
+- AI disclosure line in the description: none (no disclosure line in the description)
