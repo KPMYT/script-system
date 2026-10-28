@@ -8,7 +8,7 @@
 - Sponsor thanks and a before/after photo pair 0:31 (~79 words): "I didn't change" the cut, only the styling.
 - Product prep 0:48 (~407 words): leave-in, heat protectant, mousse placed at the crown and back, kept out of the sides and nape. The model applies the mousse herself.
 - Rough-drying with the sponsored dryer 2:17 (~286 words).
-- First numbered step lands at 3:26 (about 600 words in): 1 control your part 3:26 (~384); 2 keep the nape tight 4:57 (~210); 3 a bend in the back baseline 5:50 (~225); 4 strength in the side baseline, round brush or flat iron 6:48 (~353); 5 lift the temples with a cold shot 8:20 (~171).
+- First numbered step lands at 3:26 (about 910 words in; corrected by the round 3 check): 1 control your part 3:26 (~384); 2 keep the nape tight 4:57 (~210); 3 a bend in the back baseline 5:50 (~225); 4 strength in the side baseline, round brush or flat iron 6:48 (~353); 5 lift the temples with a cold shot 8:20 (~171).
 - Texture answers (thin, thick, wavy) 9:09 (~141). Sponsor CTA 9:43 (~84).
 - 5 items, typically 170-380 words. Each is shown as a live step on the model, not described in the abstract.
 

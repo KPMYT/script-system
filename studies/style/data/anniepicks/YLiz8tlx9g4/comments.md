@@ -6,7 +6,7 @@ API commentsCount: 1K. Collected: 20 top + 19 newest = 36 unique (3 of the newes
 
 A continuation token was returned for the top list, but no second page was fetched: on the first two videos of this helper the token returned the same page (20 of 20, then 19 of 20 repeats), so further page-2 calls were dropped (see COLLECTION-LOG-H2.md).
 
-Note: 5 of the newest come from accounts whose display names read like other over-50/60, senior or story channels (names not stored): the comments starting "I really loved the example at 03:50", "Thank you for showing that women over 50", "This video is a beautiful reminder", "The video presented seven", "I never thought the right color combos", "Absolutely stunning!" (6 counting the last)
+Note: 6 of the newest come from accounts whose display names read like other over-50/60, senior or story channels (names not stored): the comments starting "I really loved the example at 03:50", "Thank you for showing that women over 50", "This video is a beautiful reminder", "The video presented seven", "I never thought the right color combos", "Absolutely stunning!"
 
 ## Top by relevance (20)
 

@@ -136,3 +136,8 @@ If a video has **no transcript**, keep its meta and comments, write no notes, an
 **Each helper also writes `data/COLLECTION-LOG-H<n>.md`:** calls used, failures, swaps needed. Before finishing, run a self-check:
 - three fresh details calls
 - a script (`python3 -I`) that finds every quoted string in the notes in its transcript or comments file
+
+**Rules added after the round 3 check (2026-10-28), for later rounds:**
+- A quote's timestamp is the start of the transcript segment where the quote begins, within 3 seconds.
+- Word counts are spoken words only: bracket tags and ">>" are excluded.
+- NexLev's channel lists cut view counts off rather than rounding them ("5.3K" can be 5,367). A normal should use the exact views of its median video where they are known. The round-2 normals run up to about 2% low; this is noted, not corrected.

@@ -7,7 +7,7 @@
 ## Structure map
 - Hook, 0:00-2:08, about 360 words (over the 80-word limit, so in part): a command, "If you're over 60 and you have fine hair, don't touch a brush, a dryer, or a single product this morning until you hear this."; a reframe, "Your hair likely isn't thinning the way you think it is."; a two-photo proof; the authority line; the quoted fears of clients; the Susan setup ("Keep her in mind because I'll tell you what changed for her by the end of this video."); the countdown rule; a cost-of-waiting line ("The gap gets a little wider than it was yesterday").
 - The first item lands at 2:08 ("Secret number five"), about 360 words in.
-- Segments: 5, move your part 2:08 (~183 words); subscribe and comment request 3:13 (~59); 4, don't brush straight back 3:35 (~245); 3, no regular brush on wet hair 5:06 (~211); "Quick pause" subscribe request and a hold 6:19 (~100); 2, dry the roots upward 6:50 (~225); 1, products on mid-lengths and ends only 8:06 (~255); why it happens, strand diameter 9:41 (~295); consistency 11:27 (~64); the Diane story 11:50 (~277); the Susan payoff 13:26 (~58); end CTAs 13:46 (~157).
+- Segments: 5, move your part 2:08 (~183 words); subscribe and comment request 3:19 (~59); 4, don't brush straight back 3:35 (~245); 3, no regular brush on wet hair 5:06 (~211); "Quick pause" subscribe request and a hold 6:28 (~100); 2, dry the roots upward 6:50 (~225); 1, products on mid-lengths and ends only 8:06 (~255); why it happens, strand diameter 9:41 (~295); consistency 11:27 (~64); the Diane story 11:50 (~277); the Susan payoff 13:26 (~58); end CTAs 13:46 (~157).
 - 5 items at 180-255 words each, counted down, wrapped in about 1,000 words of hook, explanation, stories and CTAs.
 
 ## Voice
@@ -17,7 +17,7 @@
 - Foils: unnamed others who failed to explain ("and nobody ever explained why"; "That's the part nobody tells you"); the belief itself ("this is just what happens to hair after 60. It isn't.").
 
 ## The feelings voiced
-- [0:21] "she looks tired before she's even left the house" (older than she feels)
+- [0:28] "she looks tired before she's even left the house" (older than she feels)
 - [0:54] "My hair used to be so full. I don't recognize myself in photos anymore. I think I'm going bald." (loss, fear; quoted clients)
 - [1:04] "she'd already started looking at wigs" (fear)
 - [11:06] "This should give you hope instead of dread." (hope)
@@ -44,8 +44,8 @@ No brands or prices. Generic: "mousse, serum, oil, or leave-in", "a dedicated ro
 - Next week's tease ("the one product ingredient silently aging fine hair") is left open.
 
 ## CTAs and the ending
-- 3:13: "If that just made you rethink your part, hit subscribe now"; 3:35: "tell me in the comments which of the next four you think is going to surprise you the most. I read every single one."
-- 6:19: "Quick pause. If this is helping already, subscribing means you'll catch every one of these before they disappear into your feed."
+- 3:19: "If that just made you rethink your part, hit subscribe now"; 3:35: "tell me in the comments which of the next four you think is going to surprise you the most. I read every single one."
+- 6:28: "Quick pause. If this is helping already, subscribing means you'll catch every one of these before they disappear into your feed."
 - 13:46: come back and report, comment which surprised you, subscribe, share ("If you know a woman who needs to hear this, send her this video right now.").
 - Last ~40 words: "because she's probably been told the same thing you believe before today that this is just what happens to hair after 60. It isn't. And now you both know it. Thank you for watching all the way through and I'll see you in the next one."
 

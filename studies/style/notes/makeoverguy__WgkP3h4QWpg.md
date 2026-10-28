@@ -42,7 +42,7 @@ In speech: a shaper, shoulder pads, "A good bra", the narrator's book. No prices
 - The six elements: paid in order. The reveal: paid at 7:02.
 
 ## CTAs and the ending
-- 6:35: "Please help us continue offering this free content by commenting, liking, subscribing, and sharing this video."
+- 6:35 (block start; the ask at 6:47): "Please help us continue offering this free content by commenting, liking, subscribing, and sharing this video."
 - 8:36, the client: "I hit the subscribe and then I got the information in order to do an application."
 - 9:06: "Please subscribe."
 - Last 40 words: "well and it's comfortable. I like this big curls. I hit the subscribe and then I got the information in order to do an application. So, it's been phenomenal. A phenomenal experience. I feel fine and I'm 69. Please subscribe."

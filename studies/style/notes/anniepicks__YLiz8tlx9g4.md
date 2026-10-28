@@ -4,9 +4,9 @@
 "7 Colour Combinations That Make You Look Expensive & Elegant | Women's Fashion Over 50". 1,013,945 views, 1,325.4 × normal (765). 6:46. Auto-generated transcript, 1,047 words, about 155 wpm. Type: faceless (round 2: celebrity and stock photos, no presenter). Group: Look expensive or elegant (colours; 6:47 in the selection). Uploaded 2024-10-19.
 
 ## Structure map
-- Hook: 0:00-0:47, about 135 words. A question ("have you ever wondered what makes some women stand out the secret to effortlessly elegant without looking old"), the promise ("the latest seven stunning color combinations to break out of your wardrobes black white and gray color palette"), money ("making you look more classy and expensive ensive without spending too much money"), and age ("inspired by stylish women over 50 these combinations are not only trendy but Timeless proving that great style has no age limit").
-- First item at 0:47 (blue with white or gray), about 135 words in.
-- Segments (start, approx. words): hook 0:00 (~135); blue with white or gray 0:47 (~129); beige and brown 1:45 (~149); burgundy and camel 2:42 (~113); white and navy 3:23 (~120); burgundy and charcoal gray 4:07 (~113); olive green and off-white 4:53 (~123); black and gold 5:41 (~117); CTA 6:25 (~48). The description's chapters match these times.
+- Hook: 0:00-0:46, about 120 words (corrected by the round 3 check). A question ("have you ever wondered what makes some women stand out the secret to effortlessly elegant without looking old"), the promise ("the latest seven stunning color combinations to break out of your wardrobes black white and gray color palette"), money ("making you look more classy and expensive ensive without spending too much money"), and age ("inspired by stylish women over 50 these combinations are not only trendy but Timeless proving that great style has no age limit").
+- First item at 0:46 (blue with white or gray), about 122 words in.
+- Segments (start, approx. words): hook 0:00 (~120); blue with white or gray 0:46 (~139); beige and brown 1:45 (~149); burgundy and camel 2:42 (~113); white and navy 3:23 (~120); burgundy and charcoal gray 4:07 (~113); olive green and off-white 4:53 (~123); black and gold 5:41 (~117); CTA 6:25 (~48). The description's chapters match these times.
 - 7 items, 110-150 words each, the most even in this set. Each: the pair named, what each colour "adds", one or two outfit formulas, a closing benefit ("making you look expensive and Youthful").
 
 ## Voice

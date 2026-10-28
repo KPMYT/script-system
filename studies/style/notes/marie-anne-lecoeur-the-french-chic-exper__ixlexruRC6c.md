@@ -4,7 +4,7 @@
 
 ## Structure map
 - Hook, 0:00-0:13, about 30 words, quoted in full: "Are you ready for little tough love? Today I'm revealing seven things that instantly scream old lady. And what to wear instead to look instantly modern, fabulous, and chic."
-- The first item lands at 0:13, about 26 words in. There is no self-introduction and no channel intro.
+- The first item lands at 0:13, about 29 words in. There is no self-introduction and no channel intro.
 - Segments: baggy, shapeless clothes 0:13 (~130 words); closed necklines 1:29 (~119); head-to-toe beige 2:32 (~167, including a "harsh" aside at 3:43); clumpy shoes 3:59 (~135); twee prints 5:05 (~87); untucked tops 5:58 (~152); aging hairstyles 7:17 (~80); end card 7:51 (~33).
 - 7 items, typically 80-170 words. Each follows the same order: "The next thing that screams old lady is...", the problem, "So, what can you do instead?", then a "My pro tip is" line (the hair item has no pro tip line).
 
@@ -18,9 +18,9 @@
 - [0:35] "hiding behind tons of fabric because they have lost their self-confidence" (confidence)
 - [1:59] "square, oldfashioned, stuck in the past" (older than she feels)
 - [2:48] "you disappear faster than a macaron at a Parisian cafe" (invisible)
-- [3:35] "beige equal invisible plus old lady" (invisible)
-- [4:30] "You can have comfort and style." (permission)
-- [2:22] "open up your neckline, open up your self-confidence" (confidence)
+- [3:39] "beige equal invisible plus old lady" (invisible)
+- [4:33] "You can have comfort and style." (permission)
+- [2:26] "open up your neckline, open up your self-confidence" (confidence)
 
 ## Reassurance and shame
 - Reassurance: "I told you I was going to be harsh. Not on you, but your clothes. Cruel to be kind and all that."; "Comfort is non-negotiable. I agree with you. You don't have to suffer to be stylish."
