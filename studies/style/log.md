@@ -60,3 +60,4 @@
 ## Round 5: emotions by age, and the model candidates (2026-10-28)
 
 - The operator's answers recorded (`HANDOFF.md` §3). Two pieces of work follow: (1) an emotion deep-dive, including whether the feelings differ by age bracket; (2) the real-women model candidates from the last 12 months, with exact dates, for the operator to verify one by one.
+- Model candidate pool: `models/candidate-pool.csv`, 107 real-women core outliers (long-form, kept channels, NexLev date 2025-10 or later, 80K+ views, at most 4 per channel, 41 channels). A helper pulls exact dates (most read "1 year ago"), into `models/candidate-pool-checked.csv`. The emotion and age-bracket analysis (`comparison/07-emotions-and-age.md`) runs alongside, with no NexLev calls.
