@@ -161,7 +161,7 @@ The plumbing pack's rule, carried over whole with its examples (operator, 2026-1
 9. **Reaffirm the title's feeling all the way through** (operator, 2026-10-21: "we must reaffirm throughout the emotions we are trying to trigger from the title and concept"). Come back to the title's idea and its key word, one way or another, every few items: for "11 Furnace Mistakes HVAC Companies Hope You Keep Making", the mistake and the visit nobody needed to make. HVAC test run 01 said "mistake" only in its first line. Not on every item, and never so often it turns robotic. Carry it in nouns and verbs ("while you sleep", "inside the cabinet"), not "-ly" adverbs (`humanizer.md` H12a).
 10. **The villain and the outrage come back** all the way through (see "The villain").
 11. **Let the narrator speak.** One short "I" opinion or verdict in most items ("I'd set it to auto and leave it there"), and once per video a line of insistence where it matters (the shape "I need you to hear me on this one"). HVAC test run 02 had a verdict in 4 of its 13 sections.
-12. **Finish on relief, not danger.** The last item before the end CTA closes on reassurance or something to do tonight, even when it's a safety item.
+12. **Finish on relief, not danger.** The last item before the end CTA closes on reassurance or one small thing to do tonight, even when it's a safety item. One thing, never a to-do list or "homework" that runs back over earlier items: that is a recap (core `retention-mechanics.md` §14).
 
 **Never, still:** invented facts or events, guaranteed savings, the trade's motives, teases, mocked hype, worst-case exaggeration, jokes.
 

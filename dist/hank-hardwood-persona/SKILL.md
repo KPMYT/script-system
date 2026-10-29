@@ -3,7 +3,7 @@ name: hank-hardwood-persona
 description: The channel profile for Hank Hardwood: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-27 (library commit 0fd6703)
+**Version:** 2026-10-29 (library commit 11e8fad)
 
 # Persona profile: Hank Hardwood
 
