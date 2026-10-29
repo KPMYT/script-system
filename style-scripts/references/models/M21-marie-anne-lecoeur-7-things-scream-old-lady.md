@@ -180,7 +180,7 @@ It promises hard truth and delivers it in eight minutes with no intro, a refrain
 
 - Hook: [0:00] "Are you ready for little tough love? Today I'm revealing seven things that instantly scream old lady."
 - The why: [0:41] "The truth is baggy clothes erase your silhouette and add years"
-- The turn: [1:02] "Remember fitted does not mean tight. It means tailored to you."
+- The turn: [0:58] "follow your natural lines. Remember fitted does not mean tight. It means tailored to you."
 - A feeling line: [2:42] "Yes, neutrals are classic, but beige on beige on beige, you disappear faster than a macaron at a Parisian cafe."
 - The swap: [3:01] "instead? Add contrast to your face."
 - The flagged hard word: [3:44] "I told you I was going to be harsh. Not on you, but your clothes. Cruel to be kind and all that."
@@ -196,4 +196,4 @@ It promises hard truth and delivers it in eight minutes with no intro, a refrain
 - Sign-off and end-screen pointer: [7:59] "that make you look older, watch the video on screen" (SIGN-OFF, banned).
 - Mocking words for comfort shoes: [4:49] "looking. Say no to gladiator sandals or hobbit feet styles." (comments from women with wide or arthritic feet push back; give the comfortable swap without the jibe).
 - Unhedged generalisation: [4:14] "Here in France, we women even in our 70s and over, wear lovely shoes." Diane may say this kind of thing only hedged ("many women here"), and never as a fact about all French women.
-- Rules the audience rejects as universal (check against the brief): tucking [6:46] "can do instead? Well, just tuck the front of your top inside the waistband" and short hair [7:45] "and so should our hairstyle. Usually a shorter cut, just a few inches off, is all you need." Both need an option for a larger middle or longer hair.
+- Rules the audience rejects as universal (check against the brief): tucking [6:46] "can you do instead? Well, just tuck the front of your top inside the waistband" and short hair [7:41] "and so should our hairstyle. Usually a shorter cut, just a few inches off, is all you need." Both need an option for a larger middle or longer hair.
