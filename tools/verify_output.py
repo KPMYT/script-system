@@ -105,7 +105,7 @@ def main():
         problems.append(f"REFRAMES CLAIMED {m.group(1)}, the scanner's floor is {len(reframes)}")
 
     # quoted evidence lines that aren't in the script: only the lines that quote the script (Numbers quotes the
-    # brief, Rules (F) and Verdict may quote anything); a quote right after a model ID ("E09 [0:00] "...") is the model's
+    # brief, Rules (F) and Verdict may quote anything); a quote right after a model ID ("E09 [0:00] "...", "graded against M04 ("...") is the model's (any pack's IDs: E, R, S, M, F; iter-07)
     body = norm(script)
     missing, quoted = [], 0
     for line in ev.splitlines():
@@ -120,7 +120,7 @@ def main():
                 continue      # a label such as "I/me/my", not a quoted line
             if re.match(r"\s*(?:=|->)", line[b_ + 1:]) or re.search(r"'s\s*$", line[:a_]):
                 continue      # a key word before " = " (Title word: "won't stay in" = ...), or a source's pattern (sample 2's "...")
-            if "[" in q or re.search(r"\bE\d\d\b[^\"]{0,15}$", line[max(0, a_ - 20):a_]):
+            if "[" in q or re.search(r"\b[ERSMF]\d\d\b[^\"]{0,15}$", line[max(0, a_ - 20):a_]):
                 continue      # a pattern ("Number [two] is..."), or a model's line
             parts = [p for p in re.split(r"\.\.\.|\u2026|\s/\s", q) if len(norm(p).split()) >= 3]
             if not parts:

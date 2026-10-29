@@ -71,6 +71,7 @@ Style scripts are written from the title and the brief alone; there is no resear
 - **The brief is the fact source.** The scanner checks every number in the script against it, and the brief wins on safety ("unless brief says otherwise", operator 2026-10-29).
 - **No freshness check,** and no special rule for dated facts on trend titles (operator, 2026-10-29).
 - **Where the brief is silent, the script fills in** from well-established styling knowledge, said plainly: proportion, contrast, the neckline and the necklace, the rise of a jean, where a hem falls, what face-framing layers do. Never a price, a product's availability, a brand fact, or a health, scalp or dye-chemistry fact beyond the brief and the safety defaults.
+- **A whole-look title may keep one short face paragraph** from the brief (groomed brows, a lip color, skincare before makeup), with no products and no results (operator, 2026-10-29). A makeup-led title waits for the makeup pack.
 - **Brief prices on a non-budget title are background,** not lines (see "Money"). The ideation brief spec asks for dollar figures; this pack doesn't say them unless the title is about budget.
 - The run stops with NOT READY only when the brief can't carry the title's main promise (too few items, no real swaps). Never for missing prices.
 
@@ -126,7 +127,7 @@ The rules:
 5. **The blame moves off her once,** in fresh words (the cut was wrong for fine hair; the jacket was made for another shoulder). Never the faceless formula "it's not you, it's the blouse" (12 of 24 faceless). It counts as the script's one reframe (H21).
 6. **"But", much more:** real presenters about 6.5 to 8 per 1,000 words; ours ran about 1. Aim for about five or more, joining two sentences where the thought turns.
 7. **Ask her:** about four to eight questions a script, about her own hair, closet or mirror. The turn into a fix can be a question ("So what works instead?"), rotated.
-8. **Say the title's feeling again** every few items, in the title's own words. Real winners say title words 14 to 17 times per 1,000 words; ours about 8.
+8. **Say the title's feeling again** every few items, in the title's own words. Real winners say title words 14 to 17 times per 1,000 words; ours about 8. Don't overdo it (operator, 2026-10-29): a natural return now and then, never a refrain. A title that clears the viewer of something ("It's Not Their Weight") is paid as plain permission ("none of these rules asks you to lose weight"), never with the banned "it's not your weight" formula; a title's "NEVER" about French women is paid by its hedged meaning ("most French women skip it").
 9. **End each item on the result:** the look (lifted, longer, polished, taller), a compliment she'll hear, or now and then how it feels. More often seen than felt.
 10. **The hard word, flagged, once at most.** "Old lady" or "granny" only as the feared look, in quotes, announced as harsh ("harsh but true", "I'll say it plainly"), at most once a script; the scanner requires the flag. Never at her: the adjective goes on the garment. Viewers push back ("Waiting for the day when being old isn't an insult", 390 likes).
 11. **Her feelings, lightly:** "frumpy" where the title has it; "invisible" sparingly; "losing her spark" as a picture, rarely. The over-70 lean: comfort, feet and balance, a stylist who can't cut fine hair, clothes that close easily.
@@ -162,10 +163,12 @@ Real lists run six or seven items of about 240 words, uneven: one item often car
 2. **Why** it ages or why it works, in one or two plain lines.
 3. **The turn,** rotated: a question, a "but", or a plain "here's what works instead".
 4. **The swap,** specific: a cut, a length, a color, a fabric, a shape, a brand as a benchmark where the brief gives one.
-5. **The check** she can run: the mirror, a phone photo, daylight at a window, sitting down in it.
+5. **The check** she can run: the mirror, a phone photo, daylight at a window, sitting down in it. Give it plainly; never announce it ("Here's the check").
 6. **The result** in look words, a compliment she'll hear, or how it feels.
 
-**About 180 to 300 words an item,** longer when an item carries the video. No more than two items in a row without a bridge. In "never these" lists, every "never" is paid by its swap in the same item.
+**Vary the item endings** (operator, 2026-10-29): not the check, the result and a bridge every time. End some items on the result, some on a question to her, some on the permission line, some on the bridge.
+
+**Item length depends on the count** (operator, 2026-10-29, after the tests): **about 180 to 300 words an item in lists of six or more; about 300 to 450 in lists of five or fewer,** since five short items can't reach 12 minutes. Longer when an item carries the video. No more than two items in a row without a bridge. In "never these" lists, every "never" is paid by its swap in the same item.
 
 ## Using the models: never a copy
 
@@ -218,11 +221,12 @@ No sign-off, no recap, no tease of a future video, and nothing after the comment
 
 ## Voice
 
-- **"You" for the fixes, "I" for opinions:** "you" about 45 per 1,000 words; "I" as opinion only (rule 12 in "Emotion").
+- **"You" for the fixes, "I" for opinions:** "you" and "your" together about 45 per 1,000 words; "I" as opinion only (rule 12 in "Emotion").
 - **Plain over clever.** No poster lines, no three-word wraps ("simple, warm, and impossible to argue with"), no Wise Narrator ("Chic was never the receipt").
 - **Candor, warmth, no jokes, no swearing.** Blunt about garments, warm about the woman.
 - **Brands named** where the brief names them, as benchmarks or examples (real presenters name brands in 13 of 21; ours 1 of 38). **Opinions against a brand are allowed** (operator, 2026-10-29: "we can have opinions against brands"), said as hers ("I'd skip those for anything but the garden"), never as a fact the brief doesn't support.
 - **Written for the voice** (core `workflow.md` §4): heights in words ("five foot two"), sizes as said ("a size twelve"), "a two-inch heel", brand names with "&" in words ("H and M", "Marks and Spencer"). **French words** ("make it tts friendly", operator 2026-10-29): no accents, one or two widely known words a script at most, spelled for the voice ("voila", "chic", "cherie"); never a full French sentence.
+- **No spoken pronunciation guides** ("said ver-may"): the script names the word plainly; a hint, if one is needed, goes only in the VO copy.
 - **One picture-phrase per item at most.** The house vocabulary of our old scripts is banned (see "Banned"): it made 38 scripts sound like one voice, and viewers noticed.
 
 ## Proof
@@ -286,9 +290,9 @@ The scanner (core `script-scanner.py`) reads this block. Every ban line was test
 ```scanner
 min-minutes: 12
 first-item-seconds: 45
-item-words: 150-350
+item-words: 150-480
 example-guard: 5
-title-words: instant, young, older, expensive, rich, elegan, classy, polished, frump, dated, outdated, slimmer, thinner, taller, shorter, ten years, twenty years | the title's promise words
+title-words: instant, young, older, age, weight, expensive, rich, elegan, classy, polished, frump, dated, outdated, slimmer, thinner, taller, shorter, ten years, twenty years | the title's promise words
 ban-regex: \btoday,? (?:we'?re|we are|I'?m|I am) going to\b | opening: "today we're going to"
 ban-regex: \bI(?:'m| am) here (?:for|to help) (?:every )?wom[ae]n\b|\bI show women over\b|\bthis is (?:for|where) (?:every )?women over\b | channel intro
 ban-regex: \bwe'?ll get to (?:those|that|it|them)\b|\bstill (?:to come|ahead)\b|\bI'?m saving (?:the|it|that|this|one)\b|\bsaved? (?:\w+ ){0,3}for last\b|\bthe one I promised\b|\bcoming up\b | tease or held item
@@ -327,8 +331,8 @@ Check that:
 - the hook carries one model's hook format from `references/hooks.md`, move by move in its order, no longer than the model's and never over about 110 words, aimed at the title's feeling, with a hook model not used in the channel's last five scripts
 - the point and the title's promise word come in the first sentence or two; each title word is said at least twice, once in the first minute; item one starts by about 45 seconds, after two or three moves at most
 - there's no intro, greeting, age slogan, tease, held item, recap, sign-off or subscribe ask; the age is said only where the title says it
-- every item explains why; about one item in four names a feeling in one plain sentence; the blame moves off her once, in fresh words; permission is in plain, specific words; the item ends on the result
-- "but" about five or more per 1,000 words, "you" about 45, four to eight questions, "I" as opinion only (about 10 per 1,000 words, reported)
+- every item explains why; about one item in four names a feeling in one plain sentence; the blame moves off her once, in fresh words; permission is in plain, specific words; the check is given plainly, never announced; item endings vary; items run about 180-300 words (six or more items) or 300-450 (five or fewer)
+- "but" about five or more per 1,000 words, "you" and "your" about 45, four to eight questions, "I" as opinion only (about 10 per 1,000 words, reported)
 - the hair or fashion note fits the title's side; the over-70 lean shows where it fits (comfort, feet, a stylist who can't cut fine hair)
 - the villain appears only if the title carries one, aimed at a habit or a default; never the salon, the stylist, other women or the viewer
 - the hard word appears at most once, in quotes, flagged as harsh, on the look and never on her

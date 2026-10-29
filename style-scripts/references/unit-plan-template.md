@@ -25,7 +25,7 @@ HOOK                               [one model's hook format, applied: references
 - item one at:                     [seconds; by about 45]
 - villain, age, credential:        [only if the title or the model's moves carry them]
 
-ITEMS                              [one line each: the look -> why -> the turn -> the swap -> the check -> the result; about 180-300 words]
+ITEMS                              [one line each: the look -> why -> the turn -> the swap -> the check -> the result; about 180-300 words in lists of six or more, 300-450 in lists of five or fewer; vary the endings]
 - [item] -> look: ... | why: ... | turn: ... | swap: ... | check: ... | result: ... | feeling line? | safety line? | bridge into the next item
 - feeling lines on:                [about one item in four: which items, which feeling, before or after the fix]
 - the item that carries the video: [the longest; why]

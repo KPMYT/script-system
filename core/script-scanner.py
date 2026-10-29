@@ -664,7 +664,8 @@ def title_words_check(text, title, facts, wpm):
 def item_report(text, facts, wpm):
     """Finds the spoken signposts in order ("Number one." ... "Step two."), and returns report lines:
     item one's word, each item's words against the pack's band, items with no "I" line or no "but", and the sentence stats."""
-    full = " ".join(spoken_paragraphs(text))
+    # the CTA marker blocks aren't item content (iter-07: they inflated the long-item flags)
+    full = " ".join(spoken_paragraphs(re.sub(r"===START CTA.*?===END CTA===", " ", text, flags=re.S)))
     starts, want = [], 1
     for m in SIGNPOST.finditer(full):
         g = m.group(1).lower()
@@ -863,7 +864,8 @@ def main():
     print(f"ECHO (H18): {len(echoes)}")
     for e in echoes: print("  " + e)
     if a.pack:
-        missing = number_check(text, "\n".join(open(f, encoding="utf8", errors="ignore").read() for f in a.pack))
+        # the profile's book title counts as a fact source too ("Three Hundred Budget-Friendly Ways...": P19 follow-up, iter-07)
+        missing = number_check(text, "\n".join(open(f, encoding="utf8", errors="ignore").read() for f in a.pack) + "\n" + "\n".join(facts["book"]))
         print(f"\nNUMBERS NOT FOUND IN THE FACT SOURCE ({len(missing)})  (invented, or derived: confirm the math)")
         for v, s in missing[:30]:
             print(f"  {v:g}  <<  {s[:110]}")

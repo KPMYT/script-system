@@ -67,6 +67,7 @@ Audience: American women over 60, mostly 65 to 75, practical, proud of how they'
 
 ```scanner
 book: Three Hundred Budget-Friendly Ways to Look Expensive
+allow: Three Hundred Budget-Friendly Ways to Look Expensive | the book's spoken title, which the CTA must say (iter-07: the copy guard flagged it)
 tenure: none
 ban: e-book | say "book", never "e-book"
 ban: ebook | say "book", never "e-book"

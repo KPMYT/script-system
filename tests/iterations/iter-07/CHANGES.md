@@ -10,7 +10,9 @@ All three judges: **fix, then pass** ("I would upload it after one short fix rou
 
 Counts per 1,000 words (new against our old scripts): "but" 5.5-5.8 (ours 0.5-1.1); "you" and "your" 43-50 (ours 32-45); questions 2.7-3.7 (ours 0-1.0); "I" 4.2-6.2. No intro, tease, price, house vocabulary, subscribe ask or sign-off in any run; the gate refused "just write it", the vague channel names and the missing rotation log.
 
-## Library fixes the judges name (proposed; nothing applied until the operator's yes)
+## Library fixes the judges name
+
+**Applied 2026-10-29** on the operator's answers (HANDOFF §3): L1, L3, L4 (lightly: "dont overdo it"), L5, L7, L9, L10, L11, L12, and the tool fixes L2 and L13. **Not applied:** L6 (the operator: "not necessarilly, we model off winning hooks for now still"). **Open:** L8 (Scarlett's voice provider).
 
 | # | Fix | Runs | Where |
 |---|---|---|---|

@@ -968,6 +968,19 @@ check("81. style references: hooks.md, excerpts.md, voice-samples.md (provisiona
       and sum(f.startswith("M") for f in mfiles)==30 and sum(f.startswith("F") for f in mfiles)==7 and tags_ok
       and all(f"### {f[:3]}." in hk for f in mfiles) and all(f in ix for f in mfiles), str(mfiles))
 
+# 82. iter-07 fixes (operator 2026-10-29): the book's spoken title allowed; the channel gate confirms a clear one-channel reply; "age" and "weight"
+#     title words; item length by count; Diane's "most" narrowed and "women I know in Paris" banned; checks unannounced, endings varied, no
+#     pronunciation guides; verify_output.py skips M/F model quotes; the scanner's item counts leave out CTA blocks
+sk=open(STR).read(); wf=open(f"{CORE}/workflow.md").read(); di_p=open(DIAN).read(); vo=open(f"{ROOT}/tools/verify_output.py").read()
+bk=run_scan("It's called Three Hundred Budget-Friendly Ways to Look Expensive, and it helps.\n",[STR,SCAR],refs=[SCAR])
+cta=run_scan("Number one. A line.\n\n===START CTA(X)===\nA long aside about the book that runs on and on and on.\n===END CTA===\n\nNumber two. Another line.\n")[1]
+check("82. iter-07 fixes: book title allowed; gate confirms a clear one-channel reply; age and weight title words; item length by count; Diane's hedges; plain checks, varied endings, no pronunciation guides; model quotes skipped; CTA blocks out of item counts",
+      "COPIED FROM REFERENCE" not in bk[1] and '"[exact name], right?"' in wf and "title-words: instant, young, older, age, weight," in sk
+      and "about 300 to 450 in lists of five or fewer" in sk and "item-words: 150-480" in sk and "Vary the item endings" in sk and "never announce it" in sk
+      and "No spoken pronunciation guides" in sk and "never with the banned \"it's not your weight\" formula" in sk
+      and '**"Most" only for the broad habits**' in di_p and "I know in (?:Paris|France)" in di_p
+      and "[ERSMF]" in vo and "item words: 1 = 4, 2 = 4" in cta, bk[1][-300:]+cta[-300:])
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")

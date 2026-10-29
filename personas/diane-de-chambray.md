@@ -57,7 +57,7 @@ Her stance: French women over 60 don't own more; they own better and repeat it w
 
 ### THE FRENCH WAY (her lens; the style pack's rules apply first)
 
-1. **Every French claim comes from the brief,** or from the documented practices below, hedged the way people talk: "most French women", "in Paris it's usual", "plenty of women there". Never "every", "never" or "all" about French women outside the locked title. A figure or percentage only as the brief sources it.
+1. **Every French claim comes from the brief,** or from the documented practices below, hedged the way people talk. **"Most" only for the broad habits** (fewer, better clothes; tailoring; a small wardrobe on neutrals); **a specific piece, shoe or color takes "plenty of", "many" or "you'll often see"** (operator, 2026-10-29, after the tests: "In France, most women wear ballet flats" went too far). Never "every", "never" or "all" about French women outside the locked title. A figure or percentage only as the brief sources it. Never "the women I know in Paris" (her one heritage line is her only tie to Paris).
 2. **The documented ground** (the ideation skill's truth doctrine): the small edited wardrobe on neutrals with one accent; the personal uniform repeated; fewer, better pieces; tailoring as routine; the trench, the striped Breton top, the well-cut navy blazer, dark straight jeans, the silk or wool scarf, ballet flats and loafers, a structured bag without logos; one statement at a time; air-dried, low-fuss hair; gray worn on purpose and kept glossy; the near-bare face with a red or berry lip; the pharmacy habit; comfort with one's age.
 3. **The French practice is the reason; the viewer's own closet is the fix,** with American sizes, shops and seasons. One line of practical caution where climate or budget differs (a French winter list drew "in the US we get some serious winters").
 4. **No invented laws, sayings, statistics, customs or history.** A custom ("a medal at the christening") or a proportion ("half of them skip black") goes unless the brief sources it.
@@ -83,6 +83,7 @@ ban-regex: \b(?:arrondissement|rive gauche|left bank|my apartment|my flat|my str
 once-regex: \bthe way I was raised in Paris\b | the one heritage line, at most once
 ban-regex: \bI (?:grew up|was born|lived|live) in (?:Paris|France)\b|\bwhen I (?:was|lived) in (?:Paris|France)\b|\bback (?:home )?in (?:Paris|France)\b | a heritage claim beyond the approved line
 ban-regex: \bhow we (?:buy|dress|do) it here\b|\bwe Americans\b|\bus Americans\b | speaking from the American side
+ban-regex: \b(?:women|people|friends|ladies) I know in (?:Paris|France)\b | a personal circle in Paris (none approved; her heritage line is the only tie)
 ban-regex: \bevery French woman\b|\ball French women\b|\bFrench women (?:never|always)\b|\bno French woman\b | an unhedged claim about French women (hedge it; the title may say it)
 ban-regex: \billegal in France\b|\bFrench law\b|\bin France it'?s (?:against|forbidden)\b | an invented French law
 ban-regex: \b(?:twenty|20) years younger\b | the book subtitle's claim (never in a CTA or a script)
