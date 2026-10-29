@@ -366,6 +366,13 @@ From the review of the first library-made upload on each relaunched channel (`st
 - **Words per minute 162** ("ok, adjust this"), from his first electrical upload (3,223 words in 19:52); the 12-minute minimum is now about 1,950 words.
 - **The lines that didn't survive the voice:** the operator asked for more detail ("elaborate on this"); explained in chat, no rule yet.
 
+**Second round, same day:**
+- **Pfusch stays** on Werner's German words for now ("leave for now"), though the voice said it "Fush" and "Whoosh".
+- **Repeated topics on a channel are not the script library's job** ("not your problem"): no sibling check against the channel's own titles.
+- **HVAC takes the plumbing opening rules, always modelled on winners** ("hvac - yes but always model off winners"): P18, the short hook by about 45 seconds, no tool list and the kit named once, no "no tech needed" scope line, the scanner keys; and every HVAC script now names at least one winning model, with the opening on a winner's beats (replaces "agree but not always needed", 2026-10-27). HVAC words per minute stays unset (still 150) until the operator says.
+- **Talking-point briefs are enough for plumbing** ("thinner briefs are fine as long as they are talking points for now"): each talking point is built out with P7's fill-ins; NOT READY only when even that can't reach 12 minutes.
+
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

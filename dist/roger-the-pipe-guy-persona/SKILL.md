@@ -3,7 +3,7 @@ name: roger-the-pipe-guy-persona
 description: The channel profile for Roger the Pipe Guy: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-29 (library commit 11e8fad)
+**Version:** 2026-10-29 (library commit 5c2617d)
 
 # Persona profile: Roger the Pipe Guy
 

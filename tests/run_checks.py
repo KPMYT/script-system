@@ -935,6 +935,16 @@ check("76. electrical: one step one job; adaptive buying step; facts 1.18, 1.17a
       and "| 1.18 | The breaker can be smaller than the wire allows" in fgp and "| 1.17a |" in fgp and "| 4.30 |" in fgp
       and "first receptacle outlet of the existing circuit" in fgp, "")
 
+# 77. second round (operator, 2026-10-29): HVAC takes the plumbing opening rules and always models off winners; plumbing
+#     talking-point briefs are enough (NOT READY only when built-out points can't reach 12 minutes)
+hvp=open(f"{ROOT}/hvac-scripts/SKILL.md").read(); hvt=open(f"{ROOT}/hvac-scripts/references/unit-plan-template.md").read()
+_,o77=run_scan("The furnace quit. So, today you learn the fix. You will know in two minutes. Nothing here needs a tech.\n",[f"{ROOT}/hvac-scripts/SKILL.md",f"{PERS}/roger-the-hvac-guy.md"])
+check("77. HVAC: winner-modelled short opening, P18, kit once, no 'no tech needed', model never none; plumbing talking-point briefs",
+      "**Short, and always built on a winner**" in hvp and "**One end-of-video promise, at most**" in hvp and "**Every script models off winners**" in hvp
+      and "\"model: none\" is not allowed" in hvp and "[file numbers; never none]" in hvt and "first-item-seconds: 45" in hvp
+      and "today you learn" in o77 and "a promise with a time on it" in o77 and "no tech needed" in o77
+      and "**A brief of talking points is a full brief**" in open(PLR).read(), o77[-600:])
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")

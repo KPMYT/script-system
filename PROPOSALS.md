@@ -209,4 +209,4 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Applied:** `plumbing-scripts/SKILL.md` ("The opening", "Point then promise", "Never in an opening", the checklist and the scanner block: `opening-ban-regex`, `opening-promise-regex`), its plan template, `core/script-scanner.py` (the opening keys), test 74.
 
-**Status:** approved by the operator on 2026-10-29 (quoted above). Plumbing only; the HVAC pack, built on the same opening, is unchanged until the operator says so.
+**Status:** approved by the operator on 2026-10-29 (quoted above). Extended to the HVAC pack the same day ("hvac - yes but always model off winners").

@@ -113,12 +113,18 @@ The villain on an HVAC channel is **the trade as a business and its upsell**: th
 
 Every opening, whatever the video type, does these jobs in about the first 45 seconds. Hooks are not one fixed formula: rotate the order and the shape across the channel's scripts (the rotation log tracks it), use the order for the video type (see "The video types"), or model the opening on one of the reference winner scripts for its shape and beats, never its wording. What can't change is that the point comes first and fast, and nothing on the banned list below appears. The study's real tradesmen land their first real value at about 30 seconds; the faceless leader takes about a minute and a half (`studies/hvac/comparison/02-openings-and-numbers.md`).
 
+**Short, and always built on a winner** (operator, 2026-10-29: "hvac - yes but always model off winners", applying the plumbing opening rules of the same day). Every opening follows the beats of a winning model's opening (a file in `references/models/`, all real people's videos well above their channel's normal), named in the plan with that opening's words from the beat map; beats only, never wording. Whatever the model does, the first real tip, step or item lands by about 45 seconds at the profile's words per minute. Anything that can wait for the first step waits there.
+
 1. **The point in the first sentence.** Name the title's subject and, wherever the title allows, the fix or product itself, by about 15 seconds. Never hold the name back.
 2. **A question, when it fits.** A question the viewer can answer in their own house ("When did you last slide your furnace filter out and look at it?"), answered within about 15 seconds. Never a question the viewer can't check.
 3. **The villain line,** as a price, the quote or a silence (above).
-4. **Honest scope or reassurance,** in one line: what it won't do, which systems it's for, or why it's safe ("This one's for the high-efficiency furnaces with the white plastic pipes." "Nothing here means opening the gas line."). This keeps the title's strongest word honest.
+4. **Honest scope or reassurance,** in one line: what it won't do, which systems it's for, or why it's safe ("This one's for the high-efficiency furnaces with the white plastic pipes." "Nothing here means opening the gas line."). This keeps the title's strongest word honest. Never a blanket "nothing here needs a tech" or "you'll never call an HVAC company again" when the video has a point where the viewer stops and calls a tech: say where it stops instead (the plumbing pack's rule, 2026-10-29). Only a title that promises it is said that way, and then the video has no call point.
 5. **The count line, when the video has a count.** One sentence naming the whole list and what it does for the viewer: "I'm going to walk you through the nine things to check before the first hard freeze." Skip it when the opening has already said the count. It never says what any single item holds: no "Number one is... Number two is...". Never "today" in front of it.
 6. **The first real tip** by about 45 seconds; in a list, item one by about 30 seconds. At about 150 words a minute that's about 110 spoken words, and in a list "Number one" within about 75. The first HVAC tests ran 177 and 187 words before the first section (`tests/iterations/iter-06/`).
+
+**No tool list in the opening, and the kit is named once in the whole video** (operator, 2026-10-29, the plumbing rule). Each tool comes in the step that first uses it, or all of them in one short kit step after the opening, never both and never twice.
+
+**One end-of-video promise, at most** (P18, operator, 2026-10-29: "the only way it can be accepted if its a single promise that is paid off END OF VIDEO"; "hvac - yes"). Besides the count line or the escalation line, the opening may carry one promise, and only of what the end of the video pays: the last item, step or rung. One sentence, said once, paid at the end. Never a time ("you'll know in two minutes"), never a promise paid earlier, never two. Most openings need none.
 
 **The breakdown moment: an option, not a rule** (operator, 2026-10-27: "potentially not always"). The study's commonest viewer story is the moment it quits: the cold night, the heat wave, the quote, the company that can't come till Tuesday. The opening may start on it, in one or two plain sentences, then reach the point by about 15 to 30 seconds. Rotate it with the other opening shapes; never use it two scripts running.
 
@@ -132,7 +138,7 @@ It stands in for the count line, or carries it. It names the two ends of the pro
 - The shape to aim for (never wording to reuse): "That furnace that kicks on, runs a minute and quits? Most of the time it's a part the size of a pencil, not the end of the furnace. Before anybody writes you up for a new system, there are a few things you can check with a screwdriver and ten minutes."
 - **One dollar figure at most in the opening;** the prices belong to the items, and the opening never repeats item one's price.
 
-**Never in an opening:** a name or channel intro, a greeting, "today we're going to", a recap of what's coming, a promise block or any run-down of what later items hold, a first-person test or demonstration ("I tested", "watch me"), or a tenure number other than the profile's or the locked title's.
+**Never in an opening:** a name or channel intro, a greeting, "today we're going to" (or "today you learn", "today I'll show you"), a recap of what's coming, a tool list, a promise with a time on it, any promise but the one end-of-video promise above, a promise block or any run-down of what later items hold, a first-person test or demonstration ("I tested", "watch me"), or a tenure number other than the profile's or the locked title's.
 
 **Tenure:** at most once, as the profile's fixed number (Roger the HVAC Guy: 45) or, when the title states a different one, the title's number (title numbers win), and only where it does a job (credibility right before a verdict or a mistakes list).
 
@@ -168,7 +174,7 @@ The plumbing pack's rule, carried over whole with its examples (operator, 2026-1
 ## Point then promise
 
 - **Point first.** The first answer (the fix named, the rule stated, the first verdict fact) comes before anything else.
-- **Pay forward lines fast.** A later item named in a forward line is paid within about five minutes. Nothing is promised in the opening, apart from the count line or the escalation line.
+- **Pay forward lines fast.** A later item named in a forward line is paid within about five minutes. Nothing is promised in the opening, apart from the count line or the escalation line, and at most one promise paid at the end of the video (P18; see "The opening").
 - **Keep one promise open.** After the opening, never go more than about five minutes without a new forward line or a payoff. Use a line that names the next value, the trade's price for what was just done, a question the next item answers, or a check the viewer can run.
 - **Every callback has a promise.** A line that says "I promised" or "like I said" must match something the script really promised earlier.
 - **A priority flag at the first answer,** in fresh words each time.
@@ -228,9 +234,9 @@ In every list type (N things, never-do, mistakes or habits), each item runs in t
 
 ## Using the models: never a copy
 
-The models show how winning videos are built. A script borrows their structure, never their wording, and never one model's structure whole. **A script uses a model where one fits; not every script needs one** (operator, 2026-10-27: "agree but not always needed").
+The models show how winning videos are built. A script borrows their structure, never their wording, and never one model's structure whole. **Every script models off winners** (operator, 2026-10-29: "always model off winners"; this replaces "agree but not always needed", 2026-10-27). The plan always names at least one winning model, and the opening always follows one; where no model covers the topic, the closest winner of the same video type is used for its shape.
 
-1. **Name the models and the differences.** When the plan uses models, it names them and at least three things done differently: the opening order, the number or order of items, the promise devices, the money device, or the comment question. A plan with no model says "model: none".
+1. **Name the models and the differences.** The plan names its models and at least three things done differently: the opening order, the number or order of items, the promise devices, the money device, or the comment question. "model: none" is not allowed.
 2. **No repeats.** The same model is never used twice in the channel's last five scripts (the `model:` field in the rotation log).
 3. **Blending is encouraged:** the opening shape from one model and the item pacing from another, for example.
 4. **Planning only.** Model files are read at the planning step, never kept open while writing. Wording comes fresh from the brief, in the persona's voice.
@@ -384,11 +390,16 @@ The scanner (core `script-scanner.py`) reads this block. `allow` lines are wordi
 
 ```scanner
 min-minutes: 12
+first-item-seconds: 45
 letters-ok: HVAC, AC, MERV, BTU, BTUs, SEER, PVC
 allow: on the high end
 allow: depending on where you live
 allow: I read every one
 ban-regex: \btoday,? (?:we'?re|we are|I'?m|I am) going to\b | opening: "today we're going to"
+opening-ban-regex: \btoday,? (?:you(?:'ll| will)? (?:learn|see|find out)|I(?:'ll| will) show you|we(?:'ll| will) (?:learn|look at|fix))\b | opening: "today you learn" (a cousin of "today we're going to")
+opening-ban-regex: \b(?:you(?:'ll| will)|I(?:'ll| will)|we(?:'ll| will))\b[^.!?]{0,40}\bin (?:the next )?(?:a few|two|three|five|ten|2|3|5|10|sixty|60|ninety|90) (?:minutes?|seconds?)\b | opening: a promise with a time on it ("you'll know in two minutes")
+opening-promise-regex: \byou(?:'ll| will) (?:hear|see|learn|know|find out|get)\b|\bI(?:'ll| will) (?:show|tell|teach|give)\b|\b(?:and|but) (?:that|this) comes (?:at|later)\b | opening promise (at most one, and only one paid at the end of the video)
+judge-regex: \bnothing (?:here|in this (?:video|one)) needs a (?:tech|technician|pro)\b|\byou(?:'ll| will) never (?:need|call) (?:a tech|an HVAC (?:company|tech|guy))\b|\bno tech needed\b | scope: "no tech needed" (only when the title promises it and no step ends in a call)
 ban-regex: \bI(?:'ve| have)? (?:tested|tried|ran (?:a |the |some |my )?tests?)\b | first-person test claim
 ban-regex: \bmy (?:own )?(?:test|tests|testing|results)\b | first-person test claim
 ban: watch me | first-person demonstration
@@ -460,6 +471,7 @@ Check that:
 - every item puts the viewer in the scene, aims at one real pain, has at least one "but" turn and ends on a win; bridges turn between items; a question about every two items; the title's feeling comes back every few items; the villain comes back all the way through, with disgust at the big prices as an opinion (never a company, a motive or the honest tech); the last item before the end CTA closes on relief
 - in a list, every item follows the item shape at about 150-250 words (a bit longer is fine, fluff never is), and no more than two items in a row go without a forward line or a price line
 - the opening follows the video type's order (or the closest type's, for a new type), with no intro, greeting, tease or recap
+- the opening follows a named winning model's beats, has no tool list, reaches the first real tip, step or item by about 45 seconds, and carries no promise but the count or escalation line and at most one promise paid at the end (never with a time on it); the scope line never says no tech is needed when the video has a call point; the kit is named once in the whole video
 - no promise block: the opening names no single later item and ends on the count line (when there's a count) or item one; every forward line is paid within about five minutes, and no stretch runs past about five minutes without a forward line or a payoff
 - the tenure appears at most once, as the profile's number or the title's
 - every price traces to the brief or the price guide and is said as an estimate (never cents except the cost-per-use device, at most one per item, figures on no more than about half the items, one at most in the opening); filled-in settings and intervals are everyday knowledge; the arithmetic holds
@@ -469,5 +481,5 @@ Check that:
 - every unit, rating, refrigerant and range is written the way the voice says it
 - the one-line subscribe ask comes at the end (no mid-video CTA), and the video ends on the comment ask (a turn to the viewer, an outright ask to comment, a question about their own numbers or house, and "I read every one"), with nothing after it
 - each stock phrase appears at most once, none of the faceless leader's catchphrases appears, and the opening shape and money device differ from the rotation log
-- when models are used, the plan names them with at least three differences, and no model was used in the channel's last five scripts
+- the plan names at least one winning model, with at least three differences, and no model was used in the channel's last five scripts
 - the script runs at least 12 minutes (12 to 20 is the sweet spot), with nothing padded
