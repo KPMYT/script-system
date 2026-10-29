@@ -109,7 +109,7 @@ Omitted as banned: PRODUCTION NOTE (with aside) at 0:13 (71 words).
 
 **The feeling it aims at:** Fashion: looking frumpy, softened ("don't get mad"), with her on the viewer's side.
 
-**Usable for:** Yes. Mistakes that age you ("N items that make you look frumpy after 50").
+**Usable for:** Yes. Mistakes that age you ("N items that make you look frumpy after 50"). Carry move 2 in a line or two: it is 90 words of chat.
 
 **Not usable:** The New York production note (omitted) and "I make these mistakes too" (her own experience).
 
@@ -1188,7 +1188,7 @@ Kept but flagged (carry the move, never the flagged part): SALON BLAME at 0:12; 
 
 **Usable for:** Yes. The why explainer ("Why your haircut never looks right", "Why your X never looks right") and any hair title with a hidden cause. Carry moves 1 to 7 inside 110 words.
 
-**Not usable:** The stylist blame in moves 3 and 5 (the salon is never the villain: keep the feeling, drop the blame), the money line, the second cause block (moves 8 and 9) is opening padding for us.
+**Not usable:** The stylist blame in moves 3 and 5 (the salon is never the villain: keep the feeling, drop the blame) and the money line. The second cause block (moves 8 and 9) is opening padding for us.
 
 ### M09. STOP Styling Your Hair WRONG For Your Face & Head Shape!
 

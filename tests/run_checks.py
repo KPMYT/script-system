@@ -957,6 +957,15 @@ check("80. style wiring: channel rows 10 and 11 pending; build entries for style
       and '"style-scripts": ("model-file-spec.md",)' in bs and '"scarlett-starling": ("Scarlett Starling"' in bs and '"diane-de-chambray": ("Diane de Chambray"' in bs
       and "--rules <style-scripts>/SKILL.md" in bs and "## style-scripts/" in rd and "`scarlett-starling.md`" in rd, "")
 
+# 81. the style references: hooks, excerpts, voice samples (provisional) and INDEX exist; 30 [real] M files and 7 [structure only] F files; every model has a hook entry
+SM=f"{STY}/references/models"; mfiles=sorted(f for f in os.listdir(SM) if re.match(r"[MF]\d\d-",f))
+hk=open(f"{STY}/references/hooks.md").read(); ix=open(f"{SM}/INDEX.md").read(); vs=open(f"{STY}/references/voice-samples.md").read()
+tags_ok=all(("[real]" if f.startswith("M") else "[structure only]") in open(f"{SM}/{f}").read().split("## Beat map")[0] for f in mfiles)
+check("81. style references: hooks.md, excerpts.md, voice-samples.md (provisional), INDEX.md; 30 [real] M files and 7 [structure only] F files; a hook entry and an INDEX line for every model",
+      os.path.exists(f"{STY}/references/excerpts.md") and "PROVISIONAL" in vs
+      and sum(f.startswith("M") for f in mfiles)==30 and sum(f.startswith("F") for f in mfiles)==7 and tags_ok
+      and all(f"### {f[:3]}." in hk for f in mfiles) and all(f in ix for f in mfiles), str(mfiles))
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")

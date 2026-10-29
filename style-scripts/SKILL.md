@@ -106,6 +106,8 @@ She is older than the titles say. Of 149 viewers who gave an age in the study's 
 5. **Aim it at the title's feeling.** Name the worry the title implies, in her words, early, then the promise. **Hair:** the fear of the change, or the cut that never looks right and the stylist who didn't listen. **Fashion:** looking older or frumpier than she feels, the body changing, clothes not made for her. Then the relief: it's fixable, and here is how many fixes. Plain and specific, never a slogan, never shame.
 6. **What a hook may hold,** only as its model's moves: the feared look named; a question about her own mirror or closet; one line of reassurance or scope (body-shape titles open on it: nothing is wrong with her figure, the clothes are doing the wrong job); the one credential line, where the model's hook has an authority move; the count line (the whole list in one line, never what one item holds). The villain only if the title carries one (see "The villain"). The age only where the title says it.
 
+**What the winners' hooks share** (`references/hooks.md`, the 16 fully usable real hooks): a median of about 80 words; three or four moves before item one; item one at a median of 35 seconds once intros, plugs and teases are taken out; the feared look or the feeling named in the first two sentences (12 of 16); the count line one of the last two moves before item one (11 of 11 that have one); a question in 6 of 16 (5 open on it); a credential in 4 and permission in 2; none opens on "Picture" or "Imagine". A hook that drifts from this is wrong, whatever the model.
+
 **Never in the hook:** a name or channel intro ("this channel is for women over 60"), an age slogan, a tease or held item, a "Picture…" or "Imagine…" scene (ours opened on one in 36 of 38; winners 15 of 42), a task before item one ("go and get your favorite pair"), a recap of what's coming, a second promise, or anything the model's hook didn't do.
 
 **The audit's Hook line** names the hook model and its moves beside ours, with both word counts.
@@ -140,16 +142,16 @@ Point first, always: each item opens on its point, then explains. The count line
 
 ## The video types
 
-| Type | What it is | Models (see INDEX) |
+| Type | What it is | Models (see `references/models/INDEX.md`) |
 |---|---|---|
-| **Mistakes that age you** | N looks that add years or look frumpy, each with the swap. Whole look, one item, or hair. The main engine (279 breakouts, 27 at 500K+). | many |
-| **Never these, wear these instead** | An item list: glasses, necklaces, earrings, shoes, bags. Each "never" is paid by a "wear this". | F01, F02, F03, M29 |
-| **The best N** | The cuts, colors or pieces that work, each with why and for whom. | several |
-| **Styling it wrong: N secrets** | A technique video: what she's doing at home and the better way, in steps. | M08, M12 |
+| **Mistakes that age you** | N looks that add years or look frumpy, each with the swap. Whole look, one item, or hair. The main engine (279 breakouts, 27 at 500K+). | M04, M06, M15, M16, M18, M20, M21, M22, M25, M26, F03, F08 |
+| **Never these, wear these instead** | An item list: glasses, necklaces, earrings, shoes, bags. Each "never" is paid by a "wear this". | F01, F02, F03, M10, M13, M28, M29 |
+| **The best N** | The cuts, colors or pieces that work, each with why and for whom. | M07, M14, F04, F05 |
+| **Styling it wrong: N secrets** | A technique video: what she's doing at home and the better way, in steps. | M08, M12, M24, M27 |
 | **How to wear X** | One piece, several ways, each with the occasion and the check. | M30 |
 | **Body-shape fixes** | Line, proportion and silhouette for a body part; never weight. Opens on reassurance. | M17, M23, M24 |
 | **The rules she never breaks** | The woman who gets it right, or the French rules (Diane): each rule a practice and a swap. | M28, F05, F06 |
-| **The why explainer** | "Why your haircut never looks right": the hidden cause, then the fixes. | M01 |
+| **The why explainer** | "Why your haircut never looks right": the hidden cause, then the fixes. | M01, M09, M19 |
 
 A gray-hair journey or a makeover needs a real body or a real client, so it isn't a type for a persona; its topic runs as a best-N list or an explainer. **A title that fits none:** use the closest type's shape and log it as "new type" in the rotation log.
 
