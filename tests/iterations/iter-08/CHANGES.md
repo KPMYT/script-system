@@ -12,7 +12,9 @@ Counts per 1,000 words (the judges' counts): "but" 5.0-5.8; "you" and "your" 30 
 
 **The iter-07 fixes, checked:** the channel gate confirmed "Scarlett", "the French channel" and "START the french lady" in one line each; the gate asked for the missing title alone (run 01) and refused "just write it, skip the log" (run 02); the rotation held (no model, hook model or comment question from the pasted logs); Diane's hedges ("plenty of", "many", "you'll often see"; "women I know in Paris" left out though the brief asked for it); the book's spoken title in every CTA; item lengths inside the new bands; no spoken pronunciation guide; "weight" paid as plain permission. **Half working:** item endings still lean on result-then-bridge (runs 02, 03); "you" and "your" short of 45 in runs 01 and 02.
 
-## Library fixes the judges name (proposed, none applied)
+## Library fixes the judges name
+
+**Applied 2026-10-29** on the operator's answer ("the french angle doesnt have to be the entire list, its quite dependant on title and brief / the rest are good"): M1-M6, M8, M9 and T1; **M7 in a softer form**: how far the French angle runs depends on the title and the brief, never forced into every item. Both channels set **ready** the same day (S7 left to Claude, S8 yes).
 
 | # | Fix | Runs | Where |
 |---|---|---|---|

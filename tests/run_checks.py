@@ -997,27 +997,27 @@ pb_s=[l for l in ("I'm Scarlett Starling.","Until next time, stay polished.","I 
       if run_scan(f"Check the hem.\n\n{l}\n",[STR,SCAR])[0]!=1]
 pb_d=[l for l in ("Diane here.","A bientot.","Every French woman owns a trench.","I grew up in Paris, so I know.","Marie and Sophie swear by it.","How we buy it here is different.")
       if run_scan(f"Check the hem.\n\n{l}\n",[STR,DIAN])[0]!=1]
-check("89. Scarlet's and Diane's profiles: style-scripts, Talking Head, pending, 169 and 172 wpm, tenure none, book keys, no sign-off; the credential and heritage line once; old intros, sign-offs, closes and unhedged claims fail",
-      all("Niche pack: style-scripts" in x and "Script type: Talking Head" in x and "Status: pending" in x and "Closing line: none" in x for x in (sc_p,di_p))
+check("89. Scarlet's and Diane's profiles: style-scripts, Talking Head, ready, 169 and 172 wpm, tenure none, book keys, no sign-off; the credential and heritage line once; old intros, sign-offs, closes and unhedged claims fail",
+      all("Niche pack: style-scripts" in x and "Script type: Talking Head" in x and "Status: ready" in x and "Closing line: none" in x for x in (sc_p,di_p))
       and "Words per minute (for runtime and the length minimum): 169" in sc_p and "Words per minute (for runtime and the length minimum): 172" in di_p
       and "tenure: none" in sf and "tenure: none" in df and "book: Three Hundred Budget-Friendly Ways to Look Expensive" in sf and "book: The French Way" in df
       and "once-regex: \\ba lifetime of dressing well\\b | the one credential line, at most once" in sf and "once-regex: \\bthe way I was raised in Paris\\b | the one heritage line, at most once" in df
       and not pb_s and not pb_d, f"scarlet passing: {pb_s}; diane passing: {pb_d}")
-# 90. wiring: rows 10 and 11 pending; the build knows the pack and both profiles; the style scanner command; README
+# 90. wiring: rows 10 and 11 ready (iter-08, 2026-10-29); the build knows the pack and both profiles; the style scanner command; README
 chan=open(f"{CORE}/channels.md").read(); bs=open(f"{ROOT}/tools/build_skills.py").read(); rd=open(f"{ROOT}/README.md").read()
-check("90. style wiring: channel rows 10 and 11 pending; build entries for style-scripts and both personas; the style scanner command; README sections",
-      "| 10 | Scarlett Starling | `style-scripts` | `personas/scarlett-starling.md` | pending |" in chan and "| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | pending |" in chan
+check("90. style wiring: channel rows 10 and 11 ready; build entries for style-scripts and both personas; the style scanner command; README sections",
+      "| 10 | Scarlett Starling | `style-scripts` | `personas/scarlett-starling.md` | ready |" in chan and "| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | ready |" in chan
       and '"style-scripts": ("model-file-spec.md",)' in bs and '"scarlett-starling": ("Scarlett Starling"' in bs and '"diane-de-chambray": ("Diane de Chambray"' in bs
       and "--rules <style-scripts>/SKILL.md" in bs and "## style-scripts/" in rd and "`scarlett-starling.md`" in rd, "")
 
-# 91. the style references: hooks, excerpts, voice samples (provisional) and INDEX exist; 30 [real] M files and 7 [structure only] F files; every model has a hook entry
+# 91. the style references: hooks, excerpts, voice samples (settled 2026-10-29) and INDEX exist; 30 [real] M files and 7 [structure only] F files; every model has a hook entry
 SM=f"{STY}/references/models"; mfiles=sorted(f for f in os.listdir(SM) if re.match(r"[MF]\d\d-",f))
 hk=open(f"{STY}/references/hooks.md").read(); ix=open(f"{SM}/INDEX.md").read(); vs=open(f"{STY}/references/voice-samples.md").read()
 tags_ok=all(("[real]" if f.startswith("M") else "[structure only]") in open(f"{SM}/{f}").read().split("## Beat map")[0] for f in mfiles)
 sd=re.search(r"^description: (.*)$",open(STR).read(),re.M).group(1)
 check("91b. the style pack's description fits the skill limit (1,024 characters)", 0<len(sd)<=1024, str(len(sd)))
-check("91. style references: hooks.md, excerpts.md, voice-samples.md (provisional), INDEX.md; 30 [real] M files and 7 [structure only] F files; a hook entry and an INDEX line for every model",
-      os.path.exists(f"{STY}/references/excerpts.md") and "PROVISIONAL" in vs
+check("91. style references: hooks.md, excerpts.md, voice-samples.md (settled), INDEX.md; 30 [real] M files and 7 [structure only] F files; a hook entry and an INDEX line for every model",
+      os.path.exists(f"{STY}/references/excerpts.md") and "**Settled 2026-10-29**" in vs and "anchors on sample 1 (Tracy Campoli)" in vs
       and sum(f.startswith("M") for f in mfiles)==30 and sum(f.startswith("F") for f in mfiles)==7 and tags_ok
       and all(f"### {f[:3]}." in hk for f in mfiles) and all(f in ix for f in mfiles), str(mfiles))
 
@@ -1033,6 +1033,24 @@ check("92. iter-07 fixes: book title allowed; gate confirms a clear one-channel 
       and "No spoken pronunciation guides" in sk and "never with the banned \"it's not your weight\" formula" in sk
       and '**"Most" only for the broad habits**' in di_p and "I know in (?:Paris|France)" in di_p
       and "[ERSMF]" in vo and "item words: 1 = 4, 2 = 4" in cta, bk[1][-300:]+cta[-300:])
+
+# 93. iter-08 fixes (operator 2026-10-29: "the rest are good", "s7 is up to you", "s8 yes"): ordinal signposts read and a new noun
+#     restarts at one; no signposts -> NOT CHECKED; the YOU rate; TITLE SPREAD with capitalized title words; book-facts; the copied
+#     example line banned; verify_output skips the title's own words; the pack's new type, rotated book pitch and hook line; Diane's
+#     S8 lines and the French angle by title and brief; benefit angles; channels ready
+o1=run_scan("The mistake has parts. The first part is the wash, and you see it. The second part is the cut, but your hip shows.\n\nThe third part is the hem. Pair one. The dark jean. Pair two. The wide leg, and you love it.\n",[STR])[1]
+o2=run_scan("A line with no signposts at all, and it runs on.\n",[STR])[1]
+o3=run_scan("Any face can wear it. A face shape matters. Nothing else here at all for a long while, just words and words and more words.\n",[STR],title="5 Cuts That Flatter ANY Face Shape After 60 (And Look Ten Years Younger)")[1]
+o4=run_scan("It has one hundred and one numbered Secrets.\n",[STR,DIAN],pack=STR)[1]
+o5=run_scan("None of these five rules asks you to lose weight.\n",[STR,DIAN])
+di_p=open(DIAN).read(); sc_p=open(SCAR).read(); sk=open(STR).read(); vo=open(f"{ROOT}/tools/verify_output.py").read(); hk=open(f"{STY}/references/hooks.md").read()
+check("93. iter-08 fixes: ordinal signposts; NOT CHECKED; the YOU rate; TITLE SPREAD; book-facts; the copied example banned; title quotes skipped; the new type, rotated book pitch, hook line; Diane's S8 lines and French angle; benefit angles",
+      "ITEMS: 5 |" in o1 and "ITEMS NOT CHECKED" in o2 and 'YOU: "you" and "your"' in o2 and "<< under 35" in o2
+      and "TITLE SPREAD:" in o3 and "any 1" in o3 and "101  <<" not in o4 and o5[0]==1 and "the pack's old example line" in o5[1]
+      and "norm(q) in title" in vo and "**One mistake, then N swaps**" in sk and "**The book's fact and benefit rotate**" in sk
+      and "ordinal-signposts:" in sk and "you-floor: 35" in sk and "the title's own words carry the feeling and no move is added" in hk
+      and "she never mocks American women" in di_p and "How far the French angle runs through a list depends on the title and the brief" in di_p
+      and "Benefit angles" in di_p and "Benefit angles" in sc_p and "book-facts: 101, 400" in di_p, o1[:400]+o3[-400:])
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

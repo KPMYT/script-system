@@ -18,8 +18,8 @@ The workflow shows this list at START. A channel can only be scripted when its s
 | 7 | Frederick Barnes | `electrical-scripts` | `personas/frederick-barnes.md` | ready |
 | 8 | Roger the HVAC Guy | `hvac-scripts` | `personas/roger-the-hvac-guy.md` | ready |
 | 9 | Werner Finkbeiner | `plumbing-scripts` | `personas/werner-finkbeiner.md` | ready |
-| 10 | Scarlett Starling | `style-scripts` | `personas/scarlett-starling.md` | pending |
-| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | pending |
+| 10 | Scarlett Starling | `style-scripts` | `personas/scarlett-starling.md` | ready |
+| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | ready |
 
 ## Adding a channel
 

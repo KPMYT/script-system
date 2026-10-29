@@ -21,8 +21,8 @@ It reports:
   - spoken words and minutes against the evidence's Length line
   - the scanner's ITEMS and SENTENCES lines (item one's word, each item's words, items with no "I" line), report only
   - every quoted script line in the AUDIT EVIDENCE block (Promise map, Hook, Signposts, Voice, Originality,
-    I-verdicts, Turns, Title word, Emergency) that the script doesn't contain; quotes of a model's line or a
-    brief line (the Numbers line) are left alone
+    I-verdicts, Turns, Title word, Emergency) that the script doesn't contain; quotes of a model's line, a
+    brief line (the Numbers line) or the locked title's own words (iter-08: "NEVER Look Frumpy" as a label) are left alone
   - the reframe floor against the evidence's "reframes n"
 Exit 1 when any claim doesn't match the script. It reads; it never edits.
 """
@@ -107,6 +107,8 @@ def main():
     # quoted evidence lines that aren't in the script: only the lines that quote the script (Numbers quotes the
     # brief, Rules (F) and Verdict may quote anything); a quote right after a model ID ("E09 [0:00] "...", "graded against M04 ("...") is the model's (any pack's IDs: E, R, S, M, F; iter-07)
     body = norm(script)
+    tm = re.search(r"^\s*ROTATION LOG ENTRY:[^|]*\|([^|]+)\|", rest, re.M)
+    title = norm(tm.group(1)) if tm else ""
     missing, quoted = [], 0
     for line in ev.splitlines():
         label = line.split(":", 1)[0].strip()
@@ -125,6 +127,8 @@ def main():
             parts = [p for p in re.split(r"\.\.\.|\u2026|\s/\s", q) if len(norm(p).split()) >= 3]
             if not parts:
                 continue
+            if title and norm(q) and norm(q) in title and norm(q) not in body:
+                continue      # the title's own words used as a label in the Promise map
             quoted += 1
             if any(norm(p) not in body for p in parts):
                 missing.append(q.strip())

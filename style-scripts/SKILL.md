@@ -24,7 +24,7 @@ A style video for a woman over 50 takes one worry about how she looks (older tha
 | File | What it's for |
 |---|---|
 | `references/unit-plan-template.md` | The plan to fill in from the title and brief before any prose. |
-| `references/voice-samples.md` | Real women's narration from the winners: the voice anchor for every script (core `voice-anchoring.md`). **Provisional** until the operator's listen. |
+| `references/voice-samples.md` | Real women's narration from the winners: the voice anchor for every script (core `voice-anchoring.md`). Scarlett anchors on sample 1, Diane on sample 3 (settled 2026-10-29). |
 | `references/hooks.md` | The hook bank: every model's hook up to item one, broken into its moves, with its length, the seconds to item one and the feeling it aims at, by video type. Every script's hook carries one of these formats (see "The opening"). |
 | `references/excerpts.md` | Real lines grouped by job (the opening, the turn, the why, the feeling line, permission, the flagged hard word, comment asks). Shape and range, never wording. |
 | `references/models/INDEX.md` | The model library by video type: 30 real presenters (M files: structure, voice and emotion) and 7 faceless or AI videos (F files: structure only). |
@@ -48,12 +48,13 @@ The core base rules apply wherever this pack is silent. These are the places it 
 | `cta-and-endings.md` §2, the mid-video CTA "after the first item or two" | Once, after the first real payoff, roughly a quarter to a third of the way in, at the end of an item's result, in the shape in "CTAs". The only CTA is the book: no subscribe ask. | Operator, 2026-10-29: "no sub cta. just ebook" |
 | `research-and-sourcing.md` §6, "each number said alongside whoever counted it" | Sources don't have to be said (see "Proof"). | 2026-10-29 |
 | `greenlight-audit.md` E1, the originality score (7 signals, pass at 5) | Signal 1 counts facts and swaps from the brief that most videos on the topic don't use; signal 4 (three named sources) doesn't apply. Out of 6, pass at 4. | 2026-10-29 (as plumbing) |
-| `retention-mechanics.md` §6 and `greenlight-audit.md` B5, signposts | The sections are the opening, each item and the ending. An item opens on a signpost ("Number four.", "Rule number four.", "Mistake four.") or a plain "the next…" sentence; the scanner reads the numbered forms. | 2026-10-29 |
-| `greenlight-audit.md` D4, "every number traces to the fact source" | The fact source is the brief. A number the script fills in from well-established styling knowledge (a hem at the ankle bone, a part moved half an inch, cuts about every six to eight weeks) is allowed; the Numbers line marks it "general knowledge". Any price traces to the brief. | 2026-10-29 |
+| `retention-mechanics.md` §6 and `greenlight-audit.md` B5, signposts | The sections are the opening, each item and the ending. An item opens on a signpost ("Number four.", "Rule number four.", "Pair two.") or an ordinal sentence ("The second pair is…", "The third cut…"), the signpost first, never buried in an if-clause. The scanner reads both forms (`ordinal-signposts`); a script it finds no signpost in gets "ITEMS NOT CHECKED", and the Items line is then counted by hand. | 2026-10-29; ordinal forms, iter-08 |
+| `greenlight-audit.md` D4, "every number traces to the fact source" | The fact source is the brief. A number the script fills in from well-established styling knowledge (a hem at the ankle bone, a part moved half an inch, cuts about every six to eight weeks) is allowed; the Numbers line marks it "general knowledge". A count of a list the brief gives (the four parts of the mistake) is allowed too, marked "count of the brief's list" (iter-08). Any price traces to the brief. | 2026-10-29 |
 | `workflow.md` §4, contractions | Kept. | 2026-10-29 |
 | `retention-mechanics.md` §2, the hook's three jobs; `greenlight-audit.md` A1b and the Hook line | The style opening is the hook (see "The opening"), checked as the same three jobs: the transformation is the look the title promises; the pain is the feared look or the practical problem; the curiosity is the why the video explains. | 2026-10-29 |
 | `retention-mechanics.md` §2, the optional value line | Not used: the opening ends on the count line (when there's a count) or item one. The Hook line reads `value line: none`. | 2026-10-29 (as plumbing) |
 | `humanizer.md` H22, one price per item | No price at all unless the title is a budget title (see "Money"). | Operator, 2026-10-28, suggestion 6 |
+| `greenlight-audit.md`, the evidence block's Voice and Originality lines | The Voice line adds the scanner's YOU line ("you" and "your" per 1,000). The Originality line names, for each model used, one thing it lent and the differences, each checkable in the script. | iter-08 (operator, 2026-10-29: "the rest are good") |
 
 Plumbing's named forward promises in the body (P3) don't carry to style: the core's short-range rehooks stand (operator, 2026-10-29). Real presenters hold nothing for the end.
 
@@ -104,7 +105,7 @@ She is older than the titles say. Of 149 viewers who gave an age in the study's 
 2. **Carry its moves, in its order.** Each hook in `hooks.md` is broken into its moves (for example: the feared look named, the cause, the promise with the count, item one). Write the same moves, in the same order, with this title's content and fresh words. Don't add moves; drop one only when the title has nothing for it.
 3. **Keep its length, or shorter.** Never longer than the model's hook, and never over about 110 words. Item one starts by about 45 seconds (real hooks: about 90 words, item one at about 0:45; ours took 1:39).
 4. **Clear and to the point.** One idea a sentence, plain words, no scene-setting. The first sentence or two carry the title's subject and its promise word in the title's own words ("younger", "expensive", "instantly", the count); the scanner checks each title word is said twice, once in the first minute (`title-words`).
-5. **Aim it at the title's feeling.** Name the worry the title implies, in her words, early, then the promise. **Hair:** the fear of the change, or the cut that never looks right and the stylist who didn't listen. **Fashion:** looking older or frumpier than she feels, the body changing, clothes not made for her. Then the relief: it's fixable, and here is how many fixes. Plain and specific, never a slogan, never shame.
+5. **Aim it at the title's feeling.** Name the worry the title implies, in her words, early, then the promise. **Hair:** the fear of the change, or the cut that never looks right and the stylist who didn't listen. **Fashion:** looking older or frumpier than she feels, the body changing, clothes not made for her. Then the relief: it's fixable, and here is how many fixes. Plain and specific, never a slogan, never shame. **Where the hook model names no worry** (M28, a credential and a contrast), the title's own words carry the feeling ("frumpy", "older") and no move is added: the hook stays the model's format (operator, 2026-10-29: "we model off winning hooks for now still").
 6. **What a hook may hold,** only as its model's moves: the feared look named; a question about her own mirror or closet; one line of reassurance or scope (body-shape titles open on it: nothing is wrong with her figure, the clothes are doing the wrong job); the one credential line, where the model's hook has an authority move; the count line (the whole list in one line, never what one item holds). The villain only if the title carries one (see "The villain"). The age only where the title says it.
 
 **What the winners' hooks share** (`references/hooks.md`, the 16 fully usable real hooks): a median of about 80 words; three or four moves before item one; item one at a median of 35 seconds once intros, plugs and teases are taken out; the feared look or the feeling named in the first two sentences (12 of 16); the count line one of the last two moves before item one (11 of 11 that have one); a question in 6 of 16 (5 open on it); a credential in 4 and permission in 2; none opens on "Picture" or "Imagine". A hook that drifts from this is wrong, whatever the model.
@@ -127,7 +128,7 @@ The rules:
 5. **The blame moves off her once,** in fresh words (the cut was wrong for fine hair; the jacket was made for another shoulder). Never the faceless formula "it's not you, it's the blouse" (12 of 24 faceless). It counts as the script's one reframe (H21).
 6. **"But", much more:** real presenters about 6.5 to 8 per 1,000 words; ours ran about 1. Aim for about five or more, joining two sentences where the thought turns.
 7. **Ask her:** about four to eight questions a script, about her own hair, closet or mirror. The turn into a fix can be a question ("So what works instead?"), rotated.
-8. **Say the title's feeling again** every few items, in the title's own words. Real winners say title words 14 to 17 times per 1,000 words; ours about 8. Don't overdo it (operator, 2026-10-29): a natural return now and then, never a refrain. A title that clears the viewer of something ("It's Not Their Weight") is paid as plain permission ("none of these rules asks you to lose weight"), never with the banned "it's not your weight" formula; a title's "NEVER" about French women is paid by its hedged meaning ("most French women skip it").
+8. **Say the title's feeling again** every few items, in the title's own words, and at least once in the second half of the body: a feeling said twice in the hook and then dropped for ten minutes is lost (iter-08: "frumpy" gone for eleven minutes). The scanner's TITLE SPREAD line reports each title word's count, its count in the second half and its longest gap, report only. Real winners say title words 14 to 17 times per 1,000 words; ours about 8. Don't overdo it (operator, 2026-10-29): a natural return now and then, never a refrain. A title that clears the viewer of something ("It's Not Their Weight") is paid as a plain permission line in the script's own fresh words, saying the fixes ask nothing of her body, never with the banned "it's not your weight" formula and never in the same words twice across scripts. A title's "NEVER" about French women is paid by its hedged meaning (rarely, most skip it); a capitalized promise word ("ANY face shape") is said back in the body as well as the hook.
 9. **End each item on the result:** the look (lifted, longer, polished, taller), a compliment she'll hear, or now and then how it feels. More often seen than felt.
 10. **The hard word, flagged, once at most.** "Old lady" or "granny" only as the feared look, in quotes, announced as harsh ("harsh but true", "I'll say it plainly"), at most once a script; the scanner requires the flag. Never at her: the adjective goes on the garment. Viewers push back ("Waiting for the day when being old isn't an insult", 390 likes).
 11. **Her feelings, lightly:** "frumpy" where the title has it; "invisible" sparingly; "losing her spark" as a picture, rarely. The over-70 lean: comfort, feet and balance, a stylist who can't cut fine hair, clothes that close easily.
@@ -153,6 +154,7 @@ Point first, always: each item opens on its point, then explains. The count line
 | **Body-shape fixes** | Line, proportion and silhouette for a body part; never weight. Opens on reassurance. | M17, M23, M24 |
 | **The rules she never breaks** | The woman who gets it right, or the French rules (Diane): each rule a practice and a swap. | M28, F05, F06 |
 | **The why explainer** | "Why your haircut never looks right": the hidden cause, then the fixes. | M01, M09, M19 |
+| **One mistake, then N swaps** | "The Jeans Mistake … and the 3 Pairs That …": the one mistake explained in one or two units (its parts and the dated tells around it), done by about a third of the way in, then each swap a full item of about 300 to 450 words, signposted "Pair one." / "Pair two." (or the title's noun). The book CTA comes after the mistake. | M19, M26, M04 (the mistake), M14 (the swaps) |
 
 A gray-hair journey or a makeover needs a real body or a real client, so it isn't a type for a persona; its topic runs as a best-N list or an explainer. **A title that fits none:** use the closest type's shape and log it as "new type" in the rotation log.
 
@@ -168,13 +170,13 @@ Real lists run six or seven items of about 240 words, uneven: one item often car
 
 **Vary the item endings** (operator, 2026-10-29): not the check, the result and a bridge every time. End some items on the result, some on a question to her, some on the permission line, some on the bridge.
 
-**Item length depends on the count** (operator, 2026-10-29, after the tests): **about 180 to 300 words an item in lists of six or more; about 300 to 450 in lists of five or fewer,** since five short items can't reach 12 minutes. Longer when an item carries the video. No more than two items in a row without a bridge. In "never these" lists, every "never" is paid by its swap in the same item.
+**Item length depends on the count** (operator, 2026-10-29, after the tests): **about 180 to 300 words an item in lists of six or more; about 300 to 450 in lists of five or fewer,** since five short items can't reach 12 minutes. In "one mistake, then N swaps" the count is the title's swaps (three pairs: 300 to 450 each); the mistake's units run about 250 to 400. Longer when an item carries the video. No more than two items in a row without a bridge. In "never these" lists, every "never" is paid by its swap in the same item.
 
 ## Using the models: never a copy
 
 The models show how winning videos are built. A script borrows their structure, never their wording, and never one model's structure whole.
 
-1. **Name the models and the differences.** The plan names the model or models used and at least three things done differently: the opening order, the number or order of items, the item shape, the turn, or the comment question.
+1. **Name the models, what they lent and the differences.** The plan and the audit's Originality line name each model used, one thing it lent (the opening order, the item pacing, a device) and at least three things done differently: the opening order, the number or order of items, the item shape, the turn, or the comment question. Each claim must be checkable in the script (iter-08: an audit said the script avoided a model's forward lines it used).
 2. **No repeats.** The same model is never used twice in the channel's last five scripts (the rotation log's `model` field).
 3. **Blending is encouraged:** the opening of one model and the item pacing of another.
 4. **Planning only.** Model files are read at the planning step, never kept open while writing.
@@ -191,7 +193,8 @@ The copy guard still flags any run of 8 or more words shared with a model file.
   1. an aside signal, rotated
   2. tied to the help just given
   3. the book by its spoken title (from the profile), with one true fact from the profile, and the chapter that covers today's topic when the book match finds one
-  4. one benefit in plain words
+  4. one benefit in plain words, from the profile's benefit angles
+- **The book's fact and benefit rotate** (iter-08: the jeans plug reused the necklace script's benefit, and two Diane scripts said the same sentence): never the same true fact or the same benefit angle as any script in the rotation log's `book` field. Name the Way or Secret that matches today's topic where the book match finds one; it changes with every topic. The rotation log's `book` field records the fact and the angle used.
   5. where to get it: the link in the description and the QR code on screen, in one short sentence
   6. a return line into the next item
 - **Never:** a price, "free", a discount, "nothing about it expires" or any no-rush close, a "I gathered these for you" provenance formula, a long QR walkthrough, the same pitch twice in one video.
@@ -221,7 +224,7 @@ No sign-off, no recap, no tease of a future video, and nothing after the comment
 
 ## Voice
 
-- **"You" for the fixes, "I" for opinions:** "you" and "your" together about 45 per 1,000 words; "I" as opinion only (rule 12 in "Emotion").
+- **"You" for the fixes, "I" for opinions:** "you" and "your" together about 45 per 1,000 words (the scanner's YOU line counts them and marks a rate under 35); "I" as opinion only (rule 12 in "Emotion"). A low count usually means whole passages talk about the garment in the third person: put her in the why ("your hip", "your mirror"), not only in the fix.
 - **Plain over clever.** No poster lines, no three-word wraps ("simple, warm, and impossible to argue with"), no Wise Narrator ("Chic was never the receipt").
 - **Candor, warmth, no jokes, no swearing.** Blunt about garments, warm about the woman.
 - **Brands named** where the brief names them, as benchmarks or examples (real presenters name brands in 13 of 21; ours 1 of 38). **Opinions against a brand are allowed** (operator, 2026-10-29: "we can have opinions against brands"), said as hers ("I'd skip those for anything but the garden"), never as a fact the brief doesn't support.
@@ -292,6 +295,8 @@ min-minutes: 12
 first-item-seconds: 45
 item-words: 150-480
 example-guard: 5
+ordinal-signposts: pair, part, cut, rule, secret, mistake, way, piece, swap, look, color, colour, knot, shade
+you-floor: 35
 title-words: instant, young, older, age, weight, expensive, rich, elegan, classy, polished, frump, dated, outdated, slimmer, thinner, taller, shorter, ten years, twenty years | the title's promise words
 ban-regex: \btoday,? (?:we'?re|we are|I'?m|I am) going to\b | opening: "today we're going to"
 ban-regex: \bI(?:'m| am) here (?:for|to help) (?:every )?wom[ae]n\b|\bI show women over\b|\bthis is (?:for|where) (?:every )?women over\b | channel intro
@@ -312,6 +317,7 @@ ban-regex: \bfrom across (?:the|a) room\b | house vocabulary: from across the ro
 ban-regex: \bgallery\b|\bbook club\b|\bwhenever (?:it )?suits you\b | house vocabulary
 ban-regex: \bVivienne Morgan\b|\bVivian Sinclair\b | a competitor persona's name
 ban-regex: \bwhich (?:one|of (?:the|these|them)\b[^.!?]{0,30})[^.!?]{0,40}\b(?:first|tonight)\b | the old "which one first" comment ask (ask about her instead)
+ban-regex: \bnone of (?:these|the|my|those) (?:\w+ )?(?:rules|fixes|changes|tips) (?:asks?|wants?|needs?|requires?) you to lose weight\b | the pack's old example line, copied in iter-08 (say the permission in fresh words)
 once-regex: \bquietly\b | quietly
 once-regex: (?:^|(?<=[.!?]\s))(?:Picture|Imagine)\b | a "Picture..." or "Imagine..." opener
 once-regex: \bfor generations\b | for generations
@@ -329,7 +335,7 @@ require-if: \bold lad(?:y|ies)\b|\bgrann(?:y|ies)\b|\bgrandma\b => \bharsh but t
 
 Check that:
 - the hook carries one model's hook format from `references/hooks.md`, move by move in its order, no longer than the model's and never over about 110 words, aimed at the title's feeling, with a hook model not used in the channel's last five scripts
-- the point and the title's promise word come in the first sentence or two; each title word is said at least twice, once in the first minute; item one starts by about 45 seconds, after two or three moves at most
+- the point and the title's promise word come in the first sentence or two; each title word is said at least twice, once in the first minute, and comes back at least once in the second half of the body (the TITLE SPREAD line); item one starts by about 45 seconds, after two or three moves at most; every item opens on a signpost the scanner reads
 - there's no intro, greeting, age slogan, tease, held item, recap, sign-off or subscribe ask; the age is said only where the title says it
 - every item explains why; about one item in four names a feeling in one plain sentence; the blame moves off her once, in fresh words; permission is in plain, specific words; the check is given plainly, never announced; item endings vary; items run about 180-300 words (six or more items) or 300-450 (five or fewer)
 - "but" about five or more per 1,000 words, "you" and "your" about 45, four to eight questions, "I" as opinion only (about 10 per 1,000 words, reported)
@@ -340,6 +346,7 @@ Check that:
 - no "I tried, wore or bought", no clients, no pointing, no "studies show", no age or face as proof
 - the safety defaults appear where the topic touches them, unless the brief says otherwise
 - the French claims follow the profile's lens (Diane)
+- the book's true fact and benefit differ from every script in the rotation log's `book` field
 - the book CTA comes once, after the first real payoff, in the six-part shape and 60 to 90 words, and once more as a one-line reminder; the video ends on the comment ask about her, with nothing after it
 - the plan names its models with at least three differences, and no model was used in the channel's last five scripts
 - the script runs at least 12 minutes (12 to 16 is the aim), with nothing padded

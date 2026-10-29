@@ -7,7 +7,7 @@ Built 2026-10-29 from `core/persona-profile-template.md` on the operator's decis
 ```
 PERSONA PROFILE
 Channel: Scarlett Starling
-Status: pending (until the operator's listen to the voice samples, the book's contents for the book match, and a test run)
+Status: ready (2026-10-29: two test rounds, iter-07 and iter-08, every run "fix, then pass"; the books indexed; the voice samples settled, the operator: "s7 is up to you")
 Niche pack: style-scripts
 
 THE BASICS
@@ -33,7 +33,7 @@ Swearing: off
 Enemy: optional and gentle, only where the title carries one: the advice she was handed years ago, fast fashion and the trend cycle, the counter's upsell, clothes cut for a younger body. Never the salon or the stylist (operator, 2026-10-29: "salon is not the enemy"), never other women, the viewer or her daughter.
 
 VOICE SAMPLES
-none (use the style pack's; provisional until the operator's listen: Tracy Campoli or Melissa Murrell)
+none of her own (use the style pack's: sample 1, Tracy Campoli, first; sample 2, Melissa Murrell, for hair items; settled 2026-10-29, the operator: "s7 is up to you")
 
 CTA SETUP
 Mid-video CTA: yes
@@ -45,6 +45,13 @@ Offer:
   Book text: `personas/books/scarlett-starling-book.md` (an index from the OCR of the operator's PDF, 2026-10-29: the 28 chapters with their pages, all 300 Ways with their pages, the facts a CTA may state, and the book's stories that never go in a script). The book match names the Way or chapter that covers today's topic.
   True facts (contents, counts, chapters; the only facts a CTA may use): 300 numbered Ways (confirmed from the text, 2026-10-29); more than a thousand pages; 28 chapters, named by title only (never by number); every Way gives the swap, a styling tip, a body or skin note and the payoff, and most open on the mistake and why it works; three frameworks (the Fit-First Rule, the Quiet Luxury Palette, the Fabric Touch Test); a chapter of ten no-cost quick wins (Ways 251 to 260); the First-Week Fast Track (Ways 1, 53, 195, 261 and 290). Never a price, a discount or "free"; never "anti-aging" or "look younger". Glasses, thinning hair and apple shapes have no chapter of their own: tie in through the nearest Way (the book index lists them), never claim a dedicated chapter. The book's friend "Claire", its niece and daughter, and its "French Woman" archetype never go in a script. (The book index; Notion, "FASHION - Scarlett Sterling".)
   The added-value promise: three hundred small moves, each with the mistake, the swap and the payoff, to open at whatever the day brings
+  Benefit angles (rotate: never the angle or fact of any script in the rotation log's book field; iter-08, operator 2026-10-29):
+    1. today's Way, by the book match: its mistake, its swap and its payoff for this exact topic
+    2. the Fit-First Rule: a well-fitted basic outdoes a poorly fitted designer piece
+    3. the Quiet Luxury Palette: a short list of four to six colors that work together
+    4. the Fabric Touch Test: telling by feel, at the rack, which fabrics look expensive
+    5. the chapter of ten no-cost quick wins, made with what is already in the closet
+    6. the First-Week Fast Track: five Ways to start with this week
   Where to get it: the link in the description and the QR code on screen
 Style and length: mid-video, once: about 60 to 90 words, after the first real payoff (roughly a quarter to a third of the way in), at the end of an item's result, in the style pack's six-part shape (an aside, tied to the help just given, the book by its spoken title with one true fact, one benefit, the link and the QR code in one short sentence, a return line). End: one line reminding of the book, then the comment ask. No subscribe ask (operator, 2026-10-29: "no sub cta. just ebook"). Never "I gathered" or "I collected" provenance lines, never a no-rush close, never a long QR walkthrough. The profile's wording is under the copy guard: say it fresh each time.
 Variants: none
@@ -69,6 +76,7 @@ Audience: American women over 60, mostly 65 to 75, practical, proud of how they'
 book: Three Hundred Budget-Friendly Ways to Look Expensive
 allow: Three Hundred Budget-Friendly Ways to Look Expensive | the book's spoken title, which the CTA must say (iter-07: the copy guard flagged it)
 tenure: none
+book-facts: 300, 1000, 28, 251, 260 | the book's distinctive counts (Ways, pages, chapters, the quick-win Ways); small counts stay unlisted so the numbers check stays strict
 ban: e-book | say "book", never "e-book"
 ban: ebook | say "book", never "e-book"
 ban-regex: \bScarlett?\b|\bSt[ae]rling\b(?!\s+silver) | the channel's name (never said in a script; "sterling silver" stays allowed)
