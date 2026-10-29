@@ -25,6 +25,7 @@ A style video for a woman over 50 takes one worry about how she looks (older tha
 |---|---|
 | `references/unit-plan-template.md` | The plan to fill in from the title and brief before any prose. |
 | `references/voice-samples.md` | Real women's narration from the winners: the voice anchor for every script (core `voice-anchoring.md`). **Provisional** until the operator's listen. |
+| `references/hooks.md` | The hook bank: every model's hook up to item one, broken into its moves, with its length, the seconds to item one and the feeling it aims at, by video type. Every script's hook carries one of these formats (see "The opening"). |
 | `references/excerpts.md` | Real lines grouped by job (the opening, the turn, the why, the feeling line, permission, the flagged hard word, comment asks). Shape and range, never wording. |
 | `references/models/INDEX.md` | The model library by video type: 30 real presenters (M files: structure, voice and emotion) and 7 faceless or AI videos (F files: structure only). |
 | `references/models/M01-...md` to `F08-...md` | One file per model: a beat map, emotion voicing, the full labelled script, why it works, lines worth studying and what doesn't transfer. Read at the planning step only. |
@@ -42,7 +43,7 @@ The core base rules apply wherever this pack is silent. These are the places it 
 | `workflow.md` §2, the default inputs | The `inputs` block below: the title, the brief and the rotation log. The research pack is `not used`, so the brief is the fact source everywhere the core says "the fact source". | 2026-10-29 |
 | `cta-and-endings.md` §4, `workflow.md` §4 (the closing line), `retention-mechanics.md` §14, `greenlight-audit.md` F3 and `variety-rotation.md` slot 9 | The ending is the one-line book reminder, then the comment ask about her, which ends the script. No sign-off. In the output's FORMAT CHECK, the closing field reads `[comment line, last line of the script]`; F3 checks this ending; rotation slot 9 rotates the comment question. | Operator, 2026-10-29: "no sign offs" (as plumbing, P5) |
 | `workflow.md` §3, the 8-minute minimum; `greenlight-audit.md` F2 and the evidence block's Length line | At least 12 minutes at the profile's words per minute; the evidence block reads `(minimum 12)`. See "Length". | 2026-10-29 |
-| `variety-rotation.md`, the rotation log line | Four more fields at the end of the line: `\| model: [file numbers] \| type: [video type] \| opening: [device] \| comment: "[the comment question]"`. | 2026-10-29 |
+| `variety-rotation.md`, the rotation log line | Four more fields at the end of the line: `\| model: [file numbers] \| type: [video type] \| hook: [the hook model's file number] \| comment: "[the comment question]"`. | 2026-10-29 |
 | `workflow.md` §3 step 4 and `greenlight-audit.md` D3, the `--refs` files | The copy guard runs against this file, `references/excerpts.md`, `references/voice-samples.md` and every file in `references/models/`, plus the persona profile. | 2026-10-29 (as plumbing) |
 | `cta-and-endings.md` §2, the mid-video CTA "after the first item or two" | Once, after the first real payoff, roughly a quarter to a third of the way in, at the end of an item's result, in the shape in "CTAs". The only CTA is the book: no subscribe ask. | Operator, 2026-10-29: "no sub cta. just ebook" |
 | `research-and-sourcing.md` §6, "each number said alongside whoever counted it" | Sources don't have to be said (see "Proof"). | 2026-10-29 |
@@ -94,19 +95,20 @@ She is older than the titles say. Of 149 viewers who gave an age in the study's 
 - **Never the salon or the stylist** (operator, 2026-10-29: "salon is not the enemy"), not even in tone. When a title names salons ("Cuts Hairdressers Won't Suggest"), pay its promise as practical advice: what to ask for, the words to use in the chair, what to check before the scissors come out. On hair titles, the viewer's real pain is a stylist who didn't listen (12 of 15 hair videos' comments); the fix is how to be heard, never blame.
 - **Never** younger women or other women, the viewer, "the fashion industry doesn't want you to know", or any company's motive. Two facts side by side, never joined by "so" or "because" into a motive (as plumbing).
 
-## The opening
+## The opening (the hook): a model's format, applied
 
-Real hooks run about 90 words, with item one at about 45 seconds; they make two moves, not five, and say an age in 3 of 21 (ours said one in 38 of 38). In order:
+**The hook gets extra care** (operator, 2026-10-29: "the hooks should be very much format carried from our reference and just applied. not long, clear to the point and triggering the right emotions"). The hook is not invented. It is **one real model's hook format, carried over move by move and applied to this title.**
 
-1. **The point, and the title's promise word, in the first sentence or two,** in the title's own words: "younger", "expensive", "instantly", the count. The scanner checks each title word is said at least twice, once in the first minute (`title-words`).
-2. **A question,** when it fits, about her own mirror or closet.
-3. **Reassurance or scope in one line** where the title needs it. Body-shape titles open on it: nothing is wrong with her figure; the clothes are doing the wrong job.
-4. **The count line** (a list): the whole list in one line, never what one item holds.
-5. **Item one** by about 45 seconds. At most two or three moves before it.
+1. **Pick the hook model.** From `references/hooks.md`, take one hook from a model of the same video type (or the closest type), from an M file where one fits; an F file's hook lends its moves only. Never the same hook model as any of the channel's last five scripts (the rotation log's `hook` field). The unit plan names it.
+2. **Carry its moves, in its order.** Each hook in `hooks.md` is broken into its moves (for example: the feared look named, the cause, the promise with the count, item one). Write the same moves, in the same order, with this title's content and fresh words. Don't add moves; drop one only when the title has nothing for it.
+3. **Keep its length, or shorter.** Never longer than the model's hook, and never over about 110 words. Item one starts by about 45 seconds (real hooks: about 90 words, item one at about 0:45; ours took 1:39).
+4. **Clear and to the point.** One idea a sentence, plain words, no scene-setting. The first sentence or two carry the title's subject and its promise word in the title's own words ("younger", "expensive", "instantly", the count); the scanner checks each title word is said twice, once in the first minute (`title-words`).
+5. **Aim it at the title's feeling.** Name the worry the title implies, in her words, early, then the promise. **Hair:** the fear of the change, or the cut that never looks right and the stylist who didn't listen. **Fashion:** looking older or frumpier than she feels, the body changing, clothes not made for her. Then the relief: it's fixable, and here is how many fixes. Plain and specific, never a slogan, never shame.
+6. **What a hook may hold,** only as its model's moves: the feared look named; a question about her own mirror or closet; one line of reassurance or scope (body-shape titles open on it: nothing is wrong with her figure, the clothes are doing the wrong job); the one credential line, where the model's hook has an authority move; the count line (the whole list in one line, never what one item holds). The villain only if the title carries one (see "The villain"). The age only where the title says it.
 
-The villain line comes in only if the title carries one (see "The villain"). The age is said where the title says it, never as a refrain.
+**Never in the hook:** a name or channel intro ("this channel is for women over 60"), an age slogan, a tease or held item, a "Picture…" or "Imagine…" scene (ours opened on one in 36 of 38; winners 15 of 42), a task before item one ("go and get your favorite pair"), a recap of what's coming, a second promise, or anything the model's hook didn't do.
 
-**Never in the opening:** a name or channel intro ("this channel is for women over 60"), an age slogan, a tease or held item, a "Picture…" or "Imagine…" scene as the default opener (ours used one in 36 of 38; winners 15 of 42), a task before item one ("go and get your favorite pair"), a recap of what's coming.
+**The audit's Hook line** names the hook model and its moves beside ours, with both word counts.
 
 ## Emotion, all the way through
 
@@ -320,6 +322,7 @@ require-if: \bold lad(?:y|ies)\b|\bgrann(?:y|ies)\b|\bgrandma\b => \bharsh but t
 ## Before handing over
 
 Check that:
+- the hook carries one model's hook format from `references/hooks.md`, move by move in its order, no longer than the model's and never over about 110 words, aimed at the title's feeling, with a hook model not used in the channel's last five scripts
 - the point and the title's promise word come in the first sentence or two; each title word is said at least twice, once in the first minute; item one starts by about 45 seconds, after two or three moves at most
 - there's no intro, greeting, age slogan, tease, held item, recap, sign-off or subscribe ask; the age is said only where the title says it
 - every item explains why; about one item in four names a feeling in one plain sentence; the blame moves off her once, in fresh words; permission is in plain, specific words; the item ends on the result

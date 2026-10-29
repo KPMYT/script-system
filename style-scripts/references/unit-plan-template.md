@@ -15,14 +15,15 @@ MODELS                             [from references/models/INDEX.md; none used i
 - model(s) used:                   [file numbers; M = structure, voice, emotion; F = structure only; blending is encouraged]
 - at least three differences:      [opening order / number or order of items / item shape / the turn / comment question]
 
-OPENING                            [two or three moves, item one by about 45 seconds]
-- the point and the promise word:  [first sentence or two, in the title's own words]
-- question (optional):             [about her own mirror or closet]
-- reassurance or scope (optional): [body-shape titles open on it]
-- villain line:                    [none / only if the title carries one: a habit or a default; never the salon or the stylist]
-- count line:                      [the whole list in one line; never what one item holds]
-- the age:                         [only where the title says it]
-- credential:                      [not used / the profile's one line, where it does a job]
+HOOK                               [one model's hook format, applied: references/hooks.md; never longer than the model's, never over about 110 words]
+- hook model:                      [file number; same or closest video type; not in the channel's last five scripts]
+- its moves, in order:             [copied from hooks.md, e.g. feared look -> cause -> count line -> item one]
+- our moves, in the same order:    [this title's content for each move; a dropped move says why]
+- the feeling it aims at:          [hair: the fear of the change / the cut that never looks right; fashion: older or frumpier than she feels, the body, clothes not made for her]
+- the title's promise words:       [said in the first sentence or two, in the title's own words]
+- words: model's / ours:           [ours no more]
+- item one at:                     [seconds; by about 45]
+- villain, age, credential:        [only if the title or the model's moves carry them]
 
 ITEMS                              [one line each: the look -> why -> the turn -> the swap -> the check -> the result; about 180-300 words]
 - [item] -> look: ... | why: ... | turn: ... | swap: ... | check: ... | result: ... | feeling line? | safety line? | bridge into the next item
@@ -55,7 +56,7 @@ LENGTH ESTIMATE
 
 VARIATION CHECK                    [against the rotation log]
 - models (not in the last five):
-- video type and opening device:
+- video type and hook model (not in the last five):
 - stock phrases planned (each once):
 - comment question:
 ```
