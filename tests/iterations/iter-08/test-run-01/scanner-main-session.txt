@@ -1,0 +1,33 @@
+TEST: the scanner, run by the main session on script.txt with every copy-guard file and the locked title
+
+SCAN: /home/user/script-system/tests/iterations/iter-08/test-run-01/script.txt
+  copy guard: 8+ words in a row shared with style-scripts/SKILL.md, style-scripts/references/excerpts.md, style-scripts/references/voice-samples.md, style-scripts/references/models/F01-vivian-sinclair-glasses-look-younger.md, style-scripts/references/models/F02-vivian-sinclair-earrings-after-60.md, style-scripts/references/models/F03-golden-melanin-lifestyle-shoe-mistakes-over-50.md, style-scripts/references/models/F04-anniepicks-colour-combinations-expensive.md, style-scripts/references/models/F05-french-fashion-10-winter-clothes-french-way.md, style-scripts/references/models/F06-emiko-sato-japanese-hygiene-rules-after-40.md, style-scripts/references/models/F08-ever-chic-at-50-blouse-mistakes-over-60.md, style-scripts/references/models/INDEX.md, style-scripts/references/models/M01-summer-beauty-haircut-never-looks-right.md, style-scripts/references/models/M02-woman-in-midlife-stopped-dyeing-at-49.md, style-scripts/references/models/M03-karen-of-curl-house-pre-poo-gray-natural-hair.md, style-scripts/references/models/M04-chery-fine-hair-look-older.md, style-scripts/references/models/M05-boys-and-girls-hairstyles-radona-over-70-haircut-from-idaho.md, style-scripts/references/models/M06-justin-hickox-look-10-years-younger.md, style-scripts/references/models/M07-glam-girl-gabi-best-bangs-face-shape.md, style-scripts/references/models/M08-justin-hickox-thin-fine-hair-5-secrets.md, style-scripts/references/models/M09-summer-beauty-styling-wrong-face-head-shape.md, style-scripts/references/models/M10-justin-hickox-double-chin-never-wear.md, style-scripts/references/models/M11-woman-in-midlife-colored-gray-after-18-months.md, style-scripts/references/models/M12-justin-hickox-bob-haircut-5-secrets.md, style-scripts/references/models/M13-adore-your-wardrobe-ditch-the-shorts.md, style-scripts/references/models/M14-tracy-campoli-over-40-capsule-look-expensive.md, style-scripts/references/models/M15-tracy-campoli-7-items-frumpy-after-50.md, style-scripts/references/models/M16-angela-masson-frumpy-style-rut-10-changes.md, style-scripts/references/models/M17-darlene-obiyan-stop-dressing-frumpy-curvy.md, style-scripts/references/models/M18-capsule-closet-stylist-10-mistakes-years-older.md, style-scripts/references/models/M19-beth-djalali-why-linen-looks-frumpy.md, style-scripts/references/models/M20-mm-personal-styling-10-mistakes-look-older.md, style-scripts/references/models/M21-marie-anne-lecoeur-7-things-scream-old-lady.md, style-scripts/references/models/M22-marie-anne-lecoeur-how-not-to-wear-summer-dresses.md, style-scripts/references/models/M23-marie-anne-lecoeur-how-to-look-slimmer.md, style-scripts/references/models/M24-diana-goss-6-mistakes-look-shorter.md, style-scripts/references/models/M25-marnie-goldberg-not-look-frumpy-older.md, style-scripts/references/models/M26-diana-goss-style-mistakes-look-older.md, style-scripts/references/models/M27-diana-goss-colour-hacks-look-younger.md, style-scripts/references/models/M28-aliceinparis-things-french-women-never-buy.md, style-scripts/references/models/M29-style-with-serena-outdated-fall-shoes.md, style-scripts/references/models/M30-kay-harms-how-to-tie-a-scarf-winter.md, personas/scarlett-starling.md
+  persona facts: names [], book ['Three Hundred Budget-Friendly Ways to Look Expensive'], tenure none
+  spoken words: 2255 (about 13.3 minutes at 169 words a minute; minimum 12)
+  ITEMS: no spoken signposts found ("Number one.", "Step one." ...)
+  SENTENCES: 157 | mean 14.4 words | 6 or fewer 13.4% | over 25: 5 | longest 31 | over 35: 0
+  TITLE WORDS: older 4 (first at about 4 s); ten years 2 (first at about 13 s)
+
+FIX ON SIGHT (0)
+
+JUDGE WITH THE SHAPE TEST (0)
+
+"MOST ..." OPENERS: 1 (allowed: 1)
+REFRAME FLOOR (H21): 0 machine-caught (allowed: 1; the audit's count may never be lower)
+FILLER PHRASES OVER THE LIMIT (H23): 0
+ECHO (H18): 0
+
+NUMBERS NOT FOUND IN THE FACT SOURCE (3)  (invented, or derived: confirm the math)
+  4  <<  The mistake comes in four parts, and the first part is the wash.
+  4  <<  Put the four together and you have the outfit in that mirror.
+  4  <<  A navy and cream stripe is my favorite of the four, because it carries the cream up to your face and ties the 
+
+==== tools/verify_output.py ====
+VERIFY: /home/user/script-system/tests/iterations/iter-08/test-run-01/output.md
+  curly quotes in the script: 0 | evidence says mechanical 0
+  spoken words: 2255 (about 13.3 minutes at 169; minimum 12)
+  ITEMS: no spoken signposts found ("Number one.", "Step one." ...)
+  SENTENCES: 157 | mean 14.4 words | 6 or fewer 13.4% | over 25: 5 | longest 31 | over 35: 0
+  quoted script lines in the evidence: 32 | not found in the script: 0
+
+DISCREPANCIES (0)
