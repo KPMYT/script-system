@@ -2,6 +2,8 @@
 
 Written 2026-10-28 by the session 13 chat (branch `claude/youthful-ritchie-zq7e92`), for the next step the operator set: "the pack diagnosis draft for the hair and fashion packs and the two persona profiles". Since then the operator decided hair and fashion are **one pack for now** (HANDOFF §3, session 13). **Nothing in any skill, pack or profile has changed.** This is the plan; every change goes to the operator first.
 
+**The operator's answers (2026-10-29), recorded in `HANDOFF.md` §3 (session 13, the diagnosis):** 1 yes (`style-scripts`); 2 yes (Talking Head); 3 yes (one numberless line); 4 yes (one heritage line, "raised in Paris"); 5 yes (no age, no "one of us"); 6 **no sign-offs** (the script ends on the comment ask); 7 yes; 8 yes (the book texts still to paste); 9 **no subscribe CTA, just the e-book**; 10-12 yes; 13 yes, "unless brief says otherwise" (the brief wins over the defaults); 14 **"we can have opinions against brands"**; 15-17 yes; 18 yes, "make it tts friendly". Later the same day: 21 "salon is not the enemy" (no salon or stylist villain, even in tone); 22 "we dont need ideation yet". Not answered yet: 19 (voice samples), 20 (personal details); "scarlet" (unplaced, asked).
+
 **What was read:**
 - the core (`core/`, the scanner included), `tools/build_skills.py`, `tests/run_checks.py`, `HANDOFF.md` §3, `PROPOSALS.md`
 - the plumbing pack (the structure every pack starts from), and how the HVAC and electrical packs adapted it

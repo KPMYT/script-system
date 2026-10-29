@@ -891,6 +891,34 @@ check("46b. plumbing hook: the escalation line is an option, not a rule, rotated
       and "apart from the count line or the escalation line" in pk
       and "NOT PLUMBING" in r21 and "## Beat map" not in r21 and "## Script" not in r21 and "R21-nailed-it-drywall-repair-beginners.md" in idx, "")
 
+# ---- P19 (operator 2026-10-29): core scanner changes for style ----
+# 73. the title-word check: a pack's title-words in the locked title must be said twice, once in the first minute; title digits match spoken words
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("```scanner\ntitle-words: instant, young, ten years | promise words\n```\nWords per minute: 170\n"); tw=t.name
+TT="3 Haircuts That INSTANTLY Make You Look 10 Years YOUNGER"
+tw_bad=run_scan("These cuts make you look instantly younger.\n\nNumber one. Keep the length.\n",[tw],title=TT)
+tw_good=run_scan("These cuts make you look instantly younger, ten years younger.\n\nNumber one. Keep the length. Instantly lighter, ten years off.\n",[tw],title=TT)
+tw_none=run_scan("These cuts are lovely.\n",[tw],title="3 Haircuts for Fine Hair")
+check("73. P19 title words: a title word said once (\"younger\"), or not at all, fails; said twice with one early passes; '10 Years' in the title matches 'ten years'; words not in the title aren't asked for",
+      tw_bad[0]==1 and '[TITLE WORD] "instant"' in tw_bad[1] and '[TITLE WORD] "ten years"' in tw_bad[1] and '[TITLE WORD] "young" is in the title and said 1 time' in tw_bad[1]
+      and tw_good[0]==0 and "TITLE WORDS: instant 2" in tw_good[1] and tw_none[0]==0 and "none of the pack's title-words is in the title" in tw_none[1],
+      tw_bad[1][-600:]+tw_good[1][-400:])
+# 74. the channel intro is a core hard ban (every channel)
+ci=[run_scan(f"Check the hem.\n\n{l}\n")[1] for l in ("I'm Scarlet Sterling and this channel is for women over 60.","I'm Diane, and I'm here for women over 60.")]
+check("74. P19: 'this channel is for' and 'I'm here for women over' are core hard bans",
+      all("[HARD BAN: channel intro: this channel is for]" in x for x in ci) and "channel intro" not in run_scan("This channel of light at the window helps.\n")[1], "")
+# 75. style tenure words: a stylist's or fashion years figure is checked against the profile's tenure; a hair-dye or closet age is not
+with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("```scanner\ntenure: none\n```\n"); tn=t.name
+st_bad=["As a stylist for 30 years, I know this.","After 30 years in fashion, I know this.","In forty years of dressing women, I learned this.","She is a 25-year stylist.","I spent 20 years in the fashion world."]
+st_ok=["Ten years of hair dye can dull the ends.","Your jeans have been in the closet for 20 years.","You've been wearing that cut for thirty years."]
+st_miss=[l for l in st_bad if run_scan(l+"\n",[tn])[0]!=1]; st_false=[l for l in st_ok if "TENURE" in run_scan(l+"\n",[tn])[1].upper().split("FIX ON SIGHT")[1]]
+check("75. P19: style tenure words (stylist, fashion, dressing women, a 25-year stylist) fail with tenure none; hair-dye and closet ages pass",
+      not st_miss and not st_false, f"missed: {st_miss}; false: {st_false}")
+# 76. style signposts: "Rule number one", "Secret number two" and "Knot three" are items; the build script's electrical command block is closed
+sp=run_scan("A short opening line.\n\nRule number one. Keep the length.\n\nSecret number two. Lift the crown.\n\nKnot three. The loop.\n")[1]
+bs=open(f"{ROOT}/tools/build_skills.py").read()
+check("76. P19: 'Rule number one', 'Secret number two', 'Knot three' are read as items 1-3; the electrical scanner command's code block is closed before HVAC's",
+      "ITEMS: 3 | item one at word 4" in sp and "--final\n```\n\nHVAC (the same shape as plumbing" in bs, sp[-400:])
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")

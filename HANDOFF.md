@@ -358,6 +358,25 @@ From the operator's reply to S1-S5 and Q0 (`SESSION-HANDOVER.md`, session 12): "
 - **Age brackets (S4):** one shared emotion set with a light over-70 lean (comfort, mobility, the older client), as `studies/style/comparison/07` suggests.
 - **Production (S5):** "ignore all for now, not your problem". The accents, the disclosure line's "He" and the website link are not this library's work.
 
+### Operator decisions, 2026-10-29, session 13 (the style pack diagnosis)
+
+From the operator's reply to section 9 of `drafts/style-pack-diagnosis-DRAFT.md` ("1 yes 2 yes … 18 yes make it tts friendly").
+- **The pack:** one hair-and-fashion pack, `style-scripts` (makeup later as its own pack). Both channels are **Talking Head**.
+- **Scarlet Starling's credential:** one fixed, numberless line (for example "a lifetime of dressing well"); no age, no years, no career.
+- **Diane de Chambray's origin:** one approved heritage line, fixed, "the way I was raised in Paris" (P14's shape, as Werner's German background); nothing checkable (no arrondissement, date, family, address).
+- **Neither persona says her age, ever, nor speaks as "one of us"** ("so many of us", "women our age").
+- **No sign-offs** ("no sign offs"): the script ends on the comment ask, as plumbing (P5). The old lines ("stay polished and stay sterling", "À bientôt") are banned.
+- **The comment ask is about her** (her age and where she's watching from, a piece she has kept twenty years, the rule she was handed at 50), rotated; no "I read every one".
+- **The book:** once mid-video after the first real payoff (60-90 words) and one line at the end. **No subscribe CTA** ("no sub cta. just ebook"). The operator is to paste both books' contents; *The French Way*'s "101" is unconfirmed until then.
+- **Length:** at least 12 minutes, aim 12-16. **"I"** for opinions only, a guide of about 10 per 1,000 words, reported, never a fail. **Prices** only on budget titles; other brief prices are background.
+- **Safety:** six defaults (dye patch test, heat, thinning hair, falls, no diet plan, glasses), "unless brief says otherwise": *reading recorded:* the brief wins over the defaults, as plumbing's brief does.
+- **Brands:** "we can have opinions against brands". *Reading recorded:* an opinion said as hers ("I'd skip…") is allowed; a false or unsupported fact about a brand is still not (claims policy).
+- **No special dated-facts rule** for trend titles. **Plumbing's named forward promises (P3) don't carry to style.**
+- **The core scanner changes (P19) are approved:** the title-word check, style item signposts, style tenure words, the channel-intro ban in the core list, and the build script's unclosed code block.
+- **French words:** "make it tts friendly": no accents; one or two widely known words a script, spelled for the voice.
+- **The salon is never the enemy** ("salon is not the enemy", question 21): no stylist or salon as a villain, even in tone. *Reading recorded:* when a title names salons ("Cuts Hairdressers Won't Suggest"), the title's promise is paid as practical advice (what to ask for, what to check), never as blame. The other optional villains (the advice she was handed, the shop's default, the trend cycle) stand.
+- **No ideation work yet** ("we dont need ideation yet", question 22): no list of Notion or ideation-skill lines to change for now.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

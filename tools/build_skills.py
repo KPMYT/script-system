@@ -87,6 +87,8 @@ Electrical (copy-guard files: the pack's own SKILL.md, the excerpts, the voice s
 
 ```
 python3 core/script-scanner.py SCRIPT --rules <electrical-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF <electrical-scripts>/references/facts-guide.md --title "LOCKED TITLE" --refs <electrical-scripts>/SKILL.md <electrical-scripts>/references/excerpts.md <electrical-scripts>/references/voice-samples.md <electrical-scripts>/references/models/*.md <channel-persona>/SKILL.md --final
+```
+
 HVAC (the same shape as plumbing, with the HVAC pack's files):
 
 ```

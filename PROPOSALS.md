@@ -208,3 +208,13 @@ The study supports the narrow form of both: a tenure stated the same way every t
 **Proposal:** for style model scripts from real presenters, the floor is an outlier (about 2.5x the channel's normal or more), 5:00 or longer, about 70K views or more, from the last 24 months plus a few big older outliers; nothing before 2022. The faceless floor (300K+) stays, for the faceless section the operator added the same day.
 
 **Status:** decided by the operator on 2026-10-28: asked as Q0 with S1, answered "ok good, your call on the rest". Read as a yes; recorded in HANDOFF §3 (session 13 block).
+
+## P19. Core scanner changes for style (opened and approved 2026-10-29, session 13)
+
+**Decision it touches:** core `script-scanner.py` changes only with the operator's yes; every channel uses the core scanner.
+
+**Evidence** (`studies/style/pack-diagnosis-2026-10-28/library-sweep.md` §3, tested on our 38 style scripts and 63 study transcripts): (1) the scanner reads `--title` only for a years figure, so "instantly" in 14 of our titles and said in none of those videos passes; (2) "I'm Scarlet Sterling and this channel is for women over 60" passes (only the plumbing and electrical blocks ban "this channel is for"); (3) "As a stylist for 30 years", "After 30 years in fashion", "In forty years of dressing…" pass (no style trade words; the same class as P16); (4) "Rule number three", "Secret number five" are not found as item signposts, so the ITEMS line is wrong on most style scripts; (5) in `tools/build_skills.py` the electrical scanner command's code block is never closed, so the HVAC command shows as plain text.
+
+**Proposal:** (1) a pack key `title-words: word, word | N` that fails a script that says a listed title word fewer than N times, or not in its first minute; (2) "this channel is for" and "I'm here for women over" into the core hard-ban list; (3) style trade words in the tenure pattern; (4) "[word] number N" signposts with style item words; (5) close the code block. Each with a check in `tests/run_checks.py`.
+
+**Status:** approved by the operator on 2026-10-29 (diagnosis question 17: "yes"). Applied in session 13 (see `CHANGELOG.md`).

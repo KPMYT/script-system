@@ -34,6 +34,9 @@ Usage:
                    letters-ok: HVAC, AC, MERV
                  and steps that must all be there once a topic comes up (fix on sight when one is missing):
                    require-if: trigger pattern => needed pattern | label
+                 and the title's promise words: any listed word (a prefix: "instant" covers "instantly") that is in
+                 the --title must be said at least twice, the first time within the first minute (fix on sight):
+                   title-words: instant, young, expensive, ten years | the title's promise words
                A profile's "Words per minute ...: N" line sets the runtime estimate (150 if unset).
   --pack       the fact source: the research pack, or the brief where the niche pack doesn't use one.
                Every number in the script is checked against it.
@@ -94,6 +97,8 @@ HARD_BANS = [
     (r"\bstay (?:right )?here with me\b", "tease: stay right here with me"),
     (r"\b(?:do not|don'?t) skip out\b", "tease: don't skip out on me"),
     (r"\bby the end,? you'?ll\b", "tease: by the end, you'll"),
+    # the channel intro (locked: no greeting or channel intro; P19, 2026-10-29)
+    (r"\bthis channel is (?:for|where)\b|\b(?:I'?m|I am) here for (?:every )?wom[ae]n over\b", "channel intro: this channel is for"),
     # pointing at the screen: banned everywhere (operator, 2026-10-20)
     (r"\bright here\b", "pointing: right here"),
     (r"\blook at this\b", "pointing: look at this"),
@@ -238,7 +243,7 @@ def read_rules(paths):
     """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
     facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None, "letters_ok": set(),
-             "item_words": None, "first_item_seconds": None, "sentence_max": None, "examples": [], "require": []}
+             "item_words": None, "first_item_seconds": None, "sentence_max": None, "examples": [], "require": [], "title_words": []}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         w = re.search(r"^Words per minute[^:\n]*:\s*(\d+)", txt, re.M)
@@ -285,6 +290,8 @@ def read_rules(paths):
                     facts["examples"].append((int(pat), p))
                 elif key.strip() == "letters-ok":
                     facts["letters_ok"].update(x.strip() for x in pat.split(",") if x.strip())
+                elif key.strip() == "title-words":
+                    facts["title_words"].extend(x.strip().lower() for x in pat.split(",") if x.strip())
                 elif key.strip() == "require-if" and " => " in pat:
                     trig, _, need = pat.partition(" => ")
                     facts["require"].append((re.compile(trig.strip(), re.I), re.compile(need.strip(), re.I), label))
@@ -478,16 +485,16 @@ def example_check(text, examples, allows=None):
 
 # ---------------------------------------------------------------- persona facts (fix on sight)
 NUM_WORD = r"(?:\d{1,2}|(?:twenty|thirty|forty|fifty|sixty|seventy)(?:[- ](?:one|two|three|four|five|six|seven|eight|nine))?|ten|eleven|twelve|fifteen|five|six|seven|eight|nine)"
-_TRADE = r"(?:experience|trade|trades|plumbing|plumber|pipefitt\w*|pipe ?fitter|tools|bench|shop|job|field|business|woodworking|woodworker|carpentry|craft|career|wrenching|fixing \w+|doing this|in this line|(?:master |journeyman |licensed )?electricians?|electrical(?: work| trade| contracting)?|electric|wiring(?: houses| homes)?|lineman|wireman|hvac|heating|cooling|air conditioning|furnaces?)"
+_TRADE = r"(?:experience|trade|trades|plumbing|plumber|pipefitt\w*|pipe ?fitter|tools|bench|shop|job|field|business|woodworking|woodworker|carpentry|craft|career|wrenching|fixing \w+|doing this|in this line|(?:master |journeyman |licensed )?electricians?|electrical(?: work| trade| contracting)?|electric|wiring(?: houses| homes)?|lineman|wireman|hvac|heating|cooling|air conditioning|furnaces?|(?:hair)?stylists?|styling(?: women| hair)?|hairdress\w*|colou?rists?|fashion(?: world| industry| business)?|dressing(?: women)?|doing hair|cutting hair)"
 TENURE_RX = [
     # "45 years in the trade", "35 years of experience", "40 years as a plumber"
     re.compile(r"(?<![\w-])(" + NUM_WORD + r")[- ]years?\s+(?:(?:of|in|on|at|as|behind|under)\s+)?(?:(?:the|a|an|my)\s+)?" + _TRADE + r"\b", re.I),
     # "been a plumber for over 35 years", "fixing pipe for 30 years", "on the tools for 30 years"
-    re.compile(r"\b(?:been|spent|worked|working|wired|wiring (?:houses|homes)|plumbing|fixing|on the tools|in the trade|doing this|at the bench)\b[^.!?]{0,40}?\bfor (?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
+    re.compile(r"\b(?:been|spent|worked|working|wired|wiring (?:houses|homes)|plumbing|fixing|on the tools|in the trade|doing this|at the bench|a (?:hair)?stylist|a hairdresser|a colou?rist|styling women|dressing women|doing hair|cutting hair)\b[^.!?]{0,40}?\bfor (?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
     # "I've been doing this 40 years", "in the trade 45 years" (no "for"; 2026-10-27)
     re.compile(r"\b(?:doing this|in the trade|on the tools|at the bench)\s+(?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
     # "a 45-year plumber", "45-year veteran", "a 40-year electrician", "a 30-year HVAC tech"
-    re.compile(r"(?<![\w-])(" + NUM_WORD + r")-year\s+(?:(?:hvac|heating|furnace|service|electrical)\s+)?(?:plumber|pipefitter|veteran|master|tradesman|woodworker|carpenter|pro|career|tech|techs|technician|electrician|lineman|journeyman|serviceman|man|guy)\b", re.I),
+    re.compile(r"(?<![\w-])(" + NUM_WORD + r")-year\s+(?:(?:hvac|heating|furnace|service|electrical)\s+)?(?:plumber|pipefitter|veteran|master|tradesman|woodworker|carpenter|pro|career|tech|techs|technician|electrician|lineman|journeyman|serviceman|man|guy|(?:hair)?stylist|hairdresser|colou?rist)\b", re.I),
 ]
 
 def _num(tok):
@@ -614,8 +621,45 @@ def repeated_sentences(paras):
 
 # ---------------------------------------------------------------- items and sentences (report only)
 ORDINALS = "one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty".split()
-SIGNPOST = re.compile(r"(?:^|(?<=[.!?]\s))(?:And |So |Now,? )?(?:[Nn]umber|Step|Mistake|Item|Reason|Sign|Rung|Fix|Check|Tip|Thing) (" + "|".join(ORDINALS) + r"|\d{1,2})\b")
+_SIGN_WORDS = r"(?:Step|Mistake|Item|Reason|Sign|Rung|Fix|Check|Tip|Thing|Rule|Secret|Cut|Colou?r|Shade|Knot|Habit|Trick|Piece|Swap|Way)"
+# "Number one.", "Mistake one.", and (P19, style) "Rule number three.", "Secret number five."
+SIGNPOST = re.compile(r"(?:^|(?<=[.!?]\s))(?:And |So |Now,? )?(?:" + _SIGN_WORDS + r" number |[Nn]umber |" + _SIGN_WORDS + r" )(" + "|".join(ORDINALS) + r"|\d{1,2})\b")
 I_LINE = re.compile(r"\bI(?:'d|'m|'ve|'ll)?\b")
+
+TITLE_WORD_MIN, TITLE_WORD_FIRST_SECONDS = 2, 60   # P19 (operator 2026-10-29, suggestion 2 of the style study)
+_ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+_TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
+
+def _digits_to_words(s):
+    """ "10 YEARS" -> "ten years", so a title's digits match a script written for the voice."""
+    def w(m):
+        n = int(m.group(0))
+        if n < 20: return _ONES[n]
+        if n < 100: return _TENS[n // 10] + ("" if n % 10 == 0 else "-" + _ONES[n % 10])
+        return m.group(0)
+    return re.sub(r"\b\d{1,2}\b", w, s)
+
+def title_words_check(text, title, facts, wpm):
+    """The pack's title-words that the locked title uses: each must be said at least twice, once in the first minute.
+    Returns (report lines, fix-on-sight lines)."""
+    entries = facts.get("title_words") or []
+    if not entries or not title:
+        return [], []
+    t = _digits_to_words(title.lower())
+    spoken = _digits_to_words(" ".join(spoken_paragraphs(text)).lower())
+    rep_parts, fix = [], []
+    for e in entries:
+        rx = re.compile(r"\b" + r"[\s-]+".join(re.escape(x) for x in e.split()) + r"\w*")
+        if not rx.search(t):
+            continue
+        hits = [m.start() for m in rx.finditer(spoken)]
+        first = len(spoken[:hits[0]].split()) / wpm * 60 if hits else None
+        rep_parts.append(f"{e} {len(hits)}" + (f" (first at about {first:.0f} s)" if hits else ""))
+        if len(hits) < TITLE_WORD_MIN:
+            fix.append(f"[TITLE WORD] \"{e}\" is in the title and said {len(hits)} time(s); say it at least {TITLE_WORD_MIN} times, once in the first minute")
+        elif first > TITLE_WORD_FIRST_SECONDS:
+            fix.append(f"[TITLE WORD] \"{e}\" is first said at about {first:.0f} seconds; say it in the first minute")
+    return ([("  TITLE WORDS: " + "; ".join(rep_parts)) if rep_parts else "  TITLE WORDS: none of the pack's title-words is in the title"], fix)
 
 def item_report(text, facts, wpm):
     """Finds the spoken signposts in order ("Number one." ... "Step two."), and returns report lines:
@@ -801,6 +845,10 @@ def main():
     print(f"  spoken words: {words} (about {mins:.1f} minutes at {wpm} words a minute; minimum {minimum})" + ("  << under the minimum" if mins < minimum else ""))
     for line in item_report(text, facts, wpm):
         print(line)
+    tw_lines, tw_fix = title_words_check(text, a.title, facts, wpm)
+    for line in tw_lines:
+        print(line)
+    fix.extend(tw_fix)
     if a.final and mins < minimum:
         fix.append(f"[LENGTH] {words} spoken words = about {mins:.1f} minutes at {wpm} words a minute; the minimum is {minimum}")
     print(f"\nFIX ON SIGHT ({len(fix)})")
