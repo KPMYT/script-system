@@ -961,6 +961,8 @@ check("80. style wiring: channel rows 10 and 11 pending; build entries for style
 SM=f"{STY}/references/models"; mfiles=sorted(f for f in os.listdir(SM) if re.match(r"[MF]\d\d-",f))
 hk=open(f"{STY}/references/hooks.md").read(); ix=open(f"{SM}/INDEX.md").read(); vs=open(f"{STY}/references/voice-samples.md").read()
 tags_ok=all(("[real]" if f.startswith("M") else "[structure only]") in open(f"{SM}/{f}").read().split("## Beat map")[0] for f in mfiles)
+sd=re.search(r"^description: (.*)$",open(STR).read(),re.M).group(1)
+check("81b. the style pack's description fits the skill limit (1,024 characters)", 0<len(sd)<=1024, str(len(sd)))
 check("81. style references: hooks.md, excerpts.md, voice-samples.md (provisional), INDEX.md; 30 [real] M files and 7 [structure only] F files; a hook entry and an INDEX line for every model",
       os.path.exists(f"{STY}/references/excerpts.md") and "PROVISIONAL" in vs
       and sum(f.startswith("M") for f in mfiles)==30 and sum(f.startswith("F") for f in mfiles)==7 and tags_ok
