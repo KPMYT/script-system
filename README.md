@@ -73,6 +73,17 @@ Built 2026-10-27 for Frederick Barnes from the plumbing pack, with electrical's 
 | `references/models/` | 31 model files (E01-E37, no E06; E33-E37 added after review R3; E08, E12, E17, E20, E23 and E38 removed 2026-10-27 to `studies/electrical/models-removed-2026-10-27/`): real channels, 1M+ views, all 2022 on; each a beat map, emotion voicing, why it works, the full labelled script and what doesn't transfer. `INDEX.md` sorts them by video type. |
 | `model-file-spec.md` | How the model files were built. Not in the installed skill. |
 
+## style-scripts/ (the hair-and-fashion niche pack, built 2026-10-29)
+
+Built for Scarlet Starling and Diane de Chambray from the style study (`studies/style/`) and the approved diagnosis (`drafts/style-pack-diagnosis-DRAFT.md`): one pack for hair and fashion for women over 50; makeup is a separate pack later. Both channels are pending (the operator's voice-sample listen, the book texts, a test run).
+
+| File | What's in it |
+|---|---|
+| `SKILL.md` | All style rules: where the pack overrides the core, inputs (title and brief; no research pack), the viewer (median age 70), the villain (optional; never the salon), the opening (the title's promise word early, item one by about 45 seconds), emotion built from this niche (practical fixes for emotional problems, a feeling in about a quarter of items, permission never as a slogan, the why as the relief, the flagged hard word) with hair and fashion notes, point then promise, the eight video types and the item shape, using the models, the book as the only CTA, the ending (the comment ask about her, no sign-off), length (12 minutes minimum, 12 to 16 the aim), voice (French words written for the voice), proof, money (prices only on budget titles), the six safety defaults (the brief wins), the banned list, the scanner block (tested on 105 transcripts; `title-words`) and the checklist. |
+| `references/unit-plan-template.md` | The plan filled in from the title and brief before writing, with MODELS, OPENING, ITEMS, EMOTION, SAFETY and CTA blocks. |
+| `references/models/` | Model files: 30 real presenters (M01-M30: structure, voice and emotion) and 7 faceless or AI videos (F01-F06, F08: structure only), each a beat map, emotion voicing, why it works, the labelled script, lines worth studying and what doesn't transfer; `INDEX.md` by video type. Picks in `studies/style/models/approved-models.csv`. |
+| `model-file-spec.md` | How the model files are built. Not in the installed skill. |
+
 ## ideation/
 
 Copies of the operator's claude.ai ideation skills, brought in to be edited here with the operator's approval. The operator uploads the edited version back to claude.ai.
@@ -111,6 +122,8 @@ One persona profile per channel, written from `core/persona-profile-template.md`
 | `roger-the-hvac-guy.md` | Roger the HVAC Guy's profile (2026-10-27; **ready** after two rounds of tests, `tests/iterations/iter-06/`): Roger the Pipe Guy's profile with only the trade changed (the same man and voice, 45 years), no book for now (a one-line subscribe ask), his filter check on the first of the month, and a ban on the other Roger channel's name. Roger the Pipe Guy's profile carries the matching ban. |
 | `books/roger-the-pipe-guy-book.md`, `books/mark-silverbridge-book.md` | Roger's "100 Old-House Fixes That Save You Thousands" (124 pages, 100 fixes) and Mark's "50 Easy Plumbing Fixes That Will Save You $10,000" (122 pages, 50 fixes), with printed page markers, chapter maps and fix indexes. |
 | `books/werner-finkbeiner-book.md` | An index of Werner's *Werner's 101 Free Repairs* from the operator's paste (2026-10-27): the chapters and every repair with its page and Money Saved, not the full text. |
+| `scarlet-starling.md` | Scarlet Starling's profile (2026-10-29, **pending**; channel row 10): hair and fashion for women over 60, Talking Head, 169 words a minute, no age, years or career, one numberless credential line, the name never spoken, *300 Budget-Friendly Ways to Look Expensive* as the only CTA (once mid-video, a one-line end reminder), no sign-off, and scanner bans on her old intro, sign-off, no-rush close, provenance line and comment ask. |
+| `diane-de-chambray.md` | Diane de Chambray's profile (2026-10-29, **pending**; channel row 11): the French way for women over 60, Talking Head, 172 words a minute, the Sylvie voice, one heritage line ("the way I was raised in Paris"), the French-lens rules (every claim from the brief or the documented staples, hedged; the American fix; no invented customs; French words written for the voice), *The French Way* as the only CTA, no sign-off, and scanner bans on her old intro, sign-offs, unhedged claims and the book's unconfirmed count. |
 
 ## studies/
 

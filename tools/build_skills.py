@@ -54,6 +54,9 @@ The script system is split into separate skills, one per layer. They're all inst
 | the niche pack `hvac-scripts` | the **hvac-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder (with `references/models/`) |
 | the persona profile `personas/roger-the-hvac-guy.md` | the **roger-the-hvac-guy-persona** skill: its `SKILL.md` is the profile (this channel has no book for now) |
 | the persona profile `personas/werner-finkbeiner.md` | the **werner-finkbeiner-persona** skill: its `SKILL.md` is the profile, plus his book index |
+| the niche pack `style-scripts` | the **style-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder (with `references/models/`) |
+| the persona profile `personas/scarlet-starling.md` | the **scarlet-starling-persona** skill: its `SKILL.md` is the profile |
+| the persona profile `personas/diane-de-chambray.md` | the **diane-de-chambray-persona** skill: its `SKILL.md` is the profile |
 | a book text `personas/books/<channel>-book.md` | inside that channel's persona skill, at the same path |
 
 If a skill the chosen channel needs isn't installed, stop with the NOT READY block (`core/workflow.md`, section 5) and name the missing skill.
@@ -93,6 +96,12 @@ HVAC (the same shape as plumbing, with the HVAC pack's files):
 
 ```
 python3 core/script-scanner.py SCRIPT --rules <hvac-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF <hvac-scripts>/references/price-guide.md --title "LOCKED TITLE" --refs <hvac-scripts>/SKILL.md <hvac-scripts>/references/excerpts.md <hvac-scripts>/references/voice-samples.md <hvac-scripts>/references/models/*.md <channel-persona>/SKILL.md --final
+```
+
+Style (hair and fashion; no price guide, so the brief alone is the fact source; the title-words key needs the locked title):
+
+```
+python3 core/script-scanner.py SCRIPT --rules <style-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF --title "LOCKED TITLE" --refs <style-scripts>/SKILL.md <style-scripts>/references/excerpts.md <style-scripts>/references/voice-samples.md <style-scripts>/references/models/*.md <channel-persona>/SKILL.md --final
 ```
 """
 
@@ -175,6 +184,8 @@ PERSONAS = {
     "frederick-barnes": ("Frederick Barnes", "personas/frederick-barnes.md", None),  # no book for now (operator 2026-10-27)
     "roger-the-hvac-guy": ("Roger the HVAC Guy", "personas/roger-the-hvac-guy.md", None),  # no book for now (2026-10-27)
     "werner-finkbeiner": ("Werner Finkbeiner", "personas/werner-finkbeiner.md", "personas/books/werner-finkbeiner-book.md"),  # relaunched 2026-10-27; an index, not the full text
+    "scarlet-starling": ("Scarlet Starling", "personas/scarlet-starling.md", None),  # pending; book text not pasted yet (2026-10-29)
+    "diane-de-chambray": ("Diane de Chambray", "personas/diane-de-chambray.md", None),  # pending; book text not pasted yet (2026-10-29)
 }
 
 # niche packs: folder -> what the installed skill leaves out
@@ -183,6 +194,7 @@ PACKS = {
     "plumbing-scripts": ("archive", "model-file-spec.md"),
     "electrical-scripts": ("model-file-spec.md",),
     "hvac-scripts": ("archive", "model-file-spec.md"),
+    "style-scripts": ("model-file-spec.md",),
 }
 
 def build_script_writer():
