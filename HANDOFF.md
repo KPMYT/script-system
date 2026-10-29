@@ -407,6 +407,11 @@ From the operator's reply to section 9 of `drafts/style-pack-diagnosis-DRAFT.md`
 - **The books:** the operator shared both PDFs (Drive folders, 2026-10-29); they are image-only, so their text is read by OCR for the book match.
 - **After the first style tests (`tests/iterations/iter-07/`, 117, 121 and 116 of 140 against 65-68 for our old scripts):** the operator's answers to the fixes (asked in plain words after "your 1 - 8 are worded confusing"): 1 yes (the book's spoken title allowed in the copy guard; its numbers count as a fact source); 2 yes (the channel gate confirms a reply that clearly means one channel, "[exact name], right?", and gives a reason when it sends the list again: core `workflow.md` §1, every channel); 3 "yes but dont overdo it" ("age" and "weight" added to the title words; a title that clears the viewer is paid as plain permission; never a refrain); 4 yes (item length by count: 300-450 words in lists of five or fewer); 5 **"not necessarilly, we model off winning hooks for now still"** (no added feeling move: hooks stay a winning model's format, applied); 6 yes (Diane's "most" only for broad habits; "plenty of" for a specific piece; "women I know in Paris" banned); 7 yes (checks given plainly, item endings varied, no pronunciation guides in the script, one short face paragraph allowed in whole-look titles). The two tool fixes (verify_output.py's model quotes, CTA blocks out of the item counts) were Claude's own. Scarlett's voice provider is still to come.
 
+### Operator decisions, 2026-10-29, session 15 (the second style test round)
+
+- **Both style voices are ElevenLabs** (S6: "both scarlet and diane are elevenlabs"). Scarlett's profile now says so; her Notion ID is kept as given (it isn't in ElevenLabs' usual format; production checks it).
+- **The second test round runs now** ("good go for a test round then let me know"), on the three titles suggested in chat: Scarlett's jeans title, Diane's French haircuts title and a rerun of Diane's frumpy title (iter-07 run 03). *Reading recorded:* "good" covers the titles; S7 (the voice-sample listen) and S8 (Diane's personality lines) are not answered, so the round runs on the current voice samples and Diane's profile as it stands.
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

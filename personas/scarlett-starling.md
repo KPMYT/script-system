@@ -12,7 +12,7 @@ Niche pack: style-scripts
 
 THE BASICS
 Script type: Talking Head
-Voice provider: as the channel's voiceovers now (Notion: the voice "Scarlett Sterling", ID da2716ca-8bb7-443f-952a-c276a03d0acf, provider not named); production, outside the scripts (operator, 2026-10-28: S5 "not your problem")
+Voice provider: ElevenLabs (operator, 2026-10-29: "both scarlet and diane are elevenlabs"; Notion: the voice "Scarlett Sterling", ID da2716ca-8bb7-443f-952a-c276a03d0acf, which is not in ElevenLabs' usual ID format: production checks it, outside the scripts)
 Words per minute (for runtime and the length minimum): 169 (her 25 published voiceovers, 149 to 184)
 Contractions: yes (about 17 per 1,000 words in her old scripts, voiced with no recorded misreads)
 
