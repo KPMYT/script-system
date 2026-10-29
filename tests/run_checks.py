@@ -920,7 +920,7 @@ check("76. P19: 'Rule number one', 'Secret number two', 'Knot three' are read as
       "ITEMS: 3 | item one at word 4" in sp and "--final\n```\n\nHVAC (the same shape as plumbing" in bs, sp[-400:])
 
 # ---- the style pack and its two channels (operator 2026-10-29: the diagnosis answers) ----
-STY=f"{ROOT}/style-scripts"; STR=f"{STY}/SKILL.md"; SCAR=f"{PERS}/scarlet-starling.md"; DIAN=f"{PERS}/diane-de-chambray.md"
+STY=f"{ROOT}/style-scripts"; STR=f"{STY}/SKILL.md"; SCAR=f"{PERS}/scarlett-starling.md"; DIAN=f"{PERS}/diane-de-chambray.md"
 sk=open(STR).read(); sc_p=open(SCAR).read(); di_p=open(DIAN).read()
 # 77. the style pack's inputs and overrides: title, brief, rotation log, no research pack; no sign-off; the book as the only CTA; 12 minutes; prices only on budget titles; never the salon
 check("77. style pack: inputs (title, brief, rotation log; research pack not used); no sign-offs; the book the only CTA; 12 minutes; prices only on budget titles; never the salon; P3 not carried",
@@ -940,7 +940,7 @@ check("78. style scanner block: a clean paragraph passes on both channels; house
       cs[0][0]==0 and cs[1][0]==0 and not s_pass, f"clean: {cs[0][1][-400:] if cs[0][0] else ''}{cs[1][1][-400:] if cs[1][0] else ''}; passing: {s_pass}")
 # 79. the two profiles: style pack, Talking Head, pending, wpm, tenure none, the book key, no sign-off; the name never spoken; Scarlet's credential and Diane's heritage line once; old lines banned
 sf,df=facts_of(SCAR),facts_of(DIAN)
-pb_s=[l for l in ("I'm Scarlet Starling.","Until next time, stay polished.","I gathered three hundred of them.","Whenever it suits you, it's there.","In forty years of dressing for galas, I learned this.","My daughter loves it.")
+pb_s=[l for l in ("I'm Scarlett Starling.","Until next time, stay polished.","I gathered three hundred of them.","Whenever it suits you, it's there.","In forty years of dressing for galas, I learned this.","My daughter loves it.")
       if run_scan(f"Check the hem.\n\n{l}\n",[STR,SCAR])[0]!=1]
 pb_d=[l for l in ("Diane here.","A bientot.","Every French woman owns a trench.","I grew up in Paris, so I know.","It's in the book's 101 secrets.","How we buy it here is different.")
       if run_scan(f"Check the hem.\n\n{l}\n",[STR,DIAN])[0]!=1]
@@ -953,9 +953,9 @@ check("79. Scarlet's and Diane's profiles: style-scripts, Talking Head, pending,
 # 80. wiring: rows 10 and 11 pending; the build knows the pack and both profiles; the style scanner command; README
 chan=open(f"{CORE}/channels.md").read(); bs=open(f"{ROOT}/tools/build_skills.py").read(); rd=open(f"{ROOT}/README.md").read()
 check("80. style wiring: channel rows 10 and 11 pending; build entries for style-scripts and both personas; the style scanner command; README sections",
-      "| 10 | Scarlet Starling | `style-scripts` | `personas/scarlet-starling.md` | pending |" in chan and "| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | pending |" in chan
-      and '"style-scripts": ("model-file-spec.md",)' in bs and '"scarlet-starling": ("Scarlet Starling"' in bs and '"diane-de-chambray": ("Diane de Chambray"' in bs
-      and "--rules <style-scripts>/SKILL.md" in bs and "## style-scripts/" in rd and "`scarlet-starling.md`" in rd, "")
+      "| 10 | Scarlett Starling | `style-scripts` | `personas/scarlett-starling.md` | pending |" in chan and "| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | pending |" in chan
+      and '"style-scripts": ("model-file-spec.md",)' in bs and '"scarlett-starling": ("Scarlett Starling"' in bs and '"diane-de-chambray": ("Diane de Chambray"' in bs
+      and "--rules <style-scripts>/SKILL.md" in bs and "## style-scripts/" in rd and "`scarlett-starling.md`" in rd, "")
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

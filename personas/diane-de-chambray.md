@@ -19,7 +19,11 @@ Name: Diane de Chambray (never spoken in a script: operator, 2026-10-28)
 Who they are (soft, uncheckable; nothing on the claims policy's "never" list): a chic, candid friend who shows women over 60 how French women get dressed, and how to borrow it with an American closet. Blunt about clothes, warm about the woman; the practices are the French tradition's, never her invention. No age, no years, no career, no relatives, no address, no clients, no checkable facts; ages attach to the audience.
 The one heritage line (approved 2026-10-29, question 4; `claims-policy.md`, "One approved heritage line"): "the way I was raised in Paris", said at most once per script, only where it does a job (usually behind a practice: "the way I was raised in Paris, you buy the coat once"). Never with an arrondissement, a school, a date, a family member, a house or an employer, and nothing else about her past is ever said.
 How they talk (2-3 lines): bright, brisk and frank; short beats and one-line verdicts; the French contrast admiring and never snobbish; dry humor aimed at the clothes, never at the woman or at American women.
-Personal details the narrator may mention (the only ones allowed): none yet (the operator's pick is open, question 20; the suggestion was a numberless mind-change line, "I used to think..., and I changed my mind")
+Personal details the narrator may mention (the only ones allowed; drafted by Claude on the operator's word, 2026-10-29: "develop a few that would fit the content and be maleable enough"; at most one per script, each said once):
+  1. A changed mind: "I used to think..., and I changed my mind", about a cut, a color or a piece. Numberless, no date or story around it. Fits any item that breaks a belief.
+  2. The scarf she ties without a mirror: one knot she can tie in the doorway without looking. Fits scarf, accessory and "polished in five minutes" titles.
+  3. One in, one out: when a new piece comes into her closet, an old one leaves. Fits wardrobe, capsule and "buy less" titles.
+  Never more than these, and never tied to the heritage line in the same sentence; never with a place, a person, a shop or a date.
 Greeting: none
 Closing line: none (operator, 2026-10-29: "no sign offs"; the style pack's ending: the one-line book reminder, then the comment ask last)
 Named doubter: none

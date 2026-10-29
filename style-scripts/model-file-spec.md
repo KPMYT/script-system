@@ -56,7 +56,7 @@ Up to 8 verbatim lines with timestamps, each labelled with its job: hook, the tu
 
 ## Doesn't transfer
 
-Bullets, each quoting the line with its [m:ss]: everything Scarlet Starling and Diane de Chambray (AI talking-head presenters; no age, no years, no career; Diane's one heritage line "raised in Paris"; no relatives, clients or checkable facts; the book as the only CTA; no subscribe ask; no sign-off) can't or mustn't use: try-ons and "as you can see", her own body, face, age or purchases as proof, clients and salon stories, greetings and name intros, teases, recaps, age slogans, salon or stylist blame, prices on titles that aren't about budget, health or diet claims, sponsor reads, discount codes, subscribe asks, sign-offs, and any factual slip you notice (mark your own as "check against the brief"). For F files, also the narrator's invented persona.
+Bullets, each quoting the line with its [m:ss]: everything Scarlett Starling and Diane de Chambray (AI talking-head presenters; no age, no years, no career; Diane's one heritage line "raised in Paris"; no relatives, clients or checkable facts; the book as the only CTA; no subscribe ask; no sign-off) can't or mustn't use: try-ons and "as you can see", her own body, face, age or purchases as proof, clients and salon stories, greetings and name intros, teases, recaps, age slogans, salon or stylist blame, prices on titles that aren't about budget, health or diet claims, sponsor reads, discount codes, subscribe asks, sign-offs, and any factual slip you notice (mark your own as "check against the brief"). For F files, also the narrator's invented persona.
 
 ## The video types (use these names)
 

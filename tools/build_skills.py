@@ -55,7 +55,7 @@ The script system is split into separate skills, one per layer. They're all inst
 | the persona profile `personas/roger-the-hvac-guy.md` | the **roger-the-hvac-guy-persona** skill: its `SKILL.md` is the profile (this channel has no book for now) |
 | the persona profile `personas/werner-finkbeiner.md` | the **werner-finkbeiner-persona** skill: its `SKILL.md` is the profile, plus his book index |
 | the niche pack `style-scripts` | the **style-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder (with `references/models/`) |
-| the persona profile `personas/scarlet-starling.md` | the **scarlet-starling-persona** skill: its `SKILL.md` is the profile |
+| the persona profile `personas/scarlett-starling.md` | the **scarlett-starling-persona** skill: its `SKILL.md` is the profile |
 | the persona profile `personas/diane-de-chambray.md` | the **diane-de-chambray-persona** skill: its `SKILL.md` is the profile |
 | a book text `personas/books/<channel>-book.md` | inside that channel's persona skill, at the same path |
 
@@ -184,7 +184,7 @@ PERSONAS = {
     "frederick-barnes": ("Frederick Barnes", "personas/frederick-barnes.md", None),  # no book for now (operator 2026-10-27)
     "roger-the-hvac-guy": ("Roger the HVAC Guy", "personas/roger-the-hvac-guy.md", None),  # no book for now (2026-10-27)
     "werner-finkbeiner": ("Werner Finkbeiner", "personas/werner-finkbeiner.md", "personas/books/werner-finkbeiner-book.md"),  # relaunched 2026-10-27; an index, not the full text
-    "scarlet-starling": ("Scarlet Starling", "personas/scarlet-starling.md", None),  # pending; book text not pasted yet (2026-10-29)
+    "scarlett-starling": ("Scarlett Starling", "personas/scarlett-starling.md", None),  # pending; book text not pasted yet (2026-10-29)
     "diane-de-chambray": ("Diane de Chambray", "personas/diane-de-chambray.md", None),  # pending; book text not pasted yet (2026-10-29)
 }
 

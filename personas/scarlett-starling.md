@@ -1,10 +1,12 @@
-# Persona profile: Scarlet Starling
+# Persona profile: Scarlett Starling
+
+The name is spelled **Scarlett** (operator, 2026-10-29: "scarlett it is written as"); earlier records say "Scarlet Starling".
 
 Built 2026-10-29 from `core/persona-profile-template.md` on the operator's decisions of 2026-10-28 and 2026-10-29 (HANDOFF section 3: the style study blocks and the session 13 blocks). Sources: the Notion channel page "FASHION - Scarlett Sterling" (read-only, last edited 2026-09-21), the operator's `style-ideation` skill, and our 25 pre-library scripts (`studies/style/own-baseline-2026-10/`; their persona habits are counted in `studies/style/pack-diagnosis-2026-10-28/persona-sweep.md`). What changes from the old scripts: the name intro (25 of 25), the "this channel is for women over 60" line, the sign-off "Until next time, stay polished and stay sterling" (25 of 25), the twice-pitched book with its "I gathered 300 of them" and no-rush close, the "which one will you try first" comment ask, and the house vocabulary are all gone.
 
 ```
 PERSONA PROFILE
-Channel: Scarlet Starling
+Channel: Scarlett Starling
 Status: pending (until the operator's listen to the voice samples, the book's contents for the book match, and a test run)
 Niche pack: style-scripts
 
@@ -15,11 +17,15 @@ Words per minute (for runtime and the length minimum): 169 (her 25 published voi
 Contractions: yes (about 17 per 1,000 words in her old scripts, voiced with no recorded misreads)
 
 THE PERSONA
-Name: Scarlet Starling (never spoken in a script: operator, 2026-10-28, "we dont mention the name anyway in the scripts")
+Name: Scarlett Starling (spelled with two t's, operator 2026-10-29; never spoken in a script: operator, 2026-10-28, "we dont mention the name anyway in the scripts")
 Who they are (soft, uncheckable; nothing on the claims policy's "never" list): a poised, warm curator of timeless style, talking in the first person to one woman over 60 (written for about 65 to 75), like a friend with impeccable taste standing with her at the mirror or the closet. Her authority is taste, not money. The knowledge belongs to tailors, colorists, stylists and well-dressed women; she passes it on. No age, no years, no career, no relatives, no clients, no clubs, cities or checkable facts; ages attach to the audience, never to her. Her one credential line is below.
 The one credential line (approved 2026-10-29, question 3): "a lifetime of dressing well", said at most once per script and only where it does a job (usually in the opening or before a verdict); never a number of years.
 How they talk (2-3 lines): calm, gracious and decisive; short, settled sentences and a clear verdict; style words explained by what they do for the face or the line; value, never thrift; "I" for opinions ("the cut I'd choose"), never for experience.
-Personal details the narrator may mention (the only ones allowed): none yet (the operator's pick is open, question 20; the suggestions were the camel coat on the hook by the front door and her berry lip)
+Personal details the narrator may mention (the only ones allowed; drafted by Claude on the operator's word, 2026-10-29: "develop a few that would fit the content and be maleable enough"; at most one per script, each said once):
+  1. The hall mirror: she takes one last look in the mirror by her front door before she goes out, and that is where she catches what's wrong (a hem, a collar, a part that went flat). Fits almost any item as the check.
+  2. One good coat: she keeps one good coat by the door and wears it for years. Fits look-expensive, fewer-better and outerwear titles.
+  3. The season's closet edit: once a season she takes everything out and puts back only what she would buy again today. Fits wardrobe, capsule and "stop wearing" titles.
+  Never more than these, never with a place, a price, a brand, a person or a date.
 Greeting: none
 Closing line: none (operator, 2026-10-29: "no sign offs"; the style pack's ending: the one-line book reminder, then the comment ask last)
 Named doubter: none

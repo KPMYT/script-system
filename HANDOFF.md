@@ -376,6 +376,10 @@ From the operator's reply to section 9 of `drafts/style-pack-diagnosis-DRAFT.md`
 - **French words:** "make it tts friendly": no accents; one or two widely known words a script, spelled for the voice.
 - **The salon is never the enemy** ("salon is not the enemy", question 21): no stylist or salon as a villain, even in tone. *Reading recorded:* when a title names salons ("Cuts Hairdressers Won't Suggest"), the title's promise is paid as practical advice (what to ask for, what to check), never as blame. The other optional villains (the advice she was handed, the shop's default, the trend cycle) stand.
 - **No ideation work yet** ("we dont need ideation yet", question 22): no list of Notion or ideation-skill lines to change for now.
+- **The name is "Scarlett Starling"** ("scarlett it is written as", 2026-10-29): two t's. The profile is `personas/scarlett-starling.md`; earlier blocks and the study files say "Scarlet Starling" or "Scarlet Sterling" and are left as written. The name is never spoken in a script (S3).
+- **Hooks get extra care** ("the hooks should be very much format carried from our reference and just applied. not long, clear to the point and triggering the right emotions"): each script's opening takes one real model's hook shape and applies it to the title, short and plain, aimed at the title's feeling (the pack's "The opening" and `references/hooks.md`).
+- **Personal details:** "ignore the personal details. you can develop a few that would fit the content and be maleable enough": Claude drafts two or three per profile, soft, uncheckable and flexible.
+- **The books:** the operator shared both PDFs (Drive folders, 2026-10-29); they are image-only, so their text is read by OCR for the book match.
 
 ### Rejected, so they don't come back
 
