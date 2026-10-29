@@ -2,7 +2,7 @@
 
 The live note passed from one Claude Code chat to the next. A new chat reads `CLAUDE.md`, then this file, then `HANDOFF.md`, `README.md` and `PINNED.md`, and carries on from "Next actions". The outgoing chat rewrites this file before every handover.
 
-**Last updated:** 2026-10-28, session 12, the style study chat (branch `claude/wonderful-mccarthy-rbuweh`, merged into `main`). Session 12 is summarised first; sessions 5-11 follow.
+**Last updated:** 2026-10-29, session 13, the Werner and Frederick upload review (branch `claude/loving-planck-iad0s6`, merged into `main`). Session 13 is summarised first, then session 12 (style); sessions 5-11 follow.
 
 ---
 
@@ -56,6 +56,18 @@ Learned in session 5:
 ---
 
 ## Where things stand
+
+### Session 13 (2026-10-29), in short: the Werner and Frederick upload review (branch `claude/loving-planck-iad0s6`)
+
+1. **Reviewed** the first library-made upload on each relaunched channel (Werner's toilet video, 11:06; Frederick's outlet video, 19:52): `studies/recent-uploads-2026-10-29/` (caption transcripts, `analysis.md`).
+2. **The operator's answers, applied** (HANDOFF "Operator decisions, 2026-10-29"; P18):
+   - plumbing words per minute set from the newest voiceovers (Roger 170, Mark 181, Vintage 190, Werner 181); the minimum stays 12 minutes, now counted at them ("Real speed, keep 12"); Frederick 162
+   - plumbing opening: a short hook on a named model's beats, first tip by about 45 seconds, no tool list and the kit named once, at most one promise and only one paid at the end (P18), no "no plumber needed" when a step ends in a call, the silence line in plain words
+   - every channel: the close gives one small thing to do, never a homework list (core §14, B9, packs, scanner hard ban)
+   - electrical: one step, one job; the buying step adapts to what the look found; facts guide 1.17a, 1.18, 4.30, 6.19a
+   - scanner: `opening-ban-regex`, `opening-promise-regex`, `judge-regex`, "Level" signposts; checks 73-76 (84 pass)
+3. **Skills rebuilt** into `dist/`; nine differ from the account and were sent: `script-writer`, `plumbing-scripts`, `electrical-scripts`, `hvac-scripts` (the ending line only), and the personas of Roger the Pipe Guy, Mark, the Vintage Pipefitter, Werner and Frederick.
+4. **A check of the newest plumbing uploads with the new rules:** item one at 51-73 seconds on six of eight lists; two of the Vintage Pipefitter's three newest under 12 minutes; one Vintage opening with two promises. These rules now catch all three.
 
 ### Session 12 (2026-10-28), in short: the style study for Scarlet Starling and Diane de Chambray (branch `claude/wonderful-mccarthy-rbuweh`)
 
@@ -180,6 +192,13 @@ The same chat finished the electrical ideation in `KPMYT/niche-research` (17 ini
 
 ## Open questions for the operator
 
+**Werner and Frederick (open at the session 13 handover):**
+- W13. **Pfusch:** the voice said it "Fush" (#11) and "Whoosh" (the toilet video). Take it off Werner's German words unless a voice test passes it?
+- W14. **A sibling check against the channel's own titles** in the plumbing pack (the toilet video re-ran #11), as the electrical pack's "Two titles on one topic"?
+- W15. **The HVAC pack** shares the plumbing opening: apply P18, the 45-second hook on a named model and the kit-once rule there too?
+- E9. **Lines that don't survive the voice** (explained in chat 2026-10-29): add rules for a quoted label read aloud, a comma that turns a statement into a question, lists of fragments, and pronoun-packed short lines?
+- **The plumbing briefs** now need about 2,040 to 2,280 words of real value for 12 minutes: watch for NOT READY on thin briefs (the fix is a fuller brief at ideation).
+
 **Style (open at the session 12 handover):**
 - S1. **The model picks:** row numbers from `studies/style/models/candidates-for-review.md` (20-30). Also: Rami Jabali and MAKEOVERGUY in or out (left out by default), and whether to run a targeted search for real jewelry, glasses and earring videos (none found; 15 of our 38 titles are item or haircut lists; about 20 calls).
 - S2. **Three packs:** hair, fashion and makeup are separate packs, a channel can draw on more than one, and this study feeds hair and fashion. Is that right?
@@ -231,7 +250,7 @@ The same chat finished the electrical ideation in `KPMYT/niche-research` (17 ini
 3. Check the first real Frederick script the operator pastes back: the prove-dead step against Safety rules 1 and 2, then the run 03 judge's non-blocking notes (open-box "I" lines, sentence length creeping up, procedure-first step openings).
 4. A14 (the LED glow) has no topic model since E38 went: use the closest explainer, as INDEX says.
 
-**Merging branches:** done in session 11 (Werner and festive-planck are in `main`). Any chat that merges later: merge `main` into its branch first and keep both sides; check numbers in use are 1-72 (plus letter suffixes such as 46b; 71-72 are the HVAC chat's); proposals in use are P1-P17.
+**Merging branches:** done in session 11 (Werner and festive-planck are in `main`). Any chat that merges later: merge `main` into its branch first and keep both sides; check numbers in use are 1-76 (plus letter suffixes such as 46b; 71-72 are the HVAC chat's, 73-76 session 13's); proposals in use are P1-P18.
 
 **HVAC chat (next):** read `tests/iterations/iter-06/CHANGES.md` and the HANDOFF blocks of 2026-10-27; get H1-H6; the operator's own test scripts on batch 1 (the corrected briefs) decide further fixes. Both of those branches are in `main` now (session 11): merge `main` into the HVAC branch first (Werner is channel row 9, his check is 70, the plumbing escalation line is P17), then rebuild `dist/` and send `hvac-scripts.skill`, `roger-the-hvac-guy-persona.skill` and the new `script-writer`. Batch 2 needs the brand-verdict rules first (a brand verdict stops NOT READY today).
 
