@@ -919,6 +919,44 @@ bs=open(f"{ROOT}/tools/build_skills.py").read()
 check("76. P19: 'Rule number one', 'Secret number two', 'Knot three' are read as items 1-3; the electrical scanner command's code block is closed before HVAC's",
       "ITEMS: 3 | item one at word 4" in sp and "--final\n```\n\nHVAC (the same shape as plumbing" in bs, sp[-400:])
 
+# ---- the style pack and its two channels (operator 2026-10-29: the diagnosis answers) ----
+STY=f"{ROOT}/style-scripts"; STR=f"{STY}/SKILL.md"; SCAR=f"{PERS}/scarlet-starling.md"; DIAN=f"{PERS}/diane-de-chambray.md"
+sk=open(STR).read(); sc_p=open(SCAR).read(); di_p=open(DIAN).read()
+# 77. the style pack's inputs and overrides: title, brief, rotation log, no research pack; no sign-off; the book as the only CTA; 12 minutes; prices only on budget titles; never the salon
+check("77. style pack: inputs (title, brief, rotation log; research pack not used); no sign-offs; the book the only CTA; 12 minutes; prices only on budget titles; never the salon; P3 not carried",
+      "- research-pack | not used |" in sk and "- rotation-log | required |" in sk and '"no sign offs"' in sk and '"no sub cta. just ebook"' in sk
+      and "min-minutes: 12" in sk and "No price unless the title promises budget" in sk and '"salon is not the enemy"' in sk
+      and "Plumbing's named forward promises in the body (P3) don't carry to style" in sk and "title-words:" in sk, "")
+# 78. the style scanner block: a clean paragraph passes on both channels; the house vocabulary, age slogans, the formula, a subscribe ask, a tease,
+#     an experience claim and an unflagged hard word fail; "sterling silver" and "a chambray shirt" pass
+clean_s=("If your haircut makes you look older than you feel, it's usually the shape, not the length. These five cuts look younger on fine hair, and each one starts with what you ask for in the chair.\n\n"
+         "Have you ever left the salon with a cut that looked lovely for one day and then fell flat? That's fine hair doing what fine hair does. But it can be fixed.\n\n"
+         "Number one. The soft bob that stops at the jaw. A blunt line at the jaw puts weight where the face is softening, so the eye goes to lift instead of drop. Check it in the mirror from the side. You'll look rested and younger, and nobody will know why. Wear it with a sterling silver chain and a chambray shirt.\n")
+cs=[run_scan(clean_s,[STR,P],title="5 Haircuts That Make Fine Hair Look Younger") for P in (SCAR,DIAN)]
+bad_s=["Small gold hoops finish it.","It reads as expensive.","She looks polished from across the room.","Age is just a number.","You've earned it.","It's not you, it's the blouse.",
+       "Subscribe for more.","We'll get to that one later.","I wore this to dinner.","My clients love this cut.","She looks like an old lady in it.","Studies show it works.","So many of us feel this."]
+s_pass=[l for l in bad_s if run_scan(f"Check the hem.\n\n{l}\n",[STR,SCAR])[0]!=1]
+check("78. style scanner block: a clean paragraph passes on both channels; house vocabulary, age slogans, the formula, subscribe, tease, experience, clients, an unflagged hard word, 'studies show' and 'one of us' fail",
+      cs[0][0]==0 and cs[1][0]==0 and not s_pass, f"clean: {cs[0][1][-400:] if cs[0][0] else ''}{cs[1][1][-400:] if cs[1][0] else ''}; passing: {s_pass}")
+# 79. the two profiles: style pack, Talking Head, pending, wpm, tenure none, the book key, no sign-off; the name never spoken; Scarlet's credential and Diane's heritage line once; old lines banned
+sf,df=facts_of(SCAR),facts_of(DIAN)
+pb_s=[l for l in ("I'm Scarlet Starling.","Until next time, stay polished.","I gathered three hundred of them.","Whenever it suits you, it's there.","In forty years of dressing for galas, I learned this.","My daughter loves it.")
+      if run_scan(f"Check the hem.\n\n{l}\n",[STR,SCAR])[0]!=1]
+pb_d=[l for l in ("Diane here.","A bientot.","Every French woman owns a trench.","I grew up in Paris, so I know.","It's in the book's 101 secrets.","How we buy it here is different.")
+      if run_scan(f"Check the hem.\n\n{l}\n",[STR,DIAN])[0]!=1]
+check("79. Scarlet's and Diane's profiles: style-scripts, Talking Head, pending, 169 and 172 wpm, tenure none, book keys, no sign-off; the credential and heritage line once; old intros, sign-offs, closes and unhedged claims fail",
+      all("Niche pack: style-scripts" in x and "Script type: Talking Head" in x and "Status: pending" in x and "Closing line: none" in x for x in (sc_p,di_p))
+      and "Words per minute (for runtime and the length minimum): 169" in sc_p and "Words per minute (for runtime and the length minimum): 172" in di_p
+      and "tenure: none" in sf and "tenure: none" in df and "book: Three Hundred Budget-Friendly Ways to Look Expensive" in sf and "book: The French Way" in df
+      and "once-regex: \\ba lifetime of dressing well\\b | the one credential line, at most once" in sf and "once-regex: \\bthe way I was raised in Paris\\b | the one heritage line, at most once" in df
+      and not pb_s and not pb_d, f"scarlet passing: {pb_s}; diane passing: {pb_d}")
+# 80. wiring: rows 10 and 11 pending; the build knows the pack and both profiles; the style scanner command; README
+chan=open(f"{CORE}/channels.md").read(); bs=open(f"{ROOT}/tools/build_skills.py").read(); rd=open(f"{ROOT}/README.md").read()
+check("80. style wiring: channel rows 10 and 11 pending; build entries for style-scripts and both personas; the style scanner command; README sections",
+      "| 10 | Scarlet Starling | `style-scripts` | `personas/scarlet-starling.md` | pending |" in chan and "| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | pending |" in chan
+      and '"style-scripts": ("model-file-spec.md",)' in bs and '"scarlet-starling": ("Scarlet Starling"' in bs and '"diane-de-chambray": ("Diane de Chambray"' in bs
+      and "--rules <style-scripts>/SKILL.md" in bs and "## style-scripts/" in rd and "`scarlet-starling.md`" in rd, "")
+
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))
 print(f"\n{sum(ok for _,ok,_ in results)}/{len(results)} passed")
