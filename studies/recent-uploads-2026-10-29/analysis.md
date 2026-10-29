@@ -132,3 +132,12 @@ Nothing here is applied. Each is small; the first two are pending decisions alre
 | 6 | **Plumbing pack: a sibling check against the channel's own earlier titles,** as the electrical pack's "Two titles on one topic" already does. | This video re-runs #11's opener, fix, warnings and Pfusch line, and points viewers back to it. |
 | 7 | **Facts guide rows:** the AFCI outlet option on an extension (first outlet of the existing circuit), and wire gauge against breaker size (12-gauge on 15 amps is fine; 14 on 20 is not). | Frederick [17:18] and [5:13]. |
 | 8 | **Electrical pack: one step, one job.** A step over about 300 words splits in two. | Frederick's steps two (555 words) and ten (514). |
+
+---
+
+## 4. What the operator decided (2026-10-29)
+
+Recorded in `HANDOFF.md` §3 ("Operator decisions, 2026-10-29") and `PROPOSALS.md` P18. In short: plumbing length counted at each voice's real speed, minimum still 12 minutes (§3 item 1); the silence line kept but in plainer words (item 3 not adopted as a scanner check); one opening promise at most, paid at the end of the video (P18; item 4 applied); a short opening built on a named model, the kit named once; one small thing at the end on every channel; no "no plumber needed" scope line; Frederick's words per minute set to 162 (item 2); one step, one job (item 8, as "split when a step holds two jobs"); the facts-guide rows (item 7, plus 1.17a and 4.30) and an adaptive buying step. Not decided yet: Pfusch (item 5), a sibling check against the channel's own titles (item 6), and rules for the lines that don't survive the voice.
+
+A check of the plumbing channels' newest uploads with the new rules (captions, 2026-10-28) found item one at 51 to 73 seconds on six of the eight that use spoken signposts, two of the Vintage Pipefitter's three under 12 minutes at his real speed, and one Vintage opening with two promises.
+

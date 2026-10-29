@@ -13,7 +13,7 @@ Niche pack: plumbing-scripts
 THE BASICS
 Script type: Classic
 Voice provider: ElevenLabs (Sully - Mature, Deep and Intriguing, voice ID wAGzRVkxKEs8La0lmdrE)
-Words per minute (optional, for runtime estimates): not set
+Words per minute (for runtime and the 12-minute minimum): 181 (his three newest voiceovers, 2026-10-27/28, ran 182, 181 and 181; operator 2026-10-29: "lets push the length of all the plumbing scripts as a minimum please. they are all coming short")
 
 THE PERSONA
 Name: Mark Silverbridge

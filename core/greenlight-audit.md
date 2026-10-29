@@ -38,7 +38,7 @@ description: The final quality gate every script passes before it ships. Six gro
 - **B6. "But" and "therefore"** connect the narrative and reasoning parts. Steps and list items may be sequential.
 - **B7. Uneven rhythm.** No runs of same-length sentences, other than real lists and short instructions.
 - **B8. List order.** The order follows the default, the niche pack's rule, or the hook's escalation promise, whichever applies.
-- **B9. No retention killers:** repeated emphasis, piled-up qualifiers, announcing the obvious, throat-clearing, and recaps anywhere in the script (a run-down of what was just built counts).
+- **B9. No retention killers:** repeated emphasis, piled-up qualifiers, announcing the obvious, throat-clearing, and recaps anywhere in the script (a run-down of what was just built counts, and so does a closing to-do list or "homework" that repeats earlier sections' actions; the close gives one small thing to do).
 
 ## Group C: clarity
 

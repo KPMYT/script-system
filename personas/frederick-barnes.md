@@ -11,7 +11,7 @@ Niche pack: electrical-scripts
 THE BASICS
 Script type: Talking Head
 Voice provider: ElevenLabs (operator, 2026-10-27; the voice's name and ID are still to add here)
-Words per minute (for runtime and the length minimum): 195 (his 20 published voiceovers ran 169 to 209, typically about 195; `studies/home-diy/frederick-baseline-2026-10/views.md`)
+Words per minute (for runtime and the length minimum): 162 (his first electrical voiceover, 2026-10-28, ran 3,223 words in 19:52; operator 2026-10-29: "ok, adjust this". His 20 older voiceovers ran 169 to 209, `studies/home-diy/frederick-baseline-2026-10/views.md`; re-check on the next uploads and the voice check)
 Contractions: yes (his 23 old scripts used about 30 per 1,000 words and 20 were voiced with no recorded misreads); confirm on the voice test clip
 Voice check (open: the operator generates the clip and reports back; until then the defaults above stand): generate this paragraph in Frederick's ElevenLabs voice:
   "Before you touch that outlet, find the GFCI that protects it. If you've got an AFCI breaker, it's the same idea, just for arcing. Look for the UL mark on anything you buy. It'll say fourteen-gauge on the cable, or twelve-two if it's the heavier kind. That outlet runs at a hundred and twenty volts, and a space heater can pull fifteen hundred watts. Don't guess. You'll know it's right when it doesn't wiggle, and I'd test it again anyway. The fixture stays live, so keep your hands off a live wire."

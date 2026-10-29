@@ -198,3 +198,15 @@ The study supports the narrow form of both: a tenure stated the same way every t
 **Also, to match:** "Point then promise" reads "Nothing is promised in the opening, apart from the count line or the escalation line (operator, 2026-10-25 and 2026-10-27)"; a check (test 46) that the escalation line is in the pack; a HANDOFF section 3 entry.
 
 **Status:** approved by the operator on 2026-10-27: "yes its good as long as its not a hard rule and it can vary based on topic and format and there is still rotation in the hooks". Applied as an option, not a rule, with the rotation stated in the text. (Replaces the first draft of 2026-10-27, "the range opening", which also had a kit line, a transfer line and a myth flip; the operator narrowed it to the two moves.)
+
+## P18. One end-of-video promise in the plumbing opening (opened and approved 2026-10-29)
+
+**Decision (HANDOFF.md section 3, P10 and P17):** nothing is promised in the plumbing opening apart from the count line or the escalation line.
+
+**Evidence:** Werner's toilet video (2026-10-28) opened with "you will know in 2 minutes" and "Nothing from a jug goes into a toilet, and you will hear why", on top of its escalation line; its first step came at 1:04 (`studies/recent-uploads-2026-10-29/analysis.md`).
+
+**Decision:** the operator: "we dont want that opening promise the you will know in 2 minutes for sure. the only way it can be accepted if its a single promise that is paid off END OF VIDEO". The opening may carry at most one promise beyond the count or escalation line, and only of what the end of the video pays (the last item, step or level); never with a time on it, never one paid earlier, never two.
+
+**Applied:** `plumbing-scripts/SKILL.md` ("The opening", "Point then promise", "Never in an opening", the checklist and the scanner block: `opening-ban-regex`, `opening-promise-regex`), its plan template, `core/script-scanner.py` (the opening keys), test 74.
+
+**Status:** approved by the operator on 2026-10-29 (quoted above). Plumbing only; the HVAC pack, built on the same opening, is unchanged until the operator says so.

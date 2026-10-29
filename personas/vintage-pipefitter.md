@@ -13,7 +13,7 @@ Niche pack: plumbing-scripts
 THE BASICS
 Script type: Classic
 Voice provider: ElevenLabs (Sawyer - Midnight Storyteller, voice ID 8dEUmyPMdDdK91vboYih)
-Words per minute (optional, for runtime estimates): not set
+Words per minute (for runtime and the 12-minute minimum): 190 (his three newest voiceovers, 2026-10-27/28, ran 181, 199 and 192, and his five newest videos all ran 11 to 12 minutes; operator 2026-10-29: "lets push the length of all the plumbing scripts as a minimum please. they are all coming short")
 
 THE PERSONA
 Name: The Vintage Pipefitter (no personal name, ever)
