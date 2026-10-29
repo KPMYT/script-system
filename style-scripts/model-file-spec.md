@@ -2,7 +2,7 @@
 
 How every file in `references/models/` is built (2026-10-29), adapted from `electrical-scripts/model-file-spec.md`. Kept for adding models later; not part of the installed skill.
 
-**The library:** 30 real presenters (M01 to M30) and 7 faceless or AI videos (F01 to F06, F08), listed with views, dates and channel normals in `studies/style/models/approved-models.csv`. The operator's rules (HANDOFF §3, 2026-10-28 and session 13, P18): models from real people presenting to women over 50, outliers of the last 24 months plus a few big older ones, nothing before 2022, each picked for the operator ("your call on the rest"); a faceless section of 5-10 outliers on topics the real models don't cover. F07 was dropped (mostly music).
+**The library:** 30 real presenters (M01 to M30) and 7 faceless or AI videos (F01 to F06, F08), listed with views, dates and channel normals in `studies/style/models/approved-models.csv`. The operator's rules (HANDOFF §3, 2026-10-28 and session 14, P19): models from real people presenting to women over 50, outliers of the last 24 months plus a few big older ones, nothing before 2022, each picked for the operator ("your call on the rest"); a faceless section of 5-10 outliers on topics the real models don't cover. F07 was dropped (mostly music).
 - **[real]** (M files): structure, voice and emotion may be borrowed, wording never. Justin Hickox (M06, M08, M10, M12) is a man: structure and emotion, never a voice sample. M05 (RaDona) is a salon cut-along: voice and emotion for the over-70 client, not structure.
 - **[structure only]** (F files): the shape (order, item count and length, pacing, devices) may be borrowed; never the voice, the wording or the persona's claims.
 

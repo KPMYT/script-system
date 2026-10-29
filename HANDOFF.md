@@ -244,7 +244,7 @@ From the judge's report and three comparisons of test run 02 (`tests/iterations/
 From the review of the seven newest uploads and two VA chats (`studies/recent-uploads-2026-10-25/`, `drafts/tts-hook-and-length-DRAFT.md`).
 - **Every word is written the way the voice should say it, on every channel** ("agree with fix part 1"): lumber sizes in words ("two by four"), units and fractions in words, never two numbers side by side, no abbreviations or codes a person wouldn't say, no symbols, no laugh words, words with two pronunciations reworded. Whole-dollar prices stay digits (every recent voiceover read them correctly). Applied to `core/workflow.md` §4, the library's own examples, and a fix-on-sight `[SPOKEN]` family in the scanner (test 44). Sam's bench video had misread every lumber size the script wrote as "2x4" or "2x12".
 - **No promise block in the plumbing hook (P10):** "in the hook of plumbing instead of saying 1 and 2 it owuld be better to say something like today i am going to show you the eight things you must check (if it doesnt already)". The opening's job 5 is now the count line: one sentence naming the whole list and what it does for the viewer, never what a single item holds, skipped when the opening already gave the count. *Reading recorded:* the operator's example began "today I am going to", which the plumbing scanner bans in openings; the rule's example drops "today" ("I'm going to show you the eight things you need to check..."), and the ban stands. Named promises stay allowed in the body (P3's forward lines). Applied to `plumbing-scripts/SKILL.md` and its unit plan template (test 45).
-- **Plumbing words per minute: not changed yet** ("do not change 3 yet"). The profiles stay unset, so the 12-minute minimum is still counted at 150 words a minute while the voices run about 167 to 190.
+- **Plumbing words per minute: not changed yet** ("do not change 3 yet"; *replaced 2026-10-29:* every plumbing profile now sets its real speed, see that day's block). The profiles stay unset, so the 12-minute minimum is still counted at 150 words a minute while the voices run about 167 to 190.
 - **VAs don't ask for a length** ("tell VAS NOT to ask for length"). Length comes from the content, with the niche minimum; a script that passes is uploaded as it is. Sam's bench chat had passed at about 9.7 minutes before the VA asked for "14-16 MINS".
 - **The voiceover copy's tags stay as they are** ("the VO copy tags sound fine for now. leave as is").
 - **Sawdust Sam goes into `main`** (the 2026-10-23/24 branch `claude/determined-darwin-3u43bh`, already on the account).
@@ -347,10 +347,35 @@ From the operator's reply to `studies/style/comparison/README.md`.
 
 - **Model sources widened (2026-10-28, same day):** "we can include him for sure. hes really good to understand what they like, understand hes a hair stylist himself" (Justin Hickox, a male hairdresser for women over 50); "for our study we can broaden to 24 months and even more for a few big outliers." *Reading recorded:* real people presenting to women over 50, men included, from the last 24 months, plus a few big older outliers. Voice samples stay with real women (a man's voice doesn't carry to a woman persona). Each model is still verified by the operator.
 
-### Operator decisions, 2026-10-28, session 13 (the style models and the pack split)
+### Operator decisions, 2026-10-29 (the Werner and Frederick upload review)
+
+From the review of the first library-made upload on each relaunched channel (`studies/recent-uploads-2026-10-29/`). The operator answered the review's points one by one.
+
+**Werner (and every plumbing channel):**
+- **Length, counted at the voice's real speed** ("lets push the length of all the plumbing scripts as a minimum please. they are all coming short"; asked whether to raise the minimum too: "Real speed, keep 12"). Every plumbing profile now sets its words per minute, measured from its three newest voiceovers on 2026-10-28: Roger 170, Mark 181, the Vintage Pipefitter 190, Werner 181. The minimum stays 12 minutes, now about 2,040 to 2,280 words. This replaces "Plumbing words per minute: not changed yet" (2026-10-25). Werner's toilet video (2,010 words) played in 11:06; the Vintage Pipefitter's five newest ran 11 to 12 minutes.
+- **The trade's silence line in simpler words** ("its not necessarily bad but we can explain it in simpler words", on "Nobody in the trade will tell you about the flapper, because a man who knows the flapper does not call"). *Reading recorded:* the no-motive rule stands (two facts side by side, never joined by "because"); the pack gains a plain-words bullet with this line as the before. No scanner check for it.
+- **One opening promise at most, and only one paid at the end of the video** ("we dont want that opening promise the you will know in 2 minutes for sure. the only way it can be accepted if its a single promise that is paid off END OF VIDEO"): P18. A promise with a time on it and "today you learn" fail in the scanner's opening (the first minute); two promises fail; one is judged.
+- **A shorter hook built on a reference, and the kit named once** ("this is very bad. shorter hook more to the point. make sure we are using references. same with the tool kit being listed twice"): the plan names the model whose opening beats it follows; the first real tip, step or item by about 45 seconds at the profile's speed (the plumbing scanner now marks item one past 45 seconds, and "Level one" counts as a signpost); no tool list in the opening and each tool named once.
+- **One small thing at the end, never a homework list, on every channel** ("agree with 5. audit our skills to account for this"): core `retention-mechanics.md` §14 and audit B9, the plumbing, electrical and HVAC packs and their plan templates; "tonight's homework" and its cousins are a core hard ban.
+- **The scope line never says no plumber is needed when a step ends in a call** ("agree we can just remove the earlier promise"): pack text and a judged scanner flag.
+
+**Frederick:**
+- **Long steps are fine unless they hold two jobs** ("thats fine to be honest as long as its not waffling. but yes if within that step there are 2 steps in it, it can be split"): "One step, one job" in the step shape.
+- **The three accuracy points** ("ok this is important to understand"): facts guide 1.17a (kitchen and bathroom circuits said by room), 4.30 (GFCI goes by where the new outlet sits), 6.19a (an AFCI receptacle covers an extension only at the first outlet of the existing circuit; the 2023 code text read).
+- **The buying step adapts to what the viewer found** ("make sure the script is adaptive for this"): facts guide 1.18 (12-gauge on a 15-amp breaker is fine; 14 on 20 is the call) and the "look before you shop" rule.
+- **Words per minute 162** ("ok, adjust this"), from his first electrical upload (3,223 words in 19:52); the 12-minute minimum is now about 1,950 words.
+- **The lines that didn't survive the voice:** the operator asked for more detail ("elaborate on this"); explained in chat, no rule yet.
+
+**Second round, same day:**
+- **Pfusch stays** on Werner's German words for now ("leave for now"), though the voice said it "Fush" and "Whoosh".
+- **Repeated topics on a channel are not the script library's job** ("not your problem"): no sibling check against the channel's own titles.
+- **HVAC takes the plumbing opening rules, always modelled on winners** ("hvac - yes but always model off winners"): P18, the short hook by about 45 seconds, no tool list and the kit named once, no "no tech needed" scope line, the scanner keys; and every HVAC script now names at least one winning model, with the opening on a winner's beats (replaces "agree but not always needed", 2026-10-27). HVAC words per minute stays unset (still 150) until the operator says.
+- **Talking-point briefs are enough for plumbing** ("thinner briefs are fine as long as they are talking points for now"): each talking point is built out with P7's fill-ins; NOT READY only when even that can't reach 12 minutes.
+
+### Operator decisions, 2026-10-28, session 14 (the style models and the pack split)
 
 From the operator's reply to S1-S5 and Q0 (`SESSION-HANDOVER.md`, session 12): "ok good, your call on the rest … We can also have a feceless section in this on 5-10 faceless outliers on other topics … hair fashion makeup seperate packs but for now hair and fashion will be one pack. the emotions are the same right? compare scripts … s3 - we dont mention the name anyway in the scripts … s4 - yes thats fine … s5 - ignore all for now, not your problem".
-- **The model floors (Q0, P18):** "your call" read as a yes. Real-presenter style models are outliers (about 2.5x normal or more), 5:00+, about 70K+ views, last 24 months plus a few big older outliers, nothing before 2022. This replaces "1M+ views" for real style models; faceless keeps 300K+.
+- **The model floors (Q0, P19):** "your call" read as a yes. Real-presenter style models are outliers (about 2.5x normal or more), 5:00+, about 70K+ views, last 24 months plus a few big older outliers, nothing before 2022. This replaces "1M+ views" for real style models; faceless keeps 300K+.
 - **The picks (S1):** left to Claude. 28 real-presenter models (12 hair, 15 fashion, 1 French angle), `studies/style/models/approved-models.csv` (M01-M28); Rami Jabali and MAKEOVERGUY out; a targeted search for real jewelry, glasses and earring videos run (S1b).
 - **A faceless section (new):** 5-10 faceless outliers on topics the real models don't cover (glasses, earrings, shoes, colors, the national lens, hacks, blouses), 300K+; F01-F08 in the same file. *Reading recorded:* structure only, never voice or wording, like plumbing's structure-only models; the real presenters stay the source for voice and emotion.
 - **Packs (S2):** hair, fashion and makeup are separate packs in the end, but **for now hair and fashion are one pack** (as the study plan first had it). The operator asks whether the emotions are the same for hair and fashion: answered by comparing the scripts before the pack is drafted.
@@ -358,7 +383,7 @@ From the operator's reply to S1-S5 and Q0 (`SESSION-HANDOVER.md`, session 12): "
 - **Age brackets (S4):** one shared emotion set with a light over-70 lean (comfort, mobility, the older client), as `studies/style/comparison/07` suggests.
 - **Production (S5):** "ignore all for now, not your problem". The accents, the disclosure line's "He" and the website link are not this library's work.
 
-### Operator decisions, 2026-10-29, session 13 (the style pack diagnosis)
+### Operator decisions, 2026-10-29, session 14 (the style pack diagnosis)
 
 From the operator's reply to section 9 of `drafts/style-pack-diagnosis-DRAFT.md` ("1 yes 2 yes … 18 yes make it tts friendly").
 - **The pack:** one hair-and-fashion pack, `style-scripts` (makeup later as its own pack). Both channels are **Talking Head**.
@@ -372,7 +397,7 @@ From the operator's reply to section 9 of `drafts/style-pack-diagnosis-DRAFT.md`
 - **Safety:** six defaults (dye patch test, heat, thinning hair, falls, no diet plan, glasses), "unless brief says otherwise": *reading recorded:* the brief wins over the defaults, as plumbing's brief does.
 - **Brands:** "we can have opinions against brands". *Reading recorded:* an opinion said as hers ("I'd skip…") is allowed; a false or unsupported fact about a brand is still not (claims policy).
 - **No special dated-facts rule** for trend titles. **Plumbing's named forward promises (P3) don't carry to style.**
-- **The core scanner changes (P19) are approved:** the title-word check, style item signposts, style tenure words, the channel-intro ban in the core list, and the build script's unclosed code block.
+- **The core scanner changes (P20) are approved:** the title-word check, style item signposts, style tenure words, the channel-intro ban in the core list, and the build script's unclosed code block.
 - **French words:** "make it tts friendly": no accents; one or two widely known words a script, spelled for the voice.
 - **The salon is never the enemy** ("salon is not the enemy", question 21): no stylist or salon as a villain, even in tone. *Reading recorded:* when a title names salons ("Cuts Hairdressers Won't Suggest"), the title's promise is paid as practical advice (what to ask for, what to check), never as blame. The other optional villains (the advice she was handed, the shop's default, the trend cycle) stand.
 - **No ideation work yet** ("we dont need ideation yet", question 22): no list of Notion or ideation-skill lines to change for now.

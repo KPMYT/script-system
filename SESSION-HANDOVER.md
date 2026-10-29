@@ -2,7 +2,7 @@
 
 The live note passed from one Claude Code chat to the next. A new chat reads `CLAUDE.md`, then this file, then `HANDOFF.md`, `README.md` and `PINNED.md`, and carries on from "Next actions". The outgoing chat rewrites this file before every handover.
 
-**Last updated:** 2026-10-28, session 12, the style study chat (branch `claude/wonderful-mccarthy-rbuweh`, merged into `main`). Session 12 is summarised first; sessions 5-11 follow.
+**Last updated:** 2026-10-29, session 14, the style pack chat (branch `claude/youthful-ritchie-zq7e92`, merged into `main`). Session 14 is summarised first, then session 13 (Werner and Frederick, a parallel chat the same day), then session 12 (the style study); sessions 5-11 follow. **Numbering:** this chat called itself session 13 while it ran (the parallel chat took that number first); it is session 14 from this merge on, and its proposals are P19 and P20 (it opened them as P18 and P19).
 
 ---
 
@@ -23,7 +23,7 @@ The live note passed from one Claude Code chat to the next. A new chat reads `CL
 Still true from sessions 2-4:
 - **Never change a rule, file or skill without the operator's explicit yes to that specific change.** Show the exact change first (a draft file is good), then apply.
 - **Don't build tests or test material on your own initiative.** Testing happens on the operator's call.
-- **Work niche by niche.** The current niche is style (women over 50): Scarlet Starling and Diane de Chambray (session 12).
+- **Work niche by niche.** The current niche is style (women over 50): Scarlett Starling and Diane de Chambray (sessions 12 and 14).
 - **Notion and Google Drive are read-only** unless the operator says otherwise.
 - **Keep messages plain,** with numbered items the operator can answer "1 yes, 2 no". Tables help.
 - **The operator wants depth and examples:** quoted evidence, counts, before/after lines.
@@ -31,6 +31,12 @@ Still true from sessions 2-4:
 - **Locked decisions:** when an instruction collides with one, say so plainly, write a proposal in `PROPOSALS.md`, and wait for the yes.
 - **Answers are short.** When one is genuinely ambiguous, state the reading and ask once. "Do this" / "yes agree for all" covered the whole proposal it answered; record the reading in HANDOFF so it can be revisited.
 - **Use waiting time; run helpers in parallel; commit their work as it lands** (the stop hook demands a clean tree, and the scanner's `.pyc` cache file is tracked, so commit it when it changes).
+
+Learned in session 14:
+- **Start by checking the clone is complete:** `git rev-parse --is-shallow-repository`. This container started with only 50 commits, and check 58 (it reads an old commit) failed on `main` until `git fetch --unshallow origin`.
+- **Never `git stash` while helpers are writing,** and never `pkill -f <name>` with the name in your own command line (it kills the shell running it). Commit helpers' work as it lands; the stop hook demands a clean tree.
+- **Image-only PDFs from Drive:** the Drive tools return no text and cap downloads at 10 MB. A file shared by link downloads with `curl -L "https://drive.usercontent.google.com/download?id=<ID>&export=download&confirm=t"` into its own scratch folder; `apt-get install -y tesseract-ocr`, then `pdftoppm` one page at a time and `tesseract` with `OMP_THREAD_LIMIT=1` and four in parallel (about 1,500 pages in under an hour).
+- **The operator wants plain wording for questions:** "your 1 - 8 are worded confusing. please simplify". Say what went wrong, then the fix, with an example; no file names or jargon in the question itself.
 
 Learned in session 5:
 - **How the operator tests:** they run the skills on claude.ai (`/script-writer`, pick the channel, paste title, brief, rotation log) and paste the whole output back. Save each run in `tests/iterations/iter-NN/test-run-NN/` (labelled TEST), run the scanner on it yourself, fetch the channel's real video on the same title with NexLev (`youtube_channel_videos`, then `get_video_transcript`) and have a judge helper compare. The writer's own audit can be wrong: run 02 claimed "mechanical 0" with 97 curly quotes.
@@ -51,11 +57,36 @@ Learned in session 5:
 - **Session 11 (2026-10-27, branch `claude/wonderful-curie-0puxc3`) merged Werner's branch `claude/vigilant-keller-um63cs` into `main`,** which also carried the plumbing branch `claude/festive-planck-2e8f22` (the escalation line, model R21; merged into Werner's branch there). Both sides kept. Collisions fixed: Werner's channel row is **9** (Roger the HVAC Guy keeps 8); Werner's check 61 is now **70** (HVAC holds 60-68); the plumbing escalation line's "P11" is now **P17** (P11 is the electrical value promise, P14-P16 are Werner's). No branch with unmerged work is left outside `main`.
 - **`dist/` is not rebuilt at this merge** (on purpose). A build of `main` checked against the account on 2026-10-27 (session 11): every script skill matches apart from frontmatter quote marks, except `script-writer`, which differs only by Roger the HVAC Guy's row (Werner moves to row 9) and the HVAC scanner changes (HVAC tenure words, `letters-ok`, third-party years, the "been/spent/worked" subject fix). The HVAC chat (finishing in its own chat) rebuilds and sends `script-writer`, `hvac-scripts` and `roger-the-hvac-guy-persona` together, so Roger the HVAC Guy is never on the channel list before his pack is on the account.
 - **Session 12's branch `claude/wonderful-mccarthy-rbuweh` (the style study) is merged into `main` at its handover** (fast-forward: `main` had nothing new). It changed no library file: only `studies/style/`, `drafts/style-study-plan-DRAFT.md`, `HANDOFF.md` §3, `README.md`, `CHANGELOG.md` and this file.
+- **Session 14's branch `claude/youthful-ritchie-zq7e92` (the style pack) is merged into `main` at its handover,** with `main` (session 13, the Werner and Frederick review, branch `claude/loving-planck-iad0s6`) merged in first and both sides kept: `core/script-scanner.py` (session 13's opening keys, homework ban and "Level" signposts together with session 14's title words, channel-intro ban, style tenure words and style signposts), `tests/run_checks.py`, `HANDOFF.md`, `CHANGELOG.md`, `PROPOSALS.md`. Collisions fixed: session 14's checks 73-82 (and 81b) are now **83-92 (91b)** (session 13 holds 73-77); its P18 and P19 are now **P19 and P20** (session 13 holds P18). 96 checks pass.
+- **`dist/` is not rebuilt at this merge.** Session 13 rebuilt and sent nine skills; since then the core changed (session 14: the channel gate in `workflow.md` §1, the scanner's title words, style tenure words and signposts, CTA blocks out of the item counts), so the next `script-writer` build differs from the account. Send it together with `style-scripts` and the two style personas once the style channels are ready, or sooner if the operator wants the channel-gate change on every channel now.
 - Earlier branches are contained in `main`. Leave them.
 
 ---
 
 ## Where things stand
+
+### Session 14 (2026-10-28/29), in short: the style pack, Scarlett Starling and Diane de Chambray (branch `claude/youthful-ritchie-zq7e92`)
+
+Every operator answer is in `HANDOFF.md` §3 (the session 14 blocks); the study log is `studies/style/log.md` (round 6).
+1. **The models** (P19: outliers of the last 24 months plus a few big older ones, nothing before 2022): 30 real presenters (M01-M30, two of them from a targeted item-list search) and 7 faceless structure-only videos (F01-F06, F08; F07 dropped, mostly music), all collected with transcripts, comments and notes (`studies/style/models/approved-models.csv`). No real presenter has a jewelry, glasses or earring video above the floor.
+2. **Hair against fashion** (`studies/style/comparison/08-hair-vs-fashion.md`): mostly the same feelings; the blame (hair: the stylist; fashion: the fit), the named feeling (hair: fear of the change; fashion: the body) and the hard words (fashion) differ. One pack with a hair note and a fashion note.
+3. **The diagnosis** (`drafts/style-pack-diagnosis-DRAFT.md`, answered) and **P20, core scanner changes** (every channel): a `title-words` key (each title word said twice, once in the first minute), "this channel is for" a hard ban, style tenure words, "Rule number three" signposts, the build script's unclosed code block.
+4. **Built:** `style-scripts/` (SKILL.md; the hook rule: every hook carries one winning model's format from `references/hooks.md`, short, aimed at the title's feeling; `hooks.md`, 37 model files and INDEX, 81 excerpts, four provisional voice samples, the unit plan); `personas/scarlett-starling.md` (two t's: "scarlett it is written as") and `personas/diane-de-chambray.md`, both **pending**; both books indexed from OCR of the operator's PDFs (`personas/books/`: 300 Ways, 101 Secrets confirmed); channel rows 10 and 11; build entries; README.
+5. **The operator's style rules** (HANDOFF): no sign-offs (the comment ask about her ends the video); the book is the only CTA, no subscribe ask; the salon is never the enemy; no ages and no "one of us"; prices only on budget titles; opinions against brands allowed; the safety defaults unless the brief says otherwise; French words written for the voice; Scarlett's credential numberless ("a lifetime of dressing well"); Diane's one heritage line ("the way I was raised in Paris"); three personal details each, drafted by Claude.
+6. **Tests** (`tests/iterations/iter-07/`, writer, VA and judge kept apart, like for like): 117, 121 and 116 of 140 (hook double-weighted) against 68, 68 and 65 for our old scripts on the same titles; every judge "fix, then pass". The operator's answers to the fixes are applied (the channel gate confirms a clear one-channel reply, on every channel; the book title allowed; "age" and "weight" title words, lightly; item length by count; Diane's hedges; plain checks and varied endings). Not applied: an added feeling move in hooks ("we model off winning hooks for now still").
+
+### Session 13 (2026-10-29), in short: the Werner and Frederick upload review (branch `claude/loving-planck-iad0s6`)
+
+1. **Reviewed** the first library-made upload on each relaunched channel (Werner's toilet video, 11:06; Frederick's outlet video, 19:52): `studies/recent-uploads-2026-10-29/` (caption transcripts, `analysis.md`).
+2. **The operator's answers, applied** (HANDOFF "Operator decisions, 2026-10-29"; P18):
+   - plumbing words per minute set from the newest voiceovers (Roger 170, Mark 181, Vintage 190, Werner 181); the minimum stays 12 minutes, now counted at them ("Real speed, keep 12"); Frederick 162
+   - plumbing opening: a short hook on a named model's beats, first tip by about 45 seconds, no tool list and the kit named once, at most one promise and only one paid at the end (P18), no "no plumber needed" when a step ends in a call, the silence line in plain words
+   - every channel: the close gives one small thing to do, never a homework list (core §14, B9, packs, scanner hard ban)
+   - electrical: one step, one job; the buying step adapts to what the look found; facts guide 1.17a, 1.18, 4.30, 6.19a
+   - scanner: `opening-ban-regex`, `opening-promise-regex`, `judge-regex`, "Level" signposts; checks 73-76 (84 pass)
+3. **Second round (same day):** HVAC took the plumbing opening rules and always models off winners; plumbing talking-point briefs are enough; Pfusch stays; no sibling check. Check 77.
+4. **Skills rebuilt** into `dist/`; nine differ from the account and were sent (plumbing and HVAC re-sent after the second round): `script-writer`, `plumbing-scripts`, `electrical-scripts`, `hvac-scripts` (the ending line only), and the personas of Roger the Pipe Guy, Mark, the Vintage Pipefitter, Werner and Frederick.
+5. **A check of the newest plumbing uploads with the new rules:** item one at 51-73 seconds on six of eight lists; two of the Vintage Pipefitter's three newest under 12 minutes; one Vintage opening with two promises. These rules now catch all three.
 
 ### Session 12 (2026-10-28), in short: the style study for Scarlet Starling and Diane de Chambray (branch `claude/wonderful-mccarthy-rbuweh`)
 
@@ -180,15 +211,17 @@ The same chat finished the electrical ideation in `KPMYT/niche-research` (17 ini
 
 ## Open questions for the operator
 
-**Style (open at the session 12 handover):**
-- S1. **The model picks:** row numbers from `studies/style/models/candidates-for-review.md` (20-30). Also: Rami Jabali and MAKEOVERGUY in or out (left out by default), and whether to run a targeted search for real jewelry, glasses and earring videos (none found; 15 of our 38 titles are item or haircut lists; about 20 calls).
-- S2. **Three packs:** hair, fashion and makeup are separate packs, a channel can draw on more than one, and this study feeds hair and fashion. Is that right?
-- S3. **The name in scripts:** "Scarlet Starling" (the channel) or "Scarlet Sterling" (every script, the descriptions, the website, the ideation skill's "Scarlett")?
-- S4. **Age brackets:** one shared emotion set with a light over-70 lean (comfort, mobility), as `07` suggests?
-- S5. **Production (not scripts):**
-  - Scarlet's two ElevenLabs accents (viewers notice)
-  - "He" in 20 of 22 AI disclosure lines
-  - the `scarletesterling.com` link
+**Werner and Frederick (open at the session 13 handover):**
+- ~~W13 Pfusch~~ ("leave for now"); ~~W14 a sibling check~~ ("not your problem"); ~~W15 HVAC~~ (applied, "always model off winners").
+- W16. **Roger the HVAC Guy's words per minute** is still unset (counted at 150). His ElevenLabs voice is Roger the Pipe Guy's, which reads at 170: set 170 so the HVAC 12 minutes is real too?
+- E9. **Lines that don't survive the voice** (explained in chat 2026-10-29): add rules for a quoted label read aloud, a comma that turns a statement into a question, lists of fragments, and pronoun-packed short lines?
+- ~~The plumbing briefs~~: talking-point briefs are fine; each point is built out with P7's fill-ins (applied).
+
+**Style (open at the session 14 handover):**
+- S6. **Scarlett's voice company:** ElevenLabs like Diane's "Sylvie", or another? Her profile doesn't say (Notion gives an ID in a non-ElevenLabs format), so the test writers guessed the VO copy's format.
+- S7. **The voice samples:** the operator's listen to Tracy Campoli or Melissa Murrell for Scarlett (Melissa is British) and Marie-Anne Lecoeur for Diane (`style-scripts/references/voice-samples.md`, provisional).
+- S8. **Diane's personality section** is shorter than Scarlett's (no pacing, audience or hard-no lines in her own section): add them to match? Asked, not answered.
+- ~~S1-S5~~ answered (HANDOFF session 14 blocks).
 
 **HVAC (asked 2026-10-27; H1, H2, H3, H5 and H6 answered the same day, see HANDOFF "after the HVAC tests"; H4 still open):**
 - H1. ~~The villain example line~~ (answered: "up to you"; reworded) in the HVAC and plumbing packs joins its two facts with "so" ("The trade is paid by the visit and the install, so a cheap check that ends the visits is nobody's business to mention"), and the HVAC writer copied it with "since", one step from a motive. Reword it as two separate sentences?
@@ -212,18 +245,10 @@ The same chat finished the electrical ideation in `KPMYT/niche-research` (17 ini
 ## Next actions (in order)
 
 **Style (next):**
-1. Read `CLAUDE.md`, this file, `HANDOFF.md` §3 (the three style blocks of 2026-10-28), `studies/style/log.md` and `studies/style/comparison/README.md`.
-2. Get S1-S5. Then, for the approved models:
-   - exact dates (`youtube_video_details`)
-   - transcripts and comments for the ones not yet collected (15 are in `studies/style/data/`)
-   - helpers kept apart, with a check round, the HVAC way
-3. A pack diagnosis draft, as HVAC had (`drafts/hvac-pack-diagnosis-DRAFT.md`): what the hair and fashion packs keep, adapt and add from the core and the plumbing pack's structure.
-   - Its emotion rules come from `studies/style/comparison/03` and `07`, not plumbing's.
-   - It covers the two persona profiles (Scarlet Starling, Diane de Chambray) with the agreed suggestions: a first-person voice and a soft credential, the house-vocabulary bans, the title's promise early with a scanner check, the comment ask about her, no age slogans, "old lady" only as the feared look, at most once.
-   - Everything is shown to the operator first.
-4. Then the packs, profiles, model files, tests and the two rows in `core/channels.md`; then test runs.
-5. Kept for later on the operator's call: the copycat-pair notes (`studies/style/comparison/05`, `05b`; "ill ask for them later").
-6. NexLev is paid now (the weekly 2,000 calls ran out once): budget calls per helper.
+1. Read `CLAUDE.md`, this file, `HANDOFF.md` §3 (the session 14 blocks), `style-scripts/SKILL.md`, both style profiles and `tests/iterations/iter-07/CHANGES.md`.
+2. Get S6-S8. Then a second test round (iter-08) on the fixed library, the same way (a brief writer, the VA helper, writers on built skills, judges with the rubric in `iter-07/`), ideally new titles plus one rerun, so the fixes are tested.
+3. When a round passes and the voice samples are heard: set both channels **ready** (`core/channels.md`, both profiles), add them to the script-writer's "Channels ready now" description and the INSTALL text in `tools/build_skills.py`, rebuild `dist/`, and send `script-writer`, `style-scripts`, `scarlett-starling-persona` and `diane-de-chambray-persona` together.
+4. Kept for later: the makeup pack; the copycat-pair notes (`studies/style/comparison/05`, `05b`); the ideation skill's brief spec ("we dont need ideation yet": it suggests "women I know in Paris", French phrases and dollar figures the pack treats as background).
 
 **Electrical (next, on the operator's call):**
 1. Read `CLAUDE.md`, this file, `HANDOFF.md` section 3 (the 2026-10-27 blocks), `tests/iterations/iter-05/README.md` and the three judge reports there.
@@ -231,7 +256,7 @@ The same chat finished the electrical ideation in `KPMYT/niche-research` (17 ini
 3. Check the first real Frederick script the operator pastes back: the prove-dead step against Safety rules 1 and 2, then the run 03 judge's non-blocking notes (open-box "I" lines, sentence length creeping up, procedure-first step openings).
 4. A14 (the LED glow) has no topic model since E38 went: use the closest explainer, as INDEX says.
 
-**Merging branches:** done in session 11 (Werner and festive-planck are in `main`). Any chat that merges later: merge `main` into its branch first and keep both sides; check numbers in use are 1-72 (plus letter suffixes such as 46b; 71-72 are the HVAC chat's); proposals in use are P1-P17.
+**Merging branches:** done in session 11 (Werner and festive-planck are in `main`). Any chat that merges later: merge `main` into its branch first and keep both sides; check numbers in use are 1-77 and 83-92 (plus letter suffixes such as 46b and 91b; 71-72 are the HVAC chat's, 73-77 session 13's, 83-92 session 14's); proposals in use are P1-P20.
 
 **HVAC chat (next):** read `tests/iterations/iter-06/CHANGES.md` and the HANDOFF blocks of 2026-10-27; get H1-H6; the operator's own test scripts on batch 1 (the corrected briefs) decide further fixes. Both of those branches are in `main` now (session 11): merge `main` into the HVAC branch first (Werner is channel row 9, his check is 70, the plumbing escalation line is P17), then rebuild `dist/` and send `hvac-scripts.skill`, `roger-the-hvac-guy-persona.skill` and the new `script-writer`. Batch 2 needs the brand-verdict rules first (a brand verdict stops NOT READY today).
 
@@ -265,8 +290,8 @@ The spellings here are correct; where a skill differs, the skill has the typo.
 | Lance Kavanaugh | home security: the Navy veteran | |
 | Frederick Barnes | home electrical (2026-10-27): retired electrician, 35 years, Talking Head, no book; **ready** and on the account (session 10; ElevenLabs voice name to add) | |
 | Roger the HVAC Guy | HVAC (2026-10-23): Roger's persona and triggers; **ready** (session 9), not on the account yet | |
-| Scarlet Starling | style (50+ women): the affluent American; **study done (session 12)**, packs next; the scripts and descriptions say "Sterling" (S3) | "Scarlett Sterling" |
-| Diane de Chambray | style: "the French way"; **study done (session 12)**, packs next | |
+| Scarlett Starling | style (50+ women): the affluent American; `style-scripts` pack and profile built, **pending** (channel row 10; session 14); the name is never spoken in a script | "Scarlett Sterling" (ideation) |
+| Diane de Chambray | style: "the French way"; `style-scripts` pack and profile built, **pending** (channel row 11; session 14) | ideation: "name TBC" |
 | Helena Hart | air travel: the former flight attendant | air-travel skill says "name TBC" |
 | Backyard Brenda | animals: chickens | "Backyard Bertha" |
 | Walter Wren | animals: backyard birds | |

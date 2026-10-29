@@ -94,6 +94,8 @@ HARD_BANS = [
     (r"\bstay (?:right )?here with me\b", "tease: stay right here with me"),
     (r"\b(?:do not|don'?t) skip out\b", "tease: don't skip out on me"),
     (r"\bby the end,? you'?ll\b", "tease: by the end, you'll"),
+    # a closing to-do list is a recap (operator, 2026-10-29: "audit our skills to account for this")
+    (r"\b(?:tonight'?s|today'?s|your|the whole of (?:tonight'?s|today'?s|your)) homework\b|\bhere'?s your (?:to-do|checklist)\b", "recap: a homework list at the end (one small thing to do, never a list)"),
     # pointing at the screen: banned everywhere (operator, 2026-10-20)
     (r"\bright here\b", "pointing: right here"),
     (r"\blook at this\b", "pointing: look at this"),
@@ -238,7 +240,8 @@ def read_rules(paths):
     """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
     facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None, "letters_ok": set(),
-             "item_words": None, "first_item_seconds": None, "sentence_max": None, "examples": [], "require": []}
+             "item_words": None, "first_item_seconds": None, "sentence_max": None, "examples": [], "require": [],
+             "opening_bans": [], "opening_promises": [], "judges": []}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         w = re.search(r"^Words per minute[^:\n]*:\s*(\d+)", txt, re.M)
@@ -285,6 +288,12 @@ def read_rules(paths):
                     facts["examples"].append((int(pat), p))
                 elif key.strip() == "letters-ok":
                     facts["letters_ok"].update(x.strip() for x in pat.split(",") if x.strip())
+                elif key.strip() == "opening-ban-regex":
+                    facts["opening_bans"].append((re.compile(pat, re.I), label))
+                elif key.strip() == "opening-promise-regex":
+                    facts["opening_promises"].append((re.compile(pat, re.I), label))
+                elif key.strip() == "judge-regex":
+                    facts["judges"].append((re.compile(pat, re.I), label))
                 elif key.strip() == "require-if" and " => " in pat:
                     trig, _, need = pat.partition(" => ")
                     facts["require"].append((re.compile(trig.strip(), re.I), re.compile(need.strip(), re.I), label))
@@ -614,7 +623,7 @@ def repeated_sentences(paras):
 
 # ---------------------------------------------------------------- items and sentences (report only)
 ORDINALS = "one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty".split()
-SIGNPOST = re.compile(r"(?:^|(?<=[.!?]\s))(?:And |So |Now,? )?(?:[Nn]umber|Step|Mistake|Item|Reason|Sign|Rung|Fix|Check|Tip|Thing) (" + "|".join(ORDINALS) + r"|\d{1,2})\b")
+SIGNPOST = re.compile(r"(?:^|(?<=[.!?]\s))(?:And |So |Now,? )?(?:[Nn]umber|Step|Mistake|Item|Reason|Sign|Rung|Fix|Check|Tip|Thing|Level) (" + "|".join(ORDINALS) + r"|\d{1,2})\b")
 I_LINE = re.compile(r"\bI(?:'d|'m|'ve|'ll)?\b")
 
 def item_report(text, facts, wpm):
@@ -729,6 +738,21 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
             if len(s.split()) > (facts.get("sentence_max") or SENTENCE_MAX):
                 fix.append(f"[SENTENCE OVER {facts.get('sentence_max') or SENTENCE_MAX} WORDS] ({len(s.split())} words) \"{s[:90]}...\" (split it; join two with \"but\" only where it turns)")
     whole = "\n\n".join(paras)
+    # the opening: the first minute at the profile's words per minute (opening-ban-regex, opening-promise-regex)
+    opening = " ".join(whole.split()[:facts.get("wpm") or 150])
+    for rx, name in facts.get("opening_bans", []):
+        for m in rx.finditer(opening):
+            fix.append(f"[OPENING BAN: {name}] ...{opening[max(0, m.start() - 40):m.end() + 40]}...")
+    proms = [(m, name) for rx, name in facts.get("opening_promises", []) for m in rx.finditer(opening)]
+    if len(proms) > 1:
+        fix.append(f"[OPENING: {len(proms)} promises in the first minute; at most one, paid at the end of the video] "
+                   + " | ".join(f"...{opening[max(0, m.start() - 30):m.end() + 30]}..." for m, _ in proms[:4]))
+    elif proms:
+        m, name = proms[0]
+        judge.append(f"[{name}: is it paid at the end of the video? If not, cut it] ...{opening[max(0, m.start() - 40):m.end() + 40]}...")
+    for rx, name in facts.get("judges", []):
+        for m in rx.finditer(whole):
+            judge.append(f"[{name}] ...{whole[max(0, m.start() - 40):m.end() + 40]}...")
     for trig, need, name in facts.get("require", []):
         if trig.search(whole) and not need.search(whole):
             fix.append(f"[NICHE/PERSONA REQUIRED: {name}] the script brings up \"{trig.search(whole).group(0)}\" but leaves this out")

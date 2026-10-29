@@ -1,6 +1,6 @@
 # Installing the skills
 
-**Version:** 2026-10-27 (library commit 0fd6703)
+**Version:** 2026-10-29 (library commit 5c2617d)
 
 Seventeen skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
 

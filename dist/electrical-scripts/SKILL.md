@@ -165,7 +165,7 @@ The operator (2026-10-21): "simpler and stronger on emotions... using strong wor
 8. **Reaffirm the title's feeling and key word** every few items, in nouns and verbs (the mistake, the real reason, the safe way), not "-ly" adverbs; not every item, never robotic. **When the title's feeling is fear** ("WARNING", "Dangerous", "Can Kill", "Worst", "BEWARE"), what comes back is the title's noun (the mistake, the backfeed, the panel, the lineman), not the danger word. The danger itself is said about three times in the whole video: in the opening, at the item where it's real, and once near the end as the reason the fix matters. Each time, the next line puts control back (rule 10). Fear never becomes the script's lead feeling: pride and capability lead every title.
 9. **Let the narrator speak.** One short "I" opinion or verdict in most items ("I'd replace that one today."), and once per video a line of insistence where it matters ("Please, test it first. Every time."). In a step done with the box open, the "I" line is the stop-sign verdict or comes after the test that ends the step (the power back on and the tester's lights), never while the box is open (Safety, "How safety sounds").
 10. **Capability over fear, straight after it.** Every fear line is answered in the same item, within a sentence or two, by a line that puts control back: the check they can run, the sign that it's fine, the point where they stop, or the protection already in the house doing its job (the breaker that trips, the GFCI that cuts the power, the ground wire that gives a fault somewhere to go), named only where the brief or the facts guide confirms it. The winners bracket every danger this way (E13, E14, E15, E16, E22).
-11. **Finish on relief and capability, not danger.** The last item before the ending closes on reassurance or something to do tonight.
+11. **Finish on relief and capability, not danger.** The last item before the ending closes on reassurance or one small thing to do tonight. One thing, never a to-do list or "homework" that runs back over earlier items: that is a recap (core `retention-mechanics.md` §14).
 
 **Targets** (measured in the 31 models with labels stripped, on the model set of 2026-10-27 before six were removed; a judge measures the finished script the same way. These are floors, never quotas: a sentence never gets a "you" or a "but" just to hit a number.)
 - **"you"** (you, your, yourself and their contractions): at least 35 per 1,000 words in fix, mistakes, single-big-mistake and know-this scripts (model medians: fix 43, mistakes 37, know-this 33, single 28); at least 30 in how-to (every step is "you" here, because there is no on-camera "I"); at least 20 in explainers and X vs Y (model medians 16 and 30). Frederick's old scripts: 26.6.
@@ -240,11 +240,13 @@ In a know-this list, each item runs: the moment in the viewer's house when it ma
 
 No aside or side story inside a step where the box is open or the panel cover is off; asides go between steps.
 
+**One step, one job** (operator, 2026-10-29: "thats fine to be honest as long as its not waffling. but yes if within that step there are 2 steps in it, it can be split"). A long step is fine when every sentence does the job. A step that holds two jobs the viewer would do one after the other is split into two numbered steps: prove it dead, then look inside; make the connections, then choose the outlet type. Frederick's outlet video ran step two at 555 words (prove dead, then the whole look inside) and step ten at 514 (the connections, then GFCI and AFCI).
+
 **No "first, second, third" inside a numbered step or item** (test run 01: "Fourth" came 54 seconds before "Step four", and on one listen they collide). Name the parts instead: the rating, the shutters, the wet spots, the box with no ground.
 
 ### The rung shape in fix videos
 
-**In any swap, look before you shop** (test run 01). Anything that decides which part to buy and can only be seen inside the box (a ground wire or none, aluminum, how many wires, a stop sign such as scorching or a melted box) is checked first: power off, prove it dead, ease the device out and look, put it back, then shop. Or the shopping step says plainly to buy after that look. The store step never describes opening the box, and no stop sign lands after the part is bought.
+**In any swap, look before you shop** (test run 01). Anything that decides which part to buy and can only be seen inside the box (a ground wire or none, aluminum, how many wires, a stop sign such as scorching or a melted box) is checked first: power off, prove it dead, ease the device out and look, put it back, then shop. Or the shopping step says plainly to buy after that look. The store step never describes opening the box, and no stop sign lands after the part is bought. **The buying step adapts to what the viewer found** (operator, 2026-10-29: "make sure the script is adaptive for this"): for each thing the look can turn up, it says what to buy or where to stop, never one assumed case. The wire size against the breaker (facts guide 1.18: 12-gauge on a 15-amp breaker is fine, so the new cable may be 14 or 12; on 20 amps, 12 only; 14-gauge on 20 amps is the call); copper or aluminum (aluminum is the stop); a ground wire or none; a metal or plastic box; room in the box or not. Rules keyed to a place go by where the **new** device sits (GFCI: facts guide 4.30), and a kitchen or bathroom circuit limit is said by room (1.17a). An AFCI receptacle covers an extension only at the first outlet of the existing circuit (6.19a).
 
 Each rung of the fix ladder, easiest first, call last:
 1. what the viewer notices or checks, as an instruction that points at a sense ("Turn the fan on and watch the light.") or follows one line of the scene in their house (Emotion rule 1); never a bare procedure ("Step six. Make the swap." alone)
@@ -262,15 +264,15 @@ When the brief or the facts guide says the work is a licensed electrician's job 
 
 **Code in its place.** A code rule, permit note or other code background goes inside the step that needs it, in two or three plain sentences. It may come before the first fix only when every fix is judged against it, and then in under about 40 seconds (E09 gives the free-wire rule in 37 seconds before its ladder); never a block of code before the fix.
 
-- **Length per item, step or block: set by the 12-minute minimum, never below it.** At 195 words a minute, about 2,100 words sit inside the items at 12 minutes and about 2,700 at 15 (the opening and the ending take about 220). So the guide per item is:
+- **Length per item, step or block: set by the 12-minute minimum, never below it.** At Frederick's 162 words a minute, about 1,700 words sit inside the items at 12 minutes and about 2,200 at 15 (the opening and the ending take about 220). So the guide per item is:
 
   | Items | Words each at 12 min | at 15 min | at 22 min |
   |---|---|---|---|
-  | 3 | about 700 (split into named parts: see "Small counts") | 900 | 1,350 |
-  | 5 | 420 | 540 | 810 |
-  | 7 | 300 | 390 | 580 |
-  | 9 | 235 | 300 | 450 |
-  | 10 | 210 | 270 | 405 |
+  | 3 | about 575 (split into named parts: see "Small counts") | 735 | 1,115 |
+  | 5 | 345 | 440 | 670 |
+  | 7 | 245 | 315 | 480 |
+  | 9 | 190 | 245 | 370 |
+  | 10 | 170 | 220 | 335 |
 
   How-to steps and fix rungs can be shorter (60 to 150 words) when the job has many steps; an explainer block runs about 150 to 250 words (E13, E14, E16). The winners' 12-minute lists ran items of about 170 to 430 words (E24, E25). The minimum never wins over value: a longer item carries more of the brief (the reason, the check, the sign it's a call, the related slip), never a warning said twice or a point restated. Cut those first; never cut power off, prove it dead, how the power comes back or the test after.
 - **Bridges:** never more than two items or steps in a row without a forward line: a line naming what comes next, a question the next item answers, or a check the viewer is about to run. An item's own stake line doesn't count.
@@ -326,13 +328,13 @@ No recap, no tease of a future video, no sign-off after the comment line.
 
 ## Length
 
-**At least 12 minutes** of narration (this pack raises the core 8-minute minimum), counted at the profile's words per minute (Frederick: 195, so at least 2,340 spoken words). **15 to 22 minutes is the sweet spot** (operator, 2026-10-27). Inside that, the value decides.
+**At least 12 minutes** of narration (this pack raises the core 8-minute minimum), counted at the profile's words per minute (Frederick: 162, so at least 1,950 spoken words; operator 2026-10-29, from his first electrical upload: 3,223 words played in 19:52). **15 to 22 minutes is the sweet spot** (operator, 2026-10-27). Inside that, the value decides.
 
 - **A request to make a finished script longer** ("make it 14-16 minutes") gets one reply: the length comes from the brief, and a longer video needs a fuller brief from ideation. The chat never adds words to a script that passed (operator, 2026-10-25: "tell VAS NOT to ask for length").
 - **Never pad.** The same warning said twice, the promise restated, or a step explained twice is padding.
 - **If the brief can't fill 12 minutes with real value,** even with the facts guide, the run stops with NOT READY and asks for a fuller brief. The fix belongs at the ideation stage.
-- **For calibration:** the 31 models run 5 to 32 minutes; the niche's in-lane videos typically 8 to 17. At 195 words a minute, 14 of the models would run under 12 minutes even with their demonstrations and CTAs (E01, E05, E09, E10, E15, E19, E21, E22, E26, E29, E32, E33, E34, E37). A script modelled on one of them needs more content than the model, never slower or longer sentences.
-- **The length check comes before any prose.** The plan gives each item, step or block its words from what the brief and the facts guide give it: each distinct fact, check, step or slip, said with its reason and its win, carries about 60 to 120 spoken words. If the total is under 2,340 without any restatement, the run stops with NOT READY and names what the brief is missing (more causes, the warning signs, the related slips, the second method).
+- **For calibration:** the 31 models run 5 to 32 minutes; the niche's in-lane videos typically 8 to 17. At 195 words a minute (the figure the pack was built on), 14 of the models would run under 12 minutes even with their demonstrations and CTAs (E01, E05, E09, E10, E15, E19, E21, E22, E26, E29, E32, E33, E34, E37). A script modelled on one of them needs more content than the model, never slower or longer sentences.
+- **The length check comes before any prose.** The plan gives each item, step or block its words from what the brief and the facts guide give it: each distinct fact, check, step or slip, said with its reason and its win, carries about 60 to 120 spoken words. If the total is under 12 minutes at the profile's words per minute (Frederick: about 1,950) without any restatement, the run stops with NOT READY and names what the brief is missing (more causes, the warning signs, the related slips, the second method).
 
 ## Voice
 
@@ -511,6 +513,7 @@ once-regex: \bso what do you do instead\b | the item shape's turn question (word
 
 Check that:
 - the point comes in the first sentence, with the problem the viewer has and the fix or answer named by about 15 seconds
+- one job per step (a step that holds two jobs is split); the buying step covers each case the look inside can turn up (1.18, 4.30, 1.17a, 6.19a)
 - the opening follows the video type's order, with at most one value promise that never runs down the first items in order, and no intro, greeting, vague tease or recap
 - every item or step puts the viewer in the scene, aims at one feeling, has at least one "but" turn and ends on a win; bridges turn between items; a question about every two items; the title's feeling and key word come back every few items; an "I" verdict in most items and one insistence line; capability balances every fear line; the last item closes on relief
 - items follow the item shape (lists), the step shape (how-to) or the rung shape (fix), each at the words the plan's length estimate gave it, item one by about 30 seconds in lists, and no more than two in a row without a forward line (an item's own stake line doesn't count)

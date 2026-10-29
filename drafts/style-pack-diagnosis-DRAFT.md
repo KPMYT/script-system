@@ -1,8 +1,8 @@
 # Style pack diagnosis: one hair-and-fashion pack and two profiles (DRAFT)
 
-Written 2026-10-28 by the session 13 chat (branch `claude/youthful-ritchie-zq7e92`), for the next step the operator set: "the pack diagnosis draft for the hair and fashion packs and the two persona profiles". Since then the operator decided hair and fashion are **one pack for now** (HANDOFF §3, session 13). **Nothing in any skill, pack or profile has changed.** This is the plan; every change goes to the operator first.
+Written 2026-10-28 by the session 14 chat (branch `claude/youthful-ritchie-zq7e92`), for the next step the operator set: "the pack diagnosis draft for the hair and fashion packs and the two persona profiles". Since then the operator decided hair and fashion are **one pack for now** (HANDOFF §3, session 14). **Nothing in any skill, pack or profile has changed.** This is the plan; every change goes to the operator first.
 
-**The operator's answers (2026-10-29), recorded in `HANDOFF.md` §3 (session 13, the diagnosis):** 1 yes (`style-scripts`); 2 yes (Talking Head); 3 yes (one numberless line); 4 yes (one heritage line, "raised in Paris"); 5 yes (no age, no "one of us"); 6 **no sign-offs** (the script ends on the comment ask); 7 yes; 8 yes (the book texts still to paste); 9 **no subscribe CTA, just the e-book**; 10-12 yes; 13 yes, "unless brief says otherwise" (the brief wins over the defaults); 14 **"we can have opinions against brands"**; 15-17 yes; 18 yes, "make it tts friendly". Later the same day: 21 "salon is not the enemy" (no salon or stylist villain, even in tone); 22 "we dont need ideation yet". Not answered yet: 19 (voice samples), 20 (personal details); "scarlet" (unplaced, asked).
+**The operator's answers (2026-10-29), recorded in `HANDOFF.md` §3 (session 14, the diagnosis):** 1 yes (`style-scripts`); 2 yes (Talking Head); 3 yes (one numberless line); 4 yes (one heritage line, "raised in Paris"); 5 yes (no age, no "one of us"); 6 **no sign-offs** (the script ends on the comment ask); 7 yes; 8 yes (the book texts still to paste); 9 **no subscribe CTA, just the e-book**; 10-12 yes; 13 yes, "unless brief says otherwise" (the brief wins over the defaults); 14 **"we can have opinions against brands"**; 15-17 yes; 18 yes, "make it tts friendly". Later the same day: 21 "salon is not the enemy" (no salon or stylist villain, even in tone); 22 "we dont need ideation yet". Not answered yet: 19 (voice samples), 20 (personal details); "scarlet" (unplaced, asked).
 
 **What was read:**
 - the core (`core/`, the scanner included), `tools/build_skills.py`, `tests/run_checks.py`, `HANDOFF.md` §3, `PROPOSALS.md`
@@ -40,7 +40,7 @@ So the plumbing pack's **structure** carries over (inputs, the overrides table, 
 | The plumbing pack's rules | About a third KEEP, half ADAPT, the rest NEW or DROP | Large: a real rewrite |
 | References | Structure KEEP; content all new: 30 real models and 7 faceless structure-only models, voice samples from women, excerpts. **No price guide.** | Large |
 | The two profiles | NEW. Notion, the ideation skill and our 38 scripts disagree on who each woman is (section 5). | Medium, but it needs your decisions |
-| Wiring | Rows 10 and 11, build entries, checks, P19 | Small |
+| Wiring | Rows 10 and 11, build entries, checks, P20 | Small |
 
 ---
 
@@ -390,7 +390,7 @@ Your answer to suggestion 4 ("a first-person voice and one soft credential", wit
 - `core/channels.md`: **row 10 Scarlet Starling, row 11 Diane de Chambray**, `style-scripts`, pending until a test passes.
 - `tools/build_skills.py`: the description (about 834 of 1,024 characters), the skills table, a style scanner command (no price guide), `PERSONAS`, `PACKS`, `INSTALL` (three more skills).
 - `tests/run_checks.py`: style twins of the pack, scanner-block, copy-guard, profile and channel-row checks, numbered **from 73**; checks 1b and 2 extended to the style pack. (Check 2 flags the phrase "house rules", so the pack says "house vocabulary".)
-- `PROPOSALS.md`: **P19** for the core scanner changes.
+- `PROPOSALS.md`: **P20** for the core scanner changes.
 - `README.md` and `personas/README.md`: the file map.
 
 ---
@@ -406,7 +406,7 @@ Your answer to suggestion 4 ("a first-person voice and one soft credential", wit
 ## 8. Proposed order of work
 
 1. **Your answers** to section 9.
-2. **The core scanner changes** (P19), each with a test: title words, style signposts, style tenure words, the channel-intro ban, the accents choice, the build-script fix.
+2. **The core scanner changes** (P20), each with a test: title words, style signposts, style tenure words, the channel-intro ban, the accents choice, the build-script fix.
 3. **The pack** (`style-scripts/`), section by section as in section 3, with every example line new.
 4. **The model files** (30 real, 7 faceless) and the INDEX, the excerpts; the voice samples after your listen.
 5. **The two profiles**, once ASK 3-8 are answered and the book texts are pasted.
@@ -457,7 +457,7 @@ Each has a recommendation. "Yes to all recommended" is a fine answer; change any
 
 **The scanner and wiring**
 
-17. **Core scanner changes (P19), every channel, each with a test:** the title-word check (your suggestion 2), style item signposts, style tenure words, the channel-intro ban in the core list; and the one-line fix to the build script's unclosed code block. This chat does them. *Recommended.*
+17. **Core scanner changes (P20), every channel, each with a test:** the title-word check (your suggestion 2), style item signposts, style tenure words, the channel-intro ban in the core list; and the one-line fix to the build script's unclosed code block. This chat does them. *Recommended.*
 18. **French words:** written without accents ("voila", "cherie", "a bientot"), one or two a script, after a quick voice check. *Recommended.* (The other way is a scanner key for allowed accented letters.)
 
 **Yours to do (nobody else can)**

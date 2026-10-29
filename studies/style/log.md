@@ -69,9 +69,9 @@
 
 - Session 12 ends here. Open: the operator's model picks (S1), the three packs (S2), the name in scripts (S3), age brackets (S4), production points (S5); see `SESSION-HANDOVER.md`.
 
-## Round 6: the models (session 13, 2026-10-28)
+## Round 6: the models (session 14, 2026-10-28)
 
-- The operator's answers (HANDOFF §3, session 13 block): picks left to Claude; a faceless section of 5-10 outliers on other topics; hair and fashion one pack for now ("the emotions are the same right? compare scripts"); S3, S4, S5 settled. P18 records the model floors.
+- The operator's answers (HANDOFF §3, session 14 block): picks left to Claude; a faceless section of 5-10 outliers on other topics; hair and fashion one pack for now ("the emotions are the same right? compare scripts"); S3, S4, S5 settled. P19 records the model floors.
 - **The picks** (`models/approved-models.csv`): 28 real-presenter models (M01-M28; 12 hair, 15 fashion, 1 French angle), 13 of them already collected; 8 faceless structure-only models (F01-F08: glasses, earrings, shoes, colors, the French way, the national lens, hacks, blouses; all 300K+), 5 already collected. Row 15 of `candidates-for-review.md` was marked "already in the study" but isn't (the study has Adore Your Wardrobe's `vBsFMkGDbhA`); corrected.
 - Helpers started: H5 and H6 collect the 18 new videos (details, transcripts, comments, notes; at most 45 and 55 calls); H7 searches for real-presenter jewelry, glasses and earring videos (at most 30 calls); sweeps A (the library against the style evidence) and B (the two persona profiles) write notes into `pack-diagnosis-2026-10-28/` for the diagnosis draft (no calls).
 - **Collected (H5, H6):** all 18 with transcripts (H5 36 calls, H6 45). Exact dates: M25 Marnie Goldberg is 2022-10-04 (inside "nothing before 2022"). **F07 dropped:** narration only 0:00-2:38, then music. **M05 (RaDona)** is a salon cut-along (no hook, list or CTA): kept for voice and emotion (the over-70 client), not structure. M25's "top" comments came back newest-first (20 only). F02 and F06 are called AI in comments (7, 4). H5 ran one read-only `git status` against its instructions. **Main-session check:** an independent script found every quoted string in the 37 notes in its transcript, comments or meta (1,868 quote spans; the 85 flagged were all gaps between two quotes, not quotes).
@@ -80,3 +80,7 @@
 - **M29 and M30 collected** (H6 second batch, 10 calls; H6 55 in all). Both real, no AI remarks. M30 is a how-to demo with 1:47 of channel housekeeping at the end. All 30 real models and 7 faceless (F07 dropped) are collected.
 - **`comparison/08-hair-vs-fashion.md` (H8, no calls):** 38 real (15 hair, 23 fashion) and 20 faceless transcripts read in full, 2,138 comments coded by hand. Mostly the same feelings (29% of comments on each side voice one; the same four lead). Differences: the blame (hair the stylist, 12 of 15 videos against 0 of 23; fashion the fit, 12 of 23 against 0 of 15); the feeling named (hair the fear of the change, 10 of 21 items against 3 of 47; fashion the body, comfort and confidence, 37 of 47); hard words (13 of 23 fashion scripts, 1 of 15 hair). Quotes checked by script (48, 0 problems). H8 ran one read-only `git status` against its instructions. **Main-session check:** a crude keyword pass over the 58 classified videos (faceless included) points the same way: hard words in 1 of 21 hair scripts and 14 of 37 fashion; "stylist/salon" in the comments of 16 of 21 hair videos and 6 of 37 fashion.
 - **The pack diagnosis draft** written (`drafts/style-pack-diagnosis-DRAFT.md`) from the sweeps and `08`; ban-table counts checked against the sweep's tables (two corrected). Sent to the operator.
+
+## Handover (2026-10-29, session 14)
+
+- Session 14 ends here: the models, the hair and fashion comparison, the pack, both profiles, both books, the hook bank and the first tests (iter-07). Open: S6-S8 in `SESSION-HANDOVER.md`.

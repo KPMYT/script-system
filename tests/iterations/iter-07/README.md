@@ -1,6 +1,6 @@
 # TEST: iter-07, the first style tests (Scarlett Starling, Diane de Chambray)
 
-All material here is TEST. Run 2026-10-29 by the session 13 chat (branch `claude/youthful-ritchie-zq7e92`) on the operator's word ("yes run a test"), with the library at the commit after `81b` (the style pack, both profiles, the hook bank, both book indexes). Like for like: three titles our channels already published, before the library existed.
+All material here is TEST. Run 2026-10-29 by the session 14 chat (branch `claude/youthful-ritchie-zq7e92`) on the operator's word ("yes run a test"), with the library at the commit after `81b` (the style pack, both profiles, the hook bank, both book indexes). Like for like: three titles our channels already published, before the library existed.
 
 | File | What it is |
 |---|---|

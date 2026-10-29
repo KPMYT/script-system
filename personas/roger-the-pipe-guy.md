@@ -13,7 +13,7 @@ Niche pack: plumbing-scripts
 THE BASICS
 Script type: Classic
 Voice provider: ElevenLabs (Ron - Calm, Confident & Clear, voice ID xkDz8dF9GIt1kG06c9Of)
-Words per minute (optional, for runtime estimates): not set
+Words per minute (for runtime and the 12-minute minimum): 170 (his three newest voiceovers, 2026-10-28, ran 169, 170 and 169; operator 2026-10-29: "lets push the length of all the plumbing scripts as a minimum please. they are all coming short")
 
 THE PERSONA
 Name: Roger (the channel: Roger the Pipe Guy)

@@ -378,8 +378,8 @@ check("31. build-order 'at the very end' lines pass; 'saving the best for the ve
 # 32. runtime: the profile's words per minute and the niche pack's minimum
 code,out=run_scan("Cut the board.\n",[WWR,f"{PERS}/hank-hardwood.md"])
 code2,out2=run_scan("Rinse the trap.\n",[PLR,ROGER])
-check("32. runtime uses the profile's words per minute (Hank 185) and the pack's minimum (plumbing 12, woodworking 8)",
-      "at 185 words a minute; minimum 8" in out and "at 150 words a minute; minimum 12" in out2, out[:300]+out2[:300])
+check("32. runtime uses the profile's words per minute (Hank 185, Roger 170) and the pack's minimum (plumbing 12, woodworking 8)",
+      "at 185 words a minute; minimum 8" in out and "at 170 words a minute; minimum 12" in out2, out[:300]+out2[:300])
 
 # 33. a title's years of selling unlock that figure (Dale's title format)
 code,out=run_scan("I've spent forty years at the bench.\n",[WWR,f"{PERS}/dale-oakfield.md"],title="In 40 Years of Selling, Nothing Beats This Build")
@@ -593,14 +593,14 @@ check("49. copy guard: the clean electrical paragraph passes against the pack's 
       and len(EL_REFS)==35 and not nolift and not uncaught and code==1 and code2==0 and "COPIED" not in out2,
       f"models={EL_MODELS}; refs={len(EL_REFS)} no line found in {nolift}; not caught {uncaught}; "+out2[:400])
 
-# 50. Frederick's profile: Talking Head, 195 wpm, no book (NO BOOK marker), subscribe only, name and tenure 35;
+# 50. Frederick's profile: Talking Head, 162 wpm (195 until 2026-10-29), no book (NO BOOK marker), subscribe only, name and tenure 35;
 #     a different tenure, a name intro and the firefighter framing fail
 fp=open(FRED).read(); ff=facts_of(FRED)
 code,out=run_scan("I have been at this for 25 years.\n",[ELR,FRED])
 code2,out2=run_scan("I have been at this for 35 years.\n",[ELR,FRED])
 code3,out3=run_scan("I'm Frederick Barnes, and as a retired firefighter I know this.\n",[ELR,FRED])
-check("50. Frederick's profile: Talking Head, 195 wpm, subscribe only (NO BOOK), name and tenure 35; 25 years, a name intro and the firefighter framing fail",
-      "Script type: Talking Head" in fp and "Words per minute (for runtime and the length minimum): 195" in fp and "Type: subscribe only" in fp
+check("50. Frederick's profile: Talking Head, 162 wpm, subscribe only (NO BOOK), name and tenure 35; 25 years, a name intro and the firefighter framing fail",
+      "Script type: Talking Head" in fp and "Words per minute (for runtime and the length minimum): 162" in fp and "Type: subscribe only" in fp
       and "NO BOOK" in fp and "Mid-video CTA: no" in fp and "name: Frederick Barnes" in ff and "tenure: 35" in ff and not any(l.startswith("book:") for l in ff)
       and code==1 and "PERSONA FACT: tenure" in out and code2==0 and code3==1 and "name intro" in out3 and "firefighter" in out3, out+out2+out3)
 
@@ -891,43 +891,96 @@ check("46b. plumbing hook: the escalation line is an option, not a rule, rotated
       and "apart from the count line or the escalation line" in pk
       and "NOT PLUMBING" in r21 and "## Beat map" not in r21 and "## Script" not in r21 and "R21-nailed-it-drywall-repair-beginners.md" in idx, "")
 
-# ---- P19 (operator 2026-10-29): core scanner changes for style ----
-# 73. the title-word check: a pack's title-words in the locked title must be said twice, once in the first minute; title digits match spoken words
+# ---- the Werner and Frederick upload review (operator, 2026-10-29) ----
+# 73. every plumbing profile sets its real words per minute (Roger 170, Mark 181, Vintage 190, Werner 181), and the runtime uses it:
+#     Werner's 2,010 words, 11:06 on air, now fall under 12 minutes; Frederick 162
+pl_wpm={ROGER:"170",MARK:"181",VINT:"190",f"{PERS}/werner-finkbeiner.md":"181"}
+wpm_ok=all(re.search(r"^Words per minute \(for runtime and the 12-minute minimum\): "+v+r"\b",open(k).read(),re.M) for k,v in pl_wpm.items())
+c73,o73=run_scan(("Flush once and watch it go. "*335)+"\n",[PLR,f"{PERS}/werner-finkbeiner.md"])
+check("73. plumbing profiles set real words per minute (170/181/190/181); a 2,010-word Werner script is under 12 minutes; Frederick 162",
+      wpm_ok and "at 181 words a minute; minimum 12" in o73 and "under the minimum" in o73
+      and "Words per minute (for runtime and the length minimum): 162" in open(f"{PERS}/frederick-barnes.md").read()
+      and "1,950" in open(f"{EL}/SKILL.md").read(), o73[:400])
+
+# 74. the plumbing opening: "today you learn", a promise with a time on it and two promises in the first minute fail; one
+#     promise is judged; "nothing here needs a plumber" is judged; "Level one" is a signpost; item one past 45 seconds is marked;
+#     "tonight's homework" fails on every channel
+WERNP=f"{PERS}/werner-finkbeiner.md"
+_,o74a=run_scan("The toilet is blocked. So, today you learn to unclog a toilet. If the answer is no, you will know in two minutes. Nothing from a jug goes in, and you will hear why.\n",[PLR,WERNP])
+_,o74b=run_scan("The toilet is blocked, and the water is climbing. By the last level, you will know the one sign that means the main line.\n",[PLR,WERNP])
+_,o74c=run_scan("Nothing here needs a plumber. Level one, slow. Plunge it.\n",[PLR,WERNP])
+c74d,o74d=run_scan("Cut the board. And that is the whole of tonight's homework.\n",[WWR,f"{PERS}/hank-hardwood.md"])
+_,o74e=run_scan(("The water sits high in the bowl. "*40)+"Level one, slow. Soap and hot water. Level two, rising. Lift the lid.\n",[PLR,WERNP])
+check("74. plumbing opening: 'today you learn', a timed promise and two promises fail; one end promise and 'no plumber needed' judged; Level signposts; homework fails anywhere",
+      "today you learn" in o74a and "a promise with a time on it" in o74a and "OPENING: 2 promises" in o74a
+      and "OPENING:" not in o74b.split("JUDGE")[0] and "is it paid at the end of the video" in o74b
+      and "no plumber needed" in o74c and "ITEMS: 1" in o74c and c74d==1 and "homework" in o74d
+      and "ITEMS: 2" in o74e and "later than 45 seconds" in o74e, o74a[-500:]+o74b[-300:]+o74c[-300:]+o74e[:300])
+
+# 75. the pack text: short opening built on a named model, no tool list and the kit once, one end-of-video promise, the scope line
+#     never "no plumber needed", the silence line in plain words, one small thing at the end (every pack and the core)
+plp=open(PLR).read(); plt=open(f"{PL}/references/unit-plan-template.md").read(); rm=open(f"{CORE}/retention-mechanics.md").read(); ga=open(f"{CORE}/greenlight-audit.md").read()
+check("75. plumbing opening rules (reference model, 45 s, kit once, one end promise, no 'no plumber'), plain silence line, one small thing at the end everywhere",
+      "**Short, and built on a reference**" in plp and "**No tool list in the opening, and the kit is named once in the whole video**" in plp
+      and "**One end-of-video promise, at most**" in plp and "Never a blanket \"nothing here needs a plumber\"" in plp and "**In simple words**" in plp
+      and "- opening model:" in plt and "- end-of-video promise:" in plt and "first-item-seconds: 45" in plp
+      and "**One** action: a closing to-do list" in rm and "closing to-do list or \"homework\"" in ga
+      and all("one small thing to do tonight" in open(f).read() for f in (PLR,f"{EL}/SKILL.md",f"{ROOT}/hvac-scripts/SKILL.md")), "")
+
+# 76. Frederick: one step, one job; the buying step adapts to what the look found; facts guide 1.18 (gauge against breaker),
+#     1.17a (kitchen and bathroom circuits by room), 4.30 (GFCI by the new outlet's place), 6.19a (AFCI outlet at the first outlet)
+ekp=open(f"{EL}/SKILL.md").read(); fgp=open(f"{EL}/references/facts-guide.md").read()
+check("76. electrical: one step one job; adaptive buying step; facts 1.18, 1.17a, 4.30, 6.19a",
+      "**One step, one job**" in ekp and "**The buying step adapts to what the viewer found**" in ekp
+      and "| 1.18 | The breaker can be smaller than the wire allows" in fgp and "| 1.17a |" in fgp and "| 4.30 |" in fgp
+      and "first receptacle outlet of the existing circuit" in fgp, "")
+
+# 77. second round (operator, 2026-10-29): HVAC takes the plumbing opening rules and always models off winners; plumbing
+#     talking-point briefs are enough (NOT READY only when built-out points can't reach 12 minutes)
+hvp=open(f"{ROOT}/hvac-scripts/SKILL.md").read(); hvt=open(f"{ROOT}/hvac-scripts/references/unit-plan-template.md").read()
+_,o77=run_scan("The furnace quit. So, today you learn the fix. You will know in two minutes. Nothing here needs a tech.\n",[f"{ROOT}/hvac-scripts/SKILL.md",f"{PERS}/roger-the-hvac-guy.md"])
+check("77. HVAC: winner-modelled short opening, P18, kit once, no 'no tech needed', model never none; plumbing talking-point briefs",
+      "**Short, and always built on a winner**" in hvp and "**One end-of-video promise, at most**" in hvp and "**Every script models off winners**" in hvp
+      and "\"model: none\" is not allowed" in hvp and "[file numbers; never none]" in hvt and "first-item-seconds: 45" in hvp
+      and "today you learn" in o77 and "a promise with a time on it" in o77 and "no tech needed" in o77
+      and "**A brief of talking points is a full brief**" in open(PLR).read(), o77[-600:])
+# ---- P20 (operator 2026-10-29): core scanner changes for style ----
+# 83. the title-word check: a pack's title-words in the locked title must be said twice, once in the first minute; title digits match spoken words
 with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("```scanner\ntitle-words: instant, young, ten years | promise words\n```\nWords per minute: 170\n"); tw=t.name
 TT="3 Haircuts That INSTANTLY Make You Look 10 Years YOUNGER"
 tw_bad=run_scan("These cuts make you look instantly younger.\n\nNumber one. Keep the length.\n",[tw],title=TT)
 tw_good=run_scan("These cuts make you look instantly younger, ten years younger.\n\nNumber one. Keep the length. Instantly lighter, ten years off.\n",[tw],title=TT)
 tw_none=run_scan("These cuts are lovely.\n",[tw],title="3 Haircuts for Fine Hair")
-check("73. P19 title words: a title word said once (\"younger\"), or not at all, fails; said twice with one early passes; '10 Years' in the title matches 'ten years'; words not in the title aren't asked for",
+check("83. P20 title words: a title word said once (\"younger\"), or not at all, fails; said twice with one early passes; '10 Years' in the title matches 'ten years'; words not in the title aren't asked for",
       tw_bad[0]==1 and '[TITLE WORD] "instant"' in tw_bad[1] and '[TITLE WORD] "ten years"' in tw_bad[1] and '[TITLE WORD] "young" is in the title and said 1 time' in tw_bad[1]
       and tw_good[0]==0 and "TITLE WORDS: instant 2" in tw_good[1] and tw_none[0]==0 and "none of the pack's title-words is in the title" in tw_none[1],
       tw_bad[1][-600:]+tw_good[1][-400:])
-# 74. the channel intro is a core hard ban (every channel)
+# 84. the channel intro is a core hard ban (every channel)
 ci=[run_scan(f"Check the hem.\n\n{l}\n")[1] for l in ("I'm Scarlet Sterling and this channel is for women over 60.","I'm Diane, and I'm here for women over 60.")]
-check("74. P19: 'this channel is for' and 'I'm here for women over' are core hard bans",
+check("84. P20: 'this channel is for' and 'I'm here for women over' are core hard bans",
       all("[HARD BAN: channel intro: this channel is for]" in x for x in ci) and "channel intro" not in run_scan("This channel of light at the window helps.\n")[1], "")
-# 75. style tenure words: a stylist's or fashion years figure is checked against the profile's tenure; a hair-dye or closet age is not
+# 85. style tenure words: a stylist's or fashion years figure is checked against the profile's tenure; a hair-dye or closet age is not
 with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("```scanner\ntenure: none\n```\n"); tn=t.name
 st_bad=["As a stylist for 30 years, I know this.","After 30 years in fashion, I know this.","In forty years of dressing women, I learned this.","She is a 25-year stylist.","I spent 20 years in the fashion world."]
 st_ok=["Ten years of hair dye can dull the ends.","Your jeans have been in the closet for 20 years.","You've been wearing that cut for thirty years."]
 st_miss=[l for l in st_bad if run_scan(l+"\n",[tn])[0]!=1]; st_false=[l for l in st_ok if "TENURE" in run_scan(l+"\n",[tn])[1].upper().split("FIX ON SIGHT")[1]]
-check("75. P19: style tenure words (stylist, fashion, dressing women, a 25-year stylist) fail with tenure none; hair-dye and closet ages pass",
+check("85. P20: style tenure words (stylist, fashion, dressing women, a 25-year stylist) fail with tenure none; hair-dye and closet ages pass",
       not st_miss and not st_false, f"missed: {st_miss}; false: {st_false}")
-# 76. style signposts: "Rule number one", "Secret number two" and "Knot three" are items; the build script's electrical command block is closed
+# 86. style signposts: "Rule number one", "Secret number two" and "Knot three" are items; the build script's electrical command block is closed
 sp=run_scan("A short opening line.\n\nRule number one. Keep the length.\n\nSecret number two. Lift the crown.\n\nKnot three. The loop.\n")[1]
 bs=open(f"{ROOT}/tools/build_skills.py").read()
-check("76. P19: 'Rule number one', 'Secret number two', 'Knot three' are read as items 1-3; the electrical scanner command's code block is closed before HVAC's",
+check("86. P20: 'Rule number one', 'Secret number two', 'Knot three' are read as items 1-3; the electrical scanner command's code block is closed before HVAC's",
       "ITEMS: 3 | item one at word 4" in sp and "--final\n```\n\nHVAC (the same shape as plumbing" in bs, sp[-400:])
 
 # ---- the style pack and its two channels (operator 2026-10-29: the diagnosis answers) ----
 STY=f"{ROOT}/style-scripts"; STR=f"{STY}/SKILL.md"; SCAR=f"{PERS}/scarlett-starling.md"; DIAN=f"{PERS}/diane-de-chambray.md"
 sk=open(STR).read(); sc_p=open(SCAR).read(); di_p=open(DIAN).read()
-# 77. the style pack's inputs and overrides: title, brief, rotation log, no research pack; no sign-off; the book as the only CTA; 12 minutes; prices only on budget titles; never the salon
-check("77. style pack: inputs (title, brief, rotation log; research pack not used); no sign-offs; the book the only CTA; 12 minutes; prices only on budget titles; never the salon; P3 not carried",
+# 87. the style pack's inputs and overrides: title, brief, rotation log, no research pack; no sign-off; the book as the only CTA; 12 minutes; prices only on budget titles; never the salon
+check("87. style pack: inputs (title, brief, rotation log; research pack not used); no sign-offs; the book the only CTA; 12 minutes; prices only on budget titles; never the salon; P3 not carried",
       "- research-pack | not used |" in sk and "- rotation-log | required |" in sk and '"no sign offs"' in sk and '"no sub cta. just ebook"' in sk
       and "min-minutes: 12" in sk and "No price unless the title promises budget" in sk and '"salon is not the enemy"' in sk
       and "Plumbing's named forward promises in the body (P3) don't carry to style" in sk and "title-words:" in sk, "")
-# 78. the style scanner block: a clean paragraph passes on both channels; the house vocabulary, age slogans, the formula, a subscribe ask, a tease,
+# 88. the style scanner block: a clean paragraph passes on both channels; the house vocabulary, age slogans, the formula, a subscribe ask, a tease,
 #     an experience claim and an unflagged hard word fail; "sterling silver" and "a chambray shirt" pass
 clean_s=("If your haircut makes you look older than you feel, it's usually the shape, not the length. These five cuts look younger on fine hair, and each one starts with what you ask for in the chair.\n\n"
          "Have you ever left the salon with a cut that looked lovely for one day and then fell flat? That's fine hair doing what fine hair does. But it can be fixed.\n\n"
@@ -936,45 +989,45 @@ cs=[run_scan(clean_s,[STR,P],title="5 Haircuts That Make Fine Hair Look Younger"
 bad_s=["Small gold hoops finish it.","It reads as expensive.","She looks polished from across the room.","Age is just a number.","You've earned it.","It's not you, it's the blouse.",
        "Subscribe for more.","We'll get to that one later.","I wore this to dinner.","My clients love this cut.","She looks like an old lady in it.","Studies show it works.","So many of us feel this."]
 s_pass=[l for l in bad_s if run_scan(f"Check the hem.\n\n{l}\n",[STR,SCAR])[0]!=1]
-check("78. style scanner block: a clean paragraph passes on both channels; house vocabulary, age slogans, the formula, subscribe, tease, experience, clients, an unflagged hard word, 'studies show' and 'one of us' fail",
+check("88. style scanner block: a clean paragraph passes on both channels; house vocabulary, age slogans, the formula, subscribe, tease, experience, clients, an unflagged hard word, 'studies show' and 'one of us' fail",
       cs[0][0]==0 and cs[1][0]==0 and not s_pass, f"clean: {cs[0][1][-400:] if cs[0][0] else ''}{cs[1][1][-400:] if cs[1][0] else ''}; passing: {s_pass}")
-# 79. the two profiles: style pack, Talking Head, pending, wpm, tenure none, the book key, no sign-off; the name never spoken; Scarlet's credential and Diane's heritage line once; old lines banned
+# 89. the two profiles: style pack, Talking Head, pending, wpm, tenure none, the book key, no sign-off; the name never spoken; Scarlet's credential and Diane's heritage line once; old lines banned
 sf,df=facts_of(SCAR),facts_of(DIAN)
 pb_s=[l for l in ("I'm Scarlett Starling.","Until next time, stay polished.","I gathered three hundred of them.","Whenever it suits you, it's there.","In forty years of dressing for galas, I learned this.","My daughter loves it.")
       if run_scan(f"Check the hem.\n\n{l}\n",[STR,SCAR])[0]!=1]
 pb_d=[l for l in ("Diane here.","A bientot.","Every French woman owns a trench.","I grew up in Paris, so I know.","Marie and Sophie swear by it.","How we buy it here is different.")
       if run_scan(f"Check the hem.\n\n{l}\n",[STR,DIAN])[0]!=1]
-check("79. Scarlet's and Diane's profiles: style-scripts, Talking Head, pending, 169 and 172 wpm, tenure none, book keys, no sign-off; the credential and heritage line once; old intros, sign-offs, closes and unhedged claims fail",
+check("89. Scarlet's and Diane's profiles: style-scripts, Talking Head, pending, 169 and 172 wpm, tenure none, book keys, no sign-off; the credential and heritage line once; old intros, sign-offs, closes and unhedged claims fail",
       all("Niche pack: style-scripts" in x and "Script type: Talking Head" in x and "Status: pending" in x and "Closing line: none" in x for x in (sc_p,di_p))
       and "Words per minute (for runtime and the length minimum): 169" in sc_p and "Words per minute (for runtime and the length minimum): 172" in di_p
       and "tenure: none" in sf and "tenure: none" in df and "book: Three Hundred Budget-Friendly Ways to Look Expensive" in sf and "book: The French Way" in df
       and "once-regex: \\ba lifetime of dressing well\\b | the one credential line, at most once" in sf and "once-regex: \\bthe way I was raised in Paris\\b | the one heritage line, at most once" in df
       and not pb_s and not pb_d, f"scarlet passing: {pb_s}; diane passing: {pb_d}")
-# 80. wiring: rows 10 and 11 pending; the build knows the pack and both profiles; the style scanner command; README
+# 90. wiring: rows 10 and 11 pending; the build knows the pack and both profiles; the style scanner command; README
 chan=open(f"{CORE}/channels.md").read(); bs=open(f"{ROOT}/tools/build_skills.py").read(); rd=open(f"{ROOT}/README.md").read()
-check("80. style wiring: channel rows 10 and 11 pending; build entries for style-scripts and both personas; the style scanner command; README sections",
+check("90. style wiring: channel rows 10 and 11 pending; build entries for style-scripts and both personas; the style scanner command; README sections",
       "| 10 | Scarlett Starling | `style-scripts` | `personas/scarlett-starling.md` | pending |" in chan and "| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | pending |" in chan
       and '"style-scripts": ("model-file-spec.md",)' in bs and '"scarlett-starling": ("Scarlett Starling"' in bs and '"diane-de-chambray": ("Diane de Chambray"' in bs
       and "--rules <style-scripts>/SKILL.md" in bs and "## style-scripts/" in rd and "`scarlett-starling.md`" in rd, "")
 
-# 81. the style references: hooks, excerpts, voice samples (provisional) and INDEX exist; 30 [real] M files and 7 [structure only] F files; every model has a hook entry
+# 91. the style references: hooks, excerpts, voice samples (provisional) and INDEX exist; 30 [real] M files and 7 [structure only] F files; every model has a hook entry
 SM=f"{STY}/references/models"; mfiles=sorted(f for f in os.listdir(SM) if re.match(r"[MF]\d\d-",f))
 hk=open(f"{STY}/references/hooks.md").read(); ix=open(f"{SM}/INDEX.md").read(); vs=open(f"{STY}/references/voice-samples.md").read()
 tags_ok=all(("[real]" if f.startswith("M") else "[structure only]") in open(f"{SM}/{f}").read().split("## Beat map")[0] for f in mfiles)
 sd=re.search(r"^description: (.*)$",open(STR).read(),re.M).group(1)
-check("81b. the style pack's description fits the skill limit (1,024 characters)", 0<len(sd)<=1024, str(len(sd)))
-check("81. style references: hooks.md, excerpts.md, voice-samples.md (provisional), INDEX.md; 30 [real] M files and 7 [structure only] F files; a hook entry and an INDEX line for every model",
+check("91b. the style pack's description fits the skill limit (1,024 characters)", 0<len(sd)<=1024, str(len(sd)))
+check("91. style references: hooks.md, excerpts.md, voice-samples.md (provisional), INDEX.md; 30 [real] M files and 7 [structure only] F files; a hook entry and an INDEX line for every model",
       os.path.exists(f"{STY}/references/excerpts.md") and "PROVISIONAL" in vs
       and sum(f.startswith("M") for f in mfiles)==30 and sum(f.startswith("F") for f in mfiles)==7 and tags_ok
       and all(f"### {f[:3]}." in hk for f in mfiles) and all(f in ix for f in mfiles), str(mfiles))
 
-# 82. iter-07 fixes (operator 2026-10-29): the book's spoken title allowed; the channel gate confirms a clear one-channel reply; "age" and "weight"
+# 92. iter-07 fixes (operator 2026-10-29): the book's spoken title allowed; the channel gate confirms a clear one-channel reply; "age" and "weight"
 #     title words; item length by count; Diane's "most" narrowed and "women I know in Paris" banned; checks unannounced, endings varied, no
 #     pronunciation guides; verify_output.py skips M/F model quotes; the scanner's item counts leave out CTA blocks
 sk=open(STR).read(); wf=open(f"{CORE}/workflow.md").read(); di_p=open(DIAN).read(); vo=open(f"{ROOT}/tools/verify_output.py").read()
 bk=run_scan("It's called Three Hundred Budget-Friendly Ways to Look Expensive, and it helps.\n",[STR,SCAR],refs=[SCAR])
 cta=run_scan("Number one. A line.\n\n===START CTA(X)===\nA long aside about the book that runs on and on and on.\n===END CTA===\n\nNumber two. Another line.\n")[1]
-check("82. iter-07 fixes: book title allowed; gate confirms a clear one-channel reply; age and weight title words; item length by count; Diane's hedges; plain checks, varied endings, no pronunciation guides; model quotes skipped; CTA blocks out of item counts",
+check("92. iter-07 fixes: book title allowed; gate confirms a clear one-channel reply; age and weight title words; item length by count; Diane's hedges; plain checks, varied endings, no pronunciation guides; model quotes skipped; CTA blocks out of item counts",
       "COPIED FROM REFERENCE" not in bk[1] and '"[exact name], right?"' in wf and "title-words: instant, young, older, age, weight," in sk
       and "about 300 to 450 in lists of five or fewer" in sk and "item-words: 150-480" in sk and "Vary the item endings" in sk and "never announce it" in sk
       and "No spoken pronunciation guides" in sk and "never with the banned \"it's not your weight\" formula" in sk

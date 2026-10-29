@@ -3,7 +3,7 @@ name: vintage-pipefitter-persona
 description: The channel profile for The Vintage Pipefitter: persona, personal details, CTA rules and ending (this channel has no book). Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-27 (library commit 0fd6703)
+**Version:** 2026-10-29 (library commit 5c2617d)
 
 # Persona profile: The Vintage Pipefitter
 
@@ -20,7 +20,7 @@ Niche pack: plumbing-scripts
 THE BASICS
 Script type: Classic
 Voice provider: ElevenLabs (Sawyer - Midnight Storyteller, voice ID 8dEUmyPMdDdK91vboYih)
-Words per minute (optional, for runtime estimates): not set
+Words per minute (for runtime and the 12-minute minimum): 190 (his three newest voiceovers, 2026-10-27/28, ran 181, 199 and 192, and his five newest videos all ran 11 to 12 minutes; operator 2026-10-29: "lets push the length of all the plumbing scripts as a minimum please. they are all coming short")
 
 THE PERSONA
 Name: The Vintage Pipefitter (no personal name, ever)

@@ -13,7 +13,7 @@ Drafted 2026-10-28. The rule (the operator, 2026-10-28): 20-30 models from real 
 
 Mark each row **yes** or **no**.
 
-**Verdicts (2026-10-28, session 13):** the operator left the picks to Claude ("ok good, your call on the rest"). 28 picked (marked **yes**), listed with model numbers in `approved-models.csv`; Rami Jabali and MAKEOVERGUY stay out. Rows before 2022 (67, 68, 71, 72) are left out; row 66 is kept.
+**Verdicts (2026-10-28, session 14):** the operator left the picks to Claude ("ok good, your call on the rest"). 28 picked (marked **yes**), listed with model numbers in `approved-models.csv`; Rami Jabali and MAKEOVERGUY stay out. Rows before 2022 (67, 68, 71, 72) are left out; row 66 is kept.
 
 ## Hair
 
@@ -38,7 +38,7 @@ Mark each row **yes** or **no**.
 
 | # | Channel | Title | Views | Date | × normal | Type | Link | Verdict |
 |---:|---|---|---:|---|---:|---|---|---|
-| 15 | Adore Your Wardrobe | Ditch the Shorts: 7 Things to Wear Instead / Fashion Over 50 | 814,141 | 2026-04-05 (exact) | 33.9 | "ditch this, wear that" (not collected: the study has a different Adore Your Wardrobe video, vBsFMkGDbhA; corrected 2026-10-28, session 13) | https://youtu.be/7ecJWmEQ3Ks || **yes** |
+| 15 | Adore Your Wardrobe | Ditch the Shorts: 7 Things to Wear Instead / Fashion Over 50 | 814,141 | 2026-04-05 (exact) | 33.9 | "ditch this, wear that" (not collected: the study has a different Adore Your Wardrobe video, vBsFMkGDbhA; corrected 2026-10-28, session 14) | https://youtu.be/7ecJWmEQ3Ks || **yes** |
 | 16 | Tracy Campoli | The Over 40 Capsule Wardrobe That Makes You Look EXPENSIVE (without even trying!) | 506,694 | 2025-12-18 (exact) | 10.5 | capsule, look expensive (already in the study) | https://youtu.be/NT1mEOX-p7Y || **yes** |
 | 17 | Tracy Campoli | 7 Items That Make You Look FRUMPY After 50 (Stop Wearing These!) | 170,000 | ~2026-04 | 3.5 | frumpy items list | https://youtu.be/m7pfd4OxPzs || **yes** |
 | 18 | Tracy Campoli | What Separates Women Who Look AMAZING At 50 From Women Who Just Look "Good" | 155,000 | ~2026-07 | 3.2 | "amazing vs just good" contrast | https://youtu.be/_MA1djbYaE4 || no |

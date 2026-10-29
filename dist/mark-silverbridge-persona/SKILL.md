@@ -3,7 +3,7 @@ name: mark-silverbridge-persona
 description: The channel profile for Mark Silverbridge: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-27 (library commit 0fd6703)
+**Version:** 2026-10-29 (library commit 5c2617d)
 
 # Persona profile: Mark Silverbridge
 
@@ -20,7 +20,7 @@ Niche pack: plumbing-scripts
 THE BASICS
 Script type: Classic
 Voice provider: ElevenLabs (Sully - Mature, Deep and Intriguing, voice ID wAGzRVkxKEs8La0lmdrE)
-Words per minute (optional, for runtime estimates): not set
+Words per minute (for runtime and the 12-minute minimum): 181 (his three newest voiceovers, 2026-10-27/28, ran 182, 181 and 181; operator 2026-10-29: "lets push the length of all the plumbing scripts as a minimum please. they are all coming short")
 
 THE PERSONA
 Name: Mark Silverbridge

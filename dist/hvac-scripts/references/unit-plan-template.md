@@ -11,11 +11,14 @@ Years figure:                      [none / the title's number / the profile's nu
 Season:                            [heating or cooling; the month it goes up; the cold-night or hot-day stake]
 System scope:                      [which systems each tip is for: condensing (90%+) or standard furnace, gas or electric, heat pump, central AC, window unit; natural-draft appliances nearby?]
 
-MODELS                             [from references/models/INDEX.md, where one fits; none used in the channel's last five scripts]
-- model(s) used:                   [file numbers, or none]
+MODELS                             [from references/models/INDEX.md, always at least one winner; none used in the channel's last five scripts]
+- model(s) used:                   [file numbers; never none]
 - at least three differences:      [opening order / number or order of items / promise devices / money device / comment question]
 
 OPENING                            [order this time, from the video type: ...]
+- opening model:                   [the winning model whose opening beats this follows, and its opening's words from the beat map; beats only, never wording]
+- tools:                           [none in the opening; named once, in the step that first uses each, or one kit step]
+- end-of-video promise:            [none / one sentence, paid in the last item, step or rung; never with a time on it]
 - the point, first sentence:       [the subject, and the fix or product named; the viewer's pain in strong, plain words]
 - breakdown moment (optional):     [the cold night, the heat wave, the quote, the company that can't come; one or two sentences; not two scripts running]
 - question (optional):             [one the viewer answers in their own house; answered within ~15 s]
@@ -42,7 +45,7 @@ EMOTION                            [all the way through]
 - questions to the viewer at:      [about every two items]
 - disgust words (only where the topic has them):  [slime in the drain or pan, mould, a caked blower wheel]
 - line of insistence (once):
-- the last item before the end CTA closes on:     [relief or something to do tonight]
+- the last item before the end CTA closes on:     [relief or ONE small thing to do tonight; never a to-do list or homework round-up]
 
 MONEY
 - the comparison within 2 min:     [the shelf part or the check against the visit or the quote, both from the brief or the price guide]

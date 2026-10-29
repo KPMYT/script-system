@@ -97,8 +97,10 @@ HARD_BANS = [
     (r"\bstay (?:right )?here with me\b", "tease: stay right here with me"),
     (r"\b(?:do not|don'?t) skip out\b", "tease: don't skip out on me"),
     (r"\bby the end,? you'?ll\b", "tease: by the end, you'll"),
-    # the channel intro (locked: no greeting or channel intro; P19, 2026-10-29)
+    # the channel intro (locked: no greeting or channel intro; P20, 2026-10-29)
     (r"\bthis channel is (?:for|where)\b|\b(?:I'?m|I am) here for (?:every )?wom[ae]n over\b", "channel intro: this channel is for"),
+    # a closing to-do list is a recap (operator, 2026-10-29: "audit our skills to account for this")
+    (r"\b(?:tonight'?s|today'?s|your|the whole of (?:tonight'?s|today'?s|your)) homework\b|\bhere'?s your (?:to-do|checklist)\b", "recap: a homework list at the end (one small thing to do, never a list)"),
     # pointing at the screen: banned everywhere (operator, 2026-10-20)
     (r"\bright here\b", "pointing: right here"),
     (r"\blook at this\b", "pointing: look at this"),
@@ -243,7 +245,8 @@ def read_rules(paths):
     """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
     facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None, "letters_ok": set(),
-             "item_words": None, "first_item_seconds": None, "sentence_max": None, "examples": [], "require": [], "title_words": []}
+             "item_words": None, "first_item_seconds": None, "sentence_max": None, "examples": [], "require": [], "title_words": [],
+             "opening_bans": [], "opening_promises": [], "judges": []}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         w = re.search(r"^Words per minute[^:\n]*:\s*(\d+)", txt, re.M)
@@ -292,6 +295,12 @@ def read_rules(paths):
                     facts["letters_ok"].update(x.strip() for x in pat.split(",") if x.strip())
                 elif key.strip() == "title-words":
                     facts["title_words"].extend(x.strip().lower() for x in pat.split(",") if x.strip())
+                elif key.strip() == "opening-ban-regex":
+                    facts["opening_bans"].append((re.compile(pat, re.I), label))
+                elif key.strip() == "opening-promise-regex":
+                    facts["opening_promises"].append((re.compile(pat, re.I), label))
+                elif key.strip() == "judge-regex":
+                    facts["judges"].append((re.compile(pat, re.I), label))
                 elif key.strip() == "require-if" and " => " in pat:
                     trig, _, need = pat.partition(" => ")
                     facts["require"].append((re.compile(trig.strip(), re.I), re.compile(need.strip(), re.I), label))
@@ -621,12 +630,12 @@ def repeated_sentences(paras):
 
 # ---------------------------------------------------------------- items and sentences (report only)
 ORDINALS = "one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty".split()
-_SIGN_WORDS = r"(?:Step|Mistake|Item|Reason|Sign|Rung|Fix|Check|Tip|Thing|Rule|Secret|Cut|Colou?r|Shade|Knot|Habit|Trick|Piece|Swap|Way)"
-# "Number one.", "Mistake one.", and (P19, style) "Rule number three.", "Secret number five."
+_SIGN_WORDS = r"(?:Step|Mistake|Item|Reason|Sign|Rung|Fix|Check|Tip|Thing|Rule|Secret|Cut|Colou?r|Shade|Knot|Habit|Trick|Piece|Swap|Way|Level)"
+# "Number one.", "Mistake one.", and (P20, style) "Rule number three.", "Secret number five."
 SIGNPOST = re.compile(r"(?:^|(?<=[.!?]\s))(?:And |So |Now,? )?(?:" + _SIGN_WORDS + r" number |[Nn]umber |" + _SIGN_WORDS + r" )(" + "|".join(ORDINALS) + r"|\d{1,2})\b")
 I_LINE = re.compile(r"\bI(?:'d|'m|'ve|'ll)?\b")
 
-TITLE_WORD_MIN, TITLE_WORD_FIRST_SECONDS = 2, 60   # P19 (operator 2026-10-29, suggestion 2 of the style study)
+TITLE_WORD_MIN, TITLE_WORD_FIRST_SECONDS = 2, 60   # P20 (operator 2026-10-29, suggestion 2 of the style study)
 _ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
 _TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
 
@@ -774,6 +783,21 @@ def scan(text, extra_bans, lifts, ref_runs=None, allows=None, facts=None, title=
             if len(s.split()) > (facts.get("sentence_max") or SENTENCE_MAX):
                 fix.append(f"[SENTENCE OVER {facts.get('sentence_max') or SENTENCE_MAX} WORDS] ({len(s.split())} words) \"{s[:90]}...\" (split it; join two with \"but\" only where it turns)")
     whole = "\n\n".join(paras)
+    # the opening: the first minute at the profile's words per minute (opening-ban-regex, opening-promise-regex)
+    opening = " ".join(whole.split()[:facts.get("wpm") or 150])
+    for rx, name in facts.get("opening_bans", []):
+        for m in rx.finditer(opening):
+            fix.append(f"[OPENING BAN: {name}] ...{opening[max(0, m.start() - 40):m.end() + 40]}...")
+    proms = [(m, name) for rx, name in facts.get("opening_promises", []) for m in rx.finditer(opening)]
+    if len(proms) > 1:
+        fix.append(f"[OPENING: {len(proms)} promises in the first minute; at most one, paid at the end of the video] "
+                   + " | ".join(f"...{opening[max(0, m.start() - 30):m.end() + 30]}..." for m, _ in proms[:4]))
+    elif proms:
+        m, name = proms[0]
+        judge.append(f"[{name}: is it paid at the end of the video? If not, cut it] ...{opening[max(0, m.start() - 40):m.end() + 40]}...")
+    for rx, name in facts.get("judges", []):
+        for m in rx.finditer(whole):
+            judge.append(f"[{name}] ...{whole[max(0, m.start() - 40):m.end() + 40]}...")
     for trig, need, name in facts.get("require", []):
         if trig.search(whole) and not need.search(whole):
             fix.append(f"[NICHE/PERSONA REQUIRED: {name}] the script brings up \"{trig.search(whole).group(0)}\" but leaves this out")
@@ -864,7 +888,7 @@ def main():
     print(f"ECHO (H18): {len(echoes)}")
     for e in echoes: print("  " + e)
     if a.pack:
-        # the profile's book title counts as a fact source too ("Three Hundred Budget-Friendly Ways...": P19 follow-up, iter-07)
+        # the profile's book title counts as a fact source too ("Three Hundred Budget-Friendly Ways...": P20 follow-up, iter-07)
         missing = number_check(text, "\n".join(open(f, encoding="utf8", errors="ignore").read() for f in a.pack) + "\n" + "\n".join(facts["book"]))
         print(f"\nNUMBERS NOT FOUND IN THE FACT SOURCE ({len(missing)})  (invented, or derived: confirm the math)")
         for v, s in missing[:30]:

@@ -199,7 +199,19 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Status:** approved by the operator on 2026-10-27: "yes its good as long as its not a hard rule and it can vary based on topic and format and there is still rotation in the hooks". Applied as an option, not a rule, with the rotation stated in the text. (Replaces the first draft of 2026-10-27, "the range opening", which also had a kit line, a transfer line and a myth flip; the operator narrowed it to the two moves.)
 
-## P18. Style model floors: the later model instructions replace "1M+ views, 2022 on" (opened and decided 2026-10-28, session 13)
+## P18. One end-of-video promise in the plumbing opening (opened and approved 2026-10-29)
+
+**Decision (HANDOFF.md section 3, P10 and P17):** nothing is promised in the plumbing opening apart from the count line or the escalation line.
+
+**Evidence:** Werner's toilet video (2026-10-28) opened with "you will know in 2 minutes" and "Nothing from a jug goes into a toilet, and you will hear why", on top of its escalation line; its first step came at 1:04 (`studies/recent-uploads-2026-10-29/analysis.md`).
+
+**Decision:** the operator: "we dont want that opening promise the you will know in 2 minutes for sure. the only way it can be accepted if its a single promise that is paid off END OF VIDEO". The opening may carry at most one promise beyond the count or escalation line, and only of what the end of the video pays (the last item, step or level); never with a time on it, never one paid earlier, never two.
+
+**Applied:** `plumbing-scripts/SKILL.md` ("The opening", "Point then promise", "Never in an opening", the checklist and the scanner block: `opening-ban-regex`, `opening-promise-regex`), its plan template, `core/script-scanner.py` (the opening keys), test 74.
+
+**Status:** approved by the operator on 2026-10-29 (quoted above). Extended to the HVAC pack the same day ("hvac - yes but always model off winners").
+
+## P19. Style model floors: the later model instructions replace "1M+ views, 2022 on" (opened and decided 2026-10-28, session 14)
 
 **Decision it touches (HANDOFF.md §3, "Operator decisions, 2026-10-28 (the style niche study)"):** "Floors as electrical: videos from 2022 on; models from 1M+ views on real channels, 300K+ on faceless."
 
@@ -207,9 +219,9 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Proposal:** for style model scripts from real presenters, the floor is an outlier (about 2.5x the channel's normal or more), 5:00 or longer, about 70K views or more, from the last 24 months plus a few big older outliers; nothing before 2022. The faceless floor (300K+) stays, for the faceless section the operator added the same day.
 
-**Status:** decided by the operator on 2026-10-28: asked as Q0 with S1, answered "ok good, your call on the rest". Read as a yes; recorded in HANDOFF §3 (session 13 block).
+**Status:** decided by the operator on 2026-10-28: asked as Q0 with S1, answered "ok good, your call on the rest". Read as a yes; recorded in HANDOFF §3 (session 14 block).
 
-## P19. Core scanner changes for style (opened and approved 2026-10-29, session 13)
+## P20. Core scanner changes for style (opened and approved 2026-10-29, session 14)
 
 **Decision it touches:** core `script-scanner.py` changes only with the operator's yes; every channel uses the core scanner.
 
@@ -217,4 +229,6 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Proposal:** (1) a pack key `title-words: word, word | N` that fails a script that says a listed title word fewer than N times, or not in its first minute; (2) "this channel is for" and "I'm here for women over" into the core hard-ban list; (3) style trade words in the tenure pattern; (4) "[word] number N" signposts with style item words; (5) close the code block. Each with a check in `tests/run_checks.py`.
 
-**Status:** approved by the operator on 2026-10-29 (diagnosis question 17: "yes"). Applied in session 13 (see `CHANGELOG.md`).
+**Status:** approved by the operator on 2026-10-29 (diagnosis question 17: "yes"). Applied in session 14 (see `CHANGELOG.md`).
+
+(Renumbered at the merge into `main`, 2026-10-29: this chat opened them as P18 and P19, but the Werner and Frederick review chat had already taken P18. The style model floors are P19 and the core scanner changes P20; that chat called itself session 13, so this one is session 14.)
