@@ -66,6 +66,7 @@ Plumbing scripts are written from the title and the brief alone; there is no res
 - rotation-log | required | the channel's last five ROTATION LOG ENTRY lines (from the earlier scripts in this chat, or pasted), or "none" for a new channel
 ```
 
+- **A brief of talking points is a full brief** (operator, 2026-10-29: "thinner briefs are fine as long as they are talking points for now"). Each talking point is built out into a full item with the fill-ins below: the scene in the viewer's house, what's happening in the pipe, the check, the fix and its steps, the price from the price guide, the sign it's a call, the win. A thin brief is never a reason for NOT READY on its own.
 - **The brief is the fact source,** with the price guide behind it. It does the research pack's job: the scanner checks every number in the script against the brief and `references/price-guide.md`, and the brief wins on safety.
 - **No freshness check.** Prices are said as ranges (see "Money framing"), so nothing is re-checked at START.
 - **Where the brief is silent, the script fills in** (P7, operator 2026-10-21):
@@ -274,7 +275,7 @@ There's no fixed last line or sign-off after the comment ask. No recap, no tease
 **At least 12 minutes** of narration on every plumbing script (this pack raises the core 8-minute minimum), counted at the persona profile's words per minute, which is the voice's real speed (operator, 2026-10-29: "lets push the length of all the plumbing scripts as a minimum please. they are all coming short"). That is about 2,040 spoken words for Roger (170 a minute), 2,170 for Mark and Werner (181) and 2,280 for the Vintage Pipefitter (190). Counted at 150, the old default, a script of 1,800 to 2,000 words passed and played in about 11 minutes (Werner and the Vintage Pipefitter, October 2026). A plumbing profile without a words-per-minute figure is not ready. **12 to 20 minutes is the sweet spot.** Inside that, the value decides: words per item depend on the item.
 
 - **Never pad to reach a length.** Cut repetition instead: the same check said twice five minutes apart, or the promise restated, is padding.
-- **If the brief can't fill 12 minutes with real value,** even with the fill-ins above, the run stops with NOT READY and asks for a fuller brief (more items, more detail). The fix belongs at the ideation stage, not in extra words.
+- **If the brief can't fill 12 minutes with real value,** even with every talking point built out with the fill-ins above (see "Inputs"), the run stops with NOT READY and asks for a fuller brief (more items, more detail). A brief of talking points that can be built out to 12 minutes is never stopped for being thin. The fix belongs at the ideation stage, not in extra words.
 - **For calibration, not as targets:** our hits ran 17 to 21 minutes, and the competitors' median was about 13. The length complaints on our hits were about the wait before the answer and the repetition, not the runtime: TheCheapFix and Arrow ran as long and drew about one length complaint each.
 
 ## Voice
