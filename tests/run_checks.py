@@ -942,7 +942,7 @@ check("78. style scanner block: a clean paragraph passes on both channels; house
 sf,df=facts_of(SCAR),facts_of(DIAN)
 pb_s=[l for l in ("I'm Scarlett Starling.","Until next time, stay polished.","I gathered three hundred of them.","Whenever it suits you, it's there.","In forty years of dressing for galas, I learned this.","My daughter loves it.")
       if run_scan(f"Check the hem.\n\n{l}\n",[STR,SCAR])[0]!=1]
-pb_d=[l for l in ("Diane here.","A bientot.","Every French woman owns a trench.","I grew up in Paris, so I know.","It's in the book's 101 secrets.","How we buy it here is different.")
+pb_d=[l for l in ("Diane here.","A bientot.","Every French woman owns a trench.","I grew up in Paris, so I know.","Marie and Sophie swear by it.","How we buy it here is different.")
       if run_scan(f"Check the hem.\n\n{l}\n",[STR,DIAN])[0]!=1]
 check("79. Scarlet's and Diane's profiles: style-scripts, Talking Head, pending, 169 and 172 wpm, tenure none, book keys, no sign-off; the credential and heritage line once; old intros, sign-offs, closes and unhedged claims fail",
       all("Niche pack: style-scripts" in x and "Script type: Talking Head" in x and "Status: pending" in x and "Closing line: none" in x for x in (sc_p,di_p))

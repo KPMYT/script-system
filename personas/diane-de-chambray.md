@@ -40,8 +40,8 @@ Offer:
   Printed title (exact, used in the markers): The French Way
   Spoken as: The French Way
   Type: book (digital download)
-  Book text: none yet (the operator is to paste the contents and the numbered Secrets, and confirm the count; saved under personas/books/ once pasted); until then the CTA uses only the true facts below and names no chapter or page
-  True facts (contents, counts, chapters; the only facts a CTA may use): 389 pages; an introduction, ten teaching chapters and a conclusion (named by topic, never by chapter number); numbered Secrets, each built the same way (the dated habit, the French secret, how to do it, and when to skip it); four frameworks (the Capsule Rule, the Color Compass, the Proportion Equation, the Elegance Audit); three recurring women in the book, Marie, Sophie and Claudette (characters in the book, never Diane's friends). Never a count of Secrets until the operator confirms it; never "twenty years younger" (the subtitle's claim, which the book's own thesis contradicts); never makeup lessons (the book has almost none); never a price, a discount or "free". (Notion, "FASHION - Diane De Chambray".)
+  Book text: `personas/books/diane-de-chambray-book.md` (an index from the OCR of the operator's PDF, 2026-10-29: the chapter page map, all 101 Secrets with their pages, the facts a CTA may state, and the book's stories that never go in a script). The book match names the Secret or chapter that covers today's topic.
+  True facts (contents, counts, chapters; the only facts a CTA may use): one hundred and one numbered Secrets (confirmed from the text, 2026-10-29); more than four hundred pages; an introduction, ten teaching chapters and a conclusion (named by topic, never by chapter number); every Secret has "How To Do It" and "Skip If" (more than half also open on the dated habit and the French secret); four frameworks (the Capsule Rule, the Color Compass, the Proportion Equation, the Elegance Audit); the conclusion's first week (Secrets 12, 22, 60, 76 and 93); eyewear has its own Secrets (58 and 59). The book's women, Marie, Sophie and Claudette, are characters in the book, never Diane's friends, and never named in a script. Never "twenty years younger" (the subtitle's claim, which the book's own introduction contradicts: "None of them will tell you to look younger"); never makeup lessons (no Secret is about makeup); never a price, a discount or "free". (The book index; Notion, "FASHION - Diane De Chambray".)
   The added-value promise: the system behind today's tip: a palette chosen once, a handful of pieces that work together, and a short weekly check
   Where to get it: the link in the description and the QR code on screen
 Style and length: mid-video, once: about 60 to 90 words, after the first real payoff (roughly a quarter to a third of the way in), at the end of an item's result, in the style pack's six-part shape. End: one line reminding of the book, then the comment ask. No subscribe ask (operator, 2026-10-29). Never "not with me, they belong to French women" provenance formulas, never a no-rush close, never a long QR walkthrough. The profile's wording is under the copy guard: say it fresh each time.
@@ -86,10 +86,9 @@ ban-regex: \bhow we (?:buy|dress|do) it here\b|\bwe Americans\b|\bus Americans\b
 ban-regex: \bevery French woman\b|\ball French women\b|\bFrench women (?:never|always)\b|\bno French woman\b | an unhedged claim about French women (hedge it; the title may say it)
 ban-regex: \billegal in France\b|\bFrench law\b|\bin France it'?s (?:against|forbidden)\b | an invented French law
 ban-regex: \b(?:twenty|20) years younger\b | the book subtitle's claim (never in a CTA or a script)
-ban-regex: \b(?:one hundred and one|101) (?:secrets|style)\b | the Secret count (unconfirmed)
 ban-regex: \bwhich (?:of (?:the|these) \w+ )?(?:\w+ )?(?:you'?re|will you be|are you) (?:taking|trying)\b[^.!?]{0,40}\bfirst\b | the old comment ask (ask about her instead)
 ban-regex: \bscreams?\b|\bstyle sabotage\b|\bstop hiding\b | source-creator lines (Notion)
-once-regex: \bMarie, Sophie,? and Claudette\b | the book's three women, at most once
+ban-regex: \b(?:Marie|Sophie|Claudette)\b | the book's characters (never named in a script)
 once-regex: \bthe French (?:answer|fix)\b | her old tic ("the French answer, fix or way": 13 of 13 old scripts; "the French way" is the series title, so it stays free)
 once-regex: \bvoila\b | voila
 once-regex: \bcherie\b | cherie

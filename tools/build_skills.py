@@ -184,8 +184,8 @@ PERSONAS = {
     "frederick-barnes": ("Frederick Barnes", "personas/frederick-barnes.md", None),  # no book for now (operator 2026-10-27)
     "roger-the-hvac-guy": ("Roger the HVAC Guy", "personas/roger-the-hvac-guy.md", None),  # no book for now (2026-10-27)
     "werner-finkbeiner": ("Werner Finkbeiner", "personas/werner-finkbeiner.md", "personas/books/werner-finkbeiner-book.md"),  # relaunched 2026-10-27; an index, not the full text
-    "scarlett-starling": ("Scarlett Starling", "personas/scarlett-starling.md", None),  # pending; book text not pasted yet (2026-10-29)
-    "diane-de-chambray": ("Diane de Chambray", "personas/diane-de-chambray.md", None),  # pending; book text not pasted yet (2026-10-29)
+    "scarlett-starling": ("Scarlett Starling", "personas/scarlett-starling.md", "personas/books/scarlett-starling-book.md"),  # pending; book index from OCR (2026-10-29)
+    "diane-de-chambray": ("Diane de Chambray", "personas/diane-de-chambray.md", "personas/books/diane-de-chambray-book.md"),  # pending; book index from OCR (2026-10-29)
 }
 
 # niche packs: folder -> what the installed skill leaves out
