@@ -378,8 +378,8 @@ check("31. build-order 'at the very end' lines pass; 'saving the best for the ve
 # 32. runtime: the profile's words per minute and the niche pack's minimum
 code,out=run_scan("Cut the board.\n",[WWR,f"{PERS}/hank-hardwood.md"])
 code2,out2=run_scan("Rinse the trap.\n",[PLR,ROGER])
-check("32. runtime uses the profile's words per minute (Hank 185) and the pack's minimum (plumbing 12, woodworking 8)",
-      "at 185 words a minute; minimum 8" in out and "at 150 words a minute; minimum 12" in out2, out[:300]+out2[:300])
+check("32. runtime uses the profile's words per minute (Hank 185, Roger 170) and the pack's minimum (plumbing 12, woodworking 8)",
+      "at 185 words a minute; minimum 8" in out and "at 170 words a minute; minimum 12" in out2, out[:300]+out2[:300])
 
 # 33. a title's years of selling unlock that figure (Dale's title format)
 code,out=run_scan("I've spent forty years at the bench.\n",[WWR,f"{PERS}/dale-oakfield.md"],title="In 40 Years of Selling, Nothing Beats This Build")
@@ -593,14 +593,14 @@ check("49. copy guard: the clean electrical paragraph passes against the pack's 
       and len(EL_REFS)==35 and not nolift and not uncaught and code==1 and code2==0 and "COPIED" not in out2,
       f"models={EL_MODELS}; refs={len(EL_REFS)} no line found in {nolift}; not caught {uncaught}; "+out2[:400])
 
-# 50. Frederick's profile: Talking Head, 195 wpm, no book (NO BOOK marker), subscribe only, name and tenure 35;
+# 50. Frederick's profile: Talking Head, 162 wpm (195 until 2026-10-29), no book (NO BOOK marker), subscribe only, name and tenure 35;
 #     a different tenure, a name intro and the firefighter framing fail
 fp=open(FRED).read(); ff=facts_of(FRED)
 code,out=run_scan("I have been at this for 25 years.\n",[ELR,FRED])
 code2,out2=run_scan("I have been at this for 35 years.\n",[ELR,FRED])
 code3,out3=run_scan("I'm Frederick Barnes, and as a retired firefighter I know this.\n",[ELR,FRED])
-check("50. Frederick's profile: Talking Head, 195 wpm, subscribe only (NO BOOK), name and tenure 35; 25 years, a name intro and the firefighter framing fail",
-      "Script type: Talking Head" in fp and "Words per minute (for runtime and the length minimum): 195" in fp and "Type: subscribe only" in fp
+check("50. Frederick's profile: Talking Head, 162 wpm, subscribe only (NO BOOK), name and tenure 35; 25 years, a name intro and the firefighter framing fail",
+      "Script type: Talking Head" in fp and "Words per minute (for runtime and the length minimum): 162" in fp and "Type: subscribe only" in fp
       and "NO BOOK" in fp and "Mid-video CTA: no" in fp and "name: Frederick Barnes" in ff and "tenure: 35" in ff and not any(l.startswith("book:") for l in ff)
       and code==1 and "PERSONA FACT: tenure" in out and code2==0 and code3==1 and "name intro" in out3 and "firefighter" in out3, out+out2+out3)
 
@@ -890,6 +890,50 @@ check("46b. plumbing hook: the escalation line is an option, not a rule, rotated
       and "never what an item holds or its fix" in op and "a promise block or any run-down of what later items hold" in op
       and "apart from the count line or the escalation line" in pk
       and "NOT PLUMBING" in r21 and "## Beat map" not in r21 and "## Script" not in r21 and "R21-nailed-it-drywall-repair-beginners.md" in idx, "")
+
+# ---- the Werner and Frederick upload review (operator, 2026-10-29) ----
+# 73. every plumbing profile sets its real words per minute (Roger 170, Mark 181, Vintage 190, Werner 181), and the runtime uses it:
+#     Werner's 2,010 words, 11:06 on air, now fall under 12 minutes; Frederick 162
+pl_wpm={ROGER:"170",MARK:"181",VINT:"190",f"{PERS}/werner-finkbeiner.md":"181"}
+wpm_ok=all(re.search(r"^Words per minute \(for runtime and the 12-minute minimum\): "+v+r"\b",open(k).read(),re.M) for k,v in pl_wpm.items())
+c73,o73=run_scan(("Flush once and watch it go. "*335)+"\n",[PLR,f"{PERS}/werner-finkbeiner.md"])
+check("73. plumbing profiles set real words per minute (170/181/190/181); a 2,010-word Werner script is under 12 minutes; Frederick 162",
+      wpm_ok and "at 181 words a minute; minimum 12" in o73 and "under the minimum" in o73
+      and "Words per minute (for runtime and the length minimum): 162" in open(f"{PERS}/frederick-barnes.md").read()
+      and "1,950" in open(f"{EL}/SKILL.md").read(), o73[:400])
+
+# 74. the plumbing opening: "today you learn", a promise with a time on it and two promises in the first minute fail; one
+#     promise is judged; "nothing here needs a plumber" is judged; "Level one" is a signpost; item one past 45 seconds is marked;
+#     "tonight's homework" fails on every channel
+WERNP=f"{PERS}/werner-finkbeiner.md"
+_,o74a=run_scan("The toilet is blocked. So, today you learn to unclog a toilet. If the answer is no, you will know in two minutes. Nothing from a jug goes in, and you will hear why.\n",[PLR,WERNP])
+_,o74b=run_scan("The toilet is blocked, and the water is climbing. By the last level, you will know the one sign that means the main line.\n",[PLR,WERNP])
+_,o74c=run_scan("Nothing here needs a plumber. Level one, slow. Plunge it.\n",[PLR,WERNP])
+c74d,o74d=run_scan("Cut the board. And that is the whole of tonight's homework.\n",[WWR,f"{PERS}/hank-hardwood.md"])
+_,o74e=run_scan(("The water sits high in the bowl. "*40)+"Level one, slow. Soap and hot water. Level two, rising. Lift the lid.\n",[PLR,WERNP])
+check("74. plumbing opening: 'today you learn', a timed promise and two promises fail; one end promise and 'no plumber needed' judged; Level signposts; homework fails anywhere",
+      "today you learn" in o74a and "a promise with a time on it" in o74a and "OPENING: 2 promises" in o74a
+      and "OPENING:" not in o74b.split("JUDGE")[0] and "is it paid at the end of the video" in o74b
+      and "no plumber needed" in o74c and "ITEMS: 1" in o74c and c74d==1 and "homework" in o74d
+      and "ITEMS: 2" in o74e and "later than 45 seconds" in o74e, o74a[-500:]+o74b[-300:]+o74c[-300:]+o74e[:300])
+
+# 75. the pack text: short opening built on a named model, no tool list and the kit once, one end-of-video promise, the scope line
+#     never "no plumber needed", the silence line in plain words, one small thing at the end (every pack and the core)
+plp=open(PLR).read(); plt=open(f"{PL}/references/unit-plan-template.md").read(); rm=open(f"{CORE}/retention-mechanics.md").read(); ga=open(f"{CORE}/greenlight-audit.md").read()
+check("75. plumbing opening rules (reference model, 45 s, kit once, one end promise, no 'no plumber'), plain silence line, one small thing at the end everywhere",
+      "**Short, and built on a reference**" in plp and "**No tool list in the opening, and the kit is named once in the whole video**" in plp
+      and "**One end-of-video promise, at most**" in plp and "Never a blanket \"nothing here needs a plumber\"" in plp and "**In simple words**" in plp
+      and "- opening model:" in plt and "- end-of-video promise:" in plt and "first-item-seconds: 45" in plp
+      and "**One** action: a closing to-do list" in rm and "closing to-do list or \"homework\"" in ga
+      and all("one small thing to do tonight" in open(f).read() for f in (PLR,f"{EL}/SKILL.md",f"{ROOT}/hvac-scripts/SKILL.md")), "")
+
+# 76. Frederick: one step, one job; the buying step adapts to what the look found; facts guide 1.18 (gauge against breaker),
+#     1.17a (kitchen and bathroom circuits by room), 4.30 (GFCI by the new outlet's place), 6.19a (AFCI outlet at the first outlet)
+ekp=open(f"{EL}/SKILL.md").read(); fgp=open(f"{EL}/references/facts-guide.md").read()
+check("76. electrical: one step one job; adaptive buying step; facts 1.18, 1.17a, 4.30, 6.19a",
+      "**One step, one job**" in ekp and "**The buying step adapts to what the viewer found**" in ekp
+      and "| 1.18 | The breaker can be smaller than the wire allows" in fgp and "| 1.17a |" in fgp and "| 4.30 |" in fgp
+      and "first receptacle outlet of the existing circuit" in fgp, "")
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

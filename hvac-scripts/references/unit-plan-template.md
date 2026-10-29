@@ -42,7 +42,7 @@ EMOTION                            [all the way through]
 - questions to the viewer at:      [about every two items]
 - disgust words (only where the topic has them):  [slime in the drain or pan, mould, a caked blower wheel]
 - line of insistence (once):
-- the last item before the end CTA closes on:     [relief or something to do tonight]
+- the last item before the end CTA closes on:     [relief or ONE small thing to do tonight; never a to-do list or homework round-up]
 
 MONEY
 - the comparison within 2 min:     [the shelf part or the check against the visit or the quote, both from the brief or the price guide]

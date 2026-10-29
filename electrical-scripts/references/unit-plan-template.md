@@ -45,7 +45,7 @@ EMOTION                            [all the way through; see each model's "Emoti
 - sensory warning signs on:        [the buzz, the smell, the warm plate, the scorch mark]
 - questions to the viewer at:      [about every two items]
 - line of insistence (once):
-- the last item before the ending closes on:     [relief or something to do tonight]
+- the last item before the ending closes on:     [relief or ONE small thing to do tonight; never a to-do list or homework round-up]
 
 FACTS                              [every code rule, size, distance and danger figure]
 - from the brief:
@@ -79,9 +79,9 @@ PROMISES CHECK
 - each forward line -> where paid  [within ~5 min]
 - longest stretch without a forward line or a payoff:
 
-LENGTH ESTIMATE                    [at the profile's wpm (Frederick 195): 12 min = 2,340 words; 15 = 2,925; 22 = 4,290]
+LENGTH ESTIMATE                    [at the profile's wpm (Frederick 162): 12 min = 1,945 words; 15 = 2,430; 22 = 3,565]
 - opening (~146) + each item, step or block (words from its content, as in ITEMS) + ending (~70) = total:
-- total under 2,340 with no restatement? -> NOT READY: name what the brief is missing; never pad
+- total under 1,945 with no restatement? -> NOT READY: name what the brief is missing; never pad
 
 VARIATION CHECK                    [against the rotation log]
 - models (not in the last five):

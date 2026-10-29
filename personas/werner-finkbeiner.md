@@ -19,7 +19,7 @@ Niche pack: plumbing-scripts
 THE BASICS
 Script type: Talking Head (his 14 uploads used the CTA markers; the relaunch briefs plan face segments)
 Voice provider: ElevenLabs (Herrmann - Professional and Measured, voice ID au7Q2pqB7wdio9LWlvt7) [from Notion]
-Words per minute (optional, for runtime estimates): not set (as the other plumbing profiles; operator 2026-10-25: "do not change 3 yet"). For the record, his 14 voiceovers in this voice ran about 184 words a minute (138 to 250, counted against the whole video length; studies/plumbing/werner-baseline-2026-10/counts.md)
+Words per minute (for runtime and the 12-minute minimum): 181 (his first relaunch voiceover, 2026-10-28, ran 181 and played in 11:06 against the 12-minute minimum; his 14 older voiceovers in this voice ran about 184, studies/plumbing/werner-baseline-2026-10/counts.md; operator 2026-10-29: "lets push the length of all the plumbing scripts as a minimum please. they are all coming short")
 Contractions: none (operator, 2026-10-27: "ah maybe better to stay off contractions"; his register: "It is a washer. It is nine cents."; his 14 old scripts have none); the scanner block below bans them, as Mark Silverbridge's does
 
 THE PERSONA
