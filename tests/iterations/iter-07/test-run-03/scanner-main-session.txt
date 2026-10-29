@@ -1,0 +1,37 @@
+TEST: the scanner, run by the main session on script.txt with every copy-guard file and the locked title
+
+SCAN: /home/user/script-system/tests/iterations/iter-07/test-run-03/script.txt
+  copy guard: 8+ words in a row shared with /home/user/script-system/style-scripts/SKILL.md, /home/user/script-system/style-scripts/references/excerpts.md, /home/user/script-system/style-scripts/references/voice-samples.md, /home/user/script-system/style-scripts/references/models/F01-vivian-sinclair-glasses-look-younger.md, /home/user/script-system/style-scripts/references/models/F02-vivian-sinclair-earrings-after-60.md, /home/user/script-system/style-scripts/references/models/F03-golden-melanin-lifestyle-shoe-mistakes-over-50.md, /home/user/script-system/style-scripts/references/models/F04-anniepicks-colour-combinations-expensive.md, /home/user/script-system/style-scripts/references/models/F05-french-fashion-10-winter-clothes-french-way.md, /home/user/script-system/style-scripts/references/models/F06-emiko-sato-japanese-hygiene-rules-after-40.md, /home/user/script-system/style-scripts/references/models/F08-ever-chic-at-50-blouse-mistakes-over-60.md, /home/user/script-system/style-scripts/references/models/INDEX.md, /home/user/script-system/style-scripts/references/models/M01-summer-beauty-haircut-never-looks-right.md, /home/user/script-system/style-scripts/references/models/M02-woman-in-midlife-stopped-dyeing-at-49.md, /home/user/script-system/style-scripts/references/models/M03-karen-of-curl-house-pre-poo-gray-natural-hair.md, /home/user/script-system/style-scripts/references/models/M04-chery-fine-hair-look-older.md, /home/user/script-system/style-scripts/references/models/M05-boys-and-girls-hairstyles-radona-over-70-haircut-from-idaho.md, /home/user/script-system/style-scripts/references/models/M06-justin-hickox-look-10-years-younger.md, /home/user/script-system/style-scripts/references/models/M07-glam-girl-gabi-best-bangs-face-shape.md, /home/user/script-system/style-scripts/references/models/M08-justin-hickox-thin-fine-hair-5-secrets.md, /home/user/script-system/style-scripts/references/models/M09-summer-beauty-styling-wrong-face-head-shape.md, /home/user/script-system/style-scripts/references/models/M10-justin-hickox-double-chin-never-wear.md, /home/user/script-system/style-scripts/references/models/M11-woman-in-midlife-colored-gray-after-18-months.md, /home/user/script-system/style-scripts/references/models/M12-justin-hickox-bob-haircut-5-secrets.md, /home/user/script-system/style-scripts/references/models/M13-adore-your-wardrobe-ditch-the-shorts.md, /home/user/script-system/style-scripts/references/models/M14-tracy-campoli-over-40-capsule-look-expensive.md, /home/user/script-system/style-scripts/references/models/M15-tracy-campoli-7-items-frumpy-after-50.md, /home/user/script-system/style-scripts/references/models/M16-angela-masson-frumpy-style-rut-10-changes.md, /home/user/script-system/style-scripts/references/models/M17-darlene-obiyan-stop-dressing-frumpy-curvy.md, /home/user/script-system/style-scripts/references/models/M18-capsule-closet-stylist-10-mistakes-years-older.md, /home/user/script-system/style-scripts/references/models/M19-beth-djalali-why-linen-looks-frumpy.md, /home/user/script-system/style-scripts/references/models/M20-mm-personal-styling-10-mistakes-look-older.md, /home/user/script-system/style-scripts/references/models/M21-marie-anne-lecoeur-7-things-scream-old-lady.md, /home/user/script-system/style-scripts/references/models/M22-marie-anne-lecoeur-how-not-to-wear-summer-dresses.md, /home/user/script-system/style-scripts/references/models/M23-marie-anne-lecoeur-how-to-look-slimmer.md, /home/user/script-system/style-scripts/references/models/M24-diana-goss-6-mistakes-look-shorter.md, /home/user/script-system/style-scripts/references/models/M25-marnie-goldberg-not-look-frumpy-older.md, /home/user/script-system/style-scripts/references/models/M26-diana-goss-style-mistakes-look-older.md, /home/user/script-system/style-scripts/references/models/M27-diana-goss-colour-hacks-look-younger.md, /home/user/script-system/style-scripts/references/models/M28-aliceinparis-things-french-women-never-buy.md, /home/user/script-system/style-scripts/references/models/M29-style-with-serena-outdated-fall-shoes.md, /home/user/script-system/style-scripts/references/models/M30-kay-harms-how-to-tie-a-scarf-winter.md, /home/user/script-system/personas/diane-de-chambray.md
+  persona facts: names [], book ['The French Way'], tenure none
+  spoken words: 2260 (about 13.1 minutes at 172 words a minute; minimum 12)
+  ITEMS: 5 | item one at word 75 (about 26 seconds at 172)
+  item words: 1 = 522 <<, 2 = 377 <<, 3 = 465 <<, 4 = 416 <<, 5 = 405 << (the last runs to the end of the script)
+  in band 150-350: 0 of 5
+  no 'I' line: none | no 'but': none | no sentence of 6 words or fewer: none
+  SENTENCES: 149 | mean 15.2 words | 6 or fewer 13.4% | over 25: 14 | longest 31 | over 35: 0
+  TITLE WORDS: frump 5 (first at about 14 s)
+
+FIX ON SIGHT (0)
+
+JUDGE WITH THE SHAPE TEST (0)
+
+"MOST ..." OPENERS: 0 (allowed: 1)
+REFRAME FLOOR (H21): 0 machine-caught (allowed: 1; the audit's count may never be lower)
+FILLER PHRASES OVER THE LIMIT (H23): 0
+ECHO (H18): 0
+
+NUMBERS NOT FOUND IN THE FACT SOURCE (0)  (invented, or derived: confirm the math)
+
+
+==== tools/verify_output.py ====
+VERIFY: /home/user/script-system/tests/iterations/iter-07/test-run-03/output.md
+  curly quotes in the script: 0 | evidence says mechanical 0
+  spoken words: 2260 (about 13.1 minutes at 172; minimum 12) | evidence says 2,260
+  ITEMS: 5 | item one at word 75 (about 26 seconds at 172)
+  item words: 1 = 522 <<, 2 = 377 <<, 3 = 465 <<, 4 = 416 <<, 5 = 405 << (the last runs to the end of the script)
+  in band 150-350: 0 of 5
+  no 'I' line: none | no 'but': none | no sentence of 6 words or fewer: none
+  SENTENCES: 149 | mean 15.2 words | 6 or fewer 13.4% | over 25: 14 | longest 31 | over 35: 0
+  quoted script lines in the evidence: 36 | not found in the script: 0
+
+DISCREPANCIES (0)
