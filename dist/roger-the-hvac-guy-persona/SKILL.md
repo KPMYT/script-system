@@ -3,7 +3,7 @@ name: roger-the-hvac-guy-persona
 description: The channel profile for Roger the HVAC Guy: persona, personal details, CTA rules and ending (this channel has no book). Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-10-29 (library commit 5c2617d)
+**Version:** 2026-10-29 (library commit 8edf5ef)
 
 # Persona profile: Roger the HVAC Guy
 

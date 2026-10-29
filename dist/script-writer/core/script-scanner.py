@@ -34,6 +34,18 @@ Usage:
                    letters-ok: HVAC, AC, MERV
                  and steps that must all be there once a topic comes up (fix on sight when one is missing):
                    require-if: trigger pattern => needed pattern | label
+                 and the title's promise words: any listed word (a prefix: "instant" covers "instantly") that is in
+                 the --title must be said at least twice, the first time within the first minute (fix on sight):
+                   title-words: instant, young, expensive, ten years | the title's promise words
+                 and, with title-words set, a report (never a fail) of how each title word and each capitalized title
+                 word (OLDER, ANY, NEVER) spreads: its count, its count in the script's second half and the longest
+                 stretch without it (iter-08)
+                 and, in a pack whose items may open on ordinal words, the nouns that make a signpost (iter-08):
+                   ordinal-signposts: pair, part, cut   ("The first pair is...", "Pair one."; a new noun may restart at one)
+                 and the "you" and "your" rate to mark (report only; the rate is printed on every channel):
+                   you-floor: 35
+                 and, in a persona profile, numbers the book's true facts use, read as a fact source (iter-08):
+                   book-facts: 101, four hundred | the book's counts
                A profile's "Words per minute ...: N" line sets the runtime estimate (150 if unset).
   --pack       the fact source: the research pack, or the brief where the niche pack doesn't use one.
                Every number in the script is checked against it.
@@ -94,6 +106,8 @@ HARD_BANS = [
     (r"\bstay (?:right )?here with me\b", "tease: stay right here with me"),
     (r"\b(?:do not|don'?t) skip out\b", "tease: don't skip out on me"),
     (r"\bby the end,? you'?ll\b", "tease: by the end, you'll"),
+    # the channel intro (locked: no greeting or channel intro; P20, 2026-10-29)
+    (r"\bthis channel is (?:for|where)\b|\b(?:I'?m|I am) here for (?:every )?wom[ae]n over\b", "channel intro: this channel is for"),
     # a closing to-do list is a recap (operator, 2026-10-29: "audit our skills to account for this")
     (r"\b(?:tonight'?s|today'?s|your|the whole of (?:tonight'?s|today'?s|your)) homework\b|\bhere'?s your (?:to-do|checklist)\b", "recap: a homework list at the end (one small thing to do, never a list)"),
     # pointing at the screen: banned everywhere (operator, 2026-10-20)
@@ -240,8 +254,8 @@ def read_rules(paths):
     """Returns bans, lifts, allows and the persona facts {"name": [...], "book": [...], "tenure": "45" | "none" | None}."""
     bans, lifts, allows = [], [], []
     facts = {"name": [], "book": [], "tenure": None, "once": [], "wpm": None, "min": None, "letters_ok": set(),
-             "item_words": None, "first_item_seconds": None, "sentence_max": None, "examples": [], "require": [],
-             "opening_bans": [], "opening_promises": [], "judges": []}
+             "item_words": None, "first_item_seconds": None, "sentence_max": None, "examples": [], "require": [], "title_words": [],
+             "opening_bans": [], "opening_promises": [], "judges": [], "ordinal_nouns": [], "you_floor": None, "book_facts": []}
     for p in paths or []:
         txt = open(p, encoding="utf8", errors="ignore").read()
         w = re.search(r"^Words per minute[^:\n]*:\s*(\d+)", txt, re.M)
@@ -288,6 +302,14 @@ def read_rules(paths):
                     facts["examples"].append((int(pat), p))
                 elif key.strip() == "letters-ok":
                     facts["letters_ok"].update(x.strip() for x in pat.split(",") if x.strip())
+                elif key.strip() == "title-words":
+                    facts["title_words"].extend(x.strip().lower() for x in pat.split(",") if x.strip())
+                elif key.strip() == "ordinal-signposts":
+                    facts["ordinal_nouns"].extend(x.strip().lower() for x in pat.split(",") if x.strip())
+                elif key.strip() == "you-floor":
+                    facts["you_floor"] = int(pat)
+                elif key.strip() == "book-facts":
+                    facts["book_facts"].append(pat)
                 elif key.strip() == "opening-ban-regex":
                     facts["opening_bans"].append((re.compile(pat, re.I), label))
                 elif key.strip() == "opening-promise-regex":
@@ -487,16 +509,16 @@ def example_check(text, examples, allows=None):
 
 # ---------------------------------------------------------------- persona facts (fix on sight)
 NUM_WORD = r"(?:\d{1,2}|(?:twenty|thirty|forty|fifty|sixty|seventy)(?:[- ](?:one|two|three|four|five|six|seven|eight|nine))?|ten|eleven|twelve|fifteen|five|six|seven|eight|nine)"
-_TRADE = r"(?:experience|trade|trades|plumbing|plumber|pipefitt\w*|pipe ?fitter|tools|bench|shop|job|field|business|woodworking|woodworker|carpentry|craft|career|wrenching|fixing \w+|doing this|in this line|(?:master |journeyman |licensed )?electricians?|electrical(?: work| trade| contracting)?|electric|wiring(?: houses| homes)?|lineman|wireman|hvac|heating|cooling|air conditioning|furnaces?)"
+_TRADE = r"(?:experience|trade|trades|plumbing|plumber|pipefitt\w*|pipe ?fitter|tools|bench|shop|job|field|business|woodworking|woodworker|carpentry|craft|career|wrenching|fixing \w+|doing this|in this line|(?:master |journeyman |licensed )?electricians?|electrical(?: work| trade| contracting)?|electric|wiring(?: houses| homes)?|lineman|wireman|hvac|heating|cooling|air conditioning|furnaces?|(?:hair)?stylists?|styling(?: women| hair)?|hairdress\w*|colou?rists?|fashion(?: world| industry| business)?|dressing(?: women)?|doing hair|cutting hair)"
 TENURE_RX = [
     # "45 years in the trade", "35 years of experience", "40 years as a plumber"
     re.compile(r"(?<![\w-])(" + NUM_WORD + r")[- ]years?\s+(?:(?:of|in|on|at|as|behind|under)\s+)?(?:(?:the|a|an|my)\s+)?" + _TRADE + r"\b", re.I),
     # "been a plumber for over 35 years", "fixing pipe for 30 years", "on the tools for 30 years"
-    re.compile(r"\b(?:been|spent|worked|working|wired|wiring (?:houses|homes)|plumbing|fixing|on the tools|in the trade|doing this|at the bench)\b[^.!?]{0,40}?\bfor (?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
+    re.compile(r"\b(?:been|spent|worked|working|wired|wiring (?:houses|homes)|plumbing|fixing|on the tools|in the trade|doing this|at the bench|a (?:hair)?stylist|a hairdresser|a colou?rist|styling women|dressing women|doing hair|cutting hair)\b[^.!?]{0,40}?\bfor (?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
     # "I've been doing this 40 years", "in the trade 45 years" (no "for"; 2026-10-27)
     re.compile(r"\b(?:doing this|in the trade|on the tools|at the bench)\s+(?:over |nearly |almost |about |more than |close to )?(" + NUM_WORD + r")[- ]years?\b", re.I),
     # "a 45-year plumber", "45-year veteran", "a 40-year electrician", "a 30-year HVAC tech"
-    re.compile(r"(?<![\w-])(" + NUM_WORD + r")-year\s+(?:(?:hvac|heating|furnace|service|electrical)\s+)?(?:plumber|pipefitter|veteran|master|tradesman|woodworker|carpenter|pro|career|tech|techs|technician|electrician|lineman|journeyman|serviceman|man|guy)\b", re.I),
+    re.compile(r"(?<![\w-])(" + NUM_WORD + r")-year\s+(?:(?:hvac|heating|furnace|service|electrical)\s+)?(?:plumber|pipefitter|veteran|master|tradesman|woodworker|carpenter|pro|career|tech|techs|technician|electrician|lineman|journeyman|serviceman|man|guy|(?:hair)?stylist|hairdresser|colou?rist)\b", re.I),
 ]
 
 def _num(tok):
@@ -623,19 +645,115 @@ def repeated_sentences(paras):
 
 # ---------------------------------------------------------------- items and sentences (report only)
 ORDINALS = "one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty".split()
-SIGNPOST = re.compile(r"(?:^|(?<=[.!?]\s))(?:And |So |Now,? )?(?:[Nn]umber|Step|Mistake|Item|Reason|Sign|Rung|Fix|Check|Tip|Thing|Level) (" + "|".join(ORDINALS) + r"|\d{1,2})\b")
+ORDINAL_WORDS = "first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth".split()
+_SIGN_WORDS = r"(?:Step|Mistake|Item|Reason|Sign|Rung|Fix|Check|Tip|Thing|Rule|Secret|Cut|Colou?r|Shade|Knot|Habit|Trick|Piece|Swap|Way|Level|Pair)"
+# "Number one.", "Mistake one.", and (P20, style) "Rule number three.", "Secret number five."
+SIGNPOST = re.compile(r"(?:^|(?<=[.!?]\s))(?:And |So |Now,? )?(?:" + _SIGN_WORDS + r" number |[Nn]umber |" + _SIGN_WORDS + r" )(" + "|".join(ORDINALS) + r"|\d{1,2})\b")
 I_LINE = re.compile(r"\bI(?:'d|'m|'ve|'ll)?\b")
+
+TITLE_WORD_MIN, TITLE_WORD_FIRST_SECONDS = 2, 60   # P20 (operator 2026-10-29, suggestion 2 of the style study)
+_ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+_TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
+
+def _digits_to_words(s):
+    """ "10 YEARS" -> "ten years", so a title's digits match a script written for the voice."""
+    def w(m):
+        n = int(m.group(0))
+        if n < 20: return _ONES[n]
+        if n < 100: return _TENS[n // 10] + ("" if n % 10 == 0 else "-" + _ONES[n % 10])
+        return m.group(0)
+    return re.sub(r"\b\d{1,2}\b", w, s)
+
+def title_words_check(text, title, facts, wpm):
+    """The pack's title-words that the locked title uses: each must be said at least twice, once in the first minute.
+    Returns (report lines, fix-on-sight lines)."""
+    entries = facts.get("title_words") or []
+    if not entries or not title:
+        return [], []
+    t = _digits_to_words(title.lower())
+    spoken = _digits_to_words(" ".join(spoken_paragraphs(text)).lower())
+    rep_parts, fix = [], []
+    for e in entries:
+        rx = re.compile(r"\b" + r"[\s-]+".join(re.escape(x) for x in e.split()) + r"\w*")
+        if not rx.search(t):
+            continue
+        hits = [m.start() for m in rx.finditer(spoken)]
+        first = len(spoken[:hits[0]].split()) / wpm * 60 if hits else None
+        rep_parts.append(f"{e} {len(hits)}" + (f" (first at about {first:.0f} s)" if hits else ""))
+        if len(hits) < TITLE_WORD_MIN:
+            fix.append(f"[TITLE WORD] \"{e}\" is in the title and said {len(hits)} time(s); say it at least {TITLE_WORD_MIN} times, once in the first minute")
+        elif first > TITLE_WORD_FIRST_SECONDS:
+            fix.append(f"[TITLE WORD] \"{e}\" is first said at about {first:.0f} seconds; say it in the first minute")
+    lines = [("  TITLE WORDS: " + "; ".join(rep_parts)) if rep_parts else "  TITLE WORDS: none of the pack's title-words is in the title"]
+    lines += title_spread(spoken, t, title, entries, wpm)
+    return (lines, fix)
+
+# NEVER and ALWAYS are left out: a style title's "NEVER" about French women is paid by its hedged meaning, never said back
+CAPS_SKIP = {"AND", "OR", "THE", "TO", "OF", "A", "IN", "ON", "FOR", "WITH", "AT", "BY", "VS", "US", "UK", "TV", "DIY", "NEVER", "ALWAYS"}
+
+def title_spread(spoken, t, title, entries, wpm):
+    """Report only (iter-08: the title's feeling faded after the hook): for each title word the pack lists and each
+    capitalized word of the title, the count, the count in the second half and the longest stretch without it."""
+    words = spoken.split()
+    total = len(words)
+    if not total:
+        return []
+    found = []      # (word, whole word only?)
+    for e in entries:
+        if re.search(r"\b" + r"[\s-]+".join(re.escape(x) for x in e.split()) + r"\w*", t):
+            found.append((e, False))
+    for w in re.findall(r"\b[A-Z]{2,}\b", title):
+        lw = w.lower()
+        if w not in CAPS_SKIP and not any(lw.startswith(e) or e.startswith(lw) or lw in e.split() for e, _ in found):
+            found.append((lw, True))
+    parts, all_hits = [], []
+    for e, whole in found:
+        rx = re.compile(r"\b" + r"[\s-]+".join(re.escape(x) for x in e.split()) + (r"\b" if whole else r"\w*"))
+        pos = [len(spoken[:m.start()].split()) for m in rx.finditer(spoken)]
+        all_hits += pos
+        second = sum(1 for x in pos if x >= total / 2)
+        edges = [0] + pos + [total]
+        gap = max(b - a for a, b in zip(edges, edges[1:]))
+        parts.append(f"{e} {len(pos)}, second half {second}, longest gap {gap} words (about {gap / wpm:.1f} min)"
+                     + ("  <<" if not second else ""))
+    if not parts:
+        return []
+    return ["  TITLE SPREAD: " + "; ".join(parts) + f" | all title words {1000 * len(all_hits) / total:.1f} per 1,000"]
 
 def item_report(text, facts, wpm):
     """Finds the spoken signposts in order ("Number one." ... "Step two."), and returns report lines:
     item one's word, each item's words against the pack's band, items with no "I" line or no "but", and the sentence stats."""
-    full = " ".join(spoken_paragraphs(text))
+    # the CTA marker blocks aren't item content (iter-07: they inflated the long-item flags)
+    full = " ".join(spoken_paragraphs(re.sub(r"===START CTA.*?===END CTA===", " ", text, flags=re.S)))
     starts, want = [], 1
-    for m in SIGNPOST.finditer(full):
-        g = m.group(1).lower()
-        n = int(g) if g.isdigit() else ORDINALS.index(g) + 1
-        if n == want:
-            starts.append(m.start()); want += 1
+    nouns = facts.get("ordinal_nouns") or []
+    if not nouns:
+        for m in SIGNPOST.finditer(full):
+            g = m.group(1).lower()
+            n = int(g) if g.isdigit() else ORDINALS.index(g) + 1
+            if n == want:
+                starts.append(m.start()); want += 1
+    else:
+        # iter-08: "The first pair is...", "Pair one.", and a new noun may start again at one ("the first part" ... then "Pair one.")
+        nrx = "|".join(re.escape(x) for x in nouns)
+        ordrx = re.compile(r"(?:^|(?<=[.!?]\s))(?:And |So |Now,? )?(?:[Tt]he (" + "|".join(ORDINAL_WORDS) + r") (" + nrx + r")s?\b|(" + nrx + r") (" + "|".join(ORDINALS) + r"|\d{1,2})\b)", re.I)
+        hits = []
+        for m in SIGNPOST.finditer(full):
+            g = m.group(1).lower()
+            word = re.match(r"(?:And |So |Now,? )?(\w+)", m.group(0)).group(1).lower()
+            hits.append((m.start(), word, int(g) if g.isdigit() else ORDINALS.index(g) + 1))
+        for m in ordrx.finditer(full):
+            if m.group(1):
+                hits.append((m.start(), m.group(2).lower(), ORDINAL_WORDS.index(m.group(1).lower()) + 1))
+            else:
+                g = m.group(4).lower()
+                hits.append((m.start(), m.group(3).lower(), int(g) if g.isdigit() else ORDINALS.index(g) + 1))
+        noun = None
+        for at, w, n in sorted(set(hits)):
+            if (w == noun and n == want) or (n == 1 and w != noun):
+                if starts and at == starts[-1]:
+                    continue
+                starts.append(at); noun, want = w, n + 1
     out = []
     if starts:
         lo, hi = facts.get("item_words") or (0, 10 ** 6)
@@ -662,7 +780,14 @@ def item_report(text, facts, wpm):
             out.append(f"  in band {lo}-{hi}: {band} of {len(starts)}")
         out.append(f"  no 'I' line: {', '.join(no_i) or 'none'} | no 'but': {', '.join(no_but) or 'none'} | no sentence of 6 words or fewer: {', '.join(no_short) or 'none'}")
     else:
-        out.append("  ITEMS: no spoken signposts found (\"Number one.\", \"Step one.\" ...)")
+        out.append("  ITEMS: no spoken signposts found (\"Number one.\", \"Step one.\" ...): item lengths and item one's timing NOT CHECKED, hand-count them")
+    spoken_all = " ".join(spoken_paragraphs(text))
+    n_all = len(spoken_all.split())
+    if n_all:
+        you = len(re.findall(r"\b(?:you|your)\b(?!['\u2019])", spoken_all, re.I))
+        floor = facts.get("you_floor")
+        out.append(f"  YOU: \"you\" and \"your\" {you} = {1000 * you / n_all:.1f} per 1,000"
+                   + (f"  << under {floor}" if floor and 1000 * you / n_all < floor else ""))
     lens = [len(s.split()) for p in spoken_paragraphs(text) for s in sentences(p)]
     if lens:
         cap = facts.get("sentence_max") or SENTENCE_MAX
@@ -825,6 +950,12 @@ def main():
     print(f"  spoken words: {words} (about {mins:.1f} minutes at {wpm} words a minute; minimum {minimum})" + ("  << under the minimum" if mins < minimum else ""))
     for line in item_report(text, facts, wpm):
         print(line)
+        if "NOT CHECKED" in line:
+            judge.append("[ITEMS NOT CHECKED] no spoken signposts the scanner reads: hand-count the items and item one's seconds in the Items and Hook lines")
+    tw_lines, tw_fix = title_words_check(text, a.title, facts, wpm)
+    for line in tw_lines:
+        print(line)
+    fix.extend(tw_fix)
     if a.final and mins < minimum:
         fix.append(f"[LENGTH] {words} spoken words = about {mins:.1f} minutes at {wpm} words a minute; the minimum is {minimum}")
     print(f"\nFIX ON SIGHT ({len(fix)})")
@@ -839,7 +970,8 @@ def main():
     print(f"ECHO (H18): {len(echoes)}")
     for e in echoes: print("  " + e)
     if a.pack:
-        missing = number_check(text, "\n".join(open(f, encoding="utf8", errors="ignore").read() for f in a.pack))
+        # the profile's book title counts as a fact source too ("Three Hundred Budget-Friendly Ways...": P20 follow-up, iter-07)
+        missing = number_check(text, "\n".join(open(f, encoding="utf8", errors="ignore").read() for f in a.pack) + "\n" + "\n".join(facts["book"] + facts["book_facts"]))
         print(f"\nNUMBERS NOT FOUND IN THE FACT SOURCE ({len(missing)})  (invented, or derived: confirm the math)")
         for v, s in missing[:30]:
             print(f"  {v:g}  <<  {s[:110]}")

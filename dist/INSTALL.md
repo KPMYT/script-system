@@ -1,8 +1,8 @@
 # Installing the skills
 
-**Version:** 2026-10-29 (library commit 5c2617d)
+**Version:** 2026-10-29 (library commit 8edf5ef)
 
-Seventeen skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
+Twenty skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
 
 | File | Layer | What it does | On your account now |
 |---|---|---|---|
@@ -20,13 +20,20 @@ Seventeen skill files, one per layer (`script-writer` also comes as `script-writ
 | `hvac-scripts.skill` | Niche | The HVAC rules for Roger the HVAC Guy (built from the plumbing rules: the opening, emotion, villain, video types, CTAs, the ending, length, voice, proof, money, HVAC safety), the HVAC model scripts, the HVAC price guide and the copy guard's files. | **New:** upload it. |
 | `roger-the-hvac-guy-persona.skill` | Channel | Roger the HVAC Guy's profile (the same Roger, in HVAC) and his one-line subscribe ask (no book for now). Ready since 2026-10-27, after two rounds of tests. | **New:** upload it. |
 | `werner-finkbeiner-persona.skill` | Channel | Werner Finkbeiner's profile (the German way, plumbing, Talking Head, *Werner's 101 Free Repairs*). Ready since 2026-10-27; his book index (chapters, every repair with page and Money Saved) is inside. | **New:** upload it. |
+| `style-scripts.skill` | Niche | The hair-and-fashion rules for women over 60 (the opening carried from a winning model's hook, emotion built from this niche, the video types, the book as the only CTA, the comment ask about her, no prices unless the title is about budget), the hook bank, the model scripts and the copy guard's files. Ready since 2026-10-29, after two rounds of tests. | **New:** upload it. |
+| `scarlett-starling-persona.skill` | Channel | Scarlett Starling's profile (the affluent American, no age, *300 Budget-Friendly Ways to Look Expensive*) and her book index. | **New:** upload it. |
+| `diane-de-chambray-persona.skill` | Channel | Diane de Chambray's profile (the French way, one heritage line, *The French Way*) and her book index. | **New:** upload it. |
 | `woodworking-ideation.skill` | Ideation | The Etsy-first product scan (30 products), title and thumbnail-text options, fact briefs, the optional research pack. | **Replace** the copy on the account (delete it, upload this). |
 | `plumbing-ideation.skill` | Ideation | Plumbing titles and briefs for Roger, Mark, Vintage and Werner; briefs now give each item its cost and the right way (the script fills gaps from the plumbing price guide). | **Replace** the copy on the account (delete it, upload this). |
 | `ideation-core.skill` | Ideation | The shared base every ideation skill needs. | **Unchanged:** only install it where it's missing (for example a new VA account). |
 
 All of the script skills must be installed together: `script-writer` stops with NOT READY if the channel's niche or persona skill is missing.
 
-## Steps
+## This build (2026-10-29, the style channels)
+
+Everything else on the account already matches this build. Upload only these four: **replace** `script-writer` (delete the old one first), and upload the **new** `style-scripts`, `scarlett-starling-persona` and `diane-de-chambray-persona`. Turn them on.
+
+## Steps (a new account)
 
 1. **Delete** the old copies of `plumbing-ideation`, `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona` and `vintage-pipefitter-persona`.
 2. **Upload all sixteen from this build together**: those nine, `script-writer`, `sawdust-sam-persona`, the new `electrical-scripts` and `frederick-barnes-persona`, the new `hvac-scripts` and `roger-the-hvac-guy-persona`, and the new `werner-finkbeiner-persona` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).

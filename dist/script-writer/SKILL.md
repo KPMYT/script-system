@@ -1,11 +1,11 @@
 ---
 name: script-writer
-description: Writes YouTube scripts for the operator's channels. Runs whenever someone types START (alone or followed by inputs), asks for a new script, or pastes a title with a brief (and, where the niche uses one, a research pack) for a script. It asks which channel, collects exactly the inputs that channel needs, refuses to write until every input is valid, then runs straight through to the finished, audited script and voiceover copy. Holds the core rules; it reads the channel's niche-pack skill and persona skill. Channels ready now: Hank Hardwood, Dale Oakfield's Workshop and Sawdust Sam (woodworking for profit); Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter and Werner Finkbeiner (plumbing); Frederick Barnes (home electrical); Roger the HVAC Guy (HVAC).
+description: Writes YouTube scripts for the operator's channels. Runs whenever someone types START (alone or followed by inputs), asks for a new script, or pastes a title with a brief (and, where the niche uses one, a research pack) for a script. It asks which channel, collects exactly the inputs that channel needs, refuses to write until every input is valid, then runs straight through to the finished, audited script and voiceover copy. Holds the core rules; it reads the channel's niche-pack skill and persona skill. Channels ready now: Hank Hardwood, Dale Oakfield's Workshop and Sawdust Sam (woodworking for profit); Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter and Werner Finkbeiner (plumbing); Frederick Barnes (home electrical); Roger the HVAC Guy (HVAC); Scarlett Starling and Diane de Chambray (style for women over 60).
 ---
 
 # Script writer (the core)
 
-**Version:** 2026-10-29 (library commit 5c2617d)
+**Version:** 2026-10-29 (library commit 8edf5ef)
 
 When someone types **START**, open `core/workflow.md` (in this skill's folder) and follow it exactly, from section 1. Everything else is loaded from there.
 
@@ -28,6 +28,9 @@ The script system is split into separate skills, one per layer. They're all inst
 | the niche pack `hvac-scripts` | the **hvac-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder (with `references/models/`) |
 | the persona profile `personas/roger-the-hvac-guy.md` | the **roger-the-hvac-guy-persona** skill: its `SKILL.md` is the profile (this channel has no book for now) |
 | the persona profile `personas/werner-finkbeiner.md` | the **werner-finkbeiner-persona** skill: its `SKILL.md` is the profile, plus his book index |
+| the niche pack `style-scripts` | the **style-scripts** skill: its `SKILL.md` is the pack's rules, plus its `references/` folder (with `references/models/`) |
+| the persona profile `personas/scarlett-starling.md` | the **scarlett-starling-persona** skill: its `SKILL.md` is the profile |
+| the persona profile `personas/diane-de-chambray.md` | the **diane-de-chambray-persona** skill: its `SKILL.md` is the profile |
 | a book text `personas/books/<channel>-book.md` | inside that channel's persona skill, at the same path |
 
 If a skill the chosen channel needs isn't installed, stop with the NOT READY block (`core/workflow.md`, section 5) and name the missing skill.
@@ -61,8 +64,16 @@ Electrical (copy-guard files: the pack's own SKILL.md, the excerpts, the voice s
 
 ```
 python3 core/script-scanner.py SCRIPT --rules <electrical-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF <electrical-scripts>/references/facts-guide.md --title "LOCKED TITLE" --refs <electrical-scripts>/SKILL.md <electrical-scripts>/references/excerpts.md <electrical-scripts>/references/voice-samples.md <electrical-scripts>/references/models/*.md <channel-persona>/SKILL.md --final
+```
+
 HVAC (the same shape as plumbing, with the HVAC pack's files):
 
 ```
 python3 core/script-scanner.py SCRIPT --rules <hvac-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF <hvac-scripts>/references/price-guide.md --title "LOCKED TITLE" --refs <hvac-scripts>/SKILL.md <hvac-scripts>/references/excerpts.md <hvac-scripts>/references/voice-samples.md <hvac-scripts>/references/models/*.md <channel-persona>/SKILL.md --final
+```
+
+Style (hair and fashion; no price guide, so the brief alone is the fact source; the title-words key needs the locked title):
+
+```
+python3 core/script-scanner.py SCRIPT --rules <style-scripts>/SKILL.md <channel-persona>/SKILL.md --pack BRIEF --title "LOCKED TITLE" --refs <style-scripts>/SKILL.md <style-scripts>/references/excerpts.md <style-scripts>/references/voice-samples.md <style-scripts>/references/models/*.md <channel-persona>/SKILL.md --final
 ```
