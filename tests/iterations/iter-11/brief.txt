@@ -1,0 +1,76 @@
+TEST BRIEF (iter-11): written by a setup helper on 2026-11-05 as talking points from the published video's content (emJlOXLyx0w, captions in tests/iterations/iter-11/published-emJlOXLyx0w.txt), checked against electrical-scripts/references/facts-guide.md; not from the operator's sheet
+FIXED OR ADDED AGAINST THE FACTS GUIDE (the published video had these wrong or missing):
+- The CPSC aluminum repair: the video called the crimp "Coplem" and gave it and the AlumiConn connector as two equal repairs. It is the COPALUM crimp, CPSC's recommended repair, done only by electricians trained and authorized for it; the AlumiConn connector is the next best (facts guide 3.17).
+- The GFCI places: the video said "near a sink or tub" and left out crawl spaces. The 2023 code list is "within 6 feet of a sink" and "within 6 feet of a tub or shower", plus crawl spaces (4.5).
+- Added (the video was silent): a replacement outlet in a room that now needs AFCI protection needs it too (4.13), and replacements must be tamper-resistant where the code requires it (4.14). Code is local: check with the local inspector.
+- The captions' "1,965" is 1965 (7.5).
+TITLE: 7 Outlet Wiring Mistakes I Find in Almost Every Older House
+CHANNEL: Frederick Barnes
+BRIEF (talking points):
+- The problem: an outlet can be wired wrong for decades and still work every day. In an older house, years of owners and weekend fixes build up behind the cover plates; it looks fine until the box is opened. Seven mistakes turn up in almost every older house (the title says "I find": say it as the typical case). Six the homeowner can put right; one (aluminum) belongs to a licensed electrician.
+- Order: the two the plug-in tester can point to first, then the one it gets wrong, then the wires themselves (what they're made of, how they're held, how many under a screw, which way they wrap).
+- Kit: a plug-in outlet tester (three lights and a chart printed on it), a non-contact pen tester, a two-probe voltage tester for two-slot or worn outlets and metal boxes, a screwdriver, wire strippers.
+- 1. The outlet wired backwards (reversed polarity):
+  - Caught without a screwdriver: plug the tester in and read the lights against the chart.
+  - Brass screws take the hot (usually black, brings power from the breaker); silver take the neutral (usually white, carries the current back).
+  - Why nobody notices: the outlet still works. But a lamp's own switch now sits on the wrong side, so the metal shell around the bulb can carry power with the lamp switched off. The wide blade on a polarized plug is the neutral; it exists to keep the lamp switch on the hot side (4.20). A backwards outlet undoes that.
+  - The fix is the first time a box is opened: the full prove-dead order (see Safety), then look at the wires before touching them. Dull silver wire is aluminum: stop (item 4). Brittle, cracked or scorched insulation or a melted box: stop, breaker off, licensed electrician.
+  - Copper in good shape: black to brass, white to silver. If the black was already on brass and the tester still said reversed, the wiring isn't what it should be: stop and call an electrician.
+  - Power back on; the tester shows correct; the lamp's shell goes dead with its switch. Worth running the tester through every outlet in an older house.
+- 2. The three-prong outlet with no ground behind it:
+  - The ground is the bare or green wire; it normally carries nothing and gives stray current a path so the breaker trips. Many older houses have two-wire cable (hot and neutral only); someone swapped in three-prong outlets so newer plugs would fit. The round hole is connected to nothing; a surge strip or computer is counting on a path that isn't there.
+  - Check: the tester shows "open ground", meaning no ground wire is connected at that outlet.
+  - The fix: an electrician can add a ground, and then a grounded three-prong outlet goes in connected to it (4.16). Otherwise the code gives three choices (4.15): a two-prong outlet; a GFCI outlet labeled "No Equipment Ground"; or a three-prong outlet fed from a GFCI, labeled "GFCI Protected" and "No Equipment Ground". Never a plain three-prong with nothing behind it.
+  - A GFCI (the outlet with test and reset buttons, cuts the power in a split second when current leaks where it shouldn't) protects people from shock but adds no ground: a surge strip still has no ground path (4.17).
+  - Look before you shop (prove-dead order first): a bare or green wire folded in the back of the box means a grounded outlet connected to it may be the answer.
+  - Where the replacement sits decides the rest: in a bathroom, kitchen, garage, basement, crawl space, laundry area, outdoors, or within 6 feet of a sink, tub or shower, the replacement must be GFCI protected anyway (4.5, 4.11). In a room that now needs AFCI protection, the replacement needs that too (4.13), and tamper-resistant where the code requires it (4.14); the local inspector has the final say.
+  - A GFCI is deeper than a plain outlet: in a packed box, ask an electrician whether it fits. Incoming power goes on the LINE screws; LOAD feeds and protects outlets further along. Two cables and no way to tell which brings the power in: stop and call an electrician.
+  - After: lamp plugged in, the test button cuts it, reset brings it back. The plug-in tester still shows open ground: expected; the missing wire causes it, not the GFCI (14.50). The test button is the check that counts. A two-prong outlet: the two-probe tester across the slots shows power, then a lamp and the plug's grip.
+  - Verdict available: the GFCI over the two-prong in nearly every room.
+- 3. The bootleg ground (the one the tester gets wrong):
+  - An old three-prong outlet on two-wire cable, and the tester says correct. A short jumper from the silver (neutral) screw to the green ground screw fakes a ground (7.11).
+  - Why it matters: the neutral carries current all day, so the ground hole is tied to a working wire. Anything with a metal case (a toaster, a drill) is joined to the neutral; if the neutral comes loose up the line, that case can carry power. Against code.
+  - A three-light tester can't detect it (8.11); it's found only with the power off and the outlet eased out (prove-dead order): a short wire from the silver screw to the green one, with no bare or green wire from the cable.
+  - Fix: the jumper comes off; the outlet is now honestly ungrounded and gets one of the choices from item 2 before the power goes back on. The tester will then read open ground: the outlet finally telling the truth.
+- 4. Aluminum wire on an outlet not made for it (the electrician's one):
+  - From 1965 to the mid-1970s, during a copper shortage, many houses got aluminum branch wiring (CPSC, 7.5).
+  - Check without opening anything: the cable jacket in an unfinished basement, attic or garage is printed "AL" or "ALUMINUM" every few feet (7.7). In a box, aluminum is dull silver.
+  - The trouble is at each connection to an outlet or switch. Devices stamped CO/ALR exist, but CPSC calls them "at best, an incomplete repair" (3.16).
+  - CPSC's warning signs: cover plates hot to the touch, flickering lights, circuits that stop working, a smell of burning plastic at an outlet or switch; aluminum connections can also fail with no warning (7.8).
+  - The repair is the electrician's at every connection in the house: CPSC recommends the COPALUM crimp (only by electricians trained and authorized for it); the AlumiConn connector is the next best (3.17). Never on aluminum: an ordinary outlet or switch, push-in holes, a copper-only lever connector, an ordinary wire nut.
+  - The homeowner's part: read the cable, and know what to ask for. It's a known problem with a known fix. Verdict available: book the electrician that week.
+- 5. Backstabbed wires (the push-in holes):
+  - The sign: a string of outlets in a room that quits now and then and comes back on its own (3.7).
+  - Push-in holes hold each wire with a small spring; heating and cooling with every load can loosen it; a loose grip means heat and arcing (electricity jumping a small gap), at the back of the outlet where nobody sees it.
+  - Even the listing limits them: push-in holes are only for 14-gauge solid copper on 15-amp circuits, never aluminum (3.6).
+  - Fix (prove-dead order): cut each wire off at the back, strip a fresh end, move it to a side screw; or an outlet with back-wire clamp terminals, where a screw tightens a plate onto the wire (3.5; not the same as push-in holes).
+  - After: tester correct, power at every outlet in the string. Verdict available: move every backstabbed wire to the screws.
+  - Bridge: a fresh end that comes up short, or two wires crammed under one screw, leads to item 6.
+- 6. Two wires under one screw:
+  - Usually someone feeding the next outlet without a connector. Looks tidy, but two wires under one screw head never sit flat; when one shifts, both can loosen.
+  - One wire per screw unless the device is marked for two (3.4). CPSC: a loose connection can't carry much current without getting hot (3.8).
+  - Fix (prove-dead order): a pigtail, a short piece of new wire joined to the box's wires with a listed wire nut (the twist-on cap) or lever connector, so only the pigtail goes on the screw. Read the rating printed on the connector for the wires being joined.
+  - After: tester correct, one wire on every screw. Verdict available: the extra minute for a pigtail every time.
+- 7. The wire hooked the wrong way, and the strip length:
+  - Hooked counterclockwise, tightening the screw pushes the loop out from under the head: a loose connection that heats up. Hooked clockwise, about three-quarters of the way round, the screw pulls the loop in (3.2).
+  - Strip to the strip gauge molded on the back of the outlet; it differs from one outlet to the next, so go by the one in hand (3.1). No insulation under the screw (it clamps plastic, not copper), no extra bare copper past the screw head. The outlet's instructions give how tight the screw should be.
+  - After: tester correct; every loop snug, clockwise, copper under the screw and nothing past it. The connection a careful electrician makes: the pride landing.
+- The close: one small thing to do: plug the tester into the outlets used most and see what they say.
+SAFETY (every item that opens a box):
+- Prove it dead before the plate comes off, in this order: the pen tester checked on an outlet known to be live; the plug-in tester in the outlet, seen lit in both halves; the breaker off, taped, with a note (8.13); the plug-in tester dark in both halves (if not, the panel label was wrong: try the next breaker); the plate off; the tester on the screws; the mounting screws out and the outlet eased forward by its strap without touching the wires; every wire and every cable in the box tested (one box can hold more than one circuit, 8.5); the pen tester checked on the live outlet again (8.2). Only then hands near the wires.
+- A pen tester's silence is never proof (8.3). A two-slot outlet, or one too worn to hold the plug-in tester: the two-probe tester across the slots, checked on a working outlet first, reading power before the breaker goes off and none after, then checked on the working outlet again. In a metal box or on armored cable: the two-probe tester on the wires (8.4).
+- Any wire still showing power: hands back, find its breaker, test again; can't find it: call an electrician.
+- Later items repeat the order briefly ("the same order as number one").
+- Power back on as its own step, with the tester's reading; after a stop sign (aluminum, brittle or scorched insulation, a melted box, wiring that doesn't match) the breaker stays off until a licensed electrician has seen it.
+- A plate that's hot or discolored (12.13): stop using that outlet, unplug what's in it, get a licensed electrician as soon as possible. A burning smell, sparks, buzzing or crackling (12.14): unplug or stop using it, turn that circuit off at the breaker if it can be done safely, call a licensed electrician; if the smell is at the panel itself, don't touch the panel (9.5).
+- Only connectors and devices listed for house wiring. Never a jumper to the ground screw.
+BOUNDARIES:
+- No "I find", "I've seen" or job stories: the title's "I Find" is said as the typical case ("the ones you'll find in almost every older house").
+- Tenure: thirty-five years, once at most, only before a verdict.
+- No prices, no brand names except the AlumiConn connector and the COPALUM crimp as CPSC names them; no Leviton, Klein or other brands.
+- CPSC is named only for its own facts (the aluminum dates, the warning signs, the CO/ALR verdict, the repairs, the loose-connection line); say its words as given.
+- Don't say aluminum or older wiring "is illegal" or "has to be torn out"; don't say a CO/ALR device is "done".
+- Don't say a GFCI adds a ground, or that the GFCI causes the open-ground reading.
+- Code is local: "the code in most places" or "newer code", and "check with your local inspector" where the local rule decides. No code section numbers on air.
+- Fire is the stake where a connection loosens, never the topic; no scare reel.
+ROTATION LOG: none
