@@ -39,7 +39,7 @@ Put him in the scene with the problem and the mistake people make, and say what 
    - after cleaning a condensate trap, refill it with water; nothing poured into the pressure-switch hoses or the inducer
    - a gas smell, whenever mentioned: everyone out now, on foot; no light switch, phone, garage door opener, flame or car; once well away, call nine-one-one and the gas company, never assuming someone else did; stay out until they say it's safe; some people can't smell it, and the smell can fade
    - a carbon monoxide alarm going off, whenever mentioned: never ignore it or hunt for the source; everyone outside; count heads; call nine-one-one or the fire department from outside; stay out until they say it's safe; the furnace or another appliance stays off until a trained tech fixes it; medical help for anyone who feels sick
-   - each stop sign names its trigger: "Water still on the floor with a clean line? That's a call."
+   - each stop sign names its trigger: "If the breaker trips again the minute you reset it, that's a call."
 3. **No book and no mid-video ask.**
 4. **The ending,** in this order, then stop:
    1. finish the last step on relief, with one small thing to do tonight
