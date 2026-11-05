@@ -2,7 +2,7 @@ TEST (iter-09, run B: the one-page brief)
 
 Your bathroom sink takes five minutes to empty after you brush your teeth. Or you finish a shower standing ankle deep. So you grab a jug of drain cleaner off the store shelf. That's the mistake. If the jug doesn't clear it, you've got a drain full of chemical that burns skin, and now you can't safely plunge it.
 
-A plumber charges a hundred to three hundred dollars to clear one sink, tub or shower. After hours or on a weekend, it's one and a half to three times that. A clog comes in three levels, smallest first, and by the end of this you'll know which one you've got and exactly where the job stops being yours.
+A plumber charges a hundred to three hundred dollars to clear one sink, tub or shower. After hours or on a weekend, it's one and a half to three times that. A clog comes in three levels, smallest first, and you'll know which one you've got and exactly where the job stops being yours.
 
 Level one is the slow drain. Here's what you do. Put on a pair of rubber gloves and pull the stopper. On most bathroom sinks it lifts straight out, or you give it a quarter turn and then lift. On a tub, the strainer unscrews, or the stopper pops up and you wiggle it free.
 
@@ -38,7 +38,7 @@ You can feel which one you've hit. Going around the bend, the cable turns and mo
 
 And if it won't budge after the plunger and the snake both, put the tools away. A clog that won't move after the plunger and the snake is a call. No sense fighting a pipe you can't see.
 
-Level three is the blocked drain. Nothing goes down at all. You've still done levels one and two first, because the strip and the plunger are the cheapest things to try, and you'll want that snake in your hand for this one anyway. And there are two very different kinds of blocked, so you need to know which one you've got before you touch a thing.
+Level three is the blocked drain. Nothing goes down at all. You still start with levels one and two, because the strip and the plunger are the cheapest things to try, and you'll want that snake in your hand for this one anyway. And there are two very different kinds of blocked, so you need to know which one you've got before you touch a thing.
 
 The first kind is one fixture only. Just the kitchen sink, or just the tub, and every other drain in the house runs fine. That means the plug is past the trap, in the trap arm. That's the short pipe that runs from the trap into the wall. This one is still yours to fix.
 
