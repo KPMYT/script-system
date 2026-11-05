@@ -1,0 +1,48 @@
+TEST BRIEF (iter-09): written by a setup helper as talking points from the published video's content (AGp_vAn5hqI, captions in studies/recent-uploads-2026-11-05/transcripts/roger-AGp_vAn5hqI.txt), with the facts its audit (studies/recent-uploads-2026-11-05/audits/roger.md, section 6) flagged corrected; not from the operator's sheet
+TITLE: How to Unclog a Drain For Beginners
+CHANNEL: Roger the Pipe Guy
+BRIEF (talking points):
+- The problem: a sink, tub or shower that drains slow, stands full, or won't drain at all. The clog is hair, soap scum and (in a kitchen) grease building up in layers on the pipe wall, usually in the first few feet or in the trap (the U-bend under the sink).
+- Money: a plumber charges $100 to $300 to clear a sink, tub or shower clog; after hours, weekends or emergencies it's 1.5 to 3 times the normal rate. Three cheap tools do the same job for well under the price of one visit. No chemical jug anywhere in this video.
+- The order: three levels, smallest first. Level 1 slow (drains, but slowly), level 2 clogged (water stands for minutes or barely trickles), level 3 blocked (nothing goes down). Each level builds on the one before.
+- Level 1, the slow drain:
+  - Gloves on. Pull the stopper: a bathroom sink stopper usually lifts straight out or twists a quarter turn; a tub strainer unscrews, or the stopper pops up and wiggles free.
+  - Most of the time the whole clog is right under the stopper: a gray mat of hair and slime.
+  - Tool: the plastic drain strip, about 2 feet long with barbs down both sides, about $3. Feed it in, twist, pull up slowly; repeat until it comes up clean.
+  - Flush what's left: a squirt of dish soap, then the hottest tap water for 2 to 3 minutes. Not boiling water: the white plastic (PVC) drain pipe under most sinks is rated to about 140 degrees F, and the book's Fix 35 says boiling water can damage older plastic pipe.
+  - Kitchen drain: the coat is grease, which sets like candle wax. Dissolve half a cup of washing soda (laundry aisle, about $5 to $6 a box) in hot tap water, pour it in, then the hot flush. Dissolve it first: poured in dry, it cakes. It's far gentler than a chemical drain cleaner, but it is still a strong alkali: gloves on.
+  - Test: tap on full; if the water spins straight down with no pooling, it's done.
+  - Prevention: the soap and hot-water flush once a month on every drain (Roger's own first-Saturday routine, with his coffee: the one personal detail allowed).
+- Level 2, the clogged drain:
+  - The real plug is past where the strip reaches, often in the trap. Water still creeps through, but it gets worse every day.
+  - Tool: a cup plunger (the plain rubber cup, $4 to $10), not the flange plunger with the flap underneath, which is for toilets.
+  - A few inches of water in the sink so the cup is underwater: water doesn't compress, so every stroke goes at the plug; plunging air does nothing.
+  - Block the overflow slot under the rim with a wet rag, hard. Double kitchen sink: the bowls share one drain, so block the other side with a wet rag or a second plunger.
+  - Seal the cup, 15 to 20 firm strokes, keep the cup on the drain the whole time (breaking the seal starts you over); pull it off on the last stroke and run hot water.
+  - If it's moved a little but still slow: the hand snake (drain auger), 25 feet of cable in a drum with a crank, $25 to $35. Stopper out, feed it in until it stops (the bend in the trap or the clog), tighten the thumb screw, crank while pushing gently. Through the bend it moves easily; into the clog it gets heavy: keep cranking so the tip bites and winds the mat up. Pull back slowly, bucket under the sink, wipe the cable, run hot water.
+- Safety (the one dangerous part): if a chemical drain cleaner is already in the drain, don't plunge it and don't snake it; plunging splashes it onto hands and face and it burns. Never mix two cleaners in the same drain. If a plumber comes, tell them what's in there. Gloves throughout; eye protection when the trap comes off is sensible (check).
+- Level 3, the blocked drain (two kinds):
+  - One fixture only (just the kitchen sink or just the tub): the plug is past the trap, in the trap arm (the pipe from the trap into the wall). Bucket under the trap, undo the two big slip nuts by hand or with tongue-and-groove pliers, pull the trap and dump it; often the plug is in there. If the trap's clean, feed the snake straight into the trap arm: no bends in the way, so it reaches further. Trap back on hand tight, run water, check for drips.
+  - A cleanout, if the house has one near that drain (a capped fitting on the drain pipe in the basement, crawl space or an outside wall, with a square or hex plug): a better way in. Bucket under it before opening.
+  - Two or more fixtures backing up at once is the main line, the big pipe that carries every drain out to the sewer. Test: flush a toilet and watch the tub; gurgling or water coming up in the tub, a basement floor drain or a first-floor shower backing up when something upstairs runs. No hand snake or plunger reaches it.
+  - Main line: stop running water (every tap, every flush), because every gallon has nowhere to go but back up through the lowest drain in the house. Then call. A beginner clears a fixture; a main line is a professional's job, and there's no shame in that.
+- Stop signs and when to call: two or more drains backing up together; sewage coming up; a trap that's corroded, cracked or leaks after you put it back; a clog that won't move after the plunger and the snake; chemical cleaner already in the drain and it won't clear.
+- The payoff: the strip, the plunger and the snake together come to under $50 and live under the sink for the next clog; one visit costs more than all three, and the after-hours visit more again. One small thing tonight: pull the stopper on the slowest sink and look.
+- Book match (100 Old-House Fixes That Save You Thousands, chapter 6 "Slow Drains and Cheap Drain Wins", pages 42-47; cite printed pages only):
+  - Fix 31 "Stop Using Chemical Drain Cleaner in Old Pipes", pages 42-43
+  - Fix 32 "Use the Right Plunger for the Right Drain", page 43
+  - Fix 33 "Clear a Bathroom Sink Stopper the Easy Way", pages 43-44
+  - Fix 34 "Clean a P-Trap Without Turning It Into a Mess", page 44
+  - Fix 35 "Use Boiling Water Carefully and Know When Not To", pages 44-45
+  - Fix 36 "Flush a Slow Kitchen Drain Without Making It Worse", page 45
+  - Fix 46 "Recognize a Main Sewer Line Warning Sign", page 56 (chapter 8)
+  - The chapter's "Drain-Clearing Decision Tree" and "Safe Drain-Clearing Kit" pages are unnumbered illustrations: don't cite them by page.
+  - Careful: the book's Fix 32 wording doesn't say "use a cup plunger on the kitchen sink" and Fix 35 allows boiling water on metal pipe. Say the book covers the plunger, the stopper, the trap and the main-line warning signs; don't put this video's specific steps in the book's mouth.
+- Boundaries (corrected from the audit):
+  - Don't say boiling water cracks a sink's porcelain (that's mainly a toilet-bowl risk); the plastic pipe is the reason.
+  - Don't say washing soda "never touches the pipe"; say it's gentler than a chemical cleaner.
+  - Don't claim to know what plumbers think or do in secret ("the trade knows it", "there's a reason"); state the fact.
+  - No list of the three tools in the opening; each tool is named at its own level, and the closing money line doesn't list them again.
+  - Prices as rounded ranges from the price guide only, at most one per item; never cents.
+  - Tenure: 45 years, said once at most. No customer stories.
+ROTATION LOG: none
