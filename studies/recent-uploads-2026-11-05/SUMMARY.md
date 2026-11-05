@@ -28,7 +28,7 @@ The main session's summary of `audits/*.md`, with the corrections from the two r
    - It also drops a dry washing-soda cube, where the 10-31 video says "Never pour it in dry". Measured, both quoted in `CHECK-roger.md`.
    - Reading: an upload slip. The title needs changing.
 2. **Wrong facts said on air:**
-   - **Roger `R2NA3b3S2wQ`:** "The toilet is the lowest drain". It's usually the tub or shower, so the main-line warning sign is described backwards.
+   - **Roger `R2NA3b3S2wQ`:** "The toilet is the lowest drain". It's usually the tub or shower, so the main-line warning sign is described backwards (the usual trade advice; reading).
    - **Werner `0r9P7Wd5FWk`:** the supply line goes to the tank at 9:20, but the tank is only fitted at 9:54.
    - **Werner `U-a-ygRV4Fo`:** the washing-soda dose is given three ways in 30 seconds.
    - **Werner `u8gZHowqGnk`:** the tub-stopper rocker-arm adjustment probably runs backwards [9:08] (worth checking).
