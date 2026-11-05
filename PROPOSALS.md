@@ -232,3 +232,34 @@ The study supports the narrow form of both: a tenure stated the same way every t
 **Status:** approved by the operator on 2026-10-29 (diagnosis question 17: "yes"). Applied in session 14 (see `CHANGELOG.md`).
 
 (Renumbered at the merge into `main`, 2026-10-29: this chat opened them as P18 and P19, but the Werner and Frederick review chat had already taken P18. The style model floors are P19 and the core scanner changes P20; that chat called itself session 13, so this one is session 14.)
+
+## P21. Rebuild the script process the simple way: one page per channel, one real model, a short check (opened 2026-11-05)
+
+**Decisions it changes (HANDOFF.md section 3):** every locked decision that sets a counting target or a fixed template for the writer, in every niche. Examples:
+- the five-move hook formula and the 8-beat item (style, 2026-10-31)
+- the hook carrying a model's format from `hooks.md`
+- "but", "I" and question rates
+- title words said twice, once in the first minute
+- item one by about 35 or 45 seconds as a scanner fail
+- the reframe floor
+- the full audit (`core/greenlight-audit.md`) run before hand-over
+- the long niche packs and model beat maps as writer inputs
+
+**Evidence:**
+- **The operator listened to Scarlett's newest upload** (`Jgp7nzZpN9k`): "the script was bad. it didnt flow." The writer is given about 46,000 words of rules for a 2,400-word script (`style-scripts/SKILL.md` 6,770, `hooks.md` 19,126, `core/*.md` about 18,500, the profile 1,667). The account's 2026-10-31 version is longer still (8,261 words in `SKILL.md`).
+- **iter-08, style, blind, the same brief:** a one-page brief plus one real model's transcript scored 8.0 against the repo library's 6.6 (round 1). It scored 8.5 against the account's skills (6.5) and the repo library (6.3) (round 2). Both judges said the long-rule scripts run one template through every item. The operator agreed ("agree agree with B being the best").
+- **iter-09, plumbing, blind:** the one-page brief 8.0 against the account's plumbing skills 6.2. The account version's own audit passed a script with the first step late, two opening promises and the chemical-cleaner warning after the plunger step.
+- **iter-10, style:** three published titles rewritten with the one-page briefs: 8.2, 8.3 and 8.2 against 7.3, 7.0 and 7.2 for the published videos. Each needed a light edit.
+- **The upload audits of 2026-11-05** (`studies/recent-uploads-2026-11-05/`): stock lines repeat across videos on every plumbing channel ("If you take one thing from this video" in 5 of 6 of Mark's). That is a sign of writing to rules. The audit rated the granny cut video, the one the operator heard as not flowing, "the best of the three": it measures compliance, not flow.
+
+**Proposal:** for each channel the writer gets three things and does three steps.
+1. **A one-page brief** (about 800-900 words: who the persona is, how it should sound, the opening, the hard rules, a short check after writing), modelled on `drafts/lite-*.md`. Persona facts and the operator's decisions come from the latest approved profile, including the account's 2026-10-31 style personas.
+2. **One or two real model transcripts** chosen for the video type. They are read for flow, never words; the copy guard stays.
+3. **The title's brief** (talking points; the brief still wins on facts).
+- Steps: write in one pass; read it aloud; run a short hard-rules check (length at the voice's real speed, safety, the book facts, banned lines, the ending's order, prices from the brief). Fix only what fails. Never add a line to meet a count.
+- **The scanner keeps only hard checks** (bans, length, numbers against the brief, safety requirements, copy guard). Counts become report-only or are removed.
+- **Optional things are worded as optional**, never as a ceiling (iter-10: writers used every "at most twice" exactly twice).
+- **The current library is moved to an archive folder,** not deleted (`CLAUDE.md` rule 4).
+- **Order:** style and plumbing first (tested). Then electrical, HVAC and woodworking, each after its own A/B (iter-11 to iter-13, running).
+
+**Status:** the operator approved the direction on 2026-11-05 ("rebuild simple way yes", "test others"). The exact new files are shown to the operator before they replace the library and go to the account.
