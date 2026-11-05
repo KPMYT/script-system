@@ -5,12 +5,12 @@ TEST (iter-10: Scarlett leggings, the one-page brief)
 Inputs read: `drafts/lite-scarlett-starling-DRAFT.md`, `tests/iterations/iter-10/brief-scarlett-leggings.txt`, `studies/style/data/beth-djalali/Hionkf3pHJc/transcript.txt`. Nothing else.
 
 ## Word count
-- Spoken words (script.txt, TEST header line excluded): 2,382, counted with `wc -w`. Target 2,100 to 2,700: pass.
+- Spoken words (script.txt, TEST header line excluded): 2,381, counted with `wc -w`. Target 2,100 to 2,700: pass.
 
 ## After-writing check (read aloud once, then checked)
 | Check | Result |
 |---|---|
-| Length | 2,382 words: pass |
+| Length | 2,381 words: pass |
 | Opening word count | 150 words before "Rule number one" (limit about 170): pass. No channel intro, no "today we're going to", no list of what's coming. |
 | Book line facts | 84 words (60 to 90): pass. Placed after rule four (middle, after the first payoffs). Claims only the waistband and the hem, via the pants chapter Ways 98, 105 and 106 by title; 300 numbered Ways; mistake, swap, payoff; link in description and QR code. No price, "free", "look younger", "gathered" or "collected", and not "everything in this video". |
 | Ending order | last item (look 7, with the care action folded in) > one book reminder line > comment question about her own life ("when did leggings first come into your life...") > "Until next time, ladies, stay elegant." No recap, no subscribe ask: pass |
