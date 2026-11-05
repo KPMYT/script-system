@@ -2,7 +2,7 @@
 
 The live note passed from one Claude Code chat to the next. A new chat reads `CLAUDE.md`, then this file, then `HANDOFF.md`, `README.md` and `PINNED.md`, and carries on from "Next actions". The outgoing chat rewrites this file before every handover.
 
-**Last updated:** 2026-10-29, session 14, the style pack chat (branch `claude/youthful-ritchie-zq7e92`, merged into `main`). Session 14 is summarised first, then session 13 (Werner and Frederick, a parallel chat the same day), then session 12 (the style study); sessions 5-11 follow. **Numbering:** this chat called itself session 13 while it ran (the parallel chat took that number first); it is session 14 from this merge on, and its proposals are P19 and P20 (it opened them as P18 and P19).
+**Last updated:** 2026-11-05, session 15, the upload review and the A/B tests (branch `claude/blissful-cori-h1psc4`, merged into `main`). Session 15 is summarised first; session 14 (the style pack) and the earlier sessions follow. **The next chat starts the rebuild of P21:** see "Next actions".
 
 ---
 
@@ -64,6 +64,40 @@ Learned in session 5:
 ---
 
 ## Where things stand
+
+### Session 15 (2026-11-05), in short: the upload review, then the A/B tests that led to P21 (branch `claude/blissful-cori-h1psc4`)
+
+1. **The upload review** (`studies/recent-uploads-2026-11-05/`, start at `SUMMARY.md`):
+   - covered 33 uploads (10-29 to 11-04) on Roger, Mark, Vintage, Werner, Scarlett and Diane: captions, one audit per channel and two re-checks
+   - the 10-29 rules reached the channels two to four days late
+   - Roger's `vyqjb8WLqzk` is a five-cube script under the four-liquids title
+   - stock lines repeat on every plumbing channel
+   - four open questions for the operator (SUMMARY §5), not yet answered: the wrong title, the mid-CTA on short lists, the voice's snorts, and fixes 4a-4d
+2. **The operator listened to Scarlett's granny cut video** ("the script was bad. it didnt flow") and asked whether we had overcomplicated it. A/B tests followed, every one blind:
+
+   | Test | Niche and channel | One-page brief | Current skills | Winner |
+   |---|---|---|---|---|
+   | iter-08 | style, Scarlett, granny cut | 8.0, then 8.5 | repo library 6.6 then 6.3; account skills 6.5 | one-page brief |
+   | iter-09 | plumbing, Roger, drain for beginners | 8.0 | account skills 6.2 | one-page brief |
+   | iter-10 | style, three published titles (not blind) | 8.2, 8.3, 8.2 | published videos 7.3, 7.0, 7.2 | one-page brief |
+   | iter-11 | electrical, Frederick | 7.2 | **account skills 8.0** | current skills |
+   | iter-12 | HVAC, Roger the HVAC Guy | 46/60 | account skills 44 | one-page brief, narrowly |
+   | iter-13 | woodworking, Hank | 49/60 | account skills 46 | one-page brief, narrowly |
+
+   - **The one-page brief** is about 850 words: who, how it sounds, the opening, hard rules, and a short check after writing. It comes with one real model transcript, read for flow only. The drafts are `drafts/lite-*.md`.
+   - **Lesson (iter-10):** writers treat a limit as a target ("at most twice" became exactly twice; the opening filled its whole word cap). Word optional things as optional.
+   - **The operator** agreed B was best ("agree agree with B being the best") and said "rebuild simple way yes", "test others".
+3. **P21** (`PROPOSALS.md`): the rebuild, its evidence and its order.
+   - **Rebuild:** style and plumbing.
+   - **Rebuild, carrying over what the current version did better:** HVAC and woodworking.
+   - **Keep the current skills for now:** electrical.
+   - **The operator approved the direction.** The new files must still be shown before they replace the library or go to the account.
+4. **Found: the account is ahead of the repo for style.** On 2026-10-31 another chat rebuilt `style-scripts` and both style personas, with the operator's decisions on that date:
+   - **Scarlett:** British, a former London designer, 61, thirty-five years designing in London; the endearment "Ladies"; the sign-off "Until next time, ladies, stay elegant."
+   - **Diane:** a retired Paris designer, 63, forty years in Paris fashion; the endearment "my dear friends"; the sign-off "With love from Paris, my dear friends."
+   - **The repo:** these were on no branch. They are copied into `tests/iterations/iter-08/account-skills-2026-11-05/` and carried into `drafts/lite-scarlett-starling-DRAFT.md` and `drafts/lite-diane-de-chambray-DRAFT.md`. The account's plumbing skills also differ slightly from the repo's.
+   - **Treat the account versions as current** where they differ.
+5. **`dist/`:** a `tools/build_skills.py --help` run rebuilt it by mistake (the script has no `--help`: it builds). It was restored on the operator's word. **Never run it to read its options.**
 
 ### Session 14 (2026-10-28/29), in short: the style pack, Scarlett Starling and Diane de Chambray (branch `claude/youthful-ritchie-zq7e92`)
 
@@ -243,6 +277,27 @@ The same chat finished the electrical ideation in `KPMYT/niche-research` (17 ini
 4. From session 3, still unanswered: the "title's strongest word" rule; the woodworking ideation and Hank script test outcomes; "avatar + object + text, always" in the woodworking ideation skill.
 
 ## Next actions (in order)
+
+**The rebuild (P21), session 16:**
+1. Read `CLAUDE.md`, this file, `PROPOSALS.md` P21, and `tests/iterations/iter-08/` to `iter-13/` (each `RESULTS.md` and judge report).
+2. **Style first** (Scarlett, Diane). Build the new channel skills from `drafts/lite-scarlett-starling-DRAFT.md` and `drafts/lite-diane-de-chambray-DRAFT.md`:
+   - fix the iter-10 lessons: optional things worded as optional, the opening "as short as the model's"
+   - add one or two real model transcripts per video type
+   - cut the scanner down to hard checks (bans, length, numbers against the brief, safety, the copy guard)
+   - show the operator the exact files
+   - test one title the operator picks
+   - on the operator's yes: archive the old pack (`archive/`, never delete), build and send
+3. **Then plumbing** (all four channels, from `drafts/lite-roger-the-pipe-guy-DRAFT.md`). Fix iter-09 run B's level-three contradiction (main line: stop, don't plunge into the backup). Carry Werner's German way and each channel's persona from the account versions.
+4. **Then HVAC and woodworking**, keeping what the current version did better: iter-12 A's ear-clarity and trust; iter-13 A's hook and book-pitch setup.
+5. **Electrical stays as it is** for now (iter-11). Look again after the others.
+6. **The VA's flow:** keep `script-writer`'s START and channel gate, much shorter, loading the channel's one page plus its models.
+7. **Still open from the upload review** (`studies/recent-uploads-2026-11-05/SUMMARY.md` §5):
+   - Roger's wrong-title upload
+   - the mid-CTA on short lists
+   - the voice's snorts
+   - fixes 4a-4d (some fall away in the rebuild)
+
+## Earlier next actions (before P21; kept for the record)
 
 **Style (next):**
 1. Read `CLAUDE.md`, this file, `HANDOFF.md` §3 (the session 14 blocks), `style-scripts/SKILL.md`, both style profiles and `tests/iterations/iter-07/CHANGES.md`.
