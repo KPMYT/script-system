@@ -9,6 +9,8 @@ All material here is TEST. Run 2026-11-05 on the operator's word ("run an ab tes
 | `brief.txt` | The one input both writers get: the same title, talking points from the published video's item list (so A, B and the published video cover the same ground), rotation log none. |
 | `run-A/` | Writer A: the current library (`core/`, `style-scripts/`, the profile, the book index), followed as the VA's chat would, with the scanner and the audit. |
 | `run-B/` | Writer B: only `drafts/style-lite-DRAFT.md` (one page), the brief and one model transcript (M01, Summer Beauty, "Why Your Haircut Never Looks Right", 665K views; flow only, never words). |
+| `run-C/` | Writer C: the skills installed on the operator's account on 2026-11-05 (`script-writer` of 2026-10-29, `style-scripts` and `scarlett-starling-persona` of 2026-10-31). Added after the main session found the account's style skills are a newer version (2026-10-31, "operator QC round 1": the British designer persona, "Ladies", a sign-off, a five-move hook formula, an 8-beat item) that is on no branch of this repo. |
+| `account-skills-2026-11-05/` | A copy of the account's `style-scripts`, `scarlett-starling-persona` and `diane-de-chambray-persona` as installed on 2026-11-05: run C's input, and the only copy of that version in git. Read-only. |
 | `judge/` | A blind judge: the two scripts as X and Y in random order, read for flow (read aloud) first, then the hard rules and the facts. The scanner is run by the main session on both. |
 | `RESULTS.md` | The outcome, for the operator's listen. |
 

@@ -1,0 +1,21 @@
+SCAN: /tmp/claude-0/-home-user/d4ce646c-c387-5c57-b0a1-98f223319802/scratchpad/A.txt
+  copy guard: 8+ words in a row shared with personas/scarlett-starling.md
+  persona facts: names [], book ['Three Hundred Budget-Friendly Ways to Look Expensive'], tenure none
+  spoken words: 2373 (about 14.0 minutes at 169 words a minute; minimum 12)
+  ITEMS: 7 | item one at word 88 (about 31 seconds at 169)
+  item words: 1 = 313, 2 = 391, 3 = 261, 4 = 470, 5 = 249, 6 = 284, 7 = 317 (the last runs to the end of the script)
+  in band 150-480: 7 of 7
+  no 'I' line: none | no 'but': none | no sentence of 6 words or fewer: none
+  SENTENCES: 172 | mean 13.8 words | 6 or fewer 14.5% | over 25: 7 | longest 33 | over 35: 0
+  TITLE WORDS: instant 2 (first at about 4 s); young 3 (first at about 4 s)
+
+FIX ON SIGHT (0)
+
+JUDGE WITH THE SHAPE TEST (0)
+
+"MOST ..." OPENERS: 0 (allowed: 1)
+REFRAME FLOOR (H21): 0 machine-caught (allowed: 1; the audit's count may never be lower)
+FILLER PHRASES OVER THE LIMIT (H23): 0
+ECHO (H18): 0
+
+NUMBERS NOT FOUND IN THE FACT SOURCE (0)  (invented, or derived: confirm the math)

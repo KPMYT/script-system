@@ -1,0 +1,34 @@
+SCAN: /tmp/claude-0/-home-user/d4ce646c-c387-5c57-b0a1-98f223319802/scratchpad/B.txt
+  copy guard: 8+ words in a row shared with personas/scarlett-starling.md
+  persona facts: names [], book ['Three Hundred Budget-Friendly Ways to Look Expensive'], tenure none
+  spoken words: 2230 (about 13.2 minutes at 169 words a minute; minimum 12)
+  ITEMS: no spoken signposts found ("Number one.", "Step one." ...)
+  SENTENCES: 153 | mean 14.6 words | 6 or fewer 19.0% | over 25: 19 | longest 37 | over 35: 2
+  TITLE WORDS: instant 0; young 6 (first at about 64 s)
+
+FIX ON SIGHT (7)
+  [NICHE/PERSONA BAN: house vocabulary: reads as] ...ver give you. That ease is exactly what reads as young....
+  [SENTENCE OVER 35 WORDS] (36 words) "Have you ever asked for something simple at the salon, just a tidy cut that's easy to keep..." (split it; join two with "but" only where it turns)
+  [SENTENCE OVER 35 WORDS] (37 words) "Layers that begin there open up your face right where you want the attention, around your ..." (split it; join two with "but" only where it turns)
+  [NICHE/PERSONA REQUIRED: the hard word must be flagged as harsh] the script brings up "granny" but leaves this out
+  [NICHE/PERSONA LIMIT: the hard word] used 6 times (allowed once per script)
+  [TITLE WORD] "instant" is in the title and said 0 time(s); say it at least 2 times, once in the first minute
+  [TITLE WORD] "young" is first said at about 64 seconds; say it in the first minute
+
+JUDGE WITH THE SHAPE TEST (4)
+  [staccato x3] "It was neat." | "It was short." | "It stayed put."
+  [staccato x2] "It's the granny cut." | "It's the shape."
+  [SPOKEN, judge: 'live' can be said two ways; reword if both fit] ...s, your smile. It's fresh, it's easy to live with, and it's about as far from a gran... (x1 in the script)
+  [SPOKEN, judge: 'lives' can be said two ways; reword if both fit] ...Every one of these swaps lives in The Hair Hack chapter of Three Hundr... (x1 in the script)
+
+"MOST ..." OPENERS: 0 (allowed: 1)
+REFRAME FLOOR (H21): 5 machine-caught (allowed: 1; the audit's count may never be lower)
+  ...men blame the wrong thing. It isn't your age, and it isn't how short your hair is. It's the shape. The wrong shape ca...
+  ... you're finding patches, that isn't a haircut question. That's a question for your doctor, a...
+  ...er sixty. What ages long hair isn't the length. It's one heavy, straight line at t...
+  ...r it proudly. If it hangs, it doesn't need to be cut off. It needs layers....
+  ...elf. The soft, modern version isn't the wild cut you might remember from years ago. It's gentler, and the layers blend...
+FILLER PHRASES OVER THE LIMIT (H23): 0
+ECHO (H18): 0
+
+NUMBERS NOT FOUND IN THE FACT SOURCE (0)  (invented, or derived: confirm the math)
