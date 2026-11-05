@@ -1,0 +1,236 @@
+TEST (iter-09, run A: the skills installed on the account)
+
+SCRIPT TYPE: Classic
+
+Your sink drains slow, the tub fills up around your ankles in the shower, or nothing goes down at all. You can clear that yourself, even as a beginner, with your own two hands and no chemical drain cleaner.
+
+A plumber charges $100 to $300 to clear a sink, tub or shower clog, depending on where you are in the country.
+
+So when did you last pull the stopper out of your bathroom sink? For a lot of folks, never. That's where we start.
+
+There are three levels of clog: slow, clogged and blocked. We go smallest first, and each level builds on the one before. You can handle all of it until two drains back up together. The test for that comes at the last level.
+
+Level one is the slow drain. The water goes down, but it takes its sweet time, and you're left standing in a gray puddle waiting on it.
+
+Put a pair of rubber gloves on first, because what's down there is nasty.
+
+Pull the stopper. In a bathroom sink it usually lifts straight out, or it twists a quarter turn and comes free. In a tub, the strainer unscrews, or the stopper pops up and wiggles loose.
+
+Now shine a flashlight down the hole. In 45 years, this is the first place I look, because most of the time the whole clog is sitting just under where that stopper was. A gray mat of hair and soap slime, slick and stringy, and it smells about how you'd guess.
+
+If you take one thing from this whole video, take this. Pull the stopper before you buy anything.
+
+Here's how it got there. Hair goes down, soap scum coats it, and every shower lays down another layer on the pipe wall. In a kitchen, grease does the same job. It doesn't happen in a day. It builds in layers, and usually in the first few feet of pipe or in the bend under the sink.
+
+Your tool for this level is a plastic drain strip. It's a thin strip about two feet long with little barbs down both sides, and it runs about $3 at the hardware store. Nobody mentions that strip when they quote you for the visit.
+
+Feed it down the drain as far as it'll go. Twist it a few times. Then pull it up slowly, so the barbs keep hold of what they caught. The first pull usually comes up wearing a gray rope of hair and slime. Wipe it off into a trash bag and go again, until the strip comes up clean.
+
+You've probably seen the jugs on the store shelf that promise to melt all that away. But the strip doesn't promise anything. It pulls the clog out where you can see it, and nothing goes down your pipe but a piece of plastic. I'd keep the jug out of it.
+
+Next, flush what's left. A good squirt of dish soap down the drain, then the hottest water your tap will give you, running for two or three minutes. The soap loosens the slime the strip missed, and the hot water carries it away.
+
+Use hot tap water here, never boiling water. Is the drain pipe under your sink white plastic? On most sinks it is, and that plastic, called PVC, is rated to about 140 degrees. Boiling water runs well past that, and on older plastic pipe it can do real damage. Your tap is plenty hot for this.
+
+Now, the kitchen sink is a different animal. What coats that pipe is grease, and grease sets up like candle wax on a holder once it cools. A strip can't do much with wax.
+
+So for a kitchen drain, pick up a box of washing soda. It's in the laundry aisle, not the cleaning aisle, and a box runs about $5 to $6. Stir half a cup into hot tap water until it's fully dissolved, pour it down the drain, then do the same hot water flush.
+
+Dissolve it first. Poured in dry, it cakes into a crust, and that's the last thing a slow pipe needs. Washing soda is far gentler than a chemical drain cleaner, but it's still a strong alkali. Keep those gloves on and keep it off your skin.
+
+Then the test. Turn the tap on full. If the water spins straight down the hole with no pooling, you're done. If it still pools after the strip and the flush, the plug is further down, and that's level two.
+
+But here's the good part. If it spins down clean, you just fixed a slow drain for pocket change, and you'd never done it before.
+
+To keep it from coming back, give every sink, tub and shower that same soap and hot water flush once a month. I do mine the first Saturday of the month, with my coffee in the other hand. Every drain, once a month, and the slime never gets a head start.
+
+By the way, a short word on my book, One Hundred Old-House Fixes That Save You Thousands. If pulling that stopper just spared you a visit, chapter six covers the stopper, the plunger and the trap, on pages 43 and 44. There are a hundred fixes in all, plus a seasonal calendar to keep you ahead of the next clog instead of chasing it. You'll find it at the link in the description and the QR code on your screen. Now, the drain that won't quit.
+
+Level two is the clogged drain. The water still creeps through, but it stands in the bowl for minutes first, or it barely trickles. And it gets a little worse every day you leave it.
+
+A lot of folks figure the strip just didn't go deep enough. But the real plug is past where the strip can reach, and very often it's in the trap. That's the U-shaped bend in the pipe under the sink. It holds a little water to keep sewer gas out of the house, and it's also where the heavy stuff settles.
+
+Your first tool here is a plunger, but the right one. You want the plain rubber cup plunger, $4 to $10. Not the one with the soft flap folded out underneath. That's a flange plunger, and it's made for toilets.
+
+Run a few inches of water into the sink, enough that the cup sits underwater. Here's why. Water doesn't squash down the way air does, so every push goes straight at the plug. Plunge air and you're just making noise.
+
+Next, the overflow. That's the little slot under the rim of a bathroom sink. If it's open, your push escapes out of it instead of hitting the clog. Stuff a wet rag in it, hard.
+
+Got a double kitchen sink? The two bowls share one drain. Block the other side with a wet rag, or with a second plunger held down hard, or you'll just push water back and forth between the two bowls.
+
+Seal the cup over the drain and give it 15 to 20 firm strokes, straight up and down. Keep the cup on the drain the whole time. Break the seal and you start over. On the last stroke, pull it off sharp and run hot water.
+
+Did it gulp and go down? Then you just did a service call's job with a tool that's probably in your closet already.
+
+But sometimes the plunger moves it a little and the sink is still slow. That's when you bring in the hand snake, also called a drain auger. It's 25 feet of thin steel cable coiled up in a drum with a crank handle, and it runs $25 to $35.
+
+Stopper out first. Feed the cable down until it stops. That's either the bend in the trap or the clog itself. Tighten the thumb screw on the drum so the cable can't slip, then crank while you push gently.
+
+Here's how you tell which one you've hit. Through the bend, the cable moves easy. Into the clog, it gets heavy. Keep cranking right there, so the tip bites in and winds that mat up around itself.
+
+Then pull it back slowly, with a bucket under the sink, because what comes up with it is not pretty. Black, slimy and sour smelling. Wipe the cable with an old rag as it comes out, then run hot water and do the spin test again.
+
+Somebody's going to tell you a snake is a plumber's tool. I don't see it that way. A hand snake is built for exactly this job, and a beginner can run one on the first try. If the plunger and the snake both can't move it, stop there. That clog has earned a call.
+
+Now listen close on this next part, because it's the one dangerous thing in this whole video. If somebody already poured a chemical drain cleaner down that drain, don't plunge it and don't snake it. Plunging throws that stuff back up out of the drain, onto your hands and into your face, and it burns.
+
+Never pour a second cleaner on top of the first one, either. If it won't clear, make the call, and tell the plumber exactly what's sitting in there. And keep the gloves on the whole way through.
+
+That's two levels down, and the cheap tools did all the work. Level three is the one where you find out whether it's one drain or the whole house.
+
+Level three is the blocked drain. You run the tap and the water just sits there, without so much as a trickle. But before you touch anything, figure out which kind of blocked you've got, because there are two, and they go two very different ways.
+
+Is it one fixture only? Just the kitchen sink, or just the tub, and everything else in the house runs fine? Then the plug is past the trap, in the trap arm. That's the short pipe that runs from the trap back into the wall.
+
+Set a bucket under the trap. You'll find two big nuts holding it on, called slip nuts. Undo them by hand, or with tongue-and-groove pliers if they're stuck. Gloves on, and a pair of safety glasses is a smart idea here, because dirty water comes out fast.
+
+Pull the trap and dump it into the bucket. Often the plug is sitting in there, a gray lump of everything that's gone down that drain for years.
+
+If the trap comes out clean, feed the snake straight into the trap arm. With the trap off there's no bend in the way, so the cable reaches further.
+
+Put the trap back on hand tight, run the water and watch both nuts for drips. If the trap is corroded or cracked, or it still leaks after you put it back, that's a call.
+
+One more way in. Some houses have a cleanout near that drain. That's a capped fitting on the drain pipe, down in the basement, the crawl space or on an outside wall, with a square or hex plug in the end. If yours has one, it's a better way in for the snake. Bucket under it before you open it, because whatever's backed up behind it comes out first.
+
+Now the second kind of blocked, and the test I promised you. It's two or more drains backing up at the same time. That's the main line, the big pipe that carries every drain in your house out to the sewer.
+
+Here's the test. Flush a toilet and watch the tub. If the tub gurgles, or water comes up into it, that's your answer. Same if the basement floor drain comes up, or a first-floor shower backs up when somebody runs water upstairs.
+
+No plunger reaches the main line, and no hand snake does either. So do this straight away. Stop running water. Every tap, every flush, the washer and the dishwasher. Every gallon you send down has nowhere to go but back up through the lowest drain in the house. And if what's coming up is sewage, keep everybody clear of it.
+
+Then call. A beginner clears a fixture. A main line is a professional's job, and there's no shame in that.
+
+So here's where that leaves you. The three tools from this video come to under $50, all together, and they sit under the sink waiting on the next clog. One visit costs more than all of them. Call on a weekend or after hours and the bill runs one and a half to three times the normal rate. I think that's a disgrace, for a drain you could have cleared on a Tuesday afternoon.
+
+Tonight, pull the stopper on the slowest sink in your house and take a look.
+
+The main-line warning signs are on page 56 of my book, at the link in the description and the QR code on your screen.
+
+Now I want to hear from you. Leave me a comment and tell me what you found under that stopper, and how old your house is. I read every one.
+
+VERDICT: PASS
+FORMAT CHECK: Classic | none | end CTA directly after the final content | comment line, last line of the script | PASS
+ROTATION LOG ENTRY: 2026-11-05 | How to Unclog a Drain For Beginners | opening: the pain, then the good news "Your sink drains slow, the tub fills up around your ankles" | turn: the question turn | bridges: done, now the next job (the level signposts); the stakes of the next item; the next section named outright | return: the next item's stakes ("Now, the drain that won't quit.") | mid-CTA: "By the way, a short word on my book" | cta variant: n/a | adversary: the trade's price (the visit, the after-hours rate) and the store shelf (the jug); doubter voiced as the comment-section voice ("Somebody's going to tell you a snake is a plumber's tool") | personality: opinion, plain reaction to a number, preference with a reason | swears: none | details: first-Saturday drain routine with coffee | book: seasonal calendar (stay ahead of the next clog); pages 43 and 44 (mid), 56 (end) | closing: comment ask | model: R21, R13, R08 | money: the trade's price against the tools, closed as the tools' total (under $50) against one visit and the after-hours rate | promises: escalation ladder, checks the viewer can run (the spin test; flush and watch the tub), the rule that protects everything (chemical cleaner already in the drain) | comment: "tell me what you found under that stopper, and how old your house is"
+AUDIT EVIDENCE
+Verdict: PASS (round 2 of 3; round 1 fixed: item one at 48 seconds, the opening's "You'll see why in a minute", a copied run from S09 "hot water flush on every drain in the house", "Pull the stopper." said twice, "stringy" echoed, no I-verdict in level two)
+Promise map: three levels, smallest first ("There are three levels of clog: slow, clogged and blocked.") -> "Level one is the slow drain." / "Level two is the clogged drain." / "Level three is the blocked drain." | the one end-of-video promise ("The test for that comes at the last level.") -> "Here's the test. Flush a toilet and watch the tub." (level three) | "You can handle all of it until two drains back up together." -> "Then call. A beginner clears a fixture." | forward line "Level three is the one where you find out whether it's one drain or the whole house." -> paid at the main-line test, about 2 minutes later
+Hook: transformation = "You can clear that yourself, even as a beginner, with your own two hands and no chemical drain cleaner." | pain or wish = "Your sink drains slow, the tub fills up around your ankles in the shower, or nothing goes down at all." | curiosity = "So when did you last pull the stopper out of your bathroom sink?" (answered at "For a lot of folks, never." and at level one, "most of the time the whole clog is sitting just under where that stopper was") | modelled on R21's two opening moves (the problem introduced plainly, then the escalation explained) with the house question shape of Roger Wakefield zfrqkteUPAI [1:15] and the failed-attempt shape of Silver Cymbal fseq9NvO_zw [0:09]; compared with Got2Learn DHk94YoC95k [0:00] | move: the pain, then the good news | value line: none
+Signposts: opening -> "Level one is the slow drain." | level one -> mid CTA "By the way, a short word on my book, One Hundred Old-House Fixes That Save You Thousands." | mid CTA -> "Level two is the clogged drain." | level two -> safety "Now listen close on this next part, because it's the one dangerous thing in this whole video." | safety -> "Level three is the blocked drain." | one fixture -> main line "Now the second kind of blocked, and the test I promised you." | level three -> close "So here's where that leaves you."
+Numbers: $100 to $300 = brief "a plumber charges $100 to $300 to clear a sink, tub or shower clog" | quarter turn = brief | 45 years = persona profile tenure | two feet, about $3 = brief (drain strip) | two or three minutes = brief "2 to 3 minutes" | 140 degrees = brief "rated to about 140 degrees F" | $5 to $6, half a cup = brief (washing soda) | pages 43 and 44 = book match (Fix 32, page 43; Fix 33, pages 43-44; Fix 34, page 44) | a hundred fixes, chapter six = persona profile and brief | a few inches = brief | $4 to $10 = brief (cup plunger) | 15 to 20 = brief | 25 feet, $25 to $35 = brief (hand snake) | page 56 = book match (Fix 46) | under $50 = brief "together come to under $50" (math: $3 + $4 to $10 + $25 to $35 = $32 to $48) | one and a half to three times = brief "1.5 to 3 times the normal rate"
+Scanner: run on the delivered text | hard bans 0 | mechanical 0 | niche bans 0 | limits 0 | production notes 0 | repeats 0 | persona facts 0 | copied 0 | "Most..." 0 | reframes 0 | filler over limit 0 | numbers not in pack 0 | judged: "PVC" kept (said as letters by everyone)
+Voice: samples used = plumbing voice samples 1 (Got2Learn), 2 (Silver Cymbal), 3 (Roger Wakefield); matched line = "Water doesn't squash down the way air does, so every push goes straight at the plug." (sample 3's reason in one plain line, "because they only heat water when you need it")
+Originality: 6/6 (plumbing scale, pass at 4) | 1 = "that plastic, called PVC, is rated to about 140 degrees" | 2 = "There are three levels of clog: slow, clogged and blocked." | 3 = "I'd keep the jug out of it." | 5 = "Water doesn't squash down the way air does, so every push goes straight at the plug." | 6 = levels by size of clog, not S09's schedule or R13's single task (no rotation log yet) | 7 = "I do mine the first Saturday of the month, with my coffee in the other hand." | red flags 0
+Length: 2186 words = about 12.9 minutes at 170 (minimum 12)
+Items: ITEMS: 3 | item one at word 127 (about 45 seconds at 170) | item words: 1 = 789, 2 = 648, 3 = 622 (the last runs to the end of the script)
+Sentences: SENTENCES: 173 | mean 12.6 words | 6 or fewer 20.8% | over 25: 3 | longest 29 | over 35: 0
+I-verdicts: 3 of 3 items | 1 = "I'd keep the jug out of it." | 2 = "I don't see it that way." | 3 = "I think that's a disgrace, for a drain you could have cleared on a Tuesday afternoon." | none in: none
+Turns: "but" in 3 of 3 items | reframes 0
+Title word: "beginner" = "You can clear that yourself, even as a beginner, with your own two hands and no chemical drain cleaner." (opening), "If it spins down clean, you just fixed a slow drain for pocket change, and you'd never done it before." (level one), "A hand snake is built for exactly this job, and a beginner can run one on the first try." (level two), "A beginner clears a fixture." (level three)
+Rules (F): clean (E4: custom element to be supplied at the edit, as every script)
+
+VO COPY — ELEVENLABS V4
+Your sink drains slow, the tub fills up around your ankles in the shower, or nothing goes down at all. You can clear that yourself, even as a beginner, with your own two hands and no chemical drain cleaner.
+
+A plumber charges $100 to $300 to clear a sink, tub or shower clog, depending on where you are in the country.
+
+[thoughtful] So when did you last pull the stopper out of your bathroom sink? For a lot of folks, never. That's where we start.
+
+There are three levels of clog: slow, clogged and blocked. We go smallest first, and each level builds on the one before. You can handle all of it until two drains back up together. The test for that comes at the last level.
+
+[matter-of-fact] Level one is the slow drain. The water goes down, but it takes its sweet time, and you're left standing in a gray puddle waiting on it.
+
+Put a pair of rubber gloves on first, because what's down there is nasty.
+
+Pull the stopper. In a bathroom sink it usually lifts straight out, or it twists a quarter turn and comes free. In a tub, the strainer unscrews, or the stopper pops up and wiggles loose.
+
+Now shine a flashlight down the hole. In 45 years, this is the first place I look, because most of the time the whole clog is sitting just under where that stopper was. A gray mat of hair and soap slime, slick and stringy, and it smells about how you'd guess.
+
+[emphatic] If you take one thing from this whole video, take this. Pull the stopper before you buy anything.
+
+Here's how it got there. Hair goes down, soap scum coats it, and every shower lays down another layer on the pipe wall. In a kitchen, grease does the same job. It doesn't happen in a day. It builds in layers, and usually in the first few feet of pipe or in the bend under the sink.
+
+Your tool for this level is a plastic drain strip. It's a thin strip about two feet long with little barbs down both sides, and it runs about $3 at the hardware store. Nobody mentions that strip when they quote you for the visit.
+
+Feed it down the drain as far as it'll go. Twist it a few times. Then pull it up slowly, so the barbs keep hold of what they caught. The first pull usually comes up wearing a gray rope of hair and slime. Wipe it off into a trash bag and go again, until the strip comes up clean.
+
+[thoughtful] You've probably seen the jugs on the store shelf that promise to melt all that away. But the strip doesn't promise anything. It pulls the clog out where you can see it, and nothing goes down your pipe but a piece of plastic. I'd keep the jug out of it.
+
+Next, flush what's left. A good squirt of dish soap down the drain, then the hottest water your tap will give you, running for two or three minutes. The soap loosens the slime the strip missed, and the hot water carries it away.
+
+[emphatic] Use hot tap water here, never boiling water. Is the drain pipe under your sink white plastic? On most sinks it is, and that plastic, called PVC, is rated to about 140 degrees. Boiling water runs well past that, and on older plastic pipe it can do real damage. Your tap is plenty hot for this.
+
+[slightly amused] Now, the kitchen sink is a different animal. What coats that pipe is grease, and grease sets up like candle wax on a holder once it cools. A strip can't do much with wax.
+
+So for a kitchen drain, pick up a box of washing soda. It's in the laundry aisle, not the cleaning aisle, and a box runs about $5 to $6. Stir half a cup into hot tap water until it's fully dissolved, pour it down the drain, then do the same hot water flush.
+
+[matter-of-fact] Dissolve it first. Poured in dry, it cakes into a crust, and that's the last thing a slow pipe needs. Washing soda is far gentler than a chemical drain cleaner, but it's still a strong alkali. Keep those gloves on and keep it off your skin.
+
+Then the test. Turn the tap on full. If the water spins straight down the hole with no pooling, you're done. If it still pools after the strip and the flush, the plug is further down, and that's level two.
+
+[warm] But here's the good part. If it spins down clean, you just fixed a slow drain for pocket change, and you'd never done it before.
+
+To keep it from coming back, give every sink, tub and shower that same soap and hot water flush once a month. [slightly amused] I do mine the first Saturday of the month, with my coffee in the other hand. Every drain, once a month, and the slime never gets a head start.
+
+[warm] By the way, a short word on my book, One Hundred Old-House Fixes That Save You Thousands. If pulling that stopper just spared you a visit, chapter six covers the stopper, the plunger and the trap, on pages 43 and 44. There are a hundred fixes in all, plus a seasonal calendar to keep you ahead of the next clog instead of chasing it. You'll find it at the link in the description and the QR code on your screen. Now, the drain that won't quit.
+
+[matter-of-fact] Level two is the clogged drain. The water still creeps through, but it stands in the bowl for minutes first, or it barely trickles. And it gets a little worse every day you leave it.
+
+A lot of folks figure the strip just didn't go deep enough. But the real plug is past where the strip can reach, and very often it's in the trap. That's the U-shaped bend in the pipe under the sink. It holds a little water to keep sewer gas out of the house, and it's also where the heavy stuff settles.
+
+Your first tool here is a plunger, but the right one. You want the plain rubber cup plunger, $4 to $10. Not the one with the soft flap folded out underneath. That's a flange plunger, and it's made for toilets.
+
+Run a few inches of water into the sink, enough that the cup sits underwater. Here's why. [thoughtful] Water doesn't squash down the way air does, so every push goes straight at the plug. Plunge air and you're just making noise.
+
+Next, the overflow. That's the little slot under the rim of a bathroom sink. If it's open, your push escapes out of it instead of hitting the clog. Stuff a wet rag in it, hard.
+
+Got a double kitchen sink? The two bowls share one drain. Block the other side with a wet rag, or with a second plunger held down hard, or you'll just push water back and forth between the two bowls.
+
+Seal the cup over the drain and give it 15 to 20 firm strokes, straight up and down. Keep the cup on the drain the whole time. Break the seal and you start over. On the last stroke, pull it off sharp and run hot water.
+
+[slightly amused] Did it gulp and go down? Then you just did a service call's job with a tool that's probably in your closet already.
+
+But sometimes the plunger moves it a little and the sink is still slow. That's when you bring in the hand snake, also called a drain auger. It's 25 feet of thin steel cable coiled up in a drum with a crank handle, and it runs $25 to $35.
+
+Stopper out first. Feed the cable down until it stops. That's either the bend in the trap or the clog itself. Tighten the thumb screw on the drum so the cable can't slip, then crank while you push gently.
+
+[slower] Here's how you tell which one you've hit. Through the bend, the cable moves easy. Into the clog, it gets heavy. Keep cranking right there, so the tip bites in and winds that mat up around itself.
+
+Then pull it back slowly, with a bucket under the sink, because what comes up with it is not pretty. Black, slimy and sour smelling. Wipe the cable with an old rag as it comes out, then run hot water and do the spin test again.
+
+[matter-of-fact] Somebody's going to tell you a snake is a plumber's tool. I don't see it that way. A hand snake is built for exactly this job, and a beginner can run one on the first try. If the plunger and the snake both can't move it, stop there. That clog has earned a call.
+
+[slower] Now listen close on this next part, because it's the one dangerous thing in this whole video. If somebody already poured a chemical drain cleaner down that drain, don't plunge it and don't snake it. Plunging throws that stuff back up out of the drain, onto your hands and into your face, and it burns.
+
+[emphatic] Never pour a second cleaner on top of the first one, either. If it won't clear, make the call, and tell the plumber exactly what's sitting in there. And keep the gloves on the whole way through.
+
+That's two levels down, and the cheap tools did all the work. Level three is the one where you find out whether it's one drain or the whole house.
+
+[matter-of-fact] Level three is the blocked drain. You run the tap and the water just sits there, without so much as a trickle. But before you touch anything, figure out which kind of blocked you've got, because there are two, and they go two very different ways.
+
+Is it one fixture only? Just the kitchen sink, or just the tub, and everything else in the house runs fine? Then the plug is past the trap, in the trap arm. That's the short pipe that runs from the trap back into the wall.
+
+Set a bucket under the trap. You'll find two big nuts holding it on, called slip nuts. Undo them by hand, or with tongue-and-groove pliers if they're stuck. Gloves on, and a pair of safety glasses is a smart idea here, because dirty water comes out fast.
+
+Pull the trap and dump it into the bucket. Often the plug is sitting in there, a gray lump of everything that's gone down that drain for years.
+
+If the trap comes out clean, feed the snake straight into the trap arm. With the trap off there's no bend in the way, so the cable reaches further.
+
+Put the trap back on hand tight, run the water and watch both nuts for drips. If the trap is corroded or cracked, or it still leaks after you put it back, that's a call.
+
+[thoughtful] One more way in. Some houses have a cleanout near that drain. That's a capped fitting on the drain pipe, down in the basement, the crawl space or on an outside wall, with a square or hex plug in the end. If yours has one, it's a better way in for the snake. Bucket under it before you open it, because whatever's backed up behind it comes out first.
+
+[slower] Now the second kind of blocked, and the test I promised you. It's two or more drains backing up at the same time. That's the main line, the big pipe that carries every drain in your house out to the sewer.
+
+Here's the test. Flush a toilet and watch the tub. If the tub gurgles, or water comes up into it, that's your answer. Same if the basement floor drain comes up, or a first-floor shower backs up when somebody runs water upstairs.
+
+No plunger reaches the main line, and no hand snake does either. So do this straight away. Stop running water. Every tap, every flush, the washer and the dishwasher. Every gallon you send down has nowhere to go but back up through the lowest drain in the house. And if what's coming up is sewage, keep everybody clear of it.
+
+Then call. [warm] A beginner clears a fixture. A main line is a professional's job, and there's no shame in that.
+
+So here's where that leaves you. The three tools from this video come to under $50, all together, and they sit under the sink waiting on the next clog. One visit costs more than all of them. Call on a weekend or after hours and the bill runs one and a half to three times the normal rate. [emphatic] I think that's a disgrace, for a drain you could have cleared on a Tuesday afternoon.
+
+Tonight, pull the stopper on the slowest sink in your house and take a look.
+
+The main-line warning signs are on page 56 of my book, at the link in the description and the QR code on your screen.
+
+[short pause] Now I want to hear from you. Leave me a comment and tell me what you found under that stopper, and how old your house is. I read every one.
