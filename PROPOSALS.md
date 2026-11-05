@@ -260,6 +260,9 @@ The study supports the narrow form of both: a tenure stated the same way every t
 - **The scanner keeps only hard checks** (bans, length, numbers against the brief, safety requirements, copy guard). Counts become report-only or are removed.
 - **Optional things are worded as optional**, never as a ceiling (iter-10: writers used every "at most twice" exactly twice).
 - **The current library is moved to an archive folder,** not deleted (`CLAUDE.md` rule 4).
-- **Order:** style and plumbing first (tested). Then electrical, HVAC and woodworking, each after its own A/B (iter-11 to iter-13, running).
+- **Order, from the tests:**
+  - **Style and plumbing:** rebuild (the one-page brief won by about 2 points blind).
+  - **HVAC and woodworking:** rebuild, carrying over what the current version did better (iter-12: the one-page brief 46 against 44 of 60; iter-13: 49 against 46; narrow wins).
+  - **Electrical:** keep the current skills for now (iter-11: the current skills 8.0 against the one-page brief's 7.2). Look again after the others.
 
 **Status:** the operator approved the direction on 2026-11-05 ("rebuild simple way yes", "test others"). The exact new files are shown to the operator before they replace the library and go to the account.
