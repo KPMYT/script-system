@@ -56,13 +56,13 @@ What the two share is the channel's stock material, not script text: the grease 
 
 **What the two openings do that the other seven mostly don't** (reading):
 
-1. **They open on a habit the viewer has already tried, and say it fails.** #5: "That jug of drain cleaner you poured in last night is sitting in a sink of gray water and you're out 10 bucks." [0:00]. #7: "I'll never understand why people keep pouring bleach on a toilet ring." [0:00], then "You scrub till your shoulder aches. It fades a little, and 2 weeks later it's back, darker than before." [0:00]. Both name a product nearly every viewer owns and has used (the jug, the bleach) and call it the wrong tool in the first sentence. The pack calls the failed attempt "the strongest opening feeling in the data". Of the other seven, #9 does this too ("gone to bed hoping, and come back in the morning to the same gray water" [0:00]) and #4 half does it ("you've spent a month fighting it with your fingernails" [0:00]); #1, #2, #3, #6 and #8 open on the fix or the job instead.
+1. **They open on a habit the viewer has already tried, and say it fails.** #5: "That jug of drain cleaner you poured in last night is sitting in a sink of gray water and you're out 10 bucks." [0:00]. #7: "I'll never understand why people keep pouring bleach on a toilet ring." [0:00], then "You scrub till your shoulder aches. It fades a little, and 2 weeks later it's back, darker than before." [0:00]. Both name a product nearly every viewer owns and has used (the jug, the bleach) and call it the wrong tool in the first sentence. The pack calls the failed attempt "the strongest opening feeling in the data". Of the other seven, #9 does this too ("gone to bed hoping, and come back in the morning to the same gray water" [0:00]), #1 does it in its third sentence ("You've scrubbed that ring before and it came back." [0:00]) and #4 half does it ("you've spent a month fighting it with your fingernails" [0:00]); #2, #3, #6 and #8 open on the fix or the job instead. (#1 is one day old, so it can't say anything yet.)
 2. **They take the blame off the viewer.** #7: "That isn't you doing it wrong. Bleach can't touch what that ring is made of." [0:31]. #5: "But the jug's label leaves one thing out. The clog in your kitchen and the clog in your shower aren't the same clog and no single liquid touches both." [0:00]. Both turn "I failed" into "I was sold the wrong thing", in the first 35 seconds. No other opening in the nine does this as directly.
 3. **The whole answer by about 10 seconds, all of it.** #5 names all four liquids in its second and third sentences ("Dish soap, hydrogen peroxide, white vinegar, and washing soda." [0:00]); #7 names the fix in its third ("that brown ring at the waterline gets citric acid overnight, not bleach." [0:00]). Several others name one fix early (#1, #2, #6), but these two give the viewer the full answer to the title up front and make the video the "how" and the "why".
 4. **A broad, everyday topic.** Every clog in the house; cleaning the toilet. Both are cleaning-and-upkeep jobs every homeowner does, not a repair a part of the audience needs (a stuck stopper, a toilet install, one product). This is probably as much the title and thumbnail as the script, and the script can't take credit for the click.
 5. **They are the two slowest voiceovers** (measured: 161 and 164 words a minute; the other seven 166 to 173). Possibly more pauses; worth a listen, but it may be nothing.
 
-**Where they differ from each other** (so neither is "the formula"): #5's opening is clean by the pack (item one at about 0:43, no promises beyond the count line, an honest scope line for "EVERY": "Every clog means the everyday soft kind. Hair wads, toys, and roots get a tool or a phone call." [0:32]). #7's opening is the pack's banned shape: a run-down of four later steps and step one at about 1:25 (see video 7, rule break 1). So the promise block didn't sink #7, and the clean opening didn't make #5. Without retention data there's no way to tell whether #7's viewers left during that block. The safe reading: the first 15 seconds (the habit, the blame shift, the answer) did the work in both; the 30 seconds after them differ.
+**Where they differ from each other** (so neither is "the formula"): #5's opening is clean by the pack (item one at about 0:43, no promises beyond the count line, an honest scope line for "EVERY": "Every clog means the everyday soft kind. Hair wads, toys, and roots get a tool or a phone call." [0:00]). #7's opening is the pack's banned shape: a run-down of four later steps and step one at about 1:25 (see video 7, rule break 1). So the promise block didn't sink #7, and the clean opening didn't make #5. Without retention data there's no way to tell whether #7's viewers left during that block. The safe reading: the first 15 seconds (the habit, the blame shift, the answer) did the work in both; the 30 seconds after them differ.
 
 ---
 
@@ -76,7 +76,7 @@ Published 2026-11-04 · 15:23 · 410 views at collection (one day old).
 
 - **Point, price and pain in the first 10 seconds:** "A box of baking soda and the brown bottle of 3% peroxide. About $4 for the two of them and that pink ring in your toilet bowl is gone in half an hour. You've scrubbed that ring before and it came back." [0:00].
 - **The villain as two facts side by side, exactly the pack's shape:** "Nobody in the trade will bring up the two cheapest things in your house. And a visit to clear a smelly drain costs you hundreds." [0:00].
-- **Honest scope that keeps the title honest:** "This mix won't open a hair clog or eat a crusty mineral ring, but it does all 10 jobs on this list." [0:30]. And it holds that line inside the items: "If it feels like sandpaper, that's mineral from hard water, and that's a citric acid job, not this one." [0:30]; "The paste won't touch the white crust around the holes, though. That's scale" [14:05].
+- **Honest scope that keeps the title honest:** "This mix won't open a hair clog or eat a crusty mineral ring, but it does all 10 jobs on this list." [0:00]. And it holds that line inside the items: "If it feels like sandpaper, that's mineral from hard water, and that's a citric acid job, not this one." [0:30]; "The paste won't touch the white crust around the holes, though. That's scale" [14:05].
 - **The title's word comes back as every signpost:** "Reason one", "Reason two" … "Reason 10" (the pack's "reaffirm the title's feeling").
 - **The check before the fix:** "Put a glove on and run a finger across it first. If it smears, you've got bacteria." [0:30]; "Black that lifts with this paste was on the caul. Black that won't lift is under it." [8:50] ("caulk"; the paste as the test is a good, specific idea).
 - **Three prices side by side, the pack's money device:** "About $4 for the box and the bottle. $8 to $12 for one jug of foaming drain cleaner that covers the smell for a week. $150 to $350 for a visit to clear one drain." [2:34]. Then the narrator's own disgust: "I think that's an ugly number for a smell." [2:34].
@@ -88,7 +88,7 @@ Published 2026-11-04 · 15:23 · 410 views at collection (one day old).
 
 ### Rule breaks
 
-1. **The baking soda and vinegar habit is corrected without crediting it first.** "Now, you've probably done the baking soda and vinegar volcano down there and watched it foam. But the foam is the show, and those two cancel each other out before they reach the slime." [2:34]. Rule: `plumbing-scripts/SKILL.md`, "The viewer": "When correcting a loved one (baking soda and vinegar), credit their thrift first: about 23 comments defended it." Fix: one line of credit before the "but" ("It's cheap and it's honest, and I see why folks swear by it. But…"). Video 3 does this well: "Vinegar is fine. And if that's your habit, keep it." [4:42].
+1. **The baking soda and vinegar habit is corrected without crediting it first.** "Now, you've probably done the baking soda and vinegar volcano down there and watched it foam. But the foam is the show, and those two cancel each other out before they reach the slime." [2:34]. Rule: `plumbing-scripts/SKILL.md`, "The viewer": "When correcting a loved one (baking soda and vinegar), credit their thrift first" (about 23 comments in the study defended it). Fix: one line of credit before the "but" ("It's cheap and it's honest, and I see why folks swear by it. But…"). Video 3 does this well: "Vinegar is fine. And if that's your habit, keep it." [4:42].
 
 ### Facts worth checking
 
@@ -114,7 +114,7 @@ Published 2026-11-04 · 15:23 · 410 views at collection (one day old).
 | Mid CTA | about 5:38 (37%), after reason 3 of 10 |
 | End CTA | about 14:56; comment ask about 15:07 |
 | "you" / "but" / "I" per 1,000 | 29.0 / 4.3 / 5.9 |
-| Question marks (approx.) | 2 (captions drop many; the script asks at least five: "What's on the underside?", "Does your bathroom have a window?") |
+| Question marks (approx.) | 2 ("What's on the underside?", "Does your bathroom have a window?"); captions drop question marks, so this is a floor |
 | Scanner | 10 items, every item has an "I" line and a "but"; longest sentence 35 words; no ban or once-list hits |
 
 ---
@@ -256,14 +256,14 @@ Published 2026-11-02 · 12:17 · 1,900 views at collection (three days old).
 
 ### Facts worth checking
 
-- **Number six's replacement steps skip the seal** (reading, from everyday plumbing knowledge): "Unscrew the big nut where the pipe meets the drain under the sink, and the old assembly lifts out. Drop the new one in, snug that big nut by hand" [11:26]. A new pop-up drain needs plumber's putty or silicone under its top flange and the gasket under the sink, and the tailpiece reconnected; without that, the new drain leaks into the cabinet the video warns about in number two. Worth one line.
+- **Number six's replacement steps skip the seal** (reading, from everyday plumbing knowledge): "Unscrew the big nut where the pipe meets the drain under the sink, and the old assembly lifts out. Drop the new one in, snug that big nut by hand" [10:56]. A new pop-up drain needs plumber's putty or silicone under its top flange and the gasket under the sink, and the tailpiece reconnected; without that, the new drain leaks into the cabinet the video warns about in number two. Worth one line.
 - **"Never petroleum jelly because it eats the rubber seals."** [9:56]: correct.
 - **Prices:** pop-up assembly "$10 to $25" [10:56] traces (guide: part $10 to $25); "a few hundred" to fit it (guide: about $100 to $350): fine in words. Cabinet floor "$150 to $500 to dry it out and patch it" [4:41]: the guide gives "soaked cabinet floor $150 to $200; a stock cabinet swapped $250 to $600", so $500 stretches the first row; fine if the brief gives it.
 
 ### Voice/caption oddities
 
 - **">> [sighs] >>"** right before the price line [0:31], and **">> [laughter] >>"** before "I've seen the faces people make at that moment" [2:38]. A laugh is the one sound tag on the channel that would clash with the pack ("No jokes"). Worth a listen.
-- "everyone ends with your stopper lifting" [0:31] is "every one".
+- "everyone ends with your stopper lifting" [1:04] is "every one".
 
 ### Numbers
 
@@ -292,11 +292,11 @@ Published 2026-10-31 · 13:32 · 15,000 views at collection (the channel's best 
 ### What works
 
 - **The failed attempt, the answer, and the twist in 15 seconds:** "That jug of drain cleaner you poured in last night is sitting in a sink of gray water and you're out 10 bucks. Four liquids clear every everyday clog in your house and not one of them cost more than four bucks. Dish soap, hydrogen peroxide, white vinegar, and washing soda. But the jug's label leaves one thing out." [0:00].
-- **"EVERY" kept honest:** "Every clog means the everyday soft kind. Hair wads, toys, and roots get a tool or a phone call." [0:32]. This is the pack's scope job done exactly.
+- **"EVERY" kept honest:** "Every clog means the everyday soft kind. Hair wads, toys, and roots get a tool or a phone call." [0:00]. This is the pack's scope job done exactly.
 - **The item shape, in order** (scene, what's in the pipe, the cost, the turn, the fix, the win): "You cook bacon on a Saturday morning, rinse the pan, and the water goes down a little slower than it did last week. Nothing dramatic. But that grease didn't leave." [0:32]; "that's $150 to $350 for somebody to run a cable down it" [1:02]; "So, what do you do instead?" [1:34].
 - **The priority flag at the first answer:** "Out of everything in this video, this is the one I'd make you do." [1:34].
 - **A check the viewer runs, in five words each:** "Slime is gray and it smears. Scale is white and it scratches." [6:51].
-- **The silence line as two plain facts:** "Nobody in the trade mentions the jets. And a new toilet installed is a bill in the hundreds." [7:52].
+- **The silence line as two plain facts:** "Nobody in the trade mentions the jets. And a new toilet installed is a bill in the hundreds." [7:21].
 - **The safety rule, stopped for, with the reason and the workaround:** "Now, the rule, and this is the one rule I'd stop the video for. Never put vinegar and peroxide down the same drain on the same day. Together, they make peracetic acid, and that's corrosive to the pipe and to you. Peroxide on Saturday, vinegar on Sunday." [7:52].
 - **Cost per use, and the arithmetic holds** (a 55-ounce box is about seven cups, so about 14 half-cup pours at $5 to $6): "A half cup at a time, a box gives you a dozen or so pours. Call it 40 cents a pour, give or take a dime." [10:28].
 - **Three prices side by side:** "A dollar a bottle versus $10 for the jug versus $300 for the visit. Same clog." [12:00].
@@ -379,7 +379,7 @@ Published 2026-10-31 · 12:06 · 2,500 views at collection.
 
 ### Voice/caption oddities
 
-- **">> [sighs and gasps] >>"** right after "there's no shame in that." [10:55]. Worth a listen: a gasp after the reassurance line would undercut it.
+- **">> [sighs and gasps] >>"** right after "there's no shame in that." [10:25]. Worth a listen: a gasp after the reassurance line would undercut it.
 - "[clears throat]" twice, mid-sentence: "you're buying [clears throat] level three" [1:01]; "Some houses, [clears throat] older ones especially" [9:21].
 
 ### Numbers
@@ -412,7 +412,7 @@ Published 2026-10-30 · 12:57 · 13,000 views at collection (the channel's secon
 - **A question with the viewer's own answer, then the blame shift:** "When did you last scrub that ring? Last week, probably. And the week before." [0:00]; "That isn't you doing it wrong. Bleach can't touch what that ring is made of." [0:31].
 - **The outrage at a big price, as his reaction:** "And this is the part that gets me. Every year, folks pay somewhere between $250 and $800 to have a perfectly good toilet hauled out and a new one put in over a stain that comes off for pocket change." [0:31].
 - **A step nobody teaches, with the physics in one line:** "That rush of water starts a siphon, the same pull that empties the bowl when you flush." [2:04]; "Can your cleaner work through 2 in of toilet water? It can't." [2:36].
-- **The why behind the fix:** "But, bleach kills germs. It can't dissolve mineral. All it does is fade the color." [5:45]; "And if your ring is orange, that's rust, and bleach can set it darker." [5:45].
+- **The why behind the fix:** "But, bleach kills germs. It can't dissolve mineral. All it does is fade the color." [5:45]; "And if your ring is orange, that's rust, and bleach can set it darker." [6:16].
 - **Tenure once, before a verdict:** "I've been in this trade 45 years, and bleach on a mineral ring is about the biggest waste of elbow grease I know." [6:16].
 - **The safety rule, flagged and plain:** "Acid and bleach never go in the same clean. Citric acid, vinegar, or limescale remover mixed with bleach gives off chlorine gas." [7:48].
 - **Disgust where the topic has it:** "You'll find a black slimy crust that never sees daylight." [3:39]; "turn off the bathroom light and shine a cheap black light at the floor, and that halo lights right up. It's a little sickening the first time." [9:56].
@@ -453,7 +453,7 @@ Published 2026-10-30 · 12:57 · 13,000 views at collection (the channel's secon
 | End CTA | about 12:31 |
 | "you" / "but" / "I" per 1,000 | 28.3 / 5.2 / 4.2 |
 | Question marks (approx.) | 9 |
-| Scanner | 5 items found (steps 1-5; "Step six" isn't said as a signpost and steps 6-8 run on); two sentences over 35 words; echo "all the way around" three times |
+| Scanner | 5 items found: step six is said mid-sentence ("That's step six, and it's the floor." [9:56]), so the count stops there; two sentences over 35 words; echo "all the way around" three times |
 
 ---
 
@@ -469,7 +469,7 @@ Published 2026-10-29 · 15:29 · 2,700 views at collection.
 - **A myth handled fairly and scoped:** "And that video going around where somebody sets a toilet down on a bead of silicone, no wax ring, no bolts, skip it. Most codes in this country want a toilet sealed on a ring and bolted to the floor" [0:33]. "Most codes", never "illegal", as the pack asks.
 - **Safety, one line where the risk is:** "don't force it. An old valve can snap off in your hand and then you've got water you can't stop." [1:04]; "The rag keeps sewer gas out of your house and keeps a drop nut from vanishing down the drain." [2:06].
 - **The honest stop, with its trigger:** "press on the floor around it. If it's soft or spongy, stop. That's rot and that's a call for a plumber or a carpenter before any toilet goes back down." [4:43].
-- **The running tally, promised and closed** (the pack's money device): "Keep a tally as we go because we're going to stack it up against that plumber's bill at the end." [6:49], closed: "Under $40 in parts, all in, against that plumber's bill from the start." [14:06].
+- **The running tally, promised and closed** (the pack's money device): "Keep a tally as we go because we're going to stack it up against that plumber's bill at the end." [7:20], closed: "Under $40 in parts, all in, against that plumber's bill from the start." [14:38].
 - **Tenure once, before a verdict:** "I've been in this trade 45 years and when a brand new toilet leaks at the base, a low flange is the first thing I'd check." [4:12].
 - **Reassurance in the right place:** "Worried you'll crack the porcelain? Your weight won't. That toilet is built to hold a person every day. What cracks it is a wrench, and that's the next step." [8:22].
 - **The test, with what the viewer will see:** "Water you can't see shows up on a dry paper towel right away as a dark spot." [12:31].
@@ -534,11 +534,11 @@ Published 2026-10-29 · 14:42 · 1,200 views at collection.
 1. **A promise block in the opening: three promises.** "Way number two pulls out the things no liquid can touch, and all it takes is two plastic nuts and a bucket. Way number three is for grease, and it comes with the one safety rule that keeps a drain chemical out of your eyes. And after the three, the one sign that means it isn't your sink at all" [0:32]. Rules: `plumbing-scripts/SKILL.md`, "Never in an opening" (P10) and P18. The count line before it ("here's the honest verdict on the bottle, and then three ways to beat it, each one matched to the clog it's made for." [0:32]) is all the opening needs.
 2. **The first fix comes at about 6:15.** "First, what you're really buying." starts at about 1:30, and the product history, the other channel's test and the dosing run to about 5:40. Scanner: "item one at word 1028 (about 363 seconds at 170)". The verdict is in the first sentence (point first holds), but the first thing the viewer can do arrives at 4:36 (the label dose) and the first of the three ways at 6:15. Rule: `plumbing-scripts/SKILL.md`, the video-type table (head-to-head verdict: first tip by 45-60 seconds) and "The opening" (first real tip by about 45 seconds). The viewer note in the pack: "3:15 is where it starts." (2K likes). Fix: cut the packet history to two lines and the other channel's test to one, and start way one by about 2:00.
 3. **The mid-video CTA comes before any of the three ways.** "By the way, before the first of the three, if that just kept a bottle out of the wrong drain" [5:41]. Rules: `plumbing-scripts/SKILL.md`, "CTAs" (Roger): "never before the end of item 3"; `core/cta-and-endings.md` §2: "Goes right after the first real payoff … never before the first delivered value". Fix: after way one's win ("you just did it in about 6 minutes and the bottle never left the shelf." [7:46]).
-4. **Loaded lines about a named company.** "The front of that packet talked about green and biodegradable, but the label on it said danger, causes burns. Same packet. That's the store shelf for you. The friendly word goes on the front in big letters, and the warning goes where you have to hunt for it." [1:30]; "gentle also means slow, and slow is the part they don't print in big letters." [2:04]. Rules: `core/claims-policy.md`, "Named companies and people": "Nothing false or unsupported is ever stated as fact about a named company"; `plumbing-scripts/SKILL.md`, "Banned": "anything negative stated as fact about a named company" and "The villain": "Never a named company". The label facts may be true and in the brief; "where you have to hunt for it" and "the part they don't print in big letters" say why the company did it, which is the motive the pack keeps off even the trade. Fix: keep the facts (what the old packet said, what the new label says) and drop the "why".
+4. **Loaded lines about a named company.** "The front of that packet talked about green and biodegradable, but the label on it said danger, causes burns. Same packet. That's the store shelf for you. The friendly word goes on the front in big letters, and the warning goes where you have to hunt for it." [1:33]; "gentle also means slow, and slow is the part they don't print in big letters." [2:36]. Rules: `core/claims-policy.md`, "Named companies and people": "Nothing false or unsupported is ever stated as fact about a named company"; `plumbing-scripts/SKILL.md`, "Banned": "anything negative stated as fact about a named company" and "The villain": "Never a named company". The label facts may be true and in the brief; "where you have to hunt for it" and "the part they don't print in big letters" say why the company did it, which is the motive the pack keeps off even the trade. Fix: keep the facts (what the old packet said, what the new label says) and drop the "why".
 
 ### Facts worth checking
 
-- **"If you bought Green Gobbler, there's already one sitting in the box."** [6:43]. Earlier the free zip tool came with "the old powder" [3:07]; the bottle on sale now is a liquid. Whether today's bottle comes with a tool needs checking against the brief.
+- **"If you bought Green Gobbler, there's already one sitting in the box."** [6:43]. Earlier the free zip tool came with "the old powder" [2:36]; the bottle on sale now is a liquid. Whether today's bottle comes with a tool needs checking against the brief.
 - **"Its own answers page says it works on hair, soap scum, toilet paper, wipes, and other organic matter."** [4:09]. "Wipes" from a liquid is a surprising claim, and every other video on the channel says wipes need a tool or a call. Check the brief's wording.
 - **"Angie's 2026 numbers put a standard main line clearing at $147 to $352"** [13:27] (Angi). Not in the price guide (main line snaking $150 to $500); a named source said with its own figure, which the pack allows "only rarely, where it really helps", so it must come from the brief. Measured.
 - **"A 31-oz bottle runs about $14"** [2:04]: the guide has Green Gobbler only by the gallon (about $25). From the brief, presumably. Measured.
@@ -574,11 +574,11 @@ A pattern here means three or more videos.
 ### What the channel now does well (measured)
 
 - **Length: fixed.** All nine pass 12 minutes at 170 (12.2 to 15.4). The 2026-10-29 review found the plumbing scripts "all coming short"; Roger's now aren't, and his voice ran 161 to 173 words a minute, so the profile's 170 is right.
-- **The ending: fixed on all nine.** One end CTA naming the link and the QR code, then a comment ask with a real question and "I read every one", nothing after it. Seven of nine close on one small thing to do tonight ("Tonight, pull the stopper out of the bathroom sink and look at it." #5 [12:31]); none uses "tonight's homework" (the Werner fault of 2026-10-29).
+- **The ending: fixed on all nine.** One end CTA naming the link and the QR code, then a comment ask with a real question and "I read every one", nothing after it. Six of nine (#1 to #6) close on one small thing to do tonight ("Tonight, pull the stopper out of the bathroom sink and look at it." #5 [12:31]); #7 closes on the weekend's routine, #8 on a run-back (rule break 3), #9 on reassurance. None uses "tonight's homework" (the Werner fault of 2026-10-29).
 - **The book match: right on all nine.** Every page number checks against the book's fix index (pages 37, 42-45, 48-51, 56).
 - **Tenure once on all nine,** always 45, always beside a verdict or a stop sign.
-- **The main-line stop sign** ("two drains backing up at once") is in all nine, as a call with its trigger, the way the pack asks.
-- **Two facts side by side, not "because":** every silence line in the nine is the pack's shape ("Nobody in the trade mentions the jets. And a new toilet installed is a bill in the hundreds." #5 [7:52]). No line joins the trade's price to its silence with "because", "so" or "since".
+- **The main-line stop sign** ("two drains backing up at once") is in all six drain videos (#1, #2, #3, #5, #6, #9), as a call with its trigger, the way the pack asks; #7 and #8 name their own call (the wax ring, the soft floor); #4 has no call point and needs none.
+- **Two facts side by side, not "because":** every silence line in the nine is the pack's shape ("Nobody in the trade mentions the jets. And a new toilet installed is a bill in the hundreds." #5 [7:21]). No line joins the trade's price to its silence with "because", "so" or "since".
 
 ### Patterns to fix
 
@@ -586,7 +586,7 @@ A pattern here means three or more videos.
 2. **The first real item is later than 45 seconds: 5 videos** (#4 1:09, #6 0:51, #7 1:25, #8 0:59, #9 6:15). Three of them are the promise-block videos; #4 and #6 are later and have no promise block, so the long opening is still happening without it: #4 runs two symptom sentences, the cause and a price before item one; #6 lists the tools.
 3. **The scope line walked back: 3 videos.** #2 "Nothing here touches a chemical" (then peroxide), #4 "Nothing here needs a tool you don't already own" (then a $3 strip), #7 "None of this needs a plumber" (then a call). The 2026-10-29 rule covers the plumber case; the same habit shows up with tools and chemicals. The fix is the same: say where it stops, not that it never does.
 4. **The mid-video CTA before the end of item 3: 4 videos** (#3 after item 2 of 5, #5 after item 2 of 4, #6 after level 1 of 3, #9 before way 1 of 3), and **past halfway on #4** (56%, after item 3 of 6). All five are short lists. Roger's rule says "about a third of the way in, never before the end of item 3", written for lists of 10 to 15; with three to six items the two halves can't both hold. The VAs (or the writer) chose "a third" every time. **This is a gap in the rule, not a writing fault:** the operator could say which wins on a short list. A suggestion only: "after the first item's win and about a third of the way in; never before item 3 in a list of 10 or more".
-5. **Sound tags in the captions on all nine** (measured: 30 tags; 22 ">>" marks): "[snorts]" 11, "[clears throat]" 11, "[sighs and gasps]" 5, "[sighs]" 3, "[laughter]" 1. Many fall mid-sentence ("three or four [snorts] bucks" #5 [5:15]; "an ugly number [clears throat] for lifting a toilet" #8 [2:38]). YouTube's caption system writes these when it hears a non-speech sound, so the voice (ElevenLabs "Ron") is very likely making breaths, sighs or snorts the script didn't ask for, or the scripts carry voice tags. Worth one listen to #7 (8 ">>" and 7 tags) at 7:18, 8:52 and 10:29 to decide whether it's audible and needs a voice-settings change.
+5. **Sound tags in the captions on all nine** (measured: 34 tags; 22 ">>" marks): "[snorts]" 13, "[clears throat]" 12, "[sighs and gasps]" 5, "[sighs]" 3, "[laughter]" 1. Many fall mid-sentence ("three or four [snorts] bucks" #5 [5:15]; "an ugly number [clears throat] for lifting a toilet" #8 [2:38]). YouTube's caption system writes these when it hears a non-speech sound, so the voice (ElevenLabs "Ron") is very likely making breaths, sighs or snorts the script didn't ask for, or the scripts carry voice tags. Worth one listen to #7 (8 ">>" and 7 tags) at 7:18, 8:52 and 10:29 to decide whether it's audible and needs a voice-settings change.
 6. **The grease "like candle wax on a holder": 6 videos** (#1, #2, #3, #5, #6, #9). It's in Roger's profile as an example of his analogies, but the pack's voice rule says "a phrase is voice once; in the same slot every video, it's a tic". The first-Saturday coffee routine is in 5 (#1, #2, #3, #6, #9) and "makes me sick" in 4 (#4, #5, #6, #7); both are allowed, but a viewer who watches three in a row will hear them three times. A reading, not a rule.
 
 ### Compared with the 2026-10-29 review (Werner)
