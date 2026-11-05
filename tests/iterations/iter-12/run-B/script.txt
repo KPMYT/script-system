@@ -1,0 +1,71 @@
+TEST (iter-12, run B: the one-page brief)
+
+It's the coldest night of the week, and the furnace starts, runs a minute, and quits. Then it tries again. Or there's a puddle by the furnace in the basement that wasn't there yesterday. Most people figure the furnace is dying, or they pour bleach down whatever pipe they can find. When this is the cause, nothing in that furnace is broken. A small drain line is choked with slime, and the cup that keeps it clear all winter is already in your kitchen. Plain white vinegar. Here's where it goes and how to do it right.
+
+First thing, find out if your furnace even has this drain, because not every furnace does. Go stand at the furnace and look at the pipes coming off it. If you've got two white plastic pipes running out through the wall or up through the roof, that's a high-efficiency furnace, the kind the trade calls a condensing furnace. It's rated ninety percent or higher on efficiency. If instead you've got one metal pipe running into a chimney, that's a standard eighty percent furnace, and it doesn't have a drain of its own. If there's a drain hose near one of those, it's usually coming off the air conditioning coil, and that's a summer job for another day. This video is for the two white pipes.
+
+Now, why would a furnace make water at all? A high-efficiency furnace pulls so much heat out of its own exhaust that the exhaust cools down, and the moisture in it turns back into water, the same way a cold glass sweats on a summer afternoon. That water is called condensate. And it's not a little. On a cold day, when the furnace is running hard, it can make up to about eight to ten gallons of it. It's slightly acidic, too. All of it has to go somewhere.
+
+So follow it. Low on the furnace you'll find a plastic trap, a curved or boxy fitting that always holds some water in the bottom. From the trap, a hose or a pipe runs off to a floor drain, or to a small pump sitting on the floor beside the furnace. Grab a flashlight and trace that line from the trap to wherever it ends. While the furnace is running, look at the end of it. You want water moving out of there. A weak dribble on a cold day, or nothing at all, tells you something up the line is holding it back.
+
+What's holding it back is slime. That trap sits all season with standing water in it, it's warm in there, and dust gets in. Put those three together and you get a film of slime on the inside of the trap and the line. The trade word for it is biofilm. It doesn't happen in a day. It builds over weeks, and by the middle of winter it can narrow that line until the water can't get out.
+
+When the water can't get out, it backs up, and that's when the furnace shuts itself down. There's a small fan on the furnace called the inducer. Its job is to push the exhaust out through those white pipes. Next to it sits a safety switch called the pressure switch, and it only lets the burners light once it senses the inducer drawing that exhaust the way it should. Back the water up, and the pressure switch can't close. No close, no fire. The furnace quits, or it starts and stops over and over, which the trade calls short cycling, or it shows an error code. Or the trap just fills past the brim and spills onto the floor. That's your puddle. And never bypass that pressure switch to force the furnace on. It's shutting things down for a reason.
+
+Hold onto this part. When that's what happened, nothing in the furnace is broken. You don't need a whole new unit. You need the water to drain. A tech clearing a clogged condensate line or trap runs about a hundred to two hundred fifty dollars, more at night or on a weekend. The cup that keeps it from clogging costs pennies.
+
+Now, about the bleach. I'll give bleach its due. It kills slime. But the people who build these furnaces have a say here. Carrier and Lennox both recommend white vinegar over bleach for condensate lines, and Carrier says harsh chemicals can damage system components. Furnace manuals usually call for plain water in the trap. Think about what that water runs through. A plastic trap. Hoses. Sometimes a pump. Vinegar is a mild acid. It loosens that biofilm, and it's gentle on every one of those parts. Forty-five years in this trade, and my verdict is plain. Vinegar.
+
+The store shelf has bottles of stronger stuff. The cup that does this job is already in your cupboard.
+
+And this next part is not optional. Never mix bleach and vinegar. Together they give off chlorine gas, and chlorine gas is toxic. One cleaner at a time, always. If bleach has gone down that line before, yours or anybody's, flush the line well with plain water before the first cup of vinegar goes in.
+
+There is a trade-off, and I'll be straight about it. Vinegar is slower than bleach. One dose won't do much on its own. It works as a habit, a cup at a time, month after month, keeping the slime from ever getting a foothold.
+
+Where you pour it is where people go wrong. You want one of two openings on the drain line. The first is a cleanout, a short stub on the line with a cap on it, put there for getting into the line. The second is a vent tee, a T-shaped fitting on the line with one end open to the air. Trace the line with your flashlight from the trap outward, and you'll usually find one or the other. If you can't find either one, the trap itself comes off. Your furnace manual shows how, and it's usually a couple of hose clamps.
+
+Now, where nothing goes. Near the trap you may see one or two small rubber hoses running to the pressure switch. Nothing goes in those. Not vinegar, not water, nothing. And nothing goes into the inducer. Those aren't part of the drain. If you look at the openings and honestly can't tell which is which, don't guess. Leave it, and ask the tech to point it out at the next visit.
+
+Here's how the job goes, start to finish. Turn the thermostat down so the furnace isn't calling for heat, and wait for the blower to stop. Then find the furnace power switch. It looks just like a light switch, on the furnace or on the wall near it. Flip it off.
+
+If your cleanout or vent tee sits outside the cabinet where you can reach it, you don't need to open anything. If the trap is inside, behind the cabinet door, the door comes off, and before it does, you prove the power is off. That takes a non-contact voltage tester, a pen-shaped tool that beeps or lights up near a live wire. They run about fifteen to twenty-five dollars. Try it first on something you know is live, an outlet or a lamp that's on, so you know the tester works. Then check the furnace. Nothing from the tester, and the door can come off.
+
+Now pour. About one cup of white vinegar, slowly, into the cleanout or the vent tee. Slow is the point. You want it working through the trap and down the line, not splashing back at you. Then leave it alone for thirty minutes.
+
+After thirty minutes, flush it with a cup or two of warm tap water. Warm from the tap, not boiling. Then go to the end of the line, at the floor drain or the pump, and look. A steady flow means the line is open. It might come out cloudy, maybe with little bits of slime in it. That's what was sitting in your line, and it's on its way out.
+
+And while you're down there, no garden hose on that line and no compressed air blasted into it. No pressure of any kind. Pour, wait, flush.
+
+Before the power goes back on, the trap has to be full of water. This is the step people skip, and it matters more than the vinegar does. That water sitting in the bottom of the trap isn't leftover. It's a seal. If the trap is dry, exhaust gas can push out through the drain and into the house, and the furnace may not even light. Furnace makers say to fill the trap before start-up.
+
+If you flushed through the cleanout or vent tee, finish with plain water so the trap is topped up. If you took the trap off and emptied it, fill it with plain water before it goes back on.
+
+And while we're on exhaust. If a carbon monoxide alarm ever goes off in your house, don't ignore it, and don't go hunting for the source. Get everyone outside and count heads. From outside, call nine-one-one or the fire department. Stay out until they tell you it's safe. The furnace, or whatever appliance it was, stays off until a trained tech fixes it. And anyone who feels sick gets medical help.
+
+With the trap full, put the door back on. Flip the power switch back on. Set the thermostat where you had it. Then listen. The inducer starts first, that small fan humming. Then the ignition. Then the burners light, and you get warm air at the registers. Look at the floor around the furnace. Dry is what you want. Check the end of the line again once the furnace has run a while. Water moving out of it means the whole path is working.
+
+If there's no floor drain near your furnace, the water goes to a condensate pump. That's a small tank with a motor on it, sitting on the floor beside the furnace. Inside the tank is a float. As the tank fills, the float rises and starts the motor, and the motor pushes the water out through a tube to a drain somewhere else.
+
+The same slime that grows in the trap rides down the line into that tank, and it can stick the float. Many of these pumps have a safety switch on that float that shuts the furnace off before the tank overflows. That's a good thing to have. It also means you can wake up to a cold house with a furnace that has nothing wrong with it. The pump stopped it.
+
+The vinegar flush goes right through the pump on its way out. So while you're flushing, watch the pump. It should fill, kick on, and empty. If it runs but won't empty, or the tank is full and the motor never starts, the pump needs replacing, and that's a call. Installed by a tech, a new one runs about one hundred fifty to four hundred fifty dollars. And never bypass that float switch to get the heat back. It's the one thing standing between that tank and your floor.
+
+Now, the title says all winter, and I want to be plain about what that means. One cup does not last all winter. One cup once a month does it. Every other month works too. Biofilm takes weeks to build, and a cup every month or two through the heating season keeps it from ever getting ahead of you. Miss a month, and it's not a problem. Pick it back up the next one.
+
+What makes it stick is tying it to a day you already keep. On the first of the month, I pull my furnace filter and look at it, with my coffee. Pick a day like that, when you're already standing at the furnace, and the cup goes in while you're there.
+
+And the cost barely registers. A gallon of white vinegar runs about four to five dollars, and there are sixteen cups in a gallon. That's twenty-five to thirty cents a month.
+
+Now, where this stops working. The vinegar is prevention. It is not a cure for a line that's already packed solid. You'll know, because the vinegar won't drain away. It just sits there in the opening.
+
+When that happens, go to the next rung. Thermostat down, power off at the switch, proved off with the tester, door off, same as before. Take the trap off the way your furnace manual shows, usually by loosening the hose clamps. Rinse it out with warm water and a little vinegar. Fill it with plain water, put it back on, snug the clamps, and bring the furnace back up the same way as before. For a lot of people, that's the whole job.
+
+Some things are past a homeowner, and you should know where that line sits. If the trap is cracked, call a tech you trust. If a hose sags in the middle and can't run downhill to the drain, that's a call. If the line is clear and the error code is still showing, that's a call. If there's water on the floor and you can't find where it's coming from, call. And if the pump won't empty, that's a call too.
+
+Don't let any of those sit. A leak under a basement furnace soaks into the flooring, the drywall and whatever you've got stored down there. Water damage from a small leak in one room runs about one hundred fifty to five hundred dollars. A typical water damage job runs about thirteen hundred to six thousand. Against that, you've got pennies and a few minutes of work a month. It can save you the visit, and a mid-winter night with no heat.
+
+So the next time that furnace quits on a cold night, you'll know it may not be dying at all. It may just need its water to get out, and you know how to keep that path open. Tonight, take a flashlight down to the furnace, find the drain line, and follow it until you find its cleanout or its vent tee. That's all. Just know where it is.
+
+If you want straight answers about heating and cooling an older house, without anybody pushing a new unit on you, subscribe to Roger the HVAC Guy.
+
+And tell me in the comments: is your furnace the two-white-pipe kind, and where does its drain line end up, a floor drain or a pump? I read every one.
