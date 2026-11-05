@@ -1,0 +1,295 @@
+TEST (iter-11, run A: the skills installed on the account)
+
+An outlet can be wired wrong for decades and still work every day.
+
+In an older house, years of owners and weekend fixes pile up behind your cover plates, and you won't see any of it until the box is open.
+
+After thirty-five years in the trade, I still wouldn't trust an older house's outlets until they'd been checked for these.
+
+Here are seven mistakes hiding behind the plates in almost every older house, six you can fix yourself and one for a licensed electrician.
+
+Number one is the outlet that's wired backwards, and you can catch it without picking up a screwdriver.
+
+You need a plug-in outlet tester for this one. It's a small plug with three lights on it, and a chart printed on its side.
+
+You plug it into an outlet and read the lights against the chart. Do this one before anything else on the list.
+
+If your chart says the hot and neutral are reversed, the wires behind that outlet are on the wrong screws.
+
+Here's how your outlet is meant to be wired. It has brass screws on one side and silver screws on the other.
+
+The brass screws take the hot wire, usually black. That's the one that brings the power from the breaker. A breaker is the switch in your electrical panel that shuts its circuit, everything it feeds, off when too much current flows.
+
+The silver screws take the neutral, usually white, which carries the current back.
+
+Swap them, and the outlet still works for you. That's why nobody notices.
+
+But think about a lamp in your house with its own switch on it.
+
+That switch is meant to sit on the hot side. On a backwards outlet, it ends up on the neutral side, so the metal shell around the bulb can carry power with the lamp switched off.
+
+Ever noticed that one blade on your lamp plug is wider than the other?
+
+That wide blade is the neutral. It's there to keep the lamp's switch on the hot side, and a backwards outlet undoes the whole idea.
+
+The fix is two wires on two screws. But this is the first time you'll open a box, and the order you work in is what protects you. I won't do it any other way, and I don't want you to either. Every fix after this one uses it too.
+
+Start with a pen tester, the non-contact kind that beeps near a live wire without touching it. Hold it to an outlet you know is working, and make sure it beeps.
+
+Then plug your outlet tester into the outlet you're fixing, and watch it light up in the top half and the bottom half.
+
+Now go to the panel and switch that outlet's breaker off. Put tape over the handle and leave a note, so nobody flips it back on while you work.
+
+Back at the outlet, your tester should be dark in both halves.
+
+If it still lights, the label in your panel was wrong. Try the next breaker and check again.
+
+Take the cover plate off, and hold the pen tester to the screws on the sides.
+
+Take out the mounting screws and ease the outlet forward by its metal strap, without touching the wires.
+
+Now test every wire and every cable in the box, not just the ones on your outlet. One box can hold more than one circuit.
+
+Then take the pen tester back to the outlet you know is working, and make sure it still beeps. A tester with a dead battery can't fool you that way.
+
+If any wire still shows power, take your hands back. Go and find whichever breaker feeds that wire, then test it again. If you can't find it, call an electrician.
+
+A pen tester going quiet is never proof on its own, because it can miss a live wire. That's why you check it on a working outlet before and after.
+
+If your outlet only has two slots, or it's so worn the plug-in tester won't stay put, you'll want a two-probe voltage tester. That's the one with two leads you hold against the slots.
+
+You check that one on a working outlet first. Then, across your outlet's slots, you should see power with the breaker still on, and nothing once it's off. Then you check it on the working outlet again.
+
+In a metal box, or on cable with a metal jacket, you put the two-probe tester on the wires themselves.
+
+Only then do your hands go near the wires.
+
+Now look at the wires before you touch them.
+
+Wire that's dull silver instead of copper is aluminum, and that's where you stop. Number four is all about it.
+
+Insulation that's brittle, cracked or scorched, or a box that's melted, is a stop too. Your breaker stays off, and a licensed electrician looks at it before anything else happens.
+
+Copper in good shape is what you're hoping for. Black goes on a brass screw. White goes on a silver one.
+
+But if the black was already on the brass and your tester still said reversed, the wiring further back isn't what it should be. Stop there, leave the breaker off, and call an electrician.
+
+When your wires are on the right screws, fold them back, fit the outlet and the plate, and switch the breaker on.
+
+Plug the tester in. The lights should match the correct pattern on the chart.
+
+And now, when you switch that lamp off, the shell around the bulb goes dead with it, the way it was always meant to.
+
+I'd run that tester through every outlet you've got. It takes a few seconds an outlet, and it's the best few seconds you'll spend on your wiring.
+
+The same tester points you at number two, and plenty of people are surprised by what it says.
+
+Number two is the three-prong outlet with nothing behind the round hole.
+
+What does your tester say at the outlet behind your computer? That's the one I'd check first.
+
+If the lights read open ground, there's no ground wire connected at that outlet.
+
+The ground is the bare or green wire. Normally it carries nothing. It's there to give stray current a path, so the breaker trips.
+
+A lot of older houses were wired with two-wire cable, hot and neutral only. Somewhere along the way, somebody swapped in three-prong outlets so your newer plugs would fit.
+
+The round hole looks the part. But it's connected to nothing.
+
+And your surge strip, or your computer, is counting on a path that isn't there.
+
+I'll tell you the good news. You've got a proper answer for every one of these, and which one depends on what's in your box. So you look before you shop.
+
+Prove it dead exactly the way you did for number one. The pen tester checked on an outlet you know has power, and the plug-in tester lit in both halves. Then the breaker off and taped, and the plug-in tester dark in the top outlet and the bottom one. Then the plate off, the screws tested, the outlet eased out, every wire tested, and the pen tester checked again.
+
+Then look in the back of the box. A bare or green ground wire folded back there and never connected means a grounded three-prong outlet, hooked up to it, may be all you need.
+
+If there's no ground wire at all, an electrician can add one, and then you put in a grounded three-prong outlet connected to it.
+
+A GFCI is the outlet with the test and reset buttons. It cuts the power in a split second when current leaks where it shouldn't, and that protects you from shock.
+
+But a GFCI adds no ground. Your surge strip plugged into one still has no ground path.
+
+Otherwise, the code gives you three choices.
+
+A two-prong outlet.
+
+A GFCI outlet, labeled No Equipment Ground.
+
+Or a three-prong outlet fed from a GFCI, labeled GFCI Protected and No Equipment Ground.
+
+What your outlet never gets is a plain three-prong with nothing behind it.
+
+Where your outlet sits decides the rest.
+
+Under newer code, in a bathroom, kitchen, garage, basement, crawl space, laundry area or outdoors, the replacement has to be GFCI protected anyway. The same goes within 6 feet of a sink, a tub or a shower.
+
+In a room that now needs AFCI protection, your replacement needs that too. AFCI is protection that shuts the power off when it senses dangerous arcing, which is electricity jumping a small gap.
+
+It also has to be tamper-resistant where the code requires it. That's an outlet with built-in shutters, so a child can't push something into one slot.
+
+Code is local, so your local inspector has the final say on all of this.
+
+One more thing before you buy. A GFCI is deeper than a plain outlet, so if your box is already packed, ask an electrician whether it'll fit.
+
+When you wire it, the incoming power goes on the screws marked line. The load screws feed the outlets further along, and protect them too.
+
+If you've got two cables in the box and no way to tell which one brings the power in, stop and call an electrician.
+
+With the GFCI in and the power restored, plug in a lamp and press the test button. The lamp goes off. Press reset, and it comes back.
+
+Your plug-in tester will still read open ground there. That's expected. The missing wire causes that reading, not the GFCI.
+
+The test button is the check that counts.
+
+If you found a ground wire and connected it, the plug-in tester should now read correct.
+
+If you went with a two-prong outlet, put your two-probe tester across the slots, and you'll see power. Then plug in a lamp and feel the plug grip.
+
+In nearly every room, I'd take the GFCI over the two-prong. It doesn't give you a ground, but it gives the people in your house protection the old outlet never had.
+
+That tester has told you the truth twice now. But there's one outlet it gets wrong, and that's number three.
+
+Number three is the bootleg ground, the mistake that fools your tester.
+
+Picture an old three-prong outlet in a house wired with two-wire cable. You plug the tester in, and it says correct.
+
+You'd call that good news. But in a house with no ground wires, that reading can't be right.
+
+Somebody ran a short jumper wire from the silver screw, the neutral, over to the green ground screw. That fakes a ground, and a three-light tester can't tell the difference.
+
+Here's why I care about this one. The neutral carries current all day long, so now your ground hole is tied to a working wire.
+
+Anything you plug in with a metal case, a toaster or a drill, is joined to that neutral. And if the neutral ever comes loose somewhere up the line, that metal case can carry power.
+
+It's against code, and I'd never leave one in place.
+
+The only way you'll find it is with the power off and the outlet eased out, proved dead in the same order you learned at number one.
+
+What you're looking for is a short wire running from the silver screw to the green one, and no bare or green wire coming in from the cable.
+
+Take the jumper off, and the outlet itself can stay. Now it's honestly ungrounded, and it gets one of the choices from number two before the power goes back on.
+
+When it's on again and you test it, your tester will read open ground.
+
+That's your outlet finally telling you the truth. I'd rather have an honest open ground than a fake correct, every time.
+
+You can find those first three with a tester and a screwdriver. Number four you can check from the basement, and it's the one that belongs to an electrician.
+
+Number four is aluminum wire on an outlet that was never made for it.
+
+From 1965 to the mid-1970s, during a copper shortage, many houses got aluminum branch wiring. Those dates come from the Consumer Product Safety Commission, CPSC for short.
+
+Was your house built in those years? Then this check is for you.
+
+You don't have to open anything. In an unfinished basement, attic or garage, look at your cable. Aluminum cable has the letters A L, or the word aluminum, printed on its jacket every few feet.
+
+Inside a box, aluminum wire is dull silver instead of copper.
+
+The trouble shows up at each connection, where the wire meets an outlet or a switch.
+
+You can buy outlets and switches stamped C O A L R, which means they're rated for aluminum. You'd hope that settles it. But CPSC calls them, at best, an incomplete repair.
+
+CPSC also lists the warning signs. Cover plates hot to the touch. Flickering lights. Circuits that stop working. A smell of burning plastic at an outlet or switch.
+
+And aluminum connections can also fail with no warning at all.
+
+If you find a cover plate that's hot or discolored, stop using that outlet now. Pull out whatever's plugged into it, and have a licensed electrician come out as soon as you can.
+
+If you smell that burning, or hear buzzing or crackling, or see sparks, unplug the thing or stop using it. If you can safely reach that circuit's breaker, switch it off. Then call a licensed electrician.
+
+And if the smell is coming from the panel, leave the panel alone.
+
+I know that's a lot of warning signs. But here's what I want you to hold onto. This is a known problem, and it has a known fix.
+
+The repair is the electrician's, at every connection in the house.
+
+CPSC recommends the Copalum crimp, done only by electricians trained and authorized for it. The AlumiConn connector is the next best.
+
+What never goes on aluminum is an ordinary outlet or switch, the push-in holes, a lever connector made for copper only, or an ordinary wire nut.
+
+Your part is reading the cable and knowing what to ask for.
+
+If your cable says aluminum, I'd book the electrician that same week. You'll walk into that conversation knowing exactly what the right repair is called.
+
+Back to the mistakes you can fix yourself. The next one is behind the outlets that keep quitting on you.
+
+Number five is backstabbed wires. That's a wire pushed into the small holes in the back of an outlet, instead of wrapped around a screw on the side.
+
+Is there a string of outlets in one of your rooms that quits now and then, then comes back on its own? That's the classic sign, and it's the first thing I'd suspect when a whole room acts up.
+
+A push-in hole holds the wire with a small spring. Every time your circuit carries a load, the outlet warms up and cools down, and over time that can loosen the spring's grip.
+
+A loose grip means heat and arcing, at the back of your outlet, where nobody ever sees it.
+
+Most folks figure the holes are there, so they must be fine for any job. But even the listing limits them.
+
+Push-in holes are only for fourteen-gauge solid copper on fifteen-amp circuits. Gauge is the wire's thickness, and amps are how much current flows. And never for aluminum.
+
+To fix that string, you prove each box dead the way number one showed you, before your hands go anywhere near it.
+
+Then cut each wire off at the back of the outlet. Strip a fresh end with your wire strippers, and move it to a side screw.
+
+Or put in an outlet with back-wire clamp terminals. Those have a hole too, but a screw tightens a plate down onto the wire. That's a different thing from the push-in holes.
+
+Once the breaker's on again, the tester's lights show correct, and every outlet in that string works again.
+
+I'd move every backstabbed wire in your house to the screws. It's slow the first time, but I think it's worth every minute.
+
+And that room stops switching itself off on you.
+
+If your fresh end comes up a little short, or you find two wires crammed under one screw, you're already at number six.
+
+Number six is two wires under one screw.
+
+It's usually somebody feeding the next outlet along without a connector. They hook a second wire under the same screw and tighten it down. I don't like that shortcut at all.
+
+It looks tidy to you. But two wires under one screw head never sit flat, and when one shifts, both can loosen.
+
+The rule is one wire per screw, unless your outlet is marked for two.
+
+CPSC puts the reason plainly: a loose connection can't carry much current without getting hot.
+
+The answer for that second wire is a pigtail.
+
+A pigtail is a short piece of new wire that joins the wires in the box to the outlet, so only one wire goes on each screw.
+
+You prove the power off first, the way you did at number one.
+
+Then you join the box's wires and the pigtail with a listed wire nut, the twist-on cap, or a lever connector, the kind with little levers that clamp each wire.
+
+Listed means a testing lab has checked it for that use. Read the rating printed on your connector, and make sure it's made for the wires you're joining.
+
+Use new copper wire for the pigtail, the same gauge as the wires already in your box. Then only the pigtail goes on the screw.
+
+Breaker on. The lights on your tester show correct, and every screw has just one wire under it.
+
+Doubling up saves a minute, but I'd spend that extra minute on a pigtail every single time. That's a connection you won't have to think about again.
+
+The last one is the smallest mistake on the list, but it's the one that separates a careful job from a quick one.
+
+Number seven is the wire hooked the wrong way, and the strip length that goes with it. It's the one I'd want every homeowner to get right.
+
+You'd think a loop is a loop. But the direction matters.
+
+Hook your wire counterclockwise, and tightening the screw pushes the loop out from under the head. You're left with a loose connection that heats up.
+
+Hook it clockwise, about three-quarters of the way around, and the screw pulls the loop in as it tightens.
+
+Then the strip length. On the back of your outlet, there's a strip gauge molded into the plastic. It's different from one outlet to the next, so go by the one in your hand.
+
+No insulation goes under the screw. The screw has to bite down on bare copper to hold it. And no extra bare copper sticks out past the screw head.
+
+Your outlet's instructions tell you how tight that screw should be.
+
+You'll be doing this in every fix on this list, and always with the power off and proved off first.
+
+With the outlet back in and the power on, your tester reads correct. Every loop is snug and clockwise, with copper under the screw and nothing past it.
+
+That's the connection a careful electrician makes. I like seeing that behind a cover plate, and now you know how to make it yourself.
+
+So here's one small thing to do tonight. Plug your tester into the outlets you use most, and see what they say.
+
+Subscribe to Frederick Barnes for the next careful, plain-spoken look at the outlets, switches and breakers in an older house like yours.
+
+Now it's your turn. What did your tester say at the outlet you use most? Leave it in the comments, and I read every one.
