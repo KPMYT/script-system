@@ -1,0 +1,49 @@
+TEST BRIEF (iter-16): written by the main session's helper as talking points from the published video's item list (o_4qckQjeYE, captions in studies/recent-uploads-2026-11-05/transcripts/vintage-o_4qckQjeYE.txt), with the facts its audit (studies/recent-uploads-2026-11-05/audits/vintage.md, section 7) flagged corrected and every price taken from the video only where plumbing-scripts/references/price-guide.md supports it; not from the operator's sheet
+TITLE: 8 Things You Should NEVER Pour Down Your Drains
+CHANNEL: The Vintage Pipefitter
+BRIEF (talking points):
+- The problem: things go down the kitchen sink most weeks that build a clog nobody sees: the bacon grease after Sunday breakfast, the coffee grounds rinsed from the pot, a splash of bleach to freshen it. A drain that ran fine on Sunday quits on a Thursday night because it's been filling for months.
+- Money: a kitchen grease clog cleared runs $150 to $400, more if it needs jetting (price guide). Almost every swap below costs next to nothing.
+- 1. Grease, fat and cooking oil:
+  - Hot fat pours thin as water, then sets the moment it hits a cooler stretch of pipe a few feet along; each pan adds a coat until the pipe narrows to the width of a pencil. City sewer crews dig out solid lumps of it ("fatbergs"). It smells sour; the drain slows, then backs up.
+  - A grease-packed line can need hydro jetting (a high-pressure hose that blasts the pipe walls clean): usually $350 to $800 (price guide).
+  - The swap: let the fat cool in the pan until it's white and hard, scrape it into an old can for the trash, wipe the pan with a paper towel before it sees the sink.
+- 2. The jug of chemical drain cleaner:
+  - It fizzes and steams like it's working. On old metal drain pipe it eats at the walls; on white plastic (PVC) it can soften the glued joints. It burns a narrow channel through the clog, the water runs for a while, and the rest of the clog waits for the next pan of grease. So people buy another jug.
+  - Credit the doubter: some have poured it for years and their pipes are fine. Maybe they are.
+  - When an old drain pipe finally gives out, a room or two of pipe replaced runs roughly $500 to $2,000 (price guide); say it in words if no figure fits.
+  - The swap: a 25-foot hand drain snake (the crank-handled snake), $25 to $35 (price guide): feed it down, crank, pull the clog out. For upkeep, an enzyme treatment once a month (about $25 a gallon, price guide) is gentle on the pipe.
+  - Safety: if a chemical cleaner is already in the drain, don't plunge it and don't snake it; it splashes back and burns. Never add a second cleaner on top. If a plumber comes, tell them what's in there.
+- 3. Coffee grounds:
+  - They look like wet dirt that should wash away, but they never dissolve: they sink, collect at every bend and pack down like wet sand, and the grease from number one glues them in place. A garbage disposal doesn't help; it sends them down faster.
+  - A plug like that dug out is a service call, "a few hundred dollars" in words (price guide: a sink clog $100 to $300).
+  - The swap: knock the grounds into the trash or the compost pile; rinse the pot after the grounds are out.
+- 4. Flour and starches:
+  - Flour and water is paste (what people once hung wallpaper with) and it does the same inside a pipe. Pasta and rice keep soaking up water down there and swell until a handful of rice fills a bend. Potato peels jam a garbage disposal (a disposal that hums and won't turn).
+  - A jammed disposal: unjamming runs $75 to $175 (price guide).
+  - The swap: scrape plates and bowls into the trash first; wipe a floury bowl with a paper towel before washing it; a mesh strainer in the kitchen drain (cheap: say it in words; no figure in the price guide).
+- 5. Paint and paint thinner:
+  - Rinsing latex brushes and roller trays in the laundry sink coats the pipe in a rubbery skin, a layer every time. Thinners and mineral spirits eat at rubber gaskets in pipes and fixtures, and on a septic tank they kill the bacteria the system runs on; a failed septic system is one of the biggest bills a house can hand you (no figure: the price guide has no septic row; say it in words).
+  - The swap: wash latex brushes in a bucket of water, let it sit overnight so the paint settles, let the sludge dry and throw it out. Thinners and solvents go to the local household hazardous waste drop-off.
+- 6. Boiling water:
+  - Everybody believes it's safe; it's only water. But the white plastic drain pipe under most sinks is rated to about 140 degrees F and boiling water is 212: the pipe softens, glued joints can loosen, and a joint that lets go inside a cabinet can drip for weeks before the floor swells.
+  - The swap: the hottest tap water. Most water heaters are set around 120 degrees (the price guide's recommended setting), under what the pipe can take.
+- 7. "Flushable" wipes:
+  - Toilet paper falls apart in water within seconds; wipes stay whole, snag on the first rough joint and catch the next one, until a gray matted cable sits in the main line (the big pipe that carries everything out of the house to the sewer or septic tank).
+  - Clearing it means snaking the main sewer line: $150 to $500, a stubborn one up to about $650 (price guide).
+  - The swap: toilet paper only; wipes go in a small lidded trash can by the toilet, whatever the package says.
+- 8. Bleach, and mixing cleaners:
+  - The drain smells off, so bleach goes down, then a splash of another cleaner "for good measure". Bleach with ammonia makes a toxic gas; bleach with an acid (vinegar, some toilet bowl cleaners) gives off chlorine gas; in a small closed bathroom it can knock you flat. Bleach down the drain also kills the bacteria a septic tank runs on.
+  - The rule: one cleaner at a time, never mixed; bleach is for scrubbing surfaces, not feeding the drain.
+  - What does belong down a drain: once a month, half a cup of washing soda (not baking soda; about $5 to $6 a box, price guide) dissolved in a pitcher of the hottest tap water, poured slowly. Dissolve it first; poured in dry, it cakes.
+- Stop signs and when to call: two or more drains backing up at once is the main line: stop running water and call; sewage coming up; a jug of chemical cleaner in a drain that won't clear.
+- The payoff: the habits cost a tin can, a bucket, a strainer and a trash can. One small thing tonight: pour the bacon fat into a can instead of the sink.
+- Boundaries (corrected from the audit):
+  - The opening names no single item: no "number five is the one that...", "number six is boiling water" or "number eight is the rule I promised". At most one promise, paid at the end.
+  - No total that the video's own figures don't reach (the published video said "more than $13,000"; its stated low ends came to $12,450). Better: no total, or only figures already said.
+  - No "close to 200 degrees inside your pipe" (unchecked), no "$2,000 to $5,000" pipe replacement and no "$10,000" septic figure (neither in the price guide).
+  - Don't say boiling water cracks a sink's porcelain (that's mainly a toilet-bowl risk; the plastic pipe is the reason).
+  - Washing soda goes in a pitcher or bucket of hot tap water, never "a kettle" (right after the boiling-water item, a kettle cues boiling it).
+  - A garbage disposal has no blades: say the peels jam the disposal.
+  - Don't claim a law about pouring solvents; say where they go instead.
+  - Tenure: 45 years, said once at most. No customer stories. No book, no mid-video ask; the one-line subscribe ask at the end.

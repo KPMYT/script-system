@@ -1,0 +1,43 @@
+TEST BRIEF (iter-16): written by the main session's helper as talking points from the published video's item list (eT-n10P6RsU, captions in studies/recent-uploads-2026-11-05/transcripts/mark-eT-n10P6RsU.txt), with the facts its audit (studies/recent-uploads-2026-11-05/audits/mark.md, section 1) flagged corrected and every price taken from the video only where plumbing-scripts/references/price-guide.md supports it; not from the operator's sheet
+TITLE: These 3 Powders Will Save You HOURS of Scrubbing Toilets, Tubs and Sinks
+CHANNEL: Mark Silverbridge
+BRIEF (talking points):
+- The problem: the ring in the toilet keeps coming back after every scrub; crust on the faucet base and the showerhead; a gray line round the tub; stains in the sink and black grout behind the faucet. The spray bottles and the brush don't hold. Three grocery-store powders each do one job the other two can't: citric acid, baking soda and borax.
+- Money: about $20 for all three powders (price guide: citric acid about $10 to $15 a pound, baking soda a dollar or two a pound, borax about $6 to $7 for 65 ounces). No figure for the hours saved: say the time comes back in words.
+- 1. Citric acid and the toilet ring:
+  - Bleach whitens the stain but doesn't dissolve what it sits on. The ring is calcium scale: hard water leaves minerals at the water line every time it dries back, and they build a rough shelf of rock on the porcelain. A brush won't scrub rock off.
+  - Check: run a fingernail across the ring; if it catches like dried glue, it's scale.
+  - Left alone: the rough shelf holds bacteria (the brown and pink under the rim), then scale plugs the rim jets (the small holes under the rim where the flush water comes out) and the flush goes weak. A weak flush is when many people decide the toilet is done. A new toilet installed runs $300 to $800 (price guide); the bowl may only have needed a soak.
+  - The fix: turn the supply valve (the small valve on the wall behind the toilet) clockwise until it stops, flush so the bowl level drops below the ring, pour half a cup of citric acid onto the ring, leave it overnight. It may fizz for a minute (the acid meeting the scale). In the morning, one pass with the brush, open the valve, flush twice. Done looks like porcelain a fingernail slides over.
+  - Get the water out first: a full bowl dilutes the powder before it reaches the scale.
+  - The ring comes back because the water hasn't changed: catch it as a faint line with the same half cup for one night.
+  - Safety: acid and bleach never meet in the same bowl (together they make chlorine gas). If a bleach cleaner went in this week, flush it through a few times before the powder goes in.
+  - A thick shelf still there in the morning: a pumice stone (about $10, price guide), only wet, wet porcelain, light pressure; dry pumice scratches the glaze.
+  - No cleaning tablets in the tank: they sit on the rubber parts for weeks and the flapper (the rubber seal at the bottom of the tank) goes soft, and a running toilet is the next bill (a flapper is $4 to $10 as a part, $75 to $150 fitted, price guide).
+- 2. Citric acid on the faucets and the showerhead:
+  - The white crust at the base of the faucet and the plugged nozzles on the showerhead are the same scale. A showerhead dries out after every shower; the nozzles plug one at a time.
+  - Most people buy a new head (price guide: $15 to $40 for the part); the same water starts on the new one the day it goes on. A crusted faucet base gets a whole new faucet sold for it (price guide: about $250 to $400 installed; or say "a few hundred" in words).
+  - The mix: 2 tablespoons of citric acid per cup of hot tap water, stirred until it clears.
+  - Faucet base: soak a cloth in it, wrap it round the base, leave an hour. Same for the kitchen faucet and the tub spout.
+  - Showerhead: the mix in a plastic bag pulled up over the head so the nozzles sit in it, tied round the arm, 1 to 2 hours; or, if the head unscrews by hand, soak the whole head in a bowl of the mix for the same time. Rinse with hot water for a minute; an old toothbrush for what's left.
+  - Done: every nozzle throws a straight line; the faucet base is chrome again.
+  - Safety: keep citric acid off marble, granite or any natural stone (acid etches stone, and the etch doesn't come back). Rinse the chrome when done.
+- 3. Baking soda and the tub line:
+  - The gray line round the tub at the water line feels waxy, not gritty: it's soap scum, the soap in the water bonded with the hard-water minerals into a film that catches skin and hair.
+  - The usual mistake: a green scouring pad or gritty cleanser and a Saturday on the knees. Harder is the mistake: they scratch the finish, and every scratch holds the next line. A scratched tub is a tub you live with or pay to have refinished (no figure; say it in words).
+  - The fix: baking soda in a bowl with a squirt of dish soap, stirred to a paste as thick as toothpaste. Spread it along the line, leave 15 minutes, wipe with a damp cloth. The soap loosens the grease in the scum; the baking soda is a grit soft enough not to mark the tub. A line of years may need a second round: more time, never more force. A whole dull tub: the same paste one section at a time.
+  - In hard water the line comes back in a few weeks; 15 minutes of paste again.
+- 4. Borax in the sink and on the grout:
+  - The brown stain round the drain, the tea and coffee marks, the dull film the morning after cleaning; the grout behind the faucet gone gray and black in the corners (mildew sitting in the pores, where a sponge can't reach). Bleach whitens the top of the grout; the black comes back.
+  - Plenty of people tear out a backsplash over black grout: a tile job with a tile bill (no figure; say it in words).
+  - The fix: stopper in, fill the sink with hot tap water, half a cup of borax, stir with a gloved hand, leave until the water goes cold, drain and wipe; the stains lift with the wipe. While it soaks, run a cloth dipped in the same water along the grout, let it sit a while, wipe, rinse.
+  - Safety: borax stays away from children and pets and is never swallowed; the box on a high shelf, the sink rinsed after. Borax and boric acid are two different boxes: boric acid is the roach powder; borax is the laundry booster in the laundry aisle.
+- The payoff: a toilet and a showerhead kept off the shopping list for about $20 of powder, and the weekly scrubbing down to a few minutes of wiping. A closing tally may add only figures already said in the video. One small thing tonight: run a fingernail across the toilet ring.
+- Book match (50 Easy Plumbing Fixes That Will Save You $10,000; cite printed pages only):
+  - Fix 13 "The Weak Flush", page 36 (chapter 3, "Toilet Troubles", pages 32-39): a weak flush is usually clogged rim jets from calcium and hard-water minerals. Careful: the book's fix uses white vinegar and a wire, not citric acid. Say the book covers the weak flush and the rim jets; don't put this video's powders in the book's mouth.
+  - Fix 7 "Cure Low Water Pressure at One Sink", page 28 (chapter 2, "Faucets and Fixtures"): mineral deposits in the faucet aerator (the book soaks it in vinegar).
+- Boundaries (corrected from the audit):
+  - Don't say acid "barely touches" soap scum or that soap scum is "wax": the audit read that as likely wrong. Say the baking-soda paste lifts it without scratching the tub.
+  - No "85 percent of homes have hard water" (not in the brief's sources) and no "20 hours a year" (it traced to nothing).
+  - Prices only as above (the video's $250 to $800 toilet and $20 to $60 showerhead are replaced by the price guide's figures).
+  - Tenure: 40 years, said once at most. No customer stories. No contractions.
