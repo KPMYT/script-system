@@ -370,6 +370,9 @@ def main():
     if title_words:
         counts = [w + " " + str(len(re.findall(r"\b" + w + r"\b", spoken, re.I))) for w in title_words]
         infos.append("INFO the title's words said: " + ", ".join(counts))
+    for cap in re.findall(r"\b[A-Z]{3,}\b", a.title):
+        if cap.lower() not in {"the", "and", "for", "you", "not"} and not re.search(r"\b" + cap + r"\b", spoken, re.I):
+            fail("title word", f"the title's capitalised word '{cap}' is never said; say it once where it's true")
     endear = r"\bladies\b" if a.channel == "scarlett" else r"\bmy dear friends\b"
     k1, k2 = len(re.findall(endear, spoken, re.I)), len(re.findall(r"when I was designing", spoken, re.I))
     infos.append(f"INFO endearment {k1}, 'when I was designing' {k2}: no number to reach")

@@ -56,7 +56,7 @@ Every title carries one thing she wants and one thing she fears, even unsaid. Na
 - **Like one woman talking, start to finish.** Each part leads into the next. If a sentence exists only to tick a box, cut it.
 - **Copy the model's flow** (how she opens, moves point to point, sounds like a person), never her words, facts, stories or signature phrases (the model file lists them).
 - **Point first,** then the why. Between items, a one-line bridge can play on the feeling and hand on.
-- **Come back to the title's feeling** now and then and once in the second half, never as a refrain. Ask her a question now and then.
+- **Come back to the title's feeling** now and then and once in the second half, never as a refrain. Say the title's sharpest word ("instantly", "expensive", any word the title puts in capitals) at least once where it's true, never as a refrain. Ask her a question now and then.
 - **Her sentences:** longer storytelling sentences with a short verdict; "but" where the thought turns. Explain a style word only when she needs it.
 - **Lists of three at most,** anywhere in the script. Never read out a string of four or more features, pieces or steps: pick the three that matter, or split them into sentences.
 - **Each item takes its own shape.** Don't end each on the same kind of line; never announce a check ("your check is").

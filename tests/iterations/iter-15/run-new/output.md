@@ -1,0 +1,160 @@
+SCRIPT TYPE: Talking Head
+
+The flat shade you've colored for years is adding years to your face today, and seven French colors will make you look instantly younger the day you leave the salon. The wrong color adds years in one afternoon, which is why you keep putting the appointment off. Plenty of Parisian women past sixty wouldn't sit under one flat shade for a season. They're your age, and their hair started out no better than yours. They simply know what each shade does next to a face. Color is faster than any haircut, and one appointment with your own colorist puts the change in your mirror that same evening. When a woman looks older under her color, the fault sits in the shade and the missing shine, never in her. You know that afternoon, catching yourself in a shop window and wondering who that tired woman was. So let's start with brown, the color many women get wrong the week the gray shows.
+
+Number one is a soft brown, one or two levels lighter than the brown you had at forty, not darker. A level is simply one step on the colorist's scale, from black at one end to the palest blonde at the other. Many women go darker the week the gray appears, because dark feels like cover. I understand that completely. This is the color for the woman whose own brown is still there underneath, and who isn't ready to let the gray take over. I used to think a deep chocolate was the elegant choice once the gray came, and I changed my mind.
+
+Here's why. A flat, solid black from a box puts a hard dark frame around the face, and it kills the shine, so the hair looks like a helmet rather than hair. Then the face takes the blame for what the color did. A softer brown lets light sit on the hair and bounce back, and the whole face looks rested.
+
+In the chair, ask for the same brown family, two levels lighter than you'd pick yourself. That last part matters, because left to ourselves, we reach for the darker swatch. In France, you'll often see women in their sixties and seventies in exactly this kind of soft brown, close to where they started, and worn without any fuss.
+
+If you color at home, do the patch test on the box every time, even with a shade you've used for years. And if your scalp itches or burns, stop and see a doctor.
+
+Then take a photo in daylight, at the window, with your hair down, and look at your eyebrows. If the hair is far darker than your brows, it's too dark. When the brown sits close to your brows, your eyes come forward, and people notice your eyes first.
+
+Number two is warmth right at the face. I mean a few fine strands, a shade or two lighter than the rest and warm in tone, placed only at the hairline and along the cheek. Not all-over highlights and not a full head of foils, just those few pieces by the face. It suits a brown, a blonde or a silver, because it's about where the light sits, not which color you wear.
+
+Face-framing means the strands that fall beside your face when your hair is down. Light hair there works like a small lamp. It bounces brightness back toward you, so the face looks lit from the side, the way a good photographer would light it.
+
+This is the color for the woman who feels her hair has gone a little dull, but who isn't ready for a big change. And here's the kind part. It's a shorter appointment than a full color, and usually a gentler one on the wallet too, because the colorist is only working around the face. Ask for a few fine, warm face-framing pieces, a shade or two lighter, at the hairline and the cheek only.
+
+How do you tell if it's working? Pull your hair back, then let it fall again. If your face looks brighter with the hair down, those strands are doing their job. And the compliment you'll hear won't be about your hair at all. Someone will tell you that you look well rested.
+
+Number three is silver, glossy and worn on purpose. Letting the gray in can feel like giving up, I know. But there's a difference between gray that simply happened and silver that you chose. This one is for the woman whose gray has come in evenly, or who is simply tired of chasing her roots. The way I was raised in Paris, gray was a color you decided on, the same way you'd decide on a good coat.
+
+And what makes it a decision is shine. Without shine, silver drifts toward yellow at the ends, and that yellow is what makes gray look as if it simply happened. So two habits keep it bright. The first is a violet shampoo once a week, because violet sits opposite yellow on the color wheel and cancels it out. Only once a week, though, not every wash, or the silver turns faintly lilac. The second is a clear gloss at the salon about once a month. A gloss is a see-through coat of shine, with no color in it at all, just light.
+
+One warning lives inside this color. A flat, all-over ash or gray rinse drains the face. Ash is a cool, almost greenish gray with no warmth in it, and beside the face it takes all the warmth away. If that's happened to you, your silver isn't the problem. A clear or slightly warm gloss brings the color straight back.
+
+You'll know it's right when you turn your head and a band of light runs across the silver. That band of light is what people see first, and it tells them this was your choice. Silver like that looks polished, and it looks like you meant it.
+
+===START CTA(The French Way)===
+If your hair is turning silver, there's a Secret in my book, The French Way, that belongs right here. It's called Recalibrate Your Palette When Your Hair Turns Silver, in the chapter on the Color Compass, the five to seven colors you find once from your undertone. Each of the one hundred and one Secrets tells you how to do it and when to skip it. It's at the link in the description and the QR code on screen. Now, back to the woman in the middle.
+===END CTA===
+
+Number four is salt and pepper, blended with soft lowlights, and it's for the woman in the middle. You may be her right now. Half of your hair has gone silver and half hasn't, and there's a line at your part that grows a little wider every week. This is the bridge, and it lets you decide later whether to go all the way to silver.
+
+That hard edge is the trouble, not the gray itself. It tells everyone exactly how long it's been since your last appointment, like a tide mark on the sand.
+
+Lowlights are fine pieces taken darker, in a soft brown or a soft taupe, which is a gray-brown, woven through the white. Because they blend the dark and the light together, there's no line left to grow out. You can go about three months between appointments this way, and that's a relief all by itself.
+
+Ask for soft lowlights with no demarcation line. That's the colorist's word for the hard edge, and using it tells your colorist exactly what you want.
+
+And if you love one solid shade and don't want to give it up, keep it. You don't have to choose. Ask to have the roots softened with a few lowlights, so the regrowth melts in instead of drawing a stripe across your head. Three months later, you'll look in the mirror and see no line at all, only hair that looks as if it grew that way.
+
+Number five is for the lifelong blonde, and it's champagne, or a soft beige blonde. The words to remember are not brassy and not ashy. Brassy is the orange that creeps in a few weeks after the salon. Ashy is the opposite mistake, a gray-green that sits flat and lifeless. If you've been blonde most of your life, going dark now would feel like someone else's head. So stay blonde, and soften it.
+
+Here's why it matters so much near the face. A hint of warmth in a blonde puts light on the skin. Orange puts heat there instead, and the whole face looks flushed. Champagne sits right between the two, warm enough to glow and soft enough to stay calm.
+
+If brass is your trouble, the fix is blue, because blue sits opposite orange on the wheel. That means a blue toner at the salon, and a blue shampoo at home. And if the brass comes back within weeks every single time, the water in your house may be part of it. Mineral-heavy water can do that, and a filter on the shower head may help.
+
+There's one trap in this color, and lifelong blondes fall into it with the best intentions. Don't chase it lighter and lighter. A cold platinum drains the face just like the ash rinse we talked about, and the brightness you were chasing disappears.
+
+So hold a white towel up beside your hair in daylight. If the blonde next to the white looks orange, it's toner time. If it looks like soft champagne, leave it alone, because you've got it right, and it looks expensive.
+
+Number six is warm caramel lowlights, and it's for the brunette going gray who still wants to be a brunette. Caramel is a warm golden brown, the color of the inside of a toffee. Fine pieces of it go through the mid-lengths and the ends, and the roots are left soft.
+
+Why warm? A warm tone gives back some of the warmth that's gone from near the face, and a cool brown takes even more away. So many women reach for a cool brown because it looks sophisticated on the color card, and then wonder why the result looks so flat.
+
+Plenty of French brunettes in their sixties go this way rather than black. They stay brunettes, and they let the gray soften into the caramel instead of fighting it at every appointment.
+
+Keep it to two tones, the caramel and your own brown. A third tone starts to look stripy, and stripes are what make color look done to you instead of grown by you. Ask for fine caramel lowlights through the mid-lengths and ends, with the roots left soft, and two tones only.
+
+Then take a photo in daylight from the side, not the front. The side is where you see how the color moves. If the caramel and the brown run together like one warm brown in the light, you have it. You'll still look like yourself, only brighter, and nobody will be able to say what you changed.
+
+Number seven is a choice you make inside whichever shade you've picked, and it's two or three tones, never one. That means a base, with either a lighter piece or a lowlight woven through it. If you went with the soft brown, the lighter piece might be a touch of warm brown at the face. If you went silver, it might be a soft lowlight underneath.
+
+Think of a child's hair in summer. It's lighter on top where the sun hits and deeper underneath, with every shade in between. Hair that grew on its own always carries more than one shade. One flat tone all over looks applied rather than grown, and anyone can see it at a glance. Two or three tones read as your own.
+
+Shine matters as much as shade. A gloss about once a month keeps every tone catching the light. And if frizz is dulling it, ask the salon about a smoothing treatment, and ask for a formaldehyde-free one. That's a fair question to put to any salon, and a good one will answer it gladly.
+
+Do you see how all seven colors come back to the same thing? This is how color takes years off, not by hiding the gray or covering anything up. It stays close to your own shade, it's glossy, and it's worn on purpose.
+
+Tonight, stand under the bathroom lamp and turn your head slowly. Good color moves, and flat color just sits there. If yours sits, you know what to ask for at your next appointment, and the woman in the mirror will look like someone who decided.
+
+===START CTA(The French Way)===
+My book, The French Way, has a chapter called Hair, Skin, and the Details No One Talks About But Everyone Notices. In it there's a Secret on choosing a hair color that lights your eyes, and it's at the link in the description.
+And tell me in the comments, what color did your mother wear her hair at sixty, and did you swear you never would?
+===END CTA===
+With love from Paris, my dear friends.
+
+CHECK: RESULT: PASS | words 2192 | about 13 minutes
+
+VO COPY — ELEVENLABS V4
+The flat shade you've colored for years is adding years to your face today, and seven French colors will make you look instantly younger the day you leave the salon. The wrong color adds years in one afternoon, which is why you keep putting the appointment off. Plenty of Parisian women past sixty wouldn't sit under one flat shade for a season. They're your age, and their hair started out no better than yours. They simply know what each shade does next to a face. Color is faster than any haircut, and one appointment with your own colorist puts the change in your mirror that same evening. When a woman looks older under her color, the fault sits in the shade and the missing shine, never in her. [quietly] You know that afternoon, catching yourself in a shop window and wondering who that tired woman was. So let's start with brown, the color many women get wrong the week the gray shows.
+
+Number one is a soft brown, one or two levels lighter than the brown you had at forty, not darker. A level is simply one step on the colorist's scale, from black at one end to the palest blonde at the other. Many women go darker the week the gray appears, because dark feels like cover. I understand that completely. This is the color for the woman whose own brown is still there underneath, and who isn't ready to let the gray take over. [thoughtful] I used to think a deep chocolate was the elegant choice once the gray came, and I changed my mind.
+
+Here's why. A flat, solid black from a box puts a hard dark frame around the face, and it kills the shine, so the hair looks like a helmet rather than hair. [matter-of-fact] Then the face takes the blame for what the color did. A softer brown lets light sit on the hair and bounce back, and the whole face looks rested.
+
+In the chair, ask for the same brown family, two levels lighter than you'd pick yourself. That last part matters, because left to ourselves, we reach for the darker swatch. In France, you'll often see women in their sixties and seventies in exactly this kind of soft brown, close to where they started, and worn without any fuss.
+
+[matter-of-fact] If you color at home, do the patch test on the box every time, even with a shade you've used for years. And if your scalp itches or burns, stop and see a doctor.
+
+Then take a photo in daylight, at the window, with your hair down, and look at your eyebrows. If the hair is far darker than your brows, it's too dark. [warm] When the brown sits close to your brows, your eyes come forward, and people notice your eyes first.
+
+Number two is warmth right at the face. I mean a few fine strands, a shade or two lighter than the rest and warm in tone, placed only at the hairline and along the cheek. Not all-over highlights and not a full head of foils, just those few pieces by the face. It suits a brown, a blonde or a silver, because it's about where the light sits, not which color you wear.
+
+Face-framing means the strands that fall beside your face when your hair is down. Light hair there works like a small lamp. It bounces brightness back toward you, so the face looks lit from the side, the way a good photographer would light it.
+
+This is the color for the woman who feels her hair has gone a little dull, but who isn't ready for a big change. [slightly amused] And here's the kind part. It's a shorter appointment than a full color, and usually a gentler one on the wallet too, because the colorist is only working around the face. Ask for a few fine, warm face-framing pieces, a shade or two lighter, at the hairline and the cheek only.
+
+How do you tell if it's working? Pull your hair back, then let it fall again. If your face looks brighter with the hair down, those strands are doing their job. And the compliment you'll hear won't be about your hair at all. [warm] Someone will tell you that you look well rested.
+
+Number three is silver, glossy and worn on purpose. [quietly] Letting the gray in can feel like giving up, I know. But there's a difference between gray that simply happened and silver that you chose. This one is for the woman whose gray has come in evenly, or who is simply tired of chasing her roots. [thoughtful] The way I was raised in Paris, gray was a color you decided on, the same way you'd decide on a good coat.
+
+And what makes it a decision is shine. Without shine, silver drifts toward yellow at the ends, and that yellow is what makes gray look as if it simply happened. So two habits keep it bright. The first is a violet shampoo once a week, because violet sits opposite yellow on the color wheel and cancels it out. [emphatic] Only once a week, though, not every wash, or the silver turns faintly lilac. The second is a clear gloss at the salon about once a month. A gloss is a see-through coat of shine, with no color in it at all, just light.
+
+One warning lives inside this color. A flat, all-over ash or gray rinse drains the face. Ash is a cool, almost greenish gray with no warmth in it, and beside the face it takes all the warmth away. If that's happened to you, your silver isn't the problem. A clear or slightly warm gloss brings the color straight back.
+
+You'll know it's right when you turn your head and a band of light runs across the silver. That band of light is what people see first, and it tells them this was your choice. [short pause] Silver like that looks polished, and it looks like you meant it.
+
+===START CTA(The French Way)===
+If your hair is turning silver, there's a Secret in my book, The French Way, that belongs right here. It's called Recalibrate Your Palette When Your Hair Turns Silver, in the chapter on the Color Compass, the five to seven colors you find once from your undertone. Each of the one hundred and one Secrets tells you how to do it and when to skip it. It's at the link in the description and the QR code on screen. Now, back to the woman in the middle.
+===END CTA===
+
+Number four is salt and pepper, blended with soft lowlights, and it's for the woman in the middle. [warm] You may be her right now. Half of your hair has gone silver and half hasn't, and there's a line at your part that grows a little wider every week. This is the bridge, and it lets you decide later whether to go all the way to silver.
+
+That hard edge is the trouble, not the gray itself. It tells everyone exactly how long it's been since your last appointment, like a tide mark on the sand.
+
+Lowlights are fine pieces taken darker, in a soft brown or a soft taupe, which is a gray-brown, woven through the white. Because they blend the dark and the light together, there's no line left to grow out. You can go about three months between appointments this way, and that's a relief all by itself.
+
+Ask for soft lowlights with no demarcation line. That's the colorist's word for the hard edge, and using it tells your colorist exactly what you want.
+
+[thoughtful] And if you love one solid shade and don't want to give it up, keep it. You don't have to choose. Ask to have the roots softened with a few lowlights, so the regrowth melts in instead of drawing a stripe across your head. Three months later, you'll look in the mirror and see no line at all, only hair that looks as if it grew that way.
+
+Number five is for the lifelong blonde, and it's champagne, or a soft beige blonde. The words to remember are not brassy and not ashy. Brassy is the orange that creeps in a few weeks after the salon. Ashy is the opposite mistake, a gray-green that sits flat and lifeless. If you've been blonde most of your life, going dark now would feel like someone else's head. [slightly amused] So stay blonde, and soften it.
+
+Here's why it matters so much near the face. A hint of warmth in a blonde puts light on the skin. Orange puts heat there instead, and the whole face looks flushed. Champagne sits right between the two, warm enough to glow and soft enough to stay calm.
+
+If brass is your trouble, the fix is blue, because blue sits opposite orange on the wheel. That means a blue toner at the salon, and a blue shampoo at home. And if the brass comes back within weeks every single time, the water in your house may be part of it. Mineral-heavy water can do that, and a filter on the shower head may help.
+
+There's one trap in this color, and lifelong blondes fall into it with the best intentions. [emphatic] Don't chase it lighter and lighter. A cold platinum drains the face just like the ash rinse we talked about, and the brightness you were chasing disappears.
+
+So hold a white towel up beside your hair in daylight. If the blonde next to the white looks orange, it's toner time. [warm] If it looks like soft champagne, leave it alone, because you've got it right, and it looks expensive.
+
+Number six is warm caramel lowlights, and it's for the brunette going gray who still wants to be a brunette. Caramel is a warm golden brown, the color of the inside of a toffee. Fine pieces of it go through the mid-lengths and the ends, and the roots are left soft.
+
+[thoughtful] Why warm? A warm tone gives back some of the warmth that's gone from near the face, and a cool brown takes even more away. So many women reach for a cool brown because it looks sophisticated on the color card, and then wonder why the result looks so flat.
+
+Plenty of French brunettes in their sixties go this way rather than black. They stay brunettes, and they let the gray soften into the caramel instead of fighting it at every appointment.
+
+Keep it to two tones, the caramel and your own brown. A third tone starts to look stripy, and stripes are what make color look done to you instead of grown by you. Ask for fine caramel lowlights through the mid-lengths and ends, with the roots left soft, and two tones only.
+
+Then take a photo in daylight from the side, not the front. The side is where you see how the color moves. If the caramel and the brown run together like one warm brown in the light, you have it. [warm] You'll still look like yourself, only brighter, and nobody will be able to say what you changed.
+
+Number seven is a choice you make inside whichever shade you've picked, and it's two or three tones, never one. That means a base, with either a lighter piece or a lowlight woven through it. If you went with the soft brown, the lighter piece might be a touch of warm brown at the face. If you went silver, it might be a soft lowlight underneath.
+
+[thoughtful] Think of a child's hair in summer. It's lighter on top where the sun hits and deeper underneath, with every shade in between. Hair that grew on its own always carries more than one shade. One flat tone all over looks applied rather than grown, and anyone can see it at a glance. Two or three tones read as your own.
+
+Shine matters as much as shade. A gloss about once a month keeps every tone catching the light. And if frizz is dulling it, ask the salon about a smoothing treatment, and ask for a formaldehyde-free one. That's a fair question to put to any salon, and a good one will answer it gladly.
+
+[slower] Do you see how all seven colors come back to the same thing? This is how color takes years off, not by hiding the gray or covering anything up. It stays close to your own shade, it's glossy, and it's worn on purpose.
+
+Tonight, stand under the bathroom lamp and turn your head slowly. [emphatic] Good color moves, and flat color just sits there. If yours sits, you know what to ask for at your next appointment, and the woman in the mirror will look like someone who decided.
+
+===START CTA(The French Way)===
+[warm] My book, The French Way, has a chapter called Hair, Skin, and the Details No One Talks About But Everyone Notices. In it there's a Secret on choosing a hair color that lights your eyes, and it's at the link in the description.
+And tell me in the comments, what color did your mother wear her hair at sixty, and did you swear you never would?
+===END CTA===
+[short pause] With love from Paris, my dear friends.
