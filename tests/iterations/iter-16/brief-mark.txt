@@ -39,5 +39,5 @@ BRIEF (talking points):
 - Boundaries (corrected from the audit):
   - Don't say acid "barely touches" soap scum or that soap scum is "wax": the audit read that as likely wrong. Say the baking-soda paste lifts it without scratching the tub.
   - No "85 percent of homes have hard water" (not in the brief's sources) and no "20 hours a year" (it traced to nothing).
-  - Prices only as above (the video's $250 to $800 toilet and $20 to $60 showerhead are replaced by the price guide's figures).
+  - Prices only as above (the published video's figures for a new toilet and a showerhead were outside the price guide; the guide's figures replace them).
   - Tenure: 40 years, said once at most. No customer stories. No contractions.

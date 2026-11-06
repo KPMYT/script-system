@@ -27,7 +27,7 @@ BRIEF (talking points):
   - The swap: wash latex brushes in a bucket of water, let it sit overnight so the paint settles, let the sludge dry and throw it out. Thinners and solvents go to the local household hazardous waste drop-off.
 - 6. Boiling water:
   - Everybody believes it's safe; it's only water. But the white plastic drain pipe under most sinks is rated to about 140 degrees F and boiling water is 212: the pipe softens, glued joints can loosen, and a joint that lets go inside a cabinet can drip for weeks before the floor swells.
-  - The swap: the hottest tap water. Most water heaters are set around 120 degrees (the price guide's recommended setting), under what the pipe can take.
+  - The swap: the hottest tap water. A water heater at the recommended 120 degrees (the Consumer Product Safety Commission's figure, price guide section 9) sends water under what the pipe can take.
 - 7. "Flushable" wipes:
   - Toilet paper falls apart in water within seconds; wipes stay whole, snag on the first rough joint and catch the next one, until a gray matted cable sits in the main line (the big pipe that carries everything out of the house to the sewer or septic tank).
   - Clearing it means snaking the main sewer line: $150 to $500, a stubborn one up to about $650 (price guide).
@@ -40,8 +40,8 @@ BRIEF (talking points):
 - The payoff: the habits cost a tin can, a bucket, a strainer and a trash can. One small thing tonight: pour the bacon fat into a can instead of the sink.
 - Boundaries (corrected from the audit):
   - The opening names no single item: no "number five is the one that...", "number six is boiling water" or "number eight is the rule I promised". At most one promise, paid at the end.
-  - No total that the video's own figures don't reach (the published video said "more than $13,000"; its stated low ends came to $12,450). Better: no total, or only figures already said.
-  - No "close to 200 degrees inside your pipe" (unchecked), no "$2,000 to $5,000" pipe replacement and no "$10,000" septic figure (neither in the price guide).
+  - No total that the video's own figures don't reach (the published video's closing total was more than its stated low ends added up to, per the audit). Better: no total, or only figures already said.
+  - No "close to 200 degrees inside your pipe" (unchecked), and none of the published video's figures for a pipe replacement or a failed septic system (neither is in the price guide).
   - Don't say boiling water cracks a sink's porcelain (that's mainly a toilet-bowl risk; the plastic pipe is the reason).
   - Washing soda goes in a pitcher or bucket of hot tap water, never "a kettle" (right after the boiling-water item, a kettle cues boiling it).
   - A garbage disposal has no blades: say the peels jam the disposal.

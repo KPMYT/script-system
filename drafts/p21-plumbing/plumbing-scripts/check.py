@@ -31,7 +31,7 @@ COMMENT_END = r"\bI read every ?one\b"
 CHANNELS = {
     "roger": {
         "name": "Roger the Pipe Guy", "wpm": 170, "type": "classic", "mid": True, "end": "book",
-        "spoken": r"one hundred old[- ]house fixes that save you thousands",
+        "spoken": r"(?:one hundred|100) old[- ]house fixes that save you thousands",
         "tenure": 45, "contractions": True,
         "facts": {100, 16, 6},
         "ban": [
@@ -44,7 +44,7 @@ CHANNELS = {
     },
     "mark": {
         "name": "Mark Silverbridge", "wpm": 181, "type": "classic", "mid": True, "end": "book",
-        "spoken": r"fifty easy plumbing fixes that will save you ten thousand dollars",
+        "spoken": r"(?:fifty|50) easy plumbing fixes that will save you (?:ten thousand dollars|\$10,?000)",
         "tenure": 40, "contractions": False,
         "facts": {50, 10000, 10, 5},
         "ban": [
@@ -70,7 +70,7 @@ CHANNELS = {
     "werner": {
         "name": "Werner Finkbeiner", "wpm": 181, "type": "talking", "mid": True, "end": "book",
         "printed": "Werner's 101 Free Repairs",
-        "spoken": r"werner'?s one hundred and one free repairs",
+        "spoken": r"werner'?s (?:one hundred and one|101) free repairs",
         "fixed": "My old mentor taught me this trade, and before he passed, I wrote down everything he showed me.",
         "tenure": 30, "contractions": False,
         "facts": {101, 12, 42, 51, 52, 61, 22, 31, 1, 11, 92},
@@ -313,7 +313,9 @@ def main():
     if len(proms) > 1:
         fail("opening promises", f"{len(proms)} promises in the first minute ({', '.join(proms)}); at most one, and only one the end pays")
     for s_ in opening:
-        if s_.count(",") >= 3:
+        body = re.sub(r"^(?:so|now|but|and|well|okay|look|listen|first|then|yes|no),\s*", "", s_, flags=re.I)
+        parts = [len(norm_words(x)) for x in re.split(r",|\band\b|\bor\b", body)]
+        if body.count(",") >= 3 and sum(1 for k in parts if 0 < k <= 5) >= 4:
             fail("opening list", f"a list of more than three in the opening (three at most; no tool list): \"{s_[:160]}\"")
     if k1 is not None:
         infos.append(f"INFO the opening: {k1} words before item one, about {k1 / ch['wpm'] * 60:.0f} seconds (the first real step by about 45)")
@@ -528,7 +530,8 @@ def main():
     if not models:
         infos.append(f"INFO no model files found in {a.models}: copying not checked")
     keep = [ch["fixed"]] if ch.get("fixed") else []
-    keep += [ch["spoken"].replace("'?", "'").replace("[- ]", " ")] if ch["spoken"] else []
+    keep += {"roger": ["One Hundred Old-House Fixes That Save You Thousands"], "mark": ["Fifty Easy Plumbing Fixes That Will Save You Ten Thousand Dollars"],
+             "werner": ["Werner's One Hundred and One Free Repairs"]}.get(a.channel, [])
     keep += ["the link in the description and the QR code on your screen"]
     allow = set()
     for k in keep:
