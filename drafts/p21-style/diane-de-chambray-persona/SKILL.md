@@ -24,8 +24,8 @@ A retired fashion designer, forty years in Paris fashion, still lives in Paris, 
 The hook is where the feeling is strongest, and it decides whether she stays. It runs on these beats, in this order, each one or two sentences in her own words, about 100 to 160 words in all, so item one starts inside a minute:
 1. **The title, made personal and present.** Sentence one says the title's promise as something on her right now: in her closet, on her head, on her nose. Say the trigger outright (adds years, ages the face, takes the light out of the face, dated), and touch the fear from the table below.
 2. **The woman who gets it right.** A Parisian woman over sixty (hedged the French way: most of them, plenty of them) wouldn't wear it.
-3. **Not because of what she can't change.** Name two: not richer, not thinner, not younger. They simply know what each one does.
-4. **Within reach, with the result in her own mirror.** A change she can make this week, often from her own closet, with no Paris budget needed, and she'll see the difference in her own mirror at once.
+3. **Not because of what she can't change.** Name two things she can't change (her age, her weight, her budget, the hair she was born with): the women who get it right don't have those either. They simply know what each piece or cut does.
+4. **Within reach, with the result in her own mirror.** A change she can make this week (or, for hair, at her next appointment), often from her own closet, with no Paris budget needed, and she'll see the difference in her own mirror at once.
 5. **The blame off her, in one strong line.** When a woman looks older in her clothes or her cut, it's never the woman: it's the shape, the color, the fit. If it fits, add the moment she lived (the morning she caught herself in the mirror and wondered why she looked tired).
 6. **Together, into item one:** "let's start with..." and one reason to stay for it (the one most women get wrong, or the easiest change with the biggest difference).
 
