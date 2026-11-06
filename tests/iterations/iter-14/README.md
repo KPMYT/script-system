@@ -10,3 +10,5 @@ All material here is TEST. Run 2026-11-06 on the operator's word ("up to you to 
 | `run-new/` | The writer: only the three draft skills in `drafts/p21-style/`, followed as a VA's chat would after START, Scarlett, the title and the brief. It never sees the rubric, the other scripts or the published video |
 | `judge/` | A blind judge: the new script, iter-08's run B (the one-page winner, 8.5) and the published video's captions, in random order, with the check program's results given as facts |
 | `RESULTS.md` | The outcome, for the operator's listen |
+| `run-hook2/`, `run-hook3/` | The hook rewritten twice by fresh writers on the updated hook rules (the operator: "still our hook thoigh is weak", then "harder push, stronger opener rewording title pretty much always"); the body unchanged |
+| `final/` | The operator's chosen opener ("i prefer this its very good") in hook 3, and one line in paragraph 3 reworded so "next appointment" isn't said twice: `script.txt` (PASS, 152 words to item one, 2,171 words) and `output.md` (the full output: script with markers, CHECK line, VO copy with 23 tags, words identical) |
