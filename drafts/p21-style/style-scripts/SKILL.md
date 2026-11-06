@@ -31,7 +31,17 @@ Pick the type that fits the title, and read its model. Where two are listed, tak
 
 | Video type | What it is | Model (flow only) |
 |---|---|---|
-| MODELS TO BE FILLED FROM `drafts/p21-style/model-picks.md` | | |
+| **Mistakes that age you** | N looks that add years or look frumpy, each with the swap (whole look, one piece, or hair) | fashion: `M18-capsule-closet-stylist.md`; hair: `M04-chery.md`; Diane: `M21-marie-anne-lecoeur.md` |
+| **Never these, wear these instead** | A list of pieces (glasses, jewelry, shoes, bags): each "never" paid by a "wear this" | `M13-adore-your-wardrobe.md`; Diane: `M28-aliceinparis.md` |
+| **The best N** | The cuts, colors or pieces that work, each with why and for whom | hair: `M07-glam-girl-gabi.md`; fashion: `M13-adore-your-wardrobe.md` |
+| **Styling it wrong: N secrets** | What she's doing at home, and the better way | hair: `M09-summer-beauty.md`; fashion: `M24-diana-goss.md` |
+| **How to wear X** | One piece worn well, several ways | `M19-beth-djalali.md`; scarves and accessories: `M30-kay-harms.md` |
+| **Body-shape fixes** | Line, proportion and silhouette for a body part, never weight; opens on reassurance | `M24-diana-goss.md` |
+| **The rules she never breaks** | The woman who gets it right, or the French rules: each rule a habit and a swap | Diane: `M28-aliceinparis.md`, then `M21-marie-anne-lecoeur.md`; Scarlett: `M18-capsule-closet-stylist.md` |
+| **The why explainer** | The hidden cause, then the fixes | hair: `M01-summer-beauty.md`; fashion: `M19-beth-djalali.md` |
+| **One mistake, then N swaps** | The one mistake explained early, then each swap a full item | `M13-adore-your-wardrobe.md`, then `M19-beth-djalali.md` |
+
+All files are in `references/models/`. Read one, not all.
 
 Each model file starts with what to take, what not to take and her signature phrases. Never use those phrases or any run of her words.
 

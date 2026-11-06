@@ -8,7 +8,7 @@ The folders are laid out exactly as the three skills would be uploaded.
 |---|---|---|
 | `style-scripts/SKILL.md` | The steps: inputs, the video type and its model, write, read aloud, check, the output | the account's `style-scripts` (8,261 words, plus `hooks.md` 19,126 and 37 model beat maps) and, for these two channels only, `core/workflow.md` sections 2 to 6 and every other core file |
 | `style-scripts/check.py` | The hard-rules check (about 300 lines; no counts to meet) | the core scanner and the full audit, for these two channels |
-| `style-scripts/references/models/` | The real model transcripts, one per file, with what to take, what not to take and her signature phrases | the model beat maps, `hooks.md`, the excerpts and the voice samples |
+| `style-scripts/references/models/` | 11 real women's transcripts (M01, M04, M07, M09, M13, M18, M19, M21, M24, M28, M30), one per file, with what to take, what not to take and her signature phrases. M23 was dropped (framed on weight loss) | the model beat maps, `hooks.md`, the excerpts and the voice samples |
 | `scarlett-starling-persona/SKILL.md` | Scarlett's one page | the account's profile (2,106 words) |
 | `diane-de-chambray-persona/SKILL.md` | Diane's one page | the account's profile (2,474 words) |
 | `*/personas/books/*-book.md` | The two book indexes, unchanged | the same files |

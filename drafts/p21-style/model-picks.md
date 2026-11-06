@@ -148,7 +148,7 @@ Four of the twelve suit Diane's French voice (M21, M23 and M28 are French women 
 - **Published** 2025-04-11 · 15:15 · **1,224,258 views** (as of 2026-10-28) · 27.2x normal (`meta.md`, read 2026-11-06).
 - **Suits:** both, for hair titles.
 - **Why:** the only real woman's "styling it wrong" video with punctuation: the thing she's been told (the rules), why it doesn't fit her own head, then the better way at home, step by step (product, lift, tool, a bonus tip). The voice explains and reassures ("this is not to say that low cranial tops look bad").
-- **Weaker on:** it leans on celebrity photos (Laura Dern, Kerry Washington and others) for whole stretches, it isn't numbered, and its technical terms (cranial top, facial thirds) aren't our viewer's words.
+- **Weaker on:** it leans on celebrity photos (captioned "Laura Durn", "Carrie Washington" and others) for whole stretches, it isn't numbered, and its technical terms (cranial top, facial thirds) aren't our viewer's words.
 - **Don't take:**
   - Plugs: the "Volu" hot tool, the products linked below, her earlier videos; the celebrity examples.
   - Catchphrases and signature turns **[copied]**:
@@ -166,7 +166,7 @@ Four of the twelve suit Diane's French voice (M21, M23 and M28 are French women 
 ## 5. How to wear X
 
 ### Chosen: M19, Beth Djalali, "Why Linen Looks Frumpy After 50 (And How to Fix It)"
-- **Presenter:** a woman on camera, first person, speaking to women 50 plus ("welcome back to Style at a Certain Age where I bring you the trusted edit for women 50 plus"; "I'm 5'8""); her name isn't said in the speech (`meta.md`).
+- **Presenter:** a woman on camera, first person, speaking to women 50 plus ("welcome back to Style at a Certain Age where I bring you the trusted edit for women 50 plus", with one [music] tag removed; "I'm 5'8""); her name isn't said in the speech (`meta.md`).
 - **Path:** `studies/style/data/beth-djalali/Hionkf3pHJc/transcript.txt`
 - **Words:** 2,716 (just above our 2,700). **Punctuated:** yes (219 full stops).
 - **Published** 2026-05-17 · 16:01 · **158,326 views** (as of 2026-10-28) · 7.92x normal (`meta.md`, read 2026-11-06).
@@ -193,7 +193,7 @@ Four of the twelve suit Diane's French voice (M21, M23 and M28 are French women 
 - **Why:** the only real model filed under this type in INDEX. It names the real reason she won't wear the piece (it overwhelms her, "I just look like here comes the scarf"), answers it with every tie, and puts numbered tips between the ties as breathers. Gentle, permission-heavy voice for women over 50.
 - **Weaker on:** long, and much of it is knot-by-knot tying steps the viewer has to watch; the end is channel housekeeping.
 - **Don't take:**
-  - Plugs: the channel memberships and Bible study; the brands (Lily Silk, Sarah Flint, Anthropologie, Nordstrom); "I'll link it".
+  - Plugs: the channel memberships and Bible study; the brands (Lily Silk, Sarah Flint, "Anthropology" as captioned, Nordstrom); "I'll link it".
   - Catchphrases and signature turns **[copied]**:
     - "Am I right?"
     - "You know what I mean?"
