@@ -414,7 +414,7 @@ def main():
             fail("contraction", f"'{m.group()}' (this voice mishandles contractions): \"{sentence_with(spoken, m.start())}\"")
 
     # 6. The tenure: the profile's figure or the title's, once at most.
-    tn = r"\b(\w+(?:-\w+)?)\s+years?\s+(?:in (?:the|this) trade|as a plumber|of plumbing|in plumbing|on the job|doing this|on the tools|in the business)\b|\bin (?:the|this) trade,? (?:for )?(\w+(?:-\w+)?) years\b"
+    tn = r"\b((?:(?:twenty|thirty|forty|fifty|sixty)[- ])?\w+(?:-\w+)?)\s+years?\s+(?:in (?:the|this) trade|as a plumber|of plumbing|in plumbing|on the job|doing this|on the tools|in the business)\b|\bin (?:the|this) trade,? (?:for )?((?:(?:twenty|thirty|forty|fifty|sixty)[- ])?\w+(?:-\w+)?) years\b"
     allowed_tenure = {ch["tenure"]} | numbers_in(a.title)
     hits = list(re.finditer(tn, spoken, re.I))
     for m in hits:

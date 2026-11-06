@@ -1,0 +1,124 @@
+SCRIPT TYPE: Classic
+
+There are eight things you should never pour down your drains, and most of them go down a kitchen sink in an ordinary week. The bacon grease after Sunday breakfast. The coffee grounds rinsed out of the pot. A splash of bleach because the sink smells off. A drain that ran fine on Sunday quits on a Thursday night, because it's been filling for months. The store shelf sells a jug that promises to clear it in minutes. A plumber charges $150 to $400 to clear a kitchen grease clog, depending on where you live. You want to stop the damage you can't see, before it becomes a bill you caused without knowing. Almost every swap here costs next to nothing, and most of it is yours to handle at the sink. But two drains backing up at once means trouble in the main line, the big pipe that carries everything out of the house, and that's a call.
+
+Number one is grease. Bacon fat, the drippings from a roast, the oil left in the skillet after supper. Hot, it pours as thin as water, so it seems harmless going down. But a few feet along, the pipe runs cooler, and the fat sets right there on the wall. The next pan adds another coat, and the one after that adds another. Over months, the opening inside that pipe narrows until it's no wider than a pencil. Out under the street, city sewer crews dig out solid lumps of the stuff, so big they've earned a name, fatbergs. In your house, you'll notice it first as a sour smell at the drain. Then the sink slows. Then one evening it backs up with a full pan of dishwater sitting in it. And don't count on hot water poured after the fat to push it along. That water cools a few feet down the pipe, the same as the fat does, and the grease sets anyway.
+
+A lot of kitchens used to keep a can of drippings by the stove, and that old habit had it exactly right. Let the fat cool in the pan until it turns white and hard. Scrape it into an old can, and when the can is full, put it in the trash. Then wipe the pan with a paper towel before it ever sees the sink. That paper towel takes the thin film that soap and hot water would have carried down the pipe.
+
+Forty-five years in this trade, and grease is still the first thing I'd bet on in a kitchen line that won't drain. A line packed with it can need hydro jetting, which is a high-pressure hose that blasts the pipe walls clean. That usually runs $350 to $800, and how long the line is and how packed it is move the price. Between you and me, that's a hard bill to pay for what came off your own frying pan. An empty can and a paper towel keep it off your pipe for free.
+
+Which brings up the second thing, because a slow kitchen drain is exactly when people reach for the jug of chemical drain cleaner. You pour it in, it fizzes and steams, and it sure looks like it's working. What it does is burn a narrow channel through the middle of the clog. The water runs for a while, so it seems fixed. But the rest of the clog stays stuck to the pipe wall, waiting for the next pan of grease. A few weeks later the sink is slow again, and so you buy another jug.
+
+Meanwhile, the pipe pays for it. On old metal drain pipe, that cleaner eats at the walls from the inside. On white plastic pipe, the kind called PVC, it can soften the glued joints that hold the run together. Now, maybe you've poured it for years and your pipes are fine. Maybe they are. But when an old drain pipe finally gives out, replacing a room or two of it can run from several hundred dollars to a couple of thousand. How much pipe it is, and how hard it is to reach, moves that number.
+
+And here's the part people skip. Before anything goes into a slow drain, ask whether chemical cleaner is already in it. If it is, don't plunge it and don't snake it, because it splashes back up and burns. Don't pour a second cleaner on top of it either. If that drain won't clear, it's a call, and you tell the plumber exactly what's in there before he starts.
+
+If the drain is free of chemicals, the old tool does the job better. A twenty-five-foot hand drain snake, the kind with a crank handle, costs $25 to $35. You feed the cable down the drain until you feel it stop. Then you crank it slowly so the tip bites into the clog, and you pull it back out. The clog comes up with the cable, out of your pipe instead of halfway through it. Then run the hottest tap water for a minute and watch it go. A drain that swirls away clean tells you the clog came out, not just a hole through it. For upkeep, an enzyme treatment once a month is gentle on the pipe and leaves the joints alone. That snake hangs on a hook for years, and one of them costs less than a single service call.
+
+Coffee grounds are the third, and they fool almost everybody. They look like wet dirt, and dirt washes away, so rinsing the pot into the sink feels like nothing. But grounds never dissolve. They sink, and they settle in the trap, the U-shaped bend under the sink, and in every bend after it. There they pack down like wet sand. And the grease from the first one glues them in place, so the two together make a plug that water alone will never move.
+
+If you've got a garbage disposal, you might figure it takes care of them. It doesn't. All it does is send the grounds down faster, and they settle in the same bends. Digging a plug like that out is a service call, and you're looking at a few hundred dollars for a pipe full of what used to be your morning coffee.
+
+Fixing it is quick. Knock the grounds into the trash, or out to the compost pile if you keep one, before the pot goes anywhere near the water. Then rinse the pot. Your garden gets the grounds, and your drain stays clear.
+
+Number four is flour, and the starches that behave like it. Say you rinse out the mixing bowl after a batch of biscuits. Flour and water make paste. That's what people once hung wallpaper with, and it does the very same job inside a pipe. It sticks to the wall, it dries there, and it catches whatever comes down next.
+
+Pasta and rice are sneakier. They keep soaking up water after they go down, and they swell in the dark until a handful of rice can fill a bend by itself. You'd never pour a cup of dry rice down the sink, but a little left on every plate adds up to the same thing.
+
+Potato peels are a different trouble, and you'll hear this one. They jam a garbage disposal, and the disposal hums and won't turn. When it does that, switch it off before anything else, and never put a hand down inside it. Getting one unjammed runs $75 to $175, depending on what's wedged in there and how long it's been sitting.
+
+So scrape plates and bowls into the trash before they go in the sink. Wipe a floury bowl out with a paper towel before you wash it. And set a mesh strainer in the kitchen drain. It's cheap, it catches the rice before the pipe has to, and you empty it into the trash. That little basket does more for a kitchen drain than anything on the cleaner shelf.
+
+The fifth one happens away from the kitchen, at the laundry sink, after a weekend of painting. Rinsing latex brushes and roller trays there feels harmless, because the paint is water-based and it washes right off. But every rinse leaves a rubbery skin on the inside of the pipe. One layer goes on top of the last, every time you paint, and that skin never washes away. You see it as a laundry sink that drains a little slower after every paint job.
+
+Paint thinner and mineral spirits are worse. They eat at the rubber gaskets in your pipes and fixtures, the soft rings that keep the joints sealed. A gasket that's been chewed on starts to weep. And if your house runs on a septic tank, solvents kill the bacteria the whole system runs on. A failed septic system is one of the biggest bills a house can hand you, and nobody sees it coming from a rinsed paintbrush.
+
+The swap is a bucket. Wash your latex brushes in a bucket of water. Leave the bucket overnight, and the paint settles to the bottom. Let that sludge dry out, then throw it in the trash. Thinners and solvents go to your local household hazardous waste drop-off, and your town or county can tell you where that is. It costs you a drive and keeps every gasket in the house in one piece.
+
+Number six surprises people, because it's only water. Boiling water. Plenty of folks were taught to chase a slow drain with a pot straight off the stove, and it comes from a good place. Hot water does loosen grease. But the white plastic drain pipe under most sinks is rated to about a hundred and forty degrees. Boiling water is two hundred and twelve.
+
+Pour that in, and the pipe softens. The glued joints can loosen. And a joint that lets go inside a cabinet doesn't spray. It drips, quietly, behind the cleaning supplies, for weeks. You don't find it until the cabinet floor swells and goes soft under your hand. That's the kind of damage you can't see, and the bill comes from a habit that looked perfectly safe. If you've been doing it for years, take a flashlight under the sink. Feel the joints for damp, and check the cabinet floor for a dark ring or a soft spot.
+
+Use the hottest water from your tap instead. A water heater set at a hundred and twenty degrees, which is what the Consumer Product Safety Commission recommends, sends water under what that pipe can take. Run it for a minute and you get the warmth without the risk. The kettle stays on the stove for tea.
+
+The seventh goes down the toilet, not the sink. It's the wipes that say flushable right on the package. It's a fair thing to believe, since the package tells you so. But toilet paper comes apart in water within seconds, and wipes stay whole. They snag on the first rough joint and catch the one behind them. Then they catch the next, until a gray matted cable sits in the main line, on its way out to the sewer or the septic tank.
+
+Clearing that means snaking the main sewer line, which runs $150 to $500, and a stubborn one can reach about $650. Now here's the thing. That's a few hundred dollars for a product sold as a convenience, and to my mind that's no convenience at all. If you doubt it, drop a square of toilet paper and a wipe into a jar of water and give it a swirl. The paper comes apart. The wipe just sits there, whole. So it's toilet paper only. Wipes go in a small trash can with a lid beside the toilet, whatever the package says.
+
+This is also where the job stops being yours. If a drain won't take anything, look at the others before you do a thing. When two or more drains back up at once, say the toilet and the tub, that's the main line. Stop running water in the house and call. The same goes if sewage comes up out of a drain. That's a licensed plumber's job, and no hand snake belongs in it.
+
+The last one is poured with the best intentions of all. Bleach. The drain smells off, so bleach goes down, then a splash of some other cleaner for good measure. Wanting a fresh drain is fair enough. That second splash is the danger. Bleach with ammonia makes a toxic gas. Bleach with an acid, like vinegar or some toilet bowl cleaners, gives off chlorine gas. In a small bathroom with the door shut, that can knock you flat.
+
+Bleach down the drain does harm even on its own, too. It kills the bacteria a septic tank runs on, the same as the solvents do. So the rule is simple. One cleaner at a time, never mixed. Bleach is for scrubbing surfaces, not for feeding the drain.
+
+Here's what does belong down there. Once a month, dissolve half a cup of washing soda in a pitcher of the hottest tap water, and pour it in slowly. That's washing soda, not baking soda. Dissolve it first, because poured in dry it cakes in the pipe. A box runs about $5 to $6 and lasts a long while. That's the old way to keep a drain fresh, and it never needed a warning label.
+
+None of these habits asks much of you. So here's one small thing for tonight. When the bacon's done, pour that fat into a can instead of the sink. That one can is where a clear drain starts.
+
+If the old, cheap ways of keeping a house running are worth something to you, subscribe to the Vintage Pipefitter.
+
+Now I'd like to hear about your kitchen. Tell me in the comments what gets poured down your sink most weeks without anybody thinking twice. I read every one.
+
+CHECK: RESULT: PASS | words 2341 | about 12 minutes
+
+VO COPY — ELEVENLABS V4
+There are eight things you should never pour down your drains, and most of them go down a kitchen sink in an ordinary week. The bacon grease after Sunday breakfast. The coffee grounds rinsed out of the pot. A splash of bleach because the sink smells off. A drain that ran fine on Sunday quits on a Thursday night, because it's been filling for months. The store shelf sells a jug that promises to clear it in minutes. A plumber charges $150 to $400 to clear a kitchen grease clog, depending on where you live. [thoughtful] You want to stop the damage you can't see, before it becomes a bill you caused without knowing. Almost every swap here costs next to nothing, and most of it is yours to handle at the sink. But two drains backing up at once means trouble in the main line, the big pipe that carries everything out of the house, and that's a call.
+
+Number one is grease. Bacon fat, the drippings from a roast, the oil left in the skillet after supper. Hot, it pours as thin as water, so it seems harmless going down. But a few feet along, the pipe runs cooler, and the fat sets right there on the wall. The next pan adds another coat, and the one after that adds another. [slower] Over months, the opening inside that pipe narrows until it's no wider than a pencil. Out under the street, city sewer crews dig out solid lumps of the stuff, so big they've earned a name, fatbergs. In your house, you'll notice it first as a sour smell at the drain. Then the sink slows. Then one evening it backs up with a full pan of dishwater sitting in it. And don't count on hot water poured after the fat to push it along. That water cools a few feet down the pipe, the same as the fat does, and the grease sets anyway.
+
+[warm] A lot of kitchens used to keep a can of drippings by the stove, and that old habit had it exactly right. Let the fat cool in the pan until it turns white and hard. Scrape it into an old can, and when the can is full, put it in the trash. Then wipe the pan with a paper towel before it ever sees the sink. That paper towel takes the thin film that soap and hot water would have carried down the pipe.
+
+Forty-five years in this trade, and grease is still the first thing I'd bet on in a kitchen line that won't drain. A line packed with it can need hydro jetting, which is a high-pressure hose that blasts the pipe walls clean. That usually runs $350 to $800, and how long the line is and how packed it is move the price. [matter-of-fact] Between you and me, that's a hard bill to pay for what came off your own frying pan. An empty can and a paper towel keep it off your pipe for free.
+
+Which brings up the second thing, because a slow kitchen drain is exactly when people reach for the jug of chemical drain cleaner. You pour it in, it fizzes and steams, and it sure looks like it's working. [matter-of-fact] What it does is burn a narrow channel through the middle of the clog. The water runs for a while, so it seems fixed. But the rest of the clog stays stuck to the pipe wall, waiting for the next pan of grease. A few weeks later the sink is slow again, and so you buy another jug.
+
+Meanwhile, the pipe pays for it. On old metal drain pipe, that cleaner eats at the walls from the inside. On white plastic pipe, the kind called PVC, it can soften the glued joints that hold the run together. Now, maybe you've poured it for years and your pipes are fine. [short pause] Maybe they are. But when an old drain pipe finally gives out, replacing a room or two of it can run from several hundred dollars to a couple of thousand. How much pipe it is, and how hard it is to reach, moves that number.
+
+[emphatic] And here's the part people skip. Before anything goes into a slow drain, ask whether chemical cleaner is already in it. If it is, don't plunge it and don't snake it, because it splashes back up and burns. Don't pour a second cleaner on top of it either. If that drain won't clear, it's a call, and you tell the plumber exactly what's in there before he starts.
+
+If the drain is free of chemicals, the old tool does the job better. A twenty-five-foot hand drain snake, the kind with a crank handle, costs $25 to $35. You feed the cable down the drain until you feel it stop. Then you crank it slowly so the tip bites into the clog, and you pull it back out. The clog comes up with the cable, out of your pipe instead of halfway through it. Then run the hottest tap water for a minute and watch it go. A drain that swirls away clean tells you the clog came out, not just a hole through it. For upkeep, an enzyme treatment once a month is gentle on the pipe and leaves the joints alone. [warm] That snake hangs on a hook for years, and one of them costs less than a single service call.
+
+Coffee grounds are the third, and they fool almost everybody. They look like wet dirt, and dirt washes away, so rinsing the pot into the sink feels like nothing. [emphatic] But grounds never dissolve. They sink, and they settle in the trap, the U-shaped bend under the sink, and in every bend after it. There they pack down like wet sand. And the grease from the first one glues them in place, so the two together make a plug that water alone will never move.
+
+If you've got a garbage disposal, you might figure it takes care of them. It doesn't. All it does is send the grounds down faster, and they settle in the same bends. Digging a plug like that out is a service call, and you're looking at a few hundred dollars for a pipe full of what used to be your morning coffee.
+
+Fixing it is quick. Knock the grounds into the trash, or out to the compost pile if you keep one, before the pot goes anywhere near the water. Then rinse the pot. [slightly amused] Your garden gets the grounds, and your drain stays clear.
+
+Number four is flour, and the starches that behave like it. Say you rinse out the mixing bowl after a batch of biscuits. [matter-of-fact] Flour and water make paste. That's what people once hung wallpaper with, and it does the very same job inside a pipe. It sticks to the wall, it dries there, and it catches whatever comes down next.
+
+Pasta and rice are sneakier. They keep soaking up water after they go down, and they swell in the dark until a handful of rice can fill a bend by itself. You'd never pour a cup of dry rice down the sink, but a little left on every plate adds up to the same thing.
+
+Potato peels are a different trouble, and you'll hear this one. They jam a garbage disposal, and the disposal hums and won't turn. When it does that, switch it off before anything else, and never put a hand down inside it. Getting one unjammed runs $75 to $175, depending on what's wedged in there and how long it's been sitting.
+
+So scrape plates and bowls into the trash before they go in the sink. Wipe a floury bowl out with a paper towel before you wash it. And set a mesh strainer in the kitchen drain. It's cheap, it catches the rice before the pipe has to, and you empty it into the trash. [warm] That little basket does more for a kitchen drain than anything on the cleaner shelf.
+
+The fifth one happens away from the kitchen, at the laundry sink, after a weekend of painting. Rinsing latex brushes and roller trays there feels harmless, because the paint is water-based and it washes right off. But every rinse leaves a rubbery skin on the inside of the pipe. One layer goes on top of the last, every time you paint, and that skin never washes away. You see it as a laundry sink that drains a little slower after every paint job.
+
+Paint thinner and mineral spirits are worse. They eat at the rubber gaskets in your pipes and fixtures, the soft rings that keep the joints sealed. A gasket that's been chewed on starts to weep. And if your house runs on a septic tank, solvents kill the bacteria the whole system runs on. [thoughtful] A failed septic system is one of the biggest bills a house can hand you, and nobody sees it coming from a rinsed paintbrush.
+
+The swap is a bucket. Wash your latex brushes in a bucket of water. Leave the bucket overnight, and the paint settles to the bottom. Let that sludge dry out, then throw it in the trash. Thinners and solvents go to your local household hazardous waste drop-off, and your town or county can tell you where that is. It costs you a drive and keeps every gasket in the house in one piece.
+
+Number six surprises people, because it's only water. Boiling water. Plenty of folks were taught to chase a slow drain with a pot straight off the stove, and it comes from a good place. Hot water does loosen grease. But the white plastic drain pipe under most sinks is rated to about a hundred and forty degrees. [short pause] Boiling water is two hundred and twelve.
+
+Pour that in, and the pipe softens. The glued joints can loosen. And a joint that lets go inside a cabinet doesn't spray. [slower] It drips, quietly, behind the cleaning supplies, for weeks. You don't find it until the cabinet floor swells and goes soft under your hand. That's the kind of damage you can't see, and the bill comes from a habit that looked perfectly safe. If you've been doing it for years, take a flashlight under the sink. Feel the joints for damp, and check the cabinet floor for a dark ring or a soft spot.
+
+Use the hottest water from your tap instead. A water heater set at a hundred and twenty degrees, which is what the Consumer Product Safety Commission recommends, sends water under what that pipe can take. Run it for a minute and you get the warmth without the risk. [slightly amused] The kettle stays on the stove for tea.
+
+The seventh goes down the toilet, not the sink. It's the wipes that say flushable right on the package. It's a fair thing to believe, since the package tells you so. But toilet paper comes apart in water within seconds, and wipes stay whole. They snag on the first rough joint and catch the one behind them. Then they catch the next, until a gray matted cable sits in the main line, on its way out to the sewer or the septic tank.
+
+Clearing that means snaking the main sewer line, which runs $150 to $500, and a stubborn one can reach about $650. [thoughtful] Now here's the thing. That's a few hundred dollars for a product sold as a convenience, and to my mind that's no convenience at all. If you doubt it, drop a square of toilet paper and a wipe into a jar of water and give it a swirl. The paper comes apart. The wipe just sits there, whole. So it's toilet paper only. Wipes go in a small trash can with a lid beside the toilet, whatever the package says.
+
+[emphatic] This is also where the job stops being yours. If a drain won't take anything, look at the others before you do a thing. When two or more drains back up at once, say the toilet and the tub, that's the main line. Stop running water in the house and call. The same goes if sewage comes up out of a drain. That's a licensed plumber's job, and no hand snake belongs in it.
+
+The last one is poured with the best intentions of all. Bleach. The drain smells off, so bleach goes down, then a splash of some other cleaner for good measure. Wanting a fresh drain is fair enough. That second splash is the danger. Bleach with ammonia makes a toxic gas. Bleach with an acid, like vinegar or some toilet bowl cleaners, gives off chlorine gas. [slower] In a small bathroom with the door shut, that can knock you flat.
+
+Bleach down the drain does harm even on its own, too. It kills the bacteria a septic tank runs on, the same as the solvents do. So the rule is simple. One cleaner at a time, never mixed. Bleach is for scrubbing surfaces, not for feeding the drain.
+
+Here's what does belong down there. Once a month, dissolve half a cup of washing soda in a pitcher of the hottest tap water, and pour it in slowly. That's washing soda, not baking soda. Dissolve it first, because poured in dry it cakes in the pipe. A box runs about $5 to $6 and lasts a long while. [warm] That's the old way to keep a drain fresh, and it never needed a warning label.
+
+None of these habits asks much of you. [warm] So here's one small thing for tonight. When the bacon's done, pour that fat into a can instead of the sink. That one can is where a clear drain starts.
+
+If the old, cheap ways of keeping a house running are worth something to you, subscribe to the Vintage Pipefitter.
+
+[warm] Now I'd like to hear about your kitchen. Tell me in the comments what gets poured down your sink most weeks without anybody thinking twice. [short pause] I read every one.
