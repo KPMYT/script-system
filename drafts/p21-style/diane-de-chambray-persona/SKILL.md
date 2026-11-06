@@ -20,14 +20,18 @@ A retired fashion designer, forty years in Paris fashion, still lives in Paris, 
 - **The French habit is the reason; her own closet is the fix,** in American sizes, shops and weather. It runs through the items the brief gives a French reason for, not every item.
 - **American women** only as a shared habit, in the third person, at most twice, never mocked. One or two well-known French words at most (chic, voila), no accents.
 
-## The hook: the first half minute
-This decides whether she stays. Keep it as short as the model's opening, well under a minute:
-1. **Pay off the title in the first sentence,** in its own words, with the feeling under it. No scene, question or greeting first.
-2. **Take the blame off her:** her age, height, weight or budget isn't the problem; what she was told, or what nobody told her, is.
-3. **Make it feel within reach:** mostly her own closet, nothing that asks her body to change, no Paris budget needed.
-4. **Go straight into item one,** with one reason to stay for it (the one most women get wrong, or the easiest change with the biggest difference).
+## The hook: the first minute
+The hook is where the feeling is strongest, and it decides whether she stays. It runs on these beats, in this order, each one or two sentences in her own words, about 100 to 160 words in all, so item one starts inside a minute:
+1. **The title, made personal and present.** Sentence one says the title's promise as something on her right now: in her closet, on her head, on her nose. Say the trigger outright (adds years, ages the face, takes the light out of the face, dated), and touch the fear from the table below.
+2. **The woman who gets it right.** A Parisian woman over sixty (hedged the French way: most of them, plenty of them) wouldn't wear it.
+3. **Not because of what she can't change.** Name two: not richer, not thinner, not younger. They simply know what each one does.
+4. **Within reach, with the result in her own mirror.** A change she can make this week, often from her own closet, with no Paris budget needed, and she'll see the difference in her own mirror at once.
+5. **The blame off her, in one strong line.** When a woman looks older in her clothes or her cut, it's never the woman: it's the shape, the color, the fit. If it fits, add the moment she lived (the morning she caught herself in the mirror and wondered why she looked tired).
+6. **Together, into item one:** "let's start with..." and one reason to stay for it (the one most women get wrong, or the easiest change with the biggest difference).
 
-Every sentence in the hook adds feeling or pays off the title: no apologies, asides or disclaimers. Never a list of more than three things in the hook. In her voice, not four boxes: two can share a sentence. No channel intro, "today we're going to", list of what's coming, second count or tease.
+`references/models/H01-paris-never-ages-hooks.md` in the style pack shows three hooks that run exactly these beats. Take the beats, never its words (the check blocks its phrases).
+
+Every sentence adds feeling or pays off the title: no apologies, asides or disclaimers, and no list of more than three things. No channel intro, "today we're going to", list of what's coming, second count or tease.
 
 ## The feeling, all the way through
 Every title carries one thing she wants and one thing she fears, even unsaid. Name both in the hook, and let them come back.
@@ -42,7 +46,7 @@ Every title carries one thing she wants and one thing she fears, even unsaid. Na
 | A smaller wardrobe | fewer clothes that all work | a full closet and nothing to wear |
 
 - **Practical fixes for emotional problems.** Every item fixes a real thing. Now and then, not every item, name the feeling behind it in one plain sentence before the fix. Give the feeling; never announce it ("here's the relief").
-- **Her own mirror,** closet, photo or chair at the salon. Never a stranger judging her.
+- **Her own mirror,** closet, photo or chair at the salon, and now and then the thought she had there, in her own words. Never a stranger judging her.
 - **The why is the relief:** why a look ages her or works (where the eye goes, what light does, proportion).
 - **Keep taking the blame off her,** in fresh words each time, and say what the piece does on the piece ("a coat that stops at the hip adds years", never "your wide middle").
 - **Permission, never a slogan:** what she may stop, what she may keep and how to wear it.
@@ -70,7 +74,7 @@ Every title carries one thing she wants and one thing she fears, even unsaid. Na
 7. **For the voice:** no symbols, stage directions, accents or dashes; numbers as a reader says them; no sentence over 35 words.
 
 ## After writing: check, fix, stop
-Read it aloud once, run the checking program (the style pack says how), then check by eye: the hook (title paid off in sentence one, short, straight into item one); her want and fear back in the video; the French hedges; the book's facts; the ending; the "never" list; no echo of the model. Fix only what fails; never add a line to meet a count.
+Read it aloud once, run the checking program (the style pack says how), then check by eye: the hook (all six beats, in order, item one inside a minute); her want and fear back in the video; the French hedges; the book's facts; the ending; the "never" list; no echo of the model. Fix only what fails; never add a line to meet a count.
 
 ## The book's index
 `personas/books/diane-de-chambray-book.md` in this skill: the 101 Secrets by chapter, the book match by topic, and the book's stories and characters that never go in a script.

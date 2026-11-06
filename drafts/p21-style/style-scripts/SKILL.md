@@ -41,7 +41,7 @@ Pick the type that fits the title, and read its model. Where two are listed, tak
 | **The why explainer** | The hidden cause, then the fixes | hair: `M01-summer-beauty.md`; fashion: `M19-beth-djalali.md` |
 | **One mistake, then N swaps** | The one mistake explained early, then each swap a full item fashion: `M13-adore-your-wardrobe.md`, then `M19-beth-djalali.md`; hair: `M04-chery.md` |
 
-All files are in `references/models/`. Read one, not all.
+All files are in `references/models/`. Read one, not all, plus `H01-paris-never-ages-hooks.md` for the hook's beats (a competitor: the beats only, never its words).
 
 Each model file starts with what to take, what not to take and her signature phrases. Never use those phrases or any run of her words.
 

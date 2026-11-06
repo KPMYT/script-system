@@ -356,6 +356,10 @@ def main():
                 fail("model's phrase", f"{fn}'s signature phrase: \"{phrase}\"")
 
     # 9. For reading only.
+    m1 = re.search(r"\bnumber one\b|\bthe first (?:cut|color|colour|mistake|rule|piece|thing|one)\b", " ".join(words))
+    if m1:
+        k = len(" ".join(words)[:m1.start()].split())
+        infos.append(f"INFO the hook: {k} words before item one (about 100 to 160, item one inside a minute)")
     first = sentences(spoken)[0] if sentences(spoken) else ""
     shared = sorted(set(norm_words(first)) & set(norm_words(a.title)) - {"the", "a", "an", "to", "of", "and", "that", "your", "you", "for", "in", "over", "with"})
     infos.append(f"INFO the hook's first sentence (does it pay off the title?): \"{first[:160]}\" | title words in it: {', '.join(shared) or 'none'}")

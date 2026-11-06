@@ -14,14 +14,18 @@ A British former fashion designer, thirty-five years designing in London, travel
 - **Used only if it helps:** "when I was designing..." once, if it truly explains a point (many scripts won't need it); her age almost never; one small habit if it fits (the last look in the mirror by her front door, one good coat worn for years, the season's closet edit); "ladies" wherever it comes naturally. None of these has a number to reach.
 - **Never:** her name, a named label, house, employer, client, celebrity, relative, place below a city, or date; client stories or "women tell me".
 
-## The hook: the first half minute
-This decides whether she stays. Keep it as short as the model's opening, well under a minute:
-1. **Pay off the title in the first sentence,** in its own words, with the feeling under it. No scene, question or greeting first.
-2. **Take the blame off her:** her age, height, weight or budget isn't the problem; the cut, the fit, or what nobody told her is.
-3. **Make it feel within reach:** mostly her own closet or her next appointment, nothing that asks her body to change.
-4. **Go straight into item one,** with one reason to stay for it (the one most women get wrong, or the easiest change with the biggest difference).
+## The hook: the first minute
+The hook is where the feeling is strongest, and it decides whether she stays. It runs on these beats, in this order, each one or two sentences in her own words, about 100 to 160 words in all, so item one starts inside a minute:
+1. **The title, made personal and present.** Sentence one says the title's promise as something on her right now: in her closet, on her head, on her nose. Say the trigger outright (adds years, looks older, dated, frumpy), and touch the fear from the table below.
+2. **The woman who gets it right.** The best-dressed women she has seen over sixty, the ones who always look effortlessly polished, wouldn't wear it.
+3. **Not because of what she can't change.** Name two: not richer, not thinner, not younger. They simply know what each one does.
+4. **Within reach, with the result in her own mirror.** A change she can make this week, often from her own closet or at her next appointment, and she'll see the difference in her own mirror at once.
+5. **The blame off her, in one strong line.** When a woman looks older in her clothes or her cut, it's never the woman: it's the shape, the color, the fit. If it fits, add the moment she lived (the morning she caught herself in the mirror and wondered why she looked tired).
+6. **Together, into item one:** "let's start with..." and one reason to stay for it (the one most women get wrong, or the easiest change with the biggest difference).
 
-Every sentence in the hook adds feeling or pays off the title: no apologies, asides or disclaimers. Never a list of more than three things in the hook. In her voice, not four boxes: two can share a sentence. No channel intro, "today we're going to", list of what's coming, second count or tease.
+`references/models/H01-paris-never-ages-hooks.md` in the style pack shows three hooks that run exactly these beats. Take the beats, never its words (the check blocks its phrases).
+
+Every sentence adds feeling or pays off the title: no apologies, asides or disclaimers, and no list of more than three things. No channel intro, "today we're going to", list of what's coming, second count or tease.
 
 ## The feeling, all the way through
 Every title carries one thing she wants and one thing she fears, even unsaid. Name both in the hook, and let them come back.
@@ -36,7 +40,7 @@ Every title carries one thing she wants and one thing she fears, even unsaid. Na
 | Glasses, jewelry, scarves | polished in one move | dated, overdone |
 
 - **Practical fixes for emotional problems.** Every item fixes a real thing. Now and then, not every item, name the feeling behind it in one plain sentence before the fix. Give the feeling; never announce it ("here's the relief").
-- **Her own mirror,** closet, photo or chair at the salon. Never a stranger judging her.
+- **Her own mirror,** closet, photo or chair at the salon, and now and then the thought she had there, in her own words. Never a stranger judging her.
 - **The why is the relief:** why a look ages her or works (where the eye goes, what light does, proportion).
 - **Keep taking the blame off her,** in fresh words each time, and say what the piece does on the piece ("a coat that stops at the hip adds years", never "your wide middle").
 - **Permission, never a slogan:** what she may stop, what she may keep and how to wear it.
@@ -64,7 +68,7 @@ Every title carries one thing she wants and one thing she fears, even unsaid. Na
 7. **For the voice:** no symbols, stage directions, accents or dashes; numbers as a reader says them; no sentence over 35 words.
 
 ## After writing: check, fix, stop
-Read it aloud once, run the checking program (the style pack says how), then check by eye: the hook (title paid off in sentence one, short, straight into item one); her want and fear back in the video; the book's facts; the ending; the "never" list; no echo of the model. Fix only what fails; never add a line to meet a count.
+Read it aloud once, run the checking program (the style pack says how), then check by eye: the hook (all six beats, in order, item one inside a minute); her want and fear back in the video; the book's facts; the ending; the "never" list; no echo of the model. Fix only what fails; never add a line to meet a count.
 
 ## The book's index
 `personas/books/scarlett-starling-book.md` in this skill: the 300 Ways by chapter, the book match by topic, and the book's stories that never go in a script.
