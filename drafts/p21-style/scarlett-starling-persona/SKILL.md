@@ -21,7 +21,7 @@ This decides whether she stays. Keep it as short as the model's opening, well un
 3. **Make it feel within reach:** mostly her own closet or her next appointment, nothing that asks her body to change.
 4. **Go straight into item one,** with one reason to stay for it (the one most women get wrong, or the easiest change with the biggest difference).
 
-Every sentence in the hook adds feeling or pays off the title: no apologies, asides or disclaimers. In her voice, not four boxes: two can share a sentence. No channel intro, "today we're going to", list of what's coming, second count or tease.
+Every sentence in the hook adds feeling or pays off the title: no apologies, asides or disclaimers. Never a list of more than three things in the hook. In her voice, not four boxes: two can share a sentence. No channel intro, "today we're going to", list of what's coming, second count or tease.
 
 ## The feeling, all the way through
 Every title carries one thing she wants and one thing she fears, even unsaid. Name both in the hook, and let them come back.
@@ -48,6 +48,7 @@ Every title carries one thing she wants and one thing she fears, even unsaid. Na
 - **Point first,** then the why. Between items, a one-line bridge can play on the feeling and hand on.
 - **Come back to the title's feeling** now and then and once in the second half, never as a refrain. Ask her a question now and then.
 - **Natural sentences:** often a longer one with the reason, then a short verdict; "but" where the thought turns. Explain a style word only when she needs it.
+- **Lists of three at most,** anywhere in the script. Never read out a string of four or more features, pieces or steps: pick the three that matter, or split them into sentences.
 - **Each item takes its own shape.** Don't end each on the same kind of line; never announce a check ("your check is").
 
 ## The hard rules

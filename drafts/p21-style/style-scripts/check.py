@@ -313,6 +313,21 @@ def main():
         if w > MAX_SENTENCE:
             fail("long sentence", f"{w} words: \"{s[:120]}...\"")
 
+    # 7b. Lists: three at most (operator, 2026-11-06). The hook fails a sentence with three or more
+    # commas; in the body such sentences are listed for reading by ear.
+    sents = sentences(spoken)
+    seen, body_lists = 0, []
+    for s_ in sents:
+        in_hook = seen < 150 and not re.search(r"\bnumber one\b", " ".join(norm_words(" ".join(sents[:sents.index(s_)]))))
+        if s_.count(",") >= 3:
+            if in_hook:
+                fail("hook list", f"a list of more than three in the hook (three at most): \"{s_[:160]}\"")
+            else:
+                body_lists.append(s_[:110])
+        seen += len(norm_words(s_))
+    if body_lists:
+        infos.append("INFO sentences with three or more commas (read by ear: never a list of more than three): " + " | ".join(body_lists))
+
     # 8. Copying from a model.
     models = load_models(a.models)
     if not models:

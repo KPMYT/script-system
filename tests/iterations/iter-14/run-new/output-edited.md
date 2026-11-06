@@ -1,10 +1,10 @@
 SCRIPT TYPE: Talking Head
 
-These seven haircuts help a woman over sixty look younger instantly, and every one of them avoids the granny cut. Short, rounded, set or sprayed into place, flat at the back with a little dome on top. If you've ever caught your reflection and seen someone older than you feel, that shape is very often the reason. You asked for something easy to keep, and somewhere along the way, easy started adding years.
+These seven haircuts help a woman over sixty look younger instantly, and every one of them avoids the granny cut. Short, rounded and sprayed into place. If you've ever caught your reflection and seen someone older than you feel, that shape is very often the reason. You asked for something easy to keep, and somewhere along the way, easy started adding years.
 
 Your age isn't the problem, and neither is the length of your hair. It's the shape the cut makes around your face, and a shape can change at your very next appointment. So let's start with the cut most women are afraid to try, because it's the one that surprises them most.
 
-Number one is the textured pixie. Now, I know short hair can feel like the very thing you're trying to avoid. But the difference between a pixie that lifts you and a short cut that ages you is all in the finish. A textured pixie has lift at the crown, piecey ends instead of one smooth curve, a clean nape at the back of the neck, and a soft fringe swept to one side. The rounded cut sits on the head like a cap, one smooth surface, and the eye has nothing to follow but the outline. A textured pixie breaks that outline into little pieces, so the eye moves, and movement is what looks fresh and alive.
+Number one is the textured pixie. Now, I know short hair can feel like the very thing you're trying to avoid. But the difference between a pixie that lifts you and a short cut that ages you is all in the finish. A textured pixie has lift at the crown, piecey ends instead of one smooth curve, and a soft fringe swept to one side. At the back, the nape is kept clean and neat. The rounded cut sits on the head like a cap, one smooth surface, and the eye has nothing to follow but the outline. A textured pixie breaks that outline into little pieces, so the eye moves, and movement is what looks fresh and alive.
 
 It's especially good if your hair has become fine or thinner over the years. Short, piecey layers don't have to carry any weight. Long, fine hair tends to hang and show the scalp, while short, lifted hair looks fuller than it really is. And if what you've noticed is sudden shedding or patches, rather than slow thinning, that's a question for your doctor, not your stylist, and well worth asking first.
 
@@ -26,7 +26,7 @@ Number three is the collarbone lob, cut a little longer in the front. A lob is s
 
 But here's the part to remember. About an inch of angle is plenty. Any more and it turns into a dramatic statement cut, sharp at the front and short at the back, and that's a different look altogether. You want the angle to be felt more than noticed. And if your face is long rather than round, keep the angle even softer, or leave it out, because you don't need the extra length.
 
-Collarbone length is kind in another way, too. The ends move against the collarbone rather than resting on the shoulders, where hair tends to flick out and look untidy by lunchtime. If you've grown your hair to the shoulders and it never seems to do anything, this is a lovely place to land. Ask for a collarbone lob, slightly longer in front, about an inch, no more. You'll see your face look longer and more balanced, and you'll notice your collarbone again, which is one of the prettiest lines a woman has.
+Collarbone length is kind in another way, too. The ends move against the collarbone rather than resting on the shoulders, where hair tends to flick out and look untidy by lunchtime. If you've grown your hair to the shoulders and it never seems to do anything, this is a lovely place to land. Ask for a collarbone lob that's slightly longer in front, by about an inch and no more. You'll see your face look longer and more balanced, and you'll notice your collarbone again, which is one of the prettiest lines a woman has.
 
 Now, if the back of your head looks flat whatever you do, this next cut is for you.
 
@@ -75,11 +75,11 @@ Until next time, ladies, stay elegant.
 CHECK: RESULT: PASS | words 2146 | about 13 minutes
 
 VO COPY — ELEVENLABS V4
-These seven haircuts help a woman over sixty look younger instantly, and every one of them avoids the granny cut. [warm] Short, rounded, set or sprayed into place, flat at the back with a little dome on top. If you've ever caught your reflection and seen someone older than you feel, that shape is very often the reason. You asked for something easy to keep, and somewhere along the way, easy started adding years.
+These seven haircuts help a woman over sixty look younger instantly, and every one of them avoids the granny cut. [warm] Short, rounded and sprayed into place. If you've ever caught your reflection and seen someone older than you feel, that shape is very often the reason. You asked for something easy to keep, and somewhere along the way, easy started adding years.
 
 [short pause] Your age isn't the problem, and neither is the length of your hair. It's the shape the cut makes around your face, and a shape can change at your very next appointment. So let's start with the cut most women are afraid to try, because it's the one that surprises them most.
 
-Number one is the textured pixie. [warm] Now, I know short hair can feel like the very thing you're trying to avoid. But the difference between a pixie that lifts you and a short cut that ages you is all in the finish. A textured pixie has lift at the crown, piecey ends instead of one smooth curve, a clean nape at the back of the neck, and a soft fringe swept to one side. The rounded cut sits on the head like a cap, one smooth surface, and the eye has nothing to follow but the outline. A textured pixie breaks that outline into little pieces, so the eye moves, and movement is what looks fresh and alive.
+Number one is the textured pixie. [warm] Now, I know short hair can feel like the very thing you're trying to avoid. But the difference between a pixie that lifts you and a short cut that ages you is all in the finish. A textured pixie has lift at the crown, piecey ends instead of one smooth curve, and a soft fringe swept to one side. At the back, the nape is kept clean and neat. The rounded cut sits on the head like a cap, one smooth surface, and the eye has nothing to follow but the outline. A textured pixie breaks that outline into little pieces, so the eye moves, and movement is what looks fresh and alive.
 
 It's especially good if your hair has become fine or thinner over the years. Short, piecey layers don't have to carry any weight. Long, fine hair tends to hang and show the scalp, while short, lifted hair looks fuller than it really is. [matter-of-fact] And if what you've noticed is sudden shedding or patches, rather than slow thinning, that's a question for your doctor, not your stylist, and well worth asking first.
 
@@ -101,7 +101,7 @@ Number three is the collarbone lob, cut a little longer in the front. A lob is s
 
 [emphatic] But here's the part to remember. About an inch of angle is plenty. Any more and it turns into a dramatic statement cut, sharp at the front and short at the back, and that's a different look altogether. You want the angle to be felt more than noticed. And if your face is long rather than round, keep the angle even softer, or leave it out, because you don't need the extra length.
 
-Collarbone length is kind in another way, too. The ends move against the collarbone rather than resting on the shoulders, where hair tends to flick out and look untidy by lunchtime. If you've grown your hair to the shoulders and it never seems to do anything, this is a lovely place to land. Ask for a collarbone lob, slightly longer in front, about an inch, no more. You'll see your face look longer and more balanced, and you'll notice your collarbone again, which is one of the prettiest lines a woman has.
+Collarbone length is kind in another way, too. The ends move against the collarbone rather than resting on the shoulders, where hair tends to flick out and look untidy by lunchtime. If you've grown your hair to the shoulders and it never seems to do anything, this is a lovely place to land. Ask for a collarbone lob that's slightly longer in front, by about an inch and no more. You'll see your face look longer and more balanced, and you'll notice your collarbone again, which is one of the prettiest lines a woman has.
 
 Now, if the back of your head looks flat whatever you do, this next cut is for you.
 
