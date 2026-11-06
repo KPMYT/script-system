@@ -33,6 +33,8 @@ The hook is where the feeling is strongest, and it decides whether she stays. It
 
 **Push hard.** Say it the way she'll recognise it, with certainty: no "may", "might" or "perhaps" softening the hook ("If your cut is short and rounded, it is adding years", not "you may be wearing it"). Name what it costs her (people see older before they see her) and what she'll get back. Every sentence adds feeling or pays off the title: no apologies, asides or disclaimers, and no list of more than three things. No channel intro, "today we're going to", list of what's coming, second count or tease.
 
+**Hold the reveal** (operator, 2026-11-06: "if our title is saying these 3 powders, we say powders, we dont name them yet so we keep building curiosity until the actual reveal"; for every hook). When the title holds something back ("these 3 powders", "1 cup of this", "this $15 build", "the 8 things", "the one mistake"), the opening says it the way the title does and never names it, not even one of the list. Each one is named only at its own reveal, in the body. Build the curiosity instead: what it does, what it costs her or him today, that it is cheap and already on a shelf. What the title itself names (the sawdust, the grease, the granny cut) can be said.
+
 ## The feeling, all the way through
 Every title carries one thing she wants and one thing she fears, even unsaid. Name both in the hook, and let them come back.
 
@@ -75,6 +77,8 @@ Every title carries one thing she wants and one thing she fears, even unsaid. Na
 
 ## After writing: check, fix, stop
 Read it aloud once, run the checking program (the style pack says how), then check by eye: the hook (all six beats, in order, item one inside a minute); her want and fear back in the video; the French hedges; the book's facts; the ending; the "never" list; no echo of the model. Fix only what fails; never add a line to meet a count.
+
+And check that the opening names nothing the title holds back (each one waits for its reveal).
 
 ## The book's index
 `personas/books/diane-de-chambray-book.md` in this skill: the 101 Secrets by chapter, the book match by topic, and the book's stories and characters that never go in a script.

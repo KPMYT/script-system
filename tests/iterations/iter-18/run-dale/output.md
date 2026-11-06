@@ -1,8 +1,8 @@
 SCRIPT TYPE: Talking Head
 
-If the last thing you built held up fine but sat unsold because it looked homemade, that's normal, and it's fixable. About $15 of pine turns into a raised dog feeder, two steel bowls hanging in a flat top, that's listed around $90. And the detail that sells it doesn't take one more board.
+Dog owners pay around $90 for this build, and it starts as about $15 of pine. If the last thing you built held up fine but sat unsold because it looked homemade, that's normal, and it's fixable. This one sells because the buyer's dog uses it twice a day, and one small detail makes it theirs before they've paid. That detail doesn't take one more board.
 
-Start at the lumber rack, with what to leave there. Plain pine or cedar only, never pressure-treated lumber. It's soaked in chemical preservatives, and it has no business anywhere an animal eats, not even on the parts nobody sees. No exceptions.
+It's a raised dog feeder, two steel bowls hanging in a flat top. Start at the lumber rack, with what to leave there. Plain pine or cedar only, never pressure-treated lumber. It's soaked in chemical preservatives, and it has no business anywhere an animal eats, not even on the parts nobody sees. No exceptions.
 
 For a large stand, you want a one by twelve and a two by six, each about six feet long. That's about $15 of wood, often a little less. Then the bowls. Two stainless steel feeding bowls with a rolled rim, the curled lip that lets a bowl hang in a hole. With those, the whole stand runs about $20 to $30 all in. Prices subject to change, of course. Buy the bowls before you buy anything else, because every template on this build gets made from the bowls sitting on your bench.
 
@@ -69,9 +69,9 @@ Now go make some sawdust.
 CHECK: RESULT: PASS | words 2328 | about 14 minutes
 
 VO COPY — ELEVENLABS V4
-[warm] If the last thing you built held up fine but sat unsold because it looked homemade, that's normal, and it's fixable. About $15 of pine turns into a raised dog feeder, two steel bowls hanging in a flat top, that's listed around $90. And the detail that sells it doesn't take one more board.
+[warm] Dog owners pay around $90 for this build, and it starts as about $15 of pine. If the last thing you built held up fine but sat unsold because it looked homemade, that's normal, and it's fixable. This one sells because the buyer's dog uses it twice a day, and one small detail makes it theirs before they've paid. That detail doesn't take one more board.
 
-Start at the lumber rack, with what to leave there. Plain pine or cedar only, never pressure-treated lumber. It's soaked in chemical preservatives, and it has no business anywhere an animal eats, not even on the parts nobody sees. [emphatic] No exceptions.
+It's a raised dog feeder, two steel bowls hanging in a flat top. Start at the lumber rack, with what to leave there. Plain pine or cedar only, never pressure-treated lumber. It's soaked in chemical preservatives, and it has no business anywhere an animal eats, not even on the parts nobody sees. [emphatic] No exceptions.
 
 For a large stand, you want a one by twelve and a two by six, each about six feet long. That's about $15 of wood, often a little less. Then the bowls. Two stainless steel feeding bowls with a rolled rim, the curled lip that lets a bowl hang in a hole. With those, the whole stand runs about $20 to $30 all in. Prices subject to change, of course. [matter-of-fact] Buy the bowls before you buy anything else, because every template on this build gets made from the bowls sitting on your bench.
 

@@ -23,6 +23,8 @@ As short as the model's. In one to three sentences: the title's promise with its
 - Then into what you need, announced: straight to the first item and its price, or "here's what you need" in fresh words.
 - No greeting, channel intro, "today we're going to", "let's get into it", "let's go", list of what's coming or tease.
 
+**Hold the reveal** (operator, 2026-11-06: "if our title is saying these 3 powders, we say powders, we dont name them yet so we keep building curiosity until the actual reveal"; for every hook). When the title holds something back ("these 3 powders", "1 cup of this", "this $15 build", "the 8 things", "the one mistake"), the opening says it the way the title does and never names it, not even one of the list. Each one is named only at its own reveal, in the body. Build the curiosity instead: what it does, what it costs her or him today, that it is cheap and already on a shelf. What the title itself names (the sawdust, the grease, the granny cut) can be said.
+
 ## The feeling, all the way through
 The viewer is a beginner, often over 50, who wants side money and doubts anything they make would sell; they fear buying the wrong tools, wasting wood and work that looks homemade, and they're proud of doing it themselves.
 - Answer the doubt with proof: the listings, the cost, what's left. "Personalized" and "handmade, not homemade" are ideas to use, never stock sentences.
@@ -59,6 +61,8 @@ The viewer is a beginner, often over 50, who wants side money and doubts anythin
 
 ## After writing: check, fix, stop
 Read it aloud once, run the checking program (the pack says how), then check by eye: the opening; each safety line where its risk is; the line back from the book; every price against the pack; the ending's order; the "never" list; no echo of the model. Fix only what fails; never add a line to meet a count.
+
+And check that the opening names nothing the title holds back (each one waits for its reveal).
 
 ## The book's index
 `personas/books/hank-hardwood-book.md` in this skill: the chapters and the 100 builds with their printed pages, then the text, for the book match.

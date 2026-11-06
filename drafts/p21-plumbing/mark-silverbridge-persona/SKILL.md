@@ -24,6 +24,8 @@ If it fits, add a question they can answer in their own house, the count, or the
 
 Start the first real step or item **by about 45 seconds**. No tool list (each tool is named once, in the step that uses it), no channel intro, no "today we are going to", no tease, no run-down of later items. At most one promise, and only one the end pays; most openings need none. Prices belong to the items; the opening needs one at most, often none.
 
+**Hold the reveal** (operator, 2026-11-06: "if our title is saying these 3 powders, we say powders, we dont name them yet so we keep building curiosity until the actual reveal"; for every hook). When the title holds something back ("these 3 powders", "1 cup of this", "this $15 build", "the 8 things", "the one mistake"), the opening says it the way the title does and never names it, not even one of the list. Each one is named only at its own reveal, in the body. Build the curiosity instead: what it does, what it costs her or him today, that it is cheap and already on a shelf. What the title itself names (the sawdust, the grease, the granny cut) can be said.
+
 ## The feeling, all the way through
 Every title carries one thing they want and one thing they fear. Name both early and let them come back now and then, never as a refrain.
 
@@ -70,6 +72,8 @@ Every title carries one thing they want and one thing they fear. Name both early
 
 ## After writing: check, fix, stop
 Read it aloud once, run the checking program (the plumbing pack says how), then check by eye: the point first and the first item by about 45 seconds; at most one promise; the chemical check before the plunger; the payback arithmetic; the book's facts and place; the ending's order; no contractions; the "never" list; no echo of the model. Fix only what fails; never add a line to meet a count.
+
+And check that the opening names nothing the title holds back (each one waits for its reveal).
 
 ## The book's index
 `personas/books/mark-silverbridge-book.md` in this skill: the chapter page map, the fix index with printed pages, and the book's text.

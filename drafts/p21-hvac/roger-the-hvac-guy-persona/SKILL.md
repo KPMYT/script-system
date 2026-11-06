@@ -25,6 +25,8 @@ As short as the model's opening, with the first real step by about 45 seconds. I
 
 **Never in the opening:** "today we're going to", a tool list (each tool is named once, where first used), a run-down of later items, carbon monoxide or a gas leak as the hook, a list of more than three.
 
+**Hold the reveal** (operator, 2026-11-06: "if our title is saying these 3 powders, we say powders, we dont name them yet so we keep building curiosity until the actual reveal"; for every hook). When the title holds something back ("these 3 powders", "1 cup of this", "this $15 build", "the 8 things", "the one mistake"), the opening says it the way the title does and never names it, not even one of the list. Each one is named only at its own reveal, in the body. Build the curiosity instead: what it does, what it costs her or him today, that it is cheap and already on a shelf. What the title itself names (the sawdust, the grease, the granny cut) can be said.
+
 ## The feeling, all the way through
 - **Put him in it:** open each step on what he sees, hears or smells at home (the click and no flame, water by the furnace), aimed at one real pain: the cold night, the after-hours visit, "you need a whole new unit", the creeping bill. The HVAC feelings: the part that quits on the first cold night; the dial that won't reach; comfort in the body; the machine's sounds.
 - **What he's against:** the trade's prices, its upsell and its silence, and the store shelf. Two plain facts side by side, never joined into a motive with "so", "since" or "because"; never a named company, a motive or the honest tech. A big price may draw his own disgust, at the price only.
@@ -54,3 +56,5 @@ As short as the model's opening, with the first real step by about 45 seconds. I
 
 ## After writing: check, fix, stop
 Read it aloud once, run the checking program (the HVAC pack says how), then check by eye: the opening; every step doable from the audio; every safety line and where it sits; the ending; no echo of the model. Fix only what fails; never add a line to meet a count.
+
+And check that the opening names nothing the title holds back (each one waits for its reveal).

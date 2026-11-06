@@ -21,6 +21,8 @@ As short as the model's. In one to three sentences: the viewer's exact frustrati
 - Then into what you need, announced: straight to the first item and its price, or the list announced in fresh words.
 - No greeting, "I'm Dale Oakfield", channel name, "today we're going to", "let's get into it", list of what's coming or tease.
 
+**Hold the reveal** (operator, 2026-11-06: "if our title is saying these 3 powders, we say powders, we dont name them yet so we keep building curiosity until the actual reveal"; for every hook). When the title holds something back ("these 3 powders", "1 cup of this", "this $15 build", "the 8 things", "the one mistake"), the opening says it the way the title does and never names it, not even one of the list. Each one is named only at its own reveal, in the body. Build the curiosity instead: what it does, what it costs her or him today, that it is cheap and already on a shelf. What the title itself names (the sawdust, the grease, the granny cut) can be said.
+
 ## The feeling, all the way through
 The viewer is a man of 45 or over, beginner to intermediate, in a home garage or basement shop, who wants builds that hold up and sell, and fixes he can use this weekend. Underneath: doubt that anything he makes would sell, and worry about wasted wood and tool money.
 - Most ruined builds trace back to one missing fundamental. Show where the mistake starts, and that it's normal and fixable.
@@ -57,6 +59,8 @@ The viewer is a man of 45 or over, beginner to intermediate, in a home garage or
 
 ## After writing: check, fix, stop
 Read it aloud once, run the checking program (the pack says how), then check by eye: the opening; each safety line where its risk is; the pitch's shape and its line back; each book mention against the book match; every price against the pack; the ending's order; the "never" list; no echo of the model. Fix only what fails; never add a line to meet a count.
+
+And check that the opening names nothing the title holds back (each one waits for its reveal).
 
 ## The book's text
 `personas/books/dale-oakfield-book.md` in this skill: the chapter page map, then the book's text page by page (it prints no page numbers; cite the PDF page shown), for the book match and the mentions.

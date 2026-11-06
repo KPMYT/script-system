@@ -24,6 +24,8 @@ If it fits, add a question they can answer in their own house, the count line na
 
 Start the first real tip or item **by about 45 seconds**. No tool list, no channel intro, no "today we're going to", no tease. The count line never says what any single item holds: no "number five is the one that...", no "number eight is the rule I'll give you" (four of his seven newest openings did this, 2026-11-05 audit). At most one promise, and only one the end pays; most openings need none. Prices belong to the items; the opening needs one at most, often none.
 
+**Hold the reveal** (operator, 2026-11-06: "if our title is saying these 3 powders, we say powders, we dont name them yet so we keep building curiosity until the actual reveal"; for every hook). When the title holds something back ("these 3 powders", "1 cup of this", "this $15 build", "the 8 things", "the one mistake"), the opening says it the way the title does and never names it, not even one of the list. Each one is named only at its own reveal, in the body. Build the curiosity instead: what it does, what it costs her or him today, that it is cheap and already on a shelf. What the title itself names (the sawdust, the grease, the granny cut) can be said.
+
 ## The feeling, all the way through
 Every title carries one thing they want and one thing they fear. Name both early and let them come back now and then, never as a refrain.
 
@@ -67,3 +69,5 @@ Every title carries one thing they want and one thing they fear. Name both early
 
 ## After writing: check, fix, stop
 Read it aloud once, run the checking program (the plumbing pack says how), then check by eye: the point first and the first item by about 45 seconds; the count line naming no single item; at most one promise; the chemical check before the plunger; the ending's order; the "never" list; no echo of the model. Fix only what fails; never add a line to meet a count.
+
+And check that the opening names nothing the title holds back (each one waits for its reveal).
