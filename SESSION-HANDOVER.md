@@ -354,7 +354,7 @@ The spellings here are correct; where a skill differs, the skill has the typo.
 | Beau Carter | animals: dogs | |
 | Gideon Grant | philosophy (Stoic) | |
 
-Not active: Master Kenji and Sawdust Sam (woodworking), and the fabrics channels.
+Not active: Master Kenji and Sawdust Sam (woodworking), the fabrics channels, and (operator, 2026-11-06: "the channels with no scrtip skill are NOT active") every channel without a script skill: Norbert Daniels, Lance Kavanaugh, Helena Hart, Backyard Brenda, Walter Wren, Luca Merino, Beau Carter and Gideon Grant.
 
 ## The operator's skills
 
