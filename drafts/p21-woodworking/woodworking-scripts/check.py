@@ -375,7 +375,7 @@ def main():
     # 8. The voice.
     for i, line in enumerate(spoken_lines, 1):
         for pat, why in [(r"\b\d+\s?[x×]\s?\d+\b|\b\d+[- ]by[- ]\d+\b", "a size written with numbers (say 'a two by four')"),
-                         (r"\b\d+(?:\.\d+)?\s?(?:in|ft|oz|lbs?|gal|mm|cm|psi)\b\.?|\d\s?[\"']|°", "a unit abbreviation or symbol"),
+                         (r"\b\d+(?:\.\d+)?\s?(?:in(?!\s+(?:the|a|an|my|your|his|her|this|that|each|every|one|two|front|back|place|half|line|stock)\b)|ft|oz|lbs?|gal|mm|cm|psi)\b\.?|\d\s?[\"']|°", "a unit abbreviation or symbol"),
                          (r"\b\d+/\d+\b|[½¼¾⅛⅜⅝⅞]", "a fraction with a slash"),
                          (r"\b\d[\d,]*\s+\$?\d", "two numbers side by side"),
                          (r"[%&+#=~@/\\|*_<>{}\[\]()]", "a symbol, bracket or label"),
