@@ -39,7 +39,7 @@ Pick the type that fits the title, and read its model. Where two are listed, tak
 | **Body-shape fixes** | Line, proportion and silhouette for a body part, never weight; opens on reassurance | `M24-diana-goss.md` |
 | **The rules she never breaks** | The woman who gets it right, or the French rules: each rule a habit and a swap | Diane: `M28-aliceinparis.md`, then `M21-marie-anne-lecoeur.md`; Scarlett: `M18-capsule-closet-stylist.md` |
 | **The why explainer** | The hidden cause, then the fixes | hair: `M01-summer-beauty.md`; fashion: `M19-beth-djalali.md` |
-| **One mistake, then N swaps** | The one mistake explained early, then each swap a full item | `M13-adore-your-wardrobe.md`, then `M19-beth-djalali.md` |
+| **One mistake, then N swaps** | The one mistake explained early, then each swap a full item fashion: `M13-adore-your-wardrobe.md`, then `M19-beth-djalali.md`; hair: `M04-chery.md` |
 
 All files are in `references/models/`. Read one, not all.
 

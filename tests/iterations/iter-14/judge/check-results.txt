@@ -1,0 +1,23 @@
+Check program results (main session, 2026-11-06). The CTA markers are stripped from all three scripts so they look alike, so marker and book-block lines are left out here. FAIL = a hard rule broken; INFO = for reading only.
+
+== K
+FAIL banned: an old house line: "That ease is exactly what reads as young."
+FAIL banned: the old 'I gathered' book line: "That swap, a layered bob instead of a blunt one, is exactly the kind of small change I gathered into my book, Three Hundred Budget-Friendly Ways to Look Expensi"
+FAIL harsh word: 'granny' or 'old lady' said 6 times; at most once, flagged as harsh
+FAIL long sentence: 36 words: "Have you ever asked for something simple at the salon, just a tidy cut that's easy to keep, and then caught your reflect..."
+FAIL long sentence: 37 words: "Layers that begin there open up your face right where you want the attention, around your eyes and the tops of your chee..."
+INFO the hook's first sentence (does it pay off the title?): "Have you ever asked for something simple at the salon, just a tidy cut that's easy to keep, and then caught your reflection on the way home and thought, when di" | title words in it: cut
+INFO the title's words said: granny 6, younger 1, instantly 0
+INFO endearment 0, 'when I was designing' 0: no number to reach
+INFO 2232 words, about 13.2 minutes at 169 words a minute
+== L
+INFO the hook's first sentence (does it pay off the title?): "These seven haircuts help a woman over sixty look younger instantly, and every one of them avoids the granny cut." | title words in it: cut, granny, haircuts, instantly, look, younger
+INFO the title's words said: granny 1, younger 1, instantly 1
+INFO endearment 2, 'when I was designing' 1: no number to reach
+INFO 2146 words, about 12.7 minutes at 169 words a minute
+== M
+FAIL long sentence: 36 words: "A shag is a layered cut where the shortest layers sit at your crown and every layer below it gets longer with the ends f..."
+INFO the hook's first sentence (does it pay off the title?): "Forgive me, but the granny cut adds years to a face." | title words in it: cut, granny
+INFO the title's words said: granny 1, younger 6, instantly 3
+INFO endearment 0, 'when I was designing' 0: no number to reach
+INFO 2395 words, about 14.2 minutes at 169 words a minute
