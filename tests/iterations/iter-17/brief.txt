@@ -1,0 +1,62 @@
+TEST BRIEF (iter-17): written by a setup helper as talking points from the operator's batch-1 brief for this title (KPMYT/niche-research, branch claude/hvac-research-czb2hy, studies/hvac/ideation/batch1-briefs-2026-10-27-corrected.tsv, row 5, with its 2026-10-27 price and facts corrections), widened to cover the ground the published video (M8E5OVsZM_s, captions in tests/iterations/iter-12/published-M8E5OVsZM_s.txt) covers, with every price from hvac-scripts/references/price-guide.md; not a script
+TITLE: 1 Cup of This Keeps Your Furnace Drain Line Clear All Winter — And It's NOT Bleach
+CHANNEL: Roger the HVAC Guy
+BRIEF (talking points):
+- The cup: plain white vinegar. About $4 to $5 a gallon (price guide). A gallon is 16 cups, so a monthly cup works out to about 25 to 30 cents (cost per use).
+- Whose furnace this is for: only high-efficiency condensing furnaces (90 percent or higher on the efficiency rating, two white plastic (PVC) vent pipes out through the wall or roof). Why they make water: they take enough heat out of the exhaust that it cools and condenses. Standard 80 percent furnaces (metal flue into a chimney) have no condensate drain of their own; a drain hose near one is usually the AC coil's (a separate summer job, not this video).
+- How much water: on a cold day a high-efficiency furnace can make several gallons of water, up to about 8 to 10 when it runs hard, and it's slightly acidic (price guide).
+- The path: plastic trap (low on the furnace; always holds some water) → hose or pipe → floor drain, or a condensate pump.
+- The problem: slime and biofilm build up in the trap and line over a season (standing water, warmth, dust). Clogged line → water backs up → the pressure switch can't close → the furnace shuts down, short cycles or shows an error code; or the trap overflows onto the floor. Terms to explain: pressure switch (a safety switch that lets the burners light only once it senses the inducer drawing exhaust), inducer (the small fan that pushes exhaust out the PVC pipes).
+- Money: a clogged condensate line or trap cleared by a tech runs about $100 to $250, more at night or on a weekend (price guide). Nothing in the furnace is broken when this happens.
+- Why not bleach:
+  - The fair side: bleach does kill slime.
+  - Carrier and Lennox recommend white vinegar over bleach for condensate lines; Carrier says harsh chemicals can damage system components. Furnace manuals usually call for plain water in the trap.
+  - The parts at stake: a plastic trap, hoses, sometimes a pump. Vinegar: a mild acid, loosens biofilm, gentle on them.
+  - Never mix bleach and vinegar: together they give off toxic chlorine gas. If bleach has gone down the line before, flush it well with plain water before the first vinegar (check: sensible, not in the operator's brief).
+  - Honest trade-off: slower acting than bleach; it works as a regular habit, not one dose.
+- Where to pour it:
+  - Only the drain line's cleanout (capped access stub) or vent tee (T fitting open to the air); trace the line with a flashlight to find it.
+  - Neither one: remove the trap as the furnace manual shows (usually hose clamps).
+  - Never the small rubber pressure-switch hoses, never the inducer.
+  - Unsure which opening is which: don't guess; ask a tech at the next visit.
+- The method:
+  - Thermostat down, blower stopped, furnace power switch off (a light-switch-style switch on or near the unit).
+  - Cabinet door off to reach the trap: confirm power off first with a non-contact voltage tester, about $15 to $25 (price guide), tested first on a known live outlet or lamp.
+  - About one cup of white vinegar, poured slowly into the cleanout or vent tee. Wait 30 minutes.
+  - Flush with a cup or two of warm tap water (not boiling).
+  - Check the outlet end: steady flow (possibly cloudy, with bits of slime) = open.
+- The trap must be full of water before the power goes back on:
+  - The water in the trap is a seal. If it's dry, exhaust gas can push out through the drain into the house, and the furnace may not light. Furnace makers say to fill the trap before start-up (price guide; can cite as "furnace makers say").
+  - Trap removed and emptied: refill with plain water before refitting. Flushed via the cleanout: finish with plain water so the trap is full.
+  - Door on, power on, thermostat back; normal start-up sequence: inducer, then ignition, then burners and warm air; floor dry.
+- The condensate pump (if there's no floor drain nearby):
+  - What it is: a small tank-and-motor unit by the furnace; a float starts the motor as the tank fills; a tube carries the water away.
+  - Biofilm reaches the tank and can stick the float. Many pumps have a safety (float) switch that cuts the furnace before an overflow: a no-heat that isn't the furnace's fault.
+  - The vinegar flush passes through the pump too. Check while flushing: it should cycle and empty. Runs but won't empty, or never starts with a full tank: replace it (a call). Installed by a tech: about $150 to $450 (price guide).
+  - Never bypass the float switch.
+- How often ("all winter"): one cup once a month, or every other month, through the heating season. Once doesn't last all winter; the title's promise is the monthly habit, said plainly. Biofilm takes weeks to build up. A missed month isn't a problem.
+- The limit and the ladder:
+  - Prevention, not a cure for a fully blocked line (sign: the vinegar doesn't drain away).
+  - Next rung: power off and confirmed off; remove the trap per the manual; rinse it out (warm water, a little vinegar); refill with plain water; refit.
+- Stop signs (call a tech you trust): cracked trap; a sagging hose that can't drain downhill; the error code still showing with a clear line; water with no visible source; a pump that won't empty.
+- The stake: leaks under a basement furnace damage flooring, drywall and stored things. Water damage: a small one-room leak about $150 to $500; a typical job about $1,300 to $6,000 (price guide).
+- The payoff: pennies and a few minutes of work a month, against a mid-winter no-heat call.
+- A small thing for tonight (one idea): find the drain line and its cleanout or vent tee.
+- Safety notes:
+  - Power off before opening anything; proved off with a tester if the door comes off; say how it comes back on.
+  - One cleaner at a time: never bleach with vinegar (chlorine gas).
+  - Nothing into the pressure-switch hoses or the inducer.
+  - Refill the trap with water before the power goes back on.
+  - Never bypass the pressure switch or the pump's float switch.
+  - No hose pressure or compressed air blasted into the line (check: not in the operator's brief).
+  - If the script mentions a gas smell or a carbon monoxide alarm going off, every step from the price guide's section 9. Carbon monoxide is a safety line, never the hook.
+- Boundaries:
+  - Only condensing furnaces have this drain; say so early and plainly.
+  - Say what Carrier and Lennox recommend and what Carrier gives as the reason; don't put more in their mouths. No other brand named.
+  - Don't promise one cup lasts all winter, and don't promise it unclogs a packed line.
+  - No guaranteed saving ("can save you the visit", never "saves you $250").
+  - Don't claim to know what techs think or why they charge it; state the price and the silence as facts.
+  - Prices as rounded ranges from the price guide only, at most one per item; never cents except the cost per use.
+  - Tenure: 45 years, said once at most. His one personal detail, if used: his filter check on the first of the month, with his coffee. No customer stories.
+  - Never the other Roger channel or its book. No book on this channel.
+ROTATION LOG: none
