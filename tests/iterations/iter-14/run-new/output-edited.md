@@ -1,6 +1,6 @@
 SCRIPT TYPE: Talking Head
 
-These seven haircuts help a woman over sixty look younger instantly, and every one of them avoids the granny cut. It's a harsh name, I know, and it describes a shape, never the woman wearing it. Short, rounded, set or sprayed into place, flat at the back with a little dome on top. If you've ever passed a mirror and seen someone older than you feel, that shape is very often the reason.
+These seven haircuts help a woman over sixty look younger instantly, and every one of them avoids the granny cut. Short, rounded, set or sprayed into place, flat at the back with a little dome on top. If you've ever caught your reflection and seen someone older than you feel, that shape is very often the reason. You asked for something easy to keep, and somewhere along the way, easy started adding years.
 
 Your age isn't the problem, and neither is the length of your hair. It's the shape the cut makes around your face, and a shape can change at your very next appointment. So let's start with the cut most women are afraid to try, because it's the one that surprises them most.
 
@@ -75,7 +75,7 @@ Until next time, ladies, stay elegant.
 CHECK: RESULT: PASS | words 2146 | about 13 minutes
 
 VO COPY — ELEVENLABS V4
-These seven haircuts help a woman over sixty look younger instantly, and every one of them avoids the granny cut. [warm] It's a harsh name, I know, and it describes a shape, never the woman wearing it. Short, rounded, set or sprayed into place, flat at the back with a little dome on top. If you've ever passed a mirror and seen someone older than you feel, that shape is very often the reason.
+These seven haircuts help a woman over sixty look younger instantly, and every one of them avoids the granny cut. [warm] Short, rounded, set or sprayed into place, flat at the back with a little dome on top. If you've ever caught your reflection and seen someone older than you feel, that shape is very often the reason. You asked for something easy to keep, and somewhere along the way, easy started adding years.
 
 [short pause] Your age isn't the problem, and neither is the length of your hair. It's the shape the cut makes around your face, and a shape can change at your very next appointment. So let's start with the cut most women are afraid to try, because it's the one that surprises them most.
 
