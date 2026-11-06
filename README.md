@@ -1,6 +1,8 @@
 # Script System: what's in each file
 
-The whole system is one library. `core/` holds the rules every channel uses. Each niche gets its own pack (so far, `woodworking-scripts/`, `plumbing-scripts/`, `electrical-scripts/` and `hvac-scripts/`). Each channel gets a persona profile in `personas/`. Typing **START** runs `core/workflow.md`, which pulls in everything else.
+The whole system is one library. `core/` holds the rules every channel uses. Each niche gets its own pack (`woodworking-scripts/`, `plumbing-scripts/`, `hvac-scripts/`, `style-scripts/` and `electrical-scripts/`). Each channel gets a persona page in `personas/`. Typing **START** runs `core/workflow.md`, which asks for the channel and pulls in everything else.
+
+**P21 (applied 2026-11-06 for style, plumbing, HVAC and woodworking; operator: "yes use defaults"):** those four packs are now the simple version: `SKILL.md` (the steps), `check.py` (the hard-rules check) and `references/` (real model transcripts, plus the price guide or the research-pack template), and each of their channels has a one-page persona page. For these channels the pack replaces `core/workflow.md` sections 2 to 6 and the other core files. Electrical keeps the full core way. The old packs and profiles are in `archive/pre-p21-2026-11-06/`. Sawdust Sam is dropped (operator, 2026-11-06).
 
 ## core/ (every channel)
 
@@ -21,44 +23,39 @@ The whole system is one library. `core/` holds the rules every channel uses. Eac
 | `greenlight-audit.md` | The final quality gate: checks A-F, three verdicts, the three-round cap, and the evidence block. |
 | `script-scanner.py` | The program that mechanically checks a script: banned phrases (including retention teases), dashes and odd characters, forms the voice misreads (2x4, 8 ft, 3/8, 19%, symbols, KD19, "haha"), production notes read aloud ("CTA", "stinger", "mid-roll", "continuing with the final sections"), the same sentence twice in a row, the persona's fixed facts from its profile (a different years-in-the-trade figure, a near-miss of the channel, persona or book name), the script talking about its own thumbnail or title (judged), niche bans, filler counts, echoes, numbers missing from the research pack, and (with `--refs`) any run of 8+ words copied from the niche pack's reference files. |
 
-## woodworking-scripts/ (the woodworking niche pack)
+## woodworking-scripts/ (the woodworking niche pack; P21, 2026-11-06)
 
 | File | What's in it |
 |---|---|
-| `SKILL.md` | All woodworking-for-profit rules: inputs, freshness, viewer, skeleton, steps, length, heritage builds (old-world styles: heritage beats, general hedged history, proof from the plain product; 2026-10-23), money math, proof, where to sell, safety, voice, AI-visual writing, banned list, scanner rules. |
-| `references/research-pack-template.md` | What a woodworking research pack must contain. |
-| `references/unit-plan-template.md` | The plan filled in before writing, so length comes from the content. |
-| `references/voice-samples.md` | Three real narration samples from winning competitors: the voice anchor. |
-| `references/excerpts.md` | Winning competitors' lines in 15 groups by job (10-15 each), each marked as usable, rewrite or doesn't transfer. |
-| `references/reference-scripts.md` | Eight complete winning scripts, labelled with the skeleton, each with why it works, the unit plan it implies and what doesn't transfer. Read at the planning step; never copy wording. |
-| `archive/` | The full BeardedViking and WhosTheVoss transcripts, plus `most-viewed-24mo/` (each channel's 10 most-viewed from the last 24 months, with views and normal), used for calibration only. |
+| `SKILL.md` | The steps for the woodworking-for-profit channels (Hank Hardwood, Dale Oakfield's Workshop): inputs, NOT READY, the video type and its model, write, read aloud, check, the output. The research pack is still a required input (operator default, 2026-11-06). |
+| `check.py` | The hard-rules check (no counts to meet): `python3 check.py SCRIPT --channel hank|dale --title "..." --brief BRIEF` [--pack PACK]. FAIL lines must be fixed; INFO lines are for reading. |
+| `references/models/` | Six real makers' transcripts (W01 to W06, WhosTheVoss and Bearded Viking), one per file, with what to take, what not to take and signature phrases quoted exactly. |
+| `references/research-pack-template.md` | The research pack's layout, unchanged. |
 
-## plumbing-scripts/ (the plumbing niche pack)
+Built from `drafts/p21-woodworking/` (kept there; its `README.md` lists every file, what it replaces, what was dropped and the doubts). The old pack is in `archive/pre-p21-2026-11-06/woodworking-scripts/`.
 
-| File | What's in it |
-|---|---|
-| `SKILL.md` | All plumbing rules, approved by the operator (2026-10-21): where the pack overrides the core (one table), inputs (title and brief; no research pack), the viewer, the villain (all the way through, with disgust at big prices), the opening, emotion all the way through, point then promise, promise devices, the ten video types with their models and the list item shape, using the models (never a copy), CTAs (Roger's and Mark's six-part mid-video ask after item 2 or 3), the ending (comment line last), length (12 minutes minimum), voice, proof, money framing, safety (the brief wins), the banned list, the scanner block and the before-handing-over checklist. |
-| `references/unit-plan-template.md` | The plan filled in from the title and brief before writing, with MODELS and EMOTION blocks. |
-| `references/price-guide.md` | Typical US prices (October 2026) for about 140 jobs, parts, damage costs and shelf items, plus the safety facts and settings, each marked confirmed, adjusted, thin or "in words". Researched by four helpers and re-checked by four others against different sources; the evidence is in `studies/plumbing/price-research-2026-10/`. The script uses it for any price the brief doesn't give, always as an estimate. |
-| `references/voice-samples.md` | Three verbatim stretches of real human narration (Got2Learn, Silver Cymbal, Roger Wakefield): the voice anchor. |
-| `references/excerpts.md` | 204 lines in 16 groups by job, tagged [real] or [structure only], with source, timestamp and views against normal. |
-| `references/models/` | 39 model files, each a beat map plus the full labelled script, why it works and what doesn't transfer: R01-R20 the real channels (structure and voice), S01-S18 our hits and TheCheapFix (structure only), and R21, a drywall repair video (not plumbing) kept for two opening moves only (the problem introduced clearly, the escalation explained simply), with no script and no beat map. `INDEX.md` sorts them by video type. |
-| `archive/` | The four real channels' transcripts (Silver Cymbal, Roger Wakefield, Got2Learn, Arrow Pest Service). Calibration only; not in the installed skill. |
-| `model-file-spec.md` | How the model files were built, for adding models later. Not in the installed skill. |
-
-## hvac-scripts/ (the HVAC niche pack, built 2026-10-27)
-
-For Roger the HVAC Guy. Built from the plumbing pack (as installed on the account, with the escalation line) and changed only where HVAC differs, on the evidence of the HVAC study (`studies/hvac/`) and the operator's answers of 2026-10-27 (`HANDOFF.md` §3). Every reference is a real person on camera (operator: "we dont want any ai or faceless for reference").
+## plumbing-scripts/ (the plumbing niche pack; P21, 2026-11-06)
 
 | File | What's in it |
 |---|---|
-| `SKILL.md` | The HVAC rules: the overrides table (the plumbing pack's, carried over), inputs (title, brief, rotation log), the viewer (from 1,483 HVAC comments), the villain (the trade's prices, the upsell and the silence; never the honest tech), the opening (the breakdown moment and the escalation line as options), emotion all the way through (plus the HVAC feelings: the clock, the dial that won't reach, comfort, the machine's sounds), point then promise, the video types and item shape (about 150-250 words an item), the models, CTAs (no book for now), the ending, length (12 minutes), voice (HVAC spoken forms), proof, money framing, the HVAC safety defaults (gas leak and carbon monoxide every step), the banned list (with the faceless leader's catchphrases) and the scanner block. |
-| `references/unit-plan-template.md` | The plan, with season and system-scope lines and the HVAC safety defaults. |
-| `references/voice-samples.md` | Three provisional voice stretches from real tradesmen on camera (The Funny Carpenter, Word of Advice TV, Silver Cymbal), until the operator listens and picks. |
-| `references/excerpts.md` | Real HVAC lines grouped by job, from real people on camera only. |
-| `references/price-guide.md` | HVAC prices and the safety facts, two-source checked (research in `studies/hvac/price-research-2026-10/`). |
-| `references/models/INDEX.md`, `R04-...md` to `R44-...md` | The model library (built by `tools/build_hvac_model_index.py`): HVAC winners from R22 on, and ten plumbing and home-repair models kept from the plumbing pack. |
-| `model-file-spec.md` | How the HVAC model files are built (not part of the skill). |
+| `SKILL.md` | The steps for the plumbing channels (Roger the Pipe Guy, Mark Silverbridge, The Vintage Pipefitter, Werner Finkbeiner): inputs, NOT READY, the video type and its model, write, read aloud, check, the output. |
+| `check.py` | The hard-rules check (no counts to meet): `python3 check.py SCRIPT --channel roger|mark|vintage|werner --title "..." --brief BRIEF` [--prices FILE]. FAIL lines must be fixed; INFO lines are for reading. |
+| `references/models/` | Seven real on-camera transcripts (R04, R13, R14 Roger Wakefield; R06, R15, R16, R18 Silver Cymbal), kept at seven (operator default, 2026-11-06). |
+| `references/price-guide.md` | The plumbing price guide, unchanged (byte-identical to the archived one; research in `studies/plumbing/price-research-2026-10/`). |
+
+Built from `drafts/p21-plumbing/` (kept there; its `README.md` lists every file, what it replaces, what was dropped and the doubts). The old pack is in `archive/pre-p21-2026-11-06/plumbing-scripts/`.
+
+## hvac-scripts/ (the HVAC niche pack; P21, 2026-11-06)
+
+| File | What's in it |
+|---|---|
+| `SKILL.md` | The steps for the HVAC channel (Roger the HVAC Guy): inputs, NOT READY, the video type and its model, write, read aloud, check, the output. Words per minute stays unset, counted at 150 (operator default, 2026-11-06). |
+| `check.py` | The hard-rules check (no counts to meet): `python3 check.py SCRIPT --channel roger-hvac --title "..." --brief BRIEF` [--prices FILE]. FAIL lines must be fixed; INFO lines are for reading. |
+| `references/models/` | Eight real on-camera HVAC transcripts (R22, R23, R25, R27, R28, R34, R35, R42). |
+| `references/price-guide.md` | The HVAC price guide and safety facts, unchanged (byte-identical to the archived one; research in `studies/hvac/price-research-2026-10/`). |
+
+Built from `drafts/p21-hvac/` (kept there; its `README.md` lists every file, what it replaces, what was dropped and the doubts). The old pack is in `archive/pre-p21-2026-11-06/hvac-scripts/`.
+
 ## electrical-scripts/ (the electrical niche pack)
 
 Built 2026-10-27 for Frederick Barnes from the plumbing pack, with electrical's own formats, emotions and models (research in the niche-research repository, `studies/electrical/`). Reviewed by seven checkers (2026-10-27; reports in `studies/electrical/pack-review-2026-10-27/`); Frederick's status stays pending until his voice provider is confirmed.
@@ -73,19 +70,15 @@ Built 2026-10-27 for Frederick Barnes from the plumbing pack, with electrical's 
 | `references/models/` | 31 model files (E01-E37, no E06; E33-E37 added after review R3; E08, E12, E17, E20, E23 and E38 removed 2026-10-27 to `studies/electrical/models-removed-2026-10-27/`): real channels, 1M+ views, all 2022 on; each a beat map, emotion voicing, why it works, the full labelled script and what doesn't transfer. `INDEX.md` sorts them by video type. |
 | `model-file-spec.md` | How the model files were built. Not in the installed skill. |
 
-## style-scripts/ (the hair-and-fashion niche pack, built 2026-10-29)
-
-Built for Scarlett Starling and Diane de Chambray from the style study (`studies/style/`) and the approved diagnosis (`drafts/style-pack-diagnosis-DRAFT.md`): one pack for hair and fashion for women over 50; makeup is a separate pack later. Both channels are pending (the operator's voice-sample listen, the book texts, a test run).
+## style-scripts/ (the hair-and-fashion niche pack; P21, 2026-11-06)
 
 | File | What's in it |
 |---|---|
-| `SKILL.md` | All style rules: where the pack overrides the core, inputs (title and brief; no research pack), the viewer (median age 70), the villain (optional; never the salon), the opening (the title's promise word early, item one by about 45 seconds), emotion built from this niche (practical fixes for emotional problems, a feeling in about a quarter of items, permission never as a slogan, the why as the relief, the flagged hard word) with hair and fashion notes, point then promise, the eight video types and the item shape, using the models, the book as the only CTA, the ending (the comment ask about her, no sign-off), length (12 minutes minimum, 12 to 16 the aim), voice (French words written for the voice), proof, money (prices only on budget titles), the six safety defaults (the brief wins), the banned list, the scanner block (tested on 105 transcripts; `title-words`) and the checklist. |
-| `references/unit-plan-template.md` | The plan filled in from the title and brief before writing, with MODELS, OPENING, ITEMS, EMOTION, SAFETY and CTA blocks. |
-| `references/hooks.md` | The hook bank: every model's hook up to item one (verbatim for the real presenters, moves only for the faceless), its moves, words, seconds to item one, the feeling it aims at and whether a persona can use it; what the winners' hooks share. Every script's hook carries one of these formats. |
-| `references/excerpts.md` | 81 real lines in 14 groups by job (the hook's first line, the why, the turn, the swap, the check, feeling lines, permission, the blame moved off her, the flagged hard word, bridges, comment asks, the honest limit). |
-| `references/voice-samples.md` | Four stretches of real women's narration (Tracy Campoli, Melissa Murrell, Marie-Anne Lecoeur, Diana GOSS), **provisional** until the operator's listen. |
-| `references/models/` | Model files: 30 real presenters (M01-M30: structure, voice and emotion) and 7 faceless or AI videos (F01-F06, F08: structure only), each a beat map, emotion voicing, why it works, the labelled script, lines worth studying and what doesn't transfer; `INDEX.md` by video type. Picks in `studies/style/models/approved-models.csv`. |
-| `model-file-spec.md` | How the model files are built. Not in the installed skill. |
+| `SKILL.md` | The steps for the hair-and-fashion channels for women over 60 (Scarlett Starling, Diane de Chambray; both still pending): inputs, NOT READY, the video type and its model, write, read aloud, check, the output. |
+| `check.py` | The hard-rules check (no counts to meet): `python3 check.py SCRIPT --channel scarlett|diane --title "..." --brief BRIEF`. FAIL lines must be fixed; INFO lines are for reading. |
+| `references/models/` | Eleven real women's transcripts (M01, M04, M07, M09, M13, M18, M19, M21, M24, M28, M30) and `H01-paris-never-ages-hooks.md` (three hooks, up to item one), each with what to take, what not to take and her signature phrases. The model picks and why are in `drafts/p21-style/model-picks.md`. |
+
+Built from `drafts/p21-style/` (kept there; its `README.md` lists every file, what it replaces, what was dropped and the doubts). The old pack is in `archive/pre-p21-2026-11-06/style-scripts/`.
 
 ## ideation/
 
@@ -105,29 +98,31 @@ Copies of the operator's claude.ai ideation skills, brought in to be edited here
 | `tools/verify_output.py` | Re-counts a saved script output against its own AUDIT EVIDENCE block: curly quotes against "mechanical n", words against Length, items and sentences, and every quoted evidence line against the script (P13, 2026-10-27). The main session runs it on every test output before the judge. |
 | `tools/verify_plumbing_models.py` | Checks every plumbing model file's labelled script against its study transcript, word for word (session 4). |
 | `tools/verify_hvac_models.py`, `tools/build_hvac_model_index.py` | The same check for the HVAC model files, and the builder of the HVAC model index (2026-10-27). |
-| `dist/` | **Generated, never edited by hand.** One skill per layer: `script-writer.skill` (the core, START), `woodworking-scripts.skill` and `plumbing-scripts.skill` (the niche packs), `hank-hardwood-persona.skill`, `dale-oakfield-persona.skill`, `roger-the-pipe-guy-persona.skill` and `mark-silverbridge-persona.skill` (profile plus book), `vintage-pipefitter-persona.skill` (profile only), `woodworking-ideation.skill`, `ideation-core.skill`; the unzipped folders; `script-writer.zip` (the same skill as `script-writer.skill`); and `INSTALL.md` (how to install them, not itself a skill). The build checks claude.ai's upload rules (one SKILL.md, frontmatter, name, description up to 1,024 characters). |
+| `dist/` | **Generated, never edited by hand.** Since P21 (2026-11-06) the four rebuilt packs ship whole (`SKILL.md`, `check.py`, `references/`) and a P21 persona page is copied as its skill's `SKILL.md` with its own frontmatter (the build stamps the version line); no `sawdust-sam-persona`. Earlier layout: one skill per layer: `script-writer.skill` (the core, START), `woodworking-scripts.skill` and `plumbing-scripts.skill` (the niche packs), `hank-hardwood-persona.skill`, `dale-oakfield-persona.skill`, `roger-the-pipe-guy-persona.skill` and `mark-silverbridge-persona.skill` (profile plus book), `vintage-pipefitter-persona.skill` (profile only), `woodworking-ideation.skill`, `ideation-core.skill`; the unzipped folders; `script-writer.zip` (the same skill as `script-writer.skill`); and `INSTALL.md` (how to install them, not itself a skill). The build checks claude.ai's upload rules (one SKILL.md, frontmatter, name, description up to 1,024 characters). |
 
 ## personas/
 
-One persona profile per channel, written from `core/persona-profile-template.md`.
+One page per channel. The nine P21 channels' pages (2026-11-06) are their persona skills' `SKILL.md`, frontmatter included, copied from `drafts/p21-*/<channel>-persona/SKILL.md`: who the channel is, the opening (with "Hold the reveal"), the feeling, the flow, the hard rules, the book and the ending. Frederick Barnes keeps the older profile form (`core/persona-profile-template.md`). The old profiles, and Sawdust Sam's (dropped 2026-11-06), are in `archive/pre-p21-2026-11-06/personas/`.
 
 | File | What's in it |
 |---|---|
-| `hank-hardwood.md` | Hank Hardwood's profile: settings, his ten shop details, the approved personality, and the CTA rules (two short CTAs to the QR code, with book pages when the video's build is in the book). |
-| `dale-oakfield.md` | Dale Oakfield's Workshop's profile: settings, the grandfather detail, the approved personality, the Bertha-style CTA rules, and his ending. |
-| `books/hank-hardwood-book.md` | The full text of Hank's ebook, "100 Ways to Make Your First $1,000 with Woodworking", with a marker for every page (PDF page and printed page), a chapter page map and an index of all 100 builds. Used to find which pages cover a video's topic for the CTA, and which facts a CTA may state about the book. |
-| `books/dale-oakfield-book.md` | The same for Dale's ebook, "The Ultimate DIY Woodworking Guide", with a chapter page map (the book prints no page numbers, so it uses PDF pages). |
-| `sawdust-sam.md` | Sawdust Sam's profile (built 2026-10-23, **pending** until his personal details are picked and a test run passes): woodworking for profit the old-world way (every video a heritage build), Talking Head, 174 words a minute, the Jon voice, Hank's CTA structure (two short CTAs naming the QR code and the top link) for *The Old Ways*, and scanner bans on invented trips, encounters and teachers. |
-| `books/sawdust-sam-book.md` | The text of Sam's book *The Old Ways* to printed page 80 (all Drive's extraction gives), with a chapter page map, the secrets by style (Japanese, Amish, Chinese and the rest) and a secret index; CTAs cite nothing past page 80. |
-| `frederick-barnes.md` | Frederick Barnes's profile (built 2026-10-27, **pending** until the voice provider is confirmed, then ready so the operator's test scripts can run, as Sam's was; the tests decide any changes): home electrical, retired electrician, 35 years, Talking Head, 195 words a minute, no book (a one-line subscribe ask in NO BOOK markers), voice to confirm, scanner bans on the name intro, the old firefighter framing and invented personal details. |
-| `werner-finkbeiner.md` | Werner Finkbeiner's profile (relaunched 2026-10-27, **ready** the same day; channel row 9): plumbing the German way, 30 years, Talking Head, the Herrmann voice, no contractions, his German background (P14) and two soft details, a quick mid-video CTA for *Werner's 101 Free Repairs* built on a fixed trade-mentor line, no subscribe ask, the comment line last, the German-way rules (every German claim from the brief, hedged; the American fix; no euros), and scanner bans on his old intro, teases and recaps, relatives, hometowns, arrival stories, credentials and comedy German. |
-| `roger-the-pipe-guy.md`, `mark-silverbridge.md`, `vintage-pipefitter.md` | The three plumbing profiles, approved 2026-10-21, ready since the plumbing pack entered the library: settings, voices, fixed tenures 45/40/45, the personality kept close to Notion, CTA rules (Roger and Mark: a short mid-video book ask and a one-line end reminder, naming the link and the QR code; Vintage: a one-line subscribe ask), and scanner blocks (Mark's also bans contractions). |
-| `roger-the-hvac-guy.md` | Roger the HVAC Guy's profile (2026-10-27; **ready** after two rounds of tests, `tests/iterations/iter-06/`): Roger the Pipe Guy's profile with only the trade changed (the same man and voice, 45 years), no book for now (a one-line subscribe ask), his filter check on the first of the month, and a ban on the other Roger channel's name. Roger the Pipe Guy's profile carries the matching ban. |
-| `books/roger-the-pipe-guy-book.md`, `books/mark-silverbridge-book.md` | Roger's "100 Old-House Fixes That Save You Thousands" (124 pages, 100 fixes) and Mark's "50 Easy Plumbing Fixes That Will Save You $10,000" (122 pages, 50 fixes), with printed page markers, chapter maps and fix indexes. |
-| `books/werner-finkbeiner-book.md` | An index of Werner's *Werner's 101 Free Repairs* from the operator's paste (2026-10-27): the chapters and every repair with its page and Money Saved, not the full text. |
-| `scarlett-starling.md` | Scarlett Starling's profile (2026-10-29, **pending**; channel row 10): hair and fashion for women over 60, Talking Head, 169 words a minute, no age, years or career, one numberless credential line, the name never spoken, *300 Budget-Friendly Ways to Look Expensive* as the only CTA (once mid-video, a one-line end reminder), no sign-off, and scanner bans on her old intro, sign-off, no-rush close, provenance line and comment ask. |
-| `books/scarlett-starling-book.md`, `books/diane-de-chambray-book.md` | Indexes of the two style books from OCR of the operator's image-only PDFs (2026-10-29): *300 Budget-Friendly Ways to Look Expensive* (28 chapters, 300 Ways, five titles unreadable and described) and *The French Way* (an introduction, ten chapters and a conclusion, 101 Secrets), each with the chapter page map, every item with its PDF page, the facts a CTA may state, and the book's own stories and characters, which never go in a script. |
-| `diane-de-chambray.md` | Diane de Chambray's profile (2026-10-29, **pending**; channel row 11): the French way for women over 60, Talking Head, 172 words a minute, the Sylvie voice, one heritage line ("the way I was raised in Paris"), the French-lens rules (every claim from the brief or the documented staples, hedged; the American fix; no invented customs; French words written for the voice), *The French Way* as the only CTA, no sign-off, and scanner bans on her old intro, sign-offs, unhedged claims and the book's unconfirmed count. |
+| `hank-hardwood.md`, `dale-oakfield.md` | Hank's and Dale's one-page briefs (P21). Dale keeps exactly five book mentions (operator default, 2026-11-06). |
+| `roger-the-pipe-guy.md`, `mark-silverbridge.md`, `vintage-pipefitter.md`, `werner-finkbeiner.md` | The four plumbing one-page briefs (P21); Werner's carries the German way. |
+| `roger-the-hvac-guy.md` | Roger the HVAC Guy's one-page brief (P21; no book; words per minute unset, counted at 150). |
+| `scarlett-starling.md`, `diane-de-chambray.md` | The two style one-page briefs (P21; both channels still pending). |
+| `frederick-barnes.md` | Frederick Barnes's profile (electrical, not P21; unchanged): retired electrician, 35 years, Talking Head, 162 words a minute, no book, a one-line subscribe ask, scanner bans. |
+| `books/hank-hardwood-book.md`, `books/dale-oakfield-book.md` | Hank's and Dale's book texts with page markers and chapter maps. |
+| `books/roger-the-pipe-guy-book.md`, `books/mark-silverbridge-book.md`, `books/werner-finkbeiner-book.md` | Roger's and Mark's books (page markers, chapter maps, fix indexes) and Werner's book index (every repair with its page and Money Saved). |
+| `books/scarlett-starling-book.md`, `books/diane-de-chambray-book.md` | Indexes of the two style books from OCR: chapters, every item with its PDF page, the facts a CTA may state, and the book's own stories, which never go in a script. |
+
+Every book file here is byte-identical to the copy its P21 persona skill carries (checked with `cmp`, 2026-11-06), at the same path `personas/books/...`.
+
+## archive/
+
+| Folder | What's in it |
+|---|---|
+| `facelessos-original/` | The original bought FacelessOS files and the old house-rules prompt. Read-only. |
+| `pre-p21-2026-11-06/` | **Read-only.** The library before P21 (moved with `git mv` on 2026-11-06): the old `style-scripts/`, `plumbing-scripts/`, `hvac-scripts/` and `woodworking-scripts/` packs, the nine channels' old profiles, and Sawdust Sam's profile and book (dropped). Its `README.md` says what's there and why. The core scanner checks in `tests/run_checks.py` use these files as read-only fixtures. |
 
 ## studies/
 
@@ -150,14 +145,14 @@ Research data: collect and describe only, never edited to fit a conclusion.
 
 ## drafts/
 
-- `p21-style/` (2026-11-06): the P21 style rebuild, laid out as the three skills would be uploaded (`style-scripts` with `check.py` and 11 model transcripts, and the Scarlett and Diane one-page persona skills); `README.md` there lists every file and what it replaces; `model-picks.md` is the model research. Waiting for the operator's yes and one test.
+- `p21-style/`, `p21-plumbing/`, `p21-hvac/`, `p21-woodworking/` (2026-11-06): the P21 rebuilds, each laid out exactly as its skills are uploaded, each with a `README.md` (every file, what it replaces, what was dropped, the doubts). **Applied 2026-11-06** (operator: "yes use defaults"): the library copies now live at `<niche>-scripts/` and `personas/`; these folders are kept as the record, and `tests/run_checks.py` and `tools/build_skills.py` compare the build against them. `p21-style/model-picks.md` is the style model research.
 - `lite-*-DRAFT.md` (2026-11-05): the one-page writer briefs tested in iter-08 to iter-13 (style, Scarlett, Diane, Roger, Frederick, Roger the HVAC Guy, Hank); the base for P21's rebuild. `style-lite-DRAFT.md` is iter-08's first version.
 
 Drafts waiting for the operator's yes go here; nothing in it is part of the library until it's approved and moved. Now: `style-pack-diagnosis-DRAFT.md` (2026-10-28, session 13): what the one hair-and-fashion pack and the Scarlett Starling and Diane de Chambray profiles keep, adapt and add from the core and the plumbing pack, the hair and fashion emotion comparison, the scanner gaps, the reference material, the order of work and 23 questions with recommendations (nothing applied). `style-study-plan-DRAFT.md` (2026-10-28): the plan for the style niche study (Scarlet Sterling and Diane de Chambray), phases and six questions, waiting for the operator's yes. `hvac-pack-diagnosis-DRAFT.md` (2026-10-27): what the HVAC pack and Roger the HVAC Guy's profile keep, adapt and add from the plumbing pack and Roger the Pipe Guy's profile, section by section, the scanner gaps HVAC hits, the order of work and 11 questions for the operator (nothing applied). `werner-relaunch-DRAFT.md` (2026-10-27), the Werner relaunch: what was built, his old scripts against the library, and twelve questions (W1-W12) with proposals P14-P16; answered and applied the same day (Werner ready), kept as the record. `tts-hook-and-length-DRAFT.md` (2026-10-25): Parts 1 and 2 applied the same day (writing every word for the voice; a count line in place of the plumbing promise block, P10); Part 3, the plumbing words per minute, waits. `sawdust-sam-DRAFT.md` (2026-10-23), the Sawdust Sam relaunch draft, applied the same day except his personal details (question 8), which wait for the operator's pick; kept as the record of the questions and evidence. The plumbing emotion draft was applied on 2026-10-21 (in git history). The plumbing pack itself moved into `plumbing-scripts/` on 2026-10-21.
 
 ## tests/
 
-`run_checks.py`: automated checks across the whole library (72 numbered checks at the 2026-10-27 merge), including the copy guard, the fraction-word scanner check, the "e-book" ban on every profile, and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over its own SKILL.md and every model file, the emotion rules, item shape, CTA template and number cap, the plumbing profiles and the channel list), and the core's straight-quotes and real-scanner-line rules, the written-for-the-voice scanner check (44), the plumbing count line in place of the promise block (45), the electrical pack and Frederick (46-52), the P13 core checker fixes (53-57: tenure in words, number words, letter sets once, voice tags, the 35-word sentence limit, `--final`, the ITEMS and SENTENCES report, `verify_output.py`), the electrical test fixes (58, 59 and 69), the plumbing escalation line (46b), Werner's profile and book index (70), the HVAC test answers (71: `require-if`, every carbon monoxide and gas-leak step; 72: the reframe split across two sentences), and the HVAC pack (60-68: file references, its inputs and scanner block, tenure in HVAC words, letter words, the two Rogers' name bans, real-people-only models with the copy guard, the channel row and build entries, the price guide). Run it after any edit.
+`run_checks.py`: automated checks across the whole library. **P21 (2026-11-06):** the core scanner checks use the archived packs as read-only fixtures; the checks of rules that P21 kept are retargeted to each pack's `check.py` and the new pages; checks 10, 21, 34, 37, 41, 42, 61 and 87 are retired (numbers kept in comments); new checks 94-98 test the P21 packs (each `check.py` passes its saved test scripts in iter-14 to iter-18, every model's signature phrases are exact quotes, the price guides are unchanged, every page holds the reveal, the build list has the 13 P21 skills and no Sawdust Sam). Before P21 (72 numbered checks at the 2026-10-27 merge): including the copy guard, the fraction-word scanner check, the "e-book" ban on every profile, and the plumbing pack (its inputs, scanner block, Mark's contraction ban, the copy guard over its own SKILL.md and every model file, the emotion rules, item shape, CTA template and number cap, the plumbing profiles and the channel list), and the core's straight-quotes and real-scanner-line rules, the written-for-the-voice scanner check (44), the plumbing count line in place of the promise block (45), the electrical pack and Frederick (46-52), the P13 core checker fixes (53-57: tenure in words, number words, letter sets once, voice tags, the 35-word sentence limit, `--final`, the ITEMS and SENTENCES report, `verify_output.py`), the electrical test fixes (58, 59 and 69), the plumbing escalation line (46b), Werner's profile and book index (70), the HVAC test answers (71: `require-if`, every carbon monoxide and gas-leak step; 72: the reframe split across two sentences), and the HVAC pack (60-68: file references, its inputs and scanner block, tenure in HVAC words, letter words, the two Rogers' name bans, real-people-only models with the copy guard, the channel row and build entries, the price guide). Run it after any edit.
 
 ## tests/iterations/
 

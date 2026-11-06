@@ -303,6 +303,12 @@ def main():
         if k > 1:
             fail("tenure", f"{label} said {k} times; at most once, where it backs a verdict")
     title_years = numbers_in(a.title)
+
+    # Tenure said with "been", "spent" or "worked" (main session, 2026-11-06: the old scanner caught these).
+    for mm in re.finditer(r"\b(?:I(?:'ve| have)? been|been at (?:it|this)|I(?:'ve| have) (?:spent|worked))\b[^.!?]{0,40}?\b((?:(?:twenty|thirty|forty|fifty|sixty)[- ])?[\w]+)\s+years\b", spoken, re.I):
+        got = numbers_in(mm.group(1))
+        if got and not got <= ({ch["tenure"]} | title_years):
+            fail("tenure", f"a tenure number other than the channel's or the title's: \"{sentence_with(spoken, mm.start())}\"")
     for mm in re.finditer(r"\b([\w-]+(?: [\w-]+)?) years (?:in (?:the|this) trade|of (?:experience|doing this|HVAC))\b", spoken, re.I):
         got = numbers_in(mm.group(1))
         if got and not got <= ({ch["tenure"]} | title_years):

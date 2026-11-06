@@ -417,6 +417,12 @@ def main():
     tn = r"\b((?:(?:twenty|thirty|forty|fifty|sixty)[- ])?\w+(?:-\w+)?)\s+years?\s+(?:in (?:the|this) trade|as a plumber|of plumbing|in plumbing|on the job|doing this|on the tools|in the business)\b|\bin (?:the|this) trade,? (?:for )?((?:(?:twenty|thirty|forty|fifty|sixty)[- ])?\w+(?:-\w+)?) years\b"
     allowed_tenure = {ch["tenure"]} | numbers_in(a.title)
     hits = list(re.finditer(tn, spoken, re.I))
+
+    # Tenure said with "been", "spent" or "worked" (main session, 2026-11-06: the old scanner caught these).
+    for mm in re.finditer(r"\b(?:I(?:'ve| have)? been|been at (?:it|this)|I(?:'ve| have) (?:spent|worked))\b[^.!?]{0,40}?\b((?:(?:twenty|thirty|forty|fifty|sixty)[- ])?[\w]+)\s+years\b", spoken, re.I):
+        got = numbers_in(mm.group(1))
+        if got and not got <= allowed_tenure:
+            fail("tenure", f"a tenure number other than the channel's or the title's: \"{sentence_with(spoken, mm.start())}\"")
     for m in hits:
         got = numbers_in(m.group())
         if got and not got <= allowed_tenure:

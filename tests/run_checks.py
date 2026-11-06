@@ -6,10 +6,49 @@
 # repeated sentences, persona facts (tenure, near-miss names, title numbers win), the tease phrasings and once-per-script phrases,
 # and the plumbing pack: its inputs block, scanner block, Mark's contraction ban, the copy guard over every model file,
 # the plumbing profiles' fixed facts and the channel list, the HVAC pack (checks 60-68), Werner's profile (70) and the plumbing escalation line (46b).
+#
+# P21 (operator 2026-11-06, "yes use defaults"): style, plumbing, HVAC and woodworking now run on the simple packs (SKILL.md,
+# check.py, references/) and one-page persona pages. The old packs and profiles are in archive/pre-p21-2026-11-06/ (read-only).
+# - Checks that test the core scanner (core/script-scanner.py, still shipped in script-writer and used by electrical) keep the
+#   archived pack and profile files as read-only rule fixtures (OWW, OPL, OHV, OSTY, OPERS below): they test the scanner, not those packs.
+# - Checks of a rule that still exists in the new version are retargeted to the new files (mostly to each pack's check.py).
+# - Checks of a rule the new version dropped are retired: their numbers stay in "retired 2026-11-06, P21" comment blocks, never reused.
+# - New checks 94-99 (93 is taken by the unmerged stoic-mayer branch; 78-82 left free as before) test the new packs.
 import re, os, glob, subprocess, sys, tempfile, textwrap
 sys.dont_write_bytecode = True
 ROOT=os.environ.get("LIB_ROOT", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CORE=f"{ROOT}/core"; WW=f"{ROOT}/woodworking-scripts"; PL=f"{ROOT}/plumbing-scripts"; PERS=f"{ROOT}/personas"; SCAN=f"{CORE}/script-scanner.py"
+OLD=f"{ROOT}/archive/pre-p21-2026-11-06"   # read-only fixtures for the core scanner checks (P21)
+OWW=f"{OLD}/woodworking-scripts"; OPL=f"{OLD}/plumbing-scripts"; OHV=f"{OLD}/hvac-scripts"; OSTY=f"{OLD}/style-scripts"; OPERS=f"{OLD}/personas"
+HV=f"{ROOT}/hvac-scripts"; STY=f"{ROOT}/style-scripts"
+NPACK={"style":STY,"plumbing":PL,"hvac":HV,"woodworking":WW}
+IT=f"{ROOT}/tests/iterations"
+# the saved P21 test scripts: (pack, script, channel, brief); the title is the brief's TITLE line
+P21_RUNS=[("style",f"{IT}/iter-14/final/script.txt","scarlett",f"{IT}/iter-14/brief.txt"),
+          ("style",f"{IT}/iter-15/run-new/script.txt","diane",f"{IT}/iter-15/brief.txt"),
+          ("plumbing",f"{IT}/iter-16/run-roger/script.txt","roger",f"{IT}/iter-16/brief-roger.txt"),
+          ("plumbing",f"{IT}/iter-16/run-mark/script.txt","mark",f"{IT}/iter-16/brief-mark.txt"),
+          ("plumbing",f"{IT}/iter-16/run-vintage/script.txt","vintage",f"{IT}/iter-16/brief-vintage.txt"),
+          ("plumbing",f"{IT}/iter-16/run-werner/script.txt","werner",f"{IT}/iter-16/brief-werner.txt"),
+          ("hvac",f"{IT}/iter-17/run-new/script.txt","roger-hvac",f"{IT}/iter-17/brief.txt"),
+          ("woodworking",f"{IT}/iter-18/run-hank/script.txt","hank",f"{IT}/iter-18/brief-hank.txt"),
+          ("woodworking",f"{IT}/iter-18/run-dale/script.txt","dale",f"{IT}/iter-18/brief-dale.txt")]
+def title_of(brief): return re.search(r"^TITLE: (.*)$",open(brief).read(),re.M).group(1).strip()
+def pack_check(pack, text, channel, brief, title=None):
+    """Run a P21 pack's check.py on a script text; returns (exit code, output)."""
+    with tempfile.NamedTemporaryFile("w",suffix=".txt",delete=False) as t: t.write(text); p=t.name
+    r=subprocess.run([sys.executable,"-B",f"{NPACK[pack]}/check.py",p,"--channel",channel,"--title",title or title_of(brief),"--brief",brief],capture_output=True,text=True)
+    return r.returncode, r.stdout+r.stderr
+def run_of(channel): return next(r for r in P21_RUNS if r[2]==channel)
+def plant(channel, line, where=2):
+    """The channel's passing test script with one line added as its own paragraph (after paragraph `where`), run through its check.py."""
+    pack,script,ch,brief=run_of(channel)
+    paras=open(script).read().split("\n\n")
+    paras.insert(where,line)
+    return pack_check(pack,"\n\n".join(paras),ch,brief)
+def load_check(pack):
+    import importlib.util as _u
+    sp=_u.spec_from_file_location(f"p21_{pack}",f"{NPACK[pack]}/check.py"); m=_u.module_from_spec(sp); sp.loader.exec_module(m); return m
 results=[]
 def check(name, ok, detail=""):
     results.append((name, ok, detail))
@@ -34,7 +73,8 @@ for f in lib_files:
         if ref.endswith("/"):
             ok = os.path.isdir(os.path.join(WW,ref)) or os.path.isdir(os.path.join(ROOT,ref))
         else:
-            ok = base in names or ref in rels or os.path.isfile(os.path.join(ROOT,ref))
+            # P21: core still names the old woodworking pack's files (archived) and the new models cite their study files (meta.md)
+            ok = base in names or ref in rels or os.path.isfile(os.path.join(ROOT,ref)) or base in repo_names
         if not ok: missing.append(f"{os.path.relpath(f,ROOT)} -> {ref}")
 check("1. every file reference resolves", not missing, "; ".join(sorted(set(missing))))
 
@@ -97,7 +137,7 @@ def run_scan(text, rules=(), pack=None, refs=(), title=None):
     cmd=["python3",SCAN,p]+(["--rules",*rules] if rules else [])+(["--pack",pack] if pack else [])+(["--refs",*refs] if refs else [])+(["--title",title] if title else [])
     r=subprocess.run(cmd,capture_output=True,text=True); return r.returncode, r.stdout
 
-WWR=f"{WW}/SKILL.md"
+WWR=f"{OWW}/SKILL.md"   # P21: the archived woodworking pack's scanner block, a read-only fixture for the core scanner checks
 # 6. a clean, rule-following woodworking script passes with zero fix-on-sight
 clean=textwrap.dedent("""\
 SCRIPT TYPE: Talking Head
@@ -155,12 +195,8 @@ with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("M
 code,out=run_scan("They list between 14 and 22 dollars, and I'd ask 18. Some folks clear $950 a month.\n",[],pk)
 check("9. numbers check flags only the invented figure", "950" in out and " 18 " not in out.split("NUMBERS NOT FOUND")[1], out)
 
-# 10. woodworking inputs block parses
-sk=open(WWR).read()
-inp=re.search(r"```inputs\n(.*?)```",sk,re.S)
-rows=[l for l in inp.group(1).splitlines() if l.strip().startswith("-")] if inp else []
-okrows=all(len(r.split("|"))==3 for r in rows)
-check("10. woodworking inputs block: 4 well-formed inputs", inp is not None and len(rows)==4 and okrows, str(rows))
+# 10. retired 2026-11-06, P21: the woodworking pack has no inputs block any more (its SKILL.md lists the inputs in words;
+#     the research-pack rule is kept, operator default 2026-11-06)
 
 # 11. shared strings agree across files
 wf=open(f"{CORE}/workflow.md").read(); ga=open(f"{CORE}/greenlight-audit.md").read(); vr=open(f"{CORE}/variety-rotation.md").read()
@@ -169,7 +205,7 @@ bad=[p for p,a,b in pairs if p not in a or p not in b]
 check("11. shared labels match between workflow, audit and rotation files", not bad, ", ".join(bad))
 
 # 12. copy guard: a line copied from a reference file is caught; normal text is not
-REFS=[f for f in (f"{WW}/references/excerpts.md", f"{WW}/references/reference-scripts.md") if os.path.isfile(f)]
+REFS=[f for f in (f"{OWW}/references/excerpts.md", f"{OWW}/references/reference-scripts.md") if os.path.isfile(f)]  # P21: archived fixtures
 with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t:
     t.write('1. "Slide up to the lumber yard and grab yourself a 1x4x8 for around eight bucks." [Ref \u00b7 test \u00b7 0:00 \u00b7 9.9x]\n'); tref=t.name
 copied="Cut your boards to length.\n\nSo slide up to the Lumber Yard, and grab yourself a 1x4x8 for around eight bucks, then sand it.\n"
@@ -215,7 +251,7 @@ with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t:
     t.write("```scanner\nname: The Vintage Pipefitter\nname: Mark Silverbridge\ntenure: 45\n```\n"); facts=t.name
 code,out=run_scan("Well, I have been a plumber for over 35 years. Subscribe to the Vintage Plumber. Mark Silverbrook here.\n",[facts])
 code2,out2=run_scan("I've been on the tools for 45 years. Subscribe to The Vintage Pipe Fitter, the Pipefitter way. This pipe held 20 years of grease, and in 10 years your pipes will thank you.\n",[facts])
-code3,out3=run_scan("After 40 years at the bench I know this.\n",[f"{ROOT}/personas/hank-hardwood.md"])
+code3,out3=run_scan("After 40 years at the bench I know this.\n",[f"{OPERS}/hank-hardwood.md"])
 check("16. persona facts: a wrong tenure and near-miss names are caught; the right tenure, spacing variants and other 'years' are not; tenure none catches any figure",
       code==1 and out.count("PERSONA FACT: tenure")==1 and '"the Vintage Plumber"' in out and '"Mark Silverbrook"' in out
       and "PERSONA FACT" not in out2 and code2==0 and "PERSONA FACT: tenure" in out3 and code3==1, out+out2+out3)
@@ -229,15 +265,19 @@ teases=["Stay till the end because I'll show you.","And stick with me for number
 missed=[t for t in teases if run_scan(t+"\n")[0]!=1]
 check("17. tease phrasings from the plumbing study are hard bans", not missed, "; ".join(missed))
 
-# 18. the woodworking profiles carry their fixed facts
-fx=[l.strip() for f in ("hank-hardwood","dale-oakfield") for l in re.findall(r"```scanner\n(.*?)```",open(f"{ROOT}/personas/{f}.md").read(),re.S)[0].splitlines()]
-check("18. Hank's and Dale's profiles give their name, book and tenure to the scanner",
-      fx.count("tenure: none")==2 and "name: Hank Hardwood" in fx and "name: Dale Oakfield" in fx and sum(l.startswith("book:") for l in fx)==2, str(fx))
+# 18. the woodworking channels carry their fixed facts (P21: retargeted from the profiles' scanner blocks to woodworking-scripts/check.py)
+wwc=load_check("woodworking").CHANNELS
+c18=[plant(ch,"After 40 years at the bench I know this.")[1] for ch in ("dale",)]
+check("18. woodworking check.py: Hank's and Dale's names, printed and spoken book titles and last lines; Dale's '40 years' fails unless the title says it",
+      wwc["hank"]["name"]=="Hank Hardwood" and wwc["dale"]["name"]=="Dale Oakfield's Workshop"
+      and wwc["hank"]["printed"].startswith("100 Ways to Make Your First $1,000") and wwc["dale"]["printed"].startswith("The Ultimate DIY Woodworking Guide")
+      and wwc["hank"]["last_line"]=="Keep all ten fingers and I'll see you at the bench." and wwc["dale"]["last_line"]=="Now go make some sawdust."
+      and "the book's '40 Years'" in c18[0], c18[0][-600:])
 
 # 19. title numbers win: a years figure in the locked title is allowed; any third figure still fails
 code,out=run_scan("I have been a plumber for 30 years, and this one matters.\n",[facts],title="Borax vs Washing Soda: A 30-Year Plumber's Verdict")
 code2,out2=run_scan("I have been a plumber for 35 years, and this one matters.\n",[facts],title="Borax vs Washing Soda: A 30-Year Plumber's Verdict")
-code3,out3=run_scan("After 40 years at the bench I know this.\n",[f"{ROOT}/personas/hank-hardwood.md"],title="What 40 Years of Woodworking Taught Me")
+code3,out3=run_scan("After 40 years at the bench I know this.\n",[f"{OPERS}/hank-hardwood.md"],title="What 40 Years of Woodworking Taught Me")
 code4,out4=run_scan("I've been on the tools for 45 years.\n",[facts],title="Pour This Down Your Drain Tonight")
 check("19. title numbers win: the title's years figure passes (also with tenure none); a third figure fails; no title figure leaves the profile's",
       code==0 and "PERSONA FACT" not in out and code2==1 and "title says 30" in out2 and code3==0 and code4==0, out+out2+out3+out4)
@@ -251,90 +291,56 @@ check("20. once-per-script phrases from a niche pack: one use passes, a second u
       code==0 and "NICHE/PERSONA LIMIT" not in out and code2==1 and "NICHE/PERSONA LIMIT: nine times out of 10] used 2 times" in out2, out+out2)
 
 # ---- the plumbing pack (step 4, 2026-10-21) ----
-PLR=f"{PL}/SKILL.md"; ROGER=f"{PERS}/roger-the-pipe-guy.md"; MARK=f"{PERS}/mark-silverbridge.md"; VINT=f"{PERS}/vintage-pipefitter.md"
-PL_REFS=[PLR, f"{PL}/references/excerpts.md", f"{PL}/references/voice-samples.md"]+sorted(glob.glob(f"{PL}/references/models/*.md"))
-
-# 21. plumbing inputs block parses: title, brief and rotation log required, the research pack not used
-sk=open(PLR).read()
-inp=re.search(r"```inputs\n(.*?)```",sk,re.S)
-rows=[[c.strip() for c in l.strip()[1:].split("|")] for l in inp.group(1).splitlines() if l.strip().startswith("-")] if inp else []
-want={"title":"required","brief":"required","research-pack":"not used","rotation-log":"required"}
-check("21. plumbing inputs block: 4 well-formed inputs, research pack not used",
-      len(rows)==4 and all(len(r)==3 for r in rows) and {r[0]:r[1] for r in rows}==want, str(rows))
-
-# 22. the plumbing scanner block: every ban fires, once-limits fail on the second use, a clean plumbing paragraph passes
-clean_pl=textwrap.dedent("""\
-One cup of washing soda, stirred into hot tap water, clears the slow kitchen drain you keep paying somebody to snake.
-
-A drain call for that usually starts around a hundred and fifty dollars. A box of washing soda runs about five to seven dollars and gives you close to a dozen treatments.
-
-It won't touch a hair clog in the bathroom. That's a different job, and number four handles it.
-
-Number four is the two-dollar tool that pulls the hair out in one go. And the final item keeps every bit of this safe on your old cast-iron line.
-
-Number one. Stir one cup of washing soda into about three cups of hot tap water until it's clear. Pour it in slowly and leave it six to eight hours. If the sink empties fast in the morning, you're done.
-
-What's the oldest pipe in your basement, and which sink backs up first at your place? I read every one.
-""")
-planted={"first-person test claim":"I tested all three on a slow sink.","first-person demonstration":"Now watch me pour it in.",
-         "pointing at the screen":"Look at the trap on the left before you start.","template stock line: the economics aside":"It's not a scam, it's just economics.",
-         "template stock line: channel promise":"This channel is all about saving you money.","template stock line":"Grab it now or later.",
-         "hype that got mocked":"It looked like a horror movie under there."}
-code,out=run_scan(clean_pl,[PLR,ROGER])
-bad=[]
-for label,line in planted.items():
-    c,o=run_scan(f"Rinse the trap.\n\n{line}\n",[PLR])
-    if c!=1 or f"NICHE/PERSONA BAN: {label}]" not in o: bad.append(label)
-code2,out2=run_scan("Between you and me, it is the flapper.\n\nAnd between you and me, the chain is fine too. Trust me on this one.\n",[PLR])
-check("22. plumbing scanner block: each ban fires; a once-phrase used twice fails and once passes; a clean plumbing paragraph passes",
-      code==0 and "FIX ON SIGHT (0)" in out and not bad and code2==1 and "NICHE/PERSONA LIMIT: between you and me] used 2 times" in out2
-      and "trust me] used" not in out2, f"missed: {bad} | "+out[:500]+out2[:500])
-
-# 23. Mark's profile bans contractions; his no-contraction style passes
-code,out=run_scan("Do not pour it in dry. It is the flapper nine times out of ten, and that is a cheap part.\n",[PLR,MARK])
-code2,out2=run_scan("Don't pour it in dry. It's the flapper, and you'll want a cheap part.\n",[PLR,MARK])
-check("23. Mark's contraction ban: contractions are fix-on-sight, his plain style passes",
-      code==0 and code2==1 and out2.count("contraction")>=3, out+out2)
-
-# 24. copy guard over the plumbing references: the clean paragraph passes against all of them, and a line lifted from
-#     every model file (and from the excerpts and voice samples) is caught and traced to that file
-runs=sc.read_refs(PL_REFS)
-lifted=[]; nolift=[]
-for f in PL_REFS:
-    name=os.path.basename(f); got=None
-    for para in open(f).read().split("\n\n"):
-        toks=sc.copy_tokens(para)
-        for i in range(len(toks)-12):
-            if all(runs.get(tuple(toks[j:j+sc.COPY_RUN]))==name for j in range(i,i+5)):
-                got=" ".join(toks[i:i+12]); break
-        if got: break
-    (lifted.append((name,got)) if got else nolift.append(name))
-code,out=run_scan("\n\n".join(g.capitalize()+"." for _,g in lifted)+"\n",[PLR],refs=PL_REFS)
-uncaught=[n for n,_ in lifted if f"COPIED FROM REFERENCE: {n}]" not in out]
-code2,out2=run_scan(clean_pl,[PLR,ROGER],refs=PL_REFS+[ROGER])
-check("24. copy guard: the clean plumbing paragraph passes against the pack's SKILL.md, excerpts, voice samples and all model files; a line from each is caught",
-      len(PL_REFS)>=42 and not nolift and not uncaught and code==1 and code2==0 and "COPIED" not in out2,
-      f"refs={len(PL_REFS)} no line found in {nolift}; not caught {uncaught}; "+out2[:400])
-
-# 25. the plumbing profiles give the scanner their fixed facts
+# P21: PLR and the three profiles here are the archived files, read-only fixtures for the core scanner checks (29, 30, 32, 63, 74);
+# the new pack's rules are tested through plumbing-scripts/check.py on the saved iter-16 scripts.
+PLR=f"{OPL}/SKILL.md"; ROGER=f"{OPERS}/roger-the-pipe-guy.md"; MARK=f"{OPERS}/mark-silverbridge.md"; VINT=f"{OPERS}/vintage-pipefitter.md"
+want={"title":"required","brief":"required","research-pack":"not used","rotation-log":"required"}   # the electrical inputs (check 46)
 def facts_of(p): return [l.strip() for l in re.findall(r"```scanner\n(.*?)```",open(p).read(),re.S)[0].splitlines()]
-fr,fm,fv=facts_of(ROGER),facts_of(MARK),facts_of(VINT)
-check("25. Roger's, Mark's and Vintage's profiles give their name, book and tenure (45, 40, 45; Vintage has no book)",
-      "name: Roger the Pipe Guy" in fr and "tenure: 45" in fr and sum(l.startswith("book:") for l in fr)==1
-      and "name: Mark Silverbridge" in fm and "tenure: 40" in fm and sum(l.startswith("book:") for l in fm)==1
-      and "name: The Vintage Pipefitter" in fv and "tenure: 45" in fv and not any(l.startswith("book:") for l in fv), str((fr,fm,fv)))
-code,out=run_scan("I have been at this for 40 years.\n",[PLR,ROGER])
-code2,out2=run_scan("I have been at this for 45 years.\n",[PLR,ROGER])
-check("25b. a plumbing tenure that differs from the profile fails; the profile's passes", code==1 and "PERSONA FACT: tenure" in out and code2==0, out+out2)
+plc=load_check("plumbing").CHANNELS
+def passing(channel):
+    pk,sc_,ch_,br=run_of(channel); return pack_check(pk,open(sc_).read(),ch_,br)
 
-# 26. the channel list: the three plumbing channels are ready, on plumbing-scripts, and their profiles say so
+# 21. retired 2026-11-06, P21: the plumbing pack has no inputs block (title and brief are listed in words; the rotation log is dropped)
+
+# 22. plumbing bans (P21: retargeted from the scanner block to check.py): each planted ban fails on Roger's passing iter-16 script;
+#     a once-phrase used twice fails
+p22={"a first-person test or demonstration":"I tested all three on a slow sink.","pointing at the screen":"Look at the trap on the left before you start.",
+     "a template stock line":"It's not a scam, it's just economics.","hype that got mocked":"It looked like a horror movie under there.",
+     "a channel or name intro":"Today we're going to fix the drain."}
+bad=[lab for lab,line in p22.items() if f"FAIL banned: {lab}" not in plant("roger",line)[1]]
+twice=plant("roger","Between you and me, it is the flapper. And between you and me, the chain is fine too.")
+check("22. plumbing check.py: each planted ban fails on Roger's passing script; 'between you and me' twice fails",
+      passing("roger")[0]==0 and not bad and "FAIL said twice: 'between you and me', said 2 times" in twice[1], f"missed: {bad} | "+twice[1][-400:])
+
+# 23. Mark's contraction ban (P21: retargeted to check.py): a contraction planted in his passing script fails; his own script passes
+c23=plant("mark","Don't pour it in dry. It's the flapper, and you'll want a cheap part.")
+check("23. Mark's contraction ban: contractions fail on his passing script; his plain style passes",
+      passing("mark")[0]==0 and c23[1].count("FAIL contraction")>=3 and plc["mark"]["contractions"] is False and plc["werner"]["contractions"] is False, c23[1][-500:])
+
+# 24. copy guard over the plumbing models (P21: retargeted to check.py, which guards the model transcripts): eight words in a row
+#     lifted from each of the seven models fail, and are traced to that model file
+miss24=[]
+PLM=sorted(glob.glob(f"{PL}/references/models/*.md"))
+for m in PLM:
+    tr=re.findall(r"[\w']+",open(m).read().split("## Transcript",1)[1])
+    lift=" ".join(tr[60:72])
+    if f"from {os.path.basename(m)}" not in plant("roger",lift[0].upper()+lift[1:]+".")[1]: miss24.append(os.path.basename(m))
+check("24. copy guard: a twelve-word run lifted from each of the seven plumbing models fails check.py, traced to its file",
+      len(PLM)==7 and not miss24, f"models={len(PLM)} not caught: {miss24}")
+
+# 25. the plumbing channels' fixed facts (P21: retargeted from the profiles' scanner blocks to check.py's CHANNELS)
+check("25. plumbing check.py: names, tenures 45, 40, 45, 30; Roger's, Mark's and Werner's books; the Vintage Pipefitter has none",
+      [plc[c]["name"] for c in ("roger","mark","vintage","werner")]==["Roger the Pipe Guy","Mark Silverbridge","The Vintage Pipefitter","Werner Finkbeiner"]
+      and [plc[c]["tenure"] for c in ("roger","mark","vintage","werner")]==[45,40,45,30]
+      and all(plc[c]["end"]=="book" and plc[c]["spoken"] for c in ("roger","mark","werner")) and plc["vintage"]["end"]=="subscribe" and plc["vintage"]["spoken"] is None, "")
+c25=plant("roger","In 40 years as a plumber I never saw this.")
+check("25b. a plumbing tenure that differs from the channel's fails on Roger's passing script", "FAIL tenure: 40 years; the channel's figure is 45" in c25[1], c25[1][-400:])
+
+# 26. the channel list: the four plumbing channels are ready on plumbing-scripts, and their pages exist (P21: the pages carry no status line)
 ch=open(f"{CORE}/channels.md").read()
-bad=[]
-for name,slug in (("Roger the Pipe Guy","roger-the-pipe-guy"),("Mark Silverbridge","mark-silverbridge"),("The Vintage Pipefitter","vintage-pipefitter")):
-    row=re.search(rf"^\| \d+ \| {re.escape(name)} \| `plumbing-scripts` \| `personas/{slug}.md` \| ready \|$",ch,re.M)
-    prof=open(f"{PERS}/{slug}.md").read()
-    if not (row and "Status: ready" in prof and "Niche pack: plumbing-scripts" in prof): bad.append(name)
-check("26. channels.md lists Roger, Mark and Vintage as ready on plumbing-scripts, and their profiles agree", not bad and os.path.isfile(PLR), ", ".join(bad))
+bad=[name for name,slug in (("Roger the Pipe Guy","roger-the-pipe-guy"),("Mark Silverbridge","mark-silverbridge"),("The Vintage Pipefitter","vintage-pipefitter"),("Werner Finkbeiner","werner-finkbeiner"))
+     if not (re.search(rf"^\| \d+ \| {re.escape(name)} \| `plumbing-scripts` \| `personas/{slug}.md` \| ready \|$",ch,re.M) and os.path.isfile(f"{PERS}/{slug}.md"))]
+check("26. channels.md lists Roger, Mark, Vintage and Werner as ready on plumbing-scripts, and their pages exist", not bad and os.path.isfile(f"{PL}/SKILL.md"), ", ".join(bad))
 
 # 27. (iter-01's check 14) the numbers check finishes on spoken fractions and lumber names (it used to loop forever on them)
 with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("Drill a three-quarter inch hole. Use five-eighths inch screws on a one-by-eight, seventeen and three-quarters across.\n"); fs=t.name
@@ -345,11 +351,9 @@ except subprocess.TimeoutExpired:
     ok14,d14=False,"scanner did not finish within 20 seconds"
 check("27. numbers check finishes on fraction words (three-quarter, five-eighths, one-by-eight)", ok14, d14)
 
-# 28. (iter-01's check 15) every persona profile's scanner block flags "e-book" (the offer is always called "book")
-PROFILES=sorted(glob.glob(f"{ROOT}/personas/*.md"))
-PROFILES=[p for p in PROFILES if "```scanner" in open(p).read()]
-noflag=[os.path.basename(p) for p in PROFILES if run_scan("Grab my e-book from the link.\n",[p])[0]!=1]
-check("28. every persona profile flags 'e-book'", len(PROFILES)>=2 and not noflag, f"profiles={[os.path.basename(p) for p in PROFILES]} not flagging: {noflag}")
+# 28. every P21 check.py bans "e-book" (the offer is always called "book"; P21: retargeted from the profiles' scanner blocks)
+noflag=[ch_ for ch_ in ("scarlett","roger","werner","roger-hvac","hank","dale") if "e-book" not in plant(ch_,"Grab my e-book from the link.")[1].lower()]
+check("28. every P21 pack's check.py fails 'e-book' (style, plumbing, HVAC, woodworking)", not noflag, f"not flagging: {noflag}")
 
 # ---- fixes from the post-merge audit (2026-10-21) ----
 # 29. tenure: ordinary ages of pipes and heaters are not the persona's years; the persona's own still are
@@ -376,68 +380,44 @@ check("31. build-order 'at the very end' lines pass; 'saving the best for the ve
       code==0 and code2==1 and "tease: at the very end" in out2 and not okb and not tz, out+out2+str(okb)+str(tz))
 
 # 32. runtime: the profile's words per minute and the niche pack's minimum
-code,out=run_scan("Cut the board.\n",[WWR,f"{PERS}/hank-hardwood.md"])
+code,out=run_scan("Cut the board.\n",[WWR,f"{OPERS}/hank-hardwood.md"])
 code2,out2=run_scan("Rinse the trap.\n",[PLR,ROGER])
 check("32. runtime uses the profile's words per minute (Hank 185, Roger 170) and the pack's minimum (plumbing 12, woodworking 8)",
       "at 185 words a minute; minimum 8" in out and "at 170 words a minute; minimum 12" in out2, out[:300]+out2[:300])
 
 # 33. a title's years of selling unlock that figure (Dale's title format)
-code,out=run_scan("I've spent forty years at the bench.\n",[WWR,f"{PERS}/dale-oakfield.md"],title="In 40 Years of Selling, Nothing Beats This Build")
+code,out=run_scan("I've spent forty years at the bench.\n",[WWR,f"{OPERS}/dale-oakfield.md"],title="In 40 Years of Selling, Nothing Beats This Build")
 check("33. 'In 40 Years of Selling' in the title allows forty years in the script", code==0 and "PERSONA FACT" not in out, out)
 
-# 34. the wording each profile requires passes its own copy guard
-cases=[(ROGER,PLR,"Grab it from the link in the description and the QR code on screen."),
-       (MARK,PLR,"It is at the link in the description and the QR code on screen."),
-       (f"{PERS}/hank-hardwood.md",WWR,"Grab it with the QR code on screen or the top link in the description."),
-       (f"{PERS}/dale-oakfield.md",WWR,"Here's what I'd ask of you. Try it this week.")]
-bad=[os.path.basename(pf) for pf,rules,line in cases if run_scan(line+"\n",[rules,pf],refs=[pf])[0]!=0]
-check("34. each profile's required CTA or ending wording passes the copy guard against the profile", not bad, ", ".join(bad))
+# 34. retired 2026-11-06, P21: the copy guard no longer runs against the profiles (check.py guards the model transcripts only;
+#     each page's required wording is checked by check.py itself)
 
-# 35. plumbing bans the 'today we're going to' opening; Mark's uncontracted stock phrases still count once; more contractions caught
-code,out=run_scan("Today we're going to fix the drain.\n",[PLR,ROGER])
-code2,out2=run_scan("Here is the part nobody tells you.\n\nAnd here is the part nobody tells you again.\n",[PLR,MARK])
-code3,out3=run_scan("Let's look. Where's the valve?\n",[PLR,MARK])
-check("35. plumbing: 'today we're going to' banned; Mark's 'here is the part nobody tells you' limited to once; 'Let's' and 'Where's' caught",
-      code==1 and "today we're going to" in out and code2==1 and "NICHE/PERSONA LIMIT" in out2 and code3==1 and out3.count("contraction")>=2, out+out2+out3)
+# 35. plumbing (P21: retargeted to check.py): 'today we're going to' fails; Mark's 'here is the part nobody tells you' is banned;
+#     'Let's' and 'Where's' are contractions for Mark
+c35a=plant("roger","Today we're going to fix the drain.")
+c35b=plant("mark","Here is the part nobody tells you.")
+c35c=plant("mark","Let us look. Let's look. Where's the valve?")
+check("35. plumbing check.py: 'today we're going to' fails; Mark's 'here is the part nobody tells you' fails; 'Let's' and 'Where's' caught",
+      "'today we're going to'" in c35a[1] and "a stock line ('here is the part people skip')" in c35b[1] and "'Let's'" in c35c[1] and "'Where's'" in c35c[1], c35a[1][-300:]+c35b[1][-300:]+c35c[1][-300:])
 
-# 36. the plumbing price guide: every table row is rounded (no cents), carries a check mark, and the pack points to it
+# 36. the plumbing price guide (P21: the new pack's copy, byte-identical to the archived one, check 96): every row rounded and marked;
+#     the pack points to it, and check.py reads it by default
 PG=f"{PL}/references/price-guide.md"
 rows=[l for l in open(PG).read().splitlines() if l.startswith("| ") and not l.startswith("| Item") and not l.startswith("| Fact") and not set(l) <= set("|- ")] if os.path.isfile(PG) else []
 cents=[l for l in rows if re.search(r"\$\d[\d,]*\.\d", l)]
 nocheck=[l for l in rows if l.rstrip(" |").split("|")[-1].strip() not in ("confirmed","adjusted","thin","in words")]
-check("36. price guide: 100+ rows, none in cents, each marked confirmed / adjusted / thin / in words; the plumbing pack and its scanner line use it",
-      len(rows)>=100 and not cents and not nocheck and "references/price-guide.md" in open(PLR).read()
-      and "price-guide.md" in open(f"{ROOT}/tools/build_skills.py").read(), f"rows={len(rows)} cents={cents[:3]} nocheck={nocheck[:3]}")
+check("36. price guide: 100+ rows, none in cents, each marked confirmed / adjusted / thin / in words; the plumbing pack and its check.py use it",
+      len(rows)>=100 and not cents and not nocheck and "references/price-guide.md" in open(f"{PL}/SKILL.md").read()
+      and '"references", "price-guide.md"' in open(f"{PL}/check.py").read(), f"rows={len(rows)} cents={cents[:3]} nocheck={nocheck[:3]}")
 
-# ---- the emotion draft applied (2026-10-21, after plumbing test run 02) ----
-# 37. the plumbing pack carries the emotion section, the list item shape, the CTA template, the number cap, the gas steps,
-#     the trade terms and the myth flag's belief; Roger's and Mark's profiles carry the new CTA; the scanner command guards SKILL.md
-sk=open(PLR).read()
-need=["## Emotion, all the way through","### The item shape in lists","about 100-130 words","**The number cap**",
-      "figures on no more than about half the items","never before the end of item 3","about 60-80 words","an outright ask to leave a comment",
-      "When the script names a source, its figure is said as the source gives it","as long as nothing in it is fluff",
-      "the gas-leak row of `references/price-guide.md` section 9","no flame, no car",
-      "psi, trap, P-trap, jetting, relining, anode rod, cleanout, PRV","names the belief it flips","absolutely criminal",
-      "this file (`SKILL.md`)","much more of it, inside items and between them"]
-miss=[n for n in need if n not in sk]
-prof_bad=[os.path.basename(p) for p in (ROGER,MARK) if "20-60" in open(p).read() or "about 60-80 words, about a third of the way in, never before the end of item 3" not in open(p).read()]
-bs=open(f"{ROOT}/tools/build_skills.py").read()
-check("37. plumbing pack: emotion, item shape, CTA template (a third in, not before item 3), comment ask, number cap, named-source figures, gas steps, trade terms, myth flag; Roger and Mark profiles; SKILL.md in the scanner's --refs",
-      not miss and not prof_bad and "--refs <plumbing-scripts>/SKILL.md" in bs and "20-60" not in sk, f"missing {miss}; profiles {prof_bad}")
+# 37. retired 2026-11-06, P21: the emotion section's rates, the item shape, the CTA template's word counts and the number cap
+#     were dropped (counts and templates; drafts/p21-plumbing/README.md, "Dropped")
 
-# 38. the outrage line: "criminal" trips no ban, the operator's phrase passes once and fails on the second use (rotate it);
-#     a line lifted from the pack's own opening example is caught by the copy guard
-code,out=run_scan("A new sewer line can run into the thousands. That is absolutely criminal, for a pipe in the ground.\n",[PLR,ROGER])
-code2,out2=run_scan("That is absolutely criminal.\n\nAnd that is absolutely criminal too.\n",[PLR,ROGER])
-code3,out3=run_scan("That slow flush you keep ignoring? It can end with a crew digging up your front yard.\n",[PLR,ROGER],refs=PL_REFS+[ROGER])
-code4,out4=run_scan("On the high end, this can run up to $15,000. It can cost you anywhere from $300 to $600, depending on where you live and how bad it's got.\n\n"
-                    "If you smell gas, get everybody out of the house right now and walk away upwind. Don't flip a light switch, don't use the phone inside, "
-                    "don't light a match and don't start the car. Once you're well down the street, call 911 and the gas company yourself. "
-                    "Don't go back in until they tell you it's safe, and let them turn the gas back on and relight the pilots. Some people can't smell it at all.\n\n"
-                    "Tell me which drain gives you trouble every winter. I read every one.\n",[PLR,ROGER],refs=PL_REFS+[ROGER])
-check("38. 'absolutely criminal' passes once and is limited to once; the pack's own example lines are under the copy guard, but its range wording, the gas steps in fresh words and 'I read every one' are not flagged",
-      code==0 and code2==1 and "absolutely criminal] used 2 times" in out2 and code3==1 and "COPIED FROM REFERENCE: SKILL.md]" in out3
-      and "COPIED" not in out4, out[:300]+out2[:300]+out3[:300]+out4[:600])
+# 38. 'absolutely criminal' (P21: retargeted to check.py): once passes, twice fails
+c38=plant("roger","That is absolutely criminal, for a pipe in the ground. And that is absolutely criminal too.")
+c38b=plant("roger","That is absolutely criminal, for a pipe in the ground.")
+check("38. 'absolutely criminal' passes once on Roger's script and fails when said twice",
+      c38b[0]==0 and "FAIL said twice: 'absolutely criminal', said 2 times" in c38[1], c38b[1][-300:]+c38[1][-300:])
 
 # 39. core: straight quotes, and the scanner line comes from a real run on the delivered text (or says "checked by hand")
 wf=open(f"{CORE}/workflow.md").read(); ga=open(f"{CORE}/greenlight-audit.md").read()
@@ -446,36 +426,17 @@ check("39. core: straight quotes before the final scan; the Scanner evidence lin
       and "Scanner: [run on the delivered text | checked by hand]" in ga and "never reports a count it didn't measure" in ga)
 
 # ---- Sawdust Sam relaunch (2026-10-23) ----
-# 40. the woodworking pack carries the heritage section (P8, P9), its safety lines and scanner line; the template has a HERITAGE block;
-#     the core's research rules point to the exception
-SAM=f"{PERS}/sawdust-sam.md"
-wk=open(WWR).read(); tp=open(f"{WW}/references/research-pack-template.md").read(); rs=open(f"{CORE}/research-and-sourcing.md").read()
-need=["## Heritage builds (old-world and foreign styles)","**The skeleton doesn't change.**","**Heritage beats.**","**Style, never replica.**",
-      "**The old way is an option, never the main step.**","**What the history may say (P8, operator 2026-10-23).**","**Proof for a heritage build (P9, operator 2026-10-23).**",
-      "**Lamps and lights:**","**Old-world finishes and pigments:**"]
+# 40. the woodworking pack keeps the heritage rules (P8, P9) in plain words (P21: retargeted to the new SKILL.md); the template keeps
+#     its HERITAGE block; the core's research rules point to the exception
+wk=open(f"{WW}/SKILL.md").read(); tp=open(f"{WW}/references/research-pack-template.md").read(); rs=open(f"{CORE}/research-and-sourcing.md").read()
+need=["**A heritage title**","never as an opening","never a replica","the old tool or method follows as an option","History stays general and hedged",
+      "never a date, a named person or a figure unless the brief or pack gives it with its source","no lead pigments","the heritage angle is opinion only"]
 miss=[n for n in need if n not in wk]
-check("40. woodworking pack: heritage builds (beats, style not replica, old way as option, P8 history, P9 proof), lamp and old-finish safety; template HERITAGE block; core points to the exception",
+check("40. woodworking pack: heritage builds (style not replica, the old way as an option, hedged history P8, proof P9, safe old finishes); template HERITAGE block; core points to the exception",
       not miss and "HERITAGE                           [heritage builds only" in tp and "the assumption, if none found" in tp and "P8, operator 2026-10-23" in rs, f"missing {miss}")
 
-# 41. Sam's profile: Talking Head, 174 wpm, tenure none, his name and book, the CTA points to both the QR code and the top link,
-#     the book file exists with its page map and the never-cite-past-80 rule; the channel row is pending until the details are picked
-sp=open(SAM).read(); sb=f"{PERS}/books/sawdust-sam-book.md"
-fs=facts_of(SAM); ch=open(f"{CORE}/channels.md").read()
-check("41. Sam's profile: Talking Head, 174 wpm, name/book/tenure facts, QR code and top link, book file with page map; channels.md row 6 ready",
-      "Script type: Talking Head" in sp and "Words per minute (for runtime and the 8-minute minimum): 174" in sp and "tenure: none" in fs and "name: Sawdust Sam" in fs
-      and "book: The Old Ways" in fs and "the QR code on screen or the top link in the description (every CTA says both)" in sp
-      and os.path.isfile(sb) and "## Chapter page map" in open(sb).read() and "cite nothing past page 80" in sp
-      and re.search(r"^\| 6 \| Sawdust Sam \| `woodworking-scripts` \| `personas/sawdust-sam.md` \| ready \|$",ch,re.M) is not None, str(fs))
-
-# 42. Sam's scanner: invented trips, encounters, teachers and "scientists now say" fail; his required CTA wording, a plain
-#     old-way line and his name pass; a years figure fails (tenure none)
-fails=[l for l in ("When I was in Kyoto I saw this.","I once met an old carver who did this.","I visited a temple workshop.",
-                   "My old mentor taught me this joint.","Scientists now say the Vikings were right.","After 40 years at the bench I know this.")
-       if run_scan(l+"\n",[WWR,SAM])[0]!=1]
-passes=[l for l in ("Grab it with the QR code on screen or the top link in the description.","That's how they did it the old way.",
-                    "Subscribe to Sawdust Sam for more.","That one's on page 25 of Sawdust Sam's book, and Hank Hardwood's too.") if run_scan(l+"\n",[WWR,SAM],refs=[SAM])[0]!=0]
-check("42. Sam's scanner: invented trips, encounters, teachers, 'scientists now say' and a years figure fail; his CTA wording and plain lines pass",
-      not fails and not passes, f"not failing: {fails}; not passing: {passes}")
+# 41. retired 2026-11-06, P21: Sawdust Sam is dropped (operator 2026-11-06, "sawdust sam is dropped"); his profile and book are archived
+# 42. retired 2026-11-06, P21: the same (Sam's scanner lines)
 
 # 43. Sam's ideation: the simple-build filter, single builds, the operator's title formats and the longer brief, wired into the pipeline
 so=f"{ROOT}/ideation/woodworking-ideation/references/sam-old-world.md"
@@ -504,14 +465,12 @@ check("44. written for the voice: 2x4, 8 ft, 3/8, 19%, psi, KD19, haha, $4.00, s
       and "one 2x4" not in ex and "**Write every word the way the voice should say it**" in wf,
       f"not failing: {fails}; not passing: {passes}")
 
-# 45. no promise block in the plumbing hook (P10, operator 2026-10-25): the opening's job 5 is the count line, the promise
-#     block is on the opening's never list, and the plan template carries the count line
-pk=open(f"{ROOT}/plumbing-scripts/SKILL.md").read(); up=open(f"{ROOT}/plumbing-scripts/references/unit-plan-template.md").read()
-op=pk[pk.index("## The opening"):pk.index("## Emotion, all the way through")]
-check("45. plumbing hook: no promise block (P10); job 5 is the count line, which never names a single item; the plan template follows",
-      "5. **The count line, when the video has a count**" in op and "5. **The promise block**" not in op
-      and "a promise block or any run-down of what later items hold" in op and "Promise straight after" not in pk
-      and "- count line:" in up and "- promise block:" not in up, "")
+# 45. no promise block in the plumbing hook (P10, operator 2026-10-25; P21: retargeted to check.py): a line in the opening that says
+#     what a later item holds fails; the count line naming no single item passes
+c45=plant("roger","Number four is the two-dollar tool that pulls the hair out in one go.",1)
+c45b=plant("roger","Three levels, smallest first.",1)
+check("45. plumbing hook: a run-down of a later item in the opening fails check.py (P10); a plain count line passes",
+      "FAIL opening: a run-down of what a later item holds" in c45[1] and c45b[0]==0, c45[1][-400:]+c45b[1][-300:])
 
 # ---- the electrical pack and Frederick Barnes (2026-10-27) ----
 EL=f"{ROOT}/electrical-scripts"; ELR=f"{EL}/SKILL.md"; FRED=f"{PERS}/frederick-barnes.md"
@@ -635,41 +594,31 @@ check("52. electrical voice and claims: short forms fail, spoken forms and years
       and "the palm check" in tics[1] and "tonight" in tics[1] and not stories,
       f"bad passing: {f_v}; good failing: {p_v}; p11: {p11[1][-300:] if p11[0] else ''}; stories passing: {stories}")
 # ---- the HVAC pack and Roger the HVAC Guy (2026-10-27; numbered 60+ to stay clear of the other branches' checks) ----
-HV=f"{ROOT}/hvac-scripts"; HVR=f"{HV}/SKILL.md"; ROGER_HVAC=f"{PERS}/roger-the-hvac-guy.md"; ROGER_PIPE=f"{PERS}/roger-the-pipe-guy.md"
-HV_REFS=[HVR,f"{HV}/references/excerpts.md",f"{HV}/references/voice-samples.md"]+sorted(glob.glob(f"{HV}/references/models/*.md"))
-HV_REFS=[r for r in HV_REFS if os.path.exists(r)]
+# P21: HVR and ROGER_HVAC are the archived pack and profile, read-only fixtures for the core scanner checks (63, 64, 71, 72);
+# the new pack is tested through hvac-scripts/check.py on the saved iter-17 script.
+HVR=f"{OHV}/SKILL.md"; ROGER_HVAC=f"{OPERS}/roger-the-hvac-guy.md"; ROGER_PIPE=f"{PERS}/roger-the-pipe-guy.md"
+NHVR=f"{HV}/SKILL.md"; NROGER_HVAC=f"{PERS}/roger-the-hvac-guy.md"
 
-# 60. every file reference in the HVAC pack and its profile resolves (placeholders in the spec and templates aside)
-HV_PLACEHOLDER={"references/models/R04-...md","R44-...md","<ID>-<channel-slug>-<short-topic-slug>.md","references/audience.md",
-                "CONCLUSIONS.md","niche-research/studies/hvac/CONCLUSIONS.md"}  # the last two live in the niche-research repository
-hv_files=[f for f in glob.glob(f"{HV}/**/*.md",recursive=True)]+[ROGER_HVAC]
+# 60. every file reference in the new HVAC pack and Roger the HVAC Guy's page resolves (P21: retargeted to the new files)
+HV_PLACEHOLDER={"CONCLUSIONS.md","niche-research/studies/hvac/CONCLUSIONS.md"}  # these live in the niche-research repository
+hv_files=[f for f in glob.glob(f"{HV}/**/*.md",recursive=True)]+[NROGER_HVAC]
 missing=[]
 for f in hv_files:
     for ref in re.findall(r"`([^`\s]+?\.(?:md|py)|[a-z-]+/)`", open(f).read()):
         if ref in HV_PLACEHOLDER: continue
         ok = any(os.path.isdir(os.path.join(b,ref)) for b in (ROOT,HV,PERS,os.path.dirname(f))) if ref.endswith("/") else (os.path.basename(ref) in repo_names or ref in repo_rels or os.path.isfile(os.path.join(HV,ref)))
         if not ok: missing.append(f"{os.path.relpath(f,ROOT)} -> {ref}")
-check("60. every file reference in the HVAC pack and Roger the HVAC Guy's profile resolves", not missing, "; ".join(sorted(set(missing))))
+check("60. every file reference in the HVAC pack and Roger the HVAC Guy's page resolves", not missing, "; ".join(sorted(set(missing))))
 
-# 61. HVAC inputs block: title, brief and rotation log required, the research pack not used
-hvs=open(HVR).read(); ib=re.search(r"```inputs\n(.*?)```",hvs,re.S)
-rows={l.split("|")[0].strip("- ").strip():l.split("|")[1].strip() for l in (ib.group(1).splitlines() if ib else []) if "|" in l}
-check("61. HVAC inputs block: title, brief, rotation log required; research pack not used",
-      rows.get("title")=="required" and rows.get("brief")=="required" and rows.get("rotation-log")=="required" and rows.get("research-pack")=="not used", str(rows))
+# 61. retired 2026-11-06, P21: the HVAC pack has no inputs block (title and brief in words; the rotation log is dropped)
 
-# 62. the HVAC scanner block: every ban fires; spoken forms and a clean HVAC paragraph pass
-bad=["Today we're going to fix your furnace.","I tested all four filters.","Set it to 24 V.","That runs $75-$200.","Your A/C needs air.",
-     "Old R-22 units are rare.","Get a CO alarm.","Your furnace will thank you.","Keep your cool out there.","None of this is hidden because it's hard.",
-     "If this saved you a call, subscribe.","Same companies, same story.","Stay tuned for the last one."]
-fails=[l for l in bad if run_scan(l+"\n",[HVR,ROGER_HVAC])[0]!=1]
-clean_hv=("When the furnace fires up and then shuts off again, the usual culprit is a dirty flame sensor, the small rod that tells it the burner caught. "
-          "Turn the power off at the furnace switch, check it's dead with a non-contact tester, and close the gas valve. "
-          "A tech charges anywhere from $100 to $250 to clean it, depending on where you live. A MERV 13 filter on an older HVAC system "
-          "can choke the blower, and your AC coil can freeze. Old R-twenty-two units are getting rare, and a carbon monoxide alarm goes on every floor.\n")
-code,out=run_scan(clean_hv,[HVR,ROGER_HVAC])
-once2=run_scan("It goes quietly. It fails quietly.\n",[HVR,ROGER_HVAC])[0]
-check("62. HVAC scanner block: every ban fires (units, hyphen ranges, slashes, refrigerant codes, CO, stock lines, the faceless leader's catchphrases); spoken forms pass; 'quietly' once",
-      not fails and code==0 and once2==1, f"not failing: {fails}; clean: {out[-600:] if code else ''}")
+# 62. the HVAC bans (P21: retargeted from the scanner block to check.py): each planted line fails on the passing iter-17 script
+bad62=["Today we're going to fix your furnace.","I tested all four filters.","Set it to 24 V.","That runs $75-$200.","Your heating/cooling needs air.",
+       "Old R-22 units are rare.","Get a CO alarm.","Keep your cool out there.","None of this is hidden because it's hard.",
+       "If this saved you a call, subscribe.","Same companies, same story.","Stay tuned for the last one."]
+p62=[l for l in bad62 if "FAIL banned" not in plant("roger-hvac",l)[1]]
+check("62. HVAC check.py: every planted ban fails (units, hyphen ranges, slashes, refrigerant codes, CO, stock lines, the faceless leader's catchphrases); the saved script passes",
+      passing("roger-hvac")[0]==0 and not p62, f"not failing: {p62}")
 
 # 63. tenure in HVAC words: a wrong figure fails in every form; equipment ages and other people's years pass; title numbers win
 wrong=["After forty years in HVAC, I can tell you this.","I spent 40 years as an HVAC tech.","Take it from a 40-year HVAC man.",
@@ -689,39 +638,37 @@ without=run_scan("Check the HVAC filter, the MERV rating and the AC coil.\n",[RO
 check("64. letters-ok: HVAC, MERV and AC aren't judge lines with the HVAC pack, and still are without it",
       "letters 'HVAC'" not in withp and "letters 'MERV'" not in withp and "letters 'HVAC'" in without, withp[-400:])
 
-# 65. the two Roger channels never mention each other (operator, 2026-10-27)
-a1=run_scan("Over on the Pipe Guy channel I cover drains.\n",[HVR,ROGER_HVAC])[0]
-a2=run_scan("Grab One Hundred Old-House Fixes from the link.\n",[HVR,ROGER_HVAC])[0]
-a3=run_scan("My friend Roger the HVAC Guy covers furnaces.\n",[PLR,ROGER])[0]
-a4=run_scan("Subscribe to Roger the HVAC Guy for more.\n",[HVR,ROGER_HVAC])[0]
-check("65. the two Rogers: each profile fails the other channel's name (and the HVAC one the plumbing book); its own name passes",
-      a1==1 and a2==1 and a3==1 and a4==0, f"{a1}{a2}{a3}{a4}")
+# 64. letter words the HVAC pack says every day aren't judged one by one (letters-ok) — a core scanner check on the archived fixture
+withp=run_scan("Check the HVAC filter, the MERV rating and the AC coil.\n",[HVR,ROGER_HVAC])[1]
+without=run_scan("Check the HVAC filter, the MERV rating and the AC coil.\n",[ROGER_HVAC])[1]
+check("64. letters-ok: HVAC, MERV and AC aren't judge lines with the HVAC pack fixture, and still are without it",
+      "letters 'HVAC'" not in withp and "letters 'MERV'" not in withp and "letters 'HVAC'" in without, withp[-400:])
 
-# 66. HVAC references are real people on camera only (operator, 2026-10-27): no S files, every model tagged real; the copy guard
-#     runs over every HVAC reference file and catches a line lifted from a model
-models=sorted(glob.glob(f"{HV}/references/models/[RS]*.md"))
-sfiles=[os.path.basename(m) for m in models if os.path.basename(m).startswith("S")]
-untagged=[os.path.basename(m) for m in models if "**Tag:** [real]" not in open(m).read()]
-lift=""
-for m in models:
-    sc_=re.search(r"## Script.*?\n(.*?)\n## ",open(m).read(),re.S)
-    if sc_:
-        w=re.sub(r"\[[^\]]*\]","",sc_.group(1)).split()
-        if len(w)>40: lift=" ".join(w[20:32]); break
-code_l,out_l=run_scan(lift+".\n",[HVR,ROGER_HVAC],refs=HV_REFS) if lift else (0,"")
-code_c,out_c=run_scan(clean_hv,[HVR,ROGER_HVAC],refs=HV_REFS)
-check("66. HVAC models: real people only (no S files, every model tagged real); the copy guard catches a lifted model line and passes the clean paragraph",
-      len(models)>=15 and not sfiles and not untagged and code_l==1 and "copied from reference" in out_l.lower() and code_c==0,
-      f"models={len(models)} S={sfiles} untagged={untagged} lift={code_l} clean={code_c} {out_c[-300:] if code_c else ''}")
+# 65. the two Roger channels never mention each other (operator, 2026-10-27; P21: retargeted to the two check.py files)
+a1=plant("roger-hvac","Over on the Pipe Guy channel I cover drains.")[1]
+a2=plant("roger-hvac","Grab One Hundred Old-House Fixes from the link.")[1]
+a3=plant("roger","My friend Roger the HVAC Guy covers furnaces.")[1]
+check("65. the two Rogers: each check.py fails the other channel's name (and the HVAC one the plumbing book)",
+      "the other Roger channel" in a1 and "a book (this channel has none)" in a2 and "the other Roger channel" in a3, a1[-300:]+a2[-300:]+a3[-300:])
 
-# 67. wiring: the channel row and the profile agree (pending until a test passes), on hvac-scripts; the builder ships both skills
-ch=open(f"{CORE}/channels.md").read(); pr=open(ROGER_HVAC).read(); bs=open(f"{ROOT}/tools/build_skills.py").read()
-row=re.search(r"^\| \d+ \| Roger the HVAC Guy \| `hvac-scripts` \| `personas/roger-the-hvac-guy.md` \| (\w+) \|",ch,re.M)
-pst=re.search(r"^Status: (\w+)",pr,re.M)
-check("67. Roger the HVAC Guy: channel row and profile status agree, on hvac-scripts; the builder ships hvac-scripts and his persona skill with an HVAC scanner command",
-      bool(row) and bool(pst) and row.group(1)==pst.group(1) and "Niche pack: hvac-scripts" in pr
-      and '"hvac-scripts": ("archive", "model-file-spec.md")' in bs and '"roger-the-hvac-guy":' in bs and "--refs <hvac-scripts>/SKILL.md" in bs,
-      f"row={row.group(1) if row else None} profile={pst.group(1) if pst else None}")
+# 66. HVAC models are real people on camera (operator, 2026-10-27; P21: retargeted to the eight new model files): no S files;
+#     each says it's a real person on camera; a run lifted from each model fails check.py
+HVM=sorted(glob.glob(f"{HV}/references/models/*.md"))
+sfiles=[os.path.basename(m) for m in HVM if os.path.basename(m).startswith("S")]
+untagged=[os.path.basename(m) for m in HVM if "A real person on camera" not in open(m).read()]
+miss66=[]
+for m in HVM:
+    tr=re.findall(r"[\w']+",open(m).read().split("## Transcript",1)[1])
+    lift=" ".join(tr[60:72])
+    if f"from {os.path.basename(m)}" not in plant("roger-hvac",lift[0].upper()+lift[1:]+".")[1]: miss66.append(os.path.basename(m))
+check("66. HVAC models: eight, real people on camera only (no S files); a run lifted from each fails check.py",
+      len(HVM)==8 and not sfiles and not untagged and not miss66, f"models={len(HVM)} S={sfiles} untagged={untagged} not caught={miss66}")
+
+# 67. wiring (P21: retargeted): channel row 8 ready on hvac-scripts; the build ships hvac-scripts and his persona skill
+ch=open(f"{CORE}/channels.md").read(); bs=open(f"{ROOT}/tools/build_skills.py").read()
+check("67. Roger the HVAC Guy: channel row 8 ready on hvac-scripts; his page exists; the builder ships hvac-scripts and his persona skill",
+      "| 8 | Roger the HVAC Guy | `hvac-scripts` | `personas/roger-the-hvac-guy.md` | ready |" in ch and os.path.isfile(NROGER_HVAC)
+      and '"hvac-scripts": (),' in bs and '"roger-the-hvac-guy":' in bs and '"roger-the-hvac-guy-persona": "p21-hvac"' in bs, "")
 
 # 68. the HVAC price guide: every row rounded (no cents) and check-marked; the gas-leak and carbon monoxide rows carry every step;
 #     the stale brief figures are warned off; the pack points to it and the builder ships it with the HVAC scanner command
@@ -739,7 +686,7 @@ warn=["Never \"9 out of 10\" or \"88%\"","federal tax credits for new heat pumps
 hwarn=[w for w in warn if w not in hpg]
 check("68. HVAC price guide: 100+ rows, none in cents, each marked; gas-leak and CO rows carry every step; stale figures warned off; the pack and builder use it",
       len(hrows)>=100 and not hcents and not hnocheck and not hmiss and not hwarn
-      and "references/price-guide.md" in open(HVR).read() and "<hvac-scripts>/references/price-guide.md" in open(f"{ROOT}/tools/build_skills.py").read(),
+      and "references/price-guide.md" in open(NHVR).read() and "<hvac-scripts>/references/price-guide.md" in open(f"{ROOT}/tools/build_skills.py").read(),
       f"rows={len(hrows)} cents={hcents[:3]} nocheck={hnocheck[:3]} missing={hmiss} warn={hwarn}")
 
 # ---- P13: the core checker fixes (operator, 2026-10-27: E1 "apply all") ----
@@ -747,7 +694,7 @@ check("68. HVAC price guide: 100+ rows, none in cents, each marked; gas-leak and
 #     a wrong tenure said the electrician way fails; a wiring age doesn't count as tenure
 ten_good=[l for l in ["In thirty-five years in the trade, I'd replace that one first.","Thirty five years in the trade taught me one thing.",
                       "After thirty-five years of doing this, I'd replace it."] if run_scan(l+"\n",[ELR,FRED])[0]!=0]
-mark_good=run_scan("In forty-five years in the trade, I'd fix that first.\n",[f"{PERS}/vintage-pipefitter.md"])
+mark_good=run_scan("In forty-five years in the trade, I'd fix that first.\n",[f"{OPERS}/vintage-pipefitter.md"])  # P21: archived fixture
 ten_bad=[l for l in ["In 25 years as an electrician, I'd replace it.","I wired houses for 30 years, and I'd replace it.","I'm a 40-year electrician, and I'd replace it.",
                      "After 25 years of electrical work, I'd replace it.","My twenty-five years in the trade say replace it.","I spent forty years as an electrician.",
                      "I spent 25 years as a lineman.","In thirty years of wiring houses, I learned one thing."]
@@ -788,7 +735,7 @@ R03=f"{ROOT}/tests/iterations/iter-04/test-run-03"
 with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("```scanner\nitem-words: 100-130\nfirst-item-seconds: 30\n```\n"); band=t.name
 rep=subprocess.run([sys.executable,SCAN,f"{R03}/script.txt","--rules",band],capture_output=True,text=True).stdout
 ver=subprocess.run([sys.executable,f"{ROOT}/tools/verify_output.py",f"{R03}/chat-and-output.md","--script",f"{R03}/script.txt",
-                    "--rules",f"{PL}/SKILL.md",f"{PERS}/roger-the-pipe-guy.md"],capture_output=True,text=True)
+                    "--rules",f"{OPL}/SKILL.md",f"{OPERS}/roger-the-pipe-guy.md"],capture_output=True,text=True)  # P21: archived fixtures
 check("56. scanner ITEMS/SENTENCES report and verify_output.py: run 03 shows item one at word 139, 0 of 15 in band, longest sentence 45, 'MECHANICAL CLAIMED 0' against 122 curly quotes",
       "item one at word 139" in rep and "in band 100-130: 0 of 15" in rep and "longest 45" in rep and "<< later than 30 seconds" in rep
       and ver.returncode==1 and "MECHANICAL CLAIMED 0, the script has 122 curly quotes" in ver.stdout, rep[:600]+ver.stdout[-600:])
@@ -861,71 +808,65 @@ c6,o6=run_scan("Don't touch the igniter. It's fragile. If it still shuts down, d
 check("72. reframe floor: a same-verb flip across two sentences is caught; instructions starting \"don't\" are not",
       "REFRAME FLOOR (H21): 1" in o5 and "REFRAME FLOOR (H21): 0" in o6, o5[-300:]+o6[-300:])
 
-# 70. Werner's profile (61 on its own branch; renumbered at the merge, as HVAC holds 60-68) (relaunched 2026-10-27, ready the same day): plumbing pack, Talking Head, the Herrmann voice; name, book, tenure 30; his book index;
-#     channels.md row 9 ready (8 on its own branch; Roger the HVAC Guy holds 8); the build knows him; a clean German-way paragraph passes (copy guard included);
-#     contractions, a name intro, any relative, the book's own stories (Bertha, Marcus), an arrival story, a euro price, comedy German, his old recap
-#     lines and sign-off, a subscribe ask and a second tenure fail; the mentor line and the 30 years pass (operator's answers, 2026-10-27)
-WERN=f"{PERS}/werner-finkbeiner.md"; wp=open(WERN).read(); wf=facts_of(WERN)
-clean_w=("Right now, behind the toilet in your bathroom, a rubber flapper the size of a coaster is letting clean water slip into the bowl, and you pay for every gallon of it. "
-         "So. In Germany it is usual to wipe the valve seat with a little citric acid every spring, and most American houses never do it. "
-         "But the physics is the same on both sides of the ocean. That is Wartung, plain maintenance, nothing more.\n")
-cw=run_scan(clean_w+"\nQuick thing before number four. My old mentor taught me this trade, and before he passed, I wrote down everything he showed me. It is all in Werner's One Hundred and One Free Repairs, at the link in the description and the QR code. Now, the trap.\n\nIn 30 years as a plumber I have not seen a better habit.\n",[PLR,WERN],refs=PL_REFS+[WERN])
-bad_w=["It's the flapper.","I am Werner Finkbeiner, and this is my channel.","My grandfather showed me this.","When I came to America, the pipes surprised me.",
-       "A bottle costs about one euro.","Enough for today.","Subscribe for more of these.","My father showed me this.","Bertha kept a coffee can by the sink.","My neighbor Marcus tried it.","In 25 years as a plumber I never saw this.","Achtung, this is important.","Three small things for this week, then.","Werner Finkbinder wrote it down."]
-w_pass=[l for l in bad_w if run_scan(f"Check the flapper.\n\n{l}\n",[PLR,WERN])[0]!=1]
+# 70. Werner (relaunched 2026-10-27; P21: retargeted from his profile's scanner block to plumbing-scripts/check.py and his page):
+#     Talking Head with his printed title in the markers, the mentor line word for word, tenure 30, no contractions, 181 words a minute;
+#     row 9 ready; the book index; in the build; his passing iter-16 script passes and his banned lines fail on it
+wc_=plc["werner"]; wp=open(f"{PERS}/werner-finkbeiner.md").read()
+bad_w=["I am Werner Finkbeiner, and this is my channel.","My grandfather showed me this.","When I came to America, the pipes surprised me.",
+       "A bottle costs about one euro.","Enough for today.","My father showed me this.","Bertha kept a coffee can by the sink.","My neighbor Marcus tried it.",
+       "In 25 years as a plumber I never saw this.","Achtung, this is important.","Three small things for this week, then.","Werner Finkbinder wrote it down."]
+w_pass=[l for l in bad_w if plant("werner",l)[0]!=1]
 chan=open(f"{CORE}/channels.md").read(); bs=open(f"{ROOT}/tools/build_skills.py").read()
-check("70. Werner's profile: plumbing pack, Talking Head, Herrmann voice, ready; name, book, tenure 30; row 9 ready; the book index; in the build; a clean paragraph with the mentor line and 30 years passes, his banned lines fail",
-      "Niche pack: plumbing-scripts" in wp and "Script type: Talking Head" in wp and "au7Q2pqB7wdio9LWlvt7" in wp and "Status: ready" in wp
-      and "name: Werner Finkbeiner" in wf and "book: Werner's One Hundred and One Free Repairs" in wf and "tenure: 30" in wf
+check("70. Werner: check.py's entry (Talking Head, his printed title, the mentor line, tenure 30, no contractions, 181 wpm); row 9 ready; the book index; in the build; his script passes, his banned lines fail",
+      wc_["type"]=="talking" and wc_["printed"]=="Werner's 101 Free Repairs" and wc_["fixed"].startswith("My old mentor taught me this trade")
+      and wc_["tenure"]==30 and wc_["contractions"] is False and wc_["wpm"]==181 and "Werner Finkbeiner" in wp
       and "| 9 | Werner Finkbeiner | `plumbing-scripts` | `personas/werner-finkbeiner.md` | ready |" in chan
       and '"werner-finkbeiner": ("Werner Finkbeiner", "personas/werner-finkbeiner.md"' in bs
       and os.path.exists(f"{PERS}/books/werner-finkbeiner-book.md") and "| 54 | Silence a Running Toilet by Replacing the Flapper | 7 | 277 |" in open(f"{PERS}/books/werner-finkbeiner-book.md").read()
-      and cw[0]==0 and not w_pass, f"clean: {cw[1][-500:] if cw[0] else ''}; banned lines passing: {w_pass}")
-# 46b. the escalation line (plumbing P17, numbered P11 on its own branch; operator 2026-10-27): an option in the plumbing opening, not a rule, rotated, never naming
-#     a single item; P10's never list stands; R21 (drywall, not plumbing) holds the two moves only, no script or beat map
-r21=open(f"{ROOT}/plumbing-scripts/references/models/R21-nailed-it-drywall-repair-beginners.md").read()
-idx=open(f"{ROOT}/plumbing-scripts/references/models/INDEX.md").read()
-check("46b. plumbing hook: the escalation line is an option, not a rule, rotated, never naming an item; R21 is marked not plumbing with no script or beat map",
-      "**The escalation line: an option, not a rule**" in op and "rotate it like any opening shape" in op
-      and "never what an item holds or its fix" in op and "a promise block or any run-down of what later items hold" in op
-      and "apart from the count line or the escalation line" in pk
-      and "NOT PLUMBING" in r21 and "## Beat map" not in r21 and "## Script" not in r21 and "R21-nailed-it-drywall-repair-beginners.md" in idx, "")
+      and passing("werner")[0]==0 and not w_pass, f"banned lines passing: {w_pass}")
+# 46b. the escalation line (plumbing P17, operator 2026-10-27; P21: retargeted to the pages): an option in the opening ("If it fits"),
+#     never naming a single item. (R21 and the model INDEX are archived with the old pack; that part is retired, 2026-11-06, P21.)
+esc=[n for n in ("roger-the-pipe-guy","mark-silverbridge","vintage-pipefitter") if "If it fits, add a question" not in open(f"{PERS}/{n}.md").read() or "the escalation said simply" not in open(f"{PERS}/{n}.md").read()]
+check("46b. plumbing hook: the escalation line is an option ('If it fits... the escalation said simply') on Roger's, Mark's and Vintage's pages",
+      not esc, f"missing on: {esc}")
 
 # ---- the Werner and Frederick upload review (operator, 2026-10-29) ----
-# 73. every plumbing profile sets its real words per minute (Roger 170, Mark 181, Vintage 190, Werner 181), and the runtime uses it:
-#     Werner's 2,010 words, 11:06 on air, now fall under 12 minutes; Frederick 162
-pl_wpm={ROGER:"170",MARK:"181",VINT:"190",f"{PERS}/werner-finkbeiner.md":"181"}
-wpm_ok=all(re.search(r"^Words per minute \(for runtime and the 12-minute minimum\): "+v+r"\b",open(k).read(),re.M) for k,v in pl_wpm.items())
-c73,o73=run_scan(("Flush once and watch it go. "*335)+"\n",[PLR,f"{PERS}/werner-finkbeiner.md"])
-check("73. plumbing profiles set real words per minute (170/181/190/181); a 2,010-word Werner script is under 12 minutes; Frederick 162",
-      wpm_ok and "at 181 words a minute; minimum 12" in o73 and "under the minimum" in o73
+# 73. every plumbing channel's real words per minute (Roger 170, Mark 181, Vintage 190, Werner 181; P21: retargeted to check.py's CHANNELS),
+#     and the length check uses it: Werner's script cut to 2,010 words fails under 12 minutes; Frederick 162
+wpk,wsc,wch,wbr=run_of("werner"); wtxt=open(wsc).read(); wcut=" ".join(wtxt.split()[:2010])
+c73=pack_check(wpk,wcut,wch,wbr)
+check("73. plumbing check.py sets real words per minute (170/181/190/181); a 2,010-word Werner script fails under 12 minutes; Frederick 162",
+      [plc[c]["wpm"] for c in ("roger","mark","vintage","werner")]==[170,181,190,181] and "minutes at 181); needs at least 2172 (12 minutes)" in c73[1]
       and "Words per minute (for runtime and the length minimum): 162" in open(f"{PERS}/frederick-barnes.md").read()
-      and "1,950" in open(f"{EL}/SKILL.md").read(), o73[:400])
+      and "1,950" in open(f"{EL}/SKILL.md").read(), c73[1][-400:])
 
-# 74. the plumbing opening: "today you learn", a promise with a time on it and two promises in the first minute fail; one
-#     promise is judged; "nothing here needs a plumber" is judged; "Level one" is a signpost; item one past 45 seconds is marked;
-#     "tonight's homework" fails on every channel
-WERNP=f"{PERS}/werner-finkbeiner.md"
+# 74. the plumbing opening (core scanner; P21: the archived plumbing pack, Werner's and Hank's profiles as read-only fixtures):
+#     "today you learn", a promise with a time on it and two promises in the first minute fail; one promise is judged;
+#     "nothing here needs a plumber" is judged; "Level one" is a signpost; item one past 45 seconds is marked; "tonight's homework" fails
+WERNP=f"{OPERS}/werner-finkbeiner.md"
 _,o74a=run_scan("The toilet is blocked. So, today you learn to unclog a toilet. If the answer is no, you will know in two minutes. Nothing from a jug goes in, and you will hear why.\n",[PLR,WERNP])
 _,o74b=run_scan("The toilet is blocked, and the water is climbing. By the last level, you will know the one sign that means the main line.\n",[PLR,WERNP])
 _,o74c=run_scan("Nothing here needs a plumber. Level one, slow. Plunge it.\n",[PLR,WERNP])
-c74d,o74d=run_scan("Cut the board. And that is the whole of tonight's homework.\n",[WWR,f"{PERS}/hank-hardwood.md"])
+c74d,o74d=run_scan("Cut the board. And that is the whole of tonight's homework.\n",[WWR,f"{OPERS}/hank-hardwood.md"])
 _,o74e=run_scan(("The water sits high in the bowl. "*40)+"Level one, slow. Soap and hot water. Level two, rising. Lift the lid.\n",[PLR,WERNP])
-check("74. plumbing opening: 'today you learn', a timed promise and two promises fail; one end promise and 'no plumber needed' judged; Level signposts; homework fails anywhere",
+check("74. plumbing opening (core scanner): 'today you learn', a timed promise and two promises fail; one end promise and 'no plumber needed' judged; Level signposts; homework fails anywhere",
       "today you learn" in o74a and "a promise with a time on it" in o74a and "OPENING: 2 promises" in o74a
       and "OPENING:" not in o74b.split("JUDGE")[0] and "is it paid at the end of the video" in o74b
       and "no plumber needed" in o74c and "ITEMS: 1" in o74c and c74d==1 and "homework" in o74d
       and "ITEMS: 2" in o74e and "later than 45 seconds" in o74e, o74a[-500:]+o74b[-300:]+o74c[-300:]+o74e[:300])
 
-# 75. the pack text: short opening built on a named model, no tool list and the kit once, one end-of-video promise, the scope line
-#     never "no plumber needed", the silence line in plain words, one small thing at the end (every pack and the core)
-plp=open(PLR).read(); plt=open(f"{PL}/references/unit-plan-template.md").read(); rm=open(f"{CORE}/retention-mechanics.md").read(); ga=open(f"{CORE}/greenlight-audit.md").read()
-check("75. plumbing opening rules (reference model, 45 s, kit once, one end promise, no 'no plumber'), plain silence line, one small thing at the end everywhere",
-      "**Short, and built on a reference**" in plp and "**No tool list in the opening, and the kit is named once in the whole video**" in plp
-      and "**One end-of-video promise, at most**" in plp and "Never a blanket \"nothing here needs a plumber\"" in plp and "**In simple words**" in plp
-      and "- opening model:" in plt and "- end-of-video promise:" in plt and "first-item-seconds: 45" in plp
-      and "**One** action: a closing to-do list" in rm and "closing to-do list or \"homework\"" in ga
-      and all("one small thing to do tonight" in open(f).read() for f in (PLR,f"{EL}/SKILL.md",f"{ROOT}/hvac-scripts/SKILL.md")), "")
+# 75. the opening and ending rules (P21: the plumbing parts retargeted to check.py and the pages; the unit-plan template parts retired):
+#     'today you learn', a timed promise and 'no plumber needed' with a call fail in check.py; a tool list in the opening fails;
+#     one small thing at the end on every plumbing and HVAC page, in the electrical pack and the core
+c75a=plant("roger","So, today you learn to unclog it, and you will know in two minutes.",1)
+c75b=plant("roger","Nothing here needs a plumber.",1)
+c75c=plant("roger","You need a plunger, a bucket, a flashlight, gloves and a drain snake.",1)
+rm=open(f"{CORE}/retention-mechanics.md").read(); ga=open(f"{CORE}/greenlight-audit.md").read()
+small=[n for n in ("roger-the-pipe-guy","mark-silverbridge","vintage-pipefitter","werner-finkbeiner","roger-the-hvac-guy") if "one small thing" not in open(f"{PERS}/{n}.md").read()]
+check("75. opening rules in check.py ('today you learn', a timed promise, 'no plumber needed' with a call, no tool list); one small thing at the end on every plumbing and HVAC page, electrical and core",
+      "'today you learn'" in c75a[1] and "a promise with a time on it" in c75a[1] and "FAIL scope: 'no plumber needed'" in c75b[1] and "FAIL opening list" in c75c[1]
+      and not small and "one small thing to do tonight" in open(f"{EL}/SKILL.md").read()
+      and "**One** action: a closing to-do list" in rm and "closing to-do list or \"homework\"" in ga, f"pages missing: {small} | "+c75a[1][-300:]+c75b[1][-300:]+c75c[1][-300:])
 
 # 76. Frederick: one step, one job; the buying step adapts to what the look found; facts guide 1.18 (gauge against breaker),
 #     1.17a (kitchen and bathroom circuits by room), 4.30 (GFCI by the new outlet's place), 6.19a (AFCI outlet at the first outlet)
@@ -935,15 +876,16 @@ check("76. electrical: one step one job; adaptive buying step; facts 1.18, 1.17a
       and "| 1.18 | The breaker can be smaller than the wire allows" in fgp and "| 1.17a |" in fgp and "| 4.30 |" in fgp
       and "first receptacle outlet of the existing circuit" in fgp, "")
 
-# 77. second round (operator, 2026-10-29): HVAC takes the plumbing opening rules and always models off winners; plumbing
-#     talking-point briefs are enough (NOT READY only when built-out points can't reach 12 minutes)
-hvp=open(f"{ROOT}/hvac-scripts/SKILL.md").read(); hvt=open(f"{ROOT}/hvac-scripts/references/unit-plan-template.md").read()
-_,o77=run_scan("The furnace quit. So, today you learn the fix. You will know in two minutes. Nothing here needs a tech.\n",[f"{ROOT}/hvac-scripts/SKILL.md",f"{PERS}/roger-the-hvac-guy.md"])
-check("77. HVAC: winner-modelled short opening, P18, kit once, no 'no tech needed', model never none; plumbing talking-point briefs",
-      "**Short, and always built on a winner**" in hvp and "**One end-of-video promise, at most**" in hvp and "**Every script models off winners**" in hvp
-      and "\"model: none\" is not allowed" in hvp and "[file numbers; never none]" in hvt and "first-item-seconds: 45" in hvp
-      and "today you learn" in o77 and "a promise with a time on it" in o77 and "no tech needed" in o77
-      and "**A brief of talking points is a full brief**" in open(PLR).read(), o77[-600:])
+# 77. second round (operator, 2026-10-29; P21: retargeted to hvac-scripts/check.py and the new SKILL.md files): HVAC's opening
+#     fails 'today you learn' and a timed promise, and 'no tech needed' with a call; every HVAC script models off a real winner;
+#     plumbing talking-point briefs are full briefs. (The unit-plan template's "[file numbers; never none]" is retired with the template.)
+hpk,hsc,hch,hbr=run_of("roger-hvac"); hparas=open(hsc).read().split("\n\n")
+c77=pack_check(hpk,"\n\n".join(["The furnace quit. So, today you learn the fix. You will know in two minutes."]+hparas),hch,hbr)
+c77b=plant("roger-hvac","Nothing here needs a tech.")
+hvp=open(NHVR).read()
+check("77. HVAC check.py: 'today you learn' and a timed promise fail in the opening; 'no tech needed' with a call fails; one model transcript per video type; plumbing talking-point briefs",
+      "'today you learn'" in c77[1] and "a promise with a time on it" in c77[1] and "FAIL scope" in c77b[1]
+      and "**One model transcript** for the video type" in hvp and "A brief of talking points is a full brief" in open(f"{PL}/SKILL.md").read(), c77[1][-400:]+c77b[1][-300:])
 # ---- P20 (operator 2026-10-29): core scanner changes for style ----
 # 83. the title-word check: a pack's title-words in the locked title must be said twice, once in the first minute; title digits match spoken words
 with tempfile.NamedTemporaryFile("w",suffix=".md",delete=False) as t: t.write("```scanner\ntitle-words: instant, young, ten years | promise words\n```\nWords per minute: 170\n"); tw=t.name
@@ -973,66 +915,107 @@ check("86. P20: 'Rule number one', 'Secret number two', 'Knot three' are read as
       "ITEMS: 3 | item one at word 4" in sp and "--final\n```\n\nHVAC (the same shape as plumbing" in bs, sp[-400:])
 
 # ---- the style pack and its two channels (operator 2026-10-29: the diagnosis answers) ----
-STY=f"{ROOT}/style-scripts"; STR=f"{STY}/SKILL.md"; SCAR=f"{PERS}/scarlett-starling.md"; DIAN=f"{PERS}/diane-de-chambray.md"
-sk=open(STR).read(); sc_p=open(SCAR).read(); di_p=open(DIAN).read()
-# 87. the style pack's inputs and overrides: title, brief, rotation log, no research pack; no sign-off; the book as the only CTA; 12 minutes; prices only on budget titles; never the salon
-check("87. style pack: inputs (title, brief, rotation log; research pack not used); no sign-offs; the book the only CTA; 12 minutes; prices only on budget titles; never the salon; P3 not carried",
-      "- research-pack | not used |" in sk and "- rotation-log | required |" in sk and '"no sign offs"' in sk and '"no sub cta. just ebook"' in sk
-      and "min-minutes: 12" in sk and "No price unless the title promises budget" in sk and '"salon is not the enemy"' in sk
-      and "Plumbing's named forward promises in the body (P3) don't carry to style" in sk and "title-words:" in sk, "")
-# 88. the style scanner block: a clean paragraph passes on both channels; the house vocabulary, age slogans, the formula, a subscribe ask, a tease,
-#     an experience claim and an unflagged hard word fail; "sterling silver" and "a chambray shirt" pass
-clean_s=("If your haircut makes you look older than you feel, it's usually the shape, not the length. These five cuts look younger on fine hair, and each one starts with what you ask for in the chair.\n\n"
-         "Have you ever left the salon with a cut that looked lovely for one day and then fell flat? That's fine hair doing what fine hair does. But it can be fixed.\n\n"
-         "Number one. The soft bob that stops at the jaw. A blunt line at the jaw puts weight where the face is softening, so the eye goes to lift instead of drop. Check it in the mirror from the side. You'll look rested and younger, and nobody will know why. Wear it with a sterling silver chain and a chambray shirt.\n")
-cs=[run_scan(clean_s,[STR,P],title="5 Haircuts That Make Fine Hair Look Younger") for P in (SCAR,DIAN)]
-bad_s=["Small gold hoops finish it.","It reads as expensive.","She looks polished from across the room.","Age is just a number.","You've earned it.","It's not you, it's the blouse.",
-       "Subscribe for more.","We'll get to that one later.","I wore this to dinner.","My clients love this cut.","She looks like an old lady in it.","Studies show it works.","So many of us feel this."]
-s_pass=[l for l in bad_s if run_scan(f"Check the hem.\n\n{l}\n",[STR,SCAR])[0]!=1]
-check("88. style scanner block: a clean paragraph passes on both channels; house vocabulary, age slogans, the formula, subscribe, tease, experience, clients, an unflagged hard word, 'studies show' and 'one of us' fail",
-      cs[0][0]==0 and cs[1][0]==0 and not s_pass, f"clean: {cs[0][1][-400:] if cs[0][0] else ''}{cs[1][1][-400:] if cs[1][0] else ''}; passing: {s_pass}")
-# 89. the two profiles: style pack, Talking Head, pending, wpm, tenure none, the book key, no sign-off; the name never spoken; Scarlet's credential and Diane's heritage line once; old lines banned
-sf,df=facts_of(SCAR),facts_of(DIAN)
-pb_s=[l for l in ("I'm Scarlett Starling.","Until next time, stay polished.","I gathered three hundred of them.","Whenever it suits you, it's there.","In forty years of dressing for galas, I learned this.","My daughter loves it.")
-      if run_scan(f"Check the hem.\n\n{l}\n",[STR,SCAR])[0]!=1]
-pb_d=[l for l in ("Diane here.","A bientot.","Every French woman owns a trench.","I grew up in Paris, so I know.","Marie and Sophie swear by it.","How we buy it here is different.")
-      if run_scan(f"Check the hem.\n\n{l}\n",[STR,DIAN])[0]!=1]
-check("89. Scarlet's and Diane's profiles: style-scripts, Talking Head, pending, 169 and 172 wpm, tenure none, book keys, no sign-off; the credential and heritage line once; old intros, sign-offs, closes and unhedged claims fail",
-      all("Niche pack: style-scripts" in x and "Script type: Talking Head" in x and "Status: pending" in x and "Closing line: none" in x for x in (sc_p,di_p))
-      and "Words per minute (for runtime and the length minimum): 169" in sc_p and "Words per minute (for runtime and the length minimum): 172" in di_p
-      and "tenure: none" in sf and "tenure: none" in df and "book: Three Hundred Budget-Friendly Ways to Look Expensive" in sf and "book: The French Way" in df
-      and "once-regex: \\ba lifetime of dressing well\\b | the one credential line, at most once" in sf and "once-regex: \\bthe way I was raised in Paris\\b | the one heritage line, at most once" in df
-      and not pb_s and not pb_d, f"scarlet passing: {pb_s}; diane passing: {pb_d}")
-# 90. wiring: rows 10 and 11 pending; the build knows the pack and both profiles; the style scanner command; README
+# P21: the style pack, Scarlett's and Diane's pages are the 2026-11-06 simple versions; the 2026-10-31 pack is in archive/pre-p21-2026-11-06/
+STR=f"{STY}/SKILL.md"; SCAR=f"{PERS}/scarlett-starling.md"; DIAN=f"{PERS}/diane-de-chambray.md"
+sk=open(STR).read(); stc=load_check("style").CHANNELS
+# 87. retired 2026-11-06, P21: the old pack's inputs block, overrides and title-words scanner key are gone (the inputs are listed in
+#     words; the title's word is "said plainly at least once where it's true", reported only)
+
+# 88. the style bans (P21: retargeted from the scanner block to check.py): both saved scripts pass; the house vocabulary, age slogans,
+#     a subscribe ask, a tease, clients, 'studies show', 'one of us', 'e-book' and 'I read every one' fail on Scarlett's script
+bad_s=["Small gold hoops finish it.","It reads as expensive.","She looks polished from across the room.","Age is just a number.","You've earned it.",
+       "Subscribe for more.","We'll get to that one later.","My clients love this cut.","Studies show it works.","So many of us feel like one of us.","I read every one."]
+s_pass=[l for l in bad_s if "FAIL banned" not in plant("scarlett",l)[1]]
+harsh=plant("scarlett","She looks like an old lady in it. Nobody wants the granny look.")[1]
+check("88. style check.py: both saved scripts pass; house vocabulary, age slogans, subscribe, tease, clients, 'studies show', 'one of us' and 'I read every one' fail; a second harsh word fails",
+      passing("scarlett")[0]==0 and passing("diane")[0]==0 and not s_pass and "FAIL harsh word" in harsh, f"passing: {s_pass}; {harsh[-300:]}")
+
+# 89. the two channels (P21: retargeted from the profiles' scanner blocks to check.py's CHANNELS): 169 and 172 words a minute,
+#     the printed and spoken book titles, the sign-offs; the name is never spoken; the old intros, sign-offs and book lines fail
+pb_s=[l for l in ("I'm Scarlett Starling.","Until next time, stay polished.","I gathered three hundred of them.","Whenever it suits you, it's there.","My daughter loves it.")
+      if plant("scarlett",l)[0]!=1]
+pb_d=[l for l in ("Diane here.","A bientot.","Every French woman owns a trench.","Marie and Sophie swear by it.","We Americans buy it differently.")
+      if plant("diane",l)[0]!=1]
+check("89. style check.py: Scarlett 169 and Diane 172 wpm, their books (printed and spoken) and sign-offs; old intros, sign-offs, book lines and unhedged claims fail",
+      stc["scarlett"]["wpm"]==169 and stc["diane"]["wpm"]==172 and stc["scarlett"]["printed"]=="300 Budget-Friendly Ways to Look Expensive" and stc["diane"]["printed"]=="The French Way"
+      and stc["scarlett"]["signoff"]=="Until next time, ladies, stay elegant." and stc["diane"]["signoff"]=="With love from Paris, my dear friends."
+      and not pb_s and not pb_d, f"scarlett passing: {pb_s}; diane passing: {pb_d}")
+# 90. wiring: rows 10 and 11 pending; the build knows the pack and both pages; README sections
 chan=open(f"{CORE}/channels.md").read(); bs=open(f"{ROOT}/tools/build_skills.py").read(); rd=open(f"{ROOT}/README.md").read()
-check("90. style wiring: channel rows 10 and 11 pending; build entries for style-scripts and both personas; the style scanner command; README sections",
+check("90. style wiring: channel rows 10 and 11 pending; build entries for style-scripts and both personas; README sections",
       "| 10 | Scarlett Starling | `style-scripts` | `personas/scarlett-starling.md` | pending |" in chan and "| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | pending |" in chan
-      and '"style-scripts": ("model-file-spec.md",)' in bs and '"scarlett-starling": ("Scarlett Starling"' in bs and '"diane-de-chambray": ("Diane de Chambray"' in bs
-      and "--rules <style-scripts>/SKILL.md" in bs and "## style-scripts/" in rd and "`scarlett-starling.md`" in rd, "")
+      and '"style-scripts": (),' in bs and '"scarlett-starling": ("Scarlett Starling"' in bs and '"diane-de-chambray": ("Diane de Chambray"' in bs
+      and "## style-scripts/" in rd and "`scarlett-starling.md`" in rd, "")
 
-# 91. the style references: hooks, excerpts, voice samples (provisional) and INDEX exist; 30 [real] M files and 7 [structure only] F files; every model has a hook entry
-SM=f"{STY}/references/models"; mfiles=sorted(f for f in os.listdir(SM) if re.match(r"[MF]\d\d-",f))
-hk=open(f"{STY}/references/hooks.md").read(); ix=open(f"{SM}/INDEX.md").read(); vs=open(f"{STY}/references/voice-samples.md").read()
-tags_ok=all(("[real]" if f.startswith("M") else "[structure only]") in open(f"{SM}/{f}").read().split("## Beat map")[0] for f in mfiles)
-sd=re.search(r"^description: (.*)$",open(STR).read(),re.M).group(1)
+# 91. the style references (P21: retargeted): 11 real women's model files (M01, M04, M07, M09, M13, M18, M19, M21, M24, M28, M30) and
+#     the H01 hook reference; no F (structure only) files; the pack's description fits the skill limit
+SM=f"{STY}/references/models"; mfiles=sorted(f for f in os.listdir(SM) if f.endswith(".md"))
+sd=re.search(r"^description: (.*)$",sk,re.M).group(1)
 check("91b. the style pack's description fits the skill limit (1,024 characters)", 0<len(sd)<=1024, str(len(sd)))
-check("91. style references: hooks.md, excerpts.md, voice-samples.md (provisional), INDEX.md; 30 [real] M files and 7 [structure only] F files; a hook entry and an INDEX line for every model",
-      os.path.exists(f"{STY}/references/excerpts.md") and "PROVISIONAL" in vs
-      and sum(f.startswith("M") for f in mfiles)==30 and sum(f.startswith("F") for f in mfiles)==7 and tags_ok
-      and all(f"### {f[:3]}." in hk for f in mfiles) and all(f in ix for f in mfiles), str(mfiles))
+check("91. style references: 11 M files (M23 dropped) and H01, no F files, each with a 'Signature phrases' section and a transcript",
+      [f[:3] for f in mfiles]==["H01","M01","M04","M07","M09","M13","M18","M19","M21","M24","M28","M30"]
+      and all("## Signature phrases" in open(f"{SM}/{f}").read() and "## Transcript" in open(f"{SM}/{f}").read() for f in mfiles), str(mfiles))
 
-# 92. iter-07 fixes (operator 2026-10-29): the book's spoken title allowed; the channel gate confirms a clear one-channel reply; "age" and "weight"
-#     title words; item length by count; Diane's "most" narrowed and "women I know in Paris" banned; checks unannounced, endings varied, no
-#     pronunciation guides; verify_output.py skips M/F model quotes; the scanner's item counts leave out CTA blocks
-sk=open(STR).read(); wf=open(f"{CORE}/workflow.md").read(); di_p=open(DIAN).read(); vo=open(f"{ROOT}/tools/verify_output.py").read()
-bk=run_scan("It's called Three Hundred Budget-Friendly Ways to Look Expensive, and it helps.\n",[STR,SCAR],refs=[SCAR])
+# 92. iter-07 fixes (operator 2026-10-29; P21: the core parts kept, the pack parts retired with the old style pack): the book's spoken
+#     title passes the copy guard; the channel gate confirms a clear one-channel reply; verify_output.py skips M/F model quotes; the
+#     scanner's item counts leave out CTA blocks
+wf=open(f"{CORE}/workflow.md").read(); vo=open(f"{ROOT}/tools/verify_output.py").read()
+bk=run_scan("It's called Three Hundred Budget-Friendly Ways to Look Expensive, and it helps.\n",[f"{OSTY}/SKILL.md",f"{OPERS}/scarlett-starling.md"],refs=[f"{OPERS}/scarlett-starling.md"])
 cta=run_scan("Number one. A line.\n\n===START CTA(X)===\nA long aside about the book that runs on and on and on.\n===END CTA===\n\nNumber two. Another line.\n")[1]
-check("92. iter-07 fixes: book title allowed; gate confirms a clear one-channel reply; age and weight title words; item length by count; Diane's hedges; plain checks, varied endings, no pronunciation guides; model quotes skipped; CTA blocks out of item counts",
-      "COPIED FROM REFERENCE" not in bk[1] and '"[exact name], right?"' in wf and "title-words: instant, young, older, age, weight," in sk
-      and "about 300 to 450 in lists of five or fewer" in sk and "item-words: 150-480" in sk and "Vary the item endings" in sk and "never announce it" in sk
-      and "No spoken pronunciation guides" in sk and "never with the banned \"it's not your weight\" formula" in sk
-      and '**"Most" only for the broad habits**' in di_p and "I know in (?:Paris|France)" in di_p
-      and "[ERSMF]" in vo and "item words: 1 = 4, 2 = 4" in cta, bk[1][-300:]+cta[-300:])
+check("92. iter-07 core fixes: book title allowed (core scanner, archived fixtures); gate confirms a clear one-channel reply; model quotes skipped; CTA blocks out of item counts",
+      "COPIED FROM REFERENCE" not in bk[1] and '"[exact name], right?"' in wf and "[ERSMF]" in vo and "item words: 1 = 4, 2 = 4" in cta, bk[1][-300:]+cta[-300:])
+
+# ---- P21 applied (operator 2026-11-06: "yes use defaults"; "sawdust sam is dropped"): the new packs' own checks ----
+# 94. each P21 pack's check.py runs and passes on its saved test scripts, with the title and brief in each iteration folder
+bad94=[]
+for pk,script,ch_,brief in P21_RUNS:
+    code_,out_=pack_check(pk,open(script).read(),ch_,brief)
+    if code_!=0 or not out_.rstrip().endswith("RESULT: PASS"): bad94.append(f"{os.path.relpath(script,ROOT)} ({ch_}): {out_[-300:]}")
+check("94. P21: each pack's check.py passes its saved test scripts (iter-14 final, iter-15 run-new, iter-16 four runs, iter-17 run-new, iter-18 two runs)",
+      len(P21_RUNS)==9 and not bad94, " | ".join(bad94))
+
+# 95. every "Signature phrases" quote in each model file occurs exactly (whitespace joined) in that file's transcript.
+#     One known exception, reported: H01's transcript holds the three hooks only (up to item one), so its last phrase is matched
+#     in the full study transcript of the same video.
+SIG_ELSEWHERE={("H01-paris-never-ages-hooks.md","why do I look so tired today"):f"{ROOT}/studies/style/competitors/paris-never-ages/ZLjhi5s2Znw/transcript.txt"}
+bad95=[]; n95=0
+for pk in ("style","plumbing","hvac","woodworking"):
+    for m in sorted(glob.glob(f"{NPACK[pk]}/references/models/*.md")):
+        raw=open(m).read(); sec=re.search(r"## Signature phrases[^\n]*\n(.*?)(?=\n## )",raw,re.S); parts=raw.split("\n## Transcript",1)
+        if not sec or len(parts)<2: bad95.append(f"{os.path.basename(m)}: no Signature phrases or Transcript section"); continue
+        tr=re.sub(r"\s+"," ",parts[1].split("\n",1)[1])
+        for q in re.findall(r'^- "(.+)"\s*$',sec.group(1),re.M):
+            n95+=1; q=re.sub(r"\s+"," ",q)
+            if q in tr: continue
+            alt=SIG_ELSEWHERE.get((os.path.basename(m),q))
+            if alt and os.path.isfile(alt) and q in re.sub(r"\s+"," ",open(alt).read()): continue
+            bad95.append(f"{os.path.basename(m)}: \"{q}\"")
+check("95. P21: every signature phrase in the 39 model files is quoted exactly from its transcript (H01's last one from the full study transcript)",
+      n95>=150 and not bad95, f"{n95} phrases; not found: {bad95}")
+
+# 96. the two price guides are byte-identical to the archived ones (copied unchanged, operator default: no price change in P21)
+same96=[pk for pk in ("plumbing","hvac") if open(f"{NPACK[pk]}/references/price-guide.md","rb").read()==open(f"{OLD}/{pk}-scripts/references/price-guide.md","rb").read()]
+check("96. P21: the plumbing and HVAC price guides are byte-identical to the archived ones", same96==["plumbing","hvac"], str(same96))
+
+# 97. every channel page of the nine P21 channels carries the "Hold the reveal" rule (operator, 2026-11-06)
+P21_PAGES=["scarlett-starling","diane-de-chambray","roger-the-pipe-guy","mark-silverbridge","vintage-pipefitter","werner-finkbeiner","roger-the-hvac-guy","hank-hardwood","dale-oakfield"]
+noreveal=[n for n in P21_PAGES if "**Hold the reveal**" not in open(f"{PERS}/{n}.md").read()]
+check("97. P21: all nine channel pages carry the 'Hold the reveal' rule", not noreveal, ", ".join(noreveal))
+
+# 98. the build list: the four P21 packs and nine persona skills are built (from the library copies, laid out as drafts/p21-*/), and
+#     Sawdust Sam is not; the defaults stay as accepted (Dale's five book mentions, Roger the HVAC Guy at 150, the research pack, 7 plumbing models)
+spec98=importlib.util.spec_from_file_location("build98",f"{ROOT}/tools/build_skills.py"); b98=importlib.util.module_from_spec(spec98); spec98.loader.exec_module(b98)
+want98={f"{n}-persona" for n in P21_PAGES}|{"style-scripts","plumbing-scripts","hvac-scripts","woodworking-scripts"}
+built98={f"{k}-persona" for k in b98.PERSONAS}|set(b98.PACKS)
+dale=open(f"{PERS}/dale-oakfield.md").read()
+check("98. P21 build list: the 13 skills (4 packs, 9 persona pages) are built and listed in P21_SKILLS; Sawdust Sam is not built; the accepted defaults hold",
+      want98<=built98 and set(b98.P21_SKILLS)==want98 and all(b98.PACKS[p_]==() for p_ in ("style-scripts","plumbing-scripts","hvac-scripts","woodworking-scripts"))
+      and "sawdust-sam" not in b98.PERSONAS and "sawdust-sam-persona" not in built98
+      and "Five of them, spread through the middle" in dale and load_check("hvac").CHANNELS["roger-hvac"]["wpm"]==150 and "research pack" in open(f"{WW}/SKILL.md").read()
+      and len(glob.glob(f"{PL}/references/models/*.md"))==7
+      and not os.path.exists(f"{PERS}/sawdust-sam.md") and os.path.isfile(f"{OPERS}/sawdust-sam.md") and os.path.isfile(f"{OPERS}/books/sawdust-sam-book.md")
+      and "| 6 | Sawdust Sam | `woodworking-scripts` | `archive/pre-p21-2026-11-06/personas/sawdust-sam.md` | dropped |" in open(f"{CORE}/channels.md").read(),
+      f"missing from build: {sorted(want98-built98)}; P21_SKILLS: {sorted(set(b98.P21_SKILLS)^want98)}")
 
 for name,ok,detail in results:
     print(("PASS " if ok else "FAIL ")+name+("" if ok else f"\n      -> {detail[:900]}"))

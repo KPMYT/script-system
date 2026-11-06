@@ -416,6 +416,16 @@ From the operator's reply to section 9 of `drafts/style-pack-diagnosis-DRAFT.md`
 - **Only these channels are active for scripts** ("the channels with no scrtip skill are NOT active"): the ones with script skills (woodworking, plumbing, electrical, HVAC, style). Home security, air travel, animals and philosophy are not active, so no script packs are built for them now.
 - **The other niches take the simplification only** ("apply the style lessons yes but not the 6 beat hook just the case of simplification of skills"): plumbing, HVAC and woodworking are rebuilt the simple way (one page per channel, real models for flow, a short hard-rules check, optional things worded as optional); each keeps its own hook rules, not style's six beats. Reading: style's other hook rules (the title reworded, no softeners) stay style-only too.
 
+### Operator decisions, 2026-11-06, session 16 (P21 applied: style, plumbing, HVAC, woodworking)
+
+- **P21 applied** for style, plumbing, HVAC and woodworking ("yes use defaults"): the four packs and the nine channel pages are now the simple versions from `drafts/p21-style/`, `drafts/p21-plumbing/`, `drafts/p21-hvac/` and `drafts/p21-woodworking/` (one page per channel, real model transcripts read for flow, the title's brief, a short hard-rules `check.py`; for these channels the pack replaces `core/workflow.md` sections 2 to 6 and the other core files). The decisions each draft's README lists as "dropped" (counts and templates only) no longer apply to these channels; everything listed there as "carried" stands. The old packs and profiles are in `archive/pre-p21-2026-11-06/` (read-only). **Electrical stays as it is** (`electrical-scripts/`, `personas/frederick-barnes.md`), and so do `core/` and `script-writer` (apart from Sam's row in `core/channels.md`).
+- **Sawdust Sam is dropped** ("sawdust sam is dropped"): channel row 6 is marked dropped, not ready, and kept for history; his profile and book are archived; his skill is no longer built.
+- **The four defaults** (the operator accepted the recommended answers to the drafts' doubts):
+  1. Dale keeps **exactly five** book mentions (the locked rule of 2026-10-20 stands; not "up to five").
+  2. Roger the HVAC Guy's words per minute **stays unset**, counted at 150 for the 12-minute minimum.
+  3. Woodworking **keeps the research-pack rule** (a research pack is a required input; "none" means the chat builds one).
+  4. Plumbing **keeps its current seven models** (R04, R06, R13, R14, R15, R16, R18).
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

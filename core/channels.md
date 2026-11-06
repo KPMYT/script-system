@@ -14,12 +14,14 @@ The workflow shows this list at START. A channel can only be scripted when its s
 | 3 | Roger the Pipe Guy | `plumbing-scripts` | `personas/roger-the-pipe-guy.md` | ready |
 | 4 | Mark Silverbridge | `plumbing-scripts` | `personas/mark-silverbridge.md` | ready |
 | 5 | The Vintage Pipefitter | `plumbing-scripts` | `personas/vintage-pipefitter.md` | ready |
-| 6 | Sawdust Sam | `woodworking-scripts` | `personas/sawdust-sam.md` | ready |
+| 6 | Sawdust Sam | `woodworking-scripts` | `archive/pre-p21-2026-11-06/personas/sawdust-sam.md` | dropped |
 | 7 | Frederick Barnes | `electrical-scripts` | `personas/frederick-barnes.md` | ready |
 | 8 | Roger the HVAC Guy | `hvac-scripts` | `personas/roger-the-hvac-guy.md` | ready |
 | 9 | Werner Finkbeiner | `plumbing-scripts` | `personas/werner-finkbeiner.md` | ready |
 | 10 | Scarlett Starling | `style-scripts` | `personas/scarlett-starling.md` | pending |
 | 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | pending |
+
+Row 6, Sawdust Sam, is **dropped** (operator, 2026-11-06: "sawdust sam is dropped"). Not ready: never script it. The row is kept for history; his profile and book are in `archive/pre-p21-2026-11-06/personas/`.
 
 ## Adding a channel
 

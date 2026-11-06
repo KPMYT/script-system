@@ -3,10 +3,14 @@
 
 Writes dist/<skill>/ (the folder) and dist/<skill>.skill (the same folder zipped) for:
   script-writer          START -> finished script: the core rules (it finds the other skills by name)
-  woodworking-scripts    the woodworking niche pack
-  plumbing-scripts       the plumbing niche pack (without its archive/ and model-file-spec.md)
-  electrical-scripts     the electrical niche pack (without its model-file-spec.md)
-  <channel>-persona      one per channel: the persona profile (as SKILL.md) and the channel's book text
+  woodworking-scripts    the woodworking niche pack (P21, 2026-11-06: SKILL.md, check.py and all of references/, as drafts/p21-woodworking/ lays it out)
+  plumbing-scripts       the plumbing niche pack (P21: the same, as drafts/p21-plumbing/)
+  hvac-scripts           the HVAC niche pack (P21: the same, as drafts/p21-hvac/)
+  style-scripts          the style niche pack (P21: the same, as drafts/p21-style/)
+  electrical-scripts     the electrical niche pack (without its model-file-spec.md; not P21, unchanged)
+  <channel>-persona      one per channel: the persona page (as SKILL.md) and the channel's book text at personas/books/.
+                         A P21 page (personas/<channel>.md starting with its own frontmatter) is copied as it is;
+                         an older profile (Frederick Barnes) gets the frontmatter written here
   woodworking-ideation the edited woodworking ideation skill (needs ideation-core installed too)
   plumbing-ideation    the edited plumbing ideation skill (needs ideation-core too)
   ideation-core        the shared ideation base, an unchanged copy (every niche's ideation skill needs it)
@@ -109,6 +113,8 @@ INSTALL = """# Installing the skills
 
 **Version:** {stamp}
 
+**P21 (2026-11-06):** `style-scripts`, `scarlett-starling-persona`, `diane-de-chambray-persona`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona`, `vintage-pipefitter-persona`, `werner-finkbeiner-persona`, `hvac-scripts`, `roger-the-hvac-guy-persona`, `woodworking-scripts`, `hank-hardwood-persona` and `dale-oakfield-persona` are the new simple versions (one page per channel, real model transcripts, a short `check.py`): replace each (delete the old, upload the new). **Sawdust Sam is dropped:** delete `sawdust-sam-persona` from the account; this build has none. The table below is from the earlier builds.
+
 Seventeen skill files, one per layer (`script-writer` also comes as `script-writer.zip`, the same skill). Install them on every account that will do ideation or scripts (yours and each VA's), in claude.ai under Settings, Capabilities, Skills, not in a project. They then work in Claude and in Cowork.
 
 | File | Layer | What it does | On your account now |
@@ -117,7 +123,6 @@ Seventeen skill files, one per layer (`script-writer` also comes as `script-writ
 | `woodworking-scripts.skill` | Niche | The woodworking-for-profit rules (structure, money block, proof, safety, voice) and the research-pack template. | **Replace** the copy on the account (delete it, upload this). |
 | `hank-hardwood-persona.skill` | Channel | Hank's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
 | `dale-oakfield-persona.skill` | Channel | Dale's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
-| `sawdust-sam-persona.skill` | Channel | Sawdust Sam's profile, CTA rules and book (pages 1-80). Ready since 2026-10-24. | **New:** upload it. |
 | `plumbing-scripts.skill` | Niche | The plumbing rules (inputs: title and brief, the opening, promises, the ten video types, CTAs, the ending, length, voice, proof, money, safety), the 38 model scripts and the copy guard's files. | **Replace** the copy on the account (delete it, upload this). |
 | `roger-the-pipe-guy-persona.skill` | Channel | Roger's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
 | `mark-silverbridge-persona.skill` | Channel | Mark's profile, CTA rules and book. | **Replace** the copy on the account (delete it, upload this). |
@@ -136,7 +141,7 @@ All of the script skills must be installed together: `script-writer` stops with 
 ## Steps
 
 1. **Delete** the old copies of `plumbing-ideation`, `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`, `woodworking-ideation`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona` and `vintage-pipefitter-persona`.
-2. **Upload all sixteen from this build together**: those nine, `script-writer`, `sawdust-sam-persona`, the new `electrical-scripts` and `frederick-barnes-persona`, the new `hvac-scripts` and `roger-the-hvac-guy-persona`, and the new `werner-finkbeiner-persona` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
+2. **Upload all sixteen from this build together**: those nine, `script-writer`, the new `electrical-scripts` and `frederick-barnes-persona`, the new `hvac-scripts` and `roger-the-hvac-guy-persona`, and the new `werner-finkbeiner-persona` (delete any older `script-writer` first). They're built from one library version, so they agree with each other; never mix files from two builds (the version line says which build a file is).
 3. **Upload `ideation-core`** only if the account doesn't have it.
 4. **Turn them all on.**
 
@@ -177,7 +182,7 @@ def zipdir(folder, out):
 PERSONAS = {
     "hank-hardwood": ("Hank Hardwood", "personas/hank-hardwood.md", "personas/books/hank-hardwood-book.md"),
     "dale-oakfield": ("Dale Oakfield's Workshop", "personas/dale-oakfield.md", "personas/books/dale-oakfield-book.md"),
-    "sawdust-sam": ("Sawdust Sam", "personas/sawdust-sam.md", "personas/books/sawdust-sam-book.md"),
+    # Sawdust Sam: dropped (operator 2026-11-06, "sawdust sam is dropped"); his profile and book are in archive/pre-p21-2026-11-06/
     "roger-the-pipe-guy": ("Roger the Pipe Guy", "personas/roger-the-pipe-guy.md", "personas/books/roger-the-pipe-guy-book.md"),
     "mark-silverbridge": ("Mark Silverbridge", "personas/mark-silverbridge.md", "personas/books/mark-silverbridge-book.md"),
     "vintage-pipefitter": ("The Vintage Pipefitter", "personas/vintage-pipefitter.md", None),  # no book for now
@@ -189,13 +194,30 @@ PERSONAS = {
 }
 
 # niche packs: folder -> what the installed skill leaves out
+# (P21, 2026-11-06: the four rebuilt packs ship whole, SKILL.md, check.py and all of references/, exactly as their drafts/p21-*/ folder)
 PACKS = {
-    "woodworking-scripts": ("archive",),
-    "plumbing-scripts": ("archive", "model-file-spec.md"),
+    "woodworking-scripts": (),
+    "plumbing-scripts": (),
     "electrical-scripts": ("model-file-spec.md",),
-    "hvac-scripts": ("archive", "model-file-spec.md"),
-    "style-scripts": ("model-file-spec.md",),
+    "hvac-scripts": (),
+    "style-scripts": (),
 }
+# the nine P21 skills: built from the library copies of drafts/p21-*/ and compared with them after every build (tests/run_checks.py)
+P21_SKILLS = {
+    "style-scripts": "p21-style", "scarlett-starling-persona": "p21-style", "diane-de-chambray-persona": "p21-style",
+    "plumbing-scripts": "p21-plumbing", "roger-the-pipe-guy-persona": "p21-plumbing", "mark-silverbridge-persona": "p21-plumbing",
+    "vintage-pipefitter-persona": "p21-plumbing", "werner-finkbeiner-persona": "p21-plumbing",
+    "hvac-scripts": "p21-hvac", "roger-the-hvac-guy-persona": "p21-hvac",
+    "woodworking-scripts": "p21-woodworking", "hank-hardwood-persona": "p21-woodworking", "dale-oakfield-persona": "p21-woodworking",
+}
+
+def stamp_version(path):
+    """A P21 page carries its own '**Version:** <date> DRAFT (...)' line: the build puts its stamp in place of '<date> DRAFT'."""
+    s = open(path, encoding="utf8").read()
+    s2 = re.sub(r"^\*\*Version:\*\* [^(\n]*?(?= \(|$)", "**Version:** " + STAMP, s, count=1, flags=re.M)
+    if s2 != s:
+        with open(path, "w", encoding="utf8") as f:
+            f.write(s2)
 
 def build_script_writer():
     out = os.path.join(DIST, "script-writer")
@@ -207,6 +229,8 @@ def build_script_writer():
 def build_pack(name):
     out = os.path.join(DIST, name)
     copytree(os.path.join(ROOT, name), out, ignore=PACKS[name])
+    if name in P21_SKILLS:
+        stamp_version(os.path.join(out, "SKILL.md"))
     return out
 
 def build_persona(slug):
@@ -216,6 +240,12 @@ def build_persona(slug):
     if book:
         os.makedirs(os.path.join(out, os.path.dirname(book)))
         shutil.copy(os.path.join(ROOT, book), os.path.join(out, book))
+    page = open(os.path.join(ROOT, profile), encoding="utf8").read()
+    if page.startswith("---\n"):   # a P21 page: its own frontmatter and version line, copied as it is (then stamped)
+        with open(os.path.join(out, "SKILL.md"), "w", encoding="utf8") as f:
+            f.write(page)
+        stamp_version(os.path.join(out, "SKILL.md"))
+        return out
     what = "CTA rules, ending and the channel's book text" if book else "CTA rules and ending (this channel has no book)"
     head = (f"---\nname: {slug}-persona\ndescription: The channel profile for {channel}: persona, personal details, "
             f"{what}. Read by the script-writer skill when a script is written "

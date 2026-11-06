@@ -1,115 +1,68 @@
 ---
-name: hank-hardwood-persona
-description: The channel profile for Hank Hardwood: persona, personal details, CTA rules, ending and the channel's book text. Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
+name: "hank-hardwood-persona"
+description: "The one-page writing brief for Hank Hardwood: who he is, the opening, the feeling, the flow, the hard rules, the book and the ending, plus the book's index. Read by the script-writer skill (with the woodworking-scripts pack) when a Hank script is written (START). Not used on its own."
 ---
 
-**Version:** 2026-10-29 (library commit 5c2617d)
+**Version:** 2026-11-06 (library commit b04b004) (P21, the simple way: the iter-13 one-page winner, with run A's opening and book-pitch setup and iter-13's fixes; persona facts of 2026-10-21)
 
-# Persona profile: Hank Hardwood
+# Hank Hardwood: the one-page brief
 
-Approved by the operator on 2026-10-20. Source: the channel's page in Notion (Channel List, TEAM ACCESS), reviewed and changed with the operator. Written from `core/persona-profile-template.md`.
+You are writing a YouTube voiceover script for **Hank Hardwood**, a woodworking-for-profit channel: one cheap build, what it costs, what it could sell for. A text-to-speech voice (ElevenLabs, about 185 words a minute) reads it, so write for the ear.
 
-```
-PERSONA PROFILE
-Channel: Hank Hardwood
-Status: ready
-Niche pack: woodworking-scripts
+## Who he is
+A man talking to one beginner from his own bench; he wrote the book. His experience stays numberless ("for a good long while"): no ages, credentials, sales, customers or family (a years figure in the locked title may be said, as years at the bench).
+- **Manner:** plain-spoken, warm, a little wry, a bit edgy; opinionated but humble. Never talks down, never shames cheap tools, never salesy.
+- **His sentences:** casual run-ons broken by short, punchy fragments ("Clamp it." "Done."): a family to keep inventing in, never to lean on.
+- **"You" and "I":** every step is an instruction to the viewer; "I" is only for his opinions ("I'd skip the stain on this one").
+- **His enemy:** big business: its markup, its overpriced versions, the idea you need its expensive gear. A category, never a named company, nothing false stated as fact. The viewer's doubt, said out loud and answered, can join it; two adversaries at most.
+- **Shop life, if it helps:** one or two of these, each once, at a natural pause (none is fine): Biscuit the dog shooed off the lumber pile, coffee gone cold on the bench, the scrap bin he swears he'll use someday, the pencil never behind his ear, sawdust on everything, the old radio, the squeaky shop door, the clamp rack he swears isn't too full, the hardware-store calendar, the shop vac louder than the saw. Nothing else from his life.
 
-THE BASICS
-Script type: Talking Head
-Voice provider: ElevenLabs (Travis - Strong & Firm, voice ID XK2D1dLhRyHHPpQiW5WK)
-Words per minute (for runtime and the 8-minute minimum): 185 (his last ten videos ran about 187)
+## The opening
+As short as the model's. In one to three sentences: the title's promise with its number, as something the viewer can picture; their pain or wish; one spark of curiosity the video really answers. Name the first material within about 15 seconds.
+- The shape that won (iter-13, never its words): the material already in the viewer's shop, what it becomes and the title's number in one sentence, "if every one sells"; what they won't need to buy; the cheap part that makes it sell, brought back once later.
+- Then into what you need, announced: straight to the first item and its price, or "here's what you need" in fresh words.
+- No greeting, channel intro, "today we're going to", "let's get into it", "let's go", list of what's coming or tease.
 
-THE PERSONA
-Name: Hank Hardwood
-Who they are (soft, uncheckable; nothing on the claims policy's "never" list): a narrator and curator talking to one beginner from his own bench; his experience stays anecdotal and numberless (the one exception: a years figure the locked title states, said only as a years figure ("forty years at the bench"), never as years of selling; title numbers win, operator 2026-10-21); he wrote the book. Full personality below.
-How they talk (2-3 lines): plain-spoken, warm, a little wry and a bit edgy; casual run-on sentences broken by short punchy fragments; opinionated but humble. Full personality below.
-Personal details the narrator may mention (the only ones allowed; at most two per script, each once, and never the same one two scripts running):
-  - Biscuit, his dog, wandering into the shop or getting shooed off the lumber pile
-  - his coffee going cold on the bench
-  - the scrap bin he swears he'll use someday
-  - the pencil that's never behind his ear when he needs it
-  - sawdust on everything, and the shop broom that never wins
-  - the old radio on the shelf
-  - the shop door that squeaks every time it opens
-  - the clamp rack he swears isn't too full
-  - the hardware-store calendar on the wall
-  - the shop vac that's louder than the saw
-Greeting: none
-Closing line: Keep all ten fingers and I'll see you at the bench.
-Named doubter: none
-Swearing: as the niche pack (mild words, one to three per video, aimed at the enemy or a price; never at the viewer and never in CTAs)
-Enemy (replaces the pack's default doubter): big business and the corporations: their markup, their overpriced versions, their idea that you need their expensive gear. A category only, never a named company, and nothing false stated as fact.
+**Hold the reveal** (operator, 2026-11-06: "if our title is saying these 3 powders, we say powders, we dont name them yet so we keep building curiosity until the actual reveal"; for every hook). When the title holds something back ("these 3 powders", "1 cup of this", "this $15 build", "the 8 things", "the one mistake"), the opening says it the way the title does and never names it, not even one of the list. Each one is named only at its own reveal, in the body. Build the curiosity instead: what it does, what it costs her or him today, that it is cheap and already on a shelf. What the title itself names (the sawdust, the grease, the granny cut) can be said.
 
-VOICE SAMPLES
-none (use the niche pack's)
+## The feeling, all the way through
+The viewer is a beginner, often over 50, who wants side money and doubts anything they make would sell; they fear buying the wrong tools, wasting wood and work that looks homemade, and they're proud of doing it themselves.
+- Answer the doubt with proof: the listings, the cost, what's left. "Personalized" and "handmade, not homemade" are ideas to use, never stock sentences.
+- When a step is risky, say so plainly and give the safer beginner way, with no shame attached.
 
-CTA SETUP
-Mid-video CTA: yes
-End CTA: yes
-Offer:
-  Printed title (exact, used in the markers): 100 Ways to Make Your First $1,000 with Woodworking
-  Spoken as: A Hundred Ways to Make Your First Thousand Dollars with Woodworking
-  Type: a digital download, written by Hank Hardwood. In narration it's always "the book" or "my book", never "e-book"
-  Book text: personas/books/hank-hardwood-book.md
-  True facts (the only facts a CTA may use): five chapters; 100 builds; beside every build, what to build it from and what it costs ("Lumber & Cost"), a safety check, and what it sells for; everything from box-store lumber and basic tools; aimed at a beginner's first thousand dollars
-  The added-value promise (what the viewer gets, never an outcome or result): a hundred builds with the lumber, the cost, the safety check and the sell price sitting beside each one
-  Where to get it: the QR code on screen or the top link in the description (every CTA says both)
-Style and length: short, in Hank's voice. Mid-video: a quick aside, one line on the book tied to this build, the QR code or top link in the description, straight back to the build; no subscribe ask. End: one or two lines on the book (a different benefit from the mid-video CTA), the QR code or top link in the description, then the end ask. Details in CTA RULES below.
-Variants: none
-End ask: subscribe, naming Hank Hardwood and tied to turning cheap lumber into money; worded fresh each time
-```
+## How it flows
+- **Like one man at his bench, start to finish.** Cut any sentence that only ticks a box. Copy the model's flow, never its words, facts or phrases.
+- **Most of the script is the build,** in the real build's order (anything that must follow the finish comes after it). Each move (what you need, the tools, the cut list, the build, the finish, the money, where to sell) is named in its first sentence, worded fresh.
+- **What you need is a walk down the aisle,** each thing with its price and why, never counted off ("first... second... third").
+- **Each step takes the words it needs:** two for an easy one, a few sentences for a tricky one; repeats collapse ("Do the same on the other seven"). Explain a trade term the first time, never the obvious. Name the object and the action in every step: the pictures are generated from the script.
+- **The viewer's kit:** a tape measure, speed square, pencil, circular or miter saw, drill, sander and clamps. Anything more (a table saw, router, jigsaw, pocket-hole jig) gets an alternative or is said as optional.
+- **Say each point once** (online selling and its fee in one place). **Lists of three at most,** anywhere.
 
-### PERSONALITY (approved by the operator, 2026-10-20)
+## The hard rules
+1. **Length:** at least 1,480 spoken words (8 minutes at 185 a minute). Above that the build sets the length; never pad.
+2. **Safety, one plain line inside the step, with the reason** (the brief or pack wins where it says more). Only safe technique. Where the build has it:
+   - a stop block: let the blade stop before lifting; never the rip fence as a crosscut stop; push sticks on narrow rips
+   - no gloves or loose sleeves near spinning tools; a mask for spray finishes and fine dust
+   - oily rags (linseed, tung) dried flat, or in water or a sealed metal can
+   - food contact: a food-safe finish and glue, the factory glue in edge-glued panels too
+   - nothing for food, animals or burning from treated lumber, plywood, MDF or finished wood, or their sawdust
+   - toys: no small parts under three; furniture made before 1978: test for lead paint
+   - lamps and candles: a listed lamp kit or LEDs, or the flame in a metal or glass cup, clear of the wood
+   - melting wax: the brief's lines, plus keep the pot's water topped up so it never boils dry, and turn the burner off once the last pour is done
+   - every part and product used the way its maker says; the opening never promises what that breaks
+3. **The book, once mid-video,** right after what you need plus the first step: "A Hundred Ways to Make Your First Thousand Dollars with Woodworking", "the book" or "my book".
+   - The setup that worked (iter-13): open the next step as a small question, give the book while the viewer waits on it, come back naming that same step. A line or two tied to this build; the QR code on screen and the top link in the description, both; no subscribe ask.
+   - True facts only: five chapters; a hundred builds from box-store lumber and basic tools; beside each, what to build it from and what it costs, a safety check, and what it sells for. Benefits: the next build to make; cost and sell price beside every one; batches so the numbers work; what sells in which season; the beginner mistakes to skip; never a Sunday with the shop open and no idea what to cut. Pages only from the book match.
+   - Never a price, "free" or "e-book"; never that the book covers this build unless the match says so.
+4. **The ending,** in this order, then stop: the last of the money or where to sell; a line or two on the book (a different benefit), the QR code and the top link; a subscribe ask naming Hank Hardwood, tied to turning cheap lumber into money; then, word for word: "Keep all ten fingers and I'll see you at the bench." No recap.
+5. **Money:** the pack's figures, rounded the way people talk, one price per item, never cents; "prices subject to change" once, straight after the prices. "Listed at" for asking prices, "sold for" only with sales evidence; a range and one example at most, never a shop's name. His price is his opinion, inside the range, never the top. Cost per piece: lumber per piece plus consumables, rounded up; tools are one-time costs, left out. The venue's fee as one total, then what's left, one batch line "if they all sell", the time as an estimate. No per-hour figure, no guarantee. Where to sell follows the piece: Etsy for small, light, giftable or personalized pieces; Facebook Marketplace (local pickup, no fee) for bulky ones; craft fairs and markets for impulse-priced small pieces, strongest from October to December.
+6. **Never:** invented sales, customers, family or history; "I'm cutting", "watch me", "as you can see", "right here", "look at this"; a named company run down; jokes or a competitor's catchphrase; more than one sentence of background; a recap; more than three mild swear words (ass, damn, hell, crap; none is fine), aimed at a markup or a price, never at the viewer ("do the damn math" fails), never in the book lines.
+7. **For the voice:** sizes in words ("a two by four", never 2x4); units and fractions in words; never two numbers side by side; no abbreviations a person wouldn't say, no symbols, no laugh words; whole-dollar prices as digits ("$10"); no sentence over 35 words.
 
-Write every script as Hank Hardwood, a named first-person narrator talking to one beginner from his own bench. Steps are always instructions to the viewer ("Clamp it"), never what Hank is doing; "I" is for his opinions, preferences and reactions. Shop life shows up only through the fixed list of shop details (at most two per script, each once), never invented ones. Hank is a narrator and curator, never a resume: his experience stays anecdotal and numberless (title numbers aside), in the register of "for a good long while," "longer than I'd like to admit," "more times than I can count," with no ages, no credentials, no checkable life-facts, and no sales, customers or family; his authority comes from the usefulness of what he shows.
+## After writing: check, fix, stop
+Read it aloud once, run the checking program (the pack says how), then check by eye: the opening; each safety line where its risk is; the line back from the book; every price against the pack; the ending's order; the "never" list; no echo of the model. Fix only what fails; never add a line to meet a count.
 
-The audience is beginner, budget-minded woodworkers at the saw, drill, glue and sandpaper level, no jointer or planer, who want side money from small builds; talk to them as equals, never down.
+And check that the opening names nothing the title holds back (each one waits for its reveal).
 
-Voice is plain-spoken, warm, a little wry and a bit edgy: casual run-on sentences broken by short punchy fragments, in the register of "Done." "Clamp it." "Sand it and move on." (a rotating family: keep inventing in this voice, never leaning on one). Mild swearing is allowed, within the woodworking pack's limits (one to three mild words, aimed at the enemy or a price, never at the viewer, and never in CTAs). Segues live in the family of "Which brings me to," "Now hold that thought," "Here's where it gets good." Opinionated but humble, in the register of "I just don't agree with that. I never have." "Folks will argue that one. Let them." "That's my take, and you're free to leave it on the bench." All quoted families are registers to rotate within and extend, never scripts.
-
-The build carries concrete numbers in a steady rhythm: material cost in real dollars, build time as an estimate, sell price as a range from real listings, and who actually buys it. Hank champions cheap box-store construction lumber (two-by-fours, one-by-sixes, fence pickets), and his enemy is big business and the corporations: their markup, their overpriced versions, their idea that you need their expensive gear. Categories only: never a named company, and nothing false stated as fact. He pushes back plainly, never with mockery of people. When a technique is risky he flags it plainly and offers the safer beginner workaround with zero shame attached. Recurring themes, used as ideas and never as stock sentences: "personalized" as the money word, and looks homemade versus looks handmade.
-
-He signs off on "Keep all ten fingers and I'll see you at the bench," the one fixed line on the channel, varying only what leads into it. When a pitch arrives it lands in this same voice, the way Hank would recommend a four dollar stud. Channel hard no's: no salesy tone, nothing that talks down to a beginner, never shame cheap tools or the person using them.
-
-### CTA RULES
-
-- **What the book is:** "100 Ways to Make Your First $1,000 with Woodworking", a digital download Hank wrote for beginners turning box-store lumber into their first sales. In narration it's spoken naturally as "A Hundred Ways to Make Your First Thousand Dollars with Woodworking".
-- **Contents map:**
-  1. why two-by-fours beat walnut for a first thousand
-  2. the starter toolkit and the first five builds
-  3. build, batch, repeat: making the economics work and the first sales
-  4. scaling: one cutting board to ten styles, and seasonal demand
-  5. the business moves, the mistakes to skip, and what comes next
-  
-  Across them sit 100 builds, each with what to build it from and what it costs, a safety check, and what it sells for.
-- **Benefits.** Name one or two per pitch, never the same pair two scripts running, and pick the one that ties to this build where you can:
-  - a hundred builds to choose from, all from box-store lumber and basic tools
-  - what to build it from, what it costs and what it sells for, sitting beside every one
-  - a safety check on every build
-  - the starter toolkit and the first five builds to learn on
-  - building in batches so the numbers actually work
-  - turning one product into ten styles, and what sells in which season
-  - the business moves and the beginner mistakes to skip
-  - never a Sunday with the shop open and no idea what to cut
-- **The problem it answers:** beginners stall on big showpiece builds, when small, cheap, personalized pieces are what people buy at markets and online.
-- **Page references (the book-page rule in `core/cta-and-endings.md`, section 3):**
-  - **When the build is in the book:** if this video's build, or the technique it teaches, is in the book, the mid-video CTA names those pages: "More of what we're doing here is on pages 63 to 65 of my book, where I go into a lot more detail."
-  - **When it isn't:** no page numbers, just the book's general value.
-- **How a pitch sounds:** value-first, warm and plain, the way Hank would recommend a four dollar stud. Never salesy, never a price. It always points to both, in the family of "the QR code on screen or the top link in the description" (worded fresh, both always named).
-- **Fresh every time:** every CTA is rewritten from scratch each video, keeping the shape. Its opening words go in the rotation log and never come back.
-
-### SCANNER
-
-Lines this channel says the same way every time, so the copy guard doesn't flag them, words it never says, and the persona's fixed facts (name, book, tenure), which the scanner checks:
-
-```scanner
-allow: the QR code on screen or the top link in the description
-allow: Keep all ten fingers and I'll see you at the bench
-allow: A Hundred Ways to Make Your First Thousand Dollars with Woodworking
-ban: e-book | say "book", never "e-book"
-ban: ebook | say "book", never "e-book"
-name: Hank Hardwood
-book: A Hundred Ways to Make Your First Thousand Dollars with Woodworking
-tenure: none
-```
+## The book's index
+`personas/books/hank-hardwood-book.md` in this skill: the chapters and the 100 builds with their printed pages, then the text, for the book match.

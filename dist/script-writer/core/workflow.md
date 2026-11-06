@@ -18,7 +18,7 @@ This is the entry point. When someone types **START**, this file runs, and nothi
 
 ## 1. START: the channel
 
-1. If the message doesn't name the channel, reply with one question only: the numbered list of channels from `channels.md`. Accept the number or the exact name. Anything else gets the list again.
+1. If the message doesn't name the channel, reply with one question only: the numbered list of channels from `channels.md`. Accept the number or the exact name. A reply that clearly means one channel and only one (a first name such as "Scarlett", or "the French channel" when only one channel is French) gets a one-line confirmation, "[exact name], right?", and a yes carries on. Anything unclear gets the list again, with one short line saying why ("I couldn't tell which channel that is."). (Operator, 2026-10-29, after the style tests: the list sent back three times with no reason.)
 2. Load the channel's files from `channels.md`:
    - **Persona profile.** If it's missing, or marked pending, stop: `NOT READY: [channel]'s persona profile isn't set up yet.` Nothing more is asked.
    - **Niche pack.** If the channel has none, use the core fallbacks: `script-structures.md`, the default research pack in `research-and-sourcing.md`, and the default inputs below.

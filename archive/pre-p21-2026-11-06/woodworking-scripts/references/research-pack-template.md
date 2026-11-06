@@ -1,0 +1,70 @@
+# Research pack template: woodworking for profit (single build)
+
+The research stage fills this in, and the script stage writes only from it. Every number carries its source and the date it was checked. If something can't be verified, leave it out and note it under Gaps. Never estimate silently.
+
+```
+RESEARCH PACK
+Title (locked):
+Channel:
+Promise in plain words:            [e.g. 2 boards -> about 40 pieces -> up to $X if they sell]
+Title claims to support:           [each claim or number in the title -> which line below supports it]
+Researched on:
+Verified on:                       [set by the verification pass; no date, no script]
+
+PLAN SOURCE
+Source of the design and cut list:  [plan name, site, URL]
+Finished size:
+Pieces per batch:                  [how many one board or batch yields]
+
+HERITAGE                           [heritage builds only; woodworking SKILL.md, "Heritage builds"]
+- plain product the money block proves:        [e.g. wooden table lamp]
+- heritage key:                                [Japanese / Amish / Asian (name the style) / forgotten / other]
+- listings for the heritage version:           [3-5 if they exist, same fields as LISTINGS] | none found
+- the assumption, if none found:               "the heritage version is assumed to sell like the plain product" (operator, 2026-10-23)
+- design features that make it heritage-style: [the shape, the joint, the pattern], each a visible object for the visuals
+- old tools or methods to offer as options:    [one line each, with the basic-kit way]
+- heritage beats (3-6 ideas):                  [one line each, tied to a step; general history, hedged; any date, name or figure with its source]
+
+MATERIALS                          [one line each]
+- item | size/spec | qty | store | price | date checked | URL
+- consumables: glue, screws/nails, finish, sandpaper, hardware -> cost per piece
+- maker's instructions for each hardware item or product (how it must be mounted or used, screw size, load, cure time), with source
+
+TOOLS                              [one line each]
+- tool | basic kit? (yes/no) | alternative if not
+
+CUT LIST
+- part | qty | dimensions | cut type (crosscut, rip, miter, bevel)
+
+STEPS                              [in order]
+- step | the visible action | mistake/safety/option/quality note, if any
+
+SAFETY POINTS (build-specific)
+- food contact (anything food may touch): the finish AND every glue in it, including the factory glue in edge-glued panels and rounds, each with its source
+
+LISTINGS (3-5)
+- platform | listing title | price | asking or sold | sales evidence if visible | date | URL
+
+COST MATH
+- cost per piece:                  [materials / yield + consumables]
+- suggested price (opinion):       [inside the listing range, not the top]
+- platform fee at that price:      [platform + current fee, dated]
+- left per piece after costs and fees:
+- time per piece or per batch:     [estimate, and how it was estimated]
+
+WHERE TO SELL
+- best venue + why                 [size, weight, personalisation, local vs shipped]
+- fees checked                     [platform, rate, date, URL]
+
+DOUBTER
+- the likely objection             [from competitor comments where possible, with source]
+- the proof that answers it
+
+ADVERSARY (pick one)               [doubter / big box markup / scammers / overpriced materials]
+
+VISUAL NOTES
+- anything hard for AI visuals to show accurately, and what to show instead
+
+GAPS
+- anything that couldn't be verified | blocking or not blocking (a blocking gap stops the script)
+```

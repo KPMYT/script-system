@@ -1,9 +1,11 @@
 # Persona profiles
 
+**P21 (2026-11-06):** the nine channel pages for style, plumbing, HVAC and woodworking (`hank-hardwood.md`, `dale-oakfield.md`, `roger-the-pipe-guy.md`, `mark-silverbridge.md`, `vintage-pipefitter.md`, `werner-finkbeiner.md`, `roger-the-hvac-guy.md`, `scarlett-starling.md`, `diane-de-chambray.md`) are now the one-page briefs from `drafts/p21-*/`, each its persona skill's `SKILL.md` with frontmatter. The profiles described below are the old versions, archived in `archive/pre-p21-2026-11-06/personas/`, except `frederick-barnes.md`, which is unchanged. Sawdust Sam is dropped (operator, 2026-11-06): his profile and book are archived.
+
 One file per channel, written from `core/persona-profile-template.md` and named as listed in `core/channels.md` (for example `hank-hardwood.md`). The workflow refuses to script a channel until its profile exists here and its status in `channels.md` is **ready**.
 
 Written: `hank-hardwood.md` and `dale-oakfield.md` (approved by the operator, 2026-10-20). Each channel's book text lives in `books/`. Also written and approved (2026-10-21): `roger-the-pipe-guy.md`, `mark-silverbridge.md` and `vintage-pipefitter.md`, with Roger's and Mark's books in `books/`. They became `ready` on 2026-10-21, when the plumbing pack `plumbing-scripts` entered the library and the channels were added to `core/channels.md`.
-- `sawdust-sam.md`: Sawdust Sam (woodworking for profit, the old-world way), ready since 2026-10-24.
+- `sawdust-sam.md`: Sawdust Sam (woodworking for profit, the old-world way), ready since 2026-10-24; **dropped 2026-11-06**, archived.
 - `frederick-barnes.md`: Frederick Barnes (home electrical, retired electrician, 35 years, Talking Head, no book), built 2026-10-27, pending until the voice provider is confirmed.
 - `roger-the-hvac-guy.md`: Roger the HVAC Guy (the same Roger, in HVAC, on the `hvac-scripts` pack; no book for now), built 2026-10-27 from Roger the Pipe Guy's profile, ready since 2026-10-27 after two rounds of tests (`tests/iterations/iter-06/`).
 - `werner-finkbeiner.md`: Werner Finkbeiner (plumbing, the German way, Talking Head, *Werner's 101 Free Repairs*), relaunched 2026-10-27 and ready the same day after the operator's answers (`drafts/werner-relaunch-DRAFT.md`, P14); his book index is `books/werner-finkbeiner-book.md`.
