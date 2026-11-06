@@ -5,7 +5,7 @@ description: "Script steps for the operator's woodworking-for-profit channels (H
 
 # Woodworking scripts (the simple way)
 
-**Version:** 2026-11-06 DRAFT (P21: replaces the 2026-10-21 pack of about 4,100 words plus about 37,000 words of references, its skeleton template, unit plan, rotation log and full audit. Blind test iter-13: the one-page brief and one real model scored 49 of 60 against the account's skills' 46.)
+**Version:** 2026-11-06 DRAFT (P21: replaces the 2026-10-21 pack of about 4,100 words and about 36,000 words of references, its skeleton template, unit plan, rotation log and full audit. Blind test iter-13: one page and one real model scored 49 of 60 against the account's skills' 46.)
 
 **This pack replaces `core/workflow.md` sections 2 to 6 for Hank Hardwood and Dale Oakfield's Workshop.** START and the channel question (section 1) stay as they are. Everything the writer needs is here, on the channel's one page and in one model transcript. The one exception is building a missing research pack (Step 1).
 
@@ -45,10 +45,10 @@ Pick the type that fits the build, and read its model. Where two fit, take the o
 
 All files are in `references/models/`. Read one, not all. Each starts with what to take, what not to take and the maker's signature phrases. Never use those phrases or any run of his words.
 
-**A heritage title** (an Amish-style bench, a Japanese-style box, a "forgotten" method) takes the model for its build. The heritage lives inside the build as short asides tied to the step in hand, never as an opening. It's a modern piece in the old style, never a replica. The basic-kit way comes first, and the old tool or method follows as an option (never an unsafe one). History stays general and hedged ("the way it's usually told"): never a date, a named person or a figure unless the brief or pack gives it with its source. If the heritage version has no listings, the money uses the plain product's listings and says so, and the heritage angle is opinion only.
+**A heritage title** (an Amish-style bench, a Japanese-style box, a "forgotten" method) takes the model for its build. The heritage lives inside the build as short asides tied to the step in hand, never as an opening. It's a modern piece in the old style, never a replica. The basic-kit way comes first, and the old tool or method follows as an option (never an unsafe one). History stays general and hedged ("the way it's usually told"): never a date, a named person or a figure unless the brief or pack gives it with its source. Old finishes only in today's safe versions (no lead pigments; lye or charring with gloves, eye protection and the maker's instructions). If the heritage version has no listings, the money uses the plain product's listings and says so, and the heritage angle is opinion only.
 
 ## Step 3. Write it in one pass
-Follow the channel's page. For the book match, use the brief's; if it has none, search the book index in the channel's skill for this build or technique, and cite a page only where the book really covers it.
+Follow the channel's page. A title that claims his own selling or tenure ("I can't keep them in stock") is delivered through the numbers; the narration never claims it. For the book match, use the brief's; if it has none, search the book index in the channel's skill for this build or technique, and cite a page only where the book really covers it.
 
 **Earlier scripts in this chat:** don't reuse their opening move, shop detail, swear words, book benefit or the first words of a book block.
 

@@ -1,0 +1,55 @@
+TEST BRIEF (iter-18): written on 2026-11-06 as talking points from Dale's published video PbK8YeMSqWM, "Dog Owners Pay $90 for This $15 Build I Can't Keep Them in Stock" (published 2026-10-06, 16:15, 2,412 views as of 2026-10-17; transcript and meta in studies/woodworking/data/own/dale-oakfields-workshop/PbK8YeMSqWM/). Why this one: it's the newest single build of Dale's with a transcript on disk that suits the pack. His newest upload on disk, QmY7I_SA8Z4 (2026-10-24, studies/recent-uploads-2026-10-25/), is an 11-item list (single builds only for now), and the 2026-10-25 review found it most likely didn't come from the script-writer. Pdm4mNFDh8M (2026-10-14, the pivot-lid box) is newer but spends its first five minutes before the first material. PbK8YeMSqWM predates the library: every price and figure below is the video's own, said by the voice, and marked (check) because nothing on disk sources it. No audit or research pack exists for it; not from the operator's sheet.
+TITLE: Dog Owners Pay $90 for This $15 Build I Can't Keep Them in Stock
+CHANNEL: Dale Oakfield's Workshop
+BRIEF (talking points):
+- The product: a raised dog feeder. A flat pine top with two round holes where stainless steel bowls drop in and hang by their rim, on a small frame (two end panels and two aprons) at the height the dog eats from, with the dog's name burned across the front apron.
+- Why owners buy it (the video's reading): the floor around the bowls stays cleaner; it looks like a piece of kitchen furniture instead of a plastic dish in the corner; with the dog's name on the front it becomes the dog's spot. The name is what sells it.
+- Size it to the dog first: small dogs get a stand 6 to 8 inches tall, large dogs 12 to 14 inches, measured floor to top surface. Subtract the top's thickness (three-quarters of an inch on a standard one by twelve) for the end panels: a 13-inch stand gets end panels 12 and a quarter inches tall. Building to order: ask what the dog is before cutting. Building for a market: make a small and a large and let people pick.
+- What you need:
+  - Plain pine or cedar, never pressure-treated lumber: it's soaked in chemical preservatives and has no business where an animal eats, not even for hidden parts.
+  - For a large stand: one six-foot one by twelve and one six-foot two by six, roughly $10 to $15 in wood (check).
+  - Two stainless steel feeding bowls with a rolled rim. Buy the bowls first and make every template from the bowls in hand. Wood plus bowls: about $20 to $30 all in (check). The title's $15 is the wood.
+  - Wood glue; 2 and a half inch coarse-thread pocket screws; figure-eight tabletop fasteners; four small screw-in rubber feet; a wood-burning pen (price not found; the video says "about the price of a good lunch"); graphite transfer paper; a water-based polyurethane or hard wax oil whose maker states it's food safe once fully cured; sandpaper at 80, 120, 180 and 320.
+  - Prices subject to change.
+- Tools: a saw for straight cuts with a stop block; a jigsaw with a fine-tooth scrolling blade (or a hole saw where it matches the hole size); a drill with a 3/8 inch bit for starter holes and a sanding drum; a pocket-hole jig set for inch-and-a-half stock; clamps; a router with a quarter-inch roundover bit, or a sanding block if you don't have a router; a utility knife and cardboard for the template; a paint can to trace the arch.
+- Choosing boards: look at the end grain; boards whose rings run closer to straight up and down stay flatter than boards where the rings make a wide smile (a board cups away from the center of the tree as it dries). Sight down each board for twist; pick the flattest. Then sticker them (stack with thin strips of scrap between so air reaches every face) in the shop for a few days so they settle before cutting.
+- The steps:
+  - Cut list for a large 13-inch stand: from the one by twelve, one top at 24 inches and two end panels at 12 and a quarter inches; from the two by six, a front and a back apron at 22 and a half inches each (they fit snug between the end panels). For a small 7-inch stand, scale down: something like an 18-inch top and end panels at 6 and a quarter.
+  - The kerf (the slice the blade turns into sawdust, about an eighth of an inch): cut on the waste side of the line.
+  - Cut both end panels off the same stop block: if one comes out a sixteenth taller, the stand rocks and spills water.
+  - Trace a gentle arch across the bottom of each end panel with the paint can and cut it with the jigsaw, so each end stands on two feet (steady on a floor that isn't level, and it looks finished).
+  - Bowl holes: a feeding bowl's rolled lip is wider than its body; the hole is wider than the body and narrower than the lip. Measure the body just under the lip and add about a sixteenth of an inch. Don't trust the size printed on the package. Make a cardboard template (trace the rim, draw the hole inside, cut it, test-fit the bowl: it should hang level and lift right out), then trace it onto the top. Holes centered front to back, at least 2 inches of wood between the holes and at least 2 inches from each hole to the end (that wood keeps the top from cracking when a big dog leans on it).
+  - Cutting the holes: a hole saw, if one matches, is fastest: clamp the top on scrap, pilot bit through, cut halfway from each face so the back doesn't blow out. Large-dog bowls are often bigger than a hole saw, so plan on the jigsaw: a 3/8 inch starter hole just inside the line, the scrolling blade, the top clamped with the hole hanging past the bench edge, cut slowly a hair inside the line, then sand up to it with the drum at 80 grit. Test-fit every hole.
+  - Assembly: two pocket holes at each end on the inside faces of each apron; glue, clamp, drive the screws. Measure the frame corner to corner both ways; if the diagonals match it's square, if not push the long corner in until they do. Clamps on about 30 minutes; a full day before real weight.
+  - The top moves: an 11 and a quarter inch wide board grows and shrinks across its width with the seasons, so don't glue it down. Fasten it with figure-eight tabletop fasteners (little metal pieces shaped like an eight that screw into the top edge of the aprons and pivot), or screw up through the aprons in slightly oversized holes. Otherwise it can split down the middle in its first winter.
+  - Ease every edge with the roundover bit or a sanding block, then sand with the grain at 80, 120 and 180 (pine doesn't need finer; too fine can make it take a finish unevenly). Extra attention inside the bowl holes and along the top edge, where hands touch every day.
+  - The name: print it in a bold, simple font sized to the front apron with a good margin, tape it in place over graphite transfer paper, trace the letters. Practice on a scrap of the same board first. Medium heat, keep the tip moving at a steady pace, outline every letter, then fill; stopping in one spot leaves a dark blob. Do the lettering before any finish, and get the spelling in writing from the buyer. What the name adds to the price: not found (the captions drop the figure).
+  - The finish: wipe off all dust, three thin coats rather than one heavy one, scuffing lightly with 320 between coats. Dry to the touch isn't fully cured: read the can for the full cure time (it can run several days) and keep the bowls and the dog away until then. That's also the time to take the photos for an online listing.
+  - Rubber feet: one under each little foot of the end panels, so the stand stays put when a big dog leans in, and the end grain stays off a wet floor (end grain soaks up water).
+- Safety:
+  - Never pressure-treated lumber anywhere on it (where an animal eats).
+  - A finish whose maker states it's food safe once fully cured, especially on the top; nothing near the dog until fully cured.
+  - Clamp the top down before drilling or cutting the holes (the video); clamp the workpiece before drilling the pocket holes (the book, page 62).
+  - Not said in the video, from the pack's safety defaults: with the stop block, let the blade stop before lifting the piece; no gloves or loose sleeves near the router, the drill or the saw.
+- The money:
+  - Cost: about $10 to $15 in wood for a large stand, about $20 to $30 all in with the two bowls (check).
+  - What they go for (the video's own range, no listings given): $60 to $120, depending on size, finish and the name (check). Boutique pet stores list similar stands at about $80 to $150 (check). No store names.
+  - The video's pricing advice: the small plain stand toward the bottom of the range, the large stand with a name toward the top. The title's $90 sits inside both ranges.
+  - Always include the bowls: buyers want to take it home and use it that night.
+  - Keep a couple of each size built ahead: new puppy owners and holiday gift buyers come all year (the video's reading).
+  - Online fees, a booth fee, the time per stand and a batch total: not found in the source (the research pack must supply any fee or time used).
+- Where to sell: markets and online (the video's claim; check). Not found: which platform or fee.
+- Optional, from the video's close: once you've built it, three more versions reach other buyers: a single-bowl small stand (small dogs and cats), a version with a shallow drawer between the aprons for kibble or treats, and a farmhouse version with crossed X legs in place of the solid end panels. One sentence at most; no cut lists for them.
+- Book match (The Ultimate DIY Woodworking Guide; personas/books/dale-oakfield-book.md, PDF page numbers as the book file gives them):
+  - pages 10 to 13: Technique 2, checking moisture before you trust a board; its Common Mistake (page 12): a board that feels dry can still hold moisture in its core; its money-saving hack (page 13): sticker the wood yourself.
+  - pages 60 to 62: Technique 16, pocket holes; its Common Mistake (page 61): a pocket hole drilled too shallow or a screw too long punches through the face; test a joint in scrap; its safety note (page 62): clamp the workpiece before drilling.
+  - pages 82 to 84: Technique 22, reading the grain before you sand; its Common Mistake (page 84): sanding across the grain, or jumping from 80 grit straight to 220.
+  - pages 90 to 91: Technique 24, sealing out moisture; its Common Mistake (page 91): flooding the surface with finish instead of thin coats.
+  - There's no dog stand or pet project in the book: never say the book has this build.
+- Boundaries:
+  - The title's "I Can't Keep Them in Stock" is delivered through the numbers. The narration never claims Dale made, sold or kept any in stock: no "every market table I've set one on", no customers, no "the trick I wish somebody had shown me when I started selling".
+  - No brand or store named; no shop or seller named.
+  - Prices as rounded figures, one per item, never cents.
+  - Swearing off.
+RESEARCH PACK: none (TEST: this brief's figures stand in for the pack; anything marked (check) is unverified; no web research for this test)
+ROTATION LOG: none
