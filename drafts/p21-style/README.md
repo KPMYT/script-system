@@ -30,6 +30,15 @@ The folders are laid out exactly as the three skills would be uploaded.
 | The safety line dropped in the wrong place | "one short line inside the item it belongs to" |
 | A second count in the opening ("and three that do the opposite") | "one count only" on both pages |
 
+## The hook, the feelings and the flow (operator, 2026-11-06: "simplifing to the point the hook is as strong as we always wanted targetting the right emotions, and the video actually flows")
+
+Both pages now carry, as plain guidance with no counts, what the operator decided on 2026-10-31 and what the study found:
+- **The hook:** the title paid off in the first sentence; the blame taken off her (what she can't change isn't the problem); within reach; straight into item one with a reason to stay. As short as the model's opening. The old five-move formula, its 110-word cap and its title-word counts are gone.
+- **The feeling:** one table per page of what each kind of title makes her want and fear (from the 2026-10-31 emotion bank, cut to six or seven rows), named in the hook and brought back; practical fixes for emotional problems; her own mirror; the why as the relief; the blame off her in fresh words; the trigger said on the garment; permission, never a slogan; each item ending on the result.
+- **The flow:** point first; one-line bridges between items; the title's feeling back now and then, never as a refrain; questions to her now and then. The old "but", "I" and question rates are gone.
+- **"Granny" or "old lady":** at most once, flagged as harsh (the operator's 2026-10-31 rule; the check fails a second one).
+- **Lengths:** Scarlett's page about 1,350 words, Diane's about 1,500, the pack about 950, against about 46,000 words of rules before.
+
 ## Added back from the operator's decisions (they were in the 2026-10-31 skills, not in the test drafts)
 
 - The book block after at least two full items, at the item closest to the book (operator, 2026-10-29).

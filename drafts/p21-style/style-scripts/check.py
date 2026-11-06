@@ -93,7 +93,7 @@ COMMON_BAN = [
     (r"\bwhich (?:one|of (?:the|these) \w+)\b[^.!?]{0,40}\b(?:first|try|trying)\b|\bwhich (?:\w+ )?(?:will|would) you try\b", "the old comment ask (ask about her instead)"),
     (r"\bfree\b[^.!?]{0,20}\b(?:book|guide|download)\b|\b(?:book|guide)\b[^.!?]{0,20}\bfree\b", "'free' with the book"),
 ]
-HARSH = r"\bgranny\b|\bgrannies\b|\bold lady\b|\bold ladies\b|\bfrumpy\b|\bfrumpiness\b|\bmatronly\b"
+HARSH = r"\bgrann(?:y|ies)\b|\bold lad(?:y|ies)\b"
 CTA_BAN = r"\blook (?:\w+ )?younger\b|\banti-?aging\b|\bprice\b|\bdollars?\b|\$\d"
 
 SAFETY = [
@@ -271,8 +271,8 @@ def main():
         if k > 2:
             fail("at most twice", f"{why}, said {k} times")
     k = len(re.findall(HARSH, spoken, re.I))
-    if k > 2:
-        fail("harsh word", f"'granny', 'old lady', 'frumpy' and the like said {k} times; never more than twice")
+    if k > 1:
+        fail("harsh word", f"'granny' or 'old lady' said {k} times; at most once, flagged as harsh")
 
     # 5. Safety lines.
     for trigger, need, why in SAFETY:
@@ -341,6 +341,9 @@ def main():
                 fail("model's phrase", f"{fn}'s signature phrase: \"{phrase}\"")
 
     # 9. For reading only.
+    first = sentences(spoken)[0] if sentences(spoken) else ""
+    shared = sorted(set(norm_words(first)) & set(norm_words(a.title)) - {"the", "a", "an", "to", "of", "and", "that", "your", "you", "for", "in", "over", "with"})
+    infos.append(f"INFO the hook's first sentence (does it pay off the title?): \"{first[:160]}\" | title words in it: {', '.join(shared) or 'none'}")
     title_words = [w for w in norm_words(a.title) if w in {"instantly", "younger", "expensive", "elegant", "chic", "classy", "polished", "older", "frumpy", "granny", "rich", "luxury", "french"}]
     if title_words:
         counts = [w + " " + str(len(re.findall(r"\b" + w + r"\b", spoken, re.I))) for w in title_words]
