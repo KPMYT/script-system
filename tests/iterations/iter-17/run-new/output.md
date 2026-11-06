@@ -44,7 +44,7 @@ If your line runs to a pump, watch the pump while you flush. It should switch on
 
 Fifth, and don't skip this one. The trap has to be full of water before the power goes back on. That little pool of water in the bend is a seal. If the trap is dry, exhaust gas can push out through the drain and into your house, and the furnace may not light at all. Furnace makers say to fill the trap before start-up.
 
-If you poured at a cleanout or a vent tee, finish with a cup of plain water so the trap stays full. If you took the trap off, refill it with plain water before you put it back on. Water first, power second.
+If you poured at a cleanout or a vent tee, the trap itself was never touched, so it's still holding its water. If you took the trap off, refill it with plain water before you put it back on. Water first, power second.
 
 Now put the cabinet door back on, if you took it off. Flip the furnace switch back on, the same switch you turned off. Turn the thermostat back up to where you keep it. Then stand there for a minute and listen. First the inducer hums. Then the igniter clicks or glows. Then the burners light, and a few minutes later warm air comes out of the vents. Look at the floor by the furnace. Dry. That's a furnace that's going to get you through the night.
 
@@ -111,7 +111,7 @@ If your line runs to a pump, watch the pump while you flush. It should switch on
 
 [emphatic] Fifth, and don't skip this one. The trap has to be full of water before the power goes back on. That little pool of water in the bend is a seal. If the trap is dry, exhaust gas can push out through the drain and into your house, and the furnace may not light at all. Furnace makers say to fill the trap before start-up.
 
-If you poured at a cleanout or a vent tee, finish with a cup of plain water so the trap stays full. If you took the trap off, refill it with plain water before you put it back on. Water first, power second.
+If you poured at a cleanout or a vent tee, the trap itself was never touched, so it's still holding its water. If you took the trap off, refill it with plain water before you put it back on. Water first, power second.
 
 Now put the cabinet door back on, if you took it off. Flip the furnace switch back on, the same switch you turned off. Turn the thermostat back up to where you keep it. Then stand there for a minute and listen. First the inducer hums. Then the igniter clicks or glows. Then the burners light, and a few minutes later warm air comes out of the vents. Look at the floor by the furnace. Dry. [warm] That's a furnace that's going to get you through the night.
 
