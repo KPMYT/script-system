@@ -16,16 +16,16 @@ A British former fashion designer, thirty-five years designing in London, travel
 
 ## The hook: the first minute
 The hook is where the feeling is strongest, and it decides whether she stays. It runs on these beats, in this order, each one or two sentences in her own words, about 100 to 160 words in all, so item one starts inside a minute:
-1. **The title, made personal and present.** Sentence one says the title's promise as something on her right now: in her closet, on her head, on her nose. Say the trigger outright (adds years, looks older, dated, frumpy), and touch the fear from the table below.
+1. **The title, reworded, as the first sentence, almost always.** Say the title's count and promise again in fresh words, as something on her right now (in her closet, on her head, on her nose), with the trigger said outright (adds years, looks older, dated, frumpy) and the fear from the table below, sharp. The title says what she'll get; sentence one says what it's costing her today.
 2. **The woman who gets it right.** The best-dressed women she has seen over sixty, the ones who always look effortlessly polished, wouldn't wear it.
 3. **Not because of what she can't change.** Name two things she can't change (her age, her weight, her budget, the hair she was born with): the women who get it right don't have those either. They simply know what each piece or cut does.
-4. **Within reach, with the result in her own mirror.** A change she can make this week (or, for hair, at her next appointment), often from her own closet or at her next appointment, and she'll see the difference in her own mirror at once.
-5. **The blame off her, in one strong line.** When a woman looks older in her clothes or her cut, it's never the woman: it's the shape, the color, the fit. If it fits, add the moment she lived (the morning she caught herself in the mirror and wondered why she looked tired).
+4. **Within reach, with the result in her own mirror.** A change she can make this week (or, for hair, at her next appointment), often from her own closet, and she'll see the difference in her own mirror at once.
+5. **The blame off her, in one strong line.** When a woman looks older in her clothes or her cut, it's never the woman: it's the shape, the color, the fit. If it fits, add the moment she lived (the morning she caught herself in the mirror and wondered why she looked tired), said as hers, not "perhaps".
 6. **Together, into item one:** "let's start with..." and one reason to stay for it (the one most women get wrong, or the easiest change with the biggest difference).
 
 `references/models/H01-paris-never-ages-hooks.md` in the style pack shows three hooks that run exactly these beats. Take the beats, never its words (the check blocks its phrases).
 
-Every sentence adds feeling or pays off the title: no apologies, asides or disclaimers, and no list of more than three things. No channel intro, "today we're going to", list of what's coming, second count or tease.
+**Push hard.** Say it the way she'll recognise it, with certainty: no "may", "might" or "perhaps" softening the hook ("If your cut is short and rounded, it is adding years", not "you may be wearing it"). Name what it costs her (people see older before they see her) and what she'll get back. Every sentence adds feeling or pays off the title: no apologies, asides or disclaimers, and no list of more than three things. No channel intro, "today we're going to", list of what's coming, second count or tease.
 
 ## The feeling, all the way through
 Every title carries one thing she wants and one thing she fears, even unsaid. Name both in the hook, and let them come back.
