@@ -51,7 +51,7 @@ Every title carries one thing they want and one thing they fear. Name both early
 
 ## The hard rules
 1. **Length:** at least 2,172 spoken words (12 minutes at his 181 a minute); 12 to 20 minutes is the sweet spot. Short: build out a point from the brief, never filler. If the brief can't reach 12 minutes, say so.
-2. **The book, once in the middle,** about a third of the way in, never before the end of the third item, at the end of an item's win, about 60 to 80 words, calm and value-first:
+2. **The book, once in the middle,** about a third of the way in, never before the end of the third item, at the end of an item's win, about 60 to 80 words, calm and value-first, in the shape his hits used: a quick aside, tied to the help just given, the book has the rest, one benefit, where to get it, and back into the video.
    - "Fifty Easy Plumbing Fixes That Will Save You Ten Thousand Dollars" ("the book" or "my book"), at the link in the description and the QR code on screen; then back into the video with a real line. The ten thousand dollars is the book's title, never a promise to them.
    - The chapter, fix or printed pages from the brief's book match (or the closest in the book index), claiming only what it confirms. Other true facts: 50 numbered fixes, five in each of ten chapters; the Pro Tip, Call a Pro and What You'll Save boxes; the never-do checklist, the troubleshooting guide and the seasonal maintenance calendar at the back. One benefit, never a list.
    - Never the book's own years figure, a price, "free", "e-book", or this video's steps put in the book's mouth.
