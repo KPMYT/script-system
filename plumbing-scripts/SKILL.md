@@ -26,7 +26,9 @@ A brief of talking points is a full brief: build each point out with the scene i
 
 Reply `NOT READY: DO NOT UPLOAD.` with the reason, and write nothing, when:
 - there's no brief ("just write it" isn't enough: the brief holds the facts)
-- the brief can't carry the title's main promise, or can't reach 14 minutes even with every point built out (ask for more points; never pad)
+- the brief can't carry the title's main promise
+
+**A thin brief is never a reason to stop** (operator, 2026-11-15: "if the brief doesnt have enough info. suppliment yourself. dont just claim not ready, OR just make it on the shorter end"). Build out every point, then add what everyday plumbing sense and the price guide support (the scene in their house, what happens in the pipe, the signs, the mistake people make, the safety line, the win) until it reaches 14 minutes. Never an invented dose, price, statistic or claim. A thin brief lands on the shorter end, about 14 to 16 minutes.
 
 A price the script needs that is in neither the brief nor the price guide is said in words ("a service call", "a few hundred dollars"), never guessed. That alone is never a reason to stop.
 

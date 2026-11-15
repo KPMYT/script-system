@@ -3,7 +3,7 @@ name: "diane-de-chambray-persona"
 description: "The one-page writing brief for Diane de Chambray: who she is, the French way, the hook, the feeling, the flow, the hard rules, the book and the ending, plus the book's index. Read by the script-writer skill (with the style-scripts pack) when a Diane script is written (START). Not used on its own."
 ---
 
-**Version:** 2026-11-15 (library commit d4766c5) (P21, the simple way: the iter-10 one-page winner with iter-10's fixes; the hook and the feelings from the operator's 2026-10-31 decisions, as guidance with no counts; persona facts of 2026-10-31)
+**Version:** 2026-11-15 (library commit 9861fe2) (P21, the simple way: the iter-10 one-page winner with iter-10's fixes; the hook and the feelings from the operator's 2026-10-31 decisions, as guidance with no counts; persona facts of 2026-10-31)
 
 # Diane de Chambray: the one-page brief
 

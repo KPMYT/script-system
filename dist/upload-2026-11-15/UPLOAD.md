@@ -23,4 +23,4 @@
 
 - Type **START**, pick the channel, then paste the title and the brief.
 - Only upload a script whose output ends with a check line saying **PASS**. Anything that starts "NOT READY: DO NOT UPLOAD" goes back.
-- **Briefs need more material now:** 14 minutes is the minimum, and a full brief should carry 16 to 25. A brief that can't reach 14 minutes gets NOT READY with a request for more points.
+- **Length:** 14 minutes is the minimum. A full brief can carry 16 to 25. A thin brief is filled out by the writer from everyday plumbing knowledge and lands at about 14 to 16; it never stops with NOT READY for length.

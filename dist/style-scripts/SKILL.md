@@ -5,7 +5,7 @@ description: "Script steps for the operator's hair-and-fashion channels for wome
 
 # Style scripts (the simple way)
 
-**Version:** 2026-11-15 (library commit d4766c5) (P21: replaces the 2026-10-31 pack of about 8,000 words, its hook formula, eight-beat item, counts and full audit. Blind tests iter-08 and iter-10: one page plus one real model scored 8.0 to 8.5 against 6.3 to 7.3.)
+**Version:** 2026-11-15 (library commit 9861fe2) (P21: replaces the 2026-10-31 pack of about 8,000 words, its hook formula, eight-beat item, counts and full audit. Blind tests iter-08 and iter-10: one page plus one real model scored 8.0 to 8.5 against 6.3 to 7.3.)
 
 **This pack replaces `core/workflow.md` sections 2 to 6 for Scarlett Starling and Diane de Chambray.** START and the channel question (section 1) stay as they are. None of the other core files are read for these two channels: everything the writer needs is here, on the channel's one page and in one model transcript.
 
