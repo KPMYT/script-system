@@ -354,11 +354,11 @@ def main():
             line = " ".join(sents[i0:i1 + 1])
             bw = len(norm_words(line))
             before = len(norm_words(" ".join(sents[:i0])))
-            infos.append(f"INFO book line: {bw} words, at {100 * before // max(n, 1)}% of the script (once, two or three sentences, about 25 to 45 words, after the step it fits best)")
+            infos.append(f"INFO book line: {bw} words, at {100 * before // max(n, 1)}% of the script (once, two or three sentences, about 35 to 60 words: what it goes deeper on and why, who it is for, where; after the step it fits best)")
             if not (re.search(r"\bdescription\b", line, re.I) and re.search(r"\bQR\b", line, re.I)):
                 fail("book line", "say it's at the link in the description and the QR code on screen")
-            if bw > 60:
-                fail("book line", f"{bw} words; two or three sentences, about 25 to 45 (P22)")
+            if bw > 75:
+                fail("book line", f"{bw} words; two or three sentences, about 35 to 60 (P22)")
             if re.search(BOOK_NUMBERS, line, re.I):
                 fail("book line", f"a chapter, fix or page number in the book line (P22: general, no numbers): \"{re.search(BOOK_NUMBERS, line, re.I).group(0)}\"")
             later = [s_ for s_ in sents[i1 + 1:] if re.search(ch["spoken"] + r"|\bmy book\b|\bthe book\b|\bQR\b|\blink in the description\b", s_, re.I)]
@@ -384,8 +384,8 @@ def main():
             mw = len(norm_words(mid))
             before = len(norm_words("\n".join(spoken_lines[:blocks[0]["start"]])))
             infos.append(f"INFO book block: {mw} words, starts at {100 * before // max(n, 1)}% of the script (once, after the item it fits best)")
-            if not 30 <= mw <= 70:
-                fail("book block length", f"{mw} words; the page says about 40 to 60")
+            if not 35 <= mw <= 85:
+                fail("book block length", f"{mw} words; the page says about 45 to 75")
             if " ".join(norm_words(ch["fixed"])) not in " ".join(norm_words(mid)):
                 fail("book block", f"the mentor line, word for word: {ch['fixed']}")
             if not re.search(ch["spoken"], mid, re.I):

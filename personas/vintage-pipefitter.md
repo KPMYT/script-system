@@ -18,7 +18,7 @@ A warm, plainspoken tradesman, 45 years in the trade, passing the old trade know
 The first sentence makes the point: the title's subject and the problem in their house. Then, in the order that suits the title (the model shows one way):
 - **The scene and the mistake:** the problem in their house and what people pour, buy or try first.
 - **The villain:** the shelf's gimmick or the trade's price, said as plain fact.
-- **The count:** how many tips, steps or uses the video gives them (operator, 2026-11-15: "we want to count the tips"). Then number each one in the body ("Number four", "Step two").
+- **The count:** how many tips the video gives them, named for what they are and said as what he is about to give them: the fixes, the mistakes, the ways to use it, the steps (operator, 2026-11-15: "we want to count the tips"; "i dont like the 'there are nine numbered things in this video' we should word that such as 'there are 9 fixes/methods/xyz i am going to show you today and the ninth ......'"). Never "numbered things" or "things in this video". The reason to stay can ride on the same sentence. Then number each one in the body ("Number four", "Step two").
 - **One reason to stay to the end:** what the last tip does for them, without saying what it is; the last tip must pay it. This is the opening's one promise. Never "stick around", "stay to the end" or "bonus".
 
 If it fits, add a question they can answer in their own house, or the escalation said simply (where the video starts and where it ends up).
