@@ -23,7 +23,8 @@ import sys
 
 MAX_SENTENCE = 35
 COPY_RUN = 8                    # words in a row shared with a model
-SWEET_MAX_MINUTES = 20
+MIN_MINUTES = 14               # P22, 2026-11-15: 14 minutes is the floor, never the target
+SWEET_MAX_MINUTES = 25
 
 CONTRACTION = r"\b\w+(?:n't|'re|'ve|'ll|'d|'m)\b|\b(?:it|that|there|here|what|he|she|who|let|where|how|why|when|nothing|something)'s\b"
 COMMENT_END = r"\bI read every ?one\b"
@@ -144,13 +145,14 @@ OPENING_BAN = [
 ]
 OPENING_PROMISE = r"\byou(?:'ll| will) (?:hear|see|learn|know|find out|get)\b|\bI(?:'ll| will) (?:show|tell|teach|give)\b|\b(?:and|but) (?:that|this) comes (?:at|later)\b|\b(?:comes|is coming|waits) (?:at|in) the (?:last|final|end|very end)\b|\bcomes later\b"
 NO_PLUMBER = r"\bnothing (?:here|in this (?:video|one)) needs a plumber\b|\bnone of this needs a plumber\b|\byou(?:'ll| will) never (?:need|call) a plumber\b|\bno plumber needed\b"
-A_CALL = r"\bthat(?:'?s| is) a call\b|\bcall (?:a|the|your|in a) (?:plumber|pro|professional|licensed)\b|\bpick up the phone\b|\bcall someone\b|\bthen call\b"
+A_CALL = r"\bthat(?:'?s| is) a call\b|\bcall (?:a|the|your|in a) (?:plumber|pro|professional|licensed)\b|\bpick up the phone\b|\bcall someone\b|\bthen call\b|\band call\b|\bmake (?:that|the) call\b"
 ITEM_ONE = r"\b(?:number one|level one|step one|first up|the first (?:step|thing|fix|check|reason|cause|mistake|tip|level))\b"
 
 UNITS = {w: i for i, w in enumerate("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split())}
 TENS = {w: 10 * (i + 2) for i, w in enumerate("twenty thirty forty fifty sixty seventy eighty ninety".split())}
 SCALES = {"hundred": 100, "thousand": 1000, "million": 1000000}
 NUMWORD = "|".join(list(UNITS) + list(TENS) + list(SCALES))
+BOOK_NUMBERS = r"\b(?:pages?|chapters?|fix(?:es)?|repairs?)\s+(?:number\s+)?(?:\d+|(?:" + NUMWORD + r"))\b"
 
 
 def numbers_in(text):
@@ -252,7 +254,7 @@ def main():
     raw = re.sub(r"^\s*TEST\b[^\n]*\n", "", raw)
     lines = raw.strip("\n").split("\n")
 
-    # 1. Markers: Talking Head has two blocks; Classic has none.
+    # 1. Markers: Talking Head has one book block (P22); Classic has none.
     blocks, spoken_lines, inside, cur = [], [], False, None
     start_re = re.compile(r"^===START CTA\((.*)\)===$")
     for line in lines:
@@ -276,8 +278,8 @@ def main():
             cur["lines"].append(line)
     if inside:
         fail("book marker", "a START CTA marker with no END CTA")
-    if ch["type"] == "talking" and len(blocks) != 2:
-        fail("book blocks", f"need exactly two (mid and end), found {len(blocks)}")
+    if ch["type"] == "talking" and len(blocks) != 1:
+        fail("book blocks", f"need exactly one book block (P22: the book once, no end block), found {len(blocks)}")
 
     spoken = "\n".join(spoken_lines)
     words = norm_words(spoken)
@@ -286,12 +288,12 @@ def main():
     sents = sentences(spoken)
 
     # 2. Length at the channel's real speed.
-    min_words = math.ceil(12 * ch["wpm"])
+    min_words = math.ceil(MIN_MINUTES * ch["wpm"])
     minutes = n / ch["wpm"]
     if n < min_words:
-        fail("length", f"{n} words ({minutes:.1f} minutes at {ch['wpm']}); needs at least {min_words} (12 minutes)")
+        fail("length", f"{n} words ({minutes:.1f} minutes at {ch['wpm']}); needs at least {min_words} ({MIN_MINUTES} minutes)")
     elif minutes > SWEET_MAX_MINUTES:
-        infos.append(f"INFO {minutes:.1f} minutes: past the 12-to-20-minute sweet spot (fine if nothing is padding)")
+        infos.append(f"INFO {minutes:.1f} minutes: past 25 minutes (fine only if every minute is the brief's meat)")
 
     # 3. The opening: before item one, or the first 45 seconds if no signpost is found.
     flat_words = " ".join(words)
@@ -321,6 +323,10 @@ def main():
         infos.append(f"INFO the opening: {k1} words before item one, about {k1 / ch['wpm'] * 60:.0f} seconds (the first real step by about 45)")
     else:
         infos.append("INFO no 'number one', 'level one' or 'step one' found: check the first real step lands by about 45 seconds")
+    for m in re.finditer(A_CALL + r"|\bthe (?:one )?call (?:in this video|here)\b|\byours (?:to do )?until\b|\bwhere (?:the job|it|this) stops being (?:yours|theirs)\b|\bthe one (?:machine|job|clog|case) that isn'?t\b", opening_text, re.I):
+        fail("opening", f"a call or a limit line in the opening (P22: no plumber in the opening; the trade's price as the villain is fine): \"{sentence_with(opening_text, m.start())}\"")
+    count = re.search(r"\b(?:" + NUMWORD + r"|\d+)\s+(?:[\w-]+\s+){0,3}?(?:tips?|things?|ways?|steps?|mistakes?|uses?|jobs?|fixes?|signs?|reasons?|rules?|habits?|checks?|levels?|tricks?|powders?|liquids?|items?)\b", opening_text, re.I)
+    infos.append("INFO the count in the opening: " + (f"\"{count.group(0)}\"" if count else "none found (P22: say how many tips, then number them)"))
     op_money = len(re.findall(MONEY_DIGITS + "|" + MONEY_WORDS, opening_text, re.I))
     infos.append(f"INFO dollar figures in the opening: {op_money} (one at most, often none)")
     if re.search(NO_PLUMBER, spoken, re.I) and re.search(A_CALL, spoken, re.I):
@@ -336,20 +342,30 @@ def main():
     before_last = paras[-4:-1]
 
     if ch["type"] == "classic" and ch["mid"]:
-        idx = next((i for i, p in enumerate(paras) if re.search(ch["spoken"], p, re.I)), None)
-        if idx is None or idx >= len(paras) - 3:
-            fail("mid book line", "the book's spoken title isn't said in the body of the video")
-        else:
-            p = paras[idx]
-            if not (re.search(r"\bdescription\b", p, re.I) and re.search(r"\bQR\b", p, re.I)):
-                fail("mid book line", "say it's at the link in the description and the QR code on screen")
-            before = len(norm_words(" ".join(paras[:idx])))
-            infos.append(f"INFO mid book line: in a paragraph of {len(norm_words(p))} words, starting at {100 * before // max(n, 1)}% of the script (about a third of the way in; never before the end of the third item; about 60 to 80 words)")
-        if not any(re.search(r"\bbook\b|" + ch["spoken"], p, re.I) and re.search(r"\bdescription\b", p, re.I) and re.search(r"\bQR\b", p, re.I) for p in before_last):
-            fail("ending", "one line reminding them of the book, the link in the description and the QR code, just before the comment ask")
-        pitches = [p for p in paras if re.search(r"\bdescription\b", p, re.I)]
-        if len(pitches) > 2:
-            fail("book line", f"the link is pitched in {len(pitches)} places; the book goes once in the middle and once at the end")
+        # P22: the book once, two or three sentences, general, no numbers, never at the end.
+        hits = [i for i, s_ in enumerate(sents) if re.search(ch["spoken"] + r"|\bmy book\b|\bthe book\b", s_, re.I)]
+        if not any(re.search(ch["spoken"], s_, re.I) for s_ in sents):
+            fail("book line", "the book's spoken title isn't said")
+        if hits:
+            i0 = hits[0]
+            i1 = next((j for j in range(i0, min(i0 + 5, len(sents))) if re.search(r"\bQR\b", sents[j], re.I)), None)
+            if i1 is None:
+                i1 = next((j for j in range(i0, min(i0 + 5, len(sents))) if re.search(r"\bdescription\b", sents[j], re.I)), i0)
+            line = " ".join(sents[i0:i1 + 1])
+            bw = len(norm_words(line))
+            before = len(norm_words(" ".join(sents[:i0])))
+            infos.append(f"INFO book line: {bw} words, at {100 * before // max(n, 1)}% of the script (once, two or three sentences, about 25 to 45 words, after the step it fits best)")
+            if not (re.search(r"\bdescription\b", line, re.I) and re.search(r"\bQR\b", line, re.I)):
+                fail("book line", "say it's at the link in the description and the QR code on screen")
+            if bw > 60:
+                fail("book line", f"{bw} words; two or three sentences, about 25 to 45 (P22)")
+            if re.search(BOOK_NUMBERS, line, re.I):
+                fail("book line", f"a chapter, fix or page number in the book line (P22: general, no numbers): \"{re.search(BOOK_NUMBERS, line, re.I).group(0)}\"")
+            later = [s_ for s_ in sents[i1 + 1:] if re.search(ch["spoken"] + r"|\bmy book\b|\bthe book\b|\bQR\b|\blink in the description\b", s_, re.I)]
+            if later:
+                fail("book line", f"the book is mentioned again after its one line (P22: once only): \"{later[0][:120]}\"")
+            if i0 >= len(sents) - 6:
+                fail("book line", "the book line sits in the ending; it goes after the step it fits best, never in the last step")
     if ch["type"] == "classic" and ch["end"] == "subscribe":
         subs = [p for p in paras if re.search(r"\bsubscribe\b", p, re.I)]
         if not any(re.search(r"\bsubscribe\b", p, re.I) and re.search(r"\bvintage pipe ?fitter\b", p, re.I) for p in before_last):
@@ -367,27 +383,25 @@ def main():
             mid = " ".join(blocks[0]["lines"])
             mw = len(norm_words(mid))
             before = len(norm_words("\n".join(spoken_lines[:blocks[0]["start"]])))
-            infos.append(f"INFO mid book block: {mw} words, starts at {100 * before // max(n, 1)}% of the script (about a third of the way in; never before the end of the third item)")
-            if not 30 <= mw <= 65:
-                fail("mid book block length", f"{mw} words; the page says about 40 to 55")
+            infos.append(f"INFO book block: {mw} words, starts at {100 * before // max(n, 1)}% of the script (once, after the item it fits best)")
+            if not 30 <= mw <= 70:
+                fail("book block length", f"{mw} words; the page says about 40 to 60")
             if " ".join(norm_words(ch["fixed"])) not in " ".join(norm_words(mid)):
-                fail("mid book block", f"the mentor line, word for word: {ch['fixed']}")
+                fail("book block", f"the mentor line, word for word: {ch['fixed']}")
             if not re.search(ch["spoken"], mid, re.I):
-                fail("mid book block", "the book's spoken title isn't said")
+                fail("book block", "the book's spoken title isn't said")
             if not (re.search(r"\bdescription\b", mid, re.I) and re.search(r"\bQR\b", mid, re.I)):
-                fail("mid book block", "say it's at the link in the description and the QR code on screen")
+                fail("book block", "say it's at the link in the description and the QR code on screen")
+            if re.search(BOOK_NUMBERS, mid, re.I):
+                fail("book block", f"a chapter or repair number (P22: general, no numbers): \"{re.search(BOOK_NUMBERS, mid, re.I).group(0)}\"")
             outside = "\n".join(l for i, l in enumerate(spoken_lines) if not (blocks[0]["start"] <= i < blocks[0]["end"]))
             for m in re.finditer(r"\bmentor\b", outside, re.I):
-                fail("mentor", f"the mentor only in the mid-video book line: \"{sentence_with(outside, m.start())}\"")
-        if len(blocks) >= 2:
-            end = " ".join(blocks[-1]["lines"])
-            if not (re.search(r"\bbook\b|" + ch["spoken"], end, re.I) and re.search(r"\bdescription\b", end, re.I) and re.search(r"\bQR\b", end, re.I)):
-                fail("ending", "the end block is one line reminding them of the book, the link in the description and the QR code")
-            after = "\n".join(spoken_lines[blocks[-1]["end"]:]).strip()
-            if not after:
-                fail("ending", "the comment ask comes after ===END CTA=== and is the last line")
-            if not "\n".join(spoken_lines[blocks[0]["end"]:blocks[-1]["start"]]).strip():
-                fail("book blocks", "no video between the mid and end blocks")
+                fail("mentor", f"the mentor only in the book block: \"{sentence_with(outside, m.start())}\"")
+            for m in re.finditer(ch["spoken"] + r"|\bmy book\b|\bQR\b|\blink in the description\b", outside, re.I):
+                fail("book block", f"the book outside its one block (P22: once only): \"{sentence_with(outside, m.start())}\"")
+            after = "\n".join(spoken_lines[blocks[0]["end"]:])
+            if len(norm_words(after)) < 150:
+                fail("book block", "the book block sits in the ending; it goes after the item it fits best, never in the last item")
     for p in paras:
         if re.search(r"\bbook\b", p, re.I) and re.search(r"\b(?:everything|all of (?:it|this)|every (?:fix|step|tip|repair|one of these)|all (?:three|four|five|eight|ten|of these))\b[^.!?]{0,60}\b(?:book|in it|inside)\b", p, re.I):
             fail("book claim", f"the book line claims the whole video is in the book: \"{p[:140]}\"")
@@ -475,6 +489,15 @@ def main():
         miss = [why for rx, why in need if not re.search(rx, spoken, re.I)]
         if miss:
             fail("safety", f"a gas leak gets every step; missing: {', '.join(miss)}")
+    # P22: a call only for real danger (gas, live wiring, sewage or the main line).
+    DANGER = r"\bgas\b|\bwir(?:e|es|ing)\b|\belectric\w*\b|\bpanel\b|\bbreaker\b|\bmain(?: sewer)? line\b|\bthe main\b|\bsewage\b|\bsewer\b|\btwo (?:or more )?drains\b|\bmore than one drain\b|\bback(?:s|ing|ed)? up\b|\b911\b"
+    for i, s_ in enumerate(sents):
+        if re.search(A_CALL, s_, re.I):
+            ctx = " ".join(sents[max(0, i - 2):i + 1])
+            if not re.search(DANGER, ctx, re.I):
+                fail("call", f"a call that isn't about gas, live wiring or the main line (P22: everything else is theirs): \"{s_[:140]}\"")
+            else:
+                infos.append(f"INFO call (danger): \"{s_[:100]}\"")
     for thing, other, why in [(r"\bbleach\b", r"\bammonia\b|\bvinegar\b|\bacids?\b|\bcitric\b", "bleach with ammonia, vinegar or an acid"),
                               (r"\bperoxide\b", r"\bvinegar\b", "peroxide with vinegar")]:
         if re.search(thing, spoken, re.I) and re.search(other, spoken, re.I):

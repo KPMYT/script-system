@@ -288,5 +288,5 @@ P18 (one opening promise, paid at the end) is kept: the one reason to stay is th
 
 **Proposal:** the exact wording for the four plumbing pages, the pack and `check.py` is in `drafts/p22-plumbing-hook-book-length-DRAFT.md`.
 
-**Status:** draft shown to the operator 2026-11-15, waiting for the yes (the draft's four questions).
+**Status: applied 2026-11-15** to the four plumbing pages, `plumbing-scripts/SKILL.md` and `check.py` (operator: "1 yes", "2 no doesnt apply to vintage" (his subscribe line stays), "3 yes", "4 yes"). Recorded in `HANDOFF.md` §3, session 17. Test round iter-19 follows.
 

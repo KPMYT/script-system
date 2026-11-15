@@ -1,0 +1,200 @@
+SCRIPT TYPE: Classic
+
+Scrubbing that ring out of your toilet every weekend will not keep it gone. The base of your faucet has a white crust that will not shift. There is a gray line round the tub that comes back every few weeks. The store sells a spray for each of these. Not one label tells you what the stain actually is. Three cheap powders from the grocery store will do that scrubbing for you, and each one does a job the other two cannot. You want a fix that works tonight, not another wasted bottle or a scratched tub. I will give you all three, with the dose and the wait for each. And the last powder beats the one stain bleach keeps losing to.
+
+Number one is citric acid. It is a white powder, sold for canning and for cleaning, and it does two jobs in this video. The second job may keep a showerhead off your shopping list, so hold on for it. First, the toilet.
+
+You flush, you look down, and there it is. A brown or gray ring at the water line, right where you scrubbed it last week. Most people reach for bleach. Bleach makes the stain whiter, but it does not dissolve what the stain sits on. That ring is calcium scale. Hard water carries minerals, and every time the water line dries back a little, it leaves some of them behind on the porcelain. Week after week they build up into a rough shelf of rock. A brush will not scrub rock off. It only polishes the top of it, so the ring looks lighter for a day and then the color settles right back in.
+
+You can check it in your own bathroom. Run a fingernail across the ring. If it catches, the way a nail catches on dried glue, that is scale. If your nail slides straight over it, you have a surface stain, and an ordinary clean will move it.
+
+Now, why the ring matters past the look of it. That rough shelf holds bacteria. The brown and pink you see under the rim lives in it. Then the scale goes further. Under the rim of the bowl there is a row of small holes called the rim jets. That is where the flush water comes out to wash the bowl down. Scale plugs those holes one at a time, and the flush gets weaker and weaker.
+
+A weak flush is the point where a lot of people decide the toilet is done. A new toilet, put in, runs about 300 to 800 dollars, and the top of that range is the fancier bowl and the harder install. The old bowl may only have needed a soak. That is a lot of money to spend on a toilet that was never broken. The showroom will sell you the new one. Nobody in the showroom asks whether the old one just needed its rim jets cleared.
+
+So here is the soak. Start by shutting the water off to the tank. Behind the toilet, low on the wall, there is a small valve. That is the supply valve. Turn it clockwise until it stops. If it is stiff, work it gently, a little each way, and do not force it.
+
+Now flush once. The tank empties and does not refill, so the bowl drains down and the water drops below the ring. That step matters more than it looks. A full bowl waters the powder down before it ever reaches the scale. Get the water out first, and the powder sits right on the rock where it can work.
+
+Pour half a cup of citric acid onto the ring itself. Go slowly, round the bowl, so it lands on the ring and not in the bottom. It may fizz for a minute. That is the acid meeting the scale, and it is doing exactly what you want. Then leave it overnight. Close the lid, and if you share the bathroom, put a note on the seat.
+
+In the morning, make one pass with the brush. Not a scrub, just one pass round the bowl. Open the supply valve again, counterclockwise, and let the tank fill. Flush twice to rinse the bowl clean. Then run your fingernail across the spot where the ring was. Done looks like porcelain your nail slides straight over.
+
+One safety line, and it is a big one. Acid and bleach never meet in the same bowl, because together they make chlorine gas. If a bleach cleaner went into that toilet this week, flush it a few times before the powder goes in.
+
+Now and then a ring is old and thick, and a shelf is still there in the morning. For that, get a pumice stone, about 10 dollars at the hardware store. Use it only wet, on wet porcelain, with light pressure. Dry pumice scratches the glaze, and a scratched bowl catches the next ring faster than smooth porcelain ever did.
+
+The ring will come back. The water coming into your house has not changed, so it keeps leaving the same minerals behind. That is not the powder failing. Catch it while it is still a faint line, with the same half cup for one night, and it never gets the chance to build a shelf again.
+
+And while you are at the toilet, leave the cleaning tablets out of the tank. They sit against the rubber parts for weeks on end. The flapper is the rubber seal at the bottom of the tank, and it goes soft. A soft flapper lets water slip past, and now you have a running toilet. A new flapper is about 4 to 10 dollars as a part, or about 75 to 150 dollars to have one fitted. Half a cup of powder now and then costs far less than that.
+
+So that is a bowl that flushes hard again, a ring that stays gone, and a new toilet that stays off the list.
+
+My book, Fifty Easy Plumbing Fixes That Will Save You Ten Thousand Dollars, goes further into the weak flush, with what each fix saves you. It is at the link in the description and the QR code on screen.
+
+Now the second job for the same powder. Look at the base of your bathroom faucet, where the chrome meets the sink. If there is a white crust there, that is the same scale as the toilet ring. Now look up at your showerhead. Some of the nozzles spray straight, some spit off to the side, and a few have stopped altogether. Same scale again.
+
+A showerhead dries out after every shower. Each time it does, a little of the mineral stays behind in the nozzles. They plug one at a time, so you hardly notice until half of them are gone and the shower feels thin.
+
+Most people buy a new head. The part runs about 15 to 40 dollars, and it works fine for a while. But the same water starts on the new one the day it goes on. A crusted faucet base gets a whole new faucet sold for it, and that runs a few hundred dollars installed. The chrome under that crust is usually fine. I would not spend a few hundred dollars to get rid of something a cup of hot water and some powder will lift.
+
+The mix is simple. Two tablespoons of citric acid to every cup of hot tap water. Stir it until the water goes clear, so there are no grains sitting in the bottom.
+
+For the faucet base, soak a cloth in the mix and wrap it round the base, right where the crust sits. Leave it there for an hour. While you have the mix made up, do the same on the kitchen faucet and the tub spout.
+
+For the showerhead, there are two ways, and you pick the one your shower allows. If the head stays on, pour the mix into a plastic bag. Pull the bag up over the head so the nozzles sit down in the liquid. Then tie the top of the bag round the shower arm, the pipe that comes out of the wall. A rubber band or a twist tie will hold it. Leave it one to two hours.
+
+If the head unscrews by hand, take it off and set the whole head in a bowl of the mix for the same time. If it will not turn by hand, leave it on and use the bag. The bag does the same job without moving anything.
+
+When the time is up, rinse everything with hot water for a minute. If the head is still on the arm, run the shower through it, so whatever came loose flushes out of the nozzles. Then take an old toothbrush to the face of the head for anything left, and to the faucet base the same way.
+
+When it is done, every nozzle throws a straight line of water. The faucet base is chrome again, not white.
+
+Keep this mix off marble, granite or any natural stone. Acid etches stone, and the etch does not come back. If your vanity top is stone, lay a dry towel under the cloth and wipe up any drip at once. And rinse the chrome when you are done, so no acid is left sitting on the finish.
+
+A showerhead and a faucet you get to keep, for a couple of tablespoons of powder.
+
+Number two goes after the tub, and it is the cheapest of the three. Before I name it, look at that gray line round your tub, right at the height the bathwater sits. Run a finger along it. It does not feel gritty, the way the toilet ring does. It feels waxy and smooth under your finger.
+
+That is soap scum. The soap in your bathwater bonds with the minerals in hard water and makes a film. That film catches skin and hair, and over a few weeks it turns gray.
+
+Here is the usual mistake. A green scouring pad, or a gritty cleanser, and a Saturday morning on your knees. It feels like the harder you go, the better the job you are doing. Harder is the mistake. Those pads and gritty cleansers scratch the finish of the tub. Every scratch is a tiny groove, and every groove holds the next line, sooner and darker than the last one. A scratched tub is a tub you live with, or one you pay to have refinished. Either way, the damage came from trying too hard.
+
+The second powder is baking soda. The same box that sits in your pantry or the back of your fridge, at a dollar or two a pound. And this is the one you will reach for most, because the tub line comes back fastest of all.
+
+Put some baking soda in a bowl and add a squirt of dish soap. Stir it into a paste about as thick as toothpaste. If it runs, add a little more baking soda. If it crumbles, add a drop more soap.
+
+Spread the paste along the line with a soft cloth or your fingers. Leave it for fifteen minutes. Then wipe it off with a damp cloth, and rinse the tub down.
+
+Why does it work? The dish soap loosens the grease in the scum. The baking soda is a grit, but a soft one, soft enough that it will not mark the tub. So the paste lifts the line, and the finish comes through without a scratch. The fifteen minutes does the work, not your arm.
+
+A line that has been building for years may need a second round. When it does, give it more time, never more force. Put the paste back on, leave it longer, and wipe again.
+
+If the whole tub has gone dull, use the same paste, one section at a time. Do a stretch, wipe it, then move on, so the paste never dries out before you get to it.
+
+In hard water, the line will be back in a few weeks. That is fine. Fifteen minutes of paste again, and you never get back down on your knees with a scouring pad. I have spent forty years around tubs, and I have never seen harder do a tub any good.
+
+You get your Saturday morning back, and the tub finish stays smooth.
+
+Number three is the one I promised at the start, the one for the stain bleach keeps losing to. Start at the sink. You know the brown ring round the drain. You know the tea and coffee marks that will not come out. And you know the dull film you see the very morning after you cleaned it.
+
+Now look behind the faucet, at the grout. It has gone gray, and down in the corners it has gone black. That black is mildew. It is not sitting on top of the grout. It lives down in the tiny pores of it, where a sponge cannot reach. Bleach whitens the top of the grout, so for a week it looks clean. Then the black comes back up from underneath.
+
+Plenty of people give up at that point and tear out the backsplash. That is a tile job, and a tile job comes with a tile bill. All of it over grout that only needed the right soak.
+
+The third powder is borax. You find it in the laundry aisle, sold as a laundry booster, not on the cleaning shelf. And the same bowl of water does the sink and the grout, so this job costs you one soak for two problems.
+
+Put the stopper in the sink and fill it with hot tap water. Add half a cup of borax. Put a rubber glove on and stir it round with your hand until it dissolves. Then leave it until the water goes cold. Drain it, wipe the sink down with a cloth, and the stains lift with the wipe.
+
+While the sink is soaking, put that same water to work on the grout. Dip a cloth in it and run it along the grout lines behind the faucet. Let it sit there a while. Then wipe it, and rinse it with clean water.
+
+Borax stays away from children and pets, and it is never swallowed. Keep the box up on a high shelf, and rinse the sink well after the soak. One more thing for when you shop. Borax and boric acid are two different boxes. Boric acid is the roach powder. Borax is the laundry booster, so read the front of the box before it goes in the cart.
+
+The sink looks clean the morning after, and the backsplash stays on the wall.
+
+All three powders together come to about 20 dollars. The weekly scrubbing comes down to a few minutes of wiping, and that time comes back to you every single week.
+
+One small thing for tonight. Go and run a fingernail across that toilet ring. If it catches, you know what it is, and you know which powder it needs.
+
+Which one is worst in your house right now, the toilet, the tub or the sink? Tell me in the comments. I read every one.
+
+CHECK: RESULT: PASS | words 2552 | about 14 minutes
+
+VO COPY — ELEVENLABS V4
+Scrubbing that ring out of your toilet every weekend will not keep it gone. The base of your faucet has a white crust that will not shift. There is a gray line round the tub that comes back every few weeks. The store sells a spray for each of these. [matter-of-fact] Not one label tells you what the stain actually is. Three cheap powders from the grocery store will do that scrubbing for you, and each one does a job the other two cannot. You want a fix that works tonight, not another wasted bottle or a scratched tub. I will give you all three, with the dose and the wait for each. [short pause] And the last powder beats the one stain bleach keeps losing to.
+
+Number one is citric acid. It is a white powder, sold for canning and for cleaning, and it does two jobs in this video. The second job may keep a showerhead off your shopping list, so hold on for it. First, the toilet.
+
+You flush, you look down, and there it is. A brown or gray ring at the water line, right where you scrubbed it last week. Most people reach for bleach. [matter-of-fact] Bleach makes the stain whiter, but it does not dissolve what the stain sits on. That ring is calcium scale. Hard water carries minerals, and every time the water line dries back a little, it leaves some of them behind on the porcelain. Week after week they build up into a rough shelf of rock. A brush will not scrub rock off. It only polishes the top of it, so the ring looks lighter for a day and then the color settles right back in.
+
+You can check it in your own bathroom. Run a fingernail across the ring. [slower] If it catches, the way a nail catches on dried glue, that is scale. If your nail slides straight over it, you have a surface stain, and an ordinary clean will move it.
+
+Now, why the ring matters past the look of it. That rough shelf holds bacteria. The brown and pink you see under the rim lives in it. Then the scale goes further. Under the rim of the bowl there is a row of small holes called the rim jets. That is where the flush water comes out to wash the bowl down. Scale plugs those holes one at a time, and the flush gets weaker and weaker.
+
+[thoughtful] A weak flush is the point where a lot of people decide the toilet is done. A new toilet, put in, runs about 300 to 800 dollars, and the top of that range is the fancier bowl and the harder install. The old bowl may only have needed a soak. That is a lot of money to spend on a toilet that was never broken. The showroom will sell you the new one. [quietly] Nobody in the showroom asks whether the old one just needed its rim jets cleared.
+
+So here is the soak. Start by shutting the water off to the tank. Behind the toilet, low on the wall, there is a small valve. That is the supply valve. Turn it clockwise until it stops. If it is stiff, work it gently, a little each way, and do not force it.
+
+Now flush once. The tank empties and does not refill, so the bowl drains down and the water drops below the ring. That step matters more than it looks. A full bowl waters the powder down before it ever reaches the scale. [emphatic] Get the water out first, and the powder sits right on the rock where it can work.
+
+Pour half a cup of citric acid onto the ring itself. Go slowly, round the bowl, so it lands on the ring and not in the bottom. [warm] It may fizz for a minute. That is the acid meeting the scale, and it is doing exactly what you want. Then leave it overnight. Close the lid, and if you share the bathroom, put a note on the seat.
+
+In the morning, make one pass with the brush. Not a scrub, just one pass round the bowl. Open the supply valve again, counterclockwise, and let the tank fill. Flush twice to rinse the bowl clean. [slower] Then run your fingernail across the spot where the ring was. Done looks like porcelain your nail slides straight over.
+
+[matter-of-fact] One safety line, and it is a big one. Acid and bleach never meet in the same bowl, because together they make chlorine gas. If a bleach cleaner went into that toilet this week, flush it a few times before the powder goes in.
+
+Now and then a ring is old and thick, and a shelf is still there in the morning. For that, get a pumice stone, about 10 dollars at the hardware store. Use it only wet, on wet porcelain, with light pressure. Dry pumice scratches the glaze, and a scratched bowl catches the next ring faster than smooth porcelain ever did.
+
+[thoughtful] The ring will come back. The water coming into your house has not changed, so it keeps leaving the same minerals behind. That is not the powder failing. Catch it while it is still a faint line, with the same half cup for one night, and it never gets the chance to build a shelf again.
+
+And while you are at the toilet, leave the cleaning tablets out of the tank. They sit against the rubber parts for weeks on end. The flapper is the rubber seal at the bottom of the tank, and it goes soft. A soft flapper lets water slip past, and now you have a running toilet. A new flapper is about 4 to 10 dollars as a part, or about 75 to 150 dollars to have one fitted. Half a cup of powder now and then costs far less than that.
+
+So that is a bowl that flushes hard again, a ring that stays gone, and a new toilet that stays off the list.
+
+[warm] My book, Fifty Easy Plumbing Fixes That Will Save You Ten Thousand Dollars, goes further into the weak flush, with what each fix saves you. It is at the link in the description and the QR code on screen.
+
+Now the second job for the same powder. Look at the base of your bathroom faucet, where the chrome meets the sink. If there is a white crust there, that is the same scale as the toilet ring. Now look up at your showerhead. Some of the nozzles spray straight, some spit off to the side, and a few have stopped altogether. Same scale again.
+
+A showerhead dries out after every shower. Each time it does, a little of the mineral stays behind in the nozzles. They plug one at a time, so you hardly notice until half of them are gone and the shower feels thin.
+
+[matter-of-fact] Most people buy a new head. The part runs about 15 to 40 dollars, and it works fine for a while. But the same water starts on the new one the day it goes on. A crusted faucet base gets a whole new faucet sold for it, and that runs a few hundred dollars installed. The chrome under that crust is usually fine. [sighs] I would not spend a few hundred dollars to get rid of something a cup of hot water and some powder will lift.
+
+The mix is simple. Two tablespoons of citric acid to every cup of hot tap water. Stir it until the water goes clear, so there are no grains sitting in the bottom.
+
+For the faucet base, soak a cloth in the mix and wrap it round the base, right where the crust sits. Leave it there for an hour. While you have the mix made up, do the same on the kitchen faucet and the tub spout.
+
+For the showerhead, there are two ways, and you pick the one your shower allows. If the head stays on, pour the mix into a plastic bag. Pull the bag up over the head so the nozzles sit down in the liquid. Then tie the top of the bag round the shower arm, the pipe that comes out of the wall. A rubber band or a twist tie will hold it. Leave it one to two hours.
+
+[thoughtful] If the head unscrews by hand, take it off and set the whole head in a bowl of the mix for the same time. If it will not turn by hand, leave it on and use the bag. The bag does the same job without moving anything.
+
+When the time is up, rinse everything with hot water for a minute. If the head is still on the arm, run the shower through it, so whatever came loose flushes out of the nozzles. Then take an old toothbrush to the face of the head for anything left, and to the faucet base the same way.
+
+When it is done, every nozzle throws a straight line of water. The faucet base is chrome again, not white.
+
+[emphatic] Keep this mix off marble, granite or any natural stone. Acid etches stone, and the etch does not come back. If your vanity top is stone, lay a dry towel under the cloth and wipe up any drip at once. And rinse the chrome when you are done, so no acid is left sitting on the finish.
+
+A showerhead and a faucet you get to keep, for a couple of tablespoons of powder.
+
+Number two goes after the tub, and it is the cheapest of the three. Before I name it, look at that gray line round your tub, right at the height the bathwater sits. Run a finger along it. It does not feel gritty, the way the toilet ring does. It feels waxy and smooth under your finger.
+
+That is soap scum. The soap in your bathwater bonds with the minerals in hard water and makes a film. That film catches skin and hair, and over a few weeks it turns gray.
+
+Here is the usual mistake. A green scouring pad, or a gritty cleanser, and a Saturday morning on your knees. It feels like the harder you go, the better the job you are doing. [emphatic] Harder is the mistake. Those pads and gritty cleansers scratch the finish of the tub. Every scratch is a tiny groove, and every groove holds the next line, sooner and darker than the last one. A scratched tub is a tub you live with, or one you pay to have refinished. Either way, the damage came from trying too hard.
+
+[short pause] The second powder is baking soda. The same box that sits in your pantry or the back of your fridge, at a dollar or two a pound. And this is the one you will reach for most, because the tub line comes back fastest of all.
+
+Put some baking soda in a bowl and add a squirt of dish soap. Stir it into a paste about as thick as toothpaste. If it runs, add a little more baking soda. If it crumbles, add a drop more soap.
+
+Spread the paste along the line with a soft cloth or your fingers. Leave it for fifteen minutes. Then wipe it off with a damp cloth, and rinse the tub down.
+
+[thoughtful] Why does it work? The dish soap loosens the grease in the scum. The baking soda is a grit, but a soft one, soft enough that it will not mark the tub. So the paste lifts the line, and the finish comes through without a scratch. The fifteen minutes does the work, not your arm.
+
+A line that has been building for years may need a second round. [slower] When it does, give it more time, never more force. Put the paste back on, leave it longer, and wipe again.
+
+If the whole tub has gone dull, use the same paste, one section at a time. Do a stretch, wipe it, then move on, so the paste never dries out before you get to it.
+
+In hard water, the line will be back in a few weeks. That is fine. Fifteen minutes of paste again, and you never get back down on your knees with a scouring pad. [matter-of-fact] I have spent forty years around tubs, and I have never seen harder do a tub any good.
+
+You get your Saturday morning back, and the tub finish stays smooth.
+
+Number three is the one I promised at the start, the one for the stain bleach keeps losing to. Start at the sink. You know the brown ring round the drain. You know the tea and coffee marks that will not come out. And you know the dull film you see the very morning after you cleaned it.
+
+Now look behind the faucet, at the grout. It has gone gray, and down in the corners it has gone black. That black is mildew. It is not sitting on top of the grout. It lives down in the tiny pores of it, where a sponge cannot reach. Bleach whitens the top of the grout, so for a week it looks clean. [quietly] Then the black comes back up from underneath.
+
+Plenty of people give up at that point and tear out the backsplash. That is a tile job, and a tile job comes with a tile bill. All of it over grout that only needed the right soak.
+
+[short pause] The third powder is borax. You find it in the laundry aisle, sold as a laundry booster, not on the cleaning shelf. And the same bowl of water does the sink and the grout, so this job costs you one soak for two problems.
+
+Put the stopper in the sink and fill it with hot tap water. Add half a cup of borax. Put a rubber glove on and stir it round with your hand until it dissolves. Then leave it until the water goes cold. Drain it, wipe the sink down with a cloth, and the stains lift with the wipe.
+
+While the sink is soaking, put that same water to work on the grout. Dip a cloth in it and run it along the grout lines behind the faucet. Let it sit there a while. Then wipe it, and rinse it with clean water.
+
+Borax stays away from children and pets, and it is never swallowed. Keep the box up on a high shelf, and rinse the sink well after the soak. One more thing for when you shop. [emphatic] Borax and boric acid are two different boxes. Boric acid is the roach powder. Borax is the laundry booster, so read the front of the box before it goes in the cart.
+
+The sink looks clean the morning after, and the backsplash stays on the wall.
+
+All three powders together come to about 20 dollars. The weekly scrubbing comes down to a few minutes of wiping, and that time comes back to you every single week.
+
+[warm] One small thing for tonight. Go and run a fingernail across that toilet ring. If it catches, you know what it is, and you know which powder it needs.
+
+Which one is worst in your house right now, the toilet, the tub or the sink? Tell me in the comments. [short pause] I read every one.

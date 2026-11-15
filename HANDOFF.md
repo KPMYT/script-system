@@ -426,6 +426,18 @@ From the operator's reply to section 9 of `drafts/style-pack-diagnosis-DRAFT.md`
   3. Woodworking **keeps the research-pack rule** (a research pack is a required input; "none" means the chat builds one).
   4. Plumbing **keeps its current seven models** (R04, R06, R13, R14, R15, R16, R18).
 
+### Operator decisions, 2026-11-15, session 17 (P22: the Roger review, plumbing)
+
+After the Roger review (`studies/recent-uploads-2026-11-15/`: stage 1 script read, stage 2 retention graphs, the winners check), for the **four plumbing channels** (Roger, Mark, Vintage, Werner; other niches unchanged). P22 in `PROPOSALS.md`; the draft with the exact wording is `drafts/p22-plumbing-hook-book-length-DRAFT.md`.
+- **A DIY-for-cheap channel: rarely a plumber** ("WE RARELY want to suggest the viewer calls a plumber - We are a DIY channel. a diy for cheap channel"). No plumber in the opening (the "where the job stops being theirs" line and Werner's "honest limit" are gone). A call only for real danger: a gas leak (every step), live wiring, sewage backing up (the main line). Default (a), (b): the operator skipped the scope and the call-list questions; Claude took "all four plumbing channels" and "only real danger". The trade's price as the villain stays.
+- **A reason to stay to the end** ("we need a reason to stay to the end also"): the opening's one promise (P18 kept) says what the last tip does, without naming it; the last tip pays it. No "stick around" wording.
+- **Hold the reveal, harder** ("we keep saying the sexret powder until its reveal in teh video. ESPECIALLY if we are doing listicle"), and **open the next loop at once after the reveal** in a one-object video ("we must instatnly open another loop").
+- **Count the tips** ("we want t count the tips"): the count in the opening, each tip numbered in the body.
+- **The book: once, short, general** ("a 2-3 liner only. placed wherever is relevant most to it ... i wont mention it again after this"): two or three sentences, about 25 to 45 words (Werner's block 40 to 60 with the mentor line), after the step it fits best, no chapter, fix or page numbers, never again in the video. Replaces session 6's "a third in, never before the end of item 3" and the profiles' 60 to 80 words with pages. Werner: one marker block, not two.
+- **The ending** ("the ending is a comment ask but a easy quick one"): the last tip with tonight's one thing, a quick easy comment question, "I read every one." (kept: "3 yes"). No book at the end. **The Vintage Pipefitter keeps his end subscribe line** ("2 no doesnt apply to vintage"; Claude's reading: only the subscribe-line question didn't apply to him, everything else in P22 does).
+- **Length** ("a minimum of 14 mins - but it should be able to go up to 20//25 minutes IF there is enough meat"): 14 minutes at real speed is the floor, never the target; the brief sets the length, about 14 to 16 for a thin brief, 18 to 25 for a full one; never pad. Replaces 2026-10-29's "Real speed, keep 12". Default (c).
+- **Approved:** "1 yes", "3 yes", "4 yes and pleas eshow me some example hooks and the rest" (a test round, iter-19, one script per channel, before the skills are rebuilt and sent).
+
 ### Rejected, so they don't come back
 
 - **An API pipeline:** too expensive.

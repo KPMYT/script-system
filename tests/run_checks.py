@@ -26,10 +26,10 @@ IT=f"{ROOT}/tests/iterations"
 # the saved P21 test scripts: (pack, script, channel, brief); the title is the brief's TITLE line
 P21_RUNS=[("style",f"{IT}/iter-14/final/script.txt","scarlett",f"{IT}/iter-14/brief.txt"),
           ("style",f"{IT}/iter-15/run-new/script.txt","diane",f"{IT}/iter-15/brief.txt"),
-          ("plumbing",f"{IT}/iter-16/run-roger/script.txt","roger",f"{IT}/iter-16/brief-roger.txt"),
-          ("plumbing",f"{IT}/iter-16/run-mark/script.txt","mark",f"{IT}/iter-16/brief-mark.txt"),
-          ("plumbing",f"{IT}/iter-16/run-vintage/script.txt","vintage",f"{IT}/iter-16/brief-vintage.txt"),
-          ("plumbing",f"{IT}/iter-16/run-werner/script.txt","werner",f"{IT}/iter-16/brief-werner.txt"),
+          ("plumbing",f"{IT}/iter-19/run-roger/script.txt","roger",f"{IT}/iter-19/brief-roger.txt"),
+          ("plumbing",f"{IT}/iter-19/run-mark/script.txt","mark",f"{IT}/iter-19/brief-mark.txt"),
+          ("plumbing",f"{IT}/iter-19/run-vintage/script.txt","vintage",f"{IT}/iter-19/brief-vintage.txt"),
+          ("plumbing",f"{IT}/iter-19/run-werner/script.txt","werner",f"{IT}/iter-19/brief-werner.txt"),
           ("hvac",f"{IT}/iter-17/run-new/script.txt","roger-hvac",f"{IT}/iter-17/brief.txt"),
           ("woodworking",f"{IT}/iter-18/run-hank/script.txt","hank",f"{IT}/iter-18/brief-hank.txt"),
           ("woodworking",f"{IT}/iter-18/run-dale/script.txt","dale",f"{IT}/iter-18/brief-dale.txt")]
@@ -292,7 +292,7 @@ check("20. once-per-script phrases from a niche pack: one use passes, a second u
 
 # ---- the plumbing pack (step 4, 2026-10-21) ----
 # P21: PLR and the three profiles here are the archived files, read-only fixtures for the core scanner checks (29, 30, 32, 63, 74);
-# the new pack's rules are tested through plumbing-scripts/check.py on the saved iter-16 scripts.
+# the new pack's rules are tested through plumbing-scripts/check.py on the saved iter-19 scripts (P22, 2026-11-15; iter-16 was written to the pre-P22 rules).
 PLR=f"{OPL}/SKILL.md"; ROGER=f"{OPERS}/roger-the-pipe-guy.md"; MARK=f"{OPERS}/mark-silverbridge.md"; VINT=f"{OPERS}/vintage-pipefitter.md"
 want={"title":"required","brief":"required","research-pack":"not used","rotation-log":"required"}   # the electrical inputs (check 46)
 def facts_of(p): return [l.strip() for l in re.findall(r"```scanner\n(.*?)```",open(p).read(),re.S)[0].splitlines()]
@@ -302,7 +302,7 @@ def passing(channel):
 
 # 21. retired 2026-11-06, P21: the plumbing pack has no inputs block (title and brief are listed in words; the rotation log is dropped)
 
-# 22. plumbing bans (P21: retargeted from the scanner block to check.py): each planted ban fails on Roger's passing iter-16 script;
+# 22. plumbing bans (P21: retargeted from the scanner block to check.py): each planted ban fails on Roger's passing iter-19 script;
 #     a once-phrase used twice fails
 p22={"a first-person test or demonstration":"I tested all three on a slow sink.","pointing at the screen":"Look at the trap on the left before you start.",
      "a template stock line":"It's not a scam, it's just economics.","hype that got mocked":"It looked like a horror movie under there.",
@@ -810,7 +810,7 @@ check("72. reframe floor: a same-verb flip across two sentences is caught; instr
 
 # 70. Werner (relaunched 2026-10-27; P21: retargeted from his profile's scanner block to plumbing-scripts/check.py and his page):
 #     Talking Head with his printed title in the markers, the mentor line word for word, tenure 30, no contractions, 181 words a minute;
-#     row 9 ready; the book index; in the build; his passing iter-16 script passes and his banned lines fail on it
+#     row 9 ready; the book index; in the build; his passing iter-19 script passes and his banned lines fail on it
 wc_=plc["werner"]; wp=open(f"{PERS}/werner-finkbeiner.md").read()
 bad_w=["I am Werner Finkbeiner, and this is my channel.","My grandfather showed me this.","When I came to America, the pipes surprised me.",
        "A bottle costs about one euro.","Enough for today.","My father showed me this.","Bertha kept a coffee can by the sink.","My neighbor Marcus tried it.",
@@ -832,11 +832,11 @@ check("46b. plumbing hook: the escalation line is an option ('If it fits... the 
 
 # ---- the Werner and Frederick upload review (operator, 2026-10-29) ----
 # 73. every plumbing channel's real words per minute (Roger 170, Mark 181, Vintage 190, Werner 181; P21: retargeted to check.py's CHANNELS),
-#     and the length check uses it: Werner's script cut to 2,010 words fails under 12 minutes; Frederick 162
-wpk,wsc,wch,wbr=run_of("werner"); wtxt=open(wsc).read(); wcut=" ".join(wtxt.split()[:2010])
+#     and the length check uses it: Werner's script cut to 2,400 words fails under 14 minutes (P22, 2026-11-15: 14 is the floor); Frederick 162
+wpk,wsc,wch,wbr=run_of("werner"); wtxt=open(wsc).read(); wcut=" ".join(wtxt.split()[:2400])
 c73=pack_check(wpk,wcut,wch,wbr)
-check("73. plumbing check.py sets real words per minute (170/181/190/181); a 2,010-word Werner script fails under 12 minutes; Frederick 162",
-      [plc[c]["wpm"] for c in ("roger","mark","vintage","werner")]==[170,181,190,181] and "minutes at 181); needs at least 2172 (12 minutes)" in c73[1]
+check("73. plumbing check.py sets real words per minute (170/181/190/181); a 2,400-word Werner script fails under 14 minutes (P22); Frederick 162",
+      [plc[c]["wpm"] for c in ("roger","mark","vintage","werner")]==[170,181,190,181] and "minutes at 181); needs at least 2534 (14 minutes)" in c73[1]
       and "Words per minute (for runtime and the length minimum): 162" in open(f"{PERS}/frederick-barnes.md").read()
       and "1,950" in open(f"{EL}/SKILL.md").read(), c73[1][-400:])
 
@@ -971,7 +971,7 @@ bad94=[]
 for pk,script,ch_,brief in P21_RUNS:
     code_,out_=pack_check(pk,open(script).read(),ch_,brief)
     if code_!=0 or not out_.rstrip().endswith("RESULT: PASS"): bad94.append(f"{os.path.relpath(script,ROOT)} ({ch_}): {out_[-300:]}")
-check("94. P21: each pack's check.py passes its saved test scripts (iter-14 final, iter-15 run-new, iter-16 four runs, iter-17 run-new, iter-18 two runs)",
+check("94. P21: each pack's check.py passes its saved test scripts (iter-14 final, iter-15 run-new, iter-19 four runs (plumbing, P22), iter-17 run-new, iter-18 two runs)",
       len(P21_RUNS)==9 and not bad94, " | ".join(bad94))
 
 # 95. every "Signature phrases" quote in each model file occurs exactly (whitespace joined) in that file's transcript.
