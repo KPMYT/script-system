@@ -31,3 +31,5 @@ Findings only: nothing in the library changed because of this folder.
 |---|---|
 | `transcripts/roger-<id>.txt` | Caption text in lines of about 30 seconds, each starting with its timestamp |
 | `analysis-scripts.md` | Stage 1: the script read, hooks, structure, body, book line, ending, voice and facts, against the rules and the 11-05 review |
+| `retention/<videoId>/*.csv` | Stage 2 data: the operator's YouTube Studio audience-retention exports, unchanged (all viewers, organic, and the subscriber, new and returning, and casual and regular splits; the ad files are empty) |
+| `analysis-retention.md` | Stage 2: the curves matched to the captions, where viewers leave, who stays, and stage 1's seven predictions checked |
