@@ -3,7 +3,7 @@ name: frederick-barnes-persona
 description: The channel profile for Frederick Barnes: persona, personal details, CTA rules and ending (this channel has no book). Read by the script-writer skill when a script is written for this channel (START). Not used on its own.
 ---
 
-**Version:** 2026-11-06 (library commit b04b004)
+**Version:** 2026-11-15 (library commit d4766c5)
 
 # Persona profile: Frederick Barnes
 

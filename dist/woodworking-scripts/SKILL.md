@@ -5,7 +5,7 @@ description: "Script steps for the operator's woodworking-for-profit channels (H
 
 # Woodworking scripts (the simple way)
 
-**Version:** 2026-11-06 (library commit b04b004) (P21: replaces the 2026-10-21 pack of about 4,100 words and about 36,000 words of references, its skeleton template, unit plan, rotation log and full audit. Blind test iter-13: one page and one real model scored 49 of 60 against the account's skills' 46.)
+**Version:** 2026-11-15 (library commit d4766c5) (P21: replaces the 2026-10-21 pack of about 4,100 words and about 36,000 words of references, its skeleton template, unit plan, rotation log and full audit. Blind test iter-13: one page and one real model scored 49 of 60 against the account's skills' 46.)
 
 **This pack replaces `core/workflow.md` sections 2 to 6 for Hank Hardwood and Dale Oakfield's Workshop.** START and the channel question (section 1) stay as they are. Everything the writer needs is here, on the channel's one page and in one model transcript. The one exception is building a missing research pack (Step 1).
 

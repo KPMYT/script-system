@@ -1,6 +1,6 @@
 # Installing the skills
 
-**Version:** 2026-11-06 (library commit b04b004)
+**Version:** 2026-11-15 (library commit d4766c5)
 
 **P21 (2026-11-06):** `style-scripts`, `scarlett-starling-persona`, `diane-de-chambray-persona`, `plumbing-scripts`, `roger-the-pipe-guy-persona`, `mark-silverbridge-persona`, `vintage-pipefitter-persona`, `werner-finkbeiner-persona`, `hvac-scripts`, `roger-the-hvac-guy-persona`, `woodworking-scripts`, `hank-hardwood-persona` and `dale-oakfield-persona` are the new simple versions (one page per channel, real model transcripts, a short `check.py`): replace each (delete the old, upload the new). **Sawdust Sam is dropped:** delete `sawdust-sam-persona` from the account; this build has none. The table below is from the earlier builds.
 

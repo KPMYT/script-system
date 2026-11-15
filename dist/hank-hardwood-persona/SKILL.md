@@ -3,7 +3,7 @@ name: "hank-hardwood-persona"
 description: "The one-page writing brief for Hank Hardwood: who he is, the opening, the feeling, the flow, the hard rules, the book and the ending, plus the book's index. Read by the script-writer skill (with the woodworking-scripts pack) when a Hank script is written (START). Not used on its own."
 ---
 
-**Version:** 2026-11-06 (library commit b04b004) (P21, the simple way: the iter-13 one-page winner, with run A's opening and book-pitch setup and iter-13's fixes; persona facts of 2026-10-21)
+**Version:** 2026-11-15 (library commit d4766c5) (P21, the simple way: the iter-13 one-page winner, with run A's opening and book-pitch setup and iter-13's fixes; persona facts of 2026-10-21)
 
 # Hank Hardwood: the one-page brief
 

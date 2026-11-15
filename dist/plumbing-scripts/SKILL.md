@@ -5,7 +5,7 @@ description: "Script steps for the operator's plumbing channels (Roger the Pipe 
 
 # Plumbing scripts (the simple way)
 
-**Version:** 2026-11-06 (library commit b04b004) (P21: replaces the 2026-10-29 pack of about 11,400 words, its excerpts, voice samples, unit plan, 39 model beat maps, counts and full audit. Blind test iter-09: one page plus one real model scored 8.0 against 6.2.)
+**Version:** 2026-11-15 (library commit d4766c5) (P22: 14 minutes and up; Werner's one book block). Before that, 2026-11-06 DRAFT (P21: replaces the 2026-10-29 pack of about 11,400 words, its excerpts, voice samples, unit plan, 39 model beat maps, counts and full audit. Blind test iter-09: one page plus one real model scored 8.0 against 6.2.)
 
 **This pack replaces `core/workflow.md` sections 2 to 6 for the four plumbing channels.** START and the channel question (section 1) stay as they are. None of the other core files are read for these channels: everything the writer needs is here, on the channel's one page and in one model transcript.
 
@@ -26,7 +26,7 @@ A brief of talking points is a full brief: build each point out with the scene i
 
 Reply `NOT READY: DO NOT UPLOAD.` with the reason, and write nothing, when:
 - there's no brief ("just write it" isn't enough: the brief holds the facts)
-- the brief can't carry the title's main promise, or can't reach 12 minutes even with every point built out (ask for more points; never pad)
+- the brief can't carry the title's main promise, or can't reach 14 minutes even with every point built out (ask for more points; never pad)
 
 A price the script needs that is in neither the brief nor the price guide is said in words ("a service call", "a few hundred dollars"), never guessed. That alone is never a reason to stop.
 
@@ -79,11 +79,11 @@ CHECK: [the program's last line] | words [n] | about [n] minutes
 [the VO copy]
 ```
 
-**Classic (Roger, Mark, the Vintage Pipefitter):** the book line and the end are written inline as ordinary narration. No markers anywhere.
+**Classic (Roger, Mark, the Vintage Pipefitter):** the book line (Roger, Mark) and the end are written inline as ordinary narration. No markers anywhere.
 
-**Talking Head (Werner):** the two book blocks go in markers, each marker alone on its line, as `core/workflow.md` section 4 lays out:
-- the mid-video book line, from its first sentence through the line back into the video
-- at the end, the one-line book reminder; the comment ask comes after `===END CTA===` and is the last line
+**Talking Head (Werner):** one book block, in markers, each marker alone on its line (P22, 2026-11-15: one block, not the two `core/workflow.md` section 4 describes):
+- the book block, from its first sentence through the line back into the video
+- no markers at the end: the ending is the last item, tonight's one thing and the quick comment ask, "I read every one." last
 - the start marker is exactly `===START CTA(Werner's 101 Free Repairs)===`; the end marker is always `===END CTA===`
 
 **The script itself** is clean voiceover prose: no headings, labels, brackets, edit notes or emoji; straight quotes and apostrophes.
@@ -96,6 +96,6 @@ If the check can't pass, the whole output is `NOT READY: DO NOT UPLOAD.` with ea
 | File | What it is |
 |---|---|
 | `SKILL.md` | This page: the inputs, the steps, the model table, the output |
-| `check.py` | The hard-rules check (length at the channel's speed, the CTA and the ending, banned lines, safety, prices against the brief and the price guide, the voice, copying from a model) |
+| `check.py` | The hard-rules check (length at the channel's speed, 14 minutes and up; no plumber in the opening and calls only for real danger; the one short book line and the ending; banned lines, safety, prices against the brief and the price guide, the voice, copying from a model) |
 | `references/models/` | Seven real on-camera transcripts, one file each, with what to take and what not to |
 | `references/price-guide.md` | Typical US prices, researched 2026-10-21, for any price the brief doesn't give |

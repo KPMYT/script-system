@@ -3,7 +3,7 @@ name: "roger-the-hvac-guy-persona"
 description: "The one-page writing brief for Roger the HVAC Guy: who he is, the opening, the feeling, the flow, the hard rules (safety, prices, the ending) and the check after writing. This channel has no book. Read by the script-writer skill (with the hvac-scripts pack) when a Roger the HVAC Guy script is written (START). Not used on its own."
 ---
 
-**Version:** 2026-11-06 (library commit b04b004) (P21: the iter-12 one-page winner, its fixes, and the account script's strengths by ear and on trust; persona facts of 2026-10-27)
+**Version:** 2026-11-15 (library commit d4766c5) (P21: the iter-12 one-page winner, its fixes, and the account script's strengths by ear and on trust; persona facts of 2026-10-27)
 
 # Roger the HVAC Guy: the one-page brief
 

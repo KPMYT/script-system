@@ -21,7 +21,7 @@ Not in the operator's five: `8t_8SDbzmc4` ("Pouring Drain Cleaner Is NOT Saving 
 **Cautions:**
 - Captions are what the voice said, in the caption system's spelling ("$150", "3%", "100 Old House Fixes"). The VA's scripts and briefs aren't in the repo, so the checker's money, number and symbol lines are mostly caption artefacts or brief-sourced and are not counted as breaks here unless the words themselves break a rule.
 - Question counts come from caption punctuation (approximate).
-- Whether these five were written on the P21 skills isn't recorded; the dates (all after the 11-06 build) and the book-line shape suggest they were.
+- **Which skills wrote these five:** the account's synced skills on 2026-11-15 were still the 2026-10-29 versions (`plumbing-scripts`, the persona profiles, `script-writer`), because P21 (built 2026-11-06) was never uploaded. So these five were written on the 10-29 rules, not P21. That explains the 60-to-80-word book line with page numbers and the limit line in the opening. (Stage 1's first reading, that the dates suggested P21, was wrong; corrected here.)
 
 Findings only: nothing in the library changed because of this folder.
 
