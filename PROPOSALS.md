@@ -267,3 +267,26 @@ The study supports the narrow form of both: a tenure stated the same way every t
 
 **Status: applied for four niches on 2026-11-06** (operator: "yes use defaults"; "sawdust sam is dropped"): style, plumbing, HVAC and woodworking now run on the simple packs and pages (from `drafts/p21-*/`); the old library is in `archive/pre-p21-2026-11-06/`; the four defaults are in `HANDOFF.md` §3 (session 16, "P21 applied"). **Electrical is kept as it is** (iter-11: the current skills won), to be looked at again after the others. Sawdust Sam is dropped. Earlier status:
 **Status:** the operator approved the direction on 2026-11-05 ("rebuild simple way yes", "test others"). On 2026-11-06 the operator confirmed the other niches take the simplification only, not style's six-beat hook ("apply the style lessons yes but not the 6 beat hook just the case of simplification of skills"). The exact new files are shown to the operator before they replace the library and go to the account.
+
+## P22. Plumbing: hook loops, a short general book line, a call only for danger, 14 minutes and up (opened 2026-11-15)
+
+**Decisions it changes (HANDOFF.md section 3):**
+- the 12-minute minimum ("Real speed, keep 12", 2026-10-29)
+- the mid-video book line (session 6: a third in, after item 3; the P21 pages: 60 to 80 words with the chapter, fix or pages)
+- the ending's book reminder (session 6)
+- "Where the job stops being theirs" in the opening (P21 pages) and Werner's "honest limit, early and flat"
+- the Vintage Pipefitter's count-line rule (11-05 audit)
+- Werner's two Talking Head CTA blocks
+
+P18 (one opening promise, paid at the end) is kept: the one reason to stay is that promise.
+
+**Evidence:** `studies/recent-uploads-2026-11-15/`
+- **Roger's five newest:** 57 to 66% of viewers gone by 1:00, with a second drop at 0:30 to 0:45 in all five, where the limit line and the switch into item one sit.
+- **The book line:** it loses about a fifth of the viewers still watching on every video, and 37% on the off-topic, number-heavy one.
+- **The winners:** 14 of 15 own hits had no limit line in the opening, and 13 of 15 put a reason to stay there. 7 of 15 had no mid-video book line, and the 8 that had one used no numbers.
+- **The operator's own direction, 2026-11-15:** "WE RARELY want to suggest the viewer calls a plumber"; "we need a reason to stay to the end"; hold the secret until the reveal, then "instatnly open another loop"; "count the tips"; "book CTA short and general ... a 2-3 liner only ... i wont mention it again"; "a minimum of 14 mins ... up to 20//25 minutes IF there is enough meat"; "the ending is a comment ask but a easy quick one".
+
+**Proposal:** the exact wording for the four plumbing pages, the pack and `check.py` is in `drafts/p22-plumbing-hook-book-length-DRAFT.md`.
+
+**Status:** draft shown to the operator 2026-11-15, waiting for the yes (the draft's four questions).
+
