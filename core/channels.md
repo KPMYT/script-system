@@ -18,8 +18,10 @@ The workflow shows this list at START. A channel can only be scripted when its s
 | 7 | Frederick Barnes | `electrical-scripts` | `personas/frederick-barnes.md` | ready |
 | 8 | Roger the HVAC Guy | `hvac-scripts` | `personas/roger-the-hvac-guy.md` | ready |
 | 9 | Werner Finkbeiner | `plumbing-scripts` | `personas/werner-finkbeiner.md` | ready |
-| 10 | Scarlett Starling | `style-scripts` | `personas/scarlett-starling.md` | pending |
-| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | pending |
+| 10 | Scarlett Starling | `style-scripts` | `personas/scarlett-starling.md` | ready |
+| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | ready |
+
+Rows 10 and 11 (Scarlett, Diane) are **ready**, matching the account's `script-writer` (another chat set them ready on 2026-10-31; the session 15 handover: "treat the account versions as current where they differ"; library-made style videos have been uploaded since).
 
 Row 6, Sawdust Sam, is **dropped** (operator, 2026-11-06: "sawdust sam is dropped"). Not ready: never script it. The row is kept for history; his profile and book are in `archive/pre-p21-2026-11-06/personas/`.
 

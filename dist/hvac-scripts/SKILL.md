@@ -5,7 +5,7 @@ description: "Script steps for the operator's HVAC channel, Roger the HVAC Guy (
 
 # HVAC scripts (the simple way)
 
-**Version:** 2026-11-15 (library commit 9861fe2) (P21: replaces the account's pack of about 11,200 words, its excerpts, voice samples, plan template, 31 model beat maps, counts and full audit. Blind test iter-12: one page plus one real model 46 of 60, the account pack 44.)
+**Version:** 2026-11-15 (library commit e13d768) (P21: replaces the account's pack of about 11,200 words, its excerpts, voice samples, plan template, 31 model beat maps, counts and full audit. Blind test iter-12: one page plus one real model 46 of 60, the account pack 44.)
 
 **This pack replaces `core/workflow.md` sections 2 to 6 for Roger the HVAC Guy.** START and the channel question (section 1) stay as they are. None of the other core files are read for this channel: everything the writer needs is here, on the channel's one page and in one model transcript.
 

@@ -3,7 +3,7 @@ name: "roger-the-pipe-guy-persona"
 description: "The one-page writing brief for Roger the Pipe Guy: who he is, the opening, the feeling, the flow, the hard rules, the book and the ending, plus the book's index. Read by the script-writer skill (with the plumbing-scripts pack) when a Roger the Pipe Guy script is written (START). Not used on its own."
 ---
 
-**Version:** 2026-11-15 (library commit 9861fe2) (P22: hook loops, the count, no plumber in the opening, a call only for real danger, the short general book line, the quick comment ask, 14 minutes and up). Before that, 2026-11-06 DRAFT (P21, the simple way: the iter-09 one-page winner with iter-09's fixes; the opening, the villain and the safety rules from the operator's plumbing decisions of 2026-10-21 to 2026-10-29, as guidance with no counts; persona facts of 2026-10-29)
+**Version:** 2026-11-15 (library commit e13d768) (P22: hook loops, the count, no plumber in the opening, a call only for real danger, the short general book line, the quick comment ask, 14 minutes and up). Before that, 2026-11-06 DRAFT (P21, the simple way: the iter-09 one-page winner with iter-09's fixes; the opening, the villain and the safety rules from the operator's plumbing decisions of 2026-10-21 to 2026-10-29, as guidance with no counts; persona facts of 2026-10-29)
 
 # Roger the Pipe Guy: the one-page brief
 

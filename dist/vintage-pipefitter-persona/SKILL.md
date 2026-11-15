@@ -3,7 +3,7 @@ name: "vintage-pipefitter-persona"
 description: "The one-page writing brief for The Vintage Pipefitter: who he is, the opening, the feeling, the flow, the hard rules and the ending (this channel has no book). Read by the script-writer skill (with the plumbing-scripts pack) when a Vintage Pipefitter script is written (START). Not used on its own."
 ---
 
-**Version:** 2026-11-15 (library commit 9861fe2) (P22: hook loops, the count, no plumber in the opening, a call only for real danger, a quick comment ask, 14 minutes and up; his end subscribe line stays). Before that, 2026-11-06 DRAFT (P21, the simple way: Roger's iter-09 one-page winner applied to the Vintage Pipefitter, with iter-09's fixes and the 2026-11-05 upload audit's findings; the opening, the villain and the safety rules from the operator's plumbing decisions of 2026-10-21 to 2026-10-29, as guidance with no counts; persona facts of 2026-10-29)
+**Version:** 2026-11-15 (library commit e13d768) (P22: hook loops, the count, no plumber in the opening, a call only for real danger, a quick comment ask, 14 minutes and up; his end subscribe line stays). Before that, 2026-11-06 DRAFT (P21, the simple way: Roger's iter-09 one-page winner applied to the Vintage Pipefitter, with iter-09's fixes and the 2026-11-05 upload audit's findings; the opening, the villain and the safety rules from the operator's plumbing decisions of 2026-10-21 to 2026-10-29, as guidance with no counts; persona facts of 2026-10-29)
 
 # The Vintage Pipefitter: the one-page brief
 

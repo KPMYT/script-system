@@ -3,7 +3,7 @@ name: "dale-oakfield-persona"
 description: "The one-page writing brief for Dale Oakfield's Workshop: who he is, the opening, the feeling, the flow, the hard rules, the book pitch, the book mentions and the ending, plus the book's text. Read by the script-writer skill (with the woodworking-scripts pack) when a Dale script is written (START). Not used on its own."
 ---
 
-**Version:** 2026-11-15 (library commit 9861fe2) (P21, the simple way: built on the iter-13 one-page brief and its fixes; persona facts, pitch and ending of 2026-10-21)
+**Version:** 2026-11-15 (library commit e13d768) (P21, the simple way: built on the iter-13 one-page brief and its fixes; persona facts, pitch and ending of 2026-10-21)
 
 # Dale Oakfield's Workshop: the one-page brief
 

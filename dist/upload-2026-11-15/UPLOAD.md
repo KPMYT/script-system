@@ -1,4 +1,4 @@
-# Upload, 2026-11-15: the 13 rebuilt channel skills
+# Upload, 2026-11-15: script-writer and the 13 rebuilt channel skills
 
 **What this is:** the simple version of the skills (P21, built 2026-11-06 but never uploaded) for style, plumbing, HVAC and woodworking, with today's plumbing changes (P22) in the plumbing ones:
 - one reason to stay to the end, and the secret held until its reveal
@@ -16,8 +16,13 @@
    - `hvac-scripts`, `roger-the-hvac-guy-persona`
    - `woodworking-scripts`, `hank-hardwood-persona`, `dale-oakfield-persona`
    - `sawdust-sam-persona` (Sawdust Sam is dropped)
-2. **Upload the 13 `.skill` files in this folder,** all together, and turn them on.
-3. **Leave everything else as it is:** `script-writer`, `electrical-scripts`, `frederick-barnes-persona`, every ideation skill and `ideation-core`. Your account's `script-writer` and `plumbing-ideation` are newer than the library's.
+   - `script-writer` (the old one still runs the October workflow and checker for these channels)
+2. **Upload the 14 `.skill` files in this folder,** all together, and turn them on. `script-writer` also comes as `script-writer.zip` (the same skill), if that's how you upload it.
+3. **Leave everything else as it is:** `electrical-scripts`, `frederick-barnes-persona`, every ideation skill and `ideation-core`. Your account's `plumbing-ideation` is newer than the library's.
+
+**The new `script-writer`:** after START and the channel question, it hands plumbing, style, HVAC and woodworking straight to the channel's pack (its steps, its `check.py`). Electrical runs as before. Scarlett and Diane stay ready, as on your account now; Sawdust Sam is gone from the list.
+
+**Plumbing only for now?** Upload the new `script-writer` with the five plumbing skills. The old style, HVAC and woodworking skills on your account are written for the old workflow, so leave those channels alone until their new skills go up too.
 
 ## Using them
 

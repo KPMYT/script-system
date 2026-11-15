@@ -22,6 +22,7 @@ This is the entry point. When someone types **START**, this file runs, and nothi
 2. Load the channel's files from `channels.md`:
    - **Persona profile.** If it's missing, or marked pending, stop: `NOT READY: [channel]'s persona profile isn't set up yet.` Nothing more is asked.
    - **Niche pack.** If the channel has none, use the core fallbacks: `script-structures.md`, the default research pack in `research-and-sourcing.md`, and the default inputs below.
+3. **The simple packs (P21: plumbing, style, HVAC, woodworking):** when the channel's niche pack says it replaces sections 2 to 6, follow that pack's steps from here and stop reading this file. Its inputs, its check (`check.py`) and its output replace sections 2 to 6.
 
 ---
 

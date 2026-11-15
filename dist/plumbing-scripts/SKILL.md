@@ -5,7 +5,7 @@ description: "Script steps for the operator's plumbing channels (Roger the Pipe 
 
 # Plumbing scripts (the simple way)
 
-**Version:** 2026-11-15 (library commit 9861fe2) (P22: 14 minutes and up; Werner's one book block). Before that, 2026-11-06 DRAFT (P21: replaces the 2026-10-29 pack of about 11,400 words, its excerpts, voice samples, unit plan, 39 model beat maps, counts and full audit. Blind test iter-09: one page plus one real model scored 8.0 against 6.2.)
+**Version:** 2026-11-15 (library commit e13d768) (P22: 14 minutes and up; Werner's one book block). Before that, 2026-11-06 DRAFT (P21: replaces the 2026-10-29 pack of about 11,400 words, its excerpts, voice samples, unit plan, 39 model beat maps, counts and full audit. Blind test iter-09: one page plus one real model scored 8.0 against 6.2.)
 
 **This pack replaces `core/workflow.md` sections 2 to 6 for the four plumbing channels.** START and the channel question (section 1) stay as they are. None of the other core files are read for these channels: everything the writer needs is here, on the channel's one page and in one model transcript.
 

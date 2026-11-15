@@ -686,7 +686,7 @@ warn=["Never \"9 out of 10\" or \"88%\"","federal tax credits for new heat pumps
 hwarn=[w for w in warn if w not in hpg]
 check("68. HVAC price guide: 100+ rows, none in cents, each marked; gas-leak and CO rows carry every step; stale figures warned off; the pack and builder use it",
       len(hrows)>=100 and not hcents and not hnocheck and not hmiss and not hwarn
-      and "references/price-guide.md" in open(NHVR).read() and "<hvac-scripts>/references/price-guide.md" in open(f"{ROOT}/tools/build_skills.py").read(),
+      and "references/price-guide.md" in open(NHVR).read() and "the pack's own `check.py`" in open(f"{ROOT}/tools/build_skills.py").read(),  # 2026-11-15: the simple packs run their own check.py (the HVAC scanner command is gone from script-writer)
       f"rows={len(hrows)} cents={hcents[:3]} nocheck={hnocheck[:3]} missing={hmiss} warn={hwarn}")
 
 # ---- P13: the core checker fixes (operator, 2026-10-27: E1 "apply all") ----
@@ -911,8 +911,8 @@ check("85. P20: style tenure words (stylist, fashion, dressing women, a 25-year 
 # 86. style signposts: "Rule number one", "Secret number two" and "Knot three" are items; the build script's electrical command block is closed
 sp=run_scan("A short opening line.\n\nRule number one. Keep the length.\n\nSecret number two. Lift the crown.\n\nKnot three. The loop.\n")[1]
 bs=open(f"{ROOT}/tools/build_skills.py").read()
-check("86. P20: 'Rule number one', 'Secret number two', 'Knot three' are read as items 1-3; the electrical scanner command's code block is closed before HVAC's",
-      "ITEMS: 3 | item one at word 4" in sp and "--final\n```\n\nHVAC (the same shape as plumbing" in bs, sp[-400:])
+check("86. P20: 'Rule number one', 'Secret number two', 'Knot three' are read as items 1-3; the electrical scanner command's code block is closed (2026-11-15: the only scanner command left in script-writer)",
+      "ITEMS: 3 | item one at word 4" in sp and '--final\n```\n"""' in bs, sp[-400:])
 
 # ---- the style pack and its two channels (operator 2026-10-29: the diagnosis answers) ----
 # P21: the style pack, Scarlett's and Diane's pages are the 2026-11-06 simple versions; the 2026-10-31 pack is in archive/pre-p21-2026-11-06/
@@ -940,10 +940,10 @@ check("89. style check.py: Scarlett 169 and Diane 172 wpm, their books (printed 
       stc["scarlett"]["wpm"]==169 and stc["diane"]["wpm"]==172 and stc["scarlett"]["printed"]=="300 Budget-Friendly Ways to Look Expensive" and stc["diane"]["printed"]=="The French Way"
       and stc["scarlett"]["signoff"]=="Until next time, ladies, stay elegant." and stc["diane"]["signoff"]=="With love from Paris, my dear friends."
       and not pb_s and not pb_d, f"scarlett passing: {pb_s}; diane passing: {pb_d}")
-# 90. wiring: rows 10 and 11 pending; the build knows the pack and both pages; README sections
+# 90. wiring: rows 10 and 11 ready (2026-11-15: matching the account's script-writer, set ready by another chat on 2026-10-31); the build knows the pack and both pages; README sections
 chan=open(f"{CORE}/channels.md").read(); bs=open(f"{ROOT}/tools/build_skills.py").read(); rd=open(f"{ROOT}/README.md").read()
-check("90. style wiring: channel rows 10 and 11 pending; build entries for style-scripts and both personas; README sections",
-      "| 10 | Scarlett Starling | `style-scripts` | `personas/scarlett-starling.md` | pending |" in chan and "| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | pending |" in chan
+check("90. style wiring: channel rows 10 and 11 ready; build entries for style-scripts and both personas; README sections",
+      "| 10 | Scarlett Starling | `style-scripts` | `personas/scarlett-starling.md` | ready |" in chan and "| 11 | Diane de Chambray | `style-scripts` | `personas/diane-de-chambray.md` | ready |" in chan
       and '"style-scripts": (),' in bs and '"scarlett-starling": ("Scarlett Starling"' in bs and '"diane-de-chambray": ("Diane de Chambray"' in bs
       and "## style-scripts/" in rd and "`scarlett-starling.md`" in rd, "")
 
