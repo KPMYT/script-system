@@ -22,3 +22,10 @@ By eye after the pass: no sentence over 35 words, no dashes, colons, brackets or
 - **The 45-second opening.** The page says "by about 45 seconds"; the check reports it as INFO only. 47 seconds was left as is.
 - **"After the reveal, open the next loop."** The title names the product, so there's no reveal of it; the five mistakes are named only at their numbers. The rule doesn't say whether each mistake counts as a reveal needing a loop. I used short links between items instead.
 - **Lists of three.** Mistake five names three living things and then the stain they leave, across separate sentences. Whether that counts as a list of four is unclear.
+
+## Revision v2 (coordinator request: the book line only)
+Rewritten to the updated hard rule 2 (35 to 60 words; what it goes deeper on and why, who it's for, where). Nothing else changed; saved as `script-v2.txt`, `script.txt` untouched. The v1 line was very close to the operator's example wording (written before the example was on the page), so the new one is reworded away from it. New paragraph (57 words):
+
+"My book, One Hundred Old-House Fixes That Save You Thousands, goes further inside the tank, because a stiff flapper is only one reason a toilet keeps running. It's for anyone who'd sooner fix it themselves than hand over a big repair bill. It's at the top link in the description, and the QR code is on screen."
+
+Check: RESULT: PASS (one run), 2,499 words, about 14.7 minutes; book line 58 words by the check's count, at 51%. Note: I kept "plumber" out of the who-it's-for line (the page's shape says "an expensive plumber") so the only plumber in the script stays the main-line call.

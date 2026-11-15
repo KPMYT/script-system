@@ -19,3 +19,6 @@ No line was added to meet a count. The script lands just over the 2,534-word flo
 - **SCRIPT TYPE line:** the pack shows "Classic (Roger, Mark, the Vintage Pipefitter) | Talking Head (Werner)"; I wrote "SCRIPT TYPE: Classic".
 - **Book file:** not opened. The persona page's own true facts (50 fixes, what each saves) covered the book line, and the brief names the topic (the weak flush).
 - **"Never pointing at the screen" vs "the QR code on screen"** in the book line: the page asks for the second, so I kept it.
+
+## Revision v2 (book line only, coordinator request, to the updated hard rule 2)
+`script-v2.txt` is `script.txt` with only the book paragraph replaced (script.txt untouched; output.md still carries v1). New paragraph, 60 words: what it goes deeper on (the weak flush, led in from the toilet item) and why (a lost flush is usually a blockage, not a dead toilet, which is the book's own claim about the rim jets; no powders put in its mouth), who it is for, and where (top link and QR code). Check: RESULT: PASS, 2,573 words, about 14.2 minutes. Unclear: the book line lands at exactly 60 words, the top of the range. The page now asks for "about 35 to 60" words; with the 13-word title and all three parts, there is little room under the cap.

@@ -20,3 +20,10 @@ TEST (iter-19): writer notes, Werner Finkbeiner
 - **Prices per item.** Number eight carries two figures (the part and the fitted price), which the brief allows ("side by side is enough"); the price guide says at most one per item.
 - **QR code wording.** The page asks for "the link in the description and the QR code" but not where the QR code is; "on the screen" would be pointing at the screen, so I wrote "with the QR code".
 - `output.md` carries a `TEST (iter-19)` first line for the test label, ahead of the step 5 layout. Word count in the CHECK line is the program's (2642); minutes rounded from 14.6.
+
+## Revision v2 (coordinator request, page updated on the count and the book block)
+Saved as `script-v2.txt`; `script.txt` and `output.md` left as they were. Only two passages changed:
+- Count line: "I am going to give you nine fixes, from the causes to the cure, and the ninth takes five minutes once a year and keeps this from ever coming back."
+- Book block (73 words): mentor line word for word; what it goes deeper on and why ("drain hair, because some of that gray rope gets past the stem", tied to the drain strip in number six); who it is for; top link in the description or the QR code; line back.
+Check runs: first v2 run PASS but the book block was 81 words, over the page's 45 to 75, so I trimmed it; second run RESULT: PASS (73 words in the block, 2662 words, about 14.7 minutes).
+Unclear: numbers one to four are causes, not fixes, so "nine fixes" is loose; "from the causes to the cure" covers it. The longer count line puts the opening at 149 words, about 49 seconds, slightly over "by about 45" (INFO only; nothing else was changed, as asked). The page's book shape asks for four parts plus the mentor line and a return line in 45 to 75 words, which leaves about 50 words for the rest; it is tight.
