@@ -1,6 +1,6 @@
 # Recent uploads, 2026-11-16: Scarlett Starling and Diane de Chambray, script review before the retention graphs
 
-The operator, after the Roger review (`../recent-uploads-2026-11-15/`): "can we do the same exercise for the fashion channels". Same two stages: **stage 1**, the script read, written before any retention file is opened (`analysis-scripts-scarlett.md`, `analysis-scripts-diane.md`); **stage 2**, the YouTube Studio retention exports (`retention/`, `analysis-retention.md`), once the operator sends them.
+The operator, after the Roger review (`../recent-uploads-2026-11-15/`): "can we do the same exercise for the fashion channels". Planned as the same two stages, then cut to one (operator, 2026-11-16: "we dont have enough views for detailed retention graph analysis. just please review scripts, triggers, emotions, structure, and so on along with everything we established with the plumbing scripts"). So: the script read only, with extra weight on triggers and feelings, structure, and every fault the Roger review found: `analysis-scripts-scarlett.md`, `analysis-scripts-diane.md` (one reviewer helper per channel; saved by the main session, quotes spot-checked against the transcripts).
 
 **The ten videos** (NexLev `youtube_channel_videos`, newest first, 2026-11-16):
 
