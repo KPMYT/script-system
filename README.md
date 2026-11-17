@@ -90,6 +90,7 @@ Copies of the operator's claude.ai ideation skills, brought in to be edited here
 |---|---|
 | `woodworking-ideation/` | The woodworking ideation skill, edited 2026-10-20 (Hank and Dale) and 2026-10-23 (Sawdust Sam relaunched: old-world builds for profit, steering §3, his thumbnail block and `references/sam-old-world.md`: simple builds only, his title formats, longer briefs): all on camera, single builds, titles may exaggerate freely, and the new for-profit pipeline in `references/pipeline.md` (Etsy-first product scan of 30, title and thumbnail-text options, picks, fact-bank briefs, optional research pack). It's an overlay on `ideation-core`. |
 | `plumbing-ideation/` | The plumbing ideation skill, copied from the account 2026-10-21 and edited: Mark's fixed 40 years, Vintage's 45, "Finkbinder" corrected to Finkbeiner (outside the archive), and a brief rule so every item carries its cost and the right way. An overlay on `ideation-core`. |
+| `style-ideation/` | The style ideation skill (Scarlett, Diane), copied from the account's synced copy on 2026-11-17 and edited: §4b, briefs that feed the P23 style script rules (each item's answer kept apart, a fact of its own, a belief and the truth; season and repeats). Its earlier home was `KPMYT/niche-research`. Builds from here. |
 | `ideation-core/` | The shared ideation base (format bank, rules, audience profiles), an unchanged copy kept so it can be installed on VA accounts. Not edited. |
 
 ## tools/ and dist/

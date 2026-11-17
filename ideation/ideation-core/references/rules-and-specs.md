@@ -66,6 +66,7 @@ Whenever titles are chosen, briefs come with them: short by default; **200–300
 - **One flowing paragraph per brief** — no internal line breaks or bullets — so each brief pastes into a single spreadsheet cell.
 - **The honest mechanism lives in the brief.** Ground every exaggerated title in defensible facts; the overlay's `audience.md` lists the real mechanisms that support big titles in that niche.
 - **Anchors.** Include real dollar figures (service-call costs, part and material prices, what the pro or commercial equivalent costs); where the profile's sharpest stake is time, include hours as well as dollars.
+- **Style overlay only (2026-11-17, P23):** style briefs also follow `style-ideation` §4b: each item's answer kept apart from its problem, something of its own per item, and a belief and the truth per item. No other niche's briefs change.
 - **Safety and integrity boundaries** appear in briefs where relevant; each overlay lists its own (gas lines, table-saw kickback, baby-item hazards, pattern IP, and so on). The channel's trust is its moat.
 - **Tutorial briefs (search dial)** also spec the teachable content: materials and sizes, construction sequence, counts or multiples, finished size, the 2–3 failure points, and total cost.
 

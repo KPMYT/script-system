@@ -298,5 +298,5 @@ P18 (one opening promise, paid at the end) is kept: the one reason to stay is th
 
 **Proposal:** `drafts/p23-style-reveal-shape-turns-DRAFT.md`.
 
-**Status:** draft shown to the operator 2026-11-17, waiting for the yes (the draft's five questions).
+**Status: sections 1 to 4 applied 2026-11-17** to both style pages, `style-scripts/check.py`, `style-ideation` §4b and an `ideation-core` pointer (operator: "push it to the style ideation and ideation core ensuring it only effects style scripts here"). Section 5 (a to f) and questions 1 and 4 are still open. Test round iter-20.
 

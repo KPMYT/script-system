@@ -24,8 +24,8 @@ HV=f"{ROOT}/hvac-scripts"; STY=f"{ROOT}/style-scripts"
 NPACK={"style":STY,"plumbing":PL,"hvac":HV,"woodworking":WW}
 IT=f"{ROOT}/tests/iterations"
 # the saved P21 test scripts: (pack, script, channel, brief); the title is the brief's TITLE line
-P21_RUNS=[("style",f"{IT}/iter-14/final/script.txt","scarlett",f"{IT}/iter-14/brief.txt"),
-          ("style",f"{IT}/iter-15/run-new/script.txt","diane",f"{IT}/iter-15/brief.txt"),
+P21_RUNS=[("style",f"{IT}/iter-20/run-scarlett/script.txt","scarlett",f"{IT}/iter-20/brief-scarlett.txt"),
+          ("style",f"{IT}/iter-20/run-diane/script.txt","diane",f"{IT}/iter-20/brief-diane.txt"),
           ("plumbing",f"{IT}/iter-19/run-roger/script.txt","roger",f"{IT}/iter-19/brief-roger.txt"),
           ("plumbing",f"{IT}/iter-19/run-mark/script.txt","mark",f"{IT}/iter-19/brief-mark.txt"),
           ("plumbing",f"{IT}/iter-19/run-vintage/script.txt","vintage",f"{IT}/iter-19/brief-vintage.txt"),
@@ -971,7 +971,7 @@ bad94=[]
 for pk,script,ch_,brief in P21_RUNS:
     code_,out_=pack_check(pk,open(script).read(),ch_,brief)
     if code_!=0 or not out_.rstrip().endswith("RESULT: PASS"): bad94.append(f"{os.path.relpath(script,ROOT)} ({ch_}): {out_[-300:]}")
-check("94. P21: each pack's check.py passes its saved test scripts (iter-14 final, iter-15 run-new, iter-19 four runs (plumbing, P22), iter-17 run-new, iter-18 two runs)",
+check("94. P21: each pack's check.py passes its saved test scripts (iter-20 Scarlett and Diane (style, P23), iter-19 four runs (plumbing, P22), iter-17 run-new, iter-18 two runs)",
       len(P21_RUNS)==9 and not bad94, " | ".join(bad94))
 
 # 95. every "Signature phrases" quote in each model file occurs exactly (whitespace joined) in that file's transcript.

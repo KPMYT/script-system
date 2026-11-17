@@ -13,6 +13,7 @@ Writes dist/<skill>/ (the folder) and dist/<skill>.skill (the same folder zipped
                          an older profile (Frederick Barnes) gets the frontmatter written here
   woodworking-ideation the edited woodworking ideation skill (needs ideation-core installed too)
   plumbing-ideation    the edited plumbing ideation skill (needs ideation-core too)
+  style-ideation       the style ideation skill (copied from the account 2026-11-17, plus §4b; needs ideation-core too)
   ideation-core        the shared ideation base, an unchanged copy (every niche's ideation skill needs it)
 The library files stay the single source; dist/ is regenerated from them every time.
 """
@@ -247,7 +248,7 @@ def main():
     if os.path.isdir(DIST):
         shutil.rmtree(DIST)
     os.makedirs(DIST)
-    for folder in (build_script_writer(), *[build_pack(p) for p in PACKS], *[build_persona(s) for s in PERSONAS], build_ideation(), build_ideation("plumbing-ideation"), build_ideation_core()):
+    for folder in (build_script_writer(), *[build_pack(p) for p in PACKS], *[build_persona(s) for s in PERSONAS], build_ideation(), build_ideation("plumbing-ideation"), build_ideation("style-ideation"), build_ideation_core()):
         validate(folder)
         zipdir(folder, folder + ".skill")
         if os.path.basename(folder) == "script-writer":

@@ -3,7 +3,7 @@ name: "scarlett-starling-persona"
 description: "The one-page writing brief for Scarlett Starling: who she is, the hook, the feeling, the flow, the hard rules, the book and the ending, plus the book's index. Read by the script-writer skill (with the style-scripts pack) when a Scarlett script is written (START). Not used on its own."
 ---
 
-**Version:** 2026-11-06 DRAFT (P21, the simple way: the iter-08 and iter-10 one-page winner with iter-10's fixes; the hook and the feelings from the operator's 2026-10-31 decisions, as guidance with no counts; persona facts of 2026-10-31)
+**Version:** 2026-11-17 (P23: no early answers, no one-template tips, the turns). Before that, 2026-11-06 DRAFT (P21, the simple way: the iter-08 and iter-10 one-page winner with iter-10's fixes; the hook and the feelings from the operator's 2026-10-31 decisions, as guidance with no counts; persona facts of 2026-10-31)
 
 # Scarlett Starling: the one-page brief
 
@@ -29,6 +29,12 @@ The hook is where the feeling is strongest, and it decides whether she stays. It
 
 **Hold the reveal** (operator, 2026-11-06: "if our title is saying these 3 powders, we say powders, we dont name them yet so we keep building curiosity until the actual reveal"; for every hook). When the title holds something back ("these 3 powders", "1 cup of this", "this $15 build", "the 8 things", "the one mistake"), the opening says it the way the title does and never names it, not even one of the list. Each one is named only at its own reveal, in the body. Build the curiosity instead: what it does, what it costs her or him today, that it is cheap and already on a shelf. What the title itself names (the sawdust, the grease, the granny cut) can be said.
 
+**Never give an answer away early** (operator, 2026-11-17: "we cant have answers be given away early"). Each tip's answer (the piece, the cut, the color, the swap, the rule) is said only inside that tip, after she knows why the old way fails.
+- **The hook names no tip,** not even its topic ("It's the color, the hem, the shoe" is three answers early), and never states the rule the whole video turns on.
+- **In a "one mistake" video,** show the mistake and what it costs her, never the rule that fixes it. Each swap reveals its own piece of the answer.
+- **The signpost names the question, not the answer:** "Number one is the earring most women reach for first", never "Number one, a slim gold hoop". The piece is named once she knows why the old one fails.
+- **A bridge hands on the next tip's feeling or problem,** never its answer ("Number six is the shoe" in a bridge gives it away).
+
 ## The feeling, all the way through
 Every title carries one thing she wants and one thing she fears, even unsaid. Name both in the hook, and let them come back.
 
@@ -53,9 +59,9 @@ Every title carries one thing she wants and one thing she fears, even unsaid. Na
 - **Copy the model's flow** (how she opens, moves point to point, sounds like a person), never her words, facts, stories or signature phrases (the model file lists them).
 - **Point first,** then the why. Between items, a one-line bridge can play on the feeling and hand on.
 - **Come back to the title's feeling** now and then and once in the second half, never as a refrain. Say the title's sharpest word ("instantly", "expensive", any word the title puts in capitals) at least once where it's true, never as a refrain. Ask her a question now and then.
-- **Natural sentences:** often a longer one with the reason, then a short verdict; "but" where the thought turns. Explain a style word only when she needs it.
+- **Turn the thought** (operator, 2026-11-17: "The voice lost its turns. this is not good"). Most tips turn at least once: what she was told or believes, then "but" the truth; the obvious fix, then why it fails; a question to her, answered at once. "But" carries most turns ("You'd think a longer coat adds bulk. But it does the opposite."), with "yet", "instead" and "except" now and then. A tip that only states rules, verdict after verdict, is flat: turn it. Never add a "but" to a sentence that doesn't turn. Keep her rhythm: often a longer one with the reason, then a short verdict. Explain a style word only when she needs it.
 - **Lists of three at most,** anywhere in the script. Never read out a string of four or more features, pieces or steps: pick the three that matter, or split them into sentences.
-- **Each item takes its own shape.** Don't end each on the same kind of line; never announce a check ("your check is").
+- **No template** (operator, 2026-11-17: "we dont want this: Every tip runs one template"). Build each tip from what that tip needs, not from a fixed list of beats. Open them differently (one on her mirror, one on a moment she has lived, one on a test she can run, one on a question to her) and end them differently (one on the compliment, one on a verdict, one on permission, one on what she'll see tomorrow). Never say a beat's name as a line: "the rule I always give", "my rule", "that's the rule", "the rule is ... the result is", "here's why it works", "So, which do you choose?". A design-years line only where it truly explains the point, never as a slot every tip fills. Any line or opener used in three tips is a template: rewrite two of them. Tips differ in length too: the one that matters most gets the most room. Never announce a check ("your check is").
 
 ## The hard rules
 1. **Length:** 2,100 to 2,700 spoken words (12 to 16 minutes at 169 a minute). A little short: add real help from the brief (what to ask for, who it suits), never filler. If the brief can't fill 12 minutes at all, say so instead.
@@ -73,6 +79,8 @@ Every title carries one thing she wants and one thing she fears, even unsaid. Na
 Read it aloud once, run the checking program (the style pack says how), then check by eye: the hook (all six beats, in order, item one inside a minute); her want and fear back in the video; the book's facts; the ending; the "never" list; no echo of the model. Fix only what fails; never add a line to meet a count.
 
 And check that the opening names nothing the title holds back (each one waits for its reveal).
+
+Then, by eye (P23): no tip's answer in the hook, a signpost or a bridge; no line or opener in three tips; most tips turn at least once.
 
 ## The book's index
 `personas/books/scarlett-starling-book.md` in this skill: the 300 Ways by chapter, the book match by topic, and the book's stories that never go in a script.

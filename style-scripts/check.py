@@ -191,6 +191,7 @@ def main():
     # Keep only the script if a whole output was pasted.
     raw = re.sub(r"^\s*SCRIPT TYPE:[^\n]*\n", "", raw)
     raw = re.split(r"\n\s*(?:CHECK:|VO COPY)", raw)[0]
+    raw = re.sub(r"^\s*TEST\b[^\n]*\n", "", raw)   # a test fixture's TEST label line
     lines = raw.strip("\n").split("\n")
     start_re = re.compile(r"^===START CTA\((.*)\)===$")
 
@@ -296,6 +297,38 @@ def main():
     other = sorted(x for x in numbers_in(spoken) - allowed if x > 12)
     if other:
         infos.append(f"INFO numbers not in the brief (check each is plain sense, not a claim): {', '.join(map(str, other))}")
+
+    # 6b. P23 (operator, 2026-11-17): no early answers, no one-template tips, the turns.
+    m1 = re.search(r"\bnumber one\b", spoken, re.I)
+    opening = spoken[:m1.start()] if m1 else " ".join(spoken.split()[:170])
+    for sent in dict.fromkeys(sentence_with(opening, m.start()) for m in re.finditer(r"\bhere(?:'s| is) the rule\b|\bthe rule (?:is|that)\b|\bfixes all of it\b|\bthe answer is\b|\bthe secret is\b", opening, re.I)):
+        fail("early answer", f"the opening gives the answer away (P23: each answer only inside its tip): \"{sent}\"")
+    k = len(re.findall(r"\bmy rule\b|\bthe rule I always give\b|\bthat'?s the rule\b|\bthe rule is\b", spoken, re.I))
+    if k > 2:
+        fail("template", f"a rule-label line said {k} times (\"my rule\", \"the rule I always give\", \"that's the rule\", \"the rule is\"); at most twice (P23: no beat names as lines)")
+    parts = re.split(r"\bnumber (?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d+)\b", spoken, flags=re.I)[1:]
+    if len(parts) >= 3:
+        stop = set("the a an and or of to in on at for it is it's that this you your she her i i'm with as be was are not but so if one by from what when we our they them their its there then just more most very can will".split())
+        tw = set(w.lower() for w in re.findall(r"[a-z']+", a.title.lower()))
+        seen = {}
+        for i, part in enumerate(parts):
+            ws = [w.lower().strip("'") for w in re.findall(r"[A-Za-z']+", part)]
+            grams = set()
+            for j in range(len(ws) - 3):
+                g = ws[j:j + 4]
+                if sum(1 for w in g if w in stop) >= 3 or any(w in tw for w in g):
+                    continue
+                grams.add(" ".join(g))
+            for g in grams:
+                seen.setdefault(g, set()).add(i)
+        rep = sorted((g for g, items in seen.items() if len(items) >= 3), key=lambda g: -len(seen[g]))
+        for g in rep[:6]:
+            fail("template", f"\"{g}\" in {len(seen[g])} different tips; a line or opener used in three tips is a template (P23: rewrite two)")
+    buts = len(re.findall(r"\bbut\b", spoken, re.I))
+    rate = 1000 * buts / max(n, 1)
+    infos.append(f"INFO turns: \"but\" {buts} times, {rate:.1f} per 1,000 words; questions {spoken.count('?')}")
+    if rate < 2.5:
+        fail("turns", f"\"but\" only {rate:.1f} per 1,000 words (P23: the voice turns; at least 2.5). Turn real thoughts (what she was told, then the truth); never insert a \"but\"")
 
     # 7. The voice.
     for i, line in enumerate(spoken_lines, 1):

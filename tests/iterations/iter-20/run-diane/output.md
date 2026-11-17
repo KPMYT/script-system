@@ -1,0 +1,250 @@
+SCRIPT TYPE: Talking Head
+
+Plenty of French women grow more beautiful with age. Right now your own closet is doing the opposite to you, and it's adding years you haven't lived.
+
+In Paris you'll often see her: a woman past sixty who looks better than she did at forty.
+
+She has the same lines in her mirror and the same age on her passport. Her budget is no bigger than yours. She simply knows what seven small habits do, built over years, not bought.
+
+Most of them are free. Every one is within reach this week, mostly from your own closet, and your mirror will tell you the first morning.
+
+When a woman looks older in her clothes, the fault lies with the shape and the fit. Never with her. You know the morning. You dressed with care, and the shop window still showed you a woman who looked dated.
+
+So let's start with the habit most women get wrong, because we were all taught to call it kind.
+
+Number one begins with a gesture you'll know. Someone raises a phone for a family photo, and before you've even smiled, your hand goes to your cardigan to pull it closed.
+
+That cardigan was bought to cover. So was the long, shapeless tunic hanging beside it. We wear them because we were told loose layers are forgiving. But a layer that hides everything also widens everything, and width is what the eye counts as years. The fabric takes over, and the woman inside it disappears.
+
+Plenty of Parisian women over sixty dress the body they have now. Not the one they had at thirty, and not the one they're apologizing for. That ease shows before they say a word, and it's the first thing I notice when one of them walks into a room.
+
+So what do they reach for instead? A fine merino V-neck that ends at the hip, in navy or soft gray, worn over a straight trouser. The V opens your neck. The fine knit skims instead of clinging. And because the hem stops at the hip, the eye finally finds a shoulder, a waist and a line.
+
+Buy it in the size that fits your shoulders, even if the body of it feels a little roomy. When I was designing, the shoulder was the seam we built everything else around. A tailor can take in the rest. Never the shoulders.
+
+Put it on tomorrow, before the next family photo, and you'll look confident before you've said a word. That, my dear friends, is the first thing people call beauty when they can't quite name it.
+
+Confidence starts at the shoulders. The next habit sits a little higher, and it's probably costing you more time every week than anything in your closet.
+
+Number two. Look in the mirror at four in the afternoon. Is your hair still the shape it was set into, sprayed so it would survive the wind and the day? You'd think a set keeps you looking done. But a rigid set belongs to a photograph. It doesn't move, so it doesn't catch the light, and light near the face is what people see when they say a woman looks well.
+
+Walk through Paris on a weekday morning and you'll often see hair that was cut well and then left alone. The money goes into the cut, not the styling. A cut every six to eight weeks, and about two minutes in front of the mirror.
+
+Three cuts work on an ordinary morning with no appointment. A bob that stops at the chin, with a little weight kept at the back. A textured bob that lands at the collarbone. Or a soft pixie with length kept on top, so you push it into place with your fingers instead of a comb.
+
+Your stylist isn't the problem here. Sit down in the chair and ask for movement, not a set, and a good stylist will be glad you did.
+
+If your gray has come in, keep it glossy with a silver or ash toning shampoo once a week, which takes the yellow out. If you still color, go a level or two lighter than the shade you had when you were young. It's kinder to the face it frames now. And do a patch test 48 hours before any dye or gloss, every time, even with a product you've used for years.
+
+Then try this at home. Let it air dry, shake your head, and watch. A good cut falls back into shape on its own. Wear it like that for a week, and sooner or later a stranger will lean over and ask you, "Who cuts your hair?"
+
+That question feels wonderful. The next habit is about a different kind of noise, the kind that hangs in your closet and talks over you.
+
+Number three is a question for you. When you open your closet, how many colors look back at you?
+
+If the answer is a crowd, you're in good company. Plenty of American women were raised to believe that more color keeps a woman lively and young. Yet competing colors look busy, and busy looks dated. The eye has nowhere to rest, so it rests on the effort.
+
+Open many a closet in Paris and the first thing you notice is how quiet it is. Quiet neutrals that all go together, navy with gray, camel with cream, so anything can be worn with anything at seven in the morning.
+
+And then one color that is theirs. Red for one woman, cobalt for another, emerald for a third, worn for years in a scarf, a knit or on the lips.
+
+"But how do I know which color is mine?" It's the one people have complimented on you more than once. Wear it near your face, and make sure it sits happily beside your neutrals.
+
+On Sunday, lay the week's outfits across the bed. Each one gets exactly one accent. Where two colors fight, take one away. Where there's none, add yours.
+
+You'd think one color would make you predictable. Instead, it makes you memorable, because people come to expect it. Before long they describe you before your clothes. You become the woman in the red scarf, and that's a far better thing to be than the woman in the busy blouse.
+
+Across a room, your colors speak first. Up close, they notice how your clothes sit on you, and that's where the next habit lives.
+
+Habit number four is about size, or what we were told about it. You were probably taught that the trick is finding a size that hides the problem areas. So the closet fills up one of two ways. Everything loose, or everything tight.
+
+But size was never the trick. All loose is frumpy, because your body disappears and the fabric takes over. All tight is strained, because your body does all the work and the clothes only report on it. Neither one is your fault.
+
+Many Parisian women shop where everyone else shops. They simply balance. One fitted piece with one fluid piece, and suddenly there's a conversation going on between them.
+
+A fitted fine knit on top, with fluid wide leg crepe trousers that move when you walk. Or the reverse: a fluid blouse with just the front tucked into a straight trouser, so your waist is there without being announced.
+
+Then two lengths. Sleeves to the wrist bone, hems to the top of the shoe. Those two lengths are half of what people mean when they call a woman polished.
+
+And if you're unsure in the morning, look at the pair. If both pieces move, add structure. If both pieces pull, let one of them go.
+
+Here's the part I love. You keep your loose blouse. You keep your wide trousers. Nothing has to go to the donation bag. Each one is simply paired with its opposite. And the next time you walk into a room, someone will tell you that you look so put together.
+
+===START CTA(The French Way)===
+This habit matters so much to me that it has a place of its own in my book, The French Way. Secret 22, "Pair One Fitted Piece With One Fluid Piece, Every Time You Dress," sits in the chapter "Fit Over Fashion", where the book calls it the Proportion Equation. It's one of the five Secrets the book tells you to start with in your very first week. The French Way is at the link in the description, and the QR code is on screen. Now, back to your closet.
+===END CTA===
+
+Number five starts with a little walk. Put on the shoes you'd wear to lunch tomorrow, and walk to the end of your street and back. If you thought about your feet even once, they go back in the box.
+
+Some shoes are chosen to stand beside a car, not to walk in. A shoe you can't walk in shortens your step and tips your balance forward. Anyone would shuffle in it. And people read a shuffle as years, well before they ever look at your face.
+
+I used to think a heel was what made an outfit elegant, and I changed my mind. For years, flats felt frumpy to me. But elegance turned out to live in the walk, not the heel. A good flat gives you an easy, even stride.
+
+Paris is a walking city. Plenty of daily errands happen on foot, to the market, the bakery or the pharmacy, so you'll often see Parisian women in shoes chosen for walking.
+
+Look for a soft leather loafer, or a low flat with a little cushion inside and a sole that grips. Cognac, navy or black. Wear it with a trouser that ends at the ankle, so the shoe shows and your leg looks longer. And never a sole that slides on a wet pavement, however lovely the shoe above it.
+
+Then add the habit that goes with the shoe, and costs nothing at all. Shoulders back, eyes up.
+
+That's presence. And presence is what people are really describing when they say a French woman gets more beautiful with age.
+
+Presence is quiet. The next habit is where most women get loud without meaning to.
+
+Now, number six, and I'd like you to picture the outfit you'd wear to a nice lunch, with everything on it. A necklace and earrings. A bracelet, and a brooch on the lapel. Then a scarf, because the morning was cold.
+
+We pile it on because more pieces feel like more effort, and more effort ought to look more polished. But too many pieces look like costume. Costume is effort you can see, and effort you can see is exactly what people mean by trying too hard.
+
+Most French women I know who are past sixty would rather you saw them than their jewelry box. So they stop at three accessories. One silk scarf. One jewel that means something. One structured bag that holds its shape.
+
+There's an old piece of advice, usually credited to Coco Chanel, though no one has found it in her own words. Before you leave the house, look in the mirror and take one thing off.
+
+I do my own version of it with my hand on the door. If the scarf is loud, the earrings come off. If the earrings are the point, the scarf stays home.
+
+Try it tomorrow, and look back at yourself from the doorway. What you'll see is elegance without effort, and that can't be bought. It can only be subtracted.
+
+The last habit is the closest to you of all, and it starts with a photo.
+
+Number seven. You're at lunch, sitting by a window, and someone takes a picture. When you see it later, the foundation shows at your jaw and your face looks set.
+
+We reach for more coverage after sixty, because we think a face needs it to look finished. But a heavy base works like a mask, and a mask looks older than anything it was meant to cover. The face stops moving the way a face should. The product is the problem here, never your skin.
+
+Backstage, care comes before color, and the faces that look best under the lights are never the ones wearing the most.
+
+So this habit is the care. Micellar water to clean, a rich cream, and sunscreen every morning, as automatic as brushing your teeth. Your neck and your hands get the same care as your face. Skincare is cosmetic, so for retinoids or anything prescription, talk to a dermatologist.
+
+Then a few minutes on top, at most. A tinted moisturizer instead of a foundation, so your skin shows through. Your brows groomed and filled a little, to frame your face. A cream blush high on the cheek, and one coat of mascara.
+
+And a red or berry lip. That's where your color from habit three can live, on a day it lives nowhere else.
+
+Take the next photo by that same window. Your face will look rested, and more than anything, it will look like you.
+
+===START CTA(The French Way)===
+If you'd like to begin with the balance of fitted and fluid, Secret 22 is waiting for you in The French Way, at the link in the description. And tell me in the comments: which woman in your own life grew more beautiful with age, and what did she wear?
+===END CTA===
+With love from Paris, my dear friends.
+
+CHECK: RESULT: PASS | words 2237 | about 13 minutes
+
+VO COPY — ELEVENLABS V4
+Plenty of French women grow more beautiful with age. [emphatic] Right now your own closet is doing the opposite to you, and it's adding years you haven't lived.
+
+In Paris you'll often see her: a woman past sixty who looks better than she did at forty.
+
+She has the same lines in her mirror and the same age on her passport. Her budget is no bigger than yours. She simply knows what seven small habits do, built over years, not bought.
+
+Most of them are free. Every one is within reach this week, mostly from your own closet, and your mirror will tell you the first morning.
+
+[warm] When a woman looks older in her clothes, the fault lies with the shape and the fit. Never with her. You know the morning. You dressed with care, and the shop window still showed you a woman who looked dated.
+
+So let's start with the habit most women get wrong, because we were all taught to call it kind.
+
+Number one begins with a gesture you'll know. Someone raises a phone for a family photo, and before you've even smiled, your hand goes to your cardigan to pull it closed.
+
+That cardigan was bought to cover. So was the long, shapeless tunic hanging beside it. We wear them because we were told loose layers are forgiving. [matter-of-fact] But a layer that hides everything also widens everything, and width is what the eye counts as years. The fabric takes over, and the woman inside it disappears.
+
+Plenty of Parisian women over sixty dress the body they have now. Not the one they had at thirty, and not the one they're apologizing for. That ease shows before they say a word, and it's the first thing I notice when one of them walks into a room.
+
+So what do they reach for instead? A fine merino V-neck that ends at the hip, in navy or soft gray, worn over a straight trouser. The V opens your neck. The fine knit skims instead of clinging. And because the hem stops at the hip, the eye finally finds a shoulder, a waist and a line.
+
+Buy it in the size that fits your shoulders, even if the body of it feels a little roomy. [thoughtful] When I was designing, the shoulder was the seam we built everything else around. A tailor can take in the rest. Never the shoulders.
+
+Put it on tomorrow, before the next family photo, and you'll look confident before you've said a word. [warm] That, my dear friends, is the first thing people call beauty when they can't quite name it.
+
+Confidence starts at the shoulders. The next habit sits a little higher, and it's probably costing you more time every week than anything in your closet.
+
+Number two. Look in the mirror at four in the afternoon. Is your hair still the shape it was set into, sprayed so it would survive the wind and the day? You'd think a set keeps you looking done. [matter-of-fact] But a rigid set belongs to a photograph. It doesn't move, so it doesn't catch the light, and light near the face is what people see when they say a woman looks well.
+
+Walk through Paris on a weekday morning and you'll often see hair that was cut well and then left alone. The money goes into the cut, not the styling. A cut every six to eight weeks, and about two minutes in front of the mirror.
+
+Three cuts work on an ordinary morning with no appointment. A bob that stops at the chin, with a little weight kept at the back. A textured bob that lands at the collarbone. Or a soft pixie with length kept on top, so you push it into place with your fingers instead of a comb.
+
+[warm] Your stylist isn't the problem here. Sit down in the chair and ask for movement, not a set, and a good stylist will be glad you did.
+
+If your gray has come in, keep it glossy with a silver or ash toning shampoo once a week, which takes the yellow out. If you still color, go a level or two lighter than the shade you had when you were young. It's kinder to the face it frames now. [slower] And do a patch test 48 hours before any dye or gloss, every time, even with a product you've used for years.
+
+Then try this at home. Let it air dry, shake your head, and watch. A good cut falls back into shape on its own. Wear it like that for a week, and sooner or later a stranger will lean over and ask you, "Who cuts your hair?"
+
+That question feels wonderful. The next habit is about a different kind of noise, the kind that hangs in your closet and talks over you.
+
+Number three is a question for you. When you open your closet, how many colors look back at you?
+
+[slightly amused] If the answer is a crowd, you're in good company. Plenty of American women were raised to believe that more color keeps a woman lively and young. [thoughtful] Yet competing colors look busy, and busy looks dated. The eye has nowhere to rest, so it rests on the effort.
+
+Open many a closet in Paris and the first thing you notice is how quiet it is. Quiet neutrals that all go together, navy with gray, camel with cream, so anything can be worn with anything at seven in the morning.
+
+And then one color that is theirs. Red for one woman, cobalt for another, emerald for a third, worn for years in a scarf, a knit or on the lips.
+
+"But how do I know which color is mine?" It's the one people have complimented on you more than once. Wear it near your face, and make sure it sits happily beside your neutrals.
+
+On Sunday, lay the week's outfits across the bed. Each one gets exactly one accent. Where two colors fight, take one away. Where there's none, add yours.
+
+You'd think one color would make you predictable. Instead, it makes you memorable, because people come to expect it. Before long they describe you before your clothes. [warm] You become the woman in the red scarf, and that's a far better thing to be than the woman in the busy blouse.
+
+Across a room, your colors speak first. Up close, they notice how your clothes sit on you, and that's where the next habit lives.
+
+Habit number four is about size, or what we were told about it. You were probably taught that the trick is finding a size that hides the problem areas. So the closet fills up one of two ways. Everything loose, or everything tight.
+
+[emphatic] But size was never the trick. All loose is frumpy, because your body disappears and the fabric takes over. All tight is strained, because your body does all the work and the clothes only report on it. Neither one is your fault.
+
+Many Parisian women shop where everyone else shops. They simply balance. One fitted piece with one fluid piece, and suddenly there's a conversation going on between them.
+
+A fitted fine knit on top, with fluid wide leg crepe trousers that move when you walk. Or the reverse: a fluid blouse with just the front tucked into a straight trouser, so your waist is there without being announced.
+
+Then two lengths. Sleeves to the wrist bone, hems to the top of the shoe. Those two lengths are half of what people mean when they call a woman polished.
+
+And if you're unsure in the morning, look at the pair. If both pieces move, add structure. If both pieces pull, let one of them go.
+
+[warm] Here's the part I love. You keep your loose blouse. You keep your wide trousers. Nothing has to go to the donation bag. Each one is simply paired with its opposite. And the next time you walk into a room, someone will tell you that you look so put together.
+
+===START CTA(The French Way)===
+[warm] This habit matters so much to me that it has a place of its own in my book, The French Way. Secret 22, "Pair One Fitted Piece With One Fluid Piece, Every Time You Dress," sits in the chapter "Fit Over Fashion", where the book calls it the Proportion Equation. It's one of the five Secrets the book tells you to start with in your very first week. The French Way is at the link in the description, and the QR code is on screen. Now, back to your closet.
+===END CTA===
+
+Number five starts with a little walk. Put on the shoes you'd wear to lunch tomorrow, and walk to the end of your street and back. If you thought about your feet even once, they go back in the box.
+
+Some shoes are chosen to stand beside a car, not to walk in. A shoe you can't walk in shortens your step and tips your balance forward. Anyone would shuffle in it. And people read a shuffle as years, well before they ever look at your face.
+
+[chuckles] I used to think a heel was what made an outfit elegant, and I changed my mind. For years, flats felt frumpy to me. But elegance turned out to live in the walk, not the heel. A good flat gives you an easy, even stride.
+
+Paris is a walking city. Plenty of daily errands happen on foot, to the market, the bakery or the pharmacy, so you'll often see Parisian women in shoes chosen for walking.
+
+Look for a soft leather loafer, or a low flat with a little cushion inside and a sole that grips. Cognac, navy or black. Wear it with a trouser that ends at the ankle, so the shoe shows and your leg looks longer. [matter-of-fact] And never a sole that slides on a wet pavement, however lovely the shoe above it.
+
+Then add the habit that goes with the shoe, and costs nothing at all. Shoulders back, eyes up.
+
+[short pause] That's presence. And presence is what people are really describing when they say a French woman gets more beautiful with age.
+
+Presence is quiet. The next habit is where most women get loud without meaning to.
+
+Now, number six, and I'd like you to picture the outfit you'd wear to a nice lunch, with everything on it. A necklace and earrings. A bracelet, and a brooch on the lapel. Then a scarf, because the morning was cold.
+
+We pile it on because more pieces feel like more effort, and more effort ought to look more polished. [matter-of-fact] But too many pieces look like costume. Costume is effort you can see, and effort you can see is exactly what people mean by trying too hard.
+
+Most French women I know who are past sixty would rather you saw them than their jewelry box. So they stop at three accessories. One silk scarf. One jewel that means something. One structured bag that holds its shape.
+
+There's an old piece of advice, usually credited to Coco Chanel, though no one has found it in her own words. Before you leave the house, look in the mirror and take one thing off.
+
+I do my own version of it with my hand on the door. If the scarf is loud, the earrings come off. If the earrings are the point, the scarf stays home.
+
+Try it tomorrow, and look back at yourself from the doorway. What you'll see is elegance without effort, and that can't be bought. [short pause] It can only be subtracted.
+
+The last habit is the closest to you of all, and it starts with a photo.
+
+Number seven. You're at lunch, sitting by a window, and someone takes a picture. When you see it later, the foundation shows at your jaw and your face looks set.
+
+We reach for more coverage after sixty, because we think a face needs it to look finished. But a heavy base works like a mask, and a mask looks older than anything it was meant to cover. The face stops moving the way a face should. [warm] The product is the problem here, never your skin.
+
+Backstage, care comes before color, and the faces that look best under the lights are never the ones wearing the most.
+
+So this habit is the care. Micellar water to clean, a rich cream, and sunscreen every morning, as automatic as brushing your teeth. Your neck and your hands get the same care as your face. Skincare is cosmetic, so for retinoids or anything prescription, talk to a dermatologist.
+
+Then a few minutes on top, at most. A tinted moisturizer instead of a foundation, so your skin shows through. Your brows groomed and filled a little, to frame your face. A cream blush high on the cheek, and one coat of mascara.
+
+And a red or berry lip. That's where your color from habit three can live, on a day it lives nowhere else.
+
+[warm] Take the next photo by that same window. Your face will look rested, and more than anything, it will look like you.
+
+===START CTA(The French Way)===
+[warm] If you'd like to begin with the balance of fitted and fluid, Secret 22 is waiting for you in The French Way, at the link in the description. And tell me in the comments: which woman in your own life grew more beautiful with age, and what did she wear?
+===END CTA===
+[long pause] With love from Paris, my dear friends.
