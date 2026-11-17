@@ -71,6 +71,7 @@ CHANNELS = {
 }
 
 COMMON_BAN = [
+    (r"\bthere are (?:\w+ ){1,2}(?:things|pieces|items|mistakes|habits|rules) in your (?:\w+ )?(?:wardrobe|closet|winter closet|jewelry box) right now\b", "the competitor's opening frame ('There are N things in your closet right now'); say the promise in her own words"),
     (r"\btoday we(?:'re| are) going to\b|\b(?:in|by the end of) (?:this|today'?s) video,? (?:I|we|you)(?:'ll| will| are going)\b|\bthis channel (?:is for|takes)\b|\bwelcome (?:back|to) (?:the|my) channel\b", "a channel intro or 'today we're going to'"),
     (r"\bstill ahead\b|\bwe'll get to\b|\bcoming up next\b|\bstill to come\b|\bstick around\b|\bstay tuned\b|\bthe one I promised\b|\blater in (?:this|the) video\b", "a tease"),
     (r"\b(?:to|let'?s|quick) recap\b|\bto sum (?:it )?up\b", "a recap"),

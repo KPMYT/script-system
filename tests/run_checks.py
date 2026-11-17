@@ -24,8 +24,8 @@ HV=f"{ROOT}/hvac-scripts"; STY=f"{ROOT}/style-scripts"
 NPACK={"style":STY,"plumbing":PL,"hvac":HV,"woodworking":WW}
 IT=f"{ROOT}/tests/iterations"
 # the saved P21 test scripts: (pack, script, channel, brief); the title is the brief's TITLE line
-P21_RUNS=[("style",f"{IT}/iter-20/run-scarlett/script.txt","scarlett",f"{IT}/iter-20/brief-scarlett.txt"),
-          ("style",f"{IT}/iter-20/run-diane/script.txt","diane",f"{IT}/iter-20/brief-diane.txt"),
+P21_RUNS=[("style",f"{IT}/iter-20/run-scarlett/script-v2.txt","scarlett",f"{IT}/iter-20/brief-scarlett.txt"),
+          ("style",f"{IT}/iter-20/run-diane/script-v2.txt","diane",f"{IT}/iter-20/brief-diane.txt"),
           ("plumbing",f"{IT}/iter-19/run-roger/script.txt","roger",f"{IT}/iter-19/brief-roger.txt"),
           ("plumbing",f"{IT}/iter-19/run-mark/script.txt","mark",f"{IT}/iter-19/brief-mark.txt"),
           ("plumbing",f"{IT}/iter-19/run-vintage/script.txt","vintage",f"{IT}/iter-19/brief-vintage.txt"),

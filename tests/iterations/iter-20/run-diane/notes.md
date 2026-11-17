@@ -34,3 +34,31 @@ Final: 2,237 words (script body; 2,240 with the label line), about 13 minutes. M
 - **Type choice.** The title starts "Why...", which points at "The why explainer", but the brief is seven French habits each with a swap, which is "The rules she never breaks". The table gives no tie-break for this.
 - **Numbered signposts and "no template".** The page wants numbered signposts ("Number one is the earring...") but also says any opener used in three tips is a template. I varied the wording around the number; it isn't clear whether "Number N" itself counts.
 - **Hook length.** At 165 words it's a little over "about 100 to 160". I left it there rather than cut a beat.
+
+## Revision v2 (script-v2.txt; script.txt left untouched)
+Request: the belief-then-truth turn sat in the same slot in all seven tips, and four tips ended on "try it, and...". Re-read the page's "Turn the thought" (the turn moves; never the same slot) and the new "Never the competitor's opening frame" (the hook doesn't use "There are N things in your closet right now that...", so it was left as it was).
+
+Where the turns sit now:
+1. Late, a different kind of turn (the obvious fix and why it fails): "The obvious move is to buy it a size up, to be safe. But a sweater bought for the middle hangs off the shoulders, and the line is gone again." The early "We wear them because..." is gone.
+2. Early, as a question answered at once: "Does a set keep you looking done? Only in a photograph."
+3. Late, belief then truth: "Plenty of American women were raised to believe that more color keeps a woman lively and young. You'd think one color would make you predictable. But it makes you memorable..." (moved from the start of the tip to near its end).
+4. Early, belief then truth (kept where it was): "You were probably taught... But size was never the trick."
+5. Late: "I used to think a heel..." now comes after the shoe is named, just before the closing habit.
+6. A question: "Doesn't more effort look more polished? Not when you can see it." (it replaces "We pile it on because...").
+7. The obvious fix, early: "The obvious fix is more coverage next time. But more coverage is how the mask got there..." (it replaces "We reach for more coverage... because...").
+
+Tip endings now:
+1. What she'll see at the next photo: her hand stays put, the woman in the photo has a shoulder and a line, the confidence people call beauty.
+2. The compliment: "That's the hair strangers notice, and sooner or later one of them leans over to ask, "Who cuts your hair?""
+3. A verdict: the woman in the red scarf, not the woman in the busy blouse (unchanged).
+4. Permission: nothing goes to the donation bag; each piece gets paired with its opposite. The "put together" compliment moved up into the lengths line.
+5. A verdict: presence is what people mean when they say a French woman gets more beautiful with age (unchanged).
+6. A picture and a verdict: "The woman who walks out that door looks like elegance without effort. That can't be bought. It can only be subtracted."
+7. A short verdict: "Skin that shows through looks rested. And more than anything, it looks like you."
+
+Check runs on script-v2.txt:
+1. FAIL (1): turns, "but" 2.3 per 1,000 words (at least 2.5 needed). Changing the "We... because... But" lines to questions and obvious fixes had cut two buts.
+2. Fix: tip 3's late turn "Instead, it makes you memorable" became "But it makes you memorable". That line was already a real turn, so no "but" was added for the count. Result: PASS ("but" 6 times, 2.7 per 1,000 words; 8 questions; 2,200 words, about 12.8 minutes).
+3. Changed "the woman on that screen" (the phone) to "the woman in that photo", so it can't read as pointing at the video screen. PASS.
+
+The labelled file passed this time: the earlier FAIL on the "(" in the TEST line no longer appears.

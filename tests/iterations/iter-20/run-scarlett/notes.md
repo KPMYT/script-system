@@ -35,3 +35,14 @@ TEST (iter-20): writer notes, Scarlett Starling
 5. **Item 7 in the brief** gives two answers (swap the accessories for cognac shoe, belt and bag; and "change one accessory, just one"). Both kept, the second as the simpler option.
 6. **Word count:** the check counts 2,497; a plain whitespace split gives 2,503. Used the check's figure.
 7. The pack says "Not makeup or skincare"; item 5 is makeup, allowed by the brief's note (operator, 2026-11-17). Kept the product as the problem, never her skin or face.
+
+## v2 (coordinator revision request, after the persona's "Never the competitor's opening frame" and the turns update)
+Saved as `script-v2.txt`; `script.txt` left untouched.
+1. Opening sentence rewritten out of the competitor frame: "Before this week is out, you'll pull on at least one of ten winter pieces that make an elegant woman look dated the moment she steps outside." The rest of the hook is unchanged.
+2. Turns moved out of the one middle slot (judge: "We believe... But..." in 9 of 10 tips):
+   - early: items 1 (belief right after the piece is named), 3 ("I understand why we choose it. But..."), 6 (opens on the belief), 9 (inside the history: "in the right place it is... But it was built for the tundra"), 10 (straight after the test)
+   - late: items 4 (the thick-scarf belief after the swap), 8 ("One color sounds plain, I know. Yet...")
+   - a question: items 2 ("surely the soft boot is the safe one? Not always.") and 7 ("So why did it look so right on her and so borrowed on you?")
+   - the obvious fix and why it fails: items 3 (a size up), 5 (a little more base), 7 (copy the next look instead)
+3. Endings: item 5 now ends on what she'll see tomorrow at the window, in place of the spoken compliment; spoken compliments left on items 3 and 6 only.
+- Check run 1 on v2: RESULT: PASS (the TEST label no longer fails). By eye, "The obvious fix" opened turns in items 3 and 5 and "The tempting fix" in 7 (three tips, a template): item 5 reworded. Run 2: RESULT: PASS, 2,545 words, about 15.1 minutes, hook 156 words.
