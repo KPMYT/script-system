@@ -290,3 +290,13 @@ P18 (one opening promise, paid at the end) is kept: the one reason to stay is th
 
 **Status: applied 2026-11-15** to the four plumbing pages, `plumbing-scripts/SKILL.md` and `check.py` (operator: "1 yes", "2 no doesnt apply to vintage" (his subscribe line stays), "3 yes", "4 yes"). Recorded in `HANDOFF.md` §3, session 17. Test round iter-19 follows.
 
+## P23. Style: no early answers, no one-template tips, the voice's turns back (opened 2026-11-17)
+
+**Decisions it changes:** the 2026-10-31 eight-beat item and "best first" with the priority flag (account rules); the P21 style pages' hook length (six beats, 100 to 160 words), book line (60 to 90 words, twice) and 12-minute floor, if section 5 is approved.
+
+**Evidence:** `studies/recent-uploads-2026-11-16/` (Scarlett's and Diane's last five each): answers named before their number (Diane's 80+ hook, Scarlett's shorts rule at 1:38); "the rule I always give" ten times in one video; "but" at 0.4 to 1.3 per 1,000 in the three newest on each channel, against 2.8 to 4.9 in the best; the book said twice with numbers in all ten. **The operator, 2026-11-17:** "i dont care if makeup tips creep in"; "we cant have answers be given away early"; "we dont want this: Every tip runs one template."; "The voice lost its turns. this is not good".
+
+**Proposal:** `drafts/p23-style-reveal-shape-turns-DRAFT.md`.
+
+**Status:** draft shown to the operator 2026-11-17, waiting for the yes (the draft's five questions).
+
